@@ -5,7 +5,8 @@ export function quizCatalogue({category='',query=''}={}){const term=fold(query.t
 export const QUESTION_COUNT=QUESTION_BANKS.reduce((n,b)=>n+b.count,0);
 export const quizThemes=universe=>QUESTION_BANKS.filter(b=>!universe||b.universe===universe);
 const packs=new Map(),pending=new Map();
-const selected=config=>quizThemes(config.universe).filter(b=>(config.quizThemes||[]).includes(b.id));
+export function categoryQuizSettings(id){const category=QUIZ_CATEGORIES.find(c=>c.id===id);if(!category)return undefined;return {source:'bank',quizScope:'category',quizCategory:id,quizThemes:[],quizLevel:'all',universe:id==='music'?'music':id==='cinema'?'film':'quiz',challenge:'title',effect:'normal'};}
+const selected=config=>config.quizScope==='category'?QUESTION_BANKS.filter(b=>b.category===config.quizCategory):quizThemes(config.universe).filter(b=>(config.quizThemes||[]).includes(b.id));
 export const quizAvailableCount=config=>selected(config).reduce((n,b)=>n+(!config.quizLevel||config.quizLevel==='all'?b.count:b.levels[config.quizLevel]||0),0);
 export async function loadQuizThemes(config,fetcher=fetch){
  await Promise.all(selected(config).map(async bank=>{
@@ -21,4 +22,8 @@ export async function loadQuizThemes(config,fetcher=fetch){
 }
 const shuffle=items=>{const a=[...items];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;};
 export function quizPool(config){return selected(config).flatMap(b=>packs.get(b.id)||[]).filter(q=>!config.quizLevel||config.quizLevel==='all'||q.level===config.quizLevel);}
-export function quizQuestions(config){return shuffle(quizPool(config)).slice(0,Math.max(1,Math.min(100,Number(config.count)||10))).map(q=>({...q,options:shuffle(q.options),credit:{...q.credit}}));}
+export function quizQuestions(config){const pool=quizPool(config),limit=Math.max(1,Math.min(100,Number(config.count)||10));let result;
+ if(config.quizScope==='category'){const byTheme=new Map();for(const q of pool){if(!byTheme.has(q.theme))byTheme.set(q.theme,[]);byTheme.get(q.theme).push(q);}const groups=shuffle([...byTheme.values()]).map(shuffle);result=[];while(result.length<limit&&groups.some(g=>g.length))for(const group of groups){if(group.length&&result.length<limit)result.push(group.pop());}}
+ else result=shuffle(pool).slice(0,limit);
+ return result.map(q=>({...q,options:shuffle(q.options),credit:{...q.credit}}));
+}
