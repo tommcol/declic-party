@@ -77,4 +77,13 @@ Dépôt : https://github.com/tommcol/declic-party
 
 Les sources de la version publiée sont conservées dans ce dépôt. GitHub Actions exécute les tests et la compilation à chaque modification de `main` et pour les propositions de modification. Ce contrôle ne déploie pas l’application.
 
-La publication Cloudflare actuelle reste disponible à l’adresse indiquée en haut. Le déploiement depuis un poste authentifié utilise `npm run deploy`. Le déploiement automatique depuis GitHub n’est pas encore configuré ; aucun jeton Cloudflare n’est stocké dans les sources.
+Le déploiement automatique est assuré par **Cloudflare Workers Builds**, relié à la branche `main` de ce dépôt :
+
+1. Un changement est enregistré sur `main`.
+2. Cloudflare récupère cette version et exécute `npm test && npm run build` avec Node 24.
+3. Si les tests et la compilation réussissent, `npx wrangler deploy` publie le Worker existant `declic-party`.
+4. Si une étape échoue, la publication s’arrête et la version déjà en ligne reste disponible.
+
+Les autres branches ne publient pas le site de production ; les aperçus automatiques sont désactivés. Les résultats et journaux sont disponibles dans les builds Cloudflare et les vérifications du commit GitHub. GitHub Actions conserve en parallèle son contrôle des tests et de la compilation.
+
+L’authentification de publication reste gérée par Cloudflare ; aucun jeton n’est stocké dans le dépôt. Pour un déploiement manuel depuis un poste authentifié, `npm run deploy` reste disponible.
