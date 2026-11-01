@@ -1,0 +1,798 @@
+{
+  "id": "oq-207",
+  "title": "Déjeuner du matin",
+  "originalTitle": "Déjeuner du matin (Pour bien démarrer la journée)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_207.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-207-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment les Français appellent-ils le déjeuner du matin ?",
+      "answer": "Petit déjeuner",
+      "options": [
+        "Petit déjeuner",
+        "Premier déjeuner",
+        "Grand déjeuner",
+        "Fin déjeuner"
+      ],
+      "explanation": "En Belgique et au Canada francophone ainsi qu'en Suisse romande, le premier repas du jour s'appelle encore le déjeuner.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-207",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_207.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-207-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle boisson consomme-t-on quasiment partout en Europe le matin ?",
+      "answer": "Café",
+      "options": [
+        "Café",
+        "Thé",
+        "Bière",
+        "Chocolat"
+      ],
+      "explanation": "Le café peut être servi tel quel, mélangé avec du lait ou de la crème, ou accompagné d'un petit carré de chocolat (Napolitain).",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-207",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_207.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-207-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel déjeuner sucré comprend généralement une boisson chaude et du pain ?",
+      "answer": "Continental",
+      "options": [
+        "Anglo-saxon",
+        "Russe",
+        "Grec",
+        "Continental"
+      ],
+      "explanation": "Peuvent s'y adjoindre, surtout les jours fériés, des viennoiseries, du jus de fruit, un yaourt, des céréales sucrées (muesli) ou des fruits.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-207",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_207.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-207-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que favorise le fait que les enfants ne déjeunent pas le matin ?",
+      "answer": "Grignotage",
+      "options": [
+        "Surmenage",
+        "Caries",
+        "Croissance",
+        "Grignotage"
+      ],
+      "explanation": "Ces enfants pourraient ainsi connaître dans la matinée une faiblesse par hypoglycémie, provoquant un relâchement de l'attention.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-207",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_207.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-207-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Au déjeuner, quels sucres maintiennent votre niveau de performances pour la journée ?",
+      "answer": "Lents",
+      "options": [
+        "Gras",
+        "Rapides",
+        "Lents",
+        "Simples"
+      ],
+      "explanation": "Le petit déjeuner du matin interrompt un jeûne de dix heures et prépare l'organisme aux dépenses énergétiques de la matinée.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-207",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_207.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-207-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel petit déjeuner est plus copieux que le repas continental ?",
+      "answer": "Anglo-saxon",
+      "options": [
+        "Anglo-saxon",
+        "Norvégien",
+        "Russe",
+        "Croate"
+      ],
+      "explanation": "Il est composé d'oeufs (sur le plat ou brouillés), de bacon, de tomates cuites, parfois de champignons ou de pommes de terre.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-207",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_207.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-207-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Parmi ces propositions, pour votre santé, qu'est-il préférable de proscrire au petit déjeuner ?",
+      "answer": "Viennoiseries",
+      "options": [
+        "Viennoiseries",
+        "Yaourt",
+        "Pain complet",
+        "Céréales"
+      ],
+      "explanation": "Le petit déjeuner devrait être constitué d'une boisson, de céréales et de fruits, équilibrant l'apport en protéines, glucides et vitamines.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-207",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_207.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-207-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel petit déjeuner est parfois mélangé avec le repas de midi ?",
+      "answer": "Brunch",
+      "options": [
+        "Pique-nique",
+        "Banquet",
+        "Brunch",
+        "Goûter"
+      ],
+      "explanation": "On en trouve des variantes en Irlande, en Ulster, en Écosse, au pays de Galles, en Angleterre, en Amérique du Nord et centrale.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-207",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_207.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-207-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment Stephan Eicher souhaite-il déjeuner dans une de ses chansons ?",
+      "answer": "En paix",
+      "options": [
+        "En paix",
+        "En pyjama",
+        "En musique",
+        "En lévitation"
+      ],
+      "explanation": "« Engelberg », sorti en 1991, est le sixième album studio de Stephan Eicher, fruit d'une collaboration avec l'écrivain Philippe Djian.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-207",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_207.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-207-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel endroit convivial le petit déjeuner se prend-il en commun ?",
+      "answer": "Chambre d'hôte",
+      "options": [
+        "Chambre d'hôte",
+        "Sauna",
+        "Ascenseur",
+        "Cinéma"
+      ],
+      "explanation": "Le repas en table d'hôtes a un caractère convivial et permet de discuter à la fois avec propriétaires et résidents autour de plats régionaux.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-207",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_207.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-207-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Avec quel fromage déjeune-t-on dans le film « Bienvenue chez les Ch'tis » ?",
+      "answer": "Maroilles",
+      "options": [
+        "Chevrotin",
+        "Maroilles",
+        "Époisses",
+        "Livarot"
+      ],
+      "explanation": "Ce fromage au lait de vache doit son nom au bourg de Maroilles où existait une importante abbaye dans la communauté.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-207",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_207.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-207-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quel peintre doit-on la célèbre toile intitulée « Le Déjeuner sur l'herbe » ?",
+      "answer": "Manet",
+      "options": [
+        "Van Gogh",
+        "Renoir",
+        "Rembrandt",
+        "Manet"
+      ],
+      "explanation": "Des répliques de cette toile seront réalisées par Monet, Cézanne, Picasso, Jacquet, Surian, Dubossarsky et Vinogradov.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-207",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_207.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-207-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que mangeaient les riches de la Grèce antique au petit déjeuner ?",
+      "answer": "Pain et vin pur",
+      "options": [
+        "Pain et vin pur",
+        "Poisson et sirop",
+        "Céréales et eau",
+        "Fruits et miel"
+      ],
+      "explanation": "Ils ne faisaient qu'un repas par jour (le soir), le très substantiel déjeuner n'étant considéré qu'en tant qu'apprêt pour le souper.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-207",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_207.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-207-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans le jargon touristique, comment appelle-t-on le déjeuner continental ?",
+      "answer": "Café complet",
+      "options": [
+        "Café complet",
+        "Grand crème",
+        "Café rapide",
+        "Café serré"
+      ],
+      "explanation": "C'est un repas sucré composé d'une boisson chaude : café, thé ou chocolat avec du lait pour l'apport en calcium et en protéines.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-207",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_207.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-207-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "S'il n'est pas traditionnel, comment est considéré le petit déjeuner au Japon ?",
+      "answer": "Occidental",
+      "options": [
+        "Oriental",
+        "Occidental",
+        "Méridional",
+        "Austral"
+      ],
+      "explanation": "La cuisine japonaise est connue dans le monde entier au travers des sushis et sashimis via 30 000 restaurants dans le monde.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-207",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_207.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-207-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle proportion d'américains saute, à tort, le petit déjeuner ?",
+      "answer": "Un sur cinq",
+      "options": [
+        "Un sur cinq",
+        "Un sur sept",
+        "Un sur trois",
+        "Un sur neuf"
+      ],
+      "explanation": "Sous divers prétextes (manque de temps), une partie de la population ne déjeune pas et se contente d'absorber une unique boisson.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-207",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_207.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-207-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En 1896, quelle céréale fut introduite au petit déjeuner par John Harvey Kellogg ?",
+      "answer": "Corn Flakes",
+      "options": [
+        "Smacks",
+        "Cheerios",
+        "Corn Flakes",
+        "Country Crisp"
+      ],
+      "explanation": "Ce produit étant fort apprécié par ses consommateurs, Will Keith Kellogg ajouta en 1906 du sucre à ses céréales et lança la Kellogg's.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-207",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_207.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-207-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel type de petit déjeuner fut élu meilleur petit déjeuner par 36 pays en 2010 ?",
+      "answer": "Anglais",
+      "options": [
+        "Anglais",
+        "Français",
+        "Suisse",
+        "Italien"
+      ],
+      "explanation": "Le déjeuner anglais est connu pour son contenu riche en matière grasse qui apporte environ un tiers des besoins journaliers d'un individu.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-207",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_207.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-207-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que boit-on lors du petit déjeuner le plus simple en Chine ?",
+      "answer": "Lait de soja",
+      "options": [
+        "Vin de Shaoxing",
+        "Lait de soja",
+        "Lassi",
+        "Thé au jasmin"
+      ],
+      "explanation": "Le lait de soja est préparé industriellement à partir de graines trempées, dépelliculées, broyées, mélangées à de l'eau, puis cuites.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-207",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_207.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-207-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle manière sont servis les ingrédients du petit déjeuner anglais ?",
+      "answer": "Frits",
+      "options": [
+        "Secs",
+        "Frits",
+        "Crus",
+        "Froids"
+      ],
+      "explanation": "Par tradition et commodité, tous les ingrédients du petit déjeuner anglais (sauf peut-être le toast) sont frits dans la même poêle.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-207",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_207.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-207-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a écrit le poème « Déjeuner du matin » dans son recueil intitulé « Paroles » ?",
+      "answer": "Jacques Prévert",
+      "options": [
+        "Jacques Prévert",
+        "Boris Vian",
+        "Georges Brassens",
+        "Léon Tolstoï"
+      ],
+      "explanation": "Les textes de Jacques Prévert ont d'abord été publiés isolément dans diverses revues depuis les années trente avant d'être regroupés.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-207",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_207.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-207-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année le mot déjeuner a-t-il perdu son accent circonflexe sur la lettre u ?",
+      "answer": "1798",
+      "options": [
+        "1798",
+        "1837",
+        "1874",
+        "1903"
+      ],
+      "explanation": "Le terme provient du mot latin « disjejunare », qui signifie rompre le jeûne, « jejunare » correspondant au verbe jeûner.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-207",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_207.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-207-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel pays européen mange-t-on le plus de céréales au déjeuner ?",
+      "answer": "Royaume-Uni",
+      "options": [
+        "Espagne",
+        "Suisse",
+        "Belgique",
+        "Royaume-Uni"
+      ],
+      "explanation": "Les pays européens consommateurs de céréales après le Royaume-Uni sont l'Allemagne et la France (80 % des familles avec enfants).",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-207",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_207.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-207-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien d'assiettes prévues pour le déjeuner furent embarquées à bord du Titanic ?",
+      "answer": "2 500",
+      "options": [
+        "1 500",
+        "3 500",
+        "2 500",
+        "4 500"
+      ],
+      "explanation": "Lors de son voyage inaugural, de Southampton à New York, le Titanic fit naufrage en heurtant un iceberg le 14 avril 1912 à 23h40.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-207",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_207.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-207-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a réalisé la sculpture intitulée « Le Déjeuner en fourrure », emblème du surréalisme ?",
+      "answer": "Meret Oppenheim",
+      "options": [
+        "Jane Marcet",
+        "Meret Oppenheim",
+        "Nelly Diener",
+        "Daisy Dussoix"
+      ],
+      "explanation": "Réalisée en 1936, cette sculpture fut aussitôt achetée par Alfred H. Barr et conservée depuis au Museum of Modern Art de New York.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-207",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_207.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-207-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quel compositeur doit-on la pièce musicale pour piano « La Tartine de beurre » ?",
+      "answer": "Mozart",
+      "options": [
+        "Mozart",
+        "Vivaldi",
+        "Beethoven",
+        "Brahms"
+      ],
+      "explanation": "Oeuvre probablement apocryphe publiée au XIXe siècle, la partie de la main droite se joue à un seul doigt sur un tempo de valse.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-207",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_207.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-207-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel pays mange-t-on parfois, dans certaines régions, un second petit déjeuner ?",
+      "answer": "Pologne",
+      "options": [
+        "Pologne",
+        "Pérou",
+        "Suisse",
+        "Turquie"
+      ],
+      "explanation": "Le second petit déjeuner est un repas (cinq dans la journée) mangé après le petit déjeuner, mais avant le déjeuner.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-207",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_207.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-207-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle opération de propagande de 1945 passait par le courrier postal ?",
+      "answer": "Corn Flakes",
+      "options": [
+        "Smacks",
+        "Cheerios",
+        "Country Crisp",
+        "Corn Flakes"
+      ],
+      "explanation": "L'opération tient son nom du fait que, pour ses concepteurs, le courrier arrivait le matin, au moment du petit déjeuner.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-207",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_207.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-207-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle entreprise propose la plupart des céréales du déjeuner vendues dans le monde ?",
+      "answer": "General Mills",
+      "options": [
+        "Heinz",
+        "General Mills",
+        "Dean Foods",
+        "Nabisco"
+      ],
+      "explanation": "Il s'agit du sixième groupe alimentaire mondial, avec un portefeuille de plus de cent marques, dont de nombreuses marques leaders.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-207",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_207.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-207-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel cocktail parfois bu au déjeuner contient du jus d'orange et du champagne ?",
+      "answer": "Mimosa",
+      "options": [
+        "Grasshopper",
+        "Daïquiri",
+        "Mimosa",
+        "Bellini"
+      ],
+      "explanation": "Le mimosa, servi dans une flûte à champagne au brunch, aurait été créé vers 1925 à l'Hôtel Ritz de Paris par Frank Meier.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-207",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_207.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

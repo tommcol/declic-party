@@ -1,0 +1,798 @@
+{
+  "id": "oq-234",
+  "title": "Franglais du net",
+  "originalTitle": "Franglais du net (Des mots aujourd'hui quotidiens)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_234.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-234-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sur quel bouton d'une page web allez-vous cliquer pour télécharger un document ?",
+      "answer": "Download",
+      "options": [
+        "Delete",
+        "Download",
+        "Update",
+        "Cancel"
+      ],
+      "explanation": "L'utilisation d'un fichier téléchargé (soumis au droit d'auteur) peut être contrôlée par une gestion numérique des droits (DRM).",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-234",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_234.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-234-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que faites-vous si vous regardez vos vidéos familiale en ligne ?",
+      "answer": "Streaming",
+      "options": [
+        "Streaming",
+        "Phishing",
+        "Hacking",
+        "Spamming"
+      ],
+      "explanation": "Très utilisé sur Internet, le streaming permet la lecture d'un flux audio ou vidéo (vidéo à la demande) à mesure qu'il est diffusé.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-234",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_234.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-234-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment facilement exprimer quelque chose que vous aimez sur Facebook ?",
+      "answer": "Like",
+      "options": [
+        "Geek",
+        "Fake",
+        "Like",
+        "Push"
+      ],
+      "explanation": "Ce bouton a souvent été comparé à un pixel espion, du fait du suivi de l'activité des utilisateurs, qui entraîne une publicité ciblée.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-234",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_234.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-234-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment identifier une personne présente sur une photo sur le web ?",
+      "answer": "Tag",
+      "options": [
+        "Tag",
+        "Rank",
+        "Cloud",
+        "ActiveX"
+      ],
+      "explanation": "Les tags ne sont pas directement liés au web sémantique et peuvent ne pas avoir un effet positif sur l'émergence de celui-ci.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-234",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_234.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-234-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel court message était à l'origine limité à 140 caractères ?",
+      "answer": "Tweet",
+      "options": [
+        "Homepage",
+        "Applet",
+        "Blog",
+        "Tweet"
+      ],
+      "explanation": "Pouvant être envoyés par SMS, alors limités à 160 caractères, Twitter conservait 20 caractères pour ajouter le nom d'utilisateur.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-234",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_234.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-234-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel courrier indésirable est souvent effectué à des fins publicitaires ?",
+      "answer": "Spam",
+      "options": [
+        "Spam",
+        "Favicon",
+        "Bump",
+        "Baud"
+      ],
+      "explanation": "Le premier spam a été envoyé à environ 600 personnes le 3 mai 1978 par Gary Thuerk, marketeur travaillant à l'époque chez DEC.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-234",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_234.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-234-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel consommable est utilisé par les imprimantes laser et les photocopieurs ?",
+      "answer": "Toner",
+      "options": [
+        "Nerd",
+        "Ping",
+        "Toner",
+        "Modem"
+      ],
+      "explanation": "Le toner est une poudre, constituée en majeure partie de particules ultrafine de matière plastique, de résine et de métaux.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-234",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_234.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-234-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel logiciel est conçu pour consulter et afficher le World Wide Web ?",
+      "answer": "Browser",
+      "options": [
+        "Browser",
+        "Spider",
+        "Fork",
+        "Sandbox"
+      ],
+      "explanation": "Il existe de nombreux navigateurs web, pour tout matériel et pour différents systèmes (Linux, Windows, iOS et Android).",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-234",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_234.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-234-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel terme synonyme de base de données est souvent utilisé sur le net ?",
+      "answer": "DB",
+      "options": [
+        "ZIP",
+        "VM",
+        "DB",
+        "APK"
+      ],
+      "explanation": "La base de données est au centre des dispositifs informatiques de collecte, mise en forme, stockage et utilisation d'informations.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-234",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_234.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-234-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sur Internet, quel marqueur est composé du signe typographique croisillon ?",
+      "answer": "Hashtag",
+      "options": [
+        "Backup",
+        "Hashtag",
+        "Asset",
+        "Counter"
+      ],
+      "explanation": "À la suite de sa croissance, le mot hashtag est désormais intégré au Petit Larousse depuis juin 2013 et au Petit Robert depuis mai 2014.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-234",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_234.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-234-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En transférant un e-mail à un ami via le web, à quoi procédez-vous ?",
+      "answer": "Forward",
+      "options": [
+        "Buzz",
+        "Forward",
+        "Pawned",
+        "Audit"
+      ],
+      "explanation": "Pour émettre ou recevoir des messages par e-mail, il faut disposer d'une adresse électronique et d'un client de messagerie.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-234",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_234.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-234-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle conversation téléphonique se fait à plusieurs, parfois sur le net ?",
+      "answer": "Conf call",
+      "options": [
+        "Woot",
+        "Adword",
+        "Backbone",
+        "Conf call"
+      ],
+      "explanation": "Mettre sur pied une réunion de travail téléphonique est souvent la solution idéale pour gagner du temps et de l'argent.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-234",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_234.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-234-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel mot anglais signifie date butoir, date limite ou échéance ?",
+      "answer": "Deadline",
+      "options": [
+        "Imap",
+        "Deadline",
+        "Inbound",
+        "Bitcoin"
+      ],
+      "explanation": "Souvent utilisé en informatique, ce terme définit la date limite avant laquelle un logiciel ou un projet réseau doit être réalisé ou finalisé.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-234",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_234.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-234-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel outil du web vous permet de suivre vos commandes en temps réel ?",
+      "answer": "Tracking",
+      "options": [
+        "Backlink",
+        "Permalink",
+        "Cookie",
+        "Tracking"
+      ],
+      "explanation": "Grâce à un numéro unique, vous pouvez suivre en temps réel l'envoi d'un colis destiné à transiter jusqu'à votre domicile.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-234",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_234.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-234-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel virtuose du web arrive à surpasser la sécurité informatique mise en place ?",
+      "answer": "Hacker",
+      "options": [
+        "Extranet",
+        "Hacker",
+        "Slider",
+        "Provider"
+      ],
+      "explanation": "Les médias grand public utilisent à tort le terme hacker comme désignant quelqu'un opérant de façon illégale ou non éthique.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-234",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_234.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-234-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel défaut de programme informatique peut être à l'origine d'un dysfonctionnement ?",
+      "answer": "Bug",
+      "options": [
+        "Blacklist",
+        "Alias",
+        "Bug",
+        "Java"
+      ],
+      "explanation": "La gravité peut aller de bénigne (défauts d'affichage mineurs) à majeure (crash système pouvant entraîner de graves accidents).",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-234",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_234.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-234-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel pilote informatique vous permet d'interagir avec votre imprimante ?",
+      "answer": "Driver",
+      "options": [
+        "Pixel",
+        "Driver",
+        "Webinar",
+        "Login"
+      ],
+      "explanation": "De manière simpliste, un pilote d'imprimante (driver en anglais) est un logiciel qui explique à l'ordinateur comment utiliser l'imprimante.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-234",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_234.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-234-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel petit dessin ou symbole prêt à l'emploi est téléchargeable sur le net ?",
+      "answer": "Clip art",
+      "options": [
+        "Buzz",
+        "Frame",
+        "Clip art",
+        "Troll"
+      ],
+      "explanation": "Les clip arts sont de différentes tailles et de différentes formes et se présentent généralement sous le format JPEG, GIF, SVG ou PNG.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-234",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_234.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-234-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle liste de morceaux compilés peut être désormais publiée sur le web ?",
+      "answer": "Playlist",
+      "options": [
+        "Facticiel",
+        "Registrar",
+        "Query",
+        "Playlist"
+      ],
+      "explanation": "Les morceaux peuvent être joués séquentiellement, dans un ordre aléatoire ou selon une logique choisie par celui qui l'a composée.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-234",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_234.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-234-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle discussion écrite peut être tenue sur le net entre des personnes proches ?",
+      "answer": "Chat",
+      "options": [
+        "Cron",
+        "Fold",
+        "Chat",
+        "Drop"
+      ],
+      "explanation": "Une discussion sur Internet ou via messagerie instantanée est également désignée par les termes clavardage ou causette.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-234",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_234.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-234-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel ordinateur de taille très réduite est aussi appelé ultraportable ?",
+      "answer": "Notebook",
+      "options": [
+        "Shareware",
+        "Yandex",
+        "Fork",
+        "Notebook"
+      ],
+      "explanation": "La taille des notebook est comprise entre celle des smartphones (format A6) et des ordinateurs portables (format A4 environ).",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-234",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_234.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-234-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle entreprise innovante possède un fort potentiel de croissance économique ?",
+      "answer": "Startup",
+      "options": [
+        "Mashup",
+        "Flash",
+        "Snippet",
+        "Startup"
+      ],
+      "explanation": "Ce terme peut être utilisé pour toutes les jeunes entreprises qui ont un potentiel de croissance rapide, quel que soit le secteur concerné.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-234",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_234.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-234-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle option vous permet de diffuser une vidéo internet sur une télévision ?",
+      "answer": "Caster",
+      "options": [
+        "Forwarder",
+        "Spoiler",
+        "Chater",
+        "Caster"
+      ],
+      "explanation": "Si votre TV est équipée d'un récepteur Chomecast, vous pouvez lire des vidéos locales de votre ordinateur directement sur votre TV.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-234",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_234.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-234-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel moyen permet l'écoute immédiate d'émissions audio ou vidéo ?",
+      "answer": "Podcasting",
+      "options": [
+        "Benchmark",
+        "Spoiler",
+        "Podcasting",
+        "Hoax"
+      ],
+      "explanation": "Le podcasting trouve son origine dans l'avènement du Web 2.0 et dans le développement de technologies comme le RSS.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-234",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_234.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-234-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel démarrage de PC comporte le chargement du programme initial ?",
+      "answer": "Boot",
+      "options": [
+        "Kick",
+        "Boot",
+        "Noob",
+        "Troll"
+      ],
+      "explanation": "Le démarrage à froid est obtenu en (r)allumant la machine, le démarrage à chaud en rechargeant le programme initial.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-234",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_234.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-234-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel canular du net peut être créé notamment à des fins malveillantes ?",
+      "answer": "Hoax",
+      "options": [
+        "Artefact",
+        "Hoax",
+        "Bounce",
+        "Lan"
+      ],
+      "explanation": "Des sites internet comme HoaxBuster et Hoaxkiller luttent contre la propagation des canulars de plus en plus fréquents.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-234",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_234.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-234-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel fraude du web a pour but de perpétrer une usurpation d'identité ?",
+      "answer": "Phishing",
+      "options": [
+        "Framework",
+        "Hackathon",
+        "Phishing",
+        "AdSense"
+      ],
+      "explanation": "La technique consiste à faire croire à la victime qu'elle s'adresse à un tiers de confiance afin de lui soutirer des renseignements.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-234",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_234.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-234-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel test de charge pouvez-vous exécuter depuis certains sites web ?",
+      "answer": "Benchmark",
+      "options": [
+        "Baseline",
+        "Benchmark",
+        "QuickTime",
+        "Workflow"
+      ],
+      "explanation": "Ce test de charge permet de mesurer le dimensionnement des serveurs et de la bande passante nécessaire sur le réseau.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-234",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_234.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-234-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel document ou texte sur le net dévoile tout ou une partie d'une intrigue ?",
+      "answer": "Spoiler",
+      "options": [
+        "Drupal",
+        "Crawler",
+        "Referer",
+        "Spoiler"
+      ],
+      "explanation": "De manière plus classique, le verbe anglais to spoil peut être usuellement remplacé par les verbes dévoiler ou divulguer.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-234",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_234.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-234-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel ensemble de données dépasse les capacités humaines d'analyse ?",
+      "answer": "Big data",
+      "options": [
+        "Ranking",
+        "Big data",
+        "Firewall",
+        "Captcha"
+      ],
+      "explanation": "De nouveaux ordres de grandeur concernent la capture, le stockage, la recherche, le partage, l'analyse et la visualisation des données.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-234",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_234.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

@@ -1,0 +1,774 @@
+{
+  "id": "oq-245",
+  "title": "Russia 2018",
+  "originalTitle": "Russia 2018 (Coupe du monde de football 2018)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_245.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    18
+  ],
+  "questions": [
+    {
+      "id": "oqdb-245-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a organisé la Coupe du monde de football masculin en 2018 ?",
+      "answer": "FIFA",
+      "options": [
+        "WSSA",
+        "FIFA",
+        "CPO",
+        "RLIF"
+      ],
+      "explanation": "Bien qu'étant officiellement une association à but non lucratif, la FIFA brasse un chiffre d'affaires très important grâce au sponsoring.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-245",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_245.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-245-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel pays a remporté le Coupe du monde de football 2018 ?",
+      "answer": "France",
+      "options": [
+        "Croatie",
+        "France",
+        "Belgique",
+        "Angleterre"
+      ],
+      "explanation": "Cette finale, très intense, voit la victoire des Bleus qui s'imposent 4 buts à 2 sur l'équipe au damier, décrochant leur deuxième étoile.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-245",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_245.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-245-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui fut déclaré meilleur buteur de la Coupe du monde de football 2018 ?",
+      "answer": "Harry Kane",
+      "options": [
+        "Cristiano Ronaldo",
+        "Eden Hazard",
+        "Neymar",
+        "Harry Kane"
+      ],
+      "explanation": "Harry Kane a inscrit un doublé pour une victoire 2-1 et a réalisé un triplé contre le Panama lors d'une écrasant succès 6-1.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-245",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_245.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-245-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle innovation est entrée en fonction durant cette édition 2018 ?",
+      "answer": "Assistance vidéo",
+      "options": [
+        "Capteurs thermiques",
+        "Arbitrage à trois",
+        "Assistance vidéo",
+        "Tracé au laser"
+      ],
+      "explanation": "Les arbitres assistants vidéo interviennent dans quatre situations seulement : but, penalty, carton rouge et sanction de joueur.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-245",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_245.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-245-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui fut déclaré meilleur gardien de la Coupe du monde de football 2018 ?",
+      "answer": "Thibaut Courtois",
+      "options": [
+        "Thibaut Courtois",
+        "Fernando Muslera",
+        "Guillermo Ochoa",
+        "Manuel Neuer"
+      ],
+      "explanation": "Recruté en 2011 par le club anglais de Chelsea, Thibaut Courtois est le frère de la volleyeuse internationale belge Valérie Courtois.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-245",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_245.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-245-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle marque a pu apposer son logo sur le ballon officiel ?",
+      "answer": "Addidas",
+      "options": [
+        "Kappa",
+        "Addidas",
+        "Reebok",
+        "Nike"
+      ],
+      "explanation": "Le Telstar 18 de chez Adidas s'inspire du Telstar, ballon produit par l'entreprise pour la coupe du monde 1970, qui a eu lieu au Mexique.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-245",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_245.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-245-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui fut déclaré meilleur jeune joueur de la Coupe du monde de football 2018 ?",
+      "answer": "Kylian Mbappé",
+      "options": [
+        "Denis Cheryshev",
+        "Kylian Mbappé",
+        "David Silva",
+        "Ramadan Sobhi"
+      ],
+      "explanation": "Le 31 août 2017, dernier jour du mercato, Kylian Mbappé a officialisé son transfert sous forme de prêt au Paris Saint-Germain.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-245",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_245.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-245-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle nation déjà championne du monde ne s'est pas qualifié ?",
+      "answer": "Italie",
+      "options": [
+        "Italie",
+        "Panama",
+        "Portugal",
+        "Espagne"
+      ],
+      "explanation": "Pays parmi les plus titrés avec 4 trophées (1934, 1938, 1982 et 2006), l'Italie n'avait manqué aucune édition depuis 1958.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-245",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_245.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-245-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui fut déclaré meilleur joueur de la Coupe du monde de football 2018 ?",
+      "answer": "Luka Modric",
+      "options": [
+        "Luka Modric",
+        "Eden Hazard",
+        "Raphaël Varane",
+        "Ali Gabr"
+      ],
+      "explanation": "Modric, qui joue au poste de milieu de terrain au Real Madrid, est avec Davor Suker et Bernard Vukas l'un des grands joueurs croates.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-245",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_245.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-245-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel fut le score de la demi-finale opposant la France à la Belgique ?",
+      "answer": "1-0",
+      "options": [
+        "2-1",
+        "4-3",
+        "1-0",
+        "3-2"
+      ],
+      "explanation": "Malgré la pression imposée par l'équipe belge, le score n'évoluera plus, Tolisso et Griezmann manquant le but du break.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-245",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_245.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-245-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel stade s'est joué la finale de la Coupe du monde 2018 ?",
+      "answer": "Stade Loujniki",
+      "options": [
+        "Rostov Arena",
+        "Stade Loujniki",
+        "Arena Baltika",
+        "Cosmos Arena"
+      ],
+      "explanation": "Une bousculade meurtrière y a eu lieu le 20 octobre 1982 lors d'un match de football, causant la mort de 66 personnes.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-245",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_245.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-245-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces pays a fêté sa première participation à la Coupe du monde ?",
+      "answer": "Panama",
+      "options": [
+        "Panama",
+        "Colombie",
+        "Nigeria",
+        "Brésil"
+      ],
+      "explanation": "Les grands absents sont les Pays-Bas, le Chili, les États-Unis, la Côte d'Ivoire et l'Italie, éliminée en barrages par la Suède.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-245",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_245.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-245-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle récompense fut attribuée au meilleur buteur de la compétition ?",
+      "answer": "Soulier d'or",
+      "options": [
+        "Soulier d'or",
+        "Ballon d'or",
+        "Ballon d'argent",
+        "Ballon de bronze"
+      ],
+      "explanation": "Le meilleur buteur du tournoi est distingué depuis la Coupe du monde 1930, récompensé par le Soulier d'or à partir de 1982.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-245",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_245.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-245-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Contre qui la Russie a-t-elle joué le match d'ouverture du Mondial 2018 ?",
+      "answer": "Arabie Saoudite",
+      "options": [
+        "Arabie Saoudite",
+        "Uruguay",
+        "Égypte",
+        "Suisse"
+      ],
+      "explanation": "Ce match d'entrée du groupe A s'est soldé par un prestigieux 5 à 0 pour la Russie, l'homme du match étant Denis Cheryshev.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-245",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_245.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-245-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces équipes n'a jamais manqué une édition de la Coupe du monde ?",
+      "answer": "Brésil",
+      "options": [
+        "Belgique",
+        "Brésil",
+        "Italie",
+        "Espagne"
+      ],
+      "explanation": "Le Brésil est la première équipe qualifiée sur le terrain en s'assurant de figurer parmi les quatre premiers de la zone Amérique du Sud.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-245",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_245.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-245-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel était le nom de la mascotte officielle de la Coupe du monde 2018 ?",
+      "answer": "Zabivaka",
+      "options": [
+        "Zabivaka",
+        "Zakumi",
+        "Striker",
+        "Fuleco"
+      ],
+      "explanation": "Les couleurs de l'équipement (blanc, bleu et rouge) de Zabivaka (« celui qui marque ») font référence au maillot de l'équipe de Russie.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-245",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_245.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-245-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a été choisi pour interpréter l'hymne officiel de la compétition ?",
+      "answer": "Jason Derulo",
+      "options": [
+        "Jason Derulo",
+        "Chris Brown",
+        "Robin Thicke",
+        "Justin Timberlake"
+      ],
+      "explanation": "Jason Derulo est un auteur-compositeur-interprète, danseur, acteur, chorégraphe et producteur exécutif américain.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-245",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_245.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-245-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que représente Zabivaka, la mascotte de la Coupe du monde 2018 ?",
+      "answer": "Un loup",
+      "options": [
+        "Un dragon",
+        "Un manchot",
+        "Un singe",
+        "Un loup"
+      ],
+      "explanation": "Dévoilée le 21 octobre 2016, elle représente un loup portant un tee-shirt où on peut lire RUSSIA 2018, ainsi que des lunettes oranges.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-245",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_245.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-245-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans combien de chapeaux furent réparties les équipes lors du tirage au sort ?",
+      "answer": "Quatre",
+      "options": [
+        "Quatre",
+        "Deux",
+        "Trois",
+        "Cinq"
+      ],
+      "explanation": "Les sept nations qualifiées les mieux placées au classement FIFA d'octobre 2017 et la Russie furent dans le premier chapeau.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-245",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_245.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-245-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui furent les deux favoris du groupe B, groupe assez relevé au niveau de la qualité de jeu ?",
+      "answer": "Portugal et Espagne",
+      "options": [
+        "France et Danemark",
+        "Uruguay et Égypte",
+        "Portugal et Espagne",
+        "Brésil et Argentine"
+      ],
+      "explanation": "Les quatre équipes associées au groupe B lors de cette Coupe du monde étaient le Portugal, l'Espagne, le Maroc et l'Iran.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-245",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_245.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-245-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel opérateur français payant a retransmis l'intégralité de la compétition ?",
+      "answer": "BeIn Sports",
+      "options": [
+        "Mediaset",
+        "BeIn Sports",
+        "Sport TV",
+        "BFM Sport"
+      ],
+      "explanation": "Le 10 août 2012, soit un peu plus d'un mois après son ouverture, plus de 500 000 abonnés ont souscrit un abonnement à BeIn Sports.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-245",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_245.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-245-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville a eu lieu, en 2015, le tirage au sort des qualifications ?",
+      "answer": "Saint-Pétersbourg",
+      "options": [
+        "Smolensk",
+        "Saint-Pétersbourg",
+        "Odessa",
+        "Mourmansk"
+      ],
+      "explanation": "Saint-Pétersbourg est la deuxième plus grande ville de Russie par sa population, avec 5 281 579 habitants en 2017.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-245",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_245.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-245-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a institué le principe de rotation continentale à la FIFA ?",
+      "answer": "Sepp Blatter",
+      "options": [
+        "Sepp Blatter",
+        "Helmut Käser",
+        "Ivo Schricker",
+        "Jérôme Valcke"
+      ],
+      "explanation": "Le principe de rotation continentale institué par Sepp Blatter aurait dû amener à une organisation en Amérique du Nord pour 2018.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-245",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_245.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-245-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle agence de conseil en stratégie a conçu le logo officiel de la Coupe du monde 2018 ?",
+      "answer": "Brandia Central",
+      "options": [
+        "Designworks",
+        "Spirit Design",
+        "Invenio",
+        "Brandia Central"
+      ],
+      "explanation": "L'utilisation du rouge, du doré, du noir et du bleu dans sa palette de couleurs s'est inspirée des techniques ancestrales de l'art russe.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-245",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_245.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-245-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment s'intitule l'hymne officiel dévoilé le 8 mars 2018 ?",
+      "answer": "Colors",
+      "options": [
+        "Go Russia !",
+        "Colors",
+        "Russia 2018",
+        "Fair Play"
+      ],
+      "explanation": "Le chanteur Jason Derulo a été choisi pour interpréter l'hymne officiel de Coca-Cola pour la compétition, hymne intitulé 'Colors'.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-245",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_245.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-245-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la capacité du nouveau stade Krestovski de Saint-Pétersbourg ?",
+      "answer": "69 500 places",
+      "options": [
+        "59 500 places",
+        "89 500 places",
+        "69 500 places",
+        "79 500 places"
+      ],
+      "explanation": "Le stade est équipé d'un toit rétractable et d'un terrain coulissant, permettant de maintenir une température de 15° même en hiver.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-245",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_245.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-245-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien d'arbitres principaux ont été choisis pour la compétition ?",
+      "answer": "36",
+      "options": [
+        "28",
+        "36",
+        "24",
+        "32"
+      ],
+      "explanation": "Le 29 mars 2018, le comité des arbitres de la FIFA publie le choix des 36 arbitres et 63 arbitres assistants venant de 43 pays.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-245",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_245.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-245-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle mannequin fut l'ambassadrice de la Coupe du monde en Russie ?",
+      "answer": "Victoria Lopyreva",
+      "options": [
+        "Anna Begounova",
+        "Victoria Lopyreva",
+        "Alla Nazimova",
+        "Tatiana Droubitch"
+      ],
+      "explanation": "Victoria Petrovna Lopyreva est une actrice, mannequin, présentatrice et gagnante du concours de beauté Miss Russie 2003.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-245",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_245.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-245-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a comparé le Mondial 2018 aux Jeux Olympiques de Berlin en 1936 ?",
+      "answer": "Boris Johnson",
+      "options": [
+        "Peter Carington",
+        "David Owen",
+        "Ken Livingstone",
+        "Boris Johnson"
+      ],
+      "explanation": "Boris Johnson est parfois surnommé « BoJo », « Bozzer Bozza » ou encore « Boris le Bouffon » par les tabloïds britanniques.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-245",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_245.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

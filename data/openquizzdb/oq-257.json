@@ -1,0 +1,774 @@
+{
+  "id": "oq-257",
+  "title": "Charlize Theron",
+  "originalTitle": "Charlize Theron (Blonde atomique)",
+  "universe": "film",
+  "emoji": "🎬",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_257.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    15
+  ],
+  "questions": [
+    {
+      "id": "oqdb-257-1",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Naturalisée américaine, dans quel pays est née l'actrice Charlize Theron ?",
+      "answer": "Afrique du Sud",
+      "options": [
+        "Soudan",
+        "Afrique du Sud",
+        "Australie",
+        "Irlande"
+      ],
+      "explanation": "Charlize Theron a débuté sa carrière d'actrice aux États-Unis et est devenue une vedette internationale dans les années 1990.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-257",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_257.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-257-2",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Avec quel film Charlize Theron a-t-elle remporté un Oscar de la meilleure actrice ?",
+      "answer": "Monster",
+      "options": [
+        "Monster",
+        "Young Adult",
+        "Hancock",
+        "Sleepwalking"
+      ],
+      "explanation": "« Monster », premier long métrage réalisé par Patty Jenkins en 2003, relate de façon romancée la vie d'Aileen Wuornos.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-257",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_257.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-257-3",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Laquelle de ces profession Charlize Theron n'a-t-elle jamais exercé ?",
+      "answer": "Avocate",
+      "options": [
+        "Productrice",
+        "Actrice",
+        "Mannequin",
+        "Avocate"
+      ],
+      "explanation": "Charlize a grandi en milieu rural dans la ferme de ses parents, par ailleurs propriétaires d'une entreprise de construction routière.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-257",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_257.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-257-4",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "De qui Charlize Theron joue-t-elle une épouse schizophrène dans « L'Associé du diable » ?",
+      "answer": "Keanu Reeves",
+      "options": [
+        "Joaquin Phoenix",
+        "Keanu Reeves",
+        "Javier Bardem",
+        "Christoph Waltz"
+      ],
+      "explanation": "Le titre du film est une référence aux avocats du diable dont l'origine remonte aux procès en canonisation de l'église catholique.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-257",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_257.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-257-5",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Avec quel membre de sa famille a-t-elle toujours noué une relation fusionnelle ?",
+      "answer": "Sa mère",
+      "options": [
+        "Son frère",
+        "Sa mère",
+        "Sa soeur",
+        "Son père"
+      ],
+      "explanation": "Sa mère Gerda l'a continuellement encouragé a poursuivre une carrière de danseuse, puis de mannequin et enfin d'actrice.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-257",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_257.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-257-6",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quel film Charlize Theron a-t-elle habité le rôle d'Aileen Wuornos ?",
+      "answer": "Monster",
+      "options": [
+        "Tully",
+        "Monster",
+        "Young Adult",
+        "Gringo"
+      ],
+      "explanation": "Elle a étudié un documentaire de Nick Broomfield sur cette tueuse en série et passé du temps avec une des amies de Wuornos.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-257",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_257.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-257-7",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel film avec Charlize Theron est basé sur une série télévisée d'animation ?",
+      "answer": "Aeon Flux",
+      "options": [
+        "Mauvais Piège",
+        "La Route",
+        "The Yards",
+        "Aeon Flux"
+      ],
+      "explanation": "L'actrice Michelle Rodriguez avait été retenue pour jouer le personnage principal, suite à son association dans « Girlfight ».",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-257",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_257.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-257-8",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "De quel magazine Charlize Theron a-t-elle fait la une en juin 1999 ?",
+      "answer": "Playboy",
+      "options": [
+        "Playboy",
+        "FHM",
+        "Maxim",
+        "Vanity Fair"
+      ],
+      "explanation": "En 2010, le magazine FHM classe Charlize comme étant la 56e plus belle femme au monde et 16e dans la liste du magazine Maxim.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-257",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_257.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-257-9",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quelle préquelle du classique « Alien » Charlize Theron a-t-elle joué ?",
+      "answer": "Prometheus",
+      "options": [
+        "Predator",
+        "Prometheus",
+        "Requiem",
+        "Covenant"
+      ],
+      "explanation": "Les arrière-plans extérieurs d'une grande partie du film « Prometheus » ont été filmés dans le Wadi Rum, en Jordanie.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-257",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_257.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-257-10",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quel film Charlize Theron joue-t-elle une mère débordée et épuisée par sa maternité ?",
+      "answer": "Tully",
+      "options": [
+        "Monster",
+        "Atomic Blonde",
+        "Tully",
+        "The Last Face"
+      ],
+      "explanation": "Le film « Tully » marque ses retrouvailles avec le réalisateur Jason Reitman et la scénariste Diablo Cody, sept ans après « Young Adult ».",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-257",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_257.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-257-11",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Pour faire face à quelle infection virale Charlize Theron a-t-elle créé une fondation ?",
+      "answer": "Sida",
+      "options": [
+        "Grippe",
+        "Sida",
+        "Zona",
+        "Variole"
+      ],
+      "explanation": "Fondatrice du Charlize Theron Africa Outreach Project, l'actrice finance régulièrement des programmes de soutien.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-257",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_257.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-257-12",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "En quelle année a-t-elle reçu son étoile sur le Walk of Fame d'Hollywood Boulevard ?",
+      "answer": "2005",
+      "options": [
+        "2010",
+        "2015",
+        "2005",
+        "2000"
+      ],
+      "explanation": "Fabriquée avec du granito, chaque dalle présente, sur fond anthracite, une étoile rose à cinq branches au contour en laiton.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-257",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_257.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-257-13",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle passion Charlize a-t-elle entretenu à la National School Of The Arts ?",
+      "answer": "Danse",
+      "options": [
+        "Photographie",
+        "Peinture",
+        "Danse",
+        "Sculpture"
+      ],
+      "explanation": "Elle a commencé la pratique dès ses 6 ans avec des cours de ballet, ses performances faisant le ravissement de sa mère.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-257",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_257.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-257-14",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Aux côtés de qui Charlize Theron a-t-elle fait ses vrais débuts au cinéma ?",
+      "answer": "James Spader",
+      "options": [
+        "Forest Whitaker",
+        "Jack Lemmon",
+        "William Hurt",
+        "James Spader"
+      ],
+      "explanation": "C'est dans le thriller « Two Days In The Valley », de John Herzfeld, qu'elle tient le rôle de la fiancée de James Spader.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-257",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_257.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-257-16",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Combien de kilos Charlize Theron a-t-elle dû prendre pour le film « Monster » ?",
+      "answer": "15 kilos",
+      "options": [
+        "25 kilos",
+        "30 kilos",
+        "15 kilos",
+        "20 kilos"
+      ],
+      "explanation": "Charlize Theron s'est également fait remodeler le visage au silicone dans ce film qui lui vaudra l'Oscar de la meilleure actrice.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-257",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_257.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-257-17",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "À quelle reine Charlize Theron prête-t-elle sa plastique dans « Blanche-Neige et le Chasseur » ?",
+      "answer": "Ravenna",
+      "options": [
+        "Furiosa",
+        "Eleanor",
+        "Ravenna",
+        "Agathe"
+      ],
+      "explanation": "Les producteurs avaient déjà misé sur Charlize Theron dans le rôle de Ravenna, mais le choix du rôle principal restait encore incertain.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-257",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_257.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-257-18",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel titre de film de David Leitch incarne à merveille la belle Charlize Theron ?",
+      "answer": "Atomic Blonde",
+      "options": [
+        "Atomic Blonde",
+        "Tully",
+        "The Last Face",
+        "Gringo"
+      ],
+      "explanation": "La presse dira : « Quelque part entre Bourne et Bond, c'est une recette un peu ridicule, ultra-violente et follement divertissante ».",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-257",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_257.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-257-19",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "De quel acteur Charlize Theron fut-elle la compagne de 2002 à 2010 ?",
+      "answer": "Stuart Townsend",
+      "options": [
+        "Sean Penn",
+        "Stuart Townsend",
+        "Keanu Reeves",
+        "Craig Bierko"
+      ],
+      "explanation": "Diplômé de la Gaity School of Acting de Dublin, Stuart Townsend a d'abord été boxeur avant de débuter en 1996 au cinéma.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-257",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_257.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-257-20",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "De quelle Coupe du monde de football Charlize Theron a-t-elle présenté le tirage au sort ?",
+      "answer": "2010",
+      "options": [
+        "2014",
+        "2006",
+        "2010",
+        "2018"
+      ],
+      "explanation": "Cet événement qui se déroula au Cap, en Afrique du Sud, fut diffusé dans 200 pays et suivi par plus de 200 millions de téléspectateurs.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-257",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_257.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-257-21",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quel pays Charlize Theron a-t-elle gagné à 16 ans l'International New Model Today ?",
+      "answer": "Italie",
+      "options": [
+        "Grèce",
+        "Italie",
+        "Portugal",
+        "Espagne"
+      ],
+      "explanation": "Cette victoire lui offre l'occasion de devenir mannequin professionnel, de quitter l'école et de s'envoler vers Milan.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-257",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_257.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-257-22",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quel film d'animation en relief Charlize Theron est-elle la narratrice ?",
+      "answer": "Astro Boy",
+      "options": [
+        "Jetter Mars",
+        "Ayako",
+        "Alabaster",
+        "Astro Boy"
+      ],
+      "explanation": "Le film met en scène le personnage créé au début des années 1950 par Osamu Tezuka, « Astro, le petit robot ».",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-257",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_257.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-257-23",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle blessure a contraint Charlize Theron à tirer un trait sur sa carrière de danseuse ?",
+      "answer": "Genou",
+      "options": [
+        "Nuque",
+        "Épaule",
+        "Hanche",
+        "Genou"
+      ],
+      "explanation": "Elle déménage alors vers Miami pour quelques mois et poursuit le mannequinat, sans vraiment être intéressée par la vie de top model.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-257",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_257.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-257-24",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel découvreur de talents a envoyé Charlize Theron à des cours de comédie ?",
+      "answer": "John Crosby",
+      "options": [
+        "John Crosby",
+        "Eddy Michaels",
+        "Evan McCreedy",
+        "Mike Lansburry"
+      ],
+      "explanation": "Il l'y envoie principalement pour effacer son accent Afrikaans très prononcé, et la fait profiter de ses connaissances.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-257",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_257.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-257-25",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle série télé Netflix Charlize Theron a-t-elle produite avec David Fincher ?",
+      "answer": "Mindhunter",
+      "options": [
+        "Frontier",
+        "Mindhunter",
+        "Godless",
+        "Iron Fist"
+      ],
+      "explanation": "Le personnage Holden Ford est inspiré de l'agent du FBI John Douglas, et Bill Tench de l'agent du FBI Robert Ressler.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-257",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_257.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-257-26",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quand Charlize Theron fut-elle élue femme de l'année par Hasty Pudding Theatricals ?",
+      "answer": "2008",
+      "options": [
+        "2014",
+        "2012",
+        "2010",
+        "2008"
+      ],
+      "explanation": "Pourtant, la même année, seul le blockbuster « Hancock » lui permet de se distinguer, sans pour autant convaincre la critique.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-257",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_257.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-257-27",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quel film Charlize Theron donne-t-elle la réplique à Jean Reno ?",
+      "answer": "The Last Face",
+      "options": [
+        "Dark Places",
+        "Flarsky",
+        "The Last Face",
+        "Atomic Blonde"
+      ],
+      "explanation": "Avant que Charlize Theron soit confirmée dans les rôles principaux, Robin Wright était impliquée dans le film.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-257",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_257.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-257-28",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Comment se prénomme la petite fille adoptée par Charlize Theron en 2015 ?",
+      "answer": "August",
+      "options": [
+        "April",
+        "January",
+        "August",
+        "June"
+      ],
+      "explanation": "Concernant l'éducation de ses enfants, l'actrice déclare s'être inspirée des Français, afin de gérer famille et vie professionnelle.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-257",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_257.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-257-29",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "En France, qui est la voix française régulière de Charlize Theron ?",
+      "answer": "Barbara Kelsch",
+      "options": [
+        "Claudine Meunier",
+        "Claude Chantal",
+        "Anne Jolivet",
+        "Barbara Kelsch"
+      ],
+      "explanation": "Barbara Kelsch est notamment la voix française régulière de Milla Jovovich, Gwyneth Paltrow, Charlize Theron et Michelle Monaghan.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-257",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_257.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-257-30",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle organisation lui a décerné le prix d'« actrice de la décennie » en 2012 ?",
+      "answer": "CinemaCon",
+      "options": [
+        "Camerimage",
+        "Berlinale",
+        "CinemaCon",
+        "Gotham Awards"
+      ],
+      "explanation": "Rebaptisés CinemaCon Awards en 2012, les prix ont été relancés en 2013 en se concentrant sur le cinéma indépendant.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-257",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_257.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

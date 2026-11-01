@@ -1,0 +1,749 @@
+{
+  "id": "oq-31",
+  "title": "X-Files : la série",
+  "originalTitle": "X-Files : la série (Aux frontières du réel)",
+  "universe": "film",
+  "emoji": "🎬",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_31.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    15,
+    25
+  ],
+  "questions": [
+    {
+      "id": "oqdb-31-1",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quel service de renseignement intérieur travaillent les agents Mulder et Scully ?",
+      "answer": "FBI",
+      "options": [
+        "NSA",
+        "CIA",
+        "FBI",
+        "CSI"
+      ],
+      "explanation": "Les attributions du FBI incluent l'antiterrorisme, le contre-espionnage, le crime informatique et la médecine légale.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-31",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_31.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-31-2",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui est le supérieur hiérarchique direct de Mulder et Scully dans la série « X-Files » ?",
+      "answer": "Walter Skinner",
+      "options": [
+        "Wallace Sommer",
+        "Walter Skinner",
+        "William Stabler",
+        "Chris Carter"
+      ],
+      "explanation": "Walter Skinner est un ancien marine qui a fait le Vietnam et en cela il est sévère, exigeant mais toutefois juste et honnête.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-31",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_31.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-31-3",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qu'y a-t-il d'écrit sur la célèbre affiche qui se trouve dans le bureau de Fox Mulder ?",
+      "answer": "I want to believe",
+      "options": [
+        "Are you scared ?",
+        "Do aliens exist ?",
+        "I want to believe",
+        "U.F.O."
+      ],
+      "explanation": "Intuitif et paranoïaque, Mulder est considéré comme étrange et excentrique par ses pairs, ce qui lui a valu le surnom de « Martien ».",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-31",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_31.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-31-4",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Durant quelle saison apparaît pour la première fois l'homme à la cigarette dans « X-Files » ?",
+      "answer": "Saison 1",
+      "options": [
+        "Saison 2",
+        "Saison 3",
+        "Saison 1",
+        "Saison 4"
+      ],
+      "explanation": "De nature froide et solitaire à l'origine, la série le fait évoluer pour faire comprendre qu'il est le personnage incontournable du complot.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-31",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_31.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-31-5",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle était la profession de Scully avant de devenir agent du FBI dans « X-Files » ?",
+      "answer": "Médecin",
+      "options": [
+        "Médecin",
+        "Photographe",
+        "Avocate",
+        "Architecte"
+      ],
+      "explanation": "Scully a échappé à de nombreuses reprises à la mort durant la série, et au moins 2 épisodes laissent penser qu'elle serait immortelle.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-31",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_31.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-31-6",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Combien de saisons compte la série télévisée « X-Files : Aux frontières du réel » ?",
+      "answer": "Onze",
+      "options": [
+        "Neuf",
+        "Huit",
+        "Onze",
+        "Diz"
+      ],
+      "explanation": "La série décrit les différentes enquêtes des agents spéciaux du FBI Fox Mulder et Dana Scully sur des dossiers classés X (X-Files).",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-31",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_31.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-31-7",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle actrice interprète le rôle de Dana Scully dans la série télé « X-Files » ?",
+      "answer": "Gillian Anderson",
+      "options": [
+        "Annabeth Gish",
+        "Gillian Anderson",
+        "Jolie Jenkins",
+        "Laurie Holden"
+      ],
+      "explanation": "Gillian Anderson a été récompensée pour ce rôle par un Golden Globes Award et un Primetime Emmy Award.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-31",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_31.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-31-8",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le surnom donné à Fox Mulder par ses collègues dans la série télé « X-Files » ?",
+      "answer": "Martien",
+      "options": [
+        "Matrix",
+        "Biquet",
+        "Bibou",
+        "Martien"
+      ],
+      "explanation": "Mulder est le nom de jeune fille de la mère de Chris Carter, réalisateur de la série, et Fox est le nom de l'un de ses amis.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-31",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_31.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-31-9",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel acteur remplace David Duchovny dans les saisons 6, 7 et 8 de « X-Files » ?",
+      "answer": "Robert Patrick",
+      "options": [
+        "Robert Downey Jr.",
+        "Robert Patrick",
+        "Robert Wagner",
+        "Robert Pattinson"
+      ],
+      "explanation": "Robert Patrick a été révélé au cinéma en 1991 par son interprétation du T-1000 dans le second volet de la saga « Terminator ».",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-31",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_31.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-31-10",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel scénariste, réalisateur et producteur américain a créé la série télévisée « X-Files » ?",
+      "answer": "Chris Carter",
+      "options": [
+        "Steven Spielberg",
+        "J.J. Abrams",
+        "Chris Carter",
+        "Guillermo del Toro"
+      ],
+      "explanation": "Chris Carter a reçu en 1999 le PGA Award du producteur de télévision le plus prometteur.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-31",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_31.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-31-11",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quelle ville des États-Unis se trouve le bureau de Mulder et Scully ?",
+      "answer": "Washington",
+      "options": [
+        "New York",
+        "Dallas",
+        "Washington",
+        "Los Angeles"
+      ],
+      "explanation": "Fox Mulder est un homme qui voue une véritable passion à tout ce qui touche au paranormal.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-31",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_31.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-31-12",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle aventurière de fiction a fait une apparition remarquée dans la série « X-Files » ?",
+      "answer": "Xena",
+      "options": [
+        "Lara Croft",
+        "Xena",
+        "Buffy",
+        "Super Jamie"
+      ],
+      "explanation": "En 1995, avant de devenir Xena, Lucy Lawless fut le personnage central de « Peach », un court-métrage traitant de l'homosexualité.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-31",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_31.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-31-13",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans « X-Files », quel meurtrier abolit les foies de ses victimes ?",
+      "answer": "Tooms",
+      "options": [
+        "Tooms",
+        "Burks",
+        "Hosteen",
+        "Krycek"
+      ],
+      "explanation": "Tous les 30 ans, Eugène Victor Tooms sort de son hibernation pour se nourrir du foie d'êtres humains.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-31",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_31.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-31-14",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le prénom de la soeur disparue de Fox Mulder dans la série « X-Files » ?",
+      "answer": "Samantha",
+      "options": [
+        "Samantha",
+        "Alicia",
+        "Joanna",
+        "Rita"
+      ],
+      "explanation": "Samantha Ann Mulder, née le 22 janvier 1964, est disparue le 27 novembre 1973 (Affaire non classée : dossier n° X-42053).",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-31",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_31.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-31-16",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui est le père de l'enfant de Scully dans la série télévisée « X-Files » ?",
+      "answer": "Mulder",
+      "options": [
+        "Mulder",
+        "Krycek",
+        "Skinner",
+        "Doggett"
+      ],
+      "explanation": "Scully a une vie sentimentale et sociale assez terne, se retranchant le plus souvent dans ses expériences scientifiques et ses recherches.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-31",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_31.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-31-17",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel personnage de la série « X-Files » a perdu un bras suite à l'inoculation d'un vaccin ?",
+      "answer": "Krycek",
+      "options": [
+        "Skinner",
+        "Pendrell",
+        "Monsieur X",
+        "Krycek"
+      ],
+      "explanation": "Présenté comme un partenaire mais perçu comme un élément gênant par l'agent Fox Mulder, Alex Krycek s'avère être un traître.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-31",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_31.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-31-18",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "De quelle maladie souffre Scully à partir de la saison 4 de la série « X-Files » ?",
+      "answer": "Cancer",
+      "options": [
+        "Sclérose",
+        "Amnésie",
+        "Cancer",
+        "Diabète"
+      ],
+      "explanation": "Scully a mis en doute ses croyances lorsqu'on lui diagnostiqua un cancer du cerveau, conséquence de son enlèvement.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-31",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_31.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-31-19",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le nom du chien de Dana Scully de la série « X-Files » ?",
+      "answer": "Queequeg",
+      "options": [
+        "Fox",
+        "Queequeg",
+        "Bobby",
+        "Gish"
+      ],
+      "explanation": "Plus jeune, le livre préféré de Dana Scully était « Moby Dick », que son père prenait plaisir à lui lire très souvent.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-31",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_31.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-31-20",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans « X-Files », quel membre du FBI est mort dans les bras de Scully ?",
+      "answer": "Agent Pendrell",
+      "options": [
+        "Scott Blevins",
+        "Monica Reyes",
+        "Jeffrey Spender",
+        "Agent Pendrell"
+      ],
+      "explanation": "L'agent Pendrell est un membre du laboratoire en sciences criminelles du FBI, qui assiste occasionnellement l'agent Dana Scully.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-31",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_31.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-31-21",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Comment se surnomment les trois amis paranoïaques de Mulder dans « X-Files » ?",
+      "answer": "Lone Gunmen",
+      "options": [
+        "Lone Cowboys",
+        "Lone Gunmen",
+        "Lone Stars",
+        "Lone Rangers"
+      ],
+      "explanation": "Ce trio est l'alliance improbable d'un bidouilleur en électronique, d'un pirate informatique et d'un ex-salarié des télécommunications.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-31",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_31.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-31-22",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le titre du dernier épisode de la série télévisée « X-Files » ?",
+      "answer": "La vérité est ici",
+      "options": [
+        "La soif de savoir",
+        "La Prophétie",
+        "La vérité est ici",
+        "La découverte"
+      ],
+      "explanation": "Dans cet ultime épisode, la date de l'invasion coïncide avec le calendrier maya et les prédictions pour décembre 2012.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-31",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_31.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-31-23",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle est le prénom de la fille de Scully dans la série « X-Files » ?",
+      "answer": "Emily",
+      "options": [
+        "Emma",
+        "Janis",
+        "Emily",
+        "Diane"
+      ],
+      "explanation": "Interprétée par Lauren Diewold, cette petite fille (Emily Sim) apparaît dans le double épisode « Emily » de la saison 5 de la série.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-31",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_31.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-31-24",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "De quelle université Mulder, de la série « X-Files », est-il diplômé ?",
+      "answer": "Oxford",
+      "options": [
+        "Yale",
+        "Oxford",
+        "Manchester",
+        "Princeton"
+      ],
+      "explanation": "De 1983 à 1986, Fox Mulder étudie à Oxford en Angleterre et sort premier de sa promotion avec en poche son diplôme en psychologie.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-31",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_31.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-31-26",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui enlève Scully pour la remettre aux aliens dans la saison 2 de « X-Files » ?",
+      "answer": "Duane Barry",
+      "options": [
+        "Billy Miles",
+        "Chuck Burks",
+        "Brad Follmer",
+        "Duane Barry"
+      ],
+      "explanation": "Dans l'épisode en question, c'est l'acteur lui-même qui a réalisé la cascade sur le toit du téléphérique, mettant sa propre vie en danger.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-31",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_31.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-31-27",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le mot de passe de l'ordinateur de Mulder dans la série « X-Files » ?",
+      "answer": "Trustno1",
+      "options": [
+        "Samantha",
+        "Scully",
+        "Aliens",
+        "Trustno1"
+      ],
+      "explanation": "Fox Mulder possède peu d'amis mais un bon nombre de contacts, ce qui lui est très utile durant l'ensemble de la série.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-31",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_31.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-31-28",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle marque de cigarettes fume l'homme à la cigarette dans la série « X-Files » ?",
+      "answer": "Morley",
+      "options": [
+        "Mighton",
+        "Marlac",
+        "Morley",
+        "On ne sait pas"
+      ],
+      "explanation": "Cette marque est apparue dans divers autres films de télévision et de cinéma, séries télévisées et jeux vidéo.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-31",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_31.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-31-29",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel surnom a été donné à Scully par son père dans la série télévisée « X-Files » ?",
+      "answer": "Starbuck",
+      "options": [
+        "La martienne",
+        "Queequeg",
+        "Janis",
+        "Starbuck"
+      ],
+      "explanation": "Fan du roman « Moby Dick », il la surnommait « Starbuck » et Scully l'appelait en retour « Achab ».",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-31",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_31.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-31-30",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel épisode de « X-Files » diffusé en 1999 se répète à l'infini ?",
+      "answer": "Lundi",
+      "options": [
+        "Jour J",
+        "Réitération",
+        "Pour toujours",
+        "Lundi"
+      ],
+      "explanation": "Pris dans une boucle temporelle, Mulder doit empêcher une bombe d'exploser dans une banque pour y mettre fin.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-31",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_31.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

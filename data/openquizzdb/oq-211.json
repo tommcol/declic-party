@@ -1,0 +1,798 @@
+{
+  "id": "oq-211",
+  "title": "PyeongChang 2018",
+  "originalTitle": "PyeongChang 2018 (Événement mondialement suivi)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_211.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-211-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle grande puissance économique se sont déroulés les JO d'hiver 2018 ?",
+      "answer": "Corée du Sud",
+      "options": [
+        "France",
+        "Canada",
+        "Autriche",
+        "Corée du Sud"
+      ],
+      "explanation": "Actuellement, la Corée du Sud est classée douzième puissance économique mondiale selon le calcul du produit intérieur brut.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-211",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_211.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-211-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle était la ville hôte des Jeux olympiques d'hiver de 2018 ?",
+      "answer": "Pyeongchang",
+      "options": [
+        "Pyeongchang",
+        "Sapporo",
+        "Nagano",
+        "Pékin"
+      ],
+      "explanation": "Avec moins de 30 habitants au km2, Pyeongchang est relativement peu peuplé car situé en altitude dans une zone montagneuse.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-211",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_211.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-211-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de villes étaient candidates pour accueillir les JO d'hiver de 2018 ?",
+      "answer": "Trois",
+      "options": [
+        "Quatre",
+        "Six",
+        "Cinq",
+        "Trois"
+      ],
+      "explanation": "À l'issue de la date limite des candidatures, Annecy, Munich et Pyeongchang étaient requérantes pour ces Jeux olympiques.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-211",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_211.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-211-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle nation a été suspendue de participation aux JO d'hiver de 2018 ?",
+      "answer": "Russie",
+      "options": [
+        "Russie",
+        "Nigeria",
+        "Jamaïque",
+        "Malaisie"
+      ],
+      "explanation": "La Russie a été suspendue des JO suite à la révélation du système de dopage d'État lors des Jeux olympiques de Sotchi 2014.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-211",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_211.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-211-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel standard de téléphonie mobile a été mis en place pour les JO d'hiver de 2018 ?",
+      "answer": "5G",
+      "options": [
+        "5G",
+        "6G",
+        "8G",
+        "7G"
+      ],
+      "explanation": "À partir de juin 2016, à l'occasion des JO, le LETI pilote le projet de démonstrateur de la technologie 5G pour la téléphonie mobile.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-211",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_211.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-211-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quelle date a eu leu la cérémonie d'ouverture des JO d'hiver de 2018 ?",
+      "answer": "9 février",
+      "options": [
+        "7 février",
+        "11 février",
+        "9 février",
+        "5 février"
+      ],
+      "explanation": "Pouvant accueillir près de 35 000 personnes, le stade olympique de Pyeongchang ne fut utilisé que pour les cérémonies des JO.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-211",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_211.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-211-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle ministre des sports faisait partie de la délégation officielle française ?",
+      "answer": "Laura Flessel",
+      "options": [
+        "Carole Montillet",
+        "Laura Flessel",
+        "Fabienne Serrat",
+        "Anne Briand"
+      ],
+      "explanation": "Spécialiste de l'épée, elle est quintuple médaillée olympique et remporte les deux médailles d'or des débuts de l'épée féminine.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-211",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_211.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-211-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel continent fait partie la délégation sportive du Tonga ?",
+      "answer": "Océanie",
+      "options": [
+        "Asie",
+        "Amérique",
+        "Océanie",
+        "Afrique"
+      ],
+      "explanation": "Pour les Jeux olympiques de 2018, Pita Taufatofua sera le seul Tongien à tenter de se qualifier en épreuve de ski de fond.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-211",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_211.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-211-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année la ville de Pyeongchang fut-elle élue pour les JO de 2018 ?",
+      "answer": "2011",
+      "options": [
+        "2009",
+        "2008",
+        "2010",
+        "2011"
+      ],
+      "explanation": "Le CIO est composé de 115 membres qui se réunissent au moins une fois par an et élisent un président pour une durée de 8 ans.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-211",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_211.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-211-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui était président du CIO lors des Jeux olympiques d'hiver de 2018 ?",
+      "answer": "Thomas Bach",
+      "options": [
+        "Jacques Rogge",
+        "Thomas Bach",
+        "Lord Killanin",
+        "Avery Brundage"
+      ],
+      "explanation": "Le champion olympique Thomas Bach a participé à l'épreuve de fleuret par équipe lors des Jeux olympiques d'été de 1976, à Montréal.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-211",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_211.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-211-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de sports étaient présents aux Jeux olympiques d'hiver 2018 ?",
+      "answer": "7",
+      "options": [
+        "5",
+        "6",
+        "4",
+        "7"
+      ],
+      "explanation": "Les premiers sports furent le ski de fond, le patinage, le hockey sur glace, le combiné nordique, le saut à ski, le bobsleigh et le curling.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-211",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_211.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-211-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel était le nom de la mascotte des Jeux olympiques d'hiver 2018 ?",
+      "answer": "Soohorang",
+      "options": [
+        "Hodori",
+        "Soohorang",
+        "Roni",
+        "Fuwa"
+      ],
+      "explanation": "C'est la première fois depuis les Jeux olympiques de 1992 que les Jeux d'hiver ont une mascotte unique, ici un tigre blanc.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-211",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_211.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-211-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel slogan officiel a été choisi pour les Jeux olympiques d'hiver 2018 ?",
+      "answer": "Passion Connected",
+      "options": [
+        "Yellow Snow",
+        "New Generation",
+        "Be on Top",
+        "Passion Connected"
+      ],
+      "explanation": "Le slogan, « Passion. Connected. », a été dévoilé exactement 1 000 jours avant les Jeux, lors d'un événement spécial à Séoul.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-211",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_211.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-211-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sur quelle ville littorale se déroulèrent les Jeux olympiques d'hiver 2018 ?",
+      "answer": "Gangneung",
+      "options": [
+        "Wonju",
+        "Gangneung",
+        "Donghae",
+        "Sokcho"
+      ],
+      "explanation": "Gangneung est une ville de Corée du Sud de près de 230 000 habitants située près de la mer du Japon, dans la province de Gangwon.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-211",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_211.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-211-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel site a accueilli les compétitions de saut à ski des JO de 2018 ?",
+      "answer": "Alpensia",
+      "options": [
+        "Alpensia",
+        "Hakuba",
+        "Igman",
+        "Pragela"
+      ],
+      "explanation": "La cérémonie d'ouverture des Jeux olympiques d'hiver de 2018 y fut un temps prévue, mais ce site n'a accueilli que les compétitions.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-211",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_211.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-211-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel parc de neige a accueilli le ski acrobatique lors des JO d'hiver de 2018 ?",
+      "answer": "Bokwang",
+      "options": [
+        "Yongpyong",
+        "Muju",
+        "Jungbong",
+        "Bokwang"
+      ],
+      "explanation": "La station se distingue des autres stations de Gangwong par le nombre d'infrastructures de freestyle (half-pipe, snowparks, etc, ...).",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-211",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_211.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-211-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel scandale politique a affecté l'image des Jeux de 2018 ?",
+      "answer": "Choigate",
+      "options": [
+        "Corrigate",
+        "Choigate",
+        "Colgate",
+        "Canigate"
+      ],
+      "explanation": "À la suite des investigations, la Cour constitutionnelle de Corée a décidé de confirmer la destitution de la présidente Park Geun-Hye.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-211",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_211.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-211-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De combien de tableaux fut composée la cérémonie d'ouverture des JO de 2018 ?",
+      "answer": "Six",
+      "options": [
+        "Huit",
+        "Cinq",
+        "Sept",
+        "Six"
+      ],
+      "explanation": "Le fil conducteur est représenté par trois garçons et deux filles, originaires de la province de Gangwon, à la recherche de la paix.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-211",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_211.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-211-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel nom porte l'hymne national de la République de Corée ?",
+      "answer": "Aegukga",
+      "options": [
+        "Arirang",
+        "Gwiyomi song",
+        "Shy Boy",
+        "Aegukga"
+      ],
+      "explanation": "Les paroles ont été écrites vers la fin du XIXe siècle par Yun Chi-ho, un politicien, ou par An Chang-ho, un leader indépendantiste.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-211",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_211.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-211-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle société a simultanément fait voler 1 218 drones lumineux dans le ciel des Jeux de 2018 ?",
+      "answer": "Intel",
+      "options": [
+        "Microsoft",
+        "Intel",
+        "Toyota",
+        "Facebook"
+      ],
+      "explanation": "S'offrant de plus un record du monde inscrit au Livre Guinness, le fabricant américain Intel a ainsi reproduit les anneaux olympiques.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-211",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_211.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-211-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui était à la tête de la Commission de coordination des JO de 2018 ?",
+      "answer": "Gunilla Lindberg",
+      "options": [
+        "Nicole Hoevertsz",
+        "Rita Subowo",
+        "Angela Ruggiero",
+        "Gunilla Lindberg"
+      ],
+      "explanation": "Gunilla Lindberg, née le 6 mai 1947, est une dirigeante sportive suédoise, membre du Comité international olympique depuis 1996.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-211",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_211.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-211-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de pays ont participé aux Jeux olympiques d'hiver 2018 ?",
+      "answer": "93",
+      "options": [
+        "87",
+        "69",
+        "93",
+        "76"
+      ],
+      "explanation": "La première célébration des Jeux d'hiver, organisés tous les quatre ans, a eu lieu dans la station française de Chamonix en 1924.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-211",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_211.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-211-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a créé le logo officiel des Jeux olympiques d'hiver 2018 ?",
+      "answer": "Ha Jong-joo",
+      "options": [
+        "An Ji-yeong",
+        "Lee Eun-mi",
+        "Ha Hyun-woo",
+        "Ha Jong-joo"
+      ],
+      "explanation": "Le logo officiel, conçu par Ha Jong-joo, reprend deux caractères du hangeul, l'alphabet coréen : le P de Pyeong et le Ch de Chang.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-211",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_211.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-211-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel fut le coût des quatre patinoires de Gangneung conçues pour les JO de 2018 ?",
+      "answer": "425 millions",
+      "options": [
+        "692 millions",
+        "336 millions",
+        "425 millions",
+        "547 millions"
+      ],
+      "explanation": "À l'exception du Centre de curling de Gangneung, toutes les infrastructures du pôle du littoral furent construites pour les Jeux.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-211",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_211.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-211-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien d'arbres furent rasés pour construire le Centre alpin de Jeongseon ?",
+      "answer": "60 000",
+      "options": [
+        "50 000",
+        "30 000",
+        "60 000",
+        "40 000"
+      ],
+      "explanation": "Le comité organisateur de PyeongChang a promis de replanter 1 000 arbres et de restaurer le site dans son état originel après les Jeux.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-211",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_211.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-211-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a interprété l'hymne olympique de la cérémonie d'ouverture des JO de 2018 ?",
+      "answer": "Sumi Hwang",
+      "options": [
+        "Sumi Hwang",
+        "Dia",
+        "Lee Young-hee",
+        "Sumi Jo"
+      ],
+      "explanation": "Cette chanteuse de tessiture soprano fut première lauréate du Concours musical Reine Élisabeth de Belgique en chant en 2014.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-211",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_211.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-211-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de porteurs de torche ont relayé la flamme olympique en 2018 ?",
+      "answer": "7 500",
+      "options": [
+        "5 500",
+        "6 500",
+        "4 500",
+        "7 500"
+      ],
+      "explanation": "Le nombre de porteurs de la flamme a été particulièrement choisi pour tenir compte des 75 millions de Coréens au total (Sud et Nord).",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-211",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_211.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-211-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle patineuse a allumé la vasque olympique des JO de 2018 ?",
+      "answer": "Kim Yuna",
+      "options": [
+        "Carol Heiss",
+        "Kim Yuna",
+        "Tara Lipinski",
+        "Kristi Yamaguchi"
+      ],
+      "explanation": "Elle a été sacrée championne olympique le 25 février 2010 à Vancouver avec le score le plus élevé de l'histoire de son sport.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-211",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_211.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-211-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien d'athlètes ont participé aux Jeux olympiques d'hiver 2018 ?",
+      "answer": "2 952",
+      "options": [
+        "3 422",
+        "2 952",
+        "1 944",
+        "2 487"
+      ],
+      "explanation": "La Norvège, qui totalise après Sotchi 2014 331 médailles dont 118 en or, occupe le premier rang des nations aux Jeux d'hiver.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-211",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_211.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-211-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel ours noir fut la mascotte paralympique des Jeux de 2018 ?",
+      "answer": "Bandabi",
+      "options": [
+        "Aster",
+        "Vinicius",
+        "Bandabi",
+        "Proteas"
+      ],
+      "explanation": "La seule utilisation d'un ours noir d'Asie comme mascotte paralympique remonte aux JO de Séoul 1988 (Gomdoori).",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-211",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_211.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

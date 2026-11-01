@@ -1,0 +1,798 @@
+{
+  "id": "oq-208",
+  "title": "Auroville",
+  "originalTitle": "Auroville (Lieu de vie communautaire universelle)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_208.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-208-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel pays est située la ville expérimentale Auroville ?",
+      "answer": "Inde",
+      "options": [
+        "Bangladesh",
+        "Inde",
+        "Canada",
+        "Pakistan"
+      ],
+      "explanation": "Auroville est une ville expérimentale située à une dizaine de kilomètres au nord de Pondichéry dans l'État du Tamil Nadu en Inde.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-208",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_208.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-208-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle française est à l'origine de la création de la cité d'Auroville ?",
+      "answer": "Mirra Alfassa",
+      "options": [
+        "Mirra Alfassa",
+        "Maïna Kataki",
+        "Julie Dreyfus",
+        "Ellam Onru"
+      ],
+      "explanation": "Soutenue par l'UNESCO, Mirra Alfassa a créé une communauté internationale dont la vocation est de réaliser l'unité humaine.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-208",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_208.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-208-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment appelle-t-on les habitants de la cité expérimentale Auroville ?",
+      "answer": "Aurovilliens",
+      "options": [
+        "Auvrilliens",
+        "Aurovilliens",
+        "Auréliens",
+        "Aurovilliers"
+      ],
+      "explanation": "Aujourd'hui, les Aurovilliens, issus d'une trentaine de pays différents, sont organisés en 35 unités de travail parfaitement viables.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-208",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_208.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-208-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel bâtiment au centre d'Auroville est considéré comme l'âme de l'endroit ?",
+      "answer": "Matrimandir",
+      "options": [
+        "Matrimandir",
+        "Bharat Niwas",
+        "Pooram",
+        "Charaka"
+      ],
+      "explanation": "Sa construction, entreprise en 1972, sans aucun engin de travaux, est certainement celle qui a nécessité le plus de main-d'oeuvre.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-208",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_208.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-208-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle zone centrale d'Auroville abrite le Matrimandir ?",
+      "answer": "De la Paix",
+      "options": [
+        "De la Paix",
+        "Industrielle",
+        "Culturelle",
+        "Résidentielle"
+      ],
+      "explanation": "La zone de la Paix abrite l'amphithéâtre contenant l'Urne de l'Humanité et un lac censé réapprovisionner la nappe phréatique.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-208",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_208.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-208-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel philosophe indien Mirra Alfassa est-elle la compagne spirituelle ?",
+      "answer": "Sri Aurobindo",
+      "options": [
+        "Ramesh Balsekar",
+        "Sri Chinmoy",
+        "Meera Nanda",
+        "Sri Aurobindo"
+      ],
+      "explanation": "Aurobindo Ghose est un des leaders du mouvement pour l'indépendance de l'Inde, un philosophe, un poète et un écrivain.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-208",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_208.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-208-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment est qualifiée la notion de propriété privée à Auroville ?",
+      "answer": "Interdite",
+      "options": [
+        "Tolérée",
+        "Interdite",
+        "Souhaitée",
+        "Autorisée"
+      ],
+      "explanation": "Tous les biens immobiliers (terrains, maisons, puits) sont la propriété de la fondation Auroville, la propriété privée y est interdite.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-208",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_208.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-208-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de points contient la charte lue lors de l'inauguration d'Auroville ?",
+      "answer": "Quatre",
+      "options": [
+        "Six",
+        "Huit",
+        "Quatre",
+        "Dix"
+      ],
+      "explanation": "Conformément à la croyance de la Mère que l'ère de la religion est derrière nous, la charte d'Auroville dit pas de religions.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-208",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_208.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-208-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année fut créée la ville expérimentale Auroville ?",
+      "answer": "1968",
+      "options": [
+        "1968",
+        "1978",
+        "1988",
+        "1998"
+      ],
+      "explanation": "Auroville fut créée en 1968 par Mirra Alfassa, plus connue sous le nom de la Mère, compagne spirituelle de Sri Aurobindo.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-208",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_208.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-208-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la durée du visa pour les touristes visitant Auroville ?",
+      "answer": "Six mois",
+      "options": [
+        "Neuf mois",
+        "Un an",
+        "Six mois",
+        "Trois mois"
+      ],
+      "explanation": "Les habitants étrangers bénéficient d'un statut préférentiel pour leur visa avec un an renouvelable contre six mois pour les touristes.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-208",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_208.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-208-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En combien d'unités de travail sont organisés les Aurovilliens ?",
+      "answer": "35",
+      "options": [
+        "25",
+        "35",
+        "15",
+        "45"
+      ],
+      "explanation": "Les Aurovilliens apprennent à vivre en paix, dans une parfaite harmonie, au-delà de toutes croyances et opinions politiques.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-208",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_208.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-208-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que faut-il faire à Auroville pour devenir l'occupant d'une maison existante ?",
+      "answer": "Don",
+      "options": [
+        "Miracle",
+        "Sacrifice",
+        "Prière",
+        "Don"
+      ],
+      "explanation": "Il faut faire don à la fondation du montant équivalent à la valeur de la maison. Pour bâtir, il faut également faire un don à la fondation.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-208",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_208.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-208-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien d'habitants le cité d'Auroville comptait-elle en 2014 ?",
+      "answer": "2 314",
+      "options": [
+        "6 874",
+        "12 422",
+        "2 314",
+        "16 647"
+      ],
+      "explanation": "Les coordonnées géographiques de la cité d'Auroville, dans l'État du Tamil Nadu en Inde, sont 12° 00' 25'' nord et 79° 48' 38'' est.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-208",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_208.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-208-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel bâtiment d'Auroville ressemble à Spaceship Earth, symbole d'Epcot ?",
+      "answer": "Matrimandir",
+      "options": [
+        "Yakshini",
+        "Védanta",
+        "Paduka",
+        "Matrimandir"
+      ],
+      "explanation": "Spaceship Earth (Vaisseau Terre) est un pavillon-attraction et principal symbole du parc Epcot de Walt Disney World Resort.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-208",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_208.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-208-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le diamètre de l'immense sphère dorée située à Auroville ?",
+      "answer": "36 m",
+      "options": [
+        "96 m",
+        "66 m",
+        "36 m",
+        "126 m"
+      ],
+      "explanation": "C'est une gigantesque salle, aux murs revêtus de marbre blanc, abritant ce qui est censé être le plus gros globe de cristal au monde.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-208",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_208.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-208-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dépourvu de fleurs et d'encens, à quelle activité le Matrimandir est-il destiné ?",
+      "answer": "Méditation",
+      "options": [
+        "Bar",
+        "Tourisme",
+        "Méditation",
+        "Hôtel"
+      ],
+      "explanation": "Il contient une chambre intérieure, revêtue de marbre blanc, qui abrite un globe de verre de 70 cm, le plus gros au monde.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-208",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_208.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-208-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle somme le dalaï-lama a-t-il versé pour le pavillon de la culture tibétaine ?",
+      "answer": "3 000 dollars",
+      "options": [
+        "300 000 dollars",
+        "3 000 dollars",
+        "300 dollars",
+        "30 000 dollars"
+      ],
+      "explanation": "Il versa, en 1996, 100 000 roupies (environ 3 000 dollars), pour amorcer la mise de fonds nécessaire à l'achèvement des travaux.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-208",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_208.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-208-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans l'Inde ancienne, quel lieu isolé était propice à la méditation ?",
+      "answer": "Ashram",
+      "options": [
+        "Bindu",
+        "Tamas",
+        "Ashram",
+        "Prana"
+      ],
+      "explanation": "On se souviendra de l'ashram de Sabarmati à Ahmedabad qui servit de quartier général au Mahatma Gandhi durant sa lutte.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-208",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_208.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-208-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est l'extension du site internet officiel de la cité d'Auroville ?",
+      "answer": ".org",
+      "options": [
+        ".com",
+        ".fr",
+        ".org",
+        ".net"
+      ],
+      "explanation": "Le site internet officiel comprend une multitude d'informations sur les activités et la vie au sein de la communauté d'Auroville.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-208",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_208.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-208-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans un rayon de combien de kilomètres s'étend l'agglomération d'Auroville ?",
+      "answer": "20",
+      "options": [
+        "40",
+        "30",
+        "10",
+        "20"
+      ],
+      "explanation": "Constituée d'environ 80 communautés, on y retrouve une population internationale de plus de 2 000 résidents sur 50 nationalités.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-208",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_208.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-208-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel type de visa indien faut-il pour devenir membre d'Auroville ?",
+      "answer": "X",
+      "options": [
+        "Z",
+        "V",
+        "X",
+        "A"
+      ],
+      "explanation": "Ce visa permet de résider en Inde, ainsi que l'argent nécessaire pour vivre au moins un an sans être rémunéré pour son travail.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-208",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_208.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-208-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel forme est sensée avoir Auroville une fois sa construction achevée ?",
+      "answer": "Galaxie spirale",
+      "options": [
+        "Ovoïde",
+        "Galaxie spirale",
+        "Carré parfait",
+        "T renversé"
+      ],
+      "explanation": "Conçue par l'architecte français Roger Anger, Auroville est prévue pour accueillir 50 000 habitants une fois sa construction achevée.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-208",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_208.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-208-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien d'arbres et d'arbustes ont été plantés dans la cité d'Auroville ?",
+      "answer": "2 000 000",
+      "options": [
+        "8 000",
+        "90 000",
+        "2 000 000",
+        "500 000"
+      ],
+      "explanation": "À leur arrivée, les pionniers trouvèrent un site aride, sans eau, creusèrent des puits et installèrent des éoliennes.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-208",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_208.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-208-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle unité de travail d'Auroville est en charge de l'éducation ?",
+      "answer": "Aspiration",
+      "options": [
+        "Meadows",
+        "Aspiration",
+        "Aurelec",
+        "Nine Palms"
+      ],
+      "explanation": "Les Aurovilliens sont organisés en unités de travail, en charge notamment de l'informatique, de l'éducation ou de la santé.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-208",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_208.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-208-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel bâtiment d'Auroville avec amphithéâtres et cinémas est voué à la culture ?",
+      "answer": "Bharat Niwas",
+      "options": [
+        "Rangoli",
+        "Bharat Niwas",
+        "Charaka",
+        "Matrimandir"
+      ],
+      "explanation": "Un laboratoire des langues est un lieu commun d'échanges pour l'apprentissage des langues par l'écrit, l'audio, l'oral ou l'ordinateur.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-208",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_208.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-208-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle journaliste a participé à la création du pavillon de la culture tibétaine à Auroville ?",
+      "answer": "Ann Riquier",
+      "options": [
+        "Ursula Gauthier",
+        "Anne Chayet",
+        "Ann Riquier",
+        "Marcelle Lalou"
+      ],
+      "explanation": "Passionnée par le Tibet, elle a rencontré le 14e dalaï-lama et des membres du gouvernement tibétain en exil à Dharamsala.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-208",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_208.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-208-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel chercheur français des mondes à venir a dédié sa vie à Sri Aurobindo ?",
+      "answer": "Satprem",
+      "options": [
+        "Barry Long",
+        "Satprem",
+        "Osho",
+        "Paul Brunton"
+      ],
+      "explanation": "Aujourd'hui, 8 volumes d'autobiographie s'étendent de 1973 à 1987 et décrivent son travail en profondeur dans la conscience du corps.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-208",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_208.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-208-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Au nord de quelle ville d'Inde peut-on trouver la cité d'Auroville ?",
+      "answer": "Pondichéry",
+      "options": [
+        "Bangalore",
+        "Agra",
+        "Guntur",
+        "Pondichéry"
+      ],
+      "explanation": "Pour des raisons historiques, une minorité francophone non-négligeable existe toujours à Pondichéry, ville du Sud-Est de l'Inde.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-208",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_208.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-208-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À qui doit-on le roman « Made in Auroville, India » paru en 2004 ?",
+      "answer": "Monique Patenaude",
+      "options": [
+        "Fabienne Jagou",
+        "Monique Patenaude",
+        "Katia Buffetrille",
+        "Kim Yeshi"
+      ],
+      "explanation": "Tout d'abord professeur et artiste de scène, Monique Patenaude s'est progressivement engagée dans des projets d'art visuel.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-208",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_208.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-208-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel tantra s'inspire l'architecture du pavillon de la culture tibétaine à Auroville ?",
+      "answer": "Kalachakra",
+      "options": [
+        "Tenga",
+        "Milarepa",
+        "Gampopa",
+        "Kalachakra"
+      ],
+      "explanation": "Connu aussi chez les sakyapa et les kagyupa, le kalachakra était l'enseignement tantrique principal de l'école jonang.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-208",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_208.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

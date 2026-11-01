@@ -1,0 +1,798 @@
+{
+  "id": "oq-112",
+  "title": "Nice",
+  "originalTitle": "Nice",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_112.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-112-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sur quelle baie la célèbre et touristique promenade des Anglais se trouve-t-elle ?",
+      "answer": "Baie des Anges",
+      "options": [
+        "Baie des Canards",
+        "Baie des Requins",
+        "Baie des Dieux",
+        "Baie des Anges"
+      ],
+      "explanation": "Outre des manifestations nombreuses, la promenade était réputée pour ses « chaises bleues » et ses pergolas.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-112",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_112.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-112-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Avec quelle importante métropole brésilienne la ville de Nice est-elle jumelée ?",
+      "answer": "Rio de Janeiro",
+      "options": [
+        "Rio de Janeiro",
+        "Belo Horizonte",
+        "Salvador",
+        "Recife"
+      ],
+      "explanation": "La ville de Nice a menée une politique de jumelage particulièrement active, en raison de l'importance du tourisme pour son économie.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-112",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_112.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-112-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel cinéaste a dirigé le film 'La Nuit Américaine', tourné à Nice dans les studios Riviera ?",
+      "answer": "François Truffaut",
+      "options": [
+        "Jacques Demy",
+        "François Truffaut",
+        "Jean-Luc Godard",
+        "Claude Chabrol"
+      ],
+      "explanation": "Le film a été tourné aux Studios de la Victorine dans les décors de 'La Folle de Chaillot' ainsi qu'à l'hôtel Atlantic de Nice.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-112",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_112.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-112-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la couleur de la façade du Château de l'Anglais, construit à Nice de 1856 à 1858 ?",
+      "answer": "Rose",
+      "options": [
+        "Bleue",
+        "Jaune",
+        "Verte",
+        "Rose"
+      ],
+      "explanation": "De par sa couleur et sa forme, il demeure comme l’un des témoignages forts des folies qui sont érigées sur la Riviera.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-112",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_112.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-112-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment se prénomme le héros surfeur incarné par Jean Dujardin en 2005 ?",
+      "answer": "Brice",
+      "options": [
+        "Loris",
+        "Joris",
+        "Brice",
+        "Mathis"
+      ],
+      "explanation": "Apparu tout d'abord dans les sketches de Jean Dujardin, le personnage est ensuite devenu un héros de films.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-112",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_112.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-112-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien y a-t-il de lignes de tramway parcourant le centre et les alentours de Nice ?",
+      "answer": "1",
+      "options": [
+        "7",
+        "3",
+        "5",
+        "1"
+      ],
+      "explanation": "Dans les mois qui ont suivi le lancement du tramway, on comptabilisait entre 65 000 et 70 000 voyages quotidiens.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-112",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_112.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-112-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel café de Nice, construit au XIXe siècle, fut un lieu de rencontre des immigrés piémontais ?",
+      "answer": "Café de Turin",
+      "options": [
+        "Café de Turin",
+        "Café de Florence",
+        "Café de Milan",
+        "Café de Naples"
+      ],
+      "explanation": "Le café de Turin, situé place Garibaldi, reste encore aujourd'hui l'un des cafés les plus connus de la ville de Nice.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-112",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_112.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-112-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans combien de casinos pourrez-vous tenter de faire fortune à Nice ?",
+      "answer": "Deux",
+      "options": [
+        "Huit",
+        "Six",
+        "Deux",
+        "Quatre"
+      ],
+      "explanation": "Situés à une centaine de mètres l'un de l'autre, les casinos appartiennent aux deux plus grands groupes français.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-112",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_112.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-112-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Depuis 2001, à Nice, durant quel mois les musées sont-ils ouverts gratuitement aux jeunes ?",
+      "answer": "Mars",
+      "options": [
+        "Septembre",
+        "Mai",
+        "Juillet",
+        "Mars"
+      ],
+      "explanation": "Nice possède de nombreux musées, consacrés à l'art, à l'histoire, ou à l'histoire et aux traditions locales.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-112",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_112.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-112-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel peintre, auteur du tableau 'Le Déjeuner des canotiers', a eu un atelier à Nice de 1911 à 1919 ?",
+      "answer": "Auguste Renoir",
+      "options": [
+        "Pablo Picasso",
+        "Auguste Renoir",
+        "Claude Monet",
+        "Antoine Watteau"
+      ],
+      "explanation": "Membre du groupe impressionniste, Renoir évolue dans les années 1880 vers un style plus réaliste sous l'influence de Raphaël.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-112",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_112.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-112-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À base de quel poisson le plat niçois nommé « estocafic » est-il préparé ?",
+      "answer": "De morue",
+      "options": [
+        "De morue",
+        "De crevette",
+        "De thon",
+        "De sardine"
+      ],
+      "explanation": "L’usage de cuisiner et de consommer de la morue séchée provient de Scandinavie et notamment de Norvège.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-112",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_112.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-112-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces propositions ne désigne pas une gare ferroviaire de Nice ?",
+      "answer": "Nice-Arénas",
+      "options": [
+        "Nice-Ville",
+        "Nice-CP",
+        "Nice Saint-Augustin",
+        "Nice-Arénas"
+      ],
+      "explanation": "Grâce à une urbanisation linéaire et continue, tous les habitants de l'aire urbaine de Nice peuvent accéder au réseau TER.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-112",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_112.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-112-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est environ la longueur du réseau de tramway de la ville de Nice ?",
+      "answer": "9 km",
+      "options": [
+        "9 km",
+        "19 km",
+        "29 km",
+        "39 km"
+      ],
+      "explanation": "Le tramway de Nice est actuellement composé d'une seule ligne et exploité par la Régie Ligne d'Azur.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-112",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_112.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-112-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle église de l'Annonciation, située à Nice, a été complètement rénovée en 1685 ?",
+      "answer": "Sainte-Rita",
+      "options": [
+        "Sainte-Anne",
+        "Sainte-Cécile",
+        "Sainte-Carmen",
+        "Sainte-Rita"
+      ],
+      "explanation": "Elle porte également les noms de chapelle Saint-Jaume, chapelle Saint-Giaume et chapelle Sainte-Rita.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-112",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_112.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-112-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quel numéro de la promenade des Anglais se situe l'hôtel Negresco ?",
+      "answer": "Au 37",
+      "options": [
+        "Au 47",
+        "Au 27",
+        "Au 17",
+        "Au 37"
+      ],
+      "explanation": "Avec sa cinquième étoile obtenue en août 2009, il est l'un des rares survivants de l'hôtellerie du début du XXe siècle.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-112",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_112.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-112-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces joueurs de football n'a jamais évolué sous les couleurs de l'OGC Nice ?",
+      "answer": "Sonny Andreson",
+      "options": [
+        "Jacques Abardonado",
+        "Sonny Andreson",
+        "Just Fontaine",
+        "Hugo Lloris"
+      ],
+      "explanation": "Les terrains d'entraînement du groupe professionnel se situent au sein du parc des sports Charles-Ehrmann.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-112",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_112.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-112-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces propositions ne désigne pas un château de Nice ?",
+      "answer": "Gourdon",
+      "options": [
+        "L'Anglais",
+        "Gairaut",
+        "Gourdon",
+        "Valrose"
+      ],
+      "explanation": "Le château de Gourdon, dans les Alpes-Maritimes, est un château fortifié construit au Moyen Âge et remanié au VXIIe siècle.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-112",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_112.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-112-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "La chapelle du Saint-Sépulcre de Nice est également appelée chapelle des pénitents...",
+      "answer": "Bleus",
+      "options": [
+        "Noirs",
+        "Bleus",
+        "Rouges",
+        "Blancs"
+      ],
+      "explanation": "La façade est de style à la fois néoclassique et baroque tardif pour la partie supérieure. Le balcon a été rajouté en 1841.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-112",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_112.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-112-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le nom de la villa dans laquelle le musée Matisse s'est installé ?",
+      "answer": "Villa des Arènes",
+      "options": [
+        "Villa des Arènes",
+        "Villa Florentine",
+        "Villa Gillet",
+        "Villa Marlioz"
+      ],
+      "explanation": "La collection permanente du musée s'est constituée grâce à diverses donations, d'abord celle de Matisse en personne.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-112",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_112.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-112-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel rappeur, auteur des tubes 'On verra' et 'Reuf', est né à Nice ?",
+      "answer": "Nekfeu",
+      "options": [
+        "Kaaris",
+        "Nekfeu",
+        "Joey Starr",
+        "Booba"
+      ],
+      "explanation": "Son premier album solo, 'Feu', bénéficie d'une couverture médiatique importante ainsi que de critiques très positives.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-112",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_112.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-112-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quand le palais de la Méditerranée, fermé en 1978 pour cause financière, a-t-il rouvert ses portes ?",
+      "answer": "En 2004",
+      "options": [
+        "En 2004",
+        "En 2014",
+        "En 1984",
+        "En 1994"
+      ],
+      "explanation": "Ce luxueux complexe hôtelier est situé aux numéros 13 et 15 de la promenade des Anglais.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-112",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_112.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-112-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel écrivain niçois a donné son nom à une bibliothèque de la ville ouverte depuis 2002 ?",
+      "answer": "Louis Nucréa",
+      "options": [
+        "Louis Nucréa",
+        "Charles Calais",
+        "Jacques Barbéri",
+        "Jean-Claude Lattès"
+      ],
+      "explanation": "La bibliothèque municipale à vocation régionale de Nice (BMVR) est détentrice de la majeure partie de ses manuscrits.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-112",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_112.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-112-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quel écrivain et poète niçois doit-on l'hymne 'Nissa la bella' ?",
+      "answer": "Menica Rondelly",
+      "options": [
+        "Jorgi Tasso",
+        "Menica Rondelly",
+        "Claude Ber",
+        "Michel Grisolia"
+      ],
+      "explanation": "Menica Rondelly a écrit de nombreux textes et chansons en langue niçoise dont plusieurs pour le carnaval de Nice.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-112",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_112.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-112-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel fleuve long de plus de douze kilomètres traverse la ville de Nice ?",
+      "answer": "Le Magnan",
+      "options": [
+        "L'Arques",
+        "Le Golo",
+        "Le Magnan",
+        "Le Sée"
+      ],
+      "explanation": "À sec entre 2006 et 2013, avec un régime d'oued, le Magnan coule à nouveau en continu toute l'année.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-112",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_112.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-112-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces propositions désigne un fleuve côtier qui se jette dans la baie des Anges, à Nice ?",
+      "answer": "Le Paillon",
+      "options": [
+        "La Scie",
+        "La Durdent",
+        "Le Paillon",
+        "Le Nez"
+      ],
+      "explanation": "Malgré ses débordements, il est intimement lié à la vie quotidienne des Niçois car il représente sa principale source d’énergie.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-112",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_112.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-112-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a donné son nom au musée international d'art naïf de Nice grâce à ses donations ?",
+      "answer": "Anatole Jakovsky",
+      "options": [
+        "Ferdinand Desnos",
+        "André Bauchant",
+        "Anatole Jakovsky",
+        "Antonio Ligabue"
+      ],
+      "explanation": "Sa veuve a légué le reste de ses collections à la commune de Blainville-Crevon, non loin de Rouen.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-112",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_112.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-112-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "La cathédrale de quelle ville a inspiré la construction, à Nice, de la basilique Notre-Dame ?",
+      "answer": "Angers",
+      "options": [
+        "Reims",
+        "Angers",
+        "Tours",
+        "Lyon"
+      ],
+      "explanation": "Sa construction s'inscrivait dans le cadre d'une volonté des autorités de franciser la ville après l'annexion du comté de Nice à la France.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-112",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_112.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-112-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle grotte et site préhistorique se situe à Nice, aux pieds du mont Boron ?",
+      "answer": "Grotte du Lazaret",
+      "options": [
+        "Grotte du Lazaret",
+        "Grotte Chauvet",
+        "Grotte de la Balme",
+        "Grotte de Clamouse"
+      ],
+      "explanation": "La grotte est connue depuis 1826 et a fait l’objet de fouilles à partir de 1950 sous la direction de François Charles Ernest Octobon.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-112",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_112.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-112-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le style architectural de l'ancien hôtel de Nice, connu sous le nom d'Alhambra ?",
+      "answer": "Néo-mauresque",
+      "options": [
+        "Constructiviste",
+        "Gothique",
+        "Romano-byzantin",
+        "Néo-mauresque"
+      ],
+      "explanation": "L'hôtel ouvre en 1901. Il possède tout le confort pour attirer une clientèle fortunée pendant la saison qui se limite alors à l'hiver.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-112",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_112.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-112-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment s'appelle la structure habitable de la bibliothèque Louis-Nucréa de Nice ?",
+      "answer": "Tête Carrée",
+      "options": [
+        "Pied Rond",
+        "Dos Courbé",
+        "Tête Carrée",
+        "Main Plate"
+      ],
+      "explanation": "Nice comprend une bibliothèque centrale, onze bibliothèques de quartier et une bibliothèque patrimoniale et d’étude.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-112",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_112.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

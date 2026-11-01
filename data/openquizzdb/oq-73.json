@@ -1,0 +1,749 @@
+{
+  "id": "oq-73",
+  "title": "Basket européen",
+  "originalTitle": "Basket européen (Les stars sont sur le parquet)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_73.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    10,
+    29
+  ],
+  "questions": [
+    {
+      "id": "oqdb-73-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De combien de joueurs est composée une équipe de basket-ball sur le terrain ?",
+      "answer": "Cinq",
+      "options": [
+        "Six",
+        "Cinq",
+        "Sept",
+        "Onze"
+      ],
+      "explanation": "Le basket-ball fut inventé en 1891 par James Naismith, professeur d'éducation physique.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-73",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_73.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-73-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien y a-t-il de joueurs sur le terrain durant un match de basket-ball ?",
+      "answer": "10",
+      "options": [
+        "11",
+        "15",
+        "10",
+        "5"
+      ],
+      "explanation": "Basket-ball signifie littéralement en anglais « ballon panier », expression encore utilisée au Canada.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-73",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_73.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-73-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment est dénommé le championnat de France de basket-ball depuis 1993 ?",
+      "answer": "Pro A",
+      "options": [
+        "Pro A",
+        "Super G",
+        "B Pro",
+        "CFA"
+      ],
+      "explanation": "31 équipes ont remporté au moins un titre de champion de France depuis la première édition du championnat en 1921.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-73",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_73.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-73-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle association regroupe les équipes professionnelles de basket-ball en France ?",
+      "answer": "LNB",
+      "options": [
+        "Pro A",
+        "Super G",
+        "B Pro",
+        "LNB"
+      ],
+      "explanation": "La LNB est créée en 1987 bien que le premier championnat de France ait lieu en 1921.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-73",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_73.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-73-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le nombre maximum de points que peut réaliser un joueur en un tir en basket-ball ?",
+      "answer": "Trois",
+      "options": [
+        "Trois",
+        "Cinq",
+        "Six",
+        "Quatre"
+      ],
+      "explanation": "Ce sport est baptisé basket-ball, ce qui signifie littéralement « ballon panier ».",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-73",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_73.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-73-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Au basket-ball, comment appelle-t-on un « but » marqué avec le ballon ?",
+      "answer": "Un panier",
+      "options": [
+        "Un sac",
+        "Un caddie",
+        "Une boîte",
+        "Un panier"
+      ],
+      "explanation": "Un filet ouvert vers le bas, de 45 cm de diamètre, est attaché en-dessous du panier.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-73",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_73.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-73-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de temps a-t-on pour viser avant de lancer un panier au basket-ball ?",
+      "answer": "30 secondes",
+      "options": [
+        "30 secondes",
+        "45 secondes",
+        "10 secondes",
+        "20 secondes"
+      ],
+      "explanation": "Le basket-ball se pratique exclusivement à la main, et les joueurs ne peuvent se déplacer balle en main qu'en la dribblant au sol.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-73",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_73.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-73-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment appelle-t-on un arrêt de jeu au basket-ball ?",
+      "answer": "Un temps mort",
+      "options": [
+        "Un temps mort",
+        "Une zone press",
+        "Un entre-deux",
+        "Un dribble"
+      ],
+      "explanation": "Le basket-ball a été inventé en 1891 par James Naismith, un pasteur canadien.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-73",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_73.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-73-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de points vaut un panier normal au basket-ball ?",
+      "answer": "Deux",
+      "options": [
+        "Deux",
+        "Trois",
+        "Un",
+        "Quatre"
+      ],
+      "explanation": "En 2010, on compte plus de 500 millions de pratiquants à travers le monde.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-73",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_73.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-73-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Après 2000, quel pays est devenu le premier fournisseur de joueurs NBA non-américains ?",
+      "answer": "France",
+      "options": [
+        "France",
+        "Portugal",
+        "Suisse",
+        "Belgique"
+      ],
+      "explanation": "Douze français possédaient ainsi un contrat au début de la saison NBA 2010-2011, un record.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-73",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_73.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-73-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quelle distance du panier se trouve la ligne des lancers à 3 points en basket-ball ?",
+      "answer": "6m25",
+      "options": [
+        "6m15",
+        "6m20",
+        "6m25",
+        "6m30"
+      ],
+      "explanation": "Un lancer franc est une pénalité accordée à un joueur victime d'une faute.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-73",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_73.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-73-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En basket-ball, une accumulation de deux statistiques à deux chiffres est un...",
+      "answer": "Double-double",
+      "options": [
+        "Quadruple-double",
+        "Quintuple-double",
+        "Double-double",
+        "Triple-double"
+      ],
+      "explanation": "Les cinq catégories concernées sont : points,rebonds, passes décisives, interceptions et contres.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-73",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_73.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-73-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle joueuse de basket-ball française est singulièrement appelée « Beko » ?",
+      "answer": "Clémence Beikes",
+      "options": [
+        "Isabelle Yacoubou",
+        "Céline Dumerc",
+        "Sarah Michel",
+        "Clémence Beikes"
+      ],
+      "explanation": "Clémence Beikes a été faites Chevalier de l'ordre national du Mérite en 2013.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-73",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_73.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-73-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel dessin animé les fans de Tony Parker peuvent-ils le retrouver ?",
+      "answer": "Baskup",
+      "options": [
+        "Turbo",
+        "Capital",
+        "Sport 6",
+        "Baskup"
+      ],
+      "explanation": "« Baskup - Tony Parker » est une série télévisée d'animation française diffusée sur M6 depuis le 21 septembre 2011.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-73",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_73.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-73-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel joueur de basket-ball français a reçu le surnom de « 3D » ?",
+      "answer": "Boris Diaw",
+      "options": [
+        "Michael Mokongo",
+        "Nicolas Batum",
+        "Ian Mahinmi",
+        "Boris Diaw"
+      ],
+      "explanation": "Boris Diaw est capable d'évoluer à chacun des cinq postes du basket-ball, fait rare dans le basket-ball professionnel.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-73",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_73.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-73-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel a été le premier mensuel spécialiste du basket-ball en France ?",
+      "answer": "Maxi-Basket",
+      "options": [
+        "Basket Hebdo",
+        "Basket Time",
+        "Maxi-Basket",
+        "Basket News"
+      ],
+      "explanation": "« Maxi-Basket » était plutôt axé sur le basket-ball français mais ne se limitait pas à ce terrain d'expression.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-73",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_73.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-73-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En France, combien de clubs professionnels se disputent chaque année le Pro A ?",
+      "answer": "16",
+      "options": [
+        "28",
+        "20",
+        "24",
+        "16"
+      ],
+      "explanation": "Pour la saison 2014-15, le budget moyen d'un club de Pro A s'établit à 4,65 millions d'euros.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-73",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_73.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-73-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle formation détient un titre de championne du monde 2006 de basket-ball ?",
+      "answer": "Espagne",
+      "options": [
+        "Espagne",
+        "France",
+        "Portugal",
+        "Suisse"
+      ],
+      "explanation": "Le basket-ball est géré en Espagne par la Fédération espagnole de basket-ball (FEB) fondée en 1923.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-73",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_73.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-73-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui est depuis 2009 sélectionneur de l'équipe de France masculine de basket-ball ?",
+      "answer": "Vincent Collet",
+      "options": [
+        "Didier Dobbels",
+        "Jean Perniceni",
+        "Vincent Collet",
+        "Didier Gadou"
+      ],
+      "explanation": "C'est au club de l'AL Montivilliers, où son père occupe un poste d'homme à tout faire, que Vincent Collet a découvert le basket-ball.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-73",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_73.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-73-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En basket-ball, quelle médaille les Bleus ont-ils décroché aux J.O. De 1948 ?",
+      "answer": "Argent",
+      "options": [
+        "Argent",
+        "Or",
+        "Aucune",
+        "Bronze"
+      ],
+      "explanation": "Il s'agit de sa deuxième participation après les Jeux Olympiques de Berlin en 1936.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-73",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_73.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-73-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle fédération défend les intérêts moraux et matériels du basket-ball belge ?",
+      "answer": "FLBB",
+      "options": [
+        "FLBB",
+        "FBBL",
+        "MLB",
+        "LNB"
+      ],
+      "explanation": "Elle représente le basket-ball auprès des pouvoirs publics ainsi qu'auprès des organismes sportifs nationaux et internationaux.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-73",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_73.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-73-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En février 2008, quel entraîneur a retrouvé les joueurs de basket-ball français ?",
+      "answer": "Michel Gomez",
+      "options": [
+        "Michel Leray",
+        "Alain Gilles",
+        "Michel Gomez",
+        "Yvan Mainini"
+      ],
+      "explanation": "En 2009, un nouveau sélectionneur sera toutefois nommé en la personne de Vincent Collet.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-73",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_73.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-73-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En mai 2007, quelle ville est redevenue championne de France de basket-ball ?",
+      "answer": "Roanne",
+      "options": [
+        "Tours",
+        "Villeurbanne",
+        "Roanne",
+        "Le Mans"
+      ],
+      "explanation": "Ce titre a permis à la ville de Roanne d'obtenir un précieux billet pour l'Euroligue.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-73",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_73.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-73-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel docteur et professeur en médecine est connu pour avoir inventé le basket-ball ?",
+      "answer": "James Naismith",
+      "options": [
+        "Martin Roy",
+        "Gordon Herbert",
+        "James Naismith",
+        "Jacques Dextraze"
+      ],
+      "explanation": "Durant sa jeunesse, James Naismith était un gymnaste et un joueur de football canadien de haut niveau à l'université McGill.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-73",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_73.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-73-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel rappeur français est le frère aîné du joueur de basket-ball Mamoutou Diarra ?",
+      "answer": "Oxmo Puccino",
+      "options": [
+        "Fabe",
+        "Joe Dalton",
+        "Oxmo Puccino",
+        "Busta Flex"
+      ],
+      "explanation": "L'écriture d'Oxmo Puccino est basée sur les métaphores et les phrases chocs.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-73",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_73.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-73-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En basket-ball, quel club a raflé en 2012 sa deuxième Euroligue face au CSKA Moscou ?",
+      "answer": "Olympiakos",
+      "options": [
+        "Olympiakos",
+        "Badalone",
+        "KK Split",
+        "Galatasaray"
+      ],
+      "explanation": "Il s'agit d'une section du club omnisports de l'Olympiakos, basé dans la ville du Pirée.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-73",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_73.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-73-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel basketteur a le plus progressé en Pro A lors de la saison 2009-2010 ?",
+      "answer": "Kevin Séraphin",
+      "options": [
+        "Evan Fournier",
+        "Rodrigue Beaubois",
+        "Kevin Séraphin",
+        "Edwin Jackson"
+      ],
+      "explanation": "Kevin Séraphin comptabilise 10 double-double au terme de la saison 2014/2015.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-73",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_73.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-73-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de championnats du monde l'équipe de Suisse de basket-ball a-t-elle disputé ?",
+      "answer": "Aucun",
+      "options": [
+        "Trois",
+        "Aucun",
+        "Un seul",
+        "Deux"
+      ],
+      "explanation": "Le basket-ball en Suisse est un sport marginal dans le pays avec un peu plus de 15 000 licenciés.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-73",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_73.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

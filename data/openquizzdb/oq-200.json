@@ -1,0 +1,798 @@
+{
+  "id": "oq-200",
+  "title": "Incollable",
+  "originalTitle": "Incollable (De la culture générale à l'état brut)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_200.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-200-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien y a-t-il de mois de 31 jours dans une année ?",
+      "answer": "Sept",
+      "options": [
+        "Deux",
+        "Cinq",
+        "Six",
+        "Sept"
+      ],
+      "explanation": "Chez les Bretons, à la conquête romaine, le temps humain s'est calqué sur l'agriculture et les mois duraient ainsi 28 jours.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-200",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_200.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-200-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Avec quel pays la Suisse partage-t-elle la plus longue frontière ?",
+      "answer": "France",
+      "options": [
+        "France",
+        "Allemagne",
+        "Luxembourg",
+        "Belgique"
+      ],
+      "explanation": "La Suisse est bordée par l'Italie au sud, la France à l'ouest, l'Allemagne au nord, l'Autriche et le Liechtenstein à l'est.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-200",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_200.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-200-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle couleur peut être associée à une fièvre, un nain ou un rire ?",
+      "answer": "Jaune",
+      "options": [
+        "Orange",
+        "Jaune",
+        "Bleue",
+        "Rouge"
+      ],
+      "explanation": "La fièvre jaune est longtemps restée un obstacle à la colonisation de l'Amérique du Sud mais également de l'Afrique.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-200",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_200.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-200-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le point commun entre une tente, un gréviste et une punition ?",
+      "answer": "Piquet",
+      "options": [
+        "Crochet",
+        "Piquet",
+        "Ficelle",
+        "Toile"
+      ],
+      "explanation": "Un piquet de grève peut avoir plusieurs objets, mais c'est généralement dans le but de faire pression contre la direction.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-200",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_200.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-200-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel récipient conçu pour recevoir des liquides désigne aussi le ventre des enfants ?",
+      "answer": "Bidon",
+      "options": [
+        "Bidon",
+        "Bol",
+        "Verre",
+        "Bouteille"
+      ],
+      "explanation": "Le bidon s'apparente parfois à un tonneau ou à une bouteille, et dispose d'un goulot ou d'un couvercle de fermeture.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-200",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_200.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-200-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel chanteur français a vendu sept millions de 33 tours du « Lac du Connemara » ?",
+      "answer": "Michel Sardou",
+      "options": [
+        "Jacques Brel",
+        "Gérard Lenorman",
+        "Michel Sardou",
+        "Pierre Bachelet"
+      ],
+      "explanation": "Jugeant la chanson trop longue (plus de 6 minutes), Michel Sardou ne voulait pas la sortir, mais Jacques Revaux la gardera.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-200",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_200.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-200-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel fruit le Frère Clément a-t-il créé en 1900 pour notre plus grand bonheur ?",
+      "answer": "Clémentine",
+      "options": [
+        "Mandarine",
+        "Nectarine",
+        "Clémentine",
+        "Orange"
+      ],
+      "explanation": "La clémentine est un fruit vert à maturité, qui ne devient orange que sous l'effet de la baisse de température hivernale.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-200",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_200.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-200-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Selon l'expression, quand est-il préférable de ne pas chercher midi ?",
+      "answer": "À 14 heures",
+      "options": [
+        "À 14 heures",
+        "La nuit",
+        "Sous la pluie",
+        "Dans le noir"
+      ],
+      "explanation": "Un médicament que l'on doit prendre matin, midi, et soir ne doit pas être pris forcément à midi pile mais à l'heure de la mi-journée.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-200",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_200.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-200-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "La peau de quel animal ne faut-il pas vendre avant de l'avoir tué ?",
+      "answer": "Ours",
+      "options": [
+        "Lapin",
+        "Lion",
+        "Tigre",
+        "Ours"
+      ],
+      "explanation": "« Il ne faut pas vendre la peau de l'ours avant de l'avoir tué » a été popularisé par La Fontaine dans « L'Ours et les deux compagnons ».",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-200",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_200.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-200-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qu'est-ce qui peut être de laine, d'avoine ou de neige ?",
+      "answer": "Flocon",
+      "options": [
+        "Bas",
+        "Glaçon",
+        "Fil",
+        "Flocon"
+      ],
+      "explanation": "Le flocon de laine de roche est parfois utilisé pour l'isolation des combles perdus par épandage manuel au râteau.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-200",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_200.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-200-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Avant de vivre à Rome, dans quelle autre ville les Papes avaient-ils l'habitude de résider ?",
+      "answer": "Avignon",
+      "options": [
+        "Toulon",
+        "Avignon",
+        "Amiens",
+        "Poitiers"
+      ],
+      "explanation": "La ville d'Avignon est encore aujourd'hui surnommée la cité des papes en raison de la présence des papes de 1309 à 1423.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-200",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_200.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-200-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel animal relativement peu gracieux porte le nom de cheval du fleuve ?",
+      "answer": "Hippopotame",
+      "options": [
+        "Crocodile",
+        "Hippopotame",
+        "Éléphant",
+        "Girafe"
+      ],
+      "explanation": "De nombreuses espèces ont disparu mais il en existe toujours deux espèces vivantes : l'hippopotame dit amphibie et l'hippopotame nain.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-200",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_200.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-200-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces quatre langues est statistiquement la plus parlée en Suisse ?",
+      "answer": "Allemand",
+      "options": [
+        "Allemand",
+        "Italien",
+        "Français",
+        "Suisse"
+      ],
+      "explanation": "Environ 9 % de la population suisse issue notamment de l'immigration utilise principalement une langue non nationale.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-200",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_200.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-200-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment s'écrit le nombre 54 en chiffres romains, étudiés lors des cours de latin ?",
+      "answer": "LIV",
+      "options": [
+        "VCC",
+        "XXXIV",
+        "LIV",
+        "CIV"
+      ],
+      "explanation": "Ces abréviations ne permettaient pas à leurs utilisateurs de faire des calculs qui étaient alors effectués au moyen d'abaques.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-200",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_200.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-200-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces propositions désigne une vinaigrette présente dans nos assiettes ?",
+      "answer": "Ravigote",
+      "options": [
+        "Béarnaise",
+        "Béchamel",
+        "Ravigote",
+        "Lyonnaise"
+      ],
+      "explanation": "La sauce ravigote, légèrement acide, contient du vinaigre, des échalotes ou des oignons, des câpres et des herbes.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-200",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_200.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-200-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle partie basse d'un bateau peut être renversée au bowling ?",
+      "answer": "Quille",
+      "options": [
+        "Tige",
+        "Rampe",
+        "Quille",
+        "Barre"
+      ],
+      "explanation": "Dans la marine à voile, la quille est la pièce de charpente de base à partir de laquelle la coque est construite.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-200",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_200.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-200-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la longueur des buts qu'un gardien doit protéger au handball ?",
+      "answer": "3 m",
+      "options": [
+        "3 m",
+        "4 m",
+        "5 m",
+        "2 m"
+      ],
+      "explanation": "Le but doit être muni à l'arrière d'un filet suspendu pour que le ballon qui y entre ne puisse rebondir ou ressortir immédiatement.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-200",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_200.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-200-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel côté de la Floride la ville de Miami se trouve-t-elle ?",
+      "answer": "Sud",
+      "options": [
+        "Sud",
+        "Ouest",
+        "Nord",
+        "Est"
+      ],
+      "explanation": "Ville de loisirs, Miami est une station balnéaire de renommée mondiale qui fait partie d'un chapelet de stations depuis Key West.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-200",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_200.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-200-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle partie du chêne de nos forêts nous donne le tan (ou tanin) ?",
+      "answer": "Écorce",
+      "options": [
+        "Écorce",
+        "Feuilles",
+        "Branches",
+        "Gland"
+      ],
+      "explanation": "En Europe, le chêne a été très utilisé pour son bois, son liège, son écorce et ses glands (dont on faisait autrefois de la farine).",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-200",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_200.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-200-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel nom scientifique (ou genre) est attribué au cobra ?",
+      "answer": "Naja",
+      "options": [
+        "Pallida",
+        "Mossambica",
+        "Colubrina",
+        "Naja"
+      ],
+      "explanation": "Le cobra a la particularité de gonfler son cou lorsqu'il est en colère et ainsi paraître plus gros aux yeux de son adversaire.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-200",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_200.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-200-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel roi de l'Empire néo-babylonien fit jeter Daniel dans la fournaise ?",
+      "answer": "Nabuchodonosor",
+      "options": [
+        "Amel-Marduk",
+        "Balthazar",
+        "Nabopolassar",
+        "Nabuchodonosor"
+      ],
+      "explanation": "Nabuchodonosor a régné sur le plus vaste empire qu'ait dominé Babylone, ville où il a fait ériger de nombreux monuments.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-200",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_200.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-200-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel mot peut désigner le nouveau né du cerf, du chevreuil ou du daim ?",
+      "answer": "Faon",
+      "options": [
+        "Brocard",
+        "Hère",
+        "Faon",
+        "Daguet"
+      ],
+      "explanation": "La particularité des cervidés est de porter des bois, organes osseux caducs présents sur la tête des mâles.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-200",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_200.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-200-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "La Costa Brava espagnole est le prolongement de quelle côte française ?",
+      "answer": "Côte Vermeille",
+      "options": [
+        "Côte Vermeille",
+        "Côte de Jade",
+        "Côte Fleurie",
+        "Côte de Lumière"
+      ],
+      "explanation": "Le rivage méditerranéen des Pyrénées est depuis le 1er février 2002 inscrit par l'UNESCO sur la liste du Patrimoine mondial.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-200",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_200.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-200-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel océan se situent les quarantièmes rugissants ?",
+      "answer": "Atlantique",
+      "options": [
+        "Indien",
+        "Antarctique",
+        "Atlantique",
+        "Pacifique"
+      ],
+      "explanation": "Les vents des quarantièmes rugissants ont joué un rôle significatif dans le choix de la route suivie par les clippers.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-200",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_200.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-200-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de fois Björn Borg a-t-il gagné le tournoi de Wimbledon ?",
+      "answer": "Cinq fois",
+      "options": [
+        "Cinq fois",
+        "Six fois",
+        "Sept fois",
+        "Huit fois"
+      ],
+      "explanation": "Après sa carrière, il eut des problèmes avec le fisc suédois et fut contraint de déposer le bilan de sa société Björn Borg Design Group.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-200",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_200.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-200-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le nom actuel de l'ancien Soudan français situé en Afrique de l'Ouest ?",
+      "answer": "Mali",
+      "options": [
+        "Ghana",
+        "Liberia",
+        "Bénin",
+        "Mali"
+      ],
+      "explanation": "La devise du Mali est « un peuple, un but, une foi » et son drapeau est constitué de trois bandes verticales verte, jaune et rouge.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-200",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_200.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-200-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel nom donne-t-on aux amoncellements sableux du Sahara ?",
+      "answer": "Ergs",
+      "options": [
+        "Ergs",
+        "Mesas",
+        "Gueltas",
+        "Yardangs"
+      ],
+      "explanation": "Les ergs occupent environ 20 % de la surface du Sahara, certains ayant commencé à se former au cours du Pléistocène.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-200",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_200.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-200-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quelle ville Giovanni Antonio Canal, dit Canaletto, a-t-il consacré sa vie ?",
+      "answer": "Venise",
+      "options": [
+        "Milan",
+        "Naples",
+        "Venise",
+        "Rome"
+      ],
+      "explanation": "Avec Giambattista Pittoni et Giovanni Battista Tiepolo, il est l'un des principaux Vieux maîtres italiens de la Renaissance vénitienne.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-200",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_200.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-200-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Aux échecs, quel coup déplace simultanément un roi et une tour ?",
+      "answer": "Roque",
+      "options": [
+        "Roque",
+        "Trait",
+        "Gambit",
+        "Clouage"
+      ],
+      "explanation": "Il s'agit du seul coup légal permettant de déplacer deux pièces, sans respecter le déplacement classique du roi et de la tour de surcroît.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-200",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_200.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-200-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quel sport associez-vous le nom du célébrissime et talentueux Jo DiMaggio ?",
+      "answer": "Base-ball",
+      "options": [
+        "Golf",
+        "Base-ball",
+        "Football",
+        "Boxe"
+      ],
+      "explanation": "Joe DiMaggio est également connu pour avoir épousé Marilyn Monroe en 1954, après sa retraite sportive en 1951.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-200",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_200.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

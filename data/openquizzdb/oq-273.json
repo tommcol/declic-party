@@ -1,0 +1,798 @@
+{
+  "id": "oq-273",
+  "title": "Virginie à l'écran",
+  "originalTitle": "Virginie à l'écran (Une Virginie peut en cacher une autre)",
+  "universe": "film",
+  "emoji": "🎬",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_273.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-273-1",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle actrice française a joué aux côtés de Di Caprio dans « La Plage » ?",
+      "answer": "Virginie Ledoyen",
+      "options": [
+        "Virginie Sauveur",
+        "Virginie Marsan",
+        "Virginie Efira",
+        "Virginie Ledoyen"
+      ],
+      "explanation": "Le film a été tourné dans le sud de la Thaïlande, à l'Hôtel On On de Phuket et sur l'île de Koh Phi Phi Lee (au sud de Koh Phi Phi Don).",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-273",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_273.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-273-2",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle actrice belge a eu « 20 ans d'écart » dans un de ses films ?",
+      "answer": "Virginie Efira",
+      "options": [
+        "Virginie Hocq",
+        "Virginie Haro",
+        "Virginie Wagon",
+        "Virginie Efira"
+      ],
+      "explanation": "Virginie Efira a une soeur joueuse de football américain, un premier frère peintre et un second qui construit des cabanes en Amérique.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-273",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_273.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-273-3",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle actrice interprète en 2014 Elizabeth Frankenstein dans « I, Frankenstein » ?",
+      "answer": "Virginie Le Brun",
+      "options": [
+        "Virginie Pauc",
+        "Virginie Peignien",
+        "Virginie Joal",
+        "Virginie Le Brun"
+      ],
+      "explanation": "En France, le film a reçu un accueil négatif, notamment sur le site Allociné, avec une note de 1,9/5 par la presse pour 9 critiques.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-273",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_273.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-273-4",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle Virginie retrouve-t-on dans « Les Rois Mages » de Didier Bourdon et Bernard Campan ?",
+      "answer": "Virginie de Clausade",
+      "options": [
+        "Virginie de Clausade",
+        "Virginie Efira",
+        "Virginie De Deo",
+        "Virginie Ledoyen"
+      ],
+      "explanation": "En 2016, Virginie de Clausade a publié son premier ouvrage « De bruit et de fureur » consacré aux derniers moments de Thierry Le Luron.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-273",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_273.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-273-5",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle comédienne belge a incarné Mylène dans le film « Bambou » de Didier Bourdon ?",
+      "answer": "Virginie Hocq",
+      "options": [
+        "Virginie Ledieu",
+        "Virginie Yrle",
+        "Virginie Efira",
+        "Virginie Hocq"
+      ],
+      "explanation": "En 2015, elle est également au générique de la nouvelle série de TF1 « Presque Parfaite », avec Claudia Tagbo et Arié Elmaleh.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-273",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_273.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-273-6",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle actrice est connue pour être la voix française de Meg Ryan ?",
+      "answer": "Virginie Ledieu",
+      "options": [
+        "Virginie Ledieu",
+        "Virginie Sauveur",
+        "Virginie Soum",
+        "Virginie Vral"
+      ],
+      "explanation": "Née en 1960, Virginie Ledieu a également tenu le rôle remarqué d'Agnès Revel dans la série télévisée française « Plus belle la vie ».",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-273",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_273.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-273-7",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quel film de Jean-Claude Benhamou Virginie Robert tient-elle le rôle principal ?",
+      "answer": "Virginie",
+      "options": [
+        "Patricia",
+        "Monique",
+        "Virginie",
+        "Delphine"
+      ],
+      "explanation": "Virginie Robert a également joué dans « L'âge de raison » (2010), « Les Gauloises blondes » (1988) ainsi que dans la série « Maigret » (1992).",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-273",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_273.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-273-8",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle actrice a réalisé le court métrage « Juste une heure », de nombreuses fois primé ?",
+      "answer": "Virginie Peignien",
+      "options": [
+        "Virginie De Deo",
+        "Virginie Sala",
+        "Virginie Joal",
+        "Virginie Peignien"
+      ],
+      "explanation": "Cette actrice, scénariste et réalisatrice française est apparue dans de nombreuses séries télé comme « Central Nuit » ou « Julie Lescaut ».",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-273",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_273.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-273-9",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui est connue pour son rôle du major Mathilde Delmas dans « Section de recherches » ?",
+      "answer": "Virginie Caliari",
+      "options": [
+        "Virginie Caliari",
+        "Virginie Amar",
+        "Virginie Alix",
+        "Virginie de Clausade"
+      ],
+      "explanation": "Elle a fait également des apparitions dans les séries « Commissaire Magellan » en 2013, « Camping Paradis » en 2014 et « Cherif » en 2015.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-273",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_273.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-273-10",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui est la voix de Nani, la soeur de Lilo, dans le film d'animation « Lilo et Stitch » ?",
+      "answer": "Virginie Mery",
+      "options": [
+        "Virginie Haro",
+        "Virginie Sala",
+        "Virginie Pauc",
+        "Virginie Mery"
+      ],
+      "explanation": "Essentiellement active dans le doublage, elle est notamment la voix française régulière de Tiffani-Amber Thiessen, Teri Polo et Liv Tyler.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-273",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_273.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-273-11",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quel film policier réalisé par Jean-Claude Roy Virginie Jonot a-t-elle joué ?",
+      "answer": "L'Insolent",
+      "options": [
+        "L'indic",
+        "L'Insolent",
+        "Interdit de séjour",
+        "Inspecteur Lavardin"
+      ],
+      "explanation": "Après s'être évadé de prison, Emmanuel Ristack, un truand américain surnommé l'Insolent, décide d'attaquer un fourgon.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-273",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_273.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-273-12",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle Virginie a participé à la fois à « La Boum » et « La Boum 2 » ?",
+      "answer": "Virginie Nègre",
+      "options": [
+        "Virginie Ledoyen",
+        "Virginie Emane",
+        "Virginie Marsan",
+        "Virginie Nègre"
+      ],
+      "explanation": "« La Boum » est une comédie romantique qui a connu un triomphe avec 4.300.000 entrées en France et 15.000.000 en Europe.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-273",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_273.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-273-13",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle Virginie a joué dans la série télévisée française « Un et un font six » ?",
+      "answer": "Virginie Joal",
+      "options": [
+        "Virginie Haro",
+        "Virginie Joal",
+        "Virginie Sala",
+        "Virginie Marsan"
+      ],
+      "explanation": "Cette histoire de familles françaises recomposées proposée en une seule saison de huit épisodes fut diffusée entre 1997 et 2000.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-273",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_273.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-273-14",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle Virginie a joué dans la série « La Commanderie » diffusée en 2010 sur France3 ?",
+      "answer": "Virginie Soum",
+      "options": [
+        "Virginie Brun",
+        "Virginie De Deo",
+        "Virginie Darmon",
+        "Virginie Soum"
+      ],
+      "explanation": "« La Commanderie » est une série télévisée française en 8 épisodes de 52 minutes diffusée entre le 10 avril et le 24 avril 2010 sur France 3.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-273",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_273.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-273-15",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui incarne Fatiah aux côtés de Virginie Ledoyen dans « La Fille seule » ?",
+      "answer": "Virginie Emane",
+      "options": [
+        "Virginie Haro",
+        "Virginie Vral",
+        "Virginie Emane",
+        "Virginie Prin"
+      ],
+      "explanation": "Pour ce film fortement soutenu par la critique, Virginie Ledoyen sera nominée aux César dans la catégorie meilleur espoir féminin.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-273",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_273.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-273-16",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui a reçu le Grand Prix du Festival de Lille pour son court-métrage « Grandir » ?",
+      "answer": "Virginie Wagon",
+      "options": [
+        "Virginie Roy",
+        "Virginie Wagon",
+        "Virginie Mery",
+        "Virginie Hocq"
+      ],
+      "explanation": "Diplômée de l'European Business School, Virginie Wagon est très proche du réalisateur Érick Zonca qui la soutient depuis ses débuts.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-273",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_273.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-273-17",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle actrice a enregistré en 2011 un premier album avec le frère de Seal ?",
+      "answer": "Virginie Pauc",
+      "options": [
+        "Virginie Peignien",
+        "Virginie Ledieu",
+        "Virginie Pauc",
+        "Virginie Darmon"
+      ],
+      "explanation": "Virginie Pauc est également une comédienne de théâtre tournant dans de nombreuses publicités nationales et internationales.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-273",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_273.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-273-18",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quel film Virginie Amar faisait-elle partie des champions de dactylo ?",
+      "answer": "Populaire",
+      "options": [
+        "Plan de table",
+        "Par amour",
+        "Populaire",
+        "La Pirogue"
+      ],
+      "explanation": "Régis Roinsard a eu l'idée du film en 2004 lorsqu'il est tombé sur un documentaire autour de l'histoire de la machine à écrire.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-273",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_273.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-273-19",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle comédienne a fondé la compagnie « A Corps' Intimes » en 2013 ?",
+      "answer": "Virginie Sala",
+      "options": [
+        "Virginie Sala",
+        "Virginie Nègre",
+        "Virginie Mery",
+        "Virginie Wagon"
+      ],
+      "explanation": "Virginie Sala a joué dans « Blanc » d'Emmanuelle Marie, dans « La Nuit des Rois » de Julie Goudard et fut à l'affiche de « Made in Femina ».",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-273",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_273.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-273-20",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui interprète le rôle de Cécile dans le film « J'ai oublié de te dire... » ?",
+      "answer": "Virginie Haro",
+      "options": [
+        "Virginie Alix",
+        "Virginie Haro",
+        "Virginie De Deo",
+        "Virginie Sauveur"
+      ],
+      "explanation": "Ce film franco-belgo-espagnol, réalisé par Laurent Vinas-Raymond, fut tourné en 2008 dans les Pyrénées-Orientales.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-273",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_273.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-273-21",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui a incarné La Bavarde dans « Le Pacte des loups » de Christophe Gans ?",
+      "answer": "Virginie Darmon",
+      "options": [
+        "Virginie Nègre",
+        "Virginie Le Brun",
+        "Virginie Wagon",
+        "Virginie Darmon"
+      ],
+      "explanation": "Née en 1968, fille de Gérard Darmon et de Nicole Recoule, Virginie Darmon a joué dans « Navarro » et « Commissaire Valence ».",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-273",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_273.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-273-22",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle Virginie a réalisé certains épisodes de la saison 4 d'« Engrenages » pour Canal+ ?",
+      "answer": "Virginie Sauveur",
+      "options": [
+        "Virginie Sauveur",
+        "Viriginie Robert",
+        "Virginie Prin",
+        "Virginie Soum"
+      ],
+      "explanation": "C'est sur le tournage de sa réalisation « Celui qui reste » qu'elle rencontrera Martine Chevallier, sociétaire de la Comédie Française.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-273",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_273.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-273-23",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle actrice a interprété Christine Barbieux dans la série « Demain le monde » ?",
+      "answer": "Virginie Brun",
+      "options": [
+        "Virginie Brun",
+        "Viriginie Robert",
+        "Virginie Soum",
+        "Virginie Darmon"
+      ],
+      "explanation": "C'est au comédien français Frédéric Proust que nous devons le scénario de la série « Demain le Monde », diffusée en 2004 sur Canal+.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-273",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_273.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-273-24",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle Virginie a-t-on pu voir dans « Deux cloches dans la neige », sorti en 1977 ?",
+      "answer": "Virginie De Deo",
+      "options": [
+        "Virginie De Deo",
+        "Virginie Wagon",
+        "Virginie Le Brun",
+        "Virginie Emane"
+      ],
+      "explanation": "Deux Français peu dégourdis se font repérer par des trafiquants de drogue cherchant à les utiliser pour faire passer de l'héroïne.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-273",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_273.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-273-25",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quelle série télévisée a-t-on pu rapidement apercevoir l'actrice Virginie Alix ?",
+      "answer": "Paradis d'enfer",
+      "options": [
+        "Docteur Sylvestre",
+        "Paradis d'enfer",
+        "Cas de divorce",
+        "Le Bahut"
+      ],
+      "explanation": "« Paradis d'enfer » est une série télévisée française de 40 épisodes de 25 minutes créée par Christian Bouveron.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-273",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_273.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-273-26",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle Virginie a interprété une danseuse dans le film « Quand je vois le soleil » ?",
+      "answer": "Virginie Yrle",
+      "options": [
+        "Viriginie Robert",
+        "Virginie Le Brun",
+        "Virginie Yrle",
+        "Virginie Soum"
+      ],
+      "explanation": "Ce film est un hommage à l'actrice Lyne Chardonnet, décédée d'un cancer du foie à l'âge de 37 ans, épouse de Jacques Cortal.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-273",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_273.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-273-27",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui a joué aux côtés d'Anne Coessens et de Sagamore Stévenin dans « Cages » ?",
+      "answer": "Virginie Roy",
+      "options": [
+        "Virginie Roy",
+        "Virginie Sala",
+        "Virginie Joal",
+        "Virginie Mery"
+      ],
+      "explanation": "Le prénom Sagamore tient son origine d'un terme amérindien anglicisé qui signifie le chef suprême de tribus.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-273",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_273.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-273-28",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle Virginie a joué dans le court-métrage « Belgium Strikes Back », sorti en 1999 ?",
+      "answer": "Virginie Vral",
+      "options": [
+        "Virginie Pauc",
+        "Virginie Brun",
+        "Virginie Vral",
+        "Virginie Hocq"
+      ],
+      "explanation": "On retrouve dans le court métrage les mêmes catégories que dans le long métrage : documentaire, fiction, animation, politique...",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-273",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_273.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-273-29",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui interprète le rôle de Giusy dans la comédie italienne « A spasso nel tempo » ?",
+      "answer": "Virginie Marsan",
+      "options": [
+        "Virginie Marsan",
+        "Virginie Emane",
+        "Virginie Peignien",
+        "Virginie Wagon"
+      ],
+      "explanation": "Virginie Marsan, actrice née en 1985 à Monaco vue dans « Piper » de Carlo Vanzina, a pour parents Lisa Melidoni et Jean Claude Marsan.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-273",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_273.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-273-30",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle Virginie a-t-on pu apercevoir dans « La guerre est déclarée », de Valérie Donzelli ?",
+      "answer": "Virginie Prin",
+      "options": [
+        "Virginie Joal",
+        "Virginie Prin",
+        "Virginie Wagon",
+        "Virginie Ledieu"
+      ],
+      "explanation": "Le film « La guerre est déclarée », nominé six fois aux César, a obtenu en sélection officielle le grand prix du Festival du film de Cabourg.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-273",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_273.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

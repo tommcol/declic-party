@@ -1,0 +1,749 @@
+{
+  "id": "oq-104",
+  "title": "Canada",
+  "originalTitle": "Canada",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_104.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    10,
+    20
+  ],
+  "questions": [
+    {
+      "id": "oqdb-104-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En combien de provinces le Canada est-il divisé en plus des trois territoires fédéraux ?",
+      "answer": "10 provinces",
+      "options": [
+        "4 provinces",
+        "10 provinces",
+        "50 provinces",
+        "6 provinces"
+      ],
+      "explanation": "Les provinces sont des États fédérés possédant des pouvoirs souverains, indépendamment du gouvernement fédéral.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-104",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_104.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-104-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelles sont les deux couleurs du drapeau du Québec, révélé pour la première fois en 1948 ?",
+      "answer": "Le bleu et le blanc",
+      "options": [
+        "Le bleu et le blanc",
+        "Le rouge et le bleu",
+        "Le bleu et le rouge",
+        "Le rouge et le blanc"
+      ],
+      "explanation": "Le drapeau national du Québec est composé d'une croix blanche et de quatre fleurs de lys blanches sur fond azur.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-104",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_104.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-104-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel festival se déroulant chaque année à Montréal au Québec a pour thème le rire ?",
+      "answer": "Juste pour rire",
+      "options": [
+        "Venir et rire",
+        "Rions un peu",
+        "Juste pour rire",
+        "Rire en famille"
+      ],
+      "explanation": "Créé en 1983 par Gilbert Rozon, le festival 'Juste pour rire' est le plus gros événement du genre sur la planète.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-104",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_104.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-104-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel chanteur, auteur-compositeur-interprète et homme de scène, « reviendra à Montréal » ?",
+      "answer": "Robert Charlebois",
+      "options": [
+        "Gaston Mandeville",
+        "Pierre Laurendeau",
+        "Robert Charlebois",
+        "Jacques Desrosiers"
+      ],
+      "explanation": "Robert Charlebois est aujourd'hui considéré comme un géant de la chanson québécoise aux côtés de Félix Leclerc.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-104",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_104.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-104-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment appelle-t-on le renne au Canada, cervidé des régions arctiques et subarctiques ?",
+      "answer": "Le caribou",
+      "options": [
+        "Le caribou",
+        "Le boisé",
+        "Le renne canadien",
+        "Le grand cerf"
+      ],
+      "explanation": "Les plus grandes hardes de caribous sauvages se trouvent en Alaska et dans le nord du Québec et du Labrador.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-104",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_104.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-104-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel nom portent les habitants de Montréal, la ville la plus peuplée du Québec ?",
+      "answer": "Les montréalais",
+      "options": [
+        "Les montréalois",
+        "Les montréalais",
+        "Les montroix",
+        "Les montréaliens"
+      ],
+      "explanation": "Montréal est la quatrième agglomération francophone de langue officielle et la ville francophone la plus peuplée d'Amérique.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-104",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_104.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-104-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Pourquoi un homme qui vit au Canada ne peut être enterré aux États-Unis ?",
+      "answer": "Il est encore vivant",
+      "options": [
+        "Il est déjà décédé",
+        "Il vit au Canada",
+        "Il est encore vivant",
+        "À cause de la loi"
+      ],
+      "explanation": "Le Canada occupe la partie septentrionale de l'Amérique du Nord et compte environ 36 millions d'habitants.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-104",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_104.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-104-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle artiste célèbre, née à Nieppe dans le Nord de la France, a chanté 'Ma cabane au Canada' ?",
+      "answer": "Line Renaud",
+      "options": [
+        "Régine",
+        "Sheila",
+        "Line Renaud",
+        "Juliette Greco"
+      ],
+      "explanation": "En 1950, Line Renaud épouse Loulou Gasté, qui restera son mari jusqu'à sa mort en 1995.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-104",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_104.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-104-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelles sont les deux langues officielles les plus parlées au Canada ?",
+      "answer": "Français et anglais",
+      "options": [
+        "Français et anglais",
+        "Anglais et espagnol",
+        "Français et italien",
+        "Espagnol et anglais"
+      ],
+      "explanation": "Au Canada, le français et l'anglais ont un statut égal dans les tribunaux fédéraux ainsi qu'au Parlement.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-104",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_104.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-104-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sur la rive nord de quel lac se situe la ville de Toronto, à la frontière avec les États-Unis ?",
+      "answer": "Lac Ontario",
+      "options": [
+        "Lac Ontario",
+        "Lac Michigan",
+        "Lac Érié",
+        "Lac Huron"
+      ],
+      "explanation": "Avec ses 2,5 millions d'habitants, Toronto est la plus grande ville du Canada et la capitale de la province de l'Ontario.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-104",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_104.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-104-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle chanteuse québécoise a remporté la saison 1 de 'La Voix' au Canada ?",
+      "answer": "Valérie Carpentier",
+      "options": [
+        "Léa Morgane",
+        "Valérie Carpentier",
+        "Valérie Amyot",
+        "Julie Massicotte"
+      ],
+      "explanation": "Adaptée d'un concept néerlandais, c'est la version de 'The Voice' la plus regardée au monde.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-104",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_104.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-104-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel navigateur et explorateur malouin a découvert le Canada en 1534 ?",
+      "answer": "Jacques Cartier",
+      "options": [
+        "Francis Drake",
+        "Pierre de Chauvin",
+        "Jacques Cartier",
+        "Humphrey Gilbert"
+      ],
+      "explanation": "Jacques Cartier est le premier Européen à décrire et nommer les eaux, les rives et les habitants du Saint-Laurent.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-104",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_104.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-104-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le plus long fleuve du Canada, navigable approximativement cinq mois par an ?",
+      "answer": "Le Mackenzie",
+      "options": [
+        "Le Mackenzie",
+        "Le Fraser",
+        "Le Saint Laurent",
+        "Le Nechako"
+      ],
+      "explanation": "L'embouchure du fleuve Mackenzie des Territoires du Nord-Ouest comporte un vaste delta marécageux.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-104",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_104.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-104-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de fois le Canada a-t-il accueilli les Jeux olympiques, en été comme en hiver ?",
+      "answer": "Trois fois",
+      "options": [
+        "Deux fois",
+        "Jamais",
+        "Une fois",
+        "Trois fois"
+      ],
+      "explanation": "Les Jeux olympiques ont été accueillis à Montréal en été 1976, Calgary en hiver 1988 et Vancouver en hiver 2010.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-104",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_104.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-104-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle ville au climat très continental est la capitale de la province du Manitoba, au Canada ?",
+      "answer": "Winnipeg",
+      "options": [
+        "Montréal",
+        "Toronto",
+        "Ottawa",
+        "Winnipeg"
+      ],
+      "explanation": "La ville de Winnipeg, septième ville par la population au Canada, est l'un des plus grands marchés aux grains du monde.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-104",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_104.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-104-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la plus peuplée des provinces du Canada avec 13,5 millions d'habitants ?",
+      "answer": "Ontario",
+      "options": [
+        "Alberta",
+        "Manitoba",
+        "Nunavut",
+        "Ontario"
+      ],
+      "explanation": "Sa capitale est Toronto, qui est une ville mondiale de classe alpha et aussi la plus grande ville du Canada.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-104",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_104.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-104-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle monnaie émise par la Banque du Canada est utilisée sur le territoire depuis 1858 ?",
+      "answer": "Le dollar canadien",
+      "options": [
+        "La livre",
+        "Le dollar canadien",
+        "Le franc canadien",
+        "Le dollar américian"
+      ],
+      "explanation": "En français québécois, le dollar est appelé « piastre » alors que la pièce de 2$ se fait appeler « toonie » en anglais.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-104",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_104.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-104-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Alberta est une des provinces du Canada en grande majorité citadine dont la capitale est...",
+      "answer": "Edmonton",
+      "options": [
+        "Calgary",
+        "Lethbridge",
+        "Edmonton",
+        "Red Deer"
+      ],
+      "explanation": "L'Alberta tient son nom de la Princesse Louise Caroline Alberta, qui était la fille de la reine Victoria.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-104",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_104.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-104-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la devise de la province de Québec, créée par Eugène-Étienne Taché en 1883 ?",
+      "answer": "Je me souviens",
+      "options": [
+        "Vive le Québec libre",
+        "Je me souviens",
+        "La belle province",
+        "Vers les océans"
+      ],
+      "explanation": "À l'image des armoiries qui ont été troquées pour un logo, la devise a été délaissée au profit de slogans gouvernementaux.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-104",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_104.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-104-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle ville canadienne a accueilli une Exposition universelle en 1967 ?",
+      "answer": "Montréal",
+      "options": [
+        "Ottawa",
+        "Calgary",
+        "Montréal",
+        "Toronto"
+      ],
+      "explanation": "Cette exposition universelle a été tenue sur le thème de « Terre des Hommes » (en anglais : « Man and his World »).",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-104",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_104.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-104-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "La poutine est un mets d’origine québécoise composé de frites, de fromage et de sauce...",
+      "answer": "Brune",
+      "options": [
+        "Bleue",
+        "Brune",
+        "Blanche",
+        "Verte"
+      ],
+      "explanation": "Il existe de nombreuses variantes basées sur l'ajout de différentes sauces, de fromage voire de viande.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-104",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_104.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-104-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quand célèbre-t-on la fête nationale du Québec, traditionnellement appelée la Saint-Jean-Baptiste ?",
+      "answer": "Le 24 juin",
+      "options": [
+        "Le 24 juin",
+        "Le 4 juillet",
+        "Le 1<sup>er</sup> juillet",
+        "Le 15 août"
+      ],
+      "explanation": "En vertu de la Loi sur la fête nationale, le 24 juin est une journée fériée et chômée par presque tous les québecois.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-104",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_104.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-104-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la plus grande université du Canada, répartie sur trois campus ?",
+      "answer": "Celle de Toronto",
+      "options": [
+        "Celle de Toronto",
+        "Celle de Vancouver",
+        "Celle de Montréal",
+        "Celle de Bedford"
+      ],
+      "explanation": "Avec ses 70 000 étudiants, l'Université publique de Toronto constitue la plus grande université du Canada.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-104",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_104.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-104-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que peut-on voir sur les pièces de 5 cents au Canada, aussi appelées « cinq sous » et « nickel » ?",
+      "answer": "Un castor",
+      "options": [
+        "Un orignal",
+        "Un castor",
+        "Un bateau",
+        "Un érable"
+      ],
+      "explanation": "La Monnaie royale canadienne, qui produit les pièces de monnaie, possède une énorme réserve de métaux précieux.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-104",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_104.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-104-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel humoriste et improvisateur québécois a adopté des petites chinoises ?",
+      "answer": "Jean-Michel Anctil",
+      "options": [
+        "Daniel Lemire",
+        "Jean-Michel Anctil",
+        "Laurent Paquin",
+        "Louis-José Houde"
+      ],
+      "explanation": "Jean-Michel Anctil est particulièrement connu pour ses personnages de Précilla, le jeune Maxime et Râteau.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-104",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_104.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-104-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Au Canada français, comment le dollar est-il appelé par une grande partie de la population ?",
+      "answer": "Piastre",
+      "options": [
+        "Dinar",
+        "Piastre",
+        "Sol",
+        "Florin"
+      ],
+      "explanation": "Le dollar est appelé « piastre » par les colons français, le cent est quant à lui couramment appelé un « sou » ou une « cenne ».",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-104",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_104.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-104-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville du Canada peut-on visiter le musée scientifique baptisé « Cosmodôme » ?",
+      "answer": "Laval",
+      "options": [
+        "Laval",
+        "Longueuil",
+        "Montréal",
+        "Toronto"
+      ],
+      "explanation": "Alan Shepard dira du Cosmodôme : « De tous les camps visités, celui-ci est le meilleur ».",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-104",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_104.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-104-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle attraction touristique de Toronto a longtemps été la plus haute structure autoportante du monde ?",
+      "answer": "La Tour CN",
+      "options": [
+        "Le SkyDome",
+        "Le Petit Glenn",
+        "La Tour CN",
+        "La Casa Loma"
+      ],
+      "explanation": "La tour de 553,33 mètres, devenue l'emblème de la ville, est située dans le centre de Toronto.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-104",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_104.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

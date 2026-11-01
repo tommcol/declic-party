@@ -1,0 +1,798 @@
+{
+  "id": "oq-33",
+  "title": "Dragons hier et aujourd'hui",
+  "originalTitle": "Dragons hier et aujourd'hui",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_33.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-33-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel jeune viking vit sur l'île de Beurk dans le film 'Dragons' sorti en 2010 ?",
+      "answer": "Harold",
+      "options": [
+        "Kognedur",
+        "Harold",
+        "Gueulfor",
+        "Varek"
+      ],
+      "explanation": "Le film est inspiré du roman pour enfant de Cressida Cowell publié en 2003, 'Comment dresser votre dragon'.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-33",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_33.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-33-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel artiste martial, réalisateur, acteur et producteur est associé au terme « dragon » ?",
+      "answer": "Bruce Lee",
+      "options": [
+        "Jackie Chan",
+        "Keanu Reeves",
+        "Bruce Lee",
+        "Chuck Norris"
+      ],
+      "explanation": "Parallèlement à sa carrière d'acteur, Bruce Lee a créé son propre art martial, le jeet kune do.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-33",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_33.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-33-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel célèbre jeu de rôle médiéval-fantastique a été créé dans les années 1970 ?",
+      "answer": "Donjons et Dragons",
+      "options": [
+        "Donjons et Dragons",
+        "DragonQuest",
+        "Pendragon",
+        "Rêve de Dragon"
+      ],
+      "explanation": "En 1974, le 'Dungeons and Dragons' original était une boîte contenant trois livrets, publiés par TSR (Tactical Studies Rules).",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-33",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_33.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-33-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel art le style du dragon imite-t-il feu, force et suprématie ?",
+      "answer": "L'art martial",
+      "options": [
+        "L'art martial",
+        "L'art oratoire",
+        "L'art pictural",
+        "L'art floral"
+      ],
+      "explanation": "Le style du dragon est un style très complet qui se caractérise par sa férocité, sa fluidité et sa prestance et sa puissance.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-33",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_33.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-33-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel pays le dragon est-il un symbole de vie et de puissance ?",
+      "answer": "La Chine",
+      "options": [
+        "Le Pérou",
+        "L'Inde",
+        "La Chine",
+        "L'Islande"
+      ],
+      "explanation": "Le dragon est une créature légendaire représentée comme une sorte de gigantesque reptile, ailes déployées et pattes armées de griffes.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-33",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_33.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-33-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la race de Krokmou, héros du film d'animation en 3D 'Dragons' ?",
+      "answer": "Furie Nocturne",
+      "options": [
+        "Vilain Noir",
+        "Terreur Terrible",
+        "Méchant Grognon",
+        "Furie Nocturne"
+      ],
+      "explanation": "L'édition collector du DVD présente un court-métrage intitulé 'Harold et la légende du Pikpoketos', qui propose un nouveau dragon.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-33",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_33.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-33-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le nom du petit dragon de Mulan, jeune fille brave et déterminée ?",
+      "answer": "Mushu",
+      "options": [
+        "Fitou",
+        "Mushu",
+        "Golu",
+        "Krokmou"
+      ],
+      "explanation": "Mulan va à l'encontre des archétypes des jeunes filles chinoises de l'époque, calmes, réservées, polies, obéissantes et silencieuses.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-33",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_33.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-33-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel pays de l'Union européenne est parfois appelé « dragon celtique » ?",
+      "answer": "L'Irlande",
+      "options": [
+        "La Bulgarie",
+        "La Suède",
+        "L'Irlande",
+        "La Finlande"
+      ],
+      "explanation": "Le symbole officiel du pays est la harpe celtique mais le trèfle irlandais est souvent utilisé comme autre symbole.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-33",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_33.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-33-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel jeu la « variante du dragon » est-elle une ouverture ?",
+      "answer": "Les échecs",
+      "options": [
+        "Le Monopoly",
+        "Le Scrabble",
+        "Les échecs",
+        "Le poker"
+      ],
+      "explanation": "La variante du dragon (code ECO B7n) ne doit cependant pas être confondue avec la variante du dragon accéléré (code ECO B34).",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-33",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_33.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-33-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel acteur français double le dragon du film 'Cœur de Dragon' ?",
+      "answer": "Philippe Noiret",
+      "options": [
+        "Tcheky Karyo",
+        "Philippe Noiret",
+        "Jean Rochefort",
+        "André Dussolier"
+      ],
+      "explanation": "Le film a connu un succès commercial modéré, rapportant environ 115 267 375 $ au box-office mondial.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-33",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_33.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-33-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Pour quel appareil volant le terme « dragon » est-il utilisé comme indicatif radio ?",
+      "answer": "Hélicoptère",
+      "options": [
+        "Deltaplane",
+        "ULM",
+        "Montgolfière",
+        "Hélicoptère"
+      ],
+      "explanation": "Paris et ses trois départements limitrophes possèdent tous le même indicatif, celui de 'Dragon 75'.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-33",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_33.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-33-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle autre constellation est longée par la constellation du Dragon ?",
+      "answer": "Petite Ourse",
+      "options": [
+        "Cassiopée",
+        "Orion",
+        "Andromède",
+        "Petite Ourse"
+      ],
+      "explanation": "Dans beaucoup de mythologies, la forme sinueuse de la constellation a été interprétée comme un dragon ou un serpent.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-33",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_33.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-33-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel film « Dragon » est-il le nom du vaisseau militaire du Colonel Quaritch ?",
+      "answer": "Avatar",
+      "options": [
+        "X-Men",
+        "Avatar",
+        "Avengers",
+        "Cloverfield"
+      ],
+      "explanation": "Le colonel Quaritch, chef de la sécurité militaire de la mission Avatar, a fait détruire par les forces terriennes 'l'Arbre Maison'.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-33",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_33.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-33-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel jeu de cartes à collectionner Dragon est-il un type spécial ?",
+      "answer": "Pokémon",
+      "options": [
+        "Magic the Gathering",
+        "Wyvern",
+        "World of Warcraft",
+        "Pokémon"
+      ],
+      "explanation": "Les pokémons de type Dragon sont rares et très puissants, bien que plus long à entraîner et à faire évoluer.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-33",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_33.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-33-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Par qui sont élevés les dragons de J. R. R. Tolkien en Terre du Milieu ?",
+      "answer": "Morgoth",
+      "options": [
+        "Nessa",
+        "Tulkas",
+        "Mandos",
+        "Morgoth"
+      ],
+      "explanation": "Les dragons sont « créés » à une date indéterminée mais leur première apparition date de l'an 260 du Premier Âge.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-33",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_33.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-33-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle langue provient le mot « dragon » associé en Europe à une créature légendaire ailée ?",
+      "answer": "Le grec",
+      "options": [
+        "L'espagnol",
+        "Le grec",
+        "Le latin",
+        "Le turc"
+      ],
+      "explanation": "On considère souvent comme des dragons plusieurs créatures de la mythologie grecque : Python, Ladon, l'Hydre de Lerne, etc.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-33",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_33.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-33-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle mythologie raconte la lutte du dragon rouge et du dragon blanc ?",
+      "answer": "Celte",
+      "options": [
+        "Celte",
+        "Bretonne",
+        "Slave",
+        "Germanique"
+      ],
+      "explanation": "Le Mabinogi de Lludd raconte la lutte du dragon rouge et du dragon blanc, ce dernier symbolisant les Saxons envahisseurs.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-33",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_33.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-33-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel titre celtique signifiant « chef dragon » fut porté par plusieurs rois bretons ?",
+      "answer": "Pendragon",
+      "options": [
+        "Fredragon",
+        "Pendragon",
+        "Beldragon",
+        "Vordragon"
+      ],
+      "explanation": "Pendragon est aussi un des noms d'emprunt du magicien Hauru, personnage du film d'animation 'Le Château ambulant'.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-33",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_33.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-33-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le titre original du film 'Le Dragon du lac de feu' de Matthew Robbins ?",
+      "answer": "Dragonslayer",
+      "options": [
+        "Dragonparyer",
+        "Dragonslayer",
+        "Dragoncorner",
+        "Dragonkiller"
+      ],
+      "explanation": "'Dragonslayer' a obtenu en 1982 une nomination à l'Oscar de la meilleure musique de film et des meilleurs effets visuels.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-33",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_33.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-33-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel film fantastique américain de 1996 Dennis Quaid est-il le héros ?",
+      "answer": "Cœur de dragon",
+      "options": [
+        "Sang de dragon",
+        "Peur de dragon",
+        "Cœur de dragon",
+        "Âme de dragon"
+      ],
+      "explanation": "Le film a reçu un accueil critique mitigé, recueillant 50 % de critiques positives, avec une note moyenne de 5,7/10.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-33",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_33.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-33-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel fruit tropical est également connu sous le nom de « fruit du dragon » ?",
+      "answer": "Le pitaya",
+      "options": [
+        "Le durian",
+        "La goyave",
+        "Le pitaya",
+        "Le tamarin"
+      ],
+      "explanation": "La chair du pitaya est comestible et ressemble par sa texture et la présence de petits pépins noirs à celle du kiwi.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-33",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_33.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-33-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle espèce animale peut-on trouver le Dragon de Komodo ?",
+      "answer": "Les reptiles",
+      "options": [
+        "Les mammifères",
+        "Les oiseaux",
+        "Les poissons",
+        "Les reptiles"
+      ],
+      "explanation": "Membre de la famille des varanidés, c'est la plus grande espèce vivante de lézard, avec une longueur moyenne de 2 à 3 mètres.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-33",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_33.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-33-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel poisson d'Australie, proche de l'hippocampe, existe en deux espèces ?",
+      "answer": "Le dragon de mer",
+      "options": [
+        "Le dragon plat",
+        "Le dragon jaune",
+        "Le dragon de mer",
+        "Le dragon velu"
+      ],
+      "explanation": "Son corps est « cuirassé » et ses nageoires pectorales s'étendent comme des ailes, ces dernières étant bleu-verdâtre.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-33",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_33.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-33-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel auteur américain a publié le roman policier 'Dragon' en 1990 ?",
+      "answer": "Clive Cussler",
+      "options": [
+        "Brian Garfield",
+        "Stephen Frey",
+        "Clive Cussler",
+        "Justin Scott"
+      ],
+      "explanation": "L’explosion dans le Pacifique Nord d’un cargo transportant des voitures japonaises est d'abord considérée comme une accident.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-33",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_33.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-33-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel bateau regardez-vous si vous observez un Dragon sur les eaux ?",
+      "answer": "Un voilier",
+      "options": [
+        "Un voilier",
+        "Une gondole",
+        "Une barque",
+        "Un catamaran"
+      ],
+      "explanation": "Le Dragon est un type de voilier à quille qui a été série olympique et conserve encore un grand nombre de passionnés.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-33",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_33.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-33-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel groupe de heavy metal japonais a sorti un album intitulé 'Dragon' ?",
+      "answer": "Loudness",
+      "options": [
+        "Blizard",
+        "Babymetal",
+        "Anthem",
+        "Loudness"
+      ],
+      "explanation": "Loudness est créé en 1981 par le guitariste virtuose Akira Takasaki et le batteur Munetaka Higuchi après la séparation du groupe Lazy.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-33",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_33.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-33-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel dessin animé les dragons sont-ils utilisés dans des courses ?",
+      "answer": "Dragon Booster",
+      "options": [
+        "Dragon Run",
+        "Dragon Booster",
+        "Johnny Dragon",
+        "Coton Dragon"
+      ],
+      "explanation": "Artha et son dragon Beau luttent contre les forces maléfiques et les tentatives d'enlèvement de ce dernier.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-33",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_33.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-33-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle mythologie un nain a-t-il été changé en dragon par avarice ?",
+      "answer": "Germanique",
+      "options": [
+        "Slave",
+        "Celte",
+        "Bretonne",
+        "Germanique"
+      ],
+      "explanation": "Le 'cycle de Sigurd', autrement appelé 'Siegfried', fait l'objet de plusieurs traditions qui diffèrent parfois sensiblement.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-33",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_33.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-33-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel nom prirent les ermites, moines et saints tueurs de dragons antiques canonisés ?",
+      "answer": "Sauroctones",
+      "options": [
+        "Vineta",
+        "Barèges",
+        "Francions",
+        "Sauroctones"
+      ],
+      "explanation": "La tradition orale et les hagiographies ont transmis la mémoire ou la légende de nombre d'entre eux.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-33",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_33.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-33-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel dragon, apparaissant sur le drapeau du pays, est le symbole national du Bouthan ?",
+      "answer": "Druk",
+      "options": [
+        "Zirnitra",
+        "Vichap",
+        "Theli",
+        "Druk"
+      ],
+      "explanation": "Un druk apparaît sur le drapeau du Bhoutan, tenant des bijoux pour représenter la richesse, de même que sur le blason du Bhoutan.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-33",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_33.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

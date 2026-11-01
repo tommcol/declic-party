@@ -1,0 +1,798 @@
+{
+  "id": "oq-261",
+  "title": "World of Warcraft",
+  "originalTitle": "World of Warcraft (Jeu de rôle en ligne massivement multijoueur)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_261.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-261-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle société a développé le jeu vidéo « World of Warcraft » ?",
+      "answer": "Blizzard Ent.",
+      "options": [
+        "Accolade",
+        "MicroProse",
+        "Palace Software",
+        "Blizzard Ent."
+      ],
+      "explanation": "Blizzard Entertainment (anc. Silicon and Synapse) a été fondée en 1991 par Allen Adham, Michael Morhaime et Frank Pearce.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-261",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_261.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-261-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Pour quel anniversaire de la franchise « World of Warcraft » est-il sorti ?",
+      "answer": "Les 10 ans",
+      "options": [
+        "Les 5 ans",
+        "Les 15 ans",
+        "Les 10 ans",
+        "Les 20 ans"
+      ],
+      "explanation": "« World of Warcraft » prend place en Azeroth, près de quatre ans après la fin du jeu précédent, « Warcraft III: The Frozen Throne ».",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-261",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_261.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-261-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle catégorie de jeux vidéo peut-on classer « World of Warcraft » ?",
+      "answer": "MMORPG",
+      "options": [
+        "Puzzle",
+        "Arcade",
+        "Survival horror",
+        "MMORPG"
+      ],
+      "explanation": "Ces jeux en ligne massivement multijoueur permettent à un grand nombre d'interagir simultanément dans un monde virtuel.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-261",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_261.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-261-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année « World of Warcraft » est-il sorti en Amérique du Nord ?",
+      "answer": "2004",
+      "options": [
+        "2007",
+        "2010",
+        "2013",
+        "2004"
+      ],
+      "explanation": "Depuis sa sortie, « World of Warcraft » est le plus populaire des MMORPG, possédant un Guinness World Record pour sa popularité.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-261",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_261.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-261-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel monde imaginaire le jeu « World of Warcraft » prend-il place ?",
+      "answer": "Azeroth",
+      "options": [
+        "Celestia",
+        "Azeroth",
+        "Tyrie",
+        "Koprulu"
+      ],
+      "explanation": "Bien que d'autres planètes existent, la série « Warcraft » se déroule principalement sur Azeroth, qui est composée de cinq continents.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-261",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_261.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-261-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelles sont les deux factions de personnages du jeu « World of Warcraft » ?",
+      "answer": "Alliance et Horde",
+      "options": [
+        "Elfes et Gobelins",
+        "Alliance et Horde",
+        "Titans et Centaures",
+        "Orcs et Trolls"
+      ],
+      "explanation": "Si l'Alliance permet d'incarner un Humain, un Nain, un Gnome ou un Elfe, côté Horde ce sera Orc, Troll, Tauren ou Mort-vivant.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-261",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_261.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-261-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sur base de quoi est constitué le principe général de « World of Warcraft » ?",
+      "answer": "Quêtes",
+      "options": [
+        "Vitesse",
+        "Quêtes",
+        "Cadeaux",
+        "Trocs"
+      ],
+      "explanation": "Au bout d'un nombre de points d'expérience gagnés au fil des quêtes, le joueur augmente ses caractéristiques et son niveau.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-261",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_261.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-261-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel terme désigne les serveurs sur lesquels on joue à « World of Warcraft » ?",
+      "answer": "Royaume",
+      "options": [
+        "Entité",
+        "Royaume",
+        "Plateau",
+        "Tour"
+      ],
+      "explanation": "Blizzard permet parfois la migration de personnages d'un royaume vers un autre, afin de désengorger un royaume de la saturation.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-261",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_261.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-261-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la couleur des personnages non-joueurs amicaux dans « World of Warcraft » ?",
+      "answer": "Vert",
+      "options": [
+        "Rouge",
+        "Bleu",
+        "Vert",
+        "Blanc"
+      ],
+      "explanation": "Les PNJ sont les personnages qui peuvent seulement interagir avec les personnages joueurs grâce à l'intelligence artificielle (IA).",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-261",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_261.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-261-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quels endroits du jeu les joueurs de WoW peuvent-ils s'affronter entre eux ?",
+      "answer": "Arènes",
+      "options": [
+        "Donjons",
+        "Cimetières",
+        "Arènes",
+        "Plaines"
+      ],
+      "explanation": "Dans cet aspect du mode Joueur Contre Joueur (JCJ), les joueurs peuvent former des équipes afin de jouer en 2-2, 3-3 ou 5-5.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-261",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_261.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-261-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le nom de la sixième extension de « World of Warcraft », sortie en 2016 ?",
+      "answer": "Legion",
+      "options": [
+        "Cataclysm",
+        "Pandaria",
+        "Lich King",
+        "Legion"
+      ],
+      "explanation": "Depuis sa sortie en 2004, sept extensions ont déjà été publiées, la septième extension, « Battle for Azeroth », étant sortie en 2018.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-261",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_261.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-261-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel personnage ne pourrez-vous pas incarner côté Horde dans WoW ?",
+      "answer": "Gnome",
+      "options": [
+        "Troll",
+        "Mort-vivant",
+        "Gnome",
+        "Orc"
+      ],
+      "explanation": "Avec l'arrivée des extensions depuis 2007, chacune des factions de « World of Warcraft » se voit parfois dotée de nouvelles races.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-261",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_261.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-261-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien coûte dans WoW la migration d'un personnage d'un royaume à un autre ?",
+      "answer": "25 euros",
+      "options": [
+        "25 euros",
+        "45 euros",
+        "15 euros",
+        "35 euros"
+      ],
+      "explanation": "Les utilisateurs peuvent créer jusqu'à 12 personnages par royaume et 50 personnages au total sur de multiples races et classes.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-261",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_261.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-261-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle race est considérée comme « neutre » dans « World of Warcraft » ?",
+      "answer": "Pandaren",
+      "options": [
+        "Dryade",
+        "Centaure",
+        "Draconide",
+        "Pandaren"
+      ],
+      "explanation": "« World of Warcraft : Mists of Pandaria » est la quatrième extension du MMORPG « World of Warcraft » de Blizzard Entertainment.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-261",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_261.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-261-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À la base, combien de classes sont disponibles dans « World of Warcraft » ?",
+      "answer": "Neuf",
+      "options": [
+        "Treize",
+        "Neuf",
+        "Onze",
+        "Sept"
+      ],
+      "explanation": "Les neuf classes disponibles sont Chaman, Chasseur, Démoniste, Druide, Guerrier, Mage, Paladin, Prêtre et Voleur.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-261",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_261.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-261-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment est également appelée l'édition découverte de « World of Warcraft » ?",
+      "answer": "F2P",
+      "options": [
+        "W2P",
+        "K2P",
+        "F2P",
+        "P2P"
+      ],
+      "explanation": "Ce modèle dit gratuit à jouer (free to play en anglais, aussi abrégé F2P), permet à quiconque de jouer à « World of Warcraft ».",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-261",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_261.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-261-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans « World of Warcraft », quel objet permet de se propulser directement à un niveau ?",
+      "answer": "Sésame",
+      "options": [
+        "Sésame",
+        "Propulseur",
+        "Parapluie",
+        "Clé verte"
+      ],
+      "explanation": "Objet aujourd'hui offert dans certains cas, le Sésame pouvait être acheté dans la boutique Blizzard pour la somme de 50 euros.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-261",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_261.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-261-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Jusqu'à combien de pièces d'équipement un personnage peut-il porter dans WoW ?",
+      "answer": "Seize",
+      "options": [
+        "Douze",
+        "Quatre",
+        "Seize",
+        "Huit"
+      ],
+      "explanation": "La plupart des pièces d'équipement de haut niveau peuvent être améliorées par des parchemins ou des gemmes.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-261",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_261.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-261-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle extension de « World of Warcraft » retrace le retour de la Légion Ardente ?",
+      "answer": "Legion",
+      "options": [
+        "Pandaria",
+        "Cataclysm",
+        "Legion",
+        "Lich King"
+      ],
+      "explanation": "« World of Warcraft » est le quatrième jeu de l'univers médiéval-fantastique « Warcraft », introduit par « Warcraft : Orcs and Humans ».",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-261",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_261.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-261-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle somme est-il impossible de dépasser dans la version gratuite de WoW ?",
+      "answer": "10 pièces d'or",
+      "options": [
+        "50 pièces d'or",
+        "10 pièces d'or",
+        "100 pièces d'or",
+        "30 pièces d'or"
+      ],
+      "explanation": "Les restrictions de l'édition découverte ont pour but d'inciter le joueur à prendre un abonnement si celui-ci se lasse.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-261",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_261.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-261-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que représente la race des Worgens depuis l'extension « Cataclysm » de « World of Warcraft » ?",
+      "answer": "Loups-garous",
+      "options": [
+        "Loups-garous",
+        "Elfes",
+        "Orcs",
+        "Zombies"
+      ],
+      "explanation": "Jouables depuis l'extension « Cataclysm », il s'agit d'humains contaminés ayant été transformés en monstres sauvages.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-261",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_261.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-261-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel jeune paladin est prince du royaume de Lordaeron dans « World of Warcraft » ?",
+      "answer": "Arthas",
+      "options": [
+        "Sylvanas",
+        "Anduin",
+        "Arthas",
+        "Thrall"
+      ],
+      "explanation": "Arthas Menethil occupera le Trône de Glace jusqu'à ce que Tirion Fordring parvienne à le vaincre et que Fordragon prenne sa place.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-261",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_261.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-261-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle série télé le docteur Weir parle-t-il de « World of Warcraft » ?",
+      "answer": "Stargate Atlantis",
+      "options": [
+        "Dr House",
+        "Grey's Anatomy",
+        "Urgence",
+        "Stargate Atlantis"
+      ],
+      "explanation": "Le docteur Weir tente de distraire le docteur Lee en lui faisant croire qu'elle est une adepte. S'ensuit toute une conversation sur le jeu.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-261",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_261.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-261-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle classe de WoW se spécialise sans les soins, les dégâts ou le tanking ?",
+      "answer": "Moine",
+      "options": [
+        "Moine",
+        "Chirurgien",
+        "Charpentier",
+        "Botaniste"
+      ],
+      "explanation": "La classe est apparue avec la quatrième extension appelée « Mists of Pandaria », dont l'annonce a été faite lors de la BlizzCon 2011.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-261",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_261.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-261-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel métier offre la possibilité de trouver des reliques dans « World of Warcraft » ?",
+      "answer": "Archéologie",
+      "options": [
+        "Joaillerie",
+        "Minage",
+        "Archéologie",
+        "Calligraphie"
+      ],
+      "explanation": "Ce métier est apparu avec la « Cataclysm », la troisième extension dont l'annonce a été faite à la session d'ouverture de la BlizzCon 2009.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-261",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_261.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-261-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans « World of Warcraft », quelle planète peut être atteinte via la Porte des Ténèbres ?",
+      "answer": "Outreterre",
+      "options": [
+        "Outreterre",
+        "Darnassus",
+        "Kalimdor",
+        "Norfendre"
+      ],
+      "explanation": "La Porte des ténèbres a été ouverte par Medivh sous l'emprise de Sargeras, le fondateur de la Légion ardente.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-261",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_261.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-261-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quels joueurs de « World of Warcraft » collectent tout ce qui est monnayable dans le jeu ?",
+      "answer": "Farmers",
+      "options": [
+        "Runners",
+        "Farmers",
+        "Miners",
+        "Killers"
+      ],
+      "explanation": "Les farmers sont parfois aussi des pirates qui s'introduisent dans le compte d'autres joueurs et revendent ce qu'ils possèdent.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-261",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_261.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-261-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle île d'Azeroth constitue la terre natale de la civilisation Trolle ?",
+      "answer": "Zandalar",
+      "options": [
+        "Nordrassil",
+        "Kezan",
+        "Pandaria",
+        "Zandalar"
+      ],
+      "explanation": "Les cinq continents d'Azeroth sont séparés par La Grande Mer qui abrite en son centre un énorme vortex appelé Le Maelström.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-261",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_261.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-261-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année fut fondé l'empire humain d'Arathor de « World of Warcraft » ?",
+      "answer": "-2900",
+      "options": [
+        "-2900",
+        "3024",
+        "1148",
+        "55"
+      ],
+      "explanation": "Azeroth est composé de cinq continents : Les Royaumes de l'Est, Kalimdor, Norfendre, Pandarie et les îles brisées au nord est.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-261",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_261.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-261-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans « World of Warcraft », quel chaman est notamment le mentor de Gul'dan ?",
+      "answer": "Ner'zhul",
+      "options": [
+        "Kamagua",
+        "Rohart",
+        "Ner'zhul",
+        "Naaru"
+      ],
+      "explanation": "À la fin des évènements de la Deuxième Guerre, Ner'zhul sera vaincu par l'alliance des Humains, des Hauts-Elfes et des Nains.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-261",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_261.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

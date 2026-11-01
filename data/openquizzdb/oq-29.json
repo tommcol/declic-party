@@ -1,0 +1,774 @@
+{
+  "id": "oq-29",
+  "title": "Patrick Sébastien",
+  "originalTitle": "Patrick Sébastien",
+  "universe": "music",
+  "emoji": "🎵",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_29.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    12
+  ],
+  "questions": [
+    {
+      "id": "oqdb-29-1",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "De quel sport Patrick Sébastien a-t-il été dirigeant de club ?",
+      "answer": "Le rugby",
+      "options": [
+        "Le rugby",
+        "Le tennis",
+        "Le squash",
+        "Le football"
+      ],
+      "explanation": "Patrick Sébastien a pratiqué le rugby à XV au CA Brive, sport dont il souhaite à l'époque faire son métier.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-29",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_29.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-29-2",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Dans quel musée Patrick Sébastien possède-t-il sa statue depuis janvier 2014 ?",
+      "answer": "Musée Grévin",
+      "options": [
+        "Musée Curie",
+        "Musée Grévin",
+        "Musée Maillol",
+        "Musée Pasteur"
+      ],
+      "explanation": "C'est depuis le 29 janvier 2014 que Patrick Sébastien possède sa propre statue dans le musée de cire du IXe arrondissement de Paris.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-29",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_29.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-29-3",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Dans quel département Patrick Sébastien a-t-il passé toute son enfance ?",
+      "answer": "Corrèze",
+      "options": [
+        "Corrèze",
+        "Calvados",
+        "Cantal",
+        "Haute-Corse"
+      ],
+      "explanation": "Élevé par sa mère, Andrée Boutot (1935-2008), Patrick Sébastien a passé toute son enfance à Juillac, en Corrèze.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-29",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_29.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-29-4",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quelle émission télé avec Patrick Sébastien est entrée au 'Livre des records' ?",
+      "answer": "Le Grand Bluff",
+      "options": [
+        "Carnaval !",
+        "Le Grand Bluff",
+        "Le Pactole",
+        "Super nanas !"
+      ],
+      "explanation": "L'émission est entrée dans le 'Livre Guinness des records' avec la plus forte audience calculée en France, soit 17 494 400 téléspectateurs.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-29",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_29.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-29-5",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Lequel de ces duos comiques français est devenu célèbre grâce à Patrick Sébastien ?",
+      "answer": "Shirley et Dino",
+      "options": [
+        "Éric et Ramzy",
+        "Shirley et Dino",
+        "Kad et Olivier",
+        "Élie et Dieudonné"
+      ],
+      "explanation": "Le couple vit des scènes mêlant ridicule et naïveté dans lesquelles Dino se moque de Shirley pour le seul plaisir du public.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-29",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_29.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-29-6",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quelle a été la première grande émission animée par Patrick Sébastien sur TF1 ?",
+      "answer": "Carnaval !",
+      "options": [
+        "Le Grand Bluff",
+        "Super nanas !",
+        "Sens Interdit",
+        "Carnaval !"
+      ],
+      "explanation": "Patrick Sébastien a invité des célébrités à se déguiser dans des émissions parodiques comme 'Carnaval' et 'Sébastien c'est fou'.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-29",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_29.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-29-7",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Combien de 7 d'or Patrick Sébastien a-t-il reçu pour 'Le Plus Grand Cabaret du monde' ?",
+      "answer": "Deux",
+      "options": [
+        "Aucun",
+        "Trois",
+        "Un",
+        "Deux"
+      ],
+      "explanation": "L'émission alterne des numéros de clowns, magiciens, acrobates, jongleurs et autres animations scéniques en tous genres.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-29",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_29.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-29-8",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Qui a dit : « En démocratie c'est le peuple qui choisit ses dictateurs. » ?",
+      "answer": "Patrick Sébastien",
+      "options": [
+        "Pierre Douglas",
+        "Pierre Desproges",
+        "Francis Blanche",
+        "Patrick Sébastien"
+      ],
+      "explanation": "Patrick Sébastien a dit aussi : « Le destin ne se démerde jamais mal, il donne son avis, c'est tout ».",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-29",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_29.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-29-9",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Dans quelle émission de variété Patrick Sébastien a-t-il piégé des animateurs ?",
+      "answer": "Le Grand Bluff",
+      "options": [
+        "Faces à Farces",
+        "Le Grand Bluff",
+        "Super nanas !",
+        "Carnaval !"
+      ],
+      "explanation": "Un micro-trottoir a même été filmé où Patrick Sébastien déguisé demande l'avis des passants sur Patrick Sébastien.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-29",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_29.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-29-10",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Depuis quelle année Patrick Sébastien présente-t-il 'Le Plus Grand Cabaret du monde' ?",
+      "answer": "1998",
+      "options": [
+        "2007",
+        "1998",
+        "2004",
+        "2001"
+      ],
+      "explanation": "Jusqu'à la rentrée 2014 le plateau de l'émission était situé dans un des studios Euro Média France de Bry-sur-Marne.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-29",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_29.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-29-11",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel est le véritable nom de Patrick Sébastien, né en 1953 à Brive-la-Gaillarde en Corrèze ?",
+      "answer": "Boutot",
+      "options": [
+        "Bélize",
+        "Bernier",
+        "Bravard",
+        "Boutot"
+      ],
+      "explanation": "Patrick Sébastien est à la fois imitateur, humoriste, acteur, réalisateur, chanteur, auteur-compositeur, écrivain et animateur.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-29",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_29.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-29-13",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Avec quelle ancienne coco-girl Patrick Sébastien a-t-il eu un enfant prénommé Benjamin ?",
+      "answer": "Fanfan",
+      "options": [
+        "Fanfan",
+        "Zora",
+        "Mina",
+        "Natty"
+      ],
+      "explanation": "Ils divorceront en 1992 et il rencontrera ensuite en 1993 Nathalie, dite Nana, avec qui il se mariera à Brive-la-Gaillarde en 1998.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-29",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_29.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-29-14",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Combien de fois Patrick Sébastien a-t-il rejoint la troupe des Enfoirés ?",
+      "answer": "Une fois",
+      "options": [
+        "Cinq fois",
+        "Sept fois",
+        "Une fois",
+        "Trois fois"
+      ],
+      "explanation": "En 1992, Patrick Sébastien rejoint la troupe des Enfoirés et participe à la grande soirée des Enfoirés à l'Opéra Garnier.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-29",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_29.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-29-15",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Pour quelle artiste Patrick Sébastien a-t-il écrit des titres et produit le premier album ?",
+      "answer": "Lisa Angell",
+      "options": [
+        "Myriam Abel",
+        "Jeanne Cherhal",
+        "Lisa Angell",
+        "Ève Angeli"
+      ],
+      "explanation": "L'album 'Les Divines' est sorti en 2011 chez Polydor et s'est placé en 31e place en France et en 86e place en Belgique.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-29",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_29.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-29-16",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quelle activité Patrick Sébastien a-t-il exercé durant la Coupe du monde de rugby 2007 ?",
+      "answer": "Consultant",
+      "options": [
+        "Entraîneur",
+        "Joueur",
+        "Consultant",
+        "Dirigeant"
+      ],
+      "explanation": "Patrick Sébastien a été consultant pour l'émission de RTL 'On refait la coupe du monde', présentée en 2007 par Jean-Michel Rascol.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-29",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_29.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-29-17",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel film Patrick Sébastien a-t-il écrit, produit, monté, interprété et réalisé ?",
+      "answer": "T'aime",
+      "options": [
+        "Sans Interdit",
+        "Le Contrat",
+        "Le Pactole",
+        "T'aime"
+      ],
+      "explanation": "Le film sorti en 2000 a reçu un accueil unanimement défavorable auprès de la critique probablement suite à un manque d'impartialité.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-29",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_29.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-29-18",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Sous quel pseudonyme Patrick Sébastien a-t-il écrit 'La Cellule de Zarkane' ?",
+      "answer": "Joseph Lubsky",
+      "options": [
+        "Serge Boccara",
+        "Patrick Adler",
+        "Jean Valton",
+        "Joseph Lubsky"
+      ],
+      "explanation": "En 2008, Patrick Sébastien prépare l'adaptation de son roman au cinéma, mais aucune date de sortie n'est annoncée.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-29",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_29.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-29-19",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Dans quel roman Patrick Sébastien évoque-t-il son expérience des clubs échangistes ?",
+      "answer": "Vitriol Menthe",
+      "options": [
+        "Vitriol Menthe",
+        "Faces à Farces",
+        "Inéluctable",
+        "Isatis"
+      ],
+      "explanation": "Patrick Sébastien y évoque la générosité et la chaleur humaine et témoigne de la fréquentation de diverses stars de la télévision.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-29",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_29.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-29-20",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "À quel club de rugby Patrick Sébastien est-il très fortement attaché ?",
+      "answer": "CA Brive",
+      "options": [
+        "RC Narbonne",
+        "SOE Toulouse",
+        "US Carcassonne",
+        "CA Brive"
+      ],
+      "explanation": "Le CA Brive est un club historique qui a été présent dans l'élite du rugby français quasiment sans interruption depuis 1930.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-29",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_29.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-29-21",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel nom de scène a pris le deuxième fils de Patrick Sébastien ?",
+      "answer": "Olivier Villa",
+      "options": [
+        "Marc Regal",
+        "Patrick Orchez",
+        "Francis Laporte",
+        "Olivier Villa"
+      ],
+      "explanation": "Olivier Villa a dit oui à la jolie Melissa Grégoire, le samedi 13 septembre 2014, où les serviettes ont forcément dû tourner.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-29",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_29.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-29-22",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Dans quelles îles est née la petite Lilly, adoptée par Patrick Sébastien en 2007 ?",
+      "answer": "La Polynésie",
+      "options": [
+        "La Micronésie",
+        "La Mélanésie",
+        "La Polynésie",
+        "Les Maldives"
+      ],
+      "explanation": "C'est en 2007 que Patrick Sébastien et sa femme Nathalie ont adopté une petite fille prénommée Lilly, polynésienne.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-29",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_29.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-29-23",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Avec quelle chanteuse Patrick Sébastien a-t-il été en ménage à une époque ?",
+      "answer": "Marie Myriam",
+      "options": [
+        "Maire-Paule Belle",
+        "Marie Myriam",
+        "Véronique Sanson",
+        "Sabine Paturel"
+      ],
+      "explanation": "À l'époque, il écumait les cabarets pour des cachets très bas, travaillant un temps aux Halles de Paris pour gagner sa vie.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-29",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_29.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-29-24",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel rôle Patrick Sébastien a-t-il joué dans le film 'Quatre garçons pleins d'avenir' ?",
+      "answer": "Un gardien",
+      "options": [
+        "Un gardien",
+        "Un scientifique",
+        "Un animateur",
+        "Un pianiste"
+      ],
+      "explanation": "Patrick Sébastien interprète le rôle de Georges dans ce film français réalisé par Jean-Paul Lilienfeld, sorti en 1997.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-29",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_29.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-29-25",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "De quel chanteur Patrick Sébastien a-t-il fait la première partie en 1976 à l'Olympia ?",
+      "answer": "Michel Sardou",
+      "options": [
+        "Johnny Hallyday",
+        "Eddy Mitchell",
+        "Claude Nougarro",
+        "Michel Sardou"
+      ],
+      "explanation": "Il sera invité la même année dans l'émission 'Numéro un' des Carpentier et 'Le Rendez-vous du Dimanche' de Michel Drucker.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-29",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_29.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-29-26",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Pour qui Patrick Sébastien a-t-il lancé en 1995 une candidature-canular à l'élection présidentielle ?",
+      "answer": "Marlène Mourreau",
+      "options": [
+        "Marlène Mourreau",
+        "Laurence Ferrari",
+        "Mireille Dumas",
+        "Soizic Corne"
+      ],
+      "explanation": "Fille du chauffeur de Marlène Dietrich, Marlène est élue Miss Franche-Comté 1985, puis première dauphine de Miss France 1986.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-29",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_29.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-29-27",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Qui Patrick Sébastien a-t-il produit pour un one-man-show en 1990 ?",
+      "answer": "Albert Dupontel",
+      "options": [
+        "Laurent Baffie",
+        "Albert Dupontel",
+        "Franck Dubosc",
+        "Laurent Gerra"
+      ],
+      "explanation": "Patrick Sébastien a également produit Dany Boon en 1993, Nicolas Canteloup en 2001 ainsi que Shirley & Dino.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-29",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_29.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-29-28",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel rôle Patrick Sébastien a-t-il joué dans le film 'Le téléphone sonne toujours deux fois' ?",
+      "answer": "Un aveugle",
+      "options": [
+        "Un terroriste",
+        "Un fou",
+        "Un savant",
+        "Un aveugle"
+      ],
+      "explanation": "D'après certains critiques, ce film, à l'humour au second degré, aurait inspiré les Nuls pour 'La Cité de la peur'.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-29",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_29.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-29-29",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel spectacle Patrick Sébastien a-t-il donné à l'Olympia en 1997 ?",
+      "answer": "Sans Interdit",
+      "options": [
+        "Adieu Paulo",
+        "Tralala",
+        "Sans Interdit",
+        "C'est Show"
+      ],
+      "explanation": "Les nombreux spectacles proposés par Patrick Sébastien sont aujourd'hui disponibles en cassettes VHS et au format DVD.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-29",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_29.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-29-30",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel acteur et réalisateur très populaire Patrick Sébastien a-t-il produit à ses débuts ?",
+      "answer": "Dany Boon",
+      "options": [
+        "Philippe Khorsand",
+        "Francis Huster",
+        "Guy Bedos",
+        "Dany Boon"
+      ],
+      "explanation": "Les sketches de Dany Boon s'inspirent souvent de situations quotidiennes qui interpellent le vécu des spectateurs.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-29",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_29.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

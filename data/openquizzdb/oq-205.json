@@ -1,0 +1,774 @@
+{
+  "id": "oq-205",
+  "title": "Coca-Cola Company",
+  "originalTitle": "Coca-Cola Company (Spécialiste des boissons sans alcool)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_205.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    13
+  ],
+  "questions": [
+    {
+      "id": "oqdb-205-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel produit de la firme Coca-Cola est un concurrent direct du 7 Up de PepsiCo ?",
+      "answer": "Sprite",
+      "options": [
+        "Fanta",
+        "Bonaqua",
+        "Sprite",
+        "Nalu"
+      ],
+      "explanation": "Le Sprite contient : eau gazéifiée, sucre et acidifiants (acide citrique, citrate de sodium et arômes naturels de citron-citron vert).",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-205",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_205.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-205-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel jus de fruit est en guerre commerciale avec son concurrent Tropicana ?",
+      "answer": "Minute Maid",
+      "options": [
+        "Joker",
+        "Oasis",
+        "Minute Maid",
+        "Andros"
+      ],
+      "explanation": "Il fut désormais possible de consommer du jus d'orange au goût frais à tout moment de l'année et loin des régions productrices.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-205",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_205.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-205-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle marque d'eau minérale belge appartient au groupe Coca-Cola ?",
+      "answer": "Chaudfontaine",
+      "options": [
+        "Spa",
+        "Bru",
+        "Valvert",
+        "Chaudfontaine"
+      ],
+      "explanation": "La source de Chaudfontaine se situe dans la commune belge éponyme de Chaudfontaine, en Région wallonne.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-205",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_205.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-205-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel thé glacé est produit conjointement par Nestlé et Coca-Cola ?",
+      "answer": "Nestea",
+      "options": [
+        "Virgin",
+        "Arizona",
+        "Nestea",
+        "May Tea"
+      ],
+      "explanation": "Créé en 1977, Nestea est actuellement disponible en trois parfums : Nestea Pêche Blanche, Nestea Tropical et Nestea Citron.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-205",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_205.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-205-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel Coca-Cola sans sucre vise un public plus particulièrement masculin ?",
+      "answer": "Zero",
+      "options": [
+        "Cherry",
+        "BlaK",
+        "Life",
+        "Zero"
+      ],
+      "explanation": "Tout comme le Coca Light, sa recette sortie en 2007 en France utilise de l'aspartame et de l'acésulfame-k à la place du sucre.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-205",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_205.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-205-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle boisson est aussi connue sous le nom de Diet Coke ?",
+      "answer": "Coca-Cola Light",
+      "options": [
+        "Coca-Cola BlaK",
+        "Coca-Cola Zero",
+        "Coca-Cola Life",
+        "Coca-Cola Light"
+      ],
+      "explanation": "Introduite en France en 1988, la marque Diet Coke fut lancée aux États-Unis le Jour de l'Indépendance, en 1982.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-205",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_205.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-205-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle variation du Coca-Cola fut mise en vente après le classique et le Light ?",
+      "answer": "Cherry",
+      "options": [
+        "BlaK",
+        "Zero",
+        "Life",
+        "Cherry"
+      ],
+      "explanation": "Coca-Cola a ensuite créé d'autres Coca-Cola aromatisés : Vanille, Lemon (citron), Lime (citron vert), BlaK (café) et Sango (l'orange).",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-205",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_205.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-205-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Depuis quelle année le Coca-Cola est-il une marque déposée ?",
+      "answer": "1887",
+      "options": [
+        "1932",
+        "1947",
+        "1913",
+        "1887"
+      ],
+      "explanation": "Il tire son nom de sa première composition : la feuille de coca et l'utilisation de noix de kola, boisson alors vendue par son inventeur.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-205",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_205.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-205-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle boisson énergisante de la firme Coca-Cola est vendue au Benelux ?",
+      "answer": "Nalu",
+      "options": [
+        "Red Bull",
+        "Monster",
+        "Nalu",
+        "Rodeo"
+      ],
+      "explanation": "Développée dans le centre de recherche de Coca-Cola d'Anderlecht, elle est produite à Gand et est vendue en Belgique et Luxembourg.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-205",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_205.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-205-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lors de quels Jeux olympiques ne pouvait-on boire que des produits de chez Coca-Cola ?",
+      "answer": "Athènes 2004",
+      "options": [
+        "Londres 2012",
+        "Sydney 2000",
+        "Pékin 2008",
+        "Athènes 2004"
+      ],
+      "explanation": "Les 39 sponsors officiels des jeux ont obtenu, contre près de 800 millions d'euros, l'exclusivité absolue de leurs produits sur le site.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-205",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_205.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-205-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville de Géorgie se situe le siège actuel de la société Coca-Cola ?",
+      "answer": "Atlanta",
+      "options": [
+        "Dalton",
+        "Atlanta",
+        "Brunswick",
+        "Albany"
+      ],
+      "explanation": "La société Coca-Cola était, au début de 2012, la troisième entreprise agroalimentaire du monde en termes de chiffre d'affaires.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-205",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_205.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-205-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel breuvage de la Coca-Cola company est sorti après 1945 ?",
+      "answer": "Fanta",
+      "options": [
+        "Cherry Coke",
+        "Fanta",
+        "Sprite",
+        "Coke Life"
+      ],
+      "explanation": "La Seconde Guerre mondiale avait rendu difficile l'importation des denrées nécessaires à la fabrication du Coca-Cola.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-205",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_205.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-205-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel fut, en milliards d'euros, le chiffre d'affaire de la société Coca-Cola en 2016 ?",
+      "answer": "38",
+      "options": [
+        "38",
+        "26",
+        "44",
+        "32"
+      ],
+      "explanation": "En 2012, les deux seuls pays où le Coca-Cola ne pouvait être commercialisé étaient la Corée du Nord et Cuba.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-205",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_205.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-205-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle société de production audiovisuelle Coca-Cola a-t-elle acheté en 1982 ?",
+      "answer": "Columbia Pictures",
+      "options": [
+        "Paramount Pictures",
+        "Warner Bros.",
+        "Columbia Pictures",
+        "Universal Pictures"
+      ],
+      "explanation": "Le logo de la compagnie représente une personnification des États-Unis, Columbia, portant une torche (comme la Statue de la Liberté).",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-205",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_205.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-205-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle boisson conçue pour le sport est commercialisée par Coca-Cola ?",
+      "answer": "Aquarius",
+      "options": [
+        "Gatorade",
+        "Isostar",
+        "Sporteus",
+        "Aquarius"
+      ],
+      "explanation": "Cette boisson pour le sport fut commercialisée en 1983 au Japon en réponse à une boisson similaire nommé Pocari Sweat.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-205",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_205.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-205-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle version du Coca-Cola est basée sur l'utilisation de la stevia ?",
+      "answer": "Life",
+      "options": [
+        "Zero",
+        "BlaK",
+        "Cherry",
+        "Life"
+      ],
+      "explanation": "La stevia ayant une saveur proche de la réglisse et influant sur le goût de la boisson, la composition du produit fut alors modifiée.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-205",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_205.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-205-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel dérivé de la boisson Coca-Cola est enrichi en Vitamine C ?",
+      "answer": "Coca-Cola Plus",
+      "options": [
+        "Coca-Cola Plus",
+        "Coca-Cola Mint",
+        "Coca-Cola New",
+        "Coca_cola Fresh"
+      ],
+      "explanation": "La présence de vitamine C et son faible taux de sodium donnent au Coca-Cola Plus, sorti au Japon en 2009, un léger goût citronné.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-205",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_205.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-205-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle formule de Coca-Cola fut un échec de marketing majeur ?",
+      "answer": "New Coke",
+      "options": [
+        "Coca-Cola Zero",
+        "Coca-Cola Light",
+        "Coca-Cola Life",
+        "New Coke"
+      ],
+      "explanation": "La réception au changement de formule par le public a été mauvaise et New Coke fut ainsi considéré comme un échec de marketing majeur.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-205",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_205.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-205-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle version du Coca-Cola présente un goût enrichi au café ?",
+      "answer": "BlaK",
+      "options": [
+        "Life",
+        "Cherry",
+        "Zero",
+        "BlaK"
+      ],
+      "explanation": "The Coca-Cola Company a lancé son Coca-Cola BlaK afin de concurrencer le Pepsi Max cappuccino, lancé par PepsiCo.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-205",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_205.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-205-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui était PDG de l'entreprise Coca-Cola au 1er janvier 2017 ?",
+      "answer": "Muhtar Kent",
+      "options": [
+        "Osman Kavala",
+        "Muhtar Kent",
+        "Fikret Orman",
+        "Serdar Bilgili"
+      ],
+      "explanation": "En 1979, Muhtar Kent a commencé sa carrière comme distributeur de produits de la compagnie Coca-Cola à travers les États-Unis.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-205",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_205.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-205-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a conçu la forme de la bouteille en verre spécifique de la marque Coca-Cola ?",
+      "answer": "Raymond Loewy",
+      "options": [
+        "Raymond Loewy",
+        "Jerry Manock",
+        "David Rockwell",
+        "Milton Glaser"
+      ],
+      "explanation": "Raymond Loewy, né à Paris en 1893, est un designer industriel et graphiste français devenu franco-américain après sa naturalisation.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-205",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_205.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-205-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien existe-t-il environ dans le monde de saveurs différentes de Fanta ?",
+      "answer": "70",
+      "options": [
+        "50",
+        "30",
+        "70",
+        "10"
+      ],
+      "explanation": "Fanta Shokata est une saveur dérivée de la Socata, une boisson traditionnelle roumaine réalisée à base de fleur de sureau.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-205",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_205.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-205-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a proposé à John Stith Pemberton le nom de Coca-Cola pour sa future boisson ?",
+      "answer": "Frank Robinson",
+      "options": [
+        "Ronald Allen",
+        "Frank Robinson",
+        "Barry Diller",
+        "James Quincey"
+      ],
+      "explanation": "Le comptable de Pemberton lui proposa le nom Coca-Cola et le design du logo, Haddon Sundblom illustra quant à lui le Père Noël.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-205",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_205.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-205-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle eau du robinet purifiée est vendue par la société Coca-Cola ?",
+      "answer": "Dasani",
+      "options": [
+        "Burn",
+        "Dasani",
+        "Powerade",
+        "Finley"
+      ],
+      "explanation": "La marque vendait de l'eau provenant de la Tamise purifiée par ajout de chlorure de calcium, contenant du bromure, filtrée trois fois.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-205",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_205.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-205-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel pays le Coca-Cola est-il interdit d'importation ?",
+      "answer": "Inde",
+      "options": [
+        "Suisse",
+        "Argentine",
+        "Inde",
+        "Japon"
+      ],
+      "explanation": "Plusieurs marques d'eau en bouteilles fabriquées par Coca-Cola contenaient des résidus de pesticides trente fois supérieurs à la norme.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-205",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_205.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-205-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel produit a pour slogan : « Le Cola embrasse l'orange » ?",
+      "answer": "Mezzo Mix",
+      "options": [
+        "Dasani",
+        "Enviga",
+        "BlaK",
+        "Mezzo Mix"
+      ],
+      "explanation": "Mezzo Mix est un produit de la compagnie Coca-Cola vendu seulement en Allemagne, Autriche, Finlande, Belgique ainsi qu'en Suisse.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-205",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_205.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-205-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle variante de la boisson Coca-Cola fut produite en 1940 ?",
+      "answer": "Coca Blanc",
+      "options": [
+        "Coca Mauve",
+        "Coca Blanc",
+        "Coca Jaune",
+        "Coca Bleu"
+      ],
+      "explanation": "Le maréchal Joukov demanda à l'entreprise américaine de fabriquer et d'emballer des bouteilles pour les faire ressembler à de la vodka.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-205",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_205.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-205-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle boisson contient des catéchines extraits du thé vert ?",
+      "answer": "Enviga",
+      "options": [
+        "Cheerios",
+        "Nuts",
+        "Lanvin",
+        "Enviga"
+      ],
+      "explanation": "Enviga est une boisson gazeuse non alcoolique permettant, selon ses fabricants, de brûler plus de calories qu'elle n'en apporte.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-205",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_205.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-205-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "La formule de quel Coca-Cola utilise du sucre de canne plutôt que du sucre standard ?",
+      "answer": "Mexican Coke",
+      "options": [
+        "German Coke",
+        "Canadian Coke",
+        "Indian Coke",
+        "Mexican Coke"
+      ],
+      "explanation": "Nommé ainsi de par son lieu de production, ce changement donnerait à la boisson un goût plus naturel.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-205",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_205.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

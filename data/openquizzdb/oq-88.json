@@ -1,0 +1,774 @@
+{
+  "id": "oq-88",
+  "title": "Toy Story a 20 ans",
+  "originalTitle": "Toy Story a 20 ans",
+  "universe": "film",
+  "emoji": "🎬",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_88.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    3
+  ],
+  "questions": [
+    {
+      "id": "oqdb-88-1",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Comment se prénomme le cow-boy héros de la saga 'Toy Story' ?",
+      "answer": "Woody",
+      "options": [
+        "Randy",
+        "Pile-Poil",
+        "Woody",
+        "Jessy"
+      ],
+      "explanation": "Woody est loyal, toujours prêt à aider les autres et ferait n'importe quoi pour Andy.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-88",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_88.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-88-2",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui est l'ennemi de Woody au début de 'Toy Story', devenant par la suite son ami ?",
+      "answer": "Buzz",
+      "options": [
+        "Razmotte",
+        "Buzz",
+        "Sid",
+        "Rex"
+      ],
+      "explanation": "Le plus grand défaut de Buzz l'Éclair est de se prendre continuellement pour un vrai ranger de l’espace.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-88",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_88.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-88-4",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Comment se prénomme l'effrayant voisin d'Andy qui torture les jouets dans le premier opus ?",
+      "answer": "Sid",
+      "options": [
+        "Sid",
+        "Ted",
+        "Chuck",
+        "Zurg"
+      ],
+      "explanation": "Dans 'Toy Story 3', Sid est devenu éboueur et ramasse les poubelles dans le quartier d’Andy.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-88",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_88.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-88-5",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quel restaurant la maman d'Andy l'a-t-elle invité pour aller manger des pizzas ?",
+      "answer": "Pizza Planet",
+      "options": [
+        "Pizza Hut",
+        "Pizza Planet",
+        "Pizza Paï",
+        "Pizza Lunch"
+      ],
+      "explanation": "Les restaurants Pizza Planet, ayant pour logo une fusée rouge et blanche, prennent pour thème l'espace et la science-fiction.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-88",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_88.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-88-6",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "De quels studios est sorti 'Toy Story', premier long-métrage en images de synthèse ?",
+      "answer": "Pixar",
+      "options": [
+        "Sony",
+        "Pixar",
+        "Touchstone",
+        "Marvel"
+      ],
+      "explanation": "Pixar a été créé en 1979 sous le nom de Graphics Group, un service de la division informatique de Lucasfilm.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-88",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_88.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-88-7",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "En quelle année est sorti le tout premier voler de la saga 'Toy Story' ?",
+      "answer": "1995",
+      "options": [
+        "2005",
+        "2010",
+        "2000",
+        "1995"
+      ],
+      "explanation": "En 2015, de nombreuses télévisions ont fêté le vingtième anniversaire de la saga au succès planétaire.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-88",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_88.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-88-8",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "À la garderie, dans 'Toy Story 3', de qui Barbie tombe-t-elle follement amoureuse ?",
+      "answer": "Ken",
+      "options": [
+        "Ken",
+        "Ben 10",
+        "Sid",
+        "GI Joe"
+      ],
+      "explanation": "Ken et Barbie, un des ex-jouets de Molly, se déclarent leurs sentiments et seule Barbie échappe à leur terrifiante destinée.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-88",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_88.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-88-9",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quel film le trio extraterrestre est-il adopté par Monsieur et Madame Patate ?",
+      "answer": "Toy Story 2",
+      "options": [
+        "Toy Story 4",
+        "Toy Story 3",
+        "Toy Story",
+        "Toy Story 2"
+      ],
+      "explanation": "Les aliens proviennent du restaurant Pizza Planet et sont des jouets à gagner au jeu du grappin.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-88",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_88.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-88-10",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui est le jouet préféré d’Andy au début du film 'Toy Story' ?",
+      "answer": "Woody",
+      "options": [
+        "Buzz",
+        "Woody",
+        "Rex",
+        "Monsieur Patate"
+      ],
+      "explanation": "Woody est un cow-boy doté d’une corde vocale dans son dos, qui émet des phrases lorsqu'on la tire.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-88",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_88.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-88-11",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Comment s'appelle le chien d'Andy dans la saga 'Toy Story' ?",
+      "answer": "Razmotte",
+      "options": [
+        "Pile-Poil",
+        "Scud",
+        "Lotso",
+        "Razmotte"
+      ],
+      "explanation": "Contrairement à leurs craintes initiales, Razmotte est devenu, pour les jouets de la chambre d'Andy, un compagnon de jeu.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-88",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_88.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-88-12",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "À qui appartiennent les jouets dont font partie Woody, Buzz et ses amis ?",
+      "answer": "Andy",
+      "options": [
+        "Daisy",
+        "Andy",
+        "Sid",
+        "Lisa"
+      ],
+      "explanation": "Andy tient énormément à tous ses jouets, et certains plus que d’autres, au point de les garder jusque dans son adolescence.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-88",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_88.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-88-13",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quel lieu se déroule la scène du « combat final » dans 'Toy Story 2' ?",
+      "answer": "Un aéroport",
+      "options": [
+        "Une gare",
+        "Un aéroport",
+        "Un hôtel",
+        "Une école"
+      ],
+      "explanation": "'Toy Story 2' est souvent considéré pour beaucoup comme étant le meilleur opus de la saga 'Toy Story'.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-88",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_88.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-88-14",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui a réalisé les deux premiers films de la saga 'Toy Story' ?",
+      "answer": "John Lasseter",
+      "options": [
+        "John Lasseter",
+        "Ralph Guggenheim",
+        "Bonnie Arnold",
+        "Lee Unkrich"
+      ],
+      "explanation": "Le 31 octobre 2011, John Lasseter est entré dans la légende en obtenant une étoile sur le Walk of Fame d'Hollywood Boulevard.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-88",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_88.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-88-15",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel acteur américain double la voix du Shérif Woody dans la version originale de 'Toy Story' ?",
+      "answer": "Tom Hanks",
+      "options": [
+        "Jack Nicholson",
+        "Tom Hanks",
+        "Nicolas Cage",
+        "Anthony Hopkins"
+      ],
+      "explanation": "En 2012, les films auxquels a participé Tom Hanks ont généré plus de 4 milliards de dollars.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-88",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_88.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-88-16",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Comment Sid, passionné de torture et voisin du jeune Andy, a-t-il appelé son chien ?",
+      "answer": "Scud",
+      "options": [
+        "Ken",
+        "Zurg",
+        "Ruby",
+        "Scud"
+      ],
+      "explanation": "De la race des bull terriers, Scud est un chien violent et mal dressé qui adore détruire les jouets qui tombent sous ses crocs.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-88",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_88.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-88-17",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Lotso, le vieil ours en peluche de 'Toy Story 3', est parfumé avec quelle senteur ?",
+      "answer": "La fraise",
+      "options": [
+        "La framboise",
+        "La pomme",
+        "La fraise",
+        "La banane"
+      ],
+      "explanation": "Lotso est un gros nounours tout doux avec un corps en peluche rose et blanche et un nez en velours violet.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-88",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_88.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-88-18",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel dessin retrouve-t-on sur le tee-shirt noir de Sid dans le film 'Toy Story' ?",
+      "answer": "Une tête de mort",
+      "options": [
+        "Un smiley",
+        "Le nombre 95",
+        "Une tête de mort",
+        "Un éclair"
+      ],
+      "explanation": "Enfant solitaire, Sid passe la majeure partie de son temps à expérimenter ses idées diaboliques sur les jouets qu'il récupère.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-88",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_88.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-88-19",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "De quelle couleur est la pieuvre Flex dans le film d'animation 'Toy Story 3' ?",
+      "answer": "Violette",
+      "options": [
+        "Violette",
+        "Verte",
+        "Rouge",
+        "Bleue"
+      ],
+      "explanation": "Flex est une pieuvre violette possédant des dizaines de petites ventouses sur ses huit longs tentacules.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-88",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_88.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-88-20",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Comment se prénomme l'enfant propriétaire de Lotso, Rictus et Big Baby ?",
+      "answer": "Daisy",
+      "options": [
+        "Ruby",
+        "Daisy",
+        "Mary",
+        "Molly"
+      ],
+      "explanation": "Woody présente à Big Bay et à Lotso un cœur sur lequel est inscrit le nom de Daisy, leur propriétaire.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-88",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_88.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-88-21",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans 'Toy Story 2', à qui appartenait Jessie avant d'être abandonnée ?",
+      "answer": "Emily",
+      "options": [
+        "Molly",
+        "Emily",
+        "Mary",
+        "Suzy"
+      ],
+      "explanation": "Toujours surexcitée et débordante d’énergie, elle est heureuse de voir Woody à ses côtés.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-88",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_88.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-88-22",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui se trouve être l'empereur Zurg, dans une référence à Luke Skywalker et Dark Vador ?",
+      "answer": "Le père de Buzz",
+      "options": [
+        "Le frère de Buzz",
+        "L'oncle de Buzz",
+        "Le père de Buzz",
+        "Le fils de Buzz"
+      ],
+      "explanation": "Dans 'Toy Story 3', Zurg fait une apparition dans un carton de jouets donné à la garderie Sunnyside.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-88",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_88.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-88-23",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans 'Toy Story', qui est l'ennemi juré de Buzz, le cosmonaute ?",
+      "answer": "Zurg",
+      "options": [
+        "Zurg",
+        "Spock",
+        "Vador",
+        "Scud"
+      ],
+      "explanation": "Menaçant l'alliance galactique défendue par Buzz, il apparaît à deux reprises dans le film 'Toy Story 2'.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-88",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_88.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-88-24",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle est la couleur de la salopette de Papi Pépite dans 'Toy Story 2' ?",
+      "answer": "Bleue",
+      "options": [
+        "Rouge",
+        "Jaune",
+        "Bleue",
+        "Verte"
+      ],
+      "explanation": "Papi Pépite n'a jamais été ouvert et figure toujours dans sa boîte, ce qui lui donne une grande valeur aux yeux des collectionneurs.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-88",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_88.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-88-25",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans 'Toy Story 3', où les jouets d'Andy sont-ils fait prisonniers par l'horrible Lotso ?",
+      "answer": "À Sunnyside",
+      "options": [
+        "Au parc",
+        "Chez Bonnie",
+        "À Sunnyside",
+        "Dans le grenier"
+      ],
+      "explanation": "Devienu chef de Sunnyside et régnant à la manière d’un tyran, Lotso présente toutefois une image joviale.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-88",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_88.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-88-26",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Avec quel jeu Zig-Zag veut-il passer du temps avec Woody au début du film 'Toy Story' ?",
+      "answer": "Aux échecs",
+      "options": [
+        "Aux dames",
+        "Au jeu de l'oie",
+        "Aux échecs",
+        "Aux cartes"
+      ],
+      "explanation": "Surnommé Ziggy par Woody, Zig-Zag est un teckel en plastique avec un long ressort en guise de corps.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-88",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_88.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-88-27",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Buzz l’Éclair est probablement le meilleur agent de quelle base de l'espace ?",
+      "answer": "StarCommand",
+      "options": [
+        "StarCommand",
+        "MoonLight",
+        "AstralCorp",
+        "SideralStar"
+      ],
+      "explanation": "Le prénom de Buzz l'Éclair, le ranger de l'espace, est inspiré de l'astronaute d'Apollo, Buzz Aldrin.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-88",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_88.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-88-28",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quelle salle se retrouvent Buzz et ses autres amis dans 'Toy Story 3' ?",
+      "answer": "Salle des chenilles",
+      "options": [
+        "Salle des limaces",
+        "Salle des papillons",
+        "Salle des chenilles",
+        "Salle des fourmis"
+      ],
+      "explanation": "La salle de Lotso et des autres, qui accueille des enfants beaucoup moins perturbés, est celle des papillons.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-88",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_88.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-88-29",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel nouvel accessoire possède le Buzz du magasin de jouets dans 'Toy Story 2' ?",
+      "answer": "Une ceinture",
+      "options": [
+        "Un pistolet",
+        "Des gants",
+        "Des bottes",
+        "Une ceinture"
+      ],
+      "explanation": "Buzz est en vente chez 'Al La ferme aux jouets' et a pour accessoire une ceinture anti-gravitationnelle lui permettant de flotter.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-88",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_88.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-88-30",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans 'Toy Story', quel jouet Molly frappe-t-elle régulièrement sur les barreaux de son parc ?",
+      "answer": "Monsieur Patate",
+      "options": [
+        "Rex",
+        "Woody",
+        "Monsieur Patate",
+        "Buzz"
+      ],
+      "explanation": "Monsieur Patate peut facilement perdre les accessoires qui s'accrochent à son socle et qui lui servent de visage.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-88",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_88.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

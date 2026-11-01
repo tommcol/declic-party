@@ -1,0 +1,749 @@
+{
+  "id": "oq-23",
+  "title": "Tennis",
+  "originalTitle": "Tennis (Adaptation anglaise du jeu de paume)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_23.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    21,
+    22
+  ],
+  "questions": [
+    {
+      "id": "oqdb-23-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel objet tient-on en main pour jouer au tennis, que ce soit en simple ou en double ?",
+      "answer": "Raquette",
+      "options": [
+        "Batte",
+        "Crosse",
+        "Perche",
+        "Raquette"
+      ],
+      "explanation": "Les premières raquettes furent utilisées vers 1505 pour éviter aux nobles qui jouaient au jeu de paume de se blesser les mains.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-23",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_23.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-23-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la nationalité de Roger Federer, un des plus grands joueurs de tennis de tous les temps ?",
+      "answer": "Suisse",
+      "options": [
+        "Belge",
+        "Française",
+        "Allemande",
+        "Suisse"
+      ],
+      "explanation": "Roger Federer est le seul joueur de l'histoire du tennis à avoir gagné cinq fois de suite deux tournois du Grand Chelem.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-23",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_23.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-23-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Au tennis, quel coup de volée puissant cherche à terminer le point ?",
+      "answer": "Smash",
+      "options": [
+        "Smash",
+        "Service",
+        "Lift",
+        "Revers"
+      ],
+      "explanation": "Au tennis, un joueur effectue un smash après que son adversaire lui ait proposé un lob offensif ou défensif.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-23",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_23.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-23-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel joueur de tennis français peut-on voir dans une publicité de Kinder Bueno ?",
+      "answer": "Jo-Wilfried Tsonga",
+      "options": [
+        "Gilles Simon",
+        "Yannick Noah",
+        "Jo-Wilfried Tsonga",
+        "Gaël Monfils"
+      ],
+      "explanation": "Le meilleur rang au classement ATP de Jo-Wilfried Tsonga est une cinquième place mondiale, atteinte en février 2012.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-23",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_23.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-23-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Au tennis, quand une balle rebondit en dehors du terrain, on dit qu'elle est...",
+      "answer": "Out",
+      "options": [
+        "Fausse",
+        "Out",
+        "Blanche",
+        "Nulle"
+      ],
+      "explanation": "Lorsque la balle tombe dans le filet, du côté du joueur qui a frappé la balle, le point est également accordé à l'adversaire.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-23",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_23.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-23-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment se prénomment les sœurs Williams, joueuses de tennis américaines professionnelles ?",
+      "answer": "Venus et Serena",
+      "options": [
+        "Martina et Kimi",
+        "Monica et Steffi",
+        "Venus et Serena",
+        "Sarah et Sabrina"
+      ],
+      "explanation": "Venus et Serena Williams ont toutes deux été entraînées par leur père, Richard Williams.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-23",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_23.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-23-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est généralement la couleur de la balle utilisée au tennis ?",
+      "answer": "Jaune",
+      "options": [
+        "Rouge",
+        "Jaune",
+        "Bleue",
+        "Verte"
+      ],
+      "explanation": "Recouvertes de feutre, les balles doivent impérativement être jaunes ou blanches dans les compétitions officielles.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-23",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_23.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-23-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Au tennis, lorsque vous jouez en double, quelle zone du terrain est ajoutée ?",
+      "answer": "Les couloirs",
+      "options": [
+        "Les fonds",
+        "Les couloirs",
+        "Les carrés",
+        "Les lignes"
+      ],
+      "explanation": "Pour le jeu en double, deux couloirs de 1,37 mètre sont ajoutés, faisant ainsi passer la largeur du court à 10,97 mètres.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-23",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_23.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-23-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Où est positionné l'arbitre principal durant un match de tennis ?",
+      "answer": "Sur une chaise",
+      "options": [
+        "Face au public",
+        "Derrière les joueurs",
+        "Dans un box",
+        "Sur une chaise"
+      ],
+      "explanation": "Le juge de ligne veille quant à lui au bon déroulement de la partie, à l'application des règles et au code de bonne conduite.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-23",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_23.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-23-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est a première action effectuée au début d'un match de tennis ?",
+      "answer": "Service",
+      "options": [
+        "Service",
+        "Lift",
+        "Smash",
+        "Volée"
+      ],
+      "explanation": "Le service doit être frappé en diagonale de telle sorte que la balle tombe dans le carré de service.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-23",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_23.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-23-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Parmi ces joueurs de tennis professionnels, lequel est le plus âgé ?",
+      "answer": "Andre Agassi",
+      "options": [
+        "Rafael Nadal",
+        "Roger Federer",
+        "Marat Safin",
+        "Andre Agassi"
+      ],
+      "explanation": "Andre Agassi a remporté 60 titres en simple sur le circuit ATP, dont 8 tournois du Grand Chelem.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-23",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_23.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-23-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année Rafael Nadal a-t-il remporté son premier Grand Chelem ?",
+      "answer": "2005",
+      "options": [
+        "2004",
+        "2002",
+        "2003",
+        "2005"
+      ],
+      "explanation": "Rafael Nadal est considéré par de nombreux spécialistes comme le meilleur joueur de terre battue de l'histoire du tennis.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-23",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_23.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-23-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le plus grand court de tennis du stade Roland-Garros ?",
+      "answer": "Philippe-Chartier",
+      "options": [
+        "Suzanne-Lenglen",
+        "Philippe-Chartier",
+        "La Tourelle",
+        "Numéro 1"
+      ],
+      "explanation": "Philippe Chartier fut à la tête de la Fédération française de tennis et de la Fédération internationale de tennis.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-23",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_23.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-23-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans les quatre tournois du Grand Chelem, chaque tour se joue en combien de sets gagnants ?",
+      "answer": "Trois",
+      "options": [
+        "Quatre",
+        "Cinq",
+        "Deux",
+        "Trois"
+      ],
+      "explanation": "Réaliser le Grand Chelem en tennis est le fait de remporter, la même année, les quatre tournois majeurs du circuit international.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-23",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_23.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-23-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Chez les hommes, qui est le plus jeune vainqueur du tournoi de Roland Garros ?",
+      "answer": "Michael Chang",
+      "options": [
+        "Jim Courier",
+        "Michael Chang",
+        "Thomas Muster",
+        "Boris Becker"
+      ],
+      "explanation": "Le meilleur classement ATP en simple de Michael Chang a été la deuxième place mondiale, obtenue le 9 septembre 1996.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-23",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_23.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-23-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Au tennis, quel est le score du jeu lorsque le serveur marque 3 points et le receveur 2 ?",
+      "answer": "40-30",
+      "options": [
+        "2-3",
+        "3-2",
+        "30-40",
+        "40-30"
+      ],
+      "explanation": "Les scores possibles pour remporter un set sont : 6/0, 6/1, 6/2, 6/3, 6/4 et 7/5.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-23",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_23.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-23-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces joueurs de tennis est naturalisé américain depuis 1992 ?",
+      "answer": "Ivan Lendl",
+      "options": [
+        "John McEnroe",
+        "Pete Sampras",
+        "Ivan Lendl",
+        "Boris Becker"
+      ],
+      "explanation": "Lendl a marqué l'histoire du tennis par son jeu de fond de court, plus offensif que ceux de ses prédécesseurs.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-23",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_23.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-23-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui est devenu à 19 ans le plus jeune vainqueur du tournoi US Open ?",
+      "answer": "Pete Sampras",
+      "options": [
+        "Andre Agassi",
+        "Pete Sampras",
+        "Boris Becker",
+        "Roger Federer"
+      ],
+      "explanation": "Pete Sampras est le seul joueur de l'ère Open à avoir achevé six saisons au premier rang mondial.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-23",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_23.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-23-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle douleur au coude est fréquente chez les joueurs de tennis ?",
+      "answer": "Tennis elbow",
+      "options": [
+        "Tennis elbow",
+        "Tennis shadow",
+        "Tennis longbow",
+        "Tennis middow"
+      ],
+      "explanation": "Selon la littérature scientifique, les symptômes dureraient en moyenne de 6 mois à 2 ans et récidiveraient dans 26% des cas.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-23",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_23.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-23-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En son centre, le filet de tennis doit avoir une hauteur minimale de combien de centimètres ?",
+      "answer": "91 cm",
+      "options": [
+        "121 cm",
+        "91 cm",
+        "101 cm",
+        "111 cm"
+      ],
+      "explanation": "Le filet doit être de couleur sombre et la bande de filet de couleur blanche avec une dimension de 10 à 13 cm.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-23",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_23.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-23-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle maladie souffrait Gabriela Sabatini durant sa carrière de joueuse de tennis ?",
+      "answer": "Anémie",
+      "options": [
+        "Anorexie",
+        "Arthrose",
+        "Anémie",
+        "Aplasie"
+      ],
+      "explanation": "Extrêmement précoce, Gabriela Sabatini a remporté au total 27 titres en simple, dont un titre du Grand Chelem.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-23",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_23.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-23-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle joueuse de tennis sud-africaine était la bête noire de Steffi Graf ?",
+      "answer": "Amanda Coetzer",
+      "options": [
+        "Gabriela Sabatini",
+        "Monica Seles",
+        "Amanda Coetzer",
+        "Christ Evert"
+      ],
+      "explanation": "En 1995, à l'Open du Canada, Amanda Coetzer a éliminé trois joueuses du top 5 : Steffi Graf, Jana Novotna et Mary Pierce.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-23",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_23.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-23-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui est la dernière joueuse a avoir battu Justine Henin en tournoi officiel ?",
+      "answer": "Kuznetsova",
+      "options": [
+        "Jankovic",
+        "Dementieva",
+        "Kuznetsova",
+        "Safina"
+      ],
+      "explanation": "Malgré un relatif handicap de taille et de poids, Justine Henin fut l'une des joueuses dominantes des années 2003 à 2008.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-23",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_23.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-23-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année a été créé Wimbledon, le plus vieux tournoi de tennis au monde ?",
+      "answer": "1877",
+      "options": [
+        "1897",
+        "1887",
+        "1867",
+        "1877"
+      ],
+      "explanation": "Le tournoi de Wimbledon est depuis ses débuts organisé par le All England Lawn Tennis and Croquet Club, un club sportif anglais.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-23",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_23.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-23-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel ancien joueur de tennis était surnommé « le Terrible » ?",
+      "answer": "Ivan Lendl",
+      "options": [
+        "John McEnroe",
+        "Ivan Lendl",
+        "Pete Sampras",
+        "Boris Becker"
+      ],
+      "explanation": "Le public, notamment français, soutenait peu Ivan Lendl, lui reprochant un côté antipathique.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-23",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_23.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-23-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle joueuse de tennis a remporté 64 titres du Grand Chelem ?",
+      "answer": "Margaret Court",
+      "options": [
+        "Justine Henin",
+        "Margaret Court",
+        "Christ Evert",
+        "Steffi Graf"
+      ],
+      "explanation": "Margaret Court s'est ensuite engagée dans une carrière politique locale en Australie-Occidentale.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-23",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_23.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-23-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Avec quelle marque de raquette joue Roger Federer, professionnel depuis 1998 ?",
+      "answer": "Wilson",
+      "options": [
+        "Wilson",
+        "Head",
+        "Lacoste",
+        "Babolat"
+      ],
+      "explanation": "Federer jouait en 2012 avec la raquette Wilson 'Pro Staff Six.One', caractérisée par sa petite surface de frappe.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-23",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_23.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-23-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel joueur de tennis a involontairement causé la mort d'un arbitre par une de ses balles ?",
+      "answer": "Stephan Edberg",
+      "options": [
+        "John McEnroe",
+        "Jimmy Connors",
+        "Stephan Edberg",
+        "Mats Wilander"
+      ],
+      "explanation": "Stephan Edberg est avec John McEnroe un des deux seuls joueurs à avoir été numéro un mondial en simple et en double messieurs.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-23",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_23.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

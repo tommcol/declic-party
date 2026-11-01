@@ -1,0 +1,798 @@
+{
+  "id": "oq-102",
+  "title": "Pokemon",
+  "originalTitle": "Pokemon (Attrapez-les tous !)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_102.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-102-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de Pokémon un dresseur peut-il transporter ?",
+      "answer": "6",
+      "options": [
+        "4",
+        "10",
+        "1",
+        "6"
+      ],
+      "explanation": "Un dresseur de Pokémon est une personne qui capture et entraîne des Pokémon en vue de les faire combattre.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-102",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_102.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-102-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sur quel animal se base la forme de Laporeille, Pokémon de la quatrième génération ?",
+      "answer": "Le lapin",
+      "options": [
+        "Le blaireau",
+        "La girafe",
+        "L'éléphant",
+        "Le lapin"
+      ],
+      "explanation": "Sa fourrure est de couleur marron et il possède comme du coton sur ses oreilles et sur le bas de son corps beige.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-102",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_102.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-102-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le jeu « Pokémon » le plus vendu de tous les temps sur la console Game Boy Advance ?",
+      "answer": "Rubis",
+      "options": [
+        "Émeraude",
+        "Rubis",
+        "Rouge Feu",
+        "Platine"
+      ],
+      "explanation": "Les versions « Rubis et Saphir » mettent en scène une nouvelle région, Hoenn, avec de nouveaux Pokémon.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-102",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_102.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-102-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quels sont les types de Dracaufeu, que l'on retrouve sur des jaquettes des jeux « Pokémon » ?",
+      "answer": "Feu / Vol",
+      "options": [
+        "Feu / Dragon",
+        "Vol / Dragon",
+        "Feu / Combat",
+        "Feu / Vol"
+      ],
+      "explanation": "Ses membres supérieurs se sont atrophiés et sa queue rallongée pour permettre à ce titan de garder une certaine stabilité au sol.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-102",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_102.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-102-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment se prénomme le jeune garçon, héros du dessin animé « Pokémon » ?",
+      "answer": "Sacha",
+      "options": [
+        "Jacky",
+        "Pierre",
+        "Florent",
+        "Sacha"
+      ],
+      "explanation": "Originaire du Bourg Palette, Sacha a reçu Pikachu, son Pokémon de départ, des mains du Professeur Chen.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-102",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_102.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-102-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment traduire Pokémon, générateur de nombreux produits dérivés ?",
+      "answer": "Monstres de poche",
+      "options": [
+        "Petit animal",
+        "Chasse aux dragons",
+        "Mega pouvoirs",
+        "Monstres de poche"
+      ],
+      "explanation": "De nombreux produits dérivés ont été créés, notamment des dessins animés, des cartes, des figurines et des mangas.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-102",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_102.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-102-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est l'âge du jeune Sacha Ketchum au début de la série « Pokémon » ?",
+      "answer": "10 ans",
+      "options": [
+        "12 ans",
+        "9 ans",
+        "10 ans",
+        "11 ans"
+      ],
+      "explanation": "À 10 ans, très sûr de lui et têtu, Sacha a commencé sa quête pour devenir Maître Pokémon.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-102",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_102.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-102-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle famille de Pokémon Pikachu, Rattatac et Sabelette font-ils partie ?",
+      "answer": "Souris",
+      "options": [
+        "Souris",
+        "Chiots",
+        "Oeufs",
+        "Brebis"
+      ],
+      "explanation": "Probablement le plus célèbre des Pokémon, Pikachu est très vite devenu la mascotte officielle de la licence.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-102",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_102.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-102-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans « Pokémon », que peut-on voir sur le ventre de Ptitard et de ses évolutions ?",
+      "answer": "Une spirale",
+      "options": [
+        "Un carré",
+        "Une étoile",
+        "Un cercle",
+        "Une spirale"
+      ],
+      "explanation": "Ce dessin est inspiré des intestins de certains têtards qui sont visibles et en forme de spirale.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-102",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_102.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-102-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel nom avait été initialement choisi au moment du lancement du jeu « Pokémon » ?",
+      "answer": "Capsule Monsters",
+      "options": [
+        "Capsule Monsters",
+        "Mega Monsters",
+        "Sacha's Quest",
+        "Red Balls"
+      ],
+      "explanation": "C'est suite à la difficulté de déposer le nom de marque que Satoshi Tajiri s'est rabattu sur le nom « Pokémon ».",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-102",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_102.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-102-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la couleur du Pokémon baptisé Insécateur, de double type Insecte et Vol ?",
+      "answer": "Verte",
+      "options": [
+        "Bleue",
+        "Rouge",
+        "Verte",
+        "Jaune"
+      ],
+      "explanation": "Insécateur est inspiré de la mante religieuse verte : il possède deux paires d'ailes, et deux grandes faux en guise de bras.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-102",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_102.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-102-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces Pokémon porte en guise de casque le crâne de sa mère morte ?",
+      "answer": "Osselait",
+      "options": [
+        "Evoli",
+        "Eoko",
+        "Osselait",
+        "Ludicolo"
+      ],
+      "explanation": "Osselait est un Pokémon de départ des premiers jeux Pokémon Donjon Mystère.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-102",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_102.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-102-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qu'est-ce que Canarticho tient constamment dans sa main ou dans son aile ?",
+      "answer": "Un poireau",
+      "options": [
+        "Un poireau",
+        "Une carotte",
+        "Un artichaut",
+        "Du persil"
+      ],
+      "explanation": "On peut remarquer que Canarticho possède un sourcil unique noir et des sortes de « doigts » à chaque aile.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-102",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_102.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-102-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qu'est-ce qui a inspiré Satoshi Tajiri pour créer les Pokémon et le concept qui va autour ?",
+      "answer": "Des criquets",
+      "options": [
+        "Des criquets",
+        "Des escargots",
+        "Des coqs",
+        "Des souris"
+      ],
+      "explanation": "L'idée de créer ces personnages lui est venu de sa passion d'enfance, la collection des insectes.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-102",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_102.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-102-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans le premier épisode de « Pokemon », combien de fois Sacha est-il électrocuté par Pikachu ?",
+      "answer": "Deux fois",
+      "options": [
+        "Deux fois",
+        "Une fois",
+        "Trois fois",
+        "Quatre fois"
+      ],
+      "explanation": "Sacha s'appelle Ash en anglais et en français québécois, et Satoshi en japonais, en l'honneur de Satoshi Tajiri.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-102",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_102.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-102-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment se prénomme le chef de la Team Rocket, organisation criminelle dans « Pokémon » ?",
+      "answer": "Giovanni",
+      "options": [
+        "Max",
+        "Sacha",
+        "Giovanni",
+        "Hélio"
+      ],
+      "explanation": "La Team Rocket est une organisation criminelle qui s'est donnée pour but la domination du monde par tous les moyens.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-102",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_102.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-102-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces Pokémon est l'un des seuls à avoir le même nom dans toutes les langues ?",
+      "answer": "Pikachu",
+      "options": [
+        "Smogo",
+        "Pikachu",
+        "Osselait",
+        "Canarticho"
+      ],
+      "explanation": "C'est une combinaison des onomatopées japonaises « pikapika » (étincelles) et de « chuchu » (bruits émis par les souris).",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-102",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_102.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-102-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel pays la géographie des lieux visités dans « Pokémon » est-elle inspirée ?",
+      "answer": "Du Japon",
+      "options": [
+        "Du Canada",
+        "De l'Inde",
+        "Du Japon",
+        "De la Chine"
+      ],
+      "explanation": "En fait, jusqu'à la 4ème génération, toutes les cartes semblent correspondre très fortement à des parties précises du Japon.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-102",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_102.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-102-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En dehors du Japon, par quelle couleur la cartouche Pokemon verte fut-elle remplacée ?",
+      "answer": "Bleue",
+      "options": [
+        "Jaune",
+        "Argent",
+        "Bleue",
+        "Rouge"
+      ],
+      "explanation": "La version japonaise des premiers jeux GameBoy donnait le choix entre la version Rouge ou Verte.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-102",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_102.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-102-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Complétez cette phrase de la Team Rocket: « Afin de préserver le monde de la...",
+      "answer": "Dévastation",
+      "options": [
+        "Dévastation",
+        "Désolation",
+        "Déforestation",
+        "Solarisation"
+      ],
+      "explanation": "La Team Rocket, en tant qu'organisation de l'ombre, ne laisse filtrer que peu d'informations concernant son fonctionnement interne.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-102",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_102.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-102-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Le spectre de quel pokémon hante le 5e étage de la Tour Pokémon, immeuble de Lavanville ?",
+      "answer": "Ossatueur",
+      "options": [
+        "Spectrum",
+        "Smogo",
+        "Fantominus",
+        "Ossatueur"
+      ],
+      "explanation": "Cette tour sert dans le jeu à obtenir la Pokéflûte pour réveiller Ronflex en sauvant M. Fuji des griffes de la Team Rocket.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-102",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_102.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-102-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans l'univers de « Pokémon », laquelle de ces baies guérit la confusion ?",
+      "answer": "Kika",
+      "options": [
+        "Sitrus",
+        "Oran",
+        "Kika",
+        "Wiki"
+      ],
+      "explanation": "Il est possible d'obtenir une baie kika en faisant tomber les fruits d'un arbre à baies roses.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-102",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_102.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-102-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans les versions américaines et japonaises de « Pokémon », à qui fait référence Hitmonlee ?",
+      "answer": "Bruce Lee",
+      "options": [
+        "Yang Luchan",
+        "Jackie Chan",
+        "Bruce Lee",
+        "Hong Xiguan"
+      ],
+      "explanation": "Aux États-Unis, les deux Pokémon se nomment Hitmonchan et Hitmonlee, en référence à Jackie Chan et Bruce Lee.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-102",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_102.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-102-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel animal Soporifik, qui peut empêcher un Pokémon de s'endormir, est-il inspiré ?",
+      "answer": "Le tapir",
+      "options": [
+        "Le koala",
+        "Le tapir",
+        "Le serpent",
+        "L'éléphant"
+      ],
+      "explanation": "En effet, dans le folklore japonais, les tapirs sont des animaux se nourrissant des rêves et cauchemars des gens.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-102",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_102.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-102-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le premier Pokémon à avoir été imaginé par les créateurs de la franchise ?",
+      "answer": "Rhinoféros",
+      "options": [
+        "Pikachu",
+        "Lugia",
+        "Melofée",
+        "Rhinoféros"
+      ],
+      "explanation": "La première apparition de Rhinoférosse se fait dans l'épisode 42 où il appartient à l'arène Kas.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-102",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_102.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-102-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Selon la légende, quel Pokémon aurait créé l'univers Pokémon avec ses mille bras ?",
+      "answer": "Arceus",
+      "options": [
+        "Giratina",
+        "Palkia",
+        "Arceus",
+        "Dialga"
+      ],
+      "explanation": "Arceus est une créature équine, ressemblant à un centaure ou encore à un qilin, une créature de la mythologie chinoise.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-102",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_102.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-102-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel Pokémon les joueurs pouvaient-ils télécharger au « Tokyo Game Show » en 1997 ?",
+      "answer": "Mew",
+      "options": [
+        "Arceus",
+        "Alakazam",
+        "Ectoplasma",
+        "Mew"
+      ],
+      "explanation": "Lors de cet événement, la file d'attente était de quatre kilomètres, et certains campèrent devant le salon.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-102",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_102.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-102-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel pokémon a été le premier enregistré dans le Pokédex National ?",
+      "answer": "Bulbizarre",
+      "options": [
+        "Salamèche",
+        "Bulbizarre",
+        "Chenipan",
+        "Carapuce"
+      ],
+      "explanation": "Il n'y a aucune différence entre les individus mâles et femelles de cette espèce dans les jeux vidéo.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-102",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_102.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-102-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À l'origine, quel Pokémon Sacha devait-il recevoir au moment de partir à l'aventure ?",
+      "answer": "Melofée",
+      "options": [
+        "Pikachu",
+        "Bulbizarre",
+        "Melofée",
+        "Mew"
+      ],
+      "explanation": "Les scénaristes pensaient que Pikachu avait plus de potentiel que Melofée pour plaire à la fois aux filles et aux garçons.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-102",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_102.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-102-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quels sont les numéros respectifs de Pikachu et Miaouss dans le Pokédex National ?",
+      "answer": "25 et 52",
+      "options": [
+        "12 et 21",
+        "25 et 52",
+        "47 et 74",
+        "32 et 223"
+      ],
+      "explanation": "Cela pourrait marquer l'opposition entre les personnages et symboliser le jeu du chat et de la souris qui existe entre les deux.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-102",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_102.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

@@ -1,0 +1,749 @@
+{
+  "id": "oq-238",
+  "title": "Britney Spears",
+  "originalTitle": "Britney Spears (Princesse de la pop)",
+  "universe": "music",
+  "emoji": "🎵",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_238.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    2,
+    9
+  ],
+  "questions": [
+    {
+      "id": "oqdb-238-1",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "En quelle année Britney Spears a-t-elle vu le jour dans le Mississippi ?",
+      "answer": "1981",
+      "options": [
+        "1978",
+        "1987",
+        "1984",
+        "1981"
+      ],
+      "explanation": "Les parents de Britney Spears sont Lynne Irene Bridges, ancienne institutrice, et James Parnell Spears, agent immobilier.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-238",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_238.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-238-3",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "De quel style Britney Spears est-elle crédité d'avoir influencé la renaissance ?",
+      "answer": "Teen pop",
+      "options": [
+        "Noise pop",
+        "J-pop",
+        "Teen pop",
+        "Europop"
+      ],
+      "explanation": "La sortie de son quatrième album studio en 2003, « In the Zone », a connu un succès mondial grâce à son deuxième single, « Toxic ».",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-238",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_238.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-238-4",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Comment Britney Spears est-elle habillée dans le clip « ...Baby One More Time » ?",
+      "answer": "En écolière",
+      "options": [
+        "En cosmonaute",
+        "En policière",
+        "En écolière",
+        "En lionne"
+      ],
+      "explanation": "Pour promouvoir son single, elle a fait la tournée des centres commerciaux dans la plupart des grandes villes des États-Unis.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-238",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_238.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-238-5",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Avec qui Britney Spears a-t-elle écrit « Heart-to-Heart », son premier livre ?",
+      "answer": "Sa mère",
+      "options": [
+        "Son père",
+        "Son frère",
+        "Sa mère",
+        "Sa soeur"
+      ],
+      "explanation": "Elle éditera ce livre après sa première tournée mondiale, « Oops!... I Did It Again World Tour », qui a récolté 45 millions de dollars.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-238",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_238.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-238-6",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "De quel télé-crochet Britney Spears fut-elle une des jurés ?",
+      "answer": "The X-Factor",
+      "options": [
+        "The X-Factor",
+        "The Simple Life",
+        "American Idol",
+        "Celebrity Boxing"
+      ],
+      "explanation": "En mai 2012, Britney Spears devient juré de la deuxième saison du télé-crochet, décrochant ainsi un contrat de 15 millions de dollars.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-238",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_238.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-238-7",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Avec lequel de ses époux Britney Spears est-elle apparue dans sa propre télé-réalité ?",
+      "answer": "Kevin Federline",
+      "options": [
+        "David Lucado",
+        "Charlie Ebersol",
+        "Kevin Federline",
+        "Jason Trawick"
+      ],
+      "explanation": "L'émission « Britney and Kevin: Chaotic », diffusée du 17 mai 2005 au 14 juin 2005, a essentiellement reçu des réactions négatives.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-238",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_238.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-238-8",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel titre de Britney Spears à remporté le Grammy Award de la chanson dance en 2004 ?",
+      "answer": "Toxic",
+      "options": [
+        "Lucky",
+        "Toxic",
+        "Stronger",
+        "Soda Pop"
+      ],
+      "explanation": "Britney Spears a interprété « Toxic » dans un certain nombre d'apparitions en direct, y compris les NRJ Music Awards en 2004.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-238",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_238.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-238-10",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Avec qui Britney Spears a-t-elle chanté en duo « Me Against the Music » ?",
+      "answer": "Madonna",
+      "options": [
+        "Dido",
+        "Christina Aguilera",
+        "Jennifer Lopez",
+        "Madonna"
+      ],
+      "explanation": "À la fin du clip, Britney Spears et Madonna se retrouvent nez-à-nez et Madonna disparaît avant que Britney lui ait donné un baiser.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-238",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_238.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-238-11",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quelle soeur de Britney Spears a commencé sa carrière comme actrice ?",
+      "answer": "Jamie Lynn",
+      "options": [
+        "Emma Jean",
+        "Jamie Lynn",
+        "Tony Finn",
+        "Sarah Jane"
+      ],
+      "explanation": "En 2007, Jamie Lynn s'est retrouvée au coeur d'un scandale lorsqu'elle a annoncé sa grossesse, à seulement seize ans.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-238",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_238.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-238-12",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "En 1998, quel label a le premier pris Britney Spears sous contrat ?",
+      "answer": "Jive Records",
+      "options": [
+        "Jive Records",
+        "Virgin Records",
+        "Apple Records",
+        "Hansa Records"
+      ],
+      "explanation": "Elle part alors pour les Cheiron Studios situés à Stockholm où la moitié de l'album fut enregistrée entre mars et novembre 1998.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-238",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_238.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-238-13",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel titre de son second album a été écrit par Britney Spears elle-même ?",
+      "answer": "Dear Diary",
+      "options": [
+        "Dear Diary",
+        "What U See",
+        "Lucky",
+        "Stronger"
+      ],
+      "explanation": "Produit par Max Martin et Rami, « Oops!... I Did It Again » s'est écoulé à 19 millions d'exemplaires dans le monde.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-238",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_238.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-238-14",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quelle artiste a écrit pour Britney Spears le titre « I'm Not a Girl, Not Yet a Woman » ?",
+      "answer": "Dido",
+      "options": [
+        "Sam Brown",
+        "Ellie Goulding",
+        "Dido",
+        "Pixie Lott"
+      ],
+      "explanation": "Extrait de « Britney », le titre fait aussi partie de la bande originale de « Crossroads », qui marque les débuts au cinéma de la chanteuse.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-238",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_238.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-238-15",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel est l'unique film où Britney Spears détient un rôle de premier plan ?",
+      "answer": "Crossroads",
+      "options": [
+        "Blood Out",
+        "Crossroads",
+        "Carjacked",
+        "Roxxy"
+      ],
+      "explanation": "À sa sortie, le film est laminé par les critiques qui le qualifie de navet et rencontre un succès modéré au box-office mondial.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-238",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_238.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-238-16",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel titre fut interprété en ouverture des MTV Video Music Awards 2007 ?",
+      "answer": "Gimme More",
+      "options": [
+        "Piece of Me",
+        "Radar",
+        "Break the Ice",
+        "Gimme More"
+      ],
+      "explanation": "Cette apparition fut catastrophique pour bon nombre de critiques, lui reprochant une piètre chorégraphie et un playback mal maîtrisé.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-238",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_238.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-238-17",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel album est sorti le jour du 27e anniversaire de la chanteuse Britney Spears ?",
+      "answer": "Circus",
+      "options": [
+        "Britney",
+        "Blackout",
+        "Circus",
+        "In the Zone"
+      ],
+      "explanation": "Avec « Circus », Britney Spears devient la plus jeune artiste féminine à avoir cinq albums démarrant à la première place des classements.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-238",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_238.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-238-18",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quelle chanson Britney Spears a-t-elle enregistré pour la BO des « Schtroumpfs 2 » ?",
+      "answer": "Ooh La La",
+      "options": [
+        "Ooh La La",
+        "Perfume",
+        "Slumber Party",
+        "Sometimes"
+      ],
+      "explanation": "Les fils de Britney Spears, Sean Preston et Jayden James Federline apparaissent dans la vidéo tout comme la nièce de la chanteuse.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-238",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_238.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-238-19",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "En quelle année Britney Spears fut-elle la musicienne la mieux payée de l'année ?",
+      "answer": "2012",
+      "options": [
+        "2010",
+        "2016",
+        "2012",
+        "2014"
+      ],
+      "explanation": "Avec un bénéfice de 58 millions de dollars, la dernière fois que Britney Spears fût en tête de cette liste datait de 2002.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-238",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_238.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-238-20",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel clip de Britney Spears, extrait de son album « Blackout », est un anime japonais ?",
+      "answer": "Break the Ice",
+      "options": [
+        "Perfect Lover",
+        "Freakshow",
+        "Break the Ice",
+        "Hot as Ice"
+      ],
+      "explanation": "La vidéo dirigée par Robert Hales est basée sur un personnage de super-héroïne prenant les traits de Britney dans son clip « Toxic ».",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-238",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_238.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-238-21",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Dans quelle pièce de théâtre de Broadway Britney Spears a-t-elle joué à dix ans ?",
+      "answer": "Ruthless!",
+      "options": [
+        "Saint Joan",
+        "Torch Song",
+        "Ruthless!",
+        "The Ferryman"
+      ],
+      "explanation": "Très jeune, poussée par sa mère, Britney Spears a passé ses étés à New York afin de suivre des cours de danse et de comédie.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-238",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_238.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-238-22",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel groupe musical Britney Spears a-t-elle formé avec Nikki DeLoach ?",
+      "answer": "Innosense",
+      "options": [
+        "Nemless",
+        "Innosense",
+        "Detonation",
+        "Lunik"
+      ],
+      "explanation": "Britney Spears s'est ensuite retiré du groupe car elle préférait se lancer sur une carrière solo. Elle a été remplacée par Veronica Finn.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-238",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_238.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-238-23",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel duo a produit le son très rhythm and blues du titre « I'm a Slave for You » de Britney Spears ?",
+      "answer": "The Neptunes",
+      "options": [
+        "OutKast",
+        "The Spooks",
+        "House of Pain",
+        "The Neptunes"
+      ],
+      "explanation": "Le clip du morceau (en français : Je suis une esclave pour toi) est provocateur et sensuel, la chanteuse y mimant un orgasme.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-238",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_238.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-238-24",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Pour quel album Britney Spears a-t-elle collaboré avec Moby et R. Kelly ?",
+      "answer": "In the Zone",
+      "options": [
+        "Blackout",
+        "Circus",
+        "Britney",
+        "In the Zone"
+      ],
+      "explanation": "L'album et ses clips vidéos sont largement considérés par les critiques comme la fin de sa transition de la pop star adolescente.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-238",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_238.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-238-25",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Pour quel clip Britney s'est-elle essayé pour la première fois à la réalisation ?",
+      "answer": "Do Somethin",
+      "options": [
+        "Lucky",
+        "Stronger",
+        "Do Somethin",
+        "Gimme More"
+      ],
+      "explanation": "Louis Vuitton fit interdire la diffusion du clip, estimant que sa toile porte atteinte à la valeur économique de ses marques.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-238",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_238.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-238-26",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quelle reprise de Suzanne Vega Britney Spears a-t-elle faite avec Giorgio Moroder ?",
+      "answer": "Tom's Diner",
+      "options": [
+        "Luka",
+        "Calypso",
+        "Tom's Diner",
+        "In the Eye"
+      ],
+      "explanation": "Pour son album « Déjà Vu », le compositeur fit interpréter la chanson par Britney dans une version plus proche du remix de DNA.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-238",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_238.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-238-27",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Dans quelle série de Ryan Murphy Britney Spears apparaît-elle en tant que guest-star ?",
+      "answer": "Glee",
+      "options": [
+        "Charmed",
+        "Damages",
+        "Glee",
+        "Bones"
+      ],
+      "explanation": "Plusieurs titres y seront repris : « Baby One More Time », « Stronger », « I'm a Slave for You », « Toxic » et « Me Against the Music ».",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-238",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_238.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-238-28",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel restaurant Britney Spears a-t-elle ouvert le 27 juin 2002 à New York ?",
+      "answer": "Nyla",
+      "options": [
+        "Nyla",
+        "Bella",
+        "Nuna",
+        "Lola"
+      ],
+      "explanation": "Proposant des spécialités culinaires venues d'Italie et de sa région, la Louisiane, il fermera en novembre pour manque de rentabilité.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-238",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_238.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-238-29",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Avec qui Britney Spears vend-elle des parfums à son nom ?",
+      "answer": "Elizabeth Arden",
+      "options": [
+        "Elizabeth Arden",
+        "Anita Roddick",
+        "Clara Furse",
+        "Cynthia Carroll"
+      ],
+      "explanation": "Femme d'affaires avisée, la Dame en rose fut une des premières à développer une offre complète pour une clientèle huppée.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-238",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_238.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-238-30",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quelle application pour iPhone et iPod touch Britney Spears a-t-elle lancé en 2009 ?",
+      "answer": "It's Britney",
+      "options": [
+        "Fantasy Twist",
+        "It's Britney",
+        "Dance Beat",
+        "Intimate"
+      ],
+      "explanation": "On retrouve sur celle-ci l'actualité de la chanteuse et ses derniers messages sur les réseaux sociaux Facebook et Twitter.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-238",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_238.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

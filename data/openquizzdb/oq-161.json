@@ -1,0 +1,774 @@
+{
+  "id": "oq-161",
+  "title": "Culture générale 4",
+  "originalTitle": "Culture générale 4 (La culture, c'est l'expression du vivant)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_161.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    1
+  ],
+  "questions": [
+    {
+      "id": "oqdb-161-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment se prénomme la copine de Popeye le marin ?",
+      "answer": "Olive",
+      "options": [
+        "Olive",
+        "Framboise",
+        "Myrtille",
+        "Mimosa"
+      ],
+      "explanation": "Dans le dessin animé, Olive se fait régulièrement séduire et kidnapper par Brutus avant d'être sauvée par Popeye.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-161",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_161.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-161-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel jeu de dés, populaire au comptoir des bars, porte le nom de sa combinaison gagnante ?",
+      "answer": "Le 421",
+      "options": [
+        "Le 325",
+        "Le 421",
+        "Le 210",
+        "Le 666"
+      ],
+      "explanation": "On joue au 421 (ou à zanzibar) à l'aide de trois dés et d'un certain nombre de jetons ou fiches (souvent 11 ou 21).",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-161",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_161.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-161-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel film est désormais célèbre pour sa scène de la « tarte aux pommes » ?",
+      "answer": "American Pie",
+      "options": [
+        "40 jours/40 nuits",
+        "Cross roads",
+        "Midnight Kitchen",
+        "American Pie"
+      ],
+      "explanation": "Quatre adolescents font le pacte de perdre leur virginité avant d'entrer en fac, ce qui amènera de nombreuses mésaventures.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-161",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_161.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-161-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de travaux Héraclès fut-il condamné à effectuer ?",
+      "answer": "12",
+      "options": [
+        "16",
+        "7",
+        "10",
+        "12"
+      ],
+      "explanation": "La mythologie grecque lui prête un très grand nombre d'aventures qui le voient voyager à travers le monde connu des Doriens.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-161",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_161.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-161-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que symbolisent les cinq anneaux du drapeau olympique ?",
+      "answer": "Les 5 continents",
+      "options": [
+        "Les 5 épreuves",
+        "Les 5 médailles",
+        "Les 5 doigts",
+        "Les 5 continents"
+      ],
+      "explanation": "Durant la cérémonie d'ouverture, le drapeau olympique fait son entrée dans le stade porté horizontalement par des athlètes.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-161",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_161.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-161-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quels abats prépare-t-on généralement à la mode de Caen ?",
+      "answer": "Les tripes",
+      "options": [
+        "Les tripes",
+        "Les andouillettes",
+        "Le ris de veau",
+        "Les rognons"
+      ],
+      "explanation": "Cette préparation culinaire normande est réalisée avec les quatre parties de l'estomac d'un ruminant et un pied de bœuf.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-161",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_161.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-161-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de doigts possède le gant tricoté par Thérèse dans 'Le père Noël est une ordure' ?",
+      "answer": "Trois",
+      "options": [
+        "Cinq",
+        "Trois",
+        "Quatre",
+        "Six"
+      ],
+      "explanation": "'Le père Noël est une ordure' est à l'origine (1979) une pièce de théâtre interprétée par la troupe du Splendid.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-161",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_161.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-161-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Si vous faites un baby-foot à 4 par équipes de 2, combien de barres maniera chaque joueur ?",
+      "answer": "Deux",
+      "options": [
+        "Deux",
+        "Quatre",
+        "Une",
+        "Trois"
+      ],
+      "explanation": "En France, le baby-foot est principalement un jeu de café (on estime à 500 000 personnes) où on lui adjoint un monnayeur.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-161",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_161.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-161-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment se prénomme le compagnon champignon de Mario ?",
+      "answer": "Toad",
+      "options": [
+        "Peach",
+        "Luigi",
+        "Toad",
+        "Toop"
+      ],
+      "explanation": "Les Toad des jeux vidéo Nintendo, serviteurs de la Princesse Peach, ont la forme de champignons anthropomorphiques.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-161",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_161.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-161-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Où les « lunettes » du serpent à lunettes sont-elles situées ?",
+      "answer": "Derrière la tête",
+      "options": [
+        "Sur la queue",
+        "Dans la bouche",
+        "Sous les yeux",
+        "Derrière la tête"
+      ],
+      "explanation": "Dans l'imagerie populaire, le serpent à lunettes (ou le cobra égyptien) est associé au fakir charmeur de serpents.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-161",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_161.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-161-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le nom du chanteur leader du groupe Depeche Mode ?",
+      "answer": "David Gahan",
+      "options": [
+        "Andrew Fletcher",
+        "Alan Wilder",
+        "David Gahan",
+        "Martin Gore"
+      ],
+      "explanation": "Depuis 2005, enhardi par son succès en solo, le chanteur Dave Gahan participe à l'écriture de certains morceaux.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-161",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_161.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-161-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sur quel continent retrouve-t-on la Papouasie-Nouvelle-Guinée ?",
+      "answer": "Océanie",
+      "options": [
+        "Asie",
+        "Amérique",
+        "Afrique",
+        "Océanie"
+      ],
+      "explanation": "Colonisée par l'Australie, la Papouasie-Nouvelle-Guinée est indépendante au sein du Commonwealth depuis 1975.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-161",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_161.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-161-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En combien de points se joue un set de badminton depuis 2007 ?",
+      "answer": "21 points",
+      "options": [
+        "21 points",
+        "7 points",
+        "15 points",
+        "9 points"
+      ],
+      "explanation": "Le badminton nécessite une excellente condition physique ainsi que de très bonnes qualités techniques et tactiques.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-161",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_161.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-161-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Par quelle locution peut-on traduire la phrase swahilie « hakuna matata » ?",
+      "answer": "Aucun souci",
+      "options": [
+        "La vie est un soleil",
+        "Je crois en moi",
+        "Tout est possible",
+        "Aucun souci"
+      ],
+      "explanation": "L'expression a surtout été grandement popularisée en 1994 par le film d'animation des studios Disney 'Le Roi lion'.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-161",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_161.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-161-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelles villes françaises sont reliées par la route nationale 7 ?",
+      "answer": "Paris et Nice",
+      "options": [
+        "Paris et Sète",
+        "Paris et Nice",
+        "Paris et Foix",
+        "Paris et Troyes"
+      ],
+      "explanation": "La route nationale 7, ou RN7, est parfois également appelée la « route des vacances » ou encore la « route Bleue ».",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-161",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_161.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-161-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Le jeans est un vêtement qui doit son nom à quelle ville ?",
+      "answer": "Gênes",
+      "options": [
+        "Genève",
+        "Gênes",
+        "Jersey",
+        "Giens"
+      ],
+      "explanation": "Le bleu du jeans provenait d'une teinture (« blu di genova ») correspondant à la couleur originelle des bleus de travail rivetés.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-161",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_161.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-161-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment un quartier de mandarine est-il aussi parfois appelé ?",
+      "answer": "Une cuisse",
+      "options": [
+        "Une fesse",
+        "Un bras",
+        "Une cuisse",
+        "Une jambe"
+      ],
+      "explanation": "Une mandarine se divise généralement en une dizaine de quartiers qui peuvent aisément être séparés sans perdre de jus.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-161",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_161.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-161-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle était la nationalité du compositeur Piotr Ilitch Tchaïkovski ?",
+      "answer": "Russe",
+      "options": [
+        "Autrichienne",
+        "Roumaine",
+        "Russe",
+        "Polonaise"
+      ],
+      "explanation": "Tchaïkovski s'illustra particulièrement par ses onze opéras, ses huit symphonies, ses suites pour orchestre et ses ballets.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-161",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_161.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-161-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Coluche avait annoncé sa candidature aux élections présidentielles de quelle année ?",
+      "answer": "1981",
+      "options": [
+        "1974",
+        "1981",
+        "1995",
+        "1988"
+      ],
+      "explanation": "Son principal slogan était le suivant : « Avant moi, la France était coupée en deux. Maintenant, elle sera pliée en quatre ».",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-161",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_161.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-161-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de pattes au maximum peut avoir un mille-pattes ?",
+      "answer": "750",
+      "options": [
+        "1150",
+        "950",
+        "1350",
+        "750"
+      ],
+      "explanation": "Le diplopode vit sous les pierres, dans le sol, dans le bois en décomposition et dans les endroits humides.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-161",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_161.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-161-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le nom du fils de Végéta dans le manga 'Dragon Ball' ?",
+      "answer": "Trunks",
+      "options": [
+        "Trunks",
+        "Vegeto",
+        "Son gohan",
+        "Yamcha"
+      ],
+      "explanation": "Ce personnage a la particularité d'exister deux fois dans l'histoire, « Trunks du présent » et « Trunks du futur ».",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-161",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_161.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-161-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle ville de Tunisie est réputée pour ses tapis artisanaux ?",
+      "answer": "Kairouan",
+      "options": [
+        "Bizerte",
+        "Kairouan",
+        "Sousse",
+        "Gabès"
+      ],
+      "explanation": "Kairouan est souvent désignée comme la quatrième ville sainte de l'islam et la première ville sainte du Maghreb.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-161",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_161.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-161-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle reine était représentée sur le tout premier timbre-poste émis ?",
+      "answer": "Victoria",
+      "options": [
+        "Marie",
+        "Astrid",
+        "Blanche",
+        "Victoria"
+      ],
+      "explanation": "La collection et l'étude des timbres postaux et fiscaux, précieux et populaire pour des collectionneurs, est appelée la philatélie.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-161",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_161.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-161-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le plus grand satellite naturel de notre système solaire ?",
+      "answer": "Ganymède",
+      "options": [
+        "Titan",
+        "La Lune",
+        "Ganymède",
+        "Umbriel"
+      ],
+      "explanation": "Sur l'échelle des distances au centre de Jupiter, il s'agit du septième satellite naturel connu de la planète.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-161",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_161.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-161-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Pendant la Seconde Guerre mondiale, quel général allemand surnommait-on le « Renard du désert » ?",
+      "answer": "Erwin Rommel",
+      "options": [
+        "Walter Brehmer",
+        "Erwin Rommel",
+        "Fritz von Lossberg",
+        "Friedrich Fromm"
+      ],
+      "explanation": "Rommel a reçu ce surnom, par ses compatriotes et ses adversaires, suite à sa campagne en Afrique du Nord.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-161",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_161.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-161-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel système informatique libre, basé sur la sécurité, est représenté par un poisson globe ?",
+      "answer": "OpenBSD",
+      "options": [
+        "OpenBSD",
+        "Gentoo",
+        "Debian",
+        "MacOS X"
+      ],
+      "explanation": "Le projet OpenBSD est réputé pour son intransigeance sur la liberté du logiciel et du code source et sur la cryptographie.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-161",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_161.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-161-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En 1963, un mystérieux « cerveau » organisa le hold-up du train postal reliant quelles villes ?",
+      "answer": "Glasgow à Londres",
+      "options": [
+        "Cambridge à Oxford",
+        "Manchester à York",
+        "Glasgow à Londres",
+        "Liverpool à Brighton"
+      ],
+      "explanation": "Considéré à l'époque comme le « casse du siècle », le gang de 15 personnes s'empara d'un butin de 68 millions de dollars actuels.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-161",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_161.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-161-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a reçu la première étoile sur le « Walk of Fame » de Los Angeles ?",
+      "answer": "Joanne Woodward",
+      "options": [
+        "Judy Garland",
+        "Charlie Chaplin",
+        "Joanne Woodward",
+        "Tod Browning"
+      ],
+      "explanation": "Le « Walk of Fame » (littéralement « Promenade de la célébrité ») est un hommage aux différents acteurs du « show business ».",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-161",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_161.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-161-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment peut-on traduire le mot « goupil » en vieux français ?",
+      "answer": "Renard",
+      "options": [
+        "Corbeau",
+        "Renard",
+        "Lièvre",
+        "Hérisson"
+      ],
+      "explanation": "Cette désignation est devenue majoritaire par l'influence de Renart le goupil, héros du 'Roman de Renart'.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-161",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_161.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

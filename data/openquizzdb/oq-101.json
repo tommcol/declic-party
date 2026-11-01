@@ -1,0 +1,774 @@
+{
+  "id": "oq-101",
+  "title": "Les mamans",
+  "originalTitle": "Les mamans",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_101.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    21
+  ],
+  "questions": [
+    {
+      "id": "oqdb-101-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans une célèbre comptine française, qui a « perdu son chat » ?",
+      "answer": "La mère Michel",
+      "options": [
+        "La mère Michel",
+        "La mère Claire",
+        "La mère Sylvie",
+        "La mère Claude"
+      ],
+      "explanation": "Les paroles changent parfois selon les différentes versions de la chanson, mais le thème reste toujours le même.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-101",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_101.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-101-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans 'Les Misérables' de Victor Hugo, qui est la fille de Fantine ?",
+      "answer": "Cosette",
+      "options": [
+        "Cosette",
+        "Enjolras",
+        "Eponine",
+        "Azelma"
+      ],
+      "explanation": "Les Thénardier vont utiliser les moyens les plus sordides pour soutirer toujours plus d'argent à Fantine.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-101",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_101.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-101-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De qui Lily-Rose Depp, actrice et mannequin franco-américaine, est-elle la fille ?",
+      "answer": "Vanessa Paradis",
+      "options": [
+        "Winona Ryder",
+        "Kate Moss",
+        "Vanessa Paradis",
+        "Amber Heard"
+      ],
+      "explanation": "Lily-Rose Depp a commencé sa carrière d'actrice en 2014,avec une apparition dans le film 'Tusk'.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-101",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_101.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-101-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces personnages n'est pas un des enfants de Marge Simpson ?",
+      "answer": "Abe",
+      "options": [
+        "Bart",
+        "Abe",
+        "Maggie",
+        "Lisa"
+      ],
+      "explanation": "Marge est la force moralisatrice de sa famille et essaie souvent de maintenir l'ordre dans la maison des Simpson.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-101",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_101.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-101-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En 2015, quelle artiste a sorti dans son album 'Chambre 12' un single titré 'Maman' ?",
+      "answer": "Louane",
+      "options": [
+        "Louane",
+        "Mylène Farmer",
+        "Lio",
+        "Jenifer"
+      ],
+      "explanation": "Le 19 mai 2016, la maison de disque annonce que l'album a dépassé le million de ventes.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-101",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_101.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-101-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment se prénomme la mère de la Famille Addams dans la série télé américaine ?",
+      "answer": "Morticia",
+      "options": [
+        "Aurora",
+        "Eva",
+        "Pétunia",
+        "Morticia"
+      ],
+      "explanation": "Cette série est directement inspirée des personnages que dessinait Charles Addams à la fin des années trente.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-101",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_101.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-101-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel héros de fiction Lily, tuée par Lord Voldemort, est-elle la mère ?",
+      "answer": "Harry Potter",
+      "options": [
+        "Luke Skywalker",
+        "Frodon Sacquet",
+        "Harry Potter",
+        "Mowgli"
+      ],
+      "explanation": "Lily Evans est née de parents moldus le 30 janvier 1960 et a une sœur, Pétunia Dursley.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-101",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_101.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-101-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment appelle-t-on une femme qui enfante pour une autre personne ou un couple ?",
+      "answer": "Mère-porteuse",
+      "options": [
+        "Enfanteresse",
+        "Mère-donneuse",
+        "Mère-porteuse",
+        "Fille-mère"
+      ],
+      "explanation": "La gestation pour autrui (GPA) est une méthode de procréation qui se pratique généralement en cas d'infertilité féminine.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-101",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_101.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-101-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle actrice est la mère d'Albert II mais aussi de Caroline et Stéphanie de Monaco ?",
+      "answer": "Grace Kelly",
+      "options": [
+        "Ingrid Bergman",
+        "Grace Kelly",
+        "Audrey Hepburn",
+        "Bette Davis"
+      ],
+      "explanation": "Grace Kelly est morte en 1982, des suites d'un accident de voiture, sur la route de la Turbie.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-101",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_101.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-101-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces pays met les mamans à l'honneur durant le mois de mai ?",
+      "answer": "France",
+      "options": [
+        "Luxembourg",
+        "France",
+        "Russie",
+        "Argentine"
+      ],
+      "explanation": "La date est fixée au dernier dimanche de mai, sauf si elle coïncide avec celle de la Pentecôte.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-101",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_101.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-101-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle actrice joue la mère de Lola dans la comédie française à succès 'LOL' ?",
+      "answer": "Sophie Marceau",
+      "options": [
+        "Sophie Marceau",
+        "Monica Belucci",
+        "Vanessa Paradis",
+        "Valeria Golino"
+      ],
+      "explanation": "Pour l'anecdote, on entend la musique de 'La Boum' lorsque Charlotte fait ses courses au supermarché.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-101",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_101.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-101-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a chanté : « Dans les yeux de ma mère, il y a toujours une lumière » ?",
+      "answer": "Arno",
+      "options": [
+        "Arno",
+        "Benjamin Biolay",
+        "Alain Chamfort",
+        "Christophe"
+      ],
+      "explanation": "Arno est souvent surnommé « le Higelin belge » ou encore « le Tom Waits belge ».",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-101",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_101.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-101-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans 'Kill Bill', quel personnage joué par Uma Thurman devient mère durant son coma ?",
+      "answer": "Beatrix Kiddo",
+      "options": [
+        "Daisy Domergue",
+        "Jackie Brown",
+        "Shosanna Dreyfus",
+        "Beatrix Kiddo"
+      ],
+      "explanation": "Le premier volume de la saga est un hommage avoué au chanbara, les films de sabre japonais.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-101",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_101.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-101-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle actrice, ex petite amie de Brad Pitt, est la fille de l'actrice Blythe Danner ?",
+      "answer": "Gwyneth Paltrow",
+      "options": [
+        "Keira Knightley",
+        "Juliane Moore",
+        "Cate Blanchett",
+        "Gwyneth Paltrow"
+      ],
+      "explanation": "Blythe Danner est la veuve du producteur Bruce Paltrow, qui s'est éteint à la suite d'une maladie en 2002.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-101",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_101.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-101-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel film de Jane Campion présente une mère muette qui joue de la musique ?",
+      "answer": "La leçon de piano",
+      "options": [
+        "Sweetie",
+        "La leçon de piano",
+        "In the cut",
+        "Bright Star"
+      ],
+      "explanation": "Le film a remporté la Palme d'or du Festival de Cannes 1993, la première attribuée à une réalisatrice.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-101",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_101.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-101-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel terme spécifique désigne le fait de tuer sa mère, acte très sévèrement jugé ?",
+      "answer": "Matricide",
+      "options": [
+        "Cannibalisme",
+        "Matricide",
+        "Parricide",
+        "Inceste"
+      ],
+      "explanation": "À Rome, le meurtre de parents proches, ascendants, frères, sœurs, ou patron était le pire des crimes.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-101",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_101.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-101-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans la Rome Antique, durant quel mois célébrait-on un fête en l'honneur des mères ?",
+      "answer": "Mars",
+      "options": [
+        "Juillet",
+        "Janvier",
+        "Novembre",
+        "Mars"
+      ],
+      "explanation": "Les Matronalia célébraient la naissance de Rome, le Printemps, les enfants et les mères.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-101",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_101.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-101-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En latin et en grec, que signifie le mot « mamma », dont le mot « maman » est dérivé ?",
+      "answer": "Sein",
+      "options": [
+        "Lait",
+        "Sein",
+        "Vie",
+        "Naissance"
+      ],
+      "explanation": "Pour les organismes non sexués, « mère » est parfois utilisé pour dire « parent ».",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-101",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_101.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-101-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle actrice incarne une mère qu tente de retrouver son fils kidnappé dans 'L'échange' ?",
+      "answer": "Angélina Jolie",
+      "options": [
+        "Gwyneth Paltrow",
+        "Angélina Jolie",
+        "Nicole Kidman",
+        "Julia Roberts"
+      ],
+      "explanation": "Après plus de trente réalisations, il s'agit seulement de la septième dans laquelle Clint Eastwood n'apparaît pas.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-101",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_101.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-101-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel roman de Jules Renard le héros doit-il faire face à la haine que lui vous sa mère ?",
+      "answer": "Poil de Carotte",
+      "options": [
+        "Poil de Carotte",
+        "La Maîtresse",
+        "Bucoliques",
+        "L’Écornifleur"
+      ],
+      "explanation": "François Lepic est surnommé « Poil de carotte » à cause de ses cheveux roux et ses taches de rousseur.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-101",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_101.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-101-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans 'Breaking Bad', quel est le prénom de la mère de la famille White ?",
+      "answer": "Skyler",
+      "options": [
+        "Rhona",
+        "Angela",
+        "Skyler",
+        "Jayne"
+      ],
+      "explanation": "Skyler est très amoureuse de Walter, au point de prendre toutes les décisions importantes dans sa vie.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-101",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_101.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-101-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces groupes de musique a dans son acronyme le mot « mère » ?",
+      "answer": "NTM",
+      "options": [
+        "IAM",
+        "CMC",
+        "NTM",
+        "MIG"
+      ],
+      "explanation": "Malgré sa popularité en France, le groupe NTM a été très critiqué pour la virulence de ses paroles.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-101",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_101.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-101-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans 'Game of Thrones', qui est la mère d'Arya, Bran, Rickon, Sansa et Robb Stark ?",
+      "answer": "Catelyn",
+      "options": [
+        "Mélissandre",
+        "Daenerys",
+        "Brienne",
+        "Catelyn"
+      ],
+      "explanation": "Catelyn était initialement promise au jeune Brandon Stark, héritier de Winterfell et frère d'Eddard.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-101",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_101.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-101-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a peint le tableau 'La Madone à la prairie' représentant Jésus et sa mère, Marie ?",
+      "answer": "Raphaël",
+      "options": [
+        "Auguste Renoir",
+        "Michel-Ange",
+        "Rembrandt",
+        "Raphaël"
+      ],
+      "explanation": "Le tableau est l'une des œuvres qui ouvrent la série des Madones de l'artiste lors de son séjour florentin.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-101",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_101.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-101-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans la mythologie grecque, qui est la mère d'Héraclès, un des fils de Zeus ?",
+      "answer": "Alcmène",
+      "options": [
+        "Alcmène",
+        "Léto",
+        "Dioné",
+        "Déméter"
+      ],
+      "explanation": "Alcmène fut séduite en l'absence de son mari, par Zeus qui avait pris son apparence.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-101",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_101.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-101-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle célèbre photographie en noir et blanc a été prise en 1936 par Dorothée Lange ?",
+      "answer": "Mère migrante",
+      "options": [
+        "Douleur de mère",
+        "Mère migrante",
+        "Mère maternelle",
+        "Mère et enfants"
+      ],
+      "explanation": "Cette célèbre photographie est devenue le symbole de la Grande Dépression aux États-Unis.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-101",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_101.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-101-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle ville russe accueille la statue de la Mère-Patrie qui fut l'enjeu de combats acharnés ?",
+      "answer": "Volgograd",
+      "options": [
+        "Samara",
+        "Perm",
+        "Volgograd",
+        "Kazan"
+      ],
+      "explanation": "Avec son épée pointant vers le ciel, la statue défie tous ceux qui oseraient s'attaquer à ses enfants.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-101",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_101.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-101-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année Marcel Pagnol a-t-il publié 'Le Château de ma mère' ?",
+      "answer": "1957",
+      "options": [
+        "1977",
+        "1917",
+        "1937",
+        "1957"
+      ],
+      "explanation": "'Le Château de ma mère' est précédé par 'La Gloire de mon père' et suivi par 'Le Temps des secrets'.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-101",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_101.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-101-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel rappeur français au succès grandissant chante le tube 'maman j’ai mal' ?",
+      "answer": "MHD",
+      "options": [
+        "Kaaris",
+        "Nekfeu",
+        "Booba",
+        "MHD"
+      ],
+      "explanation": "MHD est le précurseur de l'« afro trap », un mélange de musiques aux sonorités africaines et de trap.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-101",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_101.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

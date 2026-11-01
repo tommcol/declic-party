@@ -1,0 +1,774 @@
+{
+  "id": "oq-168",
+  "title": "Maquillage",
+  "originalTitle": "Maquillage (Pinceaux, gloss et mascara)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_168.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    1
+  ],
+  "questions": [
+    {
+      "id": "oqdb-168-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces crèmes est jugée indispensable avant tout produit appliqué sur la peau ?",
+      "answer": "Hydratante",
+      "options": [
+        "Chantilly",
+        "Hydratante",
+        "Solaire",
+        "Brûlée"
+      ],
+      "explanation": "La crème hydratante permet d'éviter les taches disgracieuses de fond de teint aux endroits où la peau est la plus sèche.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-168",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_168.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-168-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel produit sert à unifier le teint et à couvrir les défauts minimes de la peau ?",
+      "answer": "Fond de teint",
+      "options": [
+        "Correcteur",
+        "Khôl",
+        "Baume",
+        "Fond de teint"
+      ],
+      "explanation": "La couleur du fond de teint doit être la plus proche de la couleur naturelle de la peau pour éviter le risque de démarcations.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-168",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_168.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-168-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle base peut être utile si la peau a tendance à briller au cours de la journée ?",
+      "answer": "Matifiante",
+      "options": [
+        "Stagnante",
+        "Collante",
+        "Matifiante",
+        "Luisante"
+      ],
+      "explanation": "D'autre part, des papiers matifiants permettent d'absorber le sébum excédentaire avant, par exemple, une retouche.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-168",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_168.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-168-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces produits de maquillage sert à souligner le regard ?",
+      "answer": "Eye-liner",
+      "options": [
+        "Lisseur",
+        "Protecteur",
+        "Eye-liner",
+        "Correcteur"
+      ],
+      "explanation": "L'utilisation de l'eye-liner diffère un peu selon la texture : on tire un trait continu du coin interne de l'oeil jusqu'au coin externe.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-168",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_168.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-168-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Avec quoi ouvre-t-on le regard en recourbant et en allongeant les cils ?",
+      "answer": "Mascara",
+      "options": [
+        "Fard",
+        "Blush",
+        "Mascara",
+        "Gloss"
+      ],
+      "explanation": "Le mascara se pose en regardant vers le bas, en plaçant la brosse à la base des cils et en remontant le long des cils.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-168",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_168.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-168-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel objet utilise-t-on pour redessiner la courbe du sourcil ?",
+      "answer": "Crayon",
+      "options": [
+        "Crayon",
+        "Stylo",
+        "Gomme",
+        "Ciseaux"
+      ],
+      "explanation": "Pour combler d'éventuels trous dans le sourcil, il convient de dessiner au moyen d'un crayon de petits traits en imitant les poils.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-168",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_168.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-168-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel nom de marque était autrefois utilisé dans le langage usuel pour parler de mascara ?",
+      "answer": "Rimmel",
+      "options": [
+        "Rimmel",
+        "Clarins",
+        "Bourjois",
+        "Sephora"
+      ],
+      "explanation": "Le Rimmel est un produit cosmétique créé en 1880 par Eugène Rimmel et permettant de surligner les yeux.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-168",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_168.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-168-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel objet de maquillage empêche efficacement le rouge à lèvres de filer ?",
+      "answer": "Crayon à lèvres",
+      "options": [
+        "Crayon à lèvres",
+        "Eye-liner",
+        "Vernis",
+        "Brillant à lèvres"
+      ],
+      "explanation": "Il faut choisir un crayon à lèvres neutre et plus clair que le rouge à lèvres, car idéalement, il doit être invisible.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-168",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_168.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-168-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel nom est généralement donné à la peinture corporelle, parfois assimilée au maquillage ?",
+      "answer": "Body-painting",
+      "options": [
+        "Land art",
+        "Khôl",
+        "Body-painting",
+        "Natural art"
+      ],
+      "explanation": "Plusieurs festivals sont consacrés au body-painting, dont celui de Seeboden en Autriche et celui de Bruxelles en Belgique.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-168",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_168.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-168-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En maquillage, comment appelle-t-on aussi le fard à joues ?",
+      "answer": "Blush",
+      "options": [
+        "Gloss",
+        "Fluide",
+        "Rimmel",
+        "Blush"
+      ],
+      "explanation": "La pose la plus courante et la plus simple du fard à joues consiste à sourire exagérément et de poser le fard sur les pommettes.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-168",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_168.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-168-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel produit constitue théoriquement la touche finale du maquillage ?",
+      "answer": "Rouge à lèvres",
+      "options": [
+        "Rouge à lèvres",
+        "Fard à joue",
+        "Fond de teint",
+        "Mascara"
+      ],
+      "explanation": "Si les yeux sont déjà fort maquillés, mieux vaut choisir des teintes de rouge à lèvres neutres, naturelles et discrètes.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-168",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_168.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-168-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Depuis quelle période de notre histoire le maquillage rituel a-t-il été utilisé ?",
+      "answer": "Préhistoire",
+      "options": [
+        "Renaissance",
+        "Préhistoire",
+        "Antiquité",
+        "Moyen Âge"
+      ],
+      "explanation": "Le maquillage était probablement utilisé pour pratiquer des rites chamaniques, des cultes funéraires ou de la fertilité.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-168",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_168.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-168-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel crayon est spécifiquement conçu pour maquiller l'intérieur de l'oeil ?",
+      "answer": "Khôl",
+      "options": [
+        "Mascara",
+        "Rimmel",
+        "Gloss",
+        "Khôl"
+      ],
+      "explanation": "Des intoxications graves par le plomb sont encore constatées à la suite de l'usage de khôl au sulfure de plomb.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-168",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_168.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-168-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces propositions ne désigne pas une forme de fond de teint ?",
+      "answer": "Biche",
+      "options": [
+        "Biche",
+        "Fluide",
+        "Mousse",
+        "Stick"
+      ],
+      "explanation": "En aucun cas, le fond de teint (qui permet d'unifier le teint de la peau) ne sert à avoir l'air bronzé.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-168",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_168.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-168-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces produits permet l'hydratation, la protection et la tonification de la peau ?",
+      "answer": "BB crème",
+      "options": [
+        "Poudre",
+        "Gloss",
+        "Eye-liner",
+        "BB crème"
+      ],
+      "explanation": "La BB Crème, alias Blemish Baume, est un produit originaire d'Allemagne initialement utilisé par les dermatologues.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-168",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_168.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-168-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En maquillage, quel autre nom donne-t-on aussi à l'anti-cernes ?",
+      "answer": "Correcteur",
+      "options": [
+        "Eye-liner",
+        "Correcteur",
+        "Corrigeur",
+        "Cerneur"
+      ],
+      "explanation": "Le vert est supposé camoufler les rougeurs diffuses du visage, et l'orange le bleu des hématomes ou des veines faciales.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-168",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_168.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-168-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel produit est principalement utilisé pour hydrater et surtout protéger les lèvres ?",
+      "answer": "Baume",
+      "options": [
+        "Gel",
+        "Beurre",
+        "Baume",
+        "Savon"
+      ],
+      "explanation": "Le substantif féminin pommade vient du fait que les anciennes pommades étaient aromatisées à la pomme d'api.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-168",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_168.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-168-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment qualifie-t-on un maquillage réalisé par tatouage ?",
+      "answer": "Permanent",
+      "options": [
+        "Grandissant",
+        "Permanent",
+        "Décevant",
+        "Indécent"
+      ],
+      "explanation": "Cette pigmentation de la peau a la particularité d'être pérenne : elle se maintient plusieurs années.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-168",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_168.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-168-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Produit encore assez récent, de quel pays vient le gloss ou brillant à lèvres ?",
+      "answer": "États-Unis",
+      "options": [
+        "Japon",
+        "Espagne",
+        "France",
+        "États-Unis"
+      ],
+      "explanation": "Plus liquide que le rouge à lèvres, le gloss est généralement présenté sous forme de gel en tube ou sous forme de baume.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-168",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_168.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-168-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel produit de maquillage a pour effet d'imiter le bronzage et de donner meilleure mine ?",
+      "answer": "Terre indienne",
+      "options": [
+        "Eau italienne",
+        "Baume anglais",
+        "Sel irlandais",
+        "Terre indienne"
+      ],
+      "explanation": "L'erreur la plus courante est de mettre la terre indienne sur tout le visage, l'idéal étant d'en appliquer sur les endroits où le soleil tape.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-168",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_168.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-168-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel était en 2019 le premier site de vente en ligne cosmétique en France ?",
+      "answer": "Yves Rocher",
+      "options": [
+        "Clinique",
+        "Clarins",
+        "L'Oréal",
+        "Yves Rocher"
+      ],
+      "explanation": "Yves Rocher est une entreprise propriété du groupe Yves Rocher et compte 1 700 boutiques dont 650 en France.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-168",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_168.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-168-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année James Bruce Mason a-t-il fait breveter le rouge à lèvres pivotant ?",
+      "answer": "1923",
+      "options": [
+        "1938",
+        "1952",
+        "1947",
+        "1923"
+      ],
+      "explanation": "Avant cette date, en 1915, Maurice Lévy, un inventeur américain, a déposé le brevet du tube à système coulissant.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-168",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_168.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-168-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans l'Égypte ancienne, que pouvaient invoquer les fards à paupières verts ?",
+      "answer": "Protection",
+      "options": [
+        "Méditation",
+        "Protection",
+        "Domination",
+        "Destruction"
+      ],
+      "explanation": "Les fards à paupières verts (wadju) pouvaient invoquer la protection d'Hathor, la déesse des festivités et de l'amour.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-168",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_168.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-168-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle marque a développé les premiers vernis à ongles colorés opaques longue tenue ?",
+      "answer": "Revlon",
+      "options": [
+        "Maybelline",
+        "Revlon",
+        "Benefit",
+        "Kiko"
+      ],
+      "explanation": "En 1950, les couleurs des vernis créés en 1932 seront cette fois assorties aux collections de mode américaines.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-168",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_168.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-168-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans l'Antiquité, quelle vertu accordait-on au fard à paupières noir ?",
+      "answer": "Désinfection",
+      "options": [
+        "Désinfection",
+        "Éruption",
+        "Illumination",
+        "Transpiration"
+      ],
+      "explanation": "Grâce au sulfure de plomb et au chlore qu'il contenait, le fard à paupières noir, appelé mesdemet, servait aussi de désinfectant.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-168",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_168.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-168-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel faux grain de beauté était employé pour faire ressortir la blancheur du teint ?",
+      "answer": "Mouche",
+      "options": [
+        "Abeille",
+        "Guêpe",
+        "Frelon",
+        "Mouche"
+      ],
+      "explanation": "Les romains et les égyptiens utilisaient déjà de leurs temps les mouches pour camoufler de petits boutons.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-168",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_168.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-168-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel maquillage du dessus de l'oeil a pour but d'agrandir le regard ?",
+      "answer": "Oeil de biche",
+      "options": [
+        "Oeil de boeuf",
+        "Oeil de verre",
+        "Oeil de lynx",
+        "Oeil de biche"
+      ],
+      "explanation": "L'oeil de biche utilise la poudre libre, le crayon pour les yeux, les fards à paupières, le ligneur et le mascara.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-168",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_168.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-168-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle marque se veut être la fabrique de fards pour théâtre et pour la ville ?",
+      "answer": "Bourjois",
+      "options": [
+        "Bourjois",
+        "Estée Lauder",
+        "Revlon",
+        "NYX"
+      ],
+      "explanation": "Longtemps société soeur de Chanel, la marque Bourjois commercialise parfums, maquillage et cosmétiques.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-168",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_168.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-168-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "La marque Maybelline résulte de la contraction de Maybel et de quel mot ?",
+      "answer": "Vaseline",
+      "options": [
+        "Dioxine",
+        "Fluorine",
+        "Grenadine",
+        "Vaseline"
+      ],
+      "explanation": "C'est le chimiste Tom Lyle Williams qui créera le premier mascara moderne sur base de la formule de sa soeur, Mabel.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-168",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_168.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

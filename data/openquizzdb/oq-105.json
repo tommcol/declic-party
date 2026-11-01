@@ -1,0 +1,798 @@
+{
+  "id": "oq-105",
+  "title": "Méditerranée",
+  "originalTitle": "Méditerranée",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_105.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-105-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle ville longeant la Méditerranée accueille un Grand Prix de Formule 1 depuis 1929 ?",
+      "answer": "Monaco",
+      "options": [
+        "Marseille",
+        "Monaco",
+        "Venise",
+        "Split"
+      ],
+      "explanation": "La course inaugurale fut remportée le 14 avril 1929 par William Grover-Williams, au volant d'une Bugatti.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-105",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_105.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-105-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel écrivain a rédigé le roman 'Le Tour du Monde en 80 jours' dans sa villa au cap d’Antibes ?",
+      "answer": "Jules Verne",
+      "options": [
+        "Victor Hugo",
+        "Stendhal",
+        "Marcel Proust",
+        "Jules Verne"
+      ],
+      "explanation": "Le roman raconte la course autour du monde de Phileas Fogg, accompagné de son serviteur français.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-105",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_105.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-105-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle ville méditerranéenne accueille depuis 1946 un festival international du film ?",
+      "answer": "Cannes",
+      "options": [
+        "Saint-Raphaël",
+        "Saint-Tropez",
+        "Nice",
+        "Cannes"
+      ],
+      "explanation": "Les producteurs et distributeurs y trouvent des partenaires pour le financement de leurs projets de films.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-105",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_105.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-105-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel vent froid et parfois violent souffle en direction du sud, principalement en Provence ?",
+      "answer": "Le mistral",
+      "options": [
+        "Le zéphyr",
+        "L'aquilons",
+        "Le mistral",
+        "Le noroît"
+      ],
+      "explanation": "Le caractère dominant du Mistral lui confère un rôle important dans l'originalité du climat provençal.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-105",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_105.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-105-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville de la Côte d'Azur peut-on marcher sur la promenade des Anglais ?",
+      "answer": "Nice",
+      "options": [
+        "Monaco",
+        "Marseille",
+        "Nice",
+        "Cannes"
+      ],
+      "explanation": "De nos jours, la promenade des Anglais est un des lieux de visite incontournables à Nice.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-105",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_105.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-105-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle série télévisée française a pour quartier fictif principal 'Le Mistral' ?",
+      "answer": "Plus belle la vie",
+      "options": [
+        "Julie Lescaut",
+        "Nerdz",
+        "Braquo",
+        "Plus belle la vie"
+      ],
+      "explanation": "Le 11 juillet 2008, 'Plus belle la vie' a atteint la barre du millième épisode, une première en France.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-105",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_105.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-105-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces îles ne se situe pas en Méditerranée mais bien en Afrique ?",
+      "answer": "Madagascar",
+      "options": [
+        "Sardaigne",
+        "Eubée",
+        "Chios",
+        "Madagascar"
+      ],
+      "explanation": "C’est la cinquième plus grande île du monde après l'Australie, le Groenland, la Nouvelle-Guinée et Bornéo.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-105",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_105.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-105-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le nom du littoral méditerranéen qui englobe notamment Nice et Monaco ?",
+      "answer": "Côte d'Azur",
+      "options": [
+        "Côte Camarguaise",
+        "Côte Bleue",
+        "Côte d'Azur",
+        "Côte Vermeille"
+      ],
+      "explanation": "L'adjectif correspondant à Côte d'Azur est « azuréen » et ses habitants sont appelés les Azuréens.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-105",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_105.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-105-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle principauté se trouve sur le Côte d'Azur, au bord de la mer Méditerranée ?",
+      "answer": "Monaco",
+      "options": [
+        "Liechtenstein",
+        "Monaco",
+        "Arménie",
+        "Vatican"
+      ],
+      "explanation": "Monaco n'est pas une enclave en territoire français comme Saint-Marin et le Vatican en Italie.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-105",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_105.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-105-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle ville longeant la Méditerranée Brice provient-il dans une comédie française ?",
+      "answer": "De Nice",
+      "options": [
+        "De Monaco",
+        "De Nice",
+        "De Marseille",
+        "De Cannes"
+      ],
+      "explanation": "Apparu tout d'abord dans les sketches de Jean Dujardin, le personnage est apparu dans des films.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-105",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_105.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-105-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle île grecque de l'archipel des Cyclades a subi la venue des Ch'tis en télévision ?",
+      "answer": "Mykonos",
+      "options": [
+        "Andros",
+        "Syros",
+        "Mykonos",
+        "Naxos"
+      ],
+      "explanation": "Un total de 36 épisodes a été tourné pour une diffusion du 3 septembre 2012 au 19 octobre 2012.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-105",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_105.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-105-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle ville méditerranéenne du Sud-Est de la France est connue pour ses calanques ?",
+      "answer": "Marseille",
+      "options": [
+        "Marseille",
+        "Béziers",
+        "Montpellier",
+        "Perpignan"
+      ],
+      "explanation": "Le mot calanque désigne une vallée creusée par une rivière, puis récupérée par la mer.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-105",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_105.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-105-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces mers ne se situe pas dans le bassin méditerranéen ?",
+      "answer": "Mer du Groenland",
+      "options": [
+        "Mer de Crète",
+        "Mer du Groenland",
+        "Mer des Baléares",
+        "Mer de Ligurie"
+      ],
+      "explanation": "La mer du Groenland est riche de microrganismes, base de la chaîne alimentaire marine.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-105",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_105.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-105-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle mer se situe le golfe de Venise, d'une profondeur moyenne de 34 mètres ?",
+      "answer": "Mer Adriatique",
+      "options": [
+        "Mer Adriatique",
+        "Mer Égée",
+        "Mer d'Alboran",
+        "Mer Ionienne"
+      ],
+      "explanation": "Le golfe de Venise reçoit les eaux du Tagliamento, du Piave, de l'Adige et de la Brenta.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-105",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_105.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-105-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces villes de France ne situe pas sur la Côte d'Azur ?",
+      "answer": "Narbonne",
+      "options": [
+        "Narbonne",
+        "Fréjus",
+        "Le Lavandou",
+        "Marseille"
+      ],
+      "explanation": "Narbonne est la commune la plus grande et la plus peuplée du département de l'Aude.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-105",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_105.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-105-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quel pays appartient l'archipel des Cyclades, formé d'environ 250 îles ?",
+      "answer": "La Grèce",
+      "options": [
+        "La Bulgarie",
+        "La Libye",
+        "La Turquie",
+        "La Grèce"
+      ],
+      "explanation": "On les appelle Cyclades car elles forment un cercle autour de l’île sacrée de Délos.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-105",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_105.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-105-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans 'L'Odyssée' d'Homère, qui traverse la Méditerranée dans un long périple ?",
+      "answer": "Ulysse",
+      "options": [
+        "Jason",
+        "Ulysse",
+        "Hercule",
+        "Thésée"
+      ],
+      "explanation": "'L'Odyssée' est considérée comme l’un des plus grands chefs-d’œuvre de la littérature.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-105",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_105.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-105-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Où se trouve le canal de Suez qui relie la mer Rouge à la mer Méditerranée ?",
+      "answer": "En Égypte",
+      "options": [
+        "En Égypte",
+        "En Tunisie",
+        "En Libye",
+        "En Algérie"
+      ],
+      "explanation": "Il permet aux navires d'aller d'Europe en Asie sans devoir contourner l'Afrique par le cap de Bonne-Espérance.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-105",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_105.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-105-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quel pays les golfes de Messénie, Corinthe et Laconie sont-ils rattachés ?",
+      "answer": "La Grèce",
+      "options": [
+        "La Turquie",
+        "L'Italie",
+        "La Grèce",
+        "La France"
+      ],
+      "explanation": "Le golfe de Corinthe est un profond bras de mer qui sépare le Péloponnèse de la Grèce continentale occidentale.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-105",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_105.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-105-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel océan est relié à la mer Méditerranée par le détroit de Gibraltar ?",
+      "answer": "Atlantique",
+      "options": [
+        "Arctique",
+        "Atlantique",
+        "Pacifique",
+        "Indien"
+      ],
+      "explanation": "Le détroit de Gibraltar est le seul passage maritime entre l'océan Atlantique et la mer Méditerranée.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-105",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_105.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-105-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle île tunisienne délimite au sud le golfe de Gabès, situé en Méditerranée ?",
+      "answer": "Djerba",
+      "options": [
+        "Chergui",
+        "Djerba",
+        "Zembra",
+        "Gharbi"
+      ],
+      "explanation": "Le 17 février 2012, Djerba fut proposée pour un futur classement à l’Unesco.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-105",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_105.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-105-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année un Airbus A320-232 de Airways Germany s'est-il crashé en Méditerranée ?",
+      "answer": "2008",
+      "options": [
+        "2004",
+        "2000",
+        "2012",
+        "2008"
+      ],
+      "explanation": "Des sept personnes qui se trouvaient à bord, six sont mortes et une est portée disparue.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-105",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_105.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-105-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En 1998, quel objet ayant appartenu à Antoine de Saint-Exupéry a été repêché en Méditerranée ?",
+      "answer": "Une gourmette",
+      "options": [
+        "Une montre",
+        "Des lunettes",
+        "Une gourmette",
+        "Une bague"
+      ],
+      "explanation": "C'est un patron pêcheur marseillais, Jean-Claude Bianco, assisté de son second, qui fit la découverte.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-105",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_105.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-105-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année fut créée la Mission Racine pour le développement du littoral de la Méditerranée ?",
+      "answer": "1963",
+      "options": [
+        "1983",
+        "1993",
+        "1973",
+        "1963"
+      ],
+      "explanation": "La Grande-Motte, l'une des stations balnéaires créées par la mission Racine.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-105",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_105.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-105-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville méditerranéenne la chanteuse française Jenifer est-elle née ?",
+      "answer": "Nice",
+      "options": [
+        "Sète",
+        "Nice",
+        "Marseille",
+        "Cannes"
+      ],
+      "explanation": "Jenifer est connue pour avoir fait partie du jury des quatre premières saisons de 'The Voice '.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-105",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_105.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-105-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment se nomme la baie niçoise où se trouve la promenade des Anglais ?",
+      "answer": "Baie des Anges",
+      "options": [
+        "Baie des Anges",
+        "Baie des Ancres",
+        "Baie des Sirènes",
+        "Baie des Dieux"
+      ],
+      "explanation": "De nombreux récits et légendes font intervenir des anges du ciel à propos de cette baie.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-105",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_105.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-105-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Du nord au sud, quelle est environ la longueur de la mer Égée, en Méditerranée ?",
+      "answer": "600 km",
+      "options": [
+        "600 km",
+        "400 km",
+        "800 km",
+        "200 km"
+      ],
+      "explanation": "La mer Égée baigne une très grande quantité d'îles dont la principale est la Crète.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-105",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_105.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-105-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel pays se situe le secrétariat général de l'Union pour la Méditerranée, créé en 2008 ?",
+      "answer": "Espagne",
+      "options": [
+        "Grèce",
+        "Israël",
+        "Espagne",
+        "Algérie"
+      ],
+      "explanation": "L'organisation est destinée à renforcer les acquis du Partenariat euro-méditerranéen (Euromed) mis en place en 1995.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-105",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_105.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-105-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année l'expression « Côte d'Azur » est-elle apparue par le biais de Stéphen Liégeard ?",
+      "answer": "1887",
+      "options": [
+        "1887",
+        "1947",
+        "1917",
+        "1857"
+      ],
+      "explanation": "Écrivain et poète français, Stéphen Liégeard remplaça ainsi l'ancienne dénomination « Riviera ».",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-105",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_105.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-105-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui est l'auteur de la chanson 'Supplique pour être enterré à la plage de Sète' ?",
+      "answer": "Georges Brassens",
+      "options": [
+        "Serge Gainsbourg",
+        "Gilbert Bécaud",
+        "Georges Brassens",
+        "Charles Trenet"
+      ],
+      "explanation": "Maxime Le Forestier a fréquemment repris le titre dans plusieurs albums en hommage à Brassens.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-105",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_105.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

@@ -1,0 +1,798 @@
+{
+  "id": "oq-227",
+  "title": "Stars mondiales 4",
+  "originalTitle": "Stars mondiales 4 (Des stars en veux-tu en voilà)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_227.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-227-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Avec quel homme en noir la journaliste Audrey Crespo-Mara est-elle mariée ?",
+      "answer": "Thierry Ardisson",
+      "options": [
+        "Bernard Pivot",
+        "Thierry Ardisson",
+        "Philippe Gildas",
+        "Patrick Chêne"
+      ],
+      "explanation": "À l'été 2015, Audrey Crespo-Mara fut la remplaçante de Claire Chazal à la présentation des journaux des week-ends de TF1.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-227",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_227.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-227-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle jeune chanteuse française a vécu avec Thierry Neuvic de 2013 à 2016 ?",
+      "answer": "Jenifer",
+      "options": [
+        "Nolwenn Leroy",
+        "Élodie Frégé",
+        "Jenifer",
+        "Magalie Vaé"
+      ],
+      "explanation": "Depuis avril 2016, Jenifer est en couple avec Ambroise Fieschi , ancien pilote de rallye et homme d'affaires corse.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-227",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_227.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-227-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel politicien italien est au centre de la célèbre affaire du Rubygate ?",
+      "answer": "Silvio Berlusconi",
+      "options": [
+        "Mario Monti",
+        "Enrico Letta",
+        "Silvio Berlusconi",
+        "Matteo Renzi"
+      ],
+      "explanation": "Dans cette affaire, Silvio Berlusconi est soupçonné d'avoir incité à la prostitution une danseuse de discothèque mineure.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-227",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_227.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-227-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a reçu en 2009 le Public Glam Award du mec le plus moche ?",
+      "answer": "Mickaël Vendetta",
+      "options": [
+        "Mickaël Vendetta",
+        "Aldo Maccione",
+        "Daniel Ducruet",
+        "Henri Leconte"
+      ],
+      "explanation": "En 2008, le journaliste David Abiker le décrit sur les ondes radio de France Info comme une sorte de Paris Hilton mâle.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-227",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_227.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-227-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle ancienne actrice X française a pris l'habitude de se dénuder sur douze mois ?",
+      "answer": "Clara Morgane",
+      "options": [
+        "Sylvia Kristel",
+        "Mélanie Coste",
+        "Clara Morgane",
+        "Laure Sainclair"
+      ],
+      "explanation": "Afin de gérer ses actifs (calendriers, clips, disques, ...), Clara Morgane a créé sa propre boîte de production : Pêché Capital Média.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-227",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_227.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-227-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En France, quelle ministre de la Culture a envoyé un célèbre tweet truffé de fautes ?",
+      "answer": "Aurélie Filippetti",
+      "options": [
+        "Françoise Nyssen",
+        "Aurélie Filippetti",
+        "Christine Albanel",
+        "Fleur Pellerin"
+      ],
+      "explanation": "Aurélie Filippetti a été en couple avec Arnaud Montebourg avec qui elle a eu une fille, Jeanne, née à seulement 6 mois de grossesse.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-227",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_227.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-227-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À qui Oprah Winfrey a-t-elle demandé : « Êtes-vous une droguée » ?",
+      "answer": "Lindsay Lohan",
+      "options": [
+        "Lindsay Lohan",
+        "Joan Collins",
+        "Traci Bingham",
+        "Shannen Doherty"
+      ],
+      "explanation": "Oprah est connue pour son talk show « The Oprah Winfrey Show » produit par sa propre société Harpo Productions basée à Chicago.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-227",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_227.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-227-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Avec quelle top model le milliardaire Vladimir Doronin a-t-il vécu ?",
+      "answer": "Naomi Campbell",
+      "options": [
+        "Kate Moss",
+        "Naomi Campbell",
+        "Kelly Brook",
+        "Alexa Chung"
+      ],
+      "explanation": "Naomi Campbell est aussi connue pour son fort tempérament et ses nombreux démêlés avec d'autres célébrités.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-227",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_227.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-227-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a révélé par erreur la date secrète du mariage de Valérie Bègue et Camille Lacourt ?",
+      "answer": "Nelson Monfort",
+      "options": [
+        "Michel Drucker",
+        "Nelson Monfort",
+        "Michel Denisot",
+        "Gilles Verdez"
+      ],
+      "explanation": "Devenu une icône dans le paysage média­tique français, Nelson Monfort est cari­ca­turé par Les Guignols et par Nico­las Cante­loup.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-227",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_227.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-227-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a réalisé une publicité très sexy pour sa collection de lingerie Agent Provocateur ?",
+      "answer": "Penélope Cruz",
+      "options": [
+        "Krystyna Janda",
+        "Penélope Cruz",
+        "Kirsten Dunst",
+        "Helen Mirren"
+      ],
+      "explanation": "En France, Ethel Houbiers est la voix française régulière de Penélope Cruz. Barbara Delsol l'a également doublé à plusieurs reprises.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-227",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_227.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-227-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle fille de Jack Lang a été emportée par la maladie à seulement 47 ans ?",
+      "answer": "Valérie Lang",
+      "options": [
+        "Sophie Lang",
+        "Béatrice Lang",
+        "Valérie Lang",
+        "Sarah Lang"
+      ],
+      "explanation": "Bien qu'actrice de théâtre, Valérie Lang a tourné dans « La Belle Personne » de Christophe Honoré et « Holiday » de Guillaume Nicloux.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-227",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_227.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-227-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle journaliste mariée à Périco Légasse est maman pour la troisième fois ?",
+      "answer": "Natacha Polony",
+      "options": [
+        "Aude Lancelin",
+        "Natacha Polony",
+        "Anna Cabana",
+        "Isabelle Saporta"
+      ],
+      "explanation": "Spécialisée dans l'éducation et les questions sociétales, elle a travaillé pour Marianne et signe une tribune dans Le Figaro.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-227",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_227.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-227-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle sex-symbol affiche toujours son élégance trente ans après Playboy ?",
+      "answer": "Bo Derek",
+      "options": [
+        "Nina Bott",
+        "Rena Mero",
+        "Coco Austin",
+        "Bo Derek"
+      ],
+      "explanation": "À 16 ans, Mary Cathleen Collins tombe amoureuse du réalisateur John Derek, de 30 ans son aîné, qui devront s'exiler en Allemagne.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-227",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_227.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-227-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Pour quel docteur pakistanais la princesse Diana aurait-elle tout lâché ?",
+      "answer": "Hasnat Khan",
+      "options": [
+        "John Parkinson",
+        "Richard Lower",
+        "Hasnat Khan",
+        "Thomas Lewis"
+      ],
+      "explanation": "Selon le majordome de Diana, Paul Burrell, la princesse et le Dr Khan, l'amour de sa vie, mirent fin à leur relation en juin 1997.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-227",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_227.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-227-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment se prénomme le premier fils de Shakira et de Gerard Piqué ?",
+      "answer": "Milan",
+      "options": [
+        "Ivan",
+        "Milan",
+        "Esteban",
+        "Donovan"
+      ],
+      "explanation": "Durant l'été 2010, Shakira a rencontré le footballeur espagnol Gerard Piqué sur le tournage de son clip « Waka Waka ».",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-227",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_227.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-227-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle chanteuse américaine a mis un terme à une relation de douze ans avec Keri Lewis ?",
+      "answer": "Toni Braxton",
+      "options": [
+        "Toni Braxton",
+        "Kat DeLuna",
+        "Lauryn Hill",
+        "Mariah Carey"
+      ],
+      "explanation": "Toni Braxton a été révélée en 1993 par la sortie de son premier album, « Toni Braxton », qui s'écoulera à dix millions d'exemplaires.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-227",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_227.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-227-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel ex de Gwen Stefani a été papa pour la seconde fois avec Erin Lokitz ?",
+      "answer": "Tony Kanal",
+      "options": [
+        "Dave Richmond",
+        "Tony Kanal",
+        "Roger Glover",
+        "Scott Shields"
+      ],
+      "explanation": "Il est le compositeur principal de No Doubt avec Gwen Stefani, avec qui il a fait ses études et a eu une relation entre 1989 et 1994.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-227",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_227.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-227-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De qui la jeune actrice montante Ava Sambora est-elle la fille ?",
+      "answer": "Heather Locklear",
+      "options": [
+        "Marcia Cross",
+        "Laura Leighton",
+        "Heather Locklear",
+        "Daphne Zuniga"
+      ],
+      "explanation": "Passionnée d'automobiles, Heather Locklear a écourté ses études à l'université UCLA pour se lancer dans une carrière de comédienne.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-227",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_227.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-227-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle chanteuse du groupe Lady Antebellum a donné naissance à une fille ?",
+      "answer": "Hillary Scott",
+      "options": [
+        "Rita Coolidge",
+        "Tanya Tucker",
+        "Jolie Holland",
+        "Hillary Scott"
+      ],
+      "explanation": "Le 22 juillet 2013, elle a donné naissance à son premier enfant, une fille prénommée Eislee Kaye Tyrrell, à Nashville dans le Tennessee.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-227",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_227.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-227-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle héroïne des « Sorciers de Waverly Place » a le sens du style ?",
+      "answer": "Vanessa Hudgens",
+      "options": [
+        "Monique Coleman",
+        "Alyson Reed",
+        "Ashley Tisdale",
+        "Vanessa Hudgens"
+      ],
+      "explanation": "Vanessa Hudgens a sorti son premier album intitulé « V » le 26 septembre 2006, album placé vingt-quatrième au Billboard 200.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-227",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_227.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-227-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui la marque Campari a-t-elle choisie comme égérie pour son calendrier 2014 ?",
+      "answer": "Uma Thurman",
+      "options": [
+        "Nicole Kidman",
+        "Naomi Watts",
+        "Uma Thurman",
+        "Christina Ricci"
+      ],
+      "explanation": "En 2001, elle était apparue dans le spot de la marque Schweppes dont la réalisation fut confiée au photographe David LaChapelle.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-227",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_227.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-227-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle brillante distributrice de film française nous a quitté en 2013 ?",
+      "answer": "Fabienne Vonier",
+      "options": [
+        "Catherine Varlin",
+        "Margot Capelier",
+        "Fabienne Vonier",
+        "Alice Guy"
+      ],
+      "explanation": "La société « Pyramide Distribution » qu'elle a créé a pour logo les Pyramides de Gizeh, complétées d'une signature en lettres blanches.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-227",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_227.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-227-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Avec quel photographe Madonna fut-elle engagée dans son Secret Project ?",
+      "answer": "Steve Klein",
+      "options": [
+        "Garry Gross",
+        "Tim Walker",
+        "William Claxton",
+        "Steve Klein"
+      ],
+      "explanation": "Dans ce film de 17 minutes, la chanteuse promeut la liberté d'expression et la tolérance, dédiant son film aux persécutés.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-227",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_227.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-227-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Avec quelle actrice et chanteuse anglaise Laurence Fox est-il marié ?",
+      "answer": "Billie Piper",
+      "options": [
+        "Katie Melua",
+        "Billie Piper",
+        "Melanie Brown",
+        "Cathy Dennis"
+      ],
+      "explanation": "Billie Piper est une chanteuse à succès et une actrice connue pour ses rôles dans « Doctor Who » et « Journal intime d'une call girl ».",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-227",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_227.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-227-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle interprète de Rosie Camden est apparue en lingerie pour le magazine Maxim ?",
+      "answer": "Mackenzie Rosman",
+      "options": [
+        "Mackenzie Rosman",
+        "Selena Gomez",
+        "Jessica Biel",
+        "Hilary Duff"
+      ],
+      "explanation": "En 2004, elle fut élue meilleure jeune actrice dans un second rôle dans une série télévisée pour la série « Sept à la maison ».",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-227",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_227.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-227-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel photographe a assigné en justice Les Restos du coeur en 2013 ?",
+      "answer": "Gaston Bergeret",
+      "options": [
+        "Gaston Bergeret",
+        "Philippe Bazin",
+        "Guy Bourdin",
+        "Christian Boyer"
+      ],
+      "explanation": "Gaston Bergeret les a assigné en justice pour les droits d'auteur de la photo de Coluche prise il y a trente ans pour l'affiche.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-227",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_227.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-227-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Avec quelle publicitaire de 33 ans sa cadette Richard Gere s'est-il marié ?",
+      "answer": "Alejandra Silva",
+      "options": [
+        "Alejandra Silva",
+        "Cindy Gallop",
+        "Jana Irrova",
+        "Karolina Kurkova"
+      ],
+      "explanation": "C'est à travers son intérêt pour les oeuvres charitables que la publicitaire Alejandra Silva a rencontré en 2015 l'acteur Richard Gere.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-227",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_227.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-227-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle désormais grande dame a fêté ses 48 ans en avril 2018 ?",
+      "answer": "Melania Trump",
+      "options": [
+        "Beatrix",
+        "Brigitte Macron",
+        "Angela Merkel",
+        "Melania Trump"
+      ],
+      "explanation": "Grâce à son élégance légendaire et son sens pointu de la mode, la belle slovène nous donne des leçons de style à chaque apparition.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-227",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_227.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-227-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le premier prénom du troisième enfant de Kate Middelton ?",
+      "answer": "Louis",
+      "options": [
+        "Louis",
+        "Charles",
+        "Arthur",
+        "Logan"
+      ],
+      "explanation": "Bien avant la naissance du Royal Baby 3, les bookmakers anglais avaient parié sur le prénom du nouveau-né : Arthur.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-227",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_227.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-227-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel jeune DJ suédois a disparu, évoquant par son geste le mal-être qui l'habitait ?",
+      "answer": "Avicii",
+      "options": [
+        "Avicii",
+        "Diplo",
+        "Afrojack",
+        "Tiesto"
+      ],
+      "explanation": "Le 26 avril 2018, la famille évoquait la thèse d'un suicide et indique qu'Avicii n'en pouvait plus et voulait la paix.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-227",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_227.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

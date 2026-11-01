@@ -1,0 +1,774 @@
+{
+  "id": "oq-260",
+  "title": "Pomme de terre",
+  "originalTitle": "Pomme de terre (Votre colin, avec ou sans patate ?)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_260.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    14
+  ],
+  "questions": [
+    {
+      "id": "oqdb-260-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle société est la première productrice mondiale de frites surgelées ?",
+      "answer": "McCain Foods",
+      "options": [
+        "Mousline",
+        "Lutosa",
+        "Vico",
+        "McCain Foods"
+      ],
+      "explanation": "La société McCain Foods, basée à Toronto, emploie environ 20 000 personnes dans ses 55 usines à travers le monde.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-260",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_260.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-260-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel jouet pour enfants possède une tête en plastique de forme patatoïde ?",
+      "answer": "Monsieur Patate",
+      "options": [
+        "Rex",
+        "Zigzag",
+        "Woody",
+        "Monsieur Patate"
+      ],
+      "explanation": "Créé par l'inventeur George Lerner en 1949, Monsieur Patate fut commercialisé aux États-Unis pour la première fois en 1952.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-260",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_260.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-260-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel tableau de Jean-François Millet aurait dû s'appeler « La Mauvaise Récolte » ?",
+      "answer": "L'Angélus",
+      "options": [
+        "Le Semeur",
+        "Un vanneur",
+        "L'Angélus",
+        "Les Glaneuses"
+      ],
+      "explanation": "L'Angélus a largement été reproduit sur des supports tels que des calendriers, des canevas, des meubles ou des cahiers d'écolier.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-260",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_260.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-260-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Si vous en avez gros sur la patate, vous en avez probablement gros sur...",
+      "answer": "Le coeur",
+      "options": [
+        "Le dos",
+        "Le foie",
+        "Le coeur",
+        "Le nez"
+      ],
+      "explanation": "Le terme patate désigne aussi en français familier une personne que l'on considère comme étant un peu simplette.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-260",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_260.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-260-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En Belgique, quelle est la principale entreprise de l'industrie de la pomme de terre ?",
+      "answer": "Lutosa",
+      "options": [
+        "Avebe",
+        "McCain",
+        "Lutosa",
+        "Aviko"
+      ],
+      "explanation": "Lutosa est une entreprise belge spécialisée dans la transformation industrielle de pommes de terre en frites surgelées et réfrigérées.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-260",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_260.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-260-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle activité manuelle consiste à servir de pommes de terre comme tampons ?",
+      "answer": "Patatogravure",
+      "options": [
+        "Patatogravure",
+        "Origami",
+        "Pâte à sel",
+        "Sel coloré"
+      ],
+      "explanation": "Cette activité consiste à sculpter dans la chair des pommes de terre des lettres ou des motifs représentant des formes géométriques.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-260",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_260.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-260-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel épluche-légumes à lame en gouttière facilite l'épluchage de la pomme de terre ?",
+      "answer": "Économe",
+      "options": [
+        "Râpe",
+        "Girafe",
+        "Économe",
+        "Canneleur"
+      ],
+      "explanation": "Traditionnellement, l'épluchage se pratiquait avec un simple couteau de cuisine, notamment dans le cadre des corvées de patates.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-260",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_260.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-260-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel roman de Jacques Vaucherot fut adapté au cinéma par Claude Autant-Lara ?",
+      "answer": "Les patates",
+      "options": [
+        "Douce",
+        "Le Joueur",
+        "Gloria",
+        "Les patates"
+      ],
+      "explanation": "Claude Autant-Lara a connu le succès après la Seconde Guerre mondiale avec l'adaptation d'un roman, « Le Diable au corps ».",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-260",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_260.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-260-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle vitamine apportée par la pomme de terre est utile pour la prévention du scorbut ?",
+      "answer": "Vitamine C",
+      "options": [
+        "Vitamine C",
+        "Vitamine A",
+        "Vitamine D",
+        "Vitamine B"
+      ],
+      "explanation": "Facilitant le transit intestinal, la pomme de terre a aussi des propriétés cicatrisantes, utiles contre les ulcères intestinaux.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-260",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_260.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-260-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle patate se renvoie-t-on l'un l'autre face à un problème embarrassant ?",
+      "answer": "Chaude",
+      "options": [
+        "Froide",
+        "Molle",
+        "Dure",
+        "Chaude"
+      ],
+      "explanation": "Synonyme de se renvoyer la balle, cette expression récente est apparue au Québec dans les années 1970 et en Europe en 1990.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-260",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_260.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-260-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville belge se trouve le seul musée au monde consacré à la frite ?",
+      "answer": "Bruges",
+      "options": [
+        "Tournai",
+        "Bruges",
+        "Courtrai",
+        "Mons"
+      ],
+      "explanation": "Ce musée est connu sous le nom de « loge des Génois ». C'était en fait le bureau central des commerçants génois à Bruges.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-260",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_260.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-260-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel jeu en réalité alternée a utilisé la pomme de terre comme emblème ?",
+      "answer": "Portal 2",
+      "options": [
+        "Counter-Strike",
+        "The Orange Box",
+        "Portal 2",
+        "Team Fortress"
+      ],
+      "explanation": "L'intrigue du jeu offre en effet la possibilité d'utiliser la patate comme électrolyte pour la fabrication d'une pile artisanale.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-260",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_260.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-260-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel poète chilien, prix Nobel de littérature, a chanté la pomme de terre ?",
+      "answer": "Pablo Neruda",
+      "options": [
+        "Pablo Neruda",
+        "Enrique Lihn",
+        "Nicanor Parra",
+        "Armando Uribe"
+      ],
+      "explanation": "Pablo Neruda a chanté la pomme de terre et son identité indienne dans son « Oda a la papa » (Odes élémentaires).",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-260",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_260.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-260-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel pays est le plus gros consommateur de pommes de terre ?",
+      "answer": "Chine",
+      "options": [
+        "Royaume-Uni",
+        "Chine",
+        "Inde",
+        "Russie"
+      ],
+      "explanation": "La consommation moyenne est évaluée à 33,3 kg par habitant et par an, ou bien 91,2 g, soit 62 kcal, par personne et par jour.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-260",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_260.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-260-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qu'est-il possible de produire avec deux pommes de terre et peu de matériel ?",
+      "answer": "Électricité",
+      "options": [
+        "Son",
+        "Vibrations",
+        "Électricité",
+        "Lumière"
+      ],
+      "explanation": "En y insérant deux électrodes, l'une en zinc et l'autre en cuivre, la chair de la pomme de terre fait office d'électrolyte.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-260",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_260.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-260-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que peut-on produire après fermentation et distillation de l'amidon de la pomme de terre ?",
+      "answer": "Éthanol",
+      "options": [
+        "Raki",
+        "Ouzo",
+        "Absinthe",
+        "Éthanol"
+      ],
+      "explanation": "Liquide incolore, inflammable et miscible à l'eau, l'éthanol est un psychotrope et l'une des plus anciennes drogues récréatives.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-260",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_260.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-260-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À partir du XVIe siècle, l'alcool de pomme de terre a servi à confectionner quel alcool ?",
+      "answer": "Vodka",
+      "options": [
+        "Tequila",
+        "Vodka",
+        "Armagnac",
+        "Calvados"
+      ],
+      "explanation": "La vodka peut être issue de la transformation de presque toutes les matières d'origine agricole, les plus connues étant les céréales.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-260",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_260.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-260-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel pays est le premier exportateur mondial de pommes de terre de conservation ?",
+      "answer": "France",
+      "options": [
+        "Belgique",
+        "Pays-Bas",
+        "Allemagne",
+        "France"
+      ],
+      "explanation": "Pour les pommes de terre surgelées, les principaux pays exportateurs sont la Belgique, les Pays-Bas et le Canada.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-260",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_260.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-260-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel nom est également donné à l'amidon de pomme de terre ?",
+      "answer": "Fécule",
+      "options": [
+        "Purée",
+        "Sirop",
+        "Fécule",
+        "Gélose"
+      ],
+      "explanation": "La fécule de pomme de terre a de multiples applications dans l'industrie, en particulier pour le couchage du papier.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-260",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_260.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-260-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle année a été déclarée année de la pomme de terre par l'ONU ?",
+      "answer": "2008",
+      "options": [
+        "2018",
+        "1988",
+        "1998",
+        "2008"
+      ],
+      "explanation": "Cette déclaration a été faite par l'ONU pour sensibiliser le monde entier sur son rôle et promouvoir sa mise en oeuvre.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-260",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_260.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-260-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle variété est utilisée pour la préparation des frites McDonald's ?",
+      "answer": "Russet Burbank",
+      "options": [
+        "Red Pontiac",
+        "Shepody",
+        "Russet Burbank",
+        "Yukon Gold"
+      ],
+      "explanation": "Quand on utilise cette pomme de terre pour faire des chips, il se produit une coloration foncée due au phénomène de caramélisation.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-260",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_260.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-260-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel entrepreneur nippo-américain est surnommé le roi de la pomme de terre ?",
+      "answer": "George Shima",
+      "options": [
+        "Steve Aoki",
+        "Daniel Inouye",
+        "Eddie Imazu",
+        "George Shima"
+      ],
+      "explanation": "À une époque, George Shima produisait 85% de la récolte de pommes de terre de Californie, ce qui lui valut ce surnom.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-260",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_260.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-260-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel État américain la pomme de terre est-elle l'emblème officiel ?",
+      "answer": "Idaho",
+      "options": [
+        "Géorgie",
+        "Montana",
+        "Vermont",
+        "Idaho"
+      ],
+      "explanation": "Cet État, surnommé le « Potato State », est le principal producteur de ce tubercule aux États-Unis (28% de la production nationale).",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-260",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_260.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-260-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel terme du quechua désigne la pomme de terre dans les pays d'Amérique latine ?",
+      "answer": "Papa",
+      "options": [
+        "Dada",
+        "Mama",
+        "Baba",
+        "Papa"
+      ],
+      "explanation": "Dans cette langue véhiculaire de l'empire Inca, papa désignait tout type de tubercule à l'exception de l'oca.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-260",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_260.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-260-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel extrait de la pomme de terre est utilisé comme apprêt pour la raideur du linge ?",
+      "answer": "Empois",
+      "options": [
+        "Empois",
+        "Synthon",
+        "Dipôle",
+        "Prontosil"
+      ],
+      "explanation": "Résultant de l'agitation de la poudre d'amidon dans de l'eau chaude, l'empois devient visqueux selon la concentration d'amidon.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-260",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_260.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-260-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En Pologne, quel ratio de pomme de terre est produit pour la consommation animale ?",
+      "answer": "Une sur trois",
+      "options": [
+        "Une sur sept",
+        "Une sur neuf",
+        "Une sur cinq",
+        "Une sur trois"
+      ],
+      "explanation": "Les pommes de terre données à certains animaux monogastriques (porcs et volailles) doivent être cuites pour être digestibles.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-260",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_260.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-260-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel plat traditionnel des Pays-Bas consiste en une purée mélangée avec des légumes ?",
+      "answer": "Stamppot",
+      "options": [
+        "Lefse",
+        "Potaye",
+        "Stamppot",
+        "Frico"
+      ],
+      "explanation": "Ces légumes d'accompagnement sont souvent la choucroute, la scarole, le chou frisé, ou un mélange carottes et oignons.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-260",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_260.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-260-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Au Pérou, combien existe-t-il environ de variétés de pommes de terre ?",
+      "answer": "3 000",
+      "options": [
+        "2 000",
+        "4 000",
+        "1 000",
+        "3 000"
+      ],
+      "explanation": "Elle entre dans la composition de très nombreux plats comme la papa a la huancaina, la papa rellena, l'ocopa et la carapulcra.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-260",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_260.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-260-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel mets québécois se compose de frites, de cheddar en grains et de sauce brune ?",
+      "answer": "Poutine",
+      "options": [
+        "Poutine",
+        "Gibelotte",
+        "Cipaille",
+        "Trempette"
+      ],
+      "explanation": "Mets longtemps utilisé pour représenter de manière caricaturale la société québécoise, la poutine est maintenant en vogue.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-260",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_260.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

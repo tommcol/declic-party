@@ -1,0 +1,774 @@
+{
+  "id": "oq-203",
+  "title": "Forêts de France",
+  "originalTitle": "Forêts de France (Il y a plus dans les forêts que dans les livres)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_203.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    26
+  ],
+  "questions": [
+    {
+      "id": "oqdb-203-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle forêt constitue un site emblématique de la Première Guerre mondiale ?",
+      "answer": "Forêt de Verdun",
+      "options": [
+        "Forêt des Landes",
+        "Forêt de Verdun",
+        "Forêt du Gâvre",
+        "Forêt de Paimpont"
+      ],
+      "explanation": "Les anciennes parcelles agricoles furent interdites à cause des explosifs, munitions chimiques et munitions non explosées.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-203",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_203.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-203-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est par sa taille la troisième forêt domaniale de France métropolitaine ?",
+      "answer": "Compiègne",
+      "options": [
+        "Tusson",
+        "Cranou",
+        "Creuse",
+        "Compiègne"
+      ],
+      "explanation": "De manière géométrique, le contour de la forêt forme un cercle de 14 km de diamètre et de 43 km de périmètre.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-203",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_203.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-203-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle forêt française de 1 200 ha est située à l'est de Rennes ?",
+      "answer": "Forêt de Chevré",
+      "options": [
+        "Forêt de Lorge",
+        "Forêt de Ferrières",
+        "Forêt de Chevré",
+        "Forêt de Seillon"
+      ],
+      "explanation": "Une partie de la forêt de Chevré constitue un ensemble protégé avec les forêts de Rennes, Liffré et de Saint-Aubin-du-Cormier.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-203",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_203.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-203-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle forêt domaniale est la plus grande du département du Finistère ?",
+      "answer": "Forêt du Cranou",
+      "options": [
+        "Forêt de Montfort",
+        "Forêt de Grésigne",
+        "Forêt du Cranou",
+        "Forêt de Bonifatu"
+      ],
+      "explanation": "La forêt du Cranou a été exploitée pour les besoins en bois de la marine royale à Brest via le port du Faou.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-203",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_203.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-203-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle forêt a inspiré Victor Hugo pour sa ferme des Thénardier ?",
+      "answer": "Forêt de Bondy",
+      "options": [
+        "Forêt de Bondy",
+        "Forêt de Corsuet",
+        "Forêt du Vercors",
+        "Forêt de Cîteaux"
+      ],
+      "explanation": "La forêt régionale de Bondy est un vestige de l'ancienne forêt de Bondy qui s'étendait sur une part importante du pays d'Aulnoye.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-203",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_203.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-203-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Le nom de quelle forêt proviendrait du vieux breton signifiant ogre ou géant ?",
+      "answer": "Forêt du Gâvre",
+      "options": [
+        "Forêt du Pertre",
+        "Forêt de Brotonne",
+        "Forêt de Saou",
+        "Forêt du Gâvre"
+      ],
+      "explanation": "La forêt du Gâvre fut propriété des comtes de Nantes, des ducs de Bretagne et des rois de France avant de devenir une forêt d'État.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-203",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_203.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-203-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la plus grande forêt artificielle d'Europe occidentale ?",
+      "answer": "Forêt des Landes",
+      "options": [
+        "Forêt des Landes",
+        "Forêt de Creuse",
+        "Forêt de Chevré",
+        "Forêt de Benon"
+      ],
+      "explanation": "Bordée par l'océan Atlantique, la forêt des Landes forme un triangle couvrant trois départements (Gironde, Landes et Lot-et-Garonne).",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-203",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_203.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-203-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle forêt de Corse occupe un majestueux cirque montagneux ?",
+      "answer": "Forêt de Bonifatu",
+      "options": [
+        "Forêt de Chantilly",
+        "Forêt du Vercors",
+        "Forêt de Bonifatu",
+        "Forêt de Tusson"
+      ],
+      "explanation": "Elle occupe les flancs aux pentes souvent très abruptes de tout le cirque de Bonifatu, s'étendant entre 300 et 2 000 mètres d'altitude.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-203",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_203.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-203-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle forêt est parfois identifiée à la forêt de Brocéliande ?",
+      "answer": "Forêt de Paimpont",
+      "options": [
+        "Forêt de Bondy",
+        "Forêt de Seillon",
+        "Forêt de Paimpont",
+        "Forêt de Thelle"
+      ],
+      "explanation": "La forêt de Paimpont possède un pouvoir d'attraction pour les adeptes du néopaganisme qui s'y réunissent périodiquement.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-203",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_203.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-203-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Le nom de quelle forêt rappelle les forges de fer du Moyen Âge ?",
+      "answer": "Forêt de Ferrières",
+      "options": [
+        "Forêt de Dourdan",
+        "Forêt de Montfort",
+        "Forêt de Ferrières",
+        "Forêt du Pertre"
+      ],
+      "explanation": "Jadis propriété de communautés religieuses, puis de la famille de Rothschild, elle appartient aujourd'hui à la région Île-de-France.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-203",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_203.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-203-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle colline forestière est située en bordure Est du lac du Bourget ?",
+      "answer": "Forêt de Corsuet",
+      "options": [
+        "Forêt de Lorge",
+        "Forêt de Dourdan",
+        "Forêt de Brotonne",
+        "Forêt de Corsuet"
+      ],
+      "explanation": "La forêt de Corsuet et ses sentiers de randonnées sont gérés par la Communauté d'agglomération du Lac du Bourget.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-203",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_203.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-203-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle forêt du Tarn est longée par le sentier de grande randonnée GR 46 ?",
+      "answer": "Forêt de Grésigne",
+      "options": [
+        "Forêt de Grésigne",
+        "Forêt du Cranou",
+        "Forêt de Cîteaux",
+        "Forêt de Creuse"
+      ],
+      "explanation": "La prépondérance des chênes (60 % du peuplement en chêne rouvre) fait de la Grésigne la plus vaste chênaie rouvre du midi.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-203",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_203.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-203-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel massif forestier est situé à une trentaine de kilomètres au nord d'Angoulême ?",
+      "answer": "Forêt de Tusson",
+      "options": [
+        "Forêt de Taillard",
+        "Forêt de Tusson",
+        "Forêt du Vercors",
+        "Forêt de Chantilly"
+      ],
+      "explanation": "Les lisières présentent une flore intéressante, dont le manteau abrite une riche population de rapaces nicheurs, diurnes notamment.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-203",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_203.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-203-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle forêt a été ravagée sur 300 hectares en 1999 par la tempête Lothar ?",
+      "answer": "Forêt de Montfort",
+      "options": [
+        "Forêt des Landes",
+        "Forêt de Montfort",
+        "Forêt de Chevré",
+        "Forêt de Lorge"
+      ],
+      "explanation": "Ancienne forêt seigneuriale, la forêt domaniale de Montfort revint deux fois en la possession du royaume de France (en 1024 et en 1784).",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-203",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_203.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-203-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle forêt domaniale de 600 hectares a été créée par les Chartreux ?",
+      "answer": "Forêt de Seillon",
+      "options": [
+        "Forêt de Seillon",
+        "Forêt de Ferrières",
+        "Forêt de Retz",
+        "Forêt du Gâvre"
+      ],
+      "explanation": "En lisière de la forêt de Seillon se situe la chartreuse de Seillon qui trouve son origine dans un prieuré bénédictin du XIIe siècle.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-203",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_203.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-203-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle forêt domaniale est principalement connue pour sa vallée des orchidées ?",
+      "answer": "Forêt de Creuse",
+      "options": [
+        "Forêt du Pertre",
+        "Forêt de Saou",
+        "Forêt de Corsuet",
+        "Forêt de Creuse"
+      ],
+      "explanation": "Ce massif forestier est composé de deux cantons : le Bois de Creuse, accessible au public, et le Bois de Malplatel, plus sauvage.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-203",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_203.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-203-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle forêt de France abrite le chêne des Six Frères, vieux de 500 ans ?",
+      "answer": "Forêt de Dourdan",
+      "options": [
+        "Forêt de Cîteaux",
+        "Forêt de Dourdan",
+        "Forêt de Paimpont",
+        "Forêt de Bondy"
+      ],
+      "explanation": "Lieu de pèlerinage, il est ainsi dénommé car, chose rare, sa souche (la cépée, issue d'un unique gland) se divise en six troncs.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-203",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_203.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-203-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle forêt, située à l'ouest de Rouen, est accessible par un pont ?",
+      "answer": "Forêt de Brotonne",
+      "options": [
+        "Forêt de Benon",
+        "Forêt de Brotonne",
+        "Forêt du Cranou",
+        "Forêt de Grésigne"
+      ],
+      "explanation": "La forêt de Brotonne abrite deux bâtiments remarquables : le moulin-tour de Hauville et le four à pain communal de La Haye-de-Routot.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-203",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_203.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-203-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle forêt essentiellement résineuse est répartie sur l'Isère et la Drôme ?",
+      "answer": "Forêt du Vercors",
+      "options": [
+        "Forêt de Ferrières",
+        "Forêt du Vercors",
+        "Forêt de Thelle",
+        "Forêt de Montfort"
+      ],
+      "explanation": "Le Vercors comprend : Quatre-Montagnes, Trièves, Vercors drômois, Royans isérois, Royans drômois, Gervanne et Diois.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-203",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_203.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-203-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle forêt de l'Oise de 6 344 hectares abrite pas moins de six monuments historiques ?",
+      "answer": "Forêt de Chantilly",
+      "options": [
+        "Forêt de Tusson",
+        "Forêt de Chantilly",
+        "Forêt des Landes",
+        "Forêt de Bonifatu"
+      ],
+      "explanation": "La forêt de Chantilly bénéficie de plusieurs types de protections qui concernent les paysages, ses milieux naturels et les espèces qui y vivent.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-203",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_203.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-203-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle forêt de la Drôme est souvent comparée à une coque de navire ?",
+      "answer": "Forêt de Saou",
+      "options": [
+        "Forêt de Dourdan",
+        "Forêt de Saou",
+        "Forêt de Seillon",
+        "Forêt de Chevré"
+      ],
+      "explanation": "Seules deux échancrures permettent d'y accéder par la route : au nord, le pas de Lauzens, et au sud, le défilé du Pertuis.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-203",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_203.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-203-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle forêt rencontre-t-on la plus forte densité des pics mars ?",
+      "answer": "Forêt de Cîteaux",
+      "options": [
+        "Forêt du Gâvre",
+        "Forêt de Cîteaux",
+        "Forêt de Carnelle",
+        "Forêt de Paimpont"
+      ],
+      "explanation": "La cigogne noire, le héron pourpré et le busard des roseaux fréquentent de plus en plus le secteur depuis quelques années.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-203",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_203.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-203-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle forêt des Côtes-d'Armor a été le théâtre de plusieurs exécutions SS ?",
+      "answer": "Forêt de Lorge",
+      "options": [
+        "Forêt de Grésigne",
+        "Forêt de Cinglais",
+        "Forêt de Corsuet",
+        "Forêt de Lorge"
+      ],
+      "explanation": "Un monument commémoratif a été érigé sur l'aire de la Butte-Rouge à L'Hermitage-Lorge pour honorer la mémoire de ces fusillés.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-203",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_203.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-203-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle forêt d'Ille-et-Vilaine fut le théâtre de combats entre Chouans et Républicains ?",
+      "answer": "Forêt du Pertre",
+      "options": [
+        "Forêt de Saou",
+        "Forêt de Taillard",
+        "Forêt du Pertre",
+        "Forêt de Bondy"
+      ],
+      "explanation": "La forêt du Pertre constitua un des refuges préférés des Chouans, que les autorités révolutionnaires s'évertuèrent à neutraliser.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-203",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_203.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-203-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle forêt propose un admirable point de vue sur la Vallée Surelle ?",
+      "answer": "Forêt de Thelle",
+      "options": [
+        "Forêt de Chevré",
+        "Forêt de Thelle",
+        "Forêt de Tusson",
+        "Forêt de Montfort"
+      ],
+      "explanation": "La forêt domaniale du Thelle fait partie des 64 principaux sites naturels de l'ancienne région administrative de Picardie.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-203",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_203.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-203-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle forêt de France est aussi appelée forêt de Villers-Cotterêts ?",
+      "answer": "Forêt de Retz",
+      "options": [
+        "Forêt du Cranou",
+        "Forêt de Creuse",
+        "Forêt de Retz",
+        "Forêt de Cîteaux"
+      ],
+      "explanation": "Contrairement à d'autres espaces français au couvert forestier non statique, ses contours n'ont que guère évolué au cours des siècles.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-203",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_203.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-203-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Le bois de quelle forêt fut utilisé pour la construction des maisons de Saint-Sauveur ?",
+      "answer": "Forêt de Taillard",
+      "options": [
+        "Forêt de Brotonne",
+        "Forêt de Taillard",
+        "Forêt du Vercors",
+        "Forêt de Dourdan"
+      ],
+      "explanation": "Lors de la révolution industrielle, la forêt de Taillard a été utilisée pour fournir en bois les mines pour l'utilisation de poutres d'étayage.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-203",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_203.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-203-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle forêt est située sur une butte-témoin dominant la plaine de France ?",
+      "answer": "Forêt de Carnelle",
+      "options": [
+        "Forêt de Chantilly",
+        "Forêt de Paimpont",
+        "Forêt du Gâvre",
+        "Forêt de Carnelle"
+      ],
+      "explanation": "Parmi sa faune on rencontre chevreuils, sangliers ou cerfs en provenance de la forêt de Chantilly, renards, blaireaux et lapins.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-203",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_203.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-203-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Le bois de quelle forêt alimenta la chaudière du train qui reliait Caen à Falaise ?",
+      "answer": "Forêt de Cinglais",
+      "options": [
+        "Forêt de Montfort",
+        "Forêt de Corsuet",
+        "Forêt de Cinglais",
+        "Forêt de Grésigne"
+      ],
+      "explanation": "La forêt de Cinglais servit à fournir en tan, issu des écorces de chêne, les nombreuses tanneries de la vallée de la Laize.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-203",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_203.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

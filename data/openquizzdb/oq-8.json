@@ -1,0 +1,798 @@
+{
+  "id": "oq-8",
+  "title": "Toutânkhamon",
+  "originalTitle": "Toutânkhamon (Découvert dans la vallée des rois)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_8.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-8-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville est exposé le masque doré du cercueil de Toutânkhamon ?",
+      "answer": "Le Caire",
+      "options": [
+        "Le Caire",
+        "Alexandrie",
+        "Louxor",
+        "Boulaq"
+      ],
+      "explanation": "Le musée égyptien du Caire est l'un des plus grands musées entièrement consacré à l'Antiquité égyptienne.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-8",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_8.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-8-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel métier exerçait Howard Carter, fils du peintre animalier Samuel John Carter ?",
+      "answer": "Archéologue",
+      "options": [
+        "Journaliste",
+        "Décorateur",
+        "Physicien",
+        "Archéologue"
+      ],
+      "explanation": "Howard Carter est principalement connu pour avoir découvert en 1922 la tombe de Toutânkhamon.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-8",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_8.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-8-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de sarcophages protégeaient la momie de Toutânkhamon ?",
+      "answer": "Trois",
+      "options": [
+        "Trois",
+        "Deux",
+        "Quatre",
+        "Cinq"
+      ],
+      "explanation": "Au bout de soixante-dix jours, Toutânkhamon sera inhumé, selon les rites funéraires royaux.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-8",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_8.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-8-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle matière est fait le masque mortuaire de Toutânkhamon ?",
+      "answer": "Or",
+      "options": [
+        "Plâtre",
+        "Argent",
+        "Or",
+        "Bronze"
+      ],
+      "explanation": "Sur le visage de Toutânkhamon est rabattu un masque en or fin dont les traits rappellent le visage de la reine Tiyi.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-8",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_8.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-8-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel matériau précieux évoquait le dieu Soleil pour les Égyptiens ?",
+      "answer": "Or",
+      "options": [
+        "Palladium",
+        "Titane",
+        "Or",
+        "Platine"
+      ],
+      "explanation": "Dans la mythologie égyptienne, Rê (ou Râ) est le dieu du disque solaire et le créateur de l'univers.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-8",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_8.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-8-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le plus vaste musée consacré à la civilisation de l'Égypte ancienne ?",
+      "answer": "Musée du Caire",
+      "options": [
+        "Musée de Banha",
+        "Musée du Caire",
+        "Musée de Fayoum",
+        "Musée de Gizeh"
+      ],
+      "explanation": "Le musée du Caire a reçu plus de cent millions de visiteurs au cours du XXe siècle.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-8",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_8.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-8-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quoi est fait le sarcophage extérieur protégeant la momie de Toutânkhamon ?",
+      "answer": "Bois",
+      "options": [
+        "Roche",
+        "Fer",
+        "Papyrus",
+        "Bois"
+      ],
+      "explanation": "La tombe de Toutânkhamon aurait été visitée par deux fois par les pilleurs de tombe.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-8",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_8.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-8-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Par quelle technique les Égyptiens ouvraient-ils à l'âme le monde souterrain ?",
+      "answer": "Embaumement",
+      "options": [
+        "Crémation",
+        "Embaumement",
+        "Pendaison",
+        "Dissection"
+      ],
+      "explanation": "Dans l'Égypte ancienne, les embaumeurs sont également appelés « taricheutes », signifiant « viande conservée, corps embaumé ».",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-8",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_8.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-8-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans l'Égypte antique, quelle demeure était indispensable à la vie éternelle ?",
+      "answer": "Sarcophage",
+      "options": [
+        "Sarcophage",
+        "Mausolée",
+        "Colombarium",
+        "Baptistère"
+      ],
+      "explanation": "Le plus souvent sculpté dans la pierre et placé au-dessus du sol, le sarcophage est parfois enterré.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-8",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_8.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-8-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle vallée a été découvert le tombeau du pharaon Toutânkhamon ?",
+      "answer": "Vallée des rois",
+      "options": [
+        "Vallée des rois",
+        "Vallée des dieux",
+        "Vallée des princes",
+        "Vallée des ducs"
+      ],
+      "explanation": "La vallée des rois est une région d'Égypte située sur la rive occidentale du Nil à la hauteur de Thèbes (aujourd'hui Louxor).",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-8",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_8.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-8-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le poids du masque funéraire en or massif du cercueil de Toutânkhamon ?",
+      "answer": "11 kg",
+      "options": [
+        "8 kg",
+        "5 kg",
+        "2 kg",
+        "11 kg"
+      ],
+      "explanation": "Cette sculpture, découverte en 1925, est un véritable chef-d'oeuvre de l'orfèvrerie égyptienne.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-8",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_8.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-8-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sur le masque de Toutânkhamon, quel animal repousse les ennemis de son souffle ?",
+      "answer": "Cobra",
+      "options": [
+        "Cobra",
+        "Dragon",
+        "Cheval",
+        "Scorpion"
+      ],
+      "explanation": "Dans la mythologie égyptienne, Ouadjet est une déesse cobra protectrice de la Basse-Égypte.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-8",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_8.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-8-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que symbolise la barbe postiche du masque funéraire de Toutânkhamon ?",
+      "answer": "Immortalité",
+      "options": [
+        "Puissance",
+        "Gloire",
+        "Postérité",
+        "Immortalité"
+      ],
+      "explanation": "Dans l'Égypte antique, la barbe postiche est l'un des attributs que partage le pharaon avec les dieux.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-8",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_8.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-8-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel matériau précieux symbolise les os du pharaon défunt ?",
+      "answer": "Argent",
+      "options": [
+        "Or",
+        "Argent",
+        "Platine",
+        "Bronze"
+      ],
+      "explanation": "Les expositions consacrées à Toutânkhamon connaissent très régulièrement un succès populaire considérable.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-8",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_8.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-8-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel mécène finança les fouilles du tombeau de Toutânkhamon par Howard Carter ?",
+      "answer": "Lord Carnarvon",
+      "options": [
+        "Harry Burton",
+        "Geoffrey Martin",
+        "Lord Carnarvon",
+        "Thomas Young"
+      ],
+      "explanation": "Lord Carnarvon se maria en 1895 avec la très riche Almina Wombwell, fille naturelle du banquier Alfred de Rothschild.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-8",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_8.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-8-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À qui fut d'abord réservé l'embaumement sous l'Ancien Empire égyptien ?",
+      "answer": "Aux pharaons",
+      "options": [
+        "Aux pharaons",
+        "Aux prêtres",
+        "Aux scribes",
+        "Aux animaux"
+      ],
+      "explanation": "L'embaumement désigne l'ensemble des techniques visant à conserver les corps des personnes mortes.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-8",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_8.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-8-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de marches descendent vers la porte d'entrée de la tombe de Toutânkhamon ?",
+      "answer": "Seize",
+      "options": [
+        "Cinquante",
+        "Quatre",
+        "Trente",
+        "Seize"
+      ],
+      "explanation": "De là, un corridor conduit à une porte fermant l'entrée de la première pièce, appelée « antichambre » par Carter.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-8",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_8.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-8-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment la première pièce de la tombe de Toutânkhamon a-t-elle été appelée ?",
+      "answer": "Antichambre",
+      "options": [
+        "Vestibule",
+        "Réserve",
+        "Antichambre",
+        "Dortoir"
+      ],
+      "explanation": "Lors de sa découverte, l'antichambre contenait plus de 700 pièces entassées pêle-mêle.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-8",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_8.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-8-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Par quoi la momie de Toutânkhamon a-t-elle été presque carbonisée ?",
+      "answer": "Onguents",
+      "options": [
+        "Onguents",
+        "Natron",
+        "Bronze",
+        "Souffre"
+      ],
+      "explanation": "C'est en effet par les onguents versés au moment de l'inhumation que la momie a presque été carbonisée.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-8",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_8.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-8-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de filles, mortes prématurément, le pharaon Toutânkhamon aurait-il eues ?",
+      "answer": "Deux",
+      "options": [
+        "Trois",
+        "Cinq",
+        "Quatre",
+        "Deux"
+      ],
+      "explanation": "L'examen de leurs momies réalisé en 2011 a révélé qu'un des foetus est mort à cinq ou six mois de grossesse.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-8",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_8.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-8-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a découvert en 1922 le tombeau de Toutânkhamon ?",
+      "answer": "Howard Carter",
+      "options": [
+        "Henry Salt",
+        "Somers Clarke",
+        "Howard Carter",
+        "Alfred Lucas"
+      ],
+      "explanation": "En 1924, il effectua de nombreuses interviews aux États-Unis où il y était vu comme une véritable star.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-8",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_8.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-8-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle désignation égyptologique est utilisée pour le tombeau de Toutânkhamon ?",
+      "answer": "KV62",
+      "options": [
+        "DS36",
+        "MC23",
+        "ZX44",
+        "KV62"
+      ],
+      "explanation": "La visite de la tombe KV62 est soumise à une tarification particulière qui peut toutefois varier en fonction des saisons.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-8",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_8.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-8-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien d'oeuvres et de pièces de mobilier contenait la tombe de Toutânkhamon ?",
+      "answer": "2 099",
+      "options": [
+        "1 245",
+        "4 830",
+        "2 099",
+        "3 627"
+      ],
+      "explanation": "La « chambre du trésor » contenait des maquettes de bateaux, de nombreuses statues et deux momies de foetus.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-8",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_8.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-8-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel nom porte la coiffe la plus emblématique des pharaons ?",
+      "answer": "Némès",
+      "options": [
+        "Kippa",
+        "Pakol",
+        "Causia",
+        "Némès"
+      ],
+      "explanation": "Le némès est un couvre-chef de tissu, assez complexe, composé de plusieurs parties.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-8",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_8.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-8-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle déesse protectrice du pharaon se retrouve sur le masque de Toutânkhamon ?",
+      "answer": "Nekhbet",
+      "options": [
+        "Hathor",
+        "Nekhbet",
+        "Kekou",
+        "Miysis"
+      ],
+      "explanation": "Dans son rôle de protectrice du pharaon, Nekhbet est associée à la déesse cobra Ouadjet symbole de Basse-Égypte.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-8",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_8.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-8-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel minerai était souvent utilisé pour les bijoux funéraires chez les Égyptiens ?",
+      "answer": "Améthyste",
+      "options": [
+        "Opale",
+        "Grenat",
+        "Améthyste",
+        "Zircon"
+      ],
+      "explanation": "La couleur de l'améthyste ne reste stable que jusqu'à 250°C. Au-delà, la plupart des améthystes se décolorent.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-8",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_8.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-8-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quoi sont incrustés les yeux du célèbre masque de Toutânkhamon ?",
+      "answer": "Lapis-lazuli",
+      "options": [
+        "Turquoise",
+        "Topaze",
+        "Agate",
+        "Lapis-lazuli"
+      ],
+      "explanation": "Le lapis-lazuli est surtout connu comme pierre ornementale, opaque, de couleur bleue.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-8",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_8.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-8-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel minerai permettait aux Égyptiens de déshydrater les tissus humains ?",
+      "answer": "Natron",
+      "options": [
+        "Lithium",
+        "Natron",
+        "Nickel",
+        "Bismuth"
+      ],
+      "explanation": "Les Égyptiens ont observé la similitude de matière entre le natron purifié, chauffé et asséché et la partie soluble dans l'eau.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-8",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_8.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-8-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que glissait-on sous le visage des momies pour leur redonner leur forme ?",
+      "answer": "Argile",
+      "options": [
+        "Ocre",
+        "Houille",
+        "Gypse",
+        "Argile"
+      ],
+      "explanation": "Une momie est un cadavre qui a été préservé de la destruction et de la putréfaction.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-8",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_8.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-8-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle maladie infectieuse la momie de Toutânkhamon était-elle porteuse ?",
+      "answer": "Paludisme",
+      "options": [
+        "Rougeole",
+        "Paludisme",
+        "Tuberculose",
+        "Malaria"
+      ],
+      "explanation": "Quatre des momies faisant partie de l'étude, y compris celle de Toutânkhamon, sont porteuses de parasites du paludisme.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-8",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_8.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

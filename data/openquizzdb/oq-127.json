@@ -1,0 +1,798 @@
+{
+  "id": "oq-127",
+  "title": "Histoire politique",
+  "originalTitle": "Histoire politique",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_127.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-127-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a été nommé, pour la troisième fois de sa carrière, président du Conseil italien le 8 mai 2008 ?",
+      "answer": "Silvio Berlusconi",
+      "options": [
+        "Romano Prodi",
+        "Giuliano Amato",
+        "Lamberto Dini",
+        "Silvio Berlusconi"
+      ],
+      "explanation": "Homme d'affaires et propriétaire du club de football de l'AC Milan, il a été pour la première fois Président de 1994 à 1995.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-127",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_127.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-127-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle prisonnière des Farc colombiennes a été libérée le 2 juillet 2008 après six ans de captivité ?",
+      "answer": "Ingrid Betancourt",
+      "options": [
+        "Clara Rojas",
+        "Ingrid Betancourt",
+        "Gina Parody",
+        "Gloria Polanco"
+      ],
+      "explanation": "Après de longs mois de détention, cette femme politique colombo-française fut délivrée par l'armée national colombienne.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-127",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_127.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-127-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel État Barrack Obama était-il le sénateur avant d'être élu président des États-Unis ?",
+      "answer": "Illinois",
+      "options": [
+        "Iowa",
+        "Idaho",
+        "Illinois",
+        "Indiana"
+      ],
+      "explanation": "Les États-Unis élisent pour la première fois de leur histoire un président Afro-Américain à la tête du pays.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-127",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_127.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-127-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel acteur célèbre est devenu gouverneur de l'État de Californie le 7 octobre 2003 ?",
+      "answer": "A. Schwarzenegger",
+      "options": [
+        "V. Diesel",
+        "B. Willis",
+        "A. Schwarzenegger",
+        "S. Stallone"
+      ],
+      "explanation": "Donné favori, bien que républicain, « Schwarzy » a dépassé les prévisions les plus optimistes avec 48% des voix.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-127",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_127.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-127-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui était l'adversaire démocrate de George W. Bush pour la présidentielle américaine de 2004 ?",
+      "answer": "John Kerry",
+      "options": [
+        "James Baker",
+        "Joe Biden",
+        "John Kerry",
+        "Colin Powell"
+      ],
+      "explanation": "Le sénateur du Massachusetts l'avait emporté dans neuf États sur dix lors du supermardi des primaires démocrates.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-127",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_127.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-127-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui fut la première « first Lady » à être élue sénateur de New York le 8 novembre 2000 ?",
+      "answer": "Hilary Clinton",
+      "options": [
+        "Hilary Clinton",
+        "Michelle Obama",
+        "Barbara Bush",
+        "Melania Trump"
+      ],
+      "explanation": "Nombreux sont ceux dans son camp démocrate ou chez les Républicains à lui prêter une plus haute ambition.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-127",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_127.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-127-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sous quel nom le prince Albert a-t-il accédé au trône de Monaco ?",
+      "answer": "Albert II",
+      "options": [
+        "Albert II",
+        "Honoré V",
+        "Louis II",
+        "Rainier III"
+      ],
+      "explanation": "Le nouveau souverain entend rompre avec l'autocratisme de son père et promet une gestion du pays « ouverte au dialogue ».",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-127",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_127.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-127-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel ancien président américain a achevé une visite historique à Cuba le 17 mai 2002 ?",
+      "answer": "Jimmy Carter",
+      "options": [
+        "Jimmy Carter",
+        "Gerald Ford",
+        "Ronald Reagan",
+        "Bill Clinton"
+      ],
+      "explanation": "Venu à titre privé, mais non sans arrière-pensées, Jimmy Carter était un farouche défenseur des droits de l'homme.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-127",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_127.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-127-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel homme d'État américain a reçu le prix Nobel de la paix le 9 octobre 2009 ?",
+      "answer": "Barack Obama",
+      "options": [
+        "Al Gore",
+        "Donald Trump",
+        "Jimmy Carter",
+        "Barack Obama"
+      ],
+      "explanation": "Barack Obama a reçu ce prix pour ses efforts extraordinaires en faveur du renforcement de la diplomatie internationale.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-127",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_127.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-127-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel ancien premier ministre mort en 2007 fut surnommé « meilleur économiste de France » ?",
+      "answer": "Raymond Barre",
+      "options": [
+        "Pierre Mauroy",
+        "Laurent Fabius",
+        "Raymond Barre",
+        "Jacques Chirac"
+      ],
+      "explanation": "Cet universitaire avait été le Premier ministre de Valéry Giscard d'Estaing de 1976 à 1981 et maire de Lyon de 1995 à 2001.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-127",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_127.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-127-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle personnalité, décédée le 27 août 2003, a donné son nom au poujadisme ?",
+      "answer": "Pierre Poujade",
+      "options": [
+        "Marc Poujade",
+        "André Poujade",
+        "Jean Poujade",
+        "Pierre Poujade"
+      ],
+      "explanation": "Son nom est resté le symbole des « petits » écrasés par les « gros ». Il fonda l'Union de défense des commerçants et artisans.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-127",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_127.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-127-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel ancien président serbe de Bosnie, accusé de crimes de guerre, a terminé sa cavale en 2008 ?",
+      "answer": "Radovan Karadzic",
+      "options": [
+        "Radovan Karadzic",
+        "Sandor Pall",
+        "Bajram Omeragic",
+        "Sava Mikic"
+      ],
+      "explanation": "Karadzic sera inculpé de génocide, crimes de guerre et crimes contre l'humanité pour sa responsabilité dans le siège de Sarajevo.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-127",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_127.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-127-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel président a jeté l'éponge à Haïti le 29 février 2004 à la suite d'un coup d'État ?",
+      "answer": "J.-B. Aristide",
+      "options": [
+        "Émile Jonassaint",
+        "René Préval",
+        "J.-B. Aristide",
+        "Marc Bazin"
+      ],
+      "explanation": "L'ancien prêtre a donné sa démission et quitté le pays dans un avion américain pour une destination secrète.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-127",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_127.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-127-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment s'appelait le quarantième président des États-Unis ?",
+      "answer": "Ronald Reagan",
+      "options": [
+        "John Kerry",
+        "Ronald Reagan",
+        "Jimmy Carter",
+        "George H. W. Bush"
+      ],
+      "explanation": "L'ancien acteur d'Hollywood exercera deux mandats successifs à la Maison Blanche (1981-1989).",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-127",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_127.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-127-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel ancien président de l'Autorité palestinienne a perdu la vie à Paris le 11 novembre 2004 ?",
+      "answer": "Yasser Arafat",
+      "options": [
+        "Mahmoud Abbas",
+        "Rami Hamdallah",
+        "Yasser Arafat",
+        "Nabil Shaath"
+      ],
+      "explanation": "Le raïs avait été élu à la présidence de l'autorité palestinienne en janvier 1996, deux ans après avoir reçu le prix Nobel de la Paix.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-127",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_127.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-127-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a succédé à Yasser Arafat à la tête de l'Autorité palestinienne le 9 janvier 2005 ?",
+      "answer": "Mahmoud Abbas",
+      "options": [
+        "Mahmoud Abbas",
+        "Ahmed Qoreï",
+        "Salam Fayyad",
+        "Nabil Shaath"
+      ],
+      "explanation": "Partisan d'une négociation avec Israël visant à la création d'un État palestinien, Mahmoud Abbas a recueilli 62% des suffrages.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-127",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_127.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-127-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel dirigeant syndical a été élu président de la Bolivie le 21 décembre 2005 ?",
+      "answer": "Evo Morales",
+      "options": [
+        "Simon Bolivar",
+        "Sebastian Agreda",
+        "Carlos Mesa",
+        "Evo Morales"
+      ],
+      "explanation": "Le programme d'Evo Morales repose sur deux piliers : la révision plus équitable des contrats du pays et la défense des agriculteurs.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-127",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_127.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-127-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a été élu maire de New York le 6 novembre 2001, remplacé ensuite par Bill de Blasio ?",
+      "answer": "Michael Bloomberg",
+      "options": [
+        "Edward Koch",
+        "Rudolph Giuliani",
+        "Michael Bloomberg",
+        "John Hopkins"
+      ],
+      "explanation": "Le milliardaire qui commence son premier mandat à la tête de la ville avait le soutien du maire sortant Rudolph Giulani.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-127",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_127.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-127-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle jeune étudiante Française fut arrêtée en Iran le 1er juillet 2009 pour « espionnage » ?",
+      "answer": "Clotilde Reiss",
+      "options": [
+        "Barbara Pompili",
+        "Johanna Rolland",
+        "Clotilde Reiss",
+        "Noémie Saglio"
+      ],
+      "explanation": "Lectrice de français à l'université d'Ispahan, elle aurait pris des photos lors des troubles liés aux élections présidentielles iraniennes.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-127",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_127.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-127-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel ministre a été jugé pour « injure raciale » le 4 juin 2010 ?",
+      "answer": "Brice Hortefeux",
+      "options": [
+        "Éric Woerth",
+        "Brice Hortefeux",
+        "Luc Chatel",
+        "Xavier Bertrand"
+      ],
+      "explanation": "Il avait dit : « Y'en a beaucoup qui posent des problèmes » à propos d'un militant UMP.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-127",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_127.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-127-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui était surnommé le « père de l'indépendance » tunisienne ?",
+      "answer": "Habib Bourguiba",
+      "options": [
+        "Habib Bourguiba",
+        "Moncef Marzouki",
+        "Fouad Mebazaa",
+        "Habib Essid"
+      ],
+      "explanation": "Il fut d'abord un précurseur, supprimant la polygamie dès son accession au pouvoir et accordant le droit de vote aux femmes.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-127",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_127.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-127-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel homme politique autrichien s'est tué dans un accident de voiture le 11 octobre 2008 ?",
+      "answer": "Jörg Haider",
+      "options": [
+        "Alfred Polgar",
+        "Jörg Haider",
+        "Peter Turrini",
+        "Franz Blei"
+      ],
+      "explanation": "Gouverneur de la Carinthie, ses idées nationalistes et populistes avaient beaucoup inquiété l'Union européenne.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-127",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_127.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-127-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel homme d'affaires a-t-on pu assister sur Internet à la décapitation le 11 mai 2004 ?",
+      "answer": "Nicholas Berg",
+      "options": [
+        "Nicholas Berg",
+        "David Haines",
+        "Alan Johnston",
+        "Tom Fox"
+      ],
+      "explanation": "Son assassinat était accompagné d'une déclaration le présentant comme une réponse aux tortures infligées à Abou Ghraib.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-127",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_127.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-127-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a prêté serment en tant que Premier ministre de l'Irak le 28 juin 2004 ?",
+      "answer": "Iyad Allaou",
+      "options": [
+        "Ahmed Chalabi",
+        "Jalal Talabani",
+        "Massoud Barzani",
+        "Iyad Allaou"
+      ],
+      "explanation": "Selon la résolution 1546 du Conseil de Sécurité, l'Irak recouvre une souveraineté pleine et entière.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-127",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_127.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-127-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a succédé à Pierre Gadonneix à la tête d'EDF le 25 novembre 2009 ?",
+      "answer": "Henri Proglio",
+      "options": [
+        "François Roussely",
+        "Gilles Ménage",
+        "Edmond Alphandéry",
+        "Henri Proglio"
+      ],
+      "explanation": "C'est une consécration pour celui qui, depuis 10 ans, dirige Veolia Environnement, où il a fait l'essentiel de sa carrière.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-127",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_127.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-127-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment s'appelle l'ancien roi afghan, destitué en 1973 ?",
+      "answer": "M. Zaher Shah",
+      "options": [
+        "M. Zaher Shah",
+        "M. Daoud Khan",
+        "M. Sedi Khan",
+        "M. Nadir Shah"
+      ],
+      "explanation": "En exil en Italie depuis sa destitution, il lance le 21 septembre 2001 un appel pour une assemblée des chefs de tribus dans son pays.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-127",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_127.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-127-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel français a été inculpé dans les attentats du 11 septembre ?",
+      "answer": "Zacarias Moussaoui",
+      "options": [
+        "Ahmed Ressam",
+        "Djamel Beghal",
+        "Nigel Hamer",
+        "Zacarias Moussaoui"
+      ],
+      "explanation": "L'homme âgé de 33 ans a été arrêté le 17 août 2001 pour séjour irrégulier dans le Minnesota où il suivait des cours de pilotage.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-127",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_127.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-127-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui fut élu à la tête de la Banque mondiale le 31 mars 2005 ?",
+      "answer": "Paul Wolfowitz",
+      "options": [
+        "Jim Yong Kim",
+        "Paul Wolfowitz",
+        "James Wolfensohn",
+        "Robert Zoellick"
+      ],
+      "explanation": "N°2 du Pentagone, il est élu à l'unanimité, malgré les nombreuses réserves émises en Europe et dans les pays du tiers-monde.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-127",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_127.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-127-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel militaire et président syrien est décédé le 10 juin 2000 à Damas ?",
+      "answer": "Hafez El-Assad",
+      "options": [
+        "Nazem Koudsi",
+        "Bachar el-Assad",
+        "Hafez El-Assad",
+        "Ahmed Khatib"
+      ],
+      "explanation": "Hafez el-Assad eut pour principale préoccupation l'unité du monde arabe dont il se voulait le leader.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-127",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_127.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-127-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qu'a déclenché Ariel Sharon en se rendant sur l'esplanade des Mosquées le 28 août 2000 ?",
+      "answer": "Seconde Intifada",
+      "options": [
+        "Première Intifada",
+        "Seconde Intifada",
+        "Guerre de Gaza",
+        "Guerre du Kippour"
+      ],
+      "explanation": "Ariel Sharon, alors chef du Likoud, voulait ainsi affirmer les droits imprescriptibles d'Israël sur ce lieu.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-127",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_127.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

@@ -1,0 +1,774 @@
+{
+  "id": "oq-264",
+  "title": "Foot 2010-2020",
+  "originalTitle": "Foot 2010-2020 (De Pep Guardiola à Zlatan Ibrahimovic)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_264.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    14
+  ],
+  "questions": [
+    {
+      "id": "oqdb-264-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel joueur allemand a inscrit 16 buts en phase finale de Coupe du monde ?",
+      "answer": "Miroslav Klose",
+      "options": [
+        "Arjen Robben",
+        "Miroslav Klose",
+        "Marco Reus",
+        "Manuel Neuer"
+      ],
+      "explanation": "Le 8 juillet 2014, Miroslav Klose, élément clé en équipe nationale, inscrit son 16e but en phase finale de Coupe du monde.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-264",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_264.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-264-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel fruit un supporter a-t-il lancé sur le terrain en direction de Daniel Alves ?",
+      "answer": "Banane",
+      "options": [
+        "Orange",
+        "Ananas",
+        "Pastèque",
+        "Banane"
+      ],
+      "explanation": "Lors d'un Villarreal-Barça, un supporter envoya une banane sur le terrain que le latéral a tout simplement mangé.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-264",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_264.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-264-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel milieu de terrain a longtemps porté un écureuil mort sur la tête ?",
+      "answer": "Paul Pogba",
+      "options": [
+        "Renato Sanches",
+        "Alexandre Pato",
+        "Mario Balotelli",
+        "Paul Pogba"
+      ],
+      "explanation": "Il fut transféré de la Juventus vers son ancien club de Premier League pour la somme de 105 millions d'euros + 5 millions.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-264",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_264.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-264-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a été élu en 2013 meilleur joueur de la Coupe des Confédérations ?",
+      "answer": "Neymar",
+      "options": [
+        "Cavani",
+        "Neymar",
+        "Ibrahimovic",
+        "Hazard"
+      ],
+      "explanation": "Depuis 2017, il joue pour le Paris Saint-Germain, devenant le joueur le plus cher du foot avec un transfert à 222 millions d'euros.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-264",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_264.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-264-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel meilleur gardien de l'année 2015 a boycotté les votes du Ballon d'or ?",
+      "answer": "Gianluigi Buffon",
+      "options": [
+        "Gianluigi Buffon",
+        "Manuel Neuer",
+        "Iker Casillas",
+        "Oliver Kahn"
+      ],
+      "explanation": "Ne faisant pas partie des 23 meilleurs joueurs, if fut nommé pour le Ballon d'or à huit reprises, terminant deuxième en 2006.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-264",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_264.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-264-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quels clubs ont dominé l'Europa League entre 2010 et 2015 ?",
+      "answer": "Espagnols",
+      "options": [
+        "Allemands",
+        "Italiens",
+        "Belges",
+        "Espagnols"
+      ],
+      "explanation": "L'Atlético Madrid est le tenant du titre tandis que le Séville FC est le club le plus titré dans l'histoire de la compétition avec cinq victoires.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-264",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_264.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-264-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel joueur de football représente la plus grosse vente de l'histoire de Lille ?",
+      "answer": "Eden Hazard",
+      "options": [
+        "Edinson Cavani",
+        "Karim Benzema",
+        "Yoann Gourcuff",
+        "Eden Hazard"
+      ],
+      "explanation": "Arrivé de Belgique au Lille OSC en 2005 pour terminer sa formation, Hazard y explosera au plus haut niveau au poste d'ailier gauche.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-264",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_264.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-264-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel sélectionneur a mangé ses crottes de nez en Coupe du Monde 2010 ?",
+      "answer": "Joachim Löw",
+      "options": [
+        "Sepp Herberger",
+        "Stefan Reisch",
+        "Franz Beckenbauer",
+        "Joachim Löw"
+      ],
+      "explanation": "Joachim Löw a remporté avec l'équipe nationale d'Allemagne la Coupe du monde en 2014 et la Coupe des confédérations en 2017.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-264",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_264.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-264-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle sélection a terminé la Coupe du monde 2014 avec la plus mauvaise défense ?",
+      "answer": "Brésil",
+      "options": [
+        "Allemagne",
+        "France",
+        "Argentine",
+        "Brésil"
+      ],
+      "explanation": "Avec 14 buts encaissés, la demi-finale du Brésil face à l'Allemagne fut marquée par le score historique de 7-1 pour la Mannschaft.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-264",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_264.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-264-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quels frères se sont fait face en finale de League Cup 2016 ?",
+      "answer": "Touré",
+      "options": [
+        "Koutris",
+        "Touré",
+        "Pardo",
+        "Cissé"
+      ],
+      "explanation": "Yaya Touré, évoluant au poste de milieu relayeur, est le petit frère de Kolo Touré, avec qui il a joué à Manchester City.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-264",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_264.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-264-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel entraîneur est passé du Benfica Lisbonne au Sporting Lisbonne ?",
+      "answer": "Jorge Jesus",
+      "options": [
+        "Fernando Peres",
+        "Pedro Miguel",
+        "Paulo Alves",
+        "Jorge Jesus"
+      ],
+      "explanation": "Considéré comme un traître, il a toutefois redonné une seconde jeunesse au Benfica Lisbonne grâce à sa culture tactique.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-264",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_264.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-264-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En combien de temps Robert Lewandowski a-t-il inscrit 5 buts le 22 septembre 2015 ?",
+      "answer": "9 minutes",
+      "options": [
+        "9 minutes",
+        "27 minutes",
+        "21 minutes",
+        "15 minutes"
+      ],
+      "explanation": "Robert Lewandowski est considéré comme l'un des meilleurs avant-centres du monde, notamment grâce à son jeu complet redoutable.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-264",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_264.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-264-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qu'a fait Francesco Totti après son deuxième but contre la Lazio en janvier 2015 ?",
+      "answer": "Un selfie",
+      "options": [
+        "Un doigt d'honneur",
+        "Un cumulé",
+        "Un selfie",
+        "Un salto arrière"
+      ],
+      "explanation": "Champion du monde en 2006, il est reconnu pour son exceptionnelle longévité et sa fidélité absolue envers son équipe de coeur, la Roma.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-264",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_264.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-264-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel gardien de but a joué libero contre l'Algérie en Coupe du Monde 2014 ?",
+      "answer": "Manuel Neuer",
+      "options": [
+        "Lukas Raeder",
+        "Manuel Neuer",
+        "Tom Starke",
+        "Hans Jakob"
+      ],
+      "explanation": "Manuel Neuer se distingue par ses arrêts réflexes, ses relances, ses sorties hors de la surface, ainsi que sa capacité à diriger sa défense.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-264",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_264.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-264-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qu'a appris Pep Guardiola avant d'arriver au Bayern Munich en 2013 ?",
+      "answer": "L'allemand",
+      "options": [
+        "L'allemand",
+        "À manger riche",
+        "Une naissance",
+        "À faire la fête"
+      ],
+      "explanation": "Très attaché à la communication, Pep Guardiola a notamment remporté le championnat d'Allemagne en 2014, 2015 et 2016.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-264",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_264.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-264-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel joueur des Girondins est régulièrement capitaine du club depuis 2014 ?",
+      "answer": "Jaroslav Plasil",
+      "options": [
+        "Youssouf Sabaly",
+        "Jaroslav Plasil",
+        "Théo Pellenard",
+        "Valentin Vada"
+      ],
+      "explanation": "Le 31 mai 2013, il remporte la Coupe de France contre Évian Thonon Gaillard Football Club, son deuxième titre avec les Girondins.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-264",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_264.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-264-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de temps a-t-il fallu à Alexandre Pato pour marquer contre Barcelone en 2011 ?",
+      "answer": "24 secondes",
+      "options": [
+        "3 minutes",
+        "91 minutes",
+        "24 secondes",
+        "45 minutes"
+      ],
+      "explanation": "Marqué le 13 septembre, c'est le but le plus rapide au Camp Nou et le cinquième plus rapide de l'histoire de la Champion's League.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-264",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_264.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-264-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel acteur incarne le personnage du maire dans le film « Les Seigneurs » ?",
+      "answer": "Jean-Pierre Marielle",
+      "options": [
+        "Ramzy Bédia",
+        "Franck Dubosc",
+        "Jean-Pierre Marielle",
+        "Gad Elmaleh"
+      ],
+      "explanation": "Marié en quatrièmes noces depuis 2003 à l'actrice Agathe Natanson, Jean-Pierre Marielle est un grand amateur de jazz et de New York.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-264",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_264.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-264-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de championnats d'Espagne Carles Puyol a-t-il remporté ?",
+      "answer": "Six",
+      "options": [
+        "Cinq",
+        "Six",
+        "Sept",
+        "Quatre"
+      ],
+      "explanation": "En septembre 2014, Carles Puyol est devenu pour cinq mois l'adjoint d'Andoni Zubizarreta à la direction sportive du FC Barcelone.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-264",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_264.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-264-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel club improbable le Brésilien Adriano a-t-il failli signer en décembre 2014 ?",
+      "answer": "Le Havre",
+      "options": [
+        "Reims",
+        "Le Havre",
+        "Grenoble",
+        "Angers"
+      ],
+      "explanation": "Adriano Vieira Louzada, né en 1979, joue au poste d'attaquant. Il a été sacré trois fois champion du Portugal avec le FC Porto.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-264",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_264.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-264-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel attaquant italien a raté un penalty en finale de Copa America en 2015 ?",
+      "answer": "Gonzalo Higuarin",
+      "options": [
+        "Francesco Totti",
+        "Edinson Cavani",
+        "Gonzalo Higuarin",
+        "Antonio Di Natale"
+      ],
+      "explanation": "Lionel Messi ayant marqué le premier penalty, Gonzalo Higuarin Higuain se charge du second mais rate sa frappe.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-264",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_264.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-264-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le prénom de Mbokani, passé à Monaco en 2010-2011 ?",
+      "answer": "Dieumerci",
+      "options": [
+        "Dieumerci",
+        "Janvier",
+        "Tidiane",
+        "Ahmed"
+      ],
+      "explanation": "Le 22 mars 2016, Mbokani était présent à l'aéroport de Zaventem lors des attentats de Bruxelles. Il s'en sort mais sous le choc.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-264",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_264.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-264-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans lequel de ces clubs le défenseur Adil Rami n'a-t-il pas joué ?",
+      "answer": "Cologne",
+      "options": [
+        "Cologne",
+        "Séville",
+        "Valence",
+        "Lille"
+      ],
+      "explanation": "Avec les Bleus, Rami a participé à l'Euro 2012, à l'Euro 2016 et à la Coupe du monde 2018 qu'il remporte sans jouer une seule minute.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-264",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_264.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-264-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel joueur est devenu à 26 ans deuxième meilleur buteur de l'histoire du Mexique ?",
+      "answer": "Chicharito",
+      "options": [
+        "Villa",
+        "Alonso",
+        "Chicharito",
+        "Silvera"
+      ],
+      "explanation": "Il doit son surnom de Chicharito (diminutif de petit pois) à son père qui était surnommé Chicharo avec ses yeux verts.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-264",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_264.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-264-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel entraîneur lillois a plus convaincu par ses chemises que sur le banc ?",
+      "answer": "Hervé Renard",
+      "options": [
+        "Denis Renaud",
+        "Antoine Redin",
+        "Philippe Redon",
+        "Hervé Renard"
+      ],
+      "explanation": "Ancien joueur français, Hervé Renard a disputé en 2018 sa première Coupe du monde en tant qu'entraîneur avec la sélection du Maroc.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-264",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_264.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-264-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Pour quel problème Loïc Rémy n'a-t-il pu rejoindre Liverpool en juillet 2014 ?",
+      "answer": "Cardiaque",
+      "options": [
+        "Pulmonaire",
+        "Cervical",
+        "Dentaire",
+        "Cardiaque"
+      ],
+      "explanation": "Annoncé au Liverpool FC fin juillet 2014, Loïc Rémy ne satisfait pas à la visite médicale et réintègre l'effectif des Queens Park Rangers.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-264",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_264.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-264-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel club a recruté Fernandinho en 2013 et Fernando en 2014 ?",
+      "answer": "Manchester City",
+      "options": [
+        "Arsenal",
+        "Manchester City",
+        "Chelsea",
+        "Liverpool"
+      ],
+      "explanation": "Le Manchester City Football Club a connu sa période la plus faste de la fin des années 1960 jusqu'au début des années 1970.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-264",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_264.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-264-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel joueur de l'OL a placé 36 coups francs de suite en 2013 et 2014 ?",
+      "answer": "Clément Grenier",
+      "options": [
+        "Marco Grassi",
+        "Clément Grenier",
+        "Fabio Grosso",
+        "André Grillon"
+      ],
+      "explanation": "Se prenant alors pour le nouveau Juninho, Clément Grenier se transformera vite en fantôme à cause de vilaines blessures.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-264",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_264.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-264-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel autre sport l'attaquant Zlatan Ibrahimovic est-il ceinture noire ?",
+      "answer": "Taekwondo",
+      "options": [
+        "Budo",
+        "Taekwondo",
+        "Judo",
+        "Karaté"
+      ],
+      "explanation": "Il est considéré comme l'un des avants-centres le plus complet et comme l'un des meilleurs attaquants de l'histoire du football.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-264",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_264.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

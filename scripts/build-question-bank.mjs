@@ -8,5 +8,6 @@ for(const b of banks)for(const q of b.questions){
  if(ids.has(q.id)||q.theme!==b.id||q.universe!==b.universe||!q.credit?.author||!q.credit?.source||!['easy','medium','hard'].includes(q.level)||q.prompt.length>300||!q.answer||q.answer.length>180||q.options.length!==4||new Set(q.options).size!==4||!q.options.includes(q.answer)||q.options.some(o=>!o||o.length>180))throw Error('Invalid question: '+q.id);
  ids.add(q.id);
 }
-await writeFile(new URL('../public/question-bank.js',import.meta.url),'// Licensed French question selection. See data/SOURCES.md for authors, licences and adaptations.\nexport const QUESTION_BANKS = '+JSON.stringify(banks)+';\n');
+const index=banks.map(({questions,...bank})=>({...bank,count:questions.length,levels:Object.fromEntries(['easy','medium','hard'].map(level=>[level,questions.filter(q=>q.level===level).length])),url:'/quiz-packs/'+bank.id+'.json'}));
+await writeFile(new URL('../public/question-bank.js',import.meta.url),'// Quiz catalogue metadata only. Question packs are loaded on demand. See data/SOURCES.md.\nexport const QUESTION_BANKS = '+JSON.stringify(index)+';\n');
 console.log(`${ids.size} questions, ${banks.length} themes.`);

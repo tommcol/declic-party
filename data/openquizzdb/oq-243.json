@@ -1,0 +1,774 @@
+{
+  "id": "oq-243",
+  "title": "Brad Pitt au cinéma",
+  "originalTitle": "Brad Pitt au cinéma (L'acteur et ses films)",
+  "universe": "film",
+  "emoji": "🎬",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Catherine De Smeytere",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_243.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    14
+  ],
+  "questions": [
+    {
+      "id": "oqdb-243-1",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel rôle interprète Brad Pitt dans le film « Snatch », de Guy Ritchie ?",
+      "answer": "Gitan",
+      "options": [
+        "Dealer",
+        "Braqueur",
+        "Commercial",
+        "Gitan"
+      ],
+      "explanation": "Le film a été tourné dans le même esprit et avec une partie de la distribution du film de Guy Ritchie, « Arnaques, Crimes et Botanique ».",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-243",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_243.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-243-2",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le grade de Brad Pitt dans le film « Inglorious Basterds » de Quentin Tarantino ?",
+      "answer": "Lieutenant",
+      "options": [
+        "Capitaine",
+        "Lieutenant",
+        "Colonel",
+        "Major"
+      ],
+      "explanation": "L'histoire se déroule en France durant la Seconde Guerre mondiale et narre la vengeance d'une jeune Juive, Shosanna Dreyfus.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-243",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_243.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-243-3",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Avec quelle actrice Brad Pitt s'est-il marié dans le Var le 23 août 2014 ?",
+      "answer": "Angelina Jolie",
+      "options": [
+        "Gwylnette Paltrow",
+        "Angelina Jolie",
+        "Jennifer Aniston",
+        "Juliette Lewis"
+      ],
+      "explanation": "Ils se sont fiancés en avril 2012, la bague de fiançailles offerte par Brad à Angelina étant d'une valeur de près de 500 000 dollars.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-243",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_243.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-243-4",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle est la particularité de Benjamin Button dans le film de David Fincher ?",
+      "answer": "Né vieux",
+      "options": [
+        "Né aveugle",
+        "Né muet",
+        "Né vieux",
+        "Né sourd"
+      ],
+      "explanation": "L'histoire d'Eric Roth et Robin Swicord est inspirée de la nouvelle du même nom datant de 1922 et écrite par F. Scott Fitzgerald.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-243",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_243.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-243-5",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel rôle interprète Brad Pitt dans « Rencontre avec Joe Black » ?",
+      "answer": "Messager de la mort",
+      "options": [
+        "Fantôme",
+        "Messager de la mort",
+        "Ange déchu",
+        "Riche héritier"
+      ],
+      "explanation": "Jouée dans les années 1920, cette pièce avait connu une adaptation cinématographique en 1934 réalisée par Mitchell Leisen.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-243",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_243.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-243-6",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel film retrace l'histoire de soldats à bord d'un char de la Seconde Guerre mondiale ?",
+      "answer": "Fury",
+      "options": [
+        "Inglorious Basterds",
+        "Fury",
+        "Alliés",
+        "World War Z"
+      ],
+      "explanation": "Le film retrace l'histoire de militaires américains s'opposant à l'armée allemande à bord d'un char surnommé Fury.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-243",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_243.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-243-7",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "En quelle année le thriller américain « Seven » est-il sorti sur les écrans ?",
+      "answer": "1995",
+      "options": [
+        "1985",
+        "2005",
+        "2001",
+        "1995"
+      ],
+      "explanation": "Le film marque la naissance d'une forte amitié entre Brad Pitt et David Fincher, qui réalisera « Fight Club » et « Benjamin Button ».",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-243",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_243.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-243-8",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Au cinéma, quel est le but du fight club géré par l'énigmatique Tyler Durden ?",
+      "answer": "Briser des règles",
+      "options": [
+        "Passer de la drogue",
+        "Briser des règles",
+        "Créer un spectacle",
+        "Devenir tueur"
+      ],
+      "explanation": "Dans le film, Tyler Durden gère un club de combats clandestins qui permet à ses membres d'évacuer leur mal-être par la violence.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-243",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_243.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-243-9",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qu'est-ce qui contraint les hommes à vivre sous terre dans « L'Armée des douze singes » ?",
+      "answer": "Virus",
+      "options": [
+        "Météorite",
+        "Virus",
+        "Guerre atomique",
+        "Réchauffement"
+      ],
+      "explanation": "Pour tenter de trouver un remède au virus, des scientifiques utilisent des prisonniers et les envoient dans le passé.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-243",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_243.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-243-10",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Combien de ses enfants Brad Pitt avait-il autour de lui fin 2017 ?",
+      "answer": "Six",
+      "options": [
+        "Huit",
+        "Six",
+        "Cinq",
+        "Quatre"
+      ],
+      "explanation": "Ses enfants sont : Maddox Chivan, Pax Thien, Zahara Marley, Shiloh Nouvel, Knox Léon et Vivienne Marcheline Jolie-Pitt.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-243",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_243.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-243-11",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "En quelle année Brad Pitt est-il né à Shawnee, dans l'Oklahoma ?",
+      "answer": "1963",
+      "options": [
+        "1965",
+        "1963",
+        "1975",
+        "1964"
+      ],
+      "explanation": "Repéré dans une pub Levi's, Brad Pitt est sorti de l'anonymat grâce à un petit rôle dans le film « Thelma et Louise » de Ridley Scott.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-243",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_243.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-243-12",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Comment s'appelle le personnage de Brad Pitt dans le film « Inglorious Basterds » ?",
+      "answer": "Aldo Raine",
+      "options": [
+        "Fredrick Zoller",
+        "Aldo Raine",
+        "Hans Landa",
+        "Hugo Stilglitz"
+      ],
+      "explanation": "Aldo a un fort accent et un grand débit de paroles, et un physique de hillbilly des Appalaches, accentué par ses origines amérindiennes.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-243",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_243.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-243-13",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Où Brad Pitt fut-il élu Meilleur acteur dans un second rôle pour « L'Armée des douze singes » ?",
+      "answer": "Golden Globe",
+      "options": [
+        "Oscar",
+        "Empire Award",
+        "Saturn Award",
+        "Golden Globe"
+      ],
+      "explanation": "Le film fut nommé dans sept catégories aux Saturn Awards, remportant trois prix dont celui du meilleur film de science-fiction.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-243",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_243.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-243-15",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans le film « Ennemis Rapprochés », quel rôle interprète Brad Pitt ?",
+      "answer": "Terroriste",
+      "options": [
+        "Agent du FBI",
+        "Scientifique",
+        "Terroriste",
+        "Soldat anglais"
+      ],
+      "explanation": "« Ennemis Rapprochés » est le dernier film réalisé par Alan J. Pakula, décédé lors d'un accident de la route le 19 novembre 1998.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-243",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_243.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-243-16",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Durant le tournage de quel film Brad est-il tombé amoureux d'Angelina Jolie ?",
+      "answer": "Mr. et Mrs. Smith",
+      "options": [
+        "Mr. et Mrs. Smith",
+        "Fury",
+        "Le Mexicain",
+        "Kalifornia"
+      ],
+      "explanation": "La première image du film, qui montre un hélicoptère au-dessus d'une ville en Colombie, est tirée du film « Danger Immédiat ».",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-243",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_243.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-243-17",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui a réalisé le film « Et au milieu coule une rivière », sorti en 1992 ?",
+      "answer": "Robert Redford",
+      "options": [
+        "David Fincher",
+        "Robert Redford",
+        "Quentin Tarantino",
+        "Steven Soderbergh"
+      ],
+      "explanation": "Robert Redford a mis des années avant de réussir à convaincre Norman Maclean de lui céder les droits d'adaptation de son livre.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-243",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_243.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-243-18",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle actrice française fait partie du casting du film « Alliés », sorti en 2016 ?",
+      "answer": "Marion Cotillard",
+      "options": [
+        "Juliette Binoche",
+        "Mélanie Laurent",
+        "Marion Cotillard",
+        "Catherine Deneuve"
+      ],
+      "explanation": "Brad Pitt a suggéré que les scènes soient tournées dans l'ordre chronologique de l'intrigue, chose plutôt rare au cinéma.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-243",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_243.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-243-19",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans le film « Seven », quel est le nom du serial killer interprété par Kevin Spacey ?",
+      "answer": "John Doe",
+      "options": [
+        "John Doe",
+        "Jackie Kogan",
+        "Max Vatan",
+        "Gerry Lane"
+      ],
+      "explanation": "Kevin Spacey n'est volontairement pas crédité au générique de début afin de laisser planer le mystère sur l'identité du tueur.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-243",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_243.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-243-20",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Pour quelle marque de jeans Brad Pitt a-t-il tourné une pub qui l'a fait sortir de l'ombre ?",
+      "answer": "Levi's",
+      "options": [
+        "Lee Cooper",
+        "Pepe Jeans",
+        "Levi's",
+        "Wrangler"
+      ],
+      "explanation": "Avant cela, Brad Pitt a notamment donné la réplique à Johnny Depp dans « 21 Jump Street » et joué dans le film d'horreur « Cutting Class ».",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-243",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_243.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-243-21",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quel village français Brad Pitt se rend-il dans le film « Inglorious Basterds » ?",
+      "answer": "Nadine",
+      "options": [
+        "Nadine",
+        "Simone",
+        "Josephine",
+        "Claudine"
+      ],
+      "explanation": "Si on se réfère aux indications données au lieutenant Hicox avant sa mission, elle se situerait dans le département de l'Oise.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-243",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_243.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-243-22",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Pour quelle organisation Gerry Lane travaille-t-il dans le film « World War Z » ?",
+      "answer": "ONU",
+      "options": [
+        "FBI",
+        "UNICEF",
+        "CIA",
+        "ONU"
+      ],
+      "explanation": "Avec plus de 540 millions de dollars de recettes mondiales, il s'agit du film de zombies le plus rentable de tous les temps.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-243",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_243.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-243-23",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel film avec Brad Pitt s'est vu interdit d'entrée en Chine à sa sortie ?",
+      "answer": "Sept ans au Tibet",
+      "options": [
+        "Seven",
+        "Fight Club",
+        "Sleepers",
+        "Sept ans au Tibet"
+      ],
+      "explanation": "La fidélité du film par rapport aux événements historiques est contestée par Gary Wilson, journaliste du Workers World.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-243",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_243.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-243-24",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle société de production américaine a été co-fondée par Brad Pitt ?",
+      "answer": "Plan B",
+      "options": [
+        "Seven Production",
+        "Plan B",
+        "Brandjoly Max",
+        "Fox Entertaintment"
+      ],
+      "explanation": "À ce jour, la société de production a produit une série de films à succès, y compris « Troie », « Charlie et la chocolaterie » et « Les Infiltrés ».",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-243",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_243.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-243-25",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Pour quel film Brad Pitt a-t-il reçu un Teen Choice Awards en 2004 ?",
+      "answer": "Troie",
+      "options": [
+        "Ocean's Eleven",
+        "Le Mexicain",
+        "Troie",
+        "Babel"
+      ],
+      "explanation": "Une version longue du film (30 minutes de plus) a coûté un million de dollars supplémentaire au budget initial de 150 millions.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-243",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_243.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-243-26",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Lequel de ces acteurs ne joue pas aux côtés de Brad Pitt dans le film « Cartel » ?",
+      "answer": "Morgan Freeman",
+      "options": [
+        "Morgan Freeman",
+        "Dean Norris",
+        "Javier Bardem",
+        "Michael Fassbender"
+      ],
+      "explanation": "Le film « Cartel » est dédié à la mémoire de Tony Scott, le frère du réalisateur Ridley Scott, décédé durant le tournage du film.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-243",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_243.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-243-27",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "De quelle blessure souffrait Brad Pitt sur le tournage du film « Troie » ?",
+      "answer": "Talon d'Achille",
+      "options": [
+        "Talon d'Achille",
+        "Épaule droite",
+        "Jambe gauche",
+        "Nez"
+      ],
+      "explanation": "Le film « Troie » est librement adapté des poèmes épiques du cycle troyen, principalement de l'« Iliade » d'Homère.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-243",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_243.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-243-28",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "En quelle année est sorti le livre qui inspira le film « Entretien avec un vampire » ?",
+      "answer": "1976",
+      "options": [
+        "1982",
+        "1947",
+        "1964",
+        "1976"
+      ],
+      "explanation": "Dans ce livre écrit par Anne Rice, un vampire fait le récit de sa vie à un journaliste dans La Nouvelle-Orléans des années 1980.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-243",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_243.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-243-29",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quel film, réalisé par Angelina Jolie et sorti en 2015, Brad Pitt a-t-il joué ?",
+      "answer": "Vue sur mer",
+      "options": [
+        "Du sang et du miel",
+        "Vue sur mer",
+        "Loversick",
+        "Invincible"
+      ],
+      "explanation": "L'hôtel, le bar et le magasin visibles dans le film ont été construits pour les cinq mois de tournage, et ont été depuis démontés.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-243",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_243.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-243-30",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Où Louis et Claudia rencontrent-ils Armand dans « Entretien avec un vampire » ?",
+      "answer": "Paris",
+      "options": [
+        "Séville",
+        "Rome",
+        "Paris",
+        "Berlin"
+      ],
+      "explanation": "River Phoenix aurait dû jouer le rôle de l'interviewer, mais il est décédé peu de temps avant le début du tournage.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-243",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_243.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

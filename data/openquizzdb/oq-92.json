@@ -1,0 +1,749 @@
+{
+  "id": "oq-92",
+  "title": "Petits secrets du cinéma",
+  "originalTitle": "Petits secrets du cinéma",
+  "universe": "film",
+  "emoji": "🎬",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_92.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    23,
+    26
+  ],
+  "questions": [
+    {
+      "id": "oqdb-92-1",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Combien Marilyn Monroe a-t-elle eu de maris en regard à son immense notoriété ?",
+      "answer": "Trois",
+      "options": [
+        "Trois",
+        "Deux",
+        "Quatre",
+        "Cinq"
+      ],
+      "explanation": "En dépit de son immense notoriété, la vie privée de Marilyn Monroe sera un échec et sa carrière la laisse insatisfaite.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-92",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_92.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-92-2",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "De quelle grande ville de Californie Hollywood est-elle l'une des banlieues ?",
+      "answer": "Los Angeles",
+      "options": [
+        "Santa Barbara",
+        "Los Angeles",
+        "San Francisco",
+        "San Diego"
+      ],
+      "explanation": "Ville cosmopolite, Los Angeles demeure l'un des points d'entrée d'immigrants les plus importants aux États-Unis.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-92",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_92.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-92-3",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quel film de John Huston le chien d'une orpheline sauve-t-il un milliardaire ?",
+      "answer": "Annie",
+      "options": [
+        "Phobia",
+        "Annie",
+        "Le Piège",
+        "Le Malin"
+      ],
+      "explanation": "Titulaire de sept Tony Awards et forte de 2 377 représentations, la comédie musicale 'Annie' se devait d'être adaptée au cinéma.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-92",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_92.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-92-4",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Par quel animal la Metro-Goldwyn-Mayer s'annonce-t-elle au début des films qu'elle produit ?",
+      "answer": "Un lion rugissant",
+      "options": [
+        "Un loup hurlant",
+        "Un tigre blanc",
+        "Un lion rugissant",
+        "Un chien bondissant"
+      ],
+      "explanation": "En septembre 2009, le studio était au bord de la faillite avec un besoin de vingt millions de dollars.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-92",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_92.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-92-5",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Au cinéma, par quel nom désigne-t-on un acteur de complément qui ne parle pas ?",
+      "answer": "Un figurant",
+      "options": [
+        "Un doubleur",
+        "Un technicien",
+        "Un cadreur",
+        "Un figurant"
+      ],
+      "explanation": "De nombreuses anecdotes circulent sur des gags survenus sur scène à cause du manque de répétition de la figuration.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-92",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_92.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-92-6",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Au cinéma, quel acteur et directeur de théâtre français est surnommé « Bébel » ?",
+      "answer": "Jean-Paul Belmondo",
+      "options": [
+        "Claude Brasseur",
+        "Jean-Paul Belmondo",
+        "Michel Bouquet",
+        "Richard Bohringer"
+      ],
+      "explanation": "Le 9 février 2015, Jean-Paul Belmondo a annoncé sur RTL sa retraite définitive du cinéma et du théâtre.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-92",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_92.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-92-7",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Au cinéma, comment qualifie-t-on un flou donnant une ambiance particulièrement poétique ?",
+      "answer": "Artistique",
+      "options": [
+        "Dynamique",
+        "Artistique",
+        "Mécanique",
+        "Concentrique"
+      ],
+      "explanation": "Par extension, on parle de flou artistique, dans un sens très souvent péjoratif, pour qualifier une opération visant à brouiller la lisibilité.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-92",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_92.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-92-8",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Comment appelle-t-on les robots autonomes dans 'La guerre des étoiles' ?",
+      "answer": "Les droïdes",
+      "options": [
+        "Les hubos",
+        "Les cogs",
+        "Les gynoïdes",
+        "Les droïdes"
+      ],
+      "explanation": "Aux États-Unis, le 7 septembre 1985, le dessin animé 'Droïdes' a été diffusé sur la chaîne ABC.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-92",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_92.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-92-9",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel genre utilise le suspense pour provoquer chez le spectateur une excitation ou une appréhension ?",
+      "answer": "Thriller",
+      "options": [
+        "Thriller",
+        "Western",
+        "Aventure",
+        "Drame"
+      ],
+      "explanation": "Au cinéma, le réalisateur Alfred Hitchcock est considéré comme le maître du suspense et du thriller.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-92",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_92.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-92-10",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Comment appelle-t-on la recherche des lieux destinés au tournage d'un film ?",
+      "answer": "Le repérage",
+      "options": [
+        "Le montage",
+        "Le repérage",
+        "Le casting",
+        "Le storyboard"
+      ],
+      "explanation": "Cette recherche peut être effectuée par le réalisateur, par ses assistants, ou par des membres de l'équipe de production.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-92",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_92.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-92-11",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "De quelle comédienne française Françoise Dorléac était-elle la sœur ?",
+      "answer": "Catherine Deneuve",
+      "options": [
+        "Juliette Binoche",
+        "Isabelle Huppert",
+        "Catherine Deneuve",
+        "Isabelle Adjani"
+      ],
+      "explanation": "Françoise Dorléac est morte brûlée vive dans un incendie de la voiture sur une bretelle de Villeneuve-Loubet.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-92",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_92.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-92-12",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle est la couleur des yeux d'Anthony Delon, fils d'Alain et de Nathalie Delon ?",
+      "answer": "Verte",
+      "options": [
+        "Bleue",
+        "Brune",
+        "Noire",
+        "Verte"
+      ],
+      "explanation": "Anthony Delon a reconnu avoir eu une fille naturelle, Alyson Le Borges, avec une danseuse du Crazy Horse, Marie-Hélène.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-92",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_92.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-92-13",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quel film voit-on Dustin Hoffman vieillir jusqu'à devenir plus que centenaire ?",
+      "answer": "Little Big Man",
+      "options": [
+        "Le Récidiviste",
+        "Lenny",
+        "Papillon",
+        "Little Big Man"
+      ],
+      "explanation": "Dan George fut sélectionné aux Oscars en 1971 ainsi qu'aux Golden Globes, dans la catégorie du meilleur second rôle masculin.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-92",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_92.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-92-14",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Lors de quel festival international de cinéma remet-on un ours d'or ?",
+      "answer": "Berlin",
+      "options": [
+        "Montréal",
+        "Berlin",
+        "Cannes",
+        "Venise"
+      ],
+      "explanation": "Avec ceux de Cannes en mai et de Venise en septembre, il est l'un des trois principaux festivals de cinéma internationaux.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-92",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_92.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-92-15",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel fut le premier métier de Stan Laurel ayant formé le célèbre duo comique Laurel et Hardy ?",
+      "answer": "Clown",
+      "options": [
+        "Clown",
+        "Dentiste",
+        "Banquier",
+        "Avocat"
+      ],
+      "explanation": "Il reçoit en 1961 un Oscar d'honneur pour s'être frayé un chemin créateur dans le domaine de la comédie au cinéma.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-92",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_92.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-92-16",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le prénom de Sophie Marceau dans 'La Boum' de Claude Pinoteau ?",
+      "answer": "Victoire",
+      "options": [
+        "Victoire",
+        "Vanessa",
+        "Pénélope",
+        "Joëlle"
+      ],
+      "explanation": "Le rôle de François Beretton, interprété par Claude Brasseur, a été à l'origine proposé à Francis Perrin qui a refusé.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-92",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_92.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-92-17",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quel film de Lelouch Charles Denner et Jacques Villeret portent-ils le même prénom ?",
+      "answer": "Robert et Robert",
+      "options": [
+        "Robert et Robert",
+        "Viva la vie",
+        "Attention bandits !",
+        "À nous deux"
+      ],
+      "explanation": "En 1979, Jacques Villeret a reçu pour ce film le César du meilleur acteur dans un second rôle.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-92",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_92.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-92-18",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quel film l'acteur Jeff Bridges est-il transporté dans une micro-civilisation ?",
+      "answer": "Tron",
+      "options": [
+        "Tron",
+        "Tucker",
+        "Starman",
+        "Blown Away"
+      ],
+      "explanation": "'Tron' est le premier à utiliser l'imagerie informatique de manière intensive pour concevoir un monde virtuel.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-92",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_92.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-92-19",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle créature est l'héroïne du film 'Splash' de Ron Howard ?",
+      "answer": "Une sirène",
+      "options": [
+        "Une sirène",
+        "Une méduse",
+        "Une tortue",
+        "Une pieuvre"
+      ],
+      "explanation": "'Splash' a mis au goût du jour le prénom Madison aux États-Unis, passant de la 216e place en 1990 à la 3e place en 2000.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-92",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_92.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-92-20",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle orpheline de roman suisse est passée au cinéma puis au dessin animé télévisé ?",
+      "answer": "Heidi",
+      "options": [
+        "Tina",
+        "Corinne",
+        "Suzy",
+        "Heidi"
+      ],
+      "explanation": "Le roman 'Heidi' fait partie des plus célèbres récits de la littérature d'enfance et de jeunesse.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-92",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_92.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-92-21",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "De quel pays Omar Sharif, mort au Caire le 10 juillet 2015 à l'âge de 83 ans, était-il originaire ?",
+      "answer": "Égypte",
+      "options": [
+        "Tunisie",
+        "Égypte",
+        "Lybie",
+        "Maroc"
+      ],
+      "explanation": "Omar Sharif était un des joueurs de bridge les plus célèbres du monde et a d'ailleurs écrit un livre sur le sujet.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-92",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_92.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-92-22",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle ravissante actrice italienne se rasa les cheveux dans 'La fille de Trieste' ?",
+      "answer": "Ornella Muti",
+      "options": [
+        "Claudia Cardinale",
+        "Ornella Muti",
+        "Monica Bellucci",
+        "Gina Lollobrigida"
+      ],
+      "explanation": "Par sa fille Naike Rivelli, Ornella Muti est grand-mère d'un petit garçon né en 1996, et prénommé Akash.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-92",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_92.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-92-24",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle comédienne américaine a créé une nouvelle forme de gymnastique ?",
+      "answer": "Jane Fonda",
+      "options": [
+        "Diane Keaton",
+        "Jane Fonda",
+        "Faye Dunaway",
+        "Sally Field"
+      ],
+      "explanation": "Bien que parlant parfaitement français, Jane Fonda a été doublée à plusieurs reprises en France.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-92",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_92.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-92-25",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le sous-titre du film d'épouvante américain 'Amityville' ?",
+      "answer": "La maison du diable",
+      "options": [
+        "Il est de retour",
+        "La ville interdite",
+        "La maison du diable",
+        "Cité hantée"
+      ],
+      "explanation": "La musique du film est composée par Lalo Schifrin et interprétée par Orchestre philharmonique tchèque.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-92",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_92.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-92-27",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Combien de personnes votent pour l'attribution des Oscars du cinéma américain ?",
+      "answer": "4 000",
+      "options": [
+        "2 000",
+        "4 000",
+        "1 000",
+        "3 000"
+      ],
+      "explanation": "Les 'Academy Awards' sont les plus anciennes récompenses dans le domaine des médias et du spectacle.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-92",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_92.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-92-28",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel pays le film humoristique 'Les Dieux sont tombés sur la tête' a-t-il permis de faire connaître ?",
+      "answer": "Le Botswana",
+      "options": [
+        "La Zambie",
+        "Le Gabon",
+        "Le Botswana",
+        "Le Rwanda"
+      ],
+      "explanation": "Le film a connu un succès considérable dans le monde et en France, rendant le réalisateur et son interprète célèbres.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-92",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_92.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-92-29",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Grâce à quel jeu David empêche-t-il une guerre nucléaire dans le film 'Wargames' ?",
+      "answer": "Morpion",
+      "options": [
+        "Tic-tac-toe",
+        "Morpion",
+        "Mastermind",
+        "Hex"
+      ],
+      "explanation": "'Wargames' est le tout premier à faire référence à un pare-feu informatique (firewall).",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-92",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_92.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-92-30",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Combien de temps le tournage du film 'E.T.' de Steven Spielberg a-t-il duré ?",
+      "answer": "Six mois",
+      "options": [
+        "Trois ans",
+        "Un an",
+        "Six mois",
+        "Deux ans"
+      ],
+      "explanation": "En France, le film a été diffusé pour la première fois à la télévision le 12 avril 19912 sur Canal+.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-92",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_92.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1066 @@
+{
+  "date": "2026-11-01",
+  "sourceCommit": "a16819964d171e40e6652368fc562f3bd27d0c5b",
+  "sourceJsonFiles": 290,
+  "sourceQuestions": 7920,
+  "addedQuestions": 5249,
+  "addedPacks": 180,
+  "invalidJsonFiles": [
+    "openquizzdb_1.json",
+    "openquizzdb_2.json",
+    "openquizzdb_4.json",
+    "openquizzdb_5.json",
+    "openquizzdb_6.json",
+    "openquizzdb_7.json",
+    "openquizzdb_10.json",
+    "openquizzdb_11.json",
+    "openquizzdb_12.json",
+    "openquizzdb_13.json",
+    "openquizzdb_15.json",
+    "openquizzdb_16.json",
+    "openquizzdb_17.json",
+    "openquizzdb_19.json",
+    "openquizzdb_20.json",
+    "openquizzdb_21.json",
+    "openquizzdb_27.json",
+    "openquizzdb_40.json",
+    "openquizzdb_54.json",
+    "openquizzdb_75.json",
+    "openquizzdb_91.json",
+    "openquizzdb_107.json",
+    "openquizzdb_118.json",
+    "openquizzdb_147.json",
+    "openquizzdb_156.json",
+    "openquizzdb_169.json"
+  ],
+  "excludedPacks": [
+    {
+      "id": 42,
+      "title": "Potins de stars 2014",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 43,
+      "title": "Belles du cinéma",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 58,
+      "title": "Les cheveux",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 64,
+      "title": "Actu people : août 2015",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 74,
+      "title": "Actu people : février 2015",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 76,
+      "title": "Actu people : janvier 2015",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 83,
+      "title": "Actu people : septembre 2015",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 106,
+      "title": "Jenna Jameson",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 110,
+      "title": "Clara Morgane",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 131,
+      "title": "Donald Trump",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 137,
+      "title": "Actu people : février 2017",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 141,
+      "title": "Actu people : janvier 2017",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 146,
+      "title": "Actu people : mars 2017",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 148,
+      "title": "Actu people : avril 2017",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 149,
+      "title": "Actu people : mai 2017",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 152,
+      "title": "Actu people : juin 2017",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 162,
+      "title": "Playboy",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 164,
+      "title": "Santé et bien-être",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 167,
+      "title": "Beaux gosses",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 170,
+      "title": "Actu people : août 2017",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 171,
+      "title": "Actu people : septembre 2017",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 172,
+      "title": "Faits de société",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 175,
+      "title": "Animaux en chiffres",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 178,
+      "title": "Actu people : octobre 2017",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 179,
+      "title": "Stades de Ligue 1",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 198,
+      "title": "Actu people : janvier 2018",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 199,
+      "title": "Volcans en activité",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 206,
+      "title": "Magnésium",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 210,
+      "title": "Actu people : février 2018",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 215,
+      "title": "Actu people : mars 2018",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 218,
+      "title": "Actu people : avril 2018",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 222,
+      "title": "Actu people : mai 2018",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 223,
+      "title": "Crypto-monnaies",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 225,
+      "title": "Meghan Markle",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 229,
+      "title": "Wags",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 230,
+      "title": "Actu people : juin 2018",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 235,
+      "title": "Traci Lords",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 239,
+      "title": "Instagram",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 242,
+      "title": "Actu people : juillet 2018",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 246,
+      "title": "Mystères du monde",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 248,
+      "title": "Pamela Anderson",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 252,
+      "title": "Actu people : août 2018",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 258,
+      "title": "Actu people : septembre 2018",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 270,
+      "title": "Jean-Marie Bigard",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 271,
+      "title": "Actu people : octobre 2018",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 365,
+      "title": "Microsoft",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 393,
+      "title": "COVID-19",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 403,
+      "title": "iPhone",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 429,
+      "title": "People : février 2021",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 434,
+      "title": "People : mars 2021",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 441,
+      "title": "People : avril 2021",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 452,
+      "title": "People : mai 2021",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 463,
+      "title": "People : juin 2021",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    },
+    {
+      "id": 541,
+      "title": "La menace Omicron",
+      "reason": "actualité, santé, contenu adulte ou thème hors sélection"
+    }
+  ],
+  "excludedQuestions": [
+    {
+      "pack": 18,
+      "id": 16,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 23,
+      "id": 21,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 23,
+      "id": 22,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 24,
+      "id": 14,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 25,
+      "id": 11,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 29,
+      "id": 12,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 31,
+      "id": 15,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 31,
+      "id": 25,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 32,
+      "id": 18,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 34,
+      "id": 28,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 36,
+      "id": 10,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 36,
+      "id": 20,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 37,
+      "id": 19,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 37,
+      "id": 26,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 44,
+      "id": 12,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 44,
+      "id": 22,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 45,
+      "id": 25,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 53,
+      "id": 27,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 55,
+      "id": 1,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 61,
+      "id": 2,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 65,
+      "id": 16,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 66,
+      "id": 11,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 66,
+      "id": 16,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 69,
+      "id": 3,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 69,
+      "id": 16,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 69,
+      "id": 19,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 69,
+      "id": 28,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 72,
+      "id": 8,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 73,
+      "id": 10,
+      "reason": "question déjà présente"
+    },
+    {
+      "pack": 73,
+      "id": 29,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 79,
+      "id": 29,
+      "reason": "question déjà présente"
+    },
+    {
+      "pack": 81,
+      "id": 22,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 82,
+      "id": 25,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 84,
+      "id": 6,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 84,
+      "id": 18,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 84,
+      "id": 29,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 85,
+      "id": 8,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 88,
+      "id": 3,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 89,
+      "id": 21,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 92,
+      "id": 23,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 92,
+      "id": 26,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 101,
+      "id": 21,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 103,
+      "id": 1,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 104,
+      "id": 10,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 104,
+      "id": 20,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 109,
+      "id": 10,
+      "reason": "question déjà présente"
+    },
+    {
+      "pack": 109,
+      "id": 11,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 117,
+      "id": 18,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 119,
+      "id": 13,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 119,
+      "id": 15,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 119,
+      "id": 21,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 119,
+      "id": 25,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 121,
+      "id": 9,
+      "reason": "question déjà présente"
+    },
+    {
+      "pack": 121,
+      "id": 19,
+      "reason": "question déjà présente"
+    },
+    {
+      "pack": 121,
+      "id": 20,
+      "reason": "question déjà présente"
+    },
+    {
+      "pack": 125,
+      "id": 19,
+      "reason": "question déjà présente"
+    },
+    {
+      "pack": 129,
+      "id": 12,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 130,
+      "id": 17,
+      "reason": "question déjà présente"
+    },
+    {
+      "pack": 130,
+      "id": 26,
+      "reason": "question déjà présente"
+    },
+    {
+      "pack": 133,
+      "id": 25,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 135,
+      "id": 19,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 135,
+      "id": 22,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 138,
+      "id": 23,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 138,
+      "id": 29,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 142,
+      "id": 11,
+      "reason": "question déjà présente"
+    },
+    {
+      "pack": 142,
+      "id": 22,
+      "reason": "question déjà présente"
+    },
+    {
+      "pack": 142,
+      "id": 30,
+      "reason": "question déjà présente"
+    },
+    {
+      "pack": 143,
+      "id": 13,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 143,
+      "id": 14,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 144,
+      "id": 10,
+      "reason": "format QCM invalide"
+    },
+    {
+      "pack": 144,
+      "id": 12,
+      "reason": "question déjà présente"
+    },
+    {
+      "pack": 151,
+      "id": 3,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 153,
+      "id": 19,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 154,
+      "id": 3,
+      "reason": "question déjà présente"
+    },
+    {
+      "pack": 154,
+      "id": 7,
+      "reason": "question déjà présente"
+    },
+    {
+      "pack": 154,
+      "id": 16,
+      "reason": "question déjà présente"
+    },
+    {
+      "pack": 155,
+      "id": 3,
+      "reason": "question déjà présente"
+    },
+    {
+      "pack": 157,
+      "id": 23,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 158,
+      "id": 6,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 160,
+      "id": 18,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 161,
+      "id": 1,
+      "reason": "question déjà présente"
+    },
+    {
+      "pack": 165,
+      "id": 23,
+      "reason": "question déjà présente"
+    },
+    {
+      "pack": 168,
+      "id": 1,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 173,
+      "id": 22,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 176,
+      "id": 21,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 180,
+      "id": 12,
+      "reason": "question déjà présente"
+    },
+    {
+      "pack": 180,
+      "id": 19,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 180,
+      "id": 25,
+      "reason": "question déjà présente"
+    },
+    {
+      "pack": 180,
+      "id": 27,
+      "reason": "question déjà présente"
+    },
+    {
+      "pack": 181,
+      "id": 7,
+      "reason": "question déjà présente"
+    },
+    {
+      "pack": 181,
+      "id": 19,
+      "reason": "question déjà présente"
+    },
+    {
+      "pack": 183,
+      "id": 9,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 184,
+      "id": 24,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 186,
+      "id": 27,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 190,
+      "id": 10,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 194,
+      "id": 19,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 195,
+      "id": 2,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 195,
+      "id": 7,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 195,
+      "id": 14,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 195,
+      "id": 19,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 196,
+      "id": 26,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 197,
+      "id": 2,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 197,
+      "id": 20,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 203,
+      "id": 26,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 204,
+      "id": 12,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 204,
+      "id": 13,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 205,
+      "id": 13,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 209,
+      "id": 2,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 217,
+      "id": 6,
+      "reason": "question déjà présente"
+    },
+    {
+      "pack": 220,
+      "id": 5,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 224,
+      "id": 22,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 224,
+      "id": 24,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 224,
+      "id": 29,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 237,
+      "id": 10,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 238,
+      "id": 2,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 238,
+      "id": 9,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 243,
+      "id": 14,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 245,
+      "id": 18,
+      "reason": "format QCM invalide"
+    },
+    {
+      "pack": 247,
+      "id": 20,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 249,
+      "id": 16,
+      "reason": "format QCM invalide"
+    },
+    {
+      "pack": 250,
+      "id": 5,
+      "reason": "question déjà présente"
+    },
+    {
+      "pack": 250,
+      "id": 14,
+      "reason": "question déjà présente"
+    },
+    {
+      "pack": 250,
+      "id": 16,
+      "reason": "question déjà présente"
+    },
+    {
+      "pack": 250,
+      "id": 19,
+      "reason": "question déjà présente"
+    },
+    {
+      "pack": 250,
+      "id": 20,
+      "reason": "question déjà présente"
+    },
+    {
+      "pack": 250,
+      "id": 21,
+      "reason": "question déjà présente"
+    },
+    {
+      "pack": 250,
+      "id": 22,
+      "reason": "question déjà présente"
+    },
+    {
+      "pack": 250,
+      "id": 25,
+      "reason": "question déjà présente"
+    },
+    {
+      "pack": 250,
+      "id": 26,
+      "reason": "question déjà présente"
+    },
+    {
+      "pack": 250,
+      "id": 27,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 250,
+      "id": 28,
+      "reason": "question déjà présente"
+    },
+    {
+      "pack": 250,
+      "id": 29,
+      "reason": "question déjà présente"
+    },
+    {
+      "pack": 250,
+      "id": 30,
+      "reason": "question déjà présente"
+    },
+    {
+      "pack": 256,
+      "id": 2,
+      "reason": "question déjà présente"
+    },
+    {
+      "pack": 256,
+      "id": 4,
+      "reason": "question déjà présente"
+    },
+    {
+      "pack": 256,
+      "id": 19,
+      "reason": "question déjà présente"
+    },
+    {
+      "pack": 257,
+      "id": 15,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 259,
+      "id": 18,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 260,
+      "id": 14,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 262,
+      "id": 8,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 262,
+      "id": 12,
+      "reason": "format QCM invalide"
+    },
+    {
+      "pack": 264,
+      "id": 14,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 266,
+      "id": 10,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 272,
+      "id": 2,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 272,
+      "id": 7,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 383,
+      "id": 13,
+      "reason": "question déjà présente"
+    },
+    {
+      "pack": 383,
+      "id": 18,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 405,
+      "id": 1,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 413,
+      "id": 4,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 413,
+      "id": 16,
+      "reason": "formulation dépendante du temps ou mal formée"
+    },
+    {
+      "pack": 457,
+      "id": 20,
+      "reason": "format QCM invalide"
+    }
+  ],
+  "deduplicated": 41
+}

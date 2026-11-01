@@ -1,0 +1,798 @@
+{
+  "id": "oq-68",
+  "title": "Ponts tout en longueur",
+  "originalTitle": "Ponts tout en longueur",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_68.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-68-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville peut-on admirer le très touristique pont des Soupirs ?",
+      "answer": "Venise",
+      "options": [
+        "Prague",
+        "Londres",
+        "Avignon",
+        "Venise"
+      ],
+      "explanation": "Le pont des Soupirs, suggérant le soupir des prisonniers, est l'un des lieux touristiques les plus célèbres de Venise.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-68",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_68.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-68-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville américaine se dresse le Golden Gate Bridge ?",
+      "answer": "San Francisco",
+      "options": [
+        "San Diego",
+        "San Francisco",
+        "New York",
+        "Los Angeles"
+      ],
+      "explanation": "Le « Golden Gate Bridge » a été jusqu'en 1964 le pont suspendu le plus long du monde.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-68",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_68.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-68-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle rivière aux crues redoutables est enjambée par le pont du Gard ?",
+      "answer": "Le Gardon",
+      "options": [
+        "Le Rhône",
+        "La Bièvre",
+        "Le Gardon",
+        "La Garonne"
+      ],
+      "explanation": "Le pont du Gard est un pont-aqueduc romain à trois niveaux, situé à Vers-Pont-du-Gard entre Uzès et Nîmes, qui enjambe le Gardon.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-68",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_68.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-68-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel grand pont français est proche du pont de Normandie ?",
+      "answer": "Le pont de Tancarville",
+      "options": [
+        "le pont Mathilde",
+        "Le pont de Tancarville",
+        "Le pont de Gaillon",
+        "Le pont de Rangiport"
+      ],
+      "explanation": "Le pont de Tancarville a été un temps le pont le plus proche de l'estuaire.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-68",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_68.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-68-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel pont basculant construit sur la Tamise se situe près de la tour de Londres ?",
+      "answer": "Tower Bridge",
+      "options": [
+        "Westminster Bridge",
+        "Waterloo Bridge",
+        "Tower Bridge",
+        "Chelsea Bridge"
+      ],
+      "explanation": "Au moment de sa construction, il était le plus grand pont basculant jamais construit.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-68",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_68.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-68-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel pont routier à haubans enjambe l'estuaire de la Seine près de Honfleur ?",
+      "answer": "Normandie",
+      "options": [
+        "Tancarville",
+        "Brotonne",
+        "Rouen",
+        "Normandie"
+      ],
+      "explanation": "En 1994, la portée principale de l’ouvrage bat de plus de 250 m le précédent record du monde (1993).",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-68",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_68.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-68-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est, malgré son nom, le plus ancien pont de Paris ?",
+      "answer": "Pont Neuf",
+      "options": [
+        "Pont du Roi",
+        "Pont du Diable",
+        "Pont Marie",
+        "Pont Neuf"
+      ],
+      "explanation": "Toujours intact, le pont Neuf est classé monument historique depuis 1889.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-68",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_68.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-68-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Selon Guillaume Apollinaire, sous quel pont coule la Seine ?",
+      "answer": "Mirabeau",
+      "options": [
+        "Neuf",
+        "Royal",
+        "Mirabeau",
+        "Marie"
+      ],
+      "explanation": "'Le pont Mirabeau' est un poème d'Apollinaire paru dans le recueil 'Alcools'.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-68",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_68.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-68-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Depuis 1959, quel pont suspendu de 1 410 mètres peut-on emprunter vers Le Havre ?",
+      "answer": "Tancarville",
+      "options": [
+        "Poissy",
+        "Tancarville",
+        "Brotonne",
+        "Neuilly"
+      ],
+      "explanation": "Jusqu'à l'ouverture du pont de Normandie, il a été le pont le plus proche de l'estuaire.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-68",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_68.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-68-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel pont à haubans traverse la vallée du Tarn en France ?",
+      "answer": "Viaduc de Millau",
+      "options": [
+        "Viaduc de Jaulny",
+        "Viaduc de Millau",
+        "Viaduc de Caroual",
+        "Viaduc de Garabit"
+      ],
+      "explanation": "Portant l’autoroute A75, le e viaduc de Millau fait la jonction entre le Causse Rouge et le Causse du Larzac.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-68",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_68.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-68-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel roi a inauguré le Pont Neuf, le plus ancien pont existant de Paris ?",
+      "answer": "Henri IV",
+      "options": [
+        "Jean II",
+        "Louis XIV",
+        "Charles X",
+        "Henri IV"
+      ],
+      "explanation": "Le Pont Neuf fait l'objet d'un classement au titre des monuments historiques depuis 1889.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-68",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_68.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-68-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel pont à la structure en béton de 2 142 mètres de long relie Le Havre à Honfleur ?",
+      "answer": "Pont de Normandie",
+      "options": [
+        "Viaduc de Gien",
+        "Pont du Morbihan",
+        "Pont de Normandie",
+        "Viaduc de Millau"
+      ],
+      "explanation": "Conçu pour laisser le passage aux navires qui remontent la Seine, ce pont est à péage, sauf pour les piétons, cyclistes, motocyclistes.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-68",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_68.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-68-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle grande ville se trouve le pont de Queensboro ?",
+      "answer": "New York",
+      "options": [
+        "Londres",
+        "New York",
+        "Melbourne",
+        "Miami"
+      ],
+      "explanation": "À sa construction, le pont était le plus long pont cantilever des États-Unis.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-68",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_68.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-68-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel pont de Montréal, enjambant le fleuve Saint-Laurent, a été inauguré en mai 1930 ?",
+      "answer": "Jacques-Cartier",
+      "options": [
+        "Victoria",
+        "Jacques-Cartier",
+        "Champlain",
+        "Mercier"
+      ],
+      "explanation": "Environ 35 millions de véhicules empruntent chaque année le pont Jacques-Cartier ouvert à la circulation le 14 mai 1930.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-68",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_68.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-68-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la hauteur du pont du Gard, qui aurait cessé d'être utilisé au début du VIe siècle ?",
+      "answer": "Environ 49 mètres",
+      "options": [
+        "Environ 69 mètres",
+        "Environ 49 mètres",
+        "Environ 39 mètres",
+        "Environ 59 mètres"
+      ],
+      "explanation": "Le pont du Gard est un pont-aqueduc à trois niveaux qui assurait la continuité de l'aqueduc romain qui conduisait l'eau d'Uzès à Nîmes.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-68",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_68.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-68-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Le pont de Westminster est un pont de fer constitué de combien d'arches ?",
+      "answer": "Sept",
+      "options": [
+        "Huit",
+        "Sept",
+        "Neuf",
+        "Six"
+      ],
+      "explanation": "Le pont actuel est le second sur cet emplacement et a remplacé un pont qui avait tendance à se balancer de façon alarmante.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-68",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_68.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-68-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quel pays la République de Singapour est-elle reliée par des ponts ?",
+      "answer": "Malaisie",
+      "options": [
+        "Thaïlande",
+        "Malaisie",
+        "Chine",
+        "Indonésie"
+      ],
+      "explanation": "Singapour est connue dans le monde entier et souvent montrée en exemple pour son extraordinaire réussite économique.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-68",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_68.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-68-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À Venise, quel célèbre pont relie le palais des Doges aux prisons ?",
+      "answer": "Le pont des Soupirs",
+      "options": [
+        "Le pont des Soupirs",
+        "Le pont des Lagunes",
+        "Le pont de la Liberté",
+        "Le pont du Rialto"
+      ],
+      "explanation": "Le nom du pont suggère le soupir exprimé par les prisonniers conduits devant les juges.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-68",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_68.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-68-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville le pont Vasco da Gama a-t-il été construit ?",
+      "answer": "Lisbonne",
+      "options": [
+        "Madrid",
+        "Barcelone",
+        "Turin",
+        "Lisbonne"
+      ],
+      "explanation": "Sa longueur hors-tout de plus de 17 km en fait le plus grand d'Europe.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-68",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_68.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-68-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien compte-t-on de ponts à Amsterdam, capitale du royaume des Pays-Bas ?",
+      "answer": "Environ 400",
+      "options": [
+        "Environ 200",
+        "Environ 400",
+        "Environ 800",
+        "Environ 600"
+      ],
+      "explanation": "Amsterdam est la plus grande ville de la province de Hollande septentrionale et l'un des principaux centres financiers d'Europe.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-68",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_68.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-68-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle ville italienne abrite le pont du Rialto, l'un des monuments les plus visités de la cité ?",
+      "answer": "Venise",
+      "options": [
+        "Venise",
+        "Florence",
+        "Naples",
+        "Turin"
+      ],
+      "explanation": "Le pont du Rialto est le plus ancien et certainement le plus célèbre des quatre ponts qui traversent le Grand Canal de Venise.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-68",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_68.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-68-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le plus haut pont suspendu du monde, d'une longueur totale de 3 911 mètres ?",
+      "answer": "Akashi-Kaikyo",
+      "options": [
+        "Rialto",
+        "Grand Belt",
+        "Golden Gate",
+        "Akashi-Kaikyo"
+      ],
+      "explanation": "Ce pont est le dernier élément d'un réseau qui relie les quatre îles principales du Japon : Honshu, Hokkaido, Kyushu et Shikoku.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-68",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_68.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-68-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel fleuve est traversé par le Pont des « Filles de Jacob », construit sur un site stratégique ?",
+      "answer": "Le Jourdain",
+      "options": [
+        "Le Tibre",
+        "Le Nil",
+        "Le Gange",
+        "Le Jourdain"
+      ],
+      "explanation": "Le site du pont des Filles de Jacob était le dernier gué au sud de la vallée de la Houla avant le passage du Jourdain.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-68",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_68.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-68-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel célèbre pont en arc métallique est situé dans la baie de Sydney ?",
+      "answer": "Le Harbour Bridge",
+      "options": [
+        "Le Mackinac Bridge",
+        "Le Harbour Bridge",
+        "Le Britannia Bridge",
+        "Le Pulteney Bridge"
+      ],
+      "explanation": "Le Harbour Bridge est le principal point de traversée de la baie de Sydney.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-68",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_68.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-68-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville se trouve le plus long pont-canal de France ?",
+      "answer": "Agen",
+      "options": [
+        "Arles",
+        "Albi",
+        "Agen",
+        "Avignon"
+      ],
+      "explanation": "Un pont-canal permet le passage de la navigation au-dessus d'une rivière, d'une route, d'une voie ferrée.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-68",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_68.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-68-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel pont du réseau routier permet de relier la ville de Venise à la terre ferme ?",
+      "answer": "Pont de la Liberté",
+      "options": [
+        "Pont des Soupirs",
+        "Pont de la Liberté",
+        "Pont des Lagunes",
+        "Pont du Rialto"
+      ],
+      "explanation": "Le pont fut rebaptisé ainsi en l'honneur de la libération contre les nazis et les fascistes.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-68",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_68.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-68-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel pays le pont de Tatara, long de 1 480 m, a-t-il été construit ?",
+      "answer": "Le Japon",
+      "options": [
+        "La Roumanie",
+        "Le Brésil",
+        "La Grèce",
+        "Le Japon"
+      ],
+      "explanation": "Le pont a détenu le record de portée pour les ponts à haubans de 1999 à 2008.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-68",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_68.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-68-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la longueur du pont maritime de Donghai, en Chine ?",
+      "answer": "32 500 m",
+      "options": [
+        "32 500 m",
+        "41 800 m",
+        "21 400 m",
+        "12 200 m"
+      ],
+      "explanation": "Le pont de Donghai était en 2005 le plus long pont maritime du monde.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-68",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_68.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-68-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville se trouve le pont Bac de Roda, premier pont conçu par Santiago Calatrava ?",
+      "answer": "Barcelone",
+      "options": [
+        "Lisbonne",
+        "Bilbao",
+        "Milan",
+        "Barcelone"
+      ],
+      "explanation": "Ce pont assure la liaison entre les districts de Sant Andreu et Sant Marti à Barcelone, dans la communauté autonome de Catalogne.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-68",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_68.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-68-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville peut-on contempler le pont Charles, incontournable pour les touristes ?",
+      "answer": "Prague",
+      "options": [
+        "Prague",
+        "Bombay",
+        "Agra",
+        "Berlin"
+      ],
+      "explanation": "Envahi de musiciens, d'artistes divers, de bonimenteurs et de camelots, son nom fait référence au roi Charles IV.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-68",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_68.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

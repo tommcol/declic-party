@@ -1,0 +1,774 @@
+{
+  "id": "oq-184",
+  "title": "Animaux en tout genre",
+  "originalTitle": "Animaux en tout genre (Les animaux sont les anges de cette terre)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_184.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    24
+  ],
+  "questions": [
+    {
+      "id": "oqdb-184-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Pourquoi les ours polaires se couchent-ils dans la neige lorsqu'ils courent ?",
+      "answer": "Se rafraîchir",
+      "options": [
+        "Manger",
+        "Dormir",
+        "Se rafraîchir",
+        "Se reposer"
+      ],
+      "explanation": "Les ours polaires peuvent rapidement avoir trop chaud sous leur fourrure très épaisse et leur couche de graisse isolante.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-184",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_184.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-184-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle partie du corps permet aux hippocampes de nager ?",
+      "answer": "Nageoire dorsale",
+      "options": [
+        "Queue",
+        "Tête",
+        "Nageoire dorsale",
+        "Nageoire ventrale"
+      ],
+      "explanation": "Malgré qu'ils soient des poissons, les hippocampes ne nagent que très lentement en effectuant des mouvements onduleux.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-184",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_184.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-184-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Pour quelle raison ne pouvons-nous pas entendre les cris de la chauve-souris ?",
+      "answer": "Trop aigu",
+      "options": [
+        "Trop grave",
+        "Trop fort",
+        "Trop faible",
+        "Trop aigu"
+      ],
+      "explanation": "Les chauves-souris émettent et reçoivent des ultrasons que notre oreille ne peux percevoir (max 20 000 hertz).",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-184",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_184.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-184-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quoi servait la coquille du tridacne géant dans de nombreuses églises ?",
+      "answer": "Bénitier",
+      "options": [
+        "Bénitier",
+        "Tronc",
+        "Chandelier",
+        "Corbeille à pain"
+      ],
+      "explanation": "Il y a 300 ans, les coquilles étaient considérées comme des objets précieux et servaient de bénitier à l'entrée des églises.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-184",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_184.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-184-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle lourde et pénible tâche incombe à la reine des fourmis ?",
+      "answer": "Pondre des œufs",
+      "options": [
+        "Chercher à manger",
+        "Pondre des œufs",
+        "Défendre le nid",
+        "Tuer les mâles"
+      ],
+      "explanation": "La reine est la seule fourmi du nid à pondre des œufs qui sont en réalité des larves écloses dont naîtront les futures fourmis.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-184",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_184.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-184-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qu'est-ce que les coccinelles aiment tout particulièrement manger ?",
+      "answer": "Pucerons",
+      "options": [
+        "Écorces",
+        "Pétales",
+        "Pucerons",
+        "Éxcréments"
+      ],
+      "explanation": "Considérées comme animaux utiles, on élève les coccinelles puis on les utilise pour combattre écologiquement les parasites.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-184",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_184.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-184-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Pour quelle raison les nécrophores se battent-ils entre eux ?",
+      "answer": "Des cadavres",
+      "options": [
+        "Des cadavres",
+        "Des femelles",
+        "Un territoire",
+        "De l'or"
+      ],
+      "explanation": "Un couple de nécrophores enterre un animal mort dans le sol et y pond ses œufs dont les larves sont nourries.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-184",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_184.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-184-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel type d'environnement un acarien a-t-il besoin pour vivre ?",
+      "answer": "Humide",
+      "options": [
+        "Humide",
+        "Ensoleillé",
+        "Sec",
+        "Gras"
+      ],
+      "explanation": "Sans les acariens, qui nichent dans nos matelas mais surtout dans les endroits humides, les forêts seraient submergées de feuilles mortes.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-184",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_184.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-184-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle partie du corps de la limace lui permet-elle de découper les plantes ?",
+      "answer": "Langue",
+      "options": [
+        "Bras",
+        "Dents",
+        "Langue",
+        "Palais"
+      ],
+      "explanation": "Telle une lime, la langue rêche de la limace râpe les plantes tendres en petits morceaux et dépouille ainsi les jeunes salades.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-184",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_184.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-184-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que montre le loup le plus faible après une lutte pour la hiérarchie ?",
+      "answer": "Son ventre",
+      "options": [
+        "Sa langue",
+        "Son ventre",
+        "Sa queue",
+        "Ses dents"
+      ],
+      "explanation": "Le loup inférieur n'est ainsi pas blessé mais devra à l'avenir se soumettre au mâle dominant, selon leur hiérarchie prononcée.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-184",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_184.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-184-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la cause de mortalité la plus fréquente chez les éléphants en liberté ?",
+      "answer": "Usure des dents",
+      "options": [
+        "Morsure de serpents",
+        "Usure des dents",
+        "Trompe cassée",
+        "Maladie"
+      ],
+      "explanation": "Lorsque la dernière molaire est usée par la mastication, l'éléphant ne peut plus de nourrir suffisamment et meurt tristement de faim.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-184",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_184.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-184-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Grâce à quelle partie de son corps la taupe s'oriente-t-elle sous terre ?",
+      "answer": "Vibrisses",
+      "options": [
+        "Yeux",
+        "Vibrisses",
+        "Museau",
+        "Oreilles"
+      ],
+      "explanation": "Les taupes s'orientent presque exclusivement en utilisant une sorte de moustaches et tâtent leur nourriture de cette manière.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-184",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_184.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-184-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À part le cheval, à quel autre animal le tapir est-il apparenté ?",
+      "answer": "Rhinocéros",
+      "options": [
+        "Hamster",
+        "Éléphant",
+        "Cochon",
+        "Rhinocéros"
+      ],
+      "explanation": "Les tapirs, de la famille des ongulés, utilisent leur trompe comme main et peuvent ainsi la rétracter lorsque celle-ci les gêne.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-184",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_184.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-184-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment les mille-pattes se protègent-ils de leurs prédateurs ?",
+      "answer": "Par leurs sécrétions",
+      "options": [
+        "En mordant",
+        "Par leurs sécrétions",
+        "En criant",
+        "Par camouflage"
+      ],
+      "explanation": "En cas de danger, les mille-pattes émettent une substance rouge caustique à l'odeur nauséabonde via des glandes sur leurs anneaux.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-184",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_184.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-184-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quels animaux volent souvent aux hyènes la proie qu'elles ont chassée ?",
+      "answer": "Lions",
+      "options": [
+        "Buffles",
+        "Guépards",
+        "Gnous",
+        "Lions"
+      ],
+      "explanation": "Les hyènes chassent généralement en meute d'environ quarante individus des animaux tels que les zèbres ou les gnous.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-184",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_184.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-184-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien pèse environ la plus petite espèce de musaraigne connue ?",
+      "answer": "2 grammes",
+      "options": [
+        "20 grammes",
+        "70 grammes",
+        "130 grammes",
+        "2 grammes"
+      ],
+      "explanation": "Notre musaraigne pygmée locale est, quant à elle, deux fois plus grande et plus lourde que ce pachyure étrusque.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-184",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_184.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-184-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle manière le lynx a-t-il l'habitude de marquer son territoire ?",
+      "answer": "Éraflures",
+      "options": [
+        "Poils",
+        "Excréments",
+        "Éraflures",
+        "Souris mortes"
+      ],
+      "explanation": "Outre des éraflures, les lynx utilisent parfois également leur urine comme marque odorante afin de délimiter leur domaine.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-184",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_184.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-184-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Taillé pour la course, jusqu'à quelle vitesse un guépard peut-il courir ?",
+      "answer": "120 km/h",
+      "options": [
+        "90 km/h",
+        "120 km/h",
+        "150 km/h",
+        "60 km/h"
+      ],
+      "explanation": "Le plus rapide des animaux ne peut maintenir cette vitesse que sur quelques centaines de mètres, laissant une chance aux gazelles.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-184",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_184.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-184-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment les cloportes se protègent-ils des attaques ?",
+      "answer": "En s'enroulant",
+      "options": [
+        "En s'enroulant",
+        "En s'enterrant",
+        "En s'envolant",
+        "En s'enfuyant"
+      ],
+      "explanation": "Le corps d'un cloporte, dans ce cas immobile, est composé de plusieurs anneaux solides qui rappellent une armure de chevalier.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-184",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_184.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-184-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel animal est le plus grand ennemi connu de la buse variable ?",
+      "answer": "Homme",
+      "options": [
+        "Aigle",
+        "Renard",
+        "Ours brun",
+        "Homme"
+      ],
+      "explanation": "De nombreuses buses sont écrasées par l'homme lorsqu'elles tentent de récupérer des cadavres d'animaux sur les autoroutes.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-184",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_184.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-184-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Après combien de temps un bébé tigre reçoit-il de la viande pour la première fois ?",
+      "answer": "Six mois",
+      "options": [
+        "Six ans",
+        "Un mois",
+        "Un an",
+        "Six mois"
+      ],
+      "explanation": "Au cours des six premiers mois, les bébés tigres qui ne connaissent pas leur père sont allaités par leur mère.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-184",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_184.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-184-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de litres de lait une vache performante produit-elle chaque jour ?",
+      "answer": "35 l",
+      "options": [
+        "35 l",
+        "5 l",
+        "15 l",
+        "25 l"
+      ],
+      "explanation": "Ces vaches fortement exploitées souffrent le plus souvent d'une inflammation des pis et nécessitent beaucoup de médicaments.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-184",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_184.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-184-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle fonction vitale le fennec peut-il étonnamment se passer ?",
+      "answer": "Boire",
+      "options": [
+        "Manger",
+        "Boire",
+        "Dormir",
+        "Voir"
+      ],
+      "explanation": "Le liquide que le fennec absorbe grâce à son alimentation lui suffit et est donc admirablement adapté à la vie dans le désert.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-184",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_184.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-184-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De manière générale, combien d'heures par jour un panda géant est-il occupé à manger ?",
+      "answer": "Seize",
+      "options": [
+        "Huit",
+        "Douze",
+        "Seize",
+        "Quatre"
+      ],
+      "explanation": "Le panda géant mange uniquement des jeunes pousses de bambou mais celles-ci ne sont toutefois pas très nourrissantes.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-184",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_184.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-184-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de temps un bébé morse est-il allaité par sa mère ?",
+      "answer": "18 mois",
+      "options": [
+        "1 an",
+        "1 mois",
+        "18 mois",
+        "6 mois"
+      ],
+      "explanation": "Après une période de 12 mois de gestation, le bébé morse pèse plus de 50 kg et sait déjà nager au bout de deux semaines seulement.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-184",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_184.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-184-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Pour quelle raison les martres tuent-elles parfois les poules ?",
+      "answer": "Sang",
+      "options": [
+        "Pattes",
+        "Cuisses",
+        "Sang",
+        "Foie"
+      ],
+      "explanation": "Les martres boivent uniquement le sang et laissent le reste, préférant manger des lapins, des œufs, des lézards ou des insectes.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-184",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_184.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-184-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quoi est constituée la sonnette du serpent à sonnette ?",
+      "answer": "Corne",
+      "options": [
+        "Corne",
+        "Bois",
+        "Pierres",
+        "Calcaire"
+      ],
+      "explanation": "Les six à dix anneaux de corne situés à l'extrémité de la queue du serpent à sonnette proviennent des mues précédentes.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-184",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_184.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-184-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Durant quelle saison de l'année peut-on entendre le hibou crier ?",
+      "answer": "Printemps",
+      "options": [
+        "Été",
+        "Automne",
+        "Printemps",
+        "Hiver"
+      ],
+      "explanation": "Le hibou mâle crie en avril et en mai pour attirer l'attention d'une femelle qui restera alors toute sa vie fidèlement à ses côtés.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-184",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_184.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-184-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De combien de piquants est composée la fourrure du hérisson mâle ?",
+      "answer": "16 000",
+      "options": [
+        "4 000",
+        "8 000",
+        "16 000",
+        "12 000"
+      ],
+      "explanation": "En cas de danger, le hérisson peut ainsi dresser ses nombreux piquants et s'enrouler sur lui-même pour se protéger des ennemis.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-184",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_184.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

@@ -1,0 +1,798 @@
+{
+  "id": "oq-231",
+  "title": "Mouscron",
+  "originalTitle": "Mouscron (La cité des Hurlus)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_231.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-231-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle province belge se situe la ville de Mouscron, près de la frontière française ?",
+      "answer": "Hainaut",
+      "options": [
+        "Liège",
+        "Namur",
+        "Hainaut",
+        "Limbourg"
+      ],
+      "explanation": "La ville de Mouscron fait non seulement partie du Hainaut Occidental, mais aussi de la région culturelle de la Flandre romane.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-231",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_231.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-231-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel personnage est devenu le symbole de la ville belge de Mouscron ?",
+      "answer": "Hurlu",
+      "options": [
+        "Chinel",
+        "Hurlu",
+        "Gille",
+        "Nuton"
+      ],
+      "explanation": "Le hurlu écumait les campagnes de la région lors des guerres de religion et vivait de vols et exactions en tous genres.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-231",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_231.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-231-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Pour quelle activité la ville de Mouscron a-t-elle occupé une place prépondérante ?",
+      "answer": "Textile",
+      "options": [
+        "Sidérurgique",
+        "Automobile",
+        "Ferroviaire",
+        "Textile"
+      ],
+      "explanation": "C'est vers 1890-1900 et entre les deux guerres que des patrons français y investirent et construisirent filatures et usines de tapis.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-231",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_231.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-231-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel bourgmestre de Mouscron fut retrouvé égorgé à l'entrée du cimetière de Luingne ?",
+      "answer": "Alfred Gadenne",
+      "options": [
+        "Henri Dubiez",
+        "Floris Mulliez",
+        "Robert Devos",
+        "Alfred Gadenne"
+      ],
+      "explanation": "Alfred Gadenne devint bourgmestre de Mouscron en décembre 2006, date à laquelle il succéda à Jean-Pierre Detremmerie.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-231",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_231.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-231-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel club de foot mouscronnois a officiellement disparu de la D1 le 28 décembre 2009 ?",
+      "answer": "Excelsior",
+      "options": [
+        "Châtelineau",
+        "Bosquetia",
+        "Olympic Club",
+        "Excelsior"
+      ],
+      "explanation": "Une réunion s'est tenue avec les joueurs et les employés. Les C4 furent délivrés avant la fin du mois, le 31 décembre.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-231",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_231.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-231-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel bâtiment de Mouscron marie très bien le bois et l'acier ?",
+      "answer": "Marius Staquet",
+      "options": [
+        "Émile Van Cutsem",
+        "Pierre Chesnot",
+        "Jean Targé",
+        "Marius Staquet"
+      ],
+      "explanation": "Il est composé principalement de trois lieux : le théâtre Raymond Devos, l'auditorium André Demeyère et l'espace Jacques Brel.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-231",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_231.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-231-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel sport Mouscron fut-il champion de Belgique à cinq reprises ?",
+      "answer": "Water-polo",
+      "options": [
+        "Tir à l'arc",
+        "Water-polo",
+        "Squash",
+        "Équitation"
+      ],
+      "explanation": "Le Royal Dauphins mouscronnois a en effet été champion de Belgique à cinq reprises et détenteur de trois coupes de Belgique.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-231",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_231.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-231-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle actrice montante du cinéma belge est née à Mouscron, en Belgique ?",
+      "answer": "Fantine Harduin",
+      "options": [
+        "Laurence Bibot",
+        "Kim Hertogs",
+        "Fantine Harduin",
+        "Jade Foret"
+      ],
+      "explanation": "Issue d'une famille d'artistes, Fantine fut très tôt initiée à la scène et a ainsi foulé les planches dès son plus jeune âge.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-231",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_231.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-231-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Au cours de quel mois célèbre-t-on la fête des Hurlus à Mouscron ?",
+      "answer": "Octobre",
+      "options": [
+        "Juin",
+        "Juillet",
+        "Octobre",
+        "Mai"
+      ],
+      "explanation": "La ville a connu un essor important au XIXe siècle et surtout au début du XXe siècle avec le développement de l'industrie textile.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-231",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_231.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-231-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces communes ne fait pas partie du Grand Mouscron ?",
+      "answer": "Estaimbourg",
+      "options": [
+        "Herseaux",
+        "Dottignies",
+        "Estaimbourg",
+        "Luingne"
+      ],
+      "explanation": "Estaimbourg est une section de la commune belge d'Estaimpuis, située en Région wallonne, dans la province de Hainaut.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-231",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_231.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-231-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de personnes environ résidaient à Mouscron en 2018 ?",
+      "answer": "60 000",
+      "options": [
+        "70 000",
+        "50 000",
+        "60 000",
+        "40 000"
+      ],
+      "explanation": "Mouscron était la ville la plus peuplée du Hainaut avant la fusion des communes en 1977, avec une densité de 1 443,14 habitants/km².",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-231",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_231.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-231-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel bourgmestre fut également président du Royal Excelsior Mouscron ?",
+      "answer": "Detremmerie",
+      "options": [
+        "Detremmerie",
+        "Dufermont",
+        "Van Daele",
+        "D'Haese"
+      ],
+      "explanation": "Début 2009, il est impliqué dans une affaire liée à la vente d'un immeuble de Mouscron. Son parti lui demandera de démissionner.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-231",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_231.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-231-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle église se trouve au nord-est de la Grand-Place de Mouscron ?",
+      "answer": "Saint-Barthélémy",
+      "options": [
+        "Saint-Julien",
+        "Saint-Maximilien",
+        "Saint-Denis",
+        "Saint-Barthélémy"
+      ],
+      "explanation": "L'intérieur renferme quatre monuments funéraires, une relique de Saint-Barthélémy et de grandes orgues au buffet millésimé 1766.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-231",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_231.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-231-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel lieu de la ville de Mouscron trouve-t-on une salle de danse et des bureaux ?",
+      "answer": "Maison Picarde",
+      "options": [
+        "Maison Picarde",
+        "Cité de l'Ours",
+        "Château du Biez",
+        "Ferme Balthazar"
+      ],
+      "explanation": "Les faïences peintes qui ornent la salle du premier étage ont été classées : elles représentent des scènes bucoliques d'édification.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-231",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_231.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-231-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sur combien de niveaux est construit le nouveau Centre administratif de Mouscron ?",
+      "answer": "Six",
+      "options": [
+        "Trois",
+        "Cinq",
+        "Quatre",
+        "Six"
+      ],
+      "explanation": "Son projet s'ébauche en 2011, et c'est cinq ans plus tard, le 23 juin 2016, qu'a lieu l'inauguration de l'édifice en forme d'ellipse.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-231",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_231.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-231-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Par quel cortège démarre début octobre à Mouscron la fête des Hurlus ?",
+      "answer": "Allumoirs",
+      "options": [
+        "Dortoirs",
+        "Grattoirs",
+        "Allumoirs",
+        "Laminoirs"
+      ],
+      "explanation": "On peut y entendre : « Vivent les allumoirs, ma mère, vivent les allumoirs. On les allume quand il fait noir, Vivent les allumoirs ! »",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-231",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_231.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-231-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel musée présente au grand public la vie quotidienne et le patrimoine Mouscronnois ?",
+      "answer": "Musée du folklore",
+      "options": [
+        "Musée du folklore",
+        "Musée du textile",
+        "Musée Gadenne",
+        "Musée des comtes"
+      ],
+      "explanation": "Le Musée propose également de nombreuses animations, des stages, des ateliers, des découvertes du patrimoine immatériel.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-231",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_231.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-231-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quoi a été reconvertie l'ancienne piscine communale de Mouscron ?",
+      "answer": "Musée",
+      "options": [
+        "Hôtel",
+        "Commerces",
+        "Musée",
+        "Garages"
+      ],
+      "explanation": "Son architecture claire et fonctionnelle est caractérisée par des lignes harmonieuses, des briques ocres et un lanterneau en verre.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-231",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_231.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-231-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a donné son seul concert en Belgique à Mouscron en 1967 ?",
+      "answer": "Jimmi Hendrix",
+      "options": [
+        "Jim Morrison",
+        "Fredo Santana",
+        "Jimmi Hendrix",
+        "Janis Joplin"
+      ],
+      "explanation": "C'est au Twenty (Relais de la Poste) que de nombreux groupes désormais célèbres se sont produits durant les sixties.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-231",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_231.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-231-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel centre d'entraînement mouscronnois comporte douze terrains de football ?",
+      "answer": "Futurosport",
+      "options": [
+        "Parc Jules Hossey",
+        "Centre Kasiers",
+        "Cercle Hurlu",
+        "Futurosport"
+      ],
+      "explanation": "Les autorités communales étudient la faisabilité de l'implantation d'éoliennes afin de satisfaire les besoins en éclairage nocturne.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-231",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_231.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-231-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En combien de quartiers la ville de Mouscron est-elle divisée ?",
+      "answer": "Sept",
+      "options": [
+        "Sept",
+        "Six",
+        "Cinq",
+        "Quatre"
+      ],
+      "explanation": "Les sept quartiers sont le Centre, la Gare, le Mont-à-Leux, le Tuquet, le Risquons-Tout, le Nouveau-Monde et la Coquini.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-231",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_231.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-231-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Étymologiquement, que signifierait le mot Mouscron ?",
+      "answer": "Terre humide",
+      "options": [
+        "Pays vert",
+        "Terre humide",
+        "Grande courbe",
+        "Tissu blanc"
+      ],
+      "explanation": "Des documents attestent de Moscheron, dès 1060, ce qui signifie petite terre humide (germanique muska ou roman muscus).",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-231",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_231.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-231-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel cinéma actuel s'est d'abord appelé « Le vieux Mouscron » ?",
+      "answer": "Forever",
+      "options": [
+        "Forever",
+        "Variété",
+        "Imagix",
+        "Cinémascope"
+      ],
+      "explanation": "Le premier cinéma a ouvert ses portes rue de la Marlière le 18 août 1913. Il deviendra par la suite le Studio 31 et fermera en 2001.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-231",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_231.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-231-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel collège peut-on faire ses études primaires et secondaires à Mouscron ?",
+      "answer": "Sainte-Marie",
+      "options": [
+        "Sainte-Marie",
+        "Sainte-Cécile",
+        "Sainte-Lucie",
+        "Sainte-Agathe"
+      ],
+      "explanation": "Le Collège s'efforce de proposer un enseignement général de qualité, décliné en un large choix d'options variées et équilibrées.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-231",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_231.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-231-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel château est un fleuron du patrimoine civil mouscronnois ?",
+      "answer": "Des Comtes",
+      "options": [
+        "De Prelle",
+        "De La Berlière",
+        "De la Royère",
+        "Des Comtes"
+      ],
+      "explanation": "Au temps de sa magnificence, le domaine se composait du château (donjon) et des bâtiments de ferme de la basse cour.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-231",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_231.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-231-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année fut inauguré l'hôtel de ville de Mouscron ?",
+      "answer": "1890",
+      "options": [
+        "1890",
+        "1910",
+        "1930",
+        "1870"
+      ],
+      "explanation": "Le style présenté par l'architecte brugeois René Aimé Buyck peut être défini néo-gothique de la Flandre maritime.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-231",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_231.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-231-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel était le précédent nom de la place Emmanuel de Neckere à Mouscron ?",
+      "answer": "Place Verte",
+      "options": [
+        "Place Duponchelle",
+        "Place Verte",
+        "Place Royale",
+        "Place d'Argent"
+      ],
+      "explanation": "Le dallage de la place est particulièrement intéressant : il représente la devise de la ville jusqu'à porter la besace.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-231",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_231.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-231-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle statue mouscronnoise fut réalisée par le sculpteur Osvaldo Parise ?",
+      "answer": "Le Lecteur",
+      "options": [
+        "Le Lecteur",
+        "Le Farceur",
+        "Le Penseur",
+        "Le Rameur"
+      ],
+      "explanation": "Au début des années 1980, une grande entreprise de revitalisation du centre urbain de la ville de Mouscron fut décrétée.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-231",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_231.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-231-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel ministre de la Justice inaugura le parc de Mouscron en 1932 ?",
+      "answer": "Fernand Cocq",
+      "options": [
+        "Fernand Cocq",
+        "Jules Bara",
+        "Jules Renkin",
+        "Jean Gol"
+      ],
+      "explanation": "Fernand Cocq est le père de la peintre Suzanne Cocq, née à Ixelles le 12 juin 1894 et décédée à Etterbeek le 12 juillet 1979.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-231",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_231.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-231-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle radio libre subsiste toujours dans la région de Mouscron ?",
+      "answer": "Radio Qui Chifel",
+      "options": [
+        "Radio Qui Chifel",
+        "Buzz Radio",
+        "Galaxie",
+        "Equinoxe"
+      ],
+      "explanation": "Radio Qui Chifel est une radio non commerciale et associative qui existe depuis décembre 1979 grâce à une équipe de bénévoles.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-231",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_231.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

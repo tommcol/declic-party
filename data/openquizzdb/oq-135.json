@@ -1,0 +1,749 @@
+{
+  "id": "oq-135",
+  "title": "Antarctique",
+  "originalTitle": "Antarctique",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_135.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    19,
+    22
+  ],
+  "questions": [
+    {
+      "id": "oqdb-135-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Situé autour du pôle Sud, comment est aussi parfois appelé l’Antarctique ?",
+      "answer": "Continent blanc",
+      "options": [
+        "Continent vert",
+        "Continent bleu",
+        "Continent rouge",
+        "Continent blanc"
+      ],
+      "explanation": "Avec une superficie de 14 millions de kilomètres carrés, l'Antarctique est plus petit que l'Asie, l'Afrique ou l'Amérique.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-135",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_135.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-135-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel pourcentage de la surface de l'Antarctique est recouvert d'une épaisse couche de glace ?",
+      "answer": "98 %",
+      "options": [
+        "68 %",
+        "78 %",
+        "88 %",
+        "98 %"
+      ],
+      "explanation": "C'est la principale raison pour laquelle la morphologie du sous-sol antarctique reste encore peu connue voire inconnue.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-135",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_135.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-135-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces propositions ne désigne pas une spécificité du continent antarctique ?",
+      "answer": "Le plus humide",
+      "options": [
+        "Le plus froid",
+        "Le plus venteux",
+        "Le plus sec",
+        "Le plus humide"
+      ],
+      "explanation": "L'Antarctique est également, de tous les continents, celui qui a l'altitude moyenne la plus élevée.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-135",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_135.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-135-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Autour de quel pôle l'Antarctique est-il centré de manière asymétrique ?",
+      "answer": "Pôle Sud",
+      "options": [
+        "Pôle Sud",
+        "Pôle Ouest",
+        "Pôle Nord",
+        "Pôle Est"
+      ],
+      "explanation": "Situé en grande partie au sud du cercle Antarctique, l'Antarctique est le continent le plus méridional de la Terre.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-135",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_135.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-135-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En hiver, la superficie du continent arctique est presque",
+      "answer": "Doublée",
+      "options": [
+        "Doublée",
+        "Triplée",
+        "Quintuplée",
+        "Quadruplée"
+      ],
+      "explanation": "Une banquise le prolonge jusqu'à près de 800 km du rivage et des glaces flottantes vont jusqu'à 800 km des côtes.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-135",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_135.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-135-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces propositions ne fait pas partie de la flore associée à l'Antarctique ?",
+      "answer": "Arbuste",
+      "options": [
+        "Lichen",
+        "Mousse",
+        "Arbuste",
+        "Algue"
+      ],
+      "explanation": "700 espèces terrestres et aquatiques ainsi que des algues vivent et survivent dans des zones rocheuses délivrés des glaces.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-135",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_135.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-135-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la principale ressource minérale connue sur le continent arctique ?",
+      "answer": "Le charbon",
+      "options": [
+        "La houille",
+        "La tourbe",
+        "L’uranium",
+        "Le charbon"
+      ],
+      "explanation": "Il existe également du charbon de qualité inférieure à travers de nombreuses régions des montagnes Transantarctiques.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-135",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_135.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-135-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sur quoi repose la principale activité économique de l'Antarctique ?",
+      "answer": "La pêche",
+      "options": [
+        "Le tourisme",
+        "Le transport",
+        "L’agriculture",
+        "La pêche"
+      ],
+      "explanation": "En 2000-2001, la quantité de poissons pêchée en Antarctique s'élevait à près de 112 934 tonnes.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-135",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_135.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-135-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel type de navire est le plus adapté et le plus rapide en Antarctique ?",
+      "answer": "Brise-glace",
+      "options": [
+        "Sous-marin",
+        "Brise-glace",
+        "Pétrolier",
+        "Yacht"
+      ],
+      "explanation": "L'utilisation de chiens de traîneaux est maintenant interdite car les chiens sont devenus une menace pour la faune locale.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-135",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_135.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-135-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel film de John Carpenter une expédition est-elle attaquée par une créature protéiforme ?",
+      "answer": "The Thing",
+      "options": [
+        "Starman",
+        "Christine",
+        "Dark Star",
+        "The Thing"
+      ],
+      "explanation": "L'histoire s'articule autour d'une forme de vie extraterrestre qui infiltre une station de recherche scientifique du continent Austral.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-135",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_135.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-135-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le plus grand des lacs subglaciaires de l'Antarctique ?",
+      "answer": "Lac Vostok",
+      "options": [
+        "Lac Whillans",
+        "Lac Ellsworth",
+        "Lac Sovetskaïa",
+        "Lac Vostok"
+      ],
+      "explanation": "La surface de ce lac d'eau douce est à environ 4 000 m en dessous de la surface de la glace.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-135",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_135.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-135-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle température extrême a été mesurée à la verticale du lac Vostok ?",
+      "answer": "-90°C",
+      "options": [
+        "-70°C",
+        "-50°C",
+        "-30°C",
+        "-90°C"
+      ],
+      "explanation": "Les 4 km de glace surplombant le lac Vostok procurent un enregistrement climatique continu de 400 000 ans.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-135",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_135.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-135-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle chaîne divise sans interruption l'Antarctique en deux parties ?",
+      "answer": "Transantarctique",
+      "options": [
+        "Transfrontalière",
+        "Transantarctique",
+        "Transcontinentale",
+        "Transibérienne"
+      ],
+      "explanation": "La zone située entre l'Ouest de la mer de Weddell et l'Est de la mer de Ross est appelée l'Antarctique occidental.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-135",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_135.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-135-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel pourcentage de glace terrestre le continent arctique regroupe-t-il environ ?",
+      "answer": "90 %",
+      "options": [
+        "90 %",
+        "60 %",
+        "80 %",
+        "70 %"
+      ],
+      "explanation": "Si toutes les glaces de l'Arctique fondaient, le niveau des mers et des océans monterait de plus de 60 mètres.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-135",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_135.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-135-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le point culminant de l'Antarctique avec 4.892 mètres d'altitude ?",
+      "answer": "Massif Vinson",
+      "options": [
+        "Nanda Devi",
+        "K2",
+        "Massif Vinson",
+        "Mont Olympe"
+      ],
+      "explanation": "L'Antarctique possède beaucoup d'autres montagnes, à la fois sur le continent lui-même mais aussi sur les îles environnantes.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-135",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_135.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-135-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de régions biogéographiques terrestres dénombre-t-on, dont fait partie l'Antarctique ?",
+      "answer": "Huit",
+      "options": [
+        "Huit",
+        "Cinq",
+        "Six",
+        "Sept"
+      ],
+      "explanation": "Le continent est si froid et désertique qu'il n'a pas supporté de plante vasculaire depuis des millions d'années.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-135",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_135.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-135-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le seul manchot qui se reproduit en Antarctique pendant l'hiver austral ?",
+      "answer": "Manchot empereur",
+      "options": [
+        "Manchot papou",
+        "Manchot empereur",
+        "Manchot à jugulaire",
+        "Manchot royal"
+      ],
+      "explanation": "De toutes les espèces de manchots, le manchot empereur est celle qui se reproduit le plus au sud.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-135",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_135.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-135-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel supercontinent formé au Carbonifère l'Antarctique fait-il partie ?",
+      "answer": "Pangée",
+      "options": [
+        "Ur",
+        "Rodinia",
+        "Pangée",
+        "Laurasia"
+      ],
+      "explanation": "Il y a 175 millions d'années, l'Antarctique constituait une partie du Gondwana issue de la Pangée.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-135",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_135.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-135-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quels chercheurs étudient notamment en Antarctique la tectonique des plaques ?",
+      "answer": "Les géologues",
+      "options": [
+        "Les météorologues",
+        "Les biologistes",
+        "Les astronomes",
+        "Les géologues"
+      ],
+      "explanation": "Ce modèle a été constitué à partir du concept de dérive des continents développé par Alfred Wegener au XXe siècle.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-135",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_135.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-135-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien dénombre-t-on de lacs à la base de la calotte glaciaire continentale ?",
+      "answer": "70",
+      "options": [
+        "60",
+        "70",
+        "50",
+        "40"
+      ],
+      "explanation": "Le lac Vostok, découvert sous la base antarctique Vostok en 1996, est le plus grand de ces lacs subglaciaires.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-135",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_135.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-135-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Jusqu'à quand le Protocole de Madrid interdit-il d'exploiter les ressources minérales antarctiques ?",
+      "answer": "2048",
+      "options": [
+        "2038",
+        "2048",
+        "2058",
+        "2068"
+      ],
+      "explanation": "Le pétrole et le gaz naturel de l'Antarctique ont été trouvés au large dans la mer de Ross en 1973.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-135",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_135.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-135-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel nom porte la première base « zéro-émission » du monde en Antarctique ?",
+      "answer": "Princesse Elisabeth",
+      "options": [
+        "Dôme Fuji",
+        "Neumayer 3",
+        "Concordia",
+        "Princesse Elisabeth"
+      ],
+      "explanation": "C'est en 2009 que la station belge Princesse Elisabeth est érigée non loin de l'ancienne base belge Roi Baudouin (1958-1968).",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-135",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_135.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-135-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui est en 2017 à la tête du gouvernement instauré en Antarctique ?",
+      "answer": "Personne",
+      "options": [
+        "Jens Stoltenberg",
+        "Personne",
+        "Erna Solberg",
+        "Magne Bondevik"
+      ],
+      "explanation": "Le continent antarctique fait l'objet d'un régime juridique défini par le traité sur l'Antarctique de 1959 et n'a pas de gouvernement.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-135",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_135.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-135-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien d'États ont apposé leur paraphe sur le traité sur l’Antarctique ?",
+      "answer": "49",
+      "options": [
+        "19",
+        "49",
+        "39",
+        "29"
+      ],
+      "explanation": "Le traité ne possède pas de durée limite et est renouvelable par tacite reconduction : 28 des 49 États disposent d'un droit de vote.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-135",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_135.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-135-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année l'Antarctique a-t-il été aperçu pour la première fois ?",
+      "answer": "1820",
+      "options": [
+        "1940",
+        "1900",
+        "1820",
+        "1860"
+      ],
+      "explanation": "Le contient a été aperçu en 1820 par l'expédition russe de Mikhaïl Lazarev et Fabian Gottlieb von Bellingshausen.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-135",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_135.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-135-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Situé sur l'île de Ross, quel est le volcan actif le plus austral du monde ?",
+      "answer": "Mont Erebus",
+      "options": [
+        "Mont Sorata",
+        "Mont Erebus",
+        "Mont Belinda",
+        "Mont Rushmore"
+      ],
+      "explanation": "Un autre volcan, sur l'île de la Déception, est devenu célèbre à la suite d'une gigantesque éruption en février 1969.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-135",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_135.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-135-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui est la première personne née au sud du 60e parallèle sud ?",
+      "answer": "Emilio Palma",
+      "options": [
+        "Emilio Palma",
+        "Dominic Sena",
+        "Koreyoshi Kurahara",
+        "Yves Sente"
+      ],
+      "explanation": "Il est également la première née sur ledit continent, en 1978, à la base Esperanza à l'extrémité de la péninsule Antarctique.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-135",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_135.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-135-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle base de la région de la mer de Ross a été établie par Greenpeace ?",
+      "answer": "World Park Base",
+      "options": [
+        "World Park Base",
+        "Dôme Fuji",
+        "Princesse Elisabeth",
+        "Concordia"
+      ],
+      "explanation": "L’organisation Greenpeace y mène des expéditions annuelles afin de mesurer l'impact de l'Homme sur l'environnement.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-135",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_135.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

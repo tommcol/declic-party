@@ -1,0 +1,774 @@
+{
+  "id": "oq-209",
+  "title": "Gin",
+  "originalTitle": "Gin (Une larme de gin, une rivière de tonic)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_209.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    2
+  ],
+  "questions": [
+    {
+      "id": "oqdb-209-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Le gin est une boisson spiritueuse assez proche de quel ancêtre alcoolisé ?",
+      "answer": "Genièvre",
+      "options": [
+        "Genièvre",
+        "Schnaps",
+        "Triple sec",
+        "Chartreuse"
+      ],
+      "explanation": "Le genièvre est une eau-de-vie de grains aromatisée de baies de genévrier typique du nord de l'Europe continentale.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-209",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_209.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-209-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que rajoute-t-on au gin et au jus de citron pour concocter un Blue lady ?",
+      "answer": "Curaçao bleu",
+      "options": [
+        "Campari",
+        "Curaçao bleu",
+        "Menthe",
+        "Vodka"
+      ],
+      "explanation": "Le « Blue Lady » est le nom du navire de croisière « France » du temps de ses croisières en mer des Caraïbes entre 2006 et 2009.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-209",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_209.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-209-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle variante du gin fizz contient de la liqueur de mente ?",
+      "answer": "Green fizz",
+      "options": [
+        "Silver fizz",
+        "Green fizz",
+        "Old fizz",
+        "Golden fizz"
+      ],
+      "explanation": "Il faut passer les ingrédients au shaker avec des glaçons, à l'exception de l'eau gazeuse, verser et compléter avec l'eau gazeuse.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-209",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_209.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-209-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que contient l'eau tonique qui est versée dans votre gin tonic ?",
+      "answer": "Quinine",
+      "options": [
+        "Nivaquine",
+        "Ferroquine",
+        "Sulfadoxine",
+        "Quinine"
+      ],
+      "explanation": "Extraite d'un arbuste originaire d'Amérique du Sud, la quinine était autrefois surtout utilisée pour la prévention du paludisme.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-209",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_209.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-209-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel cocktail à la couleur blanche, fort apprécié des dames, est composé de gin ?",
+      "answer": "White Lady",
+      "options": [
+        "Negroni",
+        "White Lady",
+        "Monaco",
+        "Baltimore"
+      ],
+      "explanation": "Avec sa couleur blanche et son goût sec, le white lady est composé de gin, de triple sec et de jus de citrons verts.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-209",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_209.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-209-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel homme d'État britannique était un buveur de gin d'exception ?",
+      "answer": "Winston Churchill",
+      "options": [
+        "Harold Wilson",
+        "Stanley Baldwin",
+        "Winston Churchill",
+        "Anthony Eden"
+      ],
+      "explanation": "C'est Winston Churchill qui a dit : « Le gin et le tonic ont sauvé la vie à plus d'Anglais que tous les médecins de l'Empire ».",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-209",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_209.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-209-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle grande marque de gin reste pionnière en la matière ?",
+      "answer": "Hendricks",
+      "options": [
+        "Gordon",
+        "Tanqueray",
+        "Bombay",
+        "Hendricks"
+      ],
+      "explanation": "William Grant And Sons Ltd. est une société familiale indépendante écossaise qui distille et distribue du scotch whisky et du gin.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-209",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_209.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-209-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel pays est, avec l'Angleterre, le principal producteur de gin ?",
+      "answer": "Hollande",
+      "options": [
+        "Inde",
+        "Turquie",
+        "Hollande",
+        "Argentine"
+      ],
+      "explanation": "Ils ne sont pas les seuls puisque l'on en produit en Belgique, en France, au Canada, en Écosse, en Irlande et au Luxembourg.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-209",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_209.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-209-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel type de verre se sert traditionnellement le gin tonic ?",
+      "answer": "Tumbler",
+      "options": [
+        "Ballon",
+        "Tulipe",
+        "Tumbler",
+        "Flûte"
+      ],
+      "explanation": "Le tumbler est un verre à fond plat d'une contenance de 25 cl, idéal pour servir les cocktails de type long drinks.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-209",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_209.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-209-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel pays la production de gin a-t-elle réellement commencé ?",
+      "answer": "Ancien Pays-Bas",
+      "options": [
+        "Portugal",
+        "Ancien Pays-Bas",
+        "Suède",
+        "Hongrie"
+      ],
+      "explanation": "La production de gin a commencé dans les anciens Pays-Bas à la fin du XVIIe siècle et s'est ensuite rapidement internationalisée.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-209",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_209.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-209-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À combien de degrés titre le gin connu sous l'appellation Gin de marine ?",
+      "answer": "50 degrés",
+      "options": [
+        "70 degrés",
+        "50 degrés",
+        "60 degrés",
+        "40 degrés"
+      ],
+      "explanation": "Il permettait de conserver les propriétés explosives de la poudre à canon si elle était mise en contact accidentellement avec la boisson.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-209",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_209.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-209-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel cocktail comporte du gin mélangé à de la crème de cacao ?",
+      "answer": "Alexander",
+      "options": [
+        "Stinger",
+        "Alexander",
+        "Pink Love",
+        "Bandista"
+      ],
+      "explanation": "La variante la plus courante à l'Alexander (ou Alexandre) est le Brandy Alexander, utilisant du cognac en lieu et place du gin.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-209",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_209.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-209-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle boisson alcoolisée contient du gin et de la liqueur d'abricot ?",
+      "answer": "Angel Face",
+      "options": [
+        "Cosmopolitan",
+        "Trou noir",
+        "Angel Face",
+        "Manhattan"
+      ],
+      "explanation": "Attesté dans « The Savoy Cocktail Book », de Harry Craddock (1930), sa garniture officielle est un quartier de pomme.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-209",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_209.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-209-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel grand classique des bars huppés se compose de Grand Marnier et de gin ?",
+      "answer": "Baltimore",
+      "options": [
+        "Perroquet",
+        "Negroni",
+        "Baltimore",
+        "Singapore sling"
+      ],
+      "explanation": "L'effet du Baltimore est décontractant, caractéristique des cocktails frappés contenant de la liqueur d'oranges du Grand Marnier.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-209",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_209.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-209-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel cocktail à base de liqueur de cerise contient du gin ?",
+      "answer": "Casino",
+      "options": [
+        "Baltimore",
+        "Vesper",
+        "Macca",
+        "Casino"
+      ],
+      "explanation": "Cette liqueur est produite historiquement dans les zones de Zadar en Dalmatie, de Torreglia près de Padoue et dans le Frioul.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-209",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_209.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-209-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle variante du gin fizz ajoute-t-on un jaune d'oeuf ?",
+      "answer": "Golden fizz",
+      "options": [
+        "Chicken fizz",
+        "Golden fizz",
+        "Green fizz",
+        "Silver fizz"
+      ],
+      "explanation": "Le véritable gin fizz se compose de 4.5 cl de gin, 3 cl de jus de citron, 1 cl de sirop de sucre de canne et 8 cl d'eau gazeuse.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-209",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_209.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-209-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel cocktail à base de gin contient du vermouth blanc sec ?",
+      "answer": "Martini dry",
+      "options": [
+        "Volcano",
+        "Angel Face",
+        "Alexander",
+        "Martini dry"
+      ],
+      "explanation": "Le cocktail ne doit pas être confondu avec la marque de vermouth du même nom, produite par la multinationale italienne Martini et Rossi.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-209",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_209.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-209-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces boissons a été inventée dans le roman « Casino Royale » ?",
+      "answer": "Vesper",
+      "options": [
+        "Angel Face",
+        "Mint Julep",
+        "Pétrole",
+        "Vesper"
+      ],
+      "explanation": "Mentionné deux fois seulement dans le roman « Casino Royale », le cocktail refait une apparition dans le film « Quantum of Solace ».",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-209",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_209.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-209-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sous quel roi le gin est-il devenu la boisson nationale anglaise ?",
+      "answer": "Guillaume III",
+      "options": [
+        "Frédéric-Henri",
+        "Louis II",
+        "Guillaume III",
+        "Willem-Alexander"
+      ],
+      "explanation": "Le gin est devenu la boisson nationale anglaise quand Guillaume III d'Orange devint en 1689 roi d'Angleterre, d'Ecosse et d'Irlande.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-209",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_209.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-209-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel cocktail est considéré comme un Americano avec du gin ?",
+      "answer": "Negroni",
+      "options": [
+        "White Lady",
+        "Negroni",
+        "Baltimore",
+        "Mandarin"
+      ],
+      "explanation": "Le barman Fosco Scarelli eut l'idée de lui donner le nom de son inventeur pour honorer le comte et pour abréger son appellation.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-209",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_209.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-209-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Contre quelle maladie le gin tonic aurait-il été tout bonnement inventé ?",
+      "answer": "Malaria",
+      "options": [
+        "Gale",
+        "Tuberculose",
+        "Malaria",
+        "Dysenterie"
+      ],
+      "explanation": "Les fonctionnaires coloniaux s'assuraient ainsi d'avoir leur dose quotidienne de quinine, seul médicament efficace contre la malaria.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-209",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_209.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-209-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel cocktail contient du gin et du sirop de grenadine ?",
+      "answer": "Singapore sling",
+      "options": [
+        "Communard",
+        "Singapore sling",
+        "Casino",
+        "Mauresque"
+      ],
+      "explanation": "Il contient 3 cl de gin, 1.5 cl de liqueur de cerises, 1 cl de sirop de grenadine, 0.7 5cl de cointreau et 0.75 cl de bénédictine.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-209",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_209.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-209-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quel médecin attribue-t-on souvent à tort l'invention du gin ?",
+      "answer": "Franciscus Sylvius",
+      "options": [
+        "Lars Roberg",
+        "Nicolas Lémery",
+        "Robert Fludd",
+        "Franciscus Sylvius"
+      ],
+      "explanation": "Champion des théories de Descartes, il fut l'un des premiers, dans son pays d'adoption, à soutenir la théorie de la circulation du sang.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-209",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_209.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-209-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel cocktail de connaisseurs contient gin, vodka, Lillet et citron ?",
+      "answer": "Vesper",
+      "options": [
+        "TGV",
+        "Vesper",
+        "Russe blanc",
+        "Alexander"
+      ],
+      "explanation": "Les Français ont l'habitude de consommer le Lillet sur de la glace avec une tranche d'orange, de citron ou de citron vert.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-209",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_209.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-209-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel manga l'un des héros principaux est-il surnommé Gin ?",
+      "answer": "Détective Conan",
+      "options": [
+        "Ben 10",
+        "Robotboy",
+        "ThunderCats",
+        "Détective Conan"
+      ],
+      "explanation": "Gin et Vodka furent les premiers membres à apparaître lorsqu'ils forcèrent Shinichi Kudo à prendre de l'Apotoxine 4869.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-209",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_209.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-209-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel cocktail a été créé par Constante Gil au Café Madrid ?",
+      "answer": "Agua de Valencia",
+      "options": [
+        "Vesper",
+        "Casino",
+        "White Lady",
+        "Agua de Valencia"
+      ],
+      "explanation": "Agua de Valencia est un cocktail à base de cava (ou de champagne), jus d'orange, vodka et gin créé en 1959 à Valence.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-209",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_209.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-209-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle eau-de-vie de Slovaquie s'apparente au goût du gin pur ?",
+      "answer": "Borovicka",
+      "options": [
+        "Makgeolli",
+        "Arrack",
+        "Slivovitz",
+        "Borovicka"
+      ],
+      "explanation": "Exporté en grande quantité vers les villes de Vienne et Budapest, le Borovicka est un alcool très populaire dans l'Europe de l'Est.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-209",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_209.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-209-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel cocktail contient du gin, du campari et du vermouth rouge doux ?",
+      "answer": "Negroni",
+      "options": [
+        "Angel Face",
+        "Vesper",
+        "Negroni",
+        "Singapore sling"
+      ],
+      "explanation": "Il se sert dans un verre tumbler ou old fashion avec de la glace, garni d'une demi-tranche d'orange ou de zeste d'orange.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-209",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_209.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-209-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel martini dry est consommé avec un oignon au vinaigre ?",
+      "answer": "Gibson",
+      "options": [
+        "Classic",
+        "Tequini",
+        "Gibson",
+        "Negroni"
+      ],
+      "explanation": "James Bond en a popularisé une seconde recette : une mesure de Vodka, trois mesures de gin et une demi-mesure de Lillet.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-209",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_209.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

@@ -1,0 +1,798 @@
+{
+  "id": "oq-221",
+  "title": "Périgord",
+  "originalTitle": "Périgord (Patrimoine culturel et historique)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_221.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-221-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces couleurs ne désigne pas une région du Périgord ?",
+      "answer": "Bleu",
+      "options": [
+        "Pourpre",
+        "Bleu",
+        "Vert",
+        "Blanc"
+      ],
+      "explanation": "Le nom Périgord vient du peuple gaulois des Pétrocores, « Petrocorii » en gaulois, ce qui veut dire Quatre armées.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-221",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_221.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-221-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment appelle-t-on les habitants de la ville de Périgueux ?",
+      "answer": "Périgourdins",
+      "options": [
+        "Promontois",
+        "Pirigueusois",
+        "Périgourdins",
+        "Périeusins"
+      ],
+      "explanation": "Labellisée 4 fleurs, Périgueux est la capitale culturelle et touristique du Périgord blanc, dans la vallée de l'Isle.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-221",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_221.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-221-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel département le Périgord et ses quatre régions sont-ils inscrits ?",
+      "answer": "Dordogne",
+      "options": [
+        "Calvados",
+        "Aveyron",
+        "Vaucluse",
+        "Dordogne"
+      ],
+      "explanation": "La Dordogne, troisième département français métropolitain par sa superficie, fait partie de la région Nouvelle-Aquitaine.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-221",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_221.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-221-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle spécialité culinaire du Périgord est issue de l'engraissement par gavage ?",
+      "answer": "Foie gras",
+      "options": [
+        "Foie gras",
+        "Poil de jarre",
+        "Blanc de boeuf",
+        "Propolis"
+      ],
+      "explanation": "Le foie gras se consomme cru, mi-cuit ou cuit, et peut être proposé sous forme de produit frais ou en conserve.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-221",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_221.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-221-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle grotte ornée du Paléolithique se situe dans la vallée de la Vézère ?",
+      "answer": "Lascaux",
+      "options": [
+        "Lascaux",
+        "Niaux",
+        "Cussac",
+        "Razet"
+      ],
+      "explanation": "Les peintures et les gravures qu'elle renferme n'ont pas pu faire l'objet de datations directes précises : environ 18 000 et 17 000 ans.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-221",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_221.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-221-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quoi la région du Périgord blanc doit-elle principalement son nom ?",
+      "answer": "Pierre",
+      "options": [
+        "Sable",
+        "Miel",
+        "Sucre",
+        "Pierre"
+      ],
+      "explanation": "Elle occupe les territoires des régions naturelles du Ribéracois, du Périgord central, de la Double et d'une partie du Landais.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-221",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_221.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-221-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel confit se mange généralement avec des pommes de terre à la sarladaise ?",
+      "answer": "Confit de canard",
+      "options": [
+        "Confit de canard",
+        "Confit de vin",
+        "Confit de fleurs",
+        "Confit d'oignons"
+      ],
+      "explanation": "Ce confit se prépare avec des oiseaux gras, engraissés par gavage, les mêmes qui servent à produire le magret et le foie gras.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-221",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_221.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-221-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Avec ses grands champs de céréales, quel surnom est donné au Périgord blanc ?",
+      "answer": "Grenier du Périgord",
+      "options": [
+        "Grenier du Périgord",
+        "Salon du Périgord",
+        "Cave du Périgord",
+        "Jardin du Périgord"
+      ],
+      "explanation": "Le Périgord blanc, ancienne région naturelle, correspondait aux plateaux calcaires du Ribéracois et du Verteillacois.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-221",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_221.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-221-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Autour de quelle ville se déploient les vignobles du Périgord pourpre ?",
+      "answer": "Bergerac",
+      "options": [
+        "Thiviers",
+        "Montignac",
+        "Le Bugue",
+        "Bergerac"
+      ],
+      "explanation": "1 200 viticulteurs y cultivent une superficie de 12 000 hectares, produisant des vins rouges, blancs, moelleux, liquoreux et rosés.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-221",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_221.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-221-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que produisent, en classification AOC, 612 communes du Périgord ?",
+      "answer": "Noix",
+      "options": [
+        "Pommes",
+        "Noix",
+        "Haricots",
+        "Citrons"
+      ],
+      "explanation": "Noix du Périgord est une appellation d'origine qui désigne les noix fraîches ou primeurs, les noix sèches et les cerneaux de noix.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-221",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_221.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-221-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Autour de quelle ville le Périgord noir se développe-t-il principalement ?",
+      "answer": "Sarlat-la-Canéda",
+      "options": [
+        "Périgueux",
+        "Sarlat-la-Canéda",
+        "Bergerac",
+        "Montignac"
+      ],
+      "explanation": "Cette cité historique est un site touristique majeur, renommé pour sa parure monumentale datant de la période médiévale.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-221",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_221.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-221-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel vin du Périgord comprend cabernet-franc, cabernet-sauvignon et merlot ?",
+      "answer": "Bergerac",
+      "options": [
+        "Tavel",
+        "Buzet",
+        "Saumur",
+        "Bergerac"
+      ],
+      "explanation": "Comme la plupart des appellations de par le monde, les vins rouges de Bergerac peuvent être des vins de fruit à boire assez rapidement.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-221",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_221.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-221-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est historiquement la plus ancienne des quatre appellations du Périgord ?",
+      "answer": "Noir",
+      "options": [
+        "Blanc",
+        "Noir",
+        "Vert",
+        "Pourpre"
+      ],
+      "explanation": "Le Périgord noir tire son nom des importantes forêts de chênes verts très sombres et n'a, initialement, rien à voir avec les truffes.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-221",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_221.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-221-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel ancien précepteur du duc de Bourgogne possède un château à son nom ?",
+      "answer": "Fénelon",
+      "options": [
+        "Mascaron",
+        "Fabricius",
+        "Du Moulin",
+        "Fénelon"
+      ],
+      "explanation": "Le château de Fénelon est implanté à Sainte-Mondane dans le département de la Dordogne, en Nouvelle-Aquitaine.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-221",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_221.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-221-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle région du Périgord recouvre la partie granitique de la Dordogne ?",
+      "answer": "Vert",
+      "options": [
+        "Vert",
+        "Blanc",
+        "Pourpre",
+        "Noir"
+      ],
+      "explanation": "Le Nontronnais est une région naturelle située au nord du département de la Dordogne, dans la région Nouvelle-Aquitaine.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-221",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_221.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-221-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel château de Dordogne est évoqué dans « Jacquou le Croquant » ?",
+      "answer": "Château de l'Herm",
+      "options": [
+        "Château de l'Herm",
+        "Château de Puivert",
+        "Château de Beynac",
+        "Château des Ormes"
+      ],
+      "explanation": "La plupart des lieux décrits dans le roman existent réellement, sur la rive droite de la Vallée de la Vézère, dans le Périgord.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-221",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_221.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-221-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel type d'habitat souterrain ou creusé retrouve-t-on au Périgord ?",
+      "answer": "Troglodytique",
+      "options": [
+        "Amérindien",
+        "Troglodytique",
+        "Antique",
+        "Nomade"
+      ],
+      "explanation": "De l'abri sous roche au château ou à la cité souterraine, cette architecture a une fonction d'habitat temporaire ou permanent.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-221",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_221.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-221-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle ancienne bastide médiévale se situe dans l'arrondissement de Sarlat ?",
+      "answer": "Domme",
+      "options": [
+        "Daglan",
+        "Dussac",
+        "Douville",
+        "Domme"
+      ],
+      "explanation": "La bastide de Domme, perchée sur une falaise à 210 mètres d'altitude, domine la Dordogne de plus de cent mètres.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-221",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_221.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-221-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel château est entouré d'un vignoble réputé, face à Bergerac ?",
+      "answer": "Monbazillac",
+      "options": [
+        "Magny",
+        "Monbazillac",
+        "Marfontaine",
+        "Montardier"
+      ],
+      "explanation": "Vers 1550, le château fut construit d'un seul jet par Charles d'Aydie sur un plan simple : un rectangle et quatre tours circulaires.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-221",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_221.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-221-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sous quel roi la notion de comté est-elle apparue pour le Périgord ?",
+      "answer": "Charlemagne",
+      "options": [
+        "Louis le Pieux",
+        "Charles VI",
+        "Henri IV",
+        "Charlemagne"
+      ],
+      "explanation": "Le comté était la base des divisions territoriales réalisées pour délimiter un pagus, confié à un comte nommé par l'empereur.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-221",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_221.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-221-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel château arborant un style Renaissance est situé sur la commune de Villars ?",
+      "answer": "Puyguilhem",
+      "options": [
+        "Herm",
+        "Beynac",
+        "Monbazillac",
+        "Puyguilhem"
+      ],
+      "explanation": "En 1938, l'État a exproprié pour cause d'utilité publique son propriétaire (de Rastignac) qui a laissé le château tomber en ruine.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-221",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_221.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-221-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle commune du sud-ouest de la France est appelée la Venise du Périgord ?",
+      "answer": "Brantôme",
+      "options": [
+        "Trélissac",
+        "Brantôme",
+        "Coursac",
+        "Eymet"
+      ],
+      "explanation": "Le centre-ville s'inscrit sur une île de 300 mètres de diamètre formée par la Dronne, à l'origine du surnom de Venise du Périgord.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-221",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_221.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-221-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle cathédrale de Périgueux est classée monument historique depuis 1840 ?",
+      "answer": "Saint-Front",
+      "options": [
+        "Saint-Caprais",
+        "Saint-Front",
+        "Saint-André",
+        "Saint-Nazaire"
+      ],
+      "explanation": "Le carillon de Saint-Front a été enregistré en 1938 par la radio nationale comme annonce du programme religieux dominical.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-221",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_221.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-221-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel écrivain et philosophe français est né en 1533 dans le Périgord ?",
+      "answer": "Michel de Montaigne",
+      "options": [
+        "Michel de Montaigne",
+        "Pierre Charron",
+        "Guillaume Bigot",
+        "Jean Bodin"
+      ],
+      "explanation": "Le plus souvent souffrant ou maladif, Michel de Montaigne a hâté ses écrits et a essayé de guérir en voyageant vers des lieux de cure.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-221",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_221.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-221-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Par quel traité le Périgord est-il passé sous souveraineté anglaise ?",
+      "answer": "Traité de Brétigny",
+      "options": [
+        "Traité de Romans",
+        "Traité de Brétigny",
+        "Traité de Loudun",
+        "Traité du Crotoy"
+      ],
+      "explanation": "Le traité mit un terme aux quatre années de captivité à Londres de Jean II le Bon, prisonnier des Anglais depuis la bataille de Poitiers.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-221",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_221.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-221-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quels jardins de Vézac sont inscrits sur la liste des jardins remarquables ?",
+      "answer": "Marqueyssac",
+      "options": [
+        "Hautefort",
+        "Losse",
+        "Marqueyssac",
+        "Caudon"
+      ],
+      "explanation": "Sur les vingt-deux hectares du domaine de Marqueyssac, dix-neuf forment un site classé pour son intérêt pittoresque et historique.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-221",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_221.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-221-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel château a servi de cadre au tournage de « Jeanne d'Arc » de Luc Besson ?",
+      "answer": "Beynac",
+      "options": [
+        "Beynac",
+        "Chavagnac",
+        "Rastignac",
+        "Marzac"
+      ],
+      "explanation": "Ce château, classé monument historique le 11 février 1944, est l'un des mieux conservés et l'un des plus réputés de la région.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-221",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_221.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-221-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville est né l'écrivain humaniste Étienne de La Boétie ?",
+      "answer": "Sarlat",
+      "options": [
+        "Sarlat",
+        "Montignac",
+        "Bergerac",
+        "Périgueux"
+      ],
+      "explanation": "La Boétie est célèbre pour son « Discours de la servitude volontaire » et fut l'ami de Montaigne qui lui rendit hommage dans ses « Essais ».",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-221",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_221.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-221-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel arbre a donné son nom au village de Limeuil, dans le Périgord pourpre ?",
+      "answer": "Orme",
+      "options": [
+        "Sapin",
+        "Orme",
+        "Chêne",
+        "Hêtre"
+      ],
+      "explanation": "Le préfixe lim vient du terme lemo qui signifie orme, et euil dérive du terme ialo désigne un espace découvert.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-221",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_221.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-221-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel canal latéral à la Dordogne, long de 15 km, est situé en amont de Bergerac ?",
+      "answer": "Canal de Lalinde",
+      "options": [
+        "Canal de Lalinde",
+        "Canal des Landes",
+        "Canal du Lagoin",
+        "Canal des Moines"
+      ],
+      "explanation": "Le canal de Lalinde a été utilisé jusqu'à la Seconde Guerre mondiale malgré la concurrence du chemin de fer à partir de 1879.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-221",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_221.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

@@ -1,0 +1,774 @@
+{
+  "id": "oq-217",
+  "title": "Stars mondiales 2",
+  "originalTitle": "Stars mondiales 2 (Des stars en veux-tu en voilà)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_217.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    6
+  ],
+  "questions": [
+    {
+      "id": "oqdb-217-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle célèbre chanteuse israélienne a subi un AVC en 2008 ?",
+      "answer": "Rika Zaraï",
+      "options": [
+        "Ortal",
+        "Rika Zaraï",
+        "Yael Naim",
+        "Ofra Haza"
+      ],
+      "explanation": "Le prénom israélien donné à Rika Zaraï, née en 1938, est un diminutif de Rivka, dont Rebecca est la forme usuelle en français.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-217",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_217.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-217-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle chanteuse fut mariée au milliardaire qatari Wissam Al Mana ?",
+      "answer": "Janet Jackson",
+      "options": [
+        "Janet Jackson",
+        "Shania Twain",
+        "Nicky Minaj",
+        "Lady Gaga"
+      ],
+      "explanation": "Lors de leur séparation, il a été conclu que Janet Jackson recevrait la somme de 500 millions de dollars en compensation financière.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-217",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_217.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-217-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui est sans conteste le mannequin britannique la plus célèbre au monde ?",
+      "answer": "Kate Moss",
+      "options": [
+        "Katie Price",
+        "Kate Moss",
+        "Alexa Chung",
+        "Lily Cole"
+      ],
+      "explanation": "C'est la campagne de publicité pour la marque américaine Calvin Klein qui propulsa rapidement Kate Moss sur le devant de la scène.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-217",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_217.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-217-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a décroché en 2013 le titre de femme la plus sexy par le magazine Esquire ?",
+      "answer": "Scarlett Johansson",
+      "options": [
+        "Kate Winslet",
+        "Scarlett Johansson",
+        "Natalie Portman",
+        "Emma Stone"
+      ],
+      "explanation": "En 2014, elle interprète Lucy dans le film éponyme de Besson qui devient le plus gros succès du cinéma français dans le monde.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-217",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_217.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-217-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle célébrité a demandé Kim Kardashian en mariage dans un stade de baseball ?",
+      "answer": "Kanye West",
+      "options": [
+        "Warren G",
+        "Pharrell Williams",
+        "Kanye West",
+        "Curtis Young"
+      ],
+      "explanation": "Kim Kardashian est la personnalité de télé-réalité la mieux payée en 2015 et une des cent personnes les plus influentes dans le monde.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-217",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_217.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-217-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle comédienne a trouvé la mort dans ce que la presse a appelé le drame de Vilnius ?",
+      "answer": "Marie Trintignant",
+      "options": [
+        "Marie Trintignant",
+        "Mireille Darc",
+        "Sylvie Joly",
+        "Magali Noël"
+      ],
+      "explanation": "Lors d'une dispute, Bertrand Cantat la frappera à plusieurs reprises (19 coups, dont 4 au visage) et lui donnera finalement la mort.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-217",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_217.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-217-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle championne de tennis française a révélé son homosexualité en 1999 ?",
+      "answer": "Amélie Mauresmo",
+      "options": [
+        "Catherine Suire",
+        "Amélie Mauresmo",
+        "Mary Pierce",
+        "Julie Vlasto"
+      ],
+      "explanation": "Elle est l'une des trois seules Françaises avec Mary Pierce et Marion Bartoli à avoir gagné au moins un titre du Grand Chelem.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-217",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_217.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-217-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle ancienne star du X française le calendrier est-il devenu objet de collection ?",
+      "answer": "Clara Morgane",
+      "options": [
+        "Jassie Lewis",
+        "Kira Kener",
+        "Clara Morgane",
+        "Natalia Cruze"
+      ],
+      "explanation": "Clara Morgane, de son vrai nom Emmanuelle Munos, a posé pour la première fois à douze ans pour l'agence de mannequins Houra.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-217",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_217.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-217-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel ancien Beatles, devenu producteur et peintre, est marié à Barbara Bach ?",
+      "answer": "Ringo Starr",
+      "options": [
+        "Ringo Starr",
+        "George Harrison",
+        "John Lennon",
+        "Paul McCartney"
+      ],
+      "explanation": "À la fin de 1980, tous deux ont rendu visite à Yoko Ono à New York pour la soutenir à la suite de l'assassinat de son mari.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-217",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_217.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-217-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel danseur français fut ami et chorégraphe de la chanteuse Madonna ?",
+      "answer": "Brahim Zaibat",
+      "options": [
+        "Patrice Bart",
+        "Audric Bezard",
+        "Peter Goss",
+        "Brahim Zaibat"
+      ],
+      "explanation": "Brahim Zaibat est devenu l'un des personnages de l'émission « Fort Boyard » de France 2 en y incarnant Flexi Brahim.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-217",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_217.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-217-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle maladie l'acteur Michael J. Fox est-il atteint depuis 1991 ?",
+      "answer": "Parkinson",
+      "options": [
+        "Parkinson",
+        "Huntington",
+        "Pick",
+        "Alzheimer"
+      ],
+      "explanation": "En 2000, il fonde la Michael J. Fox Foundation for Parkinson's research la veille de la diffusion du dernier épisode de « Spin City ».",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-217",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_217.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-217-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel créateur est hanté par le souvenir des deux femmes de sa vie décédées ?",
+      "answer": "Daniel Hechter",
+      "options": [
+        "Paco Rabanne",
+        "Thierry Mugler",
+        "Daniel Hechter",
+        "Pierre Cardin"
+      ],
+      "explanation": "Daniel Hechter, né en 1938, est un créateur de mode français de renommée mondiale, considéré comme le créateur du « Sports Wear ».",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-217",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_217.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-217-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui est probablement la plus Suisse des chanteuses américaines ?",
+      "answer": "Tina Turner",
+      "options": [
+        "Hilary Duff",
+        "Patti Smith",
+        "Jennifer Rush",
+        "Tina Turner"
+      ],
+      "explanation": "les contributions constantes de Tina Turner à la musique rock lui ont permis d'acquérir le titre de Queen of Rock 'N' Roll.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-217",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_217.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-217-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel réalisateur américain joue de la clarinette avec le New Orleans Jazz Band ?",
+      "answer": "Woody Allen",
+      "options": [
+        "Woody Allen",
+        "James Cameron",
+        "Oliver Stone",
+        "Sydney Pollack"
+      ],
+      "explanation": "Woody Allen est l'un des cinéastes américains les plus connus et les plus prolifiques de ces quarante dernières années.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-217",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_217.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-217-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle actrice a été choisie comme image du parfum « Si » de Giorgio Armani ?",
+      "answer": "Cate Blanchett",
+      "options": [
+        "Sandra Bullock",
+        "Meryl Streep",
+        "Cate Blanchett",
+        "Kate Winslet"
+      ],
+      "explanation": "Elle a reçu l'Oscar du meilleur second rôle féminin en 2005 pour le rôle de Katharine Hepburn dans « Aviator » de Martin Scorsese.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-217",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_217.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-217-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle chanteuse a partagé la vie de Lance Armstrong de 2003 à 2006 ?",
+      "answer": "Sheryl Crow",
+      "options": [
+        "Joan Osborne",
+        "Sheryl Crow",
+        "LeAnn Rimes",
+        "Sara Evans"
+      ],
+      "explanation": "Sheryl Crow a déjà remporté neuf Grammy Awards entre 1995 et 2007, tout en vendant plus de trente millions d'albums.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-217",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_217.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-217-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle chanteuse de country est aussi la marraine de Miley Cyrus ?",
+      "answer": "Dolly Parton",
+      "options": [
+        "Taylor Swift",
+        "Patsy Cline",
+        "Dolly Parton",
+        "Tammy Wynette"
+      ],
+      "explanation": "Issue d'une fratrie de douze enfants, Dolly Parton est devenue en un demi-siècle la reine incontestée de la musique country.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-217",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_217.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-217-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle actrice française a épousé le célèbre footballeur Eric Cantona ?",
+      "answer": "Rachida Brakni",
+      "options": [
+        "Audrey Tautou",
+        "Rachida Brakni",
+        "Sylvie Testud",
+        "Sara Forestier"
+      ],
+      "explanation": "En 2009, elle posa seins nus pour le magazine Marie-Claire afin d'encourager les femmes à aller passer des mammographies.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-217",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_217.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-217-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel acteur américain est marié avec la chanteuse LeAnn Rimes ?",
+      "answer": "Eddie Cibrian",
+      "options": [
+        "Eddie Cibrian",
+        "Joe Capriano",
+        "Bob Clark",
+        "Leonardo Cimino"
+      ],
+      "explanation": "En 2014, la chaîne VH1 diffusa une émission de télé-réalité intitulée « LeAnn And Eddie » suivant le quotidien de son couple.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-217",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_217.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-217-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel chanteur français a failli perdre la vie en 2013 suite à une péritonite ?",
+      "answer": "Étienne Daho",
+      "options": [
+        "Étienne Daho",
+        "Alain Chamfort",
+        "Pascal Obispo",
+        "Dany Brillant"
+      ],
+      "explanation": "Dans des interviews comme dans plusieurs de ses chansons, il évoque sa bisexualité tout en revendiquant une certaine réserve.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-217",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_217.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-217-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a ouvert à Rome un centre de fitness baptisé « Hard Candy Fitness » ?",
+      "answer": "Madonna",
+      "options": [
+        "Rihanna",
+        "Lady Gaga",
+        "Madonna",
+        "Enya"
+      ],
+      "explanation": "Elle a présenté au même moment sa ligne de vêtements pour adolescentes « Material Girl », dessinée en collaboration avec sa fille.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-217",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_217.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-217-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Avec qui Michael Jordan, ex-roi de la NBA, est-il marié depuis avril 2013 ?",
+      "answer": "Yvette Prieto",
+      "options": [
+        "Chandra North",
+        "Stephanie Seymour",
+        "Yvette Prieto",
+        "Behati Prinsloo"
+      ],
+      "explanation": "Fin 2011, Michael Jordan s'est fiancé avec Yvette Prieto, une ancienne mannequin d'origine cubaine de seize ans sa cadette.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-217",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_217.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-217-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le prénom du fils de Mélanie Laurent, en couple avec un technicien ?",
+      "answer": "Léo",
+      "options": [
+        "Néo",
+        "Julio",
+        "Léo",
+        "Théo"
+      ],
+      "explanation": "Engagée pour la défense de l'environnement, elle co-réalise le film « Demain » qui remportera un César en 2016.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-217",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_217.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-217-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le nom du chien de la célèbre actrice Olivia Palermo ?",
+      "answer": "Mr Butler",
+      "options": [
+        "Captain America",
+        "Palerdog",
+        "Sandwich",
+        "Mr Butler"
+      ],
+      "explanation": "Égérie publicitaire de la marque Mango, elle est considérée comme une personnalité élégante et innovante dans le domaine de la mode.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-217",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_217.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-217-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle jeune mannequin hongroise très demandée a fêté ses 20 ans en 2013 ?",
+      "answer": "Barbara Palvin",
+      "options": [
+        "Andrea Osvart",
+        "Annelies Toros",
+        "Zita Gorog",
+        "Barbara Palvin"
+      ],
+      "explanation": "Avec son look de Lolita, Barbara Palvin, devenue aujourd'hui top model, rappelle à la fois Brooke Shields et Natalia Vodianova.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-217",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_217.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-217-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment se prénomme la fille née du mariage de Jérémy Chatelain avec Alizée ?",
+      "answer": "Annily",
+      "options": [
+        "Stephany",
+        "Kristy",
+        "Annily",
+        "Fanny"
+      ],
+      "explanation": "Jérémy Chatelain est un chanteur et producteur français qui s'est fait connaître en participant à la seconde édition de « Star Academy ».",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-217",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_217.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-217-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle fashionista a révélé ne jamais rien jeter des tous ses vêtements de luxe ?",
+      "answer": "Chloë Sevigny",
+      "options": [
+        "Jennifer Connelly",
+        "Emily Blunt",
+        "Chloë Sevigny",
+        "Vanessa Redgrave"
+      ],
+      "explanation": "De 2006 à 2011, Chloë Sevigny a joué dans la série à succès « Big Love » le rôle de Nicolette Grant sur la chaîne HBO.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-217",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_217.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-217-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle actrice Richard Gere a-t-il divorcé après onze ans de long et beau mariage ?",
+      "answer": "Carey Lowell",
+      "options": [
+        "Maryam d'Abo",
+        "Famke Janssen",
+        "Carey Lowell",
+        "Izabella Scorupco"
+      ],
+      "explanation": "Carey Lowell est également connue pour avoir interprété la James Bond girl Pam Bouvier dans « Permis de tuer » avec Timothy Dalton.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-217",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_217.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-217-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quelle starlette des Anges 5 Sydney Liebes ressemble-t-elle assez fortement ?",
+      "answer": "Capucine Anav",
+      "options": [
+        "Capucine Anav",
+        "Amélie Neten",
+        "Nabilla Benattia",
+        "Marie Garet"
+      ],
+      "explanation": "Le père de Capucine Anav possède de nombreux magasins de vêtements à travers la France et sa mère est coach sportive.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-217",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_217.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

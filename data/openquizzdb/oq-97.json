@@ -1,0 +1,798 @@
+{
+  "id": "oq-97",
+  "title": "Unités de mesure",
+  "originalTitle": "Unités de mesure",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_97.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-97-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est l'abréviation du Système international d'unités, le plus largement employé au monde ?",
+      "answer": "SI",
+      "options": [
+        "UIS",
+        "SI",
+        "SIU",
+        "IUS"
+      ],
+      "explanation": "Le Système international compte sept unités de base, censées quantifier des grandeurs physiques indépendantes.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-97",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_97.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-97-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que mesure-t-on avec l'échelle Kelvin, du nom de William Thomson, Lord Kelvin ?",
+      "answer": "Une température",
+      "options": [
+        "Une température",
+        "Une distance",
+        "Un poids",
+        "Une vitesse"
+      ],
+      "explanation": "À la différence du degré Celsius, le kelvin est une mesure absolue de la température.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-97",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_97.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-97-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la température moyenne du corps humain en degrés Celsius ?",
+      "answer": "36,8 °",
+      "options": [
+        "40,6 °",
+        "34,6 °",
+        "36,8 °",
+        "38,6 °"
+      ],
+      "explanation": "Les organes internes ne fonctionnent correctement que lorsqu'ils sont soumis à certaines gammes de température.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-97",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_97.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-97-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui développa la mesure de la magnitude suite à la publication de ses travaux en 1935 ?",
+      "answer": "Richter",
+      "options": [
+        "Richter",
+        "Monoyer",
+        "Pauling",
+        "Rankine"
+      ],
+      "explanation": "Richter a obtenu un doctorat en physique théorique du California Institute of Technology (Caltech) en 1928.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-97",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_97.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-97-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces pays ou territoires n'utilise pas le degré Celsius ?",
+      "answer": "États-Unis",
+      "options": [
+        "Italie",
+        "États-Unis",
+        "Australie",
+        "Canada"
+      ],
+      "explanation": "Les États-Unis, Belize et les Îles Caïman utilisent toujours l'échelle Fahrenheit.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-97",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_97.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-97-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le nom de l'unité du système international qui mesure une fréquence ?",
+      "answer": "Hertz",
+      "options": [
+        "Joule",
+        "Hertz",
+        "Becquerel",
+        "Katal"
+      ],
+      "explanation": "La radio FM utilise la modulation de fréquence des ondes radios sur une bande allant de 87,5 MHz à 108 MHz.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-97",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_97.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-97-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces échelles mesure l'intensité et la magnitude d'un séisme ?",
+      "answer": "Richter",
+      "options": [
+        "Leyden",
+        "Ines",
+        "Torro",
+        "Richter"
+      ],
+      "explanation": "Le séisme le plus puissant mesuré, atteignant la valeur de 9,5, fut celui de 1960 au Chili.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-97",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_97.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-97-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est l'unité de mesure de la masse, selon le système SI ?",
+      "answer": "Le gramme",
+      "options": [
+        "Le mètre",
+        "Le gramme",
+        "La livre",
+        "Le pouce"
+      ],
+      "explanation": "Le gramme a pour origine le gravet, unité de poids créée par la Convention nationale en août 1793.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-97",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_97.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-97-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces propositions désigne une unité de mesure dans l'industrie de la joaillerie ?",
+      "answer": "Le carat",
+      "options": [
+        "Le curie",
+        "Le carat",
+        "La verste",
+        "Le morgan"
+      ],
+      "explanation": "De l'or à 15 carats signifie que dans 24 g d'alliage, on trouve 15 g d'or pur. De l'or 24 carats est de l'or pur.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-97",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_97.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-97-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans le SI, quelle est l'unité de mesure d'une intensité électrique ?",
+      "answer": "Ampère",
+      "options": [
+        "Candela",
+        "Kelvin",
+        "Mole",
+        "Ampère"
+      ],
+      "explanation": "Un courant d'un ampère correspond au transport d'une charge électrique d'un coulomb par seconde.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-97",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_97.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-97-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Le mot « kilogramme » est dérivé du grec ancien kilo qui signifie...",
+      "answer": "Mille",
+      "options": [
+        "Lourd",
+        "Cent",
+        "Mille",
+        "Gros"
+      ],
+      "explanation": "Le kilogramme est la seule unité SI de base possédant un préfixe (« kilo ») utilisé pour désigner le millier d'une unité dans son nom.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-97",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_97.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-97-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle unité mesure l'activité catalytique, vitesse d'une réaction chimique ?",
+      "answer": "Katal",
+      "options": [
+        "Siemens",
+        "Gray",
+        "Katal",
+        "Joule"
+      ],
+      "explanation": "Le katal est une unité introduite en octobre 1999 comme unité dérivée du Système international d'unités.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-97",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_97.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-97-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À partir de quelle valeur sur l'échelle de Turin une collision avec la Terre est-elle certaine ?",
+      "answer": "Huit",
+      "options": [
+        "Deux",
+        "Huit",
+        "Six",
+        "Quatre"
+      ],
+      "explanation": "Cette valeur n'est pas définitive car elle dépend des connaissances et des observations en cours.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-97",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_97.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-97-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle unité photométrique, tout comme la candela, permet de mesurer un flux lumineux ?",
+      "answer": "Le lumen",
+      "options": [
+        "Le hertz",
+        "Le lux",
+        "Le tesla",
+        "Le lumen"
+      ],
+      "explanation": "Le lumen est une unité dérivée de la candella, fondée sur la perception humaine de la lumière.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-97",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_97.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-97-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel pays l'ancienne mesure de longueur appelée « verste » était-elle utilisée ?",
+      "answer": "La Russie",
+      "options": [
+        "La Russie",
+        "La Suisse",
+        "La Grèce",
+        "La Belgique"
+      ],
+      "explanation": "La verste fut abolie en 1918 par un décret du soviet des commissaires du peuple.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-97",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_97.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-97-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À la suite de quel accident nucléaire l'échelle INES a-t-elle été mise en place ?",
+      "answer": "Tchernobyl",
+      "options": [
+        "Lucens",
+        "Fukushima",
+        "Three Mile Island",
+        "Tchernobyl"
+      ],
+      "explanation": "Les événements signalés sont analysés en fonction de leurs conséquences, selon trois « zones d’incidences ».",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-97",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_97.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-97-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle unité de volume anglo-saxonne, utilisée pour mesurer les liquides, correspond à 3,78 litres ?",
+      "answer": "Le gallon US",
+      "options": [
+        "Le gallon US",
+        "L'once US",
+        "La livre GB",
+        "Le yard US"
+      ],
+      "explanation": "En 1824, la Grande-Bretagne adopta une mesure proche du gallon d'ale, et cette mesure devint le gallon impérial.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-97",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_97.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-97-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces propositions désigne une unité de masse pratiquement plus usitée ?",
+      "answer": "Le quintal",
+      "options": [
+        "La verste",
+        "Le morgan",
+        "Le quintal",
+        "Le curie"
+      ],
+      "explanation": "Il est interdit d'utiliser le quintal en tant qu'unité de masse dans les domaines du commerce.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-97",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_97.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-97-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la nationalité du physicien qui a inspiré le nom de l'unité coulomb ?",
+      "answer": "Française",
+      "options": [
+        "Portugaise",
+        "Française",
+        "Anglaise",
+        "Espagnole"
+      ],
+      "explanation": "Ingénieur de formation, surtout physicien, Coulomb a publié 7 traités sur l'électricité et le magnétisme.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-97",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_97.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-97-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces échelles, développée vers 1700, mesure la température ?",
+      "answer": "Newton",
+      "options": [
+        "Scoville",
+        "Newton",
+        "INES",
+        "Kardashev"
+      ],
+      "explanation": "L'échelle Newton est une échelle de mesure de température, développée vers 1700 par le physicien anglais Isaac Newton.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-97",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_97.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-97-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans le Système international d'unités, quelle est l'unité de mesure d'une quantité de matière ?",
+      "answer": "Mole",
+      "options": [
+        "Candela",
+        "Ampère",
+        "Mole",
+        "Kelvin"
+      ],
+      "explanation": "La mole est une unité de comptage au même titre que la centaine, la vingtaine ou la douzaine.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-97",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_97.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-97-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le nom de l'unité qui mesure une pression et une contrainte ?",
+      "answer": "Pascal",
+      "options": [
+        "Pascal",
+        "Lux",
+        "Bequerel",
+        "Farad"
+      ],
+      "explanation": "Le pascal étant une unité relativement petite par rapport aux valeurs usuelles, on utilise souvent ses multiples.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-97",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_97.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-97-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle unité dérivée du système international permet de mesurer les angles plans ?",
+      "answer": "Le radian",
+      "options": [
+        "Le curie",
+        "Le radian",
+        "Le morgan",
+        "La lieue"
+      ],
+      "explanation": "Le mot « radian » a été inventé au cours des années 1870 par Thomas Muir.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-97",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_97.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-97-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année le pied, utilisé comme unité de mesure, a-t-il été abandonné en France ?",
+      "answer": "1799",
+      "options": [
+        "1699",
+        "1799",
+        "1599",
+        "1899"
+      ],
+      "explanation": "Cette unité est encore utilisée dans beaucoup de pays anglo-saxons et d'anciennes colonies de l'empire britannique.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-97",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_97.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-97-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de kilomètres font 127 miles, distance séparant Lille de Paris ?",
+      "answer": "204 km",
+      "options": [
+        "254 km",
+        "129 km",
+        "204 km",
+        "134 km"
+      ],
+      "explanation": "Il ne faut pas confondre le mille international avec le mile terrestre américain ou le « mille marin ».",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-97",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_97.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-97-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle échelle, créée en 1971, sert à classer les tornades par ordre de gravité ?",
+      "answer": "Fujita",
+      "options": [
+        "Brinell",
+        "Danjon",
+        "Haines",
+        "Fujita"
+      ],
+      "explanation": "L'échelle de Fujita originale est constituée de 6 catégories, graduées de F0 à F5.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-97",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_97.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-97-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces propositions désigne une unité de mesure utilisée dans l'industrie de la joaillerie ?",
+      "answer": "Zolotnik",
+      "options": [
+        "Morgan",
+        "Verste",
+        "Curie",
+        "Zolotnik"
+      ],
+      "explanation": "Le zolotnik équivaut à un quart de carat, soit un nonante-sixième de gramme.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-97",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_97.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-97-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quoi peut-on trouver un nombre d'Avogardo, nommé en l'honneur d'Amedeo Avogadro ?",
+      "answer": "Une mole",
+      "options": [
+        "Un kilogramme",
+        "Une seconde",
+        "Une mole",
+        "Une joule"
+      ],
+      "explanation": "Il correspond au nombre d'atomes de carbone dans 12 grammes de l'isotope 12 du carbone.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-97",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_97.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-97-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la valeur maximale de l'échelle de Glasgow, indicateur de l'état de conscience ?",
+      "answer": "15",
+      "options": [
+        "5",
+        "20",
+        "10",
+        "15"
+      ],
+      "explanation": "Cette échelle fut développée par G. Teasdale et B. Jennet à l'institut de neurologie de Glasgow (Écosse).",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-97",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_97.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-97-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans le Système international d'unités, quelle est l'unité de mesure d'une intensité lumineuse ?",
+      "answer": "Candela",
+      "options": [
+        "Kelvin",
+        "Ampère",
+        "Mole",
+        "Candela"
+      ],
+      "explanation": "La candela a été définie le 21 octobre 1948 par la neuvième conférence générale des poids et mesures.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-97",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_97.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

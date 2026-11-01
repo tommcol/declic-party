@@ -1,0 +1,798 @@
+{
+  "id": "oq-253",
+  "title": "Florence Foresti",
+  "originalTitle": "Florence Foresti (Humoriste et féministe engagée)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_253.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-253-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "L'humoriste Florence Foresti est née en 1973 dans une famille de quelle origine ?",
+      "answer": "Italienne",
+      "options": [
+        "Grecque",
+        "Espagnole",
+        "Allemande",
+        "Italienne"
+      ],
+      "explanation": "Son père est chef d'entreprise d'une société de maintenance industrielle et sa mère est employée de bureau.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-253",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_253.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-253-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle bimbo écervelée est âgée de 24 ans et 12 mois ?",
+      "answer": "Brigitte",
+      "options": [
+        "Vera",
+        "Brigitte",
+        "Kelly",
+        "Noémie"
+      ],
+      "explanation": "Brigitte fait partie des nombreux personnages incarnés par Florence Foresti dans l'émission « On a tout essayé ».",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-253",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_253.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-253-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel métier a-t-elle exercé au service audiovisuel d'EDF à Lyon ?",
+      "answer": "Infographiste",
+      "options": [
+        "Ingénieur son",
+        "Infographiste",
+        "Journaliste",
+        "Comptable"
+      ],
+      "explanation": "À vingt ans, Florence Foresti a intégré un cours de théâtre classique à Lyon, qu'elle a quitté au bout de deux jours seulement.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-253",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_253.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-253-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle émission Florence Foresti a-t-elle interprété des personnages loufoques ?",
+      "answer": "On a tout essayé",
+      "options": [
+        "Sacha Show",
+        "Paris Dernière",
+        "On a tout essayé",
+        "36 chandelles"
+      ],
+      "explanation": "Elle y crée une galerie de personnages fictifs, délirants et hauts en couleur, qui deviendront vite populaires en eux-mêmes.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-253",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_253.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-253-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel spectacle de Florence Foresti parle de la maternité ?",
+      "answer": "Mother Fucker",
+      "options": [
+        "C'est dimanche",
+        "Toute entière",
+        "Baby Boom",
+        "Mother Fucker"
+      ],
+      "explanation": "Le spectacle est sacré « meilleur one-man-show » au Globes de Cristal 2010. Le DVD est sorti en novembre de la même année.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-253",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_253.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-253-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui Florence Foresti a-t-elle parodié pour les 10 ans de « Salut les Terriens ! » ?",
+      "answer": "Thierry Ardisson",
+      "options": [
+        "Antoine de Caunes",
+        "Thierry Ardisson",
+        "Thierry Beccaro",
+        "Julien Courbet"
+      ],
+      "explanation": "Le générique de l'émission et les jingles sont joués en direct par le groupe Les Gréements de Fortune, présent sur le plateau.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-253",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_253.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-253-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel spectacle Florence Foresti a-t-elle proposé en 2012 ?",
+      "answer": "Foresti Party",
+      "options": [
+        "Foresti Party",
+        "C'est pas drôle",
+        "Mother Fucker",
+        "Madame Foresti"
+      ],
+      "explanation": "Son spectacle comporte divers invités, des interludes sous forme de sketchs télévisés et de chansons, et des chorégraphies.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-253",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_253.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-253-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quelle occasion Florence Foresti a-t-elle été maîtresse de cérémonie ?",
+      "answer": "César",
+      "options": [
+        "Molière",
+        "Oscar",
+        "NRJ Music Award",
+        "César"
+      ],
+      "explanation": "Pour la première fois dans l'histoire des César, les temps de paroles des nommés sont dorénavant chronométrés à 2 minutes 30.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-253",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_253.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-253-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel film belge d'Olivier Van Hoofstadt Florence Foresti a-t-elle tourné ?",
+      "answer": "Dikkenek",
+      "options": [
+        "Go Fast",
+        "Parabellum",
+        "Dikkenek",
+        "Sketté"
+      ],
+      "explanation": "Le film est bien noté par certains critiques mais reste plutôt mal noté et uniquement conseillé pour les amateurs du genre.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-253",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_253.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-253-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle lycéenne révolutionnaire et rebelle est super vénère ?",
+      "answer": "Clotilde",
+      "options": [
+        "Barbara",
+        "Valérie",
+        "Lucile",
+        "Clotilde"
+      ],
+      "explanation": "Surnommée Clo, âgée de 16 ans et demi, elle est en terminale au lycée Jean-Luc Lahaye (Émile Zola dans le premier sketch).",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-253",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_253.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-253-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel trio Florence Foresti a-t-elle formé avec Céline Iannucci et Cécile Giroud ?",
+      "answer": "Les Taupes Models",
+      "options": [
+        "Les Taupes Models",
+        "Les Luthiers",
+        "Les Snuls",
+        "Les 3 Jeanne"
+      ],
+      "explanation": "Le trio se fit remarquer et Florence Foresti est repérée par Chris Loung, alors auteur, productrice exécutive et directrice artistique.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-253",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_253.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-253-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle pièce de théâtre Florence Foresti partage-t-elle l'affiche avec Philippe Elno ?",
+      "answer": "L'Abribus",
+      "options": [
+        "La crèche",
+        "Hep Taxi!",
+        "Barbecue",
+        "L'Abribus"
+      ],
+      "explanation": "Elle y joue une comédienne célèbre, tombée en panne en pleine campagne et tombant sur un homme qui ne la reconnaît pas.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-253",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_253.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-253-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel film Florence Foresti partage-t-elle l'affiche avec Jamel Debbouze ?",
+      "answer": "Hollywoo",
+      "options": [
+        "Hold-up",
+        "Hollywoo",
+        "Le Hérisson",
+        "Human Zoo"
+      ],
+      "explanation": "Le film, malgré des têtes d'affiches populaires et une Florence Foresti « bankable », sort fin 2011 et connaît un flop critique.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-253",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_253.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-253-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle productrice télé Florence Foresti a-t-elle souvent parodié ?",
+      "answer": "Catherine Barma",
+      "options": [
+        "Maritie Carpentier",
+        "Michèle Manceaux",
+        "Catherine Barma",
+        "Catherine Terzieff"
+      ],
+      "explanation": "De 2011 a 2014, Catherine Barma était connue en tant que membre du jury de l'émission télévisée « On n'demande qu'à en rire ».",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-253",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_253.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-253-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel jeu présenté par Alain Chabat Florence Foresti fut-elle candidate ?",
+      "answer": "Burger Quiz",
+      "options": [
+        "Jeux sans enjeu",
+        "Qui chante juste",
+        "Burger Quiz",
+        "Taxi Cash"
+      ],
+      "explanation": "L'audience du divertissement a oscillé toute la première saison entre 950 000 et 1,5 million de téléspectateurs.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-253",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_253.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-253-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle émission Florence Foresti a-t-elle interprété Kim dans la « Bern Academy » ?",
+      "answer": "20h10 pétantes",
+      "options": [
+        "Groland",
+        "Un autre midi",
+        "La Matinale",
+        "20h10 pétantes"
+      ],
+      "explanation": "Stéphane Bern s'entretient avec trois invités sur leur actualité tandis qu'Ariel Wizman les commente sur un ton humoristique.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-253",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_253.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-253-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Aux côtés de qui Florence Foresti a-t-elle fait la première de « Panique dans l'oreillette » ?",
+      "answer": "Frédéric Lopez",
+      "options": [
+        "William Leymergie",
+        "Jean-Luc Lemoine",
+        "Yves Lecoq",
+        "Frédéric Lopez"
+      ],
+      "explanation": "Malgré des audiences jugées satisfaisantes par l'animateur, Frédéric Lopez arrêtera l'émission, faute de moyens suffisants.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-253",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_253.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-253-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle comédie d'Éric Lavaine interprète-t-elle Olivia ?",
+      "answer": "Barbecue",
+      "options": [
+        "Barbecue",
+        "Poltergay",
+        "Incognito",
+        "Bienvenue à bord"
+      ],
+      "explanation": "Franck Dubosc joue Baptiste, mari D'Olivia, mais séparé d'elle et Florence Foresti Olivia, épouse de Baptiste, mais séparé d'elle.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-253",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_253.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-253-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel film d'animation Florence Foresti prête-t-elle sa voix à Chloé ?",
+      "answer": "Comme des bêtes",
+      "options": [
+        "Le Lorax",
+        "Les Minions",
+        "Comme des bêtes",
+        "Tous en scène"
+      ],
+      "explanation": "Le film a engendré des critiques moyennes tendant vers le positif, les plus généreuses étant celles de Rotten Tomatoes.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-253",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_253.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-253-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle mini série Florence Foresti a-t-elle fait une apparition ?",
+      "answer": "Bref",
+      "options": [
+        "Falco",
+        "Bref",
+        "Cannabis",
+        "Aurore"
+      ],
+      "explanation": "C'est dans un épisode diffusé en mars 2012, intitulé « Bref. Y'a des gens qui m'énervent » que l'on a pu apercevoir Florence Foresti.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-253",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_253.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-253-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville Florence Foresti a-t-elle passé une bonne partie de son enfance ?",
+      "answer": "Brignais",
+      "options": [
+        "Sisteron",
+        "Brignais",
+        "Cholet",
+        "Pithiviers"
+      ],
+      "explanation": "Je suis restée une petite fille sans histoire jusqu'à l'âge de 8 ans, puis je suis devenue un garçon manqué, un chef de bande.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-253",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_253.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-253-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le prénom de l'unique soeur de Florence Foresti ?",
+      "answer": "Claire",
+      "options": [
+        "Sophie",
+        "Brigitte",
+        "Marie",
+        "Claire"
+      ],
+      "explanation": "Cadette d'une famille de deux enfants, sa soeur aînée, Claire Foresti, née en 1971, est responsable d'un salon de massage.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-253",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_253.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-253-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sur quelle émission télé Florence Foresti a-t-elle fait son stage de fin d'études ?",
+      "answer": "Thalassa",
+      "options": [
+        "Thalassa",
+        "Vu sur Terre",
+        "Planète insolite",
+        "Ushuaïa Nature"
+      ],
+      "explanation": "Après avoir passé un baccalauréat littéraire option anglais au lycée de Saint-Just à Lyon, elle intègre une école de cinéma et de vidéo.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-253",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_253.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-253-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Pour quelle raison Florence Foresti a-t-elle dû retarder sa tournée de 2007 à Dijon ?",
+      "answer": "Appendicite",
+      "options": [
+        "Oreillons",
+        "Bras cassé",
+        "Appendicite",
+        "Pied fracturé"
+      ],
+      "explanation": "Le public apprend alors qu'elle est enceinte de trois mois et l'humoriste annonce qu'elle arrête toute apparition télévisuelle.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-253",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_253.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-253-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel humoriste fut le premier mari de Florence Foresti ?",
+      "answer": "Jérôme Daran",
+      "options": [
+        "Jérôme Daran",
+        "Arnaud Ducret",
+        "Gérald Dahan",
+        "Karim Duval"
+      ],
+      "explanation": "Florence Foresti a fait appel à Jérôme Daran pour co-écrire avec elle des sketches qui connaissent un grand succès à la télévision.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-253",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_253.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-253-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est le prénom de la fille de Florence Foresti, née en 2007 ?",
+      "answer": "Toni",
+      "options": [
+        "Aude",
+        "Sarah",
+        "Claire",
+        "Toni"
+      ],
+      "explanation": "En 2006, elle se met en couple avec Julien, un organisateur de tournée d'origine brésilienne, dont elle se séparera en 2010.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-253",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_253.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-253-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui Florence Foresti a-t-elle embrassé lors de la remise des César du cinéma en 2009 ?",
+      "answer": "Sean Penn",
+      "options": [
+        "Tom Cruise",
+        "Ryan Reynolds",
+        "Jean Reno",
+        "Sean Penn"
+      ],
+      "explanation": "Ella a d'abord joué un sketch qui consistait à faire croire qu'elle allait embrasser Sean Penn, lequel a finalement joué le jeu.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-253",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_253.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-253-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Aux côtés de quel célèbre internaute Florence Foresti est-elle apparue en 2017 ?",
+      "answer": "Cyprien",
+      "options": [
+        "Cyprien",
+        "Mister V",
+        "Norman",
+        "GuiHome"
+      ],
+      "explanation": "C'est dans le sketch de Cyprien « L'invention du corps humain », diffusé sur YouTube, que l'on a pu apercevoir Florence Foresti.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-253",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_253.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-253-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année Florence Foresti a-t-elle reçu le Grand prix Sacem de l'humour ?",
+      "answer": "2010",
+      "options": [
+        "2008",
+        "2010",
+        "2012",
+        "2006"
+      ],
+      "explanation": "Avant elle, ce fut Franck Dubosc (2006), Alexandre Astier (2007), Muriel Robin (2008) et Anne Roumanoff (2009) qui furent primés.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-253",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_253.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-253-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a réalisé le documentaire « La folle histoire de Florence Foresti » ?",
+      "answer": "Aurélie Condou",
+      "options": [
+        "Marion Stalens",
+        "Alice Diop",
+        "Aurélie Condou",
+        "Stéphanie Mercurio"
+      ],
+      "explanation": "Aurélie Condou est réalisatrice et responsable du pole documentaire chez AH! Productions en région parisienne.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-253",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_253.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

@@ -1,0 +1,774 @@
+{
+  "id": "oq-190",
+  "title": "Culture en vrac 2",
+  "originalTitle": "Culture en vrac 2 (De la culture générale à tous les niveaux)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_190.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    10
+  ],
+  "questions": [
+    {
+      "id": "oqdb-190-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel acteur, chanteur et humoriste aimé des français s'appelait en réalité André Raimbourg ?",
+      "answer": "Bourvil",
+      "options": [
+        "Rufus",
+        "Fernandel",
+        "Coluche",
+        "Bourvil"
+      ],
+      "explanation": "Bourvil a reçu le prix du meilleur acteur du festival de Venise pour son rôle dans le film 'La Traversée de Paris' de Claude Autant-Lara.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-190",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_190.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-190-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel fromage représente, avec la baguette et le béret, l'image traditionnelle des Français ?",
+      "answer": "Camembert",
+      "options": [
+        "Fourme",
+        "Camembert",
+        "Boursin",
+        "Babybel"
+      ],
+      "explanation": "Symbole de son aura, il existe des collectionneurs de boîtes de camembert appelés tyrosémiophiles.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-190",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_190.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-190-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a interprété 'L'Homme de la Mancha' aux côtés de Dario Moreno ?",
+      "answer": "Jacques Brel",
+      "options": [
+        "Christian Vidal",
+        "Pierre Rapsat",
+        "Salvatore Adamo",
+        "Jacques Brel"
+      ],
+      "explanation": "Fort de l'immense succès de Bruxelles, le spectacle est repris au théâtre des Champs-Élysées à Paris dès décembre 1968.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-190",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_190.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-190-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel roman a souvent été décrit comme le plus représentatif des années folles ?",
+      "answer": "Gatsby le Magnifique",
+      "options": [
+        "Germinal",
+        "David Copperfield",
+        "Moby Dick",
+        "Gatsby le Magnifique"
+      ],
+      "explanation": "Le public n'a pas bien accueilli ce roman : sur les 75 000 ventes escomptées, 24 000 exemplaires furent vendus à sa sortie.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-190",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_190.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-190-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En entomologie, quel insecte est parfois désigné comme demoiselle ?",
+      "answer": "Libellule",
+      "options": [
+        "Mouche",
+        "Moustique",
+        "Libellule",
+        "Coccinelle"
+      ],
+      "explanation": "On les distingue des libellules au sens strict, surtout par leur corps plus grêle et leurs ailes généralement repliées au repos.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-190",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_190.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-190-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel océan pouvez-vous vous baigner si vous voyagez en Argentine ?",
+      "answer": "Atlantique",
+      "options": [
+        "Indien",
+        "Pacifique",
+        "Arctique",
+        "Atlantique"
+      ],
+      "explanation": "Le climat est typique de façade orientale des continents, subtropical humide dans le nord et subantarctique dans l'extrême sud du pays.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-190",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_190.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-190-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "La saignée a peu à peu médicalement remplacé quel hermaphrodite ?",
+      "answer": "Sangsue",
+      "options": [
+        "Sangsue",
+        "Cochenille",
+        "Lombric",
+        "Escargot"
+      ],
+      "explanation": "Certaines espèces font l'objet d'un usage médicinal mais la diversité des sangsues est encore aujourd'hui mal connue dans le monde.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-190",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_190.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-190-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment fut aussi appelé le mercure jusqu'au début du XIXe siècle ?",
+      "answer": "Vif-argent",
+      "options": [
+        "Radon",
+        "Gallium",
+        "Étain",
+        "Vif-argent"
+      ],
+      "explanation": "Le mercure, de symbole Hg, a longtemps été utilisé dans les thermomètres et les batteries avant d'être interdit en 1999.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-190",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_190.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-190-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel pays a perdu environ quinze pourcents de sa population entre 1939 et 1945 ?",
+      "answer": "Pologne",
+      "options": [
+        "Luxembourg",
+        "Norvège",
+        "Tchécoslovaquie",
+        "Pologne"
+      ],
+      "explanation": "L'invasion de la Pologne orientale par l'Armée rouge le 17 septembre 1939 asséna un coup fatal au plan de défense polonais.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-190",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_190.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-190-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le diamètre approximatif de la place Charles-de-Gaulle à Paris ?",
+      "answer": "240 m",
+      "options": [
+        "240 m",
+        "200 m",
+        "280 m",
+        "160 m"
+      ],
+      "explanation": "Encore très connue sous son ancien nom (place de l'Étoile), cette place fut officiellement rebaptisée le 13 novembre 1970.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-190",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_190.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-190-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Les USA sont entrés en guerre en 1915 suite au torpillage de quel paquebot ?",
+      "answer": "Lusitania",
+      "options": [
+        "Queen Elisabteth",
+        "Titanic",
+        "Lusitania",
+        "France"
+      ],
+      "explanation": "Le RMS Lusitania fut torpillé par un sous-marin allemand U-20, le 7 mai 1915, au large de l'Irlande, avec 1 200 passagers à bord.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-190",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_190.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-190-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sur un planisphère, de quel côté se situe le mont Blanc par rapport au lac Léman ?",
+      "answer": "Sud",
+      "options": [
+        "Ouest",
+        "Est",
+        "Nord",
+        "Sud"
+      ],
+      "explanation": "Le Léman ou lac de Genève est traversé d'est en ouest par le Rhône qui constitue le principal affluent du lac.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-190",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_190.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-190-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel célèbre peintre florentin a habité le manoir du Cloux, à Amboise ?",
+      "answer": "Léonard de Vinci",
+      "options": [
+        "Léonard de Vinci",
+        "Bernardo Daddi",
+        "Filippino Lippi",
+        "Valerio Cigoli"
+      ],
+      "explanation": "C'est François Ier qui le mettra à la disposition de Léonard de Vinci qui y vivra trois ans, jusqu'à sa mort le 2 mai 1519.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-190",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_190.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-190-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces tragédies n'a pas été écrite par William Shakespeare ?",
+      "answer": "César et Rosalie",
+      "options": [
+        "César et Rosalie",
+        "Antoine et Cléopâtre",
+        "Le Roi Lear",
+        "Roméo et Juliette"
+      ],
+      "explanation": "Shakespeare est réputé pour sa maîtrise des formes poétiques et sa capacité à représenter les aspects de la nature humaine.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-190",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_190.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-190-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces professions Beaumarchais n'a-t-il pas exercé ?",
+      "answer": "Pâtissier",
+      "options": [
+        "Espion",
+        "Pâtissier",
+        "Négrier",
+        "Musicien"
+      ],
+      "explanation": "Figure importante du siècle des Lumières, Beaumarchais est estimé comme un des annonciateurs de la Révolution française.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-190",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_190.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-190-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment se prénomme le valet de D'Artagnan créé par Alexandre Dumas ?",
+      "answer": "Planchet",
+      "options": [
+        "Carlos",
+        "Planchet",
+        "Dantès",
+        "Sancho"
+      ],
+      "explanation": "Bien que traité occasionnellement comme un personnage comique, Planchet se montre un serviteur efficace, intelligent et très dévoué.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-190",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_190.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-190-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle chanteuse s'est donné '2 minutes 35 de bonheur' en 1967 ?",
+      "answer": "Sylvie Vartan",
+      "options": [
+        "Françoise Hardy",
+        "Alice Dona",
+        "Brigitte Bardot",
+        "Sylvie Vartan"
+      ],
+      "explanation": "'2'35 de bonheur' est le sixième album de Sylvie Vartan, sorti en LP 33 tours en 1967 et chanté aux côtés de son ami Carlos.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-190",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_190.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-190-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel journal a longtemps été l'organe officiel du Parti Communiste Français ?",
+      "answer": "L'Humanité",
+      "options": [
+        "Libération",
+        "L'Opinion",
+        "Le Figaro",
+        "L'Humanité"
+      ],
+      "explanation": "Comme de nombreux titres de la presse écrite, le journal fondé par Jean Jaurès bénéficie de subventions de la part de l'État français.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-190",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_190.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-190-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui Marlon Brando séduit-il dans 'Le Dernier Tango à Paris' ?",
+      "answer": "Maria Schneider",
+      "options": [
+        "Anna Magnani",
+        "Eva Marie Saint",
+        "Joanne Woodward",
+        "Maria Schneider"
+      ],
+      "explanation": "Le réalisateur avait fait le rêve de rencontrer une femme dans la rue et d'avoir avec elle un rapport sexuel sans connaître son nom.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-190",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_190.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-190-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui incarne la première femme sur terre dans la mythologie grecque ?",
+      "answer": "Pandore",
+      "options": [
+        "Eurydice",
+        "Séléné",
+        "Psyché",
+        "Pandore"
+      ],
+      "explanation": "La boîte de Pandore contenait notamment la Vieillesse, la Maladie, la Guerre, la Famine, la Misère, la Folie, la Mort et le Vice.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-190",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_190.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-190-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel pays consomme-t-on annuellement le plus de pommes de terre par habitant ?",
+      "answer": "Russie",
+      "options": [
+        "France",
+        "Russie",
+        "Allemagne",
+        "Inde"
+      ],
+      "explanation": "La pomme de terre est un aliment relativement riche en amidon et parfois considéré comme un féculent.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-190",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_190.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-190-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Avec laquelle de ses épouses Clark Gable a-t-il déclaré avoir été le plus heureux ?",
+      "answer": "Carole Lombard",
+      "options": [
+        "Carole Lombard",
+        "Josephine Dillon",
+        "Kay Williams",
+        "Sylvia Ashley"
+      ],
+      "explanation": "Après son accident d'avion, Carole Lombard deviendra la première femme américaine victime de la Seconde Guerre mondiale.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-190",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_190.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-190-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel code binaire est aussi appelé code télégraphique Alphabet International ?",
+      "answer": "Code Baudot",
+      "options": [
+        "Code morse",
+        "Sémaphore",
+        "Code Baudot",
+        "Code Chappe"
+      ],
+      "explanation": "Ce code inventé en 1877, bien que plus riche que le code Morse, ne traite pas les minuscules ni certains symboles.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-190",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_190.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-190-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel pays peut-on manger du maniçoba servi avec du riz ?",
+      "answer": "Brésil",
+      "options": [
+        "Vietnam",
+        "Inde",
+        "Sénégal",
+        "Brésil"
+      ],
+      "explanation": "Ce plat festif est fait avec des feuilles de la plante Manioc qui ont été finement broyées et bouillies pendant une semaine.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-190",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_190.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-190-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel élément possède le plus haut point de fusion de tous les métaux ?",
+      "answer": "Tungstène",
+      "options": [
+        "Platine",
+        "Or",
+        "Nickel",
+        "Tungstène"
+      ],
+      "explanation": "Le tungstène pur est un métal dur allant du gris acier au blanc étain que l'on peut couper à l'aide d'une scie à métaux.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-190",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_190.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-190-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel romancier s'est suicidé au cyanure quai Voltaire, à Paris ?",
+      "answer": "Montherlant",
+      "options": [
+        "Malraux",
+        "Butor",
+        "Hemingway",
+        "Montherlant"
+      ],
+      "explanation": "À sa mort en 1972, Montherlant laissera un mot à Jean-Claude Barat, son légataire universel: 'Je deviens aveugle. Je me tue'.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-190",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_190.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-190-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Jeanne Chauvin fut la première femme en France à exercer quel métier ?",
+      "answer": "Avocate",
+      "options": [
+        "Banquière",
+        "Ministre",
+        "Pharmacienne",
+        "Avocate"
+      ],
+      "explanation": "Depuis 2017, la bibliothèque de la faculté de droit de l'université publique Paris-Descartes porte le nom de Jeanne Chauvin.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-190",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_190.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-190-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle rivière est aussi le plus long affluent du fleuve Mississippi ?",
+      "answer": "Missouri",
+      "options": [
+        "Arkansas",
+        "Minnesota",
+        "Wisconsin",
+        "Missouri"
+      ],
+      "explanation": "Le Missouri est surnommé Big Muddy car ses eaux charrient du limon visible à son point de confluence avec le Mississippi.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-190",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_190.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-190-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel célèbre homme politique français est né la même année que Jean-Paul II ?",
+      "answer": "Georges Marchais",
+      "options": [
+        "Georges Marchais",
+        "François Miterrand",
+        "Jacques Chirac",
+        "Raymond Barre"
+      ],
+      "explanation": "Le pape Jean-Paul II est généralement considéré par beaucoup comme l'un des meneurs politiques les plus influents du XXe siècle.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-190",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_190.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

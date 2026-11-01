@@ -1,0 +1,798 @@
+{
+  "id": "oq-212",
+  "title": "Golf",
+  "originalTitle": "Golf (Accepter d'être imparfait)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_212.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-212-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Au golf, quel objet utilise-t-on pour envoyer la balle dans le trou ?",
+      "answer": "Club",
+      "options": [
+        "Bâton",
+        "Raquette",
+        "Club",
+        "Crosse"
+      ],
+      "explanation": "Chaque club est composé d'un manche, d'un grip où le golfeur va venir poser ses mains et d'une tête en contact avec la balle.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-212",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_212.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-212-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel alphabet le mot Golf est-il associé à la lettre G ?",
+      "answer": "Radio",
+      "options": [
+        "Sémaphore",
+        "Gotique",
+        "Phonétique",
+        "Radio"
+      ],
+      "explanation": "Un alphabet radio est un code utilisé en radiotéléphonie, qui consiste à représenter chaque lettre de l'alphabet par un mot entier.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-212",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_212.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-212-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel sportif a dominé le monde du golf masculin dans les années 2000 ?",
+      "answer": "Tiger Woods",
+      "options": [
+        "Curtis Strange",
+        "Raymond Floyd",
+        "Tiger Woods",
+        "Payne Stewart"
+      ],
+      "explanation": "À la suite du scandale sur ses infidélités, il annoncera se retirer du circuit de golf professionnel pour une période indéterminée.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-212",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_212.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-212-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de trous un parcours de golf classique compte-t-il généralement ?",
+      "answer": "18",
+      "options": [
+        "16",
+        "14",
+        "12",
+        "18"
+      ],
+      "explanation": "Sur un parcours de 9 trous, il s'agit parfois de réaliser 9 trous dans un sens (aller) puis dans l'autre (retour), soit un total de 18 trous.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-212",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_212.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-212-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En golf, quelle pièce de sable permet de pimenter parfois considérablement le jeu ?",
+      "answer": "Bunker",
+      "options": [
+        "Chip",
+        "Grip",
+        "Bunker",
+        "Dropper"
+      ],
+      "explanation": "Un parcours de golf fait l'objet de soins très attentifs tout au long de l'année et plus particulièrement durant la saison golfique.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-212",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_212.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-212-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel nom donne-t-on à la zone d'herbe située autour du trou au golf ?",
+      "answer": "Green",
+      "options": [
+        "Pré-rough",
+        "Rough",
+        "Green",
+        "Fairway"
+      ],
+      "explanation": "Des zones en réparation, délimitées par des piquets de couleur bleue, peuvent se rencontrer sur le parcours sans en faire partie.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-212",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_212.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-212-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel joueur surnommé The King a rendu le golf très populaire ?",
+      "answer": "Arnold Palmer",
+      "options": [
+        "Justin Rose",
+        "Martin Kaymer",
+        "Jordan Spieth",
+        "Arnold Palmer"
+      ],
+      "explanation": "Il mit un terme à sa carrière sur le circuit professionnel à 75 ans par une cinquantième participation consécutive au Masters d'Augusta.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-212",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_212.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-212-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel nombre de coups standard est fixé pour terminer un trou au golf ?",
+      "answer": "Par",
+      "options": [
+        "Par",
+        "Birdie",
+        "Bogey",
+        "Eagle"
+      ],
+      "explanation": "Habituellement, sur un parcours de 18 trous, le par est de 72 : cette moyenne est calculée en fonction des par de chaque trou.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-212",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_212.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-212-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle personne est la seule autorisée à conseiller un joueur sur le terrain ?",
+      "answer": "Caddie",
+      "options": [
+        "Shaft",
+        "Caddie",
+        "Practice",
+        "Hook"
+      ],
+      "explanation": "Un caddie est présent pour permettre au joueur de se concentrer uniquement sur son jeu en lui évitant la plupart des corvées.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-212",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_212.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-212-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la langue officielle du golf, fixée en raison de ses origines ?",
+      "answer": "Anglais",
+      "options": [
+        "Allemand",
+        "Français",
+        "Espagnol",
+        "Anglais"
+      ],
+      "explanation": "Dans les règles de golf, la Fédération française de golf utilise les termes anglais lorsque ceux-ci sont utilisés par les golfeurs.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-212",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_212.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-212-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel précurseur du golf moderne est surnommé The Golden Bear ?",
+      "answer": "Jack Nicklaus",
+      "options": [
+        "Lucas Glover",
+        "Michael Campbell",
+        "Jack Nicklaus",
+        "Webb Simpson"
+      ],
+      "explanation": "C'est le développement de la rivalité entre Jack Nicklaus et Arnold Palmer qui développa un certain intérêt des téléspectateurs pour le golf.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-212",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_212.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-212-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lors de quels Jeux olympiques le golf a-t-il fait son retour après 112 ans d'absence ?",
+      "answer": "Rio 2016",
+      "options": [
+        "Pékin 2008",
+        "Rio 2016",
+        "Londres 2012",
+        "Sydney 2000"
+      ],
+      "explanation": "Des épreuves de golf furent disputées lors des Jeux olympiques de Paris de 1900 et de nouveau en 1904 à Saint-Louis.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-212",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_212.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-212-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de trous contenait le premier parcours de Saint Andrews ?",
+      "answer": "22",
+      "options": [
+        "34",
+        "22",
+        "30",
+        "26"
+      ],
+      "explanation": "Le parcours comptait vingt-deux trous au départ avant d'être amputé de sa longueur pour la construction de maisons.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-212",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_212.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-212-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel espagnol a fait connaître le golf en dehors de ses pays traditionnels ?",
+      "answer": "Ballesteros",
+      "options": [
+        "Casper",
+        "Aaron",
+        "Coody",
+        "Ballesteros"
+      ],
+      "explanation": "Plusieurs fois numéro un mondial entre 1986 et 1989, il a été l'une des figures de proue de ce sport depuis le milieu des années 1970.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-212",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_212.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-212-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En golf, par quoi est délimité un obstacle d'eau qui traverse un trou ?",
+      "answer": "Piquet jaune",
+      "options": [
+        "Barrière blanche",
+        "Piquet jaune",
+        "Balle rouge",
+        "Drapeau bleu"
+      ],
+      "explanation": "Un parcours peut présenter des parties arborées, des buissons, mais aussi des plans d'eau ou ruisseaux que l'on nomme obstacles d'eau.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-212",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_212.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-212-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En golf, quel terme anglophone est utilisé si vous faites un coup sous le par ?",
+      "answer": "Birdie",
+      "options": [
+        "Eagle",
+        "Bogey",
+        "Birdie",
+        "Albatros"
+      ],
+      "explanation": "Le Birdie putt signifie quant à lui que si la balle tombe dans le trou à la suite de ce putt, le joueur enregistrera un birdie.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-212",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_212.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-212-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle star du golf a remporté le Masters et l'Open britannique en 1990 ?",
+      "answer": "Nick Faldo",
+      "options": [
+        "Dustin Johnson",
+        "Tom Watson",
+        "Nick Faldo",
+        "Larry Nelson"
+      ],
+      "explanation": "Il remporte de nouveau en 1990 le titre de European Tour Player of the Year, auquel il ajoute le titre de Player of the Year du PGA Tour.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-212",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_212.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-212-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces propositions ne correspond pas à une dénomination d'un club de golf ?",
+      "answer": "Eagle",
+      "options": [
+        "Fer",
+        "Putter",
+        "Bois",
+        "Eagle"
+      ],
+      "explanation": "Au départ d'un parcours, un golfeur doit au maximum emporter quatorze clubs avec lui : le choix est donc déterminant.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-212",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_212.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-212-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel club de golf permet d'envoyer la balle assez loin avec une trajectoire tendue ?",
+      "answer": "Bois",
+      "options": [
+        "Hybride",
+        "Fer",
+        "Bois",
+        "Putter"
+      ],
+      "explanation": "Les bois existent dans les tailles 1, 3, 5, 7 et 9, mais peuvent aller jusqu'à 13. Ils sont également appelés bois de parcours.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-212",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_212.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-212-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel effet permet à une balle de golf d'être fortement ralentie à l'impact ?",
+      "answer": "Backspin",
+      "options": [
+        "Stance",
+        "Topspin",
+        "Swing",
+        "Backspin"
+      ],
+      "explanation": "Souvent utilisé pendant les approches du green, une balle avec du backspin tombera puis repartira en arrière sur une distance variable.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-212",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_212.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-212-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel pays le golf a-t-il été pour la première fois codifié en 1754 ?",
+      "answer": "Écosse",
+      "options": [
+        "Écosse",
+        "Espagne",
+        "Australie",
+        "Allemagne"
+      ],
+      "explanation": "Codifié en Écosse en 1754 par le Royal And Ancient Golf Club de Saint Andrews, ce sport a des origines diverses dont le jeu de mail.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-212",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_212.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-212-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de pratiquants de golf réguliers dasn le monde comptait-on en 2010 ?",
+      "answer": "82 millions",
+      "options": [
+        "63 millions",
+        "82 millions",
+        "57 millions",
+        "74 millions"
+      ],
+      "explanation": "Mondialisé à la fin du XXe siècle, le golf est moins pratiqué par les femmes et souffre d'un traitement médiatique et financier inégal.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-212",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_212.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-212-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel avocat de profession était surnommé le Mozart du golf ?",
+      "answer": "Bobby Jones",
+      "options": [
+        "Alex Smith",
+        "Chick Evans",
+        "Bobby Jones",
+        "Alec Ross"
+      ],
+      "explanation": "Golfeur amateur le plus accompli sur le plan national et international, il ne disputa que 53 tournois et en remporta 23.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-212",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_212.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-212-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année fut disputé le premier Open britannique pro ?",
+      "answer": "1860",
+      "options": [
+        "1890",
+        "1920",
+        "1860",
+        "1950"
+      ],
+      "explanation": "Tournoi de référence jusqu'aux années 1930, l'Open britannique pro devient l'un des tournois du grand chelem dans les années 1960.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-212",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_212.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-212-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment le golf était-il appelé à ses débuts aux Pays-Bas ?",
+      "answer": "Colf",
+      "options": [
+        "Dolf",
+        "Wolf",
+        "Rolf",
+        "Colf"
+      ],
+      "explanation": "En raison des nombreux échanges entre les Pays-Bas et l'Écosse, les Hollandais exportèrent ce jeu (dérivé de kolbe signifiant bâton).",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-212",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_212.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-212-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville s'est installé en 1627 le premier fabricant de clubs de golf ?",
+      "answer": "Saint Andrews",
+      "options": [
+        "Saint Andrews",
+        "Londres",
+        "Oslo",
+        "Dublin"
+      ],
+      "explanation": "Cette ville écossaise est située sur la côte de la mer du Nord entre Édimbourg et Dundee et compte 15 000 habitants.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-212",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_212.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-212-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de touristes en moyenne viennent jouer au golf en Thaïlande chaque année ?",
+      "answer": "400 000",
+      "options": [
+        "400 000",
+        "300 000",
+        "200 000",
+        "100 000"
+      ],
+      "explanation": "La Thaïlande a fait du golf un article de promotion touristique en leur proposant à ce jour un catalogue de 280 parcours différents.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-212",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_212.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-212-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel pesticide très utilisé sur les terrains de golf a été interdit aux États-Unis ?",
+      "answer": "Diazinon",
+      "options": [
+        "Diazinon",
+        "Firponil",
+        "Novaluron",
+        "Spinosad"
+      ],
+      "explanation": "Le diazinon était autrefois utilisé pour contrôler l'invasion des cancrelats, du poisson d'argent, des fourmis et des puces.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-212",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_212.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-212-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de dépressions comportent la plupart des balles de golf mises en vente ?",
+      "answer": "450",
+      "options": [
+        "450",
+        "300",
+        "150",
+        "600"
+      ],
+      "explanation": "L'impact d'une balle frappée (une milliseconde) détermine la vitesse de la balle, son angle de tir ainsi que sa vitesse de rotation.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-212",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_212.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-212-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le plus populaire des circuits de golf féminin ?",
+      "answer": "LPGA",
+      "options": [
+        "FGTB",
+        "LPGA",
+        "CGSP",
+        "BKCP"
+      ],
+      "explanation": "En 2017, le circuit professionnel de golf féminin était doté au total de 67 millions de dollars contre 58 millions de dollars en 2008.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-212",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_212.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

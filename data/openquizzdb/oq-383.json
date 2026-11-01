@@ -1,0 +1,749 @@
+{
+  "id": "oq-383",
+  "title": "Sur le court",
+  "originalTitle": "Sur le court (Au tennis, l'arbitre est quelqu'un de haut placé)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Edouard Swit",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_383.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    13,
+    18
+  ],
+  "questions": [
+    {
+      "id": "oqdb-383-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel joueur français a remporté le tournoi de Roland-Garros en 1983 ?",
+      "answer": "Yannick Noah",
+      "options": [
+        "Guy Forget",
+        "Richard Gasquet",
+        "Yannick Noah",
+        "Jo-Wilfried Tsonga"
+      ],
+      "explanation": "Cette victoire lui vaut d'être le seul joueur français à avoir remporté un tournoi du Grand Chelem de l'ère Open en simple messieurs.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-383",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Edouard Swit",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_383.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-383-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel joueur de tennis brésilien professionnel surnomme-t-on Kuga ?",
+      "answer": "Gustavo Kuerten",
+      "options": [
+        "Björn Borg",
+        "Novak Djokovic",
+        "John McEnroe",
+        "Gustavo Kuerten"
+      ],
+      "explanation": "Gustavo Kuerten a remporté vingt titres en simple sur le circuit ATP, dont trois tournois de Roland-Garros et cinq Masters 1000.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-383",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Edouard Swit",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_383.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-383-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Bien que remplies d'air, de quelle matière sont fabriquées les balles de tennis ?",
+      "answer": "Caoutchouc",
+      "options": [
+        "Verre",
+        "Caoutchouc",
+        "Plastique",
+        "Carton"
+      ],
+      "explanation": "Une balle de tennis est formée d'une coque en caoutchouc, appelée noyau, recouverte de feutre, souvent de couleur jaune ou blanche.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-383",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Edouard Swit",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_383.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-383-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle équipe a remporté la Coupe Davis de 2017, 106e édition de ce tournoi ?",
+      "answer": "France",
+      "options": [
+        "Belgique",
+        "Suisse",
+        "France",
+        "Italie"
+      ],
+      "explanation": "La France de Yannick Noah remporte ainsi sa dixième Coupe Davis, entre autres grâce à la victoire de Lucas Pouille sur Steve Darcis.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-383",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Edouard Swit",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_383.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-383-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle joueuse belge au petit gabarit a remporté le tournoi de Roland-Garros ?",
+      "answer": "Justine Henin",
+      "options": [
+        "Nancy Feber",
+        "Justine Henin",
+        "Elise Mertens",
+        "Kim Clijsters"
+      ],
+      "explanation": "Grâce à la variété de son jeu, John McEnroe qualifia son revers à une main de meilleur revers du monde, hommes et femmes confondus.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-383",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Edouard Swit",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_383.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-383-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien y a-t-il de courts aux Internationaux de France de tennis ?",
+      "answer": "17",
+      "options": [
+        "24",
+        "12",
+        "8",
+        "17"
+      ],
+      "explanation": "Les trois plus grands courts sont le court Philippe-Chatrier (ou court central), le court Suzanne-Lenglen et le court Simonne-Mathieu.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-383",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Edouard Swit",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_383.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-383-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans un match de tennis professionnel, que change-t-on tous les neuf jeux ?",
+      "answer": "Balle",
+      "options": [
+        "Balle",
+        "Raquette",
+        "Maillot",
+        "Arbitre"
+      ],
+      "explanation": "Un changement de balles a lieu tous les 9 jeux, sauf le premier qui a lieu à la fin du septième jeu (l'échauffement valant pour 2 jeux).",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-383",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Edouard Swit",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_383.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-383-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Fin 2019, combien de fois Rafael Nadal a-t-il remporté Roland-Garros ?",
+      "answer": "Douze",
+      "options": [
+        "Onze",
+        "Sept",
+        "Treize",
+        "Douze"
+      ],
+      "explanation": "Ayant remporté 19 tournois du Grand Chelem, il est le seul à avoir remporté 12 titres en simple dans un de ces quatre tournois majeurs.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-383",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Edouard Swit",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_383.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-383-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la nationalité du tennisman professionnel Roger Federer ?",
+      "answer": "Suisse",
+      "options": [
+        "Française",
+        "Autrichienne",
+        "Suédoise",
+        "Suisse"
+      ],
+      "explanation": "Né à Bâle, Federer détient le record de 310 semaines passées à la première place du classement mondial de tennis ATP World Tour.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-383",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Edouard Swit",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_383.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-383-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De combien de tournois majeurs est composé le Grand Chelem de tennis ?",
+      "answer": "Quatre",
+      "options": [
+        "Cinq",
+        "Six",
+        "Quatre",
+        "Trois"
+      ],
+      "explanation": "Les quatre tournois sont l'Open d'Australie de Melbourne, Roland-Garros à Paris, l'US Open de New York et Wimbledon à Londres.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-383",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Edouard Swit",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_383.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-383-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de joueurs français ont remporté Roland-Garros entre 1925 et 2019 ?",
+      "answer": "Cinq",
+      "options": [
+        "Sept",
+        "Cinq",
+        "Dix",
+        "Trois"
+      ],
+      "explanation": "Le palmarès des Français à Roland-Garros tient en dix noms : 5 joueurs et 5 joueuses français se sont imposés sur la terre battue parisienne.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-383",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Edouard Swit",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_383.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-383-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la nationalité de la joueuse de tennis Serena Williams ?",
+      "answer": "Américaine",
+      "options": [
+        "Brésilienne",
+        "Américaine",
+        "Anglaise",
+        "Française"
+      ],
+      "explanation": "Serena Jameka Williams, soeur de la joueuse Venus Williams, est une joueuse de tennis américaine née le 26 septembre 1981 à Saginaw.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-383",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Edouard Swit",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_383.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-383-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sur quel revêtement se sont déroulés les premiers matches de tennis ?",
+      "answer": "Herbe",
+      "options": [
+        "Gazon synthétique",
+        "Herbe",
+        "Béton",
+        "Terre battue"
+      ],
+      "explanation": "C'est en effet en 1858 que le major Harry Gem esquissera une ébauche de court de tennis sur le gazon de sa propriété personnelle.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-383",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Edouard Swit",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_383.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-383-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En finale de quel tournoi du Grand Chelem Björn Borg a-t-il échoué à quatre reprises ?",
+      "answer": "US Open",
+      "options": [
+        "Wimbeldon",
+        "US Open",
+        "Open d'Australie",
+        "Roland-Garros"
+      ],
+      "explanation": "Björn Borg deviendra numéro un mondial en 1977 et sacré champion du monde par l'ITF à trois reprises, en 1978, 1979 et 1980.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-383",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Edouard Swit",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_383.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-383-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel tournoi de tennis du Grand Chelem se joue exclusivement sur gazon ?",
+      "answer": "Wimbeldon",
+      "options": [
+        "Roland-Garros",
+        "US Open",
+        "Open d'Australie",
+        "Wimbeldon"
+      ],
+      "explanation": "Les matches du plus ancien tournoi de tennis au monde se déroulent sur une surface en gazon où aucune séance de nuit ne tient place.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-383",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Edouard Swit",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_383.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-383-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel était le surnom du joueur de tennis allemand Boris Becker ?",
+      "answer": "Boum Boum",
+      "options": [
+        "Bang Bang",
+        "Boum Boum",
+        "Big Ben",
+        "Bam Bam"
+      ],
+      "explanation": "Becker a fait sensation quand il a remporté son premier Wimbledon à 17 ans en 1985, gagnant ainsi son surnom de Boum-Boum Becker.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-383",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Edouard Swit",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_383.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-383-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En tennis, quel est le record de vitesse approximatif actuel enregistré au service ?",
+      "answer": "260 km/h",
+      "options": [
+        "200 km/h",
+        "260 km/h",
+        "280 km/h",
+        "170 km/h"
+      ],
+      "explanation": "Un joueur de tennis Australien inconnu aurait battu le record de vitesse au service avec une mesure impressionnante de 263 km/h.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-383",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Edouard Swit",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_383.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-383-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel métier exerçait Roland Garros, qui a donné son nom au stade construit en 1928 ?",
+      "answer": "Aviateur",
+      "options": [
+        "Navigateur",
+        "Avocat",
+        "Footballeur",
+        "Aviateur"
+      ],
+      "explanation": "Aviateur français, lieutenant pilote lors de la Première Guerre mondiale, Roland Garros est né le 6 octobre 1888 à Saint-Denis de La Réunion.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-383",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Edouard Swit",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_383.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-383-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En 2019, qui détenait le record de titres mondiaux en tennis masculin ?",
+      "answer": "Federer",
+      "options": [
+        "Federer",
+        "Sampras",
+        "Nadal",
+        "Djokovic"
+      ],
+      "explanation": "Roger Federer est le seul joueur de l'histoire du tennis à avoir gagné au moins cinq fois trois tournois du Grand Chelem.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-383",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Edouard Swit",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_383.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-383-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En combien de sets gagnants se jouent les rencontres féminines du Grand Chelem ?",
+      "answer": "Deux",
+      "options": [
+        "Trois",
+        "Cinq",
+        "Deux",
+        "Quatre"
+      ],
+      "explanation": "Les hommes jouent au meilleur des cinq manches alors que les femmes disputent des matchs en deux sets gagnants uniquement.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-383",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Edouard Swit",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_383.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-383-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien d'heures a-t-il fallu à Nadal pour venir à bout de Federer à Rome en 2006 ?",
+      "answer": "Cinq",
+      "options": [
+        "Cinq",
+        "Trois",
+        "Quatre",
+        "Deux"
+      ],
+      "explanation": "Les bons résultats de Nadal lui permettront de prendre la place de Roger Federer en tête du classement ATP Race 2007 le 30 avril.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-383",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Edouard Swit",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_383.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-383-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la dimension officielle d'un terrain de tennis ?",
+      "answer": "23,77 x 8,23 m",
+      "options": [
+        "15 x 5 m",
+        "23,77 x 8,23 m",
+        "24,73 x 9,17 m",
+        "21,52 x 8,15 m"
+      ],
+      "explanation": "Les lignes de fond d'un court de tennis mesurent 8,23 mètres. Les lignes de côté, tracées sur la longueur, font quant à elle 23,77 mètres.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-383",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Edouard Swit",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_383.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-383-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À combien de décibels ont été mesurés les cris de Maria Sharapova poussés sur les courts ?",
+      "answer": "105 dbs",
+      "options": [
+        "105 dbs",
+        "126 dbs",
+        "83 dbs",
+        "50 dbs"
+      ],
+      "explanation": "En plus de ce bruit équivalent à celui d'un petit avion à hélice au décollage, elle pousse de curieux recueillements entre chaque point.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-383",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Edouard Swit",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_383.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-383-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel tennisman a causé la mort d'un arbitre par une de ses balles qui l'a atteint ?",
+      "answer": "Stefan Edberg",
+      "options": [
+        "Stefan Edberg",
+        "Mats Wilander",
+        "Jimmy Connors",
+        "Björn Borg"
+      ],
+      "explanation": "Le 10 septembre 1983, l'une des balles de Stefan Edberg frappe de plein fouet un juge de ligne, Dick Wertheim, alors âgé de 61 ans.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-383",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Edouard Swit",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_383.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-383-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En simple, en son centre, un filet de tennis doit avoir quelle hauteur ?",
+      "answer": "91 cm",
+      "options": [
+        "75 cm",
+        "103 cm",
+        "88 cm",
+        "91 cm"
+      ],
+      "explanation": "La hauteur du filet au centre doit être fermement retenu par une sangle et proposer une hauteur de 0,914 mètre, soit trois pieds.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-383",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Edouard Swit",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_383.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-383-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la nationalité de l'ex-joueuse de tennis Gabriela Sabatini ?",
+      "answer": "Argentine",
+      "options": [
+        "Espagnole",
+        "Argentine",
+        "Grecque",
+        "Italienne"
+      ],
+      "explanation": "Vice-championne olympique en 1988 lors des JO de Séoul, Gabriela Sabatini a également été finaliste de l'US Open la même année.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-383",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Edouard Swit",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_383.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-383-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui remit au gagnant le trophée masculin de Roland-Garros en 2005 ?",
+      "answer": "Zinédine Zidane",
+      "options": [
+        "Zinédine Zidane",
+        "Cedric Pioline",
+        "Teddy Riner",
+        "Tony Parker"
+      ],
+      "explanation": "Zidane a remis la première Coupe des Mousquetaires à Nadal, vainqueur du tournoi à l'issue de la finale contre l'Argentin Mariano Puerta.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-383",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Edouard Swit",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_383.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-383-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel célèbre joueur de tennis français est originaire du Cameroun ?",
+      "answer": "Yannick Noah",
+      "options": [
+        "Jo-Wilfried Tsonga",
+        "Gaël Monfils",
+        "Yannick Noah",
+        "Gille Simons"
+      ],
+      "explanation": "Fils du footballeur camerounais Zacharie Noah, vainqueur de la Coupe de France en 1961, il est le père du basketteur français Joakim Noah.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-383",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Edouard Swit",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_383.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

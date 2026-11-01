@@ -1,0 +1,798 @@
+{
+  "id": "oq-177",
+  "title": "Jeunesse et dessins animés",
+  "originalTitle": "Jeunesse et dessins animés (Souvenirs, souvenirs)",
+  "universe": "film",
+  "emoji": "🎬",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_177.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-177-1",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Où sont placés les deux propulseurs d'Astro le petit robot ?",
+      "answer": "Dans ses pieds",
+      "options": [
+        "Dans ses pieds",
+        "Sous ses bras",
+        "Dans le dos",
+        "À la ceinture"
+      ],
+      "explanation": "Diffusé depuis 1963 sur les écrans Japonais, le manga d'Osamu Tezuka avait déjà été publié pour la première fois en 1952.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-177",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_177.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-177-2",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui n'en finit plus de mourir dans les premières saisons de South Park ?",
+      "answer": "Kenny",
+      "options": [
+        "Stan",
+        "Kenny",
+        "Eric",
+        "Kyle"
+      ],
+      "explanation": "Le petit garçon à la capuche orange est la risée de Cartman, l'un des quatre héros du dessin animé de Trey Parker et Matt Stone.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-177",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_177.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-177-3",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Avec lequel des garçons de sa bande fait habituellement équipe Scoubidou ?",
+      "answer": "Sammy",
+      "options": [
+        "Sammy",
+        "Logan",
+        "Roger",
+        "Fred"
+      ],
+      "explanation": "Le chien détective a rapidement été de retour, accompagné de guest-stars comme Batman et Robin ou Laurel et Hardy.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-177",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_177.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-177-4",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui est le plus âgé des enfants de la famille Simpson ?",
+      "answer": "Bart",
+      "options": [
+        "Bart",
+        "Maggie",
+        "Lisa",
+        "Marge"
+      ],
+      "explanation": "Depuis sa création en 1989, le dessin animé de Matt Groenig rencontre un succès mondial, traduit sur grand écran en 2007.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-177",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_177.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-177-5",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel animal est Capucin, le petit compagnon de Candy ?",
+      "answer": "Raton laveur",
+      "options": [
+        "Lapin",
+        "Hamster",
+        "Raton laveur",
+        "Chat"
+      ],
+      "explanation": "La jeune fille se retrouve à l'orphelinat tenu par Mademoiselle Pony, et Candy tombe amoureuse du prince des collines.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-177",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_177.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-177-6",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Comment qualifier le manège de Margotte, Zébulon et Pollux ?",
+      "answer": "Enchanté",
+      "options": [
+        "Hanté",
+        "Embrumé",
+        "Encerclé",
+        "Enchanté"
+      ],
+      "explanation": "La série d'animation de Serge Danot est apparue en 1963 sur la première chaîne de l'ORTF. En 2005, une version 3D a été diffusée.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-177",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_177.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-177-7",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui est rond comme un ballon et plus jaune qu'un citron ?",
+      "answer": "Pac-Man",
+      "options": [
+        "Pac-Man",
+        "Digger",
+        "Fruity",
+        "Pengo"
+      ],
+      "explanation": "Ce héros a été l'une des premières vedettes de jeu vidéo à avoir son propre dessin animé, avant Super Mario Bros et Zelda.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-177",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_177.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-177-8",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel pivert possède le rire le plus reconnaissable de la télévision ?",
+      "answer": "Woody Woodpecker",
+      "options": [
+        "Oscar Rapace",
+        "Falco Lombardi",
+        "Woody Woodpecker",
+        "Génius"
+      ],
+      "explanation": "Le petit oiseau à la houpette rouge, né en 1940 mais diffusé en 1967, a un rire original signé Mel Blanc.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-177",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_177.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-177-9",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "De quelle saga cinématographique 'Clone Wars' est-il dérivé ?",
+      "answer": "Star Wars",
+      "options": [
+        "Star Wars",
+        "Star Trek",
+        "Harry Potter",
+        "Voraces"
+      ],
+      "explanation": "D'après l'histoire signée George Lucas, le dessin animé a été produit à partir de 2003, entre les sorties des épisodes 2 et 3.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-177",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_177.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-177-10",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui est le meilleur ami de Tom Sayer à Saint-Petersburg ?",
+      "answer": "Huckleberry Finn",
+      "options": [
+        "Muff Potter",
+        "Benjamin Rogers",
+        "Huckleberry Finn",
+        "Jim Hollis"
+      ],
+      "explanation": "Véritable vagabond livré à lui-même, il entraîne Tom Sayer avec lui dans de nombreuses aventures sur les bords du Mississippi.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-177",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_177.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-177-11",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Grâce à quel objet Gigi arrive-t-elle à se transformer en jeune femme ?",
+      "answer": "Pendentif",
+      "options": [
+        "Parapluie",
+        "Chapeau",
+        "Ceinture",
+        "Pendentif"
+      ],
+      "explanation": "Âgée de 12 ans, Gigi est une princesse envoyée sur Terre par ses parents pour redonner de l'espoir à certains humains.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-177",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_177.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-177-12",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qu'utilise le lutin Tofffsy pour savoir si on lui dit la vérité ?",
+      "answer": "Herbe musicale",
+      "options": [
+        "Herbe musicale",
+        "Grimoire",
+        "Diamant bleu",
+        "Clé magique"
+      ],
+      "explanation": "Le petit lutin à la chevelure jaune a toujours d'ingénieuses idées pour aider ses amis qui vivent avec lui au château de la comtesse.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-177",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_177.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-177-13",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel jeune héros de série télé âgé de 10 ans utilise l'Omnitrix ?",
+      "answer": "Ben 10",
+      "options": [
+        "Ben 10",
+        "Astro",
+        "Yogi",
+        "Kenny"
+      ],
+      "explanation": "L'omnitrix est le bracelet qu'il fixe à son poignet et qui lui permet de se métamorphoser en dix héros aux super-pouvoirs.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-177",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_177.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-177-14",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Grâce à quel objet Sophie communique-t-elle avec Finot dans 'Inspecteur Gadget' ?",
+      "answer": "Montre",
+      "options": [
+        "Bague",
+        "Montre",
+        "Poupée",
+        "Téléphone"
+      ],
+      "explanation": "Ultra-sophistiquée, la montre offre à Sophie la possibilité de parler et de voir son chien pour venir ensemble en aide à Gadget.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-177",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_177.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-177-15",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Que pilotent Satanas et Diabolo pour attraper le messager Zéphyrin ?",
+      "answer": "Biplan",
+      "options": [
+        "Fusée",
+        "Autobus",
+        "Biplan",
+        "Moto"
+      ],
+      "explanation": "A la suite du succès des 'Fous du volant', Satanas et Diabolo ont en effet poursuivi leurs péripéties dans les airs.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-177",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_177.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-177-16",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Pour quelle raison Calimero est-il le seul poussin de couleur noire autour de lui ?",
+      "answer": "Il est sale",
+      "options": [
+        "Il est brûlé",
+        "Il est sale",
+        "Il est malade",
+        "Il est furieux"
+      ],
+      "explanation": "En 1961, Calimero était la star d'une publicité pour la lessive italienne où il retrouvait sa couleur d'origine une fois nettoyé.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-177",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_177.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-177-17",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle est la particularité vestimentaire de Yogi l'ours ?",
+      "answer": "Cravate et chapeau",
+      "options": [
+        "Cravate et chapeau",
+        "Tee-shirt et tongs",
+        "Casquette et short",
+        "Cape et collants"
+      ],
+      "explanation": "Évoluant dans le parc de Jellystone en compagnie de son ami Boubou, il est toujours en quête de nourriture.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-177",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_177.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-177-18",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel animal est Saturnin, héros de la série créée par Jean Tourane ?",
+      "answer": "Un caneton",
+      "options": [
+        "Un caneton",
+        "Un zèbre",
+        "Un éléphant",
+        "Un raton laveur"
+      ],
+      "explanation": "Le petit volatile caractériel, dont le monde miniature est à l'identique celui des humains, a démarré sa carrière en 1965.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-177",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_177.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-177-19",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Par quel procédé d'animation le clown Kiri a-t-il été créé ?",
+      "answer": "Marionnettes",
+      "options": [
+        "Papier carton",
+        "Mosaïques",
+        "Marionnettes",
+        "Plasticine"
+      ],
+      "explanation": "De ville en ville, sa roulotte entraîne ses compagnons Pip'lett, Laura, Ratibus et Bianca dans de nombreuses aventures.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-177",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_177.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-177-20",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle héroïne de dessin animé a été la star des studios Fleischer avec Popeye ?",
+      "answer": "Betty Boop",
+      "options": [
+        "Betty Boop",
+        "Dora Marquez",
+        "Charlotte",
+        "Manny"
+      ],
+      "explanation": "Apparue en 1930, la sensuelle brunette est un des personnages animés emblématiques de l'entre-deux-guerres.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-177",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_177.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-177-21",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle est la chaîne jeunesse dont le slogan a été 'La télé qui remue toute la famille' ?",
+      "answer": "Gulli",
+      "options": [
+        "Gulli",
+        "Cstar",
+        "W9",
+        "HD1"
+      ],
+      "explanation": "Lors du lancement de la TNT en France, en 2005, le groupe Lagardère et France Televisions se sont associés.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-177",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_177.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-177-22",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quels personnages sautillent en s'engouffrant dans leur poche ?",
+      "answer": "Popples",
+      "options": [
+        "Bisounours",
+        "Entrechats",
+        "Tifins",
+        "Popples"
+      ],
+      "explanation": "Ces boules de poils adorent s'amuser et possèdent une poche dans le dos qui leur permet de faire sortir des objets insolites.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-177",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_177.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-177-23",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "De quelle série télévisée d'animation le jeune Yugo est-il le héros ?",
+      "answer": "Wakfu",
+      "options": [
+        "Code Lyoko",
+        "Wakfu",
+        "Molusco",
+        "Star Butterfly"
+      ],
+      "explanation": "Accompagné de ses cinq amis, l'enfant va tenter d'arrêter les ambitions du Nox volant l'énergie créatrice du monde.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-177",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_177.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-177-24",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui est probablement le plus célèbre shérif de l'espace ?",
+      "answer": "X-Or",
+      "options": [
+        "Ulysse",
+        "Bioman",
+        "X-Or",
+        "Jiban"
+      ],
+      "explanation": "Cette série japonaise diffusée en 1983 a pour héros Gordan qui se transforme en X-Or en demandant sa transmutation.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-177",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_177.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-177-25",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Comment se nomme le renard et ennemi d'Aglaé et Sidonie ?",
+      "answer": "Croquetou",
+      "options": [
+        "Agénor",
+        "Hugo",
+        "Croquetou",
+        "Saturnin"
+      ],
+      "explanation": "Dans la ferme, la truie Aglaé et l'oie Sidonie sont aidées par le coq Agénor pour démasquer Craquetou en moins de cinq minutes.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-177",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_177.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-177-26",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel animal était Monsieur Ed dans la série éponyme américaine destinée aux enfants ?",
+      "answer": "Cheval",
+      "options": [
+        "Cheval",
+        "Ane",
+        "Lion",
+        "Hibou"
+      ],
+      "explanation": "Monsieur Ed, le cheval parlant qui appartient à l'architecte Wilbur Post, utilise ce don à foison en disant tout ce qu'il pense.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-177",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_177.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-177-27",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le métier de Picolo, personnage créé pour Radio-Canada ?",
+      "answer": "Peintre",
+      "options": [
+        "Peintre",
+        "Banquier",
+        "Plombier",
+        "Boulanger"
+      ],
+      "explanation": "Créé par jean Image en 1963, Picolo parcourt les rues de Paris en compagnie de Picolette, son amoureuse.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-177",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_177.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-177-28",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Combien sont les héros des Petites Canailles apparues en 1962 ?",
+      "answer": "Cinq",
+      "options": [
+        "Cinq",
+        "Huit",
+        "Sept",
+        "Six"
+      ],
+      "explanation": "Ces sacrés garnements à la personnalité bien différente ont pour nom Alfafa, Buck, Darla, Porky et Spanky.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-177",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_177.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-177-29",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Lequel de ces dessins animés n'a pas été produit par Hanna-Barbera ?",
+      "answer": "Calimero",
+      "options": [
+        "Les Pierrafeu",
+        "Capitaine Caverne",
+        "Calimero",
+        "Scoubidou"
+      ],
+      "explanation": "La carrière de William Hanna et Joseph Barbera a démarré avec Tom et Jerry pour le cinéma et la MGM en 1940.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-177",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_177.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-177-30",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel petit animal est Hamtaro dans le manga créé par Ritsuko Kawai ?",
+      "answer": "Hamster",
+      "options": [
+        "Raton laveur",
+        "Cheval",
+        "Caneton",
+        "Hamster"
+      ],
+      "explanation": "Le dessin animé est signé Ritsuko Kawai et est apparu sur les écrans de 'Midi les zouzous' de France 5 en 2003.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-177",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_177.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

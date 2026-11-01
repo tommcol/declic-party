@@ -1,0 +1,774 @@
+{
+  "id": "oq-103",
+  "title": "Depeche Mode",
+  "originalTitle": "Depeche Mode",
+  "universe": "music",
+  "emoji": "🎵",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_103.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    1
+  ],
+  "questions": [
+    {
+      "id": "oqdb-103-2",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel album mythique du groupe Depeche Mode propose une rose rouge sur sa pochette ?",
+      "answer": "Violator",
+      "options": [
+        "Exciter",
+        "Ultra",
+        "Violator",
+        "A Broken Frame"
+      ],
+      "explanation": "'Violator' est considéré comme le meilleur album du groupe à ce jour pour ses qualités de production inventives et novatrices.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-103",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_103.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-103-3",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Qui a dirigé la plupart des clips vidéos du groupe Depeche Mode ?",
+      "answer": "Anton Corbijn",
+      "options": [
+        "John Hillcoat",
+        "Julien Temple",
+        "Anton Corbijn",
+        "Clive Richardson"
+      ],
+      "explanation": "Ce photographe et réalisateur néerlandais collabore fréquemment avec Depeche Mode depuis 1986.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-103",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_103.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-103-4",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Avec quel label anglais le groupe Depeche Mode a-t-il signé sur l'entièreté de sa carrière ?",
+      "answer": "Mute",
+      "options": [
+        "EMI",
+        "Warner",
+        "Mercury",
+        "Mute"
+      ],
+      "explanation": "Dans un premier temps, le but de Daniel Miller (créateur de Mute) était simplement d'y publier sa propre musique.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-103",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_103.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-103-5",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Dans quel État américain a été tourné le célèbre concert '101' de Depeche Mode ?",
+      "answer": "Californie",
+      "options": [
+        "Californie",
+        "Texas",
+        "Arizona",
+        "Missouri"
+      ],
+      "explanation": "Premier album live du groupe, '101' a été enregistré lors du 101e et dernier concert de la tournée 'Tour for the Masses'.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-103",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_103.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-103-6",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Laquelle de ces propositions désigne un titre du groupe musical Depeche Mode ?",
+      "answer": "Little 15",
+      "options": [
+        "Little 13",
+        "Little 21",
+        "Little 15",
+        "Little 9"
+      ],
+      "explanation": "Le clip musical de 'Little 15' fut réalisé par Martyn Atkins, qui avait déjà travaillé pour le groupe en ce qui concerne le design.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-103",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_103.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-103-7",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Qui est le chanteur charismatique principal du groupe Depeche Mode, originaire de Basildon ?",
+      "answer": "Dave Gahan",
+      "options": [
+        "Alan Wilder",
+        "Vince Clarke",
+        "Dave Gahan",
+        "Andrew Fletcher"
+      ],
+      "explanation": "Ses prestations scéniques excentriques donnent au groupe un dynamisme que l'aspect figé des synthés ne permet pas.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-103",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_103.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-103-8",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel groupe Vince Clarke a-t-il rejoint avec Alison Moyet après avoir quitté Depeche Mode ?",
+      "answer": "Yazoo",
+      "options": [
+        "The Communards",
+        "Erasure",
+        "The Assembly",
+        "Yazoo"
+      ],
+      "explanation": "Alison Moyet a mené une carrière solo plutôt réussie, mais sans parvenir à exporter sa musique hors du Royaume-Uni.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-103",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_103.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-103-9",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "De quelle ville de l'Essex le groupe musical Depeche Mode est-il originaire ?",
+      "answer": "Basildon",
+      "options": [
+        "Brentwood",
+        "Billericay",
+        "Braintree",
+        "Basildon"
+      ],
+      "explanation": "Basildon est une ville britannique nouvelle créée en 1949 par fusion de plusieurs petites localités.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-103",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_103.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-103-10",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "En quelle année est sorti 'Speak And Spell', premier album studio de Depeche Mode ?",
+      "answer": "1981",
+      "options": [
+        "1982",
+        "1979",
+        "1981",
+        "1980"
+      ],
+      "explanation": "Sur les onze chansons de l'album, neuf sont écrites par Vince Clarke et les deux restantes par Martin L. Gore.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-103",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_103.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-103-11",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Stevo Pearce lança Depeche Mode, mais de quel autre groupe fut-il aussi le manager ?",
+      "answer": "Soft Cell",
+      "options": [
+        "Yazoo",
+        "Soft Cell",
+        "Erasure",
+        "Alphaville"
+      ],
+      "explanation": "Soft Cell est un groupe de musique de new wave des années 1980 né de la complicité entre Marc Almond et Dave Ball.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-103",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_103.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-103-12",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "De quel morceau de Depeche Mode le groupe de métal Rammstein a-t-il sorti un cover en 1998 ?",
+      "answer": "Stripped",
+      "options": [
+        "Stripped",
+        "Personal Jesus",
+        "I Feel You",
+        "New Life"
+      ],
+      "explanation": "Rammstein est le groupe germanophone le plus vendu dans le monde avec près de 20 millions d'albums vendus.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-103",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_103.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-103-13",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "En quelle année Alan Wilder, membre fondateur de Depeche Mode, a-t-il quitté le groupe ?",
+      "answer": "1995",
+      "options": [
+        "1995",
+        "1999",
+        "1997",
+        "1993"
+      ],
+      "explanation": "Alan Wilder se consacre désormais à son propre projet expérimental baptisé 'Recoil', fondé en 1986.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-103",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_103.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-103-14",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel morceau instrumental apparaît sur l'album 'Sounds of the Universe' ?",
+      "answer": "Spacewalker",
+      "options": [
+        "Spacewalker",
+        "Easy Tiger",
+        "Jazz Thieves",
+        "Introspectre"
+      ],
+      "explanation": "Si l'album contient treize titres, une édition « Deluxe » comporte des démos d'anciennes chansons et un DVD.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-103",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_103.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-103-15",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel est le titre du premier morceau écrit par Martin Gore pour Depeche Mode ?",
+      "answer": "See You",
+      "options": [
+        "See You",
+        "New Life",
+        "Leave in Silence",
+        "Shout"
+      ],
+      "explanation": "Ce single a été l'occasion de lancer une tournée mondiale, avec le nouveau membre du groupe Alan Wilder.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-103",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_103.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-103-16",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Qui a écrit le célébrissime morceau 'Just Can't Get Enough', de Depeche Mode ?",
+      "answer": "Vince Clarke",
+      "options": [
+        "Dave Gahan",
+        "Alan Wilder",
+        "Vince Clarke",
+        "Martin Gore"
+      ],
+      "explanation": "'Just Can't Get Enough' est le dernier single composé par Vince Clarke avant son départ de Depeche Mode.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-103",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_103.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-103-17",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Que signifie le L. dans le nom de Martin L. Gore, membre du groupe Depeche Mode ?",
+      "answer": "Lee",
+      "options": [
+        "Lee",
+        "Lionel",
+        "Liam",
+        "Lancelot"
+      ],
+      "explanation": "Bien que Dave Gahan soit l'interprète charismatique du groupe, Martin Gore intervient également comme chanteur.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-103",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_103.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-103-18",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Qui Alan Wilder a-t-il remplacé au sein du groupe de new wave Depeche Mode ?",
+      "answer": "Personne",
+      "options": [
+        "Vince Clarke",
+        "Personne",
+        "Alison Moyet",
+        "Martin Gore"
+      ],
+      "explanation": "Alan Wilder apporta une contribution artistique importante aux albums du groupe par ses expérimentations sonores.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-103",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_103.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-103-19",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel titre a été choisi comme tout premier single studio du groupe Depeche Mode ?",
+      "answer": "Dreaming of Me",
+      "options": [
+        "See You",
+        "Shout",
+        "New Life",
+        "Dreaming of Me"
+      ],
+      "explanation": "Deux remixes de la chanson ont été publiés, l'un avec un effet d'atténuation, et l'autre ayant une propre fin.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-103",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_103.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-103-20",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quelle femme a inspiré Depeche Mode pour l'écriture de la chanson 'Personal Jesus' ?",
+      "answer": "Priscilla Presley",
+      "options": [
+        "Vanessa Paradis",
+        "Priscilla Presley",
+        "Jackie Kennedy",
+        "Janis Joplin"
+      ],
+      "explanation": "Dans le livre 'Elvis and me', Priscilla Presley révèle qu'elle avait surnommé son mari son « Jésus personnel ».",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-103",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_103.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-103-21",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel est le dernier single du groupe Depeche Mode sorti dans les années 1980 ?",
+      "answer": "Personal Jesus",
+      "options": [
+        "Enjoy the Silence",
+        "Policy of Truth",
+        "Personal Jesus",
+        "Eveything Counts"
+      ],
+      "explanation": "Le clip musical de 'Personal Jesus' est réalisé par Anton Corbijn et est le premier qu'il fait en couleurs pour le groupe.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-103",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_103.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-103-22",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Qui a produit 'Violator', probablement une des meilleures productions de Depeche Mode ?",
+      "answer": "Flood",
+      "options": [
+        "Daniel Miller",
+        "Daryl Barmonte",
+        "Gareth Jones",
+        "Flood"
+      ],
+      "explanation": "L'image de la rose qui orne la pochette contraste avec ce titre provocateur de ce 7e album studio de Depeche Mode.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-103",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_103.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-103-23",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "De quel album de Depeche Mode le titre 'Precious' est-il extrait ?",
+      "answer": "Playing the Angel",
+      "options": [
+        "Exciter",
+        "Playing the Angel",
+        "Violator",
+        "Delta Machine"
+      ],
+      "explanation": "'Playing the Angel' st considéré comme l'album incarnant le retour du groupe sur le devant de la scène.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-103",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_103.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-103-24",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Dans quel pays Depeche Mode a-t-il mis huit mois à enregistrer 'Songs of Faith and Devotion' ?",
+      "answer": "Espagne",
+      "options": [
+        "Italie",
+        "Grèce",
+        "Espagne",
+        "Portugal"
+      ],
+      "explanation": "C'est durant l'enregistrement de cet album et de la tournée qui s'ensuivit que les premières failles sont apparues au sein du groupe.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-103",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_103.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-103-25",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel a été le nom du label (certes assez peu productif) créé par Andy Fletcher ?",
+      "answer": "Toast Hawaii",
+      "options": [
+        "Toast Hawaii",
+        "Beans Hawaii",
+        "Bacon Hawaii",
+        "Eggs Hawaii"
+      ],
+      "explanation": "Le premier artiste signé par le label Toast Hawaii est le groupe anglais Client qui quitte le label en 2006.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-103",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_103.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-103-26",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel morceau a été choisi pour figurer en face B du titre 'New Life' ?",
+      "answer": "Shout",
+      "options": [
+        "Any Second Now",
+        "Ice Machine",
+        "Shout",
+        "See You"
+      ],
+      "explanation": "'New Life' est devenu le premier gros succès de Depeche Mode au Royaume-Uni, atteignant la 11e place du hit parade.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-103",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_103.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-103-27",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Où travaillait Martin L. Gore avant que le groupe Depeche Mode ne commence à percer ?",
+      "answer": "Dans une banque",
+      "options": [
+        "À la poste",
+        "Dans un supermarché",
+        "Dans une banque",
+        "Dans une boucherie"
+      ],
+      "explanation": "Martin Gore n’a pas une écriture prolifique, son travail d’écriture et de composition se fait généralement sous la pression.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-103",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_103.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-103-28",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Combien de temps a duré la « mort clinique » de Dave Gahan, chanteur de Depeche Mode ?",
+      "answer": "2 minutes",
+      "options": [
+        "2 minutes",
+        "20 minutes",
+        "2 heures",
+        "20 secondes"
+      ],
+      "explanation": "Après avoir passé quelques heures à l’hôpital, il sera placé en garde à vue pendant 48 heures avant d'être libéré sous caution.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-103",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_103.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-103-29",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel est le nom du restaurant situé à Londres dont Andrew Fletecher est le propriétaire ?",
+      "answer": "Gascogne",
+      "options": [
+        "Gascogne",
+        "Fletch",
+        "Basildon",
+        "Roland"
+      ],
+      "explanation": "Son sens du marketing et du management a fait qu'il occupe une place stratégique au sein du groupe Depeche Mode.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-103",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_103.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-103-30",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Pour le jeu 'Les Sims 2', Electronic Arts et Depeche Mode se sont entendus afin d'inclure quel titre ?",
+      "answer": "Suffer Well",
+      "options": [
+        "Stripped",
+        "Suffer Well",
+        "Little 15",
+        "See You"
+      ],
+      "explanation": "La bande originale du jeu a été composée par Mark Mothersbaugh, membre du groupe Rock DEVO.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-103",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_103.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

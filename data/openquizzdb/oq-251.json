@@ -1,0 +1,798 @@
+{
+  "id": "oq-251",
+  "title": "Surnoms des villes",
+  "originalTitle": "Surnoms des villes (L'Histoire en quelques mots)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_251.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-251-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le surnom donné à la ville américaine de New York ?",
+      "answer": "Grosse Pomme",
+      "options": [
+        "Orange Épaisse",
+        "Longue Banane",
+        "Grosse Pomme",
+        "Petite Poire"
+      ],
+      "explanation": "En 1971, cette expression prit toute son ampleur grâce à Charles Gillett qui lança une publicité sur le thème de la Big Apple.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-251",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_251.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-251-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle ville italienne a pour surnom la cité des Doges ?",
+      "answer": "Venise",
+      "options": [
+        "Turin",
+        "Venise",
+        "Naples",
+        "Milan"
+      ],
+      "explanation": "Le doge était le premier magistrat de plusieurs républiques d'Italie, particulièrement de Venise et de Gênes.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-251",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_251.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-251-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel surnom est donné à la ville de Las Vegas, dans le comté de Clark ?",
+      "answer": "Ville du Péché",
+      "options": [
+        "Ville des Vents",
+        "Ville émeraude",
+        "Ville du Péché",
+        "Ville fantôme"
+      ],
+      "explanation": "La légalisation des jeux d'argent en 1931 a vu naître dans la ville des casinos, des hôtels ainsi que le développement de la prostitution.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-251",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_251.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-251-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle capitale est surnommée la ville aux sept collines ?",
+      "answer": "Rome",
+      "options": [
+        "Budapest",
+        "Varsovie",
+        "Sofia",
+        "Rome"
+      ],
+      "explanation": "Le centre historique de Rome est dominé par les sept collines : Aventin, Caelius, Capitole, Esquilin, Palatin, Quirinal et Viminal.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-251",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_251.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-251-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle ville italienne est surnommée la capitale des arts ?",
+      "answer": "Florence",
+      "options": [
+        "Pescara",
+        "Syracuse",
+        "Florence",
+        "Rimini"
+      ],
+      "explanation": "Les Corporations d'arts et métiers médiévales de Florence représentent les sept arts majeurs et leurs techniques.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-251",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_251.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-251-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le surnom donné à la ville de Los Angeles, en Californie ?",
+      "answer": "Cité des Anges",
+      "options": [
+        "Cité des Anges",
+        "Ville du Péché",
+        "Grosse Pomme",
+        "Capitale des Arts"
+      ],
+      "explanation": "La cathédrale Notre-Dame des anges est aussi haute qu'un immeuble de 12 étages et peut accueillir plus de 3 000 fidèles.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-251",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_251.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-251-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces villes est surnommée la ville Sainte ?",
+      "answer": "Jérusalem",
+      "options": [
+        "Téhéran",
+        "Beyrouth",
+        "Abou Dabi",
+        "Jérusalem"
+      ],
+      "explanation": "Jérusalem est une ville du Proche-Orient que les Israéliens ont érigée en capitale et que les Palestiniens souhaitent comme capitale.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-251",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_251.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-251-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle ville est parfois reconnue comme capitale mondiale de la mode ?",
+      "answer": "Rome",
+      "options": [
+        "Austin",
+        "Rome",
+        "Bruxelles",
+        "La Haye"
+      ],
+      "explanation": "Malgré très peu de grands magasins, la place d'Espagne est à la fois le coeur du quartier commerçant de Rome et le fief de la mode.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-251",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_251.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-251-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle ville allemande est surnommée la ville des ours ?",
+      "answer": "Berlin",
+      "options": [
+        "Cologne",
+        "Munich",
+        "Berlin",
+        "Hambourg"
+      ],
+      "explanation": "Chaque année, en février, la Berlinale, festival international de cinéma, offre la récompense suprême qui est l'Ours d'Or.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-251",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_251.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-251-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le surnom donné à la ville de Detroit, dans le Michigan ?",
+      "answer": "Ville du Moteur",
+      "options": [
+        "Ville émeraude",
+        "Ville des Vents",
+        "Ville des Ours",
+        "Ville du Moteur"
+      ],
+      "explanation": "Entre 1900 et 1930, l'industrie automobile lui a donné son surnom de Motor City et a été à l'origine de son développement.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-251",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_251.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-251-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle ville était autrefois surnommée le Petit Paris des Balkans ?",
+      "answer": "Bucarest",
+      "options": [
+        "Bucarest",
+        "Prague",
+        "Budapest",
+        "Varsovie"
+      ],
+      "explanation": "L'influence française sur une partie de l'architecture bucarestoise fut autrefois telle que Bucarest était appelée le « Petit Paris ».",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-251",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_251.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-251-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le surnom donné à la ville de Grenoble, en France ?",
+      "answer": "Capitale des Alpes",
+      "options": [
+        "Cité du Lion",
+        "Ville des Vents",
+        "Ville de l'acier",
+        "Capitale des Alpes"
+      ],
+      "explanation": "C'est le fait d'être la plus grande métropole alpine, devant Innsbruck et Bolzano, qui vaut à Grenoble le surnom de « capitale des Alpes ».",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-251",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_251.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-251-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle ville a gagné son surnom de capitale de l'automobile ?",
+      "answer": "Turin",
+      "options": [
+        "Turin",
+        "Pittsburgh",
+        "Berlin",
+        "Marseille"
+      ],
+      "explanation": "Turin est devenu un centre industriel important au cours de la première partie du XXe siècle, grâce à l'industrie automobile.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-251",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_251.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-251-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le surnom donné à la célèbre ville côtière de Miami ?",
+      "answer": "Magic City",
+      "options": [
+        "Steel City",
+        "Fog City",
+        "Magic City",
+        "River City"
+      ],
+      "explanation": "« Magic City » est une série télévisée américaine en seize épisodes de 50 minutes créée par Mitch Glazer ayant pour décors Miami.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-251",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_251.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-251-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle ville égyptienne est surnommée la ville aux mille minarets ?",
+      "answer": "Le Caire",
+      "options": [
+        "Le Caire",
+        "Suez",
+        "Alexandrie",
+        "Louxor"
+      ],
+      "explanation": "Le centre historique de la ville du Caire comprend le Vieux Caire ainsi que le quartier islamique, classé au patrimoine mondial.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-251",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_251.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-251-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle ville est connue comme étant le bout du monde ?",
+      "answer": "Ushuaïa",
+      "options": [
+        "Pékin",
+        "Cuba",
+        "Kuala Lumpur",
+        "Ushuaïa"
+      ],
+      "explanation": "Le musée du Bout du Monde, inauguré en 1979, se consacre à la mise en valeur de son patrimoine ethnographique et historique.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-251",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_251.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-251-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le surnom donné à la ville de Chicago, dans l'Illinois ?",
+      "answer": "Ville des Vents",
+      "options": [
+        "Cité des Rêves",
+        "Ville du Moteur",
+        "Cité des Anges",
+        "Ville des Vents"
+      ],
+      "explanation": "Le surnom vient en partie du fait des vents qui soufflent depuis le lac Michigan et qui s'engouffrent dans les rues de la métropole.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-251",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_251.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-251-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle ville des États-Unis est souvent surnommée Big D ?",
+      "answer": "Dallas",
+      "options": [
+        "Dallas",
+        "Détroit",
+        "Denver",
+        "Dayton"
+      ],
+      "explanation": "Big D est un grand centre industriel spécialisé dans les des télécommunications, de l'information, des banques et des transports.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-251",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_251.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-251-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle ville est surnommée la ville de la paix et de la justice ?",
+      "answer": "La Haye",
+      "options": [
+        "La Haye",
+        "Amsterdam",
+        "Rotterdam",
+        "Eindhoven"
+      ],
+      "explanation": "La Haye est également la ville où siègent la Cour internationale de justice, la Cour pénale internationale, Europol et Eurojust.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-251",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_251.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-251-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle ville est surnommée la ville à l'éternel printemps ?",
+      "answer": "Pékin",
+      "options": [
+        "Florence",
+        "Pékin",
+        "Manille",
+        "Berlin"
+      ],
+      "explanation": "Pékin n'est pas très éloigné de la mer, mais celle-ci se trouve à l'est, alors que les vents dominants viennent plutôt de l'ouest.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-251",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_251.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-251-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le surnom donné à la ville de La Nouvelle-Orléans ?",
+      "answer": "Big Easy",
+      "options": [
+        "Big Easy",
+        "Fog City",
+        "River City",
+        "Magic City"
+      ],
+      "explanation": "Berceau du jazz, la vie culturelle riche, ancienne et vibrante de la ville de La Nouvelle-Orléans lui vaut le surnom de Big Easy.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-251",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_251.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-251-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle ville des États-Unis est surnommée la ville de l'acier ?",
+      "answer": "Pittsburgh",
+      "options": [
+        "Pittsburgh",
+        "Tucson",
+        "Sacramento",
+        "Boston"
+      ],
+      "explanation": "Pittsburgh a connu une forte croissance industrielle, devenant grâce à Andrew Carnegie à partir de 1875 une ville mondiale de l'acier.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-251",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_251.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-251-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le surnom donné à la ville de Seattle dans l'État de Washington ?",
+      "answer": "Ville émeraude",
+      "options": [
+        "Ville diamant",
+        "Ville émeraude",
+        "Ville rubis",
+        "Ville saphir"
+      ],
+      "explanation": "Longtemps appelée Queen City, le nom finalement retenu fut Emerald City, par allusion aux couleurs des paysages.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-251",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_251.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-251-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle ville est surnommée la ville aux mille et une portes colorées ?",
+      "answer": "Dublin",
+      "options": [
+        "Dubrovnik",
+        "Dublin",
+        "Cadiz",
+        "Bilbao"
+      ],
+      "explanation": "Les portes des maisons du centre sont éclatantes, peut-être parce que 48 % de la population de Dublin a moins de 35 ans.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-251",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_251.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-251-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le surnom historique donné à la ville de Moscou ?",
+      "answer": "Troisième Rome",
+      "options": [
+        "Nouveau Paris",
+        "Troisième Rome",
+        "Ancienne Athènes",
+        "Petit Luxembourg"
+      ],
+      "explanation": "Par son mariage avec Zoé Paléologue, nièce de Constantin XI, Ivan III revendiqua pour Moscou le rôle de Troisième Rome.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-251",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_251.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-251-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le surnom donné à la ville de Singapour depuis 1377 ?",
+      "answer": "Cité du Lion",
+      "options": [
+        "Cité du Lion",
+        "Cité des Anges",
+        "Cité des Rois",
+        "Cité des Rêves"
+      ],
+      "explanation": "Un prince de Palembang aurait assassiné le gouverneur de Tumasik et rebaptisé la cité « Singapura » (« ville du lion » en sanskrit).",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-251",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_251.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-251-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle ville est surnommée la locomotive du Brésil ?",
+      "answer": "Sao Paulo",
+      "options": [
+        "Salvador",
+        "Rio de Janeiro",
+        "Sao Paulo",
+        "Porto Alegre"
+      ],
+      "explanation": "Avec ses onze millions d'habitants en 2014, Sao Paulo, fondée en 1554 par des jésuites portugais, est la plus grande ville du pays.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-251",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_251.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-251-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle ville est surnommée la perle de l'Adriatique ?",
+      "answer": "Dubrovnik",
+      "options": [
+        "Dubrovnik",
+        "Zadar",
+        "Split",
+        "Zagreb"
+      ],
+      "explanation": "La ville de Dubrovnik, municipalité de Croatie, fut autrefois la capitale de la République maritime de Raguse.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-251",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_251.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-251-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle ville est surnommée la capitale secrète de l'Allemagne ?",
+      "answer": "Munich",
+      "options": [
+        "Munich",
+        "Berlin",
+        "Cologne",
+        "Hambourg"
+      ],
+      "explanation": "Arrivés au pouvoir, les nazis firent de Munich la capitale du mouvement et construisirent plusieurs édifices entre 1933 et 1945.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-251",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_251.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-251-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle ville est surnommée la ville aux mille métiers ?",
+      "answer": "Birmingham",
+      "options": [
+        "Tijuana",
+        "Birmingham",
+        "Lima",
+        "La Haye"
+      ],
+      "explanation": "Birmingham a été une ville phare lors de la révolution industrielle en Angleterre, d'où son surnom d'atelier du monde.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-251",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_251.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

@@ -1,0 +1,774 @@
+{
+  "id": "oq-24",
+  "title": "Châteaux et châteaux forts",
+  "originalTitle": "Châteaux et châteaux forts (Imprenables et majestueux)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_24.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    14
+  ],
+  "questions": [
+    {
+      "id": "oqdb-24-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans les jardins de quel château peut-on admirer une superbe orangerie ?",
+      "answer": "Versailles",
+      "options": [
+        "Sceaux",
+        "Fontainebleau",
+        "Versailles",
+        "Chenonceau"
+      ],
+      "explanation": "L'orangerie abrite en hiver 1 500 arbustes en caisse, en majorité des orangers mais aussi des lauriers, des grenadiers ou des myrtes.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-24",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_24.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-24-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel château fut la résidence d'été des papes installés en Avignon au XIVe siècle ?",
+      "answer": "Châteauneuf-du-Pape",
+      "options": [
+        "Château Margaux",
+        "Châteauneuf-du-Pape",
+        "Château Pétrus",
+        "Château Lafite"
+      ],
+      "explanation": "Son lien avec la Papauté d'Avignon a fortement marqué Châteauneuf-du-Pape ainsi que la viticulture de la région.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-24",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_24.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-24-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Au début du Moyen Âge, en quelle matière les premiers châteaux forts étaient-ils construits ?",
+      "answer": "Bois",
+      "options": [
+        "Fer",
+        "Pierres",
+        "Paille",
+        "Bois"
+      ],
+      "explanation": "Le château fort est une innovation européenne apparue au IXe siècle après la chute de l'Empire carolingien.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-24",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_24.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-24-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment appelle-t-on la plus haute tour d'un château fort ?",
+      "answer": "Donjon",
+      "options": [
+        "Donjon",
+        "Bastille",
+        "Guette",
+        "Tour flanquante"
+      ],
+      "explanation": "Les premiers grands donjons à base rectangulaire en pierre sont apparus dans la vallée de la Loire.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-24",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_24.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-24-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment appelle-t-on le fossé, généralement rempli d'eau, qui entoure un château fort ?",
+      "answer": "Douves",
+      "options": [
+        "Chemise",
+        "Douves",
+        "Contrescarpe",
+        "Latrines"
+      ],
+      "explanation": "L'usage des engins de siège, comme les tours et les béliers, était alors rendu difficile voire impossible.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-24",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_24.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-24-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle petite ouverture pratiquée dans le mur des châteaux permettait d'observer l'ennemi ?",
+      "answer": "Meurtrière",
+      "options": [
+        "Criminelle",
+        "Meurtrière",
+        "Bouchère",
+        "Egorgeuse"
+      ],
+      "explanation": "Ces meurtrières, ou archères, permettaient aussi de lancer des traits d'arbalète ou des flèches.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-24",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_24.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-24-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle partie du château abritait autrefois les appartements du seigneur ?",
+      "answer": "Donjon",
+      "options": [
+        "Hourd",
+        "Parapet",
+        "Beffroi",
+        "Donjon"
+      ],
+      "explanation": "En temps de paix, le donjon renferme également les trésors, les armes et les archives de la famille.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-24",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_24.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-24-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle était la résidence favorite des Rois de France à la renaissance ?",
+      "answer": "Blois",
+      "options": [
+        "Blois",
+        "Amboise",
+        "Meudon",
+        "Fontainebleau"
+      ],
+      "explanation": "Le château royal réunit autour d'une même cour un panorama de l'architecture française du Moyen Âge à l'époque classique.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-24",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_24.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-24-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui fut l'architecte des jardins à la française du château de Vaux-le-Vicomte ?",
+      "answer": "André Le Nôtre",
+      "options": [
+        "Charles Le Brun",
+        "André Le Nôtre",
+        "Pascal Cribier",
+        "Louis le Vau"
+      ],
+      "explanation": "André Le Nôtre a su se placer à l'écart des intrigues de la Cour et obtenir les bonnes grâces d'un roi passionné de jardins.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-24",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_24.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-24-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que trouve-t-on en général derrière le pont-levis d'un château ?",
+      "answer": "Herse",
+      "options": [
+        "Tourelle",
+        "Douves",
+        "Herse",
+        "Meurtrières"
+      ],
+      "explanation": "Le bas de la herse est souvent garni de pointes pour décourager quiconque de tenter de passer en dessous alors qu'elle descend.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-24",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_24.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-24-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel département pouvez-vous visiter le château de Chenonceau, à l'allure très féminine ?",
+      "answer": "Indre-et-Loire",
+      "options": [
+        "Finistère",
+        "Dordogne",
+        "Vaucluse",
+        "Indre-et-Loire"
+      ],
+      "explanation": "Le château de Chenonceau fait partie des châteaux communément appelés les châteaux de la Loire.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-24",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_24.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-24-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment appelle-t-on une petite tour dans un château fort ?",
+      "answer": "Tourelle",
+      "options": [
+        "Tourine",
+        "Tourelle",
+        "Touronne",
+        "Tourette"
+      ],
+      "explanation": "Les tourelles ou « tournelles » servaient de tour de guet, à la défense d'un point faible ou d'une poterne.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-24",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_24.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-24-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel château est présumé être enterré Léonard de Vinci ?",
+      "answer": "Amboise",
+      "options": [
+        "Amboise",
+        "Saumur",
+        "Blois",
+        "Sully-Sur-Loire"
+      ],
+      "explanation": "De Vinci développa des idées très en avance sur son temps, comme l'avion, l'hélicoptère, le sous-marin et l'automobile.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-24",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_24.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-24-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel château Hergé s'est-il inspiré pour créer le château de Moulinsart ?",
+      "answer": "Cheverny",
+      "options": [
+        "Chaumont-Sur-Loire",
+        "Villandry",
+        "Cheverny",
+        "Langeais"
+      ],
+      "explanation": "Le château, élevé dans un style très classique, a été dessiné par Jacques Bougier, architecte d'une partie du château de Blois.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-24",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_24.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-24-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Près de quelle ville Louis XIV a-t-il fait construire sa future résidence ?",
+      "answer": "Versailles",
+      "options": [
+        "Chambord",
+        "Fontainebleau",
+        "Versailles",
+        "Angers"
+      ],
+      "explanation": "Le roi et la cour y résidèrent de façon permanente de 1682 à 1789, à l'exception des années de la Régence de 1715 à 1723.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-24",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_24.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-24-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville peut-on visiter le château des ducs de Bretagne ?",
+      "answer": "Nantes",
+      "options": [
+        "Brest",
+        "Rennes",
+        "Nantes",
+        "Angers"
+      ],
+      "explanation": "Devenu propriété de la ville de Nantes en 1915, le château est affecté à un usage touristique et muséal depuis 1924.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-24",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_24.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-24-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel ensemble architectural médiéval appartient au patrimoine mondial de l'UNESCO ?",
+      "answer": "Cité de Carcassonne",
+      "options": [
+        "Liverdun",
+        "Cité de Carcassonne",
+        "Yvoire",
+        "Fénétrange"
+      ],
+      "explanation": "Cette cité fortifiée doit sa renommée à sa double enceinte, atteignant près de 3 km de longueur et comportant 52 tours.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-24",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_24.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-24-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel château ayant appartenu au Grand Condé au XVIIe siècle était un lieu de fêtes ?",
+      "answer": "Chantilly",
+      "options": [
+        "Versailles",
+        "Chenonceau",
+        "Chantilly",
+        "Fontainebleau"
+      ],
+      "explanation": "Les jardins du château de Chantilly sont une des plus remarquables créations d'André Le Nôtre.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-24",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_24.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-24-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville de France se trouve le château d'Henri IV, classé monument historique ?",
+      "answer": "Pau",
+      "options": [
+        "Bordeaux",
+        "Mont-de-Marsan",
+        "Toulouse",
+        "Pau"
+      ],
+      "explanation": "Le château de Pau porte en lui les marques tourmentées de l'histoire moderne, sous la figure bienveillante du « Vert galant ».",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-24",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_24.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-24-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelles tours coiffées de toitures coniques sont caractéristiques du château médiéval ?",
+      "answer": "Poivrières",
+      "options": [
+        "Poivrières",
+        "Safranières",
+        "Pimentières",
+        "Salières"
+      ],
+      "explanation": "La poivrière est une guérite de maçonnerie à toit conique placée en encorbellement à l'angle d'un bastion.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-24",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_24.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-24-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle petite porte dérobée est parfois pratiquée dans une muraille de château ?",
+      "answer": "Poterne",
+      "options": [
+        "Herse",
+        "Escarpe",
+        "Bretèche",
+        "Poterne"
+      ],
+      "explanation": "Placée dans le bas des courtines, au niveau des fossés, elle était généralement sous la protection des meurtrières d'une tour proche.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-24",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_24.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-24-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle muraille relie deux tours en architecture militaire médiévale ?",
+      "answer": "Courtine",
+      "options": [
+        "Courtine",
+        "Escarpe",
+        "Poterne",
+        "Herse"
+      ],
+      "explanation": "Dans l'architecture militaire bastionnée, une courtine est un rempart reliant deux bastions.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-24",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_24.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-24-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle structure de pierre placée au sommet d'une tour permet un tir fichant ?",
+      "answer": "Mâchicoulis",
+      "options": [
+        "Gabion",
+        "Mâchicoulis",
+        "Bastillon",
+        "Merlon"
+      ],
+      "explanation": "Ce système de défense active, en remplacement des hourds, sert à jeter divers matériaux pour défendre le pied des fortifications.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-24",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_24.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-24-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel palais possède le même nom qu'un pays du 'Seigneur des anneaux' de Tolkien ?",
+      "answer": "Palais Rohan",
+      "options": [
+        "Palais Moria",
+        "Palais Mordor",
+        "Palais Gondor",
+        "Palais Rohan"
+      ],
+      "explanation": "Le palais abrite trois musées : le musée des arts décoratifs, le musée des beaux-arts et le musée archéologique.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-24",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_24.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-24-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans la rade de quelle ville peut-on apercevoir le château d'If ?",
+      "answer": "Marseille",
+      "options": [
+        "Marseille",
+        "Nantes",
+        "Nice",
+        "Toulon"
+      ],
+      "explanation": "Cette construction carrée de trois étages mesure 28 mètres sur chaque côté, flanquée de 3 tours et percées de larges embrasures.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-24",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_24.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-24-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel château classé comprend trois donjons bâtis à trois époques différentes ?",
+      "answer": "Falaise",
+      "options": [
+        "Caen",
+        "Olivet",
+        "Falaise",
+        "Vire"
+      ],
+      "explanation": "Les phases de construction sont clairement identifiables, chacun des donjons correspondant à une période bien distincte.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-24",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_24.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-24-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel château est notamment composé de 17 tours édifiées sous le règne de Saint-Louis ?",
+      "answer": "Angers",
+      "options": [
+        "Falaise",
+        "Angers",
+        "Toulon",
+        "Rambures"
+      ],
+      "explanation": "La forteresse, aussi appelé château des ducs d'Anjou, est édifiée sur un promontoire de schiste ardoisier qui domine la Maine.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-24",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_24.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-24-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel château de la Somme est bâti presque entièrement en briques ?",
+      "answer": "Rambures",
+      "options": [
+        "Folleville",
+        "Raincheval",
+        "Bertangles",
+        "Rambures"
+      ],
+      "explanation": "Le château de Rambures fut épargné par Louis XIII lors des ordonnances de Richelieu.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-24",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_24.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-24-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel château de Mayenne composé de huit tours fut construit en seulement une année ?",
+      "answer": "Lassay",
+      "options": [
+        "Fresnay",
+        "Lassay",
+        "Terchant",
+        "Courbeveille"
+      ],
+      "explanation": "Les 2 tours des angles sud-est et sud-ouest sont circulaires, tandis que les 6 autres s'arasent intérieurement avec le mur des courtines.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-24",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_24.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

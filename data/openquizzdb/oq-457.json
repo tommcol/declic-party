@@ -1,0 +1,774 @@
+{
+  "id": "oq-457",
+  "title": "Orthoquizz",
+  "originalTitle": "Orthoquizz (Des mots souvent difficiles à écrire)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_457.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    20
+  ],
+  "questions": [
+    {
+      "id": "oqdb-457-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Où faut-il généralement d'abord se rendre en arrivant à l'hôpital ?",
+      "answer": "Accueil",
+      "options": [
+        "Acueil",
+        "Acceuil",
+        "Aceuil",
+        "Accueil"
+      ],
+      "explanation": "Dans le monde du travail, l'accueil consiste à orienter un patient, un client ou un visiteur et à l'aider dans ses démarches.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-457",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_457.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-457-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel engin muni d'une planche et de deux roues est désormais électrique ?",
+      "answer": "Trottinette",
+      "options": [
+        "Trottinette",
+        "Trottinete",
+        "Trotinete",
+        "Trotinette"
+      ],
+      "explanation": "Servant de jouet d'enfant en 1930, la trottinette est devenue un moyen de transport individuel urbain depuis les années 2010.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-457",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_457.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-457-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quoi procède un avion qui s'apprête à rejoindre la terre ferme ?",
+      "answer": "Atterrissage",
+      "options": [
+        "Atterrisage",
+        "Atterissage",
+        "Atterrissage",
+        "Aterrissage"
+      ],
+      "explanation": "Au début de l'aviation, le terme employé en place de l'atterrissage était la prise de terrain, terme toujours utilisé en parapente.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-457",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_457.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-457-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle idée ou concept semble parfois être le remède à tous les maux ?",
+      "answer": "Panacée",
+      "options": [
+        "Panascée",
+        "Panacée",
+        "Pannacée",
+        "Panassée"
+      ],
+      "explanation": "Le mot est parfois redoublé, on ne parle plus simplement de panacée, mais de panacée universelle, ce qui est un pléonasme.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-457",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_457.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-457-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle simple supposition peut être étudiée, confrontée, utilisée ou discutée ?",
+      "answer": "Hypothèse",
+      "options": [
+        "Hypotèse",
+        "Hipothèse",
+        "Hyppothèse",
+        "Hypothèse"
+      ],
+      "explanation": "Une hypothèse (sentimentale, religieuse ou politique) utilisée sans intention de la vérifier constitue dans ce cas un postulat.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-457",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_457.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-457-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle bande de faible hauteur est souvent placée au pied des murs ?",
+      "answer": "Plinthe",
+      "options": [
+        "Plynthe",
+        "Plinte",
+        "Plainte",
+        "Plinthe"
+      ],
+      "explanation": "Élément décoratif et utilitaire, elle permet entre autres de cacher des raccords ou des espaces laissés par les poseurs de parquet.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-457",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_457.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-457-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle science a pour objet la recherche de l'origine des mots ?",
+      "answer": "Étymologie",
+      "options": [
+        "Éthymologie",
+        "Hétymologie",
+        "Étymologie",
+        "Étimologie"
+      ],
+      "explanation": "L'étymologie s'appuie sur des lois de la phonétique historique (ascendance de ces mots) et sur l'évolution sémantique des termes.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-457",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_457.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-457-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que dit-on d'une femme qui engage une relation durable pour de l'argent ?",
+      "answer": "Vénale",
+      "options": [
+        "Vénnale",
+        "Vénale",
+        "Vainale",
+        "Veinale"
+      ],
+      "explanation": "Ce terme est souvent utilisé lorsqu'une belle et jeune femme se marie avec un homme riche et beaucoup plus âgé qu'elle.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-457",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_457.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-457-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle croyance semble être manifestement erronée au premier abord ?",
+      "answer": "Mythe",
+      "options": [
+        "Mithe",
+        "Myte",
+        "Mythe",
+        "Mytthe"
+      ],
+      "explanation": "Cette tradition orale propose une explication pour certains aspects fondamentaux du monde, qui a forgé ou qui véhicule ces mythes.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-457",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_457.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-457-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle cavité verticale, souvent profonde, peut être naturelle ou artificielle ?",
+      "answer": "Puits",
+      "options": [
+        "Puit",
+        "Puis",
+        "Puits",
+        "Puy"
+      ],
+      "explanation": "Un puits est, à l'origine, une cavité physique verticale, connectant deux niveaux de profondeurs différentes, pénétrables ou non.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-457",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_457.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-457-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle plante annuelle ou vivace est symbole de longévité en Chine ?",
+      "answer": "Chrysanthème",
+      "options": [
+        "Crysanthème",
+        "Chrysantème",
+        "Chrysanthème",
+        "Crisanthème"
+      ],
+      "explanation": "Les plus connus des chrysanthèmes sont les chrysanthèmes d'automne, ou chrysanthèmes des fleuristes (pomponnettes).",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-457",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_457.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-457-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel mammifère amphibien adulte n'a pas d'autre prédateur que l'homme ?",
+      "answer": "Hippopotame",
+      "options": [
+        "Hipopotame",
+        "Hippopotame",
+        "Hipoppotame",
+        "Hypopotame"
+      ],
+      "explanation": "Pour séduire une femelle les hippopotames peuvent se battre jusqu'à la mort, se combattant à l'aide de leurs défenses.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-457",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_457.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-457-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle plante Sim n'aimait-il pas dans une chanson de 1971 ?",
+      "answer": "Rhododendron",
+      "options": [
+        "Rododindron",
+        "Rhododindron",
+        "Rhododendron",
+        "Rododundron"
+      ],
+      "explanation": "On les rencontre dans les régions montagneuses, telles que les Alpes, les Pyrénées, le Caucase, les Carpates et l'Himalaya.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-457",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_457.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-457-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle infection à la couleur dorée est potentiellement mortelle ?",
+      "answer": "Staphylocoque",
+      "options": [
+        "Stafylocoque",
+        "Staphilocoque",
+        "Stafilocoque",
+        "Staphylocoque"
+      ],
+      "explanation": "Si un patient n'est pas traité suffisamment tôt, et notamment s'il est immunodéprimé, il peut développer une septicémie.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-457",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_457.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-457-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle mer, presque entièrement fermée, entoure une grande partie de l'Italie ?",
+      "answer": "Méditerranée",
+      "options": [
+        "Méditerranée",
+        "Médittérrannée",
+        "Méditteranée",
+        "Métiterrannée"
+      ],
+      "explanation": "L'ouverture de la mer Méditerranée vers l'océan Atlantique par le détroit de Gibraltar est large d'environ quatorze kilomètres.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-457",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_457.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-457-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel animal semi-aquatique est endémique de l'est de l'Australie ?",
+      "answer": "Ornithorynque",
+      "options": [
+        "Ornitorynque",
+        "Ornitorinque",
+        "Ornithorynque",
+        "Ornythorinque"
+      ],
+      "explanation": "L'ornithorynque est l'une des cinq espèces de l'ordre des monotrèmes, seul ordre de mammifères qui pond des oeufs.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-457",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_457.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-457-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel thérapeute irez-vous consulter pour retrouver l'usage d'une main ?",
+      "answer": "Kinésithérapeute",
+      "options": [
+        "Kinésitérapeute",
+        "Kynésithérapeute",
+        "Kinésythérapeute",
+        "Kinésithérapeute"
+      ],
+      "explanation": "Le kinésithérapeute cherchera à augmenter les capacités fonctionnelles de la personne dans le cadre de la rééducation.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-457",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_457.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-457-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle situation offrant une alternative mène à des résultats différents ?",
+      "answer": "Dilemme",
+      "options": [
+        "Dilemme",
+        "Dilème",
+        "Dylème",
+        "Dilemne"
+      ],
+      "explanation": "Généralement, les possibilités offertes sont présentées aussi attirantes ou repoussantes l'une que l'autre, mais sans intérêt.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-457",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_457.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-457-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel moyen permet d'augmenter la mémorisation de l'information ?",
+      "answer": "Mnémotechnique",
+      "options": [
+        "Mnémotechnique",
+        "Maimotechnique",
+        "Mémotechnique",
+        "Mnaimotechnique"
+      ],
+      "explanation": "La première référence connue à un mnémonique est l'Art de mémoire, décrite dans « De Oratore » par Cicéron.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-457",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_457.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-457-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel soulèvement armé peut parfois avoir lieu contre le pouvoir en place ?",
+      "answer": "Insurrection",
+      "options": [
+        "Inssurection",
+        "Inssurrection",
+        "Insurrection",
+        "Insurexion"
+      ],
+      "explanation": "Constitue un mouvement insurrectionnel toute violence collective de nature à mettre en péril les institutions de la République.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-457",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_457.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-457-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle maladie grave du foie résulte d'une consommation chronique d'alcool ?",
+      "answer": "Cirrhose",
+      "options": [
+        "Cyrrhose",
+        "Cyrose",
+        "Cirrose",
+        "Cirrhose"
+      ],
+      "explanation": "La fibrose entraîne une élévation de la pression sanguine un épanchement de liquide dans l'abdomen susceptible de s'infecter.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-457",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_457.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-457-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quels organes de la gorge sont en partie visibles au fond de la bouche ?",
+      "answer": "Amygdales",
+      "options": [
+        "Ammydales",
+        "Amigdales",
+        "Amygdales",
+        "Ammidales"
+      ],
+      "explanation": "Elles jouent un rôle essentiel dans la défense immunitaire car situées, au niveau du pharynx, à l'entrée des voies respiratoires.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-457",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_457.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-457-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle transmission d'un bien d'un défunt est faite à titre gratuit ?",
+      "answer": "Legs",
+      "options": [
+        "Lègue",
+        "Leg",
+        "Legs",
+        "Legg"
+      ],
+      "explanation": "Le legs se distingue de la donation (effet du vivant et irrévocable) car il ne prend effet qu'au décès, et il est révocable.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-457",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_457.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-457-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qu'avez-vous probablement si vos selles sont fort liquides ?",
+      "answer": "Diarrhée",
+      "options": [
+        "Dhiarrée",
+        "Diarrhée",
+        "Diarrée",
+        "Diarée"
+      ],
+      "explanation": "Selon l'OMS, il s'agit de l'émission d'au moins trois selles molles ou liquides par jour, ou à une fréquence anormale pour l'individu.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-457",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_457.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-457-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel os résulte de la soudure de quatre vertèbres atrophiées ?",
+      "answer": "Coccyx",
+      "options": [
+        "Coccyx",
+        "Cocyx",
+        "Coxis",
+        "Coccis"
+      ],
+      "explanation": "Le coccyx est un tout petit os triangulaire situé à l'extrémité de la colonne vertébrale chez certains primates dont l'Homme.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-457",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_457.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-457-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle gomme est à peu près similaire au baume de La Mecque ?",
+      "answer": "Myrrhe",
+      "options": [
+        "Myrrhe",
+        "Mirre",
+        "Myre",
+        "Myrre"
+      ],
+      "explanation": "La myrrhe fait partie des cadeaux apportés à Jésus par les rois mages, ce que rapporte l'Évangile selon Matthieu.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-457",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_457.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-457-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qu'observe-t-on sur la peau lorsque du sang quitte les vaisseaux ?",
+      "answer": "Ecchymose",
+      "options": [
+        "Eccymose",
+        "Ecchymose",
+        "Ecquimose",
+        "Equimose"
+      ],
+      "explanation": "Il s'agit de ce que l'on appelle plus communément un bleu, c'est à dire un épanchement diffus de sang sous la peau.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-457",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_457.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-457-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelles sommes sont versées par un client avant une livraison de biens ?",
+      "answer": "Arrhes",
+      "options": [
+        "Arrhes",
+        "Hares",
+        "Ares",
+        "Arhes"
+      ],
+      "explanation": "Dans le cas d'une vente, l'acheteur se réserve ainsi le droit de ne pas donner suite (le vendeur conservant alors les arrhes données).",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-457",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_457.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-457-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle fleur symbolise l'ardeur du coeur dans le langage des fleurs ?",
+      "answer": "Fuchsia",
+      "options": [
+        "Fuchsia",
+        "Fuchia",
+        "Fuschia",
+        "Fushia"
+      ],
+      "explanation": "Les fuchsias sont des plantes très cultivées dans les jardins d'ornement, bien qu'elles ne soient pas rustiques en régions tempérées.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-457",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_457.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

@@ -1,0 +1,774 @@
+{
+  "id": "oq-194",
+  "title": "France Gall",
+  "originalTitle": "France Gall (Tout pour la musique)",
+  "universe": "music",
+  "emoji": "🎵",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_194.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    19
+  ],
+  "questions": [
+    {
+      "id": "oqdb-194-1",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel grand concours musical France Gall a-t-elle remporté en 1965 ?",
+      "answer": "Eurovision",
+      "options": [
+        "Nouvelle Star",
+        "Eurovision",
+        "Miss France",
+        "Intervilles"
+      ],
+      "explanation": "Le Concours fut diffusé dans les pays d'Europe de l'Est via le réseau Intervision, avec une audience de 150 millions de téléspectateurs.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-194",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_194.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-194-2",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel musicien deviendra en 1976 l'époux puis le compositeur de France Gall ?",
+      "answer": "Michel Berger",
+      "options": [
+        "Daniel Guichard",
+        "Michel Berger",
+        "Gilbert Bécaud",
+        "Daniel Lavoie"
+      ],
+      "explanation": "Avec 'La Déclaration d'amour', Michel Berger relancera la carrière de la chanteuse et produira tous ses albums à partir de 1975.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-194",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_194.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-194-3",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quelle comédie musicale de 2015 a été écrite par France Gall et Bruck Dawit ?",
+      "answer": "Résiste",
+      "options": [
+        "Annie",
+        "Grease",
+        "Mathilda",
+        "Résiste"
+      ],
+      "explanation": "Cette comédie musicale a obtenu en 2017 le Trophée du public lors de la première cérémonie des Trophées de la Comédie Musicale.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-194",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_194.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-194-4",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Qui a écrit et composé la chanson de France Gall 'Laisse tomber les filles' ?",
+      "answer": "Serge Gainsbourg",
+      "options": [
+        "Jacques Dutronc",
+        "Claude François",
+        "Eddy Mitchell",
+        "Serge Gainsbourg"
+      ],
+      "explanation": "France Gall ordonne aux garçons volages de renoncer aux filles tout en proférant des menaces s'ils persistent dans cette mauvaise voie.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-194",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_194.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-194-5",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Qui aurait déclaré à France Gall: 'Tu as gagné, mais tu m'as perdu.' ?",
+      "answer": "Claude François",
+      "options": [
+        "Julien Clerc",
+        "Claude François",
+        "Daniel Balavoine",
+        "Hugues Aufray"
+      ],
+      "explanation": "Claude François lui a annoncé la rupture de leur couple juste après l'annonce de sa victoire au Concours Eurovision de la chanson.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-194",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_194.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-194-6",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel titre de France Gall est célèbre pour ses deux niveaux de lecture ?",
+      "answer": "Les Sucettes",
+      "options": [
+        "La Petite",
+        "Il neige",
+        "Les Sucettes",
+        "La Cloche"
+      ],
+      "explanation": "L'un décrit la scène innocente d'une fillette friande de sucettes achetées au drugstore, l'autre décrit implicitement une fellation.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-194",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_194.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-194-7",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "En hommage à quel artiste disparu France Gall a-t-elle chanté 'Évidemment' ?",
+      "answer": "Daniel Balavoine",
+      "options": [
+        "Sacha Distel",
+        "Michel Berger",
+        "Daniel Balavoine",
+        "Coluche"
+      ],
+      "explanation": "Lors de l'enregistrement de la chanson, France Gall dut s'y reprendre plusieurs fois tellement le texte la touchait.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-194",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_194.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-194-8",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Dans quel album retrouve-t-on à la fois France Gall et Michel Berger ?",
+      "answer": "Double Jeu",
+      "options": [
+        "Double Jeu",
+        "France Gall",
+        "Débranche !",
+        "Baby pop"
+      ],
+      "explanation": "Michel Berger et France Gall présentèrent leur album à leurs proches lors d'une session au club de jazz le New Morning en 1992.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-194",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_194.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-194-9",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quelle artiste a sorti l'album 'Ma déclaration' proposant des reprises de France Gall ?",
+      "answer": "Jenifer",
+      "options": [
+        "Lââm",
+        "Alizée",
+        "Jenifer",
+        "Lorie"
+      ],
+      "explanation": "Suite à la polémique avec France Gall, la promotion de l'album s'arrêta le 22 juin 2013, Jenifer ne souhaitant pas poursuivre.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-194",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_194.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-194-10",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel titre France Gall a-t-elle sorti en hommage à la chanteuse Ella Fitzgerald ?",
+      "answer": "Ella, elle l'a",
+      "options": [
+        "Babacar",
+        "Résiste",
+        "Ella, elle l'a",
+        "Calypso"
+      ],
+      "explanation": "Il s'agit du plus grand succès musical de France Gall, qui s'est vendu à 1.5 million d'exemplaires dans le monde, dont 452 000 en France.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-194",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_194.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-194-11",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel pays France Gall représentait-elle au dixième concours Eurovision de la chanson ?",
+      "answer": "Luxembourg",
+      "options": [
+        "Luxembourg",
+        "Suisse",
+        "Belgique",
+        "France"
+      ],
+      "explanation": "La chanson fut intégralement interprétée en français, une des langues nationales du Luxembourg, comme le voulait la coutume.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-194",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_194.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-194-12",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "En quelle année France Gall a-t-elle officiellement quitté la scène musicale ?",
+      "answer": "1997",
+      "options": [
+        "2001",
+        "1997",
+        "1999",
+        "2003"
+      ],
+      "explanation": "À partir de 1992, marquée par la mort de son mari puis celle de sa fille, France Gall sera aussi victime de problèmes de santé.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-194",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_194.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-194-13",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Comment France Gall fut-elle surnommée par sa famille jusqu'à sa mort ?",
+      "answer": "Babou",
+      "options": [
+        "Nini",
+        "Babou",
+        "Fafa",
+        "Cosette"
+      ],
+      "explanation": "Son père, Robert Gall, ancien élève du conservatoire, lui octroiera le titre de petit caporal devant son caractère affirmé.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-194",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_194.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-194-14",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Dans quel pays France Gall a-t-elle rencontré le succès fin des années 1960 ?",
+      "answer": "Allemagne",
+      "options": [
+        "Suisse",
+        "Luxembourg",
+        "Espagne",
+        "Allemagne"
+      ],
+      "explanation": "En France, à la même époque, France Gall ne fait plus de succès et son association avec Serge Gainsbourg ne fonctionne plus.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-194",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_194.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-194-15",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel est le titre du premier album studio enregistré par France Gall ?",
+      "answer": "France Gall",
+      "options": [
+        "Babacar",
+        "Débranche !",
+        "Dancing Disco",
+        "France Gall"
+      ],
+      "explanation": "Sorti le 6 janvier 1976, cet album s'est vendu à plus de 100 000 exemplaires en France (182 100 exemplaires selon InfoDisc).",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-194",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_194.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-194-16",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Avec qui France Gall a-t-elle chanté sur scène pour la dernière fois ?",
+      "answer": "Johnny Hallyday",
+      "options": [
+        "Johnny Hallyday",
+        "Jacques Dutronc",
+        "Michel Sardou",
+        "Florent Pagny"
+      ],
+      "explanation": "Les 12 et 15 août 2000, France Gall fait deux apparitions sur la scène de l'Olympia pour interpréter 'Quelque chose de Tennessee'.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-194",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_194.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-194-17",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Avec quel chanteur français France Gall a-t-elle vécu de 1970 à 1974 ?",
+      "answer": "Julien Clerc",
+      "options": [
+        "Michel Berger",
+        "Claude François",
+        "Julien Clerc",
+        "Serge Gainsbourg"
+      ],
+      "explanation": "Sa collaboration avec Michel Berger, entamée en 1973, se muera progressivement en relation amoureuse jusqu'au mariage en 1976.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-194",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_194.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-194-18",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quelle actrice incarne France Gall dans le film 'Cloclo', de Florent Emilio-Siri ?",
+      "answer": "Joséphine Japy",
+      "options": [
+        "Charlotte Deysine",
+        "Isabelle Ganz",
+        "Joséphine Japy",
+        "Mélanie Thierry"
+      ],
+      "explanation": "Joséphine Japy a été nommée pour le César du meilleur espoir féminin 2015 à la 40e cérémonie des César pour 'Respire'.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-194",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_194.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-194-20",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Sur quel album retrouve-t-on les titres 'Hong-Kong Star' et 'Cézanne peint' ?",
+      "answer": "Débranche !",
+      "options": [
+        "Débranche !",
+        "Double Jeu",
+        "Babacar",
+        "Dancing Disco"
+      ],
+      "explanation": "En exergue sur la pochette: 'Je dédie ce disque à tous ceux qui ne m'entendent pas seulement mais qui m'écoutent'.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-194",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_194.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-194-21",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel était le véritable prénom de la chanteuse française France Gall ?",
+      "answer": "Isabelle",
+      "options": [
+        "Isabelle",
+        "Dorothée",
+        "Francine",
+        "Catherine"
+      ],
+      "explanation": "France Gall est née le 9 octobre 1947 dans le 12e arrondissement de Paris et morte le 7 janvier 2018 à Neuilly-sur-Seine.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-194",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_194.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-194-22",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Pour ne pas interférer avec qui France Gall a-t-elle dû changer de prénom ?",
+      "answer": "Isabelle Aubret",
+      "options": [
+        "Isabelle Adjani",
+        "Isabelle Bonnadier",
+        "Isabelle Aubret",
+        "Isabelle Georges"
+      ],
+      "explanation": "Isabelle Aubret a remporté en 1962 le Concours Eurovision de la chanson pour la France avec la chanson 'Un premier amour'.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-194",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_194.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-194-23",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel rôle France Gall interprétait-elle dans l'opéra-rock 'Starmania' ?",
+      "answer": "Cristal",
+      "options": [
+        "Cristal",
+        "Ziggy",
+        "Stella",
+        "Marie-Jeanne"
+      ],
+      "explanation": "La comédie musicale de Michel Berger, sur un livret de Luc Plamondon, fut au fil du temps l'un des spectacles les plus joués.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-194",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_194.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-194-24",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Sous quel label France Gall avait-elle signé jusqu'à sa majorité ?",
+      "answer": "Philips",
+      "options": [
+        "Atlantic",
+        "Polydor",
+        "Warner",
+        "Philips"
+      ],
+      "explanation": "La même année (1968), France Gall en profitera également pour voler de ses propres ailes en se séparant de Denis Bourgeois.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-194",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_194.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-194-25",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel spectacle de France Gall était exclusivement composé de femmes ?",
+      "answer": "Made in France",
+      "options": [
+        "Débranche !",
+        "Ella, elle l'a",
+        "Made in France",
+        "Double Jeu"
+      ],
+      "explanation": "Petit clin d'œil: les seuls garçons à partager la scène des filles furent les deux chanteurs travestis brésiliens du groupe Les Étoiles.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-194",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_194.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-194-26",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "À l'initiative de quelle chanteuse France Gall rejoindra-t-elle Chanteurs sans frontières ?",
+      "answer": "Valérie Lagrange",
+      "options": [
+        "Anne Sylvestre",
+        "Catherine Ringer",
+        "Françoise Hardy",
+        "Valérie Lagrange"
+      ],
+      "explanation": "Valérie Lagrange rencontrera Benjamin Biolay en 2000 avec qui elle collaborera sur l'album 'Fleuve Congo' paru en avril 2003.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-194",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_194.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-194-27",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "À qui France Gall a-t-elle demandé de réaliser le clip de sa chanson 'Plus haut' ?",
+      "answer": "Jean-Luc Godard",
+      "options": [
+        "Jean-Luc Godard",
+        "François Truffaut",
+        "Claude Chabrol",
+        "Jacques Demy"
+      ],
+      "explanation": "Ayant fortement aimé le film 'Nouvelle Vague' (1990), sa demande fut acceptée par Jean-Luc Godard pour la sortie de son album 'France'.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-194",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_194.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-194-28",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "En quelle année France Gall fut-elle faite Chevalier de la Légion d'honneur ?",
+      "answer": "2013",
+      "options": [
+        "2016",
+        "2015",
+        "2013",
+        "2014"
+      ],
+      "explanation": "Cette décoration honorifique récompense les militaires comme les civils ayant rendu des services éminents à la Nation.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-194",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_194.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-194-29",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Pour quel label américain France Gall fut-elle la première à enregistrer en France ?",
+      "answer": "Atlantic",
+      "options": [
+        "Philips",
+        "CBS",
+        "Concord",
+        "Atlantic"
+      ],
+      "explanation": "Atlantic Records a été rachetée par Warner Communications Inc. En 1967, elle sera le A du sigle WEA (Warner-Elektra-Atlantic).",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-194",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_194.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-194-30",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel titre porte l'unique album-concept enregistré par France Gall ?",
+      "answer": "Dancing Disco",
+      "options": [
+        "Dancing Disco",
+        "Débranche !",
+        "Double Jeu",
+        "Babacar"
+      ],
+      "explanation": "L'héroïne de 'Dancing Disco' n'est pas sans rappeler Marie-Jeanne, la serveuse automate du futur opéra-rock 'Starmania'.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-194",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_194.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

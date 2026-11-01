@@ -1,0 +1,798 @@
+{
+  "id": "oq-265",
+  "title": "Albert célèbres",
+  "originalTitle": "Albert célèbres (Un Albert peut en cacher un autre)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_265.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-265-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel humoriste français est connu pour ses sketches de la chaîne Canal+ ?",
+      "answer": "Albert Algoud",
+      "options": [
+        "Albert Ferrasse",
+        "Albert Spaggiari",
+        "Albert Préjean",
+        "Albert Algoud"
+      ],
+      "explanation": "Dans « Nulle part ailleurs », il est apparu dans la bande de comédiens qui participèrent aux tournages des sketches de Karl Zéro.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-265",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_265.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-265-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel Albert a écrit pièces de théâtre, romans, nouvelles et poèmes ?",
+      "answer": "Albert Camus",
+      "options": [
+        "Albert Camus",
+        "Albert Samain",
+        "Albert Ducrocq",
+        "Albert Uderzo"
+      ],
+      "explanation": "Prix Nobel, Albert Camus a développé un humanisme fondé sur la prise de conscience de l'absurde de la condition humaine.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-265",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_265.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-265-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel prince de Monaco a épousé la nageuse Charlène Wittstock ?",
+      "answer": "Albert II",
+      "options": [
+        "Albert III",
+        "Albert II",
+        "Albert Ier",
+        "Albert IV"
+      ],
+      "explanation": "Le prince Albert II est le fils du prince Rainier III (1923-2005) et de Grace Kelly (1929-1982), actrice américaine internationale.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-265",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_265.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-265-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui fut successivement allemand, apatride, suisse et helvético-américain ?",
+      "answer": "Albert Einstein",
+      "options": [
+        "Albert Fratellini",
+        "Albert Schweitzer",
+        "Albert Einstein",
+        "Albert Batteux"
+      ],
+      "explanation": "Albert Einstein a publié sa théorie de la relativité restreinte en 1905 et sa théorie de la gravitation dite relativité générale en 1915.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-265",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_265.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-265-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui est devenu le troisième roi des Belges le 23 décembre 1909 ?",
+      "answer": "Albert Ier",
+      "options": [
+        "Albert III",
+        "Albert II",
+        "Albert Ier",
+        "Albert IV"
+      ],
+      "explanation": "Passionné d'alpinisme et auteur d'ascensions importantes, il meurt en 1934 dans un accident d'escalade à Marche-les-Dames.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-265",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_265.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-265-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui est le créateur, avec le scénariste René Goscinny, de la série « Astérix » ?",
+      "answer": "Albert Uderzo",
+      "options": [
+        "Albert Uderzo",
+        "Albert Calmette",
+        "Albert Ferrasse",
+        "Albert Ducrocq"
+      ],
+      "explanation": "Albert Uderzo étant daltonien, la mise en couleurs des albums d'« Astérix » fut longtemps assurée par son frère Marcel Uderzo.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-265",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_265.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-265-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui fut avec ses deux frères un clown mondialement célèbre ?",
+      "answer": "Albert Fratellini",
+      "options": [
+        "Albert Fratellini",
+        "Albert Dieudonné",
+        "Albert Ferrasse",
+        "Albert Dupontel"
+      ],
+      "explanation": "Albert s'est marié à Amalia di Palma. Ils ont eu une fille Alberta-Luisa, mariée au directeur de cirque néerlandais Ernest Carré.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-265",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_265.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-265-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel Albert a proposé des sketchs cultes comme « Le Bac » ou « Rambo » ?",
+      "answer": "Albert Dupontel",
+      "options": [
+        "Albert Dupontel",
+        "Albert Canet",
+        "Albert Algoud",
+        "Alberto Contador"
+      ],
+      "explanation": "Souhaitant préserver sa famille et particulièrement son père, Philippe Guillaume a choisi Albert Dupontel comme nom de scène.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-265",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_265.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-265-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel biologiste est un fin spécialiste de génétique des populations ?",
+      "answer": "Albert Jacquard",
+      "options": [
+        "Albert Algoud",
+        "Albert Samain",
+        "Albert Jacquard",
+        "Albert Schweitzer"
+      ],
+      "explanation": "Il est aussi membre du comité de parrainage de la Coordination française pour la décennie de la culture de paix et de non-violence.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-265",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_265.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-265-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a été président de la République française de 1932 à 1940 ?",
+      "answer": "Albert Lebrun",
+      "options": [
+        "Albert Londres",
+        "Albert Batteux",
+        "Albert Lebrun",
+        "Albert Decourtray"
+      ],
+      "explanation": "Persuadé d'être un recours face aux périls éminents, il acceptera en 1939 de présenter sa candidature à un second mandat.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-265",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_265.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-265-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel médecin et pasteur a reçu le prix Nobel de la paix en 1952 ?",
+      "answer": "Albert Schweitzer",
+      "options": [
+        "Albert Costa",
+        "Albert Lamorisse",
+        "Albert Schweitzer",
+        "Albert Finney"
+      ],
+      "explanation": "L'hôpital qu'il développa dans la forêt équatoriale au bord de l'Ogooué à partir de 1913 le fit connaître dans le monde entier.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-265",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_265.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-265-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui est connu pour avoir été le cerveau du casse du siècle en 1976 ?",
+      "answer": "Albert Spaggiari",
+      "options": [
+        "Albert Spaggiari",
+        "Albert Jacquard",
+        "Albert Canet",
+        "Albert Costa"
+      ],
+      "explanation": "Partisan de l'OAS, écrivain et photographe, il a échappé à la police française durant sa cavale qui a duré jusqu'à sa mort.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-265",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_265.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-265-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces propositions ne désigne pas un roman d'Albert Cohen ?",
+      "answer": "Mission",
+      "options": [
+        "Mangeclous",
+        "Solal",
+        "Les Valeureux",
+        "Mission"
+      ],
+      "explanation": "D'abord diplomate, il publie son premier roman en 1930 mais ce n'est qu'en 1968 qu'il devient célèbre avec « Belle du Seigneur ».",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-265",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_265.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-265-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel joueur de tennis espagnol fut vainqueur à Roland Garros en 2002 ?",
+      "answer": "Albert Costa",
+      "options": [
+        "Albert DeSalvo",
+        "Albert Préjean",
+        "Albert Costa",
+        "Albert Samain"
+      ],
+      "explanation": "Spécialiste de terre battue, il a remporté 12 tournois ATP, tous sur cette surface, battant Juan Carlos Ferrero en finale en 2002.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-265",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_265.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-265-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À qui doit-on la vaccination contre la tuberculose grâce au BCG ?",
+      "answer": "Albert Calmette",
+      "options": [
+        "Albert Calmette",
+        "Albert Spaggiari",
+        "Albert Einstein",
+        "Albert Schweitzer"
+      ],
+      "explanation": "Il était le frère d'Émile Calmette, médecin inspecteur général des Armées, et de Gaston Calmette, directeur du Figaro.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-265",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_265.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-265-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel animateur télé est associé à « Âge Tendre et Tête de Bois » ?",
+      "answer": "Albert Raisner",
+      "options": [
+        "Albert Algoud",
+        "Albert Préjean",
+        "Albert Londres",
+        "Albert Raisner"
+      ],
+      "explanation": "Il a été une figure emblématique du paysage audiovisuel français dans les années 1960 et un pionnier de l'époque des yé-yés.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-265",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_265.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-265-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a interprété Ernest Hemingway et Winston Churchill à la télévision ?",
+      "answer": "Albert Finney",
+      "options": [
+        "Albert Canet",
+        "Albert Finney",
+        "Albert Algoud",
+        "Albert Samain"
+      ],
+      "explanation": "Comédien, réalisateur, producteur et chanteur, il a été nommé à deux reprises aux Tony Awards pour le rôle de Martin Luther.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-265",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_265.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-265-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui est l'acteur principal de « Napoléon », un film d'Abel Gance ?",
+      "answer": "Albert Dieudonné",
+      "options": [
+        "Albert Calmette",
+        "Albert Algoud",
+        "Albert Dieudonné",
+        "Albert Dupontel"
+      ],
+      "explanation": "Selon Jean Tulard, il aurait été si marqué par son rôle qu'il en serait arrivé avec les années à se prendre pour l'empereur lui-même.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-265",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_265.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-265-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel Albert a été président de la Fédération française de tennis ?",
+      "answer": "Albert Canet",
+      "options": [
+        "Albert Jacquard",
+        "Albert Decourtray",
+        "Albert Lebrun",
+        "Albert Canet"
+      ],
+      "explanation": "Fils de l'ingénieur Gustave Canet, concepteur du célèbre canon Canet, Albert Canet a été président de la FFT de 1925 à 1930.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-265",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_265.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-265-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel art s'est illustré le français Albert Marquet avec ses couleurs vives ?",
+      "answer": "Peinture",
+      "options": [
+        "Photographie",
+        "Cinéma",
+        "Peinture",
+        "Sculpture"
+      ],
+      "explanation": "L'oeuvre d'Albert Marquet est fait de plans simplifiés, de couleurs vives et dégradées, avec un art accompli du cadrage.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-265",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_265.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-265-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a rassemblé un fonds iconographique intitulé « Archives de la Planète » ?",
+      "answer": "Albert Kahn",
+      "options": [
+        "Albert Calmette",
+        "Albert Lamorisse",
+        "Albert Jacquard",
+        "Albert Kahn"
+      ],
+      "explanation": "Cette collection constituée d'autochromes (photographies en couleurs sur plaques de verre) est la plus importante au monde.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-265",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_265.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-265-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel cardinal fut aussi archevêque de Lyon et académicien français ?",
+      "answer": "Albert Decourtray",
+      "options": [
+        "Albert Londres",
+        "Albert Ducrocq",
+        "Albert Raisner",
+        "Albert Decourtray"
+      ],
+      "explanation": "If lut créé cardinal par Jean-Paul II lors du consistoire du 25 mai 1985 avec le titre de cardinal-prêtre de la Trinité-des-Monts.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-265",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_265.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-265-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui est l'un des trois meilleurs entraîneurs de foot français du XXe siècle ?",
+      "answer": "Albert Batteux",
+      "options": [
+        "Albert Dieudonné",
+        "Albert Lebrun",
+        "Albert Finney",
+        "Albert Batteux"
+      ],
+      "explanation": "Lorsque Batteux devint entraîneur du Stade de Reims, il mit en place un style de jeu qu'on appellera jeu à la rémoise.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-265",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_265.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-265-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui fut Monsieur Loyal dans le premier cirque Jean Richard ?",
+      "answer": "Albert Préjean",
+      "options": [
+        "Albert Ducrocq",
+        "Albert Kahn",
+        "Albert Préjean",
+        "Albert Costa"
+      ],
+      "explanation": "Il a confié ses souvenirs à son fils Patrick Préjean, dans un livre paru en 1979. Sa dernière épouse est décédée en 1986.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-265",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_265.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-265-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel prix récompense les meilleurs journalistes francophones depuis 1933 ?",
+      "answer": "Albert Londres",
+      "options": [
+        "Albert Spaggiari",
+        "Albert Londres",
+        "Albert Decourtray",
+        "Albert Finney"
+      ],
+      "explanation": "Albert Londres dira : Notre métier n'est pas de faire plaisir, non plus de faire du tort, il est de porter la plume dans la plaie.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-265",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_265.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-265-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui est l'inventeur d'un système de prises de vues aériennes, l'Hélivision ?",
+      "answer": "Albert Lamorisse",
+      "options": [
+        "Albert Lebrun",
+        "Albert Lamorisse",
+        "Albert Calmette",
+        "Albert Decourtray"
+      ],
+      "explanation": "Cette technique pionnière des systèmes antivibratoires de prises de vue aériennes fut utilisée dans les premiers « James Bond ».",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-265",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_265.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-265-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel Albert a été champion de France de rugby à XV en 1945 ?",
+      "answer": "Albert Ferrasse",
+      "options": [
+        "Albert Ferrasse",
+        "Albert Calmette",
+        "Albert Batteux",
+        "Albert Samain"
+      ],
+      "explanation": "Ayant joué en seconde ligne gauche au SU Agen, Albert Ferrasse était un excellent relanceur de touche du fait de sa détente.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-265",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_265.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-265-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quel cybernéticien doit-on, entre autres, le « renard électronique » ?",
+      "answer": "Albert Ducrocq",
+      "options": [
+        "Albert Ducrocq",
+        "Albert Spaggiari",
+        "Albert Jacquard",
+        "Albert Kahn"
+      ],
+      "explanation": "Ducrocq l'avait doté d'un sens capacitif par le moyen d'un dispositif de détection de masse récupéré d'un détecteur de mines.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-265",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_265.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-265-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel poète symboliste français utilisait des sonnets à quinze vers ?",
+      "answer": "Albert Samain",
+      "options": [
+        "Albert Samain",
+        "Albert Spaggiari",
+        "Albert Londres",
+        "Albert Jacquard"
+      ],
+      "explanation": "De nombreux musiciens composent des mélodies sur ses textes, comme « Arpège » de Gabriel Fauré ou « La Maison du matin ».",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-265",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_265.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-265-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel tueur en série a étranglé treize femmes entre 1962 et 1964 ?",
+      "answer": "Albert DeSalvo",
+      "options": [
+        "Albert Dieudonné",
+        "Albert Ducrocq",
+        "Albert Kahn",
+        "Albert DeSalvo"
+      ],
+      "explanation": "Il a également été surnommé l'Homme en Vert en référence à la couleur de sa tenue d'ouvrier chargé d'effectuer des réparations.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-265",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_265.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

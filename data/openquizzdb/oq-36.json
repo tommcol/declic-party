@@ -1,0 +1,749 @@
+{
+  "id": "oq-36",
+  "title": "Breaking Bad",
+  "originalTitle": "Breaking Bad",
+  "universe": "film",
+  "emoji": "🎬",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_36.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    10,
+    20
+  ],
+  "questions": [
+    {
+      "id": "oqdb-36-1",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui est le nom du personnage principal de la série télévisée 'Breaking Bad' ?",
+      "answer": "Walter White",
+      "options": [
+        "Jesse Pinkman",
+        "Hank Schrader",
+        "Walter White",
+        "Saul Goodman"
+      ],
+      "explanation": "Walter White est interprété par Bryan Cranston et doublé en version française par Jean-Louis Faure.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-36",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_36.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-36-2",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Durant quelle saison de 'Breaking Bad' Walter White devient-il chauve ?",
+      "answer": "Saison 1",
+      "options": [
+        "Saison 4",
+        "Saison 1",
+        "Saison 3",
+        "Saison 2"
+      ],
+      "explanation": "Walter White est diagnostiqué d'un cancer du poumon et apprend qu'il ne lui reste plus que quelques mois à vivre.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-36",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_36.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-36-3",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle drogue est fabriquée et vendue par Walter White dans la série 'Breaking Bad' ?",
+      "answer": "Méthamphétamine",
+      "options": [
+        "Méthamphétamine",
+        "Ketamine",
+        "Héroïne",
+        "Cocaïne"
+      ],
+      "explanation": "Pure, la méthamphétamine se présente sous une forme solide cristalline incolore et inodore, qui peut rappeler du verre pilé.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-36",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_36.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-36-4",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quel type de véhicule « cuisinent » Walter et Jesse dans la série télé 'Breaking Bad' ?",
+      "answer": "Un camping-car",
+      "options": [
+        "Un camion",
+        "Un camping-car",
+        "Un bus",
+        "Un taxi"
+      ],
+      "explanation": "'Breaking Bad' a reçu un large succès critique et est à présent considérée comme l'une des meilleures séries télé américaines.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-36",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_36.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-36-5",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "De quelle maladie grave est atteint Walter White dans la série télé 'Breaking Bad' ?",
+      "answer": "Cancer du poumon",
+      "options": [
+        "Cancer du colon",
+        "Cancer du poumon",
+        "Cancer de la peau",
+        "Cancer de la gorge"
+      ],
+      "explanation": "Considérant qu'il n'a plus rien à perdre, Walt pense pouvoir assurer l'avenir financier de sa famille en fabriquant de la meth.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-36",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_36.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-36-6",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le prénom de la femme de Walter White dans la série télévisée 'Breaking Bad' ?",
+      "answer": "Skyler",
+      "options": [
+        "Jesse",
+        "Lidia",
+        "Skyler",
+        "Hilary"
+      ],
+      "explanation": "Apprenant que son mari menait une double vie, Skyler demande le divorce, mais promet de ne pas révéler son secret.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-36",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_36.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-36-7",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le métier du beau-frère de Walter dans la série 'Breaking Bad' ?",
+      "answer": "Agent de la DEA",
+      "options": [
+        "Agent de la DEA",
+        "Agent de la NSA",
+        "Agent du FBI",
+        "Agent de la CIA"
+      ],
+      "explanation": "C'est Hank qui fait part à Walter des énormes sommes d'argent brassées par le marché de la drogue.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-36",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_36.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-36-8",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Avec quel ancien élève Walter White est-il devenu trafiquant de drogue dans 'Breaking Bad' ?",
+      "answer": "Jesse Pinkman",
+      "options": [
+        "Jesse Pinkman",
+        "Hank Schrader",
+        "Saul Goodman",
+        "Gustavo Fring"
+      ],
+      "explanation": "Jesse Pinkman est le seul personnage en plus de Walter White à apparaître dans tous les épisodes de la série.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-36",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_36.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-36-9",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "En plus de Walter White, qui apparaît dans tous les épisodes de 'Breaking Bad' ?",
+      "answer": "Jesse Pinkman",
+      "options": [
+        "Jesse Pinkman",
+        "Mark Johnson",
+        "Hank Schrader",
+        "Gus Fring"
+      ],
+      "explanation": "Pour son interprétation, Aaron Paul a remporté un Primetime Emmy Award dans la catégorie « série dramatique » en 2010 et 2012.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-36",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_36.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-36-11",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quelle ville se déroule l'action de la première saison de la série 'Breaking Bad' ?",
+      "answer": "Albuquerque",
+      "options": [
+        "Roswell",
+        "Albuquerque",
+        "Farmington",
+        "Los Alamos"
+      ],
+      "explanation": "La première saison de 'Breaking Bad' n'est composée que de sept épisodes à cause de la grève des scénaristes américains.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-36",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_36.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-36-12",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel alter-ego Walter White a-t-il créé pour ses activités criminelles dans 'Breaking Bad' ?",
+      "answer": "Heisenberg",
+      "options": [
+        "Iceberg",
+        "Gutenberg",
+        "Heisenberg",
+        "Einstein"
+      ],
+      "explanation": "Walt se rend chez El Tuco sous le pseudonyme de « Heisenberg » et lui réclame 50 000 $ (pour sa drogue et pour Jesse).",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-36",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_36.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-36-13",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le métier exercé par Hank Schrader dans 'Breaking Bad' ?",
+      "answer": "Policier",
+      "options": [
+        "Menuisier",
+        "Banquier",
+        "Avocat",
+        "Policier"
+      ],
+      "explanation": "Agent de la DEA, Hank enquête sur un nouveau producteur de meth dans la région, sans savoir qu'il s'agit de Walt.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-36",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_36.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-36-14",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le prénom du beau-frère de Walter dans la série 'Breaking Bad' ?",
+      "answer": "Hank",
+      "options": [
+        "Mike",
+        "Harry",
+        "Franck",
+        "Hank"
+      ],
+      "explanation": "Grossier et brutal, Hank est aussi amateur de bière artisanale et de minéraux (ou roches comme il n'aime pas qu'on les nomme).",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-36",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_36.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-36-15",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel patron de la drogue emploie Walter White dans la série télévisée 'Breaking Bad' ?",
+      "answer": "Gus Fring",
+      "options": [
+        "Saul Goodman",
+        "Hank Schrader",
+        "Gus Fring",
+        "Jesse Pinkman"
+      ],
+      "explanation": "Gustavo respecte le sang froid et la minutie de Walter, et va jusqu'à lui confier toute sa production de meth.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-36",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_36.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-36-16",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Avec quel objet communique le vieux Salamanca dans la série télévisée 'Breaking Bad' ?",
+      "answer": "Une sonnette",
+      "options": [
+        "Une sonnette",
+        "Une trompette",
+        "Un clavier",
+        "Un marqueur"
+      ],
+      "explanation": "Patriarche de la famille et ancien homme de main de Don Eladio Vuente, Hector était un membre de haut rang du cartel de Juarez.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-36",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_36.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-36-17",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel personnage de la série 'Breaking Bad' est la dernière personne à mourir ?",
+      "answer": "Walter",
+      "options": [
+        "Todd",
+        "Lidia",
+        "Flynn",
+        "Walter"
+      ],
+      "explanation": "Quand les forces de l'ordre débarquent chez Jack, elles ne trouvent que le corps sans vie de Walt étendu par terre.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-36",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_36.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-36-18",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel scénariste, producteur et réalisateur américain est le créateur de la série à succès 'Breaking Bad' ?",
+      "answer": "Vince Gilligan",
+      "options": [
+        "Vince Gilligan",
+        "Bryan Cranston",
+        "Allan Ball",
+        "Dick Wolf"
+      ],
+      "explanation": "Vince Gilligan s'être tout d'abord fait connaître pour son travail de scénariste sur la série télévisée 'X-Files'.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-36",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_36.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-36-19",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle est la particularité physique du fils de Walter dans la série 'Breaking Bad' ?",
+      "answer": "Handicapé",
+      "options": [
+        "Handicapé",
+        "Sourd",
+        "Aveugle",
+        "Muet"
+      ],
+      "explanation": "Walter « Walt » White est professeur de chimie dans un lycée, et vit avec son fils handicapé et sa femme enceinte.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-36",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_36.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-36-21",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Sur quelle chaîne était diffusé la série télévisée 'Breaking Bad' aux États-Unis ?",
+      "answer": "AMC",
+      "options": [
+        "CBS",
+        "ABC",
+        "AMC",
+        "HBO"
+      ],
+      "explanation": "La chaîne AMC a mis en place plusieurs sites web fictifs, qui reprennent des éléments de la série.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-36",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_36.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-36-22",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le surnom de Jesse Pinkman dans la série télévisée 'Breaking Bad' ?",
+      "answer": "Capitaine Cook",
+      "options": [
+        "Et Tuco",
+        "Gus",
+        "Capitaine Cook",
+        "Bad Pink"
+      ],
+      "explanation": "Jesse était un mauvais élève au lycée, en grande partie du fait de son inattention en cours et de son apathie.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-36",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_36.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-36-23",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle est l'année de diffusion de la première saison de 'Breaking Bad' aux États-Unis ?",
+      "answer": "2008",
+      "options": [
+        "2009",
+        "2007",
+        "2010",
+        "2008"
+      ],
+      "explanation": "'Breaking Bad' a remporté douze Primetime Emmy Awards et a été nommée trois fois pour le prix de la meilleure série dramatique.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-36",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_36.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-36-24",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "De quoi est remplie la baignoire dans le deuxième épisode de la série 'Breaking Bad' ?",
+      "answer": "D'acide",
+      "options": [
+        "D'huile",
+        "De glace",
+        "D'acide",
+        "De lait"
+      ],
+      "explanation": "Walter et Jesse doivent gérer deux corps dans le camping-car, dont l'un d'eux finira dans une baignoire remplie d'acide.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-36",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_36.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-36-25",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle copine de Jesse est morte d'une overdose dans la série 'Breaking Bad' ?",
+      "answer": "Jane",
+      "options": [
+        "Jane",
+        "Marie",
+        "Skyler",
+        "Jessica"
+      ],
+      "explanation": "Jesse et Jane vont tomber amoureux l'un de l'autre, Jesse prenant cette relation très au sérieux.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-36",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_36.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-36-26",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans 'Breaking Bad', avec quoi Skyler forme-t-elle l'âge de Walter à chaque anniversaire ?",
+      "answer": "Du bacon",
+      "options": [
+        "Des oignons",
+        "Des spaghettis",
+        "Du bacon",
+        "Des saucisses"
+      ],
+      "explanation": "Le premier épisode de la première saisons débute sur le cinquantième anniversaire de Walt, fêté comme il se doit.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-36",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_36.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-36-27",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qu'a coûté environ, en dollars, la production de chaque épisode de 'Breaking Bad' ?",
+      "answer": "3 millions",
+      "options": [
+        "1 million",
+        "2 millions",
+        "4 millions",
+        "3 millions"
+      ],
+      "explanation": "Si les premiers scripts de la série plaçaient l'intrigue en Californie, les coûts de production ont poussé à changer d'État pour le tournage.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-36",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_36.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-36-28",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui a produit la série télévisée à grand succès 'Breaking Bad' ?",
+      "answer": "Mark Johnson",
+      "options": [
+        "Mark Johnson",
+        "Bryan Cranston",
+        "Dean Norris",
+        "Vince Gilligan"
+      ],
+      "explanation": "Mark Johnson a obtenu l'Oscar du meilleur film pour avoir produit 'Rain Man' (avec Dustin Hoffman et Tom Cruise) en 1988.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-36",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_36.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-36-29",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "De quelle nationalité sont les jumeaux concurrents de Walt dans 'Breaking Bad' ?",
+      "answer": "Mexicains",
+      "options": [
+        "Mexicains",
+        "Espagnols",
+        "Anglais",
+        "Argentins"
+      ],
+      "explanation": "Gus Fring, le patron de la drogue, cherche à protéger son chimiste des menaces des jumeaux mexicains redoutables.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-36",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_36.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-36-30",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Combien d'Emmy Awards la série 'Breaking Bad' a-t-elle remporté ?",
+      "answer": "15",
+      "options": [
+        "12",
+        "15",
+        "9",
+        "6"
+      ],
+      "explanation": "Parmi ceux-ci, quatre pour Bryan Cranston, trois pour Aaron Paul, deux pour Anna Gunn, deux de meilleure série télévisée dramatique.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-36",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_36.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

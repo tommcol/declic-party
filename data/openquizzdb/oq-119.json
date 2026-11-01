@@ -1,0 +1,699 @@
+{
+  "id": "oq-119",
+  "title": "Trouvez le nombre",
+  "originalTitle": "Trouvez le nombre",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_119.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    13,
+    15,
+    21,
+    25
+  ],
+  "questions": [
+    {
+      "id": "oqdb-119-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de personnes forment le groupe humoristique français Les Inconnus ?",
+      "answer": "3",
+      "options": [
+        "4",
+        "5",
+        "3",
+        "6"
+      ],
+      "explanation": "Ils étaient initialement cinq, avec Smaïn et Seymour Brussel qui quitteront le groupe après un an.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-119",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_119.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-119-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Au Scrabble, combien de points valent les lettres K, W, X, Y et Z ?",
+      "answer": "10",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "6"
+      ],
+      "explanation": "Il existe trois championnats du monde de Scrabble : anglophone, francophone et hispanophone.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-119",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_119.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-119-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Complétez ce titre de roman écrit par Ray Bradbury : 'Fahrenheit'...",
+      "answer": "451",
+      "options": [
+        "154",
+        "451",
+        "241",
+        "421"
+      ],
+      "explanation": "Le titre fait référence au point d'auto-inflammation, en degrés Fahrenheit, du papier.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-119",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_119.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-119-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel était le numéro de maillot que portait Michel Platini et Zinédine Zidane en équipe de France ?",
+      "answer": "10",
+      "options": [
+        "11",
+        "10",
+        "8",
+        "9"
+      ],
+      "explanation": "Lors de l'Euro 1984, Michel Platini a établi un record de neuf buts marqués durant ce seul tournoi.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-119",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_119.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-119-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Traditionnellement, combien y a-t-il de pieds à une table de cuisine ?",
+      "answer": "4",
+      "options": [
+        "6",
+        "5",
+        "3",
+        "4"
+      ],
+      "explanation": "Initialement destinées à l'usage domestique, les tables ont aujourd'hui pénétré le monde industriel.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-119",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_119.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-119-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Au théâtre, combien de coups sont frappés avec un bâton avant le lever du rideau ?",
+      "answer": "3",
+      "options": [
+        "4",
+        "6",
+        "5",
+        "3"
+      ],
+      "explanation": "Au théâtre, les trois coups sont frappés avec un bâton appelé « brigadier » sur le plancher de la scène.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-119",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_119.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-119-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de Guerres mondiales eurent lieu au cours du 20e siècle ?",
+      "answer": "2",
+      "options": [
+        "4",
+        "2",
+        "1",
+        "3"
+      ],
+      "explanation": "Avant la Seconde Guerre mondiale, la Première Guerre mondiale était appelée la « Grande Guerre ».",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-119",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_119.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-119-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En Europe, de combien de chiffres se compose le code PIN d'une carte bancaire ?",
+      "answer": "4",
+      "options": [
+        "3",
+        "5",
+        "6",
+        "4"
+      ],
+      "explanation": "Le code PIN est par exemple utilisé sur un téléphone mobile ou un smartphone équipés d'une carte SIM.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-119",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_119.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-119-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de personnes formaient autrefois le groupe de musique ABBA ?",
+      "answer": "4",
+      "options": [
+        "5",
+        "3",
+        "6",
+        "4"
+      ],
+      "explanation": "En janvier 2010, une exposition temporaire, baptisée 'ABBA World', a ouvert ses portes à Londres.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-119",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_119.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-119-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En 1998, combien de buts la France a-t-elle marqué en finale de la Coupe du monde de football ?",
+      "answer": "3",
+      "options": [
+        "5",
+        "3",
+        "2",
+        "4"
+      ],
+      "explanation": "Le début de cette coupe du monde est endeuillé par la disparition du coprésident Fernand Sastre.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-119",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_119.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-119-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lors de la première saison, combien d'heures a duré l'aventure de l'agent anti-terroriste Jack Bauer ?",
+      "answer": "24",
+      "options": [
+        "20",
+        "24",
+        "22",
+        "18"
+      ],
+      "explanation": "Les auteurs de '24' ont collaboré avec Sutherland pour créer une « partie » de Jack Bauer.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-119",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_119.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-119-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de minutes réglementaires constituent un match de rugby à XV ?",
+      "answer": "80",
+      "options": [
+        "20",
+        "80",
+        "40",
+        "60"
+      ],
+      "explanation": "L'International Rugby Board (IRB), créé en 1886, gouverne ce sport et en publie les règles.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-119",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_119.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-119-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le numéro de maillot que Michael Jordan a porté avec les Chicago Bulls ?",
+      "answer": "23",
+      "options": [
+        "23",
+        "3",
+        "13",
+        "33"
+      ],
+      "explanation": "Michael Jordan possède aujourd'hui sa propre écurie de superbike ainsi que de nombreux restaurants.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-119",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_119.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-119-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lors de la saison 2014 de Formule 1, sur 19 Grand Prix, combien Lewis Hamilton en a-t-il gagné ?",
+      "answer": "11",
+      "options": [
+        "11",
+        "9",
+        "13",
+        "7"
+      ],
+      "explanation": "Lewis Hamilton est l'un des plus proches amis de Rowan Atkinson, créateur et interprète du personnage de Mr. Bean.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-119",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_119.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-119-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de fois Pamela Anderson est-elle apparu en couverture du 'Playboy' américain ?",
+      "answer": "13",
+      "options": [
+        "9",
+        "13",
+        "11",
+        "7"
+      ],
+      "explanation": "Pamela Anderson milite également activement pour la défense animale, notamment aux côtés de l'association PETA.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-119",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_119.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-119-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le numéro de l'adresse qui abrite le Palais de l’Élysée, rue Faubourg Saint-Honoré ?",
+      "answer": "55",
+      "options": [
+        "99",
+        "77",
+        "33",
+        "55"
+      ],
+      "explanation": "Le palais de l'Élysée est un hôtel particulier parisien construit par l'architecte Armand-Claude Mollet en 1720.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-119",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_119.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-119-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien sont les frères Wachowski, devenus sœurs, réalisateurs de la trilogie 'Matrix' ?",
+      "answer": "2",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "4"
+      ],
+      "explanation": "Suite à leur changement d'identité de genre, Larry est devenu Lana et Andy est devenu Lilly.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-119",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_119.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-119-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Le 11 septembre 2001, combien d'avions ont percuté les deux tours du World Trade Center ?",
+      "answer": "2",
+      "options": [
+        "5",
+        "4",
+        "3",
+        "2"
+      ],
+      "explanation": "Les événements du 11 septembre ont été vécus presque en temps réel par des centaines de millions de téléspectateurs.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-119",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_119.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-119-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de romans ont pour protagoniste Fantômas, héros à la silhouette encagoulée ?",
+      "answer": "32",
+      "options": [
+        "42",
+        "32",
+        "22",
+        "12"
+      ],
+      "explanation": "'Fantômas' demeure un des feuilletons les plus marquants de la littérature populaire en France.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-119",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_119.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-119-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Durant combien d'années John Fitzgerald Kennedy a-t-il été Président des États-Unis ?",
+      "answer": "2",
+      "options": [
+        "3",
+        "5",
+        "2",
+        "4"
+      ],
+      "explanation": "John Fitzgerald Kennedy reste à ce jour le seul président américain de confession catholique.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-119",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_119.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-119-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de pays sont frontaliers avec la République populaire de Chine ?",
+      "answer": "14",
+      "options": [
+        "10",
+        "14",
+        "12",
+        "16"
+      ],
+      "explanation": "Ce nombre en fait, à égalité avec la Russie, l'État avec le plus de voisins au monde.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-119",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_119.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-119-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de fois le pilote Ayrton Senna a-t-il été champion du monde de Formule 1 ?",
+      "answer": "3",
+      "options": [
+        "2",
+        "5",
+        "3",
+        "4"
+      ],
+      "explanation": "Ayrton Senna reste une véritable idole au Brésil où son statut a dépassé celui de simple champion sportif.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-119",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_119.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-119-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Véritable icône culturelle, en quelle année le boxeur Mohamed Ali est-il décédé ?",
+      "answer": "2016",
+      "options": [
+        "2016",
+        "2010",
+        "2012",
+        "2014"
+      ],
+      "explanation": "Mohamed Ali a été décoré en 2005 de la Médaille présidentielle de la Liberté.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-119",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_119.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-119-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de secondes après son décollage la navette spatiale Challenger explosa-t-elle en vol en 1986 ?",
+      "answer": "73",
+      "options": [
+        "53",
+        "113",
+        "73",
+        "93"
+      ],
+      "explanation": "La navette porte le nom du bateau qui mesura le fond marin le plus profond du globe.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-119",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_119.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-119-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien d’œuvres le corpus 'La Comédie humaine' d'Honoré de Balzac comporte-t-il ?",
+      "answer": "93",
+      "options": [
+        "73",
+        "63",
+        "83",
+        "93"
+      ],
+      "explanation": "Doué du génie de l'observation, Balzac a créé des types humains saisissants de vérité.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-119",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_119.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-119-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de sélections Zinédine Zidane a-t-il reçu en équipe de France de football ?",
+      "answer": "108",
+      "options": [
+        "108",
+        "98",
+        "118",
+        "128"
+      ],
+      "explanation": "Célèbre numéro 10 des « Bleus », Zidane met un terme à sa carrière à la suite de la Coupe du monde 2006.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-119",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_119.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

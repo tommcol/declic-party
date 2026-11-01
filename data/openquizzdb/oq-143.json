@@ -1,0 +1,749 @@
+{
+  "id": "oq-143",
+  "title": "Maria Sharapova",
+  "originalTitle": "Maria Sharapova",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_143.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    13,
+    14
+  ],
+  "questions": [
+    {
+      "id": "oqdb-143-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel pays la joueuse de tennis Maria Sharapova est-elle née ?",
+      "answer": "Sibérie",
+      "options": [
+        "Moldavie",
+        "Australie",
+        "Yougoslavie",
+        "Sibérie"
+      ],
+      "explanation": "Maria Sharapova est la première joueuse Russe à réussir plusieurs performances majeures sur le circuit féminin.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-143",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_143.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-143-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Maria Sharapova est la première joueuse de tennis russe à avoir remporté quel tournoi ?",
+      "answer": "Wimbledon",
+      "options": [
+        "Open d'Australie",
+        "Roland-Garros",
+        "Wimbledon",
+        "US Open"
+      ],
+      "explanation": "Le tournoi de Wimbledon, à Londres, se joue sur gazon et commence généralement la dernière semaine de juin.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-143",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_143.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-143-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle médaille Maria Sharapova a-t-elle remportée aux Jeux olympiques de Londres en 2012 ?",
+      "answer": "Argent",
+      "options": [
+        "Bronze",
+        "Aucune",
+        "Or",
+        "Argent"
+      ],
+      "explanation": "Aux JO de Londres, où elle fut porte-drapeau de la délégation russe, Sharapova a perdu en finale contre la 4e mondiale, Serena Williams.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-143",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_143.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-143-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comme quelle autre grande joueuse Sharapova ponctue-t-elle ses frappes de cris stridents ?",
+      "answer": "Monica Seles",
+      "options": [
+        "Nathalie Dechy",
+        "Vera Dushevina",
+        "Monica Seles",
+        "Elena Dementieva"
+      ],
+      "explanation": "Monica Seles, qui jouait revers et coup droit à deux mains, est restée célèbre auprès du public pour ses cris sur les courts.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-143",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_143.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-143-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelles blessures ont principalement écorné les résultats au classement de Maria Sharapova ?",
+      "answer": "À l'épaule",
+      "options": [
+        "À l'épaule",
+        "Au pied",
+        "Au coude",
+        "Au genou"
+      ],
+      "explanation": "Au cours de sa carrière, Maria Sharapova a dû abandonner ou déclarer forfait à de nombreux tournois pour cause de blessures.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-143",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_143.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-143-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Contre qui Maria Sharapova a-t-elle une nouvelle fois perdu à Winbledon en 2015 ?",
+      "answer": "Serena Williams",
+      "options": [
+        "Elina Svitolina",
+        "Sabine Lisicki",
+        "Justine Henin",
+        "Serena Williams"
+      ],
+      "explanation": "Elle arrive avec force jusqu'en demi-finale, en ne perdant aucun set jusqu'en quart, mais s'incline une fois de plus contre sa bête noire.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-143",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_143.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-143-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle activité Maria Sharapova a-t-elle exercé aux Jeux olympiques de Sochi ?",
+      "answer": "Porte-flambeau",
+      "options": [
+        "Compétitrice",
+        "Ouvreuse",
+        "Porte-flambeau",
+        "Aucune"
+      ],
+      "explanation": "Elle ne participa pas au tournoi de Doha, étant consultante d'une chaîne américaine et porte-flambeau aux Jeux olympiques de Sochi.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-143",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_143.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-143-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel surnom est parfois utilisé pour désigner la joueuse de tennis Maria Sharapova ?",
+      "answer": "Masha",
+      "options": [
+        "Masha",
+        "Opa",
+        "Boum-Boum",
+        "La Guêpe"
+      ],
+      "explanation": "Maria Sharapova, au physique avantageux de 1.88m pour 59 kg, a déjà engendré plus de 36 millions de dollars en gains de tournois.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-143",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_143.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-143-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel tournoi du Grand Chelem Maria Sharapova a-t-elle deux fois remporté ?",
+      "answer": "Roland-Garros",
+      "options": [
+        "Roland-Garros",
+        "Wimbledon",
+        "Open d'Australie",
+        "US Open"
+      ],
+      "explanation": "C'est Monica Seles qui lui remettra son trophée après sa victoire face à Sara Errani à Roland-Garros en 2012.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-143",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_143.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-143-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de tournois du Grand Chelem en simple Maria Sharapova a-t-elle remporté jusqu'à 2016 ?",
+      "answer": "Cinq",
+      "options": [
+        "Deux",
+        "Quatre",
+        "Cinq",
+        "Trois"
+      ],
+      "explanation": "Maria Sharapova a remporté Wimbledon en 2004, l'US Open en 2006, l'Open d'Australie en 2008 et Roland-Garros en 2012 et 2014.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-143",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_143.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-143-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année Maria Sharapova est-elle devenue numéro un mondiale au classement WTA ?",
+      "answer": "2005",
+      "options": [
+        "2011",
+        "2002",
+        "2008",
+        "2005"
+      ],
+      "explanation": "Le 22 août 2005, Maria Sharapova devient la 16e joueuse de l'histoire et la première Russe à devenir n°1 au classement WTA.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-143",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_143.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-143-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Pour quelle substance Maria Sharapova a-t-elle été suspendue de jouer en 2016 ?",
+      "answer": "Meldonium",
+      "options": [
+        "Nicorandil",
+        "Ranolazine",
+        "Trimétazidine",
+        "Meldonium"
+      ],
+      "explanation": "Elle annonce : « J'ai pris ce médicament pour la première fois en 2006. J'avais eu plusieurs problèmes de santé à l'époque. »",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-143",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_143.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-143-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Avec quelles marques Maria Sharapova a-t-elle collaboré pour sortir deux paires de basket ?",
+      "answer": "Nike et Colette",
+      "options": [
+        "Adidas et Puma",
+        "Gap et Reebok",
+        "Nike et Colette",
+        "Enyce et Gant"
+      ],
+      "explanation": "Maria Sharapova a signé des contrats publicitaires avec de grandes marques, devenant l'une des mieux rémunérées de la planète.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-143",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_143.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-143-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces personnalités ne fait pas partie des nombreuses conquêtes de Maria Sharapova ?",
+      "answer": "Pharrell Williams",
+      "options": [
+        "Andy Roddick",
+        "Adam Levine",
+        "Pharrell Williams",
+        "Charlie Ebersol"
+      ],
+      "explanation": "Maria Sharapova a été fiancée avec le Slovène Sasa Vujacic, un basketteur qui évoluait dans la NBA avec les Nets du New Jersey.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-143",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_143.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-143-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qu'est-ce qui a forcé Maria Sharapova à déclarer forfait à Acapulco en 2015 ?",
+      "answer": "Un virus gastrique",
+      "options": [
+        "Un virus gastrique",
+        "Un décès",
+        "Une blessure",
+        "Une tempête"
+      ],
+      "explanation": "Elle enchaîna ensuite une série de défaites prématurées : à Indian Wells face à Flavia Pennetta et à Miami face à Daria Gavrilova.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-143",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_143.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-143-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de temps a duré le match de Sharapova contre Karin Knapp à l'Open d'Australie 2014 ?",
+      "answer": "3h28",
+      "options": [
+        "4h35",
+        "2h34",
+        "1h01",
+        "3h28"
+      ],
+      "explanation": "Maria s'inclinera cependant en huitièmes de finale face à Dominika Cibulkova (6-3, 4-6, 1-6), alors 24e mondiale et future finaliste.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-143",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_143.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-143-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quel rang mondial Maria Sharapova a-t-elle terminé la saison 2014 ?",
+      "answer": "Deuxième",
+      "options": [
+        "Première",
+        "Deuxième",
+        "Troisième",
+        "Quatrième"
+      ],
+      "explanation": "Elle termine sa saison avec 49 victoires pour 13 défaites (79%), 4 titres dont un Grand-Chelem et 10 victoires en top 10.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-143",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_143.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-143-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel entraîneur Maria Sharapova s'est-elle séparé en 2013 ?",
+      "answer": "Thomas Högstedt",
+      "options": [
+        "Thomas Högstedt",
+        "Nick Bollettieri",
+        "Shamil Tarpishev",
+        "Sven Gröneveld"
+      ],
+      "explanation": "Thomas Högstedt, né le 21 septembre 1963 à Malmo, domicilié à Stockholm, est un joueur de tennis suédois reconverti en entraîneur.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-143",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_143.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-143-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui Maria Sharapova a-t-elle embauché pour s'entraîner après le renvoi de Thomas Högstedt ?",
+      "answer": "Jimmy Connors",
+      "options": [
+        "Jimmy Connors",
+        "John McEnroe",
+        "Ivan Lendl",
+        "Mats Wilander"
+      ],
+      "explanation": "La coopération avec Jimmy Connors va s'arrêter net la même année après un match et la défaite de la Russe face à Sloane Stephens.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-143",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_143.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-143-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel était le montant du contrat passé par Maria Sharapova avec Nike en 2010 ?",
+      "answer": "70 millions",
+      "options": [
+        "70 millions",
+        "10 millions",
+        "50 millions",
+        "30 millions"
+      ],
+      "explanation": "Maria Sharapova a également tiré parti de son physique avantageux à de nombreuses reprises pour poser dans divers magazines.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-143",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_143.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-143-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Jusqu'à quel rang mondial Maria Sharapova a-t-elle chuté en 2009 ?",
+      "answer": "102e",
+      "options": [
+        "72e",
+        "102e",
+        "42e",
+        "132e"
+      ],
+      "explanation": "Bien qu'ayant manquée la moitié de la saison, on retiendra un titre à Tokyo, une finale à Toronto et un quart de finale à Roland-Garros.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-143",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_143.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-143-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a offert pour ses quatre ans sa première raquette de tennis à Maria Sharapova ?",
+      "answer": "Alexandre Kafelnikov",
+      "options": [
+        "Andrey Rublev",
+        "Alexandre Kafelnikov",
+        "Marat Safin",
+        "Igor Kunitsyn"
+      ],
+      "explanation": "Lorsque Maria a eu deux ans, la famille déménage à Sotchi où son père se lie d'amitié avec Alexandre Kafelnikov, le père d'Ievgueni.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-143",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_143.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-143-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a recommandé au père de Maria Sharapova de l'envoyer au camp de Nick Bollettieri ?",
+      "answer": "Martina Navratilova",
+      "options": [
+        "Chris Evert",
+        "Martina Navratilova",
+        "Margaret Smith",
+        "Steffi Graf"
+      ],
+      "explanation": "À 6 ans, Maria se rend à une manifestation sportive donnée par Martina Navratilova avec qui elle échange quelques balles.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-143",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_143.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-143-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle marque de bonbons Maria Sharapova a-t-elle commercialisé en 2012 ?",
+      "answer": "Sugarpova",
+      "options": [
+        "Sugarpova",
+        "Sharasugar",
+        "Mariasugar",
+        "Sugrussia"
+      ],
+      "explanation": "'Sugarpova' a annoncé en 2016 sur son site internet avoir collaboré avec les experts européens du Chocolatier, Baron Chocolatier.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-143",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_143.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-143-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Où Maria Sharapova a-t-elle commencé par un forfait en 2016 ?",
+      "answer": "Open de Brisbane",
+      "options": [
+        "Open d'Australie",
+        "US Open",
+        "Open de Brisbane",
+        "Open de Coubertin"
+      ],
+      "explanation": "Bien que tenante du titre, mais toujours touchée à l'avant-bras, Maria Sharapova a dû décliner forfait à l'Open de Brisbane 2016.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-143",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_143.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-143-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel groupe Maria Sharapova a-t-elle fait partie au masters de Singapour 2014 ?",
+      "answer": "Blanc",
+      "options": [
+        "Rouge",
+        "Bleu",
+        "Blanc",
+        "Vert"
+      ],
+      "explanation": "Au masters de fin d'année à Singapour, Maria fait partie du groupe Blanc avec C. Wozniacki, P. Kvitova et A. Radwanska.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-143",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_143.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-143-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de fautes Maria Sharapova a-t-elle concédé à l'Open d'Australie 2010 ?",
+      "answer": "77",
+      "options": [
+        "33",
+        "55",
+        "99",
+        "77"
+      ],
+      "explanation": "Maria Sharapova se fait éliminer dès le 1er tour de l'Open d'Australie par sa compatriote et amie Maria Kirilenko en trois sets.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-143",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_143.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-143-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Où Maria Sharapova a-t-elle remporté son tout premier tournoi sur terre battue ?",
+      "answer": "Amelia Island",
+      "options": [
+        "Birmingham",
+        "Amelia Island",
+        "Doha",
+        "Indian Wells"
+      ],
+      "explanation": "La saison sur terre s'est poursuivie à Charleston, où la Russe fut éliminée en 1/4 de finale par Serena Williams (5-7, 6-4, 1-6).",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-143",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_143.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

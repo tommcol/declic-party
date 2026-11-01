@@ -1,0 +1,798 @@
+{
+  "id": "oq-139",
+  "title": "Citations littéraires",
+  "originalTitle": "Citations littéraires",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_139.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-139-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Complétez cette citation de Raymond Queneau : « Il faut de tout pour faire... »",
+      "answer": "Un monde",
+      "options": [
+        "Rougir",
+        "Un monde",
+        "Son pain",
+        "Affaire"
+      ],
+      "explanation": "Raymond Queneau était un lecteur assidu et attentif de l'œuvre de René Guénon, qu'il avait découvert en 1921.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-139",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_139.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-139-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel poète romantique a écrit : « Un seul être vous manque et tout est dépeuplé » ?",
+      "answer": "Lamartine",
+      "options": [
+        "Chateaubriand",
+        "Prosper Mérimée",
+        "Victor Hugo",
+        "Lamartine"
+      ],
+      "explanation": "Admiré et salué par toute la génération romantique, Lamartine est parfois jugé plus sévèrement par les générations suivantes.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-139",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_139.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-139-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Complétez ces vers de Charles Baudelaire : « Là, tout n'est qu'ordre et beauté, luxe, calme et... »",
+      "answer": "Volupté",
+      "options": [
+        "Volupté",
+        "Tranquillité",
+        "Nudité",
+        "Sensualité"
+      ],
+      "explanation": "Baudelaire détache la poésie de la morale, la proclame tout entière destinée au Beau et non à la Vérité.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-139",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_139.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-139-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel écrivain et mathématicien a dit : « Je pense, donc je suis » ?",
+      "answer": "René Descartes",
+      "options": [
+        "Isaac Newton",
+        "René Descartes",
+        "Thomas Harriot",
+        "Nicolaus Mercator"
+      ],
+      "explanation": "Le « cogito » de Descartes fonde ainsi le système des sciences sur le sujet connaissant face au monde qu'il se représente.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-139",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_139.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-139-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel poète a dit dans 'Spleen' : « J'ai plus de souvenirs que si j'avais mille ans » ?",
+      "answer": "Charles Baudelaire",
+      "options": [
+        "Charles Baudelaire",
+        "Arthur Rimbaud",
+        "Victor Hugo",
+        "Jean Giraudoux"
+      ],
+      "explanation": "Le spleen baudelairien désigne une profonde tristesse née du mal de vivre, que Charles Baudelaire exprime dans plusieurs poèmes.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-139",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_139.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-139-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a dit à sa femme dans 'Le Petit Poucet' : « Je sens la chair fraîche » ?",
+      "answer": "L’Ogre",
+      "options": [
+        "Le roi",
+        "Le loup",
+        "L’Ogre",
+        "Le bûcheron"
+      ],
+      "explanation": "'Le Petit Poucet' est un conte appartenant à la tradition orale, retranscrit et transformé par Charles Perrault en France.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-139",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_139.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-139-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Complétez ces paroles d'Hamlet : « Être ou ne pas être, là est... »",
+      "answer": "La question",
+      "options": [
+        "La question",
+        "Le destin",
+        "La vérité",
+        "Le dilemme"
+      ],
+      "explanation": "'Hamlet' a fait l'objet d'analyses critiques extrêmement nombreuses et variées : thématiques, stylistiques, historiques et psychologiques.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-139",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_139.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-139-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel personnage de Molière dit : « Je me sens un cœur à aimer toute la terre » ?",
+      "answer": "Dom Juan",
+      "options": [
+        "Dom Juan",
+        "Gargantua",
+        "Tartuffe",
+        "Sganarelle"
+      ],
+      "explanation": "Provocateur impénitent, Dom Juan n'échappera pas à la vengeance du Ciel, qui le châtiera par le bras d'une statue de pierre.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-139",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_139.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-139-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qu'est-ce que La Fontaine appelle « la machine ronde » ?",
+      "answer": "La terre",
+      "options": [
+        "L’argent",
+        "La royauté",
+        "La supercherie",
+        "La terre"
+      ],
+      "explanation": "Ses Fables constituent la principale œuvre poétique de la période classique et l'un des chefs-d'œuvre de la littérature française.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-139",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_139.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-139-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À qui Cyrano dit-il : « Non, non mon cher amour, je ne vous aimais pas » ?",
+      "answer": "Roxane",
+      "options": [
+        "Bellerose",
+        "Ragueneau",
+        "Brissaille",
+        "Roxane"
+      ],
+      "explanation": "Le succès de la pièce ne s'est jamais démenti, en France (où elle est la pièce la plus jouée) comme à l'étranger.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-139",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_139.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-139-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a écrit dans 'Intermezzo' : « L'Humanité est une entreprise surhumaine » ?",
+      "answer": "Jean Giraudoux",
+      "options": [
+        "Jean Giraudoux",
+        "Jean Anouilh",
+        "Jean Cocteau",
+        "Jean Genet"
+      ],
+      "explanation": "'Intermezzo' est une pièce de théâtre en trois actes de Jean Giraudoux, à l'humour décalé, parue en 1933.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-139",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_139.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-139-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À qui Aragon a-t-il écrit : « Ma vie en vérité commence le soir où je t'ai rencontré » ?",
+      "answer": "Elsa Triolet",
+      "options": [
+        "Rose Guérin",
+        "Joséphine Baker",
+        "Agnès Humbert",
+        "Elsa Triolet"
+      ],
+      "explanation": "Ce recueil inaugure le long cycle consacré par l'auteur à sa compagne Elsa Triolet, avec qui il formera un couple mythique.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-139",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_139.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-139-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle pièce Sartre a-t-il écrit : « Tous les moyens sont bons quand ils sont efficaces » ?",
+      "answer": "Les Mains sales",
+      "options": [
+        "Huis clos",
+        "L'Engrenage",
+        "Les Mouches",
+        "Les Mains sales"
+      ],
+      "explanation": "Intransigeant et fidèle à ses idées, Jean-Paul Sartre a toujours rejeté tant les honneurs que toute forme de censure.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-139",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_139.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-139-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle héroïne de Zola « la poitrine en avant, saluait avec un fin sourire » ?",
+      "answer": "Nana",
+      "options": [
+        "Nana",
+        "Anna",
+        "Elsa",
+        "Sophia"
+      ],
+      "explanation": "Ses adversaires l'accuseront d'être un écrivain « pornographique » de par son « goût du sordide et du détail cru ».",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-139",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_139.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-139-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Complétez cette citation de Lord Byron : « Le meilleur prophète de l'avenir est le... »",
+      "answer": "Passé",
+      "options": [
+        "Pouvoir",
+        "Destin",
+        "Passé",
+        "Mensonge"
+      ],
+      "explanation": "Grand défenseur de la liberté, révolté contre la société de son temps, il s'est engagé dans toutes les luttes contre l'oppression.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-139",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_139.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-139-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel héros de Shakespeare dit devant une tombe : « J'aimais Ophélia » ?",
+      "answer": "Hamlet",
+      "options": [
+        "Horatio",
+        "Hamlet",
+        "Polonius",
+        "Claudius"
+      ],
+      "explanation": "À la fin de la tragédie, Hamlet a causé la mort de Polonius, de Laërte, de Claudius et de deux connaissances de Wittenberg.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-139",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_139.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-139-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Complétez cette citation : « L'important n'est pas qu'une histoire soit véritable, mais qu’elle soit... »",
+      "answer": "Vraie",
+      "options": [
+        "Juste",
+        "Vraie",
+        "Sensée",
+        "Plausible"
+      ],
+      "explanation": "L'ensemble des écrits de Victor Hugo représente un peu moins de quarante millions de caractères réunis en 53 volumes.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-139",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_139.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-139-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel livre Rabelais a-t-il écrit cette devise : « Fais ce que tu voudras » ?",
+      "answer": "Gargantua",
+      "options": [
+        "Tiers Livre",
+        "Gargantua",
+        "Le Quart Livre",
+        "Pantagruel"
+      ],
+      "explanation": "Ses œuvres majeures, comme 'Pantagruel' et 'Gargantua', sont considérées comme une des premières formes du roman moderne.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-139",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_139.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-139-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a écrit : « Si Dieu nous a fait à son image, nous le lui avons bien rendu » ?",
+      "answer": "Voltaire",
+      "options": [
+        "Napoléon",
+        "Lamartine",
+        "Chateaubriand",
+        "Voltaire"
+      ],
+      "explanation": "Son nom est resté attaché à son combat contre le fanatisme religieux, pour la tolérance et la liberté de pensée.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-139",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_139.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-139-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel héros de Pagnol dit que « pour gagner de l'argent, il faut bien en prendre à quelqu'un » ?",
+      "answer": "Topaze",
+      "options": [
+        "Topaze",
+        "Tamise",
+        "Castel-Bénac",
+        "Muche"
+      ],
+      "explanation": "'Topaze' est une pièce de théâtre de Marcel Pagnol, représentée pour la première fois à Paris le 9 octobre 1928.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-139",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_139.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-139-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a dédicacé son livre « à ceux qui nourris de grec et de latin sont morts de faim » ?",
+      "answer": "Jules Vallès",
+      "options": [
+        "Horace Bertin",
+        "Jules Vallès",
+        "Paul Avenel",
+        "Gustave Aimard"
+      ],
+      "explanation": "Plus que le récit de sa vie, c'est la description de l'esprit dans lequel il a vécu, un esprit enthousiaste et naïf, qu'il offre au lecteur.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-139",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_139.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-139-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Complétez cette citation de Victor Hugo : « Quand je vous parle de moi, je vous parle de... »",
+      "answer": "Vous",
+      "options": [
+        "Vous",
+        "Nous",
+        "Vie",
+        "Dieu"
+      ],
+      "explanation": "Ses romans rencontrent un grand succès populaire, avec 'Notre-Dame de Paris' et plus encore avec 'Les Misérables'.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-139",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_139.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-139-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel poète du XIXe siècle a écrit : « Ne m’attends pas. Ce soir, le nuit sera noire et blanche » ?",
+      "answer": "Gérard de Nerval",
+      "options": [
+        "Auguste Arnould",
+        "Jules Breton",
+        "Émile Carré",
+        "Gérard de Nerval"
+      ],
+      "explanation": "Le 26 janvier 1855, on le retrouva pendu aux barreaux d'une grille qui fermait un égout de la rue de la Vieille-Lanterne.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-139",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_139.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-139-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a écrit : « Les femmes ont toujours aimé le navire mieux que le pilote » ?",
+      "answer": "Jean Giraudoux",
+      "options": [
+        "Arthur Rimbaud",
+        "Jean Giraudoux",
+        "Charles Baudelaire",
+        "Victor Hugo"
+      ],
+      "explanation": "Peu de temps après la création de la pièce, Giraudoux sera victime d'un empoisonnement alimentaire et décédera le 31 janvier 1944.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-139",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_139.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-139-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel jeune poète a écrit dans 'Le Bateau ivre' : « J'ai rêvé la nuit verte aux neiges éblouies » ?",
+      "answer": "Arthur Rimbaud",
+      "options": [
+        "Charles Baudelaire",
+        "Jean Giraudoux",
+        "Arthur Rimbaud",
+        "René Descartes"
+      ],
+      "explanation": "Des vers comme ceux du 'Bateau ivre', du 'Dormeur du val' ou de 'Voyelles' comptent parmi les plus célèbres de la poésie française.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-139",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_139.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-139-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a écrit : « Le bon sens est la chose du monde la mieux partagée » ?",
+      "answer": "René Descartes",
+      "options": [
+        "Gérard de Nerval",
+        "Arthur Rimbaud",
+        "René Descartes",
+        "Jean Giraudoux"
+      ],
+      "explanation": "Le 'Discours de la méthode' est le premier texte philosophique publié par René Descartes à La Haye le 8 juin 1637.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-139",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_139.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-139-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel dramaturge a dit qu'au théâtre « le vrai public ne comprend pas, il ressent » ?",
+      "answer": "Jean Giraudoux",
+      "options": [
+        "Jean Genet",
+        "Félicien Marceau",
+        "Francis Joffo",
+        "Jean Giraudoux"
+      ],
+      "explanation": "Jean Giraudoux a participé comme d'autres dramaturges des années 1930-1940 à la réécriture des mythes antiques.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-139",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_139.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-139-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a écrit : « Il ne faut pas laisser les intellectuels jouer avec les allumettes » ?",
+      "answer": "Jacques Prévert",
+      "options": [
+        "Boris Vian",
+        "Ken Russell",
+        "Jacques Prévert",
+        "Luis Bunuel"
+      ],
+      "explanation": "Les poèmes de Jacques Prévert sont célèbres dans le monde francophone et massivement appris dans les écoles françaises.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-139",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_139.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-139-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a dit à Las Cases : « L'homme doit avoir plusieurs femmes » ?",
+      "answer": "Napoléon",
+      "options": [
+        "Napoléon",
+        "Henri III",
+        "Louis XVI",
+        "Charles X"
+      ],
+      "explanation": "Une tradition romantique fait de Napoléon l'archétype du « grand homme » appelé à bouleverser le monde.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-139",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_139.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-139-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a écrit, au XVIIe siècle : « Le monde, chère Agnès, est une étrange chose » ?",
+      "answer": "Molière",
+      "options": [
+        "Corneille",
+        "Rousseau",
+        "Molière",
+        "Racine"
+      ],
+      "explanation": "Interprète du rôle principal de la plupart de ses pièces, Molière est le plus grand créateur de formes de l'histoire du théâtre français.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-139",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_139.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

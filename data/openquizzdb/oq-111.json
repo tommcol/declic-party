@@ -1,0 +1,798 @@
+{
+  "id": "oq-111",
+  "title": "Culture internationale",
+  "originalTitle": "Culture internationale",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_111.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-111-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la couleur du passeport de l'union européenne délivré en Belgique ou en France ?",
+      "answer": "Bordeaux",
+      "options": [
+        "Verte",
+        "Bleue",
+        "Bordeaux",
+        "Grise"
+      ],
+      "explanation": "Toute personne sollicitant l'entrée dans un pays autre que le sien doit remplir certaines formalités et solliciter une autorisation.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-111",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_111.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-111-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment appelle-t-on le cachet apposé sur un passeport permettant l'entrée dans un pays ?",
+      "answer": "Un visa",
+      "options": [
+        "Un visa",
+        "Un code",
+        "Un permis",
+        "Un titre"
+      ],
+      "explanation": "Le visa est une condition nécessaire pour entrer et séjourner pendant une certaine durée sur certains territoires.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-111",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_111.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-111-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel pays le drapeau est-il appelé « Union Jack » ou encore « Union Flag » par certains ?",
+      "answer": "La Grande Bretagne",
+      "options": [
+        "La Suisse",
+        "La Finlande",
+        "La Grèce",
+        "La Grande Bretagne"
+      ],
+      "explanation": "Le drapeau combine la croix de saint Georges du drapeau anglais et la croix de saint André du drapeau écossais.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-111",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_111.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-111-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que vous fournira-t-on presque exclusivement pour mettre sur vos frites aux États-Unis ?",
+      "answer": "Du ketchup",
+      "options": [
+        "De la tartare",
+        "Du pickles",
+        "De la mayonnaise",
+        "Du ketchup"
+      ],
+      "explanation": "Le ketchup est un condiment populaire, habituellement élaboré à partir de sauce tomate, de vinaigre et de sucre.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-111",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_111.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-111-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le seul pays d'Europe où certaines voitures ont encore des phares jaunes ?",
+      "answer": "La France",
+      "options": [
+        "La Belgique",
+        "La Grèce",
+        "La France",
+        "Le Portugal"
+      ],
+      "explanation": "L'arrêté imposant les phares jaunes en France date du 3 novembre 1936 et se fonde sur l'avis de la Commission centrale.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-111",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_111.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-111-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle ville est considérée par beaucoup comme étant le centre diamantaire mondial ?",
+      "answer": "Anvers",
+      "options": [
+        "Liège",
+        "Anvers",
+        "Bruxelles",
+        "Mons"
+      ],
+      "explanation": "La réputation des diamantaires anversois fait de cette ville la première place mondiale de taille et de négociation du diamant.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-111",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_111.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-111-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel fruit du badianier de Chine parfume des boissons comme l'ouzo ou comme l'arak ?",
+      "answer": "L'anis étoilé",
+      "options": [
+        "Le carvi",
+        "Le gingembre",
+        "Le sel noir",
+        "L'anis étoilé"
+      ],
+      "explanation": "Les fruits sont cueillis verts, avant d'être séchés au soleil, où ils prennent une couleur marron rouge.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-111",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_111.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-111-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien coûte l'autoroute qui relie directement les villes d'Amsterdam et de Bruxelles ?",
+      "answer": "Rien",
+      "options": [
+        "Rien",
+        "27 euros",
+        "19 euros",
+        "12 euros"
+      ],
+      "explanation": "Le réseau autoroutier belge est très développé et bénéficie de la deuxième plus forte densité en Europe.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-111",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_111.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-111-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Vers où regarde-t-on en tout premier lieu avant de traverser une route en Irlande ?",
+      "answer": "La droite",
+      "options": [
+        "La droite",
+        "L'arrière",
+        "La gauche",
+        "L'avant"
+      ],
+      "explanation": "En Irlande comme en Angleterre, on roule à gauche, ce qui oblige les piétons à d'abord regarder à droite avant de traverser.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-111",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_111.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-111-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qu'est-ce qui est turc, né en Autriche et fréquemment mangé en France au petit déjeuner ?",
+      "answer": "Le croissant",
+      "options": [
+        "Le pistolet",
+        "La gaufre",
+        "Le croissant",
+        "La crêpe"
+      ],
+      "explanation": "À Paris, les premiers croissants à déguster furent vendus à la rue de Richelieu entre 1837 et 1839.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-111",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_111.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-111-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel pays très fortement peuplé le paon est-il l'oiseau national ?",
+      "answer": "L'Inde",
+      "options": [
+        "Le Japon",
+        "L'Inde",
+        "La Thaïlande",
+        "La Chine"
+      ],
+      "explanation": "Étroitement associé à la fertilité, la danse du paon symbolise en Inde le réveil de la nature et l'approche de la mousson.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-111",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_111.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-111-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qu'est-ce qu'un lama, si ce n'est pas un animal de grande taille de la cordillère des Andes ?",
+      "answer": "Un moine tibétain",
+      "options": [
+        "Un moine tibétain",
+        "Un pain grec",
+        "Un policier slave",
+        "Un arbre turc"
+      ],
+      "explanation": "Ce titre peut être utilisé de manière honorifique pour un moine, une nonne ou un pratiquant avancé du tantrisme.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-111",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_111.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-111-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de zéros dans un trillion américain, égal à un million à la puissance trois ?",
+      "answer": "12",
+      "options": [
+        "9",
+        "12",
+        "6",
+        "15"
+      ],
+      "explanation": "En mathématique, un trillion représente 1 milliard de milliards (109x109), soit 10 puissance 18.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-111",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_111.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-111-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Contre quelle maladie, aussi appelée « vomi noir », vous fait-on une vaccination antiamarile ?",
+      "answer": "La fièvre jaune",
+      "options": [
+        "La fièvre jaune",
+        "Le typhus",
+        "Le choléra",
+        "La dysenterie"
+      ],
+      "explanation": "La fièvre jaune reste toujours une cause importante de maladies hémorragiques dans plusieurs pays africains et sud-américains.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-111",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_111.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-111-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel port dans lequel entrent 31 000 bateaux par an est le premier de Hollande ?",
+      "answer": "Rotterdam",
+      "options": [
+        "La Haye",
+        "Rotterdam",
+        "Amsterdam",
+        "Utrecht"
+      ],
+      "explanation": "Son activité lui a permis de s'affirmer comme le huitième port mondial en 2014, après Shanghaï et Singapour.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-111",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_111.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-111-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle « protection » est-il plutôt judicieux de prévoir en Inde entre juin et octobre ?",
+      "answer": "Un parapluie",
+      "options": [
+        "Un parapluie",
+        "Un casque",
+        "Un préservatif",
+        "Des gants"
+      ],
+      "explanation": "Malgré un climat très varié de par la superficie du pays, la mousson ou la saison des pluies en Inde a lieu de juin à septembre.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-111",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_111.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-111-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel pays composé de provinces et de territoires a choisi le castor comme emblème national ?",
+      "answer": "Le Canada",
+      "options": [
+        "Le Honduras",
+        "Le Canada",
+        "Le Costa Rica",
+        "Le Mexique"
+      ],
+      "explanation": "Des castors sauvages ont pu être étudiés au Canada et en Europe du Nord dans des zones peu anthropisées.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-111",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_111.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-111-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel liquide est mis sur les plages australiennes pour neutraliser les piqûres des méduses ?",
+      "answer": "Du vinaigre",
+      "options": [
+        "De l'essence",
+        "Du dissolvant",
+        "Du vinaigre",
+        "De la bière"
+      ],
+      "explanation": "Les méduses sont généralement des prédatrices qui paralysent leurs proies grâce à leurs cnidocytes.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-111",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_111.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-111-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien coûte une boisson alcoolisée sur un vol international 'Air France' en première classe ?",
+      "answer": "Rien",
+      "options": [
+        "Rien",
+        "20 euros",
+        "10 euros",
+        "30 euros"
+      ],
+      "explanation": "La plate-forme de correspondance principale d'Air France est située sur l'aéroport de Paris-Charles-de-Gaulle.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-111",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_111.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-111-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel pays pouviez-vous jadis recevoir une carte postale affranchie avec 60 escudos ?",
+      "answer": "Du Portugal",
+      "options": [
+        "Du Portugal",
+        "De la Grèce",
+        "Des Pays-Bas",
+        "Du Brésil"
+      ],
+      "explanation": "Son nom signifie écu et rappelle que les premières pièces portaient la représentation de l'écu des souverains.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-111",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_111.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-111-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la langue qui a soixante trois formes de présent et de nombreux mots pour désigner la neige ?",
+      "answer": "Eskimo",
+      "options": [
+        "Eskimo",
+        "Eyak",
+        "Han",
+        "Tanacross"
+      ],
+      "explanation": "Les langues eskimo contiennent les langues inuit (un continuum linguistique) et les langues yupik.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-111",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_111.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-111-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien y a-t-il de bandes bleues et blanches sur le drapeau de la Grèce ?",
+      "answer": "Neuf",
+      "options": [
+        "Sept",
+        "Trois",
+        "Cinq",
+        "Neuf"
+      ],
+      "explanation": "Les raisons et la symbolique de ce choix ne sont pas connues précisément, et font l'objet de nombreuses théories populaires.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-111",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_111.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-111-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la drogue que l'on tire de l'écorce du Cinchona et que l'on retrouve dans le Schweppes ?",
+      "answer": "La quinine",
+      "options": [
+        "La nicotine",
+        "Le camphre",
+        "La brucine",
+        "La quinine"
+      ],
+      "explanation": "Les espèces du genre Cinchona sont des arbustes, ou plus souvent des arbres, pouvant atteindre 18 mètres de hauteur.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-111",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_111.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-111-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qu'est-ce qui change autour du 180e méridien, dans l'océan Pacifique ?",
+      "answer": "La date",
+      "options": [
+        "La lumière",
+        "L'humidité",
+        "La date",
+        "La température"
+      ],
+      "explanation": "Cette ligne peut être considérée comme étant située 12 heures en avance ou 12 heures en retard par à Greenwich.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-111",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_111.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-111-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Jusqu'à quelle valeur en-dessous de zéro peut descendre le thermomètre en hiver en Sibérie ?",
+      "answer": "- 80°C",
+      "options": [
+        "- 20°C",
+        "- 80°C",
+        "- 40°C",
+        "- 60°C"
+      ],
+      "explanation": "Constituant la partie nord de l'Asie, la Sibérie représente 77 % de la surface de la Russie, mais seulement 27 % de sa population.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-111",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_111.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-111-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quoi vous servira un charpoi en Inde, que vous le fassiez en boule, sur le dos ou sur le ventre ?",
+      "answer": "À dormir",
+      "options": [
+        "À dormir",
+        "À travailler",
+        "À manger",
+        "À chasser"
+      ],
+      "explanation": "La forme, la composition et les tissus des oreillers varient selon les usages, les cultures, la qualité et le degré de confort de chacun.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-111",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_111.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-111-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle heure est-il à Los Angeles quand vous prenez votre petit déjeuner à New York à 8h ?",
+      "answer": "5h",
+      "options": [
+        "2h",
+        "10h",
+        "3h",
+        "5h"
+      ],
+      "explanation": "Un fuseau horaire est une zone de la surface terrestre qui observe une heure uniforme en tout lieu.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-111",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_111.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-111-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel État très fortement peuplé est aussi le plus grand des États-Unis, après l'Alaska ?",
+      "answer": "Le Texas",
+      "options": [
+        "La Virginie",
+        "Le Michigan",
+        "Le Texas",
+        "Le Wyoming"
+      ],
+      "explanation": "Les Texans sont à près de 80 % des citadins et presque la moitié d'entre eux vivent à Dallas-Fort Worth ou Houston.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-111",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_111.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-111-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À côté de quel animal mythique se dresse fièrement le lion du passeport britannique ?",
+      "answer": "Une licorne",
+      "options": [
+        "Un panda",
+        "Un ours",
+        "Une licorne",
+        "Un mouton"
+      ],
+      "explanation": "La licorne se voit dotée d'un corps équin, d'une barbiche de bouc, de sabots fendus et d'une longue corne sur le front.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-111",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_111.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-111-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui repose dans les trois petites pyramides de Gizeh, placées à côté des trois grandes ?",
+      "answer": "Les reines",
+      "options": [
+        "Les reines",
+        "Les prêtres",
+        "Les esclaves",
+        "Les mages"
+      ],
+      "explanation": "les pyramides des reines, au nombre de trois, font partie des pyramides subsidiaires du complexe funéraire de Khéops.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-111",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_111.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

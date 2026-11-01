@@ -1,0 +1,774 @@
+{
+  "id": "oq-405",
+  "title": "Folklore japonais",
+  "originalTitle": "Folklore japonais (Influencé par le shinto et le bouddhisme)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Corentin Declercq",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_405.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    1
+  ],
+  "questions": [
+    {
+      "id": "oqdb-405-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En plus du Shintoïsme, quelle est la religion la plus pratiquée au Japon ?",
+      "answer": "Bouddhisme",
+      "options": [
+        "Bouddhisme",
+        "Christianisme",
+        "Kamithéisme",
+        "Shenisme"
+      ],
+      "explanation": "Le bouddhisme, d'un point de vue religieux ou philosophique, a été importé de Chine et de Corée à partir des Ve et VIe siècles.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-405",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Corentin Declercq",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_405.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-405-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que désigne ou représente un Yokai dans le folklore japonais ?",
+      "answer": "Esprit",
+      "options": [
+        "Arbre",
+        "Esprit",
+        "Chien",
+        "Alcool"
+      ],
+      "explanation": "Un yokai est représenté comme un esprit malfaisant ou simplement malicieux démontrant les tracas quotidiens ou inhabituels.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-405",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Corentin Declercq",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_405.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-405-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel mets japonais est composé de tranches de poisson frais consommé cru ?",
+      "answer": "Sashimi",
+      "options": [
+        "Nigiri",
+        "Sashimi",
+        "Maki",
+        "Sushi"
+      ],
+      "explanation": "Ce mets traditionnel est trop souvent assimilé en temps que sushi, qui est lui aussi consommé avec du wasabi et de la sauce soja.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-405",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Corentin Declercq",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_405.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-405-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quels idéogrammes d'origine chinoise sont utilisés dans la langue japonaise ?",
+      "answer": "Kanji",
+      "options": [
+        "Romaji",
+        "Kanji",
+        "Hiraganas",
+        "Katakanas"
+      ],
+      "explanation": "Au nombre de 2 000 et bien que liés, chaque kanji possède une ou plusieurs expressions phonologiques possibles, appelées lectures.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-405",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Corentin Declercq",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_405.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-405-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel animal et symbole japonais est souvent représenté sous forme d'origami ?",
+      "answer": "Grue",
+      "options": [
+        "Chat",
+        "Grue",
+        "Dragon",
+        "Singe"
+      ],
+      "explanation": "La légende des mille grues raconte au Japon que si l'on plie mille grues en papier dans l'année, on pourrait voir son voeu exaucé.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-405",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Corentin Declercq",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_405.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-405-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment nomme-t-on le chef d'état japonais, héritier d'une longue succession ?",
+      "answer": "Empereur",
+      "options": [
+        "Président",
+        "Souverain",
+        "Empereur",
+        "Guide"
+      ],
+      "explanation": "Selon la Constitution de 1947, l'Empereur n'a plus qu'un rôle symbolique, le pouvoir exécutif étant détenu par le Premier ministre.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-405",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Corentin Declercq",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_405.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-405-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel arbre d'ornement, aussi appelé Sakura, les japonais fêtent-ils la floraison ?",
+      "answer": "Cerisier",
+      "options": [
+        "Pin",
+        "Cerisier",
+        "Érable",
+        "If"
+      ],
+      "explanation": "Utilisés comme arbres d'ornement, ces cerisiers qui marquent le retour du printemps ne sont pas plantés pour leurs fruits.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-405",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Corentin Declercq",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_405.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-405-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel art traditionnel japonais consiste en la culture miniaturisante de végétaux ?",
+      "answer": "Bonsaï",
+      "options": [
+        "Bonsaï",
+        "Bankan",
+        "Niwaki",
+        "Oden"
+      ],
+      "explanation": "Le bonsaï, littéralement plante cultivée dans un pot, est un art traditionnel japonais dérivé de l'art originaire chinois du penjing.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-405",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Corentin Declercq",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_405.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-405-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces arts martiaux n'est pas d'origine japonaise ?",
+      "answer": "Kung-fu",
+      "options": [
+        "Ju-jitsu",
+        "Kung-fu",
+        "Judo",
+        "Karaté"
+      ],
+      "explanation": "Le terme Kung-fu, introduit en Europe dans les années 1970, est utilisé par les occidentaux pour parler des arts martiaux chinois.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-405",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Corentin Declercq",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_405.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-405-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment se nomment les membres de la mafia japonaise ?",
+      "answer": "Yakuza",
+      "options": [
+        "Udon",
+        "Onizuka",
+        "Yakuza",
+        "Onigiri"
+      ],
+      "explanation": "L'univers des yakuzas est une source importante d'inspiration pour la culture japonaise, servant aussi de base pour certains scénaristes.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-405",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Corentin Declercq",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_405.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-405-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le sport le plus populaire et le plus pratiqué au Japon ?",
+      "answer": "Baseball",
+      "options": [
+        "Foot",
+        "Tennis",
+        "Baseball",
+        "Sumo"
+      ],
+      "explanation": "Le baseball, communément appelé yakyu, est un sport qui demande esprit d'équipe et concentration, ce qui plaît énormément aux japonais.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-405",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Corentin Declercq",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_405.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-405-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel métier exerçait un kamikaze durant la guerre du Pacifique ?",
+      "answer": "Pilote",
+      "options": [
+        "Navigateur",
+        "Pilote",
+        "Cuisinier",
+        "Médecin"
+      ],
+      "explanation": "Le kamikaze ou vent divin était membre d'une unité militaire de l'Empire du Japon effectuant des missions-suicides pendant la guerre du Pacifique.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-405",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Corentin Declercq",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_405.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-405-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelles dames de compagnie consacrent leur vie aux arts traditionnels japonais ?",
+      "answer": "Geisha",
+      "options": [
+        "Zashiki",
+        "Geta",
+        "Hanamachi",
+        "Geisha"
+      ],
+      "explanation": "Cultivant le raffinement, les geishas proposent des prestations d'accompagnement et de divertissement pour une clientèle très aisée.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-405",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Corentin Declercq",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_405.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-405-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Jusqu'au XIXe siècle, qui détenait le pouvoir militaire et civil au Japon ?",
+      "answer": "Shogun",
+      "options": [
+        "Daimyo",
+        "Azuchi",
+        "Shogun",
+        "Edo"
+      ],
+      "explanation": "Le titre de grand général pacificateur des barbares fut aboli en 1868, le pouvoir effectif ayant été restauré à l'empereur et ses délégués.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-405",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Corentin Declercq",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_405.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-405-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel aliment le tofu est-il le fromage issu du caillage ?",
+      "answer": "Soja",
+      "options": [
+        "Soja",
+        "Riz",
+        "Orge",
+        "Miso"
+      ],
+      "explanation": "Le tofu est une pâte blanche, molle, peu odorante et au goût plutôt neutre, constituant une base importante de l'alimentation asiatique.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-405",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Corentin Declercq",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_405.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-405-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que sont les Onsen, lieux de relaxation ancrés dans la tradition japonaise ?",
+      "answer": "Bains thermaux",
+      "options": [
+        "Salons de thé",
+        "Jardins fleuris",
+        "Bains thermaux",
+        "Temples gris"
+      ],
+      "explanation": "L'eau de ces bains chauds généralement communs est issue de sources volcaniques parfois réputées pour leurs propriétés thérapeutiques.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-405",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Corentin Declercq",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_405.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-405-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel suffixe honorifique utilise-t-on pour s'adresser à un professeur ou un artiste ?",
+      "answer": "Sensei",
+      "options": [
+        "Sensei",
+        "Senpai",
+        "Kun",
+        "San"
+      ],
+      "explanation": "Par défaut, on utilise San qui est le suffixe le plus basique en japonais, ces suffixes pouvant être généralement traduits par Monsieur.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-405",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Corentin Declercq",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_405.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-405-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle manière est-il préconisé de fêter Noël au Japon ?",
+      "answer": "En amoureux",
+      "options": [
+        "Seul",
+        "En amoureux",
+        "En famille",
+        "Entre collègues"
+      ],
+      "explanation": "La fête de Noël étant importée de l'occident, elle est donc purement commerciale et considérée comme une sorte de deuxième Saint-Valentin.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-405",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Corentin Declercq",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_405.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-405-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quoi Raijin (ou Raiden) est-il le dieu dans la mythologie japonaise ?",
+      "answer": "Tonnerre",
+      "options": [
+        "Courage",
+        "Soleil",
+        "Tonnerre",
+        "Mort"
+      ],
+      "explanation": "C'est Raiden qui serait à l'origine de la faillite de la tentative d'invasion mongole du Japon en 1274 alors qu'il créa le typhon Kamikaze.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-405",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Corentin Declercq",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_405.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-405-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Au Japon, que risquez-vous en enfonçant vos baguettes dans un aliment en plein repas ?",
+      "answer": "Mauvais présage",
+      "options": [
+        "Mécontentement",
+        "Prison",
+        "Mauvais présage",
+        "Exclusion"
+      ],
+      "explanation": "Les baguettes japonaises, courtes, à bout pointu, généralement en bois laqué, sont consommées à raison de 400 baguettes jetables par an.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-405",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Corentin Declercq",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_405.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-405-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment est-il convenu de se saluer de manière cordiale au Japon ?",
+      "answer": "En s'inclinant",
+      "options": [
+        "En s'embrassant",
+        "En s'inclinant",
+        "En criant",
+        "En s'agenouillant"
+      ],
+      "explanation": "Le degré d'inclinaison dépend de la personne que vous souhaitez saluer, l'objectif étant d'éviter au maximum les contacts physiques.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-405",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Corentin Declercq",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_405.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-405-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel studio de films d'animation a été fondé par Hayao Miyazaki ?",
+      "answer": "Ghibli",
+      "options": [
+        "Ghibli",
+        "Pierrot",
+        "Madhouse",
+        "Toei"
+      ],
+      "explanation": "Bien connu du grand public, ses oeuvres majeures sont « Le Château ambulant », « Le Voyage de Chihiro » ou encore « Princesse Mononoké ».",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-405",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Corentin Declercq",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_405.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-405-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que sont l'hara-kiri et le seppuku, utilisés par une personne déshonorée ?",
+      "answer": "Suicide",
+      "options": [
+        "Prison",
+        "Suicide",
+        "Théâtre",
+        "Sabre"
+      ],
+      "explanation": "Le hara-kiri était utilisé par une personne déshonorée (adultère, trahison, ...) et permettait alors de retrouver et de laver son honneur.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-405",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Corentin Declercq",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_405.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-405-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Au Japon, quel chiffre possède la même réputation que le nombre 13 en occident ?",
+      "answer": "Quatre",
+      "options": [
+        "Neuf",
+        "Sept",
+        "Trois",
+        "Quatre"
+      ],
+      "explanation": "En Chine, au Japon et en Corée, il existe une superstition très commune, la tétraphobie ou la peur du chiffre 4 (qui se prononce mort).",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-405",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Corentin Declercq",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_405.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-405-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que vous dit un japonais qui prononce les mots « Ohayou gozaimasu » ?",
+      "answer": "Bonjour",
+      "options": [
+        "À demain",
+        "Merci beaucoup",
+        "Bonjour",
+        "Au revoir"
+      ],
+      "explanation": "Au Japon, les mots « Ohayou gozaimasu » sont utilisés avant midi, tandis que le mot « Konichiha » est plutôt utilisé au cours de l'après-midi.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-405",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Corentin Declercq",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_405.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-405-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qu'est-il préférable d'enlever au Japon avant de rentrer dans une habitation ?",
+      "answer": "Ses chaussures",
+      "options": [
+        "Son chapeau",
+        "Son pantalon",
+        "Ses lunettes",
+        "Ses chaussures"
+      ],
+      "explanation": "L'entrée d'une maison est d'ailleurs très souvent surélevée, ce qui permet de distinguer l'endroit où il faut retirer ses chaussures.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-405",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Corentin Declercq",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_405.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-405-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel animal est le Kitsune, créature surnaturelle possédant plusieurs queues ?",
+      "answer": "Renard",
+      "options": [
+        "Raton laveur",
+        "Chien",
+        "Chat",
+        "Renard"
+      ],
+      "explanation": "À la fois personnage du folklore japonais et esprit surnaturel, on raconte que le nombre de queues du Kitsune est proportionnel à son âge.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-405",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Corentin Declercq",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_405.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-405-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qu'a de particulier la sortie des jeux vidéos « Dragon Quest » au Japon ?",
+      "answer": "Sort le week-end",
+      "options": [
+        "Sort le week-end",
+        "Est gratuite",
+        "Sort le 1er janvier",
+        "Est en français"
+      ],
+      "explanation": "Un accord a été trouvé entre le gouvernement et la société de production, le taux d'absentéisme étant trop élevé les jours de sortie.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-405",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Corentin Declercq",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_405.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-405-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Le Sado est la cérémonie de préparation de quelle boisson ?",
+      "answer": "Thé vert",
+      "options": [
+        "Café",
+        "Saké",
+        "Jus de cerise",
+        "Thé vert"
+      ],
+      "explanation": "Inspiré en partie du bouddhisme zen, utilisant le matcha, une poudre de thé vert broyé, le Sado est un véritable art traditionnel au Japon.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-405",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Corentin Declercq",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_405.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

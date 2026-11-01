@@ -1,0 +1,774 @@
+{
+  "id": "oq-133",
+  "title": "Rome",
+  "originalTitle": "Rome (La ville Éternelle)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_133.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    25
+  ],
+  "questions": [
+    {
+      "id": "oqdb-133-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel pays la ville de Rome est-elle la capitale depuis 1871 ?",
+      "answer": "Italie",
+      "options": [
+        "Grèce",
+        "Portugal",
+        "Italie",
+        "Espagne"
+      ],
+      "explanation": "Rome est également la capitale de la région du Latium et fut celle de l'Empire romain durant plusieurs siècles.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-133",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_133.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-133-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces communes importantes est la plus peuplée d'Italie ?",
+      "answer": "Rome",
+      "options": [
+        "Rome",
+        "Milan",
+        "Naples",
+        "Florence"
+      ],
+      "explanation": "En 2014, la ville de Rome comptait 2 869 461 habitants établis sur 1 285 kilomètres carrés.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-133",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_133.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-133-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel État enclavé est contenu dans le territoire de la ville de Rome ?",
+      "answer": "Vatican",
+      "options": [
+        "Monaco",
+        "Lichtenstein",
+        "Saint-Marin",
+        "Vatican"
+      ],
+      "explanation": "C'est le seul exemple existant d'un pays à l'intérieur d'une ville : Rome est donc la capitale de deux États.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-133",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_133.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-133-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En 2017,combien de fois la ville de Rome a-t-elle organisé les Jeux olympiques d'été ?",
+      "answer": "Une fois",
+      "options": [
+        "Deux fois",
+        "Trois fois",
+        "Une fois",
+        "Quatre fois"
+      ],
+      "explanation": "Après avoir reçu les Jeux en 1960, Rome est officiellement candidate pour recevoir les Jeux olympiques d'été de 2024.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-133",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_133.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-133-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Par combien de collines le centre historique de Rome est-il dominé ?",
+      "answer": "Sept",
+      "options": [
+        "Onze",
+        "Cinq",
+        "Sept",
+        "Neuf"
+      ],
+      "explanation": "Aventin, Caelius, Capitole, Esquilin, Palatin, Quirinal et Viminal se situent toutes sur la rive gauche du Tibre.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-133",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_133.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-133-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel climat particulièrement clément bénéficie la ville de Rome ?",
+      "answer": "Méditerranéen",
+      "options": [
+        "Méditerranéen",
+        "Tropical",
+        "Tempéré",
+        "Océanique"
+      ],
+      "explanation": "C'est ainsi que les hivers sont doux, même si un coup de froid en provenance des Apennins ne peut être exclu.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-133",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_133.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-133-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel animal a été naturellement choisi comme symbole de la ville de Rome ?",
+      "answer": "La louve",
+      "options": [
+        "Le Lion",
+        "La louve",
+        "La chèvre",
+        "Le cerf"
+      ],
+      "explanation": "Le nom de la ville est dû à la légende des jumeaux Romulus et Rémus, élevés par une louve, où le premier tua le second.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-133",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_133.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-133-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle fontaine de Rome est sans doute la fontaine la plus célèbre du monde ?",
+      "answer": "Trevi",
+      "options": [
+        "Neptune",
+        "Barcaccia",
+        "Trevi",
+        "Triton"
+      ],
+      "explanation": "Il est de coutume d'y jeter une pièce de monnaie par le bras droit en tournant le dos à la fontaine avant de quitter Rome.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-133",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_133.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-133-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel compositeur réputé pour ses musiques de films est né à Rome en 1928 ?",
+      "answer": "Ennio Morricone",
+      "options": [
+        "Bruno Coulais",
+        "Hans Zimmer",
+        "Alexandre Desplat",
+        "Ennio Morricone"
+      ],
+      "explanation": "Ennio Morricone est surtout réputé pour ses BO réalisées pour son ami et camarade de classe Sergio Leone.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-133",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_133.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-133-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le plus important édifice religieux du catholicisme situé à Rome ?",
+      "answer": "Basilique Saint-Pierre",
+      "options": [
+        "Église Santa Prisca",
+        "Basilique Saint-Pierre",
+        "Église Santa Susanna",
+        "Panthéon"
+      ],
+      "explanation": "La Basilique Saint-Pierre est située au Vatican, sur la rive droite du Tibre, et sa façade s'ouvre sur la place Saint-Pierre.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-133",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_133.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-133-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "L'histoire de quel jeu vidéo se déroule en grande partie dans la ville de Rome ?",
+      "answer": "Assassin's Creed",
+      "options": [
+        "Hitman",
+        "Tenchu",
+        "Assassin's Creed",
+        "Metal Gear Solid"
+      ],
+      "explanation": "L'histoire est axée sur Desmond Miles qui revit les actions de son ancêtre à l'aide d'une machine nommée « Animus ».",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-133",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_133.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-133-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sur les côtes de quelle mer la ville de Rome est-elle située ?",
+      "answer": "Tyrrhénienne",
+      "options": [
+        "Ionienne",
+        "Tyrrhénienne",
+        "Égée",
+        "Adriatique"
+      ],
+      "explanation": "Elle forme un triangle limité à l'ouest par la Corse et la Sardaigne, à l'est par la péninsule italienne et au sud par la Sicile.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-133",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_133.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-133-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année avant Jésus-Christ Romulus a-t-il fondé la ville de Rome ?",
+      "answer": "753",
+      "options": [
+        "251",
+        "432",
+        "753",
+        "654"
+      ],
+      "explanation": "D'après la légende latine, Romulus fonda la ville de Rome à l'emplacement du Mont Palatin sur le Tibre le 21 avril 753 av. J-C.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-133",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_133.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-133-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment est appelée la ville de Rome, l'une des plus belles villes du monde ?",
+      "answer": "Ville Éternelle",
+      "options": [
+        "Petite Venise",
+        "Coliséenne",
+        "Ville Éternelle",
+        "Ville Lumière"
+      ],
+      "explanation": "Outre le tourisme, l'économie de la « Ville Éternelle » est également orientée vers les nouvelles technologies.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-133",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_133.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-133-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Situés sur d'anciennes propriétés patriciennes, comment sont nommés les jardins de Rome ?",
+      "answer": "Villas",
+      "options": [
+        "Novas",
+        "Villas",
+        "Doumas",
+        "Barracas"
+      ],
+      "explanation": "Rome est une des seules grandes villes à avoir autant d'espaces agricoles et de campagne en son sein, l'Agro Romano.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-133",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_133.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-133-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle femme politique italienne a été élue maire de Rome le 22 juin 2016 ?",
+      "answer": "Virginia Raggi",
+      "options": [
+        "Renata Briano",
+        "Leda Rafanelli",
+        "Chiara Ingrao",
+        "Virginia Raggi"
+      ],
+      "explanation": "Membre du Mouvement 5 étoiles, elle est à la fois la première femme et la personne la plus jeune à occuper ce poste.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-133",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_133.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-133-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À Rome, quelle est la longueur totale du mur d'Aurélien, monumentale muraille de briques ?",
+      "answer": "19 km",
+      "options": [
+        "13 km",
+        "16 km",
+        "10 km",
+        "19 km"
+      ],
+      "explanation": "Le mur est construit en béton recouvert de briques, est épais de 3,5 m et haut de 8 m, atteignant par endroits 10 m.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-133",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_133.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-133-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En football, avec quel autre club l'AS Roma est-il depuis longtemps rival ?",
+      "answer": "SS Lazio",
+      "options": [
+        "Frosinone Calcio",
+        "US Latina",
+        "SS Lazio",
+        "FC Rieti"
+      ],
+      "explanation": "L'AS Roma est l'un des rares clubs à avoir disputé une finale de Ligue des Champions à domicile, en 1984, face à Liverpool.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-133",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_133.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-133-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Par combien de grands aéroports la ville de Rome est-elle desservie ?",
+      "answer": "Trois",
+      "options": [
+        "Deux",
+        "Quatre",
+        "Cinq",
+        "Trois"
+      ],
+      "explanation": "Les deux principaux, Léonard-de-Vinci de Rome Fiumicino et Ciampino, sont administrés par Aeroporti di Roma.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-133",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_133.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-133-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel réalisateur de cinéma né à Milan est mort à Rome en 1976 ?",
+      "answer": "Luchino Visconti",
+      "options": [
+        "Federico Fellini",
+        "Luchino Visconti",
+        "Bernardo Bertolucci",
+        "Elio Petri"
+      ],
+      "explanation": "Le metteur en scène milanais a consciemment rattaché ses propres films à ses souvenirs autobiographiques.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-133",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_133.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-133-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle célèbre fontaine de Rome représente une barque échouée qui prend l'eau ?",
+      "answer": "Barcaccia",
+      "options": [
+        "Quatre-Fleuves",
+        "Barcaccia",
+        "Trevi",
+        "Paola"
+      ],
+      "explanation": "La fontaine est remplie d'une eau bleu turquoise très claire, parsemée de pièces de monnaie à vœux jetées par les touristes.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-133",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_133.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-133-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel terme est utilisé pour nommer les quartiers du centre historique de Rome ?",
+      "answer": "Rioni",
+      "options": [
+        "Piagio",
+        "Dove",
+        "Balda",
+        "Rioni"
+      ],
+      "explanation": "Dans certains cas, le terme « Rioni » est employé pour désigner des quartiers d'autres villes italiennes, comme Naples.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-133",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_133.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-133-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle colonne de Rome est surmontée d'une statue de Marie à l'enfant ?",
+      "answer": "Colonne de la Paix",
+      "options": [
+        "Monolithe Mussolini",
+        "Colonne de l'Ange",
+        "Colonne de la Paix",
+        "Colonne di Borgo"
+      ],
+      "explanation": "Cette colonne est l'unique élément restant des huit colonnes de la basilique de Maxence et Constantin.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-133",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_133.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-133-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien d'églises dénombre-t-on environ sur le territoire de la ville de Rome ?",
+      "answer": "900",
+      "options": [
+        "700",
+        "900",
+        "500",
+        "300"
+      ],
+      "explanation": "Rome est aussi l'un des plus grands sites archéologiques du monde et compte également de nombreux ponts et fontaines.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-133",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_133.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-133-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle communauté est la plus nombreuse à Rome avec pas moins de 100 000 résidents ?",
+      "answer": "Roumaine",
+      "options": [
+        "Roumaine",
+        "Polonaise",
+        "Chinoise",
+        "Péruvienne"
+      ],
+      "explanation": "La population de Rome a recommencé à croître fortement à partir de 1870 et sa désignation comme capitale de l'Italie.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-133",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_133.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-133-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Où le Masters de Rome de tennis se tient-il tous les ans depuis 1930 ?",
+      "answer": "Foro Italico",
+      "options": [
+        "Foro Italico",
+        "PalaLottomatica",
+        "Stade des Marbres",
+        "Stadio Tre Fontane"
+      ],
+      "explanation": "Le Foro Italico a été réalisé dans la zone appelée à l'origine « Prati della Farnesina », à partir de la fin des années 1920.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-133",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_133.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-133-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À part la ville Éternelle, combien d'autres villes dans le monde portent le nom de Rome ?",
+      "answer": "44",
+      "options": [
+        "22",
+        "33",
+        "44",
+        "11"
+      ],
+      "explanation": "Par tradition, un « vrai » Romain est une personne dont la famille a vécu à Rome depuis au moins sept générations.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-133",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_133.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-133-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quel « événement » Michel de Montaigne a-t-il assisté à Rome en 1581 ?",
+      "answer": "Au carnaval",
+      "options": [
+        "Au carnaval",
+        "À un incendie",
+        "Aux Jeux",
+        "À un couronnement"
+      ],
+      "explanation": "En 1787, Goethe en a fait une description. Sa chambre, via del Corso, se trouvait située sur le lieu central du Carnaval.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-133",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_133.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-133-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sur quelle pièce de monnaie italienne le Colisée est-il représenté ?",
+      "answer": "5 centimes d'euro",
+      "options": [
+        "5 centimes d'euro",
+        "2 euros",
+        "20 centimes d'euro",
+        "1 euro"
+      ],
+      "explanation": "Le Colisée est un géant malade : chaque année, 500 000 euros lui sont alloués par l'État italien pour parer au plus urgent.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-133",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_133.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

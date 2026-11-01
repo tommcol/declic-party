@@ -1,0 +1,798 @@
+{
+  "id": "oq-236",
+  "title": "Tubes disco",
+  "originalTitle": "Tubes disco (Mélange de funk, de soul et de pop)",
+  "universe": "music",
+  "emoji": "🎵",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_236.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-236-1",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel tube de Village People fait référence à un mouvement de jeunesse ?",
+      "answer": "Y.M.C.A.",
+      "options": [
+        "Macho Man",
+        "Go West",
+        "Y.M.C.A.",
+        "In the Navy"
+      ],
+      "explanation": "Dans la culture gay, la chanson a été comprise comme célébrant la réputation de la YMCA en tant que lieu de drague.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-236",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_236.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-236-2",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel tube disco planétaire du groupe ABBA est sorti en 1979 ?",
+      "answer": "Voulez-Vous",
+      "options": [
+        "Waterloo",
+        "Mamma Mia",
+        "Voulez-Vous",
+        "SOS"
+      ],
+      "explanation": "Le groupe est originellement composé d'Agnetha Fältskog, Anni-Frid Lyngstad, dite Frida, Benny Andersson et Björn Ulvaeus.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-236",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_236.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-236-3",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel tube disco fut initialement écrit pour Stacy Lattisaw ?",
+      "answer": "Ring My Bell",
+      "options": [
+        "Ring My Bell",
+        "Shadow Dancing",
+        "Copacabana",
+        "Viva America"
+      ],
+      "explanation": "La chanson « Ring My Bell » est caractérisée par le son d'un carillon et de la batterie électronique Synare jouant un ton aigu.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-236",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_236.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-236-4",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel titre représente le premier succès international du groupe Boney M. ?",
+      "answer": "Daddy Cool",
+      "options": [
+        "Daddy Cool",
+        "Rasputin",
+        "Sunny",
+        "Ma Baker"
+      ],
+      "explanation": "Boney M. était un groupe vocal jamaïco-antillais de disco-pop, créé et dirigé par le producteur allemand Frank Farian.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-236",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_236.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-236-5",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel titre symbolise le virage disco du chanteur Claude François ?",
+      "answer": "Je vais à Rio",
+      "options": [
+        "Je vais à Rio",
+        "Rubis",
+        "Le mal aimé",
+        "Après tout"
+      ],
+      "explanation": "Les estimations de ventes du 45 tours se chiffrent à 317 000 exemplaires. Il atteint la cinquième place des classements français.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-236",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_236.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-236-6",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel titre des Gibson Brothers leur a valu quatorze disques d'or ?",
+      "answer": "Cuba",
+      "options": [
+        "Que Sera Mi Vida",
+        "Cuba",
+        "Mariana",
+        "Oooh What a Life"
+      ],
+      "explanation": "C'est en 1976 que les frères Gibson (Chris, Patrick et Alex), originaires de la Martinique, formèrent le groupe Gibson Brothers.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-236",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_236.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-236-7",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel hit disco de Gloria Gaynor est un symbole de l'émancipation féminine ?",
+      "answer": "I Will Survive",
+      "options": [
+        "Set Me Free",
+        "Be Mine",
+        "I Will Survive",
+        "Love Affair"
+      ],
+      "explanation": "Ce tube disco est également devenu l'hymne de l'Équipe de France de football lors de sa victoire à la Coupe du monde 1998.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-236",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_236.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-236-8",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "À quel groupe doit-on le tube planétaire « Last Night a D.J. Saved My Life » ?",
+      "answer": "Indeep",
+      "options": [
+        "Inner Life",
+        "Indeep",
+        "Heatwave",
+        "Hot Chocolate"
+      ],
+      "explanation": "En 2001, les Black Eyed Peas ont repris ce titre qu'ils ont samplé et remixé dans la chanson « Request Line » sur l'album « Bridging The Gap ».",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-236",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_236.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-236-9",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quelle chanson disco-funk du groupe Lipps Inc. est sortie en 1980 ?",
+      "answer": "Funkytown",
+      "options": [
+        "Hold Me Down",
+        "Power",
+        "Funkytown",
+        "Designer Music"
+      ],
+      "explanation": "Il s'agit du principal succès du groupe, parvenu en tête des hit-parades internationaux et certifié disque de platine.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-236",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_236.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-236-10",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel est le single disco le plus vendu du label Atlantic ?",
+      "answer": "Le Freak",
+      "options": [
+        "Ten Percent",
+        "Dancin'",
+        "Le Freak",
+        "Sweet dynamite"
+      ],
+      "explanation": "Le groupe Chic a composé cette chanson, à l'origine « Fuck off » (Allez vous faire foutre), après s'être fait refouler du Studio 54.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-236",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_236.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-236-11",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel titre d'Alain Chamfort rend hommage au navigateur Alain Colas ?",
+      "answer": "Manureva",
+      "options": [
+        "Bambou",
+        "Manureva",
+        "Paradis",
+        "Géant"
+      ],
+      "explanation": "Lors de sa sortie, « Manureva » rencontra un énorme succès commercial, parvenant à se classer à la seconde place du hit-parade.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-236",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_236.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-236-12",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel tube de Diana Ross a été écrit par les membres du groupe Chic ?",
+      "answer": "Upside Down",
+      "options": [
+        "Upside Down",
+        "Surrender",
+        "Remember Me",
+        "Love Child"
+      ],
+      "explanation": "Il a été échantillonné par Salt-n-Pepa, Kid Rock, Missy Elliott, Destiny's Child, Alcazar, Puff Daddy, Risquée, Collette et MC Lyte.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-236",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_236.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-236-13",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel artiste est connu pour son titre « Rock Your Baby » sorti en 1974 ?",
+      "answer": "George McCrae",
+      "options": [
+        "Bobby Byrd",
+        "Marvin Gaye",
+        "George McCrae",
+        "Edwin Starr"
+      ],
+      "explanation": "Selon John Lennon lui-même, « Rock Your Baby » est une source d'inspiration de sa chanson « Whatever Gets You Thru the Night ».",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-236",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_236.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-236-14",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quelle est la chanson la plus connue du groupe Hot Chocolate ?",
+      "answer": "You Sexy Thing",
+      "options": [
+        "Love is Life",
+        "Cheri Babe",
+        "Man to Man",
+        "You Sexy Thing"
+      ],
+      "explanation": "La chanson se distingue par son riff de six notes qui se répète de façon intermittente, joué sur une guitare électrique.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-236",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_236.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-236-15",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel hit de Loleatta Holloway est tiré de l'album du même nom ?",
+      "answer": "Love Sensation",
+      "options": [
+        "So Sweet",
+        "Love Sensation",
+        "Strong Enough",
+        "I Survived"
+      ],
+      "explanation": "Écrite et produite par Dan Hartman, cette chanson a atteint le sommet du palmarès Hot Dance Club Play en septembre 1980.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-236",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_236.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-236-16",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel groupe disco doit son nom à la capitale du Canada ?",
+      "answer": "Ottawan",
+      "options": [
+        "Montréal",
+        "Vancouver",
+        "Ottawan",
+        "Toronto"
+      ],
+      "explanation": "Le duo Jean Kluger / Daniel Vangarde, qui a composé des titres pour Gibson Brothers, leur a entre autre écrit le tube « D.I.S.C.O. ».",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-236",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_236.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-236-17",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Qui se demande s'il est sexy dans un tube disco sorti en 1978 ?",
+      "answer": "Rod Stewart",
+      "options": [
+        "Walter Murphy",
+        "Jimmy Somerville",
+        "Rod Stewart",
+        "Martin Stevens"
+      ],
+      "explanation": "Après avoir été condamné pour plagiat contre Jorge Ben, Rod Stewart a accepté de verser les royalties de ce disque à l'Unicef.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-236",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_236.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-236-18",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Qui a enregistré « You Make Me Feel », repris plus tard par Jimmy Somerville ?",
+      "answer": "Sylvester",
+      "options": [
+        "Randy Jones",
+        "Bobby Farrell",
+        "Dan Hartman",
+        "Sylvester"
+      ],
+      "explanation": "Séropositif, Sylvetser s'engage dans la prévention et continuera à enregistrer des albums destinés aux pistes des boîtes de nuit.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-236",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_236.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-236-19",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel titre des Trammps est repris dans le film « La Fièvre du samedi soir » ?",
+      "answer": "Disco Inferno",
+      "options": [
+        "Body Contact",
+        "Disco Inferno",
+        "Slipping Out",
+        "Starvin'"
+      ],
+      "explanation": "Cyndi Lauper a fait une reprise de cette chanson dans la B.O. du film « Une nuit au Roxbury » et Tina Turner dans celle de « Tina ».",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-236",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_236.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-236-20",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quelle chanteuse reste surtout connue pour le titre « I Love to Love » ?",
+      "answer": "Tina Charles",
+      "options": [
+        "Madleen Kane",
+        "Tina Charles",
+        "Roberta Kelly",
+        "Sharon Redd"
+      ],
+      "explanation": "La collaboration avec Biddu s'est poursuivie avec l'album suivant et une autre chanson à succès, « Dance Little Lady Dance ».",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-236",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_236.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-236-21",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Qui a remporté un Grammy grâce à « Don't Leave Me This Way » ?",
+      "answer": "Thelma Houston",
+      "options": [
+        "Kiki Dee",
+        "Shanice Wilson",
+        "Thelma Houston",
+        "Diana Ross"
+      ],
+      "explanation": "Le tube fut adapté en français par Sylvie Vartan sous le titre « Ne pars pas comme ça » (2LP « Live au Palais des congrès », 1977).",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-236",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_236.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-236-22",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel fut le premier grand succès du chanteur et bassiste américain Dan Hartman ?",
+      "answer": "Instant Replay",
+      "options": [
+        "White Boy",
+        "Second Nature",
+        "Images",
+        "Instant Replay"
+      ],
+      "explanation": "Dan Hartman est connu pour ses titres « Free Ride », « I Can Dream About You », « Instant Replay », « Love Sensation » et « Relight My Fire ».",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-236",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_236.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-236-23",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quelle chanteuse québécoise a connu le succès avec « Come To Me » ?",
+      "answer": "France Joli",
+      "options": [
+        "France Joli",
+        "Chantal Renaud",
+        "Tabitha Lemaire",
+        "Fanny Bloom"
+      ],
+      "explanation": "Découverte par Tony Green, France Joli fait partie des nombreux artistes du label Prelude qui a accumulé les hits de discothèque.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-236",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_236.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-236-24",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Qui a réalisé l'album « Give Me the Night » de George Benson ?",
+      "answer": "Quincy Jones",
+      "options": [
+        "Edgar Sampson",
+        "Buddy Greco",
+        "Don Costa",
+        "Quincy Jones"
+      ],
+      "explanation": "L'album est souvent décrit comme un des sommets des albums plus commerciaux du guitariste qui y mélange les genres.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-236",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_236.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-236-25",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel album de Gino Soccio est devenu et reste un classique disco ?",
+      "answer": "Outline",
+      "options": [
+        "Remember",
+        "Face To Face",
+        "Outline",
+        "Closer"
+      ],
+      "explanation": "Gino Soccio reste le seul artiste disco à avoir trois singles de ses premiers albums dans les meilleurs classements musicaux.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-236",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_236.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-236-26",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Sous quel nom Isabelle Morizet a-t-elle sorti « Sing to me Mama » ?",
+      "answer": "Karen Cheryl",
+      "options": [
+        "Karen Cheryl",
+        "Amanda Lear",
+        "Anita Ward",
+        "Sheila"
+      ],
+      "explanation": "Karen Cheryl a participé en tant que choriste à une chanson de l'album de Liane Foly, sorti en 2001, « Entre Nous ».",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-236",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_236.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-236-27",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel producteur de Whitney Houston a sorti le tube « Let's All Chant » ?",
+      "answer": "Michael Zager",
+      "options": [
+        "Patrick Cowley",
+        "Nile Rodgers",
+        "Bobby Orlando",
+        "Michael Zager"
+      ],
+      "explanation": "Bien qu'il s'agisse d'un titre disco, on trouve dans ce titre de 1978 des passages joués à la clarinette, au clavecin et à la trompette.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-236",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_236.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-236-28",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Dans quel pays « Born to be Alive » connut d'abord le succès ?",
+      "answer": "Italie",
+      "options": [
+        "Allemagne",
+        "Espagne",
+        "Italie",
+        "Suisse"
+      ],
+      "explanation": "Avec 56 disques d'or obtenus dans 25 pays, Patrick Hernandez rapporte que le single lui rapporte entre 800 et 1 500 euros par jour.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-236",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_236.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-236-29",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Dans quel album est paru le titre « Où sont les femmes ? » de Patrick Juvet ?",
+      "answer": "Paris by night",
+      "options": [
+        "I Love America",
+        "Paris by night",
+        "Lady night",
+        "Chrysalide"
+      ],
+      "explanation": "Ce titre aux sonorités disco marque une nouvelle collaboration entre Patrick Juvet (compositeur) et Jean-Michel Jarre (parolier).",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-236",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_236.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-236-30",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel tube disco Van McCoy a-t-il écrit en quelques heures seulement ?",
+      "answer": "The Hustle",
+      "options": [
+        "Cupid",
+        "The Hustle",
+        "Disco Duck",
+        "Car Wash"
+      ],
+      "explanation": "Le titre s'est vendu à dix millions d'exemplaires et a reçu le Grammy Award du meilleur morceau instrumental pop en 1976.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-236",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_236.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

@@ -1,0 +1,774 @@
+{
+  "id": "oq-89",
+  "title": "Héros de Star Wars",
+  "originalTitle": "Héros de Star Wars (Choisissez votre côté de la Force)",
+  "universe": "film",
+  "emoji": "🎬",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_89.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    21
+  ],
+  "questions": [
+    {
+      "id": "oqdb-89-1",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Sur quelle planète désertique Anakin Skywalker est-il arrivé à l'âge de quatre ans ?",
+      "answer": "Tatooine",
+      "options": [
+        "Hoth",
+        "Tatooine",
+        "Endor",
+        "Naboo"
+      ],
+      "explanation": "George Lucas a utilisé l'habitat traditionnel de Tataouine sans retouches pour la scène où Anakin retourne voir sa mère.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-89",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_89.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-89-2",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel légendaire guerrier Wookiee est depuis longtemps le fidèle compagnon d'Han Solo ?",
+      "answer": "Chewbacca",
+      "options": [
+        "Chewbacca",
+        "Watto",
+        "Palpatine",
+        "Jar Jar Binks"
+      ],
+      "explanation": "Chewbacca possède un grand coeur et fait preuve d'une loyauté indéfectible envers ses amis.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-89",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_89.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-89-3",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel nom Obi-Wan Kenobi a-t-il adopté pendant des années jusqu'au jour où il rencontra Luke ?",
+      "answer": "Ben",
+      "options": [
+        "Sid",
+        "Ken",
+        "Ben",
+        "Tom"
+      ],
+      "explanation": "Le vieil Obi-Wan Kenobi met Luke Skywalker sur le chemin de la Force avant d'être tué volontairement par Dark Vador.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-89",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_89.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-89-4",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le nom du vaisseau spatial du contrebandier Han Solo ?",
+      "answer": "Faucon Millenium",
+      "options": [
+        "Aigle Solitaire",
+        "Speeder",
+        "B-Wing",
+        "Faucon Millenium"
+      ],
+      "explanation": "Le vaisseau fut appelé « Millenium Condor » dans la version française du premier épisode produit.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-89",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_89.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-89-5",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel nom porte le robot qu'Anakin a construit à partir du corps d'un droïde de protocole ?",
+      "answer": "C-3PO",
+      "options": [
+        "R2-D2",
+        "C-3PO",
+        "Daryl",
+        "T-1000"
+      ],
+      "explanation": "Ce droïde protocolaire de forme humanoïde « maîtrise plus de six millions de formes de communication ».",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-89",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_89.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-89-6",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel métier est exercé par Jango Fett, humain originaire de Concord Dawn ?",
+      "answer": "Chasseur de primes",
+      "options": [
+        "Musicien",
+        "Chasseur de primes",
+        "Vendeur de droïdes",
+        "Sénateur"
+      ],
+      "explanation": "Inventif, sachant se sortir de toutes les situations, Jango Fett est apprécié pour son professionnalisme par ses commanditaires.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-89",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_89.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-89-7",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans l'univers de « Star Wars », quelle espèce vit sur la lune forestière de la planète Endor ?",
+      "answer": "Ewok",
+      "options": [
+        "Sarlacc",
+        "Ewok",
+        "Tusken",
+        "Wookiee"
+      ],
+      "explanation": "Physiquement, ces mammifères humanoïdes omnivores mesurent environ un mètre de haut.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-89",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_89.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-89-8",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le lien de parenté entre Luke Skywalker et la Princesse Leia ?",
+      "answer": "Frère et soeur",
+      "options": [
+        "Mari et femme",
+        "Frère et soeur",
+        "Cousin et cousine",
+        "Oncle et tante"
+      ],
+      "explanation": "Luke et Leila sont les deux enfants d'Anakin Skywalker et de Padmé Amidala.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-89",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_89.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-89-9",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel célèbre personnage de « Star Wars » a été élevé par son oncle et sa tante ?",
+      "answer": "Luke Skywalker",
+      "options": [
+        "Han Solo",
+        "Luke Skywalker",
+        "Chewbacca",
+        "Plo Koon"
+      ],
+      "explanation": "Luke Skywalker a vu le jour sur l'astéroïde de Polis Massa, peu de temps après la création de l'Empire galactique.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-89",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_89.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-89-10",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel acteur est célèbre pour avoir tenu le rôle de Luke Skywalker dans la saga « Star Wars » ?",
+      "answer": "Mark Hamill",
+      "options": [
+        "Harrison Ford",
+        "Mark Hamill",
+        "Alec Guinness",
+        "Liam Neeson"
+      ],
+      "explanation": "Mark Hamill a trouvé une nouvelle carrière dans le doublage de dessins animés et de jeux vidéo.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-89",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_89.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-89-11",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel personnage de « Star Wars » a été conçu comme un alien ressemblant à une limace ?",
+      "answer": "Jabba le Hutt",
+      "options": [
+        "Lando Calrissian",
+        "Dark Maul",
+        "Jabba le Hutt",
+        "Mace Windu"
+      ],
+      "explanation": "Le critique Roger Ebert considère que son apparence physique le rapproche d'un croisement entre un crapaud et le chat du Cheshire.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-89",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_89.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-89-12",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui a enregistré un message dans les circuits intégrés de R2-D2 dans « Un Nouvel Espoir » ?",
+      "answer": "La Princesse Leia",
+      "options": [
+        "Anakin",
+        "Obi-Wan",
+        "Chewbacca",
+        "La Princesse Leia"
+      ],
+      "explanation": "R2-D2 arrive tant bien que mal à se faire comprendre par les autres au gré de ses sifflements.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-89",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_89.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-89-13",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle est la couleur du sabre laser de Mace Windu, créateur de la technique du Vaapad ?",
+      "answer": "Violette",
+      "options": [
+        "Verte",
+        "Violette",
+        "Rouge",
+        "Bleue"
+      ],
+      "explanation": "En plus de sa réputation de sage, Windu est considéré comme l'un des meilleurs combattants au sabre laser de l'Ordre Jedi.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-89",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_89.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-89-14",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui était le maître du Comte Dooku, membre des systèmes indépendants ?",
+      "answer": "Dark Sidious",
+      "options": [
+        "Dark Vador",
+        "Dark Sidious",
+        "Dark Maul",
+        "Dark Bane"
+      ],
+      "explanation": "Dooku fut l'héritier d'une famille d'aristocrates et diplomates de Serenno à la fortune colossale.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-89",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_89.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-89-15",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Sous quel autre nom connaît-on le Chancelier Palpatine, originaire de Naboo ?",
+      "answer": "Dark Sidious",
+      "options": [
+        "Dark Sidious",
+        "Dark Vador",
+        "Dark Bane",
+        "Dark Malak"
+      ],
+      "explanation": "Palpatine s'est fixé comme mission de rétablir l'Ordre Sith et de détruire les Jedi grâce à un vaste complot.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-89",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_89.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-89-16",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel seigneur Sith, très habile à manier le sabre double, a tué Qui-Gon Jinn ?",
+      "answer": "Dark Maul",
+      "options": [
+        "Kit Fisto",
+        "Le Compte Dooku",
+        "Bail Organa",
+        "Dark Maul"
+      ],
+      "explanation": "Le personnage de Qui-Gon Jinn, interprété par Liam Neeson, est doublé en France par Samuel Labarthe.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-89",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_89.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-89-17",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Sénatrice de Naboo au Sénat galactique, combien Padmé Amidala eut-elle d'enfants ?",
+      "answer": "Deux",
+      "options": [
+        "Trois",
+        "Cinq",
+        "Deux",
+        "Quatre"
+      ],
+      "explanation": "Amoureuse d'Anakin Skywalker, Padmé donne naissance aux jumeaux Luke Skywalker et Leia Organa avant de mourir.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-89",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_89.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-89-18",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "À qui Dark Vador a-t-il tranché la main droite dans l'épisode V de « Star Wars » ?",
+      "answer": "Luke",
+      "options": [
+        "Luke",
+        "Obi-Wan",
+        "Mace Windu",
+        "Han Solo"
+      ],
+      "explanation": "Dark Vador proposera à Luke de devenir son allié afin de renverser l'Empereur pour régner « comme père et fils ».",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-89",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_89.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-89-19",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le prénom du fils cloné de Jango Fett, célèbre chasseur de primes ?",
+      "answer": "Boba",
+      "options": [
+        "Owen",
+        "Boba",
+        "Shmi",
+        "Dooku"
+      ],
+      "explanation": "Boba est le seul clone non modifié et est élevé par Jango pour apprendre les techniques Mandaloriennes.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-89",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_89.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-89-20",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel Gungan vivant dans la cité sous-marine d'Otoh Gunga a été exilé par Boss Nass ?",
+      "answer": "Jar Jar Binks",
+      "options": [
+        "Watto",
+        "Jar Jar Binks",
+        "Lando Calrissian",
+        "Chewbacca"
+      ],
+      "explanation": "Le personnage et le nom de Jar Jar Binks est une idée de Jett, le jeune fils de George Lucas.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-89",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_89.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-89-22",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans le premier épisode, qui est le concurrent d'Anakin lors de la course de modules ?",
+      "answer": "Sebulba",
+      "options": [
+        "Bultar Swan",
+        "Sebulba",
+        "Ben Quadinaros",
+        "Lama Su"
+      ],
+      "explanation": "Avaricieux et très mauvais perdant, Sebulba est l'un des plus fameux pilote de module de course de la galaxie.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-89",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_89.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-89-23",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le prénom de la mère d'Anakin Skywalker, qui deviendra Dark Vador ?",
+      "answer": "Shmi",
+      "options": [
+        "Padmé",
+        "Boba",
+        "Shmi",
+        "Cordé"
+      ],
+      "explanation": "George Lucas a choisi son prénom à partir de Lakshmi, une déesse hindoue.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-89",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_89.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-89-24",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel ordre Palpatine a-t-il donné aux généraux de l'armée de clones dans l'épisode III ?",
+      "answer": "Ordre 66",
+      "options": [
+        "Ordre 22",
+        "Ordre 88",
+        "Ordre 44",
+        "Ordre 66"
+      ],
+      "explanation": "La Grande Purge Jedi est un événement majeur de l'histoire de l'univers fictif de « Star Wars », imaginé par George Lucas.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-89",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_89.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-89-25",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans Star Wars, quel est l'espèce du Vice roi de la Fédération du commerce Nute Gunray ?",
+      "answer": "Neimoidien",
+      "options": [
+        "Neimoidien",
+        "Quarren",
+        "Nohgri",
+        "Ortolan"
+      ],
+      "explanation": "Les Neimoidiens sont des humanoïdes à la peau vert olive et grise, dont le visage possède un large nez aplati.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-89",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_89.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-89-26",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Apparu dans les épisodes II et III, comment le comte Dooku est-il également appelé ?",
+      "answer": "Dark Tyranus",
+      "options": [
+        "Dark Vador",
+        "Dark Malak",
+        "Dark Sidious",
+        "Dark Tyranus"
+      ],
+      "explanation": "Le comte Dooku est interprété par Christopher Lee et doublé en version française par Bernard Dhéran.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-89",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_89.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-89-27",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel ferrailleur originaire de Toydaria fut l'ancien propriétaire d'Anakin et de sa mère ?",
+      "answer": "Watto",
+      "options": [
+        "Jango",
+        "Plo Koon",
+        "Watto",
+        "Boss Nass"
+      ],
+      "explanation": "Watto est intégralement généré par ordinateur par les équipes de modélisation d'Industrial Light et Magic.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-89",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_89.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-89-28",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel autre nom est utilisé pour désigner Leia Amidala Skywalker, soeur de Luke ?",
+      "answer": "Leia Organa",
+      "options": [
+        "Leia Organa",
+        "Leia Amidala",
+        "Leia Windu",
+        "Leia Solo"
+      ],
+      "explanation": "Leia et Luke bébés furent joués par le même nourrisson qui était le fils du monteur, Roger Barton.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-89",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_89.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-89-29",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel personnage peut survivre dans le vide spatial sans appareil respiratoire ?",
+      "answer": "Plo Koon",
+      "options": [
+        "Watto",
+        "Plo Koon",
+        "Dark Bane",
+        "Han Solo"
+      ],
+      "explanation": "Dernier Padawan instruit par Maître Tyvokka, Plo Koon est devenu Chevalier Jedi.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-89",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_89.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-89-30",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui est considérée comme la femme Jedi la plus puissante de sa génération ?",
+      "answer": "Shaak Ti",
+      "options": [
+        "Leia Organa",
+        "Sebulba",
+        "Plo Koon",
+        "Shaak Ti"
+      ],
+      "explanation": "Shaak Ti fait partie du groupe des survivants secourus par Yoda et l'armée des clones.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-89",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_89.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

@@ -1,0 +1,798 @@
+{
+  "id": "oq-87",
+  "title": "Maxime Chattam",
+  "originalTitle": "Maxime Chattam",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_87.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-87-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le véritable nom du romancier français Maxime Chattam ?",
+      "answer": "Maxime Drouot",
+      "options": [
+        "Bertrand Chattam",
+        "Maxime Drouot",
+        "Pascal Château",
+        "Maxime Ducrot"
+      ],
+      "explanation": "Maxime Chattam est membre du collectif d'artistes 'La Ligue de l'Imaginaire'.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-87",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_87.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-87-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel métier Maxime Chattam a-t-il exercé avant de devenir romancier ?",
+      "answer": "Comédien",
+      "options": [
+        "Avocat",
+        "Libraire",
+        "Boucher",
+        "Comédien"
+      ],
+      "explanation": "Après des cours de comédie au Cours Simon à Paris, Maxime Chattam o obtenu des rôles pour la télévision et la publicité.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-87",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_87.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-87-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Chez quel éditeur Maxime Chattam a-t-il publié 'Les Arcanes du chaos' en 2006 ?",
+      "answer": "Albin Michel",
+      "options": [
+        "Gallimard",
+        "Michel Lafon",
+        "Albin Michel",
+        "France Loisirs"
+      ],
+      "explanation": "'Les Arcanes du chaos' donne un aspect troublant du monde où tout n'est que manipulation, argent et pouvoir.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-87",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_87.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-87-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel domaine Maxime Chattam, auteur de romans policiers, a-t-il suivi une formation ?",
+      "answer": "Criminologie",
+      "options": [
+        "Ébénisterie",
+        "Pâtisserie",
+        "Criminologie",
+        "Œnologie"
+      ],
+      "explanation": "Maxime Chattam a suivi une formation en criminologie pendant un an à l'université de Saint-Denis.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-87",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_87.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-87-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sous quel pseudonyme Maxime Chattam a-t-il publié 'Le Cinquième Règne' en 2003 ?",
+      "answer": "Maxime Williams",
+      "options": [
+        "Michel Honaker",
+        "Michel Bussi",
+        "Maxime Williams",
+        "Michel Averlant"
+      ],
+      "explanation": "Ce roman fantastique, primé au festival de Gérardmer, sera le seul publié sous le pseudonyme de Maxime Williams.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-87",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_87.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-87-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Avec quelle animatrice de télévision Maxime Chattam est-il marié ?",
+      "answer": "Faustine Bollaert",
+      "options": [
+        "Virginie Guilhaume",
+        "Faustine Bollaert",
+        "Laurence Ferrari",
+        "Valérie Damidot"
+      ],
+      "explanation": "Maxime et Faustine sont parents d'une fille, Abbie, née en juillet 2013 et d'un garçon, Peter né en juillet 2015.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-87",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_87.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-87-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le prénom du personnage central du roman 'La Promesse des ténèbres' ?",
+      "answer": "Brady",
+      "options": [
+        "Kevin",
+        "David",
+        "Brady",
+        "Ronald"
+      ],
+      "explanation": "Brady O'Donnel, journaliste, rencontre une femme qui va changer sa vie : à sa poursuite, il va plonger en enfer.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-87",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_87.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-87-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de tomes Maxime Chattam a-t-il prévu pour sa série 'Autre-Monde' ?",
+      "answer": "Sept",
+      "options": [
+        "Quatre",
+        "Cinq",
+        "Six",
+        "Sept"
+      ],
+      "explanation": "Les deux cycles de la série 'Autre-Monde' de Maxime Chattam ont été publiés entre 2008 et 2016.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-87",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_87.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-87-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le véritable prénom de Maxime Chattam, né à Herblay dans le Val-d'Oise ?",
+      "answer": "Maxime",
+      "options": [
+        "Matt",
+        "Tobias",
+        "Maxime",
+        "Marc"
+      ],
+      "explanation": "Maxime Chattam est un romancier français, né le 19 février 1976, spécialisé dans le roman policier.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-87",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_87.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-87-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le titre du cinquième tome de la saga 'Autre-Monde' de Maxime Chattam ?",
+      "answer": "Oz",
+      "options": [
+        "Malronce",
+        "Neverland",
+        "Entropia",
+        "Oz"
+      ],
+      "explanation": "Matt, Tobias et Ambre se voient contraints d'aller chercher le second cœur de la Terre.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-87",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_87.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-87-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel roman les deux héros sont-ils chercheurs mandatés par la Commission Européenne ?",
+      "answer": "La Théorie Gaia",
+      "options": [
+        "Maléfices",
+        "In tenebris",
+        "La Théorie Gaia",
+        "Prédateurs"
+      ],
+      "explanation": "'La Théorie Gaïa' existe également en livre audio, avec Laurent Jacquet pour narrateur.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-87",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_87.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-87-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans 'Le Sang du temps', l'histoire se joue entre le Mont-Saint-Michel et quelle ville ?",
+      "answer": "Le Caire",
+      "options": [
+        "Berlin",
+        "Paris",
+        "Le Caire",
+        "Varsovie"
+      ],
+      "explanation": "L'histoire du livre est partagée entre des personnages évoluant en 1928 et en 2005.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-87",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_87.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-87-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel livre retrouve-t-on pour la deuxième fois le duo Joshua Brolin / Annabel O'Donnel ?",
+      "answer": "Maléfices",
+      "options": [
+        "Malronce",
+        "Entropia",
+        "In tenebris",
+        "Maléfices"
+      ],
+      "explanation": "Maxime Chattam y met en toile de fond l'arachnophobie, visiblement la plus fréquente des phobies.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-87",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_87.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-87-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle histoire racontée par Maxime Chattam se déroule en partie au Mont Saint-Michel ?",
+      "answer": "Le Sang du temps",
+      "options": [
+        "Malronce",
+        "Entropia",
+        "Maléfices",
+        "Le Sang du temps"
+      ],
+      "explanation": "Dans 'Le Sang du temps', on retrouve entre autres la Fraternité abbatiale ainsi que Ludwig, le gardien du Mont.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-87",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_87.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-87-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel livre Yael, héroïne principale, travaille-t-elle dans un magasin de taxidermie ?",
+      "answer": "Les Arcanes du chaos",
+      "options": [
+        "Prédateurs",
+        "Maléfices",
+        "Les Arcanes du chaos",
+        "Malronce"
+      ],
+      "explanation": "Chaque vendredi, un homme achète dans son magasin des paires d'yeux pour les arborer sur son manteau.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-87",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_87.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-87-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "L'enquête de quelle nouvelle de Maxime Chattam se déroule dans un lycée ?",
+      "answer": "Carnages",
+      "options": [
+        "Carnages",
+        "Le Messager",
+        "Maligne",
+        "Gregory Harville"
+      ],
+      "explanation": "Maxime Chattam a déjà publié six nouvelles entre 2001 et 2014, pour certaines disponibles sur le site officiel.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-87",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_87.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-87-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel roman des adolescents auraient-ils mieux fait de ne pas toucher à un ancien grimoire ?",
+      "answer": "Le Cinquième Règne",
+      "options": [
+        "Prédateurs",
+        "La Théorie Gaia",
+        "In tenebris",
+        "Le Cinquième Règne"
+      ],
+      "explanation": "Le roman fantastique 'Le Cinquième Règne' a reçu le prix du roman fantastique du festival de Gérardmer.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-87",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_87.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-87-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle saison le livre 'In Tenebris' de Maxime Chattam représente-t-il ?",
+      "answer": "L'hiver",
+      "options": [
+        "L'automne",
+        "L'été",
+        "Le printemps",
+        "L'hiver"
+      ],
+      "explanation": "L'histoire se déroule en janvier 2002 à New York et dans ses environs, pendant un hiver très enneigé.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-87",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_87.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-87-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel thriller des jumeaux homozygotes corsent-ils l'enquête du héros principal ?",
+      "answer": "L'Âme du mal",
+      "options": [
+        "Entropia",
+        "Malronce",
+        "Maléfices",
+        "L'Âme du mal"
+      ],
+      "explanation": "'L'Âme du mal', publié en 2002, est lauréat du Prix Sang d'encre et fait partie de la 'Trilogie du mal'.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-87",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_87.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-87-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel roman de Maxime Chattam nous projette dans New York en compagnie de Matt et Tobias ?",
+      "answer": "L'Alliance des Trois",
+      "options": [
+        "Maléfices",
+        "L'Alliance des Trois",
+        "Carnages",
+        "Prédateurs"
+      ],
+      "explanation": "Le compositeur français Sébastien Pan a écrit une suite orchestrale de 52 minutes basée sur le roman 'L'Alliance des Trois'.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-87",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_87.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-87-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel roman à suspense l'univers des G.I. n'a-t-il pas échappé à Maxime Chattam ?",
+      "answer": "Prédateurs",
+      "options": [
+        "Prédateurs",
+        "Léviatemps",
+        "Oz",
+        "Carnages"
+      ],
+      "explanation": "Maxime Chattam nous emmène dans une histoire sombre à la poursuite d'un meurtrier aussi pervers qu'intelligent.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-87",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_87.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-87-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel roman de Maxime Chattam a pour héros un écrivain vivant dans le Paris du XXe siècle ?",
+      "answer": "Léviatemps",
+      "options": [
+        "L'Âme du mal",
+        "Neverland",
+        "Oz",
+        "Léviatemps"
+      ],
+      "explanation": "Ce roman constitue le premier volet d'un « Diptyque du temps », dont le deuxième volume est 'Le Requiem des abysses'.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-87",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_87.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-87-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville peut-on suivre l'enquête de Brady O'Donnel dans 'La Promesse des ténèbres' ?",
+      "answer": "New York",
+      "options": [
+        "New York",
+        "Paris",
+        "Berlin",
+        "Dublin"
+      ],
+      "explanation": "'La Promesse des ténèbres' est un préquel de la Trilogie du Mal : 'L'Âme du mal', 'In Tenebris' et 'Maléfices'.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-87",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_87.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-87-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est l'altération de Matt dans la série de romans 'Autre-Monde' ?",
+      "answer": "La force",
+      "options": [
+        "La guérison",
+        "La force",
+        "La vitesse",
+        "La télékinésie"
+      ],
+      "explanation": "Suite à un choc à la tête, Matt Carter est resté dans le coma pendant près de 5 mois.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-87",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_87.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-87-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de nouvelles Maxime Chattam a-t-il publié durant l'année 2001 ?",
+      "answer": "Deux",
+      "options": [
+        "Six",
+        "Huit",
+        "Quatre",
+        "Deux"
+      ],
+      "explanation": "Disponibles sur le site officiel, 'Le Messager' et 'Gregory Harville' ont été écrites en 2001.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-87",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_87.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-87-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces personnages ne retrouve-t-on pas dans 'In Tenebris' de Maxime Chattam ?",
+      "answer": "Guy de Timée",
+      "options": [
+        "Annabel O’Donnel",
+        "Guy de Timée",
+        "Jack Thayer",
+        "Joshua Brolin"
+      ],
+      "explanation": "Un avion explose au-dessus du Colorado en avril 1997, tuant plus de trois cents personnes, dont Harvey Morris, agent du FBI.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-87",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_87.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-87-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle ville de l'Oregon a inspiré Maxime Chattam pour son premier roman ?",
+      "answer": "Portland",
+      "options": [
+        "Hillsboro",
+        "Medford",
+        "Salem",
+        "Portland"
+      ],
+      "explanation": "Au cours de son enfance, Maxime Chattam a fait de fréquents séjours aux États-Unis, dont à Portland.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-87",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_87.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-87-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment appelle-t-on un enfant lié à la nature dans la série 'Autre-Monde' ?",
+      "answer": "Kloropanphyle",
+      "options": [
+        "Kloropanphyle",
+        "Gus",
+        "Raupéroden",
+        "Zélie"
+      ],
+      "explanation": "Les Kloropanphyles sont des Pans qui vivent sur la canopée de la Mer Sèche, une forêt gigantesque.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-87",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_87.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-87-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel acteur de doublage français a suggéré à Maxime Chattam d’écrire pour le théâtre ?",
+      "answer": "Pierre Hatet",
+      "options": [
+        "Xavier Fagnon",
+        "Hervé Grull",
+        "Pierre Hatet",
+        "Philippe Catoire"
+      ],
+      "explanation": "Pratiquant le doublage, Pierre Hatet est notamment connu pour être la voix française de Christopher Lloyd.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-87",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_87.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-87-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle chaîne de magasins a engagé Maxime Chattam en 1999 au rayon « livres policiers » ?",
+      "answer": "Fnac",
+      "options": [
+        "Virgin",
+        "Furet du Nord",
+        "HMV",
+        "Fnac"
+      ],
+      "explanation": "Fin 1999, Maxime Chattam est engagé à la Fnac, ce qui le mettra en contact avec les maisons d'éditions.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-87",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_87.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

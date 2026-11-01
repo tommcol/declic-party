@@ -1,0 +1,774 @@
+{
+  "id": "oq-79",
+  "title": "Culture générale",
+  "originalTitle": "Culture générale",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_79.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    29
+  ],
+  "questions": [
+    {
+      "id": "oqdb-79-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel film à succès a réuni sur les écrans Sean Connery et Christophe Lambert ?",
+      "answer": "Highlander",
+      "options": [
+        "Greystoke",
+        "Subway",
+        "Mad Max",
+        "Highlander"
+      ],
+      "explanation": "'A Kind of Magic' est un album du groupe Queen, sorti en juin 1986, dont six de ses neuf morceaux sont utilisés dans le film 'Highlander'.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-79",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_79.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-79-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel pays, dont les premiers habitants étaient des Newars, a pour capitale Katmandou ?",
+      "answer": "Népal",
+      "options": [
+        "Tibet",
+        "Népal",
+        "Pakistan",
+        "Corée du Nord"
+      ],
+      "explanation": "Katmandou est la capitale politique et religieuse du Népal ainsi que la plus grande ville du pays.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-79",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_79.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-79-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel film John Travolta incarne-t-il un ange tombé du ciel ?",
+      "answer": "Michael",
+      "options": [
+        "Johnny",
+        "Michael",
+        "Sam",
+        "Jerry"
+      ],
+      "explanation": "Deux journalistes enquêtent sur un soi-disant vrai ange vivant chez une dame âgée.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-79",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_79.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-79-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Pour quel auteur-compositeur-interprète français aux 40 millions de disques vendus Capri est-il fini ?",
+      "answer": "Hervé Vilard",
+      "options": [
+        "Charles Aznavour",
+        "Salvatore Adamo",
+        "Serge Lama",
+        "Hervé Vilard"
+      ],
+      "explanation": "Didier Barbelivien, Michel Fugain et Danyel Gérard ont composé pour Hervé Vilard.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-79",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_79.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-79-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel peintre, né en 1844, est également appelé par beaucoup « le Douanier » ?",
+      "answer": "Henri Rousseau",
+      "options": [
+        "Salvador Dali",
+        "Henri Rousseau",
+        "Pablo Picasso",
+        "Edgar Degas"
+      ],
+      "explanation": "Le premier portrait réalisé par le peintre Henri Rousseau semble être celui de sa première femme.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-79",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_79.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-79-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel personnage imaginaire fut popularisé par le roman de E.R. Burroughs et par le cinéma ?",
+      "answer": "Tarzan",
+      "options": [
+        "Nessie",
+        "King-Kong",
+        "Tarzan",
+        "Le Yéti"
+      ],
+      "explanation": "Edgar Rice Burroughs a inspiré bon nombre d'auteurs de science-fiction et de fantastique.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-79",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_79.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-79-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la seule valeur à la roulette à porter la couleur verte ?",
+      "answer": "Le zéro",
+      "options": [
+        "Le quarante",
+        "Le zéro",
+        "Le cinquante",
+        "Le treize"
+      ],
+      "explanation": "À la roulette, chaque joueur mise sur un numéro qu'il espère être tiré.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-79",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_79.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-79-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la race du chien de Columbo, l'inspecteur très obstiné et perspicace de la télévision ?",
+      "answer": "Basset",
+      "options": [
+        "Barbet",
+        "Beagle",
+        "Basset",
+        "Bichon"
+      ],
+      "explanation": "Interrompue en 1978, la série 'Columbo' a été ressuscitée en 1989, toujours avec Peter Falk.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-79",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_79.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-79-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la plus petite unité de mémoire utilisable sur un ordinateur ?",
+      "answer": "Bit",
+      "options": [
+        "Méga",
+        "Bit",
+        "Giga",
+        "Byte"
+      ],
+      "explanation": "La mémoire est un composant matériel essentiel, présent dans tous les ordinateurs et consoles.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-79",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_79.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-79-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans le langage familier, comment appelle-t-on la dent du petit enfant ?",
+      "answer": "Quenotte",
+      "options": [
+        "Bouillotte",
+        "Menotte",
+        "Marmotte",
+        "Quenotte"
+      ],
+      "explanation": "Il est particulièrement important de bien se brosser les dents de manière régulière.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-79",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_79.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-79-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Où se situe la célèbre base navale américaine de Guantanamo, réputée pour sa sévérité ?",
+      "answer": "Cuba",
+      "options": [
+        "Paraguay",
+        "Hawaii",
+        "Cuba",
+        "Mexique"
+      ],
+      "explanation": "La base de Guantanamo détient des personnes et des individus qualifiés de « combattants hors-la-loi ».",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-79",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_79.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-79-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la spécialité du sportif tunisien Oussama Mellouli ?",
+      "answer": "Natation",
+      "options": [
+        "Marathon",
+        "Boxe",
+        "Football",
+        "Natation"
+      ],
+      "explanation": "Oussama Mellouli est le premier champion olympique tunisien du milieu de la natation professionnelle.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-79",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_79.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-79-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel acteur français a remporté le premier rôle dans le film 'Le Guépard' ?",
+      "answer": "Alain Delon",
+      "options": [
+        "Jean-Paul Belmondo",
+        "Alain Delon",
+        "Jean Gabin",
+        "Claude Brasseur"
+      ],
+      "explanation": "Le film 'Le Guépard' décrit la chute de l'aristocratie italienne, dont la scène du bal donne la clé.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-79",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_79.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-79-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui était le compagnon de Paul de Tarse, désigné aussi sous le nom de saint Paul ?",
+      "answer": "Saint Luc",
+      "options": [
+        "Saint Marc",
+        "Saint Matthieu",
+        "Saint Luc",
+        "Saint Jean"
+      ],
+      "explanation": "Sans faire partie des « Douze », Saint Paul a marqué le christianisme par son interprétation de l'enseignement de Jésus.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-79",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_79.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-79-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel titre de noblesse est immédiatement inférieur à celui de comte ?",
+      "answer": "Vicomte",
+      "options": [
+        "Duc",
+        "Vicomte",
+        "Archiduc",
+        "Marquis"
+      ],
+      "explanation": "« Vicomte » est une distinction héréditaire à laquelle ne sont attachés aucuns pouvoirs.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-79",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_79.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-79-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la capitale de la Nouvelle-Zélande, pays d'Océanie au sud-ouest de l'océan Pacifique ?",
+      "answer": "Wellington",
+      "options": [
+        "Wellington",
+        "Auckland",
+        "Dublin",
+        "Sydney"
+      ],
+      "explanation": "Troisième ville la plus peuplée du pays, Wellington fait partie des douze meilleures villes dans laquelle vivre.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-79",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_79.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-79-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel film a réuni sur les écrans Isabelle Adjani et Sharon Stone ?",
+      "answer": "Diabolique",
+      "options": [
+        "Les sorcières",
+        "Ange et Démon",
+        "Les ensorceleuses",
+        "Diabolique"
+      ],
+      "explanation": "La femme et la maîtresse d'un professeur s'associent pour planifier son assassinat.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-79",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_79.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-79-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment est également appelée la 'Transat Jacques Vabre' ?",
+      "answer": "Route du café",
+      "options": [
+        "Route du rhum",
+        "Route du café",
+        "Vendée Globe",
+        "Trophée du rhum"
+      ],
+      "explanation": "La Transat Jacques Vabre, course transatlantique en double, se déroule tous les deux ans depuis 1993.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-79",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_79.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-79-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel oiseau vivant dans l'hémisphère nord nage le plus vite ?",
+      "answer": "Pingouin",
+      "options": [
+        "Pie",
+        "Martinet",
+        "Pingouin",
+        "Bécassine"
+      ],
+      "explanation": "Par abus de langage, le pingouin est souvent confondu avec le manchot, de par sa ressemblance avec le Grand Pingouin.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-79",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_79.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-79-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la plus grosse des planètes de notre Système solaire ?",
+      "answer": "Jupiter",
+      "options": [
+        "Neptune",
+        "Jupiter",
+        "Saturne",
+        "Uranus"
+      ],
+      "explanation": "Jupiter est une planète géante gazeuse, la plus grosse planète du Système solaire.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-79",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_79.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-79-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Apparu il y a 450 millions d'années, à quelle classe animale le scorpion appartient-il ?",
+      "answer": "Arachnides",
+      "options": [
+        "Mammifères",
+        "Reptiles",
+        "Insectes",
+        "Arachnides"
+      ],
+      "explanation": "Les scorpions se distinguent des araignées par un aiguillon venimeux situé au bout de leur abdomen.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-79",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_79.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-79-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel frère d'une actrice prénommée Mary a réalisé le film 'La fièvre du samedi soir' ?",
+      "answer": "John Badham",
+      "options": [
+        "John Remezick",
+        "John Badham",
+        "John Payne",
+        "John Travolta"
+      ],
+      "explanation": "'La fièvre du samedi soir' fut un des principaux vecteurs de diffusion de la musique et de la mode disco.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-79",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_79.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-79-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Au Moyen Âge, comment appelait-on un village fortifié ?",
+      "answer": "Bastide",
+      "options": [
+        "Château fort",
+        "Rempart",
+        "Bastide",
+        "Tour"
+      ],
+      "explanation": "Les bastides les plus connues sont celles de Monflanquin, Monpazier, Grenade ou bien encore Libourne.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-79",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_79.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-79-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle ville du Kent est célèbre pour sa source miraculeuse ?",
+      "answer": "Tunbridge Wells",
+      "options": [
+        "Gillingham",
+        "Tunbridge Wells",
+        "Dartford",
+        "Ramsgate"
+      ],
+      "explanation": "De nombreuses personnes célèbres sont venues en cure à Tunbridge Wells, comme la reine Victoria.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-79",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_79.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-79-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel apéritif à base de vin est aromatisé avec des plantes amères et toniques ?",
+      "answer": "Vermouth",
+      "options": [
+        "Gentiane",
+        "Kokebok",
+        "Vermouth",
+        "Piccolo"
+      ],
+      "explanation": "Du plus sec au plus doux, on trouve le vermouth sec, le blanc, le rosé et le rouge.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-79",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_79.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-79-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quel écrivain, membre de l'Académie française, doit-on le roman intitulé 'Le sagouin' ?",
+      "answer": "Mauriac",
+      "options": [
+        "Barjavel",
+        "Mauriac",
+        "Camus",
+        "Giono"
+      ],
+      "explanation": "Dans ce roman en quatre parties, on peut supposer que l'action se passe vers 1920.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-79",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_79.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-79-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel président Français trouva la mort dans une situation « inhabituelle » ?",
+      "answer": "Félix Faure",
+      "options": [
+        "Georges Pompidou",
+        "René Coty",
+        "Félix Faure",
+        "Raymond Poincaré"
+      ],
+      "explanation": "On a dit de Félix Faure qu'il était plus célèbre par sa mort que par sa vie.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-79",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_79.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-79-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment appelle-t-on le versant de la montagne non situé au soleil ?",
+      "answer": "Ubac",
+      "options": [
+        "Ressac",
+        "Étant",
+        "Adret",
+        "Ubac"
+      ],
+      "explanation": "Dans l'hémisphère Nord, l'ubac est généralement la face Nord d'une montagne.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-79",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_79.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-79-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Un bédane, qui doit son nom à sa ressemblance avec un bec de canard, est un outil proche du...",
+      "answer": "Ciseau à bois",
+      "options": [
+        "Vilebrequin",
+        "Ciseau à bois",
+        "Maillet",
+        "Rabot"
+      ],
+      "explanation": "Le bédane est un outil parfois utilisé pour réaliser des pièces en bois tournées entre pointes.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-79",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_79.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

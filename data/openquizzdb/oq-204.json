@@ -1,0 +1,749 @@
+{
+  "id": "oq-204",
+  "title": "PlayStation 2",
+  "originalTitle": "PlayStation 2 (Console de légende)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_204.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    12,
+    13
+  ],
+  "questions": [
+    {
+      "id": "oqdb-204-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle société a commercialisé la console de jeux PlayStation 2 ?",
+      "answer": "Sony",
+      "options": [
+        "Microsoft",
+        "Nintendo",
+        "Sony",
+        "Sega"
+      ],
+      "explanation": "Sony Interactive Entertainment est une filiale de Sony spécialisée dans l'industrie vidéoludique, basée à San Mateo.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-204",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_204.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-204-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année la console de jeux PlayStation 2 fut-elle commercialisée en France ?",
+      "answer": "2000",
+      "options": [
+        "2002",
+        "2004",
+        "2006",
+        "2000"
+      ],
+      "explanation": "La console était alors en concurrence directe avec la Dreamcast de Sega, la GameCube de Nintendo et la Xbox de Microsoft.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-204",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_204.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-204-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle génération de l'histoire des consoles de la marque Sony se situe la PS2 ?",
+      "answer": "Sixième",
+      "options": [
+        "Quatrième",
+        "Sixième",
+        "Troisième",
+        "Cinquième"
+      ],
+      "explanation": "Cette génération a commencé en 1998 et s'est terminée en janvier 2013 avec l'arrêt de la distribution de la PlayStation 2.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-204",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_204.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-204-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quelle autre console de Sony la PlayStation 2 a-t-elle succédé ?",
+      "answer": "PlayStation",
+      "options": [
+        "Mega Drive",
+        "Saturn",
+        "PlayStation",
+        "Neo-Geo"
+      ],
+      "explanation": "Le 18 mai 2004, soit près de dix ans après son lancement, Sony annonce avoir distribué 100 millions de PlayStation dans le monde.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-204",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_204.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-204-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À sa sortie, quel média la PlayStation 2 pouvait-elle lire de manière innovante ?",
+      "answer": "DVD",
+      "options": [
+        "Blue-ray",
+        "Midi Disc",
+        "DVD",
+        "Optical disc"
+      ],
+      "explanation": "À cette époque, inclure de série la lecture des DVD (format alors tout récent) dans ce type d'appareil était une innovation importante.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-204",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_204.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-204-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle variante esthétique de la PlayStation 2 est sortie en 2004 ?",
+      "answer": "PS2 Slim",
+      "options": [
+        "PS2 Fat",
+        "PS2 Slim",
+        "PS2 Grid",
+        "PS2 Boy"
+      ],
+      "explanation": "Ce nouveau modèle à la silhouette affinée fut introduit le 1er novembre 2004 en Amérique du Nord et en Europe.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-204",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_204.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-204-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle saga fut la plus vendue parmi les jeux vidéos disponibles sur la PS2 ?",
+      "answer": "Gran Theft Auto",
+      "options": [
+        "Dragon Quest",
+        "God of War",
+        "Gran Theft Auto",
+        "Final Fantasy"
+      ],
+      "explanation": "En raison de son contenu violent et de la présence d'un mini-jeu sexuel, le jeu a été interdit aux moins de 18 ans.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-204",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_204.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-204-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment était qualifiée la PS2, acceptant les jeux PlayStation ?",
+      "answer": "Rétrocompatible",
+      "options": [
+        "Ascensionnelle",
+        "Rétrocompatible",
+        "Admissive",
+        "Autopilotée"
+      ],
+      "explanation": "Les problèmes de compatibilité sont fréquents en informatique en raison de la rapidité de l'évolution du matériel et des logiciels.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-204",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_204.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-204-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle manette de jeu officielle reprenait l'apparence de la DualShock ?",
+      "answer": "DualShock 2",
+      "options": [
+        "Wavebird",
+        "Kinect",
+        "DualShock 2",
+        "Bongo DK"
+      ],
+      "explanation": "Les boutons sont devenus analogiques (sauf L3, R3 et Analog) et la manette produisait deux niveaux de vibrations supplémentaires.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-204",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_204.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-204-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quels micros pouvait-on connecter à la PS2 pour la transformer en dispositif de karaoké ?",
+      "answer": "SingStar",
+      "options": [
+        "SingStar",
+        "KaraMic",
+        "Kinec",
+        "DualShock"
+      ],
+      "explanation": "« SingStar » est une série de jeux vidéo de karaoké développée par SCE London Studio et éditée par Sony Computer Entertainment.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-204",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_204.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-204-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Avec quelle console de Sega la PlayStation 2 était-elle en concurrence directe ?",
+      "answer": "Dreamcast",
+      "options": [
+        "Xbox",
+        "Saturn",
+        "GameCube",
+        "Dreamcast"
+      ],
+      "explanation": "Successeur de la Saturn, la Dreamcast était la première console de sixième génération présente sur le marché, avant ses concurrents.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-204",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_204.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-204-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel était le prix de lancement de la PlayStation 2 en France ?",
+      "answer": "450 ",
+      "options": [
+        "620 ",
+        "740 ",
+        "560 ",
+        "450 "
+      ],
+      "explanation": "Le prix de la console fut ramené à 300 en 2001, à 249 en 2003, à 199 en 2004, à 149 en 2005, à 129 en 2006 et à 99 en 2009.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-204",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_204.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-204-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de jeux étaient disponibles à la sortie de la PS2 au Japon ?",
+      "answer": "Dix",
+      "options": [
+        "Trente",
+        "Dix",
+        "Vingt",
+        "Quarante"
+      ],
+      "explanation": "Parmi ces jeux, on note « Dead or Alive 2 », « Dynasty Warriors 2 », « FIFA 2001 », « Kessen », « Madden NFL 2001 », « Midnight Club » et « Ridge Racer V ».",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-204",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_204.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-204-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année la production de PS2 fut-elle arrêtée dans le monde ?",
+      "answer": "2013",
+      "options": [
+        "2015",
+        "2016",
+        "2014",
+        "2013"
+      ],
+      "explanation": "La production de la console fut arrêtée le 30 novembre 2012 et Sony annonça cesser toute distribution sur le territoire japonais dès 2013.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-204",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_204.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-204-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de processeurs principaux comprenait la PlayStation 2 ?",
+      "answer": "Trois",
+      "options": [
+        "Deux",
+        "Cinq",
+        "Trois",
+        "Quatre"
+      ],
+      "explanation": "La PlayStation 2 présentait de nombreux processeurs à utiliser en parallèle, ce qui en faisait une console plutôt difficile à programmer.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-204",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_204.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-204-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment furent appelées les versions dites éditeur des jeux PS2 ?",
+      "answer": "Blue Disc",
+      "options": [
+        "Spare Disc",
+        "Blue Disc",
+        "Ed Disc",
+        "Go Disc"
+      ],
+      "explanation": "Ces versions particulières des jeux PS2 étaient réservées aux professionnels et notamment aux démonstrations en magasin.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-204",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_204.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-204-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel système d'exploitation pouvait être installé sur la PS2 ?",
+      "answer": "Linux",
+      "options": [
+        "Windows",
+        "Android",
+        "Mac OS",
+        "Linux"
+      ],
+      "explanation": "Sony a lancé un kit comprenant un disque dur de 20 Go, une souris, un clavier, une carte ethernet, deux DVD et une distribution Linux.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-204",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_204.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-204-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel était le poids allégé du modèle Slim de la PlayStation 2 ?",
+      "answer": "900 g",
+      "options": [
+        "1 500 g",
+        "600 g",
+        "1 200 g",
+        "900 g"
+      ],
+      "explanation": "Cette modification est associée à l'externalisation du boîtier d'alimentation et la suppression du bouton ON/OFF à l'arrière.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-204",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_204.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-204-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel fut le premier titre de « FIFA » à ne pas sortir sur PlayStation ?",
+      "answer": "FIFA 06",
+      "options": [
+        "FIFA 08",
+        "FIFA 09",
+        "FIFA 07",
+        "FIFA 06"
+      ],
+      "explanation": "Le jeu fut disponible sur PlayStation 2, Xbox, GameCube, Microsoft Windows, Game Boy Advance, Nintendo DS et PlayStation Portable.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-204",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_204.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-204-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle technologie intégrait la Memory Card de 8 MB destinée à la PS2 ?",
+      "answer": "MagicGate",
+      "options": [
+        "Denuvo",
+        "CGMS",
+        "Viaccess",
+        "MagicGate"
+      ],
+      "explanation": "MagicGate est un système de protection créé et introduit en 1999 par Sony dans ses cartes mémoires, en particulier ses Memory Stick.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-204",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_204.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-204-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle était la capacité de la mémoire interne de la PlayStation 2 ?",
+      "answer": "32 Mo",
+      "options": [
+        "8 Mo",
+        "4 Mo",
+        "32 Mo",
+        "16 Mo"
+      ],
+      "explanation": "La technologie avancée pour l'époque de la PlayStation 2 a permis à Sony de pouvoir écouler un peu moins de 2 milliards de jeux.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-204",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_204.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-204-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel ingénieur japonais a mené à bien le développement de la PlayStation 2 ?",
+      "answer": "Ken Kutaragi",
+      "options": [
+        "Hiromu Naruse",
+        "Ken Kutaragi",
+        "Yamao Yozo",
+        "Hideo Shima"
+      ],
+      "explanation": "Il a ouvert le studio Cellius, filiale à 51 % de Namco Bandai et 49 % de Sony, dont les activités sont centrées autour du processeur Cell.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-204",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_204.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-204-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel jeu de tir édité par Konami est sorti en 2000 sur PS2 ?",
+      "answer": "Silent Scope",
+      "options": [
+        "Silent Scope",
+        "Frogger",
+        "Parodius",
+        "Castlevania"
+      ],
+      "explanation": "Se jouant avec un fusil en arcade, les versions consoles étaient dépourvues d'un tel accessoire, ce qui en réduira l'intérêt.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-204",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_204.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-204-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel nom portait le processeur central de la PlayStation 2 de Sony ?",
+      "answer": "Emotion Engine",
+      "options": [
+        "I/O Processor",
+        "Emotion Engine",
+        "Mach Device",
+        "Graphics Synthetizer"
+      ],
+      "explanation": "Il contient plusieurs sous-processeurs et circuits spécialisés qui sont reliés par un bus interne de 128 bits, cadencé à 150 Mhz.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-204",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_204.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-204-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de polygones nus la PS2 pouvait-elle calculer par seconde ?",
+      "answer": "66 000 000",
+      "options": [
+        "40 000",
+        "7 000",
+        "66 000 000",
+        "800"
+      ],
+      "explanation": "Le FPU et les unités de calcul vectoriel 128 bits VU0 et VU1 permettaient à la console d'atteindre 6,2 GFLOPS.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-204",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_204.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-204-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle station multimédia fut lancée par Sony au Japon en 2003 ?",
+      "answer": "PSX",
+      "options": [
+        "PSX",
+        "PSG",
+        "PSM",
+        "PSR"
+      ],
+      "explanation": "Elle faisait office de console de jeu PlayStation et PlayStation 2, de graveur DVD, de tuner Télé et de numériscope via son disque dur.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-204",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_204.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-204-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle petite caméra adaptable pour la PS2 fut développée par Sony ?",
+      "answer": "EyeToy",
+      "options": [
+        "EyeToy",
+        "SmallCam",
+        "FunPlay",
+        "Kinect"
+      ],
+      "explanation": "L'EyeToy était principalement fabriquée par Logitech, même si de nouvelles versions furent développées par la suite par Nam Tai.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-204",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_204.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-204-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle saga utilise-t-on un appareil photo aux pouvoirs mystiques ?",
+      "answer": "Project Zero",
+      "options": [
+        "Forbidden Siren",
+        "BioShock",
+        "Dead Rising",
+        "Project Zero"
+      ],
+      "explanation": "Un des meilleurs jeux d'horreur, ou le meilleur ? Quoi qu'il en soit, il est très effrayant, même si vous jouez à la lumière du jour.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-204",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_204.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

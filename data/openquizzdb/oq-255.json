@@ -1,0 +1,798 @@
+{
+  "id": "oq-255",
+  "title": "Mont Saint-Michel",
+  "originalTitle": "Mont Saint-Michel (Le rocher insulaire)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_255.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-255-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Le mont Saint-Michel est situé à l'est de l'embouchure de quel fleuve ?",
+      "answer": "Couesnon",
+      "options": [
+        "Hérault",
+        "Rance",
+        "Couesnon",
+        "Vire"
+      ],
+      "explanation": "Le Couesnon est un petit fleuve côtier français qui coule dans les trois départements d'Ille-et-Vilaine, de la Manche et de la Mayenne.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-255",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_255.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-255-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quelle créature abrahamique le mont Saint-Michel doit-il son nom ?",
+      "answer": "Archange",
+      "options": [
+        "Archange",
+        "Gargouille",
+        "Léviathan",
+        "Séraphin"
+      ],
+      "explanation": "Michel est un des sept archanges majeurs (avec Gabriel et Raphaël) des religions abrahamiques (judaïsme, christianisme, et islam).",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-255",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_255.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-255-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel bâtiment fait partie des premiers sites culturels visités en France ?",
+      "answer": "Abbaye",
+      "options": [
+        "Église",
+        "Temple",
+        "Monastère",
+        "Abbaye"
+      ],
+      "explanation": "Au XIIe siècle, les bénédictins du Mont-Saint-Michel auraient eu une grande influence sur le développement intellectuel de l'Europe.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-255",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_255.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-255-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel personnage emblématique du mont Saint-Michel cuisine des omelettes ?",
+      "answer": "Mère Poulard",
+      "options": [
+        "Mère Michel",
+        "Mère Poulard",
+        "Mère Maury",
+        "Mère Denis"
+      ],
+      "explanation": "Anne Boutiaut, surnommée la mère Poulard, était une cuisinière française née à Nevers et morte en 1931 au mont Saint-Michel.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-255",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_255.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-255-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel agneau est à déguster de préférence grillé au feu de bois ?",
+      "answer": "De pré salé",
+      "options": [
+        "De pré salé",
+        "Lincoln",
+        "Cheviot",
+        "Romanov"
+      ],
+      "explanation": "La particularité de cette viande est d'être obtenue par l'exploitation herbagère de prés salés grâce à la conduite pastorale de troupeaux.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-255",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_255.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-255-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle spécialité soufflée du mont Saint-Michel est cuite à feu vif ?",
+      "answer": "Omelette",
+      "options": [
+        "Galinette",
+        "Cacahuète",
+        "Omelette",
+        "Courgette"
+      ],
+      "explanation": "La mère Poulard développa cette recette après avoir remarqué que les pèlerins arrivaient affamés au Mont Saint-Michel.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-255",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_255.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-255-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de places de stationnement ont été aménagées dans le nouveau parking ?",
+      "answer": "4 000",
+      "options": [
+        "1 000",
+        "3 000",
+        "4 000",
+        "2 000"
+      ],
+      "explanation": "Construit au sud du barrage de la Caserne sur le Couesnon, à 2 500 mètres du mont, le parking possède 45 000 arbres et arbustes.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-255",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_255.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-255-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel célèbre roman de Dan Brown fait référence au mont Saint-Michel ?",
+      "answer": "Da Vinci Code",
+      "options": [
+        "Origine",
+        "Da Vinci Code",
+        "Anges et Démons",
+        "Inferno"
+      ],
+      "explanation": "Les thèses du roman sont largement inspirées par « L'Énigme sacrée », un essai publié en 1982 par trois journalistes britanniques.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-255",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_255.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-255-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel phénomène est dû au fait que la baie du mont soit pratiquement plate ?",
+      "answer": "Sables mouvants",
+      "options": [
+        "Sol argileux",
+        "Tempête de sable",
+        "Talus",
+        "Sables mouvants"
+      ],
+      "explanation": "Contrairement à une idée répandue, un corps pris dans un sable mouvant n'est pas aspiré par le fond mais flotte deux fois mieux.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-255",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_255.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-255-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel coquillage du mont Saint-Michel représente un quart de la production française ?",
+      "answer": "Moule de bouchot",
+      "options": [
+        "Saint-Jacques",
+        "Palourde",
+        "Moule de bouchot",
+        "Praire"
+      ],
+      "explanation": "Au total, la production annuelle de moules de bouchot et des huîtres du Mont-Saint-Michel s'élève à pas moins de 25 000 tonnes.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-255",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_255.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-255-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la circonférence approximative de l'îlot rocheux granitique ?",
+      "answer": "960 mètres",
+      "options": [
+        "860 mètres",
+        "760 mètres",
+        "960 mètres",
+        "660 mètres"
+      ],
+      "explanation": "Le mont Saint-Michel est un îlot rocheux situé à l'est de l'embouchure du fleuve du Couesnon, dans la Manche.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-255",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_255.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-255-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À qui doit-on le thriller « Le Sang du temps » qui se déroule au mont Saint-Michel ?",
+      "answer": "Maxime Chattam",
+      "options": [
+        "Antoine Chainas",
+        "Maxime Chattam",
+        "Bertrand Chéron",
+        "René Charvin"
+      ],
+      "explanation": "« Le Sang du temps » est un roman policier écrit par Maxime Chattam, publié en France aux éditions Michel Lafon en 2005.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-255",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_255.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-255-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment le mont Saint-Michel était-il connu avant l'année 709 ?",
+      "answer": "Mont Tombe",
+      "options": [
+        "Île du Large",
+        "Mont Tombe",
+        "Île Pelée",
+        "Tombelaine"
+      ],
+      "explanation": "Le nouveau nom complet, choisi par Charlemagne pour protéger son empire au IXe siècle, était Mont-Saint-Michel-au-péril-de-la-Mer.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-255",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_255.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-255-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel pourcentage des touristes du mont Saint-Michel montent jusqu'à l'abbaye ?",
+      "answer": "33 %",
+      "options": [
+        "44 %",
+        "22 %",
+        "55 %",
+        "33 %"
+      ],
+      "explanation": "Avec un temps de visite de 3 heures, c'est entre 11h et 16h que la densité de visiteurs sur le site est la plus forte.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-255",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_255.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-255-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel film de Michael Bay a été partiellement tourné au mont Saint-Michel ?",
+      "answer": "Armageddon",
+      "options": [
+        "Six Underground",
+        "13 Hours",
+        "No Pain No Gain",
+        "Armageddon"
+      ],
+      "explanation": "La même année (1998) est sorti « Deep Impact », un autre film avec la même trame de scénario, axée sur le côté humain.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-255",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_255.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-255-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle digue séparait la baie du mont Saint-Michel des marais de Dol ?",
+      "answer": "Digue de Bretagne",
+      "options": [
+        "Digue de Richelieu",
+        "Digue aux Cygnes",
+        "Digue de Wadrinau",
+        "Digue de Bretagne"
+      ],
+      "explanation": "La digue s'étendait sur une trentaine de kilomètres de la pointe de Château-Richeux jusqu'au petit massif de Saint-Broladre à l'est.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-255",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_255.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-255-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Pendant combien de jours par an le mont Saint-Michel est-il entouré d'eau ?",
+      "answer": "53 jours",
+      "options": [
+        "67 jours",
+        "53 jours",
+        "42 jours",
+        "79 jours"
+      ],
+      "explanation": "Spectacle impressionnant, le Mont-Saint-Michel n'est entouré d'eau et ne redevient une île qu'aux grandes marées d'équinoxe.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-255",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_255.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-255-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle plante se trouve principalement sur les herbus qui entourent le mont ?",
+      "answer": "Salicorne",
+      "options": [
+        "Sauge",
+        "Salicorne",
+        "Sagine",
+        "Santal"
+      ],
+      "explanation": "Les salicornes sont des plantes annuelles, basses, charnues, qui croissent sur des sols riches en sel marin (chlorure de sodium).",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-255",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_255.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-255-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle pêche consiste à tendre des filets sur les grèves et à les manoeuvrer ?",
+      "answer": "Pêche à pied",
+      "options": [
+        "Pêche à pied",
+        "Pêche profonde",
+        "Pêche au carrelet",
+        "Pêche au chalut"
+      ],
+      "explanation": "Du fait des conditions de pêche, les grandes marées sont très favorables à cette activité, avec une forte population de crustacés.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-255",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_255.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-255-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quelle hauteur culmine au-dessus du rivage la statue de saint Michel ?",
+      "answer": "150 mètres",
+      "options": [
+        "150 mètres",
+        "210 mètres",
+        "120 mètres",
+        "180 mètres"
+      ],
+      "explanation": "Élément majeur, l'abbaye, ses dépendances et sa statue sont classés au titre des monuments historiques par la liste de 1862.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-255",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_255.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-255-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a composé un album entièrement consacré aux légendes du mont Saint-Michel ?",
+      "answer": "Patrick Broguière",
+      "options": [
+        "Grégoire Vallette",
+        "Manuel Dubigeon",
+        "Jérôme Wolff",
+        "Patrick Broguière"
+      ],
+      "explanation": "L'album « Mont Saint-Michel », inspiré par les contes et légendes du mont Saint-Michel, comprend un livret de 20 pages couleur.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-255",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_255.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-255-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel phénomène permet à une grande partie de la baie d'être découverte ?",
+      "answer": "Marnage",
+      "options": [
+        "Marnage",
+        "Altimétrie",
+        "Halocline",
+        "Tourbillon"
+      ],
+      "explanation": "Le marnage est, pour un jour donné, la différence de hauteur d'eau entre le niveau de la pleine mer et celui de la basse mer.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-255",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_255.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-255-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle voiture transportait autrefois les visiteurs du Mont Saint-Michel ?",
+      "answer": "Maringotte",
+      "options": [
+        "Vinaigrette",
+        "Maringotte",
+        "Gyrobus",
+        "Podoscaphe"
+      ],
+      "explanation": "La maringotte est une voiture hippomobile à deux roues, suspendue sur des ressorts à pincettes, avec des bancs mobiles.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-255",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_255.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-255-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel architecte a créé les nouveaux ouvrages d'accès disponibles depuis 2014 ?",
+      "answer": "Dietmar Feichtinger",
+      "options": [
+        "Christopher Alexander",
+        "Artur Berger",
+        "Richard Neutra",
+        "Dietmar Feichtinger"
+      ],
+      "explanation": "La passerelle sur pilotis, élaborée en 2002, est ouverte aux piétons depuis juillet 2014 et aux navettes depuis décembre 2014.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-255",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_255.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-255-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de visiteurs se rendent en moyenne chaque jour au mont Saint-Michel ?",
+      "answer": "12 000",
+      "options": [
+        "15 000",
+        "9 000",
+        "6 000",
+        "12 000"
+      ],
+      "explanation": "Des pics dépassent les 16 000 visiteurs par jour, avec un flux moins dense au fur et à mesure de l'ascension vers l'abbaye.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-255",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_255.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-255-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel grand bâtisseur et historien fut le seizième abbé du mont Saint-Michel ?",
+      "answer": "Robert de Torigni",
+      "options": [
+        "Gilbert de Mons",
+        "Robert de Torigni",
+        "Bernat Desclot",
+        "Geoffroi Malaterra"
+      ],
+      "explanation": "Il y réalisera d'importants travaux en édifiant les deux tours occidentales et le bâtiment (hôtellerie et infirmerie).",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-255",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_255.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-255-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel prisonnier du mont Saint-Michel fut surnommé « l'Enfermé » ?",
+      "answer": "Auguste Blanqui",
+      "options": [
+        "Auguste Blanqui",
+        "Jules Senard",
+        "Joseph Sobrier",
+        "Antoine Fombertaux"
+      ],
+      "explanation": "En 1880, Auguste Blanqui a publié le journal « Ni Dieu ni maître » dont le titre est devenu une référence pour le mouvement anarchiste.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-255",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_255.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-255-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel album de Mike Oldfied un des titres est consacré au mont Saint-Michel ?",
+      "answer": "Voyager",
+      "options": [
+        "Discovery",
+        "Crises",
+        "Voyager",
+        "Amarok"
+      ],
+      "explanation": "L'album contient cinq reprises de traditionnels celtiques, une reprise de galicien Luar na Lubre et quatre compositions originales.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-255",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_255.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-255-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année un timbre de trois francs français représentait-il le mont Saint-Michel ?",
+      "answer": "1998",
+      "options": [
+        "1968",
+        "1978",
+        "1998",
+        "1988"
+      ],
+      "explanation": "En 1998, un nouveau timbre de 3 francs français, avec son aspect multicolore, sera élu à l'unanimité plus beau timbre de l'année.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-255",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_255.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-255-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel musée des manuscrits du Mont Saint-Michel est installé à Avranches ?",
+      "answer": "Scriptorial",
+      "options": [
+        "Scriptorial",
+        "Maison de la Baie",
+        "Granit",
+        "Richard-Anacréon"
+      ],
+      "explanation": "Ouvert en 2006, son objectif est de faire découvrir l'exceptionnelle collection des manuscrits de l'ancienne abbaye du mont.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-255",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_255.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

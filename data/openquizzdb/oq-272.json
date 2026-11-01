@@ -1,0 +1,749 @@
+{
+  "id": "oq-272",
+  "title": "Foot 1990-2000",
+  "originalTitle": "Foot 1990-2000 (Du Ballon d'or au Soulier d'ébène)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_272.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    2,
+    7
+  ],
+  "questions": [
+    {
+      "id": "oqdb-272-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces attaquants ne fut pas emmené par Aimé Jacquet à l'Euro 1996 ?",
+      "answer": "Anelka",
+      "options": [
+        "Loko",
+        "Anelka",
+        "Djorkaeff",
+        "Dugarry"
+      ],
+      "explanation": "Cette édition, organisée par l'Angleterre entre le 8 juin et le 30 juin 1996, fut la première à être disputée par seize nations.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-272",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_272.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-272-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel Ballon d'or africain de 1998 portait un bouc à l'apparence très particulière ?",
+      "answer": "Mustapha Hadji",
+      "options": [
+        "Nwankwo Kanu",
+        "George Weah",
+        "Mustapha Hadji",
+        "Victor Ikbepa"
+      ],
+      "explanation": "Ancien milieu de terrain de l'équipe du Maroc de football, Hadji fut international marocain de 1993 à 2002 avec 12 buts marqués.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-272",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_272.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-272-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À qui parlait Jean-Michel Larqué avec son désormais légendaire « Tout à fait Thierry » ?",
+      "answer": "Thierry Roland",
+      "options": [
+        "Thierry Roland",
+        "Thierry Cazeneuve",
+        "Thierry Gilardi",
+        "Thierry Henry"
+      ],
+      "explanation": "Thierry Roland a commenté durant sa carrière 13 coupes du monde, 9 championnats d'Europe et 1 360 matchs de football.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-272",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_272.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-272-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a disputé son dernier match avec les Bleus en même temps que Jean-Pierre Papin ?",
+      "answer": "Éric Cantona",
+      "options": [
+        "Éric Cantona",
+        "Laurent Blanc",
+        "Franck Silvestre",
+        "Basile Boli"
+      ],
+      "explanation": "Ses frasques, colères et son caractère imprévisible sur et en dehors du terrain font d'Éric Cantona un acteur incontournable des médias.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-272",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_272.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-272-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a eu le tendon du genou broyé durant la finale Bordeaux-Bayern en 1996 ?",
+      "answer": "Bixente Lizarazu",
+      "options": [
+        "Marcel Desailly",
+        "Lilian Thuram",
+        "Bixente Lizarazu",
+        "Christophe Dugarry"
+      ],
+      "explanation": "Pour la finale contre le Bayern Munich, son dernier match avec les Girondins, Lizarazu sort après un tacle dangereux d'Emil Kostadinov.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-272",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_272.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-272-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lesquels de ces deux gardiens de but ont été contrôlés positifs au cannabis ?",
+      "answer": "Barthez et Lama",
+      "options": [
+        "Barthez et Lama",
+        "Audard et Nardi",
+        "Rust et Porato",
+        "Janin et Luzi"
+      ],
+      "explanation": "Contrôlé positif au cannabis au terme d'un Nantes-Monaco, Fabien Barthez sera suspendu pour quatre mois en janvier 1996.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-272",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_272.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-272-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a pris en 1997 le numéro 9 au joueur Ivan Zamorano de l'Inter de Milan ?",
+      "answer": "Ronaldo",
+      "options": [
+        "Ronaldo",
+        "Rivaldo",
+        "Klose",
+        "Rossi"
+      ],
+      "explanation": "Meilleur buteur lors de la Coupe du monde 2002 avec huit buts, il est le meilleur joueur de la finale durant laquelle il inscrit un doublé.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-272",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_272.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-272-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel trophée récompense le meilleur footballeur africain évoluant en Belgique ?",
+      "answer": "Soulier d'ébène",
+      "options": [
+        "Soulier d'argent",
+        "Soulier d'or",
+        "Soulier d'ébène",
+        "Soulier de bronze"
+      ],
+      "explanation": "Cette récompense, dont le jury comprend le sélectionneur national, a été créée en 1992 par l'asbl African Culture Promotion.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-272",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_272.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-272-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En 1994, quel groupe a rendu hommage au foot avec sa chanson « Santa Maradona » ?",
+      "answer": "Mano Negra",
+      "options": [
+        "Mano Negra",
+        "Bérurier noir",
+        "Les Sheriff",
+        "Noir Désir"
+      ],
+      "explanation": "Cette chanson, sortie en 1994 par le groupe Mano Negra sur l'album « Casa Babylon », est plutôt moqueuse envers le football.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-272",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_272.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-272-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel pays a remporté la médaille d'or aux Jeux olympiques de Barcelone de 1992 ?",
+      "answer": "Espagne",
+      "options": [
+        "Portugal",
+        "Italie",
+        "Espagne",
+        "France"
+      ],
+      "explanation": "Les matchs furent joués dans cinq stades de cinq grandes villes espagnoles, avec une compétition exclusivement masculine.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-272",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_272.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-272-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Contre qui Doc Gynéco marque-t-il des buts dans le clip de « Passement de jambes » ?",
+      "answer": "Dino Zoff",
+      "options": [
+        "Alberto Fontana",
+        "Giuseppe Casari",
+        "Luigi Sepe",
+        "Dino Zoff"
+      ],
+      "explanation": "« Passement de jambes » est extrait de « Première consultation », premier album de Doc Gynéco, sorti le 15 avril 1996.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-272",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_272.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-272-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel pays a remporté la médaille d'or masculine aux JO d'Atlanta de 1996 ?",
+      "answer": "Nigéria",
+      "options": [
+        "Nigéria",
+        "Norvège",
+        "Chine",
+        "Brésil"
+      ],
+      "explanation": "Pour la première fois, les équipes féminines participent aux JO en football, et contrairement aux hommes, sans restriction d'âges.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-272",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_272.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-272-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle était la pointure des chaussures de Romario, talent de la World Cup 1994 ?",
+      "answer": "35",
+      "options": [
+        "37",
+        "41",
+        "35",
+        "39"
+      ],
+      "explanation": "Surnommé « le petit », il est célèbre pour avoir remporté la Coupe du monde 1994, compétition dont il fut nommé meilleur joueur.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-272",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_272.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-272-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a réalisé en 1998 la pub Nike où la sélection brésilienne s'amuse dans un aéroport ?",
+      "answer": "John Woo",
+      "options": [
+        "James Cameron",
+        "Steven Spielberg",
+        "Michael Bay",
+        "John Woo"
+      ],
+      "explanation": "John Woo est considéré comme ayant beaucoup influencé le cinéma d'action et est connu pour ses séquences d'action chaotiques.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-272",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_272.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-272-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel consultant de luxe accompagnait Didier Roustan pour commenter le Mondial 1994 ?",
+      "answer": "Éric Cantona",
+      "options": [
+        "Bixente Lizarazu",
+        "Didier Deschamps",
+        "Laurent Blanc",
+        "Éric Cantona"
+      ],
+      "explanation": "Didier Roustan est un journaliste sportif français spécialisé dans le football qui a présenté puis dirigé l'émission de TF1 « Téléfoot ».",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-272",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_272.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-272-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Grâce à quoi le joueur de football Jean-Marc Bosman est-il devenu célèbre ?",
+      "answer": "Arrêt Bosman",
+      "options": [
+        "Plongeon Bosman",
+        "Dribble Bosman",
+        "Arrêt Bosman",
+        "Tête Bosman"
+      ],
+      "explanation": "L'arrêt Bosman est une décision de la Cour de justice des Communautés européennes de 1995 relative au sport professionnel.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-272",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_272.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-272-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de fois Manchester United devint champion d'Angleterre entre 1900 et 1999 ?",
+      "answer": "Cinq",
+      "options": [
+        "Quatre",
+        "Cinq",
+        "Trois",
+        "Six"
+      ],
+      "explanation": "Le Manchester United Football Club est l'un des clubs les plus riches et comptant le plus de supporters au monde.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-272",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_272.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-272-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui fut élu meilleur gardien de la planète en 1997 et en 1998 ?",
+      "answer": "Jose Luis Chilavert",
+      "options": [
+        "Walter Zenga",
+        "Andreas Köpke",
+        "Jose Luis Chilavert",
+        "Oliver Kahn"
+      ],
+      "explanation": "Avec 67 buts marqués, il est le deuxième gardien à avoir inscrit le plus de buts (après le brésilien Rogério Ceni et ses 132 buts).",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-272",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_272.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-272-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a raté 3 penaltys dans le même match en 1999 en pleine Copa America ?",
+      "answer": "Palermo",
+      "options": [
+        "Fuertes",
+        "Palermo",
+        "Cardetti",
+        "Figueroa"
+      ],
+      "explanation": "Martin Palermo est ainsi entré dans le Livre Guinness des records en réussissant cette piètre performance face à la Colombie.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-272",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_272.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-272-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel était le sponsor maillot du Bayern de Munich, du Milan AC et du PSG en 1996 ?",
+      "answer": "Opel",
+      "options": [
+        "Renault",
+        "Opel",
+        "Volvo",
+        "Fiat"
+      ],
+      "explanation": "Le Bayern Munich a été sponsorisé par Adidas (1974), Iveco (1978), Commodore (1984), Opel (1989) et Deutsche Telekom (2002).",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-272",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_272.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-272-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel grand joueur roumain était surnommé le Maradona des Carpates ?",
+      "answer": "Gheorghe Hagi",
+      "options": [
+        "Gheorghe Hagi",
+        "Gheroghe Popescu",
+        "Adrian Mutu",
+        "Cosmin Contra"
+      ],
+      "explanation": "Il est considéré comme l'un des meilleurs joueurs du monde, notamment lors de ses passages au Real Madrid et au FC Barcelone.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-272",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_272.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-272-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans combien de clubs différents Clarence Seedorf a-t-il gagné la Ligue des Champions ?",
+      "answer": "Trois",
+      "options": [
+        "Quatre",
+        "Trois",
+        "Cinq",
+        "Deux"
+      ],
+      "explanation": "Réputé pour sa frappe de balle surpuissante, les supporters de l'AC Milan le surnomment « il professore » en référence à sa maîtrise.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-272",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_272.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-272-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année est sortie la chaussure « Predator » de la marque Adidas ?",
+      "answer": "1994",
+      "options": [
+        "1998",
+        "2000",
+        "1990",
+        "1994"
+      ],
+      "explanation": "La « Predator » possède des lamelles de caoutchouc sur le devant de la chaussure censées améliorer la puissance et la précision de tirs.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-272",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_272.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-272-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le seul et unique jeu de football à être sorti sur la Game Gear ?",
+      "answer": "Super Kick Off",
+      "options": [
+        "Sierra Soccer",
+        "Libero Grande",
+        "Actua Soccer",
+        "Super Kick Off"
+      ],
+      "explanation": "Le jeu « Kick Off » a été conçu, programmé et dessiné par Dino Dini sur Atari ST, qui l'a adapté avec Steve Screech sur Amiga.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-272",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_272.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-272-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel numéro fallait-il taper pour accéder à la page foot du télétexte TF1 ?",
+      "answer": "300",
+      "options": [
+        "400",
+        "500",
+        "300",
+        "200"
+      ],
+      "explanation": "Le télétexte permettait de délivrer des informations sous format texte et animations, retransmis dans des signaux de télédiffusion.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-272",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_272.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-272-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui animait la rubrique « Crampons aiguilles » dans « Téléfoot » ?",
+      "answer": "Marianne Mako",
+      "options": [
+        "Vanessa Caffin",
+        "Marianne Mako",
+        "Sophie Thalmann",
+        "Charlotte Namura"
+      ],
+      "explanation": "« Téléfoot » est l'une des émissions télévisées ayant les plus grandes longévités du PAF, après « Automoto », « Thalassa » et « Stade 2 ».",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-272",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_272.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-272-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel joueur anglais s'est suicidé en 1998 après avoir déclaré son homosexualité ?",
+      "answer": "Justin Fashanu",
+      "options": [
+        "Trevor Francis",
+        "Robbie Findley",
+        "Danny Fox",
+        "Justin Fashanu"
+      ],
+      "explanation": "Accusé d'agression, Justin Fashanu fut retrouvé pendu dans un garage de Shoreditch le 2 mai 1998, avec une lettre de suicide.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-272",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_272.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-272-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel gardien a exécuté sur sa ligne un incroyable coup du scorpion en 1995 ?",
+      "answer": "René Higuita",
+      "options": [
+        "Sergio Asenjo",
+        "Albano Bizzarri",
+        "René Higuita",
+        "Jacobo Sanz"
+      ],
+      "explanation": "Tireur de coup-franc et de pénalty, Higuita marqua une quarantaine de buts dans sa carrière, dont trois avec la Colombie.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-272",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_272.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

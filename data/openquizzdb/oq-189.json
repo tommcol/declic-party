@@ -1,0 +1,798 @@
+{
+  "id": "oq-189",
+  "title": "Secret Story",
+  "originalTitle": "Secret Story (Les dix premières saisons)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_189.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-189-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année fut diffusé pour la première fois l'émission 'Secret Story' sur TF1 ?",
+      "answer": "2007",
+      "options": [
+        "2007",
+        "2009",
+        "2008",
+        "2010"
+      ],
+      "explanation": "La présentation de cette émission a été assurée par Benjamin Castaldi jusqu'en 2014 puis relayée par Christophe Beaugrand.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-189",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_189.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-189-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sur les principes fondamentaux de quelle autre émission est basé 'Secret Story' ?",
+      "answer": "Big Brother",
+      "options": [
+        "Big Brother",
+        "Dilemme",
+        "Golden Show",
+        "Bachelor"
+      ],
+      "explanation": "'Big Brother' est un programme de télé-réalité néerlandais dont le nom vient du roman '1984' de George Orwell, publié en 1949.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-189",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_189.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-189-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel personnage invisible de 'Secret Story' peut à tout moment s'adresser aux candidats ?",
+      "answer": "La Voix",
+      "options": [
+        "Potter",
+        "La Voix",
+        "Deadman",
+        "Spectral"
+      ],
+      "explanation": "Il s'agit de la voix du responsable de castings et de l'animateur radio Dominique Duforest, qui se trouve dans une loge isolée.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-189",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_189.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-189-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle saison de 'Secret Story' a été écourtée par la Coupe du monde de football de 2014 ?",
+      "answer": "Saison 8",
+      "options": [
+        "Saison 8",
+        "Saison 7",
+        "Saison 9",
+        "Saison 10"
+      ],
+      "explanation": "Cette saison a été remportée par Leïla Ben Khalifa, empochant 100 000 euros (la somme étant désormais réduite d'un tiers).",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-189",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_189.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-189-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la couleur du téléphone utilisé par les candidats de 'Secret Story' ?",
+      "answer": "Rouge",
+      "options": [
+        "Rouge",
+        "Jaune",
+        "Bleue",
+        "Verte"
+      ],
+      "explanation": "La Voix peut y faire gagner ou perdre de l'argent aux candidats, donner une voix supplémentaire ou proposer une mission secrète.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-189",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_189.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-189-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que peut faire un candidat qui pense avoir trouvé le secret d'un colocataire ?",
+      "answer": "Buzzer",
+      "options": [
+        "Danser",
+        "Crier",
+        "Buzzer",
+        "Chanter"
+      ],
+      "explanation": "Un candidat peut déclencher une alarme sonore spécifique en pressant un bouton rouge (buzzeur) situé dans le confessionnal.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-189",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_189.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-189-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a présenté avec panache le prime des huit premières saisons de 'Secret Story' ?",
+      "answer": "Benjamin Castaldi",
+      "options": [
+        "Benjamin Castaldi",
+        "Christophe Beaugrand",
+        "Cyril Hanouna",
+        "Laurent Ruquier"
+      ],
+      "explanation": "Benjamin Castaldi, qui a aussi présenté 'Loft Story', est le petit-fils du réalisateur Yves Allégret et de l'actrice Simone Signoret.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-189",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_189.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-189-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle présentatrice du 'Mad Mag' sur NRJ12 a participé à 'Secret Story' ?",
+      "answer": "Ayem Nour",
+      "options": [
+        "Ayem Nour",
+        "Marie Sebag",
+        "Caroline Receveur",
+        "Nadège Dabrowski"
+      ],
+      "explanation": "En avril 2013, Ayem Nour est devenue la compagne du multi-millionaire Vincent Miclet, de vingt-trois ans son aîné.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-189",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_189.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-189-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle blogueuse de mode française a participé à la deuxième saison de 'Secret Story' ?",
+      "answer": "Caroline Receveur",
+      "options": [
+        "Nathalie Jomard",
+        "Sophie Fontanel",
+        "Astrid Manfredi",
+        "Caroline Receveur"
+      ],
+      "explanation": "Parallèlement à ses apparitions à l'écran, elle a fondé WanderTea, une gamme de produits détox à base de thé et de plantes.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-189",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_189.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-189-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle finale de 'Secret Story' fut tout simplement annulée suite aux attentats de Paris ?",
+      "answer": "Saison 9",
+      "options": [
+        "Saison 9",
+        "Saison 10",
+        "Saison 7",
+        "Saison 8"
+      ],
+      "explanation": "C'est dans une courte vidéo que Christophe Beaugrand explique la situation et annonce l'identité du vainqueur : Émilie Fiorelli.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-189",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_189.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-189-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel jeu télévisé a inspiré le concept des secrets de 'Secret Story' ?",
+      "answer": "Qui est qui?",
+      "options": [
+        "Le Cube",
+        "Volte-face",
+        "Joker",
+        "Qui est qui?"
+      ],
+      "explanation": "'Qui est qui ?' était un jeu télévisé présenté par Marie-Ange Nardi et diffusé quotidiennement sur France 2 de 1996 à 2002.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-189",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_189.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-189-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle somme constitue la cagnotte initiale des candidats de 'Secret Story' ?",
+      "answer": "10 000 euros",
+      "options": [
+        "20 000 euros",
+        "10 000 euros",
+        "30 000 euros",
+        "40 000 euros"
+      ],
+      "explanation": "Chaque candidat a pour mission de dissimuler un secret le concernant afin de protéger sa cagnotte initiale de 10 000 euros.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-189",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_189.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-189-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel chroniqueur et animateur télé a remporté la quatrième saison de 'Secret Story' ?",
+      "answer": "Benoît Dubois",
+      "options": [
+        "Vincent Desagnat",
+        "Benoît Dubois",
+        "Patrice Drevet",
+        "Bruno Duvic"
+      ],
+      "explanation": "Benoît Dubois est devenu célèbre pour son duo de commère avec Thomas Vitiello, alias Brigitte et Josiane, Les Gayssip Boys.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-189",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_189.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-189-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle célèbre youtubeuse française a participé à 'Secret Story' ?",
+      "answer": "Andy",
+      "options": [
+        "Andy",
+        "Natoo",
+        "Tina S",
+        "EnjoyPhoenix"
+      ],
+      "explanation": "Avec ses deux millions d'abonnés, Andy était en 2016 la deuxième youtubeuse féminine française derrière Natoo.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-189",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_189.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-189-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle miss Belgique de charme a chroniqué l'After de l'émission 'Secret Story' ?",
+      "answer": "Julie Taton",
+      "options": [
+        "Sandrine Corman",
+        "Ellen Petri",
+        "Julie Taton",
+        "Tatiana Silva"
+      ],
+      "explanation": "Julie Taton a été en couple avec Jean-Michel Zecca entre 2002 et 2010, puis en 2013 avec le chanteur suisse Bastian Baker.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-189",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_189.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-189-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Durant quelle saison un participant de 'Secret Story' a-t-il été disqualifié pour la première fois ?",
+      "answer": "Deuxième saison",
+      "options": [
+        "Troisième saison",
+        "Deuxième saison",
+        "Cinquième saison",
+        "Quatrième saison"
+      ],
+      "explanation": "Marie-France a été exclue de la maison des secrets à la suite de la révélation fortuite de son secret: 'nous sommes mère et fille'.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-189",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_189.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-189-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui étaient les maîtres des souterrains dans la saison 5 de 'Secret Story' ?",
+      "answer": "Zarko et Zelko",
+      "options": [
+        "Dumb et Dumber",
+        "Zarko et Zelko",
+        "Will et Carlton",
+        "Mario et Luigi"
+      ],
+      "explanation": "Pour la première fois dans le jeu, un candidat peut être nominé à vie, c'est-à-dire à chaque semaine jusqu'à son élimination.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-189",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_189.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-189-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle gagnante de 'Secret Story' avait pour secret d'être en couple avec Geoffrey ?",
+      "answer": "Marie",
+      "options": [
+        "Juliette",
+        "Aurélie",
+        "Sabrina",
+        "Marie"
+      ],
+      "explanation": "Marie a participé à la quatrième et cinquième saison des 'Anges de la télé-réalité' sur NRJ 12.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-189",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_189.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-189-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle pièce a été intégrée par Audrey, Midou et Émilie dans 'Secret Story' ?",
+      "answer": "Secret Box",
+      "options": [
+        "Dark room",
+        "Carré VIP",
+        "Le sas",
+        "Secret Box"
+      ],
+      "explanation": "De cette pièce, ils devaient découvrir le secret d'un habitant avant la fin de la semaine pour espérer l'intégrer en prenant sa place.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-189",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_189.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-189-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle somme fut remportée par les gagnants des sept premières saisons de 'Secret Story' ?",
+      "answer": "150 000 euros",
+      "options": [
+        "150 000 euros",
+        "125 000 euros",
+        "100 000 euros",
+        "75 000 euros"
+      ],
+      "explanation": "À la fin de l'aventure, les finalistes remportent la totalité de leur cagnotte personnelle et sont soumis au suffrage du public.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-189",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_189.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-189-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel groupe interprète 'I Wanna Chat', générique emblématique de 'Secret Story' ?",
+      "answer": "Booty Full",
+      "options": [
+        "Booty Full",
+        "Joy Division",
+        "Ultravox",
+        "New Order"
+      ],
+      "explanation": "Le single de Booty Full, devenu indissociable de ce programme, est sorti le 20 août 2007 sous le label Music One, un label de TF1.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-189",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_189.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-189-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle grand maître international d'échecs a participé à 'Secret Story' ?",
+      "answer": "Marie Sebag",
+      "options": [
+        "Marie Sebag",
+        "Isabelle Guillaume",
+        "Marilyn Dupuis",
+        "Nathalie Breckmans"
+      ],
+      "explanation": "Son secret lors de la saison 6 était 'je suis grand maître international d'échecs', mais elle abandonnera après 3 jours.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-189",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_189.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-189-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel militant américain des droits des personnes trans a participé à 'Secret Story' ?",
+      "answer": "Thomas Beatie",
+      "options": [
+        "Rob Epstein",
+        "Chad Allen",
+        "Thomas Beatie",
+        "Ben Barres"
+      ],
+      "explanation": "Son secret, 'je suis le premier homme enceinte au monde', lui a valu d'être largement soutenu par le public et amené en finale.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-189",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_189.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-189-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a décoré la maison des secrets des saisons 3 à 6 de 'Secret Story' ?",
+      "answer": "Michèle Sarfati",
+      "options": [
+        "Anne Seibel",
+        "Suzanne Lalique",
+        "Michèle Sarfati",
+        "Madeleine Castaing"
+      ],
+      "explanation": "Michèle Sarfati, célèbre chef décoratrice, est également intervenue sur les émissions 'Star Academy', 'Motus' ou '100% Mag'.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-189",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_189.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-189-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel candidat a été exclu par la Voix au cours de la saison 3 de 'Secret Story' ?",
+      "answer": "Léo",
+      "options": [
+        "Kevin",
+        "Léo",
+        "Martin",
+        "Nicolas"
+      ],
+      "explanation": "La saison 3 a été remportée par Émilie Nef Naf, dont le secret était que sa pire ennemie, Vanessa, était dans la maison.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-189",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_189.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-189-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sur une œuvre de quel artiste est basé l'œil du logo de l'émission 'Secret Story' ?",
+      "answer": "John Matos",
+      "options": [
+        "John Matos",
+        "Kenny Scharf",
+        "Curtis Kulig",
+        "Shepard Fairey"
+      ],
+      "explanation": "Né dans le Bronx, John Matos a commencé le graffiti très jeune sur les trains New-Yorkais avant de s'exercer sur des toiles.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-189",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_189.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-189-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle participante de 'Secret Story' est réalisatrice de films pornographiques ?",
+      "answer": "Laly",
+      "options": [
+        "Lexi Belle",
+        "Brea Bennett",
+        "Capri Cavanni",
+        "Laly"
+      ],
+      "explanation": "Laly est celle qui a le plus posé pour le magazine 'Newlook' (six couvertures), dépassant ainsi le record de Pamela Anderson.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-189",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_189.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-189-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle chanteuse du titre 'Soundwaves' a participé à 'Secret Story' ?",
+      "answer": "Angie Be",
+      "options": [
+        "Anggun",
+        "Julie Delpy",
+        "Angie Be",
+        "Buzy"
+      ],
+      "explanation": "Originaire du Nord de la France, Élodie Bouche est apparue à la télévision pour la marque de stimulateurs musculaires Sport-Elec.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-189",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_189.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-189-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle auteure de 'J'avais dix-huit ans' a participé à 'Secret Story' ?",
+      "answer": "Élisabeth Fanger",
+      "options": [
+        "Pascale Froment",
+        "Ariane Fornia",
+        "Élisabeth Fanger",
+        "Laure Fardoulis"
+      ],
+      "explanation": "À sa sortie, elle écrira un livre sur les dessous de l'aventure 'Secret Story', avec la collaboration du paparazzi Jean-Claude Elfassi.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-189",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_189.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-189-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle participante de 'Secret Story' a obtenu un diplôme d'arbitre de football en Italie ?",
+      "answer": "Claudia Romani",
+      "options": [
+        "Anna Kanakis",
+        "Elisa Torrini",
+        "Alice Sabatini",
+        "Claudia Romani"
+      ],
+      "explanation": "Mannequin italienne, Claudia Romani a été élue en 2006 l'une des cent plus belles femmes du monde par l'édition danoise de FHM.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-189",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_189.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

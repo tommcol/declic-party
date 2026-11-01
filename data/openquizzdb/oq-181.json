@@ -1,0 +1,749 @@
+{
+  "id": "oq-181",
+  "title": "Garçon un café",
+  "originalTitle": "Garçon un café (Tel le café, l'humour est meilleur très noir)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_181.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    7,
+    19
+  ],
+  "questions": [
+    {
+      "id": "oqdb-181-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel expresso ajoute-t-on un tiers de lait et un tiers de mousse de lait ?",
+      "answer": "Cappuccino",
+      "options": [
+        "Moka",
+        "Café viennois",
+        "Cappuccino",
+        "Irish coffee"
+      ],
+      "explanation": "Alors que le cappuccino se boit avec du lait, quand on ajoute de la chantilly au café, il s'agit alors d'un café viennois.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-181",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_181.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-181-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle boisson caféinée froide ajoute-t-on de la crème glacée ?",
+      "answer": "Café liégeois",
+      "options": [
+        "Café liégeois",
+        "Café bruxellois",
+        "Café tournaisien",
+        "Café montois"
+      ],
+      "explanation": "Le café liégeois n'est pas une spécialité de la ville belge de Liège mais bien un hommage à la résistance liégeoise de 1914.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-181",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_181.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-181-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle boisson alcoolisée est préparée avec du whisky et du café ?",
+      "answer": "Irish coffee",
+      "options": [
+        "French coffee",
+        "Irish coffee",
+        "Café normand",
+        "Café viennois"
+      ],
+      "explanation": "La difficulté d'un irish coffee bien réussi est d'arriver à ce que la crème légèrement battue flotte sur le liquide encore chaud.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-181",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_181.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-181-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel café est agrémenté de chocolat en poudre ou en copeaux ?",
+      "answer": "Café viennois",
+      "options": [
+        "Café viennois",
+        "Café creusois",
+        "Café lorrain",
+        "Café normand"
+      ],
+      "explanation": "Moins en vogue que le Latté ou le Cappuccino, le café viennois demeure un classique dans les cafés de Budapest et de Vienne.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-181",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_181.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-181-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel café expresso est préparé avec du lait chauffé à la vapeur ?",
+      "answer": "Latte",
+      "options": [
+        "Latte",
+        "Vaporetto",
+        "Barista",
+        "Moka"
+      ],
+      "explanation": "Un latte art est quant à lui un café latte proposant des motifs variés tracés à sa surface avec du lait et une tige fine.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-181",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_181.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-181-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel entremets de génoise, fourré de crème au beurre, est parfumé au café ?",
+      "answer": "Moka",
+      "options": [
+        "Moka",
+        "Bavarois",
+        "Religieuse",
+        "Diplomate"
+      ],
+      "explanation": "La génoise, inventée vers le début du XVIIIe siècle, est un biscuit à pâte battue qui entre dans la composition de nombreux entremets.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-181",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_181.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-181-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle boisson alcoolisée est préparée avec du café et du calvados ?",
+      "answer": "Café normand",
+      "options": [
+        "Café mosan",
+        "Café viennois",
+        "Café normand",
+        "Café charentais"
+      ],
+      "explanation": "Un bon calvados se sert tel quel chambré (jamais sur glace), en dégustation apéritive, en digestif ou bien en trou normand.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-181",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_181.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-181-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel café instantané se boit frais avec une paille et des glaçons ?",
+      "answer": "Café frappé",
+      "options": [
+        "Café giflé",
+        "Café frappé",
+        "Café cogné",
+        "Café cassé"
+      ],
+      "explanation": "Le produit, lancé par la marque Nestlé et surtout consommé durant l'été, a rencontré un franc succès dans toute la Grèce.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-181",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_181.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-181-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle marque vous invite à savourer « un café nommé désir » ?",
+      "answer": "Carte Noire",
+      "options": [
+        "Ricoré",
+        "Jacques Vabre",
+        "Carte Noire",
+        "Nespresso"
+      ],
+      "explanation": "Ancienne marque du groupe américain Mondelez, Carte Noire appartient désormais au groupe italien Lavazza depuis février 2016.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-181",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_181.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-181-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment appelle-t-on un expresso dans lequel on ajoute un peu de mousse de lait ?",
+      "answer": "Noisette",
+      "options": [
+        "Pistache",
+        "Amande",
+        "Châtaigne",
+        "Noisette"
+      ],
+      "explanation": "La crema idéale, de couleur noisette, doit être dense, uniforme et lisse et ne pas présenter des bulles à sa surface.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-181",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_181.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-181-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel expresso rajoute-t-on sept fois son volume d'eau chaude ?",
+      "answer": "Americano",
+      "options": [
+        "Americano",
+        "Italiano",
+        "Perfecto",
+        "Ristretto"
+      ],
+      "explanation": "L'americano est très proche du Long black, mais avec l'expresso avant l'eau, ce qui a pour effet de dissoudre le créma.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-181",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_181.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-181-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle boisson alcoolisée est préparée avec du cognac et du café ?",
+      "answer": "French coffee",
+      "options": [
+        "Greek coffee",
+        "German coffee",
+        "Italian coffee",
+        "French coffee"
+      ],
+      "explanation": "Le terroir viticole de Cognac, située à l'ouest du département de la Charente, connaît un climat océanique aquitain.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-181",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_181.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-181-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En Suisse romande, que demande-t-on pour boire un café au lait ?",
+      "answer": "Un renversé",
+      "options": [
+        "Un poirier",
+        "Un renversé",
+        "Une roulade",
+        "Un salto"
+      ],
+      "explanation": "Le renversé est un café au lait où les proportions lait-café sont inversées (renversées), soit 60% de lait pour 40% de café.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-181",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_181.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-181-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel café en décoction se boit principalement au Proche-Orient ?",
+      "answer": "Café turc",
+      "options": [
+        "Café turc",
+        "Celtia",
+        "Stella",
+        "Boga"
+      ],
+      "explanation": "Cette dénomination ne fait pas référence à une paternité historique avérée mais bien à la diffusion par le biais du monde ottoman.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-181",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_181.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-181-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel café est préparé en allongeant deux doses d'expresso avec de l'eau chaude ?",
+      "answer": "Long black",
+      "options": [
+        "Long Red",
+        "Long black",
+        "Long Blue",
+        "Long Green"
+      ],
+      "explanation": "Un long black est similaire à un Americano si ce n'est que le long black garde la crème de l'expresso et présente une saveur plus forte.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-181",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_181.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-181-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quel peintre doit-on le tableau « La Femme à la cafetière » ?",
+      "answer": "Cézanne",
+      "options": [
+        "Gauguin",
+        "Van Gogh",
+        "Cézanne",
+        "Renoir"
+      ],
+      "explanation": "Cézanne cherchait ici à expérimenter les lois de sa peinture, ne visant pas à une reproduction exacte du modèle.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-181",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_181.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-181-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces variétés de café est généralement la plus corsée ?",
+      "answer": "Robusta",
+      "options": [
+        "Arabica",
+        "Robusta",
+        "Manille",
+        "Décaféiné"
+      ],
+      "explanation": "Originaire d'Afrique, le robusta nécessite moins d'entretien que le Coffea arabica et est donc moins cher à produire.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-181",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_181.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-181-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle boisson alcoolisée est préparée avec du café et de l'amaretto ?",
+      "answer": "Italian coffee",
+      "options": [
+        "Greek coffee",
+        "French coffee",
+        "German coffee",
+        "Italian coffee"
+      ],
+      "explanation": "L'amaretto est une boisson alcoolisée douce, avec un léger parfum d'amandes amères (d'où son nom), originaire d'Italie.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-181",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_181.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-181-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Les gens du nord de la France préparent un café à base de café et de...",
+      "answer": "Chicorée",
+      "options": [
+        "Genièvre",
+        "Chicorée",
+        "Welsh",
+        "Vergeoise"
+      ],
+      "explanation": "En France, la production de chicorée à café est concentrée dans le Nord-Pas-de-Calais (société Leroux installée à Orchies).",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-181",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_181.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-181-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel café fait-on fondre un volume égal de Nutella ?",
+      "answer": "Café Hélène",
+      "options": [
+        "Café Julienne",
+        "Café Mireille",
+        "Café Hélène",
+        "Café Henriette"
+      ],
+      "explanation": "Nutella est une marque de pâte à tartiner parfumée à la noisette et au cacao, déposée par la société italienne Ferrero.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-181",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_181.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-181-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle boisson alcoolisée est préparée avec du genièvre et du café ?",
+      "answer": "Hasselt koffie",
+      "options": [
+        "Ieper koffie",
+        "Leuven koffie",
+        "Gent koffie",
+        "Hasselt koffie"
+      ],
+      "explanation": "Le genièvre est l'une des spécialités du nord de la France et de la Belgique (notamment de Hasselt et de Liège).",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-181",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_181.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-181-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel breuvage est aussi appelé café-goutte ou café-liqueur ?",
+      "answer": "Champoreau",
+      "options": [
+        "Sangria",
+        "Castagnou",
+        "Communard",
+        "Champoreau"
+      ],
+      "explanation": "Il peut s'agir aussi en pratique soit d'un mélange de café et de liqueurs, ou encore de vin ou d'un autre alcool.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-181",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_181.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-181-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel café est généralement flambé au cognac directement dans la soucoupe ?",
+      "answer": "Brûlot charentais",
+      "options": [
+        "Moretta",
+        "Brûlot charentais",
+        "Expresso cubain",
+        "Café frappé"
+      ],
+      "explanation": "En Charentes, ce sont les viticulteurs qui ont découvert que cette méthode permettait d'éviter le gaspillage du café froid.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-181",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_181.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-181-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle boisson légèrement sucrée est considérée comme l'origine du café glacé ?",
+      "answer": "Mazagran",
+      "options": [
+        "Affogato",
+        "Carajillo",
+        "Bicerin",
+        "Mazagran"
+      ],
+      "explanation": "Une version rapide du café mazagran se prépare en versant un expresso sucré sur des glaçons et une tranche de citron.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-181",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_181.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-181-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel café est consommé avec un alcool servi à part dans un verre à liqueur ?",
+      "answer": "Corretto",
+      "options": [
+        "Corretto",
+        "Grappa",
+        "Ginger",
+        "Amaretto"
+      ],
+      "explanation": "Cette boisson italienne est préparée avec un expresso et de la grappa, de la sambuca, de l'amer ou du brandy.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-181",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_181.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-181-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel café l'expresso est-il mélangé à du café filtre ?",
+      "answer": "Red eye",
+      "options": [
+        "Red eye",
+        "Blue finger",
+        "Black skin",
+        "Green nose"
+      ],
+      "explanation": "Ce breuvage est aussi appelé red eye, black eye ou dead eye en ajoutant respectivement une, deux ou trois doses d'expresso.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-181",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_181.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-181-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle marque de café avait pour emblème un serveur noir avec un turban ?",
+      "answer": "Négresco",
+      "options": [
+        "Négresco",
+        "Melita",
+        "Ricoré",
+        "Barista"
+      ],
+      "explanation": "Dans les années 1970, Edmond Jean a été contraint de vendre cette ancienne marque de café de Marseille à Jacques Vabre.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-181",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_181.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-181-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel pays est le second plus gros producteur de café au monde, après le Brésil ?",
+      "answer": "Viêt Nam",
+      "options": [
+        "Viêt Nam",
+        "Chine",
+        "Kenya",
+        "Colombie"
+      ],
+      "explanation": "La production de café fait vivre environ vingt cinq millions de personnes, essentiellement des petits producteurs.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-181",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_181.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

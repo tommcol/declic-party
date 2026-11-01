@@ -1,0 +1,774 @@
+{
+  "id": "oq-249",
+  "title": "Culture en vrac 3",
+  "originalTitle": "Culture en vrac 3 (De la culture générale à tous les niveaux)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_249.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    16
+  ],
+  "questions": [
+    {
+      "id": "oqdb-249-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Le fameux indice IMC permet, après calcul, de savoir si vous êtes...",
+      "answer": "En surpoids",
+      "options": [
+        "En surpoids",
+        "En zone inondable",
+        "Surdoué",
+        "Imposable"
+      ],
+      "explanation": "Il a été conçu, au départ, pour les adultes de 18 à 65 ans, mais de nouveaux diagrammes de croissance ont vu le jour.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-249",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_249.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-249-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces fruits remplis de vitamines désigne une variété de prune ?",
+      "answer": "Mirabelle",
+      "options": [
+        "Bigarreau",
+        "Griotte",
+        "Kumquat",
+        "Mirabelle"
+      ],
+      "explanation": "C'est une petite prune ronde, de couleur jaune, parfois recouverte d'une mince couche cireuse et comestible appelée pruine.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-249",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_249.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-249-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle chanteuse française, star des années 1960, a fini son école en 1963 ?",
+      "answer": "Sheila",
+      "options": [
+        "Françoise Hardy",
+        "Petula Clark",
+        "Sheila",
+        "Rika Zaraï"
+      ],
+      "explanation": "Figurant sur le deuxième 45T EP de Sheila, « L'école est finie » est son premier véritable tube, et l'un des grands succès de 1963.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-249",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_249.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-249-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel pays a créé en 1918 une armée appelée Armée rouge ?",
+      "answer": "U.R.S.S.",
+      "options": [
+        "Cambodge",
+        "Chine",
+        "RDA",
+        "U.R.S.S."
+      ],
+      "explanation": "Cette armée fut mise sur pied dans l'ancien Empire russe par le nouveau pouvoir bolchevik, à la suite de la révolution d'Octobre.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-249",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_249.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-249-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En France, à quoi correspondent les 4e et 5e chiffres du numéro de sécu de la carte Vitale ?",
+      "answer": "Mois de naissance",
+      "options": [
+        "Sexe",
+        "Pays de naissance",
+        "Mois de naissance",
+        "Jour de naissance"
+      ],
+      "explanation": "Elle permet de justifier les droits du titulaire de la carte à la couverture par un organisme social des dépenses de santé.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-249",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_249.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-249-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Avec quelle céréale prépare-t-on le pop-corn que l'on peut acheter au cinéma ?",
+      "answer": "Maïs",
+      "options": [
+        "Blé",
+        "Riz",
+        "Maïs",
+        "Orge"
+      ],
+      "explanation": "Le pop-corn (maïs soufflé ou maïs éclaté) est une céréale soufflée produit par un chauffage fort de grains de maïs.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-249",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_249.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-249-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Vu du ciel, lequel de ces monuments offre un aspect circulaire ?",
+      "answer": "Colisée",
+      "options": [
+        "Angkor Vat",
+        "Colisée",
+        "Taj Mahal",
+        "Cité interdite"
+      ],
+      "explanation": "Sa construction à l'est du Forum Romain a commencé en 70 ap. J.-C., sous l'empereur Vespasien, et s'est achevée en 80 sous Titus.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-249",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_249.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-249-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces mots ne désigne pas un os du squelette humain ?",
+      "answer": "Boulon",
+      "options": [
+        "Boulon",
+        "Marteau",
+        "Axis",
+        "Enclume"
+      ],
+      "explanation": "Le squelette humain est composé de 206 os constants à l'âge adulte (350 à la naissance) et d'un nombre variable d'os surnuméraires.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-249",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_249.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-249-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En France, quel accessoire doit-on obligatoirement posséder dans sa voiture ?",
+      "answer": "Gilet de sécurité",
+      "options": [
+        "Gilet de sécurité",
+        "Roue de secours",
+        "Extincteur",
+        "Ampoule de phare"
+      ],
+      "explanation": "L'obligation faite aux conducteurs de véhicules de porter cet équipement ne remonte en Europe qu'au début des années 2000.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-249",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_249.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-249-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans une expression argotique, quel nombre est souvent associé aux flics ?",
+      "answer": "22",
+      "options": [
+        "33",
+        "22",
+        "11",
+        "44"
+      ],
+      "explanation": "En argot, un policier est aussi parfois surnommé poulet, perdreau, flic, keuf, coch, vache, dek, lardu, condé, bleu ou Bourremann.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-249",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_249.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-249-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans un oeuf, quelle partie fera des bulles une fois arrosée de vinaigre ?",
+      "answer": "Coquille",
+      "options": [
+        "Coquille",
+        "Blanc et le jaune",
+        "Blanc",
+        "Jaune"
+      ],
+      "explanation": "Sécrétée par la glande coquillière de l'oviducte, elle est composée de carbonates et de phosphates de calcium et de magnésium.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-249",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_249.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-249-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans la série de B.D. « Placid et Muzo », quel animal est Placid ?",
+      "answer": "Ours",
+      "options": [
+        "Souris",
+        "Ours",
+        "Chien",
+        "Renard"
+      ],
+      "explanation": "La série a été créée en 1946 par José Cabrero Arnal (dessin) et Pierre Olivier (texte), avant d'être reprise par Jacques Nicolaou.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-249",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_249.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-249-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Chez Disney, de quel instrument joue le cochon qui a construit une hutte en bois ?",
+      "answer": "Violon",
+      "options": [
+        "Flûte",
+        "Pipeau",
+        "Violon",
+        "Tambourin"
+      ],
+      "explanation": "D'après les studios Disney, les trois petits cochons auraient pour cousin Peter Pig, apparu aux côtés de Donald Duck.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-249",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_249.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-249-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces noms communs de la langue française est variable ?",
+      "answer": "Week-end",
+      "options": [
+        "Week-end",
+        "Pince sans-rire",
+        "Goutte à goutte",
+        "Fiançailles"
+      ],
+      "explanation": "Le week-end ou fin de semaine est une période hebdomadaire d'un ou deux jours, généralement le samedi et le dimanche.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-249",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_249.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-249-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces stars était la plus jeune quand elle a eu son premier enfant ?",
+      "answer": "Britney Spears",
+      "options": [
+        "Céline Dion",
+        "Jennifer Lopez",
+        "Lara Fabian",
+        "Britney Spears"
+      ],
+      "explanation": "Britney Spears a eu deux garçons : Sean Preston Spears-Federline (né en 2005) et Jayden James Spears-Federline (né en 2006).",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-249",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_249.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-249-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces artistes n'a jamais chanté avec le ténor Luciano Pavarotti ?",
+      "answer": "Garou",
+      "options": [
+        "Barry White",
+        "Céline Dion",
+        "Bono",
+        "Garou"
+      ],
+      "explanation": "Souvent cité comme le plus populaire chanteur d'opéra depuis Caruso, Pavarotti a chanté les grands airs de Verdi et Puccini.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-249",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_249.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-249-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À qui doit-on les chaussures de Lady Gaga dans le clip « Bad Romance » ?",
+      "answer": "Alexander McQueen",
+      "options": [
+        "Jean-Paul Gaultier",
+        "Alexander McQueen",
+        "Karl Lagerfeld",
+        "Stella McCartney"
+      ],
+      "explanation": "En raison du côté parfois provocateur de certaines de ses collections, Alexander McQueen est souvent surnommé l'Enfant terrible.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-249",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_249.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-249-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces célébrités aurait pu féliciter Eddy Merckx au Tour de France en 1969 ?",
+      "answer": "Laetitia Casta",
+      "options": [
+        "Paris Hilton",
+        "Ludivine Sagnier",
+        "Roger Federer",
+        "Laetitia Casta"
+      ],
+      "explanation": "Comprenant 22 étapes sur 4 117 km, il s'agit du premier des cinq Tours de France remportés par Eddy Merckx.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-249",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_249.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-249-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a chorégraphié la comédie musicale « Le Roi Soleil », présentée au public en 2005 ?",
+      "answer": "Kamel Ouali",
+      "options": [
+        "Maurice Béjart",
+        "Philippe Lafeuille",
+        "Vincent Dunoyer",
+        "Kamel Ouali"
+      ],
+      "explanation": "C'est le chorégraphe français Kamel Ouali qui a coordonné le « Disney Talents » des jeunes talents à Paris, dont il a été le directeur.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-249",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_249.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-249-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Notre planète Terre se situe entre quelles autres planètes ?",
+      "answer": "Mars et Vénus",
+      "options": [
+        "Pluton et Mercure",
+        "Mars et Vénus",
+        "Uranus et Jupiter",
+        "Jupiter et Saturne"
+      ],
+      "explanation": "La Terre est une planète du Système solaire, la troisième plus proche du Soleil et la cinquième plus grande (taille et masse).",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-249",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_249.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-249-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces femmes a dit oui à son futur époux, mais pas en 2011 ?",
+      "answer": "Pénélope Cruz",
+      "options": [
+        "Charlène Wittstock",
+        "Kate Moss",
+        "Kate Middleton",
+        "Pénélope Cruz"
+      ],
+      "explanation": "Depuis novembre 2007, elle est en couple avec l'acteur espagnol Javier Bardem, qu'elle épousa en juillet 2010 aux Bahamas.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-249",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_249.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-249-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle préparation un oeuf est-il cuit dans sa coquille ?",
+      "answer": "Mollet",
+      "options": [
+        "Poché",
+        "Mollet",
+        "En cocotte",
+        "Au miroir"
+      ],
+      "explanation": "L'oeuf mollet est un oeuf cuit à l'eau bouillante dans sa coquille, plus longtemps qu'un oeuf à la coque et moins longtemps qu'un oeuf dur.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-249",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_249.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-249-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces éléments chimiques est correctement associé à son symbole ?",
+      "answer": "Au pour Or",
+      "options": [
+        "Au pour Or",
+        "B pour Plomb",
+        "H pour Oxygène",
+        "CA pour Carbone"
+      ],
+      "explanation": "Ce symbole, choisi par Berzelius, est formé des deux premières lettres du mot latin aurum (de même sens).",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-249",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_249.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-249-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces propositions désigne un gaz presque inerte et sans couleur ?",
+      "answer": "Néon",
+      "options": [
+        "Manganèse",
+        "Néon",
+        "Magnésium",
+        "Radium"
+      ],
+      "explanation": "Le néon est un gaz noble qui donne une lueur rougeâtre distinctive lorsqu'il est utilisé dans les tubes à vide et les lampes néon.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-249",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_249.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-249-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces états a sa capitale située le plus au sud du globe ?",
+      "answer": "Nouvelle Zélande",
+      "options": [
+        "Afrique du Sud",
+        "Nouvelle Zélande",
+        "Argentine",
+        "Australie"
+      ],
+      "explanation": "Très isolée géographiquement, la Nouvelle-Zélande est située à 2000 km de l'Australie, dont elle est séparée par la mer de Tasman.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-249",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_249.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-249-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans lequel de ces jeux prend-on des cartes dans une pioche centrale ?",
+      "answer": "Huit américain",
+      "options": [
+        "Pouilleux",
+        "Whist",
+        "Huit américain",
+        "Nain jaune"
+      ],
+      "explanation": "Ce jeu a été popularisé par le jeu Uno qui en reprend les principes dans une version commerciale, plus simple et plus attractive.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-249",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_249.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-249-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Vers quelle année les habitants de la Terre sont-ils montés à un milliard ?",
+      "answer": "1800",
+      "options": [
+        "1600",
+        "1700",
+        "1800",
+        "1900"
+      ],
+      "explanation": "Le nombre d'êtres humains vivant sur Terre à un instant donné fut estimé à 7,55 milliards au 1er juillet 2017.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-249",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_249.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-249-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces adjectifs de couleur est invariable, ne prenant pas de s au pluriel ?",
+      "answer": "Ocre",
+      "options": [
+        "Ocre",
+        "Beige",
+        "Violet",
+        "Vert"
+      ],
+      "explanation": "Les ocres rouges naturelles peuvent être extraites à l'état naturel ou produites artificiellement par calcination de l'ocre jaune.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-249",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_249.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-249-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que contiennent les boîtes collectionnées par un philuméniste ?",
+      "answer": "Allumettes",
+      "options": [
+        "Capsules",
+        "Pièces",
+        "Parfums",
+        "Allumettes"
+      ],
+      "explanation": "L'Association vitolphilique et philuménique française (AVPF) créée peu après 1954 compte aujourd'hui près de 500 collectionneurs.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-249",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_249.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

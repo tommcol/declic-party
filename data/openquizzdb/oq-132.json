@@ -1,0 +1,798 @@
+{
+  "id": "oq-132",
+  "title": "Moyens de transport",
+  "originalTitle": "Moyens de transport",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_132.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-132-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qu'est-ce qui s'est lancé à vive allure entre Paris et Lyon en septembre 1980 ?",
+      "answer": "Le TGV",
+      "options": [
+        "Le Thalys",
+        "Le Transilien",
+        "L'Eurostar",
+        "Le TGV"
+      ],
+      "explanation": "Le train à grande vitesse atteint régulièrement la vitesse de 320 km/h sur des lignes à grande vitesse (LGV).",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-132",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_132.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-132-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle station spatiale le soviétique Iouri Romanenko a-t-il passé 326 jours ?",
+      "answer": "Mir",
+      "options": [
+        "Saliout",
+        "Skylab",
+        "Mir",
+        "Tiangong"
+      ],
+      "explanation": "Mir (signifiant « paix » et « monde ») a été placée en orbite le 19 février 1986 et détruite volontairement le 23 mars 2001.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-132",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_132.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-132-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel moyen de transport est fréquemment utilisé par les médecins en Australie ?",
+      "answer": "L'avion",
+      "options": [
+        "L'avion",
+        "La montgolfière",
+        "La voiture",
+        "Le train"
+      ],
+      "explanation": "L'Australie compte 7 686 850 km2 de superficie dont 34 218 km de côtes et 7 148 250 km2 de zone économique exclusive.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-132",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_132.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-132-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville utilise-t-on essentiellement les vaporetto, motoscafo et motonave ?",
+      "answer": "Venise",
+      "options": [
+        "Rome",
+        "Milan",
+        "Venise",
+        "Naples"
+      ],
+      "explanation": "Compte tenu du caractère très particulier de la ville de Venise, les vaporettos sont utilisés comme moyen de transport public.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-132",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_132.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-132-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que portent aux mains de nombreux conducteurs de taxi au Japon ?",
+      "answer": "Des gants blancs",
+      "options": [
+        "Des bagues",
+        "Des baguettes",
+        "Des coups",
+        "Des gants blancs"
+      ],
+      "explanation": "Le mot taxi provient du taximètre, appareil destiné à mesurer le temps et la distance d'un trajet pour établir un montant à payer.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-132",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_132.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-132-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de roues compte-t-on sur un samlo en Thaïlande ?",
+      "answer": "Trois",
+      "options": [
+        "Cinq",
+        "Quatre",
+        "Deux",
+        "Trois"
+      ],
+      "explanation": "Le samlo, qui signifie « trois roues » en thaïlandais, est un sorte de cyclo-pousse pouvant remorquer 1 ou 2 passagers.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-132",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_132.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-132-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Contre quoi protègent les « roo bars » que portent les voitures en Australie ?",
+      "answer": "Des kangourous",
+      "options": [
+        "Des aigles",
+        "Des serpents",
+        "Des kangourous",
+        "Des éléphants"
+      ],
+      "explanation": "Les roo bars sont en fait des barres de métal ou un cadre de barres de métal placés sur le devant d'un véhicule.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-132",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_132.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-132-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelles marques de motos voit-on dans 'Easy Rider', de Dennis Hopper ?",
+      "answer": "Harley-Davidson",
+      "options": [
+        "Vectrix",
+        "Harley-Davidson",
+        "Polaris",
+        "Boss Hoss"
+      ],
+      "explanation": "Ce road movie est très vite devenu un emblème de la génération hippie des années 1960-1970.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-132",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_132.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-132-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de temps dure la traversée en ferry qui vous emmène de Calais à Douvres ?",
+      "answer": "75 min",
+      "options": [
+        "105 min",
+        "75 min",
+        "45 min",
+        "135 min"
+      ],
+      "explanation": "Bien adapté au fret roulier, Calais reste encore à ce jour le premier port européen pour les échanges avec l'Angleterre.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-132",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_132.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-132-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de pédales trouve-t-on sur sur la bicyclette baptisée « triplette » ?",
+      "answer": "Six",
+      "options": [
+        "Quatre",
+        "Huit",
+        "Six",
+        "Douze"
+      ],
+      "explanation": "De la même manière qu'un tandem, les trois protagonistes sont assis l'un derrière l'autre et pédalent de manière synchrone.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-132",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_132.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-132-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le point commun des navires Waratah, Admiral Karpfanger et Sao Paolo ?",
+      "answer": "Portés disparus",
+      "options": [
+        "Bateaux musées",
+        "Coulés",
+        "Portés disparus",
+        "Croisières"
+      ],
+      "explanation": "Reinhold Werner, officier de marine, a écrit en 1900 'Admiral Karpfanger. Eine Erzählung aus Hamburgs Vorzeit'.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-132",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_132.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-132-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel genre d'appareil est mort en 1968 l'astronaute russe Youri Gagarine ?",
+      "answer": "Un avion",
+      "options": [
+        "Une fusée",
+        "Une navette",
+        "Une capsule",
+        "Un avion"
+      ],
+      "explanation": "Youri Gagarine est le premier homme à avoir effectué un vol dans l'espace au cours de la mission Vostok 1 le 12 avril 1961.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-132",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_132.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-132-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de roues possédait le premier véhicule automobile de Carl Benz ?",
+      "answer": "Trois",
+      "options": [
+        "Six",
+        "Cinq",
+        "Quatre",
+        "Trois"
+      ],
+      "explanation": "Le Tricycle Benz 1, fabriqué par Carl Benz en 1885, est considéré comme la première automobile de l'histoire.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-132",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_132.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-132-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qu'a inventé l'ingénieur et industriel russo-américain Igor Sikorsky ?",
+      "answer": "L'hélicoptère",
+      "options": [
+        "L'avion",
+        "Le tracteur",
+        "L'hélicoptère",
+        "Le train"
+      ],
+      "explanation": "Sikorsky Aircraft Corporation, basée à Stratford, est encore aujourd'hui l'un des premiers hélicoptéristes mondiaux.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-132",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_132.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-132-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est l'altitude de croisière des appareils de la gamme Airbus A320 ?",
+      "answer": "10 000 m",
+      "options": [
+        "13 000 m",
+        "7 000 m",
+        "4 000 m",
+        "10 000 m"
+      ],
+      "explanation": "L'A320-200 est la version la plus répandue de l'A320, disposant de winglets et d'une capacité en kérosène supérieure.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-132",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_132.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-132-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelles seront les lettres qu'abordera l'arrière d'une voiture immatriculée en Suisse ?",
+      "answer": "CH",
+      "options": [
+        "CH",
+        "DK",
+        "SU",
+        "SE"
+      ],
+      "explanation": "Les codes ISO 3166-1 alpha-2 sont des codes pays de deux lettres définis dans la norme ISO 3166 (partie ISO 3166-1).",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-132",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_132.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-132-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quel bois sont faits les tableaux de bord des voitures de la marque Rolls-Royce ?",
+      "answer": "Noyer",
+      "options": [
+        "Sapin",
+        "Chêne",
+        "Noyer",
+        "Hêtre"
+      ],
+      "explanation": "« Chercher la perfection en tout. Prendre le meilleur de ce qui existe et l'améliorer. Et quand rien n'existe, le concevoir ».",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-132",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_132.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-132-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qu'est-ce qu'on ajoute à une moto pour qu'elle devienne un side-car ?",
+      "answer": "Un panier",
+      "options": [
+        "Deux roues",
+        "Un panier",
+        "Une selle",
+        "Un toit"
+      ],
+      "explanation": "Un pilote de side-car est souvent appelé « side-cariste », et son passager, le « singe » (surtout en compétition).",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-132",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_132.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-132-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle a été la première navette spatiale lancée du dos d'un Boeing 747 en 1977 ?",
+      "answer": "Enterprise",
+      "options": [
+        "Enterprise",
+        "Challenger",
+        "Columbia",
+        "Discovery"
+      ],
+      "explanation": "'Enterprise' ou OV-101 (Orbital Vehicle-101) est aussi la première navette spatiale américaine construite pour la NASA.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-132",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_132.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-132-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment circulaient les premières lettres par air aux USA en 1859 ?",
+      "answer": "En montgolfière",
+      "options": [
+        "En hélicoptère",
+        "En fusée",
+        "En avion",
+        "En montgolfière"
+      ],
+      "explanation": "Le maintien de la température de l'air dans une montgolfière nécessite l'emport d'un carburant et d'un brûleur.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-132",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_132.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-132-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le moyen de transport qui possède kiosque, coque et schnorkel ?",
+      "answer": "Le sous-marin",
+      "options": [
+        "Le side-car",
+        "Le tracteur",
+        "Le sous-marin",
+        "Le TGV"
+      ],
+      "explanation": "L'usage civil du sous-marin concerne, pour l'essentiel, la recherche océanographique et l'exploitation pétrolière.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-132",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_132.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-132-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le verdoyant pays du 'Taxi Mauve' de Michel Déon ?",
+      "answer": "L’Irlande",
+      "options": [
+        "La Suisse",
+        "L’Australie",
+        "Le Brésil",
+        "L’Irlande"
+      ],
+      "explanation": "Paru en 1973 aux éditions Gallimard, le roman a reçu le Grand prix du roman de l'Académie française la même année.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-132",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_132.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-132-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qu'était la Tucker '48, dont 51 exemplaires sont sortis à la fin des années 1940 ?",
+      "answer": "Une voiture",
+      "options": [
+        "Une locomotive",
+        "Une fusée",
+        "Une voiture",
+        "Une motocyclette"
+      ],
+      "explanation": "Les difficultés s'étant multipliées, la production cesse bien avant les mille qui devaient sortir pour ce millésime.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-132",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_132.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-132-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que transportent les camions du film franco-italien 'Le Salaire de la peur' ?",
+      "answer": "De la nitroglycérine",
+      "options": [
+        "Des armes",
+        "De la drogue",
+        "De la nitroglycérine",
+        "Des migrants"
+      ],
+      "explanation": "C'est l'un des seuls films à avoir remporté la même année la Palme d'or du Festival de Cannes et l'Ours d'or au Festival de Berlin.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-132",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_132.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-132-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que fabriquait Ferruccio Lamborghini avant de construire des voitures de luxe ?",
+      "answer": "Des tracteurs",
+      "options": [
+        "Des bateaux",
+        "Des tracteurs",
+        "Des avions",
+        "Des vélos"
+      ],
+      "explanation": "Lamborghini fera fortune en moins de dix ans en fondant la société Lamborghini Trattori (« Tracteurs Lamborghini »).",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-132",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_132.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-132-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment s'appelait le bateau des 200 premiers immigrants aux États-Unis ?",
+      "answer": "Mayflower",
+      "options": [
+        "Concord",
+        "Leeuwin",
+        "Mayflower",
+        "America"
+      ],
+      "explanation": "En 1620, il transportait des dissidents religieux anglais et d'autres Européens à la recherche d'un lieu pour pratiquer leur religion.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-132",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_132.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-132-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle couleur est le « T » du logo du métro de Stockholm ?",
+      "answer": "Bleue",
+      "options": [
+        "Orange",
+        "Verte",
+        "Bleue",
+        "Rouge"
+      ],
+      "explanation": "Le métro de Stockholm (Stockholms tunnelbana) est un ouvrage artistique mais aussi le seul métro de Suède.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-132",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_132.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-132-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle marque de voiture conduisait Grace Kelly quand elle trouva la mort ?",
+      "answer": "Une Rover",
+      "options": [
+        "Une Bentley",
+        "Une Mercedes",
+        "Une Rover",
+        "Une Rolls-Royce"
+      ],
+      "explanation": "Grace Kelly trouva la mort le 14 septembre 1982 sur la route de la Turbie qui avait servi de décor au film 'La Main au collet'.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-132",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_132.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-132-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle couleur étaient les premiers autobus roulant dans la ville de Genève ?",
+      "answer": "Orange",
+      "options": [
+        "Verte",
+        "Marron",
+        "Orange",
+        "Bleue"
+      ],
+      "explanation": "Le réseau compte, en 2016, 50 lignes exploitées par 231 autobus appartenant aux Transports publics genevois.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-132",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_132.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-132-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel instrument de locomotion à deux roues était fort en vogue en 1818 ?",
+      "answer": "La draisienne",
+      "options": [
+        "Le vélocipède",
+        "Le vélocar",
+        "La draisienne",
+        "La michaudine"
+      ],
+      "explanation": "Les anciennes draisiennes actuellement connues pèsent entre 17,3 kg (musée d'Apelborn) et 23 kg (musée de Munich).",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-132",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_132.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

@@ -1,0 +1,774 @@
+{
+  "id": "oq-25",
+  "title": "Animateurs télé en France",
+  "originalTitle": "Animateurs télé en France (Stars du petit écran)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_25.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    11
+  ],
+  "questions": [
+    {
+      "id": "oqdb-25-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui fut la présentatrice du journal de 20 heures sur TF1 de 2008 à 2012 ?",
+      "answer": "Laurence Ferrari",
+      "options": [
+        "Laurence Ferrari",
+        "Florence Schaal",
+        "Anne-Sophie Lapix",
+        "Béatrice Schönberg"
+      ],
+      "explanation": "Laurence Ferrari entend désormais « dépoussiérer l'actualité » en traitant toutes sortes de sujets.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-25",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_25.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-25-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a remplacé Claude Sérillon à la présentation du journal de 20 heures de France 2 ?",
+      "answer": "David Pujadas",
+      "options": [
+        "David Pujadas",
+        "Bruno Masure",
+        "Daniel Bilalian",
+        "Claude Sérillon"
+      ],
+      "explanation": "David Pujadas a remporté en 2007 le prix Roland-Dorgelès pour son « attachement à la qualité de la langue française ».",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-25",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_25.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-25-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a animé chaque jour 'C à vous' sur France 5 de 2009 à 2013 ?",
+      "answer": "Alessandra Sublet",
+      "options": [
+        "Karine Ferri",
+        "Alessandra Sublet",
+        "Sonia Dubois",
+        "Valérie Bénaïm"
+      ],
+      "explanation": "Alessandra Sublet est la fille de Joël Sublet, ancien footballeur de l'Olympique lyonnais ayant joué dans les années 1970.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-25",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_25.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-25-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel animateur de télévision a présenté huit saisons de 'Secret Story' ?",
+      "answer": "Benjamin Castaldi",
+      "options": [
+        "Benjamin Castaldi",
+        "Cyril Hanouna",
+        "Denis Brogniart",
+        "Marc-Olivier Fogiel"
+      ],
+      "explanation": "Benjamin Castaldi est le fils de Jean-Pierre Castaldi et Catherine Allégret mais aussi le petit-fils de l'actrice Simone Signoret.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-25",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_25.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-25-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a co-animé entre 2011 et 2018 une émission télévisée aux côtés de Nicolas Canteloup ?",
+      "answer": "Nikos Aliagas",
+      "options": [
+        "Nikos Aliagas",
+        "Jean-Pierre Foucault",
+        "Sébastien Cauet",
+        "Julien Courbet"
+      ],
+      "explanation": "En avril 2011, Nikos a doublé un personnage (Flamenco) dans le film 'Rio' aux côtés de Karine Ferri et Nicolas Richaud.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-25",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_25.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-25-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a succédé à Michel Denisot à la présentation du 'Grand Journal' sur Canal+ ?",
+      "answer": "Antoine de Caunes",
+      "options": [
+        "Jérôme Bonaldi",
+        "Philippe Gildas",
+        "Antoine de Caunes",
+        "Philippe Risoli"
+      ],
+      "explanation": "Antoines de Caunes est l'auteur-compositeur, sous le pseudonyme de Paul Persavon, de génériques d'émissions pour enfants.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-25",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_25.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-25-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel présentateur de télévision est un fin spécialiste des familles royales ?",
+      "answer": "Stéphane Bern",
+      "options": [
+        "Stéphane Bern",
+        "Michel Drucker",
+        "Gérard Holtz",
+        "Denis Brogniart"
+      ],
+      "explanation": "Stéphane Bern a fait son coming out dans le magazine 'Têtu' en octobre 2009, puis chez Mireille Dumas la même année.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-25",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_25.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-25-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel animateur télé est incontestablement associé à 'Koh-Lanta' ?",
+      "answer": "Denis Brogniart",
+      "options": [
+        "Sébastien Cauet",
+        "Jean-Pierre Foucault",
+        "Denis Brogniart",
+        "Nikos Aliagas"
+      ],
+      "explanation": "Marié en 2007, Denis Brogniart a quatre enfants (nés entre 2000 et 2007) dont trois avec son épouse Hortense.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-25",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_25.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-25-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a présenté jusque 2018 le 'Grand Concours des Animateurs' chaque année sur TF1 ?",
+      "answer": "Carole Rousseau",
+      "options": [
+        "Carole Rousseau",
+        "Alexandra Kazan",
+        "Sophie Favier",
+        "Nathalie Simon"
+      ],
+      "explanation": "Carole Rousseau a également présenté 'Scrupules' ainsi que les trois première saisons de l'émission 'MasterChef'.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-25",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_25.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-25-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel animateur télé vous proposait autrefois de le retrouver sur les 'Champs-Élysées' ?",
+      "answer": "Michel Drucker",
+      "options": [
+        "Michel Denisot",
+        "Guillaume Durand",
+        "Alexandre Devoise",
+        "Michel Drucker"
+      ],
+      "explanation": "Michel Drucker produit aux côtés de Françoise Coquet ses émissions depuis 1984 avec DMD Productions.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-25",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_25.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-25-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a le premier animé 'La revue de presse' dans 'Salut les Terriens!' ?",
+      "answer": "Stéphane Guillon",
+      "options": [
+        "Antoine de Caunes",
+        "Gaspard Proust",
+        "Laurent Baffie",
+        "Stéphane Guillon"
+      ],
+      "explanation": "Dans l'émission '20h10 pétantes', Stéphane Guillon a parfois été confronté à la colère, à l'hostilité, voire le mépris de certains invités.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-25",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_25.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-25-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces journalistes a été chroniqueuse télé auprès de Laurent Ruquier ?",
+      "answer": "Natacha Polony",
+      "options": [
+        "Natacha Polony",
+        "Virginie Mouzat",
+        "Anne Fulda",
+        "Élisabeth Quin"
+      ],
+      "explanation": "Le 19 mars 2015, Natacha Polony a reçu le prix du Livre incorrect 2015 pour son livre 'Ce pays qu'on abat'.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-25",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_25.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-25-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En télévision, quel polémiste et essayiste est souvent associé à Éric Naulleau ?",
+      "answer": "Éric Zemmour",
+      "options": [
+        "Éric Zemmour",
+        "Christophe Barbier",
+        "Maurice Joly",
+        "Jean Dutourd"
+      ],
+      "explanation": "Après avoir écrit plusieurs biographies d'hommes politiques, Éric Zemmour s'est tourné en 2006-2007 vers les sujets sociétaux.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-25",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_25.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-25-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces animateurs a co-produit de nombreuses émissions avec Catherine Barma ?",
+      "answer": "Thierry Ardisson",
+      "options": [
+        "Olivier Chiabodo",
+        "Bruno Gaccio",
+        "Pierre Bellemare",
+        "Thierry Ardisson"
+      ],
+      "explanation": "En 2005, Thierry Ardisson crée la société Ardimages dans le but de produire des longs-métrages et des séries pour la télévision.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-25",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_25.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-25-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel animateur de télévision reste connu pour ses démonstrations presque toujours défaillantes ?",
+      "answer": "Patrice Carmouze",
+      "options": [
+        "Laurent Baffie",
+        "Antoine de Caunes",
+        "Patrice Carmouze",
+        "Stéphane Guillon"
+      ],
+      "explanation": "Après une jeunesse passée à Limoges, Patrice Carmouze y obtiendra une licence de lettres et une maîtrise de droit.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-25",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_25.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-25-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui faisait chanter les jeunes enfants à la télévision le dimanche après-midi ?",
+      "answer": "Jacques Martin",
+      "options": [
+        "Thierry Beccaro",
+        "Alain Chabat",
+        "Bruno Masure",
+        "Jacques Martin"
+      ],
+      "explanation": "Fin cuisinier, Jacques Martin était le petit-fils de Joannès Ducerf, chef de cuisine du tsar Nicolas II de Russie.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-25",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_25.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-25-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel homme de télé est réputé pour son sens de la répartie et son humour grinçant ?",
+      "answer": "Laurent Baffie",
+      "options": [
+        "Laurent Baffie",
+        "Stéphane Bern",
+        "Gérard Holtz",
+        "Michel Drucker"
+      ],
+      "explanation": "En 2003, Laurent Baffie réalise son premier long métrage, 'Les Clefs de bagnole', dans lequel il partage la vedette avec Daniel Russo.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-25",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_25.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-25-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui dirige depuis 2003 les candidats de 'Fort Boyard' sur France 2 ?",
+      "answer": "Olivier Minne",
+      "options": [
+        "Michel Field",
+        "Frédéric Lopez",
+        "Florian Gazan",
+        "Olivier Minne"
+      ],
+      "explanation": "Olivier Minne a fait des apparitions dans la série 'Un gars, une fille', incarnant alors un des copains de Jean.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-25",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_25.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-25-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel animateur de télévision vous interdit de « toucher à son poste » ?",
+      "answer": "Cyril Hanouna",
+      "options": [
+        "Cyril Hanouna",
+        "Vincent Perrot",
+        "Pascal Sevran",
+        "Léon Zitrone"
+      ],
+      "explanation": "Le 7 juin 2013, Cyril Hanouna a remporté pour la première fois le tournoi des personnalités de Roland-Garros.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-25",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_25.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-25-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel était le salaire mensuel de Julien Lepers pour le jeu 'Questions pour un champion' ?",
+      "answer": "39 000 euros",
+      "options": [
+        "26 000 euros",
+        "13 000 euros",
+        "39 000 euros",
+        "47 000 euros"
+      ],
+      "explanation": "Julien Lepers est également chef d'entreprise via sa société Guilor, spécialisée en conseil pour les affaires et la gestion.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-25",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_25.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-25-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel animateur de télévision a toujours affirmé avoir Patrick Sabatier comme idole absolue ?",
+      "answer": "Marc-Olivier Fogiel",
+      "options": [
+        "Guy Lux",
+        "Bernard Montiel",
+        "Marc-Olivier Fogiel",
+        "Thomas Hugues"
+      ],
+      "explanation": "Parfois surnommé le « pitbull du PAF », Marc-Olivier Fogiel se distingue en interviews par un style agressif et cassant.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-25",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_25.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-25-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle animatrice a affirmé que « la quête de vérité » était sa première motivation ?",
+      "answer": "Élise Lucet",
+      "options": [
+        "Marie Drucker",
+        "Christine Ockrent",
+        "Élise Lucet",
+        "Audrey Pulvar"
+      ],
+      "explanation": "Elle qualifie son émission comme « un grain de sable qui empêche la machine de tourner » et donc « réveille les consciences ».",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-25",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_25.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-25-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quel animateur doit-on la célèbre phrase : 'Vive le sport sur France 2' ?",
+      "answer": "Gérard Holtz",
+      "options": [
+        "Georges Lang",
+        "Jean-Luc Lemoine",
+        "Laurent Mariotte",
+        "Gérard Holtz"
+      ],
+      "explanation": "Gérard Holtz a présenté le journal de 13 heures de France 2 entre septembre 2000 et juillet 2001.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-25",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_25.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-25-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel chroniqueur du Canal Football Club est parfois accompagné d'Hervé Mathoux ?",
+      "answer": "Pierre Ménès",
+      "options": [
+        "Pierre Ménès",
+        "Vincent Perrot",
+        "Laurent Bazin",
+        "Christian Ollivier"
+      ],
+      "explanation": "Du fait de son rôle de polémiste, Pierre Ménès est entré à plusieurs reprises en conflit avec différents acteurs du football.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-25",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_25.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-25-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel animateur de télévision est souvent surnommé le « Prince polonais » par William Leymergie ?",
+      "answer": "Laurent Romejko",
+      "options": [
+        "Laurent Romejko",
+        "Bruce Toussaint",
+        "Stéphane Plaza",
+        "Ariel Wizman"
+      ],
+      "explanation": "En 2000, il participe au lancement de la chaîne Santé Vie et présente un journal destiné aux professionnels de la santé.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-25",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_25.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-25-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le nom de la société de production de Julien Courbet ?",
+      "answer": "La Concepteria",
+      "options": [
+        "Coyote",
+        "Reservoir Prod",
+        "La Concepteria",
+        "Atlangtic"
+      ],
+      "explanation": "Julien Courbet est un cavalier émérite qui concourt sous son véritable nom (Frédéric Courbet).",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-25",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_25.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-25-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui fut le premier à animer 'La Chasse aux trésors' sur Antenne 2 en 1981 ?",
+      "answer": "Philippe Gildas",
+      "options": [
+        "Philippe Gildas",
+        "Jean Lanzi",
+        "Bruce Toussaint",
+        "Didier Lecat"
+      ],
+      "explanation": "Philippe Gildas a publié son autobiographie 'Comment réussir à la télévision quand on est petit, breton, avec de grandes oreilles'.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-25",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_25.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-25-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel animateur de télévision a chanté 'Cuitas les bananas' ?",
+      "answer": "Philippe Risoli",
+      "options": [
+        "Pascal Brunner",
+        "Philippe Risoli",
+        "Thierry Beccaro",
+        "Sébastien Cauet"
+      ],
+      "explanation": "Philippe Risoli a fait son grand retour à la télévision sur la chaîne Gulli en 2009 en y présentant 'L'École des fans'.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-25",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_25.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-25-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel animateur produit des émissions de télé grâce à sa société Coyote ?",
+      "answer": "Ch. Dechavanne",
+      "options": [
+        "O. Minne",
+        "Ch. Dechavanne",
+        "Th. Ardisson",
+        "V. Perrot"
+      ],
+      "explanation": "Christophe Dechavanne figure parmi les premières personnalités à avoir proposé le préservatif à un franc.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-25",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_25.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

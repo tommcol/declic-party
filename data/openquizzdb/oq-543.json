@@ -1,0 +1,798 @@
+{
+  "id": "oq-543",
+  "title": "Rétrospective 2021",
+  "originalTitle": "Rétrospective 2021 (Les événements marquants de l'année)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_543.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-543-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui fut nommé 46e Président des États-Unis sur les marches du Capitole ?",
+      "answer": "Joe Biden",
+      "options": [
+        "Joe Biden",
+        "Bill Clinton",
+        "Donald Trump",
+        "Barack Obama"
+      ],
+      "explanation": "Élu le 3 novembre 2020, Joe Biden est devenu à 78 ans le plus vieux président de l'histoire des Etats-Unis, après Donald Trump.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-543",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_543.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-543-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel événement sportif majeur de 2020 s'est finalement déroulé en 2021 ?",
+      "answer": "Euro 2020",
+      "options": [
+        "Roland-Garros",
+        "JO d'hiver",
+        "Euro 2020",
+        "Super Bowl"
+      ],
+      "explanation": "La France sera éliminée le 28 juin en huitième de finale par tirs aux buts face à la Suisse, après un match nul 3 buts à 3.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-543",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_543.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-543-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel français a passé une bonne partie de l'année 2021 à bord de l'ISS ?",
+      "answer": "Thomas Pesquet",
+      "options": [
+        "Patrick Baudry",
+        "Philippe Perrin",
+        "Michel Tognini",
+        "Thomas Pesquet"
+      ],
+      "explanation": "Thomas Pesquet fut le dixième Français à partir dans l'espace en décollant le 17 novembre 2016 à bord de Soyouz MS-03.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-543",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_543.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-543-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle commémoration des attentats du 11 septembre fut célébrée en 2021 ?",
+      "answer": "La vingtième",
+      "options": [
+        "La quinzième",
+        "La cinquième",
+        "La vingtième",
+        "La dixième"
+      ],
+      "explanation": "L'attaque des tours jumelles provoqua à elle seule le décès de 2 753 personnes, dont 343 pompiers et 60 policiers.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-543",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_543.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-543-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a remporté son 7ème Ballon d'Or, douze ans après avoir reçu le premier ?",
+      "answer": "Lionel Messi",
+      "options": [
+        "Cristiano Ronaldo",
+        "Neymar",
+        "Lionel Messi",
+        "Sergio Ramos"
+      ],
+      "explanation": "Il fut élu meilleur ailier droit de tous les temps par France Football et meilleur joueur de la décennie de 2011 à 2020 par l'IFFHS.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-543",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_543.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-543-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel virus a monopolisé les esprits et les médias durant toute l'année 2021 ?",
+      "answer": "COVID-19",
+      "options": [
+        "HTLV-1",
+        "COVID-19",
+        "Fièvre de Mayaro",
+        "Hépatite F"
+      ],
+      "explanation": "Cette maladie infectieuse émergente de type zoonose virale est causée par la souche de coronavirus SARS-CoV-2.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-543",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_543.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-543-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Outre-Rhin, quelle chancelière a cédé sa place suite aux élections législatives ?",
+      "answer": "Angela Merkel",
+      "options": [
+        "Angela Merkel",
+        "Steffi Lemke",
+        "Kristina Schröder",
+        "Anne Spiegel"
+      ],
+      "explanation": "Physicienne de formation, elle fut ministre fédérale des Femmes et de la Jeunesse au sein du cabinet Kohl IV, de 1991 à 1994.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-543",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_543.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-543-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel pays est devenu, suite au BREXIT, un pays tiers de l'Union Européenne ?",
+      "answer": "Royaume-Uni",
+      "options": [
+        "Royaume-Uni",
+        "Grèce",
+        "Suisse",
+        "Portugal"
+      ],
+      "explanation": "Les électeurs britanniques se sont prononcés à 51,89 % pour un retrait de leur pays de l'Union européenne et de l'Euratom.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-543",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_543.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-543-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a signé en 2021 une loi lui permettant de rester au pouvoir en Russie jusqu'en 2036 ?",
+      "answer": "Vladimir Poutine",
+      "options": [
+        "Boris Eltsine",
+        "Dmitri Medvedev",
+        "Viktor Zoubkov",
+        "Vladimir Poutine"
+      ],
+      "explanation": "Il a permis le rattachement de la péninsule de Crimée à la Russie, acte souvent perçu comme une violation du droit international.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-543",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_543.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-543-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Aux États-Unis, quel bâtiment fut pris d'assaut le 6 janvier 2021 ?",
+      "answer": "Capitole",
+      "options": [
+        "Capitole",
+        "Université Howard",
+        "Lincoln Memorial",
+        "Maison-Blance"
+      ],
+      "explanation": "Des militants pro-Trump s'étaient rassemblé à Washington D.C. en contestation des résultats de l'élection présidentielle de 2020.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-543",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_543.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-543-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel chanteur comique et populaire belge nous a quitté fin 2021 ?",
+      "answer": "Grand Jojo",
+      "options": [
+        "Arno",
+        "Monsieur R",
+        "Marc Zinga",
+        "Grand Jojo"
+      ],
+      "explanation": "Fin juin 2021, le Grand Jojo annoncera arrêter définitivement sa carrière, affaibli moralement et physiquement par le confinement.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-543",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_543.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-543-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel ancien président français fut jugé en 2021 dans l'affaire des écoutes ?",
+      "answer": "Nicolas Sarkozy",
+      "options": [
+        "François Hollande",
+        "Nicolas Sarkozy",
+        "François Mitterrand",
+        "Jacques Chirac"
+      ],
+      "explanation": "Après sa présidence de 2007 à 2012, Il reprendra en 2014 la présidence de l'UMP, qu'il fera renommer Les Républicains.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-543",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_543.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-543-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel membre de la famille royale britannique nous a quitté le 9 avril 2021 ?",
+      "answer": "Philip Mountbatten",
+      "options": [
+        "George de Hanovre",
+        "Édouard VIII",
+        "Ernest-Auguste",
+        "Philip Mountbatten"
+      ],
+      "explanation": "Prince de Grèce et de Danemark jusqu'à son mariage, il fut le cinquième enfant et seul fils du prince André de Grèce.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-543",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_543.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-543-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel cycliste a remporté l'édition 2021 du Tour de France ?",
+      "answer": "Tadej Pogacar",
+      "options": [
+        "Richard Carapaz",
+        "Wilco Kelderman",
+        "Tadej Pogacar",
+        "Jonas Vingegaard"
+      ],
+      "explanation": "Prévu initialement le 2 juillet à Copenhague, le départ du tour de France 2021 aura finalement lieu à Brest le 26 juin.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-543",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_543.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-543-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle société a changé de nom pour se transformer en Meta ?",
+      "answer": "Facebook",
+      "options": [
+        "Facebook",
+        "Microsoft",
+        "Google",
+        "Amazon"
+      ],
+      "explanation": "Initialement concentrée sur Facebook, la compagnie a racheté Instagram en 2012, ainsi que WhatsApp et Oculus VR en 2014.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-543",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_543.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-543-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En 2021, quel groupe a annoncé sa séparation dans une vidéo originale sur Youtube ?",
+      "answer": "Daft Punk",
+      "options": [
+        "Niagara",
+        "Aerosmith",
+        "Indochine",
+        "Daft Punk"
+      ],
+      "explanation": "Le groupe français Daft Punk était composé des musiciens Thomas Bangalter et Guy-Manuel de Homem-Christo.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-543",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_543.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-543-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui est devenue la première femme noire à entrer au Panthéon ?",
+      "answer": "Joséphine Baker",
+      "options": [
+        "Aretha Franklin",
+        "Nina Simone",
+        "Ella Fitzgerald",
+        "Joséphine Baker"
+      ],
+      "explanation": "Joséphine Baker a mis sa grande popularité au service de la lutte contre le racisme et pour l'émancipation des Noirs.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-543",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_543.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-543-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel homme politique et homme d'affaires français nous a quitté en octobre 2021 ?",
+      "answer": "Bernard Tapie",
+      "options": [
+        "Bernard Tapie",
+        "Jean-Louis Bianco",
+        "Louis Mermaz",
+        "Pierre Joxe"
+      ],
+      "explanation": "Impliqué dans plusieurs scandales financiers, il fut condamné dans l'affaire VA-OM, dans l'affaire du Phocéa et dans l'affaire Testut.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-543",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_543.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-543-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a remporté en 2021 le tournoi de tennis simple messieurs de Roland Garros ?",
+      "answer": "Novak Djokovic",
+      "options": [
+        "Novak Djokovic",
+        "Rafael Nadal",
+        "Daniil Medvedev",
+        "Roger Federer"
+      ],
+      "explanation": "En 2021, avec sa 9e victoire à l'Open d'Australie, il est devenu recordman de titres du Grand Chelem remportés sur surface dure.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-543",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_543.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-543-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel multi-milliardaire britannique a effectué le premier vol privé dans l'espace ?",
+      "answer": "Richard Branson",
+      "options": [
+        "Edgar Abbott",
+        "Jack Pritchard",
+        "James Christie",
+        "Richard Branson"
+      ],
+      "explanation": "À bord de son vaisseau VSS Unity, le coût environnemental de cette escapade fut estimé à 4,5 tonnes de CO2 par passager.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-543",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_543.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-543-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel anniversaire de la révolution du jasmin la Tunisie a-t-elle fêté en 2021 ?",
+      "answer": "Les 10 ans",
+      "options": [
+        "Les 15 ans",
+        "Les 20 ans",
+        "Les 5 ans",
+        "Les 10 ans"
+      ],
+      "explanation": "Des émeutes éclateront dans les principales villes de Turquie, et ce toutes les nuits de la semaine suivant l'anniversaire.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-543",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_543.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-543-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle astromobile a atterrit en janvier 2021 sur la planète Mars ?",
+      "answer": "Perseverance",
+      "options": [
+        "Spirit",
+        "Curiosity",
+        "Perseverance",
+        "Opportunity"
+      ],
+      "explanation": "Parti de Cap Canaveral le 30 juillet 2020, Perseverance réussit son atterissage sur Mars, dans le cratère Jezero autrefois rempli d'eau.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-543",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_543.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-543-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville s'est ouverte l'Exposition universelle de 2021 ?",
+      "answer": "Dubaï",
+      "options": [
+        "Dubaï",
+        "Milan",
+        "Astana",
+        "Shanghai"
+      ],
+      "explanation": "Ces grandes expositions publiques sont régulièrement tenues à travers le monde depuis le milieu du XIXe siècle.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-543",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_543.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-543-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel premier animateur de l'émission Koh-Lanta nous a quitté en 2021 ?",
+      "answer": "Hubert Auriol",
+      "options": [
+        "Hubert Auriol",
+        "Marc Coma",
+        "Cyril Despres",
+        "Cyril Neveu"
+      ],
+      "explanation": "En tant que pilote moto, il remporta à deux reprises le Paris Dakar en 1981 et 1983 avant d'arrêter après l'édition de 1987.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-543",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_543.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-543-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel ex casino des États-Unis fut complètement détruit avec 3 000 bâtons de dynamite ?",
+      "answer": "Trump Plaza",
+      "options": [
+        "Trump Plaza",
+        "Grand Hôtel",
+        "Estoril",
+        "Casablanca"
+      ],
+      "explanation": "Dans les années 1980, Donald Trump a investi le secteur des casinos d'Atlantic City, avec bien souvent de mauvais résultats.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-543",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_543.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-543-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui est devenu le premier champion du monde français de MotoGP ?",
+      "answer": "Fabio Quartararo",
+      "options": [
+        "Jorge Lorenzo",
+        "Fabio Quartararo",
+        "Marc Marquez",
+        "Joan Mir"
+      ],
+      "explanation": "Fabio Quartararo a dominé la saison 2021 avec cinq victoires et dix podiums, devenant à Misano champion du monde de MotoGP.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-543",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_543.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-543-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel pays fut frappé début 2021 par un séisme de magnitude 6.2 ?",
+      "answer": "Indonésie",
+      "options": [
+        "Indonésie",
+        "Angola",
+        "Afrique du Sud",
+        "Japon"
+      ],
+      "explanation": "Ce séisme a détruit en partie la ville de Mamuju, dont son hôpital faisant au moins 81 morts, à près de 150 km de Palopo City.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-543",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_543.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-543-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En 2021, dans quelle ville s'est déroulé le Concours Eurovision de la chanson ?",
+      "answer": "Rotterdam",
+      "options": [
+        "Rome",
+        "Rotterdam",
+        "Zurich",
+        "Bruxelles"
+      ],
+      "explanation": "Barbara Pravi fera honneur à la France en remportant la deuxième place avec la chanson « Voilà », derrière le groupe italien.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-543",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_543.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-543-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Long de 400 mètres, quel navire s'est retrouvé coincé en travers du canal de Suez ?",
+      "answer": "Ever Given",
+      "options": [
+        "Rokia Delmas",
+        "Ever Given",
+        "Costa Allegra",
+        "MSC Napoli"
+      ],
+      "explanation": "Impactant 10 % de l'économie mondiale, cet accident de parcours a coûté plus de cinq milliards de dollars par jour.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-543",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_543.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-543-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle somme un français a-t-il remporté à l'EuroMillions du 15 octobre 2021 ?",
+      "answer": "220 millions",
+      "options": [
+        "220 millions",
+        "260 millions",
+        "300 millions",
+        "180 millions"
+      ],
+      "explanation": "Dans la version la plus récente de l'EuroMillions, un joueur a environ 93 probabilités sur 100 de ne pas rembourser son ticket.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-543",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_543.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

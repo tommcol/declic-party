@@ -1,0 +1,798 @@
+{
+  "id": "oq-14",
+  "title": "Bretagne",
+  "originalTitle": "Bretagne (Entité culturelle à l'identité forte)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_14.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-14-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de départements compte la Bretagne, à l'extrémité ouest de la France ?",
+      "answer": "Quatre",
+      "options": [
+        "Deux",
+        "Cinq",
+        "Trois",
+        "Quatre"
+      ],
+      "explanation": "La Bretagne est située entre la Manche au nord, la mer Celtique à l'ouest et le golfe de Gascogne au sud.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-14",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_14.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-14-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment dit-on Bretagne en breton, langue parlée par 200 000 personnes en Bretagne ?",
+      "answer": "Breizh",
+      "options": [
+        "Fenoz",
+        "Breizh",
+        "Gomz",
+        "Kerne"
+      ],
+      "explanation": "La pratique traditionnelle du breton est majoritairement concentrée dans l'ouest de la péninsule.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-14",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_14.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-14-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle ville bretonne est connue pour ses alignements de plusieurs milliers de menhirs ?",
+      "answer": "Carnac",
+      "options": [
+        "Rumengol",
+        "Lorient",
+        "Carnac",
+        "Brest"
+      ],
+      "explanation": "Ce site mégalithique exceptionnel est constitué d'alignements de menhirs, de dolmens et d'allées couvertes.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-14",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_14.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-14-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle ville bretonne a pour habitants les briochins et les briochines ?",
+      "answer": "Saint-Brieuc",
+      "options": [
+        "Saint-Brieuc",
+        "Betton",
+        "Bruz",
+        "Brest"
+      ],
+      "explanation": "Préfecture des Côtes-d'Armor, Saint-Brieuc en est également la ville la plus peuplée.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-14",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_14.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-14-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel symbole celtique à trois branches est devenu très populaire en Bretagne ?",
+      "answer": "Triskèle",
+      "options": [
+        "Flèche",
+        "Chardon",
+        "Triskèle",
+        "Sablier"
+      ],
+      "explanation": "Le triskèle est considéré comme une caractéristique importante de l'art celtique à l'époque de la Tène.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-14",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_14.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-14-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quels genres de musique sont célébrés tous les ans à Lorient ?",
+      "answer": "Celtiques",
+      "options": [
+        "Celtiques",
+        "Religieuses",
+        "Cubaines",
+        "Classiques"
+      ],
+      "explanation": "Le Festival interceltique de Lorient trouve son origine dans l'accueil en 1971 d'une compétition de bagadou.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-14",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_14.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-14-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle course à la voile est très souvent associée au port de Saint-Malo ?",
+      "answer": "Route du Rhum",
+      "options": [
+        "Vendée Globe",
+        "Route du Rhum",
+        "Spi Dauphine",
+        "Transat anglaise"
+      ],
+      "explanation": "Le record de la traversée est détenu depuis 2014 par Loïck Peyron sur le Maxi Solo BP VII.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-14",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_14.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-14-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la préfecture du Finistère, département situé en région Bretagne ?",
+      "answer": "Quimper",
+      "options": [
+        "Vannes",
+        "Nantes",
+        "Brest",
+        "Quimper"
+      ],
+      "explanation": "Le Finistère fut créé en 1790 à l'instar de la majorité des départements français.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-14",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_14.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-14-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien peut-on compter de bandes noires et blanches sur le drapeau breton ?",
+      "answer": "Neuf",
+      "options": [
+        "Cinq",
+        "Sept",
+        "Neuf",
+        "Trois"
+      ],
+      "explanation": "Un canton supérieur (côté mât) de couleur blanche est quant à lui parsemé d'une multitude de mouchetures d'hermine.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-14",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_14.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-14-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À partir de quelle substance est réalisé le chouchen, proche de l'hydromel ?",
+      "answer": "Miel",
+      "options": [
+        "Lait",
+        "Sirop de menthe",
+        "Foie gras",
+        "Miel"
+      ],
+      "explanation": "Le chouchen se fabriquait autrefois plus particulièrement à partir de miel de sarrasin, jadis très présent en Bretagne.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-14",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_14.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-14-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En Haute-Bretagne, que désigne le gallo, faisant l'objet d'études universitaires ?",
+      "answer": "Une langue",
+      "options": [
+        "Un oiseau",
+        "Un dessert",
+        "Un symbole",
+        "Une langue"
+      ],
+      "explanation": "Contrairement au breton, le gallo ne bénéficie pas d'une longue tradition de défense et de protection.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-14",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_14.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-14-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel festival a lieu tous les ans sur la commune de Carhaix-Plouguer, dans le Finistère ?",
+      "answer": "Vieilles charrues",
+      "options": [
+        "Europavox",
+        "Musicalarue",
+        "Rocklang",
+        "Vieilles charrues"
+      ],
+      "explanation": "Ce festival annuel dure quatre jours et débute à la mi-juillet dans la commune de Carhaix-Plouguer.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-14",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_14.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-14-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel département français se dresse le phare de l'Île Vierge ?",
+      "answer": "Finistère",
+      "options": [
+        "Île et Vilaine",
+        "Finistère",
+        "Côtes-d'Armor",
+        "Morbihan"
+      ],
+      "explanation": "Ce phare fait l'objet d'un classement au titre des monuments historiques depuis le 23 mai 2011.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-14",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_14.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-14-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle ville est la capitale traditionnelle de la Cornouaille ?",
+      "answer": "Quimper",
+      "options": [
+        "Saint-Malo",
+        "Morlaix",
+        "Quimper",
+        "Lorient"
+      ],
+      "explanation": "Selon une étude réalisée en 2005, Quimper se classait en 22ème position des villes françaises où il faisait bon vivre.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-14",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_14.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-14-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville de Bretagne est situé le deuxième port militaire français ?",
+      "answer": "Brest",
+      "options": [
+        "Quimper",
+        "Brest",
+        "Nantes",
+        "Vannes"
+      ],
+      "explanation": "L'arsenal de Brest est un ensemble d'installations militaires et navales situé dans la rivière Penfeld, à Brest, dans le Finistère.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-14",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_14.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-14-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville de Bretagne peut-on admirer la cathédrale Saint-Pierre-et-Saint-Paul ?",
+      "answer": "Nantes",
+      "options": [
+        "Nantes",
+        "Brest",
+        "Saint-Brieuc",
+        "Lorient"
+      ],
+      "explanation": "On peut y admirer le tombeau et les gisants du duc François II de Bretagne et de son épouse Marguerite de Foix.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-14",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_14.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-14-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel était l'ancien nom du département des Côtes-d'Armor ?",
+      "answer": "Côtes-du-Nord",
+      "options": [
+        "Côtes franches",
+        "Côtes ciselées",
+        "Côtes du Roi",
+        "Côtes-du-Nord"
+      ],
+      "explanation": "Les Côtes-d'Armor sont limitrophes du Finistère à l'ouest, du Morbihan au sud et de l'Ille-et-Vilaine à l'est.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-14",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_14.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-14-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel célèbre navigateur et explorateur français est né à Saint-Malo en 1491 ?",
+      "answer": "Jacques Cartier",
+      "options": [
+        "Jean Dugain",
+        "Albert Falco",
+        "Charles Levasseur",
+        "Jacques Cartier"
+      ],
+      "explanation": "Un boulevard et une station du métro de Rennes portent le nom de Jacques Cartier, ainsi qu'un lycée public de Saint-Malo.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-14",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_14.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-14-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que mangerez-vous en achetant un petit-gris de Rennes sur un marché breton ?",
+      "answer": "Melon",
+      "options": [
+        "Saucisson",
+        "Bonbon",
+        "Sandwich",
+        "Melon"
+      ],
+      "explanation": "Il est caractérisé par une petite taille de fruit, une robe gris-verte et un goût très sucré.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-14",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_14.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-14-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle ville bretonne est surnommée La cité des peintres ?",
+      "answer": "Pont-Aven",
+      "options": [
+        "Vannes",
+        "Concarneau",
+        "Pont-Aven",
+        "Carnac"
+      ],
+      "explanation": "Pont-Aven était autrefois un bourg très animé : en 1900, on y comptait 40 hôtels, auberges et cafés.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-14",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_14.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-14-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Pour un breton, que représente le Gwenn ha Du, symbole de sa région ?",
+      "answer": "Drapeau",
+      "options": [
+        "Château",
+        "Gâteau",
+        "Drapeau",
+        "Bateau"
+      ],
+      "explanation": "D'autres drapeaux sont encore utilisés aujourd'hui afin de représenter cette région.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-14",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_14.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-14-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En Bretagne, que pouvez-vous contempler en regardant la Table des Marchand ?",
+      "answer": "Dolmen",
+      "options": [
+        "Statue",
+        "Dolmen",
+        "Tableau",
+        "Château-fort"
+      ],
+      "explanation": "Propriété de l'État, le dolmen fait l'objet d'un classement au titre des monuments historiques depuis 1889.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-14",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_14.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-14-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville peut-on admirer le château des ducs de Bretagne ?",
+      "answer": "Nantes",
+      "options": [
+        "Nantes",
+        "Morlaix",
+        "Quimper",
+        "Lorient"
+      ],
+      "explanation": "Devenu propriété de la ville de Nantes en 1915, le château est affecté à un usage touristique et muséal depuis 1924.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-14",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_14.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-14-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel écrivain a été enterré face à la mer sur le rocher du grand Bé, à Saint-Malo ?",
+      "answer": "Chateaubriand",
+      "options": [
+        "Rousseau",
+        "Montesquieu",
+        "Chateaubriand",
+        "Balzac"
+      ],
+      "explanation": "Chateaubriand est considéré comme l'un des précurseurs du romantisme français.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-14",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_14.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-14-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Pour quelle culture la ville de Paimpol est-elle célèbre ?",
+      "answer": "Haricot sec",
+      "options": [
+        "Haricot sec",
+        "Cerise jaune",
+        "Raisin blanc",
+        "Pomme"
+      ],
+      "explanation": "Construite autour de ses bassins, Paimpol est l'un des principaux ports de pêche et de plaisance donnant sur la Manche.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-14",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_14.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-14-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle commune de France se trouve le monument mégalithique La Roche-aux-Fées ?",
+      "answer": "Essé",
+      "options": [
+        "Retiers",
+        "Essé",
+        "Pont-Aven",
+        "Sainte-Colombe"
+      ],
+      "explanation": "Son nom vient d'une légende prétendant que les pierres auraient été apportées par des fées.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-14",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_14.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-14-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la ville la plus importante et la plus touristique de Belle-Île-en-Mer ?",
+      "answer": "Le Palais",
+      "options": [
+        "Sauzon",
+        "Le Palais",
+        "Bangor",
+        "Essé"
+      ],
+      "explanation": "Belle-Île est un plateau d'origine volcanique essentiellement constitué de schiste décomposé.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-14",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_14.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-14-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Pour quelle spécialité culinaire la ville de Guémené-sur-Scorff est-elle connue ?",
+      "answer": "Andouille",
+      "options": [
+        "Saucisse",
+        "Haricot sec",
+        "Boudin",
+        "Andouille"
+      ],
+      "explanation": "L'andouille de Guémené est une charcuterie à base de chaudins de porc enfilés les uns sur les autres pour former une andouille.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-14",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_14.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-14-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville de Bretagne se trouve la base de sous-marins de Keroman ?",
+      "answer": "Lorient",
+      "options": [
+        "Nantes",
+        "Saint-Malo",
+        "Landerneau",
+        "Lorient"
+      ],
+      "explanation": "Depuis la fin des années 1990, le site est reconverti en un pôle nautique spécialisé dans la plaisance et la course au large.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-14",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_14.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-14-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel chef d'oeuvre architectural de la renaissance la ville de Pontivy abrite-t-elle ?",
+      "answer": "Château",
+      "options": [
+        "Église",
+        "Moulin",
+        "Ferme",
+        "Château"
+      ],
+      "explanation": "Le château de Pontivy est le lieu de la « déclaration d'indépendance bretonne » de 1940.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-14",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_14.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

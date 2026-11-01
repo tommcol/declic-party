@@ -1,0 +1,798 @@
+{
+  "id": "oq-192",
+  "title": "Mike Horn",
+  "originalTitle": "Mike Horn (Aventurier de l'extrême)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_192.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-192-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle émission Mike Horn a-t-il accompagné une célébrité en pleine nature ?",
+      "answer": "À l'état sauvage",
+      "options": [
+        "X Factor",
+        "Pékin Express",
+        "À l'état sauvage",
+        "Nouvelle Star"
+      ],
+      "explanation": "Il s'agit de l'adaptation française de l'émission américaine 'Running Wild with Bear Grylls', diffusée sur NBC depuis 2014.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-192",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_192.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-192-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment se prénommait la femme de Mike Horn, rencontrée en 1990 ?",
+      "answer": "Cathy",
+      "options": [
+        "Cathy",
+        "Sandra",
+        "Marie",
+        "Sophie"
+      ],
+      "explanation": "Originaire de Nouvelle-Zélande, infirmière de formation, Cathy a rencontré son futur époux dans un café de Château-d'Œx, en 1990.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-192",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_192.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-192-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel nom Mike Horn a-t-il donné à son tour du monde par l'équateur ?",
+      "answer": "Latitude Zero",
+      "options": [
+        "Cap Zero",
+        "Land Zero",
+        "Latitude Zero",
+        "Ground Zero"
+      ],
+      "explanation": "Sur une idée de Mick Régnier, Mike Horn va parcourir plus de 40 000 km de juin 1999 à octobre 2000 sans moyen de transport motorisé.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-192",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_192.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-192-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle expédition Mike Horn a-t-il fait le tour du monde par le cercle polaire ?",
+      "answer": "Arktos",
+      "options": [
+        "Arktos",
+        "Taris",
+        "Fabuloso",
+        "Free to Run"
+      ],
+      "explanation": "Lors d'une expédition préliminaire pour atteindre le pôle Nord, Mike Horn fut contraint à l'abandon pour cause de gelures aux mains.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-192",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_192.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-192-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Avec quelle célébrité Mike Horn a-t-il parcouru la jungle du Sri Lanka ?",
+      "answer": "M. Pokora",
+      "options": [
+        "Shy'm",
+        "Michaël Youn",
+        "M. Pokora",
+        "Laure Manaudou"
+      ],
+      "explanation": "Pendant quatre jours, ils ont dû chasser, pêcher et construire des abris de fortune pour pallier l'absence de toute vie humaine.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-192",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_192.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-192-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle docu-aventure est présentée par Mike Horn sur M6 depuis 2015 ?",
+      "answer": "The Island",
+      "options": [
+        "Pékin Express",
+        "The Island",
+        "Koh-Lanta",
+        "Dropped"
+      ],
+      "explanation": "Un groupe d'individus doit tenter de survivre sans aide extérieure sur une île déserte pendant 28 jours avec une seule règle: survivre.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-192",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_192.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-192-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien d'années a duré l'expédition Pangaea menée par Mike Horn ?",
+      "answer": "4 ans",
+      "options": [
+        "3 ans",
+        "4 ans",
+        "2 ans",
+        "5 ans"
+      ],
+      "explanation": "De 2008 à 2012, l'expédition Pangaea a fait le tour du monde avec une centaine de jeunes de 15 à 20 ans qui se sont succédés.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-192",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_192.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-192-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Avec quelle célébrité Mike Horn a-t-il traversé le désert de Namibie ?",
+      "answer": "Michaël Youn",
+      "options": [
+        "M. Pokora",
+        "Laure Manaudou",
+        "Shy'm",
+        "Michaël Youn"
+      ],
+      "explanation": "C'est le 28 juin 2016 que l'émission tournée dans la région du Kaokoland a été vue par trois millions de téléspectateurs sur M6.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-192",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_192.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-192-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de numéro d''À l'état sauvage' Mike Horn a-t-il tourné avant de décider d'arrêter ?",
+      "answer": "Huit",
+      "options": [
+        "Quatre",
+        "Six",
+        "Dix",
+        "Huit"
+      ],
+      "explanation": "Michaël Youn, M.Pokora, Laure Manaudou, Ch. Dechavanne, Shy'm, Adriana Karembeu, Black M et Franck Gastambide seront choisis.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-192",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_192.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-192-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quand il n'est pas en expédition, dans quel pays réside l'explorateur Mike Horn ?",
+      "answer": "Suisse",
+      "options": [
+        "Canada",
+        "France",
+        "Inde",
+        "Suisse"
+      ],
+      "explanation": "Mike Horn, de son vrai nom Michael Frédérick Horn, est né le 16 juillet 1966 à Johannesbourg, en Afrique du Sud.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-192",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_192.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-192-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces activités Mike Horn n'a-t-il pas exercé ?",
+      "answer": "Pianiste",
+      "options": [
+        "Bûcheron",
+        "Pianiste",
+        "Vendangeur",
+        "Barman"
+      ],
+      "explanation": "Arrivé en Suisse en 1990 par le vol Johannesburg-Zurich, les premiers temps furent difficiles et il survit de petits boulots.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-192",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_192.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-192-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment se prénomme la première fille de l'explorateur Mike Horn ?",
+      "answer": "Annika",
+      "options": [
+        "Tatiana",
+        "Francesca",
+        "Jessica",
+        "Annika"
+      ],
+      "explanation": "Jessica, la seconde fille de Mike et Cathy (qui succombera à un cancer du sein en 2015), verra le jour l'année suivante.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-192",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_192.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-192-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel pays Mike Horn a-t-il commencé ses aventures en 1991 ?",
+      "answer": "Pérou",
+      "options": [
+        "Brésil",
+        "Colombie",
+        "Bolivie",
+        "Pérou"
+      ],
+      "explanation": "Son premier contact avec l'aventure a lieu en 1991 dans les Andes péruviennes en raft et parapente. Dès lors, le virus est en lui.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-192",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_192.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-192-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En combien de jours Mike Horn a-t-il traversé le Groenland ?",
+      "answer": "15 jours",
+      "options": [
+        "45 jours",
+        "30 jours",
+        "15 jours",
+        "60 jours"
+      ],
+      "explanation": "L'expédition de 808 jours a donné lieu à un film, 'Arktos : Le voyage intérieur de Mike Horn', réalisé et produit par Raphaël Blanc.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-192",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_192.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-192-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel bateau à voile de 35m en aluminium Mike Horn a-t-il fait construire ?",
+      "answer": "Pangaea",
+      "options": [
+        "Makalu",
+        "Arktos",
+        "Pangaea",
+        "Namib"
+      ],
+      "explanation": "Construit au Brésil, Mike Horn fera avec le Pangaea un tour du monde par les cinq continents sans moyen de transport motorisé.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-192",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_192.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-192-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel désert Mike Horn a-t-il décidé d'explorer en 2016 ?",
+      "answer": "Namib",
+      "options": [
+        "Nubie",
+        "Namib",
+        "Gobero",
+        "Kaouar"
+      ],
+      "explanation": "Le 8 mai 2016, il commence son expédition 'Pole2Pole' au départ de Monaco. Une fois arrivé à bon port, il explorera le Namib.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-192",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_192.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-192-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En combien de jours Mike Horn a-t-il traversé l'Antarctique en solitaire ?",
+      "answer": "57 jours",
+      "options": [
+        "57 jours",
+        "67 jours",
+        "47 jours",
+        "37 jours"
+      ],
+      "explanation": "C'est sans moteur et en solitaire que Mike Horn a parcouru près de 5100 kilomètres pour traverser intégralement l'Antarctique.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-192",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_192.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-192-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle île du Grand Nord canadien Mike Horn a-t-il traversé avec sa famille ?",
+      "answer": "Bylot",
+      "options": [
+        "Cameron",
+        "Bylot",
+        "Hans",
+        "Matty"
+      ],
+      "explanation": "Depuis 1925, le Canada a revendiqué la partie de l'Arctique entre 60° O et 141° O de longitude, s'étendant jusqu'au au pôle Nord.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-192",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_192.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-192-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment est aussi appelé le Gasherbrum I gravi par Mike Horn en 2007 ?",
+      "answer": "K5",
+      "options": [
+        "K7",
+        "K2",
+        "K6",
+        "K5"
+      ],
+      "explanation": "Le Gasherbrum I, aussi appelé K5 ou Hidden Peak (car extrêmement éloigné), est le onzième plus haut sommet du monde.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-192",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_192.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-192-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a réalisé 'Four Eight Thousands' sur l'expédition himalayenne de Mike Horn ?",
+      "answer": "David Ribeiro",
+      "options": [
+        "Drew Brees",
+        "David Ribeiro",
+        "Raphaël Blanc",
+        "Jean Buhler"
+      ],
+      "explanation": "Ce film, réalisé par David Ribeiro (connu entre autre pour le film 'La cité rose'), a été produit par On Air Productions.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-192",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_192.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-192-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quand Mike Horn a-t-il reçu le Laureus Award du meilleur sportif alternatif de l'année ?",
+      "answer": "2001",
+      "options": [
+        "2003",
+        "2005",
+        "2001",
+        "2007"
+      ],
+      "explanation": "Seul durant 18 mois, Mike Horn va connaître toutes sortes de péripéties avec 'Latitude Zéros', son tour du monde par l'équateur.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-192",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_192.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-192-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel sommet de l'Himalaya Mike Horn a-t-il atteint en 2014 ?",
+      "answer": "Makalu",
+      "options": [
+        "Annapurna",
+        "Manaslu",
+        "K2",
+        "Makalu"
+      ],
+      "explanation": "Le Makalu est un sommet de l'Himalaya culminant à 8 485 mètres d'altitude, à la frontière entre le Tibet, la Chine et le Népal.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-192",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_192.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-192-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel sport le père de Mike Horn a-t-il fait carrière ?",
+      "answer": "Rugby",
+      "options": [
+        "Football",
+        "Tennis",
+        "Rugby",
+        "Golf"
+      ],
+      "explanation": "Après avoir enseigné le sport et fait carrière en rugby, son père est décédé à quarante-deux ans lorsque Mike en avait dix-huit.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-192",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_192.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-192-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel était le grade de Mike Horn dans les forces spéciales sud-africaines ?",
+      "answer": "Lieutenant",
+      "options": [
+        "Général",
+        "Capitaine",
+        "Lieutenant",
+        "Sergent"
+      ],
+      "explanation": "De retour à la vie civile, il obtient un diplôme dans le domaine de la Science du mouvement humain à l'Université de Stellenbosch.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-192",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_192.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-192-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel pays Mike Horn a-t-il créé le No Limits Outdoor Activity Center ?",
+      "answer": "Suisse",
+      "options": [
+        "Suisse",
+        "Norvège",
+        "Finlande",
+        "Canada"
+      ],
+      "explanation": "Au même moment (1995), Mike Horn est devenu un expert pour la formation des guides de haute montagne suisses.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-192",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_192.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-192-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sur quel monocoque Mike Horn a-t-il battu un record du monde de traversée ?",
+      "answer": "Mari Cha III",
+      "options": [
+        "Shamrock",
+        "Paul-Ricard",
+        "Mari Cha III",
+        "Rainbow"
+      ],
+      "explanation": "Mike Horn a rejoint l'équipage du monocoque de 45 mètres en 1997, qui a battu le record du monde de la traversée de l'Atlantique.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-192",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_192.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-192-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel projet Mike Horn a-t-il combattu les stéréotypes associés aux requins ?",
+      "answer": "Shark Project",
+      "options": [
+        "Shark Project",
+        "Apex",
+        "Charc",
+        "Ailerons"
+      ],
+      "explanation": "Ce programme a aussi pour objectif de sensibiliser la population aux problèmes que rencontrent les océans sur toute la planète.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-192",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_192.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-192-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Avec quel explorateur norvégien Mike Horn est-il parti au Pole Nord en 2006 ?",
+      "answer": "Borge Ousland",
+      "options": [
+        "Olav Bjaaland",
+        "Borge Ousland",
+        "Gunnar Horn",
+        "Otto Sverdrup"
+      ],
+      "explanation": "Le 23 mars 2006, Borge Ousland et Mike Horn deviennent les premières personnes à atteindre le pôle Nord durant la nuit polaire.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-192",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_192.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-192-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel profond canyon du Pérou Mike Horn a-t-il descendu en hydrospeed ?",
+      "answer": "Colca",
+      "options": [
+        "Colca",
+        "Apurimac",
+        "Cotahuasi",
+        "Manseriche"
+      ],
+      "explanation": "Au fond du canyon (plus de 1 000 mètres de dénivelé avec Cabanaconde), le village de Sangalle sert de refuge aux trekkeurs.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-192",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_192.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-192-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel livre Mike Horn a-t-il dit : 'Chacun crée les conditions de sa propre liberté' ?",
+      "answer": "Libre !",
+      "options": [
+        "Objectif Pole Nord",
+        "Libre !",
+        "Grand Nord",
+        "Latitude zéro"
+      ],
+      "explanation": "Depuis plus de trente ans, il délivre des messages humanistes dans lesquels il montre toute la force de ses valeurs et de son mental.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-192",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_192.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

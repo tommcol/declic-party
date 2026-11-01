@@ -1,0 +1,798 @@
+{
+  "id": "oq-26",
+  "title": "Jeux olympiques",
+  "originalTitle": "Jeux olympiques",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_26.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-26-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quel historien et pédagogue français doit-on les Jeux olympiques modernes ?",
+      "answer": "Pierre de Coubertin",
+      "options": [
+        "Napoléon Bonaparte",
+        "Duc de Windsor",
+        "Pierre de Coubertin",
+        "Pie XI"
+      ],
+      "explanation": "La médaille Pierre-de-Coubertin, attribuée par le CIO, démontre un vrai esprit sportif aux Jeux olympiques.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-26",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_26.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-26-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien y a-t-il de couloirs dans une piscine olympique ?",
+      "answer": "10",
+      "options": [
+        "10",
+        "12",
+        "14",
+        "6"
+      ],
+      "explanation": "Seules les piscines d'eau douce homologuées conviennent aux compétitions organisées dans ces grands bassins.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-26",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_26.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-26-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a été élu « journaliste français le plus chauvin » des Jeux olympiques de 2012 ?",
+      "answer": "Nelson Monfort",
+      "options": [
+        "Nelson Monfort",
+        "Christian Jeanpierre",
+        "Michel Denisot",
+        "Georges Cazeneuve"
+      ],
+      "explanation": "Nelson Monfort commente le patinage artistique mais surtout interviewe les sportifs dans de nombreuses disciplines.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-26",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_26.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-26-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville se dérouleront les Jeux olympiques de 2016, malgré son insécurité ?",
+      "answer": "Rio de Janeiro",
+      "options": [
+        "Rio de Janeiro",
+        "Pékin",
+        "Tokyo",
+        "Londres"
+      ],
+      "explanation": "Ces JO seront les premiers à se dérouler en Amérique du Sud et les premiers à se dérouler dans un pays lusophone.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-26",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_26.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-26-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle épreuve olympique commence hors du stade pour se terminer dans ses murs ?",
+      "answer": "Le marathon",
+      "options": [
+        "Le cross-country",
+        "Le 10 000 m",
+        "Le trail",
+        "Le marathon"
+      ],
+      "explanation": "Le marathon est une épreuve sportive de course à pied qui se dispute généralement sur une distance de 42 kilomètres.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-26",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_26.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-26-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel des anneaux du drapeau olympique se retrouve le plus près du mât ?",
+      "answer": "Le bleu",
+      "options": [
+        "Le bleu",
+        "Le vert",
+        "Le jaune",
+        "Le rouge"
+      ],
+      "explanation": "Les 5 anneaux entrelacés représentent les cinq continents unis par l’olympisme, et les six couleurs représentent toutes les nations.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-26",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_26.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-26-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel pongiste belge a participé à ses septièmes Jeux olympiques à l'âge de 42 ans ?",
+      "answer": "Jean-Michel Saive",
+      "options": [
+        "Grégory Obert",
+        "Martin Bratanov",
+        "Yannick Vostes",
+        "Jean-Michel Saive"
+      ],
+      "explanation": "Jean-Michel Saive a également porté le drapeau de la délégation belge lors des Jeux olympiques de 1996 et 2004.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-26",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_26.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-26-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui est la première gymnaste à avoir obtenu un 10 au Jeux olympiques ?",
+      "answer": "Nadia Comaneci",
+      "options": [
+        "Nadia Comaneci",
+        "Doina Ignat",
+        "Tatiana Gutsu",
+        "Diana Mocanu"
+      ],
+      "explanation": "Nadia Comaneci, qui possède une double nationalité, a donné une dimension populaire et médiatique inégalée à ce sport.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-26",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_26.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-26-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la couleur de fond du drapeau olympique, célèbre pour ses cinq anneaux ?",
+      "answer": "Blanche",
+      "options": [
+        "Verte",
+        "Blanche",
+        "Bleue",
+        "Jaune"
+      ],
+      "explanation": "Aux Jeux de 2008, l'association Reporters sans frontières a détourné le drapeau olympique en remplaçant le fond blanc par un fond noir.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-26",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_26.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-26-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui était Premier ministre britannique lors des Jeux olympiques de Londres en 2012 ?",
+      "answer": "David Cameron",
+      "options": [
+        "Tony Blair",
+        "James Callaghan",
+        "Gordon Brown",
+        "David Cameron"
+      ],
+      "explanation": "Diplômé du Brasenose College de l'université d'Oxford, il fut conseiller politique de Margaret Thatcher puis de John Major.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-26",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_26.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-26-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel athlète Jamaïcain a marqué les Jeux olympiques de 2008 ?",
+      "answer": "Usain Bolt",
+      "options": [
+        "Dexter Lee",
+        "Ray Stewart",
+        "Lerone Clarke",
+        "Usain Bolt"
+      ],
+      "explanation": "Spécialiste des épreuves de sprint, Usain Bolt est également l'athlète le plus décoré des championnats du monde d'athlétisme.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-26",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_26.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-26-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle discipline olympique associe le saut à ski au ski de fond ?",
+      "answer": "Le combiné nordique",
+      "options": [
+        "Le snowboard",
+        "Le curling",
+        "Le biathlon",
+        "Le combiné nordique"
+      ],
+      "explanation": "Créé en Norvège à la fin du XIXe siècle, le combiné nordique est au programme olympique depuis la première édition.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-26",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_26.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-26-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En 2012, quel type de passeport est apparu aux Jeux olympiques de Londres ?",
+      "answer": "Biologique",
+      "options": [
+        "Thermique",
+        "Biologique",
+        "Automatique",
+        "Télépathique"
+      ],
+      "explanation": "Il permet de déceler des violations de la réglementation antidopage en détectant des variations anormales de marqueurs biologiques.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-26",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_26.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-26-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle sportive française a participé à sept éditions des Jeux olympiques ?",
+      "answer": "Jeannie Longo",
+      "options": [
+        "Sabrina Jonnier",
+        "Sophie Creux",
+        "Jeannie Longo",
+        "Marion Rousse"
+      ],
+      "explanation": "Au total, Jeannie Longo a remporté 9 titres de championne du monde sur route et un titre olympique.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-26",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_26.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-26-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel objet les femmes ne peuvent-elles jeter aux Jeux olympiques que depuis 1995 ?",
+      "answer": "Le marteau",
+      "options": [
+        "Le disque",
+        "Le marteau",
+        "Le poids",
+        "Le javelot"
+      ],
+      "explanation": "Le lancer du marteau pour femmes a eu lieu pour la première fois aux Jeux olympiques d'été de 2000 à Sydney.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-26",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_26.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-26-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel équipement très utilisé en athlétisme doit peser au moins 50 grammes ?",
+      "answer": "Le témoin",
+      "options": [
+        "Le sifflet",
+        "Le disque",
+        "Le témoin",
+        "Le javelot"
+      ],
+      "explanation": "Le but du relais est de parcourir la distance le plus rapidement possible tout en assurant la transmission d'un témoin.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-26",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_26.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-26-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle épreuve olympique peut-on trouver des hommes couchés par terre ?",
+      "answer": "Le tir",
+      "options": [
+        "Le tir",
+        "Le softball",
+        "Le curling",
+        "Le croquet"
+      ],
+      "explanation": "Le tir inclus deux types principaux de compétition, le tir sur cible avec des pistolets ou des carabines et le tir sur plateau.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-26",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_26.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-26-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel sportif, né le 30 juin 1985 à Towson, est le plus titré des Jeux olympiques ?",
+      "answer": "Michael Phelps",
+      "options": [
+        "Mark Spitz",
+        "Andriy Serdinov",
+        "Ian Thorpe",
+        "Michael Phelps"
+      ],
+      "explanation": "En grand bassin, l'Américain est le nageur le plus médaillé de l'histoire avec 22 médailles dont 18 d'or.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-26",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_26.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-26-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment appelle-t-on la période de quatre ans entre deux Jeux olympiques ?",
+      "answer": "Une olympiade",
+      "options": [
+        "Une olympiade",
+        "Une tierce",
+        "Un quinquennat",
+        "Un lustre"
+      ],
+      "explanation": "L'olympiade est la base de la chronologie du monde grec à partir d'Alexandre le Grand.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-26",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_26.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-26-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel athlète a été champion olympique du saut en longueur à Atlanta en 1996 ?",
+      "answer": "Carl Lewis",
+      "options": [
+        "Dwight Phillips",
+        "Carl Lewis",
+        "Linford Christie",
+        "Michael Johnson"
+      ],
+      "explanation": "Sa carrière, plusieurs fois interrompue, a duré de 1979 à 1996, année durant laquelle il a conquis son dernier titre olympique.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-26",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_26.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-26-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année les Jeux olympiques se sont-ils déroulés à Paris pour la première fois ?",
+      "answer": "1900",
+      "options": [
+        "1928",
+        "1920",
+        "1908",
+        "1900"
+      ],
+      "explanation": "Aucune cérémonie d'ouverture ou de fermeture n'a été prévue au programme, mis à part un défilé des gymnastes à Vincennes.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-26",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_26.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-26-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces sports ne figure pas parmi les épreuves disputées en pentathlon moderne ?",
+      "answer": "Le cyclisme",
+      "options": [
+        "Le cyclisme",
+        "La natation",
+        "La course à pied",
+        "Le tir au pistolet"
+      ],
+      "explanation": "Les épreuves du pentathlon moderne sont l'escrime, la natation, l'équitation, le tir au pistolet et la course à pied.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-26",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_26.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-26-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel chirurgien orthopédiste a été élu en 2001 président du Comité international olympique ?",
+      "answer": "Jacques Rogge",
+      "options": [
+        "Marc Hodler",
+        "Jacques Rogge",
+        "René Fasel",
+        "Jean-Claude Killy"
+      ],
+      "explanation": "Après une carrière sportive remplie, en voile comme skipper puis au rugby à XV, Jacques Rogge s'oriente vers l'administration sportive.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-26",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_26.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-26-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la première ville à avoir accueilli trois fois les Jeux olympiques ?",
+      "answer": "Londres",
+      "options": [
+        "Los Angeles",
+        "Athènes",
+        "Londres",
+        "Paris"
+      ],
+      "explanation": "Les JO sont un événement international majeur, regroupant les sports d'été et d'hiver, auquel des milliers d'athlètes participent.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-26",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_26.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-26-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle discipline olympique le parcours est-il toujours triangulaire ?",
+      "answer": "La voile",
+      "options": [
+        "Le canoë-kayak",
+        "Le triathlon",
+        "L'aviron",
+        "La voile"
+      ],
+      "explanation": "Le plus grand catamaran à voile jamais construit est le Douce France : 42 mètres de grand luxe et de teck.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-26",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_26.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-26-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En 1980, lequel de ces pays a totalement boycotté les Jeux olympiques de Moscou ?",
+      "answer": "La Norvège",
+      "options": [
+        "La Grande-Bretagne",
+        "La Norvège",
+        "La France",
+        "La Suède"
+      ],
+      "explanation": "Une cinquantaine de nations ont boycotté ces Jeux à la suite de l'invasion de l'Afghanistan par l'Union Soviétique en 1979.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-26",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_26.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-26-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel nageur olympique de Guinée équatoriale a connu une célébrité éphémère ?",
+      "answer": "Éric Moussambani",
+      "options": [
+        "Éric Moussambani",
+        "Bill Kirby",
+        "Ian Thorpe",
+        "Jens Kruppa"
+      ],
+      "explanation": "Son courage à Sydney en 2000 sera perçu comme un symbole de l'esprit olympique, après un 100 mètres nage libre en 1m 52s.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-26",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_26.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-26-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel animal a représenté la mascotte des Jeux olympiques de Moscou en 1980 ?",
+      "answer": "Un ours",
+      "options": [
+        "Un ours",
+        "Un loup",
+        "Un élan",
+        "Un renne"
+      ],
+      "explanation": "La mascotte officielle, l'ours Misha, a été imaginée par Victor Tchijikov, auteur de livres pour enfants.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-26",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_26.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-26-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de médailles olympiques ont été distribuées aux Jeux olympiques de 2012 ?",
+      "answer": "4 700",
+      "options": [
+        "2 900",
+        "4 700",
+        "3 500",
+        "5 600"
+      ],
+      "explanation": "Londres est la première ville à accueillir les Jeux olympiques modernes pour la troisième fois.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-26",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_26.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-26-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année les Jeux olympiques ont-ils été télévisés pour la première fois ?",
+      "answer": "1936",
+      "options": [
+        "1936",
+        "1952",
+        "1947",
+        "1963"
+      ],
+      "explanation": "Pour la première fois, la flamme olympique sera introduite dans une cérémonie d'ouverture de Jeux olympiques.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-26",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_26.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

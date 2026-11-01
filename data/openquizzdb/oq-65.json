@@ -1,0 +1,774 @@
+{
+  "id": "oq-65",
+  "title": "Faune et flore des champs",
+  "originalTitle": "Faune et flore des champs",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_65.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    16
+  ],
+  "questions": [
+    {
+      "id": "oqdb-65-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la couleur du coquelicot, très abondante dans les terrains fraîchement remués ?",
+      "answer": "Rouge",
+      "options": [
+        "Verte",
+        "Rouge",
+        "Jaune",
+        "Pourpre"
+      ],
+      "explanation": "Le coquelicot se distingue par la couleur rouge de ses fleurs et par le fait qu'elle forme souvent des tapis colorés visibles de très loin.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-65",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_65.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-65-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle sorte de passereau mange les graines des chardons ?",
+      "answer": "Chardonneret",
+      "options": [
+        "Rossignol",
+        "Pinson",
+        "Chardonneret",
+        "Fauvette"
+      ],
+      "explanation": "Son bec est conique et pointu, spécialement adapté pour prélever les graines des plantes comme le chardon.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-65",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_65.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-65-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle vitesse maximale peut atteindre un lièvre, petit mammifère proche du lapin ?",
+      "answer": "70 km/h",
+      "options": [
+        "70 km/h",
+        "90 km/h",
+        "110 km/h",
+        "50 km/h"
+      ],
+      "explanation": "Le lièvre, du haut de ses 60 cm, est avec le lapin des neiges le plus grand lièvre d'Europe.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-65",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_65.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-65-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle partie du corps de la taupe lui permet de s'orienter à reculons sous la terre ?",
+      "answer": "Sa queue",
+      "options": [
+        "Sa tête",
+        "Ses pattes",
+        "Sa queue",
+        "Son museau"
+      ],
+      "explanation": "Leurs caractéristiques générales sont celles des petits mammifères fouisseurs qui creusent et vivent dans des galeries souterraines.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-65",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_65.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-65-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment sont appelées les larves du hanneton qui sont radicivores ?",
+      "answer": "Vers blancs",
+      "options": [
+        "Nymphes",
+        "Chenilles",
+        "Vers blancs",
+        "Coques"
+      ],
+      "explanation": "Les vers blancs se transforment en nymphes. Au bout de 4 à 6 semaines, un coléoptère sortira du cocon.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-65",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_65.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-65-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quoi est faite la coquille de l'escargot de Bourgogne ?",
+      "answer": "Calcaire",
+      "options": [
+        "Calcaire",
+        "Schiste",
+        "Corne",
+        "Granit"
+      ],
+      "explanation": "La coquille en spirale de l'escargot de Bourgogne mesure jusqu'à 10 cm et est composée de calcaire.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-65",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_65.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-65-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment s'appelle la femelle du renard, encore fréquemment appelé goupil ?",
+      "answer": "Renarde",
+      "options": [
+        "Renarde",
+        "Renardelle",
+        "Renardine",
+        "Renardeaude"
+      ],
+      "explanation": "Les caractéristiques générales des renards sont celles des Canidés, avec des nuances pour chaque espèce.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-65",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_65.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-65-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de vertèbres possède un ver de terre, dont plus de 5 000 espèces sont connues ?",
+      "answer": "Aucune",
+      "options": [
+        "432",
+        "32",
+        "Aucune",
+        "178"
+      ],
+      "explanation": "Un ver de terre est un invertébré et ne possède donc aucune vertèbre.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-65",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_65.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-65-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Parmi ces propositions, laquelle désigne une sorte de « souris des champs » ?",
+      "answer": "Mulot",
+      "options": [
+        "Muscardin",
+        "Mulet",
+        "Musaraigne",
+        "Mulot"
+      ],
+      "explanation": "Les musaraignes, ressemblant à une souris vues de loin, malgré leur nez pointu, sont aussi parfois qualifiées par erreur de mulots.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-65",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_65.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-65-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel partie du corps de la mouche bleue lui permet de manger ?",
+      "answer": "La trompe",
+      "options": [
+        "La trompe",
+        "Les ailes",
+        "Les pattes",
+        "Les mâchoires"
+      ],
+      "explanation": "Grâce à cette trompe, la mouche bleue peut aspirer pollens et nectars.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-65",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_65.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-65-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle graminée cultivée comme céréale ou comme fourrage ne possède pas de barbe ?",
+      "answer": "Avoine",
+      "options": [
+        "Seigle",
+        "Orge",
+        "Blé",
+        "Avoine"
+      ],
+      "explanation": "L'avoine est la seule graminée à ne pas posséder de barbe, la barbe la plus longue se trouvant sur l'orge.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-65",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_65.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-65-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment le lièvre est-il parfois appelé en raison de sa robe brune ?",
+      "answer": "Capucin",
+      "options": [
+        "Augustin",
+        "Capucin",
+        "Jacobin",
+        "Chanoine"
+      ],
+      "explanation": "La robe brune du lièvre ressemble à la bure des moines capucins, d'où son nom.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-65",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_65.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-65-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelles plantes possédant des fruits à noyau peut-on trouver en lisière des forêts ?",
+      "answer": "Les prunelles",
+      "options": [
+        "Les prunelles",
+        "Les nénuphars",
+        "Le lierre grimpant",
+        "Les cactus"
+      ],
+      "explanation": "Leurs fruits, très astringents et acides, sont mangés par les oiseaux et les insectes en automne.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-65",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_65.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-65-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de points la coccinelle des légumineuses a-t-elle sur sa carapace ?",
+      "answer": "24",
+      "options": [
+        "24",
+        "44",
+        "14",
+        "34"
+      ],
+      "explanation": "La coccinelle des légumineuses possède des ailes oranges marquées de 24 points.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-65",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_65.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-65-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la particularité du vol du faucon crécerelle ?",
+      "answer": "Il est stationnaire",
+      "options": [
+        "Il est stationnaire",
+        "Il est en vagues",
+        "Il est actif",
+        "Il est vertical"
+      ],
+      "explanation": "Les ornithologues l'ont appelé ainsi à cause de son cri très aigu et plutôt désagréable.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-65",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_65.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-65-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De combien de degrés le faucon crécerelle peut-il tourner la tête ?",
+      "answer": "180",
+      "options": [
+        "320",
+        "270",
+        "180",
+        "120"
+      ],
+      "explanation": "Le faucon crécerelle peut ainsi surveiller sa zone de chasse sans se déplacer.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-65",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_65.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-65-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Considéré comme insecte ravageur, à quelle hauteur un criquet peut-il sauter ?",
+      "answer": "70 cm",
+      "options": [
+        "12 cm",
+        "70 cm",
+        "130 cm",
+        "210 cm"
+      ],
+      "explanation": "Par rapport à sa taille, aucun être vivant sur Terre n'est capable de sauter aussi haut.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-65",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_65.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-65-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment appelle-t-on un bois de cerf à douze excroissances ?",
+      "answer": "Un 12 cors",
+      "options": [
+        "Un 12 cors",
+        "Un 12 breuil",
+        "Un 12 sylve",
+        "Un 12 fourré"
+      ],
+      "explanation": "Le cerf perd ses bois en février et les nouveaux bois auront deux excroissances de plus.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-65",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_65.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-65-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel animal prétendument disparu depuis presque 100 ans est réapparu en 2009 ?",
+      "answer": "Le chat sauvage",
+      "options": [
+        "Le faisan",
+        "Le chat sauvage",
+        "La vipère",
+        "La loutre"
+      ],
+      "explanation": "Le chat sauvage a fait son apparition en Allemagne, après avoir disparu depuis 1912.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-65",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_65.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-65-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est l'autre nom de la primevère, une des premières fleurs du printemps ?",
+      "answer": "Coucou",
+      "options": [
+        "Coucou",
+        "Merle",
+        "Moineau",
+        "Pivert"
+      ],
+      "explanation": "Les petites fleurs jaunes de la primevère annoncent le printemps comme le fait le coucou, l'oiseau.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-65",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_65.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-65-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quand fleurit la camomille sauvage, parfois appelée camomille allemande ?",
+      "answer": "De mai à septembre",
+      "options": [
+        "De juillet à février",
+        "De janvier à avril",
+        "De mai à septembre",
+        "De mai à juillet"
+      ],
+      "explanation": "Cette plante médicinale, utilisée depuis l'Antiquité gréco-latine, est simplement appelée « camomille » en herboristerie.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-65",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_65.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-65-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel mustélidé, essentiellement rencontré en zone de montagne, change de fourrure en hiver ?",
+      "answer": "L'hermine",
+      "options": [
+        "L'hermine",
+        "Le blaireau",
+        "La loutre",
+        "Le putois"
+      ],
+      "explanation": "Vers la mi-mars l'hermine commence sa mue pour retrouver sa couleur d'été juste avant la saison des amours.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-65",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_65.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-65-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Avec quelle plante peut-on confondre l'ail des ours, jadis associé à la magie blanche ?",
+      "answer": "Muguet",
+      "options": [
+        "Muguet",
+        "Primevère",
+        "Basilic",
+        "Origan"
+      ],
+      "explanation": "La confusion, assez fréquente, peut être très dangereuse et entraîner la mort.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-65",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_65.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-65-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle manière les musaraignes explorent-elles leur environnement ?",
+      "answer": "Par écho",
+      "options": [
+        "Avec leur odorat",
+        "Par télépathie",
+        "Par infrarouge",
+        "Par écho"
+      ],
+      "explanation": "La musaraigne lance des cris stridents qui sont renvoyés par des obstacles.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-65",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_65.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-65-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle espèce de corneille nichant en colonies possède un bec clair ?",
+      "answer": "Le corbeau freux",
+      "options": [
+        "La corneille mantelée",
+        "La pie bavarde",
+        "La corneille noire",
+        "Le corbeau freux"
+      ],
+      "explanation": "Le freux possède une robe tout à fait caractéristique, mais on peut cependant confondre les oisillons avec les corneilles.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-65",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_65.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-65-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est l'autre nom du chevreuil mâle, petit animal agile et très rapide ?",
+      "answer": "Le brocard",
+      "options": [
+        "Le renne",
+        "Le daim",
+        "Le brocard",
+        "Le cerf"
+      ],
+      "explanation": "Tous les chevreuils appartiennent à la famille des cervidés. Les mâles portent des bois.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-65",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_65.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-65-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment les Américains nomment-ils le doryphore de la pomme de terre ?",
+      "answer": "Colorado beetle",
+      "options": [
+        "Big dory",
+        "Lady potatoe",
+        "Colorado beetle",
+        "Azirona bug"
+      ],
+      "explanation": "Le doryphore de la pomme de terre est originaire de l’État du Colorado, aux États-Unis.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-65",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_65.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-65-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces propositions ne désigne pas un coléoptère ?",
+      "answer": "Scarabée zèbre",
+      "options": [
+        "Cerf-volant",
+        "Scarabée zèbre",
+        "Bousier",
+        "Scarabée rhinocéros"
+      ],
+      "explanation": "La première paire d'ailes, quelquefois très colorée, appelée élytres, forme la carapace de ces insectes.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-65",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_65.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-65-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Avec son masque noir bordé de blanc, d'où le raton laveur est-il originaire ?",
+      "answer": "Amérique du Nord",
+      "options": [
+        "Amérique du Nord",
+        "Océanie",
+        "Afrique",
+        "Australie"
+      ],
+      "explanation": "Le raton laveur doit son nom à son habitude, plus ou moins réelle, de tremper ses aliments dans l’eau avant de les manger.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-65",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_65.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

@@ -1,0 +1,798 @@
+{
+  "id": "oq-113",
+  "title": "Culture et personnalités",
+  "originalTitle": "Culture et personnalités",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_113.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-113-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle poupée de 29 cm au succès international Ruth Handler est-elle la créatrice ?",
+      "answer": "Barbie",
+      "options": [
+        "Jasmine",
+        "Rosella",
+        "Blondine",
+        "Barbie"
+      ],
+      "explanation": "Barbie fait le régal des petites filles depuis 1959 et suscite aussi de nombreuses controverses suite à son image.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-113",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_113.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-113-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel célèbre chef cuisinier et restaurateur français s'est donné la mort le 24 février 2003 ?",
+      "answer": "Bernard Loiseau",
+      "options": [
+        "Bernard Loiseau",
+        "Patrick Bertron",
+        "Richard Leblanc",
+        "Arnaud Lallement"
+      ],
+      "explanation": "Né en 1951, il avait été formé chez les frères Troisgros à Roanne et avait bâti un empire, faisant une marque de son nom.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-113",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_113.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-113-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel écrivain belge a fait son entrée dans la collection 'La Pléiade' le 6 mars 2003 ?",
+      "answer": "Georges Simenon",
+      "options": [
+        "Roger Foulon",
+        "Georges Simenon",
+        "Michel Delville",
+        "Edmond Lacoste"
+      ],
+      "explanation": "Une belle consécration pour l'auteur qui côtoie Balzac, Proust et Kafka dans cette prestigieuse collection.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-113",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_113.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-113-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel ex-Beatle a donné un concert sur la place Rouge de Moscou le 24 mai 2003 ?",
+      "answer": "Paul McCartney",
+      "options": [
+        "John Lennon",
+        "Paul McCartney",
+        "George Harrison",
+        "Ringo Starr"
+      ],
+      "explanation": "L'événement très inhabituel dans ce pays rassembla 20 000 personnes dont le président russe Vladimir Poutine.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-113",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_113.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-113-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Des pommes, des poires et des scoubidous : quel chanteur nous a quitté en 2004 ?",
+      "answer": "Sacha Distel",
+      "options": [
+        "Eddy Mitchell",
+        "Sacha Distel",
+        "Enrico Macias",
+        "Claude Nougaro"
+      ],
+      "explanation": "La carrière du chanteur né le 29 janvier 1933 avait été lancée en 1958 avec la chanson 'Scoubidou'.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-113",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_113.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-113-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui est l'auteur du best-seller 'Da Vinci Code' publié à des millions d'exemplaires ?",
+      "answer": "Dan Brown",
+      "options": [
+        "Robert Bloch",
+        "Kent Anderson",
+        "David Baldacci",
+        "Dan Brown"
+      ],
+      "explanation": "L'auteur signe là un roman d'aventures ésotériques dont l'un des épisodes clés de situe dans l'église Saint-Sulpice à Paris.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-113",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_113.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-113-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Connu pour ses soirées blanches à Saint-Tropez, qui avait découvert entre autres Brel et Dalida ?",
+      "answer": "Eddie Barclay",
+      "options": [
+        "Eddie Barclay",
+        "Tristan Duval",
+        "Valéry Zeitoun",
+        "Johnny Stark"
+      ],
+      "explanation": "Célèbre pour ses huit mariages, Eddie Barclay avait rapporté des États-Unis le microsillon.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-113",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_113.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-113-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui s'était fait connaître avec sa chanson 'Gaby oh Gaby', en 1980 ?",
+      "answer": "Alain Bashung",
+      "options": [
+        "Florent Pagny",
+        "Alain Souchon",
+        "Alain Bashung",
+        "Patrick Bruel"
+      ],
+      "explanation": "Ses nombreux tubes lui avaient permis de devenir l'artiste français le plus récompensé avec 11 victoires de la musique.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-113",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_113.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-113-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel était le surnom de Michael Jackson qui nous quitta le 25 juin 2009 à seulement 50 ans ?",
+      "answer": "Roi de la pop",
+      "options": [
+        "Roi de la pop",
+        "Fils du roi",
+        "Dieu de la scène",
+        "Prince du raï"
+      ],
+      "explanation": "Star dès l'enfance avec ses frères, les Jackson Five, Michael Jackson a inventé les clips comme de véritables courts métrages.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-113",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_113.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-113-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Le 10 juin 2000, quel chanteur a fêté ses 40 ans de carrière sur le Champ-de-Mars ?",
+      "answer": "Johnny Hallyday",
+      "options": [
+        "Sacha Distel",
+        "Paul McCartney",
+        "Claude Nougaro",
+        "Johnny Hallyday"
+      ],
+      "explanation": "Un million de personnes se sont déplacées pour entendre vingt-quatre tubes du chanteur dans ce concert gratuit.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-113",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_113.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-113-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel artiste originaire de Toulouse avait chanté sa « ville rose » comme personne ?",
+      "answer": "Claude Nougaro",
+      "options": [
+        "Alain Bashung",
+        "Claude Nougaro",
+        "Marcel Amont",
+        "Francis Cabrel"
+      ],
+      "explanation": "« Troubadour baroque » comme il aimait à se définir, il a été emporté par une longue maladie le 4 mars 2004.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-113",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_113.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-113-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel chef cuisinier français a été sacré « meilleur cuisinier du monde » le 8 mars 2003 ?",
+      "answer": "Alain Ducasse",
+      "options": [
+        "Norbert Tarayre",
+        "Thierry Marx",
+        "Alain Ducasse",
+        "Philippe Etchebest"
+      ],
+      "explanation": "Directeur du Plaza Athénée à Paris, Alain Ducasse a reçu ce titre de l'Amarican Academy of Hspitality and Science.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-113",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_113.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-113-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel chanteur et acteur a donné quatre concerts au Parc des Princes pour fêter ses 60 ans ?",
+      "answer": "Johnny Hallyday",
+      "options": [
+        "Johnny Hallyday",
+        "Dick Rivers",
+        "Marc Lavoine",
+        "Alain Souchon"
+      ],
+      "explanation": "60 000 spectateurs se sont pressés le 15 juin pour le dernier de ces concerts et pour fêter cet anniversaire.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-113",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_113.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-113-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle actrice française est morte des suites de coups de son compagnon le 1er août 2003 ?",
+      "answer": "Marie Trintignant",
+      "options": [
+        "Marie Trintignant",
+        "Dominique Lavanant",
+        "Danielle Darrieux",
+        "Julie Depardieu"
+      ],
+      "explanation": "Marie Trintignant s'était violemment disputée avec son compagnon Bertrand Cantat, leader du groupe Noir Désir.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-113",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_113.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-113-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De son vrai nom Françoise Quirez, qui avait connu le succès dès son 1er livre, 'Bonjour tristesse' ?",
+      "answer": "Françoise Sagan",
+      "options": [
+        "Jeanne Moreau",
+        "Françoise Sagan",
+        "Ingrid Bergman",
+        "Michèle Morgan"
+      ],
+      "explanation": "Le « charmant petit monstre », tel que la surnommait François Mauriac, nous a laissé des livres d'un talent indiscutable.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-113",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_113.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-113-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel personnage le dessinateur de BD Morris a-t-il laissé plus seul que jamais en 2001 ?",
+      "answer": "Lucky Luke",
+      "options": [
+        "Cédric",
+        "Papyrus",
+        "Gaston",
+        "Lucky Luke"
+      ],
+      "explanation": "Après 97 albums, le dessinateur belge né en 1923 s'imposait comme un maître de la ligne claire.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-113",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_113.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-113-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle présentatrice télé le prince Felipe d'Espagne a-t-il épousé le 22 mai 2004 ?",
+      "answer": "Letizia Ortiz",
+      "options": [
+        "Joaquina Vedruna",
+        "Letizia Ortiz",
+        "Clara del Rey",
+        "Conchita Puig"
+      ],
+      "explanation": "Les tenants de la tradition trouvèrent sacrilège qu'un futur roi épouse une roturière, divorcée de surcroît.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-113",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_113.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-113-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À qui appartenaient les plus beaux yeux bleus d'Hollywood, définitivement fermés en 2008 ?",
+      "answer": "Paul Newman",
+      "options": [
+        "Robert Duvall",
+        "Paul Newman",
+        "Ben Kingsley",
+        "Henry Fonda"
+      ],
+      "explanation": "Ayant joué dans quelques soixante films, ses yeux bleus en avaient fait le séducteur d'Hollywood.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-113",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_113.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-113-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle femme fut élue à l'Académie française au fauteuil de Pierre Messmer ?",
+      "answer": "Simone Veil",
+      "options": [
+        "Roselyne Bachelot",
+        "Élisabeth Hubert",
+        "Simone Veil",
+        "Marisol Touraine"
+      ],
+      "explanation": "Figure majeure de la politique, plusieurs fois ministre, elle a été en 1975 l'instigatrice de la loi légalisant l'IVG.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-113",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_113.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-113-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel auteur français populaire a laissé San-Antonio orphelin le 6 juin 2000 ?",
+      "answer": "Frédéric Dard",
+      "options": [
+        "Pierre Forquin",
+        "François Brigneau",
+        "Frédéric Dard",
+        "Michel Carnal"
+      ],
+      "explanation": "Les prolifiques aventures de San Antonio ont révélé Frédéric Dard comme un maître du langage populaire.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-113",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_113.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-113-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le titre du premier livre pour enfants écrit par la chanteuse américaine Madonna ?",
+      "answer": "Les Roses Anglaises",
+      "options": [
+        "Les Roses Anglaises",
+        "Bonjour matin",
+        "Le beau Soleil",
+        "Il était une fois"
+      ],
+      "explanation": "C'est à Paris que la chanteuse a choisi d'effectuer le lancement international de cet ouvrage publié en 30 langues.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-113",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_113.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-113-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quel écrivain et critique littéraire fut attribué le très prestigieux 100e prix Goncourt ?",
+      "answer": "Jacques-Pierre Amette",
+      "options": [
+        "René Maran",
+        "Patrick Grainville",
+        "Henri Pourrat",
+        "Jacques-Pierre Amette"
+      ],
+      "explanation": "Ce prix anniversaire a été attribué quinze jours plus tôt que prévu, passant ainsi devant le prix Femina.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-113",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_113.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-113-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel auteur de romans d'espionnage a avoué en 2000 avoir bien été espion ?",
+      "answer": "John Le Carré",
+      "options": [
+        "Nicolas Freeling",
+        "Adam Hall",
+        "Eric Ambler",
+        "John Le Carré"
+      ],
+      "explanation": "Diplomate, John Le Carré travaillait en fait pour l'Intelligence Service depuis ses études à Berne.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-113",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_113.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-113-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel anthropologue fut élu à la quasi unanimité à l'Académie française le 17 mars 2005 ?",
+      "answer": "René Girard",
+      "options": [
+        "Alain Bertho",
+        "Didier Fassin",
+        "Alain Le Pichon",
+        "René Girard"
+      ],
+      "explanation": "Son œuvre anthropologique est formée à l'écart des courants philosophiques de son temps.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-113",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_113.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-113-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle chanteuse a retrouvé en 2001 sa photographie sur des paquets de préservatifs ?",
+      "answer": "Madonna",
+      "options": [
+        "Britney Spears",
+        "Lady Gaga",
+        "Madonna",
+        "Janet Jackson"
+      ],
+      "explanation": "La chanteuse qui n'avait pas donné son autorisation n'a pu les faire retirer, la photo étant exploitable à vie.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-113",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_113.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-113-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a mis un terme à sa carrière de styliste de haute couture le 22 janvier 2002 ?",
+      "answer": "Yves Saint Laurent",
+      "options": [
+        "Alexander McQueen",
+        "Christian Dior",
+        "Yves Saint Laurent",
+        "André Courrèges"
+      ],
+      "explanation": "Plusieurs milliers de personnes suivirent son dernier défilé sur le parvis du centre Pompidou, sur écran géant.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-113",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_113.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-113-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a créé la polémique en exposant ses œuvres pop kitsch au cœur du château de Versailles ?",
+      "answer": "Jeff Koons",
+      "options": [
+        "Lawrence Weiner",
+        "Jeff Koons",
+        "Andy Warhol",
+        "Mark Wallinger"
+      ],
+      "explanation": "L'installation du « roi du kitsch » chez le Roi-Soleil ne fut pas du goût de tous qui « porte atteinte aux intérêts de la France ».",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-113",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_113.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-113-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui fut le premier écrivain du Maghreb a revêtir l'habit vert de l'Académie française ?",
+      "answer": "Assia Djebar",
+      "options": [
+        "Assia Djebar",
+        "Anna Gréki",
+        "Salima Ghezali",
+        "Myriam Ben"
+      ],
+      "explanation": "À la fois essayiste, romancière et cinéaste, Assia Djebar est le premier écrivain du Maghreb à devenir « immortel ».",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-113",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_113.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-113-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle chanteuse islandaise fut récompensée en 2000 pour sa performance d'actrice ?",
+      "answer": "Björk",
+      "options": [
+        "Heioa",
+        "Soley",
+        "Arndis Halla",
+        "Björk"
+      ],
+      "explanation": "Björk fut consacrée par le 53e festival de Cannes pour son interprétation dans le film danois 'Dancer in the Dark'.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-113",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_113.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-113-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sous quel nom d'artiste le Chanteur Claude Dhotel nous a-t-il quitté le 14 mars 2000 ?",
+      "answer": "C. Jérôme",
+      "options": [
+        "Claude Brassens",
+        "Claude Nougaro",
+        "Alain Bashung",
+        "C. Jérôme"
+      ],
+      "explanation": "Ses chansons comme 'Kiss me' ou 'C'est moi' en avaient fait le meilleur représentant de la chanson de variété populaire.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-113",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_113.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

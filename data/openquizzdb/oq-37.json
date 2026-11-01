@@ -1,0 +1,749 @@
+{
+  "id": "oq-37",
+  "title": "Linux",
+  "originalTitle": "Linux (Non, ce n'est pas un pingouin !)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_37.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    19,
+    26
+  ],
+  "questions": [
+    {
+      "id": "oqdb-37-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel programmeur a créé et continue de diriger le développement du noyau de Linux ?",
+      "answer": "Linus Torvalds",
+      "options": [
+        "Steeve Jobs",
+        "Larry Ellison",
+        "Bill Gates",
+        "Linus Torvalds"
+      ],
+      "explanation": "Linus Torvalds a découvert l'informatique vers l'âge de 11 ans grâce à l'ordinateur de son grand-père, un Commodore VIC-20.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-37",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_37.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-37-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le principal atout de Linux, développé et maintenu par Linus Torvalds ?",
+      "answer": "Il est libre",
+      "options": [
+        "Il est Finlandais",
+        "Il est amusant",
+        "Il est beau",
+        "Il est libre"
+      ],
+      "explanation": "« Linux » est le nom couramment donné à tout système d'exploitation libre fonctionnant avec le noyau Linux.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-37",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_37.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-37-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel animal représentant Linux est aussi la mascotte de l'université d'Helsinki ?",
+      "answer": "Manchot",
+      "options": [
+        "Gnou",
+        "Manchot",
+        "Marmotte",
+        "Caribou"
+      ],
+      "explanation": "Dessiné en 1996, l'usage de ce manchot est libre et se retrouve dans de très nombreux projets et logotypes liés à Linux.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-37",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_37.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-37-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle commande Linux, basée sur la commande UNIX, permet d'effacer un fichier ?",
+      "answer": "Rm",
+      "options": [
+        "Del",
+        "Delete",
+        "Rm",
+        "Rem"
+      ],
+      "explanation": "De par la filiation avec UNIX, la ligne de commande est toujours disponible dans GNU/Linux, quelle que soit la distribution.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-37",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_37.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-37-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces propositions désigne une distribution Linux fondée en 1993 ?",
+      "answer": "Red Hat",
+      "options": [
+        "Red Hat",
+        "Souze",
+        "Zubuntu",
+        "Mandrika"
+      ],
+      "explanation": "Red Hat est l'une des entreprises dédiées aux logiciels Open Source les plus importantes et les plus reconnues.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-37",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_37.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-37-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel système d'exploitation mobile majeur de l'industrie s'appuie sur un noyau Linux ?",
+      "answer": "Android",
+      "options": [
+        "iOS",
+        "Android",
+        "Windows Phone",
+        "BlackBerry 10"
+      ],
+      "explanation": "En 2015, Android était le système d'exploitation le plus utilisé dans le monde avec plus de 80 % de parts de marché.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-37",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_37.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-37-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sous Linux, comment appelle-t-on les logiciels assemblés autour du noyau ?",
+      "answer": "Distribution",
+      "options": [
+        "Logithèque",
+        "Distribution",
+        "Intégré",
+        "Progiciel"
+      ],
+      "explanation": "Il existe une très grande variété de distributions, ayant chacune des objectifs et une philosophie particulière.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-37",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_37.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-37-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel serveur web présent sous Linux est aussi présent sur les serveurs du monde entier ?",
+      "answer": "Apache",
+      "options": [
+        "Mohican",
+        "Comanche",
+        "Sioux",
+        "Apache"
+      ],
+      "explanation": "Depuis avril 1996, selon l'étude permanente de Netcraft, Apache est devenu le serveur HTTP le plus répandu sur Internet.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-37",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_37.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-37-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le nom de la mascotte de Linux, connue des mordus du système d'exploitation ?",
+      "answer": "Tux",
+      "options": [
+        "Tux",
+        "Gnu",
+        "Puffy",
+        "Wilber"
+      ],
+      "explanation": "Le dessin du personnage a été choisi à l'issue d'un concours organisé en 1996, remporté par Larry Ewing.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-37",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_37.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-37-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Parmi ces commandes Linux, laquelle affiche à l'écran le contenu d'un fichier texte ?",
+      "answer": "Cat",
+      "options": [
+        "Man",
+        "Type",
+        "Ls",
+        "Cat"
+      ],
+      "explanation": "La différence essentielle de Linux par rapport à d'autres systèmes d'exploitation concurrents est d'être un système d'exploitation libre.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-37",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_37.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-37-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année Linus Torvalds a-t-il livré la première version du noyau Linux ?",
+      "answer": "1991",
+      "options": [
+        "1995",
+        "1993",
+        "1991",
+        "1997"
+      ],
+      "explanation": "En 1991, les compatibles PC dominent le marché des ordinateurs personnels et fonctionnent généralement sous MS-DOS ou Windows.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-37",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_37.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-37-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel ancien mot bantou désigne une célèbre distribution Linux ?",
+      "answer": "Ubuntu",
+      "options": [
+        "Fedora",
+        "Mandriva",
+        "Gentoo",
+        "Ubuntu"
+      ],
+      "explanation": "Le nom de la distribution provient d'un ancien mot bantou qui signifie « Je suis ce que je suis grâce à ce que nous sommes tous ».",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-37",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_37.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-37-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel navigateur web et gestionnaire de fichiers est utilisé par défaut pour KDE ?",
+      "answer": "Konqueror",
+      "options": [
+        "Firefox",
+        "Chrome",
+        "Konqueror",
+        "Netscape"
+      ],
+      "explanation": "Konqueror peut également afficher le contenu d'un serveur FTP, permettre de parcourir le réseau local et de visualiser des fichiers.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-37",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_37.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-37-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel nom porte la distribution française de Linux, simple à installer et à utiliser ?",
+      "answer": "Mandriva",
+      "options": [
+        "SUSE",
+        "Mandriva",
+        "Debian",
+        "Slackware"
+      ],
+      "explanation": "Ciblant à la fois le grand public et les professionnels, cette distribution GNU/Linux est construite autour de KDE.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-37",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_37.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-37-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel type de fichiers est pris en compte par le gestionnaire de paquets intégré à Ubuntu ?",
+      "answer": ".deb",
+      "options": [
+        ".dev",
+        ".rss",
+        ".deb",
+        ".rpm"
+      ],
+      "explanation": "Par défaut, Ubuntu est installé avec une pluralité de logiciels libres tels que LibreOffice, Firefox, Thunderbird et Transmission.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-37",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_37.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-37-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sous Linux, quelle commande est utilisée pour créer un compte utilisateur ?",
+      "answer": "Useradd",
+      "options": [
+        "Mkaccount",
+        "Adduser",
+        "Useradd",
+        "Passwd"
+      ],
+      "explanation": "Grâce à sa ligne de commande, scientifiques, ingénieurs et développeurs comptent parmi ses plus fréquents utilisateurs.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-37",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_37.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-37-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel projet sont tirés les outils gravitant autour de Linux ?",
+      "answer": "GNU",
+      "options": [
+        "Mimix",
+        "BSD",
+        "iOS",
+        "GNU"
+      ],
+      "explanation": "GNU est un projet de système d'exploitation libre lancé en 1983 par Richard Stallman, puis maintenu par le projet GNU.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-37",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_37.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-37-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle distribution Linux est dérivé le système d'exploitation Ubuntu ?",
+      "answer": "Debian",
+      "options": [
+        "Slackware",
+        "Debian",
+        "Fedora",
+        "Red Hat"
+      ],
+      "explanation": "Ancien développeur Debian, Mark Shuttleworth souhaitait proposer une version plus facile d'accès pour les novices.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-37",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_37.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-37-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel environnement graphique de type « fenêtré » est utilisé sous Linux ?",
+      "answer": "X Window",
+      "options": [
+        "K Window",
+        "Z Window",
+        "X Window",
+        "L Window"
+      ],
+      "explanation": "Cet environnement graphique gère l'interaction homme-machine par l'écran, la souris et le clavier de certains ordinateurs en réseau.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-37",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_37.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-37-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel programmeur et militant du logiciel libre a créé le Projet GNU en 1984 ?",
+      "answer": "Richard Stallman",
+      "options": [
+        "Linus Torvalds",
+        "Richard Stallman",
+        "Alan Cox",
+        "John Neumann"
+      ],
+      "explanation": "Richard Stallman consacre la majeure partie de son temps à la promotion du logiciel libre auprès de divers publics et assemblées.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-37",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_37.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-37-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel lecteur multimédia ressemblant à « Winamp » est souvent utilisé sous Linux ?",
+      "answer": "XMMS",
+      "options": [
+        "Tomahawk",
+        "Spotify",
+        "XMMS",
+        "Mplayer"
+      ],
+      "explanation": "XMMS fut originellement codé sous le nom de « X11Amp » par Peter et Mikal Alm en novembre 1997, pour combler un manque sous GNU/Linux.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-37",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_37.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-37-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle société financée par le sud-africain Mark Shuttleworth commandite Ubuntu ?",
+      "answer": "Canonical",
+      "options": [
+        "Canonical",
+        "Pentax",
+        "Panasonic",
+        "Nikon"
+      ],
+      "explanation": "La société Canonical, basée sur l'Île de Man, a été créée en 2004 et opère dans 30 pays différents, employant 500 personnes.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-37",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_37.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-37-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Avec quel acteur du monde Linux la société Microsoft a-t-elle signé un important accord ?",
+      "answer": "SUSE",
+      "options": [
+        "Red Hat",
+        "Mandriva",
+        "Ubuntu",
+        "SUSE"
+      ],
+      "explanation": "Apparue au début de l'année 1994, SUSE est en effet la plus ancienne distribution commerciale encore existante.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-37",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_37.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-37-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "La station spatiale internationale a abandonné Windows au profit de quelle distribution Linux ?",
+      "answer": "Debian",
+      "options": [
+        "Ubuntu",
+        "Debian",
+        "SUSE",
+        "Red Hat"
+      ],
+      "explanation": "Debian est utilisée comme base de nombreuses autres distributions telles que Knoppix et Ubuntu, qui rencontrent un grand succès.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-37",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_37.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-37-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel graphiste a dessiné en 1996 le manchot Tux initial, mascotte du projet Linux ?",
+      "answer": "Larry Ewing",
+      "options": [
+        "Larry Ewing",
+        "Rob Janoff",
+        "Wes Wilson",
+        "Jeffrey Lynch"
+      ],
+      "explanation": "Programmeur américain, Larry Ewing a réalisé la mascotte Tux avec l'aide du logiciel libre « The GIMP ».",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-37",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_37.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-37-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces jeux tourne nativement sous GNU/Linux ?",
+      "answer": "Quake III Arena",
+      "options": [
+        "Super Mario Kart",
+        "Quake III Arena",
+        "Zelda",
+        "Splinter Cell"
+      ],
+      "explanation": "Le jeu développé par ID Software a également été publié sur Macintosh, Dreamcast, PlayStation 2 et sur Xbox Live Arcade.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-37",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_37.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-37-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle console de jeu open source possède un système d'exploitation Linux compilé ?",
+      "answer": "Pandora",
+      "options": [
+        "GP32",
+        "N-Gage",
+        "Pandora",
+        "Game Gear"
+      ],
+      "explanation": "La Pandora était capable à sa sortie de lancer « Quake », « Quake II » et « Quake III » Arena sans ralentissement.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-37",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_37.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-37-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment fut initialement appelé le projet Linux, devenu par la suite une marque ?",
+      "answer": "Freax",
+      "options": [
+        "Longhorn",
+        "Panther",
+        "Freax",
+        "Serval"
+      ],
+      "explanation": "Le projet Freax trouve son nom définitif grâce à Ari Lemmke qui héberge le travail de Linus Torvalds dans un répertoire nommé « Linux ».",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-37",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_37.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

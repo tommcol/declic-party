@@ -1,0 +1,798 @@
+{
+  "id": "oq-244",
+  "title": "Fiction pour tous",
+  "originalTitle": "Fiction pour tous (De la littérature au cinéma)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Catherine De Smeytere",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_244.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-244-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel acteur interprète le héros du film « Independance Day », sorti en 1996 ?",
+      "answer": "Will Smith",
+      "options": [
+        "Jeff Goldblum",
+        "Bruce Willis",
+        "Tom Cruise",
+        "Will Smith"
+      ],
+      "explanation": "« Independance Day » est ressorti en 2010 en version longue (édition spéciale) avec huit minutes de scènes supplémentaires.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-244",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_244.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-244-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a imaginé le scénario de la saga « Star Wars » dans les années 1970 ?",
+      "answer": "Georges Lucas",
+      "options": [
+        "Quentin Tarantino",
+        "James Cameron",
+        "Georges Lucas",
+        "J.J. Abrams"
+      ],
+      "explanation": "George Lucas est également le créateur et scénariste de la saga « Indiana Jones », réalisée par son ami Steven Spielberg.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-244",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_244.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-244-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment pourriez-vous traduire en français le I de « A.I. » ?",
+      "answer": "Intelligence",
+      "options": [
+        "Inaccessible",
+        "Impossible",
+        "Iréel",
+        "Intelligence"
+      ],
+      "explanation": "« A.I. Intelligence artificielle » est un film de science-fiction écrit et réalisé par Steven Spielberg, sur une idée de Stanley Kubrick.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-244",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_244.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-244-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sur quelle planète de notre Système solaire se déroule l'action du film « John Carter » ?",
+      "answer": "Mars",
+      "options": [
+        "Pluton",
+        "Jupiter",
+        "Saturne",
+        "Mars"
+      ],
+      "explanation": "Il s'agit d'une libre adaptation du roman « Une princesse de Mars » de l'auteur américain Edgar Rice Burroughs, paru en 1917.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-244",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_244.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-244-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel acteur interprète un homme bicentenaire dans un film de 1999 ?",
+      "answer": "Robin Williams",
+      "options": [
+        "Sam Neil",
+        "Robin Williams",
+        "Guy Pearce",
+        "Kevin Spacey"
+      ],
+      "explanation": "L'intrigue du film explore les questions d'humanité, esclavage, liberté intellectuelle, conformité, sexe, amour et de mortalité.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-244",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_244.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-244-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a racheté la société de production Lucasfilm fondée par George Lucas ?",
+      "answer": "Disney",
+      "options": [
+        "Pixar",
+        "Disney",
+        "Films du plat pays",
+        "Plan B"
+      ],
+      "explanation": "Pixar Animation Studios, créée en 1979 par George Lucas, fut vendue à Steve Jobs, devenant ainsi une filiale de Disney en 2006.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-244",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_244.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-244-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui est Leeloominaï Lekatariba Laminatchaï Ekbat De Sebat ?",
+      "answer": "Cinquième élément",
+      "options": [
+        "Chanteuses lyrique",
+        "Grande prêtresse",
+        "Cinquième élément",
+        "Serveuse asiatique"
+      ],
+      "explanation": "Pour le rôle de Leeloo, 8 000 actrices se présentèrent aux auditions, Luc Besson n'en ayant rencontré personnellement que 300.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-244",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_244.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-244-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel acteur talentueux et sexy s'est retrouvé « Seul sur Mars » ?",
+      "answer": "Matt Damon",
+      "options": [
+        "Clive Owen",
+        "Matt Damon",
+        "Bruce Willis",
+        "Will Smith"
+      ],
+      "explanation": "Adepte du concept, Matt Damon a accepté d'interpréter le personnage de Mark Watney deux jours après avoir reçu le scénario.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-244",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_244.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-244-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que surveillent les membres de l'organisation ultra-secrète Men in Black ?",
+      "answer": "Extraterrestres",
+      "options": [
+        "Animaux",
+        "Ouragans",
+        "Présidents",
+        "Extraterrestres"
+      ],
+      "explanation": "Grâce à leurs technologies avancées, ils sont virtuellement inexistants, effaçant la mémoire des témoins gênants.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-244",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_244.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-244-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui utilise le côté lumineux de la Force dans la saga « Star Wars » ?",
+      "answer": "Chevaliers Jedi",
+      "options": [
+        "Clones",
+        "Siths",
+        "Robots",
+        "Chevaliers Jedi"
+      ],
+      "explanation": "La Force semble être une sorte d'énergie omniprésente et mystérieuse dont personne n'est encore arrivé à percer l'origine.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-244",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_244.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-244-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle série a-t-on découvert Olivia Cooke, présente dans le film « The Signal » ?",
+      "answer": "Bates Motel",
+      "options": [
+        "Game of Thrones",
+        "Westworld",
+        "Bates Motel",
+        "Vampire Diaries"
+      ],
+      "explanation": "En 2018, elle tourne son premier blockbuster pour « Ready Player One », long métrage de science-fiction réalisé par Steven Spielberg.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-244",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_244.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-244-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a reçu plusieurs prix pour les costumes du film « Le Cinquième Élément » ?",
+      "answer": "Jean-Paul Gaultier",
+      "options": [
+        "Pierre Cardin",
+        "Coco Chanel",
+        "John Galiano",
+        "Jean-Paul Gaultier"
+      ],
+      "explanation": "L'enfant terrible de la mode est mondialement considéré comme un symbole de la culture française et est devenu une icône.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-244",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_244.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-244-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel acteur incarne l'agent d'assurance Jacq Vaucan dans le film « Automata » ?",
+      "answer": "Antonio Banderas",
+      "options": [
+        "Sam Worthington",
+        "Ethan Hawke",
+        "Antonio Banderas",
+        "Will Smith"
+      ],
+      "explanation": "La société de robotique ROC construit le Pilgrim 7000, un robot humanoïde possédant un biokernel à intelligence quantique.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-244",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_244.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-244-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui remplace les hommes sur les rings de boxe du film « Real Steel » ?",
+      "answer": "Robots",
+      "options": [
+        "Jouets",
+        "Hologrammes",
+        "Animaux",
+        "Robots"
+      ],
+      "explanation": "« Real Steel » comprend plusieurs références au film « Rocky », le robot semblant n'avoir aucune chance contre le champion.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-244",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_244.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-244-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qu'est-ce que le transperceneige dans un film de science-fiction sud-coréen ?",
+      "answer": "Train",
+      "options": [
+        "Plante",
+        "Vaisseau spatial",
+        "Train",
+        "Plate-forme"
+      ],
+      "explanation": "En France, à l'occasion de l'adaptation au cinéma, Casterman réunit les trois albums originaux en intégrale sous le titre « Transperceneige ».",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-244",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_244.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-244-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel monument ont débarqué les Mondo-Shawans en 1914 ?",
+      "answer": "Pyramide d'Égypte",
+      "options": [
+        "Nécropole aztèque",
+        "Temple romain",
+        "Temple Inca",
+        "Pyramide d'Égypte"
+      ],
+      "explanation": "Leur mission : récupérer 4 pierres représentant les 4 éléments de la vie suite à l'arrivée imminente de la Première Guerre mondiale.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-244",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_244.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-244-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la nationalité de Pierre Boulle, auteur du roman « La Planète des singes » ?",
+      "answer": "Française",
+      "options": [
+        "Canadienne",
+        "Française",
+        "Suisse",
+        "Belge"
+      ],
+      "explanation": "Cinq ans après la mort de Pierre Boulle, sa nièce et son mari ont découvert de nouveaux manuscrits inédits dans des archives.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-244",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_244.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-244-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sur quelle chaîne francophone « Star Trek » fut-il diffusé en multilingue en 2001 ?",
+      "answer": "Canal Jimmy",
+      "options": [
+        "Télé Monté-Carlo",
+        "Télé-Luxembourg",
+        "La Cinq",
+        "Canal Jimmy"
+      ],
+      "explanation": "Le 1er octobre 2001, Canal Jimmy sera rebaptisée Jimmy et recentrera encore plus sa programmation sur les séries télévisées.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-244",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_244.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-244-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel handicap souffre le marine Jake Sully dans le film « Avatar » ?",
+      "answer": "Paraplégie",
+      "options": [
+        "Surdité",
+        "Amputation",
+        "Paraplégie",
+        "Cécité"
+      ],
+      "explanation": "Jake Sully, personnage central de l'histoire, va devoir, via son avatar, choisir son camp avec pour enjeu le destin de la planète.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-244",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_244.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-244-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a composé la musique du film « Le Cinquième Élément » ?",
+      "answer": "Eric Serra",
+      "options": [
+        "Eric Serra",
+        "Marco Beltrami",
+        "Hans Zimmer",
+        "John Williams"
+      ],
+      "explanation": "C'est la cantatrice Inva Mula qui interprète l'extrait de « Lucia di Lammermoor » de Gaetano Donizetti, « Il dolce suono » et la « Diva Dance ».",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-244",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_244.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-244-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel film de 2005 traite du clonage d'êtres humains dans un but médical ?",
+      "answer": "The Island",
+      "options": [
+        "The Island",
+        "Clones",
+        "Repo Men",
+        "Westworld"
+      ],
+      "explanation": "Les héros découvrent que les choix de la Loterie ne seraient pas dus au hasard car l'Île cache une terrifiante vérité.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-244",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_244.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-244-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que gère L'Union dans le film américano-canadien « Repo Men » ?",
+      "answer": "Don d'organes",
+      "options": [
+        "Vaisseaux spatiaux",
+        "Clones",
+        "Don d'organes",
+        "Robots"
+      ],
+      "explanation": "Les personnes ne s'acquittant pas de leurs lourdes dettes après une greffe d'organes sont confrontées aux repo men, les repreneurs.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-244",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_244.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-244-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel mouvement prône la technologie pour améliorer la condition humaine ?",
+      "answer": "Transhumanisme",
+      "options": [
+        "Transgénétique",
+        "Transhumanisme",
+        "Probiotique",
+        "Technogénétique"
+      ],
+      "explanation": "Les transhumanistes considèrent le handicap, la souffrance, la maladie, le vieillissement ou la mort comme inutiles.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-244",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_244.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-244-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En 2019, qui domine la planète Terre dans le film « Daybreakers » ?",
+      "answer": "Vampires",
+      "options": [
+        "Vampires",
+        "Extraterrestres",
+        "Loups garous",
+        "Démons"
+      ],
+      "explanation": "Bien qu'aucun lien ne soit avéré, le scénario de « Daybreakers » fait penser au roman « A l'assaut de l'invisible » d'A. E. van Vogt.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-244",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_244.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-244-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que tente-t-on de transférer dans le film « Renaissances » avec Ben Kingsley ?",
+      "answer": "Conscience",
+      "options": [
+        "Conscience",
+        "Sang contaminé",
+        "Intelligence",
+        "Organes"
+      ],
+      "explanation": "Le postulat de départ du film est très proche du film « L'Opération diabolique », réalisé par John Frankenheimer, sorti en 1966.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-244",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_244.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-244-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans le film « Splice » de Vincenzo Natali, comment Dren est-elle créée ?",
+      "answer": "Combinaison ADN",
+      "options": [
+        "Anciens virus",
+        "Combinaison ADN",
+        "ADN fossilisé",
+        "Hybrides aliens"
+      ],
+      "explanation": "C'est l'actrice Delphine Chanéac qui incarne Dren, aux côtés de l'acteur américain Adrien Brody et de la canadienne Sarah Polley.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-244",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_244.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-244-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Au Québec, la série « Star Trek » est connue sous le nom de quelle patrouille ?",
+      "answer": "Du cosmos",
+      "options": [
+        "De l'espace",
+        "De l'univers",
+        "Du cosmos",
+        "De la galaxie"
+      ],
+      "explanation": "« Star Trek » est un univers créé en 1966 par Gene Roddenberry regroupant sept séries télévisées en 731 épisodes.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-244",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_244.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-244-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel film Johnny Depp transfère-t-il une conscience vers un ordinateur ?",
+      "answer": "Transcendance",
+      "options": [
+        "Renaissance",
+        "Aeon Flux",
+        "Transcendance",
+        "The Island"
+      ],
+      "explanation": "« Transcendance » est à l'origine un scénario de Jack Paglen qu'il a développé en discutant longuement avec sa femme informaticienne.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-244",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_244.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-244-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle unité d'élite anticipe les crimes dans « Minority Report » ?",
+      "answer": "Précrime",
+      "options": [
+        "Précrime",
+        "Lost crime",
+        "Ultimate crime",
+        "Last report"
+      ],
+      "explanation": "C'est Tom Cruise, ayant lu la nouvelle de Philip K. Dick durant le tournage d'« Eyes Wide Shut », qui aura l'idée du projet du film.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-244",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_244.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-244-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel acteur devait initialement porter le costume du « Predator » de 1987 ?",
+      "answer": "J-C Vandamme",
+      "options": [
+        "Samuel L. Jackson",
+        "J-C Vandamme",
+        "Sylvester Stallone",
+        "Dolph Lungdren"
+      ],
+      "explanation": "Jean-Claude Vandamme sera remplacé en cours de tournage, estimant que pour lui le costume était trop lourd et difficile à porter.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-244",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_244.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

@@ -1,0 +1,774 @@
+{
+  "id": "oq-247",
+  "title": "Central Park",
+  "originalTitle": "Central Park (Le poumon de Big Apple)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_247.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    20
+  ],
+  "questions": [
+    {
+      "id": "oqdb-247-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la superficie de Central Park, situé dans l'arrondissement de Manhattan ?",
+      "answer": "341 ha",
+      "options": [
+        "198 ha",
+        "443 ha",
+        "341 ha",
+        "234 ha"
+      ],
+      "explanation": "Le parc est géré par la Central Park Conservancy qui dispose d'un budget annuel d'environ 200 millions de dollars.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-247",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_247.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-247-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel quartier résidentiel encadre Central Park sur la partie est du parc ?",
+      "answer": "Upper East Side",
+      "options": [
+        "Ward's Island",
+        "SoHo",
+        "Upper East Side",
+        "Yorkville"
+      ],
+      "explanation": "Le quartier est habité par une population très aisée, le prix de l'immobilier se situant parmi les plus élevés des États-Unis.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-247",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_247.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-247-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel luxueux immeuble en bordure de Central Park a habité John McEnroe ?",
+      "answer": "Beresford",
+      "options": [
+        "Beresford",
+        "One57",
+        "Ansonia",
+        "Eldorado"
+      ],
+      "explanation": "Le Beresford, comme d'ailleurs les San Remo Apartments, abrite également un couple de résidents inattendus : des faucons.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-247",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_247.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-247-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de visiteurs environ parcourent Central Park chaque année ?",
+      "answer": "37 millions",
+      "options": [
+        "25 millions",
+        "37 millions",
+        "59 millions",
+        "42 millions"
+      ],
+      "explanation": "Central Park représente une oasis de verdure au milieu de la forêt de gratte-ciel de Manhattan, même s'il est situé au nord de l'île.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-247",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_247.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-247-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel rocher est connu pour être le point le plus élevé de Central Park ?",
+      "answer": "Summit Rock",
+      "options": [
+        "Vista Rock",
+        "Summit Rock",
+        "Rat Rock",
+        "Line Rock"
+      ],
+      "explanation": "Situé dans l'ouest du parc, à hauteur de la 83e rue, Summit Rock atteint l'altitude de 137,5 pieds, soit près de 42 mètres de hauteur.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-247",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_247.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-247-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À qui est dédié le mémorial Strawberry Fields dans Central Park, conçu par Bruce Kelly ?",
+      "answer": "John Lenon",
+      "options": [
+        "Elvis Presley",
+        "Michael Jackson",
+        "John Lenon",
+        "Jimi Hendrix"
+      ],
+      "explanation": "Strawberry Fields fut inauguré le jour du 45e anniversaire de John Lennon, le 9 octobre 1985, en présence de sa veuve Yoko Ono.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-247",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_247.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-247-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année fut célébré en grande pompe le 150e anniversaire de Central Park ?",
+      "answer": "2003",
+      "options": [
+        "1983",
+        "1993",
+        "2003",
+        "2013"
+      ],
+      "explanation": "Il a fallu y détruire 300 000 mètres cubes de rochers, drainer le terrain marécageux et apporter une énorme quantité de terre.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-247",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_247.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-247-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment est généralement appelé le plus vaste plan d'eau de Central Park ?",
+      "answer": "Réservoir",
+      "options": [
+        "Lac Placid",
+        "Réservoir",
+        "Broken Bow",
+        "Lake Flower"
+      ],
+      "explanation": "Comme son nom l'indique, il servait à recueillir l'eau en provenance de l'aqueduc de Croton, avant d'être distribuée dans Manhattan.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-247",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_247.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-247-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Pour quelle activité le Reservoir de Central Park est-il surtout connu des New-Yorkais ?",
+      "answer": "Jogging",
+      "options": [
+        "Pêche",
+        "Ski nautique",
+        "Jogging",
+        "Plongée"
+      ],
+      "explanation": "La piste de jogging de 2,54 km qui entoure ce grand plan d'eau accueille chaque jour des milliers de sportifs qui en font le tour.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-247",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_247.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-247-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De combien de ponts Central Park est-il pourvu dans sa globalité ?",
+      "answer": "36",
+      "options": [
+        "48",
+        "24",
+        "36",
+        "12"
+      ],
+      "explanation": "Les 36 ponts construits par Vaux sont tous uniques dans leur architecture et construits avec du granit, du schiste ou du métal.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-247",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_247.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-247-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel musée est situé du côté de Central Park, sur la Cinquième avenue ?",
+      "answer": "Metropolitan",
+      "options": [
+        "Metropolitan",
+        "Queens",
+        "Skyscraper",
+        "Folk Art"
+      ],
+      "explanation": "Le Metropolitan Museum of Art de New York est l'un des plus grands musées d'art au monde, ouvert au public depuis le 20 février 1872.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-247",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_247.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-247-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment fut baptisé Central Park après la crise économique de 1929 ?",
+      "answer": "Hooverville",
+      "options": [
+        "Township",
+        "Trenchtown",
+        "Hooverville",
+        "Kibera"
+      ],
+      "explanation": "Une série de bidonvilles apparurent aux États-Unis au cours de la Grande Dépression, de 1929 jusque dans les années 1940.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-247",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_247.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-247-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sur quel rocher de Central Park le Belvedere Castle est-il construit ?",
+      "answer": "Vista Rock",
+      "options": [
+        "Vista Rock",
+        "Body Rock",
+        "Rat Rock",
+        "Summit Rock"
+      ],
+      "explanation": "Fait de schiste, il est avec Summit Rock l'une des formations naturelles les plus élevées du parc, culminant à environ 40 mètres.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-247",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_247.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-247-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel lac de Central Park est situé entre Vista Rock et la Great Lawn ?",
+      "answer": "Turtle Pond",
+      "options": [
+        "Chippewa Lake",
+        "Rose Lake",
+        "Hocking Hills",
+        "Turtle Pond"
+      ],
+      "explanation": "Comme son nom l'indique, Turtle Pond est peuplé par des tortues mais aussi des libellules, grenouilles et diverses espèces d'oiseaux.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-247",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_247.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-247-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel espace de Central Park a été utilisé comme pâturage jusqu'en 1934 ?",
+      "answer": "Sheep Meadow",
+      "options": [
+        "Bowling Green",
+        "High Line",
+        "Pelham Bay",
+        "Sheep Meadow"
+      ],
+      "explanation": "Actuellement, il s'agit d'une pelouse se prêtant très bien au farniente et aux bains de soleil, les New-Yorkais l'utilisant comme une plage.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-247",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_247.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-247-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À Manhattan, quel bâtiment possède deux adresses : 145 et 146 Central Park West ?",
+      "answer": "The San Remo",
+      "options": [
+        "Eldorado",
+        "Beresford",
+        "The San Remo",
+        "Dakota Building"
+      ],
+      "explanation": "Chacune des deux tours de dix étages s'achève par un luxueux appartement d'inspiration baroque de style John Vanbrugh.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-247",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_247.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-247-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sur quel rocher quasiment circulaire pratique-t-on l'escalade de bloc à Central Park ?",
+      "answer": "Rat Rock",
+      "options": [
+        "Summit Rock",
+        "Rat Rock",
+        "Vista Rock",
+        "Green Rock"
+      ],
+      "explanation": "Ce rocher de schiste, également connu sous le nom d'Umpire Rock, doit son nom aux rats qui y prolifèrent la nuit.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-247",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_247.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-247-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle patinoire à ciel ouvert est située sur un ancien étang asséché de Central Park ?",
+      "answer": "Patinoire Wollman",
+      "options": [
+        "Cyber Glace",
+        "Patinoire Bocquaine",
+        "Patinoire Wollman",
+        "Patinoire Illberg"
+      ],
+      "explanation": "Ouverte en 1949, la patinoire a été construite sur fonds privés, par un don de 600 000 dollars issu de l'héritage de William Wollman.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-247",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_247.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-247-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À Central Park, quel jardin à la française tire son nom d'une ancienne serre de 1898 ?",
+      "answer": "Conservatory G.",
+      "options": [
+        "Beresford",
+        "Pale Male",
+        "Conservatory G.",
+        "Greensward Plan"
+      ],
+      "explanation": "L'ancien jardinier en chef de Central Park utilisait ces serres afin de conserver le bois issu de la taille des arbres du parc.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-247",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_247.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-247-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel projet fut retenu en 1857 lors du concours de dessin des plans de Central Park ?",
+      "answer": "Greensward Plan",
+      "options": [
+        "Greensward Plan",
+        "Cedar Plan",
+        "Hauser Plan",
+        "Milford Plan"
+      ],
+      "explanation": "Le projet du « Greensward Plan » de l'écrivain Frederick Law Olmsted et de l'architecte britannique Calvert Vaux fut retenu.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-247",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_247.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-247-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien d'arbres furent plantés lors de l'aménagement de Central Park ?",
+      "answer": "500 000",
+      "options": [
+        "500 000",
+        "400 000",
+        "200 000",
+        "300 000"
+      ],
+      "explanation": "1 500 ouvriers travaillèrent chaque jour afin de planter ces 500 000 arbres. Terminé en 1869, le chantier coûta la vie à cinq travailleurs.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-247",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_247.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-247-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel parc spécialisé a vu le jour en 1864 au sein même de Central Park ?",
+      "answer": "Un zoo",
+      "options": [
+        "Un camping",
+        "Un cirque",
+        "Un zoo",
+        "Une réserve"
+      ],
+      "explanation": "Le zoo possède des ours polaires et des espèces animales en danger telles que le tamarin, le crapaud du Wyoming ou le petit panda.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-247",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_247.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-247-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À qui Fiorello LaGuardia confia-t-il le soin de réhabiliter Central Park ?",
+      "answer": "Robert Moses",
+      "options": [
+        "Kevin Lynch",
+        "Paul Davidoff",
+        "Daniel Burnham",
+        "Robert Moses"
+      ],
+      "explanation": "Le « maître de la construction » est l'architecte de New York, de Long Island, du comté de Rockland et du comté de Westchester.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-247",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_247.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-247-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel espace de Central Park était autrefois recouvert par le Lower Reservoir ?",
+      "answer": "Great Lawn",
+      "options": [
+        "Great Lawn",
+        "Turtle Pond",
+        "Rat Rock",
+        "Pale Male"
+      ],
+      "explanation": "Ce réservoir, dont la construction datait de 1842, faisait partie des plans originels du parc imaginés par Olmsted et Vaux.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-247",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_247.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-247-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En combien de parties Olmsted voulait-il séparer ce qui deviendra Central Park ?",
+      "answer": "Trois",
+      "options": [
+        "Six",
+        "Quatre",
+        "Trois",
+        "Cinq"
+      ],
+      "explanation": "Une partie pastorale, une partie pittoresque et une partie formelle accueillant une fontaine et un plan d'eau.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-247",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_247.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-247-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle buse à queue rousse réside au 927 de la cinquième avenue à Central Park ?",
+      "answer": "Pale Male",
+      "options": [
+        "Petra",
+        "Nils Olav",
+        "Pale Male",
+        "King of Rome"
+      ],
+      "explanation": "En décembre 2004, le propriétaire de l'immeuble sur lequel la buse avait fait son nid dû renoncer à l'enlever après protestations.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-247",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_247.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-247-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle fontaine de Central Park a été dessinée par Emma Stebbins en 1868 ?",
+      "answer": "Bethesda",
+      "options": [
+        "Vaillancourt",
+        "Brewer",
+        "McMillan",
+        "Bethesda"
+      ],
+      "explanation": "Les quatre chérubins de la fontaine inaugurée en 1873 représentent les vertus : la tempérance, la pureté, la prospérité et la paix.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-247",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_247.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-247-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel théâtre accueille chaque été le New York Shakespeare Festival ?",
+      "answer": "Delacorte Theater",
+      "options": [
+        "Théâtre Shubert",
+        "Delacorte Theater",
+        "Park Theatre",
+        "Squat Theatre"
+      ],
+      "explanation": "Chaque été, l'association du Joseph Papp Public Theater présente une série de pièces dont une oeuvre de William Shakespeare.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-247",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_247.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-247-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel monument représente la sculpture la plus impressionnante de Central Park ?",
+      "answer": "King Jagiello",
+      "options": [
+        "King Jagiello",
+        "Great Lawn",
+        "Turtle Pond",
+        "Rat Rock"
+      ],
+      "explanation": "Nommée à la mémoire de l'ancien roi de Pologne, Ladislas II Jagellon, cette sculpture est située à proximité du Turtle Pond.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-247",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_247.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

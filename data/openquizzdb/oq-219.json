@@ -1,0 +1,798 @@
+{
+  "id": "oq-219",
+  "title": "Expressions connues",
+  "originalTitle": "Expressions connues (La culture, moins on en a, plus on l'étale)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_219.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-219-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel sport de combat a vu naître l'expression « jeter l'éponge » ?",
+      "answer": "Boxe",
+      "options": [
+        "Judo",
+        "Boxe",
+        "Lutte",
+        "Catch"
+      ],
+      "explanation": "Quand le coach n'arrivait plus à reconnaître son poulain tellement il avait pris de bourre-pif, il jetait l'éponge à terre.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-219",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_219.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-219-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle section militaire provient l'expression « être mis à pied » ?",
+      "answer": "Cavalerie",
+      "options": [
+        "Infanterie",
+        "Radio",
+        "Logistique",
+        "Cavalerie"
+      ],
+      "explanation": "Lorsque les cavaliers étaient sanctionnés par leurs supérieurs, on leur retirait leurs armes, leurs chevaux, et même parfois leurs slips.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-219",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_219.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-219-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel écrit provient l'expression « vieux comme Mathusalem » ?",
+      "answer": "Bible",
+      "options": [
+        "Quid",
+        "Guide Michelin",
+        "Bible",
+        "Petit Larousse"
+      ],
+      "explanation": "Mathusalem, qui serait mort à l'âge de 969 ans, est célèbre pour être la personne la plus âgée mentionnée dans l'Ancien Testament.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-219",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_219.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-219-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle expression signifie que vous possédez un modèle récent de tablette ?",
+      "answer": "Dernier cri",
+      "options": [
+        "Dernier cri",
+        "Nouveau son",
+        "Première onde",
+        "Haute voix"
+      ],
+      "explanation": "Bien avant l'invention de la télévision et la lecture de journaux par la population, les informations étaient criées sur la place publique.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-219",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_219.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-219-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel animal se cache en réalité derrière l'expression « fier comme un pou » ?",
+      "answer": "Coq",
+      "options": [
+        "Coq",
+        "Ours",
+        "Cheval",
+        "Lion"
+      ],
+      "explanation": "En réalité, le pou désignait autrefois le coq, associé dans la symbolique occidentale à la vigueur, au courage et à la fierté.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-219",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_219.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-219-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quel document se rapporte l'expression « en voiture Simone », reprise par Guy Lux ?",
+      "answer": "Permis de conduire",
+      "options": [
+        "Permis de conduire",
+        "Billet d'avion",
+        "Ticket de train",
+        "CV"
+      ],
+      "explanation": "Mademoiselle Simone Louise de Pinet de Borde des Forest fut une des premières Françaises à obtenir son permis de conduire, en 1929.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-219",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_219.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-219-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Au début du XXe siècle, dans quel endroit était-il fréquent de « faire un tabac » ?",
+      "answer": "Théâtre",
+      "options": [
+        "Théâtre",
+        "Cirque",
+        "Hôpital",
+        "Tribunal"
+      ],
+      "explanation": "Au début du XXe siècle, pour un comédien de théâtre, l'expression « avoir le gros tabac » signifiait en fait « être très applaudi ».",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-219",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_219.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-219-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment partez-vous si vous le faites « sans tambour ni trompette » ?",
+      "answer": "Sans bruit",
+      "options": [
+        "Sans argent",
+        "Sans bruit",
+        "Sans vêtement",
+        "Sans famille"
+      ],
+      "explanation": "Venue du monde militaire en 1650, cette expression s'est généralisée à toute action effectuée discrètement ou secrètement.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-219",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_219.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-219-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment faut-il « nager » pour manoeuvrer sans se compromettre ?",
+      "answer": "Entre deux eaux",
+      "options": [
+        "Entre deux eaux",
+        "À contre courant",
+        "Sur le dos",
+        "Avec des palmes"
+      ],
+      "explanation": "Cette expression apparue au XIVe siècle vient en réalité de la marine, où « nager » voulait alors dire « conduire un bateau ».",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-219",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_219.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-219-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle expression est évoquée chez les hommes de la quarantaine ?",
+      "answer": "Démon de midi",
+      "options": [
+        "Démon de midi",
+        "Faire le baron",
+        "Plein aux as",
+        "Tourner la page"
+      ],
+      "explanation": "Ce démon-là serait d'abord né d'une erreur de traduction de la Bible de l'hébreu vers le grec par les Septante.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-219",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_219.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-219-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que devez-vous être si on vous demande de « ne pas tirer sur le pianiste » ?",
+      "answer": "Indulgent",
+      "options": [
+        "Indulgent",
+        "Rapide",
+        "Franc",
+        "Craintif"
+      ],
+      "explanation": "Ce message était écrit à l'entrée des saloons car lorsqu'une bagarre démarrait, le pianiste était souvent la première cible.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-219",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_219.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-219-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle position vous retrouvez-vous si vous êtes « sur la sellette » ?",
+      "answer": "Assis",
+      "options": [
+        "Assis",
+        "Pendu",
+        "Debout",
+        "Couché"
+      ],
+      "explanation": "Au XIIIe siècle, la sellette était dans les tribunaux un siège bas afin que les juges puissent dominer et dégrader l'accusé.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-219",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_219.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-219-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment voyait-on un ourson pour qu'il devienne un « ours mal léché » ?",
+      "answer": "Difforme",
+      "options": [
+        "Malade",
+        "Rasé",
+        "Enragé",
+        "Difforme"
+      ],
+      "explanation": "Au XVIIe siècle, on croyait que les oursons naissaient difformes et que c'était les mères qui les façonnaient en les léchant longuement.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-219",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_219.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-219-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De que type de gaz provient l'expression « il y a de l'eau dans le gaz » ?",
+      "answer": "Gaz de houille",
+      "options": [
+        "Gaz de chasse",
+        "Gaz naturel",
+        "Gaz de houille",
+        "Gaz de schiste"
+      ],
+      "explanation": "Autrefois, la flamme du réchaud pouvait s'éteindre avec le gaz de houille chargé de vapeur d'eau, provoquant retard et disputes.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-219",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_219.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-219-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quel type de combat remonte l'expression « au pied du mur » ?",
+      "answer": "Épée",
+      "options": [
+        "Épée",
+        "Hache",
+        "Lance",
+        "Main nue"
+      ],
+      "explanation": "Lorsque l'adversaire reculait, il arrivait un moment où il se trouvait au pied du mur, ceci l'obligeant à se défendre ou à s'avouer vaincu.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-219",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_219.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-219-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle époque date l'expression « une autre paire de manches » ?",
+      "answer": "Moyen Âge",
+      "options": [
+        "Renaissance",
+        "Antiquité",
+        "Préhistoire",
+        "Moyen Âge"
+      ],
+      "explanation": "Les manches étaient une partie détachable du reste de l'habit : en journée, on changeait ses manches au gré de ses activités.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-219",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_219.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-219-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Au XVIIIe siècle, quelle profession a généré « la fin des haricots » ?",
+      "answer": "Marin",
+      "options": [
+        "Avocat",
+        "Pompier",
+        "Huissier",
+        "Marin"
+      ],
+      "explanation": "Il convenait de manger a bord les animaux vivants et produits frais, puis les biscuits secs, les produits fumés et enfin les jambons.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-219",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_219.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-219-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Originellement, de qui disait-on qu'il s'était fait la malle ?",
+      "answer": "Prisonnier",
+      "options": [
+        "Pilote",
+        "Explorateur",
+        "Banquier",
+        "Prisonnier"
+      ],
+      "explanation": "Cette expression semble en effet être apparue vers 1935 dans les milieux carcéraux pour signifier s'évader ou se faire la belle.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-219",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_219.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-219-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces expressions, synonyme de réprimander, pourriez-vous utiliser ?",
+      "answer": "Passer un savon",
+      "options": [
+        "Avoir les foies",
+        "Bourrer le mou",
+        "Passer un savon",
+        "Fendre la bise"
+      ],
+      "explanation": "Autrefois, les femmes faisaient la lessive à l'aide de savon et d'une palette en y échangeant informations, potins et médisances.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-219",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_219.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-219-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Au XVIe siècle, que coupait-on réellement pour « couper le sifflet » à quelqu'un ?",
+      "answer": "Gorge",
+      "options": [
+        "Main",
+        "Gorge",
+        "Pieds",
+        "Sexe"
+      ],
+      "explanation": "En effet, à cette époque, le sifflet, au figuré, désignait le gosier, cet endroit où passe la trachée-artère par laquelle nous respirons.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-219",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_219.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-219-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel lieu a engendré l'expression mentir comme un arracheur de dents ?",
+      "answer": "Rue",
+      "options": [
+        "Champs",
+        "Musées",
+        "Hôpitaux",
+        "Rue"
+      ],
+      "explanation": "Au XIXe siècle, les dentistes exerçaient dans la rue et engageaient des musiciens pour ne pas dissuader d'éventuels nouveaux patients.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-219",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_219.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-219-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel objet est à l'origine de l'expression « voir midi à sa porte » ?",
+      "answer": "Cadran solaire",
+      "options": [
+        "Cadran solaire",
+        "Sismographe",
+        "Girouette",
+        "Calendrier"
+      ],
+      "explanation": "Dans les campagnes, il était fréquent que soit installé un tel cadran sur la façade de la maison orientée au sud, à proximité de l'entrée.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-219",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_219.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-219-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle monde provient la célèbre expression « veiller au grain » ?",
+      "answer": "Maritime",
+      "options": [
+        "Universitaire",
+        "Maritime",
+        "Agricole",
+        "Des affaires"
+      ],
+      "explanation": "Le grain est en mer une tempête de vent soudaine que les marins redoutent et surveillent donc avec beaucoup d'attention.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-219",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_219.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-219-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "L'expression « être une tête de turc » provient de quel endroit particulier ?",
+      "answer": "Fête foraine",
+      "options": [
+        "Théâtre",
+        "Fête foraine",
+        "Opéra",
+        "Cirque"
+      ],
+      "explanation": "La partie sur laquelle on frappait pour mesurer sa force musculaire représentait au XIXe siècle une tête de Turc, particulièrement fort.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-219",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_219.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-219-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À qui était directement destinée l'expression « sentir le roussi » ?",
+      "answer": "Hérétiques",
+      "options": [
+        "Fidèles",
+        "Hérétiques",
+        "Prêtres",
+        "Prophètes"
+      ],
+      "explanation": "L'expression fait référence aux hérétiques, victimes potentielles des foudres de l'Inquisition et souvent condamnées à finir au bûcher.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-219",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_219.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-219-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle peuplade est à l'origine de l'envoi du « bouc émissaire » ?",
+      "answer": "Hébreux",
+      "options": [
+        "Hébreux",
+        "Celtes",
+        "Étrusques",
+        "Phéniciens"
+      ],
+      "explanation": "À la fête des expiations, le Grand Prêtre envoyait vers le désert un pauvre bouc chargé de tous les péchés et malédictions d'Israël.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-219",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_219.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-219-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Autour de quel jeu pouvait-on autrefois « épater la galerie » ?",
+      "answer": "Jeu de paume",
+      "options": [
+        "Polo",
+        "Tir à la corde",
+        "Jeu de paume",
+        "Baseball"
+      ],
+      "explanation": "Les galeries sont les espaces couverts ceinturant le jeu de paume où se tenaient les spectateurs chez qui susciter l'admiration.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-219",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_219.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-219-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel lieu public pouvait-on jadis entendre un « minute papillon » ?",
+      "answer": "Café",
+      "options": [
+        "Musée",
+        "Université",
+        "Café",
+        "Théâtre"
+      ],
+      "explanation": "Papillon était le patronyme d'un serveur du café du Cadran à Paris : le « Minute Papillon » lui indiquait qu'il pouvait prendre son temps.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-219",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_219.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-219-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel rapport lexical est à l'origine de l'expression « être dans les choux » ?",
+      "answer": "Paronymie",
+      "options": [
+        "Paronymie",
+        "Apocope",
+        "Paraphrase",
+        "Anastrophe"
+      ],
+      "explanation": "C'est la paronymie entre les choux et échouer qui est le tout premier sens de cette expression datant du milieu du XIXe siècle.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-219",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_219.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-219-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans le langage de quelles courses arrivait-on « les doigts dans le nez » ?",
+      "answer": "Hippiques",
+      "options": [
+        "Automobiles",
+        "Cyclistes",
+        "De fond",
+        "Hippiques"
+      ],
+      "explanation": "C'est une image amusante qui montre la facilité qu'a eu le jockey à gagner, avec en plus les doigts dans le nez.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-219",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_219.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

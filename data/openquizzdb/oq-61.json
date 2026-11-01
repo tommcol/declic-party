@@ -1,0 +1,774 @@
+{
+  "id": "oq-61",
+  "title": "Sites touristiques",
+  "originalTitle": "Sites touristiques (De Shalimar au Yucatan)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_61.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    2
+  ],
+  "questions": [
+    {
+      "id": "oqdb-61-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville peut-on admirer la Petite Sirène sur son rocher ?",
+      "answer": "Copenhague",
+      "options": [
+        "Amsterdam",
+        "Bucarest",
+        "Budapest",
+        "Copenhague"
+      ],
+      "explanation": "Située dans le parc Churchill, il s'agit d'une représentation en bronze du personnage du conte éponyme de Hans Christian Andersen.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-61",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_61.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-61-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel célèbre mausolée de marbre blanc peut-on visiter à Agra, en Inde ?",
+      "answer": "Taj Mahal",
+      "options": [
+        "Bombay House",
+        "Taj Mahal",
+        "Raj Ghat",
+        "Yantra Mandir"
+      ],
+      "explanation": "La construction du mausolée a commencé en 1631 et s'est achevée, dans sa plus grande partie, en 1648.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-61",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_61.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-61-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville peut-on admirer des objets d'art au musée du Prado ?",
+      "answer": "Madrid",
+      "options": [
+        "Cordoue",
+        "Tolède",
+        "Séville",
+        "Madrid"
+      ],
+      "explanation": "Le musée présente principalement des peintures européennes du XIVe siècle au début du XIXe siècle.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-61",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_61.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-61-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle direction faut-il prendre pour aller bronzer sur le littoral de Rimini ?",
+      "answer": "Italie",
+      "options": [
+        "Grèce",
+        "Portugal",
+        "Italie",
+        "Espagne"
+      ],
+      "explanation": "Grâce à la plage très étendue et de sable fin, Rimini est une station balnéaire réputée, les touristes venant de toute l'Europe.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-61",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_61.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-61-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel parc de 341 hectares prolonge la Cinquième Avenue de New York ?",
+      "answer": "Central Park",
+      "options": [
+        "Forest Park",
+        "Central Park",
+        "City Park",
+        "Griffith Park"
+      ],
+      "explanation": "Le parc est géré par la Central Park Conservancy qui dispose d'un budget annuel de 200 millions de dollars.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-61",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_61.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-61-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel pays avez-vous envoyé votre carte postale en provenance de Koh Phi Phi Ley ?",
+      "answer": "Thaïlande",
+      "options": [
+        "Japon",
+        "Thaïlande",
+        "Chine",
+        "Corée du Sud"
+      ],
+      "explanation": "La baie paradisiaque de Maya a servi de décor pour de nombreuses scènes du film <i>La Plage</i> avec Leonardo DiCaprio.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-61",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_61.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-61-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En Égypte, où se trouve le Sphinx qui se dresse devant les grandes pyramides ?",
+      "answer": "Gizeh",
+      "options": [
+        "Alexandrie",
+        "Suez",
+        "Le Caire",
+        "Gizeh"
+      ],
+      "explanation": "Sculpture monumentale monolithique la plus grande du monde (73,5 mètres de long), elle représente un sphinx couchant.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-61",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_61.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-61-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel ancien empire peut-on voir les vestiges au Yucatan ?",
+      "answer": "Mayas",
+      "options": [
+        "Pipils",
+        "Mosquitos",
+        "Lenca",
+        "Mayas"
+      ],
+      "explanation": "Au milieu du XIXe siècle, le Yucatan déclara à deux reprises son indépendance et se constitua en République du Yucatan.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-61",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_61.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-61-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel monument bruxellois a été construit à l'occasion de l'Exposition universelle de 1958 ?",
+      "answer": "Atomium",
+      "options": [
+        "Fontaine Anspach",
+        "Tour Noire",
+        "Galerie du Roi",
+        "Atomium"
+      ],
+      "explanation": "L'Atomium représente la maille conventionnelle du cristal de fer (structure cubique centrée) agrandie 165 milliards de fois.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-61",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_61.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-61-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le pays parfumé des jardins royaux de Shalimar disposés sur trois terrasses ?",
+      "answer": "Pakistan",
+      "options": [
+        "Afghanistan",
+        "Bhoutan",
+        "Bangladesh",
+        "Pakistan"
+      ],
+      "explanation": "L'origine du mot « Shalimar » reste inconnue, mais certains savants pensent que le mot viendrait du persan ou de l'arabe.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-61",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_61.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-61-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville turque irez-vous au musée du palais de Topkapi ?",
+      "answer": "Istambul",
+      "options": [
+        "Antioche",
+        "Istambul",
+        "Ankara",
+        "Nazilli"
+      ],
+      "explanation": "Le palais, résidence principale et officielle du sultan ottoman, est construit sur l'emplacement de l'acropole de l'antique Byzance.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-61",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_61.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-61-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Au départ de Chongqing, à travers les gorges de quel fleuve pouvez-vous faire une croisière ?",
+      "answer": "Yang-Tsé",
+      "options": [
+        "Fleuve Rouge",
+        "Amour",
+        "Yang-Tsé",
+        "Fleuve Jaune"
+      ],
+      "explanation": "La municipalité de Chonqqing a été créée dans les années 1990 pour qu'elle devienne un pôle économique majeur de la Chine.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-61",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_61.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-61-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la plus folle et la plus grande station balnéaire de la côte pacifique du Mexique ?",
+      "answer": "Acapulco",
+      "options": [
+        "Acapulco",
+        "Boca del Rio",
+        "Manzanillo",
+        "Progreso"
+      ],
+      "explanation": "Acapulco est située à 400 km de Mexico, dans une baie profonde semi-circulaire presque fermée et surtout facile d'accès.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-61",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_61.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-61-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle île de l'archipel des Caraïbes se situe entre la Guadeloupe et la Martinique ?",
+      "answer": "La Dominique",
+      "options": [
+        "Bora-Bora",
+        "Papeete",
+        "Tahiti",
+        "La Dominique"
+      ],
+      "explanation": "L'île est composée d'une chaîne de hauts pitons depuis son extrémité septentrionale à sa pointe méridionale.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-61",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_61.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-61-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville espagnole pourrez-vous admirer les céramiques de l'Alhambra ?",
+      "answer": "Grenade",
+      "options": [
+        "Grenade",
+        "Malaga",
+        "Séville",
+        "Bilbao"
+      ],
+      "explanation": "L'Alhambra est composée de quatre parties : l'Acazaba, les palais nastrides, le generalife et ses jardins et le palais de Charles V.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-61",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_61.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-61-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Où peut-on suivre la Via Dolorosa qui s'étend sur environ 500 mètres ?",
+      "answer": "Jérusalem",
+      "options": [
+        "Ashkelon",
+        "Jérusalem",
+        "Tel-Aviv",
+        "Ramla"
+      ],
+      "explanation": "Marqué par neuf des quatorze Stations du chemin de Croix, il s'agit d'un lieu de pèlerinage très important pour les chrétiens.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-61",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_61.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-61-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le pays du Kilimandjaro, montagne composée de trois volcans éteints ?",
+      "answer": "La Tanzanie",
+      "options": [
+        "La Tanzanie",
+        "Le Népal",
+        "Le Japon",
+        "Le Tibet"
+      ],
+      "explanation": "Le Kilimandjaro est connu pour sa calotte glaciaire sommitale en phase de retrait accéléré depuis le début du XXe siècle.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-61",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_61.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-61-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel pays visiterez-vous les ruines de Carthage, ancienne cité punique ?",
+      "answer": "Tunisie",
+      "options": [
+        "Égypte",
+        "Hongrie",
+        "Turquie",
+        "Tunisie"
+      ],
+      "explanation": "Carthage regroupe aujourd'hui de nombreuses résidences d'ambassadeurs ou de richissimes fortunes tunisiennes et expatriées.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-61",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_61.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-61-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel site représente la principale attraction grecque du Mont Parnasse ?",
+      "answer": "Delphes",
+      "options": [
+        "Delphes",
+        "Lindos",
+        "Amphipolis",
+        "Olympie"
+      ],
+      "explanation": "Delphes était le centre du monde, aussi l'« omphalos » y était-il représenté par une pierre de forme conique.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-61",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_61.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-61-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Où en Russie visite-t-on le musée de l'Ermitage, au bord de la Neva ?",
+      "answer": "Saint-Pétersbourg",
+      "options": [
+        "Moscou",
+        "Saint-Pétersbourg",
+        "Sébastopol",
+        "Omsk"
+      ],
+      "explanation": "Avec plus de 60 000 pièces dans près de 1 000 salles, c'est le plus grand musée du monde en termes d'objets exposés.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-61",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_61.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-61-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Où pouvez-vous arpenter la piazza della Signoria, place touristique de la ville ?",
+      "answer": "Florence",
+      "options": [
+        "Padoue",
+        "Rome",
+        "Vérone",
+        "Florence"
+      ],
+      "explanation": "Des fouilles archéologiques ont mis au jour d'importantes traces d'habitations néolithique, romaines et médiévales à cet endroit.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-61",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_61.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-61-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle île diabolique peut-on apercevoir de South Point en Australie ?",
+      "answer": "Tasmanie",
+      "options": [
+        "Norfolk",
+        "Cocos",
+        "Christmas",
+        "Tasmanie"
+      ],
+      "explanation": "Situé dans le parc national de la péninsule Wilsons, South Point est le point le plus au sud du «continent» australien.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-61",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_61.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-61-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sous quel nom l'île de Kerkyra est-elle plus connue des brochures touristiques ?",
+      "answer": "Corfou",
+      "options": [
+        "Argos",
+        "Corinthe",
+        "Rhodes",
+        "Corfou"
+      ],
+      "explanation": "La ville de Corfou possède un port qui permet de relier les villes de Brindisi (Italie), Patras et Igoumenitsa.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-61",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_61.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-61-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville peut-on admirer la cathédrale de l'Intercession-de-la-Vierge ?",
+      "answer": "Moscou",
+      "options": [
+        "Paris",
+        "Berne",
+        "Madrid",
+        "Moscou"
+      ],
+      "explanation": "Symbole de l'architecture traditionnelle russe, la cathédrale de l'Intercession-de-la-Vierge se trouve sur la place Rouge de Moscou.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-61",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_61.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-61-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Étant en Italie, où espérez-vous passer en prenant le col du Brenner ?",
+      "answer": "En Autriche",
+      "options": [
+        "En Serbie",
+        "En Croatie",
+        "En Autriche",
+        "En France"
+      ],
+      "explanation": "Avec 1 372 m d'altitude, le col du Brenner est le passage le plus bas et le plus fréquenté entre le nord et le sud des Alpes.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-61",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_61.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-61-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Où irez-vous en Asie du Sud-Est si vous voulez vous rendre dans la « ville du lion » ?",
+      "answer": "Singapour",
+      "options": [
+        "Taïwan",
+        "Singapour",
+        "Hong Kong",
+        "Shanghai"
+      ],
+      "explanation": "Malgré qu'elle soit très densément urbanisée, la végétation luxuriante de Singapour lui a valu le surnom de « Ville jardin ».",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-61",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_61.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-61-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Situé dans les Alpes, quel est le plus grand Parc Naturel de France ?",
+      "answer": "Écrins",
+      "options": [
+        "Cévennes",
+        "Calanques",
+        "Mercantour",
+        "Écrins"
+      ],
+      "explanation": "Le Parc possède un grand nombre de lacs spectaculaires, dont le lac du Lauvitel, le plus profond et le plus grand du Parc.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-61",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_61.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-61-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel pays allez-vous pour trouver des ruines de la civilisation Scythe-Parthe ?",
+      "answer": "Pakistan",
+      "options": [
+        "Pérou",
+        "Cameroun",
+        "Pakistan",
+        "Grèce"
+      ],
+      "explanation": "Les Scythes étaient un ensemble de peuples nomades indo-européens d'Eurasie parlant des langues iraniennes.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-61",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_61.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-61-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle statue en bronze de cinquante cm est un point touristique de Bruxelles ?",
+      "answer": "Manneken-Pis",
+      "options": [
+        "Manneken-Pis",
+        "Vaartkapoen",
+        "Atomium",
+        "Tour Noire"
+      ],
+      "explanation": "La fontaine est située au coeur de Bruxelles, dans le quartier Saint-Jacques, à deux pas de la Grand-Place.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-61",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_61.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

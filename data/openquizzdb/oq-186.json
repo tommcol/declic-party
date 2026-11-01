@@ -1,0 +1,774 @@
+{
+  "id": "oq-186",
+  "title": "Autour de la neige",
+  "originalTitle": "Autour de la neige (À la Saint-Raymond, l'hiver est encore long)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_186.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    27
+  ],
+  "questions": [
+    {
+      "id": "oqdb-186-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle substance utilise-t-on souvent pour faire rapidement fondre la neige sur les routes ?",
+      "answer": "Sel",
+      "options": [
+        "Sucre",
+        "Sel",
+        "Farine",
+        "Poivre"
+      ],
+      "explanation": "En France, les routes sont classées en quatre niveaux de priorité, les routes de niveau 1 étant traitées 24h sur 24 si nécessaire.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-186",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_186.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-186-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle jeune artiste a chanté 'Jour de neige' à la télévision en 1988 ?",
+      "answer": "Elsa",
+      "options": [
+        "Patricia Kaas",
+        "Elsa",
+        "Lio",
+        "Jakie Quartz"
+      ],
+      "explanation": "Les producteurs ont accompagné le single de ce titre le plus rythmé de l'album de versions clubs destinées aux discothèques.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-186",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_186.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-186-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel engin hivernal est principalement utilisé pour dégager la neige de nos chaussées ?",
+      "answer": "Chasse-neige",
+      "options": [
+        "Niveleuse",
+        "Autoneige",
+        "Épandeuse",
+        "Chasse-neige"
+      ],
+      "explanation": "Un dispositif de salage peut se trouver à l'arrière ou sur le côté gauche du chasse-neige afin d'éviter la formation de glace.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-186",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_186.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-186-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment s'appelle la meilleure amie de Sébastien à la télévision ?",
+      "answer": "Belle",
+      "options": [
+        "Sidonie",
+        "Aglaé",
+        "Belle",
+        "Prunelle"
+      ],
+      "explanation": "Ce feuilleton écrit et réalisé par Cécile Aubry fut diffusé à partir du 26 septembre 1965 sur la première chaîne de l'ORTF.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-186",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_186.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-186-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a écrit le roman français 'La neige en deuil' proposé à de nombreux étudiants ?",
+      "answer": "Henri Troyat",
+      "options": [
+        "Bernard Clavel",
+        "Henri Troyat",
+        "Jean-Paul Sartre",
+        "Jean Vautrin"
+      ],
+      "explanation": "Cette fiction (et le film) s'inspire d'un événement réel : l'accident du Malabar Princess sur les flancs du Mont-Blanc en 1950.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-186",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_186.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-186-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel chien d'attelage originaire de Sibérie possède souvent des yeux bleus ?",
+      "answer": "Husky",
+      "options": [
+        "Husky",
+        "Barzoï",
+        "Lévrier",
+        "Épagneul"
+      ],
+      "explanation": "Le husky de Sibérie, puissant, rapide et endurant, est doté d'une musculature ferme et bien développée sans poids superflu.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-186",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_186.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-186-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel général africain traversa les Alpes avec des éléphants ?",
+      "answer": "Hannibal",
+      "options": [
+        "Hasdrubal",
+        "Didon",
+        "Hannibal",
+        "Hannon"
+      ],
+      "explanation": "La plupart des 27 éléphants d'Hannibal moururent en réalité dans la traversée des Alpes ou dans l'humidité des marais étrusques.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-186",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_186.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-186-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En Europe, quelle est la première fleur qui pousse généralement à la fin de l'hiver ?",
+      "answer": "Crocus",
+      "options": [
+        "Dahlia",
+        "Acacia",
+        "Crocus",
+        "Ficus"
+      ],
+      "explanation": "Avec sa grande fleur mauve, le Crocus sativus, dont on extrait le safran, a lui besoin de beaucoup de chaleur pour bien fleurir.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-186",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_186.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-186-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel équipement est obligatoire pour prendre le départ d'une compétition de descente en ski ?",
+      "answer": "Casque",
+      "options": [
+        "Genouillères",
+        "Lunettes",
+        "Brassard",
+        "Casque"
+      ],
+      "explanation": "La descente est la plus vieille discipline sportive du ski alpin, aujourd'hui surnommée la discipline reine de sa catégorie.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-186",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_186.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-186-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle station Blanche Neige aurait-elle probablement fort apprécié ?",
+      "answer": "Les Sept Laux",
+      "options": [
+        "Autrans",
+        "Chamrousse",
+        "Les Sept Laux",
+        "Méaudre"
+      ],
+      "explanation": "Les Sept Laux est un groupe de trois stations de sport d'hiver des Alpes situé à 35 km environ de Grenoble et 50 km de Chambéry.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-186",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_186.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-186-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la forme initiale du prisme du cristal de glace ?",
+      "answer": "Hexagonale",
+      "options": [
+        "Hexagonale",
+        "Sphérique",
+        "Cubique",
+        "Linéaire"
+      ],
+      "explanation": "Le cristal de glace résulte de la cristallisation progressive de la vapeur d'eau contenue dans l'air sans passer par la phase liquide.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-186",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_186.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-186-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a écrit la nouvelle intitulée 'Les neiges du Kilimandjaro' ?",
+      "answer": "Hemingway",
+      "options": [
+        "Mauriac",
+        "Camus",
+        "Steinbeck",
+        "Hemingway"
+      ],
+      "explanation": "La nouvelle publiée en 1936 fut traduite en France par Marcel Duhamel et adaptée au cinéma sous le même titre par Henry King.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-186",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_186.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-186-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel champion italien a remporté le slalom et le slalom géant aux Jeux olympiques de Calgary ?",
+      "answer": "Alberto Tomba",
+      "options": [
+        "Markus Wasmeier",
+        "Alberto Tomba",
+        "Ingemar Stenmark",
+        "Max Julien"
+      ],
+      "explanation": "Tomba est devenu quatre ans plus tard à Albertville le premier skieur alpin à conserver un titre olympique en remportant le géant.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-186",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_186.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-186-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quelle peuplade nordique doit-on entre autre l'invention de la luge ?",
+      "answer": "Vikings",
+      "options": [
+        "Celtes",
+        "Écossais",
+        "Vikings",
+        "Romains"
+      ],
+      "explanation": "Il semblerait que les Vikings utilisaient déjà à cette époque des luges équipées de deux patins, un peu comme les luges actuelles.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-186",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_186.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-186-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a réussi en 1986 la traversée du Pôle Nord en tirant lui-même son traîneau ?",
+      "answer": "Jean-Louis Étienne",
+      "options": [
+        "Louis Marot",
+        "Jean-Louis Étienne",
+        "Henri Joutel",
+        "Guy Bernardin"
+      ],
+      "explanation": "Il s'est dirigé avec le soleil et sa position était suivie par le Centre national d'études spatiales grâce à une balise Argos.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-186",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_186.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-186-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle discipline Franck Piccard a-t-il remporté une médaille d'or aux Jeux olympiques de Calgary ?",
+      "answer": "Super Géant",
+      "options": [
+        "Super Géant",
+        "Combiné",
+        "Descente",
+        "Freestyle"
+      ],
+      "explanation": "Né en 1964, Franck Piccard fut l'un des quatre membres de l'équipe des top guns formée et entraînée par Serge Guillaume.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-186",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_186.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-186-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle ville autrichienne traversée par l'Inn est la capitale du Tyrol ?",
+      "answer": "Innsbruck",
+      "options": [
+        "Graz",
+        "Innsbruck",
+        "Salzbourg",
+        "Vienne"
+      ],
+      "explanation": "Innsbruck est la cinquième ville d'Autriche du point de vue de la population, après Vienne, Graz, Linz et Salzbourg.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-186",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_186.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-186-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est l'activité économique principale des frontières pyrénéennes et alpines ?",
+      "answer": "Tourisme",
+      "options": [
+        "Élevage",
+        "Fromage",
+        "Tourisme",
+        "Charcuterie"
+      ],
+      "explanation": "Outre les stations de sports d'hiver, on y compte un nombre important de stations thermales, d'hôtelleries et de randonneurs.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-186",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_186.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-186-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que signifie le mot « ski » en norvégien, d'où provient son origine ?",
+      "answer": "Bûche",
+      "options": [
+        "Botte",
+        "Bûche",
+        "Bâton",
+        "Sabot"
+      ],
+      "explanation": "En norvégien, le mot « ski » signifierait « morceau de bois » car les skis de l'époque étaient taillés dans le bois à coups de hache.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-186",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_186.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-186-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Les meules de quel fromage affine-t-on au fort des Rousses, dans le Jura ?",
+      "answer": "Comté",
+      "options": [
+        "Brie noir",
+        "Chaumes",
+        "Emmental",
+        "Comté"
+      ],
+      "explanation": "Les caves voûtées du fort des Rousses, à température constante de 8 degrés, renferment plus de 75 000 meules de comté (le Juraflore).",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-186",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_186.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-186-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle station a été noyée sous un barrage en 1952 et reconstruite ensuite un peu plus haut ?",
+      "answer": "Tignes",
+      "options": [
+        "Méribel",
+        "Val-d'Isère",
+        "Les Arcs",
+        "Tignes"
+      ],
+      "explanation": "Tignes est internationalement réputée pour son domaine skiable, couplé avec celui de Val-d'Isère sous l'appellation Espace Killy.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-186",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_186.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-186-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel nom portait la toute première marque de snowboard ?",
+      "answer": "Winterstick",
+      "options": [
+        "Burton",
+        "Winterstick",
+        "Santa Cruz",
+        "Plan-B"
+      ],
+      "explanation": "En 1965, l'américain Sherman Poppen inventa le Snurfer en fixant deux skis ensemble, dirigés par une corde fixée à l'avant de l'engin.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-186",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_186.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-186-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel écrivain français a publié 'L'autre versant' en 1983 ?",
+      "answer": "Gay-Lussac",
+      "options": [
+        "Gauthier",
+        "Genevoix",
+        "Gauvin",
+        "Gay-Lussac"
+      ],
+      "explanation": "Bruno Gay-Lussac descend du chimiste Louis Joseph Gay-Lussac et de Louis Hachette, fondateur des éditions du même nom.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-186",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_186.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-186-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment appelle-t-on une petite luge en bois avec un seul patin au centre ?",
+      "answer": "Paret",
+      "options": [
+        "Skeleton",
+        "Kitesurf",
+        "Paret",
+        "Bobsleigh"
+      ],
+      "explanation": "Autrefois, ce moyen de déplacement était utilisé par les enfants de la vallée de Manigod (Haute-Savoie, canton de Thônes).",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-186",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_186.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-186-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel photographe de Chamonix est célèbre par sa collection de photos de ski et de montagne ?",
+      "answer": "Pierre Tairraz",
+      "options": [
+        "René Tanguy",
+        "Pierre Tairraz",
+        "Marc Trivier",
+        "John Thomas"
+      ],
+      "explanation": "La vocation du garçon s'inscrit dans une tradition familiale qui accompagne avec les générations l'évolution de la photographie.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-186",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_186.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-186-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel saint catholique est devenu le Saint Patron des skieurs ?",
+      "answer": "Bernard de Menthon",
+      "options": [
+        "François de Sales",
+        "Bernard de Menthon",
+        "Avit de Vienne",
+        "Maurice d'Agaune"
+      ],
+      "explanation": "En raison des miracles obtenus sur la tombe de Bernard de Menthon, Richard, alors évêque de Novare, le canonisera en 1123.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-186",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_186.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-186-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a composé la version originale de la chanson populaire 'Étoile des neiges' ?",
+      "answer": "Franz Winkler",
+      "options": [
+        "Marcel Tyberg",
+        "Jakob Dont",
+        "Paul Pisk",
+        "Franz Winkler"
+      ],
+      "explanation": "De nombreux interprètes enregistreront ce tube en français à partir de 1950 : Line Renaud, Patrice et Mario, ou encore André Claveau.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-186",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_186.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-186-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année a-t-on fêté le bicentenaire de l'ascension du Mont-Blanc ?",
+      "answer": "1986",
+      "options": [
+        "2006",
+        "1986",
+        "1946",
+        "1966"
+      ],
+      "explanation": "Le sommet, objet de fascination dans de nombreuses œuvres culturelles, a depuis plusieurs siècles représenté un objectif.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-186",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_186.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-186-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la plus ancienne fabrique de skis de France des années 1920 ?",
+      "answer": "Duret",
+      "options": [
+        "Nordica",
+        "Duret",
+        "Dynastar",
+        "Atomic"
+      ],
+      "explanation": "Spécialiste du ski et du monoski, Duret propose aujourd'hui des produits artisanaux variés : essence de bois noble, carbone, titanal.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-186",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_186.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

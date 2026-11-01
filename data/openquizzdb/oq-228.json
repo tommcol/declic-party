@@ -1,0 +1,798 @@
+{
+  "id": "oq-228",
+  "title": "Culture jeune",
+  "originalTitle": "Culture jeune (Penser à nos jeunes têtes blondes)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_228.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-228-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel livre, souvent épais, trouve-t-on principalement des cartes de géographie ?",
+      "answer": "Atlas",
+      "options": [
+        "Atlas",
+        "Dictionnaire",
+        "Agenda",
+        "Roman"
+      ],
+      "explanation": "Les atlas mieux que les cartes fournissent une représentation des conceptions politiques d'une société ou d'une culture donnée.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-228",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_228.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-228-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle matière très dure est principalement constituée la banquise ?",
+      "answer": "Glace",
+      "options": [
+        "Métal",
+        "Terre",
+        "Roche",
+        "Glace"
+      ],
+      "explanation": "La banquise est la couche de glace qui se forme à la surface d'une étendue d'eau par solidification des premières couches d'eau.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-228",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_228.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-228-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel endroit intérieur ou extérieur faut-il mettre un bonnet pour raison d'hygiène ?",
+      "answer": "Piscine",
+      "options": [
+        "Piscine",
+        "Cinéma",
+        "Théâtre",
+        "Stade"
+      ],
+      "explanation": "Les piscines publiques comportent en général un bassin de 25 mètres de longueur pour une largeur de 10 et 20 mètres.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-228",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_228.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-228-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle opération arithmétique permet de calculer le produit de deux nombres ?",
+      "answer": "Multiplication",
+      "options": [
+        "Simplification",
+        "Multiplication",
+        "Soustraction",
+        "Division"
+      ],
+      "explanation": "Cette opération est souvent notée avec la croix de multiplication, mais peut aussi être notée par d'autres symboles.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-228",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_228.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-228-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel sport consiste à faire du ski sur l'eau, tracté par un bateau rapide ?",
+      "answer": "Ski nautique",
+      "options": [
+        "Ski acrobatique",
+        "Ski de fond",
+        "Ski nautique",
+        "Ski alpin"
+      ],
+      "explanation": "Ce sport consistant à se faire tracter par un bateau à moteur comporte 4 disciplines : le slalom, les figures, le saut et le combiné.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-228",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_228.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-228-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Duquel de nos cinq sens les personnes aveugles sont-elles hélas privées ?",
+      "answer": "Vue",
+      "options": [
+        "Toucher",
+        "Ouïe",
+        "Odorat",
+        "Vue"
+      ],
+      "explanation": "La vie sociale est compliquée par le handicap : la santé et le sommeil sont affectés par une perturbation de la production de la mélatonine.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-228",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_228.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-228-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel dessin animé peux-tu entendre la célèbre phrase « Hakuna matata » ?",
+      "answer": "Le Roi lion",
+      "options": [
+        "Dinosaure",
+        "Toy Story",
+        "Cars",
+        "Le Roi lion"
+      ],
+      "explanation": "Sorti en 1994, le film est inspiré de l'oeuvre d'Osamu Tezuka « Le Roi Léo » (1951) et d'« Hamlet » de William Shakespeare.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-228",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_228.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-228-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel sport consiste à envoyer une petite balle blanche dans un trou ?",
+      "answer": "Golf",
+      "options": [
+        "Chistera",
+        "Croquet",
+        "Cricket",
+        "Golf"
+      ],
+      "explanation": "En 2009, Le Comité international olympique a réintégré le golf parmi la liste des sports présents aux Jeux olympiques d'été.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-228",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_228.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-228-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que porte sur la tête le capitaine Haddock, meilleur ami de Tintin ?",
+      "answer": "Casquette",
+      "options": [
+        "Casquette",
+        "Casque",
+        "Chapeau",
+        "Turban"
+      ],
+      "explanation": "En 1996, il a été désigné comme le personnage principal préféré de la série avec 37,5 % des suffrages devant Milou et Tintin.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-228",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_228.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-228-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle montagne peuvent parfois sortir des matières brûlantes ?",
+      "answer": "Volcan",
+      "options": [
+        "Rocher",
+        "Volcan",
+        "Dune",
+        "Talus"
+      ],
+      "explanation": "Les laves refroidies peuvent atteindre des milliers de mètres d'épaisseur, formant parfois des montagnes ou des îles.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-228",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_228.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-228-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces propositions désigne ce qui apparaît en premier sur un arbre ?",
+      "answer": "Bourgeon",
+      "options": [
+        "Fleur",
+        "Fruit",
+        "Bourgeon",
+        "Pépin"
+      ],
+      "explanation": "Le bourgeon donne naissance aux branches, aux feuilles, aux fleurs (le bourgeon est alors nommé bouton) et aux fruits.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-228",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_228.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-228-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans la coquille de quel animal marin peut-on parfois trouver une perle ?",
+      "answer": "Huître",
+      "options": [
+        "Huître",
+        "Tortue",
+        "Moule",
+        "Escargot"
+      ],
+      "explanation": "Les huîtres sont des mollusques qui ne vivent que dans l'eau salée ou saumâtre et se trouvent dans toutes les mers.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-228",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_228.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-228-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel nom donne-t-on aux grandes collines de sable situées au bord de la mer ?",
+      "answer": "Dunes",
+      "options": [
+        "Falaises",
+        "Dunes",
+        "Banquises",
+        "Monts"
+      ],
+      "explanation": "Les dunes étant composées de sable, on ne parle pas de dune de sable, sauf pour préciser la qualité du sable qui la compose.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-228",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_228.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-228-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Au cours de quelle saison la plupart des arbres fleurissent-ils en Europe ?",
+      "answer": "Printemps",
+      "options": [
+        "Automne",
+        "Été",
+        "Hiver",
+        "Printemps"
+      ],
+      "explanation": "Sur les arbres, le bourgeon hiverne et au printemps, lorsque les racines reprennent le pompage de la sève brute, celui-ci éclate.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-228",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_228.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-228-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment appelle-t-on un jeune mouton mâle âgé de moins d'un an ?",
+      "answer": "Agneau",
+      "options": [
+        "Bouc",
+        "Agneau",
+        "Biquette",
+        "Bélier"
+      ],
+      "explanation": "L'agneau est principalement élevé pour sa viande, mais également pour sa peau (articles de mode) et son poil (feutre des chapeliers).",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-228",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_228.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-228-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle médaille obtient un sportif arrivé deuxième d'une épreuve aux JO ?",
+      "answer": "Argent",
+      "options": [
+        "Argent",
+        "Bronze",
+        "Or",
+        "Cuivre"
+      ],
+      "explanation": "Lors des JO de 1896, la médaille d'argent était remise au gagnant : ce n'est qu'en 1904 que l'ordre or/argent/bronze devint un standard.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-228",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_228.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-228-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel appareil permet de rebondir sur une toile tendue et de faire des sauts et des figures ?",
+      "answer": "Trampoline",
+      "options": [
+        "Javelot",
+        "Perche",
+        "Espalier",
+        "Trampoline"
+      ],
+      "explanation": "Conjuguant l'aspect acrobatique à l'adrénaline des sensations verticales, le trampoline est considéré comme sport et attraction.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-228",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_228.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-228-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel genre de chaussures porte-t-on pour pratiquer le judo en toute sécurité ?",
+      "answer": "Aucune",
+      "options": [
+        "Aucune",
+        "Bottes",
+        "Baskets",
+        "Sabots"
+      ],
+      "explanation": "Le lieu où l'on pratique le judo s'appelle le dojo, les pratiquants les judokas, la tenue en coton renforcée le judogi ou kimono.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-228",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_228.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-228-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien un trèfle du jardin possède-t-il le plus souvent de feuilles ?",
+      "answer": "Trois",
+      "options": [
+        "Cinq",
+        "Quatre",
+        "Trois",
+        "Deux"
+      ],
+      "explanation": "C'est une plante très basse à tige rampante, reconnaissable à ses inflorescences blanches, parfois rosées, au parfum assez agréable.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-228",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_228.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-228-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans un jeu de cartes classique, de quelle couleur sont les carreaux ?",
+      "answer": "Rouge",
+      "options": [
+        "Bleu",
+        "Vert",
+        "Rouge",
+        "Noir"
+      ],
+      "explanation": "Un jeu français comprend 52 cartes à jouer, réparties suivant treize valeurs sur quatre enseignes : pique, coeur, carreau et trèfle.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-228",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_228.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-228-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment appelle-t-on la ligne imaginaire qui sépare deux pays ?",
+      "answer": "Frontière",
+      "options": [
+        "Tangente",
+        "Médiane",
+        "Frontière",
+        "Section"
+      ],
+      "explanation": "Le sens attribué au mot frontière a évolué tout au long de l'histoire, et il n'a pas été le même d'une époque à l'autre.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-228",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_228.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-228-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le nombre total de points sur un dé à six faces de jeu de société ?",
+      "answer": "21",
+      "options": [
+        "21",
+        "18",
+        "15",
+        "30"
+      ],
+      "explanation": "Les dés les plus courants sont des petits cubes de 1 à 2 cm de côté (souvent 16 mm), possédant donc 6 faces numérotées de 1 à 6.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-228",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_228.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-228-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle catégorie d'animaux nourrissent leurs petits avec leur lait ?",
+      "answer": "Mammifères",
+      "options": [
+        "Carnivores",
+        "Primates",
+        "Mammifères",
+        "Rongeurs"
+      ],
+      "explanation": "Les nouveau-nés nécessitent systématiquement des soins parentaux du fait de leur appareil digestif immature à la naissance.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-228",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_228.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-228-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans nos jardins, quelle partie de la plante peut s'enfoncer profondément dans la terre ?",
+      "answer": "Racine",
+      "options": [
+        "Tige",
+        "Épine",
+        "Racine",
+        "Pétale"
+      ],
+      "explanation": "La racine est un organe vital de la plante, qui se forme très tôt lors du développement de la plante, dès le début de la germination.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-228",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_228.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-228-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle matière sont fabriqués les pneus des voitures ?",
+      "answer": "Caoutchouc",
+      "options": [
+        "Caoutchouc",
+        "Liège",
+        "Carbone",
+        "Plastique"
+      ],
+      "explanation": "Un pneu est conçu pour être monté sur la jante d'une roue et gonflé avec un gaz sous pression, habituellement de l'air ou de l'azote.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-228",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_228.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-228-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment appelle-t-on une maison construite en bois en pleine montagne ?",
+      "answer": "Chalet",
+      "options": [
+        "Gîte",
+        "Chalet",
+        "Caravane",
+        "Auberge"
+      ],
+      "explanation": "En Suisse romande, le terme chalet désigne également l'édifice où l'on fait le fromage en été dans les hauts alpages.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-228",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_228.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-228-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces nages représente le type de nage le plus rapide ?",
+      "answer": "Crawl",
+      "options": [
+        "Crawl",
+        "Papillon",
+        "Basse",
+        "Dos"
+      ],
+      "explanation": "En crawl, la position du corps est horizontale et se caractérise par un battement des jambes et d'une rotation des bras en dehors de l'eau.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-228",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_228.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-228-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En compétition, que met-on sur le dos de certains sportifs pour les reconnaître ?",
+      "answer": "Dossard",
+      "options": [
+        "Mouchoir",
+        "Maillot",
+        "Drapeau",
+        "Dossard"
+      ],
+      "explanation": "En dehors du sport hippique, l'athlétisme et le cyclisme furent les premières disciplines à adopter le système de dossard.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-228",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_228.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-228-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle source d'énergie permet de faire avancer une planche à voile ?",
+      "answer": "Éolienne",
+      "options": [
+        "Éolienne",
+        "Solaire",
+        "Marine",
+        "Hydraulique"
+      ],
+      "explanation": "En 2015 l'éolien fournissait 3,4 % de la production mondiale d'électricité. En 2017, cette part a été portée à 4 % avec 539 GW.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-228",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_228.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-228-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle course cycliste de France est aussi appelée la Grande Boucle ?",
+      "answer": "Tour de France",
+      "options": [
+        "Paris-Nice",
+        "Milan-San Remo",
+        "Tour de France",
+        "Critérium"
+      ],
+      "explanation": "Cette compétition cycliste par étapes masculine a lieu principalement en France, tout en traversant occasionnellement les pays voisins.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-228",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_228.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

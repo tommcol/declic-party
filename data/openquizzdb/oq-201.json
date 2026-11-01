@@ -1,0 +1,798 @@
+{
+  "id": "oq-201",
+  "title": "Super-héroïnes",
+  "originalTitle": "Super-héroïnes (Des femmes aux superpouvoirs)",
+  "universe": "film",
+  "emoji": "🎬",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_201.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-201-1",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui est la princesse Diana, issue d'une tribu d'Amazones ?",
+      "answer": "Wonder Woman",
+      "options": [
+        "Mega Mindy",
+        "Wonder Woman",
+        "Gwen Tennyson",
+        "Cipher"
+      ],
+      "explanation": "Le 4 décembre 2013, Gal Gadot fut choisie pour jouer Wonder Woman et signa un contrat de trois films avec les studios Marvel.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-201",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_201.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-201-2",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle super-héroïne a le pouvoir de se téléporter sur de grandes distances ?",
+      "answer": "Blink",
+      "options": [
+        "Cléa",
+        "Nocturne",
+        "Thundra",
+        "Blink"
+      ],
+      "explanation": "La popularité de ce personnage alternatif, mort après un an, a entraîné le retour en 2009 de la version d'origine.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-201",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_201.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-201-3",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle super-héroïne peut bloquer les télépathes qui voudraient lire ses pensées ?",
+      "answer": "Cipher",
+      "options": [
+        "Wonder Girl",
+        "Cipher",
+        "Kamala Khan",
+        "Andromeda"
+      ],
+      "explanation": "Outre ses pouvoirs de blocage, Cipher est également capable de se rendre invisible et peut également piloter le X-Jet.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-201",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_201.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-201-4",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle hybride mystique peut naturellement flotter dans les airs ?",
+      "answer": "Cléa",
+      "options": [
+        "Tigra",
+        "Cléa",
+        "Mega Mindy",
+        "Elsa Bloodstone"
+      ],
+      "explanation": "Le personnage de Cléa a eu des adaptations dans des univers alternatifs : Marvel 1602, Earth X, Ultimate Marvel et Marvel Apes.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-201",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_201.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-201-5",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans la série télé « Birds of Prey », qui est la fille de Batman ?",
+      "answer": "Huntress",
+      "options": [
+        "Abigail Brand",
+        "Cassandra Cain",
+        "Huntress",
+        "Thundra"
+      ],
+      "explanation": "Huntress et ses super-pouvoirs travaille avec la fille de Black Canary. Elles sont les principales combattantes du crime de Gotham City.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-201",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_201.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-201-6",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle super-héroïne possède une peau bleue couverte d'une fine fourrure ?",
+      "answer": "Nocturne",
+      "options": [
+        "Abigail Brand",
+        "Miss Hulk",
+        "Jessica Cruz",
+        "Nocturne"
+      ],
+      "explanation": "Outre sa physiologie, Nocturne possède le pouvoir d'entrer dans le corps d'une personne et de le contrôler pendant douze heures.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-201",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_201.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-201-7",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle mutante est également connue pour être la fille de Magnéto ?",
+      "answer": "Polaris",
+      "options": [
+        "Nocturne",
+        "Polaris",
+        "Cipher",
+        "Darna"
+      ],
+      "explanation": "Les pouvoirs mutants de Polaris lui permettent de détecter et de contrôler le magnétisme, y compris la manipulation de métaux.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-201",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_201.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-201-8",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle femme-chat possède une endurance et une agilité surhumaine ?",
+      "answer": "Tigra",
+      "options": [
+        "Kamala Khan",
+        "Miss Hulk",
+        "Jolt",
+        "Tigra"
+      ],
+      "explanation": "Son état de femme-chat rend l'esprit de Tigra plus difficile à contrôler pour quelqu'un possédant un pouvoir télépathique.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-201",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_201.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-201-9",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel nom porte la version adolescente de « Wonder Woman » ?",
+      "answer": "Wonder Girl",
+      "options": [
+        "Wonder Girl",
+        "Darna",
+        "Cassandra Cain",
+        "Huntress"
+      ],
+      "explanation": "À l'origine, les scénaristes de la série animée « Les Jeunes Titans » désiraient faire de Wonder Girl un personnage de l'équipe principale.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-201",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_201.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-201-10",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle Atlante de l'univers Marvel peut soulever jusqu'à quatorze tonnes à l'air ?",
+      "answer": "Andromeda",
+      "options": [
+        "Andromeda",
+        "Huntress",
+        "Blink",
+        "Cipher"
+      ],
+      "explanation": "Guerrière formidable, son arme de prédilection est le trident, mais elle connaît à la perfection toutes les techniques de combat atlantes.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-201",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_201.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-201-11",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui a été la Batgirl de l'univers DC Comics de 1999 jusqu'en 2009 ?",
+      "answer": "Cassandra Cain",
+      "options": [
+        "Helena Bertinelli",
+        "Betty Kane",
+        "Barbara Gordon",
+        "Cassandra Cain"
+      ],
+      "explanation": "Américaine d'origine asiatique, fille de deux assassins, Cassandra Caïn a été élevée pour être le plus grand assassin du monde.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-201",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_201.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-201-12",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle femme peut survivre dans le froid glacial de l'espace sans combinaison ?",
+      "answer": "Ganymède",
+      "options": [
+        "Ganymède",
+        "Kamala Khan",
+        "Gwen Tennyson",
+        "Sif"
+      ],
+      "explanation": "Guerrière de premier ordre, elle utilise au combat un grand bâton avec lequel, en se concentrant, elle peut en émettre de puissantes rafales.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-201",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_201.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-201-13",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui peut transformer son corps physique en électricité vivante ?",
+      "answer": "Jolt",
+      "options": [
+        "Miss Hulk",
+        "Jolt",
+        "Carol Danvers",
+        "Cybersix"
+      ],
+      "explanation": "À l'origine, Jolt possède une agilité hyperkinétique qui la dote d'une vitesse accélérée et d'une puissance de saut phénoménale.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-201",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_201.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-201-14",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle super-héroïne a subi une mutation par une transfusion sanguine ?",
+      "answer": "Miss Hulk",
+      "options": [
+        "Huntress",
+        "Thundra",
+        "Ganymède",
+        "Miss Hulk"
+      ],
+      "explanation": "Avec sa peau verte qui résiste aux balles et aux lasers, Miss Hulk se fatigue très peu et ne craint ni le froid, ni le feu, ni les maladies.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-201",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_201.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-201-15",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle femme afro-américaine a été bombardée d'énergie ?",
+      "answer": "Monica Rambeau",
+      "options": [
+        "Huntress",
+        "Mega Mindy",
+        "Monica Rambeau",
+        "Gwen Tennyson"
+      ],
+      "explanation": "Plus connue sous le nom de Captain Marvel, elle a aussi été surnommée Photon et Pulsar et, depuis 2013, Spectrum.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-201",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_201.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-201-16",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui est devenue en 2012 l'héroïne principale de « Journey into Mystery » ?",
+      "answer": "Sif",
+      "options": [
+        "Jessica Cruz",
+        "Kamala Khan",
+        "Cléa",
+        "Sif"
+      ],
+      "explanation": "Sif possède les caractéristiques des asgardiens : une résistance, une force et une endurance supérieures aux êtres humains.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-201",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_201.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-201-17",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel surnom est donné à Suzanna Sherman, super-héroïne Marvel ?",
+      "answer": "Ultra Girl",
+      "options": [
+        "Abigail Brand",
+        "Ultra Girl",
+        "Cléa",
+        "Polaris"
+      ],
+      "explanation": "Pouvant voler et atteindre la vitesse du son, la vision d'Ultra Girl perçoit différents spectres, comme l'infrarouge et l'ultraviolet.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-201",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_201.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-201-18",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui a adopté le nom de Karen Starr en arrivant sur Terre ?",
+      "answer": "Power Girl",
+      "options": [
+        "Blink",
+        "Power Girl",
+        "Ganymède",
+        "Thundra"
+      ],
+      "explanation": "Tout comme son cousin Superman, Power Girl (de son vrai nom Kara Zor-EL) a échappé à la destruction de Krypton.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-201",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_201.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-201-19",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui tire ses pouvoirs de la gemme de son père attachée à son cou ?",
+      "answer": "Elsa Bloodstone",
+      "options": [
+        "Ganymède",
+        "Cipher",
+        "Blink",
+        "Elsa Bloodstone"
+      ],
+      "explanation": "Soixante kilos, yeux bleus, cheveux blonds, la belle et farouche Elsa est la fille du fameux chasseur de monstre Ulysses Bloodstone.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-201",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_201.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-201-20",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle super-héroïne peut générer de la chaleur par ses mains ?",
+      "answer": "Abigail Brand",
+      "options": [
+        "Thundra",
+        "Abigail Brand",
+        "Jessica Cruz",
+        "Huntress"
+      ],
+      "explanation": "Abigail Brand, également agent d'élite du SHIELD, est rompue au corps à corps et experte dans le maniement des armes à feu.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-201",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_201.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-201-21",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle femme artificielle s'est enfuie enfant pour échapper à son créateur ?",
+      "answer": "Cybersix",
+      "options": [
+        "Gwen Tennyson",
+        "Ultra Girl",
+        "Cybersix",
+        "Jolt"
+      ],
+      "explanation": "Cybersix s'est réfugiée dans une cité glauque, Méridiana, où elle a grandi sous l'identité d'un garçon décédé : Adrian Seidelman.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-201",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_201.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-201-22",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle ancienne pilote de l'US Air Force est devenue agent de renseignement ?",
+      "answer": "Carol Danvers",
+      "options": [
+        "Nocturne",
+        "Carol Danvers",
+        "Ultra Girl",
+        "Blink"
+      ],
+      "explanation": "Carol Danvers peut puiser dans l'énergie d'un trou blanc et contrôler l'énergie électromagnétique, la chaleur ambiante et la gravité.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-201",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_201.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-201-23",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle super-héroïne peut construire tout ce que son esprit désire ?",
+      "answer": "Jessica Cruz",
+      "options": [
+        "Darna",
+        "Cipher",
+        "Jessica Cruz",
+        "Cléa"
+      ],
+      "explanation": "Membre des Green Lantern, Jessica peut voyager dans le temps grâce à son anneau, une particularité qu'elle a hérité de Volthoom.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-201",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_201.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-201-24",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle super-héroïne belge est interprétée par Free Souffriau ?",
+      "answer": "Mega Mindy",
+      "options": [
+        "Mega Mindy",
+        "Gwen Tennyson",
+        "Blink",
+        "Sif"
+      ],
+      "explanation": "Mega Mindy est le personnage principal et le nom d'une série télévisée flamande destinée aux enfants, produite par le Studio 100.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-201",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_201.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-201-25",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle super-héroïne de l'âge d'or des comics est apparue au grand public en août 1941 ?",
+      "answer": "Phantom Lady",
+      "options": [
+        "Phantom Lady",
+        "Ganymède",
+        "Cybersix",
+        "Cassandra Cain"
+      ],
+      "explanation": "Plusieurs personnages de fiction ont porté le costume de la Phantom Lady, Sandra Knight étant la Phantom Lady d'origine.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-201",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_201.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-201-26",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle super-héroïne rousse est un stéréotype de la super-garce ?",
+      "answer": "Thundra",
+      "options": [
+        "Ganymède",
+        "Wonder Girl",
+        "Thundra",
+        "Blink"
+      ],
+      "explanation": "Comme Mantis, Power Girl et d'autres super-héroïnes libérées ont fait suite au mouvement de libération des femmes des années 1960.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-201",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_201.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-201-27",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel nom portait Sharon Ventura avant de s'appeler Miss Chose ?",
+      "answer": "Miss Marvel",
+      "options": [
+        "Miss Marvel",
+        "Cléa",
+        "Carol Danvers",
+        "Miss Hulk"
+      ],
+      "explanation": "À la suite d'une mutation due à des rayonnements cosmiques, elle prit la même apparence que La Chose et fut surnommée Miss Chose.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-201",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_201.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-201-28",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle adolescente vivant à Jersey City a des parents pakistanais ?",
+      "answer": "Kamala Khan",
+      "options": [
+        "Ganymède",
+        "Cléa",
+        "Cassandra Cain",
+        "Kamala Khan"
+      ],
+      "explanation": "La jeune Kamala Khan est un des rares personnages de comics musulmans à être représenté de manière positive, avec Dust et M.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-201",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_201.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-201-29",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle gymnaste accomplie fait partie de l'univers Ben 10 ?",
+      "answer": "Gwen Tennyson",
+      "options": [
+        "Sif",
+        "Polaris",
+        "Gwen Tennyson",
+        "Darna"
+      ],
+      "explanation": "Elle possède ses propres adversaires, qui lui sont davantage opposés qu'aux autres : Hex et l'Enchanteresse.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-201",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_201.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-201-30",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle super-héroïne de Mars Ravelo s'appelait autrefois Varga ?",
+      "answer": "Darna",
+      "options": [
+        "Darna",
+        "Cybersix",
+        "Carol Danvers",
+        "Polaris"
+      ],
+      "explanation": "La série a connu de nombreuses adaptations dans son pays, en série d'animation comme sous forme de séries TV et films live.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-201",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_201.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

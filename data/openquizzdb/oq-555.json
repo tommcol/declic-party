@@ -1,0 +1,798 @@
+{
+  "id": "oq-555",
+  "title": "Mots croisés 2",
+  "originalTitle": "Mots croisés 2 (Petites énigmes linguistiques)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_555.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-555-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Chien de chasse, mot de sept lettres commençant par un T ?",
+      "answer": "Terrier",
+      "options": [
+        "Tilleul",
+        "Tondeur",
+        "Tanneur",
+        "Terrier"
+      ],
+      "explanation": "Les chiens de terrier ont un dénominateur commun : la fonction de déterrage des nuisibles réfugiés dans leurs abris souterrains.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-555",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_555.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-555-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Fraise de dentiste, mot de huit lettres commençant par un R ?",
+      "answer": "Roulette",
+      "options": [
+        "Rehausse",
+        "Rigolade",
+        "Roulette",
+        "Remblais"
+      ],
+      "explanation": "Les fraises dentaires, de formes différentes, font partie des instruments standard pour la technique de préparation dentaire.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-555",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_555.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-555-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Homme de main, mot de cinq lettres commençant par un T ?",
+      "answer": "Tueur",
+      "options": [
+        "Tuyau",
+        "Tigre",
+        "Trapu",
+        "Tueur"
+      ],
+      "explanation": "Un assassinat est un meurtre commis avec préméditation ou d'autres circonstances considérées comme aggravantes.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-555",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_555.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-555-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Attire le poisson, mot de trois lettres commençant par un V ?",
+      "answer": "Ver",
+      "options": [
+        "Vin",
+        "Vis",
+        "Vol",
+        "Ver"
+      ],
+      "explanation": "Les vers constituent un groupe d'animaux invertébrés qui partagent une caractéristique commune, à savoir un corps mou.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-555",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_555.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-555-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Essai de laboratoire, mot de quatre lettres commençant par un T ?",
+      "answer": "Test",
+      "options": [
+        "Trou",
+        "Toit",
+        "Taxe",
+        "Test"
+      ],
+      "explanation": "Un laboratoire ou unité de recherche est une structure sociale constituée donnant un cadre de travail aux chercheurs.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-555",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_555.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-555-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Attribut de paon, mot de quatre lettres commençant par un R ?",
+      "answer": "Roue",
+      "options": [
+        "Rhum",
+        "Ruse",
+        "Roue",
+        "Rame"
+      ],
+      "explanation": "Hormis le Paon bleu, domestiqué de longue date, les autres espèces sont menacées de disparition au XXIe siècle.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-555",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_555.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-555-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Prétendant au titre, mot de six lettres commençant par un F ?",
+      "answer": "Favori",
+      "options": [
+        "Fidèle",
+        "Fleuve",
+        "Favori",
+        "Frelon"
+      ],
+      "explanation": "Rois, reines et personnages de haut rang avaient souvent leur favori, personne de confiance, ami intime, maîtresse ou amant.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-555",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_555.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-555-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Préférable avant le départ, mot de onze lettres commençant par un R ?",
+      "answer": "Réservation",
+      "options": [
+        "Radicalisme",
+        "Rééquilibre",
+        "Rembourrage",
+        "Réservation"
+      ],
+      "explanation": "Les vacances, moyennant parfois réservation, sont une période pendant laquelle une personne cesse ses activités habituelles.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-555",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_555.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-555-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Vert au casino, mot de cinq lettres commençant par un T ?",
+      "answer": "Tapis",
+      "options": [
+        "Trône",
+        "Tibia",
+        "Tapis",
+        "Tronc"
+      ],
+      "explanation": "« Tapis vert » était aussi un jeu de La Française des jeux, créé en 1987, où il était possible de gagner jusqu'à mille fois sa mise.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-555",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_555.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-555-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Boîte pour la crème, mot de trois lettres commençant par un P ?",
+      "answer": "Pot",
+      "options": [
+        "Pas",
+        "Pot",
+        "Pic",
+        "Pli"
+      ],
+      "explanation": "La crème, riche en matière grasse, est obtenue soit mécaniquement par centrifugation, soit naturellement par décantation du lait cru.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-555",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_555.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-555-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Il mesure les capacités, mot de six lettres commençant par un E ?",
+      "answer": "Examen",
+      "options": [
+        "Examen",
+        "Énoncé",
+        "Empire",
+        "Eczéma"
+      ],
+      "explanation": "La docimologie est la discipline qui étudie la façon dont sont attribuées les notes par les correcteurs des examens scolaires.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-555",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_555.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-555-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Homme rustre, mot de quatre lettres commençant par un O ?",
+      "answer": "Ours",
+      "options": [
+        "Ovni",
+        "Ours",
+        "Onde",
+        "Obus"
+      ],
+      "explanation": "Que vous soignez désigné comme un ours mal léché ou non, il ne faut pas vendre la peau de l'ours avant de l'avoir tué.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-555",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_555.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-555-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "On le devient par frustration, mot de huit lettres commençant par un C ?",
+      "answer": "Chocolat",
+      "options": [
+        "Certifié",
+        "Cajoleur",
+        "Choquant",
+        "Chocolat"
+      ],
+      "explanation": "L'expression chocolat bleu pâle est parfois utilisée pour désigner un état d'esprit ou le teint d'un visage après une soirée arrosée.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-555",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_555.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-555-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Course qui vaut de l'or, mot de quatre lettres commençant par un R ?",
+      "answer": "Ruée",
+      "options": [
+        "Ruée",
+        "Rêve",
+        "Ruse",
+        "Robe"
+      ],
+      "explanation": "Les ruées vers l'or du XIXe siècle ont souvent provoqué la rapide croissance de hameaux devenant subitement des villes.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-555",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_555.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-555-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Un départ pour l'oie, mot de quatre lettres commençant par un C ?",
+      "answer": "Case",
+      "options": [
+        "Coin",
+        "Case",
+        "Choc",
+        "Cane"
+      ],
+      "explanation": "Le jeu de l'oie est un jeu de société de parcours où l'on déplace des pions sur des cases en fonction des résultats de deux dés.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-555",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_555.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-555-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Chevalier de la foi, mot de huit lettres commençant par un T ?",
+      "answer": "Templier",
+      "options": [
+        "Tamanoir",
+        "Toucheur",
+        "Terminal",
+        "Templier"
+      ],
+      "explanation": "L'ordre du Temple est un ordre religieux issu de la chevalerie chrétienne, dont les membres sont appelés les Templiers.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-555",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_555.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-555-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Elle reçoit du beau linge, mot de cinq lettres commençant par un C ?",
+      "answer": "Corde",
+      "options": [
+        "Cuvée",
+        "Craie",
+        "Canne",
+        "Corde"
+      ],
+      "explanation": "Une corde à linge est un dispositif simple utilisé pour étendre le linge en vue de procéder à son séchage, après son lavage.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-555",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_555.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-555-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Prise d'un ordinateur, mot de quatre lettres commençant par un P ?",
+      "answer": "Port",
+      "options": [
+        "Puce",
+        "Pôle",
+        "Pont",
+        "Port"
+      ],
+      "explanation": "Un port matériel permet de brancher des périphériques sur un ordinateur, un port logiciel de recevoir ou d'émettre des données.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-555",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_555.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-555-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Réunion arrosée, mot de huit lettres commençant par un B ?",
+      "answer": "Beuverie",
+      "options": [
+        "Bronzage",
+        "Banlieue",
+        "Beuverie",
+        "Biscotte"
+      ],
+      "explanation": "Une beuverie est un mode de consommation excessif de boissons alcoolisées sur une courte période de temps, par épisodes répétés.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-555",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_555.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-555-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Il trotte en tête, mot de trois lettres commençant par un P ?",
+      "answer": "Pou",
+      "options": [
+        "Pot",
+        "Pli",
+        "Pou",
+        "Pic"
+      ],
+      "explanation": "Cet insecte parasite de l'être humain (Pediculus humanus) donne la pédiculose du cuir chevelu ou la pédiculose corporelle.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-555",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_555.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-555-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "A toujours le dernier mot, mot de quatre lettres commençant par un E ?",
+      "answer": "Écho",
+      "options": [
+        "Écho",
+        "Émir",
+        "État",
+        "Euro"
+      ],
+      "explanation": "Écho est une nymphe des forêts et des montagnes dont la personnification du phénomène acoustique a donné le mot écho.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-555",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_555.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-555-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Doit éviter les fuites, mot de douze lettres commençant par un R ?",
+      "answer": "Robinetterie",
+      "options": [
+        "Regroupement",
+        "Romanichelle",
+        "Robinetterie",
+        "Reconduction"
+      ],
+      "explanation": "Les appareils de robinetterie sont des éléments qui ont pour rôle de créer, régler, interrompre, indiquer le débit d'un fluide.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-555",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_555.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-555-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Départ en piscine, mot de quatre lettres commençant par un P ?",
+      "answer": "Plot",
+      "options": [
+        "Porc",
+        "Plot",
+        "Punk",
+        "Pied"
+      ],
+      "explanation": "La natation sportive consiste à parcourir dans une piscine, le plus rapidement possible, une distance donnée sans accessoire.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-555",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_555.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-555-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Met le feu dans les fosses, mot de sept lettres commençant par un R ?",
+      "answer": "Rhinite",
+      "options": [
+        "Rhinite",
+        "Relance",
+        "Raccord",
+        "Roulade"
+      ],
+      "explanation": "Rhinite est le terme médical décrivant l'irritation et l'inflammation, aiguë ou chronique, des muqueuses de la cavité nasale.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-555",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_555.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-555-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Arrêt de rame, mot de quatre lettres commençant par un G ?",
+      "answer": "Gare",
+      "options": [
+        "Goal",
+        "Gîte",
+        "Gare",
+        "Grue"
+      ],
+      "explanation": "Dans le cadre du chemin de fer, la gare permet la montée ou la descente des voyageurs et le déchargement des marchandises.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-555",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_555.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-555-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De la drogue, mais pas noble, mot de cinq lettres commençant par un B ?",
+      "answer": "Baron",
+      "options": [
+        "Baron",
+        "Bière",
+        "Bonze",
+        "Brave"
+      ],
+      "explanation": "Pablo Escobar était un trafiquant colombien de cocaïne, baron de la drogue le plus riche de l'histoire, à la tête du cartel de Medellin.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-555",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_555.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-555-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "As du circuit, mot de treize lettres commençant par un E ?",
+      "answer": "Électronicien",
+      "options": [
+        "Entomologiste",
+        "Électronicien",
+        "Exterminateur",
+        "Entrebâilleur"
+      ],
+      "explanation": "Devant la complexification effrénée de l'électronique moderne, le métier d'électronicien est devenu de plus en plus spécialisé.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-555",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_555.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-555-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Se pose avec désinvolture, mot de cinq lettres commençant par un L ?",
+      "answer": "Lapin",
+      "options": [
+        "Lapin",
+        "Livre",
+        "Lance",
+        "Laïus"
+      ],
+      "explanation": "Cette locution se dit d'une situation dans laquelle une personne n'honore pas un rendez-vous préalablement fixé avec quelqu'un.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-555",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_555.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-555-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Contrôle de ballon, mot de neuf lettres commençant par un A ?",
+      "answer": "Alcootest",
+      "options": [
+        "Accordeur",
+        "Alcootest",
+        "Aiguisoir",
+        "Abduction"
+      ],
+      "explanation": "Leur température d'utilisation doit être strictement comprise entre -10 °C et 40 °C, ce qui semble parfois difficile à respecter.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-555",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_555.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-555-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Machine qui rend poli, mot de huit lettres commençant par un P ?",
+      "answer": "Ponceuse",
+      "options": [
+        "Perceuse",
+        "Ponceuse",
+        "Pressoir",
+        "Plantoir"
+      ],
+      "explanation": "La ponceuse est une machine utilisée pour poncer une surface, c'est-à-dire pour la polir, la décaper ou modifier son état de surface.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-555",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_555.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

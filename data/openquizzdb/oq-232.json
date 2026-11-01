@@ -1,0 +1,798 @@
+{
+  "id": "oq-232",
+  "title": "OpenBSD",
+  "originalTitle": "OpenBSD (L'intransigeance du code source)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_232.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-232-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "OpenBSD est un système d'exploitation libre de quel type ?",
+      "answer": "Unix",
+      "options": [
+        "System V",
+        "Unix",
+        "Linux",
+        "Posix"
+      ],
+      "explanation": "Un système d'exploitation de type Unix est un système d'exploitation qui se comporte d'une façon semblable à un système Unix.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-232",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_232.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-232-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel ingénieur est à l'origine de la création du système OpenBSD ?",
+      "answer": "Theo de Raadt",
+      "options": [
+        "Theo de Raadt",
+        "Alan Cox",
+        "Richard Stallman",
+        "Linus Torvalds"
+      ],
+      "explanation": "C'est à la suite de son exclusion du conseil d'administration de NetBSD que Theo de Raadt a fondé le projet OpenBSD en 1994.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-232",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_232.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-232-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "OpenBSD est issu de la séparation de quel autre système d'exploitation ?",
+      "answer": "NetBSD",
+      "options": [
+        "NetBSD",
+        "Solaris",
+        "Debian",
+        "Fedora"
+      ],
+      "explanation": "NetBSD est entièrement fondé sur des logiciels libres, la plupart des composants étant soumis à la Licence BSD.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-232",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_232.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-232-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces éléments renforce la qualité du projet OpenBSD ?",
+      "answer": "Documentation",
+      "options": [
+        "Prix",
+        "Documentation",
+        "Design",
+        "Souplesse"
+      ],
+      "explanation": "Liberté du code source, qualité de la documentation, sécurité et cryptographie intégrée sont les ingrédients principaux d'OpenBSD.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-232",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_232.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-232-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sur quel point les développeurs d'OpenBSD se concentrent-ils principalement ?",
+      "answer": "Sécurité",
+      "options": [
+        "Rendement",
+        "Bureautique",
+        "Sécurité",
+        "Esthétique"
+      ],
+      "explanation": "Les développeurs doivent faire ce qui est correct, propre et sécurisé, au détriment de la facilité, de la vitesse ou des fonctionnalités.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-232",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_232.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-232-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel nom a été donné à la mascotte du projet libre OpenBSD ?",
+      "answer": "Puffy",
+      "options": [
+        "Wilber",
+        "Dogcow",
+        "Puffy",
+        "Tux"
+      ],
+      "explanation": "Puffy est employé pour signifier l'intention des concepteurs de faire un système d'exploitation particulièrement dur à attaquer.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-232",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_232.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-232-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quelle fréquence l'équipe d'OpenBSD réalise-t-elle une nouvelle version ?",
+      "answer": "Six mois",
+      "options": [
+        "Trois ans",
+        "Deux ans",
+        "Cinq ans",
+        "Six mois"
+      ],
+      "explanation": "D'après undeadly.org, le projet OpenBSD aurait subi des pertes financières de l'ordre de 20 000 dollars par an en 2004 et en 2005.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-232",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_232.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-232-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le projet annexe à OpenBSD le plus connu du groupe ?",
+      "answer": "OpenSSH",
+      "options": [
+        "CipherShed",
+        "OpenSSH",
+        "CrossCrypt",
+        "Cryptoloop"
+      ],
+      "explanation": "OpenSSH est un ensemble d'outils informatiques libres permettant des communications sécurisées sur un réseau informatique.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-232",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_232.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-232-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel événement réunit un groupe de développeurs OpenBSD sur plusieurs jours ?",
+      "answer": "Hackathon",
+      "options": [
+        "CeBIT",
+        "Hackathon",
+        "Museomix",
+        "Sicob"
+      ],
+      "explanation": "La philosophie du hackathon prend sa source dans les idées des mouvements Free/Libre Open Source Software.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-232",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_232.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-232-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que réalisent de manière permanente les développeurs d'OpenBSD ?",
+      "answer": "Audits",
+      "options": [
+        "Croquis",
+        "Chansons",
+        "Conférences",
+        "Audits"
+      ],
+      "explanation": "Le projet pratique des audits de codes considérés comme étant des éléments importants de la sécurité d'un système.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-232",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_232.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-232-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans combien de dépôts CVS est développé le noyau d'OpenBSD ?",
+      "answer": "Un seul",
+      "options": [
+        "Quatre",
+        "Un seul",
+        "Deux",
+        "Trois"
+      ],
+      "explanation": "Les logiciels tiers sont offerts en paquets binaires ou peuvent être compilés depuis leurs sources grâce à la collection des ports.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-232",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_232.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-232-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle ville Theo de Raadt coordonne-t-il le projet OpenBSD ?",
+      "answer": "Calgary",
+      "options": [
+        "Nagano",
+        "Grenoble",
+        "Innsbruck",
+        "Calgary"
+      ],
+      "explanation": "La ville de Calgary, à l'est des montagnes Rocheuses, est une destination bien connue pour les sports d'hiver et l'écotourisme.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-232",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_232.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-232-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Après la sortie de quelle version de NetBSD le projet OpenBSD fut-il créé ?",
+      "answer": "1.0",
+      "options": [
+        "1.0",
+        "2.5",
+        "1.5",
+        "2.0"
+      ],
+      "explanation": "Theo De Raadt démissionna et créa en 1994 le système OpenBSD d'après la version 1.0 de NetBSD, comme l'en autorisait la licence.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-232",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_232.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-232-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel algorithme fut ajouté pour le chiffrement des mots de passe sur OpenBSD ?",
+      "answer": "Blowfish",
+      "options": [
+        "Skipjack",
+        "Square",
+        "Blowfish",
+        "Camellia"
+      ],
+      "explanation": "Conçu par Bruce Schneier, Blowfish utilise une taille de bloc de 64 bits et la clé de longueur variable peut aller de 32 à 448 bits.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-232",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_232.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-232-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quoi est converti le code C au format classique pre-ANSI pour les gars d'OpenBSD ?",
+      "answer": "ANSI",
+      "options": [
+        "ANSI",
+        "TSE",
+        "CSTB",
+        "JSA"
+      ],
+      "explanation": "Ceci ne doit pas impliquer des changements de fonctionnalités et n'est réalisé qu'à des fins de lisibilité et de cohérence.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-232",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_232.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-232-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel terme désigne un nouveau logiciel créé à partir d'un logiciel existant ?",
+      "answer": "Fork",
+      "options": [
+        "Trunk",
+        "Merge",
+        "Fork",
+        "Commit"
+      ],
+      "explanation": "Un fork peut être bénéfique pour un projet donné lorsque sa gouvernance actuelle conduit, par exemple, à une impasse.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-232",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_232.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-232-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle société a injecté d'importantes liquidités pour soutenir OpenSSH ?",
+      "answer": "Microsoft",
+      "options": [
+        "Twitter",
+        "Microsoft",
+        "Apple",
+        "Facebook"
+      ],
+      "explanation": "En 2016, le chiffre d'affaires de Microsoft Corporation s'élevait à 89,95 milliards de dollars avec 120 000 employés dans 107 pays.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-232",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_232.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-232-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Pour qui le système OpenBSD est-il surtout très intéressant ?",
+      "answer": "Développeurs",
+      "options": [
+        "Commerciaux",
+        "Utilisateurs",
+        "Internautes",
+        "Développeurs"
+      ],
+      "explanation": "Beaucoup d'utilisateurs ne connaissent pas OpenBSD et se tournent vers des systèmes plus populaires comme Linux ou FreeBSD.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-232",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_232.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-232-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel pare-feu d'OpenBSD est désormais utilisé sur Mac OS X ?",
+      "answer": "Packet Filter",
+      "options": [
+        "Comodo",
+        "ClearOS",
+        "Firestarter",
+        "Packet Filter"
+      ],
+      "explanation": "Un port gratuit de PF a été réalisé pour les systèmes d'exploitation Windows 2000 et XP par la communauté Core FORCE.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-232",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_232.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-232-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle interface de programmation (API) sécurisée est souvent associée à strlcat ?",
+      "answer": "Strlcpy",
+      "options": [
+        "Strlcpy",
+        "Sudo",
+        "Chmod",
+        "Wget"
+      ],
+      "explanation": "Une interface de programmation est une façade clairement délimitée par laquelle un logiciel offre des services à d'autres logiciels.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-232",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_232.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-232-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sous OpenBSD, quelle technique de mise en cage permet la gestion des privilèges ?",
+      "answer": "Chroot",
+      "options": [
+        "Grep",
+        "Chroot",
+        "Bash",
+        "Rlogin"
+      ],
+      "explanation": "La séparation des privilèges est une technique, pionnière sur OpenBSD, et inspirée du principe du moindre privilège.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-232",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_232.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-232-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle licence open source propre est utilisée par OpenBSD ?",
+      "answer": "ISC",
+      "options": [
+        "SPDX",
+        "CeCILL",
+        "LPPL",
+        "ISC"
+      ],
+      "explanation": "Cette licence propre a conduit à un audit exhaustif des licences et des remplacements, voire des suppressions de codes sous licences.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-232",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_232.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-232-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que représente la mascotte régulièrement utilisée par le projet OpenBSD ?",
+      "answer": "Diodon",
+      "options": [
+        "Cachalot",
+        "Gnou",
+        "Chapeau",
+        "Diodon"
+      ],
+      "explanation": "Ces espèces sont souvent appelées poissons-hérissons, poissons porc-épic ou encore hérisson des mers.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-232",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_232.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-232-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Avec quelle société Theo de Raadt a-t-il sorti OpenBSD 2.3 ?",
+      "answer": "Secure Networks inc.",
+      "options": [
+        "Corail Systems",
+        "Sysdream",
+        "Cisco",
+        "Secure Networks inc."
+      ],
+      "explanation": "SNI était une société locale de logiciels de sécurité qui développait un outil d'audit de la sécurité réseau nommé Ballista.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-232",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_232.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-232-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a découvert en 2002 une faille dans le code d'OpenSSH ?",
+      "answer": "Mark Dow",
+      "options": [
+        "Joel Knight",
+        "Steven Mestdagh",
+        "Mark Dow",
+        "Chris Cappuccio"
+      ],
+      "explanation": "Ce fut la première vulnérabilité découverte dans l'installation par défaut d'OpenBSD permettant d'accéder au compte superutilisateur.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-232",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_232.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-232-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quel endroit du code d'OpenBSD a-t-on découvert une faille en 2007 ?",
+      "answer": "Pile IPV6",
+      "options": [
+        "Pile IPV6",
+        "NFS",
+        "Packet Filter",
+        "Fdisk"
+      ],
+      "explanation": "Internet Protocol version 6 est un protocole réseau sans connexion de la couche 3 du modèle OSI (Open Systems Interconnection).",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-232",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_232.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-232-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle technique de protection de mémoire est implémentée dans le code d'OpenBSD ?",
+      "answer": "ProPolice",
+      "options": [
+        "ClamWin",
+        "LinShare",
+        "PhotoRec",
+        "ProPolice"
+      ],
+      "explanation": "La protection Stack-Smashing Protector a originairement été écrite, et est toujours entretenue, par Hiroaki Etoh de la société IBM.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-232",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_232.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-232-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sur combien de plates-formes matérielles OpenBSD a-t-il fonctionné ?",
+      "answer": "32",
+      "options": [
+        "42",
+        "12",
+        "32",
+        "22"
+      ],
+      "explanation": "OpenBSD peut également exécuter des programmes compilés pour Linux (sur les processeurs i386 uniquement).",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-232",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_232.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-232-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel projet du groupe OpenBSD permet de remplacer sendmail ?",
+      "answer": "OpenSMTPD",
+      "options": [
+        "OpenBGPD",
+        "OpenNTPD",
+        "OpenSMTPD",
+        "OpenCVS"
+      ],
+      "explanation": "Le développement d'OpenSMTPD a commencé fin 2008. Il est apparu pour la première fois dans OpenBSD 4.6.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-232",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_232.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-232-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle version d'Apache lourdement modifiée est intégrée à OpenBSD ?",
+      "answer": "1.3",
+      "options": [
+        "4.3",
+        "2.3",
+        "3.3",
+        "1.3"
+      ],
+      "explanation": "Maintenu au sein de la fondation Apache, distribué sous la licence Apache, ce serveur HTTP est le plus populaire du web.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-232",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_232.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

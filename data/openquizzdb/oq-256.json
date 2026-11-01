@@ -1,0 +1,724 @@
+{
+  "id": "oq-256",
+  "title": "Comédies au cinéma",
+  "originalTitle": "Comédies au cinéma (Le cercle de confiance)",
+  "universe": "film",
+  "emoji": "🎬",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_256.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    2,
+    4,
+    19
+  ],
+  "questions": [
+    {
+      "id": "oqdb-256-1",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel acteur rencarde Kad Merad dans un film populaire, avant qu'il ne parte dans le Nord ?",
+      "answer": "Michel Galabru",
+      "options": [
+        "Stéphane Freiss",
+        "Guy Montagné",
+        "Jean Rochefort",
+        "Michel Galabru"
+      ],
+      "explanation": "Michel Galabru incarne, dans le film « Bienvenue chez les Ch'tis », le grand-oncle de Julie, qui, enfant, a vécu dans le Nord.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-256",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_256.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-256-3",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "De quel curé indiscipliné Fernandel a-t-il souvent revêtu la soutane ?",
+      "answer": "Don Camillo",
+      "options": [
+        "Don Camillo",
+        "Don Patillo",
+        "Don Diego de la Vega",
+        "Don Corleone"
+      ],
+      "explanation": "Don Camillo est un personnage de fiction créé en 1948 par l'humoriste, écrivain et dessinateur italien Giovannino Guareschi.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-256",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_256.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-256-5",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui joue le beau-père de Ben Stiller dans « Mon beau-père et moi » ?",
+      "answer": "Robert De Niro",
+      "options": [
+        "Al Pacino",
+        "Jean Reno",
+        "Robert De Niro",
+        "Danny DeVito"
+      ],
+      "explanation": "Le succès du film a donné lieu en 2002 a une émission de télé-réalité américaine intitulée « Ma famille et moi » (Meet my folks).",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-256",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_256.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-256-6",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel personnage fétiche a été créé et interprété par Jacques Tati ?",
+      "answer": "Hulot",
+      "options": [
+        "Hulot",
+        "Cruchot",
+        "Ribouldingue",
+        "Charlot"
+      ],
+      "explanation": "Il s'agit d'un personnage présentant toutes les caractéristiques du cinéma muet, bien que tous ses films soient parlants.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-256",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_256.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-256-7",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel acteur incarne un brillant businessman dans « Pretty Woman » ?",
+      "answer": "Richard Gere",
+      "options": [
+        "Hugh Grant",
+        "Richard Gere",
+        "Mel Gibson",
+        "Bruce Willis"
+      ],
+      "explanation": "Le rôle de Vivian a été refusé par Michelle Pfeiffer, Valeria Golino et Darryl Hannah qui jugea le rôle dégradant pour l'image de la femme.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-256",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_256.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-256-8",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle est la première des résolutions prise par Bridget Jones ?",
+      "answer": "Perdre du poids",
+      "options": [
+        "Perdre du poids",
+        "Trouver un petit ami",
+        "Arrêter de boire",
+        "Arrêter de fumer"
+      ],
+      "explanation": "La culotte couvrante portée par Renée Zellweger et signée par Hugh Grant a été vendue aux enchères 2 000 livres sterling.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-256",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_256.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-256-9",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Contre qui se battent les Cheveux Propres dans le film « RRRrrrr!!! » ?",
+      "answer": "Cheveux Sales",
+      "options": [
+        "Cheveux Longs",
+        "Cheveux Sales",
+        "Cheveux Courts",
+        "Cheveux Crépus"
+      ],
+      "explanation": "Comme le film se déroule à l'âge de pierre, tous les membres de la tribu (hommes et femmes) s'appellent Pierre.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-256",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_256.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-256-10",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quel film Alain Chabat interprète-t-il un chien transformé en homme ?",
+      "answer": "Didier",
+      "options": [
+        "François",
+        "Jacques",
+        "Nicolas",
+        "Didier"
+      ],
+      "explanation": "Les maillots de foot de l'équipe de Didier portent l'inscription Chez Wam, qui est le nom de la société de production d'Alain Chabat.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-256",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_256.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-256-11",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Lequel de ces acteurs ne figure pas au générique du film « Les Compères » ?",
+      "answer": "Gad Elmaleh",
+      "options": [
+        "Stéphane Bierry",
+        "Gérard Depardieu",
+        "Philippe Khorsand",
+        "Gad Elmaleh"
+      ],
+      "explanation": "En 1997, Ivan Reitman réalise une reprise américaine du film intitulée « Drôles de pères », avec Robin Williams et Billy Crystal.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-256",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_256.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-256-12",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Combien de suites a connu « Le gendarme de Saint-Tropez » ?",
+      "answer": "Cinq",
+      "options": [
+        "Sept",
+        "Cinq",
+        "Neuf",
+        "Trois"
+      ],
+      "explanation": "« Le Gendarme de Saint-Tropez » est une hexalogie cinématographique française réalisée par Jean Girault sur une longue période de 18 ans.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-256",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_256.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-256-13",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Au début du film de Rob Reiner sorti en 1989, Harry et Sally sont...",
+      "answer": "Amis",
+      "options": [
+        "Amants",
+        "Divorcés",
+        "Amis",
+        "Mariés"
+      ],
+      "explanation": "L'idée du film est venue à Rob Reiner après son divorce : il a fourni la base du personnage d'Harry et la scénariste celui de Sally.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-256",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_256.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-256-14",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel métier public Austin Powers exerce-t-il le jour dans le film de Jay Roach ?",
+      "answer": "Photographe de mode",
+      "options": [
+        "Avocat",
+        "Vétérinaire",
+        "Banquier",
+        "Photographe de mode"
+      ],
+      "explanation": "Mike Myers joue les deux rôles principaux du film, ce qui explique que l'on voit rarement les deux personnages ensemble à l'écran.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-256",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_256.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-256-15",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel métier Julia Roberts exerce-t-elle dans « Coup de foudre à Notting Hill » ?",
+      "answer": "Actrice",
+      "options": [
+        "Actrice",
+        "Prof de gym",
+        "Hôtesse de bar",
+        "Prostituée"
+      ],
+      "explanation": "La jeune actrice qu'Hugh Grant interviewe à l'hôtel est interprétée par Mischa Barton (« Newport Beach »), 13 ans à l'époque du tournage.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-256",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_256.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-256-16",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans le film « La Doublure », quel acteur assure le rôle principal aux côtés de Daniel Auteuil ?",
+      "answer": "Gad Elmaleh",
+      "options": [
+        "Michel Blanc",
+        "Dany Boon",
+        "Gad Elmaleh",
+        "Louis Garrel"
+      ],
+      "explanation": "Un clin d'oeil au film « Le Dîner de cons » (également signé Francis Veber) apparaît dans le film avec les tire-bouchons de Michel Jonasz.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-256",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_256.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-256-17",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel métier exerce Pierre Richard dans le film « Le grand blond avec une chaussure noire » ?",
+      "answer": "Musicien",
+      "options": [
+        "Écrivain",
+        "Musicien",
+        "Plombier",
+        "Serrurier"
+      ],
+      "explanation": "La robe noire décolletée du dos jusqu'à la naissance des fesses de Mireille Darc, signée Guy Laroche, est présentée au Louvre.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-256",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_256.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-256-18",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "À quel auteur-réalisateur doit-on « La chèvre » ou encore « Le Dîner de cons » ?",
+      "answer": "Francis Veber",
+      "options": [
+        "Bertrand Blier",
+        "Pierre Richard",
+        "Patrice Leconte",
+        "Francis Veber"
+      ],
+      "explanation": "Les scénarios de Veber privilégient le burlesque et sont réglés sur une mécanique boulevardière, reposant sur un duo comique.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-256",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_256.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-256-20",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Laquelle de ces propositions désigne un titre de film réalisé par Francis Veber ?",
+      "answer": "Le Jaguar",
+      "options": [
+        "Le Guépard",
+        "Le Lion",
+        "Le Tigre",
+        "Le Jaguar"
+      ],
+      "explanation": "Après « La Chèvre », tourné au Mexique, le réalisateur Francis Veber retrouve la jungle américaine, cette fois au Brésil et en Amazonie.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-256",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_256.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-256-21",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel acteur joue le rôle de Tanguy dans le film éponyme, sorti en 2001 ?",
+      "answer": "Éric Berger",
+      "options": [
+        "Vincent Cassel",
+        "Jean-Paul Rouve",
+        "Jean Dujardin",
+        "Éric Berger"
+      ],
+      "explanation": "Le prénom Tanguy est désormais utilisé pour désigner un jeune adulte qui se complaît à vivre chez ses parents.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-256",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_256.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-256-22",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le nom du personnage interprété par Jim Carrey dans « The Mask » ?",
+      "answer": "Stanley Ipkiss",
+      "options": [
+        "Stanley Ipkiss",
+        "Bruce Nolan",
+        "Docteur Neuman",
+        "Fletcher Reede"
+      ],
+      "explanation": "Le garage où Stanley Ipkiss va chercher sa voiture est l'ancienne caserne de pompiers servant de Q.G. dans le film « S.O.S. Fantômes ».",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-256",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_256.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-256-23",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quelle ville se déroule l'action de « Celebrity », comédie de Woody Allen de 1998 ?",
+      "answer": "New York",
+      "options": [
+        "Paris",
+        "Londres",
+        "New York",
+        "Mexico"
+      ],
+      "explanation": "Cette comédie est un regard amusé au travers de deux personnages sur ce que les gens sont prêts à faire pour rester célèbre.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-256",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_256.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-256-24",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Laquelle de ces actrices ne figure pas au générique du film « Le Placard » ?",
+      "answer": "Anny Duperey",
+      "options": [
+        "Michèle Laroque",
+        "Armelle Deutsch",
+        "Anny Duperey",
+        "Alexandra Vandernoot"
+      ],
+      "explanation": "Alain Poiré, le producteur du film, est décédé durant le tournage. « Le Placard », no 5 au box-office de l'année 2001, lui est d'ailleurs dédié.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-256",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_256.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-256-25",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans « Le magnifique », de quel agent Jean-Paul Belmondo a-t-il écrit les aventures ?",
+      "answer": "Bob Saint-Clar",
+      "options": [
+        "Bob Saint-Clar",
+        "Danny Wilde",
+        "Brett Sinclair",
+        "Arch Stanton"
+      ],
+      "explanation": "Le héros est un amalgame de plusieurs héros virevoltants tels James Bond, San Antonio ou Malko Linge.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-256",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_256.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-256-26",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "À quel réalisateur des années 1970 doit-on de nombreuses « comédies pied-noires » ?",
+      "answer": "Philippe Clair",
+      "options": [
+        "Jean Girault",
+        "Charles Gérard",
+        "Philippe Clair",
+        "Max Pécas"
+      ],
+      "explanation": "Contrairement à d'autres réalisateurs de cette période, aucune rétrospective n'a été publiée, poussant ces films vers l'oubli.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-256",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_256.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-256-27",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quel pays se situent les actions principales du film « La Chèvre » ?",
+      "answer": "Mexique",
+      "options": [
+        "Pérou",
+        "Costa Rica",
+        "Vénézuela",
+        "Mexique"
+      ],
+      "explanation": "Pour la scène du gorille (pas présent sur le continent), la production a utilisé non pas un vrai spécimen mais un cascadeur costumé.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-256",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_256.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-256-28",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel acteur a incarné le rôle de François Perrin dans le film « Coup de tête » ?",
+      "answer": "Patrick Dewaere",
+      "options": [
+        "Victor Lanoux",
+        "Gérard Depardieu",
+        "Patrick Dewaere",
+        "Pierre Richard"
+      ],
+      "explanation": "Dans « Les Petits Mouchoirs », Marion Cotillard regarde « Coup de tête » après avoir couché avec son amant d'un soir (Matthieu Chedid).",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-256",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_256.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-256-29",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quelle marque de voiture Gérard Depardieu se déplace-t-il dans « Les Compères » ?",
+      "answer": "BMW",
+      "options": [
+        "Mercedes",
+        "Audi",
+        "BMW",
+        "Renault"
+      ],
+      "explanation": "Suite au film « Les Compères », Gérard Depardieu a été nommé pour le César du meilleur acteur lors de la neuvième cérémonie des César.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-256",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_256.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-256-30",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel acteur incarne un redoutable patron dans le film de 1976 « Le Jouet » ?",
+      "answer": "Michel Bouquet",
+      "options": [
+        "Jean Rochefort",
+        "Claude Piéplu",
+        "Michel Bouquet",
+        "Jean-Pierre Marielle"
+      ],
+      "explanation": "Le licenciement de Pignier pour mains moites est une allusion directe à Marcel Dassault qui congédia un employé pour cette même raison.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-256",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_256.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

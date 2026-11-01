@@ -1,0 +1,774 @@
+{
+  "id": "oq-173",
+  "title": "Chevaux",
+  "originalTitle": "Chevaux (De la famille des Équidés)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_173.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    22
+  ],
+  "questions": [
+    {
+      "id": "oqdb-173-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle position les chevaux adoptent-ils pour un sommeil léger ?",
+      "answer": "Debout",
+      "options": [
+        "Debout",
+        "Sur le flanc droit",
+        "Sur le flanc gauche",
+        "Sur le ventre"
+      ],
+      "explanation": "Comme la plupart des grands herbivores, le cheval dort peu (3 à 5 heures par jour) en raison de sa vulnérabilité aux prédateurs.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-173",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_173.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-173-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel cheval les Grecs ont-il utilisé comme ruse en 1180 avant Jésus-Christ ?",
+      "answer": "Cheval de Troie",
+      "options": [
+        "Cheval de Lotos",
+        "Cheval de Troie",
+        "Cheval de Polybe",
+        "Cheval de Thor"
+      ],
+      "explanation": "L'expression « cheval de Troie » désigne aujourd'hui les dons qui s'avèrent être des pièges pour ceux qui les reçoivent.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-173",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_173.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-173-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le nom du cheval de Lucky Luke, célèbre cow-boy de BD ?",
+      "answer": "Jolly Jumper",
+      "options": [
+        "Yakari",
+        "Bonfire",
+        "Jolly Jumper",
+        "Pégase"
+      ],
+      "explanation": "Par certains côtés, notamment son intelligence, son caractère et sa couleur de robe, il ressemble à Milou, le chien de Tintin.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-173",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_173.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-173-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel aliment le cheval apprécie-t-il tout particulièrement ?",
+      "answer": "Avoine",
+      "options": [
+        "Foin",
+        "Muesli",
+        "Fourrage",
+        "Avoine"
+      ],
+      "explanation": "L'avoine fait partie des céréales à paille et est fort utilisée dans l'alimentation animale (notamment des équidés).",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-173",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_173.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-173-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de temps après la naissance un poulain marche-t-il ?",
+      "answer": "Immédiatement",
+      "options": [
+        "Immédiatement",
+        "Après un mois",
+        "Après 2 semaines",
+        "Après 4 semaines"
+      ],
+      "explanation": "Cette particularité est héritée de leurs ancêtres les chevaux sauvages qui étaient la proie de nombreux prédateurs.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-173",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_173.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-173-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel accessoire bien utile maintient la selle du cheval en place ?",
+      "answer": "Sangle",
+      "options": [
+        "Rênes",
+        "Sous-ventrière",
+        "Sangle",
+        "Ventrière"
+      ],
+      "explanation": "Les cavaliers qui souhaitent évoluer devront consentir à investir dans une selle spécialisée et fabriquée sur mesure.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-173",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_173.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-173-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quoi sont positionnés vos pieds lorsque vous montez à cheval ?",
+      "answer": "Etriers",
+      "options": [
+        "Rênes",
+        "Etriers",
+        "Baudriers",
+        "Sangles"
+      ],
+      "explanation": "L'étrier serait une invention chinoise, alors que pour d'autres, il viendrait des peuples nomades d'Asie centrale ou de Sibérie.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-173",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_173.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-173-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle marque automobile a pour emblème un cheval cabré ?",
+      "answer": "Ferrari",
+      "options": [
+        "Ferrari",
+        "Alfa Romeo",
+        "Peugeot",
+        "Lamborghini"
+      ],
+      "explanation": "Dès 1947, le logo initial dit « Scudetto » est réservé aux modèles préparés par la Scuderia Ferrari, l'écurie de compétition.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-173",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_173.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-173-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quelle fréquence faut-il idéalement curer les sabots du cheval ?",
+      "answer": "1 fois par jour",
+      "options": [
+        "1 fois par an",
+        "1 fois par semaine",
+        "1 fois par mois",
+        "1 fois par jour"
+      ],
+      "explanation": "Les animaux à sabots marchent sur la pointe de leur doigts, à la différence des humains qui marchent sur la plante des pieds.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-173",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_173.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-173-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment s'appelle le cheval ailé de la mythologie grecque ?",
+      "answer": "Pégase",
+      "options": [
+        "Fungus",
+        "Argus",
+        "Pégase",
+        "Merengo"
+      ],
+      "explanation": "Pégase monte au ciel après sa naissance et se met au service de Zeus qui le charge d'apporter les éclairs sur l'Olympe.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-173",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_173.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-173-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien peut-on compter de cavaliers sur un échiquier ?",
+      "answer": "Quatre",
+      "options": [
+        "Deux",
+        "Un",
+        "Quatre",
+        "Trois"
+      ],
+      "explanation": "On dispose l'échiquier de façon telle que, pour chacun des adversaires, la case du coin gauche de l'échiquier soit noire.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-173",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_173.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-173-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Jusqu'à combien de litres d'eau un cheval peut-il boire chaque jour ?",
+      "answer": "40 litres",
+      "options": [
+        "10 litres",
+        "20 litres",
+        "30 litres",
+        "40 litres"
+      ],
+      "explanation": "Le cheval possède un sens développé de l'odorat lui permettant de trouver de l'eau et de détecter une femelle en chaleur.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-173",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_173.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-173-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel état se trouve un cheval qui replie ses oreilles sur son cou ?",
+      "answer": "Fâché",
+      "options": [
+        "Heureux",
+        "Terrifié",
+        "Fatigué",
+        "Fâché"
+      ],
+      "explanation": "L'étude de la gestuelle du cheval, des mouvements d'oreilles et des attitudes de sa tête permet de déterminer son humeur.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-173",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_173.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-173-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle couleur est Stewball dans la chanson d'Hugues Aufray ?",
+      "answer": "Blanc",
+      "options": [
+        "Blanc",
+        "Gris",
+        "Alezan",
+        "Noir"
+      ],
+      "explanation": "La chanson célèbre la victoire d'un cheval blanc à taches alezanes sur une jument grise lors d'une course hippique.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-173",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_173.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-173-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien le poulain nouveau-né d'un cheval « ordinaire » pèse-t-il environ ?",
+      "answer": "45 kg",
+      "options": [
+        "15 kg",
+        "45 kg",
+        "60 kg",
+        "30 kg"
+      ],
+      "explanation": "À l'état domestique, le poulain reste avec sa mère jusqu'au sevrage, généralement à l'âge de six mois, où l'éleveur les sépare.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-173",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_173.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-173-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Pourquoi les chevaux aiment-ils se rouler dans le sable sec ?",
+      "answer": "Pour se gratter",
+      "options": [
+        "Pour se moquer",
+        "Pour se stimuler",
+        "Pour se gratter",
+        "Pour se détendre"
+      ],
+      "explanation": "À l'état sauvage ou domestique, le cheval peut-être affecté par des parasites et des maladies telles que le tétanos ou la rage.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-173",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_173.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-173-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qu'observe-t-on généralement pour connaître l'âge d'un cheval ?",
+      "answer": "Les dents",
+      "options": [
+        "Les dents",
+        "Les sabots",
+        "Les jambes",
+        "La crinières"
+      ],
+      "explanation": "Les dents du cheval poussant en permanence, le mouvement masticatoire n'est souvent pas suffisant pour user la table dentaire.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-173",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_173.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-173-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de temps la gestation dure-t-elle en moyenne chez le cheval ?",
+      "answer": "11 mois",
+      "options": [
+        "11 mois",
+        "9 mois",
+        "5 mois",
+        "7 mois"
+      ],
+      "explanation": "La jument donne naissance au printemps à un poulain qui peut marcher moins d'une heure après la naissance.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-173",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_173.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-173-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que signifie l'expression « ne pas se trouver sous le sabot d'un cheval » ?",
+      "answer": "Être rare",
+      "options": [
+        "Être prudent",
+        "Être rapide",
+        "Être avare",
+        "Être rare"
+      ],
+      "explanation": "À l'origine, au XVIIe siècle, l'expression contenait « dans le pas d'un cheval », le pas voulant signifier le mot « trace ».",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-173",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_173.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-173-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sur combien d'orteils posés au sol le cheval marche-t-il ?",
+      "answer": "Un seul",
+      "options": [
+        "Un seul",
+        "Trois",
+        "Deux",
+        "Quatre"
+      ],
+      "explanation": "Le cheval est un périssodactyle, ordre de mammifères ongulés à nombre impair de doigts, en l'occurrence un seul.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-173",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_173.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-173-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces quatre robes possède de grandes taches ?",
+      "answer": "Pie",
+      "options": [
+        "Pie",
+        "Isabelle",
+        "Bai",
+        "Pommelée"
+      ],
+      "explanation": "Le terme « pie », par analogie à l'animal du même nom, est préféré à celui de « bicolore » pour désigner de telles robes.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-173",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_173.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-173-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quelle fréquence moyenne le coeur d'un cheval bat-il au repos ?",
+      "answer": "40 ppm",
+      "options": [
+        "60 ppm",
+        "100 ppm",
+        "40 ppm",
+        "80 ppm"
+      ],
+      "explanation": "Les maladies cardiaques, circulatoires, nerveuses, et les vices d'écurie n'affectent que les chevaux domestiques.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-173",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_173.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-173-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel nom porte la saillie en forme de V située sous le pied du cheval ?",
+      "answer": "La fourchette",
+      "options": [
+        "La fourchette",
+        "Le coin",
+        "Le poinçon",
+        "Le bourrelet"
+      ],
+      "explanation": "La fourchette du cheval est une saillie en forme de V à pointe antérieure, composée d'une corne tubulaire plus molle.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-173",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_173.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-173-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de fois par jour un poulain peut-il téter sa mère ?",
+      "answer": "50 à 60 fois",
+      "options": [
+        "20 à 30 fois",
+        "10 à 20 fois",
+        "50 à 60 fois",
+        "30 à 40 fois"
+      ],
+      "explanation": "Les poulains tètent leur mère après la naissance pour absorber le colostrum qui renforce leurs défenses immunitaires.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-173",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_173.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-173-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces couleurs de robe n'existe pas chez les chevaux ?",
+      "answer": "Camouflage",
+      "options": [
+        "Camouflage",
+        "Isabelle",
+        "Pie",
+        "Alezan"
+      ],
+      "explanation": "Un certain nombre de robes du cheval consistent en un mélange de poils blancs ou noirs sur l'une des trois robes de base.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-173",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_173.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-173-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle race de chevaux a toujours une robe alezane et une queue blanche ?",
+      "answer": "Haflinger",
+      "options": [
+        "Haflinger",
+        "Shetland",
+        "Fjord",
+        "Frison"
+      ],
+      "explanation": "De son élevage pour le travail en terrain accidenté, le Haflinger, originaire du Tyrol, a hérité d'une grande robustesse.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-173",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_173.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-173-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de temps la digestion dure-t-elle chez un cheval ?",
+      "answer": "35 à 50 h",
+      "options": [
+        "15 à 20 h",
+        "5 à 15 h",
+        "35 à 50 h",
+        "25 à 35 h"
+      ],
+      "explanation": "Les chevaux disposent d'un seul estomac, capable de digérer les fibres végétales qui proviennent de l'herbe et du foin.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-173",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_173.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-173-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À partir de quelle distance les chevaux peuvent-ils reconnaître les odeurs ?",
+      "answer": "600 m",
+      "options": [
+        "300 m",
+        "600 m",
+        "150 m",
+        "450 m"
+      ],
+      "explanation": "Le cheval effectue un flehmen, comportement particulier de flairage permettant entre autres de détecter les phéromones.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-173",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_173.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-173-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que faut-il masser pour calmer un cheval apparemment nerveux ?",
+      "answer": "Les oreilles",
+      "options": [
+        "Le dos",
+        "La queue",
+        "Les oreilles",
+        "Le ventre"
+      ],
+      "explanation": "Les contacts tactiles sont peu nombreux entre chevaux, à l'exception de la mère avec son poulain.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-173",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_173.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

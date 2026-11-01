@@ -1,0 +1,798 @@
+{
+  "id": "oq-188",
+  "title": "Gladiateurs",
+  "originalTitle": "Gladiateurs (Combattants des arènes)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_188.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-188-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Le mot gladiateur vient du latin gladiator, traduisible par quel qualificatif ?",
+      "answer": "Épéiste",
+      "options": [
+        "Téméraire",
+        "Courageux",
+        "Mortel",
+        "Épéiste"
+      ],
+      "explanation": "Dans la Rome antique, les gladiateurs étaient des combattants professionnels qui s'affrontaient par paires bien définies.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-188",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_188.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-188-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel vaste édifice public les combats de gladiateurs étaient-ils souvent organisés ?",
+      "answer": "Amphithéâtre",
+      "options": [
+        "Gallodrome",
+        "Forum",
+        "Opéra",
+        "Amphithéâtre"
+      ],
+      "explanation": "À la différence des cirques et des théâtres de la Grèce antique, les amphithéâtres sont des monuments nés dans le monde romain.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-188",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_188.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-188-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville enfouie de l'Empire romain a-t-on trouvé une caserne des gladiateurs ?",
+      "answer": "Pompéi",
+      "options": [
+        "Saint-Pierre",
+        "Catane",
+        "Pompéi",
+        "Goma"
+      ],
+      "explanation": "C'est à partir de la caserne que démarrait la procession des gladiateurs et des animaux qui allaient combattre.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-188",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_188.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-188-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel marchand était également entraîneur et propriétaire de gladiateurs ?",
+      "answer": "Laniste",
+      "options": [
+        "Étaleur",
+        "Modiste",
+        "Gargotier",
+        "Laniste"
+      ],
+      "explanation": "Le célèbre Cnaeus Lentulus Batiatus possédait un ludus à Capoue, d'où s'échappèrent Spartacus et ses compagnons.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-188",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_188.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-188-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel laniste était le propriétaire de l'école de gladiateurs de Capoue ?",
+      "answer": "Batiatus",
+      "options": [
+        "Caius",
+        "Titus",
+        "Scarpus",
+        "Batiatus"
+      ],
+      "explanation": "L'école de Capoue était composée en majorité de Thraces (dont Spartacus) et de Gaulois (dont Crixus).",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-188",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_188.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-188-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui est probablement le plus populaire des gladiateurs d'origine thrace ?",
+      "answer": "Spartacus",
+      "options": [
+        "Ambiorix",
+        "Spartacus",
+        "Jugurtha",
+        "Hasdrubal"
+      ],
+      "explanation": "Spartacus fut le principal chef des révoltés lors de la Troisième Guerre servile en Italie entre 73 et 71 avant Jésus-Christ.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-188",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_188.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-188-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment un gladiateur signale-t-il qu'il ne peut plus poursuivre le combat ?",
+      "answer": "Il lève le doigt",
+      "options": [
+        "Il hurle",
+        "Il retire son casque",
+        "Il lève le doigt",
+        "Il jette son épée"
+      ],
+      "explanation": "Si le combat dure trop longtemps, l'éditeur peut exiger que les gladiateurs continuent en se battant alors sans bouclier.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-188",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_188.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-188-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel tableau de Jean-Léon Gérôme représente une vision romantique de la gladiature ?",
+      "answer": "Bas les Pouces",
+      "options": [
+        "Corinthe",
+        "Bas les Pouces",
+        "Nominor Leo",
+        "La Dance macabre"
+      ],
+      "explanation": "C'est en voyant une copie de cette peinture exposée aux États-Unis que Ridley Scott envisagea de réaliser un péplum, « Gladiator ».",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-188",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_188.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-188-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle année avant J.-C. date le plus ancien combat de gladiateurs connu ?",
+      "answer": "264",
+      "options": [
+        "432",
+        "264",
+        "148",
+        "327"
+      ],
+      "explanation": "Ce combat fut rapidement suivi par de nombreux autres et c'est ainsi, en 105 av J.-C., que les jeux devinrent désormais publics.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-188",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_188.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-188-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces célèbres gladiateurs gaulois appartenait à Lentulus Batiatus ?",
+      "answer": "Crixus",
+      "options": [
+        "Gannicus",
+        "Dessalines",
+        "Crixus",
+        "Amador"
+      ],
+      "explanation": "Aux côtés de Spartacus, Crixus fut un des chefs de la rébellion d'esclaves qui entraîna la Troisième Guerre servile.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-188",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_188.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-188-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle troisième rébellion d'esclaves fut menée contre la République romaine ?",
+      "answer": "Guerre de Spartacus",
+      "options": [
+        "Guerre d'Hercule",
+        "Guerre de Thrace",
+        "Guerre d'Auguste",
+        "Guerre de Spartacus"
+      ],
+      "explanation": "Bien que la guerre de Spartacus ne soit pas historiquement notable, ses impacts historiques ont été quant à eux considérables.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-188",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_188.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-188-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel gladiateur combattait avec des équipements qui évoquent un pêcheur ?",
+      "answer": "Rétiaire",
+      "options": [
+        "Secutor",
+        "Samnite",
+        "Rétiaire",
+        "Venator"
+      ],
+      "explanation": "L'absence de protection et le recours à des tactiques d'évitement ont fait des rétiaires la tranche la plus basse et méprisée.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-188",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_188.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-188-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel empereur romain engagea sous son règne pas moins de 10 000 gladiateurs ?",
+      "answer": "Auguste",
+      "options": [
+        "Titus",
+        "Marc Aurèle",
+        "Auguste",
+        "Hadrien"
+      ],
+      "explanation": "Avec le règne d'Auguste, né Caius Octavius, débuta pour l'Empire une période de stabilité connue sous le nom de « Pax Romana ».",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-188",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_188.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-188-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle était la principale caserne de gladiateurs de Rome, à proximité du Colisée ?",
+      "answer": "Ludus Magnus",
+      "options": [
+        "Ludus Magnus",
+        "Villa Publica",
+        "Forum Piscarium",
+        "Divorum"
+      ],
+      "explanation": "Il fut une des quatre casernes construites par Domitien outre le Ludus Gallicus, le Ludus Matutinus et le Ludus Dacicus.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-188",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_188.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-188-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de types de gladiateurs composent la majorité du corpus iconographique ?",
+      "answer": "Six",
+      "options": [
+        "Dix",
+        "Six",
+        "Huit",
+        "Douze"
+      ],
+      "explanation": "Certains auteurs pensent que le laniste, à un moment donné, tenait compte des besoins de l'école mais aussi des aptitudes physiques.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-188",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_188.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-188-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle libération dégageait les gladiateurs de leur obligation de combattre ?",
+      "answer": "Affranchissement",
+      "options": [
+        "Calomnie",
+        "Amnistie",
+        "Affranchissement",
+        "Sursis"
+      ],
+      "explanation": "Cette libération s'accompagnait de l'octroi symbolique d'une baguette spécifique leur permettant de devenir notable.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-188",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_188.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-188-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Pour s'assurer la victoire, à quoi les gladiateurs recouraient-ils souvent ?",
+      "answer": "Magie",
+      "options": [
+        "Argent",
+        "Magie",
+        "Tricherie",
+        "Drogue"
+      ],
+      "explanation": "Une pratique consistait à graver des textes de malédiction sur des lamelles de plomb enroulées puis à les enterrer.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-188",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_188.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-188-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En l'honneur de quelle femme Jules César donna-t-il des combats de gladiateurs ?",
+      "answer": "Julia",
+      "options": [
+        "Maria",
+        "Carla",
+        "Sophia",
+        "Julia"
+      ],
+      "explanation": "Ces jeux funéraires organisés en l'honneur de sa fille Julia n'étaient toutefois pas dépourvus d'arrière-pensées politiques.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-188",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_188.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-188-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année a-t-on pu assister aux derniers combats de gladiateurs à Rome ?",
+      "answer": "418",
+      "options": [
+        "229",
+        "844",
+        "418",
+        "632"
+      ],
+      "explanation": "En 404, l'empereur Honorius avait déjà interdit les combats de gladiateurs à la suite d'une importante rixe dans le Colisée.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-188",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_188.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-188-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle était la couleur de la tunique des arbitres des combats de gladiateurs ?",
+      "answer": "Blanche",
+      "options": [
+        "Bleue",
+        "Blanche",
+        "Rouge",
+        "Noire"
+      ],
+      "explanation": "Les combats très codifiés suivaient une règle avancée par l'arbitre du jeu (summa rudis) et son second (secunda rudis).",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-188",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_188.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-188-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel dieu des combattants était souvent invoqué par les gladiateurs ?",
+      "answer": "Hercule",
+      "options": [
+        "Pan",
+        "Apollon",
+        "Persée",
+        "Hercule"
+      ],
+      "explanation": "L'Hercule des Romains est parfois dépeint comme moins violent que son alter ego grec dans les récits où il intervient.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-188",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_188.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-188-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment désignait-on la catégorie à laquelle appartenaient les gladiateurs ?",
+      "answer": "Armatura",
+      "options": [
+        "Armatura",
+        "Batiata",
+        "Andala",
+        "Guerilla"
+      ],
+      "explanation": "L'origine des combats de gladiateurs se retrouve en Italie du sud, où le combat en armes avait pour but d'honorer un mort.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-188",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_188.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-188-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel type de gladiateur est classiquement opposé au rétiaire ?",
+      "answer": "Secutor",
+      "options": [
+        "Provocator",
+        "Thrace",
+        "Mirmillon",
+        "Secutor"
+      ],
+      "explanation": "Le mirmillon, jusqu'alors premier opposant du rétiaire, avait un grand cimier sur le casque qui accrochait trop facilement le filet du rétiaire.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-188",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_188.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-188-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel gladiateur réputé comme lourd est également appelé le gaulois ?",
+      "answer": "Mirmillon",
+      "options": [
+        "Scissor",
+        "Sagittarius",
+        "Mirmillon",
+        "Parmatus"
+      ],
+      "explanation": "Lourdement équipé, le mirmillon est armé de son glaive et protégé par son scutum, son casque, son ocrea et sa manica de cuir.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-188",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_188.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-188-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel type de gladiateur démarrait généralement les après-midi de combats ?",
+      "answer": "Provocator",
+      "options": [
+        "Mirmillon",
+        "Rétiaire",
+        "Provocator",
+        "Secutor"
+      ],
+      "explanation": "Les gladiateurs équipés en provocator possèdent la même armatura et combattent donc face à un adversaire identiquement armé.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-188",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_188.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-188-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel gladiateur à petit bouclier a pour adversaire principal le mirmillon ?",
+      "answer": "Thrace",
+      "options": [
+        "Hoplomaque",
+        "Venator",
+        "Thrace",
+        "Andabate"
+      ],
+      "explanation": "Les écrits de Cicéron sont les premiers documents à attester de l'existence des thraces, vers le milieu du premier siècle avant notre ère.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-188",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_188.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-188-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel mystérieux gladiateur aurait eu pour arme un lacet étrangleur ?",
+      "answer": "Laquearius",
+      "options": [
+        "Hoplomaque",
+        "Laquearius",
+        "Hasdrubal",
+        "Andabate"
+      ],
+      "explanation": "Vercingétorix fut exécuté à l'aide d'un lacet étrangleur en août 46 av. J.-C., dans les geôles de Rome, puis jeté aux égouts.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-188",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_188.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-188-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel gladiateur possédait pour se battre une dague ainsi qu'une courte lance ?",
+      "answer": "Hoplomaque",
+      "options": [
+        "Hoplomaque",
+        "Mirmillon",
+        "Thrace",
+        "Provocator"
+      ],
+      "explanation": "L'hoplomaque est, avec le thrace, le seul gladiateur à porter deux jambières très hautes au lieu d'une seule à la jambe gauche.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-188",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_188.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-188-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui prit en 326 par l'édit de Béryte la première mesure contre la gladiature ?",
+      "answer": "Constantin 1er",
+      "options": [
+        "Sévère",
+        "Vespasien",
+        "Alexandre",
+        "Constantin 1er"
+      ],
+      "explanation": "Par cette mesure, l'empereur prescrit que des criminels condamnés à devenir gladiateurs soient envoyés travailler dans les mines.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-188",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_188.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-188-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel gladiateur combattait à cheval, aveuglé par un casque fermé ?",
+      "answer": "Andabate",
+      "options": [
+        "Provocator",
+        "Andabate",
+        "Rétiaire",
+        "Hoplomaque"
+      ],
+      "explanation": "Les gladiateurs qui perdaient la vue au cours d'un combat pouvaient devenir andabates pour éviter de se faire forcément tué.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-188",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_188.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

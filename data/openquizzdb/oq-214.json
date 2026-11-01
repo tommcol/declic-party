@@ -1,0 +1,798 @@
+{
+  "id": "oq-214",
+  "title": "Cérémonie des César",
+  "originalTitle": "Cérémonie des César (Le cinéma construit notre mémoire)",
+  "universe": "film",
+  "emoji": "🎬",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_214.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-214-1",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel sculpteur a réalisé le trophée remis lors de la cérémonie des César ?",
+      "answer": "César",
+      "options": [
+        "César",
+        "Delfoly",
+        "Arman",
+        "Beppo"
+      ],
+      "explanation": "César Baldaccini, dit César, mort en 1998 à Paris, fait partie des membres des Nouveaux réalistes, mouvement né en 1960.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-214",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_214.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-214-2",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Avec quel équivalent américain les César sont-ils souvent cités ?",
+      "answer": "Oscars",
+      "options": [
+        "Lions",
+        "Grammy",
+        "Oscars",
+        "Awards"
+      ],
+      "explanation": "César est aussi un hommage indirect à Raimu, grand acteur français et interprète de la trilogie marseillaise de Marcel Pagnol.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-214",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_214.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-214-3",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel autre nom donne-t-on parfois à la cérémonie des César ?",
+      "answer": "Nuit des César",
+      "options": [
+        "Gala des César",
+        "Fête des César",
+        "Nuit des César",
+        "Saga des César"
+      ],
+      "explanation": "Le 3 avril 1976 eut lieu la première cérémonie des César sous la présidence de Jean Gabin, quelques mois à peine avant sa mort.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-214",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_214.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-214-4",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "De quelle matière est fait le César remis lors de la nuit des César ?",
+      "answer": "Bronze poli",
+      "options": [
+        "Plomb coulé",
+        "Acier inoxydable",
+        "Or 18 carats",
+        "Bronze poli"
+      ],
+      "explanation": "Les Oscars sont quant à eux plaqués d'or, ces derniers ayant directement inspiré le sculpteur pour son premier trophée en 1976.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-214",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_214.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-214-5",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Combien de nommés sont retenus pour le César du meilleur film ?",
+      "answer": "Sept",
+      "options": [
+        "Quatre",
+        "Six",
+        "Cinq",
+        "Sept"
+      ],
+      "explanation": "Ils sont cinq pour toutes les disciplines, sauf pour le meilleur film, film étranger, film d'animation, réalisateur, acteur et actrice.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-214",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_214.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-214-6",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui choisit généralement le lauréat pour le César d'honneur ?",
+      "answer": "Président",
+      "options": [
+        "Humoriste",
+        "Président",
+        "Réalisateur",
+        "Technicien"
+      ],
+      "explanation": "La récompense, lors de la cérémonie, est souvent remise par une personne proche ou ayant collaboré avec le lauréat.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-214",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_214.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-214-7",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui est entrée sur la scène des César sur un tube des Zouk Machine ?",
+      "answer": "Valérie Lemercier",
+      "options": [
+        "Ève Ruggiéri",
+        "Cécile de France",
+        "Valérie Lemercier",
+        "Florence Foresti"
+      ],
+      "explanation": "Elle a remporté par deux fois le César de la meilleure actrice dans un second rôle : « Les Visiteurs » (1994) et « Fauteuils d'orchestre » (2007).",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-214",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_214.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-214-8",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle actrice française a reçu 5 César de la meilleur actrice ?",
+      "answer": "Isabelle Adjani",
+      "options": [
+        "Marion Cotillard",
+        "Carole Bouquet",
+        "Isabelle Adjani",
+        "Fanny Ardant"
+      ],
+      "explanation": "Isabelle Adjani est reconnue pour l'intensité dramatique de ses compositions ainsi que la dévotion totale qu'elle accorde à son jeu.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-214",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_214.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-214-9",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle humoriste a sur bien des points révolutionné la présentation des César ?",
+      "answer": "Florence Foresti",
+      "options": [
+        "Anne Roumanoff",
+        "Muriel Robin",
+        "Audrey Lamy",
+        "Florence Foresti"
+      ],
+      "explanation": "L'objectif de Florence Foresti dès son entrée sur scène fut de produire un show télévisé spectaculaire, similaire à celui des Oscars.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-214",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_214.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-214-10",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel film musical a remporté en 2012 le César du meilleur film ?",
+      "answer": "The Artist",
+      "options": [
+        "Les Misérables",
+        "The Artist",
+        "Seul sur Mars",
+        "La La Land"
+      ],
+      "explanation": "La bande originale de « The Artist » a été composée par Ludovic Bource qui a dû comme le reste de l'équipe faire du neuf avec du vieux.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-214",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_214.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-214-11",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel chaîne de télévision diffuse la cérémonie des César depuis 1994 ?",
+      "answer": "Canal+",
+      "options": [
+        "France 2",
+        "M6",
+        "Canal+",
+        "TF1"
+      ],
+      "explanation": "De 1976 à 1993, elle fut télédiffusée en direct sur Antenne 2 puis sur Canal+, en clair, avec le seul prime-time de l'année non crypté.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-214",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_214.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-214-12",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "En quelle année ont été créés les César du cinéma, primant à la fois films et acteurs ?",
+      "answer": "1976",
+      "options": [
+        "1946",
+        "1976",
+        "1956",
+        "1966"
+      ],
+      "explanation": "Les récompenses sont remises annuellement à Paris à des professionnels du septième art pour saluer les productions françaises.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-214",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_214.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-214-13",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel film de Truffaut a remporté dix César dont le quintuplé majeur ?",
+      "answer": "Le dernier métro",
+      "options": [
+        "La Peau douce",
+        "Le dernier métro",
+        "Jules et Jim",
+        "Une Visite"
+      ],
+      "explanation": "« Le Dernier Métro » fit l'exploit de remporter les cinq César les plus prestigieux, aucun autre film à ce jour n'ayant réédité cette performance.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-214",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_214.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-214-14",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Laquelle de ces cérémonies de récompense est la plus ancienne ?",
+      "answer": "César",
+      "options": [
+        "Victoires",
+        "Molières",
+        "Sept d'or",
+        "César"
+      ],
+      "explanation": "La cérémonie des César constitue la première et la plus ancienne remise de prix d'importance en France dans le domaine du spectacle.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-214",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_214.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-214-15",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel journaliste et producteur de cinéma est à l'origine des César ?",
+      "answer": "Georges Cravenne",
+      "options": [
+        "Cyriac Auriol",
+        "Georges Cravenne",
+        "Jean Chapot",
+        "Charles Delac"
+      ],
+      "explanation": "L'un de ses fils, Charles Cravenne, dirige la promotion de Columbia (Sony Pictures releasing) depuis les années 1980.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-214",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_214.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-214-16",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel acteur a eu le privilège de remettre en 1980 un César d'honneur à Louis de Funès ?",
+      "answer": "Jerry Lewis",
+      "options": [
+        "Donald Glover",
+        "Bill Cosby",
+        "Steve Martin",
+        "Jerry Lewis"
+      ],
+      "explanation": "Dans son dernier film, « Le Casse », tourné à l'âge de 90 ans, sorti en 2016, Jerry Lewis joue le père vieillissant de Nicolas Cage.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-214",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_214.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-214-17",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel film de Roman Polanski a été couronné de sept César ?",
+      "answer": "Le Pianiste",
+      "options": [
+        "Frantic",
+        "Oliver Twist",
+        "Tess",
+        "Le Pianiste"
+      ],
+      "explanation": "Le film « Le Pianiste » a obtenu la Palme d'or du Festival de Cannes 2002 ainsi que, notamment, sept César et trois Oscars en 2003.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-214",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_214.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-214-18",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui réalise depuis 2000 la version télévisée de la cérémonie des César ?",
+      "answer": "Jérôme Revon",
+      "options": [
+        "Jacques Rivette",
+        "Henry Roussel",
+        "Bernard Rapp",
+        "Jérôme Revon"
+      ],
+      "explanation": "Jérome Revon a aussi une réputation dans le domaine des émissions politiques, ayant réalisé des interventions officielles de présidents.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-214",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_214.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-214-19",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quel théâtre furent données quinze cérémonies des César ?",
+      "answer": "Châtelet",
+      "options": [
+        "Palais-Royal",
+        "L'Empire",
+        "Champs-Élysées",
+        "Châtelet"
+      ],
+      "explanation": "Suite à la fermeture temporaire du Théâtre du Châtelet, la cérémonie a changé de lieu d'accueil et s'établit salle Pleyel.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-214",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_214.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-214-20",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel film de Luc Besson a été nommé treize fois aux César ?",
+      "answer": "Subway",
+      "options": [
+        "Léon",
+        "Le Grand Bleu",
+        "Subway",
+        "Nikita"
+      ],
+      "explanation": "La célèbre réplique « Police, menottes, prison ! » de Michel Galabru est reprise dans le film « Polisse » de Maiwenn.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-214",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_214.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-214-21",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui a présidé avec panache la quarantième cérémonie des César ?",
+      "answer": "Dany Boon",
+      "options": [
+        "Dany Boon",
+        "Claude Lelouch",
+        "Jodie Foster",
+        "Marion Cotillard"
+      ],
+      "explanation": "Dany Boon fut précédé de stars de renom comme François Cluzet, Jamel Debbouze, Guillaume Canet, Jodie Foster et Marion Cotillard.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-214",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_214.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-214-22",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Combien de César étaient à l'origine distribués lors de la cérémonie ?",
+      "answer": "13",
+      "options": [
+        "9",
+        "11",
+        "7",
+        "13"
+      ],
+      "explanation": "Aujourd'hui, les trophées sont décernés dans 21 catégories compétitives et gérés partiellement par l'académie.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-214",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_214.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-214-23",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Du haut de ses 29 cm, quel est le poids du César remis aux artistes ?",
+      "answer": "3,6 kg",
+      "options": [
+        "5,3 kg",
+        "4,9 kg",
+        "3,6 kg",
+        "2,5 kg"
+      ],
+      "explanation": "Si la valeur du César réalisé dans la fonderie d'art Bocquel n'a pas été officiellement dévoilée, elle serait estimée à 1 500 euros.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-214",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_214.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-214-24",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel acteur français a remporté quatre César en une seule et même cérémonie ?",
+      "answer": "Guillaume Gallienne",
+      "options": [
+        "Guillaume Canet",
+        "Jean Rochefort",
+        "Guillaume Gallienne",
+        "François Cluzet"
+      ],
+      "explanation": "Guillaume Gallienne a reçu de multiples récompenses dont deux Molière en 2010 et 2011 puis quatre César en 2014.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-214",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_214.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-214-25",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui fut le tout premier président de la cérémonie des César ?",
+      "answer": "Jean Gabin",
+      "options": [
+        "Lino Ventura",
+        "Charles Vanel",
+        "Jeanne Moreau",
+        "Jean Gabin"
+      ],
+      "explanation": "Acteur populaire, il a attiré plus de 161 millions de spectateurs sur 95 films, comptant un nombre important de classiques.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-214",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_214.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-214-26",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle autre et ancienne récompense les César ont-ils remplacé ?",
+      "answer": "Étoile de cristal",
+      "options": [
+        "Étoile de cristal",
+        "Prix Jean-Vigo",
+        "Prix Lumières",
+        "Hot d'or"
+      ],
+      "explanation": "Un artiste ne pouvait recevoir plusieurs étoiles pour le même film, ceci afin d'éviter les victoires en série, comme aux Oscars.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-214",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_214.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-214-27",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "En combien de collèges sont répartis les votants des César ?",
+      "answer": "Dix",
+      "options": [
+        "Sept",
+        "Dix",
+        "Huit",
+        "Neuf"
+      ],
+      "explanation": "Acteurs, réalisateurs, auteurs, techniciens, producteurs, agents, distributeurs, techniciens, casteurs et membres associés.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-214",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_214.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-214-28",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Combien de votants au total ont participé aux César de 2017 ?",
+      "answer": "4 509",
+      "options": [
+        "3 906",
+        "5 741",
+        "4 509",
+        "2 845"
+      ],
+      "explanation": "Il faut justifier d'un parcours professionnel relativement conséquent dans le cinéma et obtenir un double parrainage de membres actuels.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-214",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_214.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-214-29",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel fut le premier film non-francophone à triompher aux César ?",
+      "answer": "Providence",
+      "options": [
+        "Mélo",
+        "Stavisky",
+        "Guernica",
+        "Providence"
+      ],
+      "explanation": "Alain Resnais joue à la fois sur le terme providence et sur la ville américaine Providence, lieu de naissance de Lovecraft.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-214",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_214.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-214-30",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui a cumulé 44 nominations aux César sans pour autant jamais en recevoir ?",
+      "answer": "François Ozon",
+      "options": [
+        "Cédric Klapisch",
+        "Patrice Chéreau",
+        "François Ozon",
+        "Luc Besson"
+      ],
+      "explanation": "Le style de François Ozon mélange plusieurs aspects, dont l'un des plus saillants est l'utilisation d'un symbole idéalisé de la femme.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-214",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_214.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

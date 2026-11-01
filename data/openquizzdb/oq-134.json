@@ -1,0 +1,798 @@
+{
+  "id": "oq-134",
+  "title": "Histoires d'eaux",
+  "originalTitle": "Histoires d'eaux",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_134.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-134-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quelle particularité le poisson-clown, comme le célèbre Nemo, doit-il son nom ?",
+      "answer": "Ses couleurs vives",
+      "options": [
+        "Son nez rouge",
+        "Ses grimaces",
+        "Ses cabrioles",
+        "Ses couleurs vives"
+      ],
+      "explanation": "Les poissons-clowns sont connus pour la relation mutualiste qu'ils forment avec dix espèces d'anémones de mer.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-134",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_134.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-134-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment se prénomme la petite sirène de Disney dans le film du même nom ?",
+      "answer": "Ariel",
+      "options": [
+        "Aurore",
+        "Yasmine",
+        "Mulan",
+        "Ariel"
+      ],
+      "explanation": "Sorti en 1989, le long-métrage de Disney s'inspire du conte du même nom écrit par Hans Christian Andersen et publié en 1836.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-134",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_134.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-134-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quelle classe d'animaux les dauphins blancs ou gris appartiennent-ils ?",
+      "answer": "Les mammifères",
+      "options": [
+        "Les reptiles",
+        "Les poissons",
+        "Les mammifères",
+        "Les amphibiens"
+      ],
+      "explanation": "« Dauphin » est un nom ambigu désignant certains mammifères marins et fluviaux appartenant à l'ordre des Cétacés.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-134",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_134.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-134-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel mets fin est composé d'œufs d'esturgeon noirs non fécondés ?",
+      "answer": "Le caviar",
+      "options": [
+        "Le frai",
+        "Le surimi",
+        "Le caviar",
+        "La coque"
+      ],
+      "explanation": "Le caractère du caviar ne provient pas de son origine mais de l'espèce d'esturgeon qui produit les œufs, au nombre de vingt-sept.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-134",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_134.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-134-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle partie du corps des poissons leur permettent de respirer ?",
+      "answer": "Les branchies",
+      "options": [
+        "Le nez",
+        "Les branchies",
+        "Les écailles",
+        "Les poumons"
+      ],
+      "explanation": "Outre leur rôle fondamental dans la respiration, les branchies servent à piéger de la nourriture notamment chez les microphages filtreurs.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-134",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_134.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-134-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que forment un grand nombre de poissons qui nagent ensemble ?",
+      "answer": "Un banc",
+      "options": [
+        "Un banc",
+        "Un groupe",
+        "Une troupe",
+        "Une armée"
+      ],
+      "explanation": "À la différence d'autres structures sociales, comme le harem ou la société, il n'existe aucune hiérarchie dans un banc.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-134",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_134.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-134-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces eaux ne trouve-t-on que très peu dans la nature ?",
+      "answer": "Eau gazeuse",
+      "options": [
+        "Eau douce",
+        "Eau salée",
+        "Eau gazeuse",
+        "Eau saumâtre"
+      ],
+      "explanation": "Au XXe siècle, l'eau gazeuse était utilisée pour arrêter les vomissements et aider le fonctionnement des sucs gastriques.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-134",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_134.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-134-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel bateau peut naviguer une semaine sous l'eau sans remonter à la surface ?",
+      "answer": "Un sous-marin",
+      "options": [
+        "Un submersible",
+        "Un sous-marin",
+        "Un torpilleur",
+        "Un croiseur"
+      ],
+      "explanation": "L'usage civil du sous-marin concerne, pour l'essentiel, la recherche océanographique et l'exploitation pétrolière.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-134",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_134.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-134-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel film de Simon Wincer une orque est-elle libérée d'un parc d'attraction ?",
+      "answer": "Sauvez Willy",
+      "options": [
+        "Flipper",
+        "Jaws",
+        "Le Monde de Nemo",
+        "Sauvez Willy"
+      ],
+      "explanation": "L'orque Keiko, vedette du film, est décédée à l'âge de 27 ans des suites d'une pneumonie dans le fjord norvégien d'Arasvik.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-134",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_134.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-134-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel paquebot de luxe heurta un iceberg lors de son premier voyage en 1912 ?",
+      "answer": "Le Titanic",
+      "options": [
+        "L'Olympic",
+        "Le Titanic",
+        "Le Brittanic",
+        "L'Atlantic"
+      ],
+      "explanation": "Le Titanic a été conçu par les architectes Alexander Montgomery Carlisle et Thomas Andrews des chantiers navals Harland & Wolff.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-134",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_134.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-134-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Pour quelle raison les grenouilles et les crapauds se mettent-ils parfois à coasser ?",
+      "answer": "Pour parader",
+      "options": [
+        "Pour digérer",
+        "Pour parader",
+        "Pour rigoler",
+        "Pour effrayer"
+      ],
+      "explanation": "La branche de la zoologie qui étudie les batraciens et les reptiles s'appelle l'herpétologie, et plus précisément la batrachologie.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-134",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_134.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-134-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment se prénomme le poisson rouge de Pinocchio dans le film de 1940 ?",
+      "answer": "Cleo",
+      "options": [
+        "Figaro",
+        "Montro",
+        "Yapi",
+        "Cleo"
+      ],
+      "explanation": "Le personnage de Cléo, le poisson rouge animé par Don Lusk, n'est présent que pour ajouter une dimension comique au film.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-134",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_134.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-134-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel océan retrouve-t-on environ 60% de tous les récifs de corail ?",
+      "answer": "Indien",
+      "options": [
+        "Pacifique",
+        "Indien",
+        "Arctique",
+        "Atlantique"
+      ],
+      "explanation": "Depuis quelques décennies, les populations de corail se dégradent, souvent en raison du changement climatique et de la pollution.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-134",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_134.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-134-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que font les tortues marines pour se protéger les yeux des grains de sable ?",
+      "answer": "Elles pleurent",
+      "options": [
+        "Elles dorment",
+        "Elles nagent",
+        "Elles crient",
+        "Elles pleurent"
+      ],
+      "explanation": "La tortue luth est la plus grande des tortues marines, mesurant 2 m de long, de 1 m à 1.5 m de large et pesant 600 kg.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-134",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_134.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-134-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces poissons ne peut survivre dans les rivières ?",
+      "answer": "Le hareng",
+      "options": [
+        "La perche",
+        "Le hareng",
+        "Le brochet",
+        "La carope"
+      ],
+      "explanation": "Le hareng se déplace exclusivement en grands bancs dans les eaux froides, à la fois fortement salées et oxygénées.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-134",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_134.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-134-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que pouvez-vous principalement fabriquer en récoltant du corail rouge ?",
+      "answer": "Des bijoux",
+      "options": [
+        "Des peintures",
+        "Des médicaments",
+        "Des bijoux",
+        "Des armes"
+      ],
+      "explanation": "Le corail rouge, bien que signalé en Atlantique Nord-Est, est considéré comme une espèce endémique de Méditerranée.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-134",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_134.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-134-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel élément rend la Mer du Nord beaucoup moins bleue que la Mer Méditerranée ?",
+      "answer": "La boue",
+      "options": [
+        "Les algues",
+        "Le sel",
+        "La boue",
+        "Le sable"
+      ],
+      "explanation": "La mer du Nord et son littoral forment un milieu naturel très riche mais menacé par la pollution marine et l'industrie pétrolière.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-134",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_134.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-134-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de cœurs une pieuvre normalement constituée possède-t-elle ?",
+      "answer": "Trois",
+      "options": [
+        "Trois",
+        "Quatre",
+        "Cinq",
+        "Deux"
+      ],
+      "explanation": "La pieuvre possède un cœur pour envoyer le sans dans le corps et deux cœurs pour pomper le sang par les branchies.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-134",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_134.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-134-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces animaux ne fait pas partie de la catégorie des mollusques ?",
+      "answer": "Anguille",
+      "options": [
+        "Pieuvre",
+        "Anguille",
+        "Escargot",
+        "Moule"
+      ],
+      "explanation": "Les anguilles étaient réputées particulièrement rustiques et résistantes, grâce notamment à leur capacité à respirer l'air.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-134",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_134.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-134-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment appelle-ton les deux parties de la coquille de la moule et de l'huître ?",
+      "answer": "Les valves",
+      "options": [
+        "Les coques",
+        "Les charnières",
+        "Les valves",
+        "Les écorces"
+      ],
+      "explanation": "La coquille des Bivalves est composée de deux valves comprimées latéralement : une valve gauche et une valve droite.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-134",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_134.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-134-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel canal d'Amérique centrale relie l'Océan Atlantique à l'Océan Pacifique ?",
+      "answer": "Canal de Panama",
+      "options": [
+        "Canal de Suez",
+        "Grand Canal",
+        "Canal d'Amérique",
+        "Canal de Panama"
+      ],
+      "explanation": "Depuis son ouverture, le canal a remporté un énorme succès et continue d'être un point de passage stratégique pour la navigation.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-134",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_134.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-134-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année le sous-marin nucléaire Koursk a-t-il coulé avec à bord 118 membres d'équipage ?",
+      "answer": "2000",
+      "options": [
+        "1990",
+        "2005",
+        "2000",
+        "1995"
+      ],
+      "explanation": "Deux explosions ont fait sombrer le Koursk le 12 août 2000 à approximativement 135 km de la ville de Severomorsk.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-134",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_134.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-134-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans la mythologie romaine, qui est le dieu des Eaux vives et des Sources ?",
+      "answer": "Neptune",
+      "options": [
+        "Ulysse",
+        "Apollon",
+        "Zeus",
+        "Neptune"
+      ],
+      "explanation": "Les légendes et mythes au sujet de Neptune proviennent de la réappropriation par les Romains des mythes grecs.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-134",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_134.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-134-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quelle classe d'animaux le féroce crocodile appartient-il ?",
+      "answer": "Les reptiles",
+      "options": [
+        "Les reptiles",
+        "Les amphibiens",
+        "Les poissons",
+        "Les mammifères"
+      ],
+      "explanation": "En Égypte antique, le crocodile était l'un des douze animaux sacrés associés aux douze heures du jour et de la nuit.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-134",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_134.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-134-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel poisson a pour habitude de se gonfler à l'approche du danger ?",
+      "answer": "Le diodon",
+      "options": [
+        "Le spotanus",
+        "Le diodon",
+        "Le cyclostome",
+        "L’anguille"
+      ],
+      "explanation": "Les espèces du genre Diodon sont souvent appelées « poissons-hérissons », « poissons porc-épic » ou « hérissons des mers ».",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-134",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_134.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-134-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel nom porte le plus grand coquillage bivalve au monde ?",
+      "answer": "Le bénitier",
+      "options": [
+        "La praire",
+        "La palourde",
+        "Le bénitier",
+        "La mactre"
+      ],
+      "explanation": "Ils sont capables de vivre extrêmement vieux, même si la surpêche a fait disparaître une grande partie des plus beaux spécimens.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-134",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_134.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-134-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel poisson a la particularité de posséder des arêtes vertes ?",
+      "answer": "L'orphie",
+      "options": [
+        "L'orphie",
+        "Le gavial",
+        "Le diodon",
+        "Le merlan"
+      ],
+      "explanation": "L'orphie est un poisson facile à pêcher pour des novices car elle mord aussi bien à l'appât naturel qu'au leurre.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-134",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_134.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-134-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle couleur devient le ventre de l'épinoche quand il recherche une femelle ?",
+      "answer": "Rouge",
+      "options": [
+        "Jaune",
+        "Bleue",
+        "Verte",
+        "Rouge"
+      ],
+      "explanation": "Lors du frai, de mars à juillet, le mâle de Gasterosteus aculeatus se pare de couleurs vives (dos vert et ventre rouge).",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-134",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_134.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-134-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel nom a-t-on donné à la plus célèbre des perles noires ?",
+      "answer": "Azra",
+      "options": [
+        "Yasmine",
+        "Azra",
+        "Neptunus",
+        "Royal Pearl"
+      ],
+      "explanation": "La perle constitue le centre d'un collier qui faisait partie des joyaux de la couronne de l'ancienne Russie tsariste.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-134",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_134.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-134-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel poisson est parfois appelé « le requin d'eau douce » ?",
+      "answer": "Le brochet",
+      "options": [
+        "La carpe",
+        "Le brochet",
+        "La truite",
+        "La perche"
+      ],
+      "explanation": "Le terme brochet dérive du terme « broche », à cause de la forme pointue du museau de ces poissons carnivores.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-134",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_134.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

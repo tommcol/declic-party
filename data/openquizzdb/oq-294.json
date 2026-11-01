@@ -1,0 +1,798 @@
+{
+  "id": "oq-294",
+  "title": "Fête de Saint-Nicolas",
+  "originalTitle": "Fête de Saint-Nicolas (Distribution de cadeaux et friandises)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_294.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-294-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel évêque est mis en scène durant la fête de Saint-Nicolas ?",
+      "answer": "Nicolas de Myre",
+      "options": [
+        "Martin de Tours",
+        "Alexis de Rome",
+        "Nicolas de Myre",
+        "Benoît de Nursie"
+      ],
+      "explanation": "Évêque de Myre en Lycie, il a probablement participé au premier Concile de Nicée au cours duquel il combat l'arianisme.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-294",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_294.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-294-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel jour fête-t-on Saint-Nicolas pour l'Église catholique ?",
+      "answer": "6 décembre",
+      "options": [
+        "19 décembre",
+        "6 décembre",
+        "24 décembre",
+        "11 décembre"
+      ],
+      "explanation": "La fête de Saint-Nicolas est une tradition vivace dans plusieurs pays européens ainsi que dans le nord et l'est de la France.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-294",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_294.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-294-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans certaines régions d'Europe, de qui Saint Nicolas est-il accompagné ?",
+      "answer": "Père Fouettard",
+      "options": [
+        "Père Fouettard",
+        "Jack Frost",
+        "Julbock",
+        "Casse-noisette"
+      ],
+      "explanation": "Vêtu d'un grand manteau noir avec un grand capuchon et de grosses bottes, le Père Fouettard porte parfois un fouet et un sac.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-294",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_294.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-294-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Outre le blanc, quelle couleur est souvent associée à Saint Nicolas ?",
+      "answer": "Rouge",
+      "options": [
+        "Bleu",
+        "Noir",
+        "Rouge",
+        "Jaune"
+      ],
+      "explanation": "Il était en mauve et blanc, avec une crosse, dorée à l'origine, puis en rouge et blanc, ce qui le rapproche du Père Noël actuel.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-294",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_294.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-294-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sur quoi Saint Nicolas se déplace-t-il en Belgique francophone ?",
+      "answer": "Âne magique",
+      "options": [
+        "Rêne volant",
+        "Cheval blanc",
+        "Âne magique",
+        "Éléphant royal"
+      ],
+      "explanation": "Au nord comme au sud du pays, Saint Nicolas se déplace la nuit du 5 au 6 décembre pour déposer cadeaux et friandises.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-294",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_294.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-294-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que retrouve-t-on dans les souliers des enfants belges à la Saint Nicolas ?",
+      "answer": "Spéculoos",
+      "options": [
+        "Cougnou",
+        "Tarte au sucre",
+        "Faluche",
+        "Spéculoos"
+      ],
+      "explanation": "Traditionnellement, le spéculoos est le plus souvent consommé lors de l'avent et plus particulièrement lors de la fête de saint Nicolas.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-294",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_294.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-294-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel pays a lieu la soirée des paquets-surprises, la veille de la Saint-Nicolas ?",
+      "answer": "Pays-Bas",
+      "options": [
+        "Luxembourg",
+        "Pologne",
+        "Pays-Bas",
+        "Suisse"
+      ],
+      "explanation": "Les paquets-surprises, donnés par Sinterklaas par la cheminée ou sur le pallier, sont souvent accompagnés de poèmes.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-294",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_294.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-294-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment se nomme l'acolyte de Saint-Nicolas dans le folklore alsacien ?",
+      "answer": "Hans Trapp",
+      "options": [
+        "Guifred Estruch",
+        "Bos de Bénac",
+        "Hans Trapp",
+        "Hermann Gessler"
+      ],
+      "explanation": "À l'origine de ce personnage, il y aurait le maréchal Jean de Dratt (Hans von Trotha), brute sanguinaire qui terrorisait la population.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-294",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_294.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-294-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville du sud de Nancy une grande basilique est-elle dédiée à Saint Nicolas ?",
+      "answer": "Saint-Nicolas-de-Port",
+      "options": [
+        "Mont-Saint-Martin",
+        "Val de Briey",
+        "Saint-Nicolas-de-Port",
+        "Villerupt"
+      ],
+      "explanation": "En 1193, une seconde église y sera construite. C'est d'ailleurs dans celle-ci que viendra prier Jeanne d'Arc en 1429.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-294",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_294.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-294-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel dieu scandinave une partie des attributs de Saint Nicolas serait-elle inspirée ?",
+      "answer": "Odin",
+      "options": [
+        "Odin",
+        "Loki",
+        "Thor",
+        "Vali"
+      ],
+      "explanation": "En effet, Odin est toujours accompagné de ses deux corbeaux qui voient tout et de son fidèle cheval Sleipnir.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-294",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_294.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-294-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Aux Pays-Bas, de quel engin Saint Nicolas débarque-t-il venu d'Espagne ?",
+      "answer": "Bateau",
+      "options": [
+        "Planeur",
+        "Avion",
+        "Bateau",
+        "Montgolfière"
+      ],
+      "explanation": "Il arrive depuis l'Espagne sur un bateau à vapeur (stoomboot) que l'on appelle Pakjesboot 12 (Bateau des petits paquets 12).",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-294",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_294.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-294-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle région de France Saint Nicolas est-il le saint patron depuis 1477 ?",
+      "answer": "Lorraine",
+      "options": [
+        "Lorraine",
+        "Limousin",
+        "Lyonnais",
+        "Languedoc"
+      ],
+      "explanation": "En effet, alors que la Lorraine était occupée par la Bourgogne, le duc René II demanda la victoire (qu'il reçut) à saint Nicolas.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-294",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_294.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-294-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À Nancy, sur combien de semaines sont étalées les fêtes de Saint-Nicolas ?",
+      "answer": "Deux semaines",
+      "options": [
+        "Une semaine",
+        "Deux semaines",
+        "Trois semaines",
+        "Quatre semaines"
+      ],
+      "explanation": "Dans toute la ville on trouve des courses, des spectacles de rue, un marché fermier ou encore « le village de la marmaille ».",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-294",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_294.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-294-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de personnes sont venues écouter saint Nicolas à Fribourg en 2015 ?",
+      "answer": "25 000",
+      "options": [
+        "25 000",
+        "35 000",
+        "15 000",
+        "5 000"
+      ],
+      "explanation": "Traditionnellement, il y tient un discours qui contient des passages satiriques sur les événements de la ville de l'année écoulée.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-294",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_294.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-294-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En Hongrie, que dépose Saint Nicolas dans les bottes des méchants enfants ?",
+      "answer": "Bâton",
+      "options": [
+        "Marteau",
+        "Faux rat",
+        "Bâton",
+        "Banane"
+      ],
+      "explanation": "Saint Nicolas est souvent accompagné par le Krampusz, l'effrayant assistant qui est chargé d'enlever les méchants enfants.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-294",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_294.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-294-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle profession exerçait Pierre Lenoir, qui deviendra par la suite le Père Fouettard ?",
+      "answer": "Boucher",
+      "options": [
+        "Boucher",
+        "Maçon",
+        "Charpentier",
+        "Serrurier"
+      ],
+      "explanation": "Il coupa trois enfants en petits morceaux pour finalement les mettre dans son saloir afin d'en faire du petit salé.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-294",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_294.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-294-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel jour fête-t-on Saint-Nicolas pour l'Église orthodoxe ?",
+      "answer": "19 décembre",
+      "options": [
+        "24 décembre",
+        "11 décembre",
+        "2 janvier",
+        "19 décembre"
+      ],
+      "explanation": "L'Église orthodoxe utilise encore le calendrier julien qui était est un calendrier solaire utilisé dans la Rome antique.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-294",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_294.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-294-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Outre les enfants, de qui Saint Nicolas est-il également le patron ?",
+      "answer": "Avocats",
+      "options": [
+        "Informaticiens",
+        "Charpentiers",
+        "Avocats",
+        "Secrétaires"
+      ],
+      "explanation": "Il est aujourd'hui le patron de nombreuses corporations comme les prisonniers, les avocats, les ergothérapeutes, ou les célibataires.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-294",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_294.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-294-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En Autriche, quels personnages entourant Saint Nicolas font peur à la foule ?",
+      "answer": "Krampus",
+      "options": [
+        "Krampus",
+        "Lagahoo",
+        "Curupira",
+        "Kolobox"
+      ],
+      "explanation": "Portant un masque de diable cornu et de grosses fourrures, ils agitent des chaînes, poursuivant les gens avec des bâtons.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-294",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_294.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-294-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que représente la relique de saint Nicolas conservée à Saint-Nicolas-de-Port ?",
+      "answer": "Phalange",
+      "options": [
+        "Occipital",
+        "Cubitus",
+        "Humérus",
+        "Phalange"
+      ],
+      "explanation": "La basilique a été restaurée à partir de 1983 grâce au legs considérable de Mme Camille Croué-Friedman, originaire de la ville.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-294",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_294.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-294-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le point de passage incontournable du défilé de Saint-Nicolas à Metz ?",
+      "answer": "Place d'Armes",
+      "options": [
+        "Fort de Queuleu",
+        "Les Trinitaires",
+        "Place d'Armes",
+        "Fort Moselle"
+      ],
+      "explanation": "À Metz, de nombreuses festivités ont lieu comme le défilé du Saint-Nicolas, des spectacles et aussi un feu d'artifice.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-294",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_294.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-294-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle région de France le Père Fouettard est-il représenté comme mi-fée mi-sorcière ?",
+      "answer": "Franche-Comté",
+      "options": [
+        "Franche-Comté",
+        "Gascogne",
+        "Anjou",
+        "Touraine"
+      ],
+      "explanation": "La Franche-Comté possède aussi ses brioches de la Saint-Nicolas, comme le Männele alsacien, aussi appelé Jean Bonhomme.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-294",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_294.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-294-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Au Luxembourg, que distribue le père Fouettard aux vilains enfants ?",
+      "answer": "Brindilles",
+      "options": [
+        "Ronces",
+        "Brindilles",
+        "Orties",
+        "Chardons"
+      ],
+      "explanation": "Au Luxembourg, le père Fouettard est un petit homme dont le visage n'est pas visible car il est caché par une énorme capuche.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-294",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_294.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-294-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel pays les Iffelträger défilent-ils en portant d'énormes mitres éclairées ?",
+      "answer": "Suisse",
+      "options": [
+        "Suisse",
+        "Hongrie",
+        "Belgique",
+        "Pologne"
+      ],
+      "explanation": "Ils sont accompagnés de centaines de personnes qui agitent de grosses cloches et des grelots.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-294",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_294.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-294-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a peint « La Saint-Nicolas », tableau visible au Rijksmuseum d'Amsterdam ?",
+      "answer": "Jan Steen",
+      "options": [
+        "Andries Stock",
+        "Jan Steen",
+        "Cornelis Vroom",
+        "Jacobus Vrel"
+      ],
+      "explanation": "Représentant du baroque, Jan Steen figure parmi les peintres de genre néerlandais les plus importants de son époque.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-294",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_294.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-294-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a sorti en 2004 la BD « Le saint patron », dans la collection Ciboulette ?",
+      "answer": "Jochen Gerner",
+      "options": [
+        "Paul Gillon",
+        "Alain Goutal",
+        "Jean Graton",
+        "Jochen Gerner"
+      ],
+      "explanation": "Né à Nancy en 1970, Jochen Gerner est diplômé de l'École nationale supérieure d'art de Nancy où il étudia de 1988 à 1993.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-294",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_294.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-294-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que distribue Saint Nicolas aux enfants de Romont, dans le canton de Fribourg ?",
+      "answer": "Biscômes",
+      "options": [
+        "Bricelets",
+        "Biscômes",
+        "Cuchaules",
+        "Caracs"
+      ],
+      "explanation": "Consommé dans le nord de la Suisse, le biscôme est une sorte de pain d'épice plat, de couleur brune et au goût épicé.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-294",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_294.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-294-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a relancé la tradition de la Saint-Nicolas à Bulle, capitale du district de la Gruyère ?",
+      "answer": "Henri Gremaud",
+      "options": [
+        "Joseph Bertrand",
+        "Henri Gremaud",
+        "Ernest Bonnardel",
+        "Nicolas Marchal"
+      ],
+      "explanation": "Aujourd'hui, l'organisation et l'animation de la fête est aux mains de la troupe de théâtre des Trétaux de Chalamala.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-294",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_294.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-294-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel chef-lieu du district de la Sarine Saint Nicolas est-il le patron ?",
+      "answer": "Fribourg",
+      "options": [
+        "Corserey",
+        "Avry",
+        "Ponthaux",
+        "Fribourg"
+      ],
+      "explanation": "La ville Suisse se place sous le patronage de saint Nicolas de Myre, de sainte Barbe et de sainte Catherine d'Alexandrie.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-294",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_294.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-294-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel pays d'Europe la Saint-Nicolas est-elle appelée Mikolajki ?",
+      "answer": "Pologne",
+      "options": [
+        "Pays-Bas",
+        "Suisse",
+        "Pologne",
+        "Luxembourg"
+      ],
+      "explanation": "À l'école, chacun offre un petit cadeau symbolique à un collègue dont le nom est tiré au sort quelques jours avant.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-294",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_294.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

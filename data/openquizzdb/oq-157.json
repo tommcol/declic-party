@@ -1,0 +1,774 @@
+{
+  "id": "oq-157",
+  "title": "Constructeurs automobiles",
+  "originalTitle": "Constructeurs automobiles (Un piéton est un homme qui va chercher sa voiture)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_157.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    23
+  ],
+  "questions": [
+    {
+      "id": "oqdb-157-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel constructeur a pour slogan « le plaisir de conduire » ?",
+      "answer": "BMW",
+      "options": [
+        "BMW",
+        "Lexus",
+        "Mercedes",
+        "Lotus"
+      ],
+      "explanation": "En 2016, le groupe BMW a vendu 2.117.965 véhicules automobiles (BMW, Mini, et Rolls-Royce) ainsi que 123.495 deux-roues.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-157",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_157.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-157-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelles couleurs sont présentes sur le logo circulaire de la marque BMW ?",
+      "answer": "Bleu et blanc",
+      "options": [
+        "Bleu et blanc",
+        "Noir et rouge",
+        "Rouge et bleu",
+        "Vert et jaune"
+      ],
+      "explanation": "L'emblème de la marque reprend le cercle noir du logo de Rapp, avec au centre les couleurs symbolisant la Bavière.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-157",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_157.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-157-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel constructeur automobile a produit les modèles Diablo et Countach ?",
+      "answer": "Lamborghini",
+      "options": [
+        "Maserati",
+        "Ferrari",
+        "Lamborghini",
+        "Porsche"
+      ],
+      "explanation": "La Lamborghini Diablo succède à la légendaire Lamborghini Countach après seize ans de carrière et 2 200 exemplaires produits.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-157",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_157.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-157-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces voitures est un modèle du constructeur Nissan ?",
+      "answer": "Qashqai",
+      "options": [
+        "Diablo",
+        "Elantra",
+        "Qashqai",
+        "Fiesta"
+      ],
+      "explanation": "En mai 2007, la Qashqai de chez Nissan a décroché la plus haute note possible aux crash tests EuroNCAP, soit 5 étoiles.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-157",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_157.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-157-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel constructeur a pour ornement « l'Esprit d'extase » ?",
+      "answer": "Rolls-Royce",
+      "options": [
+        "Rolls-Royce",
+        "Jaguar",
+        "Porshe",
+        "Mercedes"
+      ],
+      "explanation": "Spirit of Ecstasy, le fameux bouchon de radiateur de la marque Rolls-Royce, a été créé en 1911 par l'artiste anglais Charles Sykes.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-157",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_157.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-157-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces modèles Volkswagen s'est vendu le plus ?",
+      "answer": "Golf",
+      "options": [
+        "Golf",
+        "Passat",
+        "Scarabée",
+        "Jetta"
+      ],
+      "explanation": "Ce concept de petite voiture sportive à hayon et traction avec un moteur à injection contrastait avec les moteurs à carburateur.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-157",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_157.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-157-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel constructeur a produit la très populaire Coccinelle ?",
+      "answer": "Volkswagen",
+      "options": [
+        "Suzuki",
+        "Volvo",
+        "Volkswagen",
+        "Nissan"
+      ],
+      "explanation": "Produite en 1938, la Coccinelle fut conçue par l'ingénieur autrichien Ferdinand Porsche à la demande du chancelier Adolf Hitler.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-157",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_157.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-157-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de passagers peut accueillir une Tesla Modèle S de 2014 ?",
+      "answer": "7",
+      "options": [
+        "7",
+        "3",
+        "5",
+        "1"
+      ],
+      "explanation": "Outre la recharge sur bornes ordinaires, la Model S bénéficie de bornes gratuites ultra-rapides appelées Superchargeurs.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-157",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_157.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-157-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel constructeur automobile a créé le modèle Cayenne ?",
+      "answer": "Porsche",
+      "options": [
+        "Ferrari",
+        "Lamborghini",
+        "Maserati",
+        "Porsche"
+      ],
+      "explanation": "Le Cayenne a été fabriqué en collaboration avec Volkswagen avec qui il partage la même plate-forme de son 4x4 Touareg.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-157",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_157.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-157-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel constructeur a produit une voiture hybride du nom de « Civic » ?",
+      "answer": "Honda",
+      "options": [
+        "Jaguar",
+        "Honda",
+        "Ford",
+        "Tesla"
+      ],
+      "explanation": "Le terme « Civic » exprime l'ambition de la marque Honda de réduire ses émissions polluantes et de proposer une voiture propre.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-157",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_157.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-157-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année la Citroën DS a-t-elle été vendue pour la première fois ?",
+      "answer": "1955",
+      "options": [
+        "1947",
+        "1964",
+        "1971",
+        "1955"
+      ],
+      "explanation": "Le « D » viendrait de l'usage du moteur le plus récent alors de Citroën, le « moteur série D », qui équipait la Traction 11 D.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-157",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_157.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-157-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel constructeur américain a produit le modèle Chieftain ?",
+      "answer": "Pontiac",
+      "options": [
+        "Pontiac",
+        "Chrysler",
+        "Lotus",
+        "Ford"
+      ],
+      "explanation": "La Chieftain de 1949 marque le tout premier nouveau design des modèles Pontiac sortis après la Seconde Guerre mondiale.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-157",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_157.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-157-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dacia est un constructeur automobile originaire de quel pays ?",
+      "answer": "Roumanie",
+      "options": [
+        "Bulgarie",
+        "Grèce",
+        "Roumanie",
+        "Pologne"
+      ],
+      "explanation": "Les véhicules produits sont commercialisés sous la marque Dacia en Europe et sous la marque Renault dans le reste du monde.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-157",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_157.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-157-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel constructeur a pour slogan « la puissance des rêves » ?",
+      "answer": "Honda",
+      "options": [
+        "Land Rover",
+        "Honda",
+        "Skoda",
+        "Jaguar"
+      ],
+      "explanation": "En 2008, Honda a vendu plus de 17 millions de moteurs à quatre temps, ce qui en a fait le plus important producteur du monde.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-157",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_157.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-157-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel état a été choisi pour héberger la « Gigafactory 1 » de Tesla ?",
+      "answer": "Nevada",
+      "options": [
+        "New York",
+        "Washington",
+        "Illinois",
+        "Nevada"
+      ],
+      "explanation": "Cette usine a été conçue dans le but de produire, à terme, assez d'énergie renouvelable pour faire face à sa consommation.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-157",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_157.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-157-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel constructeur a possédé la marque Jaguar de 1990 à 2008 ?",
+      "answer": "Ford",
+      "options": [
+        "Nissan",
+        "BMW",
+        "Ford",
+        "Honda"
+      ],
+      "explanation": "La société SSC, fondée en 1922, prit le nom de Jaguar en 1945 pour ne pas évoquer les SS allemands de sinistre mémoire.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-157",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_157.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-157-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "La Bel Air était autrefois un modèle très populaire proposé par quel constructeur ?",
+      "answer": "Chevrolet",
+      "options": [
+        "Chevrolet",
+        "American Motors",
+        "Chrysler",
+        "Volskwagen"
+      ],
+      "explanation": "Le nom de Bel Air vient d'un quartier huppé de la ville de Los Angeles, situé 27 kilomètres à l'ouest de Downtown Los Angeles.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-157",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_157.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-157-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel constructeur a pour slogan « l'art de la performance » ?",
+      "answer": "Jaguar",
+      "options": [
+        "Chevrolet",
+        "Peugeot",
+        "Mini Cooper",
+        "Jaguar"
+      ],
+      "explanation": "Le 26 mars 2008, dans le cadre d'un démantèlement, Ford a vendu Jaguar à l'entreprise indienne Tata Motors.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-157",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_157.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-157-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel modèle de voiture Ford sortit en premier dans les années 60 ?",
+      "answer": "Fort Mustang",
+      "options": [
+        "Ford Gelding",
+        "Ford Mare",
+        "Ford Stallion",
+        "Fort Mustang"
+      ],
+      "explanation": "Fait unique pour la marque Ford, tous les modèles Mustang arborent leur propre logotype de calandre (un mustang au galop).",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-157",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_157.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-157-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville italienne est situé le siège social du constructeur Fiat ?",
+      "answer": "Turin",
+      "options": [
+        "Turin",
+        "Naples",
+        "Milan",
+        "Gênes"
+      ],
+      "explanation": "La compagnie FIAT a été créée le 11 juillet 1899 au Palazzo Bricherasio par trente actionnaires, dont Giovanni Agnelli.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-157",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_157.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-157-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Par quelle entreprise fut conçu le moteur de la Chevrolet Corvette C4 ZR1 ?",
+      "answer": "Lotus",
+      "options": [
+        "Lotus",
+        "BMW",
+        "Nissan",
+        "Saab"
+      ],
+      "explanation": "Si la Corvette C4 est apparue en 1983, sa version « sportive » ZR1 n'apparaîtra quant à elle qu'au salon de Genève 1989.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-157",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_157.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-157-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel était le prénom du mécanicien et fondateur de la Chrysler Company ?",
+      "answer": "Walter",
+      "options": [
+        "Walter",
+        "Wade",
+        "William",
+        "Wilfried"
+      ],
+      "explanation": "De 1928 à 1930, Walter P. Chrysler fait construire un immeuble à la gloire de la marque automobile de son nom : le Chrysler Building.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-157",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_157.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-157-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Les Herald, Vitesse et Spitfire sont des modèles fabriqués par quelle entreprise ?",
+      "answer": "Triumph",
+      "options": [
+        "Peugeot",
+        "Triumph",
+        "Vauxhall",
+        "Austin"
+      ],
+      "explanation": "Le but de la Spitfire était de créer une petite voiture de sport bon marché, située un niveau en-dessous de celui des roadsters TR.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-157",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_157.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-157-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Jusqu'en quelle année la marque Duesenberg a-t-elle conçu des voitures ?",
+      "answer": "1937",
+      "options": [
+        "1917",
+        "1947",
+        "1937",
+        "1927"
+      ],
+      "explanation": "Après la Seconde Guerre mondiale, l'américain August Duesenberg essayera tant bien que mal de relancer la marque, sans succès.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-157",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_157.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-157-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel constructeur a pour slogan « innover autrement » ?",
+      "answer": "Nissan",
+      "options": [
+        "Nissan",
+        "Jaguar",
+        "Volkswagen",
+        "Lexus"
+      ],
+      "explanation": "Nissan Motor Company, Limited ou Nissan est un constructeur automobile japonais né en 1932 sous le nom de Datsun.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-157",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_157.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-157-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville d'Allemagne se trouve le siège social d'Audi ?",
+      "answer": "Ingolstadt",
+      "options": [
+        "Ingolstadt",
+        "Dortmund",
+        "Kiel",
+        "Frankfort"
+      ],
+      "explanation": "Implantée dans 55 pays du monde, la marque Audi est présente sur la plupart des segments du marché des véhicules particuliers.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-157",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_157.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-157-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle compagnie fait partie la division Smart Automobile ?",
+      "answer": "Daimler AG",
+      "options": [
+        "General Motors",
+        "BMW",
+        "Chrysler",
+        "Daimler AG"
+      ],
+      "explanation": "Smart (dérivé du nom de projet Swatch Mercedes Art car1) est une marque créée en 1994 sous l'impulsion du groupe horloger Swatch.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-157",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_157.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-157-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle compagnie d'automobiles possède un modèle appelé Forester ?",
+      "answer": "Subaru",
+      "options": [
+        "Subaru",
+        "Toyota",
+        "Ford",
+        "Hyundai"
+      ],
+      "explanation": "Il a été élu en 2009 et 2014 Meilleur SUV de l'année par Motor Trend et Meilleure voiture à acheter en 2014 par Car Connection.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-157",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_157.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-157-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel modèle de voiture succéda directement à la Porsche 944 ?",
+      "answer": "968",
+      "options": [
+        "968",
+        "956",
+        "977",
+        "945"
+      ],
+      "explanation": "Au niveau esthétique, la Porsche 944 reprend les caractéristiques de la 924, ses ailes renflées rappellent celles de la 924 Carrera GT.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-157",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_157.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

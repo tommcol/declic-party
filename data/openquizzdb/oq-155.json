@@ -1,0 +1,774 @@
+{
+  "id": "oq-155",
+  "title": "Culture générale 3",
+  "originalTitle": "Culture générale 3",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_155.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    3
+  ],
+  "questions": [
+    {
+      "id": "oqdb-155-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel domaine artistique le français Jacques Majorelle a-t-il exercé ses talents ?",
+      "answer": "Peinture",
+      "options": [
+        "Peinture",
+        "Photographie",
+        "Théâtre",
+        "Cinéma"
+      ],
+      "explanation": "En 1937, Jacques Majorelle a peint sa villa de couleurs vives, dominées par le bleu auquel il donnera son nom.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-155",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_155.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-155-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la nationalité du talentueux coureur cycliste Eddy Merckx ?",
+      "answer": "Belge",
+      "options": [
+        "Autrichienne",
+        "Suisse",
+        "Hollandaise",
+        "Belge"
+      ],
+      "explanation": "Professionnel de 1965 à 1978, Eddy Merckx est souvent considéré comme le plus grand cycliste de l'histoire de ce sport.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-155",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_155.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-155-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quel insecte Volkswagen a-t-elle emprunté le nom pour une des ses voitures ?",
+      "answer": "Coccinelle",
+      "options": [
+        "Papillon",
+        "Coccinelle",
+        "Libellule",
+        "Sauterelle"
+      ],
+      "explanation": "Produite en 1938, la Coccinelle fut conçue par l'ingénieur Ferdinand Porsche à la demande du chancelier Adolf Hitler.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-155",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_155.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-155-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel petit animal porte parfois le nom vernaculaire de « rainette » ?",
+      "answer": "Grenouille",
+      "options": [
+        "Hérisson",
+        "Tortue",
+        "Libellule",
+        "Grenouille"
+      ],
+      "explanation": "Les rainettes les plus connues en Europe sont la rainette verte (aux yeux d'or et arboricoles) et la rainette méridionale.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-155",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_155.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-155-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel reptile africain fait en sorte que sa peau prenne la couleur du milieu où il évolue ?",
+      "answer": "Caméléon",
+      "options": [
+        "Genette",
+        "Crotale",
+        "Caméléon",
+        "Lézard"
+      ],
+      "explanation": "Avec plus de 200 espèces, les plus anciens fossiles de caméléons connus datent d'il y a environ 65 millions d'années.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-155",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_155.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-155-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Selon une expression bien connue, avec quoi ne mélange-t-on pas les serviettes ?",
+      "answer": "Les torchons",
+      "options": [
+        "Les balais",
+        "Les torchons",
+        "Les brosses",
+        "Les éponges"
+      ],
+      "explanation": "La serpillière est un morceau de toile grossière et résistante, de forme plus ou moins régulière, servant à laver les sols.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-155",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_155.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-155-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Le sens du mot « capharnaüm » désigne en français un lieu...",
+      "answer": "En désordre",
+      "options": [
+        "Perdu",
+        "En désordre",
+        "Inexistant",
+        "Secret"
+      ],
+      "explanation": "Le mot se rapproche phonétiquement de « cafourniau », petite pièce à côté de la maison servant de « débarras obscur ».",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-155",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_155.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-155-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le métier exercé par Dick Tracy, personnage créé par Chester Gould ?",
+      "answer": "Détective",
+      "options": [
+        "Informaticien",
+        "Détective",
+        "Photographe",
+        "Journaliste"
+      ],
+      "explanation": "Dick Tracy incarne un détective très intelligent de la culture pop américaine qui combat divers « méchants ».",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-155",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_155.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-155-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui aurait murmuré cette phrase en 1633 : « Et pourtant elle tourne » ?",
+      "answer": "Galilée",
+      "options": [
+        "Galilée",
+        "De Vinci",
+        "Copernic",
+        "Newton"
+      ],
+      "explanation": "Galilée est considéré comme fondateur de la physique, qui s'est imposée comme la première des sciences exactes modernes.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-155",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_155.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-155-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel pays se situe la Kabylie, région historique et ethnolinguistique ?",
+      "answer": "Algérie",
+      "options": [
+        "Irak",
+        "Maroc",
+        "Algérie",
+        "Tunisie"
+      ],
+      "explanation": "Dénuée d'existence administrative globale, la Kabylie tient son nom d'une population de culture et de traditions berbères.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-155",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_155.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-155-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel sport fut créé par Jigoro Kano, alors éducateur dans l'enseignement primaire ?",
+      "answer": "Judo",
+      "options": [
+        "Tae kwon do",
+        "Sumo",
+        "Judo",
+        "Karaté"
+      ],
+      "explanation": "Jigoro Kano, père de neuf enfants, est le seul judoka à avoir reçu la ceinture blanche après la ceinture rouge.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-155",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_155.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-155-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel célèbre compositeur et musicien allemand est devenu sourd à 27 ans ?",
+      "answer": "Beethoven",
+      "options": [
+        "Beethoven",
+        "Mozart",
+        "Wagner",
+        "Bach"
+      ],
+      "explanation": "Aujourd'hui encore, l'œuvre de Ludwig van Beethoven est reprise dans de nombreux films et génériques d'émissions.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-155",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_155.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-155-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Situé au nord du continent africain, sur combien de pays le Sahara est-il étendu ?",
+      "answer": "10",
+      "options": [
+        "13",
+        "8",
+        "10",
+        "5"
+      ],
+      "explanation": "Des analyses de pollen pratiquées par des scientifiques montrent que des zones forestières ont bel et bien existé au Sahara.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-155",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_155.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-155-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel poisson prédateur commun en eaux douces possède environ 700 dents ?",
+      "answer": "Brochet",
+      "options": [
+        "Goujon",
+        "Carpe",
+        "Brochet",
+        "Truite"
+      ],
+      "explanation": "Partiellement protégé en France, le brochet est un excellent régulateur de population des lacs et des étangs.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-155",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_155.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-155-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a réalisé le film 'The Pledge' avec Jack Nicholson et Robin Wright Penn ?",
+      "answer": "Sean Penn",
+      "options": [
+        "Tom Hanks",
+        "Sam Mendes",
+        "John Astin",
+        "Sean Penn"
+      ],
+      "explanation": "Le film 'The Pledge' sera un échec au box-office, ne récoltant qu'environ 29 millions de dollars pour un budget de 35 millions.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-155",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_155.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-155-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année Philippe Noiret se fit-il connaître avec le film 'Zazie dans le métro' ?",
+      "answer": "1960",
+      "options": [
+        "1960",
+        "1950",
+        "1970",
+        "1980"
+      ],
+      "explanation": "Philippe Noiret a écrit son autobiographie intitulée 'Mémoire cavalière' avec la collaboration d'Antoine de Meaux.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-155",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_155.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-155-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Aux côtés de quel musicien Élodie Frégé a-t-elle sorti 'Le jeu des 7 erreurs' ?",
+      "answer": "Benjamin Biolay",
+      "options": [
+        "Pascal Obispo",
+        "Etienne Daho",
+        "Laurent Voulzy",
+        "Benjamin Biolay"
+      ],
+      "explanation": "Le deuxième album d'Élodie Frégé, sorti en 2006 et certifié disque d'or, tranche avec le premier, le souhaitant plus à son image.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-155",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_155.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-155-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel auteur belge de bandes dessinées est le scénariste de 'Kid Paddle' ?",
+      "answer": "Midam",
+      "options": [
+        "Midem",
+        "Modem",
+        "Mudim",
+        "Midam"
+      ],
+      "explanation": "Fan absolu de jeux vidéo, le jeune Kid Paddle a tendance à confondre les univers de ces jeux avec le monde réel.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-155",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_155.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-155-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel continent trouve-t-on le mandrill, apparenté au babouin ?",
+      "answer": "Afrique",
+      "options": [
+        "Asie",
+        "Europe",
+        "Afrique",
+        "Océanie"
+      ],
+      "explanation": "75 des 188 espèces de primates sont aujourd'hui menacées de disparition, victimes de la déforestation et du braconnage.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-155",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_155.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-155-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de temps dura l'impressionnant règne de la reine Victoria ?",
+      "answer": "Près de 64 ans",
+      "options": [
+        "Près de 53 ans",
+        "Près de 39 ans",
+        "Près de 47 ans",
+        "Près de 64 ans"
+      ],
+      "explanation": "Son règne de 63 ans et sept mois est le second plus long de toute l'histoire du Royaume-Uni, après celui d'Élisabeth II.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-155",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_155.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-155-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien y avait-il de candidats au premier tour des présidentielles de 2007 en France ?",
+      "answer": "12",
+      "options": [
+        "12",
+        "13",
+        "10",
+        "11"
+      ],
+      "explanation": "Le déroulement de l'élection présidentielle est fixé par les articles 6, 7 et 58 de la Constitution française.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-155",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_155.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-155-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Le futurisme est un mouvement littéraire et artistique originaire de quel pays ?",
+      "answer": "Italie",
+      "options": [
+        "Allemagne",
+        "Italie",
+        "France",
+        "Royaume-Uni"
+      ],
+      "explanation": "Le futurisme est un mouvement qui rejette la tradition esthétique et exalte le monde moderne et les machines.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-155",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_155.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-155-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De symbole T, que vaut le préfixe « téra », extrait du système international ?",
+      "answer": "10 exposant 12",
+      "options": [
+        "10 exposant 9",
+        "10 exposant 12",
+        "10 exposant 20",
+        "10 exposant 15"
+      ],
+      "explanation": "Dans le domaine des ondes électromagnétiques, on parle de térahertz tandis qu'en astronomie, on parle de téramètres.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-155",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_155.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-155-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À qui doit-on le canal de Suez, percé entre 1859 et 1869 ?",
+      "answer": "Ferdinand de Lesseps",
+      "options": [
+        "Ferdinand de Lesseps",
+        "Andrew Jackson",
+        "Léonide Méssine",
+        "François Charles"
+      ],
+      "explanation": "Le canal de Suez permet aux navires d'aller d'Europe en Asie sans devoir contourner l'Afrique par le cap de Bonne-Espérance.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-155",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_155.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-155-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle plante à la racine comestible est utilisée pour la fabrication du tapioca ?",
+      "answer": "Manioc",
+      "options": [
+        "Manioc",
+        "Gingembre",
+        "Guarana",
+        "Ginseng"
+      ],
+      "explanation": "Le tapioca est une fécule produite à partir des racines du manioc amer (toxique avant traitement) séchées puis traitées.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-155",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_155.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-155-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle unité monétaire est principalement utilisée au Paraguay ?",
+      "answer": "Guarani",
+      "options": [
+        "Peso",
+        "Guarani",
+        "Franc",
+        "Couronne"
+      ],
+      "explanation": "La Banco Central del Paraguay a annoncé l'adoption en 2011 du nuevo guarani, valant 1 000 guaranies actuels.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-155",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_155.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-155-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le prénom de la fille du musicien brésilien Joao Gilberto ?",
+      "answer": "Bebel",
+      "options": [
+        "Felicia",
+        "Bebel",
+        "Rosanna",
+        "Hanne"
+      ],
+      "explanation": "Joao Gilberto, né au Brésil en 1931 et maîtrisant le français, est considéré comme le principal créateur de la bossa nova.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-155",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_155.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-155-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel guitariste a fondé le groupe de heavy-metal Kiss, en 1973 ?",
+      "answer": "Paul Stanley",
+      "options": [
+        "Paul Stanley",
+        "Mick Mars",
+        "Kirk Hammett",
+        "Dave Mustaine"
+      ],
+      "explanation": "Le groupe Kiss est devenu célèbre entre autres avec leurs costumes extravagants et la très grande langue de Gene Simmons.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-155",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_155.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-155-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Les félins ont tous des griffes rétractiles sauf lequel de ces carnivores ?",
+      "answer": "Guépard",
+      "options": [
+        "Panthère",
+        "Lion",
+        "Guépard",
+        "Léopard"
+      ],
+      "explanation": "Les félins sont digitigrades : ils marchent en appuyant sur leurs doigts (la plante du pied ne se posant pas sur le sol).",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-155",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_155.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

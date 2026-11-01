@@ -1,0 +1,749 @@
+{
+  "id": "oq-144",
+  "title": "Boxe",
+  "originalTitle": "Boxe",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_144.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    10,
+    12
+  ],
+  "questions": [
+    {
+      "id": "oqdb-144-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle série de six films un champion de boxe est-il la vedette ?",
+      "answer": "Rocky",
+      "options": [
+        "Rambo",
+        "Ritchie",
+        "Randy",
+        "Rocky"
+      ],
+      "explanation": "Le thème du film 'Rocky' est très largement inspiré du célèbre combat entre Mohamed Ali et Chuck Wepner.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-144",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_144.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-144-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Des suites de quelle maladie le boxeur Tommy Morrison dut-il se retirer du circuit ?",
+      "answer": "Le sida",
+      "options": [
+        "La grippe",
+        "La mononucléose",
+        "Le sida",
+        "Le cancer"
+      ],
+      "explanation": "On attribue parfois à Tommy Morrison un lien de parenté avec l'acteur John Wayne, dont le vrai nom est Marion Robert Morrison.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-144",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_144.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-144-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel boxeur est le seul à avoir jamais remporté un titre mondial à tout juste 20 ans ?",
+      "answer": "Mike Tyson",
+      "options": [
+        "Trevor Berbick",
+        "James Smith",
+        "Tony Tucker",
+        "Mike Tyson"
+      ],
+      "explanation": "Mike Tyson, surnommé « Kid Dynamite » ou « Iron Mike », a marqué l'histoire de la boxe par son parcours hors du commun.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-144",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_144.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-144-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En boxe, quel emplacement de forme carrée est délimité par des cordes ?",
+      "answer": "Le ring",
+      "options": [
+        "Le green",
+        "Le court",
+        "Le podium",
+        "Le ring"
+      ],
+      "explanation": "Compte tenu du grand nombre d'organisations internationales, les dimensions d’un ring de boxe peuvent sensiblement varier.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-144",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_144.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-144-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de temps dure un round de boxe chez les hommes ?",
+      "answer": "Trois minutes",
+      "options": [
+        "Quatre minutes",
+        "Cinq minutes",
+        "Deux minutes",
+        "Trois minutes"
+      ],
+      "explanation": "Les boxeurs professionnels s'affrontent en 4 rounds de 3 minutes et jusqu'à 12 rounds de 3 minutes lorsqu'un titre est en jeu.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-144",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_144.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-144-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En boxe, que jette-t-on pour signifier l'abandon d’un match ?",
+      "answer": "Une éponge",
+      "options": [
+        "Une ceinture",
+        "Un gant",
+        "Une éponge",
+        "Une culotte"
+      ],
+      "explanation": "Il est recommandé de revêtir des protections adéquates et appropriées pour tous les entraînements de boxe.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-144",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_144.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-144-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En boxe, quel coup touche le boxeur adverse en passant sous sa garde ?",
+      "answer": "Un uppercut",
+      "options": [
+        "Un direct",
+        "Un uppercut",
+        "Un crochet",
+        "Une esquive"
+      ],
+      "explanation": "En boxe anglaise, au XVIIIe siècle, le boxeur anglais Dutch Sam a donné le nom d'uppercut à ce coup appelé auparavant « undercut ».",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-144",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_144.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-144-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel « instrument » est parfois commun aux boxeurs et aux petites filles ?",
+      "answer": "La corde à sauter",
+      "options": [
+        "Le protège-dents",
+        "Les gants",
+        "La ceinture",
+        "La corde à sauter"
+      ],
+      "explanation": "La pratique de la corde à sauter dans le milieu de la boxe est bénéfique pour le cœur mais également le système respiratoire.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-144",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_144.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-144-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel ballon est utilisé pour les entraînements des boxeurs ?",
+      "answer": "Punching ball",
+      "options": [
+        "Ballon ovale",
+        "Ballon à eau",
+        "Punching ball",
+        "Ballon gonflable"
+      ],
+      "explanation": "Cet exercice permet d'améliorer sa technique de frappe, sa précision, sa vitesse et stimule le système cardiovasculaire.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-144",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_144.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-144-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel film, sorti en 1999, Denzel Washington interprète-t-il le boxeur Rubin Carter ?",
+      "answer": "Hurricane Carter",
+      "options": [
+        "The Boxer",
+        "Hurricane Carter",
+        "Raging Bull",
+        "Rocky Balboa"
+      ],
+      "explanation": "Très critiqué et controversé, 'Hurricane Carter' serait plus une fiction basée sur des faits réels qu'un véritable biopic sur le boxeur.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-144",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_144.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-144-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien peut-on compter de cordes autour des rings de boxe ?",
+      "answer": "Trois ou quatre",
+      "options": [
+        "Sept ou huit",
+        "Cinq ou six",
+        "Trois ou quatre",
+        "Une ou deux"
+      ],
+      "explanation": "Un ring de boxe mesure entre 6 et 8m de côté, repose sur un plancher de 1m de hauteur et possède deux « coins neutres ».",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-144",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_144.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-144-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de temps un boxeur au tapis est-il compté avant de passer K.O. ?",
+      "answer": "Dix secondes",
+      "options": [
+        "Vingt secondes",
+        "Quinze secondes",
+        "Cinq secondes",
+        "Dix secondes"
+      ],
+      "explanation": "Le KO technique ou TKO est décidé par l'arbitre quand un des adversaires est blessé et est incapable de continuer le combat.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-144",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_144.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-144-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel film la boxe a-t-elle évolué pour devenir un sport high-tech ?",
+      "answer": "Real Steel",
+      "options": [
+        "Planète Hurlante",
+        "Real Steel",
+        "Transformers",
+        "Total Recall"
+      ],
+      "explanation": "En avril 2011, DreamWorks a annoncé qu'une suite est en préparation. John Gatins a été chargé du scénario.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-144",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_144.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-144-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Si vous pesez 48 kilos, dans quelle catégorie boxeriez-vous ?",
+      "answer": "Mouches",
+      "options": [
+        "Coqs",
+        "Plumes",
+        "Pailles",
+        "Mouches"
+      ],
+      "explanation": "Le britannique Jimmy Wilde est reconnu comme étant le tout premier boxeur champion du monde des poids mouches.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-144",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_144.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-144-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le seul type de boxe a avoir été admis aux Jeux olympiques en 1901 ?",
+      "answer": "Anglaise",
+      "options": [
+        "Coréenne",
+        "Vietnamienne",
+        "Anglaise",
+        "Française"
+      ],
+      "explanation": "La boxe fut pratiquée comme un sport à part entière dans la Grèce antique lors des Jeux panhelléniques à Olympie.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-144",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_144.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-144-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel acteur incarne un boxeur dans le film 'Espion et demi' ?",
+      "answer": "Eddie Murphy",
+      "options": [
+        "Eddie Murphy",
+        "Will Smith",
+        "Denzel Washington",
+        "Bruce Willis"
+      ],
+      "explanation": "'Espion et demi' est une adaptation de la série télévisée américaine 'Les Espions' diffusée pendant 3 saisons à partir de 1965.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-144",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_144.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-144-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel film, sorti en 2001, Will Smith interprète-t-il le boxeur Mohammed Ali ?",
+      "answer": "Ali",
+      "options": [
+        "Break Out",
+        "Ali",
+        "Bad Boys",
+        "Saving Face"
+      ],
+      "explanation": "Le film retrace l'engagement du boxeur qui changera de nom aux côtés du mouvement Nation of Islam et de Malcolm X.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-144",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_144.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-144-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel célèbre boxeur a été marié à la talentueuse Édith Piaf ?",
+      "answer": "Marcel Cerdan",
+      "options": [
+        "Marcel Cerdan",
+        "Thierry Jacob",
+        "Pierre Langlois",
+        "Raymond Grassi"
+      ],
+      "explanation": "Marcel Cerdans, né Marcellin Cerdan, est mort dans un accident d'avion survenu dans l'archipel des Açores en 1949.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-144",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_144.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-144-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle catégorie Marcel Cerdan fut-il jadis un grand boxeur ?",
+      "answer": "Moyens",
+      "options": [
+        "Lourds",
+        "Moyens",
+        "Légers",
+        "Mi-lourds"
+      ],
+      "explanation": "La victoire la plus rapide obtenue par Marcel Cerdan fut accomplie en pas moins de 22 secondes face à Gustave Humery en 1942.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-144",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_144.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-144-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel boxeur américain était surnommé « le Cobra de Cincinnati » ?",
+      "answer": "Ezzard Charles",
+      "options": [
+        "Rocky Marciano",
+        "Joe Louis",
+        "Ezzard Charles",
+        "Ike Williams"
+      ],
+      "explanation": "Champion du monde, il n'a toutefois jamais reçu la ferveur d'un public qui ne lui a jamais pardonné sa victoire sur le grand Joe Louis.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-144",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_144.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-144-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel était le précédent nom donné à la boxe française ?",
+      "answer": "La savate",
+      "options": [
+        "La savate",
+        "Le pugilat",
+        "Le pancrace",
+        "La lutte"
+      ],
+      "explanation": "Ce sport de combat, apparu au XIXe siècle, consiste pour les deux adversaires à se porter des coups avec les poings et les pieds.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-144",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_144.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-144-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel champion de boxe américain était surnommé 'Marvellous' ?",
+      "answer": "Marvin Hagler",
+      "options": [
+        "Terry Ryan",
+        "Marvin Hagler",
+        "Cove Green",
+        "Sonny Williams"
+      ],
+      "explanation": "Son dernier combat lui a permis d'empocher la coquette somme de 12 millions de dollars, un record pour l'époque.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-144",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_144.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-144-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En battant quel boxeur Marcel Cerdan devint-il champion du monde des moyens en 1948 ?",
+      "answer": "Tony Zale",
+      "options": [
+        "Tony Zale",
+        "Jake LaMotta",
+        "José Ferrer",
+        "Gustave Humery"
+      ],
+      "explanation": "Marcel Cerdan est mort le 28 octobre 1949 dans un accident d'avion survenu au-dessus de l'archipel des Açores (Portugal).",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-144",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_144.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-144-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le prénom de la fille de Mohammed Ali, devenue championne du monde de boxe ?",
+      "answer": "Laila",
+      "options": [
+        "Laila",
+        "Léa",
+        "Alicia",
+        "Loana"
+      ],
+      "explanation": "Boxeuse à fort tempérament comme son père, son nom attire les foules dans les salles, faisant ainsi connaître la boxe féminine.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-144",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_144.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-144-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel boxeur français est devenu champion du monde militaire amateur en 2008 ?",
+      "answer": "Alexis Vastine",
+      "options": [
+        "Jean Josselin",
+        "Antoine Palatis",
+        "Yoann Boyeaux",
+        "Alexis Vastine"
+      ],
+      "explanation": "Alexis Vastine a trouvé la mort à 28 ans alors qu'il participait au tournage de l'émission de télé-réalité 'Dropped' de TF1.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-144",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_144.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-144-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel romancier américain raconte un combat de boxe dans 'Cinquante mille dollars' ?",
+      "answer": "Ernest Hemingway",
+      "options": [
+        "Joshua Slocum",
+        "Samuel Engel",
+        "Rudyard Kipling",
+        "Ernest Hemingway"
+      ],
+      "explanation": "Ce recueil d'écrits, qui reprend le thème du combat de boxe et du champion, représente la seule pièce de théâtre de l'auteur.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-144",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_144.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-144-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle star de la boxe Vincent Moscato a-t-il reçu dans son émission radio ?",
+      "answer": "Mike Tyson",
+      "options": [
+        "Bruce Seldon",
+        "Tony Tucker",
+        "James Smith",
+        "Mike Tyson"
+      ],
+      "explanation": "C'est dans son émission sur RMC 'Super Moscato Show' qu'il a reçu son idole, à Paris, pour son livre 'La vérité et rien d'autre'.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-144",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_144.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-144-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel boxeur américain a été le sportif le mieux rémunéré du monde en 2011 ?",
+      "answer": "Floyd Mayweather",
+      "options": [
+        "Junior Witter",
+        "Genaro Hernandez",
+        "Arturo Gatti",
+        "Floyd Mayweather"
+      ],
+      "explanation": "Surnommé « Pretty Boy », il est l'un des meilleurs boxeurs des années 2000, demeuré invaincu en plus de 18 ans de carrière.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-144",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_144.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

@@ -1,0 +1,699 @@
+{
+  "id": "oq-180",
+  "title": "Joyeux Noël",
+  "originalTitle": "Joyeux Noël (Avant de découvrir les cadeaux)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_180.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    12,
+    19,
+    25,
+    27
+  ],
+  "questions": [
+    {
+      "id": "oqdb-180-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Pour un chrétien, de qui fête-t-on la naissance le jour de Noël ?",
+      "answer": "Jésus",
+      "options": [
+        "Marie",
+        "Judas",
+        "Joseph",
+        "Jésus"
+      ],
+      "explanation": "Avant la christianisation de l'Occident, Noël correspondait au jour de naissance de Sol Invictus.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-180",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_180.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-180-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que mange-t-on la plupart du temps à Noël depuis une coutume instaurée par Charles VII ?",
+      "answer": "Dinde",
+      "options": [
+        "Bouillabaisse",
+        "Coq au vin",
+        "Paupiettes",
+        "Dinde"
+      ],
+      "explanation": "En France, en Belgique et au Royaume-Uni, la dinde de Noël est traditionnellement farcie aux marrons.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-180",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_180.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-180-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quelle date les rois mages sont-ils sensés apparaître dans la crèche de Noël ?",
+      "answer": "6 janvier",
+      "options": [
+        "6 janvier",
+        "1er janvier",
+        "24 décembre",
+        "25 décembre"
+      ],
+      "explanation": "L'Occident médiéval vénère les rois mages comme saints et l'Église catholique leur reconnaît des reliques conservées à Cologne.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-180",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_180.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-180-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En 1931, pour quelle firme Haddon Sundblom a-t-il dessiné le Père Noël en rouge ?",
+      "answer": "Coca-Cola",
+      "options": [
+        "IBM",
+        "Coca-Cola",
+        "McDonald's",
+        "Walt Disney"
+      ],
+      "explanation": "Cet illustrateur américain est surtout connu pour ses pin-ups et ses publicités du père Noël réalisées pour The Coca-Cola Company.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-180",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_180.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-180-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Traditionnellement, à quel saint chrétien le Père Noël est-il associé ?",
+      "answer": "Saint Nicolas",
+      "options": [
+        "Saint Julien",
+        "Saint Nicolas",
+        "Saint Augustin",
+        "Saint Vincent"
+      ],
+      "explanation": "L'idée que le père Noël soit américain est partiellement vraie car son histoire pourrait être liée à des migrants new-yorkais.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-180",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_180.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-180-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Avec qui Gaspard et Balthazar sont-ils venus rendre hommage à Jésus ?",
+      "answer": "Melchior",
+      "options": [
+        "Hérode",
+        "Michée",
+        "Melchior",
+        "Athos"
+      ],
+      "explanation": "Les mages sont uniquement évoqués par l'Évangile selon Matthieu, les trois autres évangiles canoniques ignorant cet épisode.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-180",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_180.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-180-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment appelle-t-on la scène représentée par la crèche de Noël ?",
+      "answer": "Nativité",
+      "options": [
+        "Santon",
+        "Nativité",
+        "Jourdan",
+        "Arlésienne"
+      ],
+      "explanation": "En art religieux, une Nativité est une représentation de cette naissance sous forme de peintures, sculptures ou vitraux.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-180",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_180.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-180-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Si vous entendez 'Buon Natale', dans quel pays vous souhaite-on 'Joyeux Noël' ?",
+      "answer": "Italie",
+      "options": [
+        "Portugal",
+        "Grèce",
+        "Italie",
+        "Espagne"
+      ],
+      "explanation": "En France, les trois-quarts des Français considèrent que Noël est avant tout une fête familiale ou commerciale.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-180",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_180.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-180-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Aux États-Unis, quel nom est donné au Père Noël qui livre ses cadeaux ?",
+      "answer": "Santa Claus",
+      "options": [
+        "Santa Claus",
+        "Santa Monica",
+        "Santa Fé",
+        "Santa Barbara"
+      ],
+      "explanation": "La fête de Santa Claus (Saint Nicolas en anglais) est fixée au 6 décembre, soit 19 jours avant la fête de Noël en France.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-180",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_180.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-180-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Complétez cette expression de nos anciens : 'Noël au balcon, ...'",
+      "answer": "Pâques au tison",
+      "options": [
+        "Pâques au tison",
+        "L'hiver sera long",
+        "Bonnet et pompon",
+        "Soufflez les ballons"
+      ],
+      "explanation": "Un Noël trop doux annonce un début de printemps frais : 'si on peut passer Noël dehors, on restera à Pâques au coin du feu'.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-180",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_180.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-180-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Les rois mages, au nombre de trois, ont apporté de l'or, de l'encens et quoi d'autre ?",
+      "answer": "De la myrrhe",
+      "options": [
+        "De l'ambre",
+        "De la coriandre",
+        "Du musc",
+        "De la myrrhe"
+      ],
+      "explanation": "Le parfum de la myrrhe est parfois associé à l'érotisme et est mentionné sept fois dans le 'Cantique des cantiques'.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-180",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_180.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-180-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Au cours de quelle saison fête-t-on Noël sur le continent austral ?",
+      "answer": "Été",
+      "options": [
+        "Printemps",
+        "Été",
+        "Automne",
+        "Hiver"
+      ],
+      "explanation": "Noël est une fête chrétienne célébrant chaque année la naissance de Jésus de Nazareth, appelée Nativité.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-180",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_180.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-180-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Par combien de rennes le traîneau du Père Noël est-il tiré la plupart du temps ?",
+      "answer": "Huit",
+      "options": [
+        "Dix",
+        "Huit",
+        "Douze",
+        "Six"
+      ],
+      "explanation": "Les rennes du père Noël sont ceux qui, traditionnellement, tirent le traîneau du père Noël lorsque celui-ci distribue les cadeaux.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-180",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_180.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-180-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle région de France provient la tradition du sapin de Noël ?",
+      "answer": "Alsace",
+      "options": [
+        "Bourgogne",
+        "Alsace",
+        "Bretagne",
+        "Provence"
+      ],
+      "explanation": "Les sapins de Noël peuvent être vendus coupés ou en pot, ce qui permet de les replanter à la fin des festivités.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-180",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_180.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-180-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel film Billy Bob Thornton interprète-t-il un père Noël qui jure et court le jupon ?",
+      "answer": "Bad Santa",
+      "options": [
+        "Le Salut",
+        "Bad Santa",
+        "Love Actually",
+        "Alamo"
+      ],
+      "explanation": "Billy Bob Thornton, acteur et musicien américain, a été le conjoint de l'actrice Angelina Jolie de mai 2000 à mai 2003.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-180",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_180.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-180-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle fête est considérée comme la dernière des fêtes de Noël ?",
+      "answer": "Chandeleur",
+      "options": [
+        "Saint-Valentin",
+        "Chandeleur",
+        "Mardi gras",
+        "Carnaval"
+      ],
+      "explanation": "La Chandeleur est fêtée dans les églises le 2 février, même si l'on connaît surtout cette fête en tant que jour des crêpes.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-180",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_180.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-180-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le premier cadeau de Noël que Hagrid offre à Harry Potter ?",
+      "answer": "Flûte",
+      "options": [
+        "Baguette",
+        "Clé",
+        "Chouette",
+        "Flûte"
+      ],
+      "explanation": "Hagrid, membre de l'ordre du Phénix, fut élève à Poudlard, dans la maison Gryffondor, où il arriva en 1940.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-180",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_180.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-180-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel chapeau melon sans bottes de cuir nous a quitté un 25 décembre ?",
+      "answer": "Charlie Chaplin",
+      "options": [
+        "James Dean",
+        "Charlie Chaplin",
+        "Harold Loyd",
+        "Buster Keaton"
+      ],
+      "explanation": "Perfectionniste, l'indépendance financière de Charlie Chaplin lui permit de consacrer des années au développement de ses œuvres.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-180",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_180.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-180-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle commune de France est installé depuis 1962 le secrétariat officiel du Père Noël ?",
+      "answer": "Libourne",
+      "options": [
+        "Pontoise",
+        "Courbevoie",
+        "Rochefort",
+        "Libourne"
+      ],
+      "explanation": "Une soixantaine de lutins postiers sont à l'œuvre pour répondre aux lettres et e-mails des enfants désireux de lui écrire.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-180",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_180.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-180-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien distingue-t-on environ d'espèces de sapin dans le monde ?",
+      "answer": "46",
+      "options": [
+        "6",
+        "460",
+        "46",
+        "4 600"
+      ],
+      "explanation": "Les sapins, proches parents des cèdres, font partie de la famille des Pinaceae et de la sous-famille des Abietoideae.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-180",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_180.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-180-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quel réalisateur doit-on le film à succès 'Le Père Noël est une ordure' ?",
+      "answer": "Jean-Marie Poiré",
+      "options": [
+        "Patrice Ledoux",
+        "Jean-Marie Poiré",
+        "Alain Terzian",
+        "Claude Zidi"
+      ],
+      "explanation": "À sa sortie en salles, le film fut boycotté par la RATP qui refusa de louer des panneaux publicitaires suite au titre jugé trop provocant.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-180",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_180.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-180-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle était la couleur du Père Noël avant qu'il ne devienne rouge ?",
+      "answer": "Verte",
+      "options": [
+        "Jaune",
+        "Orange",
+        "Verte",
+        "Grise"
+      ],
+      "explanation": "L'imagerie française le montre vers 1870-1890 en vieil homme habillé d'un manteau principalement vert et parfois bleu.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-180",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_180.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-180-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année Tino Rossi a-t-il chanté pour la première fois 'Petit papa Noël' ?",
+      "answer": "1946",
+      "options": [
+        "1950",
+        "1962",
+        "1934",
+        "1946"
+      ],
+      "explanation": "Écrite par Raymond Vincy, cette chanson a été interprétée pour la première fois en 1946 dans le film 'Destins'.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-180",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_180.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-180-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville française le premier arbre de Noël a-t-il été décoré en 1521 ?",
+      "answer": "Sélestat",
+      "options": [
+        "Mulhouse",
+        "Sélestat",
+        "Cernay",
+        "Colmar"
+      ],
+      "explanation": "Le jardin du Dahlia, qui devient en hiver le jardin du Sapin, rend ainsi hommage au corso fleuri de la ville.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-180",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_180.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-180-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel pape aurait institué la fête de la Nativité à Rome le 25 décembre 354 ?",
+      "answer": "Libère",
+      "options": [
+        "Eusèbe",
+        "Marcellin",
+        "Pontien",
+        "Libère"
+      ],
+      "explanation": "Évêque de Rome succédant à Jules Ier, le pape Libère sera le premier à désigner Rome comme le siège apostolique.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-180",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_180.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-180-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment appelle-t-on un livre imprimé en Europe avant Noël 1500 ?",
+      "answer": "Incunable",
+      "options": [
+        "Eau-forte",
+        "Taille-douce",
+        "Estampe",
+        "Incunable"
+      ],
+      "explanation": "Le mot 'incunable' provient du nom pluriel latin 'incunabula', qui signifie littéralement « les langes d'un nouveau-né ».",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-180",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_180.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

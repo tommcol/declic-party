@@ -1,0 +1,798 @@
+{
+  "id": "oq-46",
+  "title": "Bruce Willis",
+  "originalTitle": "Bruce Willis",
+  "universe": "film",
+  "emoji": "🎬",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_46.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-46-1",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel personnage est incarné par Bruce Willis dans la saga 'Die Hard' ?",
+      "answer": "John McClane",
+      "options": [
+        "Tom Mix",
+        "John McClane",
+        "Walter Davis",
+        "Peter Fallow"
+      ],
+      "explanation": "La franchise met en vedette un policier, John McClane, qui n'a pas peur de recourir aux méthodes musclées.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-46",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_46.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-46-2",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quelle série Bruce Willis a-t-il tenu durant 4 saisons le rôle de David Addison ?",
+      "answer": "Clair de lune",
+      "options": [
+        "Docteur Doogie",
+        "Clair de lune",
+        "Jake Cutter",
+        "Falcon Crest"
+      ],
+      "explanation": "Suite à un revers de fortune, un ex-mannequin se retrouve directrice d'une agence de détectives dénommée 'Clair de lune'.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-46",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_46.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-46-3",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Avec quelle actrice Bruce Willis s'est-il marié en 1987 et a eu trois filles ?",
+      "answer": "Demi Moore",
+      "options": [
+        "Daryl Hannah",
+        "Jamie Lee Curtis",
+        "Andie MacDowell",
+        "Demi Moore"
+      ],
+      "explanation": "Ses trois filles sont Rumer Glenn (1988), Scout LaRue (1991) et Tallulah Belle (1994).",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-46",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_46.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-46-4",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le métier de Bruce Willis dans le film 'Pulp Fiction' de Tarantino ?",
+      "answer": "Boxeur",
+      "options": [
+        "Footballeur",
+        "Vétérinaire",
+        "Boxeur",
+        "Avocat"
+      ],
+      "explanation": "'Pulp Fiction' a été récompensé par la Palme d'or au Festival de Cannes 1994.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-46",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_46.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-46-5",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quel film Bruce Willis incarne-t-il un psychologue pour enfant ?",
+      "answer": "Sixième Sens",
+      "options": [
+        "Otage",
+        "Une vie à deux",
+        "Sale Môme",
+        "Sixième Sens"
+      ],
+      "explanation": "'Sixième Sens' est le premier vrai succès commercial, critique et public de M. Night Shyamalan.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-46",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_46.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-46-6",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui a réalisé le film 'Le Cinquième Élément' dans lequel joue Bruce Willis ?",
+      "answer": "Luc Besson",
+      "options": [
+        "Luc Besson",
+        "Patrice Chéreau",
+        "Bertrand Tavernier",
+        "Jean-Pierre Jeunet"
+      ],
+      "explanation": "Luc Besson a écrit la première ébauche du scénario du 'Cinquième Élément' alors qu'il était au lycée.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-46",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_46.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-46-7",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quel film Bruce Willis commande-t-il une équipe d'astronautes ?",
+      "answer": "Armageddon",
+      "options": [
+        "Sin City",
+        "Sixième Sens",
+        "Armageddon",
+        "Looper"
+      ],
+      "explanation": "La bande originale du film 'Armageddon' est composée de quatorze titres, dont quatre du groupe Aerosmith.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-46",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_46.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-46-8",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Combien de filles Bruce Willis a-t-il eu avec l'actrice Demi Moore ?",
+      "answer": "Trois",
+      "options": [
+        "Deux",
+        "Cinq",
+        "Trois",
+        "Quatre"
+      ],
+      "explanation": "Après s'être mariés sous les projecteurs, leur divorce fut prononcé en 2000, 13 ans plus tard.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-46",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_46.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-46-9",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quel film Bruce Willis exécute-t-il des cibles envoyées du futur ?",
+      "answer": "Looper",
+      "options": [
+        "Sin City",
+        "16 Blocs",
+        "Moonrise Kingdom",
+        "Looper"
+      ],
+      "explanation": "'Looper' a généré dans le monde entier plus de 176 millions de dollars de recettes, pour un budget de 30 millions.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-46",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_46.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-46-10",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Avec quel film Bruce Willis a-t-il connu son premier succès au grand écran ?",
+      "answer": "Boire et Déboires",
+      "options": [
+        "The Player",
+        "Billy Bathgate",
+        "Hudson Hawk",
+        "Boire et Déboires"
+      ],
+      "explanation": "Madonna et Sean Penn, alors mariés, étaient dans un premier temps pressentis pour jouer ensemble dans le film.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-46",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_46.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-46-11",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quel pays Bruce Willis, fils de David Willis, a-t-il vu le jour ?",
+      "answer": "Allemagne",
+      "options": [
+        "Allemagne",
+        "Portugal",
+        "Brésil",
+        "Albanie"
+      ],
+      "explanation": "À sa naissance, son père était soldat américain et sa mère une Allemande travaillant dans une banque.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-46",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_46.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-46-12",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Pour quelle comédie d'action Bruce Willis a-t-il signé le scénario ?",
+      "answer": "Hudson Hawk",
+      "options": [
+        "Hudson Hawk",
+        "Armageddon",
+        "Boire et Déboires",
+        "Incassable"
+      ],
+      "explanation": "'Hudson Hawk' fut un échec aux yeux des critiques et du public lors de sa sortie en salles.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-46",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_46.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-46-13",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Avec qui Bruce Willis se retrouve-t-il interné dans 'L'Armée des douze singes' ?",
+      "answer": "Brad Pitt",
+      "options": [
+        "John Malkovich",
+        "Sylvester Stallone",
+        "Morgan Freeman",
+        "Brad Pitt"
+      ],
+      "explanation": "'L'Armée des douze singes' se déroule dans un futur où la surface de la Terre est devenue inhabitable à cause d'un virus mortel.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-46",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_46.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-46-14",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Après 'Pulp Fiction', dans quel film Bruce Willis a-t-il retrouvé Samuel L. Jackson ?",
+      "answer": "Incassable",
+      "options": [
+        "Red",
+        "Le Chacal",
+        "Groom Service",
+        "Incassable"
+      ],
+      "explanation": "Les initiales de David Dunn sont identiques, comme la plupart des super héros de Marvel.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-46",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_46.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-46-15",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel acteur Bruce Willis intimide-t-il dans 'Mon voisin le tueur' ?",
+      "answer": "Matthew Perry",
+      "options": [
+        "Matt LeBlanc",
+        "Dan Aykroyd",
+        "Jim Carrey",
+        "Matthew Perry"
+      ],
+      "explanation": "En 2004, la suite intitulée 'Mon voisin le tueur 2' proposera le même quatuor d'acteurs.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-46",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_46.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-46-16",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quel film Bruce Willis évolue-t-il dans une métropole du vice et du péché ?",
+      "answer": "Sin City",
+      "options": [
+        "Looper",
+        "Sin City",
+        "Alpha Dog",
+        "Planète Terreur"
+      ],
+      "explanation": "Sin City est visuellement très fidèle au comics dont il est l'adaptation, dans un noir et blanc retravaillé numériquement.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-46",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_46.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-46-17",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Pour quel groupe musical Bruce Willis est-il apparu dans le clip 'Stylo' ?",
+      "answer": "Gorillaz",
+      "options": [
+        "Morcheeba",
+        "Gorillaz",
+        "Terranova",
+        "Dubphonic"
+      ],
+      "explanation": "Dans une scène du clip, Bruce Willis arrive dans une Chevrolet El Camino rouge et prend en chasse le groupe.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-46",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_46.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-46-18",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quel film Bruce Willis a-t-il pris beaucoup de plaisir à s'auto-parodier ?",
+      "answer": "Red",
+      "options": [
+        "Armageddon",
+        "Alpha Dog",
+        "Red",
+        "Clones"
+      ],
+      "explanation": "Dans 'Red', Frank Moses est un ancien agent de la CIA à la retraite que des assassins tentent de tuer.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-46",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_46.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-46-19",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle seconde langue Bruce Willis parle-t-il couramment ?",
+      "answer": "L'allemand",
+      "options": [
+        "L'espagnol",
+        "Le grec",
+        "Le français",
+        "L'allemand"
+      ],
+      "explanation": "Bruce Willis a d'ailleurs été nommé ambassadeur de sa ville natale le jour de son cinquantième anniversaire.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-46",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_46.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-46-20",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quelle série télé Bruce Willis est-il apparu dans le rôle de Paul Stevens ?",
+      "answer": "Friends",
+      "options": [
+        "Dr House",
+        "Grey's Anatomy",
+        "Ally McBeal",
+        "Friends"
+      ],
+      "explanation": "Bruce Willis a fait son apparition dans les épisodes 21, 22 et 23 de la saison 6 de 'Friends'.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-46",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_46.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-46-21",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui fut la deuxième épouse de l'acteur Bruce Willis et mère du quatrième enfant de ce dernier ?",
+      "answer": "Emma Heming",
+      "options": [
+        "Cameron Boyce",
+        "Denyce Lawton",
+        "Karen Duffy",
+        "Emma Heming"
+      ],
+      "explanation": "Emma Heming est un mannequin, créatrice de mode et actrice américaine d'origine maltaise.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-46",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_46.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-46-22",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "De quel instrument de musique Bruce Willis a-t-il appris à jouer étant jeune ?",
+      "answer": "Harmonica",
+      "options": [
+        "Harmonica",
+        "Trombone",
+        "Guitare",
+        "Harpe"
+      ],
+      "explanation": "Parallèlement à une formation d'art dramatique, Bruce Willis s'est consacré à la musique et à l'harmonica.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-46",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_46.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-46-23",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Avec quelle production Bruce Willis a-t-il réellement fait ses débuts au théâtre ?",
+      "answer": "Ciel et Terre",
+      "options": [
+        "Bonjour Monsieur",
+        "Ciel et Terre",
+        "Hôtel Plaza",
+        "Le Verdict"
+      ],
+      "explanation": "Après de multiples auditions, Bruce Willis fit réellement ses débuts dans le théâtre avec la production 'Ciel et Terre' de Broadway.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-46",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_46.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-46-24",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le titre du premier album enregistré par Bruce Willis ?",
+      "answer": "The Return of Bruno",
+      "options": [
+        "Bad Mountain",
+        "The Return of Bruno",
+        "Murdoc",
+        "First Concept"
+      ],
+      "explanation": "En parallèle au film du même nom, Bruce Willis a en effet sorti un album studio qui sert de ligne musicale au film.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-46",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_46.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-46-25",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel film avec Bruce Willis a été réalisé par le français Florent Emilio-Siri ?",
+      "answer": "Otage",
+      "options": [
+        "Clones",
+        "Sans Issue",
+        "Braqueurs",
+        "Otage"
+      ],
+      "explanation": "L'une des filles de Bruce Willis, Rumer Glenn Willis, joue sa fille Amanda dans le film.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-46",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_46.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-46-26",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Avec quelle actrice américaine Bruce Willis a-t-il été fiancé de 2003 à 2004 ?",
+      "answer": "Brooke Burns",
+      "options": [
+        "Brooke Burns",
+        "Dorothy Bernard",
+        "Kathy Baker",
+        "Louise Beavers"
+      ],
+      "explanation": "Brooke Burns est mariée depuis le 22 juin 2013 à Gavin O'Connor et vit à Los Angeles.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-46",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_46.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-46-27",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "En quelle année Bruce Willis a-t-il été promu Officier des Arts et des Lettres par la France ?",
+      "answer": "2005",
+      "options": [
+        "2005",
+        "2009",
+        "2011",
+        "2007"
+      ],
+      "explanation": "Bruce Willis a été promu pour son importante contribution dans l'industrie du cinéma mondial.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-46",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_46.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-46-28",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel artiste a composé une musique portant le nom de 'Bruce Willis is dead' ?",
+      "answer": "Mr. Oizo",
+      "options": [
+        "Llorca",
+        "Alex Gopher",
+        "Mr. Oizo",
+        "Martin Solveig"
+      ],
+      "explanation": "'Lambs Anger', le troisième album de Mr. Oizo sorti le 17 novembre 2008, contient entre autres le titre 'Bruce Willis Is Dead'.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-46",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_46.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-46-29",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quelle série télé Bruce Willis est-il apparu dans le rôle du Dr Nickle ?",
+      "answer": "Ally McBeal",
+      "options": [
+        "Friends",
+        "Dr House",
+        "Grey's Anatomy",
+        "Ally McBeal"
+      ],
+      "explanation": "C'est en 1998 que Bruce Willis a interprété le Dr Nickle dans l'épisode 12 de la saison 2 de la série télé 'Ally McBeal'.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-46",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_46.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-46-30",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "En France, qui est la voix française régulière de Bruce Willis ?",
+      "answer": "Patrick Poivey",
+      "options": [
+        "Patrick Poivey",
+        "Philippe Ariotti",
+        "Claude Joseph",
+        "Michel Derain"
+      ],
+      "explanation": "Patrick Poivey est aussi une des voix de Mickey Rourke, Kyle MacLachlan et de Don Johnson.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-46",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_46.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

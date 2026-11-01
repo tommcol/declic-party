@@ -1,0 +1,798 @@
+{
+  "id": "oq-269",
+  "title": "Artistes electro",
+  "originalTitle": "Artistes electro (DJ, producteurs, compositeurs et remixeurs)",
+  "universe": "music",
+  "emoji": "🎵",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_269.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-269-1",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel DJ et compositeur américain est surnommé le Parrain de la house ?",
+      "answer": "Frankie Knuckles",
+      "options": [
+        "Larry Heard",
+        "Frankie Knuckles",
+        "Tony Humphries",
+        "Ron Hardy"
+      ],
+      "explanation": "En 2004, la ville de Chicago a honoré le fameux DJ en déclarant le 25 août comme étant officiellement le Frankie Knuckles Day.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-269",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_269.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-269-2",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel DJ américain a remixé Björk, Sting, Michael Jackson et Robert Plant ?",
+      "answer": "Todd Terry",
+      "options": [
+        "Maurice Joshua",
+        "Todd Terry",
+        "Junior Jack",
+        "Junkie XL"
+      ],
+      "explanation": "On lui doit un des meilleurs remix du morceau « Missing » d'Everything but the Girl, qui révéla le groupe alors méconnu au grand public.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-269",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_269.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-269-3",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel DJ est plus connu sous son nom de scène Duke Dumont ?",
+      "answer": "Adam Dyment",
+      "options": [
+        "James Lavelle",
+        "Adam Dyment",
+        "Mike Dred",
+        "Theo Keating"
+      ],
+      "explanation": "Gérant le label Blasé Boys Club, Duke Dumont est particulièrement connu pour son tube « Need U (100%) » avec le chanteur A*M*E.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-269",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_269.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-269-4",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel ingénieur du son doit son nom de scène à la série « La croisière s'amuse » ?",
+      "answer": "Alex Gopher",
+      "options": [
+        "Alex Gopher",
+        "Bob Sinclar",
+        "Jack de Marseille",
+        "David Vendetta"
+      ],
+      "explanation": "Sur la pochette de son premier EP, son nom d'artiste, Alex, fut juxtaposé avec « Gopher EP », le public l'appelant Alex Gopher.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-269",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_269.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-269-5",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel DJ et producteur a fondé et dirigé le label français F Communications ?",
+      "answer": "Laurent Garnier",
+      "options": [
+        "Étienne de Crécy",
+        "Frank Savannah",
+        "Didier Marouani",
+        "Laurent Garnier"
+      ],
+      "explanation": "La carrière de Laurent Garnier a démarré lorsqu'il déménage à Londres pour devenir valet de pied de l'Ambassadeur de France.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-269",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_269.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-269-6",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Qui est la voix et le coauteur du tube mondial « Music Sounds Better With You » ?",
+      "answer": "Benjamin Diamond",
+      "options": [
+        "Marc Cerrone",
+        "Jerry Bouthier",
+        "Manu le Malin",
+        "Benjamin Diamond"
+      ],
+      "explanation": "Benjamin Diamond a sorti en juin 2013 « Love Overdose » où on l'entend pour la première fois chanter en français.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-269",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_269.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-269-7",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Qui a sorti la compilation « Super Discount » regroupant des morceaux d'amis ?",
+      "answer": "Étienne de Crécy",
+      "options": [
+        "Doctor Flake",
+        "Don Rimini",
+        "Roudoudou",
+        "Étienne de Crécy"
+      ],
+      "explanation": "Il s'agit d'un album-concept, dans la mesure où le titre barre toute la pochette avec une police rappelant celle des soldes.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-269",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_269.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-269-8",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Qui est l'auteur du morceau electro « Infinity », remixé par le DJ allemand Klaas en 2008 ?",
+      "answer": "Guru Josh",
+      "options": [
+        "Joe Smooth",
+        "Tristan Garner",
+        "Rick Wade",
+        "Guru Josh"
+      ],
+      "explanation": "Paul Walden, dit Guru Josh, est décédé le 28 décembre 2015 à l'age de 51 ans. La cause de sa mort serait le suicide.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-269",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_269.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-269-9",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel DJ français possède un pseudo inspiré du film « Les Frères Pétard » ?",
+      "answer": "Manu le Malin",
+      "options": [
+        "Otisto 23",
+        "Manu le Malin",
+        "Mondkopf",
+        "Crazy B"
+      ],
+      "explanation": "Manu le Malin, de son vrai nom Emmanuel Dauchez, a découvert la musique électronique en 1991, lors d'une rave party.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-269",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_269.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-269-10",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel DJ a collaboré avec Superfunk en 1999 sur le morceau « Lucky Star » ?",
+      "answer": "Ron Carroll",
+      "options": [
+        "Ian Pooley",
+        "Ron Carroll",
+        "Tomcraft",
+        "Morgan Page"
+      ],
+      "explanation": "Ron Carroll a travaillé avec certains des producteurs les plus célèbres, comme E-Smoove, Maurice Joshua ou encore Bob Sinclar.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-269",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_269.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-269-11",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel producteur et remixeur a signé le très remarqué « My Everything » ?",
+      "answer": "Versus 5",
+      "options": [
+        "Alex Gopher",
+        "Emmanuel Top",
+        "Versus 5",
+        "Todd Terry"
+      ],
+      "explanation": "Début 2013, à 37 ans, Versus 5 a opéré un tournant et pris une direction plus underground dans les styles House et Deep house.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-269",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_269.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-269-12",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Lequel de ces albums ne peut-on attribuer au DJ français Alexkid ?",
+      "answer": "Lemon",
+      "options": [
+        "Caracol",
+        "Lemon",
+        "Bienvenida",
+        "Mint"
+      ],
+      "explanation": "Alexkid a signé en 2002 chez F Communications pour produire ses compositions. Parallèlement, il joue pour Dubphonic et VeoVeo.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-269",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_269.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-269-13",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel DJ se cache derrière les pseudos Swan Lake, Orange Lemon ou Royal House ?",
+      "answer": "Todd Terry",
+      "options": [
+        "Todd Terry",
+        "Steve Hurley",
+        "Brian Cross",
+        "Larry Levan"
+      ],
+      "explanation": "Cet illustre DJ américain est réputé pour avoir grandement contribué à l'évolution de la house vers la fin des années 80.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-269",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_269.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-269-14",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel DJ a assuré le mixage de l'album « Violator » du groupe Depeche Mode ?",
+      "answer": "François Kevorkian",
+      "options": [
+        "Frank Savannah",
+        "Alexandre Destrez",
+        "Florian Picasso",
+        "François Kevorkian"
+      ],
+      "explanation": "François Kevorkian a fondé son propre studio d'enregistrement, Axis, où de nombreux artistes prestigieux sont passés.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-269",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_269.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-269-15",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Qui a sorti un morceau intitulé « Idealism » après dix années de silence musical ?",
+      "answer": "Emmanuel Top",
+      "options": [
+        "Emmanuel Top",
+        "Jay Alanski",
+        "Gaspard Augé",
+        "Wally Badarou"
+      ],
+      "explanation": "Né le 30 octobre 1971 à Tourcoing, Emmanuel Top a commencé sa carrière à la fin des années 1980 sur le label belge DIKI Records.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-269",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_269.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-269-16",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Sous quel nom Charles Webster a-t-il sorti son premier album « All Systems Gone » ?",
+      "answer": "Presence",
+      "options": [
+        "Presence",
+        "Felix",
+        "Deorro",
+        "Llorca"
+      ],
+      "explanation": "Charles Webster s'est peu à peu construit une solide réputation dans les années 1980, pour devenir incontournable dans les années 1990.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-269",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_269.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-269-17",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Qui a sorti trois EP avant de sortir en 2001 l'album « New Comer » ?",
+      "answer": "Llorca",
+      "options": [
+        "Junkie XL",
+        "Todd Terry",
+        "Tom Middleton",
+        "Llorca"
+      ],
+      "explanation": "Succès autant critique que commercial, « New Comer » se vendra à 170 000 exemplaires et fera connaître Llorca auprès d'un large public.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-269",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_269.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-269-18",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel DJ français a invité Jean-Paul Gaultier dans son clip « Boys and Girls » ?",
+      "answer": "Martin Solveig",
+      "options": [
+        "DJ Radium",
+        "Michel Geiss",
+        "Martin Solveig",
+        "Denis Dufour"
+      ],
+      "explanation": "On a longtemps supposé qu'il avait choisi son pseudonyme en hommage à Solveig Dommartin, décédée d'une crise cardiaque.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-269",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_269.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-269-19",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel titre de Pakito est resté numéro un du club 40 pendant neuf semaines ?",
+      "answer": "Living On Video",
+      "options": [
+        "Ready (vs Warriors)",
+        "Living On Video",
+        "Harmony",
+        "Electro Music"
+      ],
+      "explanation": "Julien Ranouil, plus connu comme Pakito, doit son pseudo à « Paquito el Chocolatero », une musique festive populaire en Espagne.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-269",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_269.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-269-20",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel DJ allemand propose une house influencée par la musique brésilienne ?",
+      "answer": "Ian Pooley",
+      "options": [
+        "Kevin Yost",
+        "Theo Parrish",
+        "Ian Pooley",
+        "Flume"
+      ],
+      "explanation": "Après une longue collaboration avec la maison de disques V2 Records, Ian Pooley a lancé sa propre maison, Pooled Music.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-269",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_269.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-269-21",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel musicien français forme avec Ark le duo Trankilou ?",
+      "answer": "Pépé Bradock",
+      "options": [
+        "Pépé Bradock",
+        "Alex Gopher",
+        "Martin Solveig",
+        "Franck Vigroux"
+      ],
+      "explanation": "Pépé Bradock, de son vrai nom Julien Auger, a sorti son premier album « Synthèse » sur le label français Versatile Records en 1998.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-269",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_269.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-269-22",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Qui a signé « Move Your Body » paru dans « Grand Theft Auto: San Andreas » ?",
+      "answer": "Marshall Jefferson",
+      "options": [
+        "Mark Farina",
+        "Steve Hurley",
+        "Maurice Joshua",
+        "Marshall Jefferson"
+      ],
+      "explanation": "Compositeur et producteur de musique électronique, Marshall Jefferson est l'un des grands maîtres de la house music de Chicago.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-269",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_269.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-269-23",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel duo new-yorkais s'est aussi appelé MAW, KenLou et Nuyorican Soul ?",
+      "answer": "Masters at Work",
+      "options": [
+        "Matmos",
+        "Major Lazer",
+        "Madison Park",
+        "Masters at Work"
+      ],
+      "explanation": "Composé de Little Louie Vega et Kenny « Dope » Gonzalez, leur chanson la plus connue est « Work », sortie en 2002 puis en 2007.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-269",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_269.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-269-24",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel DJ américain dirige le label Madhouse Records, Inc. ?",
+      "answer": "Kerri Chandler",
+      "options": [
+        "Ron Carroll",
+        "Derrick Carter",
+        "Kerri Chandler",
+        "Joe Smooth"
+      ],
+      "explanation": "Né en 1969, Kerri Chandler est considéré comme l'un des fondateurs de la deep house, aux côtés de Larry Heard par exemple.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-269",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_269.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-269-25",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel français fut l'un des organisateurs des soirées « Body And Soul » à New York ?",
+      "answer": "François Kevorkian",
+      "options": [
+        "Laurent Mialon",
+        "Guillaume Leroux",
+        "François Kevorkian",
+        "Junior Cony"
+      ],
+      "explanation": "Ayant débuté comme guest DJ, il devient l'un des tout premiers DJ à toucher à la musique électronique à l'orée des années 1980.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-269",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_269.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-269-26",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "À quelle révélation de 2010 doit-on le morceau « What They Say » ?",
+      "answer": "Maya Jane Coles",
+      "options": [
+        "Anne Dudley",
+        "Maya Jane Coles",
+        "Ellie Goulding",
+        "Mira Calix"
+      ],
+      "explanation": "Elle est la fille de Luriko et Michael Coles, graphiste, auteur entre autres de la vaste majorité des pochettes du groupe Killing Joke.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-269",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_269.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-269-27",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel DJ britannique collabore énormément avec l'australien Mark Pritchard ?",
+      "answer": "Tom Middleton",
+      "options": [
+        "Tim Lee",
+        "Tim Westwood",
+        "Tom Staar",
+        "Tom Middleton"
+      ],
+      "explanation": "Tom Middleton, né en 1971, est aussi connu sous le pseudonyme de E621, code emprunté à un exhausteur de goût très commun.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-269",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_269.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-269-28",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Lequel de ces musiciens de house music est né à Lisbonne, au Portugal ?",
+      "answer": "DJ Vibe",
+      "options": [
+        "DJ Vibe",
+        "DJ Assad",
+        "DJ Deep",
+        "DJ Deeon"
+      ],
+      "explanation": "DJ Vibe a déjà mixé dans le monde entier, Londres (Ministry of Sound), Ibiza (Pacha), New York (Vinyl) et Madrid (Deep).",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-269",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_269.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-269-29",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel new-yorkais dirige le label de musique Dopewax Records ?",
+      "answer": "Kenny Dope",
+      "options": [
+        "Afrojack",
+        "Kenny Dope",
+        "Vince Lawrence",
+        "Chicane"
+      ],
+      "explanation": "Sous le pseudonyme Masters At Work, les fêtes qu'il a organisé eurent beaucoup de succès et attirèrent l'attention de Todd Terry.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-269",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_269.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-269-30",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel DJ grenoblois a sorti « Espaces Baroques » en 1997 ?",
+      "answer": "Frédéric Galliano",
+      "options": [
+        "Frédéric Galliano",
+        "François Kevorkian",
+        "Dimitri from Paris",
+        "Chez Damier"
+      ],
+      "explanation": "Frédéric Galliano est né le 23 décembre 1969 à Grenoble et étudie de 1987 à 1991 à l'École supérieure d'art et design de Valence.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-269",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_269.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

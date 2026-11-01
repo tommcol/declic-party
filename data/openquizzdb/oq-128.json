@@ -1,0 +1,798 @@
+{
+  "id": "oq-128",
+  "title": "Romantisme",
+  "originalTitle": "Romantisme",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_128.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-128-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "L'école de peinture de Düsseldorf était un mouvement romantique important dans quel pays ?",
+      "answer": "Allemagne",
+      "options": [
+        "Allemagne",
+        "Espagne",
+        "Russie",
+        "Grande-Bretagne"
+      ],
+      "explanation": "Le paysage et la peinture de genre de Düsseldorf, en particulier, ont été leaders et pionniers pendant de nombreuses années.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-128",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_128.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-128-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel pays François Rude était-il un sculpteur romantique ?",
+      "answer": "France",
+      "options": [
+        "Espagne",
+        "Italie",
+        "Allemagne",
+        "France"
+      ],
+      "explanation": "Ce sculpteur français est représentatif de la transition entre le néoclassicisme et le romantisme, dont il est un des maîtres.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-128",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_128.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-128-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "William Morris Hunt appartenait à une des familles artistiques de premier plan de quel pays ?",
+      "answer": "États-Unis",
+      "options": [
+        "Grande-Bretagne",
+        "Norvège",
+        "France",
+        "États-Unis"
+      ],
+      "explanation": "William Morris Hunt est un peintre américain et le chef de file du courant pictural en vogue à Boston au milieu du XIXe siècle.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-128",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_128.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-128-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "'La Bavaria' a été la première statue colossale à avoir été fondue en quelle matière ?",
+      "answer": "Bronze",
+      "options": [
+        "Étain",
+        "Bronze",
+        "Nickel",
+        "Argent"
+      ],
+      "explanation": "Dans la tête de la statue se trouve une plate-forme comportant deux bancs de six places chacun, accessibles par un escalier.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-128",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_128.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-128-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "L'école de Bristol regroupait des peintres influents de quel pays ?",
+      "answer": "L'Angleterre",
+      "options": [
+        "La Suisse",
+        "La France",
+        "L'Espagne",
+        "L'Angleterre"
+      ],
+      "explanation": "L'école de Bristol ressortit plus à l'association de peintres et d'amateurs qu'à un mouvement pictural autonome.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-128",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_128.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-128-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Le monument dédié à Goethe et Schiler est un célèbre point de repère de quel pays ?",
+      "answer": "L'Allemagne",
+      "options": [
+        "L'Allemagne",
+        "La Roumanie",
+        "La Hongrie",
+        "La Pologne"
+      ],
+      "explanation": "Ville aux nombreux monuments historiques, Weimar a été inscrit par l'UNESCO au patrimoine mondial en décembre 1998.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-128",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_128.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-128-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Outre la sculpture et la peinture, dans quel domaine Honoré Daumier excellait-il ?",
+      "answer": "La gravure",
+      "options": [
+        "La poésie",
+        "L'architecture",
+        "La musique",
+        "La gravure"
+      ],
+      "explanation": "Un timbre postal, d'une valeur de 0,45 + 0,10 franc et représentant Honré Daumier, a été émis le 23 mai 1961.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-128",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_128.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-128-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel grand artiste a peint le célèbre tableau romantique 'La Barque de Dante' ?",
+      "answer": "Delacroix",
+      "options": [
+        "Girodet",
+        "Turner",
+        "Delacroix",
+        "Goya"
+      ],
+      "explanation": "Extrait de la 'Divine Comédie', la scène représente la visite aux Enfers de Dante Alighieri accompagné de Virgile.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-128",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_128.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-128-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces termes indique l'effet de la lumière dans les paysages ?",
+      "answer": "Luminisme",
+      "options": [
+        "Symbolisme",
+        "Maniérisme",
+        "Luminisme",
+        "Néoclassicisme"
+      ],
+      "explanation": "Le luminisme est un nom générique pour désigner l'ensemble de l'art belge influencé par l'impressionnisme français.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-128",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_128.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-128-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel peintre est célèbre pour sa troublante série des 'Peintures noires' ?",
+      "answer": "Goya",
+      "options": [
+        "Gros",
+        "Füssli",
+        "Corot",
+        "Goya"
+      ],
+      "explanation": "La série de peintures à l'huile auxquelles Goya ne donna aucun titre fut cataloguée en 1828 par un ami de Goya, Antonio de Brugada.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-128",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_128.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-128-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans le mouvement romantique de quel pays l'artiste et poète Carl Spitzweg était-il influent ?",
+      "answer": "Allemagne",
+      "options": [
+        "Espagne",
+        "Allemagne",
+        "Royaume-Uni",
+        "Italie"
+      ],
+      "explanation": "Carl Spitzweg parlait plusieurs langues et voyageait beaucoup, souvent à pied, visitant Paris, Londres, Prague, l'Italie et la Belgique.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-128",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_128.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-128-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel artiste danois a peint 'Un groupe d'artistes danois à Rome' ?",
+      "answer": "Hansen",
+      "options": [
+        "Hansen",
+        "Malmström",
+        "Bierstadt",
+        "Delacroix"
+      ],
+      "explanation": "Achevée en 1837, la peinture à l'huile de Hansen est aujourd'hui exposée au Statens Museum for Kunst de Copenhague.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-128",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_128.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-128-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le thème des sculptures de Frederic Remington, mêlant romantisme et réalisme ?",
+      "answer": "L'Ouest américain",
+      "options": [
+        "L'Ouest américain",
+        "La mythologie",
+        "La royauté anglaise",
+        "Les animaux"
+      ],
+      "explanation": "Alors qu'il est devenu célèbre pour ses descriptions de la vie dans l'ouest américain, Remington n'a visité la région que brièvement.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-128",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_128.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-128-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle scène le tableau de Turner 'Pluie, Vapeur et Vitesse' représente-t-il ?",
+      "answer": "Une voie ferrée",
+      "options": [
+        "Un étang",
+        "Un sauna",
+        "Une usine",
+        "Une voie ferrée"
+      ],
+      "explanation": "La toile, achevée en 1844, est exposée à la National Gallery de Londres, à la suite d'une acquisition de l'héritage Turner en 1856.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-128",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_128.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-128-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que cherche à apporter de nouveau à la peinture le mouvement romantique des Nazaréens ?",
+      "answer": "La spiritualité",
+      "options": [
+        "La spiritualité",
+        "La nature",
+        "La musique",
+        "La Laïcité"
+      ],
+      "explanation": "Le mouvement artistique des nazaréens a débuté grâce à des élèves de l'académie des Beaux-Arts de Vienne.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-128",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_128.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-128-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel peintre français est célèbre pour ses lithographies satiriques de la bourgeoisie ?",
+      "answer": "Daumier",
+      "options": [
+        "Delacroix",
+        "Géricault",
+        "Daumier",
+        "Fuseli"
+      ],
+      "explanation": "La valeur de son œuvre peinte, quelque cinq cents tableaux, a elle aussi été reconnue, bien qu’à titre posthume seulement.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-128",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_128.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-128-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En peignant quels sujets Paul Delaroche a-t-il bâti la majorité de sa fortune ?",
+      "answer": "La royauté anglaise",
+      "options": [
+        "L'Ouest américain",
+        "Les chiens",
+        "La royauté anglaise",
+        "Les enfants"
+      ],
+      "explanation": "Delaroche a exécuté un grand nombre de portraits, parmi lesquels ceux de Guizot, Lamartine, Salvandy, Rémusat et Thiers.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-128",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_128.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-128-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sir Charles Barry est célèbre pour son rôle dans la reconstruction de quel édifice ?",
+      "answer": "Palais de Westminster",
+      "options": [
+        "Basilique StPierre",
+        "Mur d’Hadrien",
+        "Abbaye de Tintern",
+        "Palais de Westminster"
+      ],
+      "explanation": "Sa première commande importante lui vint en 1824, lorsqu'il remporta le concours visant la nouvelle Royal Manchester Institution.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-128",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_128.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-128-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Le célèbre 'Portrait du duc de Wellington' est représentatif de l'œuvre de quel peintre ?",
+      "answer": "Goya",
+      "options": [
+        "Danby",
+        "Hayez",
+        "Goya",
+        "Lawrence"
+      ],
+      "explanation": "Son chef-d'œuvre est la série de peintures à l'huile sur mur sec qui décorent sa maison de campagne, les 'Peintures noires'.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-128",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_128.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-128-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel artiste a peint l'émouvant tableau 'El tres de mayo de 1808 en Madrid' ?",
+      "answer": "Goya",
+      "options": [
+        "Blake",
+        "Mulready",
+        "Girodet",
+        "Goya"
+      ],
+      "explanation": "L'émotion que dégage la toile en fait l'une des représentations les plus connues de la dénonciation des horreurs liées à la guerre.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-128",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_128.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-128-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quelle école l'artiste Asher Brown Durand était-il associé ?",
+      "answer": "Hudson River School",
+      "options": [
+        "Lancaster",
+        "Hudson River School",
+        "Bristol",
+        "Norwich"
+      ],
+      "explanation": "Les artistes de l'Hudson River School pensaient que la Nature était la manifestation de la puissance et de la bonté divine.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-128",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_128.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-128-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel artiste allemand a peint le célèbre tableau 'Lever de lune sur la mer' ?",
+      "answer": "Friedrich",
+      "options": [
+        "Quidor",
+        "Raeburn",
+        "Friedrich",
+        "Runge"
+      ],
+      "explanation": "Ce tableau faisait partie de la collection impériale du palais de Ropcha aux abords de Saint-Pétersbourg.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-128",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_128.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-128-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel sculpteur exprima une influence romantique dans la Statue de la Liberté ?",
+      "answer": "Bartholdi",
+      "options": [
+        "Bartholdi",
+        "Daumier",
+        "Rude",
+        "Barye"
+      ],
+      "explanation": "En 1879, à la mort de Viollet-le-Duc, Bartholdi fit appel à l'ingénieur Gustave Eiffel pour la structure interne de la statue.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-128",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_128.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-128-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "George Dawe est connu pour avoir peint plus de 300 tableaux sur quel sujet ?",
+      "answer": "Les généraux russes",
+      "options": [
+        "Les lions",
+        "Les trains",
+        "Les acrobates",
+        "Les généraux russes"
+      ],
+      "explanation": "Célèbre surtout pour ses portraits de l'empereur Alexandre Ier, il réalise à Saint-Pétersbourg 329 portraits de généraux russes.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-128",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_128.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-128-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel pays le premier romantisme a-t-il vu le jour à Iéna ?",
+      "answer": "Allemagne",
+      "options": [
+        "Italie",
+        "Royaume-Uni",
+        "Allemagne",
+        "France"
+      ],
+      "explanation": "Ce mouvement reprend les fondations théoriques d'un renouveau esthétique et métaphysique initié par Wieland, Herder et Goethe.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-128",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_128.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-128-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel artiste compte parmi ses œuvres 'La Dentelière' travaillant la dentelle aux fuseaux ?",
+      "answer": "Tropinine",
+      "options": [
+        "Malmström",
+        "Stieler",
+        "Tropinine",
+        "Bierstadt"
+      ],
+      "explanation": "Vassili Tropinine, peintre romantique russe, est né serf, d'abord des comtes Munich, et garda ce statut une grande partie de sa vie.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-128",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_128.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-128-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel mouvement ou école de peinture l'artiste Franz Pforr faisait-il partie ?",
+      "answer": "Les Nazaréens",
+      "options": [
+        "Les Anciens",
+        "Les Nazaréens",
+        "Les Cubistes",
+        "Les Futuristes"
+      ],
+      "explanation": "Malgré sa courte vie artistique, Franz Pforr est l'un des plus importants peintres du romantisme allemand.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-128",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_128.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-128-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel artiste compte parmi ses œuvres célèbres le tableau intitulé 'Spolarium' ?",
+      "answer": "Juan Luna",
+      "options": [
+        "Juan Luna",
+        "George Stubbs",
+        "James Barry",
+        "Henry Fuseli"
+      ],
+      "explanation": "Le groupe de rock philippin Eraserheads a composé un single intitulé 'Spoliarium' dans leur album 'Sticker Happy'.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-128",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_128.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-128-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel artiste a peint un célèbre portrait d'Alexander von Humboldt ?",
+      "answer": "Weitsch",
+      "options": [
+        "Bierstadt",
+        "Weitsch",
+        "Hansen",
+        "Spitzweg"
+      ],
+      "explanation": "Par la qualité des relevés effectués lors de ses expéditions, von Humboldt a fondé les bases des explorations scientifiques.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-128",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_128.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-128-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel peintre romantique réalisa la grande peinture 'Le Dernier jour de Pompéi' ?",
+      "answer": "Brioullov",
+      "options": [
+        "Girodet",
+        "Brioullov",
+        "Gros",
+        "Delacroix"
+      ],
+      "explanation": "Cette peinture valut à son auteur une notoriété internationale et l'admiration d'Alexandre Pouchkine qui lui dédia un poème.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-128",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_128.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

@@ -1,0 +1,798 @@
+{
+  "id": "oq-193",
+  "title": "Vannes",
+  "originalTitle": "Vannes (La cité des Vénètes)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Gérard Le Bras",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_193.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-193-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel département français se trouve la ville de Vannes ?",
+      "answer": "Morbihan",
+      "options": [
+        "Vosges",
+        "Vendée",
+        "Nord",
+        "Morbihan"
+      ],
+      "explanation": "De tous les départements français de métropole, c'est le seul à avoir un nom fait entièrement de termes non issus de la langue française.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-193",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Gérard Le Bras",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_193.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-193-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment appelle-t-on les habitants de la ville de Vannes ?",
+      "answer": "Vannetais",
+      "options": [
+        "Vannais",
+        "Vannois",
+        "Vannetois",
+        "Vannetais"
+      ],
+      "explanation": "Il est à noter que la ville est la deuxième plus peuplée du département après Lorient et la 5e de la région Bretagne.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-193",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Gérard Le Bras",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_193.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-193-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "La ville de Vannes se situe à l'entrée de quel golfe parsemé de nombreuses îles et îlots ?",
+      "answer": "Golfe du Morbihan",
+      "options": [
+        "Golfe du Lion",
+        "Golfe de St Florent",
+        "Golfe de Sagone",
+        "Golfe du Morbihan"
+      ],
+      "explanation": "Le golfe du Morbihan est une destination prisée pour la beauté de ses paysages couvrant une centaine de kilomètres carrés.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-193",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Gérard Le Bras",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_193.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-193-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle région de France se situe la ville de Vannes ?",
+      "answer": "Bretagne",
+      "options": [
+        "Hauts de France",
+        "Normandie",
+        "Bretagne",
+        "Pays de Loire"
+      ],
+      "explanation": "Le terme Armorique est utilisé pour désigner la Bretagne et ce même s'il désignait à l'origine un ensemble plus vaste.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-193",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Gérard Le Bras",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_193.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-193-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Vannes se situe entre Quimper et quelle autre grande ville de France ?",
+      "answer": "Nantes",
+      "options": [
+        "Bordeaux",
+        "Nantes",
+        "Bourges",
+        "Laval"
+      ],
+      "explanation": "L'histoire de Nantes est en grande partie liée à celle de la Bretagne, qui deviendra la capitale du duché au XVe siècle.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-193",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Gérard Le Bras",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_193.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-193-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel grand conquérant de l'histoire a vaincu la Vannes antique ?",
+      "answer": "Jules César",
+      "options": [
+        "Alexandre Le Grand",
+        "Attila",
+        "Xerxès",
+        "Jules César"
+      ],
+      "explanation": "Ambitieux et brillant, Jules César s'appuya sur le courant réformateur et démagogue pour son ascension politique.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-193",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Gérard Le Bras",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_193.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-193-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de labels récompensent Vannes comme ville fleurie ?",
+      "answer": "Quatre",
+      "options": [
+        "Deux",
+        "Quatre",
+        "Cinq",
+        "Trois"
+      ],
+      "explanation": "En 2017, plus de 4 700 communes furent labellisées, dont 249 qui possèdent 4 fleurs (la récompense maximale du concours).",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-193",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Gérard Le Bras",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_193.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-193-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Vers quelle orientation politique la ville de Vannes est-elle plutôt ancrée ?",
+      "answer": "Droite",
+      "options": [
+        "Extrême droite",
+        "Droite",
+        "Centre",
+        "Gauche"
+      ],
+      "explanation": "En politique, le terme de droite désigne les courants politiques ayant une idéologie conservatrice, économiquement libérale ou non.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-193",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Gérard Le Bras",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_193.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-193-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle île française est la plus grande du Golfe du Morbihan ?",
+      "answer": "Île aux Moines",
+      "options": [
+        "Île d'Arz",
+        "Île Berder",
+        "Île aux Moines",
+        "Île de Gavrinis"
+      ],
+      "explanation": "L'Île aux Moines fut habitée depuis l'époque néolithique comme l'attestent les dolmens encore visibles ainsi que d'autres vestiges.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-193",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Gérard Le Bras",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_193.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-193-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel gallo-romain est le saint patron de la ville de Vannes ?",
+      "answer": "Saint Patern",
+      "options": [
+        "Saint Guenael",
+        "Saint Barbare",
+        "Saint Patern",
+        "Saint Ronan"
+      ],
+      "explanation": "Décédé entre 490 et 511, ce gallo-romain est considéré par beaucoup comme l'un des sept saints fondateurs de la Bretagne.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-193",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Gérard Le Bras",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_193.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-193-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel peuple de Gaule celtique occupait le pays de Vannes ?",
+      "answer": "Vénètes",
+      "options": [
+        "Vénigoths",
+        "Wisigoths",
+        "Vénètes",
+        "Vanètes"
+      ],
+      "explanation": "Les Vénètes, dotés d'un sénat, disposaient d'une flotte importante pour commercer avec les îles Britanniques et la péninsule italienne.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-193",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Gérard Le Bras",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_193.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-193-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces grandes villes de France est la plus proche de Vannes ?",
+      "answer": "Nantes",
+      "options": [
+        "Caen",
+        "Angers",
+        "Le Mans",
+        "Nantes"
+      ],
+      "explanation": "Nantes se développa grâce à ses circuits commerciaux hérités du Moyen Âge, puis viendra l'époque des engagés blancs.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-193",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Gérard Le Bras",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_193.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-193-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel nom a été donné à la cathédrale catholique romaine de Vannes ?",
+      "answer": "Saint-Pierre",
+      "options": [
+        "Saint-Pierre",
+        "Saint-Jean",
+        "Saint-Luc",
+        "Saint-Paul"
+      ],
+      "explanation": "Dans son ensemble, l'édifice reste fidèle à l'ancienne cathédrale romane et comprend une nef avec dix chapelles latérales.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-193",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Gérard Le Bras",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_193.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-193-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Le bagad de Vannes a remporté quelle saison de 'La France a un incroyable talent' ?",
+      "answer": "Saison 9",
+      "options": [
+        "Saison 9",
+        "Saison 6",
+        "Saison 7",
+        "Saison 8"
+      ],
+      "explanation": "Présentée par Alex Goude et Louise Ekland, cette saison a été remportée avec plus de 90% des voix des téléspectateurs.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-193",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Gérard Le Bras",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_193.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-193-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Contre quelle équipe Vannes fut-elle confrontée en finale de Coupe de la Ligue 2008-2009 ?",
+      "answer": "Bordeaux",
+      "options": [
+        "Bordeaux",
+        "Marseille",
+        "Lorient",
+        "Paris Saint-Germain"
+      ],
+      "explanation": "La rencontre (au score final de 4-0) a eu lieu au stade de France le samedi 25 avril 2009, le coup d'envoi ayant été donné à 20h50.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-193",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Gérard Le Bras",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_193.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-193-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Où se positionne sur une carte la ville de Vannes par rapport à Nantes ?",
+      "answer": "Au Nord-Ouest",
+      "options": [
+        "Au Sud-Est",
+        "Au Sud-Ouest",
+        "Au Nord-Est",
+        "Au Nord-Ouest"
+      ],
+      "explanation": "La ville de Vannes, desservie par la RN 165 sur le littoral sud breton, est à la fois en bord de mer et à l'intérieur des terres.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-193",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Gérard Le Bras",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_193.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-193-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans la série 'Agathe Koltès', où se situait le commissariat de Police à Vannes ?",
+      "answer": "Château de l'Hermine",
+      "options": [
+        "Hôtel de police",
+        "Hôtel de ville",
+        "Collège Jules Simon",
+        "Château de l'Hermine"
+      ],
+      "explanation": "'Agathe Koltès' est une série policière française avec Philippine Leroy-Beaulieu diffusée sur France 3 depuis le 7 mai 2016.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-193",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Gérard Le Bras",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_193.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-193-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel homme politique français a fait ses études à Vannes ?",
+      "answer": "Jean-Marie Le Pen",
+      "options": [
+        "Jean-Marie Le Pen",
+        "Raymond Marcellin",
+        "Christian Bonnet",
+        "Jean-Yves Le Drian"
+      ],
+      "explanation": "Son père trouva la mort à bord du chalutier La Persévérance lorsque le bateau, qui pêchait la sole, sauta sur une mine.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-193",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Gérard Le Bras",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_193.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-193-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel animal, principalement actif la nuit, représente fièrement la ville de Vannes ?",
+      "answer": "Hermine",
+      "options": [
+        "Hermine",
+        "Taureau",
+        "Écureuil",
+        "Dauphin"
+      ],
+      "explanation": "Les hermines furent introduites en Nouvelle-Zélande à la fin du XIXe siècle pour faire le ménage parmi les populations de souris.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-193",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Gérard Le Bras",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_193.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-193-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quelle date ont lieu à Vannes les désormais célèbres fêtes d'Arvor ?",
+      "answer": "15 août",
+      "options": [
+        "1er mai",
+        "21 juin",
+        "15 août",
+        "14 juillet"
+      ],
+      "explanation": "On y procède à l'élection de la Reine des Fêtes d'Arvor et de ses deux dauphines, qui devront représenter le folklore breton.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-193",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Gérard Le Bras",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_193.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-193-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel célèbre moine et ermite breton est né à Vannes ?",
+      "answer": "Saint Émilion",
+      "options": [
+        "Du Guesclin",
+        "Saint Émilion",
+        "Anne de Bretagne",
+        "Gilles de Rais"
+      ],
+      "explanation": "Un monastère et une église monolithe furent édifiés après la mort de Saint Émilion, au XIe et XIIe siècle, creusée dans la falaise.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-193",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Gérard Le Bras",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_193.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-193-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel nom gallo-romain a été donné à la ville de Vannes ?",
+      "answer": "Darioritum",
+      "options": [
+        "Vanitium",
+        "Vernum",
+        "Massalia",
+        "Darioritum"
+      ],
+      "explanation": "Au IIIe siècle, la cité va largement déborder du site initial et occuper la colline du Mené qui constitue aujourd'hui le cœur historique.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-193",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Gérard Le Bras",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_193.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-193-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle ville de Belgique est jumelée avec la ville de Vannes ?",
+      "answer": "Mons",
+      "options": [
+        "Mons",
+        "Bruges",
+        "Gand",
+        "Liège"
+      ],
+      "explanation": "Mons se situe à 60 km au sud-ouest de la capitale Bruxelles, à environ 240 km au nord-est de Paris, à 75 km à l'est de Lille.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-193",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Gérard Le Bras",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_193.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-193-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle actrice française célèbre possédait une île près de Vannes ?",
+      "answer": "Danielle Darrieux",
+      "options": [
+        "Danielle Darrieux",
+        "Michèle Morgan",
+        "Denise Grey",
+        "Arletty"
+      ],
+      "explanation": "Danielle Darrieux a vécu avec Jacques Jenvrin entre une villa de Larmor-Baden (Morbihan) et une maison de Bois-le-Roi (Eure).",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-193",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Gérard Le Bras",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_193.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-193-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le nom breton de la ville de Vannes, située en Basse-Bretagne ?",
+      "answer": "Gwened",
+      "options": [
+        "Roazhon",
+        "Gwitreg",
+        "Gwenrann",
+        "Gwened"
+      ],
+      "explanation": "Certains ont été tentés de traduire le nom breton de la ville en français et l'ont interprété comme signifiant 'blé blanc'.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-193",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Gérard Le Bras",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_193.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-193-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle célébrité du cinéma français est née à Vannes ?",
+      "answer": "Hélène de Fougerolles",
+      "options": [
+        "Hélène de Fougerolles",
+        "Denise Grey",
+        "Simone Signoret",
+        "Danielle Darrieux"
+      ],
+      "explanation": "Elle s'est orientée vers un CAP esthétique-cosmétique, mais elle arrêta ses études à l'âge de quinze ans afin de devenir actrice.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-193",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Gérard Le Bras",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_193.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-193-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Devant quel roi fut proclamée, à Vannes, l'union de la Bretagne à la France ?",
+      "answer": "François 1er",
+      "options": [
+        "Henri IV",
+        "François 1er",
+        "Louis XIV",
+        "Louis XII"
+      ],
+      "explanation": "À la mort de Claude de France, François 1er commet l'erreur de désigner le dauphin François comme héritier de la Bretagne.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-193",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Gérard Le Bras",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_193.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-193-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel vaste plan d'eau se situe dans la ville de Vannes ?",
+      "answer": "Étang au Duc",
+      "options": [
+        "Étang de Rohan",
+        "Étang de Patern",
+        "Étang au Duc",
+        "Étang d'Arz"
+      ],
+      "explanation": "Il s'agirait d'une ancienne carrière dont on aurait tiré les pierres nécessaires à la construction de la première ville gallo-romaine.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-193",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Gérard Le Bras",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_193.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-193-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel fleuve côtier se jette dans le golfe du Morbihan à Vannes ?",
+      "answer": "Marle",
+      "options": [
+        "Loire",
+        "Blavet",
+        "Marle",
+        "Odet"
+      ],
+      "explanation": "Canalisée, la Marle passe devant le jardin des remparts et se mêle aux eaux du golfe après la porte Saint-Vincent.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-193",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Gérard Le Bras",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_193.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-193-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel grand parc aménagé en hauteur fait face aux remparts de Vannes ?",
+      "answer": "Parc de la Garenne",
+      "options": [
+        "Parc de la Garenne",
+        "Jardin des Remparts",
+        "Parc de Kérizac",
+        "Square Droalen"
+      ],
+      "explanation": "Véritable symbole de la ville de Vannes, les remparts, en particulier la muraille Est, sont appréciés par les voyageurs et artistes.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-193",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Gérard Le Bras",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_193.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

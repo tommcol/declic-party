@@ -1,0 +1,798 @@
+{
+  "id": "oq-95",
+  "title": "Chanteurs internationaux",
+  "originalTitle": "Chanteurs internationaux",
+  "universe": "music",
+  "emoji": "🎵",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_95.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-95-1",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel gagnant de la 'Nouvelle Star', diffusée sur M6, est surnommé « La Tortue » ?",
+      "answer": "Christophe Willem",
+      "options": [
+        "Steeve Estatof",
+        "Christophe Willem",
+        "Julien Doré",
+        "Jonatan Cerrada"
+      ],
+      "explanation": "Christophe est devenu Christophe Willem en référence au prénom William que ses parents avaient failli lui donner.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-95",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_95.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-95-2",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "En 1991, quel tube Yannick Noah a-t-il associé à la victoire de la France en coupe Davis ?",
+      "answer": "Saga Africa",
+      "options": [
+        "Les Lionnes",
+        "Ose",
+        "Vagabond",
+        "Saga Africa"
+      ],
+      "explanation": "Yannick Noah signe lui-même les paroles, mélange de français et d'expressions camerounaises.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-95",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_95.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-95-3",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel chanteur prénommé Mathieu a émergé du succès remporté par les Linkup ?",
+      "answer": "M. Pokora",
+      "options": [
+        "Corneille",
+        "Raphaël",
+        "M. Pokora",
+        "Keen'V"
+      ],
+      "explanation": "Linkup est un boys band français, aujourd'hui dissous, vainqueur de la troisième saison de 'Popstars'.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-95",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_95.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-95-4",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel est le style musical de l'album de Rohff, 'La fierté des années' ?",
+      "answer": "Le rap",
+      "options": [
+        "La techno",
+        "Le rap",
+        "Le tango",
+        "Le disco"
+      ],
+      "explanation": "Rohff est le rappeur français qui a vendu le plus d'album solo parmi les rappeurs toujours en activité.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-95",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_95.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-95-5",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel Américano-Libanais est entré dans les charts avec 'Life in Cartoon Motion' ?",
+      "answer": "Mika",
+      "options": [
+        "Rida",
+        "Iwan",
+        "K. Maro",
+        "Mika"
+      ],
+      "explanation": "'Life in Cartoon Motion' a été certifié disque de diamant en France avec plus de 1 200 000 exemplaires écoulés.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-95",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_95.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-95-6",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel jeune chanteur a charmé le public avec 'Vivo per lei', en duo avec Hélène Ségara ?",
+      "answer": "Grégory Lemarchal",
+      "options": [
+        "M. Pokora",
+        "Matthieu Chedid",
+        "Pierre Vassiliu",
+        "Grégory Lemarchal"
+      ],
+      "explanation": "Il sera hospitalisé d'urgence trois jours plus tard dans l'attente d'une greffe des poumons.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-95",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_95.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-95-7",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel DJ, grand animateur des soirées d'Ibiza, a livré au public 'Pop Life' en 2007 ?",
+      "answer": "David Guetta",
+      "options": [
+        "Claude Challe",
+        "Bob Sinclar",
+        "David Guetta",
+        "Quentin Mosimann"
+      ],
+      "explanation": "En 2011, David Guetta est élu meilleur DJ du monde par le classement TOP 100 du magazine DJ Mag.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-95",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_95.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-95-8",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Qui a chanté au pied de la Tour Eiffel devant plus de 800 000 personnes le 10 juin 2000 ?",
+      "answer": "Johnny Hallyday",
+      "options": [
+        "Christophe Maé",
+        "Patrick Bruel",
+        "Eddy Mitchell",
+        "Johnny Hallyday"
+      ],
+      "explanation": "Plus de 2 100 couvertures de magazines ont déjà été consacrées à Johnny Hallyday.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-95",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_95.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-95-9",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Sous quel nom le rappeur et homme d'affaires américain Curtis Jackson fait-il carrière ?",
+      "answer": "50 cent",
+      "options": [
+        "Big Sean",
+        "Fat Joe",
+        "50 cent",
+        "Mike D"
+      ],
+      "explanation": "Avec l'aide d'Eminem et de Dr. Dre, Curtis Jackson est devenu le rappeur le plus populaire du moment.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-95",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_95.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-95-10",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Avec quel chanteur le top model Heidi Klum a-t-elle été mariée durant sept ans ?",
+      "answer": "Seal",
+      "options": [
+        "Robbie Williams",
+        "Sean Paul",
+        "Paul McCartney",
+        "Seal"
+      ],
+      "explanation": "Heidi Klum a conçu sa propre ligne de vêtements qui a été incluse dans le catalogue de mode allemand 'Otto'.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-95",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_95.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-95-11",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel chanteur a interprété Andy Warhol dans le film 'Basquiat', en 1996 ?",
+      "answer": "David Bowie",
+      "options": [
+        "Bryan Ferry",
+        "David Bowie",
+        "Murray Head",
+        "Peter Gabriel"
+      ],
+      "explanation": "David Bowie avait déjà dédié une chanson à Andy Warhol dans son album 'Hunky Dory'.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-95",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_95.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-95-12",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "De quel nom le rappeur Curtis Jackson a-t-il signé une autobiographie de son enfance ?",
+      "answer": "50 cent",
+      "options": [
+        "Bugz",
+        "50 cent",
+        "Eminem",
+        "Flo Rida"
+      ],
+      "explanation": "Samuel L. Jackson s'était vu offrir dans le film le rôle de Levar, mais celui-ci déclina la proposition.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-95",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_95.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-95-13",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel « amiral » de la chanson a été invité par Nicolas Sarkozy pour chanter un 14 juillet ?",
+      "answer": "Michel Polnareff",
+      "options": [
+        "Patrick Hernandez",
+        "Michel Fugain",
+        "Michel Polnareff",
+        "Alain Chamfort"
+      ],
+      "explanation": "« la France déroule le tapis rouge à Michel Polnareff, l'exilé fiscal, puis exilé tout court ».",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-95",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_95.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-95-14",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel DJ a repris un titre des années 80 pour faire un tube avec 'Living On Video' ?",
+      "answer": "Pakito",
+      "options": [
+        "Vitalic",
+        "Pakito",
+        "Brodinski",
+        "Madeon"
+      ],
+      "explanation": "Le pseudo de Julien Ranouil vient de 'Paquito el Chocolatero', une musique festive populaire en Espagne.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-95",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_95.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-95-15",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel chanteur, prénommé Philippe, a débuté en 1989 avec le groupe de rap marseillais IAM ?",
+      "answer": "Akhenaton",
+      "options": [
+        "Akhenaton",
+        "Imhotep",
+        "Kheops",
+        "Kephren"
+      ],
+      "explanation": "Philippe Fragione est reconnu pour son maniement des figures de style et de la rime dans la tradition de la poésie arabe.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-95",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_95.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-95-16",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Avec quel premier single le jeune Sean Kingston a-t-il connu un succès international ?",
+      "answer": "Beautiful Girls",
+      "options": [
+        "Beautiful Girls",
+        "Beautiful Cars",
+        "Beautiful Birds",
+        "Beautiful Songs"
+      ],
+      "explanation": "Le style musical de cet auteur-compositeur-interprète jamaïco-américain est un mélange de reggae et de pop.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-95",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_95.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-95-17",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel chanteur a sorti 'Musicology' puis '3121' deux ans plus tard ?",
+      "answer": "Prince",
+      "options": [
+        "Prince",
+        "Al Jarreau",
+        "James Brown",
+        "Bob James"
+      ],
+      "explanation": "La carrière de Prince Rogers Nelson, entamée en 1978, est l'une des plus denses dans l'univers de la pop.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-95",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_95.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-95-18",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel membre des Rolling Stones a été opéré du cerveau après être tombé du haut d'un cocotier ?",
+      "answer": "Keith Richards",
+      "options": [
+        "Ron Wood",
+        "Keith Richards",
+        "Mick Jagger",
+        "Charlie Watts"
+      ],
+      "explanation": "Keith Richardsest l'auteur de la grande majorité du répertoire original dues Rolling Stones.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-95",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_95.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-95-19",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Qui a sorti 'Soldats de fortune', presque dix ans après 'Métèque et mat' ?",
+      "answer": "Akhenaton",
+      "options": [
+        "Mokobé",
+        "Brasco",
+        "Akhenaton",
+        "Soprano"
+      ],
+      "explanation": "Sa reconnaissance artistique s'étend au-delà de la scène rap française dans laquelle il est l'un des plus influents.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-95",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_95.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-95-20",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Sous quel nom Christophe Willem a-t-il dressé la liste des chansons de son premier album ?",
+      "answer": "Inventaire",
+      "options": [
+        "Heartbox",
+        "Double je",
+        "Inventaire",
+        "Cool"
+      ],
+      "explanation": "Christophe Willem a participé à l'album 'Sol En Si - Le concert des Grands Gamins au Zénith'.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-95",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_95.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-95-21",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel auteur de 'Dutty Rock' a auparavant représenté la Jamaïque en water-polo ?",
+      "answer": "Sean Paul",
+      "options": [
+        "Shabba Ranks",
+        "Carl Douglas",
+        "Johnny Osbourne",
+        "Sean Paul"
+      ],
+      "explanation": "À ce jour, Sean Paul a vendu plus de dix millions de disques à travers le monde.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-95",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_95.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-95-22",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Qui montre qu'il a toujours de la ressource malgré un album intitulé 'Memory almost full' ?",
+      "answer": "Paul McCartney",
+      "options": [
+        "Billy Joel",
+        "Elton John",
+        "Cliff Richard",
+        "Paul McCartney"
+      ],
+      "explanation": "Paul McCartney est l'unique détenteur d'un disque de rhodium décerné en octobre 1979 par le Livre Guinness des records.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-95",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_95.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-95-23",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quelle star du rock, appelée « l'Iguane de Détroit », a été sorti de son lit dans une pub ?",
+      "answer": "Iggy Pop",
+      "options": [
+        "Iggy Pop",
+        "Dave Alexander",
+        "James Williamson",
+        "Mike Watt"
+      ],
+      "explanation": "The Stooges est historiquement un des premiers groupes précurseurs du mouvement punk.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-95",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_95.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-95-24",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Sous quel nom le père de M a-t-il fait carrière bien avant lui ?",
+      "answer": "Louis Chedid",
+      "options": [
+        "Alain Bashung",
+        "Patrick Juvet",
+        "Michel Fugain",
+        "Louis Chedid"
+      ],
+      "explanation": "Louis Chedid est également le compositeur du conte musical 'Le Soldat rose' créé en 2006.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-95",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_95.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-95-25",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel est le véritable prénom du rappeur et comédien français JoeyStarr ?",
+      "answer": "Didier",
+      "options": [
+        "Alain",
+        "Patrick",
+        "Michel",
+        "Didier"
+      ],
+      "explanation": "Son manager, Sébastien Farran, lui reconnaît une qualité première, celle de « l'authenticité ».",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-95",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_95.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-95-26",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Dans quel pays Cornelius Nyungura, dit Corneille, a-t-il passé son enfance ?",
+      "answer": "Le Rwanda",
+      "options": [
+        "Le Rwanda",
+        "Le Burundi",
+        "Le Cameroun",
+        "Le Kenya"
+      ],
+      "explanation": "Son premier album, 'Parce qu'on vient de loin', a été écrit, composé, arrangé et réalisé par lui-même.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-95",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_95.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-95-27",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Qui est l'auteur-compositeur-interprète et guitariste du groupe Louise Attaque ?",
+      "answer": "Gaëtan Roussel",
+      "options": [
+        "Pascal Auriat",
+        "Gaëtan Roussel",
+        "Stephan Eicher",
+        "Jean Constantin"
+      ],
+      "explanation": "Louise attaque est un groupe de rock français formé en 1994, dont le premier album est sorti en 1997.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-95",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_95.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-95-28",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel chanteur sensuel prête sa voix au chef cuisiner dans 'South Park' ?",
+      "answer": "Issac Hayes",
+      "options": [
+        "Al Green",
+        "James Brown",
+        "Issac Hayes",
+        "Barry White"
+      ],
+      "explanation": "L'humour de la série 'South park'se veut parodique, graveleux, raciste et scatologique.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-95",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_95.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-95-29",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Avec quel groupe Justin Timberlake et Timbaland ont-ils enregistré 'Falling Down' ?",
+      "answer": "Duran Duran",
+      "options": [
+        "The Police",
+        "A-Ha",
+        "Queen",
+        "Duran Duran"
+      ],
+      "explanation": "Le clip de 'Falling Down' met en scène des mannequins dans un centre de désintoxication.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-95",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_95.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-95-30",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Qui a commencé pâtissier avant de sortir un album solo intitulé 'Mon paradis' ?",
+      "answer": "Christophe Maé",
+      "options": [
+        "Dany Brillant",
+        "Patrick Fiori",
+        "Christophe Maé",
+        "Florent Pagny"
+      ],
+      "explanation": "L'album 'Mon paradis' (en référence à la Corse) est devenu disque de diamant avec 1 600 000 ventes.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-95",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_95.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

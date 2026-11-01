@@ -1,0 +1,798 @@
+{
+  "id": "oq-277",
+  "title": "Halloween",
+  "originalTitle": "Halloween (Des bonbons ou un sort !)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_277.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-277-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans la soirée de quel jour de l'année célèbre-t-on la fête d'Halloween ?",
+      "answer": "31 octobre",
+      "options": [
+        "30 novembre",
+        "31 décembre",
+        "31 octobre",
+        "30 septembre"
+      ],
+      "explanation": "Halloween ou l'Halloween (usage canadien) est une fête folklorique et païenne traditionnelle originaire des îles Anglos-Celtes.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-277",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_277.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-277-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À la veille de quelle fête chrétienne peut-on participer à Halloween ?",
+      "answer": "Toussaint",
+      "options": [
+        "Toussaint",
+        "Pâques",
+        "Assomption",
+        "Carême"
+      ],
+      "explanation": "Elle précède d'un jour la Commémoration des fidèles défunts, dont la solennité a été officiellement fixée au 2 novembre.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-277",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_277.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-277-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle série écrite par R. L. Stine retrouve-t-on de nombreux épisodes d'Halloween ?",
+      "answer": "Chair de Poule",
+      "options": [
+        "Salem",
+        "Chair de Poule",
+        "Buffy",
+        "Sibéria"
+      ],
+      "explanation": "La plupart de ces histoires, écrites dès 1992, ont été adaptées en épisodes retranscrivant fidèlement l'univers des livres.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-277",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_277.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-277-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quoi les enfants font-ils la chasse durant la soirée d'Halloween ?",
+      "answer": "Bonbons",
+      "options": [
+        "Citrouilles",
+        "Fantômes",
+        "Araignées",
+        "Bonbons"
+      ],
+      "explanation": "Les petits anglophones crient Trick or treat! (Farce ou friandise!), alors qu'en France, on entend Des bonbons ou un sort!",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-277",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_277.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-277-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle couleur est, avec le noir, traditionnellement associée à Halloween ?",
+      "answer": "Orange",
+      "options": [
+        "Bleu",
+        "Orange",
+        "Vert",
+        "Rose"
+      ],
+      "explanation": "Pour l'historienne Nadine Cretin, ces couleurs ont été adoptées après la rencontre d'Halloween avec l'antique fête des Morts du Mexique.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-277",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_277.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-277-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Chez nous, que dénoncent certaines voix à l'encontre de la fête d'Halloween ?",
+      "answer": "Américanisation",
+      "options": [
+        "Africanisation",
+        "Américanisation",
+        "Arabisation",
+        "Hispanisation"
+      ],
+      "explanation": "Ce terme est largement employé pour décrire l'influence exercée par les États-Unis sur la vie des citoyens d'autres pays du monde.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-277",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_277.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-277-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle psychose vestimentaire est récemment apparue en France durant Halloween ?",
+      "answer": "Clown maléfique",
+      "options": [
+        "Zombie hurlant",
+        "Clown maléfique",
+        "Dragon de feu",
+        "Ours démoniaque"
+      ],
+      "explanation": "Des personnes déguisés en clown se sont ainsi amusés à poursuivre de jeunes enfants en les menaçants avec des couteaux.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-277",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_277.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-277-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a réalisé le film 'Halloween : La Nuit des masques' sorti en 1978 ?",
+      "answer": "John Carpenter",
+      "options": [
+        "John Carpenter",
+        "Ridley Scott",
+        "Joe Dante",
+        "Wes Craven"
+      ],
+      "explanation": "Ce long-métrage produit par Moustapha Akkad fait partie de la série de films 'Halloween', dont il est l'opus initial.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-277",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_277.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-277-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel personnage est probablement le plus populaire associé à Halloween ?",
+      "answer": "Jack-o'-lantern",
+      "options": [
+        "Bayard",
+        "Aymon",
+        "Siegfried",
+        "Jack-o'-lantern"
+      ],
+      "explanation": "Éclairé par un charbon ardent placé dans un navet creusé, Jack fut condamné à errer sans but, jusqu'au jour du jugement dernier.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-277",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_277.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-277-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En Écosse, que faut-il attraper avec la bouche dans un jeu célébré durant Halloween ?",
+      "answer": "Pomme",
+      "options": [
+        "Mouchoir",
+        "Couteau",
+        "Gâteau",
+        "Pomme"
+      ],
+      "explanation": "Ce jeu d'enfants populaire est celui où une pomme doit être attrapée dans un bac d'eau en utilisant seulement sa bouche.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-277",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_277.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-277-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle série télé le sixième épisode de la saison 2 est-il intitulé 'Halloween' ?",
+      "answer": "Buffy",
+      "options": [
+        "Charmed",
+        "Glitch",
+        "Buffy",
+        "Fallen"
+      ],
+      "explanation": "Lors d'un sondage organisé en 2012 par Syfy, les téléspectateurs l'ont classé à la 16e place des meilleurs épisodes de la série.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-277",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_277.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-277-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "La lanterne emblématique d'Halloween est issue d'une légende de quel pays ?",
+      "answer": "Irlande",
+      "options": [
+        "Irlande",
+        "Suède",
+        "Finlande",
+        "Norvège"
+      ],
+      "explanation": "Une jack-o'-lantern est un navet évidé et éclairé de l'intérieur avec une bougie, et dans lequel un visage a été découpé.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-277",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_277.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-277-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sous quel nom fut d'abord connu Halloween dans les premières régions des États-Unis ?",
+      "answer": "Soirée des tours",
+      "options": [
+        "Nuit des ogres",
+        "Fête des enfants",
+        "Jour des morts",
+        "Soirée des tours"
+      ],
+      "explanation": "Les costumes des enfants servent à donner l'illusion que les esprits maléfiques d'autrefois reviennent hanter les rues des villes.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-277",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_277.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-277-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment se nomme le personnage central de la série de films 'Halloween' ?",
+      "answer": "Michael Myers",
+      "options": [
+        "Damien Thorn",
+        "Norman Bates",
+        "Michael Myers",
+        "Jigsaw"
+      ],
+      "explanation": "Le personnage de Michael Myers apparaît dans neuf films, ainsi que des romans, un jeu vidéo et dans plusieurs bandes dessinées.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-277",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_277.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-277-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En Irlande, que tire-t-on partout dans le pays pour fêter Halloween ?",
+      "answer": "De feux d'artifice",
+      "options": [
+        "De feux d'artifice",
+        "La langue",
+        "Les ficelles",
+        "Un coup"
+      ],
+      "explanation": "En Irlande, Halloween est une fête très populaire, connue sous le nom Gaélique 'Oíche Shamhna' (la nuit de la fin de l'été).",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-277",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_277.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-277-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle somme est dépensée chaque année aux États-Unis pour Halloween ?",
+      "answer": "8 milliards",
+      "options": [
+        "6 milliards",
+        "8 milliards",
+        "2 milliards",
+        "4 milliards"
+      ],
+      "explanation": "Dans plusieurs pays ne célébrant traditionnellement pas Halloween, son introduction a suscité une opposition plus ou moins forte.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-277",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_277.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-277-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville est-il interdit de célébrer Halloween dans les écoles ?",
+      "answer": "Moscou",
+      "options": [
+        "Moscou",
+        "Londres",
+        "Berlin",
+        "Amsterdam"
+      ],
+      "explanation": "En Russie, le Kremlin et l'Église orthodoxe tentent en effet de considérablement freiner la popularité grandissante d'Halloween.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-277",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_277.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-277-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle société a organisé en 1999 une 'Halloween Party' au Zénith de Paris ?",
+      "answer": "Coca-Cola",
+      "options": [
+        "Nestlé",
+        "Lego",
+        "Coca-Cola",
+        "Playmobil"
+      ],
+      "explanation": "La marque Coca-Cola a organisé par la même occasion plus de 400 opérations dans les bars et discothèques de France.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-277",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_277.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-277-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle série télévisée Halloween est-il le jour le plus magique de l'année ?",
+      "answer": "Charmed",
+      "options": [
+        "Glitch",
+        "Charmed",
+        "Heroes",
+        "Fallen"
+      ],
+      "explanation": "C'est par cette magie que les démons vaincus au cours de l'année précédente peuvent revenir d'entre les morts pour la journée.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-277",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_277.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-277-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En Chine, quelle fête est très proche de la fête d'Halloween, toujours non célébrée ?",
+      "answer": "Fête des fantômes",
+      "options": [
+        "Fête des fantômes",
+        "Fête des sushis",
+        "Fête des étoiles",
+        "Fête des dragons"
+      ],
+      "explanation": "La tradition veut que pendant cette période soient relâchés les esprits retenus dans les enfers parce qu'ils ne reçoivent pas de culte.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-277",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_277.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-277-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle autre fête la tradition d'Halloween est-elle un héritage ?",
+      "answer": "Samain",
+      "options": [
+        "Tralee",
+        "Imbolc",
+        "Beltaine",
+        "Samain"
+      ],
+      "explanation": "Cette fête était célébrée au début de l'automne par les celtes et constituait pour eux une sorte de fête du nouvel an.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-277",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_277.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-277-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En Irlande, quel gâteau aux fruits léger était cuit et dégusté durant Halloween ?",
+      "answer": "Barmbrack",
+      "options": [
+        "Barmbrack",
+        "Rombosse",
+        "Joffre",
+        "Koulitch"
+      ],
+      "explanation": "Un anneau était placé dans le gâteau avant la cuisson, et quiconque trouvait l'anneau trouverait le véritable amour durant l'année.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-277",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_277.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-277-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quand date la coutume du « Trick or treat » apparue aux États-Unis ?",
+      "answer": "1930",
+      "options": [
+        "1990",
+        "1950",
+        "1970",
+        "1930"
+      ],
+      "explanation": "Aujourd'hui, Halloween est fêté par un américain sur deux, 72% distribuent des bonbons et 40% se déguisent.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-277",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_277.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-277-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a fondé en France la société Optos-Opus pour déposer la marque Halloween ?",
+      "answer": "Philippe Cahen",
+      "options": [
+        "Alexandre Aix",
+        "André Dumont",
+        "Philippe Cahen",
+        "Pascal Barbier"
+      ],
+      "explanation": "La société commercialise confiseries, boissons, gâteaux et divers produits alimentaires permettant de valoriser l'image de la fête.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-277",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_277.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-277-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En Angleterre, que mangeaient autrefois les familles autour du feu à Halloween ?",
+      "answer": "Noisettes",
+      "options": [
+        "Noisettes",
+        "Cerises",
+        "Abricots",
+        "Bananes"
+      ],
+      "explanation": "Halloween a été critiquée en Angleterre pendant la période des réformes pour être opposée à la notion de prédestination.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-277",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_277.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-277-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel opérateur a lancé un téléphone mobile orange baptisé Olaween ?",
+      "answer": "France Télécom",
+      "options": [
+        "Alstom",
+        "Bouygues",
+        "Fnac",
+        "France Télécom"
+      ],
+      "explanation": "Au moment du changement de nom (Orange depuis le 1er juillet 2013), France Télécom était la 121e entreprise mondiale.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-277",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_277.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-277-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En France, entre 1990 et 2000, quel gâteau était confectionné pour Halloween ?",
+      "answer": "Samain",
+      "options": [
+        "Mendiant",
+        "Samain",
+        "Chanteclair",
+        "Vacherin"
+      ],
+      "explanation": "Ce gâteau était alors confectionné à base de pâte feuilletée, de pommes, de noisettes grillée, de raisins secs et de caramel.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-277",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_277.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-277-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle fête le gouvernement brésilien a-t-il créé en 2005 à la place d'Halloween ?",
+      "answer": "Jour du Saci",
+      "options": [
+        "Alicanto",
+        "Jour du Saci",
+        "Nuit des Martiens",
+        "Fête du Dama"
+      ],
+      "explanation": "Saci est représenté comme un petit garçon noir unijambiste qui fume la pipe et porte un chapeau rouge au pouvoir magique.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-277",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_277.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-277-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quoi des automobiles protègent-elles les enfants à Halloween au Manitoba, à Churchill ?",
+      "answer": "Ours polaires",
+      "options": [
+        "Ours polaires",
+        "Rats d'égout",
+        "Chauves-souris",
+        "Kangourous"
+      ],
+      "explanation": "Munies de gyrophares, les voitures effraient ainsi les ours qui peuvent parfois se promener dans la ville à la tombée de la nuit.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-277",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_277.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-277-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel artiste a sorti en 2003 un album live posthume intitulé 'Halloween' ?",
+      "answer": "Frank Zappa",
+      "options": [
+        "Trent Reznor",
+        "Scott Page",
+        "Max Johnston",
+        "Frank Zappa"
+      ],
+      "explanation": "'Halloween' est un album live, à partir de morceaux enregistrés au Palladium de New York le 27, 28 et le 31 octobre 1978.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-277",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_277.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

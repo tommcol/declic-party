@@ -1,0 +1,798 @@
+{
+  "id": "oq-174",
+  "title": "Villes du monde",
+  "originalTitle": "Villes du monde (Bien loin de la vie champêtre)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_174.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-174-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quelle ville de France l'andouillette, le saucisson et Guignol vous font-ils penser ?",
+      "answer": "Lyon",
+      "options": [
+        "Nice",
+        "Cannes",
+        "Lyon",
+        "Marseille"
+      ],
+      "explanation": "Lyon est en situation de carrefour géographique, au nord du couloir naturel de la vallée du Rhône.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-174",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_174.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-174-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle ville, capitale de la Grèce, comprend notamment le port du Pirée ?",
+      "answer": "Athènes",
+      "options": [
+        "Patras",
+        "Larissa",
+        "Athènes",
+        "Héraklion"
+      ],
+      "explanation": "Athènes est l'une des plus anciennes villes au monde, avec une présence humaine attestée dès le Néolithique.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-174",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_174.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-174-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle ville du Sud-Ouest de la France proviennent de célèbres pruneaux AOC ?",
+      "answer": "Agen",
+      "options": [
+        "Marmande",
+        "Tonneins",
+        "Nérac",
+        "Agen"
+      ],
+      "explanation": "Le nom d'Agen est définitivement associé au pruneau, dont la zone de production est essentiellement située en Lot-et-Garonne.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-174",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_174.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-174-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle couleur sont les cabines téléphoniques de la ville de Londres ?",
+      "answer": "Rouge",
+      "options": [
+        "Blanche",
+        "Verte",
+        "Jaune",
+        "Rouge"
+      ],
+      "explanation": "Londres fut fondée il y a presque 2 000 ans par les Romains sous le nom de Londinium.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-174",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_174.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-174-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle ville est la capitale de Cuba, également célèbre pour ses cigares ?",
+      "answer": "La Havane",
+      "options": [
+        "Santa Clara",
+        "La Havane",
+        "Guantanamo",
+        "Santiago de Cuba"
+      ],
+      "explanation": "L'emplacement actuel de la ville se situe sur la côte nord de l'île de Cuba et dans la partie ouest de celle-ci.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-174",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_174.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-174-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À la fois ville et province, de quel pays Bangkok est-elle la capitale ?",
+      "answer": "Thaïlande",
+      "options": [
+        "Thaïlande",
+        "Malaisie",
+        "Laos",
+        "Birmanie"
+      ],
+      "explanation": "Le boom économique asiatique des années 1980-90 a amené de nombreuses multinationales à s'installer à Bangkok.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-174",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_174.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-174-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quelle ville d'Afrique l'explorateur Savorgnan de Brazza a-t-il donné son nom ?",
+      "answer": "Brazzaville",
+      "options": [
+        "Nairobi",
+        "Libreville",
+        "Brazzaville",
+        "Kinshasa"
+      ],
+      "explanation": "La ville a été fondée le 3 octobre 1880 à l'emplacement des anciens bourgs précoloniaux désignés par le nom de Nkuna.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-174",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_174.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-174-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle capitale est aussi le centre politique et culturel de la Chine ?",
+      "answer": "Pékin",
+      "options": [
+        "Tokyo",
+        "Pékin",
+        "Shanghai",
+        "Hong Kong"
+      ],
+      "explanation": "Située à proximité de la Grande Muraille, Pékin abrite des monuments célèbres comme la Cité interdite et le Temple du ciel.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-174",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_174.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-174-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces quatre villes espagnoles n'est pas un port ?",
+      "answer": "Madrid",
+      "options": [
+        "Barcelone",
+        "Malaga",
+        "Valence",
+        "Madrid"
+      ],
+      "explanation": "Madrid est située en plein cœur du royaume et est la capitale et la ville la plus peuplée de la Communauté de Madrid.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-174",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_174.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-174-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel pays à forte densité de population la ville de Calcutta est-elle située ?",
+      "answer": "Inde",
+      "options": [
+        "Birmanie",
+        "Inde",
+        "Brésil",
+        "Bangladesh"
+      ],
+      "explanation": "La ville est connue pour avoir abrité la fondation de la congrégation religieuse des Missionnaires de la Charité par Mère Teresa.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-174",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_174.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-174-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la capitale ainsi que la plus grande ville d'Égypte ?",
+      "answer": "Le Caire",
+      "options": [
+        "Alexandrie",
+        "Le Caire",
+        "Suez",
+        "Louxor"
+      ],
+      "explanation": "Avec ses seize millions d'habitants, Le Caire est la plus grande ville du Moyen-Orient et la seconde d'Afrique derrière Lagos.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-174",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_174.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-174-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Célèbre pour son industrie cinématographique, dans quel pays la ville de Bombay se situe-t-elle ?",
+      "answer": "Inde",
+      "options": [
+        "Inde",
+        "Sri Lanka",
+        "Pakistan",
+        "Népal"
+      ],
+      "explanation": "Bombay forme avec Navi Mumbai, Bhiwandi, Kalyan, Ulhasnagar et Thane une agglomération de 18 500 000 habitants.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-174",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_174.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-174-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans laquelle de ces villes peut-on contempler un célèbre « pain de sucre » ?",
+      "answer": "Rio de Janeiro",
+      "options": [
+        "Le Caire",
+        "Rio de Janeiro",
+        "La Havane",
+        "Brazzaville"
+      ],
+      "explanation": "Le Christ Rédempteur est une grande statue du Christ dominant la ville de Rio de Janeiro, du haut du mont du Corcovado.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-174",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_174.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-174-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle ville est la capitale administrative des Pays-Bas ?",
+      "answer": "La Haye",
+      "options": [
+        "Utrecht",
+        "Amsterdam",
+        "La Haye",
+        "Rotterdam"
+      ],
+      "explanation": "La Haye est également la ville où siègent la Cour internationale de justice, la Cour pénale internationale, Europol et Eurojust.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-174",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_174.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-174-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien y a-t-il de communes à Paris, situées sur une boucle de la Seine ?",
+      "answer": "Une seule",
+      "options": [
+        "Une seule",
+        "13",
+        "22",
+        "9"
+      ],
+      "explanation": "D'après le recensement de l'Insee, la commune de Paris comptait au 1er janvier 2012 plus de deux millions d'habitants.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-174",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_174.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-174-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Tripoli est une ville du Liban mais aussi la capitale de quel pays ?",
+      "answer": "Libye",
+      "options": [
+        "Tunisie",
+        "Maroc",
+        "Libye",
+        "Soudan"
+      ],
+      "explanation": "Tripoli est la plus grande ville, le principal port, et le plus grand centre industriel et commercial de Libye.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-174",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_174.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-174-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle ville est aussi importante pour l'Afrique que pour le monde arabe ?",
+      "answer": "Le Caire",
+      "options": [
+        "Le Caire",
+        "Alexandrie",
+        "Suez",
+        "Aswan"
+      ],
+      "explanation": "Centre névralgique de la ville moderne, la place Tahrir est devenue l'emblème de la révolution égyptienne de 2011.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-174",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_174.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-174-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sur les rives de quelle mer la ville de Venise est-elle située ?",
+      "answer": "Adriatique",
+      "options": [
+        "Noire",
+        "Ionienne",
+        "Adriatique",
+        "Égée"
+      ],
+      "explanation": "Venise s'étend sur un ensemble de 118 petites îles séparées par un réseau de canaux et reliées par des ponts.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-174",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_174.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-174-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville recense-t-on le plus grand nombre de taxis au monde ?",
+      "answer": "New York",
+      "options": [
+        "Londres",
+        "Brazilia",
+        "New York",
+        "Tokyo"
+      ],
+      "explanation": "Les taxis sont exploités par des sociétés privées, agréées par la Commission de Taxi et Limousine de New York.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-174",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_174.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-174-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la capitale du Népal, ancienne étape des hippies ?",
+      "answer": "Katmandou",
+      "options": [
+        "Lalitpur",
+        "Pokhara",
+        "Katmandou",
+        "Dharan"
+      ],
+      "explanation": "Katmandou ne possède pas de réseau souterrain de canalisations et dispose d'une alimentation en eau insuffisante.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-174",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_174.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-174-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Au bord de quoi la ville de Chicago est-elle construite ?",
+      "answer": "Lac",
+      "options": [
+        "Faille",
+        "Océan",
+        "Volcan",
+        "Lac"
+      ],
+      "explanation": "Chicago constitue le deuxième centre industriel des États-Unis et appartient à la Ceinture des industries.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-174",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_174.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-174-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la nationalité des habitants de Taïwan, aussi appelée Formose ?",
+      "answer": "Chinoise",
+      "options": [
+        "Népalaise",
+        "Japonaise",
+        "Chinoise",
+        "Coréenne"
+      ],
+      "explanation": "Le climat de Taïwan est tropical au sud et subtropical humide au nord : les étés y sont chauds et les hivers doux.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-174",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_174.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-174-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien y a-t-il environ d'habitants à Mexico, capitale et ville la plus peuplée du Mexique ?",
+      "answer": "20 millions",
+      "options": [
+        "20 millions",
+        "12 millions",
+        "8 millions",
+        "16 millions"
+      ],
+      "explanation": "L'aire urbaine de Mexico, la troisième plus peuplée du monde, s'étale sur une surface de 60 km sur 100 km environ.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-174",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_174.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-174-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle région historique d'Espagne se situe Barcelone ?",
+      "answer": "Catalogne",
+      "options": [
+        "Castille",
+        "Galice",
+        "Catalogne",
+        "Andalousie"
+      ],
+      "explanation": "Barcelone est la deuxième ville d'Espagne en termes de population, d'économie et d'activités, la onzième la plus peuplée de l'UE.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-174",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_174.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-174-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment appelle-t-on le quartier arabe ou la médina d'Alger ?",
+      "answer": "Casbah",
+      "options": [
+        "Souk",
+        "Casbah",
+        "Torah",
+        "Bled"
+      ],
+      "explanation": "L'histoire de la Casbah d'Alger remonte à l'Antiquité, où elle fut d'abord un port punique, puis berbère et enfin romain.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-174",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_174.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-174-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel pays Rangoun est-elle la plus grande ville en nombre d'habitants ?",
+      "answer": "Birmanie",
+      "options": [
+        "Philippines",
+        "Malaisie",
+        "Birmanie",
+        "Laos"
+      ],
+      "explanation": "Le nom de la capitale du pays (Rangoon/Rangoun) peut être traduit comme fin de la discorde ou fin du conflit.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-174",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_174.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-174-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel pays se trouve Hammerfest, la ville la plus au nord de l'Europe ?",
+      "answer": "Norvège",
+      "options": [
+        "Finlande",
+        "Norvège",
+        "Suède",
+        "Écosse"
+      ],
+      "explanation": "Située dans le comté de Finnmark, on dit d'Hammerfest qu'elle est la ville la plus septentrionale du monde.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-174",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_174.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-174-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle capitale du Liberia est située au bord de l'océan Atlantique ?",
+      "answer": "Monrovia",
+      "options": [
+        "Monrovia",
+        "Nimba",
+        "Lofa",
+        "Grand Bassa"
+      ],
+      "explanation": "Monrovia joue un grand rôle dans l'économie du pays en assurant l'essentiel des exportations de minerai de fer.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-174",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_174.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-174-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel pays se trouvent les villes de Constantine, Oran et Anab ?",
+      "answer": "Algérie",
+      "options": [
+        "Algérie",
+        "Tunisie",
+        "Jordanie",
+        "Turquie"
+      ],
+      "explanation": "Constantine est également surnommée la ville des ponts suspendus, la ville du vieux rocher ou la ville des oulémas.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-174",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_174.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-174-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel funiculaire relie à Hong Kong le quartier de Central à Victoria Peak ?",
+      "answer": "Peak Tram",
+      "options": [
+        "Peak Tram",
+        "Cross-Harbour",
+        "Octopus",
+        "Tsing Ma"
+      ],
+      "explanation": "C'est le moyen de transport qui offre aux touristes une des plus belles vues sur le port et les gratte-ciels de Hong Kong.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-174",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_174.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

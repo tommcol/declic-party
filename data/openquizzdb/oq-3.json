@@ -1,0 +1,798 @@
+{
+  "id": "oq-3",
+  "title": "Harry Potter",
+  "originalTitle": "Harry Potter (La saga n'est pas terminée)",
+  "universe": "film",
+  "emoji": "🎬",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_3.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-3-1",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel poste tient Harry Potter dans son équipe de quidditch ?",
+      "answer": "Attrapeur",
+      "options": [
+        "Batteur",
+        "Lanceur",
+        "Poursuiveur",
+        "Attrapeur"
+      ],
+      "explanation": "Chaque équipe de quidditch possède sept joueurs chevauchant des balais volants.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-3",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_3.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-3-2",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quelle école de sorcellerie Harry Potter a-t-il suivi ses enseignements ?",
+      "answer": "Poudlard",
+      "options": [
+        "Cambridge",
+        "West Point",
+        "Poudlard",
+        "Oxford"
+      ],
+      "explanation": "Le directeur y enseigne à ses élèves la valeur du courage, de l'amitié, de la justice et de la vérité par son attitude et ses discours.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-3",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_3.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-3-3",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "À quelle adresse habite la famille Dursley dans la saga « Harry Potter » ?",
+      "answer": "4 Privet Drive",
+      "options": [
+        "4 Privet Square",
+        "4 Privet Drive",
+        "4 Privet Avenue",
+        "4 Privet Road"
+      ],
+      "explanation": "Dursley, le cousin d'Harry Potter, est un garçon indiscipliné, violent et colérique.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-3",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_3.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-3-4",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui a succédé à Armando Dippet comme directeur de Poudlard dans « Harry Potter » ?",
+      "answer": "Albus Dumbledore",
+      "options": [
+        "Albus Dumbledore",
+        "Lord Voldemort",
+        "Severus Rogue",
+        "Ron Weasley"
+      ],
+      "explanation": "Albus Dumbledore, promu nouveau directeur, est entré à Poudlard en 1892, dans la maison Gryffondor.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-3",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_3.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-3-5",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le nom de famille de Hermione dans la saga « Harry Potter » ?",
+      "answer": "Granger",
+      "options": [
+        "Greengrass",
+        "Gaunt",
+        "Granger",
+        "Grindelwald"
+      ],
+      "explanation": "Hermione est la meilleure amie d'Harry Potter et de Ron Weasley, et réside, durant sa scolarité, à Poudlard, à la maison Gryffondor.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-3",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_3.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-3-6",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans la saga « Harry Potter », un Moldu est une personne née dans une famille...",
+      "answer": "Sans magie",
+      "options": [
+        "Sans magie",
+        "Sans enfants",
+        "Sans secrets",
+        "Sans argent"
+      ],
+      "explanation": "Chez les humains, les pouvoirs magiques sont héréditaires, transmis par des allèles dominants ou récessifs.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-3",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_3.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-3-7",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le prénom du meilleur ami du jeune Harry Potter ?",
+      "answer": "Ron",
+      "options": [
+        "Drago",
+        "Sirius",
+        "Hagrid",
+        "Ron"
+      ],
+      "explanation": "Ron, qui a rencontré Harry à King's Cross, fait partie de la famille Weasley, une famille de sang-pur, qui réside au Terrier.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-3",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_3.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-3-8",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle actrice incarne Hermione Granger dans la saga « Harry Potter » ?",
+      "answer": "Emma Watson",
+      "options": [
+        "Danielle Taylor",
+        "Maggie Smith",
+        "Emma Watson",
+        "Zoë Wanamaker"
+      ],
+      "explanation": "Emma Watson est l'actrice la plus rentable de la décennie, en grande partie grâce à la saga « Harry Potter ».",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-3",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_3.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-3-9",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans « Harry Potter », quel titre Voldemort a-t-il décidé de porter ?",
+      "answer": "Lord",
+      "options": [
+        "Duc",
+        "Baron",
+        "Comte",
+        "Lord"
+      ],
+      "explanation": "Lord Voldemort est aussi appelé « Le Seigneur des Ténèbres » ou « Celui-Dont-On-Ne-Doit-Pas-Prononcer-Le-Nom ».",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-3",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_3.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-3-10",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui garde Azkaban, la prison des sorciers dans la saga « Harry Potter » ?",
+      "answer": "Les détraqueurs",
+      "options": [
+        "Les détraqueurs",
+        "Les goules",
+        "Les épouvantards",
+        "Les cerbères"
+      ],
+      "explanation": "Les détraqueurs sont considérés comme des créatures parmi les plus répugnantes de toutes celles qui existent.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-3",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_3.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-3-11",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle forme prend l'épouvantard de Ron dans la saga « Harry Potter » ?",
+      "answer": "Une araignée",
+      "options": [
+        "Une araignée",
+        "Un dragon",
+        "Un scorpion",
+        "Un loup"
+      ],
+      "explanation": "Dix-neuf ans après la chute de Voldemort, Ron et Hermione ont deux enfants : Rose et son frère cadet Hugo.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-3",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_3.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-3-12",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Comment se prénomment les parents du jeune Harry Potter ?",
+      "answer": "James et Lily",
+      "options": [
+        "Hermione et Ron",
+        "Olivia et Tom",
+        "James et Lily",
+        "Laurena et Victor"
+      ],
+      "explanation": "La famille Potter est également un descendant d'Ignotus Peverell, le premier propriétaire de la convoitée cape d'Invisibilité.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-3",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_3.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-3-13",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel acteur joue le rôle de Drago Malefoy dans « Harry Potter » ?",
+      "answer": "Tom Felton",
+      "options": [
+        "Tom Felton",
+        "Jeff Rawle",
+        "Rupert Grint",
+        "Robbie Coltrane"
+      ],
+      "explanation": "Tom Felton a, début 2007, commencé une carrière musicale sous le pseudonyme Feltbeats, réunissant 3 millions de fans sur Instagram.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-3",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_3.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-3-14",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle est la marque du balai de course utilisé par Harry Potter ?",
+      "answer": "Nimbus 2000",
+      "options": [
+        "Nimbus 2000",
+        "Brossdur 5",
+        "Comète 260",
+        "Étoile Filante"
+      ],
+      "explanation": "Dans l'univers « Harry Potter », les balais sont utilisés pour le transport des sorciers ainsi que pour le Quidditch.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-3",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_3.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-3-15",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le nom du dragon appartenant à Hagrid dans la saga « Harry Potter » ?",
+      "answer": "Norbert",
+      "options": [
+        "Aragog",
+        "Norbert",
+        "Errol",
+        "Crockdur"
+      ],
+      "explanation": "Hagrid, né d'un humain et d'une géante, a été l'un des premiers personnages créés par J. K. Rowling.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-3",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_3.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-3-16",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui est ministre de la magie dans la saga « Harry Potter » ?",
+      "answer": "Cornelius Fudge",
+      "options": [
+        "Cornelius Fudge",
+        "Albus Dumbledore",
+        "Ludovic Verpey",
+        "Lucius Malefoy"
+      ],
+      "explanation": "Cornelius Fudge est également nommé Cornelius Lafadaise dans la première édition de « Harry Potter à l'école des sorciers ».",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-3",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_3.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-3-17",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle matière enseigne le Professeur Rogue dans la saga « Harry Potter » ?",
+      "answer": "Potions",
+      "options": [
+        "Enchantement",
+        "Défense",
+        "Potions",
+        "Métamorphose"
+      ],
+      "explanation": "Personnage sombre, orgueilleux, aigri et amer, Rogue a une personnalité complexe, ambiguë et quelque peu indéchiffrable.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-3",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_3.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-3-18",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le prénom de Hagrid, le demi-géant de la saga « Harry Potter » ?",
+      "answer": "Rubeus",
+      "options": [
+        "Albus",
+        "Rubeus",
+        "Remus",
+        "Severus"
+      ],
+      "explanation": "Hagrid est garde-chasse et enseigne les Soins aux Créatures magiques depuis le tome 3 de la saga.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-3",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_3.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-3-19",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui est professeur de soins aux créatures magiques dans la saga « Harry Potter » ?",
+      "answer": "Hagrid",
+      "options": [
+        "Severus Rogue",
+        "Hagrid",
+        "Albus Dumbledore",
+        "Mme Chourave"
+      ],
+      "explanation": "Rubeus Hagrid, membre de l'Ordre du Phénix depuis son origine, est interprété au cinéma par Robbie Coltrane.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-3",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_3.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-3-20",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui a offert le très performant Nimbus 2000 à Harry Potter ?",
+      "answer": "M. McGonagall",
+      "options": [
+        "D. Malefoy",
+        "M. McGonagall",
+        "A. Dumbledore",
+        "S. Rogue"
+      ],
+      "explanation": "Minerva McGonagall est directrice de Poudlard et également professeur de métamorphose.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-3",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_3.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-3-21",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle est la formule du sortilège de mort dans la saga « Harry Potter » ?",
+      "answer": "Avada Kedavra",
+      "options": [
+        "Machina Fino",
+        "Mortibus Rem",
+        "Avada Kedavra",
+        "Post Mortem"
+      ],
+      "explanation": "L'Avada Kedavra provoque la mort instantanée, dans un éclair de lumière verte et un bruit semblable à une rafale de vent.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-3",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_3.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-3-22",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quels prénoms portent les jumeaux Weasley dans « Harry Potter » ?",
+      "answer": "Fred et George",
+      "options": [
+        "Lou et Cédric",
+        "Bill et George",
+        "Fred et George",
+        "Charlie et Bill"
+      ],
+      "explanation": "L'ambition des jumeaux a toujours été d'ouvrir un magasin de farces et attrapes pour vendre certaines de leurs inventions.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-3",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_3.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-3-23",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans la saga « Harry Potter », qui est le prince de sang mêlé ?",
+      "answer": "Severus Rogue",
+      "options": [
+        "Drago Malefoy",
+        "Severus Rogue",
+        "Voldemort",
+        "Dumbledore"
+      ],
+      "explanation": "Le rôle de Severus Rogue dans l'intrigue est difficile à interpréter pour le lecteur qui est fréquemment entraîné sur de fausses pistes.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-3",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_3.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-3-24",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "À qui Harry Potter doit-il sa cicatrice obtenue suite à un sortilège de la Mort ?",
+      "answer": "Voldemort",
+      "options": [
+        "James Potter",
+        "Ron",
+        "Professeur Lupin",
+        "Voldemort"
+      ],
+      "explanation": "Harry Potter porte des lunettes rondes à monture noire et une fine cicatrice en forme d'éclair sur le front.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-3",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_3.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-3-25",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle boisson sert-on principalement aux « Trois balais » dans « Harry Potter » ?",
+      "answer": "La bièraubeurre",
+      "options": [
+        "Le sodalamenthe",
+        "Le vinausucre",
+        "La bièraubeurre",
+        "Le laitpinard"
+      ],
+      "explanation": "La bièraubeurre, servie bien fraîche aux Trois balais, est la boisson la plus célèbre dans le monde des sorciers.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-3",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_3.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-3-26",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Comment se prénomme la mère de Drago Malefoy dans « Harry Potter » ?",
+      "answer": "Narcissa",
+      "options": [
+        "Lily",
+        "Dolores",
+        "Narcissa",
+        "Bellatrix"
+      ],
+      "explanation": "Les Malefoy et les Black sont parents par le mariage de Narcissa et de Lucius, où le jeune Drago est l'unique héritier.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-3",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_3.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-3-27",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "À Poudlard, à quel étage se trouve la salle sur demande ?",
+      "answer": "Septième étage",
+      "options": [
+        "Septième étage",
+        "Onzième étage",
+        "Deuxième étage",
+        "Vingtième étage"
+      ],
+      "explanation": "Un grand nombre de passages dissimulés, d'escaliers et de portraits de peinture mouvants rendent l'établissement assez mystérieux.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-3",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_3.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-3-28",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le premier cadeau de Noël que Hagrid a offert à Harry Potter ?",
+      "answer": "Flûte",
+      "options": [
+        "Chouette",
+        "Baguette",
+        "Clé",
+        "Flûte"
+      ],
+      "explanation": "Hagrid, membre de l'ordre du Phénix, fut élève à Poudlard, dans la maison Gryffondor, où il arriva en 1940.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-3",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_3.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-3-29",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le signe zodiacal du jeune Harry Potter, né en 1980 ?",
+      "answer": "Lion",
+      "options": [
+        "Taureau",
+        "Lion",
+        "Vierge",
+        "Balance"
+      ],
+      "explanation": "Harry James Potter est né le 31 juillet 1980 et a donc le même jour d'anniversaire que J. K. Rowling.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-3",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_3.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-3-30",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "En quoi se transforme Peter Pettigrow dans « Harry Potter » ?",
+      "answer": "En rat",
+      "options": [
+        "En chat",
+        "En poisson",
+        "En serpent",
+        "En rat"
+      ],
+      "explanation": "Peter Pettigrow est un sorcier né en 1960, responsable de la mort de Lily et James Potter.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-3",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_3.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

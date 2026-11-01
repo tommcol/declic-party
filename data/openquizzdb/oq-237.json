@@ -1,0 +1,774 @@
+{
+  "id": "oq-237",
+  "title": "Abeilles du rucher",
+  "originalTitle": "Abeilles du rucher (Une abeille vaut mieux que mille mouches)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_237.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    10
+  ],
+  "questions": [
+    {
+      "id": "oqdb-237-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment appelle-t-on une personne qui élève des abeilles à miel ?",
+      "answer": "Apiculteur",
+      "options": [
+        "Ostréiculteur",
+        "Aviculteur",
+        "Apiculteur",
+        "Raniculteur"
+      ],
+      "explanation": "Pratiquée sur tous les continents, cette activité diffère selon les variétés d'abeilles, le climat et le développement économique.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-237",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_237.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-237-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel suc sécrété se nourrissent la plupart des abeilles de nos régions ?",
+      "answer": "Nectar",
+      "options": [
+        "Bourgeon",
+        "Cerne",
+        "Loge",
+        "Nectar"
+      ],
+      "explanation": "Cette substance possède, par son goût ou son odeur, un pouvoir d'attraction sur les insectes ainsi que sur certains oiseaux.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-237",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_237.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-237-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Avec quel autre insecte plus agressif confond-on souvent l'abeille ?",
+      "answer": "Guêpe",
+      "options": [
+        "Guêpe",
+        "Taon",
+        "Bourdon",
+        "Frelon"
+      ],
+      "explanation": "La guêpe est un insecte ayant généralement un abdomen jaune rayé de noir et dont la femelle porte un dard venimeux.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-237",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_237.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-237-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que font les abeilles volant de fleur en fleur à la recherche de nourriture ?",
+      "answer": "Elles butinent",
+      "options": [
+        "Elles ruminent",
+        "Elles patinent",
+        "Elles butinent",
+        "Elles dessinent"
+      ],
+      "explanation": "L'abeille récolte ainsi dans la nature nectar, propolis, miellat et pollen. En butinant, l'abeille assure également la pollinisation.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-237",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_237.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-237-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel phénomène important l'abeille permet-elle d'assurer en butinant ?",
+      "answer": "Pollinisation",
+      "options": [
+        "Pollinisation",
+        "Germination",
+        "Introgression",
+        "Sporulation"
+      ],
+      "explanation": "Les plantes contribuent quant à elle à l'alimentation des pollinisateurs en leur fournissant le pollen en excès ou nectar.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-237",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_237.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-237-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces propositions n'est pas un produit dérivé de l'abeille ?",
+      "answer": "Beurre",
+      "options": [
+        "Beurre",
+        "Gelée",
+        "Cire",
+        "Miel"
+      ],
+      "explanation": "Ces produits sont stockés dans des galeries pour les espèces solitaires, des assemblages complexes pour les espèces sociales.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-237",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_237.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-237-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le seul individu femelle fertile au sein d'une colonie d'abeilles ?",
+      "answer": "Reine",
+      "options": [
+        "Guêpe",
+        "Frelon",
+        "Ouvrière",
+        "Reine"
+      ],
+      "explanation": "La reine, à l'abdomen plus allongé, est habituellement la mère de la plupart des abeilles de la ruche, sinon de la totalité.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-237",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_237.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-237-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel mâle de l'abeille est le produit de l'éclosion d'un oeuf non fécondé ?",
+      "answer": "Faux bourdon",
+      "options": [
+        "Coléoptère",
+        "Tique",
+        "Phasme",
+        "Faux bourdon"
+      ],
+      "explanation": "Contrairement à l'abeille ouvrière femelle, le faux bourdon ne possède pas de dard et ne récolte ni nectar ni pollen.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-237",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_237.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-237-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle petite abeille a fait la joie des enfants à la télévision dans les années 1980 ?",
+      "answer": "Maya",
+      "options": [
+        "Tao Tao",
+        "Heidi",
+        "Zigby",
+        "Maya"
+      ],
+      "explanation": "Maya découvre le monde en compagnie de ses amis Willy l'abeille, Flip la sauterelle, Max le ver de terre et Alexandre la souris.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-237",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_237.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-237-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel nom donne-t-on à un groupe d'abeilles vivant en société ?",
+      "answer": "Colonie",
+      "options": [
+        "Colonie",
+        "Guilde",
+        "Niche",
+        "Écotype"
+      ],
+      "explanation": "En biologie, une colonie est un groupe d'organismes de la même espèce vivant rassemblés selon un mode de vie particulier.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-237",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_237.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-237-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle espèce d'abeille est probablement la plus connue en Europe ?",
+      "answer": "Apis mellifera",
+      "options": [
+        "Apis dorsata",
+        "Apis cerana",
+        "Apis mellifera",
+        "Apis florea"
+      ],
+      "explanation": "Semi-domestique, le nom de genre Apis est le terme latin pour abeille, et mellifera signifie qui donne du miel.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-237",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_237.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-237-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la durée de vie moyenne d'une abeille durant les mois d'été ?",
+      "answer": "Un mois",
+      "options": [
+        "Trois mois",
+        "Un mois",
+        "Quatre mois",
+        "Deux mois"
+      ],
+      "explanation": "Se nourrissant du nectar des fleurs, une abeille peut vivre jusqu'à dix mois en hiver et seulement un mois en été.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-237",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_237.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-237-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle expression désigne une espèce d'abeille vivant en colonie ?",
+      "answer": "Abeille sociale",
+      "options": [
+        "Abeille solitaire",
+        "Abeille à miel",
+        "Abeille parasite",
+        "Abeille sociale"
+      ],
+      "explanation": "D'autres espèces sont des abeilles parasites ou abeilles coucous qui pratiquent le cleptoparasitisme.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-237",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_237.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-237-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quoi la larve d'une future reine des abeilles est-elle exclusivement nourrie ?",
+      "answer": "Gelée royale",
+      "options": [
+        "Sédiments",
+        "Sel",
+        "Gelée royale",
+        "Insectes"
+      ],
+      "explanation": "La gelée royale est le produit de sécrétion des abeilles ouvrières, entre le cinquième et le quatorzième jour de leur existence.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-237",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_237.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-237-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment appelle-t-on un rassemblement important d'abeilles ?",
+      "answer": "Essaim",
+      "options": [
+        "Manteau",
+        "Grappe",
+        "Sac",
+        "Essaim"
+      ],
+      "explanation": "Le phénomène dit de nuée n'a pas d'origine météorologique directe mais est saisonnier et lié aux épisodes de sécheresse.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-237",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_237.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-237-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle abeille est la grande favorite de l'apiculture en Europe ?",
+      "answer": "Abeille noire",
+      "options": [
+        "Abeille bleue",
+        "Abeille noire",
+        "Abeille rouge",
+        "Abeille blanche"
+      ],
+      "explanation": "Son aire de répartition originale s'étendait de l'ouest de la Russie à l'Europe du Nord et probablement à la péninsule ibérique.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-237",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_237.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-237-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que se passe-t-il pour l'abeille lorsque celle-ci utilise son dard cranté pour piquer ?",
+      "answer": "Elle meurt",
+      "options": [
+        "Elle boit",
+        "Elle gonfle",
+        "Elle dort",
+        "Elle meurt"
+      ],
+      "explanation": "La piqûre entraîne une partie des organes internes de l'abeille, dont son sac à venin, ce qui est presque toujours fatal à l'abeille.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-237",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_237.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-237-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment appelle-t-on l'ensemble des ruches d'un apiculteur ?",
+      "answer": "Rucher",
+      "options": [
+        "Grappe",
+        "Rucher",
+        "Colonie",
+        "Essaim"
+      ],
+      "explanation": "L'emplacement des ruchers se fait notamment en fonction de l'environnement et de l'exposition (de préférence sud ou sud-est).",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-237",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_237.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-237-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel film d'animation raconte la vie d'une abeille fraîchement diplômée ?",
+      "answer": "Bee Movie",
+      "options": [
+        "Happy Feet",
+        "Bee Movie",
+        "Le Lorax",
+        "Rosa"
+      ],
+      "explanation": "Ce film d'animation en images de synthèse sorti en 2007 a été écrit et produit par Jerry Seinfeld pour DreamWorks SKG.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-237",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_237.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-237-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle résine a-t-on retrouvé les plus anciens fossiles d'abeilles ?",
+      "answer": "Ambre",
+      "options": [
+        "Turquoise",
+        "Jais",
+        "Ambre",
+        "Opale"
+      ],
+      "explanation": "Le plus vieux fossile à ce jour est Melittosphex burmensis, daté de 100 millions d'années et découvert en 2006 en Birmanie.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-237",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_237.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-237-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De combien de castes une colonie d'abeilles est-elle composée ?",
+      "answer": "Trois",
+      "options": [
+        "Quatre",
+        "Trois",
+        "Six",
+        "Cinq"
+      ],
+      "explanation": "La reine, l'unique femelle fertile du groupe, une majorité d'ouvrières et des mâles (ou faux-bourdons) qui fécondent les futures reines.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-237",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_237.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-237-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelles abeilles utilisent des galeries creusées dans le bois ?",
+      "answer": "Xylicoles",
+      "options": [
+        "Horticoles",
+        "Vinicoles",
+        "Xylicoles",
+        "Rubicoles"
+      ],
+      "explanation": "Un xylophage est un organisme vivant dont le régime alimentaire est composé principalement d'aubier, mais aussi de bois parfait.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-237",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_237.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-237-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Jusqu'à combien d'oeufs la reine des abeilles peut-elle pondre environ en une année ?",
+      "answer": "400 000",
+      "options": [
+        "300 000",
+        "100 000",
+        "400 000",
+        "200 000"
+      ],
+      "explanation": "Quand sa spermathèque commence à se vider, elle ne peut plus pondre d'oeufs d'ouvrières et sa diffusion de phéromones se modifie.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-237",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_237.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-237-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel processus fait naître une nouvelle reine-mère pour la ruche ?",
+      "answer": "Remérage",
+      "options": [
+        "Ruchage",
+        "Restaurage",
+        "Reinage",
+        "Remérage"
+      ],
+      "explanation": "La colonie amorce alors le périlleux processus de nourrir plusieurs nymphes de gelée royale, la survie de la colonie en dépendant.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-237",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_237.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-237-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle maternité de la ruche se développent les futures abeilles ?",
+      "answer": "Couvain",
+      "options": [
+        "Dortoir",
+        "Couvain",
+        "Levant",
+        "Bûcher"
+      ],
+      "explanation": "Il est généralement situé au centre de la ruche et est entouré de rayons de miel et de pollen (pain d'abeille) pour l'alimenter.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-237",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_237.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-237-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment les abeilles évitent-elles d'engendrer un organisme étouffant ?",
+      "answer": "Essaimage",
+      "options": [
+        "Ruchage",
+        "Pollinage",
+        "Remérage",
+        "Essaimage"
+      ],
+      "explanation": "Ce phénomène a lieu quand une partie des abeilles quitte la ruche avec une reine (l'essaim) pour former une nouvelle colonie.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-237",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_237.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-237-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle pratique consiste à soigner avec les produits de la ruche ?",
+      "answer": "Apithérapie",
+      "options": [
+        "Ayurveda",
+        "Apithérapie",
+        "Oligothérapie",
+        "Phytothérapie"
+      ],
+      "explanation": "L'apithérapie propose d'utiliser les propriétés supposées du miel, de la propolis, du venin d'abeilles, de la gelée royale et du pollen.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-237",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_237.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-237-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel choc une piqûre d'abeille peut-elle parfois entraîner sur l'homme ?",
+      "answer": "Anaphylactique",
+      "options": [
+        "Macrophage",
+        "Antigène",
+        "Anaphylactique",
+        "Perforin"
+      ],
+      "explanation": "Il s'agit d'une manifestation d'hypersensibilité immédiate due à la libération de médiateurs vaso-actifs chez un sujet sensibilisé.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-237",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_237.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-237-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qu'ont remplacé les abeilles impériales de Napoléon Bonaparte ?",
+      "answer": "Fleur de lys",
+      "options": [
+        "Fleur de lys",
+        "Bleuet",
+        "Trèfle",
+        "Myosotis"
+      ],
+      "explanation": "Les fleurs de lis d'or sur champ d'azur devinrent les armes de France et l'emblème spécifique des rois de France.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-237",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_237.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

@@ -1,0 +1,724 @@
+{
+  "id": "oq-154",
+  "title": "Culture générale 2",
+  "originalTitle": "Culture générale 2",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_154.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    3,
+    7,
+    16
+  ],
+  "questions": [
+    {
+      "id": "oqdb-154-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel arbre est connu pour atteindre les volumes les plus importants ?",
+      "answer": "Le séquoia",
+      "options": [
+        "Le hêtre",
+        "Le pin",
+        "Le chêne",
+        "Le séquoia"
+      ],
+      "explanation": "Le séquoia géant a une croissance rapide annuelle moyenne de cinquante cm dans ses premières années, puis un mètre par an.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-154",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_154.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-154-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelles sont les trois couleurs fondamentales pour le peintre ?",
+      "answer": "Rouge, bleu et jaune",
+      "options": [
+        "Blanc, bleu et rouge",
+        "Rouge, bleu et jaune",
+        "Vert, rouge et jaune",
+        "Rouge, bleu et vert"
+      ],
+      "explanation": "La couleur et la tonalité sont l'essence même de la peinture, comme le sont la hauteur et le rythme pour la musique.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-154",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_154.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-154-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel métier exerçait le sportif argentin Juan Manuel Fangio ?",
+      "answer": "Pilote",
+      "options": [
+        "Boxeur",
+        "Pilote",
+        "Coureur",
+        "Nageur"
+      ],
+      "explanation": "Juan Manuel Fangio a littéralement dominé la discipline reine du sport automobile dans les années cinquante.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-154",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_154.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-154-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle personne a pour mission principale de gérer un site internet ?",
+      "answer": "Un webmaster",
+      "options": [
+        "Un websiter",
+        "Un webcleaner",
+        "Un webcontroler",
+        "Un webmaster"
+      ],
+      "explanation": "Un webmaster est un professionnel d'internet entendu comme responsable d'un site web, de sa conception à sa maintenance.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-154",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_154.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-154-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Avant de devenir chevalier, quel est le rang pour un apprenti Jedi ?",
+      "answer": "Padawan",
+      "options": [
+        "Jawas",
+        "Hutts",
+        "Padawan",
+        "Novice"
+      ],
+      "explanation": "Les chevaliers Jedi du monde de la saga 'Star Wars' forment un ordre d'individus qui maîtrisent la « Force ».",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-154",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_154.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-154-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment se prénomment les frères de William et Averell Dalton dans 'Lucky Luke' ?",
+      "answer": "Joe et Jack",
+      "options": [
+        "Jack et Jim",
+        "John et Joe",
+        "Joe et Jack",
+        "Jim et John"
+      ],
+      "explanation": "Les frères Dalton ont inspiré maintes histoires, dont la bande dessinée 'Lucky Luke' de Morris et de René Goscinny.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-154",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_154.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-154-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel sport Rocco Francis Marchegiano dit « Rocky Marciano » était-il imbattable ?",
+      "answer": "La boxe",
+      "options": [
+        "La boxe",
+        "Le catch",
+        "La natation",
+        "Le tennis"
+      ],
+      "explanation": "Rocky Marciano est le premier boxeur blanc à avoir repris la couronne des poids lourds aux afro-américains en 1952.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-154",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_154.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-154-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quels muscles du corps humain peuvent être qualifiés de « tablettes de chocolat » ?",
+      "answer": "Les abdominaux",
+      "options": [
+        "Les triceps",
+        "Les adducteurs",
+        "Les biceps",
+        "Les abdominaux"
+      ],
+      "explanation": "Au nombre de cinq paires, les abdominaux sont des muscles qui s'étendent du thorax au bord supérieur du bassin.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-154",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_154.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-154-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Durant quelle période Philippe Pétain assura-t-il le gouvernement de la France ?",
+      "answer": "De 1940 à 1944",
+      "options": [
+        "De 1941 à 1944",
+        "De 1941 à 1945",
+        "De 1939 à 1945",
+        "De 1940 à 1944"
+      ],
+      "explanation": "Militaire de carrière, le maréchal Pétain est généralement présenté comme le « vainqueur de la bataille de Verdun ».",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-154",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_154.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-154-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le prénom de Kate Winslet dans le film 'Titanic' de James Cameron ?",
+      "answer": "Rose",
+      "options": [
+        "Carla",
+        "Liz",
+        "Rose",
+        "Jeanne"
+      ],
+      "explanation": "'Titanic' est le second plus grand succès de l'histoire du cinéma après 'Avatar' (également réalisé par James Cameron).",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-154",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_154.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-154-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sur quelle espérance de vie moyenne une girafe peut-elle compter ?",
+      "answer": "25 ans",
+      "options": [
+        "15 ans",
+        "75 ans",
+        "55 ans",
+        "25 ans"
+      ],
+      "explanation": "Les Grecs pensaient que la girafe résultait de l'union du chameau et du léopard, d'où le nom scientifique 'camelopardalis'.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-154",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_154.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-154-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel célèbre Claude a réalisé en 1985 le film 'Poulet au vinaigre' ?",
+      "answer": "Claude Chabrol",
+      "options": [
+        "Claude Pieplu",
+        "Claude Berri",
+        "Claude Miller",
+        "Claude Chabrol"
+      ],
+      "explanation": "Le film 'Poulet au vinaigre' a été tourné en quelques semaines seulement à Forges-les-Eaux avec un budget très réduit.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-154",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_154.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-154-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel archipel appartenant au Portugal est constitué de neuf îles et de plusieurs îlots ?",
+      "answer": "Les Açores",
+      "options": [
+        "Les îles Caïman",
+        "Les Canaries",
+        "Les Açores",
+        "Les Baléares"
+      ],
+      "explanation": "L'origine volcanique de toutes les îles des Açores est démontrée par l'existence de très nombreux cônes de scories.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-154",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_154.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-154-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle faille des États-Unis est la cause de nombreux tremblements de terre ?",
+      "answer": "San Andreas",
+      "options": [
+        "San Francisco",
+        "Nouveau Mexique",
+        "Los Angeles",
+        "San Andreas"
+      ],
+      "explanation": "Le système des failles de San Andreas s'étend sur environ 1 300 kilomètres de long et 140 kilomètres de large.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-154",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_154.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-154-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel groupe hollandais des années 1990 était composé de Ray et Anita ?",
+      "answer": "2 Unlimited",
+      "options": [
+        "2 Unlimited",
+        "Ace of base",
+        "Enigma",
+        "Scorpions"
+      ],
+      "explanation": "Le temps de leur contrat, le duo du groupe 2 Unlimited est devenu populaire à travers le monde durant cinq ans.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-154",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_154.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-154-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel titre donnait-on à Simon Bolivar, général et homme d'État vénézuélien ?",
+      "answer": "Libertador",
+      "options": [
+        "Conquistador",
+        "Volador",
+        "Dictator",
+        "Libertador"
+      ],
+      "explanation": "Le bolivarisme est un courant politique que l'on retrouve en Amérique du Sud, se revendiquant de certaines idées de Bolivar.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-154",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_154.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-154-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a écrit et composé le deuxième album de Vanessa Paradis ?",
+      "answer": "Serge Gainsbourg",
+      "options": [
+        "Johnny Depp",
+        "Lenny Kravitz",
+        "Serge Gainsbourg",
+        "Alain Bashung"
+      ],
+      "explanation": "Vanessa Paradis, née en France en 1972, est la nièce de Didier Pain et la sœur de l'actrice Alysson Paradis.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-154",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_154.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-154-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la couleur du cercle figurant sur le drapeau du Laos ?",
+      "answer": "Blanche",
+      "options": [
+        "Bleue",
+        "Blanche",
+        "Jaune",
+        "Rouge"
+      ],
+      "explanation": "Les montagnes et les plateaux du Laos, confinés au centre de la péninsule indochinoise, occupent plus de 70% de sa superficie.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-154",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_154.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-154-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Hô-Chi-Minh-Ville est le nouveau nom de quel poumon économique ?",
+      "answer": "Saigon",
+      "options": [
+        "Pékin",
+        "Tokyo",
+        "Saigon",
+        "Vientiane"
+      ],
+      "explanation": "Située près du delta du Mékong, Hô-Chi-Minh-Ville est la métropole et la plus grande ville du sud du Viêt Nam.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-154",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_154.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-154-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel pays les falaises de Moher sont-elles une attraction touristique ?",
+      "answer": "Irlande",
+      "options": [
+        "Irlande",
+        "Grèce",
+        "Australie",
+        "Argentine"
+      ],
+      "explanation": "Les falaises de Moher, qui s'élèvent jusqu'à 214m sur 8km, fascinent par leur beauté et leurs pentes vertigineuses.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-154",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_154.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-154-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui débute un de ses romans par : « Longtemps, je me suis couché de bonne heure » ?",
+      "answer": "Proust",
+      "options": [
+        "Proust",
+        "Gide",
+        "Zola",
+        "Flaubert"
+      ],
+      "explanation": "Œuvre majeure en sept tomes, 'La Recherche' analysa d'une manière souvent impitoyable la société de son temps.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-154",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_154.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-154-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel domaine est utilisé le terme « propylée », apparu bien avant Jésus-Christ ?",
+      "answer": "En architecture",
+      "options": [
+        "En architecture",
+        "En généalogie",
+        "En littérature",
+        "En botanique"
+      ],
+      "explanation": "À l'origine un vestibule conduisant à un sanctuaire, le plus célèbre exemple de propylée est celui de l'Acropole d'Athènes.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-154",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_154.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-154-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle plante de la famille des Liliacées le nom signifie-t-il « turban » en perse ?",
+      "answer": "La tulipe",
+      "options": [
+        "Le renoncule",
+        "La tulipe",
+        "La digitale",
+        "La jonquille"
+      ],
+      "explanation": "Les tulipes sont des plantes vivaces bulbeuses à tige longues, dures et solitaires, parfois tendues vers le haut.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-154",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_154.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-154-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a inspiré à Ian Fleming le nom de James Bond pour son célèbre personnage ?",
+      "answer": "Un ornithologue",
+      "options": [
+        "Un géologue",
+        "Un ornithologue",
+        "Un sportif",
+        "Un marin"
+      ],
+      "explanation": "Les nombreux romans mettant en scène le séduisant « agent 007 » ont connu un succès mondial, également au cinéma.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-154",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_154.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-154-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelles festivités étaient célébrées à Sparte en hommage à Apollon ?",
+      "answer": "Les Karneia",
+      "options": [
+        "Les Septéries",
+        "Les Thalysies",
+        "Les Karneia",
+        "Les Mounichies"
+      ],
+      "explanation": "Ce sont les Karneia qui retardèrent l'arrivée des Spartiates à Marathon, ainsi que celle des renforts aux Thermopyles.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-154",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_154.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-154-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien existe-t-il de manières différentes de commencer une partie aux échecs ?",
+      "answer": "20",
+      "options": [
+        "24",
+        "10",
+        "20",
+        "32"
+      ],
+      "explanation": "La composition échiquéenne, la forme artistique du jeu, a produit des milliers de problèmes dans de multiples genres.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-154",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_154.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-154-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle girafe en caoutchouc était destinée à être mordillée par les nourrissons en 1961 ?",
+      "answer": "Sophie",
+      "options": [
+        "Noémie",
+        "Barbie",
+        "Mimie",
+        "Sophie"
+      ],
+      "explanation": "La girafe Sophie connaît toujours un fort succès dans l'hexagone avec déjà plus de 816 000 exemplaires vendus en France.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-154",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_154.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

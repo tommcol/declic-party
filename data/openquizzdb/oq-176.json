@@ -1,0 +1,774 @@
+{
+  "id": "oq-176",
+  "title": "Ironman",
+  "originalTitle": "Ironman (Les champions du triathlon)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_176.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    21
+  ],
+  "questions": [
+    {
+      "id": "oqdb-176-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la longueur totale de la course multi-disciplinaire Ironman ?",
+      "answer": "226 km",
+      "options": [
+        "98 km",
+        "184 km",
+        "142 km",
+        "226 km"
+      ],
+      "explanation": "Cette appellation est associée au triathlon Ironman d'Hawaï originel créé en 1978 par John et Judy Collins.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-176",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_176.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-176-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces disciplines ne fait pas partie de la course Ironman ?",
+      "answer": "Tir à l'arc",
+      "options": [
+        "Cyclisme",
+        "Natation",
+        "Tir à l'arc",
+        "Marathon"
+      ],
+      "explanation": "Cette course multi-disciplinaire consiste à enchaîner 3.8km de natation, 180.2km de cyclisme puis un marathon de 42.195km.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-176",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_176.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-176-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En combien de temps la course Ironman est-elle réalisée ?",
+      "answer": "Moins d'1 jour",
+      "options": [
+        "Moins d'1 jour",
+        "1 semaine",
+        "3 jours",
+        "1 mois"
+      ],
+      "explanation": "Les vainqueurs de cette compétition mondiale arrivent à achever le circuit complet en un peu plus de huit heures.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-176",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_176.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-176-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle société décerne chaque année le titre de champion du monde d'Ironman ?",
+      "answer": "WTC",
+      "options": [
+        "PNG",
+        "ATP",
+        "IRM",
+        "WTC"
+      ],
+      "explanation": "La WTC organise un circuit officiel et international de qualifications s'appuyant sur une vigoureuse politique commerciale.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-176",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_176.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-176-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle Suissesse fut la première européenne à remporter Ironman ?",
+      "answer": "Natascha Badmann",
+      "options": [
+        "Lyn Lemaire",
+        "Natascha Badmann",
+        "Daniela Ryf",
+        "Lori Bowden"
+      ],
+      "explanation": "Mademoiselle Suisse gagnera six fois le titre et maintiendra son emprise sur la compétition féminine jusqu'en 2005.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-176",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_176.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-176-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Vers quelle baie a été déplacé l'ancien Ironman d'Hawaï ?",
+      "answer": "Kailua-Kona",
+      "options": [
+        "Pahoa",
+        "Honalo",
+        "Kailua-Kona",
+        "Volcano"
+      ],
+      "explanation": "Depuis sa transformation en championnat du monde d'Ironman en 1990, le parcours est resté sensiblement le même.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-176",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_176.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-176-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle compétition dérivée de l'Ironman est aussi appelée Half Ironman ?",
+      "answer": "Ironman 70.3",
+      "options": [
+        "Ironman 70.3",
+        "Embrunman",
+        "Roth Challenge",
+        "Hawaï KPR"
+      ],
+      "explanation": "L'appellation vient de la distance totale de la course en miles qui correspondent à la moitié de la distance d'un Ironmnan.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-176",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_176.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-176-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de participants courent chaque année la finale de l'Ironman ?",
+      "answer": "2 000",
+      "options": [
+        "3 000",
+        "5 000",
+        "4 000",
+        "2 000"
+      ],
+      "explanation": "La participation à la finale de la compétition moderne exige une qualification préalable de participation au championnat.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-176",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_176.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-176-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Par quelle discipline débute le championnat du monde Ironman ?",
+      "answer": "La natation",
+      "options": [
+        "Le cyclisme",
+        "La natation",
+        "La course",
+        "La marathon"
+      ],
+      "explanation": "La première épreuve de natation se déroule dans la baie de Kailua (Kailua-Bay) en une boucle unique de 3.8 kilomètres.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-176",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_176.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-176-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle ville part le marathon de la compétition moderne Ironman ?",
+      "answer": "Kailu",
+      "options": [
+        "Eden Roc",
+        "Wainaku",
+        "Ainaloa",
+        "Kailu"
+      ],
+      "explanation": "Le circuit part de Kailu en direction du sud jusqu'à Kalahuu, puis propose un second aller-retour vers le nord jusqu'à l'aéroport.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-176",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_176.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-176-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle triathlète a marqué l'Ironman de 1982 en s'effondrant devant la ligne d'arrivée ?",
+      "answer": "Julie Moss",
+      "options": [
+        "Linsey Corbin",
+        "Amanda Stevens",
+        "Amy Marsh",
+        "Julie Moss"
+      ],
+      "explanation": "Franchissant la ligne à quatre pattes, Julie Moss inscrit ainsi un des moments emblématiques de l'histoire de l'Ironman.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-176",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_176.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-176-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle devise est adoptée par tous les compétiteurs de la course Ironman ?",
+      "answer": "Tout est possible",
+      "options": [
+        "Aller plus loin",
+        "Tout est possible",
+        "Jusqu'au bout",
+        "Vaincre ici</i>"
+      ],
+      "explanation": "Réservée aux amateurs et aux professionnels, la compétition pousse les participants jusqu'à leur extrême limite.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-176",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_176.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-176-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année le triathlon Ironman d'Hawaï originel a-t-il été créé ?",
+      "answer": "1978",
+      "options": [
+        "1978",
+        "1988",
+        "2008",
+        "1998"
+      ],
+      "explanation": "Jonh et Judy Collins furent introduits dans le Hall of Fame de l'Ironman en 1998 pour le 20e anniversaire de la compétition.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-176",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_176.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-176-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle chaîne de télé a fait découvrir l'Ironman aux spectateurs du monde entier ?",
+      "answer": "ABC",
+      "options": [
+        "ABC",
+        "CBS",
+        "FOX",
+        "NBC"
+      ],
+      "explanation": "Les fondateurs John et Judy Collins donnèrent à ABC la permission de filmer pour leur émission « Wide World of Sports ».",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-176",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_176.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-176-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À partir de quelle année le nombre de coureurs fut-il limité à Ironman ?",
+      "answer": "1983",
+      "options": [
+        "1992",
+        "1983",
+        "1989",
+        "1986"
+      ],
+      "explanation": "Le premier Ironman organisé aux États-Unis et qualificatif pour l'épreuve reine fut le Ricoh Ironman U.S. Championship.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-176",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_176.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-176-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel athlète a remporté six titres en huit participations à Ironman ?",
+      "answer": "Dave Scott",
+      "options": [
+        "Dave Scott",
+        "Pete Jacobs",
+        "Peter Reid",
+        "Greg Welch"
+      ],
+      "explanation": "Dave Scott a pris connaissance de l'existence de la course Ironman au travers d'un reportage de « Sport Illustrated ».",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-176",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_176.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-176-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Depuis quelle édition de l'Ironman le départ de l'ensemble des compétiteurs est-il différé ?",
+      "answer": "2014",
+      "options": [
+        "2008",
+        "2012",
+        "2010",
+        "2014"
+      ],
+      "explanation": "Les vagues sont au nombre de quatre, espacées de cinq minutes pour les professionnels et de dix pour les différentes classes d'âge.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-176",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_176.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-176-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la température de l'eau au mois d'octobre dans la baie de Kailua ?",
+      "answer": "26 °C",
+      "options": [
+        "22 °C",
+        "30 °C",
+        "26 °C",
+        "18 °C"
+      ],
+      "explanation": "La première boucle est donc disputée sans combinaison néoprène, augmentant ainsi sa difficulté due à la flottabilité.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-176",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_176.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-176-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel type de roue est interdit lors de la compétition cycliste de l'Ironman ?",
+      "answer": "Lenticulaire",
+      "options": [
+        "Large",
+        "Lenticulaire",
+        "Dentée",
+        "En carbone"
+      ],
+      "explanation": "Face au risque d'accident, les roues pleines et donc très sensibles aux vents latéraux sont interdites sur cette compétition.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-176",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_176.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-176-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle conséquence directe une aide extérieure amène-t-elle en compétition Ironman ?",
+      "answer": "Élimination",
+      "options": [
+        "Carte jaune",
+        "Élimination",
+        "Pénalité",
+        "Suspension"
+      ],
+      "explanation": "La règle de base de cette compétition étant l'effort individuel, l'aspiration-abri (drafting) est donc également interdite.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-176",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_176.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-176-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui est le premier triathlète non américain à remporter Ironman ?",
+      "answer": "Greg Welch",
+      "options": [
+        "Gordon Haller",
+        "Greg Welch",
+        "Scott Tinley",
+        "Dave Scott"
+      ],
+      "explanation": "Greg Welch met ainsi un terme à la domination américaine chez les hommes en battant Dave Scott et Mark Allen en 1994.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-176",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_176.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-176-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle britannique a réalisé un des plus grands chocs de l'histoire d'Ironman ?",
+      "answer": "Chrissie Wellington",
+      "options": [
+        "Chrissie Wellington",
+        "Karen Smyers",
+        "Robin Beck",
+        "Erin Baker"
+      ],
+      "explanation": "Un exploit salué par la presse spécialisée, tant il demeure impossible de remporter cette course en première participation.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-176",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_176.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-176-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En 2019, où s'est déroulée la finale du championnat du monde Ironman 70.3 ?",
+      "answer": "Nice",
+      "options": [
+        "Tokyo",
+        "Montréal",
+        "Nice",
+        "Madrid"
+      ],
+      "explanation": "En 2017, c'est Daniela Ryf qui remporte la compétition féminine tandis que Javier Gomez gagne le titre masculin.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-176",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_176.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-176-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui fut le premier vainqueur Ironman du monde après une course de 11h 46min 58s ?",
+      "answer": "Gordon Haller",
+      "options": [
+        "Gordon Haller",
+        "Dave Scott",
+        "Tom Warren",
+        "John Howard"
+      ],
+      "explanation": "Quinze concurrents s'élancèrent avec lui pour cette première mondiale, douze seulement terminant l'épreuve de 226 kilomètres.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-176",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_176.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-176-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle cycliste de Boston fut la première femme à terminer un Ironwoman ?",
+      "answer": "Lyn Lemaire",
+      "options": [
+        "Julie Leach",
+        "Linda Sweeney",
+        "Lyn Lemaire",
+        "Robin Beck"
+      ],
+      "explanation": "Lyn Lemaire est également championne des États-unis de course contre-la-montre en cyclisme sur route en 1976 et 1977.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-176",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_176.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-176-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui fut le premier à l'Ironman à utiliser un guidon de triathlète sur son vélo ?",
+      "answer": "Scott Tinley",
+      "options": [
+        "Dave Scott",
+        "Scott Tinley",
+        "Gordon Haller",
+        "Tom Warren"
+      ],
+      "explanation": "Scott Tinley remporte ainsi le trophée en établissant un nouveau record de la course en 8h 50min 54s.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-176",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_176.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-176-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel triathlète vétéran a créé la World Triathlon Corporation ?",
+      "answer": "James P. Gills",
+      "options": [
+        "Scott Tinley",
+        "Scott Molina",
+        "James P. Gills",
+        "Greg Welch"
+      ],
+      "explanation": "Cette société commerciale formalise et développe le championnat du monde d'Ironman et promeut la marque Ironman.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-176",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_176.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-176-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de triathlètes ont participé en 2016 à une course Ironman qualificative ?",
+      "answer": "91 000",
+      "options": [
+        "91 000",
+        "63 000",
+        "77 000",
+        "85 000"
+      ],
+      "explanation": "Sur les 2 300 qualifiés, record historique, les triathlètes féminines représentent 30 % du nombre de compétiteurs.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-176",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_176.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-176-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le dénivelé positif global du circuit à vélo de l'Ironman ?",
+      "answer": "1 100 m",
+      "options": [
+        "1 400 m",
+        "1 100 m",
+        "1 700 m",
+        "2 000 m"
+      ],
+      "explanation": "Le circuit à vélo propose un dénivelé positif global faible sur 180 km, le classant dans les parcours très roulants.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-176",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_176.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

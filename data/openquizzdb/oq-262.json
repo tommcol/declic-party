@@ -1,0 +1,749 @@
+{
+  "id": "oq-262",
+  "title": "John McEnroe",
+  "originalTitle": "John McEnroe (Perfectionniste surdoué et enragé)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_262.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    8,
+    12
+  ],
+  "questions": [
+    {
+      "id": "oqdb-262-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Face à qui John McEnroe menait-il en finale de Roland-Garros en 1984 ?",
+      "answer": "Ivan Lendl",
+      "options": [
+        "Ivan Lendl",
+        "Stefan Edberg",
+        "Jimmy Connors",
+        "Björn Borg"
+      ],
+      "explanation": "Il n'a jamais réussi à s'imposer à Roland-Garros, bien qu'il ait mené deux sets à zéro en finale face à Ivan Lendl en 1984.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-262",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_262.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-262-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Vers quoi était entièrement tourné le style de jeu de John McEnroe ?",
+      "answer": "Attaque",
+      "options": [
+        "Défense",
+        "Attaque",
+        "Coupé",
+        "Amortie"
+      ],
+      "explanation": "Notamment via son service-volée mais aussi le retour-volée avec une prise de balle ultra précoce dans ses très grands jours.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-262",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_262.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-262-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle marque de vêtements de sport John McEnroe a-t-il longtemps porté ?",
+      "answer": "Sergio Tacchini",
+      "options": [
+        "Nike",
+        "Adidas",
+        "Sergio Tacchini",
+        "Kappa"
+      ],
+      "explanation": "Sergio Tacchini, né le 30 mai 1938, est un ancien joueur de tennis et styliste italien possédant sa marque installée à Novara.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-262",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_262.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-262-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui fut le partenaire de prédilection de John McEnroe en double ?",
+      "answer": "Peter Fleming",
+      "options": [
+        "Peter Fleming",
+        "Sherwood Stewart",
+        "Bob Hewitt",
+        "Fred McNair"
+      ],
+      "explanation": "Redoutable joueur de double, il forma avec John McEnroe la paire la plus forte au monde dans la première partie des années 1980.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-262",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_262.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-262-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel matériau était composée sa raquette jusqu'à fin 1982 ?",
+      "answer": "Bois",
+      "options": [
+        "Graphite",
+        "Aluminium",
+        "Carbone",
+        "Bois"
+      ],
+      "explanation": "En 1988, McEnroe sera recordman du pourcentage de victoires sur une saison avec 82 victoires pour seulement 3 défaites.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-262",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_262.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-262-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Pour lequel de ces traits McEnroe était-il réputé durant son jeu ?",
+      "answer": "Mauvais caractère",
+      "options": [
+        "Timide",
+        "Mauvais caractère",
+        "Souriant",
+        "Silencieux"
+      ],
+      "explanation": "Il lui arrivait fréquemment de se mettre en colère contre les arbitres et les juges de lignes lors de ses matchs.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-262",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_262.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-262-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Avec quelle marque de raquette McEnroe a-t-il principalement joué ?",
+      "answer": "Dunlop",
+      "options": [
+        "Dunlop",
+        "Prince",
+        "Wilson",
+        "Rossignol"
+      ],
+      "explanation": "Le cadre noir de la Max 200 G, avec ses flèches verte et dorée, marque la transition entre l'aluminium, trop flexible, et le graphite.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-262",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_262.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-262-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sur laquelle de ces chaînes télé n'a-t-il pas commenté de matches ?",
+      "answer": "MTV",
+      "options": [
+        "NBC",
+        "MTV",
+        "CBS",
+        "ESPN"
+      ],
+      "explanation": "Devenu commentateur tout comme son frère Patrick, il commente également lors de Wimbledon pour la BBC au Royaume-Uni.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-262",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_262.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-262-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Avec quelle chanteuse américaine John McEnroe a-t-il a formé The Johnny Smyth Band ?",
+      "answer": "Patty Smyth",
+      "options": [
+        "Debbie Harry",
+        "Anne Clark",
+        "Hazel O'Connor",
+        "Patty Smyth"
+      ],
+      "explanation": "Son timbre de voix particulier et son image new wave lui ont valu de la popularité grâce aux clips vidéo diffusés sur MTV.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-262",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_262.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-262-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel pays John McEnroe a-t-il vu le jour en 1959 ?",
+      "answer": "Allemagne",
+      "options": [
+        "Allemagne",
+        "Suisse",
+        "Autriche",
+        "États-Unis"
+      ],
+      "explanation": "Gaucher, John McEnroe a dominé le tennis au début des années 1980 avec Björn Borg, Jimmy Connors et Ivan Lendl.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-262",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_262.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-262-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de tournois en simple du Grand Chelem John McEnroe a-t-il remporté ?",
+      "answer": "Sept",
+      "options": [
+        "Neuf",
+        "Sept",
+        "Huit",
+        "Six"
+      ],
+      "explanation": "Certains spécialistes parlent de génie, tant la technique de McEnroe était empreinte d'inventivité permanente et de simplicité.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-262",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_262.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-262-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle épreuve tennistique John McEnroe a-t-il contribué à relancer ?",
+      "answer": "Coupe Davis",
+      "options": [
+        "Kooyong",
+        "Laver Cup",
+        "Circuit ITF",
+        "Coupe Davis"
+      ],
+      "explanation": "Il a contribué en effet à relancer cette épreuve alors qu'elle était menacée par le désintérêt des meilleurs joueurs américains.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-262",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_262.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-262-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui d'autre que McEnroe a été n°1 mondial en simple et en double ?",
+      "answer": "Stefan Edberg",
+      "options": [
+        "Jim Courier",
+        "Stefan Edberg",
+        "Michael Chang",
+        "Pete Sampras"
+      ],
+      "explanation": "Droitier avec un revers à une main, pratiquant le service-volée, Stefan Adberg compte à son palmarès 42 titres en simple.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-262",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_262.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-262-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui fut l'unique entraîneur de la carrière de John McEnroe ?",
+      "answer": "Lui-même",
+      "options": [
+        "Stan Smith",
+        "Guillermo Vilas",
+        "Lui-même",
+        "Ilie Nastase"
+      ],
+      "explanation": "John McEnroe, membre du International Tennis Hall of Fame depuis 1999, n'a en effet jamais eu d'entraîneur.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-262",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_262.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-262-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À combien s'élève environ le total des gains remportés par John McEnroe ?",
+      "answer": "13 millions",
+      "options": [
+        "19 millions",
+        "10 millions",
+        "13 millions",
+        "16 millions"
+      ],
+      "explanation": "Cette somme fut remportée grâce à son toucher de balle, son service dos au filet, son aisance à la volée et ses réflexes.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-262",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_262.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-262-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Avec quelle fille d'acteur John McEnroe a-t-il eu trois enfants ?",
+      "answer": "Tatum O'Neal",
+      "options": [
+        "Tatum O'Neal",
+        "Beatrice Straight",
+        "Vanessa Redgrave",
+        "Ingrid Bergman"
+      ],
+      "explanation": "Aujourd'hui bisexuelle, elle a obtenu l'Oscar de meilleure actrice dans un second rôle en 1973 pour « La Barbe à papa ».",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-262",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_262.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-262-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de tournois a-t-il remporté en 1984, année de tous les records ?",
+      "answer": "Treize",
+      "options": [
+        "Neuf",
+        "Treize",
+        "Sept",
+        "Onze"
+      ],
+      "explanation": "Il remporte 13 de ses 15 tournois, excepté Roland-Garros et l'Open de Cincinnati, battu par Ivan Lendl et Vijay Amritraj.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-262",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_262.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-262-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Durant quel tournoi McEnroe a-t-il été exclu en huitième de finale ?",
+      "answer": "Open d'Australie",
+      "options": [
+        "Wimbledon",
+        "Open d'Australie",
+        "Roland-Garros",
+        "San José"
+      ],
+      "explanation": "Dans ce match de 1990, McEnroe avait successivement nargué un juge de ligne, brisé une raquette et insulté l'arbitre central.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-262",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_262.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-262-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Avec qui John McEnroe a-t-il gagné Roland-Garros en 1977 en double mixte ?",
+      "answer": "Mary Carillo",
+      "options": [
+        "Carrie Neely",
+        "Mary Carillo",
+        "Sandra Reynolds",
+        "Tatiana Golovin"
+      ],
+      "explanation": "C'est contre la paire Mihai-Molina que la joueuse de tennis américaine Mary Carillo s'est imposée aux côtés de John McEnroe.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-262",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_262.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-262-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel jeu télévisé John McEnroe a-t-il été le présentateur ?",
+      "answer": "The Chair",
+      "options": [
+        "The Chair",
+        "The Wall",
+        "The Jail",
+        "The Fridge"
+      ],
+      "explanation": "Diffusé en 2002 sur ABC et BBC One, ce jeu fut adapté l'année suivante en France sous le nom de « Zone Rouge ».",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-262",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_262.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-262-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année John McEnroe est-il devenu capitaine de l'équipe de Coupe Davis US ?",
+      "answer": "1999",
+      "options": [
+        "2003",
+        "2005",
+        "1999",
+        "2001"
+      ],
+      "explanation": "Déçu par le calendrier et le format de la Coupe Davis, il démissionne 14 mois plus tard, laissant la place à son frère Patrick.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-262",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_262.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-262-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Avec combien de frères John McEnroe a-t-il grandi ?",
+      "answer": "Deux",
+      "options": [
+        "Trois",
+        "Cinq",
+        "Deux",
+        "Quatre"
+      ],
+      "explanation": "John McEnroe a deux frères plus jeunes, Mark (né en 1964) et l'ancien joueur professionnel de tennis Patrick (né en 1966).",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-262",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_262.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-262-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a réalisé le documentaire « McEnroe-Lendl : Le Crépuscule des Dieux » ?",
+      "answer": "Benjamin Rassat",
+      "options": [
+        "Bernard Revon",
+        "Pierre Rehov",
+        "Benjamin Rassat",
+        "Bruno Romy"
+      ],
+      "explanation": "Diffusé sur Arte et sur TV5, le documentaire original qui fait plus de huit heures sera aussi proposé en format 52 minutes.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-262",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_262.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-262-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel club McEnroe a-t-il commencé à jouer au tennis avec ses frères ?",
+      "answer": "Douglaston",
+      "options": [
+        "Robert Douglas",
+        "Douglaston",
+        "Kennedy",
+        "Princetown"
+      ],
+      "explanation": "À neuf ans, ses parents l'inscrivent à l'Eastern Lawn Tennis Association et il joue vite des tournois régionaux puis nationaux.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-262",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_262.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-262-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Avec qui John McEnroe a-t-il fait sa dernière apparition en Grand Chelem en double mixte ?",
+      "answer": "Steffi Graf",
+      "options": [
+        "Serena Williams",
+        "Martina Navratilova",
+        "Steffi Graf",
+        "Chris Evert"
+      ],
+      "explanation": "Sur invitation en 1999, McEnroe atteint les demi-finales de Wimbledon en double mixte, mais ils doivent déclarer forfait.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-262",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_262.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-262-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle école de New York John McEnroe fut-il diplômé en 1977 ?",
+      "answer": "Trinity School",
+      "options": [
+        "Trinity School",
+        "Scott School",
+        "Trafalgar School",
+        "Trenton School"
+      ],
+      "explanation": "C'est en 1977 que John McEnroe débutera la compétition en participant à Roland-Garros, Winbledon et l'US Open.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-262",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_262.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-262-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel fut le dernier titre remporté par John McEnroe sur le circuit principal ?",
+      "answer": "San José",
+      "options": [
+        "Birmingham",
+        "San José",
+        "Charleston",
+        "New Haven"
+      ],
+      "explanation": "En 2006, avec son partenaire suédois Jonas Björkman, John McEnroe remporte le tournoi de San José.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-262",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_262.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-262-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle série télé John McEnroe est-il apparu en 2006 et 2008 ?",
+      "answer": "30 Rock",
+      "options": [
+        "30 Rock",
+        "The Office",
+        "Friends",
+        "Modern Family"
+      ],
+      "explanation": "« 30 Rock » est une série télévisée américaine en 138 épisodes de 25 minutes créée par Tina Fey et diffusée entre 2006 et 2013.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-262",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_262.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

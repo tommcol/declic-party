@@ -1,0 +1,724 @@
+{
+  "id": "oq-224",
+  "title": "Cactus",
+  "originalTitle": "Cactus (Le monde entier est un cactus)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_224.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    22,
+    24,
+    29
+  ],
+  "questions": [
+    {
+      "id": "oqdb-224-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que stockent les cactus dans leurs tissus pour faire plus efficacement face à la sécheresse ?",
+      "answer": "Suc",
+      "options": [
+        "Épines",
+        "Terre",
+        "Suc",
+        "Sel"
+      ],
+      "explanation": "Ce sont presque toutes des plantes grasses ou succulentes, c'est-à-dire des plantes xérophytes qui stockent des réserves de suc.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-224",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_224.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-224-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien d'espèces environ comprend la famille des Cactaceae ?",
+      "answer": "2 500",
+      "options": [
+        "1 500",
+        "4 500",
+        "2 500",
+        "3 500"
+      ],
+      "explanation": "Dans le langage courant, le mot cactus désigne souvent le figuier de Barbarie, plante commune sur les bords de la Méditerranée.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-224",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_224.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-224-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle forme de cactus est souvent appréciée des collectionneurs ?",
+      "answer": "Monstrueuse",
+      "options": [
+        "Arbustive",
+        "Globulaire",
+        "Monstrueuse",
+        "Grimpante"
+      ],
+      "explanation": "L'origine du phénomène est inconnue, probablement due à des mutations réparties en deux catégories : fasciation et cristation.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-224",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_224.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-224-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Avec ses raquettes, de quel pays est originaire le figuier de Barbarie ?",
+      "answer": "Mexique",
+      "options": [
+        "Mexique",
+        "Espagne",
+        "Grèce",
+        "Australie"
+      ],
+      "explanation": "L'espèce est en effet originaire du Mexique, où elle est appelée nopal, et figure de plus dans les armoiries du drapeau mexicain.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-224",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_224.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-224-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quel moment de la journée les cactus absorbent-ils le dioxyde de carbone ?",
+      "answer": "La nuit",
+      "options": [
+        "Le jour",
+        "La nuit",
+        "Jamais",
+        "Jour et nuit"
+      ],
+      "explanation": "Contrairement à la plupart des plantes, les cactus ont un métabolisme acide crassulacéen permettant de fixer le carbone.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-224",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_224.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-224-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a ramené les premiers cactus en Europe (des Melocactus) ?",
+      "answer": "Christophe Colomb",
+      "options": [
+        "Christophe Colomb",
+        "Pedro de Sintra",
+        "Diogo Gomes",
+        "Afonso de Paiva"
+      ],
+      "explanation": "Cactus en forme de melon (d'où leur nom), ils sont originaires des Caraïbes, des Antilles et du nord de l'Amérique du Sud.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-224",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_224.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-224-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Idéalement, à quelle fréquence est-il nécessaire de rempoter un cactus ?",
+      "answer": "Tous les 4 ans",
+      "options": [
+        "Tous les 16 ans",
+        "Tous les 4 ans",
+        "Tous les 8 ans",
+        "Tous les 12 ans"
+      ],
+      "explanation": "Les cactées n'aimant pas l'excès de nourriture, le cactus se développera si le volume du pot ne dépasse pas celui de la plante.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-224",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_224.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-224-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la température la plus adéquate pour le repos hivernal du cactus ?",
+      "answer": "7° C",
+      "options": [
+        "22° C",
+        "17° C",
+        "12° C",
+        "7° C"
+      ],
+      "explanation": "Durant l'été, un bon arrosage une fois par semaine suffit, bien que les cactus puissent aisément se passer d'eau fort longtemps.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-224",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_224.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-224-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle quantité de lumière un cactus a-t-il besoin pour s'épanouir ?",
+      "answer": "Le maximum",
+      "options": [
+        "Le maximum",
+        "Aucune",
+        "Un peu",
+        "Beaucoup"
+      ],
+      "explanation": "Cependant, après l'hivernage, n'exposez pas directement vos cactus en plein soleil mais privilégiez un retour progressif à la lumière.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-224",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_224.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-224-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelles régions du globe les cactus poussent-ils le mieux ?",
+      "answer": "Déserts",
+      "options": [
+        "Montagnes",
+        "Prairies",
+        "Déserts",
+        "Plaines"
+      ],
+      "explanation": "On retrouve principalement les cactus au Mexique, aux États-Unis, sur le pourtour méditerranéen ainsi qu'au Sahara et en Australie.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-224",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_224.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-224-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de loges comporte la baie du fruit du cactus ?",
+      "answer": "Une seule",
+      "options": [
+        "Deux",
+        "Une seule",
+        "Quatre",
+        "Trois"
+      ],
+      "explanation": "Le fruit du cactus doit être une baie à une seule loge car il n'existe de cloisons internes séparant les graines ou les groupes de graines.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-224",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_224.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-224-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel cactus était autrefois utilisé à des fins rituelles par les Amérindiens ?",
+      "answer": "Peyotl",
+      "options": [
+        "Peyotl",
+        "Cereus",
+        "San Pedro",
+        "Hylocereus"
+      ],
+      "explanation": "Ce cactus contient plusieurs alcaloïdes dont la mescaline, utilisée pour ses propriétés enthéogènes, psychotropes et hallucinogènes.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-224",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_224.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-224-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que signifie le mot grec ancien kaktos, d'où provient le nom cactus ?",
+      "answer": "Chardon",
+      "options": [
+        "Résine",
+        "Épine",
+        "Chardon",
+        "Soleil"
+      ],
+      "explanation": "Il a été utilisé comme le nom du premier genre de ces plantes par Carl von Linné, avant que d'autres en soient séparés.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-224",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_224.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-224-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En combien de genres sont réparties les 2 500 espèces de cactus connues ?",
+      "answer": "90",
+      "options": [
+        "70",
+        "50",
+        "30",
+        "90"
+      ],
+      "explanation": "En systématique, le genre est un rang taxinomique qui regroupe un ensemble d'espèces ayant en commun des caractères similaires.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-224",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_224.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-224-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quels cactus ont gardé l'aspect d'arbustes classiques ainsi que leurs vraies feuilles ?",
+      "answer": "Primitifs",
+      "options": [
+        "Colonnaires",
+        "Épiphytes",
+        "Globuleux",
+        "Primitifs"
+      ],
+      "explanation": "Pereskia est un genre de cactus des zones tropicales d'Amérique qui a la particularité rare de porter des feuilles apparentes.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-224",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_224.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-224-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En combien de types morphologiques peuvent être regroupés les cactus ?",
+      "answer": "Cinq",
+      "options": [
+        "Six",
+        "Sept",
+        "Quatre",
+        "Cinq"
+      ],
+      "explanation": "Cactus primitifs, oponces, cactus colonnaires, cactus globuleux et cactus épiphytes à tiges aplaties sont les cinq types morphologiques.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-224",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_224.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-224-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel pays le fait de ramasser des cactus est-il puni de prison ?",
+      "answer": "Mexique",
+      "options": [
+        "Argentine",
+        "Inde",
+        "Mexique",
+        "Algérie"
+      ],
+      "explanation": "Certains pays ont une attitude contradictoire pour la protection des espèces, mais les extensions urbaines détruisent des sites de cactus.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-224",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_224.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-224-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Pour quel élevage l'Opuntia a-t-il été importé en Australie ?",
+      "answer": "Cochenilles",
+      "options": [
+        "Coccinelles",
+        "Coléoptères",
+        "Cloportes",
+        "Cochenilles"
+      ],
+      "explanation": "Philip Miller a attribué le nom d'Opuntia à une plante appelée figuier d'Inde par référence à la ville grecque ancienne d'Oponte.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-224",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_224.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-224-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle technique permet facilement la multiplication des cactus ?",
+      "answer": "Bouturage",
+      "options": [
+        "Marcottage",
+        "Tuteurage",
+        "Cernage",
+        "Bouturage"
+      ],
+      "explanation": "Le bouturage consiste à donner naissance à un nouvel individu à partir d'un organe ou d'un fragment d'organe isolé.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-224",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_224.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-224-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle marque de voiture française propose un modèle baptisé cactus ?",
+      "answer": "Citroën C4",
+      "options": [
+        "Audi Q2",
+        "Citroën C4",
+        "Peugeot P4",
+        "Nissan Juke"
+      ],
+      "explanation": "La C4 Cactus est une berline compacte, initialement typée crossover, présentée le 5 février 2014, date anniversaire d'André Citroën.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-224",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_224.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-224-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel naturaliste a regroupé en 1753 les 22 espèces connues de cactus ?",
+      "answer": "Carl von Linné",
+      "options": [
+        "Carl von Linné",
+        "Daniel Rolander",
+        "Olof Celsius",
+        "Erik Acharius"
+      ],
+      "explanation": "Ce naturaliste suédois, qui a consacré sa vie aux êtres vivants, a fondé les bases du système moderne de la nomenclature binominale.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-224",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_224.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-224-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En botanique, quel signe distinctif différencie les Cactaceae des autres familles ?",
+      "answer": "Aréole",
+      "options": [
+        "Chalaze",
+        "Aréole",
+        "Lenticelle",
+        "Radicule"
+      ],
+      "explanation": "Les aréoles sont des petites excroissances de la plante à partir desquelles partent en faisceau les épines, les poils et les fleurs.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-224",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_224.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-224-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment appelle-t-on une croissance anormale du sommet d'une tige de cactus ?",
+      "answer": "Cristation",
+      "options": [
+        "Résupination",
+        "Cristation",
+        "Sérotinie",
+        "Ostiole"
+      ],
+      "explanation": "La cristation désigne une forme de tératologie végétale qui consiste en la croissance anormale du sommet d'une tige.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-224",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_224.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-224-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel cactus colonnaire est connu pour contenir de la mescaline ?",
+      "answer": "San Pedro",
+      "options": [
+        "Ferocactus",
+        "Parodia",
+        "Oroya",
+        "San Pedro"
+      ],
+      "explanation": "Ce cactus colonnaire à croissance rapide, originaire des Andes péruviennes, pousse entre 2 000 et 3 000 m d'altitude.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-224",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_224.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-224-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle vallée est l'un des plus riches sites de cactus dans le monde ?",
+      "answer": "Vallée de Tehuacan",
+      "options": [
+        "Vallée de Joux",
+        "Vallée de Baïgorry",
+        "Vallée des Usines",
+        "Vallée de Tehuacan"
+      ],
+      "explanation": "D'autres cactus (notamment les Opuntias) se sont acclimatés sur les autres continents après avoir été introduits par l'homme.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-224",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_224.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-224-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel cactus produit le pitaya, également appelé le fruit du dragon ?",
+      "answer": "Hylocereus",
+      "options": [
+        "Peyotl",
+        "Cereus",
+        "Hylocereus",
+        "San Pedro"
+      ],
+      "explanation": "La chair du pitaya est comestible et ressemble par sa texture et la présence de petits pépins noirs à celle du kiwi, au goût plus doux.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-224",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_224.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-224-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle série de BD humoristique est dessinée par Philippe Bercovici ?",
+      "answer": "Cactus Club",
+      "options": [
+        "Circus Cactus",
+        "Cactus Club",
+        "Cactus Man",
+        "Red Cactus"
+      ],
+      "explanation": "Dans un club de vacances, l'animateur Phil, G.O. en chef, est chargé de s'occuper de tous les caprices de ses clients.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-224",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_224.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

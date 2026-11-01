@@ -1,0 +1,774 @@
+{
+  "id": "oq-72",
+  "title": "NBA : joueurs et franchises",
+  "originalTitle": "NBA : joueurs et franchises",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_72.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    8
+  ],
+  "questions": [
+    {
+      "id": "oqdb-72-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel basketteur américain a été champion NBA en 1998 pour la sixième fois de sa carrière ?",
+      "answer": "Michael Jordan",
+      "options": [
+        "Charles Barkley",
+        "Patrick Ewing",
+        "Michael Jordan",
+        "Karl Malone"
+      ],
+      "explanation": "Dans les années 1990, les Bulls ont acquis un des plus beaux palmarès de la Ligue.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-72",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_72.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-72-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle pays est né le joueur de basket-ball professionnel Tony Parker ?",
+      "answer": "La Belgique",
+      "options": [
+        "La France",
+        "La Belgique",
+        "Les États-Unis",
+        "La Pologne"
+      ],
+      "explanation": "Il évolue dans l'équipe des Spurs de San Antonio depuis son arrivée dans la NBA en 2001.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-72",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_72.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-72-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a été élu joueur de la décennie 2000 suite à un sondage du site officiel NBA ?",
+      "answer": "Kobe Bryant",
+      "options": [
+        "Derek Fisher",
+        "Kobe Bryant",
+        "Ron Harper",
+        "Rick Fox"
+      ],
+      "explanation": "Kobe Bryantest le seul joueur en activité en NBA à avoir inscrit plus de 30 000 points en carrière.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-72",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_72.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-72-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel concours de dunks est organisé par la NBA durant le NBA All-Star Week-end ?",
+      "answer": "Slam Dunk Contest",
+      "options": [
+        "Three-point Shootout",
+        "Skills Challenge",
+        "All-Star Game",
+        "Slam Dunk Contest"
+      ],
+      "explanation": "Lors de ce concours, chaque essai est noté de 6 à 10 par cinq juges (qui le plus souvent sont d'anciens joueurs).",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-72",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_72.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-72-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel basketteur américain a réalisé en 2000 un 360 degrés inversé mythique ?",
+      "answer": "Vince Carter",
+      "options": [
+        "Marc Gasol",
+        "Vince Carter",
+        "Andrew Harrison",
+        "Jarnell Stokes"
+      ],
+      "explanation": "Vince Carter est le premier joueur de l'histoire des Nets à inscrire plus de 2000 points en une saison.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-72",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_72.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-72-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel joueur de NBA se définit lui-même comme un « viking africain » ?",
+      "answer": "Joakim Noah",
+      "options": [
+        "Derrick Rose",
+        "Joakim Noah",
+        "Aaron Brooks",
+        "Pau Gasol"
+      ],
+      "explanation": "Joakim Noahm mesure 2,11 m pour 105,2 kg et évolue au poste de pivot et d'ailier fort.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-72",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_72.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-72-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel événement annuel majeur de la NBA est comparable à une bourse de joueurs ?",
+      "answer": "La draft",
+      "options": [
+        "Les playoffs",
+        "La draft",
+        "Le ballotage",
+        "La franchise"
+      ],
+      "explanation": "Durant la draft, chaque équipe va sélectionner à tour de rôle un joueur issu de l’université, du lycée, ou de l’étranger.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-72",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_72.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-72-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui est le premier joueur français à avoir été sacré champion NBA ?",
+      "answer": "Tony Parker",
+      "options": [
+        "Paul Pierce",
+        "Joe Dumars",
+        "Tony Parker",
+        "Tim Duncan"
+      ],
+      "explanation": "Tony Parker est également président et actionnaire majoritaire du club français de l'ASVEL Lyon-Villeurbanne.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-72",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_72.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-72-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel match annuel français est librement inspiré du NBA All-Star Game ?",
+      "answer": "All-Star Game LNB",
+      "options": [
+        "All-Star Game LNB",
+        "LNB Espoirs",
+        "Tournoi des As",
+        "Leaders Cup"
+      ],
+      "explanation": "À l'image de son homologue américain, de nombreuses animations viennent compléter le gala.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-72",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_72.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-72-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces joueurs est connu pour avoir marqué 100 points dans un match NBA ?",
+      "answer": "Wilt Chamberlain",
+      "options": [
+        "Wilt Chamberlain",
+        "Larry Bird",
+        "Magic Earvin Johnson",
+        "Michael Jordan"
+      ],
+      "explanation": "Wilt Chamberlain a magistralement dominé tous les autres pivots de NBA dans les années 1960.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-72",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_72.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-72-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En NBA, quel meneur de Cleveland a été élu « meilleure révélation 2012 » ?",
+      "answer": "Kyrie Irving",
+      "options": [
+        "Joe Harris",
+        "LeBron James",
+        "James Jones",
+        "Kyrie Irving"
+      ],
+      "explanation": "Kyrie Irving est un excellent dribbleur, un très bon tireur à mi-distance et est très fort pour pénétrer dans la raquette.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-72",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_72.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-72-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a élu deux fois meilleur joueur de la NBA, en 2005 et 2006 ?",
+      "answer": "Steve Nash",
+      "options": [
+        "Marlon Garnett",
+        "Jeff Brown",
+        "Dana Jones",
+        "Steve Nash"
+      ],
+      "explanation": "Steve Nash a terminé meilleur passeur de la ligue à 5 reprises (2005, 2006, 2007, 2010 et 2011).",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-72",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_72.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-72-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En NBA, quel dunk a été rendu très populaire grâce à Dominique Wilkins ?",
+      "answer": "Windmill",
+      "options": [
+        "Tomahawk",
+        "Windmill",
+        "Rider",
+        "Poster dunk"
+      ],
+      "explanation": "Dominique Wilkins fait aujourd'hui partie de l'organisation des Hawks d'Atlanta où il est chargé des opérations basket.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-72",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_72.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-72-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle franchise est devenue en 2012 la pire équipe NBA en pourcentage de victoires ?",
+      "answer": "Hornets",
+      "options": [
+        "Heat",
+        "Pacers",
+        "Pistons",
+        "Hornets"
+      ],
+      "explanation": "La franchise, évoluant dans la Division Sud-Est de la Conférence Est, appartient à Michael Jordan depuis 2010.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-72",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_72.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-72-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel joueur américain de basket-ball a été élu meilleur marqueur NBA en 2010 ?",
+      "answer": "Kevin Durant",
+      "options": [
+        "Jeremy Lamb",
+        "Doc Rivers",
+        "Shaquille O'Neal",
+        "Kevin Durant"
+      ],
+      "explanation": "En 2010, Kevin Durant a conduit l'équipe des États-Unis au titre mondial lors du championnat du monde disputé en Turquie.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-72",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_72.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-72-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle somme les Rockets ont-ils proposé à Jeremy Lin pour son contrat de 3 ans en NBA ?",
+      "answer": "25 millions",
+      "options": [
+        "20 millions",
+        "5 millions",
+        "25 millions",
+        "15 millions"
+      ],
+      "explanation": "Jeremy Lin est le premier américain d'origine taïwanaise à évoluer dans la NBA.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-72",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_72.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-72-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel événement annuel majeur de la NBA est organisé à la fin du mois de juin ?",
+      "answer": "La draft",
+      "options": [
+        "Le ballotage",
+        "Les playoffs",
+        "La franchise",
+        "La draft"
+      ],
+      "explanation": "La draft est le point d'entrée principal pour la majorité des joueurs évoluant en NBA.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-72",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_72.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-72-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle équipe a remporté en 2012 le titre NBA avec un succès étourdissant ?",
+      "answer": "Heat de Miami",
+      "options": [
+        "Pistons de Détroit",
+        "Heat de Miami",
+        "Celtics de Boston",
+        "Nets de Brooklyn"
+      ],
+      "explanation": "Le Heat est la seule franchise NBA à avoir retiré le numéro d’un joueur qui n’a pas évolué dans la franchise.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-72",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_72.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-72-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel ailier français a signé en 2012 un contrat NBA de 46 millions avec Portland ?",
+      "answer": "Nicolas Batum",
+      "options": [
+        "Kemba Walker",
+        "Jeremy Lamb",
+        "Nicolas Batum",
+        "Elliot Williams"
+      ],
+      "explanation": "Nicolas Batum est le fils de Richard Batum, joueur professionnel de basket-ball d'origine camerounaise.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-72",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_72.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-72-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle équipe de basket-ball a remporté les Playoffs 2009 en NBA ?",
+      "answer": "Los Angeles Lakers",
+      "options": [
+        "Chicago Bulls",
+        "Los Angeles Lakers",
+        "San Antonio Spurs",
+        "Orlando Magic"
+      ],
+      "explanation": "Les séries éliminatoires (playoffs) de la NBA se disputent au meilleur des sept matchs.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-72",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_72.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-72-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le dernier club NBA dans lequel a joué Michael Jordan ?",
+      "answer": "Washington Wizards",
+      "options": [
+        "Washington Wizards",
+        "San Antonio Spurs",
+        "Chicago Bulls",
+        "Lakers Los Angeles"
+      ],
+      "explanation": "Michael Jordan a contribué à populariser la NBA dans les années 1980 et 1990.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-72",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_72.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-72-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui fut le premier basketteur français à jouer en NBA ?",
+      "answer": "Tariq Abdul-Wahad",
+      "options": [
+        "Tariq Abdul-Wahad",
+        "Richard Dacoury",
+        "Joakim Noah",
+        "Tony Parker"
+      ],
+      "explanation": "En NBA, il a été transféré successivement au Orlando Magic puis aux Denver Nuggets.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-72",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_72.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-72-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le véritable prénom du basketteur américain surnommé « Magic Johnson » ?",
+      "answer": "Earvin",
+      "options": [
+        "Isiah",
+        "Chris",
+        "Earvin",
+        "Kevin"
+      ],
+      "explanation": "En 1992, il fait partie de la « Dream Team » aux JO de Barcelone et décroche l'or.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-72",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_72.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-72-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a été élu meilleur sixième homme de la saison 2011-2012 de NBA ?",
+      "answer": "James Harden",
+      "options": [
+        "Terrence Jones",
+        "Corey Brewer",
+        "Clint Capela",
+        "James Harden"
+      ],
+      "explanation": "James Hardenévolue depuis 2012 aux Rockets de Houston après avoir passé trois saisons au Thunder d'Oklahoma City.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-72",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_72.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-72-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Avec quelle équipe Steve Nash, meneur des NBA Suns, a-t-il signé pour 3 ans en 2012 ?",
+      "answer": "Les Lakers",
+      "options": [
+        "Les Suns",
+        "Les Lakers",
+        "Les Nuggets",
+        "Les Clippers"
+      ],
+      "explanation": "Steve Nash a terminé meilleur passeur de la ligue à 5 reprises (2005, 2006, 2007, 2010 et 2011).",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-72",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_72.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-72-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En NBA, combien de français joueront chez les Spurs durant la saison 2013 ?",
+      "answer": "Trois",
+      "options": [
+        "Cinq",
+        "Quatre",
+        "Six",
+        "Trois"
+      ],
+      "explanation": "Gregg Popovich est l'un des pionniers dans la recherche de joueurs qui ne sont pas issus du basket-ball universitaire américain.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-72",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_72.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-72-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel basketteur français a été champion NBA en 2011 avec Dallas ?",
+      "answer": "Ian Mahinmi",
+      "options": [
+        "Monta Ellis",
+        "George Hill",
+        "Ian Mahinmi",
+        "Lavoy Allen"
+      ],
+      "explanation": "Ian Mahinmi a également été vainqueur de la Coupe de France en 2007.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-72",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_72.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-72-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En 2012, quel basketteur français a signé pour trois ans en NBA avec les Nuggets ?",
+      "answer": "Evan Fournier",
+      "options": [
+        "John Henson",
+        "Evan Fournier",
+        "Andre Drummond",
+        "Jeremy Lamb"
+      ],
+      "explanation": "Les Nuggets ont levé l'option qu'ils possèdaient sur son contrat pour le prolonger jusqu'au terme de la saison 2014-2015.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-72",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_72.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-72-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel ancien joueur de basket-ball américain était surnommé « Big dog » ?",
+      "answer": "Glenn Robinson",
+      "options": [
+        "Bobby Jackson",
+        "Glenn Robinson",
+        "Brian Evans",
+        "Brian Cook"
+      ],
+      "explanation": "Glenn Robinson a signé comme agent-libre aux Spurs de San Antonio le 4 avril 2005, en toute fin de saison.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-72",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_72.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

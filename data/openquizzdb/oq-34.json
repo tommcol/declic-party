@@ -1,0 +1,774 @@
+{
+  "id": "oq-34",
+  "title": "Clint Eastwood",
+  "originalTitle": "Clint Eastwood",
+  "universe": "film",
+  "emoji": "🎬",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_34.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    28
+  ],
+  "questions": [
+    {
+      "id": "oqdb-34-1",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quel film de Clint Eastwood un fugitif prend-il en otage un jeune enfant ?",
+      "answer": "Un monde parfait",
+      "options": [
+        "La Corde raide",
+        "Magnum Force",
+        "Un monde parfait",
+        "La Sanction"
+      ],
+      "explanation": "Alors que le film a été proposé à Steven Spielberg, c'est finalement Clint Eastwood qui a récupéré le projet.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-34",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_34.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-34-2",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le prénom du premier enfant de l'acteur et réalisateur Clint Eastwood ?",
+      "answer": "Kyle",
+      "options": [
+        "Alison",
+        "Kyle",
+        "Kimber",
+        "Scott"
+      ],
+      "explanation": "Après avoir fait des études de cinéma, Kyle Eastwood est devenu bassiste et contrebassiste de jazz.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-34",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_34.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-34-3",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quel film sorti en 1974 Jeff Bridges a-t-il volé la vedette à Clint Eastwood ?",
+      "answer": "Le Canardeur",
+      "options": [
+        "Le Canardeur",
+        "La Dernière Chance",
+        "Stay Hungry",
+        "Rancho Deluxe"
+      ],
+      "explanation": "La bande originale du film est composée par Dee Barton mais la chanson titre est interprétée et composée par Paul Williams.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-34",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_34.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-34-4",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle actrice et compagne Clint Eastwood surnommait-il « princesse » ?",
+      "answer": "Sondra Locke",
+      "options": [
+        "Jocelyn Reeves",
+        "Dina Ruiz",
+        "Sondra Locke",
+        "Frances Fisher"
+      ],
+      "explanation": "Après la séparation d’avec Clint Eastwood et de graves problèmes de santé, les années 1990 furent plus chaotiques pour elle.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-34",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_34.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-34-5",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quel film de guerre Clint Eastwood interprète-t-il le rôle de Tom Highway ?",
+      "answer": "Le Maître de guerre",
+      "options": [
+        "Les Pleins Pouvoirs",
+        "Le Maître de guerre",
+        "Le Canardeur",
+        "La Sanction"
+      ],
+      "explanation": "Le titre en anglais fait référence à la bataille de Crèvecœur (Battle of Heartbreak Ridge), pendant la guerre de Corée.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-34",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_34.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-34-6",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui retrouve-t-on aux côtés de Clint Eastwood dans le film 'Sur la route de Madison' ?",
+      "answer": "Meryl Streep",
+      "options": [
+        "Meryl Streep",
+        "Jane Fonda",
+        "Sondra Locke",
+        "Jodie Foster"
+      ],
+      "explanation": "Le film a reçu un Oscar de la meilleure actrice pour Meryl Streep et un César du meilleur film étranger en 1996.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-34",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_34.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-34-7",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel film Clint Eastwood a-t-il consacré au saxophoniste Charlie Parker ?",
+      "answer": "Bird",
+      "options": [
+        "La Dernière Chance",
+        "Pink Cadillac",
+        "Breezy",
+        "Bird"
+      ],
+      "explanation": "Le film est l'un des très rares consacrés au jazz et émane d'un réalisateur lui-même musicien.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-34",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_34.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-34-8",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "À 70 ans, quel film Clint Eastwood a-t-il tourné en accord avec la NASA ?",
+      "answer": "Space Cowboys",
+      "options": [
+        "Au-delà",
+        "La Relève",
+        "Invictus",
+        "Space Cowboys"
+      ],
+      "explanation": "Clint Estwood a voulu ici rendre hommage à des pionniers de l'aviation moderne qui n'ont pu participer à la conquête spatiale.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-34",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_34.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-34-9",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui interprète le rôle de la jeune boxeuse dans 'Million Dollar Baby', de Clint Eastwood ?",
+      "answer": "Hilary Swank",
+      "options": [
+        "Charlize Theron",
+        "Reese Witherspoon",
+        "Halle Berry",
+        "Hilary Swank"
+      ],
+      "explanation": "Pour se préparer au rôle, Hilary Swank, qui n'a eu que trois mois, s'est entraînée avec Hector Roca, un ancien coach.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-34",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_34.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-34-10",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel réalisateur a embauché Clint Eastwood pour la 'Trilogie du dollar' ?",
+      "answer": "Sergio Leone",
+      "options": [
+        "Giorgio Ferroni",
+        "Sergio Leone",
+        "Sergio Corbucci",
+        "Tonino Valerii"
+      ],
+      "explanation": "Les films ont été réunis sous ce nom commun pour des raisons promotionnelles postérieures à leur réalisation et diffusion.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-34",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_34.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-34-11",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quelle série traitant de la transhumance Clint Eastwood incarne-t-il Rowdy ?",
+      "answer": "Rawhide",
+      "options": [
+        "Rawhide",
+        "Les Proies",
+        "Les Sorcières",
+        "Sierra torride"
+      ],
+      "explanation": "Cette série est surtout restée célèbre pour avoir fait découvrir un jeune acteur prometteur : Clint Eastwood.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-34",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_34.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-34-12",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quel film Clint et Kyle Eastwood ont-ils joué ensemble sur fond de country ?",
+      "answer": "Honkytonk Man",
+      "options": [
+        "Pink Cadillac",
+        "Bird",
+        "Honkytonk Man",
+        "Mystic River"
+      ],
+      "explanation": "Le film a été nominé au prix de la plus mauvaise chanson (Gail Redd et Mitchell Torok, pour 'No Sweeter Cheater Than You').",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-34",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_34.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-34-13",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Le premier film réalisé par Clint Eastwood en 1971 a pour titre 'Un frisson dans...'",
+      "answer": "La nuit",
+      "options": [
+        "La suie",
+        "La nuit",
+        "La pluie",
+        "La vie"
+      ],
+      "explanation": "Clint Eastwood ne fut payé qu'en tant qu'acteur pour ce film, ayant en effet accepté de ne pas être rétribué comme réalisateur.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-34",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_34.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-34-14",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le nom de famille du célèbre inspecteur Harry interprété par Clint Eastwood ?",
+      "answer": "Calahan",
+      "options": [
+        "Dunn",
+        "Coogan",
+        "Beddoe",
+        "Calahan"
+      ],
+      "explanation": "L'histoire de ce film s'inspire du tueur du Zodiaque, qui sévit à San Francisco dès la fin des années 1960.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-34",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_34.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-34-15",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Le tournage de quel film de Clint Eastwood a-t-il eu lieu dans les Alpes suisses ?",
+      "answer": "La Sanction",
+      "options": [
+        "Créance de sang",
+        "Les Proies",
+        "La Sanction",
+        "Les Sorcières"
+      ],
+      "explanation": "Le film devait être interprété au départ par Paul Newman, mais celui-ci n'était pas intéressé par le projet.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-34",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_34.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-34-16",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quel film sorti en 1984 Clint et Alison Eastwood ont-ils joué ensemble ?",
+      "answer": "La Corde raide",
+      "options": [
+        "Un monde parfait",
+        "La Corde raide",
+        "Joe Kidd",
+        "Ça va cogner"
+      ],
+      "explanation": "'La Corde raide' mélange ambiance noire, réalisation haletante ainsi qu'un questionnement sur les rapports sexe / pouvoir / argent.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-34",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_34.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-34-17",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "De quelle ville de Californie Clint Eastwood a-t-il été élu maire en 1986 ?",
+      "answer": "Carmel",
+      "options": [
+        "Fremont",
+        "Carmel",
+        "Fresno",
+        "Inglewood"
+      ],
+      "explanation": "Carmel-by-the-Sea est une municipalité américaine de Californie, située à environ 150 km au sud de San Francisco.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-34",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_34.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-34-18",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "En quelle année Clint Eastwood a-t-il présidé le jury du Festival de Cannes ?",
+      "answer": "1994",
+      "options": [
+        "2002",
+        "2006",
+        "1998",
+        "1994"
+      ],
+      "explanation": "L'actrice, chanteuse et réalisatrice Jeanne Moreau fut à nouveau chargée d'animer les cérémonies d'ouverture et de remise des prix.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-34",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_34.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-34-19",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel film de Clint Eastwood met en scène trois anciens amis liés par un sombre incident ?",
+      "answer": "Mystic River",
+      "options": [
+        "Pink Cadillac",
+        "Mystic River",
+        "Million Dollar Baby",
+        "Gran Torino"
+      ],
+      "explanation": "Clint Eastwood a expliqué que Sean Penn, Tim Robbins et Kevin Bacon étaient ses premiers choix pour les rôles principaux.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-34",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_34.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-34-20",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Avec quelle société Clint Eastwood est-il devenu producteur en 1968 ?",
+      "answer": "Malpaso",
+      "options": [
+        "Malpaso",
+        "Newsreel",
+        "Brooksfilms",
+        "TriStar"
+      ],
+      "explanation": "Irving Leonard a été le président de la compagnie jusqu'à son décès en décembre 1969 à l'âge de 53 ans.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-34",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_34.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-34-21",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Combien de Césars Clint Eastwood a-t-il reçu au cours de sa carrière ?",
+      "answer": "Trois",
+      "options": [
+        "Deux",
+        "Trois",
+        "Un",
+        "Aucun"
+      ],
+      "explanation": "Clint Eastwood a remporté quatre Oscars, cinq Golden Globes, trois Césars et la Palme d'honneur au Festival de Cannes en 2009.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-34",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_34.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-34-22",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Grâce à qui Clint Eastwood a-t-il découvert le jazz via une collection des disques ?",
+      "answer": "Sa mère",
+      "options": [
+        "Son père",
+        "Sa mère",
+        "Sa sœur",
+        "Son frère"
+      ],
+      "explanation": "Adolescent, il commence lui-même à jouer de la clarinette, puis du piano, et finit même par prendre des cours.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-34",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_34.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-34-23",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel film avec Clint Eastwood fut appelé 'Vigilance' avant son titre définitif ?",
+      "answer": "Magnum Force",
+      "options": [
+        "Le Canardeur",
+        "La Sanction",
+        "Honkytonk Man",
+        "Magnum Force"
+      ],
+      "explanation": "À noter la présence d'Albert Popwell, qui apparaît dans les quatre premiers films de la saga avec un rôle à chaque fois différent.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-34",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_34.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-34-24",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel domaine fut le premier contact entre Clint Eastwood et le monde artistique ?",
+      "answer": "La photographie",
+      "options": [
+        "Le théâtre",
+        "La danse",
+        "La sculpture",
+        "La photographie"
+      ],
+      "explanation": "'Sur la route de Madison', clint Eastwood interprète un photographe qui va vivre un grand amour romantique sans lendemain.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-34",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_34.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-34-25",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle société a remis à Clint Eastwood son diplôme de maître-nageur ?",
+      "answer": "La Croix-Rouge",
+      "options": [
+        "La Croix-Rouge",
+        "Speedo",
+        "Universal",
+        "IBM"
+      ],
+      "explanation": "Clint Eastwood a reçu au même moment sa convocation au service militaire, où ce diplôme de maître-nageur se révéla précieux.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-34",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_34.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-34-26",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Durant quel tournage Clint Eastwood a-t-il attrapé une grippe puis une bronchite ?",
+      "answer": "Joe Kidd",
+      "options": [
+        "Jugé coupable",
+        "Impitoyable",
+        "Joe Kidd",
+        "Casper"
+      ],
+      "explanation": "Clint Eastwood, Robert Duvall et John Saxon s'illustrent tout spécialement dans cette œuvre efficace mais classique.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-34",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_34.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-34-27",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Comment Clint Eastwood fut-il longtemps surnommé par ses parents ?",
+      "answer": "Sonny",
+      "options": [
+        "Clinny",
+        "Woody",
+        "Easty",
+        "Sonny"
+      ],
+      "explanation": "Il fut aussi surnommé Clinton Jr. en hommage à son père, bien que son nom complet soit Clinton Elias Eastwood Jr.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-34",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_34.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-34-29",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Sous quel label Clint Eastwood a-t-il enregistré son premier album ?",
+      "answer": "Cameo",
+      "options": [
+        "Jazzovo",
+        "Figaro",
+        "Cameo",
+        "Malpaso"
+      ],
+      "explanation": "La société Cameo Records, créée en 1922 et basée à Manhattan, proposait des distributions se concentrant autour du jazz.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-34",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_34.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-34-30",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le prénom du deuxième enfant de Clint Eastwood, né en 1972 ?",
+      "answer": "Alison",
+      "options": [
+        "Alison",
+        "Kimber",
+        "Kyle",
+        "Scott"
+      ],
+      "explanation": "Après une adolescence rebelle, Alison Eastwood part à 18 ans étudier le métier d'actrice à Santa Barbara.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-34",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_34.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

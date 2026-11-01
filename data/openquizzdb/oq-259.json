@@ -1,0 +1,774 @@
+{
+  "id": "oq-259",
+  "title": "Culture en vrac 5",
+  "originalTitle": "Culture en vrac 5 (De la culture générale à tous les niveaux)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_259.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    18
+  ],
+  "questions": [
+    {
+      "id": "oqdb-259-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Avec quel célèbre trader la Société générale est-elle en froid depuis 2010 ?",
+      "answer": "Jérôme Kerviel",
+      "options": [
+        "Georges Besse",
+        "Jérôme Kerviel",
+        "Serge Dassault",
+        "Alain Cayzac"
+      ],
+      "explanation": "Jérôme Kerviel fut jugé responsable de la totalité des pertes enregistrées par la Société générale, soit 4,9 milliards d'euros.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-259",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_259.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-259-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel projet de lunettes à réalité augmentée fut conçu en 2012 par Google ?",
+      "answer": "Google Glass",
+      "options": [
+        "Google Homido",
+        "Google Glass",
+        "Google Rift",
+        "Google Cardboard"
+      ],
+      "explanation": "La production fut suspendue en 2015, les Google Glass étant arrivées au point mort par leur manque d'applications et leur prix.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-259",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_259.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-259-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le nom du charismatique fondateur et propriétaire du site Megaupload ?",
+      "answer": "Kim Dotcom",
+      "options": [
+        "Robert Capa",
+        "Michael Jary",
+        "Nicolas Born",
+        "Kim Dotcom"
+      ],
+      "explanation": "Le gouvernement américain a annoncé avoir récupéré 65 millions de dollars de la fortune détournée de Kim Schmitz, alias Kim Dotcom.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-259",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_259.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-259-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a été choisi par TF1 comme successeur de Laurence Ferrari au journal de 20 heures ?",
+      "answer": "Gilles Bouleau",
+      "options": [
+        "Gilles Bouleau",
+        "Thomas Hugues",
+        "Jacques Legros",
+        "Julien Arnaud"
+      ],
+      "explanation": "Discret et sobre, respecté en interne, son image tranche avec celle de ses prédécesseurs et porte ses fruits en termes d'audience.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-259",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_259.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-259-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel écureuil préhystérique est probablement le plus célèbre du cinéma ?",
+      "answer": "Scrat",
+      "options": [
+        "Scrat",
+        "Alvin",
+        "Eddy",
+        "Spip"
+      ],
+      "explanation": "Scrat, l'écureuil à dents de sabre, est doublé par Chris Wedge dans toutes les versions étrangères, l'écureuil n'ayant aucun dialogue.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-259",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_259.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-259-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel groupe punk rock a chanté en public une chanson anti-Poutine à Moscou ?",
+      "answer": "Pussy Riot",
+      "options": [
+        "Blonde Electra",
+        "Nina Sky",
+        "Zap Mama",
+        "Pussy Riot"
+      ],
+      "explanation": "Elles furent condamnées en 2012 à deux ans d'emprisonnement pour vandalisme et incitation à la haine religieuse.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-259",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_259.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-259-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de temps a duré le mariage entre Johnny Depp et Vanessa Paradis ?",
+      "answer": "14 ans",
+      "options": [
+        "14 ans",
+        "8 ans",
+        "10 ans",
+        "12 ans"
+      ],
+      "explanation": "Vanessa Paradis et Johnny Depp ont vécu avec leurs enfants à Los Angeles ainsi que dans leur propriété française du Var.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-259",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_259.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-259-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel petit objet les automobilistes français doivent-ils posséder depuis juillet 2012 ?",
+      "answer": "Éthylotest",
+      "options": [
+        "Éthylotest",
+        "GPS",
+        "Triangle",
+        "Sapin magique"
+      ],
+      "explanation": "Il existe deux types d'éthylotest : chimiques, composés d'un réactif et électroniques, qui comportent une sonde.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-259",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_259.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-259-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle opposante à la dictature de son pays a reçu le prix Nobel de la paix en 1991 ?",
+      "answer": "Aung San Suu Kyi",
+      "options": [
+        "Radhia Nasraoui",
+        "Rosa Taikon",
+        "Salima Ghezali",
+        "Aung San Suu Kyi"
+      ],
+      "explanation": "Bien que la Birmanie ait entamé une transition démocratique, le gouvernement doit composer avec une armée puissante.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-259",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_259.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-259-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel appareil a été débranché par France Telecom après 30 ans de service ?",
+      "answer": "Minitel",
+      "options": [
+        "Téléscripteur",
+        "Diatonis",
+        "Minitel",
+        "Fax"
+      ],
+      "explanation": "Ce terminal informatique était destiné à la connexion au service français de Vidéotex baptisé Télétel, exploité entre 1980 et 2012.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-259",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_259.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-259-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment le module « Titan » de Facebook fut-il surnommé par les internautes ?",
+      "answer": "Gmail killer",
+      "options": [
+        "Skype grabber",
+        "Gmail killer",
+        "Twitter eraser",
+        "Messenger hunter"
+      ],
+      "explanation": "Aux USA, il apparaît que le leader du marché est clairement Yahoo, suivi par Hotmail et Google avec 15 % de part du marché.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-259",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_259.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-259-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel avion solaire André Borschberg a-t-il posé à Ouarzazate après un vol de 700 km ?",
+      "answer": "Solar Impulse",
+      "options": [
+        "Sunseeker",
+        "Helios",
+        "Centurion",
+        "Solar Impulse"
+      ],
+      "explanation": "Le projet vise à faire voler de nuit comme de jour un avion monoplace à moteurs électriques alimentés par l'énergie solaire.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-259",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_259.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-259-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel titre du groupe Muse a été choisi comme hymne officiel pour les JO de Londres ?",
+      "answer": "Survival",
+      "options": [
+        "Survival",
+        "Uno",
+        "Liquid State",
+        "Dig Down"
+      ],
+      "explanation": "Il sera interprété lors de la cérémonie d'ouverture des Jeux, de la remise des médailles et à chaque retransmission télévisuelle.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-259",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_259.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-259-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle actrice a incarné le docteur Cuddy dans « Dr House » pendant sept saisons ?",
+      "answer": "Lisa Edelstein",
+      "options": [
+        "Sela Ward",
+        "Lisa Edelstein",
+        "Olivia Wilde",
+        "Jennifer Morrison"
+      ],
+      "explanation": "En tant que végane, elle milite activement en faveur d'un mode de vie rejetant toute exploitation animale.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-259",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_259.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-259-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel était le nom initial de la tablette tactile fabriquée par Microsoft ?",
+      "answer": "Surface",
+      "options": [
+        "Zune",
+        "Lumia",
+        "Kin",
+        "Surface"
+      ],
+      "explanation": "PixelSense est un système informatique utilisant la technologie surface computing basé sur Windows Vista SP1 sur un écran tactile.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-259",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_259.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-259-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle chaîne de télévision francophone est sans conteste LA chaîne de la mode ?",
+      "answer": "Paris Première",
+      "options": [
+        "Canal J",
+        "Paris Première",
+        "Numéro 23",
+        "Gulli"
+      ],
+      "explanation": "Paris Première est une chaîne de télévision généraliste nationale française de la TNT créée en 1986 qui appartient au Groupe M6.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-259",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_259.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-259-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle actrice incarne une mère toxico dans le film « The Town » de Ben Affleck ?",
+      "answer": "Blake Lively",
+      "options": [
+        "Rebecca Hall",
+        "Jennifer Garner",
+        "Sharon Stone",
+        "Blake Lively"
+      ],
+      "explanation": "Victor Garber, qui incarne l'un des otages du premier braquage, a présidé la cérémonie de mariage de Ben Affleck et Jennifer Garner.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-259",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_259.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-259-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle console de jeux vidéo portable de Sony a remplacé la PSP en 2012 ?",
+      "answer": "Vita",
+      "options": [
+        "Vita",
+        "Neo-Geo X",
+        "N-Gage",
+        "Game Gear"
+      ],
+      "explanation": "La console, compatible Bluetooth, Wi-Fi, et 3G en option, comprend deux sticks analogiques et un écran tactile OLED capacitif.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-259",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_259.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-259-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel groupe britannique est considéré comme l'un des porte-drapeaux de la Britpop ?",
+      "answer": "Blur",
+      "options": [
+        "Blur",
+        "The Fall",
+        "Elastica",
+        "Milburn"
+      ],
+      "explanation": "En 1997, Blur a rompu avec la Britpop en sortant un album homonyme qui atteindra la première place des charts.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-259",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_259.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-259-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de dollars aurait rapporté en cinq ans à la firme Apple son célèbre iPhone ?",
+      "answer": "150 milliards",
+      "options": [
+        "150 milliards",
+        "90 milliards",
+        "120 milliards",
+        "60 milliards"
+      ],
+      "explanation": "L'iPhone reste à ce jour l'appareil qui a transformé le marché des téléphones intelligents en en faisant des produits de masse.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-259",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_259.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-259-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Rachel Legrain-Trapani a été élue Miss France, mais de quelle année ?",
+      "answer": "2007",
+      "options": [
+        "2013",
+        "2007",
+        "2011",
+        "2009"
+      ],
+      "explanation": "Début 2008, elle intègre la bande du 6-9 avec Bruno Guillon, où elle tient une chronique dans « Faites entrer l'invité » sur la chaîne NRJ12.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-259",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_259.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-259-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel chien est avec Jean Dujardin une des stars du film « The Artist » ?",
+      "answer": "Uggie",
+      "options": [
+        "Blondi",
+        "Balto",
+        "Uggie",
+        "Clément"
+      ],
+      "explanation": "Recueilli tout jeune par le dresseur colombien Omar von Muller, Uggie laissera ses empreintes sur le Walk of Fame.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-259",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_259.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-259-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle année marqua le 300ème anniversaire de la naissance de Jean-Jacques Rousseaux ?",
+      "answer": "2012",
+      "options": [
+        "2012",
+        "1992",
+        "2002",
+        "1982"
+      ],
+      "explanation": "Une controverse opposera ceux qui estiment que Rousseau est en quelque sorte le père des totalitarismes et ceux qui l'en exonèrent.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-259",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_259.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-259-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel outil de microblogage pour entreprises a été racheté en 2012 par Microsoft ?",
+      "answer": "Yammer",
+      "options": [
+        "LinkedIn",
+        "Yammer",
+        "Myspace",
+        "Viadeo"
+      ],
+      "explanation": "Selon TechCrunch en septembre 2010, le service était utilisé par un million d'utilisateurs au sein de 80 000 entreprises dans le monde.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-259",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_259.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-259-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel auteur des « Allumettes suédoises » est décédé le 28 juin 2012 à 88 ans ?",
+      "answer": "Robert Sabatier",
+      "options": [
+        "Lucien Gachon",
+        "Robert Sabatier",
+        "Georges Conchon",
+        "Pierre Biron"
+      ],
+      "explanation": "Aussi connu comme Robert Vellerut, il fut membre du comité d'honneur de la Maison internationale des poètes de Saint-Malo.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-259",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_259.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-259-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À qui les Rolling Stones ont-ils confié leur logo pour leur 50e anniversaire ?",
+      "answer": "Shephard Fairey",
+      "options": [
+        "Anthony Clark",
+        "Curtis Kulig",
+        "Kenny Scharf",
+        "Shephard Fairey"
+      ],
+      "explanation": "Issu de la scène du skateboard, Shephard Fairey s'est d'abord fait connaître par les autocollants « André the Giant Has a Posse ».",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-259",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_259.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-259-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel anniversaire la célèbre marque de lunettes Ray-Ban a-t-elle fêté en 2012 ?",
+      "answer": "Ses 75 ans",
+      "options": [
+        "Ses 25 ans",
+        "Ses 50 ans",
+        "Ses 75 ans",
+        "Ses 100 ans"
+      ],
+      "explanation": "L'US Air Force a commandé en 1933 un modèle pour ses pilotes de chasse qui pris le nom d'Aviator à sa commercialisation en 1936.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-259",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_259.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-259-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui est le manager de la chanteuse et actrice Jane Birkin ?",
+      "answer": "Olivier Gluzman",
+      "options": [
+        "Steve Goncalves",
+        "Olivier Gluzman",
+        "Tim Smith",
+        "Adam Alpert"
+      ],
+      "explanation": "Presque totalement absente au cinéma dans les années 1990, Jane Birkin reviendra auréolée d'un statut d'icône dans ses films.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-259",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_259.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-259-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le titre de la comédie musicale des Spice Girls présentée en 2012 ?",
+      "answer": "Viva Forever",
+      "options": [
+        "Too Much",
+        "Headlines",
+        "Holler",
+        "Viva Forever"
+      ],
+      "explanation": "Après une conférence de presse à l'hôtel Saint Pancras, « Viva Forever » fut à l'affiche en 2012 au Picadilly Theatre à Londres.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-259",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_259.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

@@ -88,12 +88,12 @@ Les autres branches ne publient pas le site de production ; les aperçus automat
 
 L’authentification de publication reste gérée par Cloudflare ; aucun jeton n’est stocké dans le dépôt. Pour un déploiement manuel depuis un poste authentifié, `npm run deploy` reste disponible.
 
-### Quiz prêts à jouer (v0.4.1)
+### Quiz prêts à jouer (v0.5)
 
-« Les quiz » propose **746 questions françaises dans 33 thèmes**, avec recherche par thème, source affichée sur chaque pack et trois niveaux de difficulté. Choisir un pack ouvre sa préparation ; on peut mélanger jusqu’à trois thèmes du même univers. Le nombre joué est limité au nombre disponible après filtrage, sans répétition dans la partie.
+« Les quiz » propose **5 995 questions françaises dans 213 thèmes**. La recherche par thème, l’affichage progressif du catalogue et le mélange de trois thèmes évitent une liste de centaines de cartes sur la préparation de partie. Un aperçu permet à l’animateur de lire les questions et réponses avant de jouer.
 
-Nouveautés : new wave, reggae, groupes français des années 80, Johnny Hallyday, Jurassic Park, Les Visiteurs, Le Cinquième Élément, Louvre, littérature, Tintin, monuments, inventions, oiseaux, fourmis, grandes dates du XXe siècle, herbes et épices, fromages, sports d’hiver, curiosités culturelles, mythologies et culture pop.
+Le premier catalogue de 746 questions est conservé. L’import élargi ajoute 5 249 questions d’une archive libre OpenQuizzDB ; ces nouvelles questions sont identifiées comme questions d’archive. Les filtres contrôlent format, doublons de formulation, temporalité repérable et thèmes exclus. Ils ne vérifient pas la vérité de chaque réponse. Les conditions et le rapport d’import figurent dans [les sources](data/SOURCES.md).
 
-Les questionnaires écrits fonctionnent en USB/clavier, QCM téléphone, réponse écrite ou buzzer téléphone. Anecdotes et crédits apparaissent après révélation et dans le bilan. La banque statique est consultable dans les sources publiques ; le jeu vise l’animation de soirées, pas les examens sécurisés.
+Les téléphones chargent uniquement un index de thèmes. Les questions des thèmes choisis sont récupérées à la demande par le PC animateur, puis les manches sont transmises au salon. Les textes ne dépendent d’aucune API tierce pendant le jeu. Ils fonctionnent en USB/clavier, QCM téléphone, réponse écrite ou buzzer téléphone.
 
-Données : 705 questions OpenQuizzDB (CC BY-SA 4.0), 17 questions Qulture et 24 adaptations LearnClash (CC BY 4.0). Voir [sources, recherche, auteurs et licences](data/SOURCES.md). Régénération : `node scripts/build-question-bank.mjs`. Le catalogue est inclus dans le déploiement et ne dépend d’aucune API externe pendant la partie.
+Données : 5 954 questions OpenQuizzDB (CC BY-SA 4.0), 17 Qulture et 24 adaptations LearnClash (CC BY 4.0). Régénération : `node scripts/build-question-bank.mjs` (également exécutée par le build). Le mode de développement sert les mêmes packs JSON que le Worker. Les jeux de données et leurs adaptations restent réutilisables sous leurs licences respectives.

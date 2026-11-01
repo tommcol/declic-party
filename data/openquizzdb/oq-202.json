@@ -1,0 +1,798 @@
+{
+  "id": "oq-202",
+  "title": "Céramique et poterie",
+  "originalTitle": "Céramique et poterie (Savoir-faire transmis depuis des millénaires)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Catherine De Smeytere",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_202.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-202-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Le terme céramique provient du grec ancien « kéramos » qui signifie...",
+      "answer": "Terre à potier",
+      "options": [
+        "Terre à potier",
+        "Moulage",
+        "Tesson",
+        "Empreinte"
+      ],
+      "explanation": "Le mot n'apparaît dans son sens moderne qu'à la moitié du XIXe siècle où l'archéologie commence à s'intéresser à la céramique.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-202",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_202.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-202-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel type de céramique la faïence et la terre cuite font-elles partie ?",
+      "answer": "Poreuse",
+      "options": [
+        "Fine",
+        "Poreuse",
+        "Vitrifiée",
+        "Stannifère"
+      ],
+      "explanation": "La faïence, du nom de la ville italienne de Faenza où elle fut inventée, est une poterie émaillée ou vernissée à fond blanc.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-202",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_202.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-202-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En céramique, l'étanchéité de quel matériau le destine au stockage des liquides ?",
+      "answer": "Grès",
+      "options": [
+        "Céruse",
+        "Céladon",
+        "Plâtre",
+        "Grès"
+      ],
+      "explanation": "Le grès, plus noble que la terre cuite, occupe la deuxième place dans la production de céramique de haute température.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-202",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_202.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-202-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle machine génère des céramiques régulières en quantité ?",
+      "answer": "Tour de potier",
+      "options": [
+        "Tour de potier",
+        "Brame",
+        "Patère",
+        "Pyromètre"
+      ],
+      "explanation": "Entre 3500 et 3450 av. J.-C., la poterie a subi une véritable révolution avec l'introduction du tour de potier au Proche-Orient.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-202",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_202.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-202-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle matière à base de silicates est fortement utilisée en céramique ?",
+      "answer": "Argile",
+      "options": [
+        "Sable",
+        "Limon",
+        "Céruse",
+        "Argile"
+      ],
+      "explanation": "L'argile hydratée est malléable, peut être mise en forme, devient solide après séchage et le reste de manière permanente.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-202",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_202.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-202-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel enduit vitrifiable est posé à la surface d'une céramique afin de la durcir ?",
+      "answer": "Émail",
+      "options": [
+        "Biscuit",
+        "Émail",
+        "Pige",
+        "Ajour"
+      ],
+      "explanation": "L'oxyde de fer produit les tons verts, rouges, jaunes, noirs ou marrons, l'oxyde de cobalt les bleus et l'oxyde de chrome les verts.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-202",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_202.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-202-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "La céramique de quelle civilisation est universellement connue pour la porcelaine ?",
+      "answer": "Chinoise",
+      "options": [
+        "Chinoise",
+        "Grecque",
+        "Égyptienne",
+        "Péruvienne"
+      ],
+      "explanation": "Les grands vases bleu et blanc, qui sont apparus sous la dynastie mongole des Yuan, se développeront pleinement sous les Ming.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-202",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_202.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-202-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Par définition, quelle forme un potier va-t-il façonner le plus ?",
+      "answer": "Pot",
+      "options": [
+        "Pot",
+        "Boîte",
+        "Pyramide",
+        "Ballon"
+      ],
+      "explanation": "Pour la cuisson, les différentes pièces obtenues sont disposées dans un four à une température de 1 000° C pendant environ huit heures.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-202",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_202.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-202-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment appelle-t-on l'outil principal du potier pour façonner ses vases ?",
+      "answer": "Tour de potier",
+      "options": [
+        "Meuble de potier",
+        "Tour de potier",
+        "Mandrin de potier",
+        "Cercle de potier"
+      ],
+      "explanation": "Un tour de potier est, dans le domaine de la poterie, une machine utilisée dans la création de céramiques arrondies.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-202",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_202.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-202-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces termes est directement opposé à celui de terre cuite ?",
+      "answer": "Terre crue",
+      "options": [
+        "Terre chimique",
+        "Terre crue",
+        "Terre ancienne",
+        "Terre glaise"
+      ],
+      "explanation": "Préalablement à la terre cuite, on retrouve dans toutes les civilisations une poterie et des briques réalisées en terre crue.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-202",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_202.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-202-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle civilisation pré-incaïque connaît-on le mieux les céramiques ?",
+      "answer": "Nazca",
+      "options": [
+        "Pipils",
+        "Patayan",
+        "Nazca",
+        "Valdivia"
+      ],
+      "explanation": "Peu colorées durant la période initiale, elles sont d'une grande richesse polychrome par la suite, entre Nazca moyen et tardif.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-202",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_202.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-202-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel type de pâte donne l'argile silico-argileuse avec laquelle est fabriqué le grès ?",
+      "answer": "Vitrifiée",
+      "options": [
+        "Poreuse",
+        "Fine",
+        "Vitrifiée",
+        "Stannifère"
+      ],
+      "explanation": "Le grès est un matériau céramique caractérisé par une très grande dureté et une excellente résistance aux agressions chimiques.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-202",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_202.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-202-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Outre le grès, quel matériau de céramique est cuit à plus de 1 200° C ?",
+      "answer": "Porcelaine",
+      "options": [
+        "Faïence",
+        "Patine",
+        "Colombin",
+        "Porcelaine"
+      ],
+      "explanation": "Le grès est apparu en Chine sous la dynastie Shang et la dynastie Han, atteignant sa perfection avec les céladons des Song.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-202",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_202.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-202-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel musée propose une magnifique collection de 340 000 pièces de céramiques ?",
+      "answer": "Cité interdite",
+      "options": [
+        "Vatican",
+        "Cité interdite",
+        "Louvre",
+        "Tate Museum"
+      ],
+      "explanation": "Le musée du Palais à la cité interdite de Pékin est muni des collections impériales chinoises dès les dynasties Tang et Song.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-202",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_202.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-202-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle couleur d'émaillage obtient-on avec l'oxyde de cobalt ?",
+      "answer": "Bleu",
+      "options": [
+        "Bleu",
+        "Jaune",
+        "Rouge",
+        "Vert"
+      ],
+      "explanation": "Le cobalt le plus pur venait à grand frais du Moyen-Orient via l'Espagne, celui d'Europe centrale donnant des bleus moins profonds.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-202",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_202.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-202-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle technique de poterie superpose de longs boudins d'argile ?",
+      "answer": "Colombin",
+      "options": [
+        "Réserve",
+        "Mirette",
+        "Colombin",
+        "Galetage"
+      ],
+      "explanation": "Le potier solidarise les colombins en les pressant les uns contre les autres puis lisse la surface au fur et à mesure que s'élève la pièce.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-202",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_202.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-202-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle ville du nord de la France possède un musée consacré à la céramique ?",
+      "answer": "Rouen",
+      "options": [
+        "Rouen",
+        "Caen",
+        "Le Havre",
+        "Dieppe"
+      ],
+      "explanation": "Ce musée, créé en 1864 et possédant le label Musée de France, est situé dans l'hôtel d'Hocqueville, proche du square Verdrel à Rouen.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-202",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_202.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-202-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle discipline s'attache à étudier les objets en céramique ?",
+      "answer": "Céramologie",
+      "options": [
+        "Céramologie",
+        "Tracéologie",
+        "Carroyage",
+        "Palynologie"
+      ],
+      "explanation": "La céramologie comprend l'étude des techniques de fabrication (façonnage, cuisson), de leurs formes, et celle des motifs décoratifs.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-202",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_202.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-202-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment qualifie-t-on une céramique qui contient du texte dans son décor ?",
+      "answer": "Parlante",
+      "options": [
+        "Alandiée",
+        "Crue",
+        "Parlante",
+        "Extrudée"
+      ],
+      "explanation": "L'assiette participait à l'effort d'union nationale en exprimant des accents guerriers, humoristiques ou satiriques.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-202",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_202.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-202-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle technique permet de coller des éléments façonnés séparément ?",
+      "answer": "Barbotine",
+      "options": [
+        "Barbotine",
+        "Réduction",
+        "Champlevé",
+        "Calibration"
+      ],
+      "explanation": "Les anses d'un vase sont par exemple modelées à part puis assemblées à la barbotine sur le corps du vase tourné.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-202",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_202.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-202-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment appelle-t-on un objet façonné à la sortie du four du potier ?",
+      "answer": "Biscuit",
+      "options": [
+        "Biscuit",
+        "Gâteau",
+        "Biscotte",
+        "Pain"
+      ],
+      "explanation": "Le biscuit de porcelaine est quant à lui utilisé pour réaliser des statuettes, des surtouts de table et des réductions de statues.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-202",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_202.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-202-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel revêtement à base d'argile peut rendre une céramique plus lisse ?",
+      "answer": "Engobe",
+      "options": [
+        "Lustre",
+        "Chamotte",
+        "Engobe",
+        "Estèque"
+      ],
+      "explanation": "Comme l'engobe contient de l'argile délayée, s'il était posé sur la céramique sèche, il se fendillerait rapidement.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-202",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_202.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-202-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel émail vert olive est caractéristique des céramiques chinoises antiques ?",
+      "answer": "Céladon",
+      "options": [
+        "Coquemar",
+        "Céladon",
+        "Pernette",
+        "Mullite"
+      ],
+      "explanation": "Le céladon (littéralement porcelaine verte) désigne un coloris et aussi un type de céramique propre à la Chine et à l'Extrême-Orient.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-202",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_202.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-202-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle céramique fine et translucide est produite à partir du kaolin ?",
+      "answer": "Porcelaine",
+      "options": [
+        "Neriage",
+        "Estampage",
+        "Albarelle",
+        "Porcelaine"
+      ],
+      "explanation": "Les kaolins sont des argiles blanches, friables et réfractaires, composées de kaolinite, soit des silicates d'aluminium.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-202",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_202.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-202-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel émail japonais noir tacheté de brun est parfois appelé peau de chamois ?",
+      "answer": "Tenmoku",
+      "options": [
+        "Tenmoku",
+        "Nintoku",
+        "Daibutsu",
+        "Dotaku"
+      ],
+      "explanation": "Cet émail est obtenu en mélangeant feldspath, craie, ball clay, silice, bentonite et oxyde de fer rouge (hématite).",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-202",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_202.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-202-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En céramique, comment appelle-t-on la pâte d'argile délayée dans de l'eau ?",
+      "answer": "Barbotine",
+      "options": [
+        "Mandrin",
+        "Grattage",
+        "Fritte",
+        "Barbotine"
+      ],
+      "explanation": "Le décor à la barbotine consiste à ajouter des reliefs en barbotine sur une poterie : on appelle ainsi barbotines les poteries décorées.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-202",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_202.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-202-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien d'années de mariage symbolisent les noces de faïence ?",
+      "answer": "9 ans",
+      "options": [
+        "29 ans",
+        "19 ans",
+        "9 ans",
+        "39 ans"
+      ],
+      "explanation": "Le folklore français englobe les fables, les croyances populaires, les contes de fées et légendes de tous les peuples vivant en France.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-202",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_202.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-202-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment est appelé le plateau rotatif de la tour du potier ?",
+      "answer": "Girelle",
+      "options": [
+        "Rondeau",
+        "Girelle",
+        "Engobe",
+        "Cône"
+      ],
+      "explanation": "Après avoir disposé une motte d'argile au centre du plateau, le potier centre sa terre puis la façonne pendant sa rotation.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-202",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_202.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-202-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Depuis quelle année le savoir-faire de la céramique d'art est-il reconnu en France ?",
+      "answer": "2009",
+      "options": [
+        "1989",
+        "1979",
+        "2009",
+        "1999"
+      ],
+      "explanation": "Chaque État-partie doit prendre les mesures nécessaires pour assurer la sauvegarde de son patrimoine culturel immatériel.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-202",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_202.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-202-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel architecte est connu pour son vitrage architectural en terre cuite ?",
+      "answer": "Louis Sullivan",
+      "options": [
+        "Jean Welz",
+        "Tony Garnier",
+        "Victor Bourgeois",
+        "Louis Sullivan"
+      ],
+      "explanation": "À cette époque, les dessins de l'architecte américain né en 1856 à Boston auraient été impossibles à exécuter sur tout autre support.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-202",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_202.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

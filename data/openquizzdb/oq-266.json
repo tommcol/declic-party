@@ -1,0 +1,774 @@
+{
+  "id": "oq-266",
+  "title": "Culture en vrac 6",
+  "originalTitle": "Culture en vrac 6 (De la culture générale à tous les niveaux)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_266.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    10
+  ],
+  "questions": [
+    {
+      "id": "oqdb-266-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À qui doit-on une biographie détaillée de la chanteuse britannique Amy Winehouse ?",
+      "answer": "Mitch Winehouse",
+      "options": [
+        "Mitch Winehouse",
+        "Mark Ronson",
+        "Damian Marley",
+        "Pete Doherty"
+      ],
+      "explanation": "Amy Winehouse a attiré l'attention des médias pour son look, notamment sa coiffure, ses tatouages et son eye-liner.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-266",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_266.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-266-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel festival se déroulant à Longchamp est dédié à la lutte contre le Sida ?",
+      "answer": "Solidays",
+      "options": [
+        "Solidays",
+        "Magnitudes",
+        "Garorock",
+        "Décibulles"
+      ],
+      "explanation": "Les artistes qui interviennent à Solidays acceptent un cachet réduit ou se produisent bénévolement par solidarité au projet.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-266",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_266.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-266-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui incarne un trentenaire un peu loser dans la série « Bref » ?",
+      "answer": "Kyan Khojandi",
+      "options": [
+        "Rémi Gaillard",
+        "Benoît Delépine",
+        "Kyan Khojandi",
+        "Jérôme Commandeur"
+      ],
+      "explanation": "À ses débuts, Kyan Khojandi a tourné dans plusieurs tutoriels pour l'entreprise d'entretien et de réparation de véhicules Norauto.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-266",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_266.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-266-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel ouvrage écrit par Adolf Hitler est passé en domaine public en 2016 ?",
+      "answer": "Mein Kampf",
+      "options": [
+        "Exodus",
+        "America",
+        "Lhassa",
+        "Mein Kampf"
+      ],
+      "explanation": "Jusqu'en 2015, le Land de Bavière, héritier d'Adolf Hitler, a exercé pleinement et de façon responsable ses droits d'auteur.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-266",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_266.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-266-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel ancien culturiste a été gouverneur de Californie de 2003 à 2011 ?",
+      "answer": "Schwarzenegger",
+      "options": [
+        "Rolph",
+        "Schwarzenegger",
+        "Reagan",
+        "Davis"
+      ],
+      "explanation": "Il fut d'abord surnommé le Chêne autrichien puis Schwarzy pendant sa carrière d'acteur et plus récemment Governator.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-266",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_266.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-266-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle saga cinématographique propose les aventures de Bella Swan et Edward Cullen ?",
+      "answer": "Twilight",
+      "options": [
+        "Clueless",
+        "Jawbreaker",
+        "Twilight",
+        "Outsiders"
+      ],
+      "explanation": "Les acteurs principaux sont Kristen Stewart, dans le rôle de Bella Swan, et Robert Pattinson, dans le rôle du vampire Edward Cullen.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-266",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_266.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-266-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel ancien membre des Beatles a fêté ses 70 ans le 18 juin 2012 ?",
+      "answer": "Paul McCartney",
+      "options": [
+        "John Lennon",
+        "Ringo Starr",
+        "George Harrison",
+        "Paul McCartney"
+      ],
+      "explanation": "Il est l'unique détenteur d'un disque de rhodium décerné en 1979 par le Guinness Book pour 200 millions de copies vendues.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-266",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_266.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-266-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel spectacle musical arrivé à Paris a présenté des nones de San Francisco ?",
+      "answer": "Sister Act",
+      "options": [
+        "Sister Act",
+        "Wicked",
+        "Grease",
+        "Lazarus"
+      ],
+      "explanation": "Après son succès retentissant à Londres, New York et Paris, la comédie musicale « Sister Act » a mis les pieds à Montréal.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-266",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_266.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-266-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle émission télévisée culte est une création de Jean Libon et Marco Lamensch ?",
+      "answer": "Strip-tease",
+      "options": [
+        "Cargo de Nuit",
+        "Luna Park",
+        "Lollipop",
+        "Strip-tease"
+      ],
+      "explanation": "Le générique de l'émission, « Batumambe », est une reprise d'un groupe malien interprétée, par la fanfare « Combo Belge ».",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-266",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_266.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-266-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel film Olivier Assayas revisite-t-il les années 1970 ?",
+      "answer": "Après mai",
+      "options": [
+        "Doubles vies",
+        "Désordre",
+        "Carlos",
+        "Après mai"
+      ],
+      "explanation": "À l'exception de Lola Créton (et d'André Marcon et Martin Loizillon dans des seconds rôles), les acteurs sont tous débutants au cinéma.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-266",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_266.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-266-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel interprète de « Sexy Back » a joué dans le film « The Social Network » ?",
+      "answer": "Justin Timberlake",
+      "options": [
+        "Justin Nozuka",
+        "Adam Levine",
+        "Justin Timberlake",
+        "Bobby Caldwell"
+      ],
+      "explanation": "Justin Timberlake a accédé à la reconnaissance en 2010 par son incarnation de Sean Parker dans le biopic de David Fincher.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-266",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_266.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-266-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle comédie de Bruno Podalydès réunit son frère Denis et Valérie Lemercier ?",
+      "answer": "Adieu Berthe",
+      "options": [
+        "Liberté-Oléron",
+        "Comme un avion",
+        "Adieu Berthe",
+        "Dieu seul me voit"
+      ],
+      "explanation": "Pour Isabelle Regnier du Monde, « Adieu Berthe » est le film le plus accompli, le plus totalement enthousiasmant de son auteur.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-266",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_266.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-266-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel opérateur a été choisi pour déployer la 3G et 4G dans le métro parisien ?",
+      "answer": "SFR",
+      "options": [
+        "Free mobile",
+        "Bouygues Telecom",
+        "SFR",
+        "Orange"
+      ],
+      "explanation": "Publiés en 2017, les résultats des mesures effectués par l'ARCEP montrent que moins d'un quart des lignes est couvert en 3G/4G.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-266",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_266.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-266-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle série télévisée sur les chevaux retrouve-t-on Dustin Hoffman ?",
+      "answer": "Luck",
+      "options": [
+        "Big Love",
+        "Hung",
+        "Arliss",
+        "Luck"
+      ],
+      "explanation": "La chaîne HBO a décidé d'annuler la série à la suite de la mort de trois chevaux durant le tournage de la deuxième saison.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-266",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_266.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-266-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel comédien interprète le rôle de Marius dans « Les Bronzés font du ski » ?",
+      "answer": "Maurice Chevit",
+      "options": [
+        "Éric Ruf",
+        "Maurice Chevit",
+        "Marcel Cuvelier",
+        "Roger Dumas"
+      ],
+      "explanation": "Maurice Chevit a remporté un Molière du meilleur comédien dans un second rôle en 2002 pour « Conversation avec mon père ».",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-266",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_266.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-266-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Avec quel film Kad Merad est-il passé pour la première fois derrière la caméra ?",
+      "answer": "Monsieur Papa",
+      "options": [
+        "Monsieur Papa",
+        "Marseille",
+        "Baron noir",
+        "Bis"
+      ],
+      "explanation": "Depuis 2014, Kad Merad a enchaîné les déceptions commerciales en comédie ainsi qu'avec sa seconde réalisation en solo, « Marseille ».",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-266",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_266.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-266-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel écrivain et poète chinois a reçu le prix de la paix des libraires allemands ?",
+      "answer": "Liao Yiwu",
+      "options": [
+        "Jia Pingwa",
+        "Bo Yang",
+        "Liao Yiwu",
+        "Su Tong"
+      ],
+      "explanation": "De 1990 à 1994, l'écrivain Liao Yiwu fut emprisonné après avoir dénoncé la répression des manifestations de la place Tian'anmen.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-266",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_266.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-266-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel tableau de Picasso représente Françoise Gilot enceinte de leur fille Paloma ?",
+      "answer": "Femme assise",
+      "options": [
+        "Ma Jolie",
+        "Parade",
+        "Femme assise",
+        "Le Baiser"
+      ],
+      "explanation": "En mai 1943, elle rencontre Picasso, alors amant de Dora Maar. Elle devient sa compagne en 1944 et la mère de deux de ses enfants.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-266",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_266.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-266-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel journaliste a été retenu 33 jours en captivité par les FARC en Colombie ?",
+      "answer": "Roméo Langlois",
+      "options": [
+        "Roméo Langlois",
+        "Grégoire Deniau",
+        "Daniel Leconte",
+        "Bertrand Coq"
+      ],
+      "explanation": "En 2013, Roméo Langlois a remporté le prix Albert-Londres pour son reportage « Colombie : à balles réelles », diffusé sur France 24.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-266",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_266.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-266-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel chorégraphe plasticien a signé une nouvelle mise en scène de « Tannhäuser » ?",
+      "answer": "Christian Rizzo",
+      "options": [
+        "Christian Rizzo",
+        "Bernardo Montet",
+        "Boris Charmatz",
+        "Philippe Jamet"
+      ],
+      "explanation": "« Tannhäuser » est le cinquième opéra de Richard Wagner et le deuxième de ses dix opéras principaux joués à Bayreuth.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-266",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_266.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-266-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel garçon grimace dans une polaire rouge sur la pochette du premier album de Placebo ?",
+      "answer": "David Fox",
+      "options": [
+        "David Fox",
+        "Stefan Olsdal",
+        "Steve Hewitt",
+        "Brian Molko"
+      ],
+      "explanation": "Le style musical et les textes de Placebo, formé en 1994, se distinguent par une inclination romantique exacerbée.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-266",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_266.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-266-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel pianiste et organiste fut également le directeur du musée Marmottan-Monet ?",
+      "answer": "Jacques Taddei",
+      "options": [
+        "Jacques Taddei",
+        "Jules Grison",
+        "Paul Berthier",
+        "Charles Desmazures"
+      ],
+      "explanation": "Le 16 janvier 2006, il fut nommé inspecteur général de l'Éducation nationale par le ministre de l'Éducation nationale Gilles de Robien.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-266",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_266.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-266-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel photographe reconnu se distingue par sa vision de la crise industrielle anglaise ?",
+      "answer": "Chris Killip",
+      "options": [
+        "Larry Towell",
+        "Josef Koudelka",
+        "Jim Goldberg",
+        "Chris Killip"
+      ],
+      "explanation": "Kris Killip est le premier lauréat à avoir reçu en 1989 le prix Henri-Cartier-Bresson (ou prix HCB) décerné tous les deux ans.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-266",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_266.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-266-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui Valérie Trierweiler a-t-elle soutenu avec son « regrettable » tweet en 2012 ?",
+      "answer": "Olivier Falorni",
+      "options": [
+        "Olivier Falorni",
+        "Lucien Grand",
+        "Thierry Breton",
+        "Didier Quentin"
+      ],
+      "explanation": "Le 14 juin, Martine Aubry annonce qu'Olivier Falorni ne fera pas partie du groupe parlementaire socialiste à l'Assemblée nationale.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-266",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_266.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-266-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a obtenu le Prix du Roman Social avec son roman « Un homme jetable » ?",
+      "answer": "Aude Walker",
+      "options": [
+        "Aude Walker",
+        "Isabelle Jarry",
+        "Sylvie Denis",
+        "Vanessa Caffin"
+      ],
+      "explanation": "Fin 2012, elle est nommée rédactrice en chef du magazine Stylist, dont elle assure le lancement avec Audrey Diwan.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-266",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_266.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-266-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a découvert le bacille de la peste dans une cabane de Hong Kong en juin 1894 ?",
+      "answer": "Alexandre Yersin",
+      "options": [
+        "Saturnin Arloing",
+        "Alexandre Yersin",
+        "Léon Le Minor",
+        "Jean-Paul Chiron"
+      ],
+      "explanation": "Alexandre Yersin est le fondateur de l'École de Médecine de Hanoi en 1902 (actuelle faculté de Médecine) dont il est le premier directeur.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-266",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_266.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-266-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel film réalisé par Andres Baiz dévoile une forme de cruauté purement féminine ?",
+      "answer": "Inside",
+      "options": [
+        "El paramo",
+        "Inside",
+        "Roa",
+        "Satanas"
+      ],
+      "explanation": "Andrés Andi Baiz, né en 1975, est un réalisateur et écrivain colombien diplômé de la Tisch School of the Arts de New York.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-266",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_266.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-266-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Pour quel rachat Microsoft a-t-il avoué en 2012 avoir dépensé 6 milliards pour rien ?",
+      "answer": "aQuantive",
+      "options": [
+        "NetCarta",
+        "Interse",
+        "Firefly",
+        "aQuantive"
+      ],
+      "explanation": "Avant l'acquisition, aQuantive se classait au quatorzième rang mondial en matière de chiffre d'affaires parmi les agences de pub.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-266",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_266.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-266-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle jeune femme Victor Hugo était-il fou amoureux ?",
+      "answer": "Léonie d'Aunet",
+      "options": [
+        "Anne Levinck",
+        "Marie Aycard",
+        "Fanny Reybaud",
+        "Léonie d'Aunet"
+      ],
+      "explanation": "Son statut de pair de France permet à Hugo d'échapper aux poursuites tandis que Léonie d'Aunet passe deux mois en prison.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-266",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_266.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

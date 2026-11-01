@@ -1,0 +1,774 @@
+{
+  "id": "oq-220",
+  "title": "Stars mondiales 3",
+  "originalTitle": "Stars mondiales 3 (Des stars en veux-tu en voilà)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_220.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    5
+  ],
+  "questions": [
+    {
+      "id": "oqdb-220-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a annoncé que son mari, Orlando Bloom, était fétichiste des pieds ?",
+      "answer": "Miranda Kerr",
+      "options": [
+        "Rhea Durham",
+        "Jessica Clarke",
+        "Miranda Kerr",
+        "Hannah Davis"
+      ],
+      "explanation": "En 2007, Miranda Kerr fu le premier mannequin australien à rejoindre la prestigieuse équipe des Anges de Victoria's Secret.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-220",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_220.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-220-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle chanteuse et actrice est la bomba latina la plus célèbre du monde ?",
+      "answer": "Jennifer Lopez",
+      "options": [
+        "Mariah Carey",
+        "Jennifer Lopez",
+        "Nicki Minaj",
+        "Paula Abdul"
+      ],
+      "explanation": "Avec une fortune de 400 millions de dollars, elle fut récompensée en 2013 pour sa carrière et a reçu la 2 500e étoile du Walk of Fame.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-220",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_220.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-220-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle princesse a illuminé le Rocher lors du 65e gala de la Croix-Rouge ?",
+      "answer": "Charlene",
+      "options": [
+        "Anne",
+        "Charlene",
+        "Beatrice",
+        "Eugenie"
+      ],
+      "explanation": "Par son mariage avec le prince souverain Albert II de Monaco, elle est désormais connue comme la princesse Charlène de Monaco.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-220",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_220.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-220-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle championne de tennis russe a lancé sa propre marque de bonbons ?",
+      "answer": "Maria Sharapova",
+      "options": [
+        "Dinara Safina",
+        "Maria Sharapova",
+        "Alina Jidkova",
+        "Maria Kirilenko"
+      ],
+      "explanation": "Meilleure joueuse russe de l'histoire du tennis, elle compte à son palmarès une médaille d'argent olympique remportée en 2012.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-220",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_220.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-220-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle star du cinéma français a épousé Lilou Fogli en 2013 ?",
+      "answer": "Clovis Cornillac",
+      "options": [
+        "Kad Merad",
+        "Gérard Lanvin",
+        "Clovis Cornillac",
+        "Benoît Magimel"
+      ],
+      "explanation": "En 2008, il a inauguré à Lyon son restaurant aux influences méditerranéennes, avec son ex-beau-frère et son ex-belle-soeur.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-220",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_220.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-220-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle chanteuse française le magazine Life a-t-il surnommée la yéyé girl ?",
+      "answer": "Sylvie Vartan",
+      "options": [
+        "Nana Mouskouri",
+        "Sylvie Vartan",
+        "Mireille Mathieu",
+        "Marie Laforêt"
+      ],
+      "explanation": "Sylvie Vartan a chanté en neuf langues : français, anglais, allemand, espagnol, italien, japonais, néerlandais, bulgare et portugais.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-220",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_220.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-220-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel joueur serbe de tennis a demandé la main de Jelena Ristic en 2013 ?",
+      "answer": "Novak Djokovic",
+      "options": [
+        "Novak Djokovic",
+        "Laslo Djere",
+        "Viktor Troicki",
+        "Dusan Lajovic"
+      ],
+      "explanation": "Novak Djokovic a réalisé le Petit Chelem en 2011 et 2015 ainsi que le Grand Chelem entre Wimbledon 2015 et Roland-Garros 2016.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-220",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_220.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-220-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle ex petite-amie de Johnny Depp a affirmé sa bisexualité en 2010 ?",
+      "answer": "Amber Heard",
+      "options": [
+        "Jennifer Grey",
+        "Sherilyn Fenn",
+        "Vanessa Paradis",
+        "Amber Heard"
+      ],
+      "explanation": "En 2016, elle a tenu un rôle dans un projet ambitieux : le biopic « The Danish Girl », réalisé par le cinéaste australien oscarisé Tom Hooper.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-220",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_220.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-220-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel truculent chef savoyard a survécu à un terrible accident de ski ?",
+      "answer": "Marc Veyrat",
+      "options": [
+        "Alain Passard",
+        "Vincent Arnould",
+        "Marc Veyrat",
+        "Thierry Marx"
+      ],
+      "explanation": "Il est reconnu par les guides gastronomiques comme un cuisinier exceptionnel, ayant obtenu trois fois trois étoiles au Guide Michelin.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-220",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_220.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-220-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À seulement 27 ans, quelle mannequin a dit oui à son fiancé John Legend ?",
+      "answer": "Chrissy Teigen",
+      "options": [
+        "Olivia Jordan",
+        "Chrissy Teigen",
+        "Virginia Gardner",
+        "Pamela Bach"
+      ],
+      "explanation": "Chrissy Teigen tient aussi un blog, sodelushious.com, où elle parle de ses découvertes culinaires au cours de ses voyages.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-220",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_220.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-220-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quelle date Kate Middleton et Penélope Cruz ont-elles donné la vie ?",
+      "answer": "22 juillet 2013",
+      "options": [
+        "11 septembre 2015",
+        "22 juillet 2013",
+        "12 août 2014",
+        "16 juin 2012"
+      ],
+      "explanation": "Penélope Cruz a été mannequin pour plusieurs entreprises L'Oréal, mais a aussi conçu des éléments pour Mango.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-220",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_220.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-220-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel chanteur est père de huit enfants nés de cinq mères différentes ?",
+      "answer": "Rod Stewart",
+      "options": [
+        "Rod Stewart",
+        "Bon Jovi",
+        "Phil Collins",
+        "Neil Diamond"
+      ],
+      "explanation": "Le 11 octobre 2016, Rod Stewart a été anobli par le Prince William, duc de Cambridge, devenant ainsi Sir Roderick David Stewart.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-220",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_220.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-220-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sous quel nom Pierre Sarkozy est-il plus connu dans le milieu de la nuit ?",
+      "answer": "DJ Mosey",
+      "options": [
+        "Avicii",
+        "Madeon",
+        "Afrojack",
+        "DJ Mosey"
+      ],
+      "explanation": "Le 23 septembre 1982, Nicolas Sarkozy a épousé Marie-Dominique Culioli avec qui ils ont eu Pierre en 1985 et Jean en 1986.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-220",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_220.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-220-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel acteur français est devenu en 2013 le nouveau visage des parfums Brut ?",
+      "answer": "Samuel Le Bihan",
+      "options": [
+        "Guillaume Canet",
+        "Laurent Lafitte",
+        "Thierry Frémont",
+        "Samuel Le Bihan"
+      ],
+      "explanation": "En 2014, il crée une association qui a pour vocation de lutter contre le fléau des pollutions plastiques sur les continents et les océans.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-220",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_220.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-220-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui fut longtemps le compagnon de la défunte bimbo Lolo Ferrari ?",
+      "answer": "Éric Vigne",
+      "options": [
+        "Éric Vigne",
+        "Amaury Vassili",
+        "Francis De Smet",
+        "Jan Bucquoy"
+      ],
+      "explanation": "Lolo Ferrari a toujours eu une grande admiration pour Amanda Lear et Marilyn Monroe auxquelles elle voulait ressembler.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-220",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_220.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-220-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle mannequin mexicaine a épousé le gros dur Vin Diesel ?",
+      "answer": "Paloma Jimenez",
+      "options": [
+        "Blanca Soto",
+        "Paulina Flores",
+        "Paloma Jimenez",
+        "Ninel Conde"
+      ],
+      "explanation": "Leur dernière fille a été prénommée Pauline en hommage à leur ami Paul Walker, décédé dans un accident de la route en Californie.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-220",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_220.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-220-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel chanteur lyrique français a été arrêté en 2013 pour détention de stupéfiants ?",
+      "answer": "Amaury Vassili",
+      "options": [
+        "Amaury Vassili",
+        "Guy Chauvet",
+        "Gilbert Duprez",
+        "Louis Saintève"
+      ],
+      "explanation": "Souvent présenté comme le plus jeune ténor au monde, le timbre plus sombre de sa voix le classifierait plutôt comme baryton martin.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-220",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_220.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-220-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle star hollywoodienne a révélé un passé adolescent de jeune lutteur ?",
+      "answer": "Tom Cruise",
+      "options": [
+        "Hugh Jackman",
+        "Christian Bale",
+        "Tobey Maguire",
+        "Tom Cruise"
+      ],
+      "explanation": "Tom Cruise débuta dans « Risky Business » en 1983, mais c'est après avoir joué dans « Top Gun » qu'il deviendra une star internationale.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-220",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_220.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-220-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quel chanteur Justin Bieber voue-t-il un culte tout particulier ?",
+      "answer": "Jimi Hendrix",
+      "options": [
+        "Luther Johnson",
+        "Otis Rush",
+        "Jimi Hendrix",
+        "Elmore James"
+      ],
+      "explanation": "Hendrix avait non seulement la particularité d'être un guitariste gaucher, mais aussi de jouer sur une guitare de droitier.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-220",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_220.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-220-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle mannequin hongrois est devenue égérie de la marque Gas Jeans ?",
+      "answer": "Barbara Palvin",
+      "options": [
+        "Andrea Osvart",
+        "Zita Gorog",
+        "Annelies Toros",
+        "Barbara Palvin"
+      ],
+      "explanation": "Au cours de sa carrière, elle est apparue dans divers magazines hongrois comme Elle, Glamour et Cosmopolitan Hongrie.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-220",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_220.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-220-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle mannequin Christian Audigier ne peut-il plus se passer ?",
+      "answer": "Nathalie Sorensen",
+      "options": [
+        "Lais Ribeiro",
+        "Isabeli Fontana",
+        "Nathalie Sorensen",
+        "Adriana Lima"
+      ],
+      "explanation": "Il profite pleinement de sa réussite pour passer plus de temps avec ses enfants et sa compagne, le mannequin Nathalie Sorensen.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-220",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_220.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-220-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel acteur mexicain est également ambassadeur pour Oxfam ?",
+      "answer": "Gael Garcia Bernal",
+      "options": [
+        "Enrique Guzman",
+        "Emilio Osorio",
+        "Gael Garcia Bernal",
+        "Bruno Bichir"
+      ],
+      "explanation": "Le 14 août 2012, il a reçu le trophée Excellence Award Moët et Chandon pour l'ensemble de sa carrière au Festival de Locarno.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-220",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_220.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-220-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle bombe américaine a assuré la promo des nouvelles lunettes Osiris ?",
+      "answer": "Erin Heatherton",
+      "options": [
+        "Erin Heatherton",
+        "Lindsay Ellingson",
+        "Lily Aldridge",
+        "Candice Swanepoel"
+      ],
+      "explanation": "Erin Heatherton, égérie de la marque Victoria's Secret entre 2010 et 2013, est également connue pour ses taches de rousseur.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-220",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_220.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-220-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Avec quelle Miss Univers le latin lover David Bisbal a-t-il eu une idylle ?",
+      "answer": "Zuleyka Rivera",
+      "options": [
+        "Zuleyka Rivera",
+        "Riyo Mori",
+        "Dayana Mendoza",
+        "Natalie Glebova"
+      ],
+      "explanation": "Zuleyka Jerris Rivera Mendoza est la cinquième porto-ricaine à avoir remporté le titre de Miss Univers, ici en 2006 à Los Angeles.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-220",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_220.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-220-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Avec quel réalisateur Kate Bosworth est-elle unie par les liens du mariage ?",
+      "answer": "Michael Polish",
+      "options": [
+        "Ian Somerhalder",
+        "Matt Czuchry",
+        "Orlando Bloom",
+        "Michael Polish"
+      ],
+      "explanation": "Kate Bosworth, qui a les yeux vairons (l'un bleu, l'autre marron), a été en couple avec l'acteur Ian Somerhalder en 2002.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-220",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_220.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-220-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a été déclarée nouvelle égérie Naf Naf Automne-Hiver 2013/2014 ?",
+      "answer": "Leighton Meester",
+      "options": [
+        "Blake Lively",
+        "Jessica Szohr",
+        "Kelly Rutherford",
+        "Leighton Meester"
+      ],
+      "explanation": "Leighton Meester est connue pour avoir incarné le personnage de Blair Waldorf dans la série dramatique américaine « Gossip Girl ».",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-220",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_220.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-220-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle actrice américaine est la fille de la regrettée Jayne Mansfield ?",
+      "answer": "Mariska Hargitay",
+      "options": [
+        "Glenn Close",
+        "Mariska Hargitay",
+        "Helen Hunt",
+        "Gwyneth Paltrow"
+      ],
+      "explanation": "Lors de sa victoire aux Emmy de 2006, Mariska a mis un point d'honneur à remercier son père pour tout ce qu'il avait fait pour elle.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-220",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_220.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-220-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Avec quelle présentatrice télé le pilote de Formule 1 Romain Grosjean est-il marié ?",
+      "answer": "Marion Jollès",
+      "options": [
+        "Marion Jollès",
+        "Daphné Chollet",
+        "Laurence Ferrari",
+        "Valérie Bègue"
+      ],
+      "explanation": "Depuis 2014, elle présente l'émission « Histoire d'un rêve » chaque mardi et vendredi à 13h55 sur TF1, succédant à Hélène Boucher.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-220",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_220.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-220-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Avec quelle sublime top model suisse Joe Jonas a-t-il roucoulé en 2013 ?",
+      "answer": "Blanda Eggenschwiler",
+      "options": [
+        "Sienna Miller",
+        "Lauren Gold",
+        "Blanda Eggenschwiler",
+        "Cara Delevingne"
+      ],
+      "explanation": "Élevé dans une famille chrétienne, Joseph Adam Jonas s'est très jeune découvert une passion pour la comédie.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-220",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_220.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

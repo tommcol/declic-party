@@ -1,0 +1,774 @@
+{
+  "id": "oq-85",
+  "title": "Acid jazz",
+  "originalTitle": "Acid jazz",
+  "universe": "music",
+  "emoji": "🎵",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_85.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    8
+  ],
+  "questions": [
+    {
+      "id": "oqdb-85-1",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "L'acid jazz est un croisement entre le jazz, le hip-hop, la soul et quel autre style musical ?",
+      "answer": "Funk",
+      "options": [
+        "Funk",
+        "Bossa Nova",
+        "Java",
+        "Salsa"
+      ],
+      "explanation": "L'acid jazz fut lancé dans la scène club de Londres au milieu des années 1980.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-85",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_85.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-85-2",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Les chansons les plus significatives du genre « acid jazz » proviennent du catalogue de quel label ?",
+      "answer": "Blue Note",
+      "options": [
+        "ABC Records",
+        "Impulse",
+        "Igloo Records",
+        "Blue Note"
+      ],
+      "explanation": "Le nom du label provient de la note bleue caractéristique du jazz et du blues.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-85",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_85.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-85-3",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "En 1991, grâce au succès de quel groupe le genre acid jazz s'est-il popularisé ?",
+      "answer": "Brand New Heavies",
+      "options": [
+        "Young Disciples",
+        "Urban Species",
+        "Brand New Heavies",
+        "Incognito"
+      ],
+      "explanation": "Le groupe a choisi son nom en s’inspirant de la pochette d’un single de James Brown.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-85",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_85.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-85-4",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel groupe de musique anglais est mené par le chanteur Jay Kay ?",
+      "answer": "Jamiroquai",
+      "options": [
+        "Chuff Nutts",
+        "Blacknuss",
+        "Jamiroquai",
+        "Brown Starr"
+      ],
+      "explanation": "Aujourd'hui, le groupe a acquis une renommée mondiale, tout en ayant su faire évoluer sa musique.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-85",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_85.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-85-5",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel est le surnom de Jean-Paul Maunick, fondateur du talentueux groupe Incognito ?",
+      "answer": "Bluey",
+      "options": [
+        "Bluey",
+        "Yellow",
+        "Redest",
+        "Greeny"
+      ],
+      "explanation": "Leur premier album, 'Jazz Funk', sera le seul enregistré dans les années 1980.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-85",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_85.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-85-6",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel quartet a acquis sa renommée grâce à ses performances live ?",
+      "answer": "JTQ",
+      "options": [
+        "FJQ",
+        "DSQ",
+        "MJQ",
+        "JTQ"
+      ],
+      "explanation": "James Taylor Quartet a contribué à la bande originale du film 'Austin Powers'.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-85",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_85.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-85-7",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "À quel groupe doit-on 'In The Hand of The Inevitable', meilleure vente du label Acid Jazz ?",
+      "answer": "James Taylor Quartet",
+      "options": [
+        "James Taylor Quartet",
+        "Brown Starr",
+        "Vibraphonic",
+        "The Solsonics"
+      ],
+      "explanation": "En 1998 James Taylor, membre du James Taylor Quartet, crée son propre label, JTI Records.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-85",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_85.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-85-9",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "En quelle année le terme « acid jazz » est-il apparu, désignant un label et une série de compilations ?",
+      "answer": "1988",
+      "options": [
+        "1976",
+        "1988",
+        "1992",
+        "2001"
+      ],
+      "explanation": "Le nom du genre fut apparemment utilisé pour la première fois par le DJ Gilles Peterson.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-85",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_85.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-85-10",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel producteur et DJ londonien aurait inventé le terme « acid jazz » à la fin des années 1980 ?",
+      "answer": "Gilles Peterson",
+      "options": [
+        "Gilles Peterson",
+        "Funki Porcini",
+        "Gareth Emery",
+        "Ben Sims"
+      ],
+      "explanation": "Il a édité les Brand New Heavies, Jamiroquai, Corduroy, James Taylor Quartet et Snowboy.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-85",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_85.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-85-11",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "En 1990, quel label Gilles Peterson a-t-il fondé chez Phonogram Records ?",
+      "answer": "Talkin' Loud",
+      "options": [
+        "Visible Noise",
+        "Real World",
+        "Talkin' Loud",
+        "Blast First"
+      ],
+      "explanation": "L'autre grand label londonien de musique électronique à cette époque est Ninja Tune.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-85",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_85.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-85-12",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel sigle retrouve-t-on sur tous les albums du groupe Brand New Heavies ?",
+      "answer": "Un éléphant",
+      "options": [
+        "Une tortue",
+        "Une girafe",
+        "Un lion",
+        "Un éléphant"
+      ],
+      "explanation": "Les membres principaux du groupe sont Jan Kincaid, Simon Bartholomew et Andrew Levy.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-85",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_85.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-85-13",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Avec quel album Galliano a-t-il rencontré son plus grand succès en 1994 ?",
+      "answer": "The Plot Thickens",
+      "options": [
+        "Four",
+        "A Joyful Noise",
+        "The Plot Thickens",
+        "Skunk Funk"
+      ],
+      "explanation": "Formé en 1988, ce groupe acid jazz totalise quatre albums à son répertoire musical.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-85",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_85.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-85-14",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel groupe acid jazz autrichien est mené par le guitariste Peter Legat ?",
+      "answer": "Count Basic",
+      "options": [
+        "Count Basic",
+        "Liquid Soul",
+        "Greyboy Allstars",
+        "Groove collective"
+      ],
+      "explanation": "Le groupe se réparti dans les styles R&B, trip-hop, acid jazz et smooth jazz.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-85",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_85.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-85-15",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Comment est plus connu Norman Cook, fondateur du groupe Freak Power ?",
+      "answer": "Fatboy Slim",
+      "options": [
+        "Fatboy Slim",
+        "Bio-tek",
+        "Congo Natty",
+        "Four Tet"
+      ],
+      "explanation": "Sa chanson 'Right Here, Right Now' a été utilisée à de nombreuses reprises dans des films et séries.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-85",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_85.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-85-16",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel groupe a sorti le single 'Apparently Nothin' chez Talkin' Loud en 1991 ?",
+      "answer": "Young Disciples",
+      "options": [
+        "Count Basic",
+        "D'Influence",
+        "Young Disciples",
+        "Jamiroquai"
+      ],
+      "explanation": "Carleen Anderson a quitté le groupe en 1992 pour signer en solo chez Virgin Records.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-85",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_85.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-85-17",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quelle fut la première compilation publiée par le label 'Acid Jazz Records' ?",
+      "answer": "Totally Wired",
+      "options": [
+        "Diggin' Deeper",
+        "This is Acid Jazz",
+        "Talkin' Verve",
+        "Totally Wired"
+      ],
+      "explanation": "Cette compilation est en fait le tout premier CD sorti proposant des raretés en acid jazz.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-85",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_85.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-85-18",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel groupe acid jazz londonien s'est d'abord inspiré de la musique de James Brown ?",
+      "answer": "Brand New Heavies",
+      "options": [
+        "Brand New Heavies",
+        "Corduroy",
+        "James Taylor Quartet",
+        "Us3"
+      ],
+      "explanation": "Leur musique est perçue comme un bol d'oxygène et le label Delicious Vinyl ne s'y trompera pas.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-85",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_85.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-85-19",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel musicien français est plus connu sous le nom de scène de St Germain ?",
+      "answer": "Ludovic Navarre",
+      "options": [
+        "Benjamin Diamond",
+        "Martin Solveig",
+        "Ludovic Navarre",
+        "Alex Gopher"
+      ],
+      "explanation": "Ce pseudonyme, inspiré par sa ville natale, fait aussi référence au quartier de Paris.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-85",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_85.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-85-20",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel groupe a été créé suite à une audition ratée de son chanteur auprès de Brand New Heavies ?",
+      "answer": "Jamiroquai",
+      "options": [
+        "Jamiroquai",
+        "Young Disciples",
+        "Urban Species",
+        "I Mother Earth"
+      ],
+      "explanation": "Le nom est la réunion de « Jam » (improvisation collective) et de « Iroquois » (tribu d'indiens).",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-85",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_85.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-85-21",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel trompettiste de jazz français est l'un des plus influents depuis les années 1990 ?",
+      "answer": "Erik Truffaz",
+      "options": [
+        "Pierre Thibaud",
+        "Pierre Dutot",
+        "Nicolas Folmer",
+        "Erik Truffaz"
+      ],
+      "explanation": "Erik Truffaz est souvent comparé à Miles Davis pour la pureté de son jeu.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-85",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_85.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-85-22",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel groupe acid jazz basé à Londres est formé autour des jumeaux Addison ?",
+      "answer": "Corduroy",
+      "options": [
+        "Incognito",
+        "Us3",
+        "Corduroy",
+        "Jamiroquai"
+      ],
+      "explanation": "Formé en décembre 1991, le groupe a signé sur le label Acid Jazz Records en janvier 1992.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-85",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_85.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-85-23",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel guitariste de jazz anglais a été très influent dans le développement de l'acid jazz ?",
+      "answer": "Ronny Jordan",
+      "options": [
+        "Chris Poland",
+        "Bill Connors",
+        "Ronny Jordan",
+        "Jack Marshall"
+      ],
+      "explanation": "Né de parents protestants jamaïcains, Ronny Jordan apprend la guitare en autodidacte dès l'âge de 4 ans.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-85",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_85.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-85-24",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel groupe acid jazz élabore sa musique à partir de samples des classiques du label Blue Note ?",
+      "answer": "Us3",
+      "options": [
+        "Young Disciples",
+        "James Taylor Quartet",
+        "Brand New Heavies",
+        "Us3"
+      ],
+      "explanation": "Après signature, suite à un accord avec Blue Note, le groupe a obtenu un accès illimité aux archives du label.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-85",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_85.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-85-25",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel pilier du mouvement acid jazz était d'abord nommé 'Light of the World' ?",
+      "answer": "Incognito",
+      "options": [
+        "Jazzkantine",
+        "Grooveria",
+        "Urban Species",
+        "Incognito"
+      ],
+      "explanation": "L'album 'Positivity', paru en 1993, reste à ce jour le plus gros succès du groupe.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-85",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_85.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-85-26",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel groupe acid jazz a produit des hits pour Mark Morrison, Shola Ama et Ultra Naté ?",
+      "answer": "D'Influence",
+      "options": [
+        "D'Influence",
+        "Jamiroquai",
+        "I Mother Earth",
+        "Brown Starr"
+      ],
+      "explanation": "Ayant démarré chez The Echo Label, D'Influence a fondé son propre label, Freakstreet Records.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-85",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_85.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-85-27",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Sous quel nom Rob Gallagher, créateur du groupe Galliano, continue-t-il en solo ?",
+      "answer": "Earl Zinger",
+      "options": [
+        "Earl Zinger",
+        "Guru",
+        "Erik Truffaz",
+        "Ronny Jordan"
+      ],
+      "explanation": "Né en 1988 à Londres, le groupe Galliano était l'un des premiers représentants de l'acid jazz.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-85",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_85.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-85-28",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel groupe de rock alternatif canadien a atteint son pic de popularité fin des années 1990 ?",
+      "answer": "I Mother Earth",
+      "options": [
+        "The Solsonics",
+        "Vibraphonic",
+        "Corduroy",
+        "I Mother Earth"
+      ],
+      "explanation": "Le 24 janvier 2012, le groupe est revenu dans la musique après huit ans d'inactivité.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-85",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_85.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-85-29",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel groupe combine musique en live avec des échantillonnages et de la programmation ?",
+      "answer": "Urban Species",
+      "options": [
+        "Grooveria",
+        "Urban Species",
+        "Five Point Plan",
+        "Jazzkantine"
+      ],
+      "explanation": "Leur succès le plus notable est la chanson 'Spiritual Love' (1993) issue de l'album 'Listen' (1994).",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-85",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_85.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-85-30",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Avant l'acid jazz, comment appelait-on les compilations de jazz-funk des années 1980 ?",
+      "answer": "Rare groove",
+      "options": [
+        "Chicago blues",
+        "Britpop",
+        "Rare groove",
+        "Dixieland"
+      ],
+      "explanation": "Les premiers morceaux furent popularisés sur Kiss-FM, une radio locale londonienne.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-85",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_85.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

@@ -1,0 +1,798 @@
+{
+  "id": "oq-99",
+  "title": "Boissons sans alcool",
+  "originalTitle": "Boissons sans alcool",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_99.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-99-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces propositions ne désigne pas une boisson énergisante ?",
+      "answer": "Oasis",
+      "options": [
+        "Oasis",
+        "Dark Dog",
+        "Red Bull",
+        "Monster Energy"
+      ],
+      "explanation": "La marque est aujourd'hui, en France, la première marque de boisson aux fruits non gazeuse.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-99",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_99.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-99-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la saveur du Champomy, appartenant à la marque Orangina Schweppes ?",
+      "answer": "Pomme",
+      "options": [
+        "Citron",
+        "Pomme",
+        "Ananas",
+        "Orange"
+      ],
+      "explanation": "En 2013, Orangina Schweppes se hisse à la seconde place du marché des boissons non-alcoolisées en France.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-99",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_99.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-99-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle région de France le Breizh Cola a-t-il été créé et commercialisé depuis 2002 ?",
+      "answer": "Bretagne",
+      "options": [
+        "Bretagne",
+        "Charente-Maritime",
+        "Île-de-France",
+        "Gironde"
+      ],
+      "explanation": "Ce cola régional français tire son nom de sa première composition, l'utilisation de noix de kola, et du nom breton de la Bretagne.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-99",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_99.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-99-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle star a popularisé dans les publicités de la marque Nespresso le slogan « What esle » ?",
+      "answer": "George Clooney",
+      "options": [
+        "John Travolta",
+        "Bard Pitt",
+        "Tom Hanks",
+        "George Clooney"
+      ],
+      "explanation": "En 2009, l'entreprise a réalisé un chiffre d'affaires de 1,94 milliard d'euros (2,77 milliards de francs suisses).",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-99",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_99.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-99-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelles sont les deux couleurs de la marque Coca-Cola fabriquée par la Coca-Cola Company ?",
+      "answer": "Rouge et blanche",
+      "options": [
+        "Bleue et orange",
+        "Jaune et bleue",
+        "Rouge et blanche",
+        "Noire et verte"
+      ],
+      "explanation": "Ce nom provient de deux ingrédients utilisés pour sa composition originelle : la feuille de coca et la noix de kola.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-99",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_99.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-99-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Avec quoi les cafetières de la marque Senseo fonctionnent-elles ?",
+      "answer": "Des dosettes",
+      "options": [
+        "Des dosettes",
+        "Du café soluble",
+        "Du café filtre",
+        "Des capsules"
+      ],
+      "explanation": "La marque de cafetière est portée par les entreprises néerlandaises Philips et Douwe Egberts.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-99",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_99.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-99-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel domaine la société Tropicana est-elle un des leaders mondiaux du marché ?",
+      "answer": "Jus de fruits",
+      "options": [
+        "Limonade",
+        "Bières sans alcool",
+        "Jus de fruits",
+        "Thé"
+      ],
+      "explanation": "L'entreprise a été fondée en 1947 par Anthony T. Rossi, un immigrant italien, avec à l'origine 50 employés.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-99",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_99.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-99-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En 2014, quelle star française est apparue dans une publicité Nespresso aux côtés de George Clooney ?",
+      "answer": "Jean Dujardin",
+      "options": [
+        "Jean Dujardin",
+        "Alain Delon",
+        "Jean-Paul Belmondo",
+        "Omar Sy"
+      ],
+      "explanation": "Via ces stars, la marque cherche à ne pas correspondre au modèle de vente d'« un produit dans une boite ».",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-99",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_99.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-99-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces propositions ne désigne pas une marque d'eau minérale ?",
+      "answer": "Tropicana",
+      "options": [
+        "Quézac",
+        "Saint-Yorre",
+        "Tropicana",
+        "Badoit"
+      ],
+      "explanation": "Après pressage, les fruits, transformés en jus, sont embouteillés selon la certification ISO 14001.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-99",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_99.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-99-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Parmi ces différentes marques de sirops se cache un intrus, mais lequel ?",
+      "answer": "Champomy",
+      "options": [
+        "Teisseire",
+        "Marie Dolin",
+        "Williams",
+        "Champomy"
+      ],
+      "explanation": "Champomy est créée en 1989 par Pampryl et est présentée comme « la première boisson festive pour enfants ».",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-99",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_99.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-99-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En 2009, quelle marque d'eau minérale a produit une publicité où des bébés faisaient du roller ?",
+      "answer": "Evian",
+      "options": [
+        "Badoit",
+        "Rozana",
+        "Volvic",
+        "Evian"
+      ],
+      "explanation": "Sa source se situe dans les Alpes à Évian-les-Bains dans le département de la Haute-Savoie.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-99",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_99.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-99-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle marque de boissons énergisantes a pour logo trois griffes vertes ?",
+      "answer": "Monster Energy",
+      "options": [
+        "Monster Energy",
+        "Dark Dog",
+        "Rockstar",
+        "Red Bull"
+      ],
+      "explanation": "La gamme comporte des boissons gazeuses énergétiques aux divers arômes fruités et des boissons non gazeuses à base de thé.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-99",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_99.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-99-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces propositions ne désigne pas un cocktail sans alcool ?",
+      "answer": "Bloody Mary",
+      "options": [
+        "Lassi sucré",
+        "Bloody Mary",
+        "Arnold Palmer",
+        "Fauxmosa"
+      ],
+      "explanation": "Le Bloody Mary est un cocktail plus ou moins fortement pimenté et épicé selon les goûts, à base de vodka.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-99",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_99.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-99-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle société a créé la marque de café Ricoré, café soluble avec de la chicorée ?",
+      "answer": "Nestlé",
+      "options": [
+        "Danone",
+        "Carrefour",
+        "Nestlé",
+        "Starbucks"
+      ],
+      "explanation": "La marque est principalement présente en France et dans une moindre mesure en Belgique et en Pologne.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-99",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_99.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-99-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Les couleurs qui apparaissent sur le logo de la marque de café Carte Noire sont le noir, l'or et...",
+      "answer": "Le blanc",
+      "options": [
+        "Le blanc",
+        "Le bleu",
+        "Le vert",
+        "Le rouge"
+      ],
+      "explanation": "Le café est torréfié en France au sein d'une usine qui produit également les cafés Jacques Vabre et Café Grand'Mère.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-99",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_99.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-99-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle des ces couleurs ne retrouve-t-on pas sur le logo de la marque Fanta ?",
+      "answer": "Noire",
+      "options": [
+        "Blanche",
+        "Orange",
+        "Bleue",
+        "Noire"
+      ],
+      "explanation": "Il existe environ 70 saveurs différentes de Fanta, bien que la plupart ne soient commercialisées que dans certaines parties du monde.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-99",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_99.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-99-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle boisson est connue pour contenir du ginger ale, sorte de soda au gingembre ?",
+      "answer": "Canada Dry",
+      "options": [
+        "Gini",
+        "7 Up",
+        "Canada Dry",
+        "Fanta"
+      ],
+      "explanation": "Bien que Canada Dry soit originaire du Canada, ses quartiers généraux industriels sont actuellement situés au Texas.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-99",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_99.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-99-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Depuis 1972, quelle marque de café utilise dans ses publicités un expert nommé « gringo » ?",
+      "answer": "Jacques Vabre",
+      "options": [
+        "Jacques Vabre",
+        "Café Grand'Mère",
+        "Senseo",
+        "Necafé"
+      ],
+      "explanation": "Le café Jacques Vabre doit son nom à un ex-enseignan entré en 1946 dans le commerce de son beau-père.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-99",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_99.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-99-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Pour quel jus de fruits Richard Gotainer a-t-il composé 'Y'a des fruits, y'a de l'eau' ?",
+      "answer": "Banga",
+      "options": [
+        "Joker",
+        "Banga",
+        "Oasis",
+        "Champomy"
+      ],
+      "explanation": "Créée en 1968 par Pampryl, la marque Banga était très populaire dans les années 1980.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-99",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_99.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-99-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Si l'on vous parle de « l'ami du petit-déjeuner », à quelle marque de café pensez-vous ?",
+      "answer": "Ricoré",
+      "options": [
+        "Maxwell",
+        "Ricoré",
+        "Senseo",
+        "Malongo"
+      ],
+      "explanation": "Ricoré est célèbre pour sa saga publicitaire, créée en 1981, autour d'une musique composée par André Georget.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-99",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_99.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-99-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces propositions ne désigne pas une marque vendant du pastis sans alcool ?",
+      "answer": "Pastis 51",
+      "options": [
+        "Blancart",
+        "Pastis 51",
+        "Pastisade",
+        "Girard"
+      ],
+      "explanation": "Elle se boit avec de l'eau fraîche et éventuellement des glaçons dans la proportion de un volume de pastis pour cinq ou sept d'eau.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-99",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_99.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-99-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel ingrédient controversé se retrouve dans plusieurs boissons énergisantes de la marque Red Bull ?",
+      "answer": "La taurine",
+      "options": [
+        "La taurine",
+        "La cocaïne",
+        "Le glutamate",
+        "La glycine"
+      ],
+      "explanation": "La taurine est l'un des ingrédients retardant l’arrivée de la boisson dans certains pays, par application du principe de précaution.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-99",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_99.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-99-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans sa recette initiale, quel ingrédient le Coca-Cola contenait-il ?",
+      "answer": "De la cocaïne",
+      "options": [
+        "De la cocaïne",
+        "De la marijuana",
+        "De l'héroïne",
+        "Du LSD"
+      ],
+      "explanation": "La première recette ancêtre du Coca-Cola, le 'French Wine Coca', est inventée par John Pemberton en 1885.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-99",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_99.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-99-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel pays la boisson gazeuse nommée 'Applesin' remporte-t-elle un franc succès ?",
+      "answer": "Islande",
+      "options": [
+        "Canada",
+        "Argentine",
+        "Islande",
+        "Corée du Sud"
+      ],
+      "explanation": "Depuis 1955, la brasserie produit Eglsl Appelsín, véritable expérience islandaise du soda ou orangeade.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-99",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_99.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-99-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "La recette de quelle marque de cola est disponibles pour tous et reproductible librement ?",
+      "answer": "OpenCola",
+      "options": [
+        "Cola-Cola",
+        "OpenCola",
+        "FreeCola",
+        "Coco-Lala"
+      ],
+      "explanation": "Quelques militants de l’éthique FLOSS ont commencé un projet OpenCola italien, mais sans but lucratif.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-99",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_99.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-99-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces personnalités n'a jamais participé à une publicité pour la marque Pepsi ?",
+      "answer": "Zinédine Zidane",
+      "options": [
+        "Madonna",
+        "Michael Jackson",
+        "David Beckham",
+        "Zinédine Zidane"
+      ],
+      "explanation": "En 2010, les ventes de Pepsi Cola en France ont progressé de plus de 36 % sur les quatre premiers mois de l’année 200.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-99",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_99.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-99-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle boisson sans alcool est dorée comme l'alcool et a un nom qui sonne comme l'alcool ?",
+      "answer": "Canada Dry",
+      "options": [
+        "Canada Dry",
+        "Sprite",
+        "Tropicana",
+        "Pepsi"
+      ],
+      "explanation": "En 1934, Canada Dry fut l'une des premières marques à proposer des comic books comme cadeau gratuit.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-99",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_99.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-99-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année la marque Pepsi a-t-elle été créée à New Bern, en Caroline du Nord ?",
+      "answer": "1898",
+      "options": [
+        "1938",
+        "1898",
+        "1918",
+        "1958"
+      ],
+      "explanation": "Caleb D. Bradham, pharmacien à New Bern, inventa une potion à base de noix de cola contre les troubles de la digestion.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-99",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_99.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-99-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville américaine la marque Minute Maid a-t-elle été créée en 1945 ?",
+      "answer": "Boston",
+      "options": [
+        "Chicago",
+        "Boston",
+        "New York",
+        "Washington"
+      ],
+      "explanation": "Plutôt que d'offrir son jus d'orange sous forme de poudre, la firme décida de créer un produit concentré surgelé.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-99",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_99.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-99-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année la marque de boissons Schweppes a-t-elle été créée ?",
+      "answer": "1783",
+      "options": [
+        "1983",
+        "1883",
+        "1683",
+        "1783"
+      ],
+      "explanation": "À partir d'avril 2014, la nouvelle égérie de Schweppes devient Pénélope Cruzsur le thème de la sensualité.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-99",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_99.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

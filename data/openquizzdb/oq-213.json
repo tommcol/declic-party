@@ -1,0 +1,798 @@
+{
+  "id": "oq-213",
+  "title": "Stars mondiales",
+  "originalTitle": "Stars mondiales (Des stars en veux-tu en voilà)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_213.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-213-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle chanteuse est aussi la mère de René Charles et des jumeaux Nelson et Eddy ?",
+      "answer": "Céline Dion",
+      "options": [
+        "Katy Perry",
+        "Céline Dion",
+        "Rihanna",
+        "Whitney Houston"
+      ],
+      "explanation": "Céline Dion a déclaré ne pas être affectée par les potins et se sentir flattée que les gens prennent le temps de l'imiter.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-213",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_213.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-213-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel rappeur français est parfois surnommé le Duc de Boulogne ?",
+      "answer": "Booba",
+      "options": [
+        "Djé",
+        "Issaka",
+        "Booba",
+        "Mala"
+      ],
+      "explanation": "Il est membre du 92i, un collectif de rap français dont il a été le fondateur, regroupant des rappeurs issus des Hauts-de-Seine.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-213",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_213.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-213-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel héros de « Wolverine » a publiquement annoncé son cancer de la peau ?",
+      "answer": "Hugh Jackman",
+      "options": [
+        "Hugh Jackman",
+        "Ryan Reynolds",
+        "Will Smith",
+        "Chris Pratt"
+      ],
+      "explanation": "Hugh Jackman, marié à l'actrice et productrice Deborra-Lee Furness, de 13 ans son aînée, a adopté deux enfants avec son épouse.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-213",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_213.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-213-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel acteur a perdu la vie sur la route de Santa Clarita, au nord-ouest de Los Angeles ?",
+      "answer": "Paul Walker",
+      "options": [
+        "Chris Pratt",
+        "Hugh Jackman",
+        "Paul Walker",
+        "Will Smith"
+      ],
+      "explanation": "Paul Walker habitait à Santa Barbara où de 2006 à 2011 il eut pour compagne Jasmine Pilchard-Gosnell, une étudiante de 23 ans.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-213",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_213.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-213-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui fut en 2013 le rappeur américain le plus riche de la planète ?",
+      "answer": "P. Diddy",
+      "options": [
+        "Ali",
+        "Chuck D",
+        "Mos Def",
+        "P. Diddy"
+      ],
+      "explanation": "Sean John Combs est devenu directeur chez Uptown Records avant de fonder Bad Boy Records, signant ainsi The Notorious B.I.G.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-213",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_213.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-213-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel célèbre homme d'État sud-africain était surnommé Madiba ?",
+      "answer": "Nelson Mandela",
+      "options": [
+        "Nelson Mandela",
+        "Thabo Mbeki",
+        "Jacob Zuma",
+        "Cyril Ramaphosa"
+      ],
+      "explanation": "Nelson Mandela demeure à ce jour une personnalité mondialement reconnue en faveur de la défense des droits de l'homme.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-213",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_213.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-213-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle sulfureuse chanteuse est parfois surnommée la Black Barbie du rap ?",
+      "answer": "Nicki Minaj",
+      "options": [
+        "Lauryn Hill",
+        "Christina Milian",
+        "Nicki Minaj",
+        "Foy Brown"
+      ],
+      "explanation": "En 2013, Nicki Minaj, Beyoncé et Michelle Obama furent reconnues comme les femmes noires les plus influentes par le New York Times.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-213",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_213.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-213-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En 2013, quelle actrice américaine a été la plus bankable de la planète ?",
+      "answer": "Jennifer Lawrence",
+      "options": [
+        "Jennifer Lawrence",
+        "Brie Larson",
+        "Cate Blanchett",
+        "Julianne Moore"
+      ],
+      "explanation": "En 2015, selon le magazine Forbes, Jennifer Lawrence fut l'actrice la mieux payée au monde avec des gains de 53 millions de dollars.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-213",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_213.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-213-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel pilote automobile a passé le cap des 45 printemps dans le coma ?",
+      "answer": "Michael Schumacher",
+      "options": [
+        "Sebastian Vettel",
+        "Alain Prost",
+        "Michael Schumacher",
+        "Lewis Hamilton"
+      ],
+      "explanation": "À ce jour, Michael Schumacher détient la plupart des records de la Formule 1 à l'exception des records de précocité.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-213",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_213.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-213-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle personnalité décédée a rapporté le plus en 2013, quatre ans après sa mort ?",
+      "answer": "Michael Jackson",
+      "options": [
+        "Elvis Presley",
+        "Michael Jackson",
+        "Billy Joel",
+        "Elton John"
+      ],
+      "explanation": "Alors qu'il préparait la série de concerts « This Is It », Michael Jackson trouva la mort à 50 ans d'une overdose de médicaments.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-213",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_213.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-213-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En 2013, quel chanteur français fut le parrain du Téléthon ?",
+      "answer": "Patrick Bruel",
+      "options": [
+        "Garou",
+        "Michel Sardou",
+        "Alain Bashung",
+        "Patrick Bruel"
+      ],
+      "explanation": "Patrick Bruel est un auteur-compositeur-interprète, acteur, producteur et joueur professionnel de poker français né en Algérie.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-213",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_213.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-213-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle mannequin est souvent surnommée le garçon manqué ?",
+      "answer": "Cara Delevingne",
+      "options": [
+        "Kate Moss",
+        "Kelly Brook",
+        "Elizabeth Hurley",
+        "Cara Delevingne"
+      ],
+      "explanation": "Très active sur les réseaux sociaux, elle est considérée comme une it girl et surtout comme un mannequin hyper médiatique.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-213",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_213.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-213-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui est la mère de Frances Bean Cobain, jeune artiste visuelle américaine ?",
+      "answer": "Courtney Love",
+      "options": [
+        "Courtney Love",
+        "Suzanne Vega",
+        "Mariah Carey",
+        "Joan Osborne"
+      ],
+      "explanation": "Chanteuse et guitariste du groupe Hole, formé en 1989 avec Eric Erlandson, elle est la veuve de Kurt Cobain, ex-leader de Nirvana.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-213",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_213.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-213-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui fut la marraine des illuminations de Noël sur les Champs Élysées en 2013 ?",
+      "answer": "Laetitia Casta",
+      "options": [
+        "Laetitia Casta",
+        "Ophélie Winter",
+        "Mélanie Thierry",
+        "Vanessa Demouy"
+      ],
+      "explanation": "Elle a débuté dans le mannequinat à l'âge de quinze ans et fut remarquée par Jean Paul Gaultier, le premier à la faire défiler.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-213",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_213.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-213-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle top a défilé en 2013 avec un soutien-gorge de 10 millions de dollars ?",
+      "answer": "Candice Swanepoel",
+      "options": [
+        "Doutzen Kroes",
+        "Candice Swanepoel",
+        "Karen Mulder",
+        "Tyra Banks"
+      ],
+      "explanation": "En couple depuis 2005 avec Hermann Nicoli, elle donne naissance en 2016 à leur premier enfant, un garçon prénommé Anaca.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-213",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_213.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-213-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a habillé Justin Timberlake pour son « 20/20 World Experience Tour » ?",
+      "answer": "Tom Ford",
+      "options": [
+        "Rick Owens",
+        "Tom Ford",
+        "Calvin Klein",
+        "Jason Wu"
+      ],
+      "explanation": "Dans le milieu des années 1990, Justin Timberlake a rencontré le succès en s'inspirant de l'esthétique développée par Gianni Versace.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-213",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_213.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-213-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle actrice a posé nue en 2013 avec une anguille pour une association ?",
+      "answer": "Gillian Anderson",
+      "options": [
+        "Mimi Rogers",
+        "Laurie Holden",
+        "Gillian Anderson",
+        "Annabeth Gish"
+      ],
+      "explanation": "Au cours de sa carrière, Gillian Anderson a eu 55 nominations pour des récompenses, notamment 5 pour les Golden Globes Awards.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-213",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_213.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-213-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle chanteuse écossaise a parfois été appelée Susie la simplette ?",
+      "answer": "Susan Boyle",
+      "options": [
+        "Shirley Manson",
+        "Sally Carr",
+        "Sandi Thom",
+        "Susan Boyle"
+      ],
+      "explanation": "Cette chanteuse britannique s'est fait connaître par sa prestation musicale dans le cadre de l'émission « Britain's Got Talent ».",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-213",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_213.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-213-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui fut officiellement le mannequin le plus recherché sur Google en 2013 ?",
+      "answer": "Cara Delevingne",
+      "options": [
+        "Laetitia Casta",
+        "Kate Moss",
+        "Cara Delevingne",
+        "Naomi Campbell"
+      ],
+      "explanation": "Cara Delevingne, qui a précisé que sa sexualité n'était pas une phase, a été la compagne de l'actrice Michelle Rodriguez.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-213",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_213.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-213-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel ancien gardien de but est devenu champion de France GT en 2013 ?",
+      "answer": "Fabien Barthez",
+      "options": [
+        "Fabien Barthez",
+        "Jean-Marie Pfaff",
+        "Walter Zenga",
+        "Oliver Khan"
+      ],
+      "explanation": "Avec l'équipe de France, Barthez a notamment remporté la Coupe du monde 1998, l'Euro 2000 et la Coupe des confédérations en 2003.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-213",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_213.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-213-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien Kanye West a-t-il dépensé pour sa demande en mariage avec Kim Kardashian ?",
+      "answer": "3 millions",
+      "options": [
+        "4 millions",
+        "5 millions",
+        "3 millions",
+        "2 millions"
+      ],
+      "explanation": "Kanye West est l'un des plus gros vendeurs de disques de l'industrie musicale avec plus de 32 millions d'exemplaires vendus.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-213",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_213.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-213-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle violoniste française a épousé le ministre Manuel Valls ?",
+      "answer": "Anne Gravoin",
+      "options": [
+        "Clara Bonaldi",
+        "Florence Malgoire",
+        "Anne Gravoin",
+        "Alice Piérot"
+      ],
+      "explanation": "Anne Gravoin est depuis 2015 premier violon et codirectrice artistique de l'Alma Chamber Orchestra, créé en mai 2013.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-213",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_213.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-213-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel jeune acteur américain a été victime de deux AVC à seulement 27 ans ?",
+      "answer": "Frankie Muniz",
+      "options": [
+        "Bobby Dragon",
+        "Bob Garretson",
+        "Frankie Muniz",
+        "Bill Cummings"
+      ],
+      "explanation": "Frankie Muniz est connu pour le rôle principal qu'il tient entre 2000 et 2006 dans la série télé de la Fox Broadcasting Company, « Malcolm ».",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-213",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_213.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-213-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui est devenue nouvelle ambassadrice de Longchamp au printemps 2014 ?",
+      "answer": "Alexa Chung",
+      "options": [
+        "Liberty Ross",
+        "Alice Dellal",
+        "Penelope Tree",
+        "Alexa Chung"
+      ],
+      "explanation": "Citée dans les pages mode des magazines pour son sens du style, Alexa Chung est collaboratrice à la rédaction du magazine « Vogue ».",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-213",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_213.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-213-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle comédienne et mère de Patrick Deweare a marqué le monde du spectacle ?",
+      "answer": "Mado Maurin",
+      "options": [
+        "Jeanne Marine",
+        "Pascale Mariani",
+        "Madeleine Marion",
+        "Mado Maurin"
+      ],
+      "explanation": "Mado est la mère de Jean-Pierre, Yves-Marie et Marie-Véronique Maurin, Dominique Collignon-Maurin et Jean-François Vlérick.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-213",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_213.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-213-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le prénom du premier enfant des célébrités Halle Berry et Olivier Martinez ?",
+      "answer": "Maceo",
+      "options": [
+        "Fernando",
+        "Theo",
+        "Maceo",
+        "Sylvio"
+      ],
+      "explanation": "Halle Berry a remporté l'Oscar de la meilleure actrice en 2002 pour sa performance dans le film dramatique « À l'ombre de la haine ».",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-213",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_213.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-213-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a été élue femme la mieux habillée du monde à plusieurs reprises ?",
+      "answer": "Kerry Washington",
+      "options": [
+        "Kerry Washington",
+        "Viola Davis",
+        "Ellen Pompeo",
+        "Shonda Rimes"
+      ],
+      "explanation": "À la télévision, elle accède à une notoriété internationale en étant l'actrice principale, à partir de 2012 dans la série « Scandal ».",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-213",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_213.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-213-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En 2013, quelle célébrité a dit oui à James Heerdegen en robe Givenchy ?",
+      "answer": "Christina Ricci",
+      "options": [
+        "Christina Ricci",
+        "Tea Leoni",
+        "Naomi Watts",
+        "Uma Thurman"
+      ],
+      "explanation": "Christina Ricci fut révélée à l'âge de onze ans par son rôle de Mercredi Addams dans « La Famille Addams » de Barry Sonnenfeld.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-213",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_213.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-213-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle mannequin et actrice est aussi la fille de la célèbre Andie MacDowell ?",
+      "answer": "Rainey Qualley",
+      "options": [
+        "Rainey Qualley",
+        "Nina Quartero",
+        "Molly Quinn",
+        "Kristin Quick"
+      ],
+      "explanation": "Rainey Qualley a étudié la technique d'art dramatique de Sanford Meisner puis la Royal Academy of Dramatic Art.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-213",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_213.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-213-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel chanteur français a raconté dans un livre son combat contre la leucémie ?",
+      "answer": "Nicolas Peyrac",
+      "options": [
+        "Yves Duteil",
+        "Jacques Higelin",
+        "Hugues Aufray",
+        "Nicolas Peyrac"
+      ],
+      "explanation": "En 2013, Nicolas Peyrac a annoncé à son public souffrir depuis 2012 d'une leucémie ne nécessitant pas de traitement spécifique.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-213",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_213.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

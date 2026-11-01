@@ -1,0 +1,774 @@
+{
+  "id": "oq-196",
+  "title": "Alan Turing",
+  "originalTitle": "Alan Turing (Père fondateur de l'informatique)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_196.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    26
+  ],
+  "questions": [
+    {
+      "id": "oqdb-196-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle machine Alan Turing a-t-il cryptanalysé durant la Seconde Guerre mondiale ?",
+      "answer": "Enigma",
+      "options": [
+        "Deep Blue",
+        "Enigma",
+        "Delilah",
+        "ENIAC"
+      ],
+      "explanation": "Enigma est une machine électromécanique portable servant au chiffrement et au déchiffrement de l'information.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-196",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_196.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-196-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle expérience de pensée Alan Turing a-t-il présenté en 1936 ?",
+      "answer": "Machine de Turing",
+      "options": [
+        "Machine de Turing",
+        "Cercle de Turing",
+        "Arcades de Turing",
+        "Parade de Turing"
+      ],
+      "explanation": "Ces expériences de pensée prendront tout leur sens avec la diffusion des ordinateurs, dans la seconde moitié du XXe siècle.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-196",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_196.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-196-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qu'a-t-on retrouvé sur la table de nuit de Turing le jour de sa mort ?",
+      "answer": "Pomme",
+      "options": [
+        "Clé",
+        "Pomme",
+        "Cadran",
+        "Manuscrit"
+      ],
+      "explanation": "L'autopsie du corps conclut à un suicide par empoisonnement au cyanure, même si sa mère tenta d'écarter cette thèse.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-196",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_196.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-196-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel programme Turing a-t-il écrit en mai 1952 pour réaliser son célèbre test ?",
+      "answer": "Jeu d'échecs",
+      "options": [
+        "OXO",
+        "Jeu de l'oie",
+        "Dames",
+        "Jeu d'échecs"
+      ],
+      "explanation": "Ne disposant pas d'un ordinateur assez puissant pour l'exécuter, Alan Turing a simulé les calculs de la machine.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-196",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_196.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-196-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Des travaux de quel physicien Alan Turing s'est-il inspiré en 1928 ?",
+      "answer": "Albert Einstein",
+      "options": [
+        "Lev Landau",
+        "Arthur Compton",
+        "Albert Einstein",
+        "Werner Heisenberg"
+      ],
+      "explanation": "Les travaux d'Einstein remettaient en cause les axiomes d'Euclide et les lois de la mécanique céleste de Galilée et Newton.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-196",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_196.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-196-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel système d'exploitation informatique l'algorithme de chiffrement d'Enigma a été implémenté ?",
+      "answer": "UNIX",
+      "options": [
+        "Android",
+        "Windows",
+        "Mac OS",
+        "UNIX"
+      ],
+      "explanation": "Cette commande intégrée a été utilisée par des laboratoires civils et militaires qui croyaient protéger ainsi leurs communications.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-196",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_196.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-196-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces éléments ne fait pas partie de la machine de Turing ?",
+      "answer": "Alimentation externe",
+      "options": [
+        "Table d'actions",
+        "Ruban infini",
+        "Registre d'état",
+        "Alimentation externe"
+      ],
+      "explanation": "Quoique son nom de machine puisse conduire à croire le contraire, une machine de Turing est un concept abstrait.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-196",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_196.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-196-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle machine électromécanique fut inventée par l'Allemand Arthur Scherbius ?",
+      "answer": "Enigma",
+      "options": [
+        "Colossus",
+        "ACE",
+        "Deep Blue",
+        "Enigma"
+      ],
+      "explanation": "Enigma fut utilisée principalement par les Allemands (Die Chiffriermaschine Enigma) pendant la Seconde Guerre mondiale.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-196",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_196.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-196-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces langages informatiques n'est pas Turing-complet ?",
+      "answer": "SQL",
+      "options": [
+        "Java",
+        "C",
+        "Python",
+        "SQL"
+      ],
+      "explanation": "Un langage est dit Turing-complet s'il permet de représenter toutes les fonctions calculables au sens de Turing et Church.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-196",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_196.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-196-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel supercalculateur fut le premier à battre un champion du monde d'échecs ?",
+      "answer": "Deep Blue",
+      "options": [
+        "Myrinet",
+        "Sequoia",
+        "Deep Blue",
+        "GENCI"
+      ],
+      "explanation": "L'Intelligence Artificielle démarre dans les années 1950 avec les travaux d'Alan Turing, qui se demande si une machine peut penser.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-196",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_196.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-196-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qu'est sensée imiter une machine faisant le test de Turing ?",
+      "answer": "Conversation",
+      "options": [
+        "Silhouette",
+        "Dessin",
+        "Mouvement",
+        "Conversation"
+      ],
+      "explanation": "Le test de Turing est une proposition de test d'IA fondée sur la faculté d'une machine à imiter la conversation humaine.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-196",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_196.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-196-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle thèse de Turing concerne la définition de la notion de calculabilité ?",
+      "answer": "Thèse de Church",
+      "options": [
+        "Thèse de Welchman",
+        "Thèse de Church",
+        "Thèse de Danz",
+        "Thèse de Schwartz"
+      ],
+      "explanation": "Dans sa forme physique, elle affirme que la notion physique de la calculabilité est exprimée par un ensemble de règles de calcul.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-196",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_196.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-196-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Pour quelle raison Alan Turing a-t-il été poursuivi en justice en 1952 ?",
+      "answer": "Son homosexualité",
+      "options": [
+        "Son argent",
+        "Sa religion",
+        "Son savoir",
+        "Son homosexualité"
+      ],
+      "explanation": "Pour éviter la prison suite à un fait divers lié à son homosexualité, Alan Turing a choisi la castration chimique par prise d'œstrogènes.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-196",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_196.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-196-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment Alan Turing a-t-il été retrouvé mort dans sa maison de Manchester ?",
+      "answer": "Empoisonné",
+      "options": [
+        "Décapité",
+        "Pendu",
+        "Poignardé",
+        "Empoisonné"
+      ],
+      "explanation": "En 1954, à l'âge de seulement 41 ans, Alan Turing a été retrouvé dans sa chambre, mort d'un empoisonnement au cyanure.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-196",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_196.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-196-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel franco-maéricain a réalisé en 1982 le film franco-britannique 'Enigma' ?",
+      "answer": "Jeannot Szwarc",
+      "options": [
+        "Alexandre Aja",
+        "Didier Caron",
+        "Olias Barco",
+        "Jeannot Szwarc"
+      ],
+      "explanation": "Le film 'Enigma' propose une belle affiche avec, entre autres, Martin Sheen, Brigitte Fossey, Sam Neill et Michael Lonsdale.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-196",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_196.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-196-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a publié le roman 'Indécence manifeste' sur la vie de Turing ?",
+      "answer": "David Lagercrantz",
+      "options": [
+        "Patrick Boman",
+        "David Lagercrantz",
+        "Björn Larsson",
+        "Ulf Durling"
+      ],
+      "explanation": "Lagercrantz est connu pour avoir écrit une biographie de Zlatan Ibrahimovic ainsi que le roman policier 'Ce qui ne me tue pas'.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-196",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_196.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-196-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville Alan Turing est-il né le 23 juin 1912 ?",
+      "answer": "Londres",
+      "options": [
+        "Bruxelles",
+        "Londres",
+        "Sydney",
+        "Stockholm"
+      ],
+      "explanation": "Il est né du fonctionnaire d'administration coloniale Julius Mathison Turing et de sa femme Ethel Sarah Turing (née Stoney).",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-196",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_196.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-196-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Très jeune, en combien de temps Alan Turing a-t-il appris seul à lire ?",
+      "answer": "3 semaines",
+      "options": [
+        "3 semaines",
+        "2 mois",
+        "6 jours",
+        "1 an"
+      ],
+      "explanation": "Très tôt, le jeune Turing montra les signes de son génie ainsi qu'une affinité précoce pour les chiffres et la résolution d'énigmes.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-196",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_196.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-196-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel site de décryptage du Royaume-Uni Turing et Knox ont-ils travaillé ?",
+      "answer": "Bletchley Park",
+      "options": [
+        "Base 23",
+        "Thankful Village",
+        "Warship Camp",
+        "Bletchley Park"
+      ],
+      "explanation": "Bletchley Park y hébergeait pendant la Seconde Guerre mondiale une station secrète d'interception radio et une station d'émission.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-196",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_196.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-196-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quel bâtiment préfabriqué Turing a-t-il été affecté pour l'Enigma navale ?",
+      "answer": "Hut 8",
+      "options": [
+        "Fox 34",
+        "Delta 6",
+        "Zone 51",
+        "Hut 8"
+      ],
+      "explanation": "Alan Turing dira : 'J'ai traité ce problème parce que personne d'autre ne s'en occupait et que je pouvais l'avoir pour moi seul'.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-196",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_196.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-196-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Depuis quelle année le prix Turing est-il annuellement décerné ?",
+      "answer": "1966",
+      "options": [
+        "1966",
+        "1996",
+        "1986",
+        "1976"
+      ],
+      "explanation": "Le prix est décerné à des personnes ayant apporté une contribution scientifique significative au domaine de la recherche informatique.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-196",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_196.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-196-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel était le prix approximatif (en euros) de l'Enigma-A, sorti en 1923 ?",
+      "answer": "30 000 euros",
+      "options": [
+        "50 000 euros",
+        "70 000 euros",
+        "30 000 euros",
+        "90 000 euros"
+      ],
+      "explanation": "C'est finalement l'Enigma-D qui deviendra le modèle le plus répandu après son adoption par la Marine allemande en 1926.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-196",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_196.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-196-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle machine à coder la voix a été réalisée par Alan Turing ?",
+      "answer": "Delilah",
+      "options": [
+        "Frontera",
+        "Enigma",
+        "Kaneda",
+        "Delilah"
+      ],
+      "explanation": "Turing a découvert en 1943 les progrès des technologies électroniques en partant en mission de cryptanalyste.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-196",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_196.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-196-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quels modèles Alan Turing va-t-il s'intéresser à la fin de sa vie ?",
+      "answer": "Morphogenèse",
+      "options": [
+        "Thermogenèse",
+        "Biogenèse",
+        "Endurogenèse",
+        "Morphogenèse"
+      ],
+      "explanation": "La morphogenèse est l'ensemble des lois qui déterminent la forme, la structure des tissus, des organes et des organismes.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-196",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_196.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-196-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année la reine Élisabeth II a-t-elle gracié Turing à titre posthume ?",
+      "answer": "2013",
+      "options": [
+        "1993",
+        "2003",
+        "2013",
+        "1983"
+      ],
+      "explanation": "Suite au déchiffrage de la machine Enigma, Alan Turing ne sera reconnu comme héros de guerre que 55 ans après sa mort.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-196",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_196.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-196-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel mathématicien de Cambridge a aidé à améliorer la bombe de Turing ?",
+      "answer": "Gordon Welchman",
+      "options": [
+        "Harry Hinsley",
+        "John Herivel",
+        "Hugh Foss",
+        "Gordon Welchman"
+      ],
+      "explanation": "Une fois fabriquée, la bombe devint l'outil fondamental le plus automatisé de l'attaque des messages chiffrés par Enigma.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-196",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_196.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-196-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le premier projet détaillé d'un ordinateur réalisé par Turing ?",
+      "answer": "ACE",
+      "options": [
+        "PGA",
+        "KDE",
+        "RAR",
+        "ACE"
+      ],
+      "explanation": "Turing ne parviendra toutefois pas à s'entendre avec les ingénieurs électroniciens du NPL chargés de construire cette machine.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-196",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_196.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-196-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle machine a contribué à orienter Turing vers la conception d'un ordinateur ?",
+      "answer": "Colossus",
+      "options": [
+        "Gigantic",
+        "Megalox",
+        "Colossus",
+        "Mastodonth"
+      ],
+      "explanation": "Construit en onze mois, Colossus était constitué de 1 500 puis 2 400 tubes à vide et réalisait 5 000 opérations par seconde.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-196",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_196.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-196-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui fut directeur de la Hut 8 en l'absence d'Alan Turing ?",
+      "answer": "Hugh Alexander",
+      "options": [
+        "William Potter",
+        "Hugh Alexander",
+        "Raymond Keene",
+        "Stuart Conquest"
+      ],
+      "explanation": "Après la Seconde Guerre mondiale, Hugh Alexander fut pendant vingt ans le chef de la section H (cryptanalyse) du GCHQ.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-196",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_196.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

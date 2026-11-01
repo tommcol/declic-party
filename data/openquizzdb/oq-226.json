@@ -1,0 +1,798 @@
+{
+  "id": "oq-226",
+  "title": "Prénoms célèbres",
+  "originalTitle": "Prénoms célèbres (On connaît leurs noms)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_226.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-226-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le prénom du chanteur pop-rock français De Palmas ?",
+      "answer": "Gérald",
+      "options": [
+        "Gérard",
+        "Gérald",
+        "Jérôme",
+        "Jérémy"
+      ],
+      "explanation": "Gérald Gardrinier, né à La Réunion, a choisi pour nom de scène celui de sa grand-mère maternelle, Roxane de Palmas.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-226",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_226.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-226-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le prénom du père de l'acteur canado-britannique Kiefer Sutherland ?",
+      "answer": "Donald",
+      "options": [
+        "Pluto",
+        "Donald",
+        "Mickey",
+        "Popeye"
+      ],
+      "explanation": "Donald Sutherland a tenu son premier rôle au cinéma en 1964 dans un film d'horreur italien, « Il castello dei morti vivi ».",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-226",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_226.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-226-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel prénom se partagent les acteurs canadiens Gosling et Reynolds ?",
+      "answer": "Ryan",
+      "options": [
+        "Brian",
+        "Alan",
+        "Ryan",
+        "Evan"
+      ],
+      "explanation": "Depuis septembre 2011, Ryan Gosling vit avec l'actrice Eva Mendes, avec laquelle il a eu deux filles, Esmeralda et Amada.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-226",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_226.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-226-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le prénom du célèbre joueur de football portugais Ronaldo ?",
+      "answer": "Cristiano",
+      "options": [
+        "Cristiano",
+        "Benito",
+        "Joao",
+        "Antonio"
+      ],
+      "explanation": "Considéré comme l'un des meilleurs joueurs du monde, Ronaldo a remporté le Ballon d'or en 2008, 2013, 2014, 2016 et 2017.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-226",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_226.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-226-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le prénom du père de la famille Simpson, sur nos écrans depuis 1989 ?",
+      "answer": "Homer",
+      "options": [
+        "Homer",
+        "Abraham",
+        "Bart",
+        "Herbert"
+      ],
+      "explanation": "Homer est apparu pour la première fois à la télévision avec sa famille dans le court métrage « Good Night », le 19 avril 1987.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-226",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_226.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-226-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment se prénomme l'heureux propriétaire des crevettes Bubba Gump ?",
+      "answer": "Forrest",
+      "options": [
+        "Dan",
+        "Forrest",
+        "Winston",
+        "Benjamin"
+      ],
+      "explanation": "Pourtant simple d'esprit, l'histoire de Forrest Gump se confond avec celle des États-Unis des années 1950 aux années 1980.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-226",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_226.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-226-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel personnage féminin est présent dans « Notre-Dame de Paris » ?",
+      "answer": "Esmeralda",
+      "options": [
+        "Cassandra",
+        "Antoniona",
+        "Esmeralda",
+        "Samantha"
+      ],
+      "explanation": "Danseuse gitane, âgée de 16 ans, Esmeralda se trémousse dans les rues de Paris et fait exécuter des tours à sa chèvre Djali.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-226",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_226.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-226-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment se prénomme le héros des films de la saga « Mission Impossible » ?",
+      "answer": "Ethan",
+      "options": [
+        "Luther",
+        "Jim",
+        "Owen",
+        "Ethan"
+      ],
+      "explanation": "Ethan Matthew Hunt est le personnage principal de la série de films « Mission Impossible ». Il est interprété par l'acteur Tom Cruise.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-226",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_226.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-226-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel tueur solitaire a été incarné au cinéma par Jean Reno ?",
+      "answer": "Léon",
+      "options": [
+        "Gaston",
+        "Léon",
+        "Simon",
+        "Odilon"
+      ],
+      "explanation": "Sixième long métrage réalisé par Besson, « Léon » retrace la vie d'un tueur à gages du même nom, vivant en solitaire à New York.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-226",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_226.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-226-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui est la compagne de Thelma dans un film de Ridley Scott ?",
+      "answer": "Louise",
+      "options": [
+        "Susan",
+        "Bethy",
+        "Louise",
+        "Geena"
+      ],
+      "explanation": "« Thelma et Louise » est un film américain réalisé par Ridley Scott en 1991 qui a reçu l'Oscar du meilleur scénario.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-226",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_226.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-226-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel était le prénom de Vivaldi, compositeur de génie de la période baroque ?",
+      "answer": "Antonio",
+      "options": [
+        "Lissandro",
+        "Antonio",
+        "Amerigo",
+        "Rodrigo"
+      ],
+      "explanation": "Les quatre concertos connus sous le titre « Les Quatre Saisons » comptent parmi les plus populaires du répertoire classique.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-226",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_226.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-226-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel était le prénom de Mussolini, homme d'État italien mort en 1945 ?",
+      "answer": "Benito",
+      "options": [
+        "Antonio",
+        "Benito",
+        "Hidalgo",
+        "Sergio"
+      ],
+      "explanation": "Musolini est couramment désigné par le terme Duce, mot italien dérivé du latin Dux et signifiant Chef ou Guide.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-226",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_226.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-226-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel héros de cinéma, créé par un inventeur, possède des mains d'argent ?",
+      "answer": "Edward",
+      "options": [
+        "Dylan",
+        "Edward",
+        "Robert",
+        "Kevin"
+      ],
+      "explanation": "Le projet sera fortement accéléré à la suite du succès commercial remporté par « Batman » (1989), le précédent film de Tim Burton.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-226",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_226.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-226-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle lycéenne de série télé s'est longtemps battu contre les vampires ?",
+      "answer": "Buffy",
+      "options": [
+        "Angel",
+        "Tara",
+        "Buffy",
+        "Joyce"
+      ],
+      "explanation": "Figure centrale de la série, principal facteur de popularité du personnage, Buffy Summers est une lycéenne tueuse de vampires.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-226",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_226.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-226-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui incarne la méchante dans la série télévisée « La petite maison dans la prairie » ?",
+      "answer": "Nellie",
+      "options": [
+        "Laura",
+        "Marie",
+        "Stella",
+        "Nellie"
+      ],
+      "explanation": "Elle est interprétée dans la série par l'actrice américaine Alison Arngrim, qui reprendra ce rôle dans un spectacle humoristique.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-226",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_226.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-226-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui était la petite fille des montagnes de notre enfance ?",
+      "answer": "Heidi",
+      "options": [
+        "Candy",
+        "Heidi",
+        "Maguy",
+        "Cosby"
+      ],
+      "explanation": "Un village du nom de Hokuto, à deux heures de Tokyo, reproduit le cadre et l'architecture, version suisse, de celui d'Heidi.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-226",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_226.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-226-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment se prénomme la belle brune de la saga de science-fiction « Matrix » ?",
+      "answer": "Trinity",
+      "options": [
+        "Riddick",
+        "Clara",
+        "Billie",
+        "Trinity"
+      ],
+      "explanation": "Cette hackeuse qui utilise le pseudonyme de Trinity (Trinité), qui n'est pas son véritable nom, est incarnée par Carrie-Anne Moss.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-226",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_226.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-226-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle chanteuse surnommée Lady Day représente le jazz américain ?",
+      "answer": "Billie",
+      "options": [
+        "Ella",
+        "Sarah",
+        "Billie",
+        "Nina"
+      ],
+      "explanation": "Avec Ella Fitzgerald, Nina Simone, Sarah Vaughan et Amy Winehouse, Billie Holiday représente le jazz vocal.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-226",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_226.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-226-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment se prénomme la plus grande gymnaste de tout les temps ?",
+      "answer": "Nadia",
+      "options": [
+        "Nadia",
+        "Yelena",
+        "Simona",
+        "Larissa"
+      ],
+      "explanation": "Nadia Comaneci a donné une dimension populaire et médiatique inégalée à la gymnastique, avec une note parfaite de 10.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-226",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_226.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-226-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui représente la véritable énigme des « Contes de Mille et Une Nuits » ?",
+      "answer": "Shéhérazade",
+      "options": [
+        "Titania",
+        "Vernyhora",
+        "Shéhérazade",
+        "Loathly"
+      ],
+      "explanation": "Le noyau de ces histoires et contes est formé par un ancien livre persan nommé « Hezar-afsana » (Les Mille contes).",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-226",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_226.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-226-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment se prénomme la première fille de David Hallyday et Estelle Lefébure ?",
+      "answer": "Ilona",
+      "options": [
+        "Ilona",
+        "Julia",
+        "Anna",
+        "Emma"
+      ],
+      "explanation": "Le 17 mai 1995, elle donne naissance à sa première fille, Ilona, puis le 13 septembre 1997 naît sa deuxième fille, Emma.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-226",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_226.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-226-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le véritable prénom du présentateur de télévision Arthur ?",
+      "answer": "Jacques",
+      "options": [
+        "Jacques",
+        "Luc",
+        "Pierre",
+        "Marc"
+      ],
+      "explanation": "Jacques Essebag, plus connu sous le pseudonyme d'Arthur, est né le 10 mars 1966 à Casablanca, au Maroc.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-226",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_226.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-226-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le prénom du capitaine français de « Star trek:NextGen » ?",
+      "answer": "Jean-Luc",
+      "options": [
+        "Jean-Pierre",
+        "Jean-Charles",
+        "Jean-Luc",
+        "Jean-Marc"
+      ],
+      "explanation": "Picard a commandé le Stargazer (2333-2355), l'Enterprise-D (2363-2371) et l'Enterprise-E (2372-) à la fin du XXIVe siècle.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-226",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_226.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-226-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel prénom est associé à « Madame Bovary » de Gustave Flaubert ?",
+      "answer": "Emma",
+      "options": [
+        "Diana",
+        "Laura",
+        "Sarah",
+        "Emma"
+      ],
+      "explanation": "Emma Rouault, fille d'un riche fermier, a été élevée dans un couvent et rêve d'une vie mondaine comme les princesses des romans.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-226",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_226.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-226-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quel prénom féminin vous fait penser « Autant en emporte le vent » ?",
+      "answer": "Scarlett",
+      "options": [
+        "Babeth",
+        "Elisabeth",
+        "Bridget",
+        "Scarlett"
+      ],
+      "explanation": "« Autant en emporte le vent » est un roman écrit par Margaret Mitchell narrant la désillusion de Scarlett O'Hara.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-226",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_226.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-226-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Les quatre filles du docteur March sont Amy, Beth, Joséphine et...",
+      "answer": "Margarett",
+      "options": [
+        "Nelly",
+        "Margarett",
+        "Barbara",
+        "Laura"
+      ],
+      "explanation": "« Les Quatre Filles du docteur March » est un roman de la femme de lettres américaine Louisa May Alcott, publié en 1868.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-226",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_226.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-226-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel prénom est commun à Vanessa Paradis et Serge Gainsbourg ?",
+      "answer": "Élisa",
+      "options": [
+        "Cassandra",
+        "Élisa",
+        "Johanna",
+        "Barbara"
+      ],
+      "explanation": "« Élisa » est une chanson de Serge Gainsbourg de 1969 (co-écrite avec Michel Colombier) dont il existe deux versions distinctes.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-226",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_226.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-226-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui est incarné par Orlando Bloom dans « Le Seigneur des Anneaux » ?",
+      "answer": "Legolas",
+      "options": [
+        "Gimli",
+        "Boromir",
+        "Legolas",
+        "Aragorn"
+      ],
+      "explanation": "Fils de Thranduil, le roi des Elfes, Legolas Vertefeuille se fit connaître lors du Conseil d'Elrond en 3018 du Troisième Âge.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-226",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_226.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-226-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Outre César, quel prénom masculin est souvent associé à Marcel Pagnol ?",
+      "answer": "Marius",
+      "options": [
+        "Artus",
+        "Marius",
+        "Titus",
+        "Janus"
+      ],
+      "explanation": "La « Trilogie marseillaise » est l'appellation générique donnée aux trois pièces de théâtre de Marcel Pagnol, « Marius », « Fanny » et « César ».",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-226",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_226.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-226-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle grande primatologue s'est installé au Parc National de Gombe ?",
+      "answer": "Jane",
+      "options": [
+        "Jane",
+        "Dina",
+        "Sally",
+        "Ursula"
+      ],
+      "explanation": "Jane Goodall est la première à avoir observé et rapporté que les chimpanzés utilisent des outils pour s'alimenter.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-226",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_226.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

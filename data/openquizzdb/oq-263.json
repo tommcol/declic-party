@@ -1,0 +1,798 @@
+{
+  "id": "oq-263",
+  "title": "Jardin japonais",
+  "originalTitle": "Jardin japonais (Interpréter et idéaliser la nature)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_263.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-263-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sur combien de grands principes est composé un jardin japonais ?",
+      "answer": "Trois",
+      "options": [
+        "Six",
+        "Trois",
+        "Cinq",
+        "Quatre"
+      ],
+      "explanation": "Les trois grands principes du jardin japonais sont la reproduction de la nature en miniature, le symbolisme et la capture de paysages.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-263",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_263.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-263-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle caractéristique est importante dans la plupart des styles japonais ?",
+      "answer": "Simplicité",
+      "options": [
+        "Gigantisme",
+        "Horizontalité",
+        "Simplicité",
+        "Provocation"
+      ],
+      "explanation": "La miniaturisation a pour but la représentation de scènes dans un espace restreint, opérant aussi sur une réduction de la complexité.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-263",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_263.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-263-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle technique donne l'illusion d'espace à certaines zones du jardin ?",
+      "answer": "Perspective",
+      "options": [
+        "Asymétrie",
+        "Dissimulation",
+        "Perspective",
+        "Symbolisme"
+      ],
+      "explanation": "Au contraire de la perspective occidentale, la perspective du jardin japonais repose sur le principe des trois profondeurs.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-263",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_263.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-263-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Historiquement, comment est transmis l'enseignement des techniques ?",
+      "answer": "Oralement",
+      "options": [
+        "Oralement",
+        "Via des estampes",
+        "Par écrit",
+        "En sanscrit"
+      ],
+      "explanation": "L'art du jardinage est religieux et ésotérique. Transmis oralement par un maître à ses élèves, les manuels sont secrètement conservés.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-263",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_263.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-263-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quels poissons les étendues d'eau contiennent-elles fréquemment ?",
+      "answer": "Carpes koï",
+      "options": [
+        "Tanche de Mongolie",
+        "Carpes koï",
+        "Gardon",
+        "Esturgeon blanc"
+      ],
+      "explanation": "Très prisé et élevé en Chine, en Corée et au Japon, ce poisson d'eau douce a été obtenu à partir de croisements de la Carpe commune.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-263",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_263.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-263-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans un jardin japonais sec, par quoi l'eau est-elle représentée ?",
+      "answer": "Graviers",
+      "options": [
+        "Feuilles",
+        "Graviers",
+        "Terres",
+        "Branches"
+      ],
+      "explanation": "Découverts en Chine, les kaolins sont des argiles blanches, friables et réfractaires, composées principalement de kaolinite.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-263",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_263.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-263-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment sont systématiquement conçus les jardins japonais ?",
+      "answer": "Clos",
+      "options": [
+        "Sur un étang",
+        "Ouverts",
+        "Clos",
+        "Suspendus"
+      ],
+      "explanation": "La notion de grands espaces ouverts, comme les pelouses du château de Versailles, est étrangère à l'esthétique japonaise.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-263",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_263.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-263-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel passe-pied fut imaginé par les maîtres de la cérémonie du thé ?",
+      "answer": "Pas japonais",
+      "options": [
+        "Rond chinois",
+        "Cercle indien",
+        "Pas japonais",
+        "Marche coréenne"
+      ],
+      "explanation": "Permettant de relier le pavillon du thé en traversant le jardin sans salir son kimono, il permet de circuler à travers les massifs.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-263",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_263.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-263-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle technique a pour but le miegakure ou le « cacher et révéler » ?",
+      "answer": "Dissimulation",
+      "options": [
+        "Asymétrie",
+        "Symbolisme",
+        "Dissimulation",
+        "Perspective"
+      ],
+      "explanation": "Le miegakure utilise la végétation, les bâtiments et le décor comme des lanternes pour cacher ou montrer différentes parties du jardin.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-263",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_263.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-263-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel élément du jardin joue un rôle purificateur dans le shintoïsme ?",
+      "answer": "Eau",
+      "options": [
+        "Eau",
+        "Sable",
+        "Pierre",
+        "Bois"
+      ],
+      "explanation": "L'eau a également joué un rôle esthétique dès la conception des premiers jardins, fortement inspirés des jardins chinois.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-263",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_263.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-263-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel principe est issu de la fonction religieuse des premiers proto-jardins ?",
+      "answer": "Symbolisme",
+      "options": [
+        "Symbolisme",
+        "Asymétrie",
+        "Dissimulation",
+        "Perspective"
+      ],
+      "explanation": "Parmi les représentations symboliques fréquentes on retrouve le mont Shumisen du bouddhisme ou le mont Horai du taoïsme.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-263",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_263.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-263-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de plans utilise la technique des « paysages empruntés » ?",
+      "answer": "Quatre",
+      "options": [
+        "Cinq",
+        "Six",
+        "Trois",
+        "Quatre"
+      ],
+      "explanation": "L'avant-plan, mineur, le second plan, positionné avec soin, le troisième plan qui limite le terrain et le paysage emprunté lui-même.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-263",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_263.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-263-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Autour de quoi un jardin japonais est-il souvent organisé ?",
+      "answer": "Bâtiment",
+      "options": [
+        "Arbre",
+        "Bâtiment",
+        "Montagne",
+        "Étang"
+      ],
+      "explanation": "Au-delà de l'architecture propre au bâtiment (une résidence ou un temple), on retrouve la plupart des éléments de nombreux jardins.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-263",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_263.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-263-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle matière sont traditionnellement faites les lanternes des jardins ?",
+      "answer": "Pierre",
+      "options": [
+        "Pierre",
+        "Bambou",
+        "Porcelaine",
+        "Bois"
+      ],
+      "explanation": "Comme beaucoup d'autres éléments de l'architecture traditionnelle japonaise, le toro est une lanterne originaire de Chine.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-263",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_263.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-263-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel rôle essentiel jouent les rochers dans les jardins japonais ?",
+      "answer": "Abri des esprits",
+      "options": [
+        "Tremplin du monde",
+        "Cache misère",
+        "Signe de sagesse",
+        "Abri des esprits"
+      ],
+      "explanation": "Les rochers apportent une forte note organique au dessein d'ensemble et sont regroupés à la manière de sculptures.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-263",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_263.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-263-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelles roches d'aspect brut symbolisent souvent des montagnes ?",
+      "answer": "Magmatiques",
+      "options": [
+        "Friables",
+        "Sédimentaires",
+        "Métamorphiques",
+        "Magmatiques"
+      ],
+      "explanation": "Les roches magmatiques, d'aspect plutôt brut, servent également de pierres de gué, mais ont surtout un accent fort.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-263",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_263.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-263-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sur quel élément du jardin japonais dessine-t-on des motifs ?",
+      "answer": "Sable ou gravier",
+      "options": [
+        "Feuille morte",
+        "Sable ou gravier",
+        "Eau stagnante",
+        "Terre glaise"
+      ],
+      "explanation": "Les motifs ondulants tracés sur le sable donnent une impression de mouvement, et offrent un contraste net avec les rochers.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-263",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_263.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-263-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel principe évite qu'un objet ne déséquilibre la composition d'un jardin ?",
+      "answer": "Asymétrie",
+      "options": [
+        "Triangulation",
+        "Asymétrie",
+        "Géométrie",
+        "Horizontalité"
+      ],
+      "explanation": "Le principe d'asymétrie associe le spectateur à la composition, en incitant à parcourir du regard d'un point intéressant au suivant.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-263",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_263.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-263-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quels jardins japonais sont essentiellement destinés à la méditation ?",
+      "answer": "Jardins secs",
+      "options": [
+        "Jardins flottants",
+        "Jardins miniatures",
+        "Jardins de thé",
+        "Jardins secs"
+      ],
+      "explanation": "Ils utilisent une représentation plus abstraite, où du sable ou du gravier figure la mer, et des rochers symbolisent des montagnes.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-263",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_263.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-263-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quoi sont généralement dépourvus la plupart des jardins secs ?",
+      "answer": "Plantes",
+      "options": [
+        "Mousse",
+        "Graviers",
+        "Sable",
+        "Plantes"
+      ],
+      "explanation": "De nombreux jardins secs ont été créés dans les monastères et les temples zen, d'où leur nom courant de jardin zen.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-263",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_263.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-263-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel jardin japonais est situé à Kanazawa, dans la préfecture d'Ishikawa ?",
+      "answer": "Kenroku-en",
+      "options": [
+        "Maruyama",
+        "Aramaki",
+        "Murin-an",
+        "Kenroku-en"
+      ],
+      "explanation": "Avec le Kairaku-en de Mito et le Koraku-en d'Okayama, le Kenroku-en est l'un des trois jardins les plus célèbres du Japon.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-263",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_263.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-263-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sous quelle forme les plans d'eau des jardins japonais sont-ils souvent dessinés ?",
+      "answer": "Sinogramme",
+      "options": [
+        "En cercle",
+        "En huit",
+        "Ovale",
+        "Sinogramme"
+      ],
+      "explanation": "Les caractères chinois (ou sinogrammes) forment le plus ancien système d'écriture qui soit resté d'un usage continu.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-263",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_263.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-263-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel conifère représente la longévité dans un jardin japonais ?",
+      "answer": "Pin",
+      "options": [
+        "Bouleau",
+        "Chêne",
+        "Hêtre",
+        "Pin"
+      ],
+      "explanation": "Un grand nombre d'espèces de pins peuvent vivre très longtemps, une douzaine d'espèces pouvant atteindre jusque 1 000 ans.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-263",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_263.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-263-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel jardin est considéré comme le plus vaste jardin japonais d'Europe ?",
+      "answer": "Maulévrier",
+      "options": [
+        "Séricourt",
+        "Malmaison",
+        "Maulévrier",
+        "Charance"
+      ],
+      "explanation": "Situé en France, organisé autour d'un lac artificiel alimenté par la Moine qui le traverse, il contient les espèces d'environ 300 plantes.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-263",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_263.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-263-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Historiquement, sur quelle île sont apparus les différents styles de jardins ?",
+      "answer": "Honshu",
+      "options": [
+        "Shikoku",
+        "Sado",
+        "Honshu",
+        "Amani"
+      ],
+      "explanation": "Honshu (littéralement province principale) est la plus grande île du Japon, autrefois connue en Occident sous le nom Hondo.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-263",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_263.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-263-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quels types de jardins japonais sont portés sur une simplicité extrême ?",
+      "answer": "Jardins de thé",
+      "options": [
+        "Jardins miniatures",
+        "Jardins de thé",
+        "Jardins secs",
+        "Jardins flottants"
+      ],
+      "explanation": "La classification traditionnelle regroupe les jardins japonais en trois grandes catégories, dont font partie les jardins à thé.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-263",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_263.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-263-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qu'emprunte-t-on généralement pour accéder à un jardin de thé ?",
+      "answer": "Chemin de rosée",
+      "options": [
+        "Ligne de lune",
+        "Chemin de rosée",
+        "Tracé des rois",
+        "Terre de cendres"
+      ],
+      "explanation": "Ce nom fait allusion à un sûtra parlant d'un tel chemin où l'on renaît après avoir échappé aux désirs matériels.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-263",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_263.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-263-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel jardin japonais se trouve sur un banc de sable au milieu du fleuve Asahi ?",
+      "answer": "Koraku-en",
+      "options": [
+        "Koraku-en",
+        "Murin-an",
+        "Daigo-ji",
+        "Isahaya"
+      ],
+      "explanation": "Le Korakuen, finalisé en 1863, a été construit en 1700 à la demande de Ikeda Tsunamasa, daimyo d'Okayama.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-263",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_263.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-263-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En Belgique, quel jardin japonais résulte d'une collaboration avec la ville d'Itami ?",
+      "answer": "Jardin de Hasselt",
+      "options": [
+        "Jardin de Hasselt",
+        "Jardin de Leuze",
+        "Jardin de Verviers",
+        "Jardin de Mons"
+      ],
+      "explanation": "Hasselt offrit à Itami en novembre 1991 une tour à carillon, et Hasselt se vit offrir un jardin japonais, symbole d'amitié.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-263",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_263.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-263-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le plus connu des jardins japonais sur le continent américain ?",
+      "answer": "Buenos Aires",
+      "options": [
+        "Lima",
+        "Caracas",
+        "Santiago",
+        "Buenos Aires"
+      ],
+      "explanation": "Le jardin a été aménagé à l'occasion de la visite en Argentine du Prince héritier de l'époque Akihito, actuel Empereur du Japon.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-263",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_263.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

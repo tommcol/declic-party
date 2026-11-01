@@ -1,0 +1,749 @@
+{
+  "id": "oq-197",
+  "title": "The Cure",
+  "originalTitle": "The Cure (Le spleen éternel)",
+  "universe": "music",
+  "emoji": "🎵",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_197.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    2,
+    20
+  ],
+  "questions": [
+    {
+      "id": "oqdb-197-1",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Qui incarne sans conteste la figure emblématique du groupe The Cure ?",
+      "answer": "Robert Smith",
+      "options": [
+        "Robert Smith",
+        "Reeves Gabrels",
+        "Simon Gallup",
+        "Roger O'Donnell"
+      ],
+      "explanation": "À l'âge de cinq ans, Lol Tolhurst deviendra l'ami de Robert Smith et c'est avec lui qu'il créera plus tard la première mouture de The Cure.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-197",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_197.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-197-3",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Comment peut-on qualifier la coiffure du chanteur Robert Smith ?",
+      "answer": "Arachnéenne",
+      "options": [
+        "Arachnéenne",
+        "Lisse",
+        "Au carré",
+        "Brushingée"
+      ],
+      "explanation": "De nombreux fans copient alors les tenues vestimentaires amples et sombres des musiciens du groupe.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-197",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_197.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-197-4",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel titre de The Cure sera détourné à l'époque de la guerre du Golfe ?",
+      "answer": "Killing an Arab",
+      "options": [
+        "Accuracy",
+        "Grinding Halt",
+        "It's Not You",
+        "Killing an Arab"
+      ],
+      "explanation": "Ceci se fera au grand dam de Robert Smith qui devra rappeler dans des conférences de presse le texte qui l'a inspiré.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-197",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_197.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-197-5",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Qui est le seul membre présent depuis l'origine du groupe The Cure ?",
+      "answer": "Robert Smith",
+      "options": [
+        "Reeves Gabrels",
+        "Roger O'Donnell",
+        "Robert Smith",
+        "Simon Gallup"
+      ],
+      "explanation": "Robert Smith a également été à plusieurs reprises membre du jury de l'International Songwriting Competition (ISC).",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-197",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_197.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-197-6",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel album est considéré comme le plus noir du groupe The Cure ?",
+      "answer": "Pornography",
+      "options": [
+        "Disintegration",
+        "Bloodflowers",
+        "Pornography",
+        "Wish"
+      ],
+      "explanation": "Malgré son atmosphère oppressante et gothique, cet album atteindra le Top 10 en Angleterre ainsi qu'en Nouvelle-Zélande.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-197",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_197.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-197-7",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "De quelle ville du comté du Sussex est originaire le groupe The Cure ?",
+      "answer": "Crawley",
+      "options": [
+        "Basildon",
+        "Chichester",
+        "Crawley",
+        "Littlehampton"
+      ],
+      "explanation": "Crawley est fortement tirée par l'influence de l'aéroport de London Gatwick qui occupe toute la partie Nord de la ville.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-197",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_197.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-197-8",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel instrument d'accompagnement est mis en avant chez The Cure ?",
+      "answer": "Basse",
+      "options": [
+        "Piano",
+        "Saxophone",
+        "Basse",
+        "Trompette"
+      ],
+      "explanation": "La basse est, notamment en raison du jeu particulier de Simon Gallup, une composante essentielle de la musique de The Cure.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-197",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_197.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-197-9",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "À quel label musical The Cure restera-t-il fidèle jusqu'en 2001 ?",
+      "answer": "Fiction Records",
+      "options": [
+        "City Slang",
+        "Fiction Records",
+        "Geffen Records",
+        "Too Pure"
+      ],
+      "explanation": "Chris Parry, ex-manager des Jam et directeur artistique chez Polydor, désirait fonder son propre label indépendant.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-197",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_197.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-197-10",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Qui a pour ainsi dire écrit les textes de toutes les chansons de The Cure ?",
+      "answer": "Robert Smith",
+      "options": [
+        "Simon Gallup",
+        "Jason Cooper",
+        "Reeves Gabrels",
+        "Robert Smith"
+      ],
+      "explanation": "Selon Thierry Desaules, les paroles de l'album 'Pornography' sont tout bonnement sublimes et d'une grande poésie.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-197",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_197.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-197-11",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel est le titre du premier 45 tours de The Cure sorti en décembre 1978 ?",
+      "answer": "Killing an Arab",
+      "options": [
+        "Fire in Cairo",
+        "Killing an Arab",
+        "Another Day",
+        "So What"
+      ],
+      "explanation": "Cette chanson, inspirée du roman 'L'Étranger' de Camus, assure un début de notoriété grâce aux fanzines alternatifs.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-197",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_197.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-197-12",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "En quelle année est sorti 'Three Imaginary Boys' de The Cure ?",
+      "answer": "1979",
+      "options": [
+        "1979",
+        "1985",
+        "1983",
+        "1981"
+      ],
+      "explanation": "Le Melody Maker titrera à propos de cet album: 'The Eighties Start Here' (Les années 80 commencent ici).",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-197",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_197.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-197-13",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel deuxième album de The Cure est plus sombre et glacial que le premier ?",
+      "answer": "Seventeen Seconds",
+      "options": [
+        "Seventeen Seconds",
+        "The Top",
+        "Pornography",
+        "Faith"
+      ],
+      "explanation": "En 2000, le magazine Q a placé 'Seventeen Seconds' au n° 65 dans sa liste des 100 meilleurs albums britanniques.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-197",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_197.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-197-14",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Qui deviendra le réalisateur de clips attitré du groupe The Cure ?",
+      "answer": "Tim Pope",
+      "options": [
+        "Vincent Moon",
+        "Tim Pope",
+        "Spike Jonze",
+        "Jonathan Glazer"
+      ],
+      "explanation": "Tim Pope a également réalisé des spots publicitaires, des épisodes de série télévisée, des documentaires ainsi qu'un court métrage.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-197",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_197.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-197-15",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel morceau fut composé en 1986 pour l'émission télévisée 'Les Enfants du rock' ?",
+      "answer": "Just Like Heaven",
+      "options": [
+        "Never Enough",
+        "Just Like Heaven",
+        "Lullaby",
+        "Pictures of You"
+      ],
+      "explanation": "Le morceau a été introduit dans le double album 'Kiss Me, Kiss Me, Kiss Me', certifié disque de platine.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-197",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_197.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-197-16",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel membre du groupe The Cure a dû être hospitalisé suite à une pleurésie ?",
+      "answer": "Simon Gallup",
+      "options": [
+        "Simon Gallup",
+        "Roger O'Donnell",
+        "Jason Cooper",
+        "Reeves Gabrels"
+      ],
+      "explanation": "C'est Roberto Soave, bassiste de Shelley-an Orphan, qui assurera l'intérim pour le 'Wish Tour' lors de concerts en novembre 1992.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-197",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_197.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-197-17",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "À quelle bande originale de film The Cure a-t-il participé avec le titre inédit 'Burn' ?",
+      "answer": "The Crow",
+      "options": [
+        "Hellboy",
+        "Steel",
+        "Spawn",
+        "The Crow"
+      ],
+      "explanation": "Il s'agit du dernier film dans lequel joue l'acteur Brandon Lee, mort pendant le tournage lors d'une scène de tir.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-197",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_197.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-197-18",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Après Fiction Records, avec quel label The Cure a-t-il signé en 2003 ?",
+      "answer": "Geffen Records",
+      "options": [
+        "Geffen Records",
+        "Epic Records",
+        "Pablo Records",
+        "Lava Records"
+      ],
+      "explanation": "À l'occasion de la fin du contrat avec Fiction Records paraît la compilation 'Greatest Hits' incluant deux titres inédits.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-197",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_197.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-197-19",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "De quel autre groupe Robert Smith est-il une idole pour son chanteur ?",
+      "answer": "Placebo",
+      "options": [
+        "Placebo",
+        "Lush",
+        "The Libertines",
+        "Captain Phoenix"
+      ],
+      "explanation": "Les membres de cette formation ont collaboré avec Robert Smith, le leader de Placebo ayant même l'occasion d'interviewer son idole.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-197",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_197.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-197-21",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Laquelle de ces propositions ne désigne pas un album live de The Cure ?",
+      "answer": "Dublin",
+      "options": [
+        "Dublin",
+        "Entreat",
+        "Paris",
+        "Concert"
+      ],
+      "explanation": "En 2018, The Cure a officiellement sorti 5 albums live, 12 albums studios et 11 VHS/DVD, sans compter de nombreuses compilations.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-197",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_197.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-197-22",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Dans quel pays The Cure a-t-il très vite remporté un succès important en 1980-81 ?",
+      "answer": "Nouvelle-zélande",
+      "options": [
+        "Allemagne",
+        "Brésil",
+        "Russie",
+        "Nouvelle-zélande"
+      ],
+      "explanation": "Ce phénomène devança de plusieurs années la Curemania qui touchera le continent européen, et notamment la France.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-197",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_197.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-197-23",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel était le précédent nom du groupe Easy Cure formé en 1976 ?",
+      "answer": "Malice",
+      "options": [
+        "Spunge",
+        "The Membranes",
+        "The Libertines",
+        "Malice"
+      ],
+      "explanation": "Les membres changeront le nom du groupe (Easy Cure) en janvier 1977, pour finalement opter pour The Cure en avril 1978.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-197",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_197.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-197-24",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "En quelle année The Cure s'est-il produit pour la première fois en Amérique du Sud ?",
+      "answer": "1987",
+      "options": [
+        "1985",
+        "1989",
+        "1987",
+        "1983"
+      ],
+      "explanation": "À cette époque, The Cure se voit décerné le titre de meilleur groupe étranger de l'année au Brésil après huit concerts.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-197",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_197.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-197-25",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Qui a rejoint The Cure juste avant la tournée mondiale 'Kissing Tour' ?",
+      "answer": "Roger O'Donnell",
+      "options": [
+        "Tim Kingsbury",
+        "Andy Bown",
+        "Chris Pitman",
+        "Roger O'Donnell"
+      ],
+      "explanation": "En introduction, un court métrage de cinq minutes montre des gros plans de la bouche et des yeux de Robert Smith.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-197",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_197.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-197-26",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel groupe a assuré la première partie du 'Prayer Tour' de The Cure ?",
+      "answer": "Shelleyan Orphan",
+      "options": [
+        "Cult Hero",
+        "Fiction Plane",
+        "Shelleyan Orphan",
+        "Prefab Sprout"
+      ],
+      "explanation": "Comme témoignage de cette tournée, l'album live 'Entreat' enregistré en juillet à la Wembley Arena sortira l'année suivante.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-197",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_197.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-197-27",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quelle radio éphémère est apparue sur la bande FM anglaise en 1990 ?",
+      "answer": "Cure FM",
+      "options": [
+        "Cure FM",
+        "Wish FM",
+        "Day FM",
+        "Smith FM"
+      ],
+      "explanation": "Cette station, animée par les membres de Cure eux-mêmes, était destinée à promouvoir 'Mixed Up', un disque de remixes.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-197",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_197.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-197-28",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Qui a remis au groupe The Cure le prix de Godlike Genius en 2009 ?",
+      "answer": "Tim Burton",
+      "options": [
+        "Tim Burton",
+        "Robert De Niro",
+        "Sean Penn",
+        "Stephen Frears"
+      ],
+      "explanation": "The Cure a reçu pour l'ensemble de sa carrière ce prix aux NME Awards des mains de Tim Burton qui s'est dit inspiré par le groupe.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-197",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_197.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-197-29",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel groupe néerlandais est un véritable groupe-clone de The Cure ?",
+      "answer": "The Essence",
+      "options": [
+        "The Butane",
+        "The Essence",
+        "The Diesel",
+        "The Propane"
+      ],
+      "explanation": "Le groupe des années 1980 reproduit les arrangements des britanniques et copiant la voix et le phrasé de Robert Smith.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-197",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_197.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-197-30",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "En quelle année The Cure a-t-il reçu le Brit Awards du meilleur groupe britannique ?",
+      "answer": "1991",
+      "options": [
+        "1997",
+        "1993",
+        "1991",
+        "1995"
+      ],
+      "explanation": "The Cure a également reçu un MTV Video Music Award, un Juno Award, un NME Award ainsi que plusieurs Grammy Awards.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-197",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_197.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

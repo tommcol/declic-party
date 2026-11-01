@@ -1,0 +1,724 @@
+{
+  "id": "oq-84",
+  "title": "FC Barcelone",
+  "originalTitle": "FC Barcelone (Club européen le plus titré)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_84.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    6,
+    18,
+    29
+  ],
+  "questions": [
+    {
+      "id": "oqdb-84-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Le logo de quelle organisation le FC Barcelone a-t-il porté sur leurs maillots de 2011 à 2013 ?",
+      "answer": "Fondation du Qatar",
+      "options": [
+        "UNESCO",
+        "Fondation du Qatar",
+        "ONU",
+        "UNICEF"
+      ],
+      "explanation": "Le 10 décembre 2010, le FC Barcelone a annoncé avoir été racheté par la Fondation du Qatar.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-84",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_84.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-84-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel club le FC Barcelone a-t-il battu en finale de la Copa del Rey 2012 ?",
+      "answer": "Athletic Bilbao",
+      "options": [
+        "Athletic Bilbao",
+        "Osasuna",
+        "Villareal",
+        "Atletico Madrid"
+      ],
+      "explanation": "Comme en Angleterre, en Écosse ou en France, cette épreuve a vu le jour avant la mise en place du championnat national.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-84",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_84.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-84-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel entraîneur portugais a obtenu le premier Prix d'entraîneur de l'année FIFA 2010 ?",
+      "answer": "José Mourinho",
+      "options": [
+        "José Mourinho",
+        "Frank Rijkaard",
+        "Tito Vilanova",
+        "Pep Guardiola"
+      ],
+      "explanation": "José Mourinho parle couramment le portugais, l'espagnol, l'italien, le français et l'anglais.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-84",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_84.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-84-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel jeune joueur le FCB a-t-il recruté en 1982 pour un montant record ?",
+      "answer": "Diego Maradona",
+      "options": [
+        "Diego Maradona",
+        "Mario Kempes",
+        "Nery Pumpido",
+        "Gabriel Batistuta"
+      ],
+      "explanation": "Surnommé « Le gamin en or », Maradona est considéré comme l'un des plus grands joueurs de l'histoire du football.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-84",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_84.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-84-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de fois le Barça a-t-il pu conserver le trophée de la Liga ?",
+      "answer": "1",
+      "options": [
+        "4",
+        "3",
+        "2",
+        "1"
+      ],
+      "explanation": "Le Barça, fondé en 1899, est le club de football européen le plus titré du XXIe siècle.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-84",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_84.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-84-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel stade le FC Barcelone joue-t-il ses matchs à domicile ?",
+      "answer": "Camp Nou",
+      "options": [
+        "Wembley",
+        "Camp Nou",
+        "Maracana",
+        "Bernableu"
+      ],
+      "explanation": "Avec une capacité de 99 354 places, le Camp Nou, qui signifie « terrain nouveau », est le plus grand stade d'Europe.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-84",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_84.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-84-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelles étaient les couleurs extérieures des maillots du Barça pour la saison 2012-2013 ?",
+      "answer": "Jaune et orange",
+      "options": [
+        "Rouge et blanc",
+        "Jaune et orange",
+        "Vert et rouge",
+        "Noir"
+      ],
+      "explanation": "Le FC Barcelone dispose d'un maillot alternatif depuis 1913 : un maillot blanc avec des shorts bleus.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-84",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_84.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-84-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quel club Zlatan Ibrahimovic a-t-il été acheté par le Barça en 2009 ?",
+      "answer": "Inter Milan",
+      "options": [
+        "Bayern Munich",
+        "Göteborg",
+        "Inter Milan",
+        "Leeds United"
+      ],
+      "explanation": "Zlatan Ibrahimovic est considéré comme l'un des avants-centres les plus complets au monde.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-84",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_84.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-84-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel joueur barcelonais a gagné le plus de compétitions avec le club ?",
+      "answer": "Xavi",
+      "options": [
+        "Xavi",
+        "Messi",
+        "Puyol",
+        "Guardiola"
+      ],
+      "explanation": "Xavi a été désigné meilleur passeur du Championnat d'Espagne deux années de suite en 2009 et 2010.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-84",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_84.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-84-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel nom porte depuis 1979 le célèbre centre de formation du FC Barcelone ?",
+      "answer": "La Masia",
+      "options": [
+        "Les Cortes",
+        "Camp Nou",
+        "La Masia",
+        "Barcelino"
+      ],
+      "explanation": "Le bâtiment, un mas traditionnel catalan situé près du Camp Nou, date de 1702.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-84",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_84.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-84-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel logo les joueurs du FC Barcelone ont-ils porté sur leurs maillots de 2006 à 2011 ?",
+      "answer": "UNICEF",
+      "options": [
+        "UNESCO",
+        "OMS",
+        "ONU",
+        "UNICEF"
+      ],
+      "explanation": "L'Unicef, créée le 11 décembre 1946, a reçu le prix Nobel de la paix le 12 janvier 1965.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-84",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_84.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-84-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année Ibrahimovic a-t-il quitté le Barça pour l'Italie ?",
+      "answer": "2011",
+      "options": [
+        "2011",
+        "2009",
+        "2007",
+        "2013"
+      ],
+      "explanation": "Par son charisme et ses provocations médiatiques, Zlatan Ibrahimovic est une icône qui dépasse le cadre du sport.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-84",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_84.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-84-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de fois le FC Barcelone a-t-il gagné la Ligue des Champions ?",
+      "answer": "5",
+      "options": [
+        "2",
+        "5",
+        "9",
+        "4"
+      ],
+      "explanation": "En 2015, le FC Barcelone a battu la Juventus de Turin au Stade olympique de Berlin avec 3 buts à 1.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-84",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_84.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-84-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a succédé à Pep Guardiola en 2008 en tant qu'entraîneur de l'équipe B de Barcelone ?",
+      "answer": "Luis Enrique",
+      "options": [
+        "Andoni Zubizarreta",
+        "Patrick Kluivert",
+        "Luis Figo",
+        "Luis Enrique"
+      ],
+      "explanation": "C'est la première victoire d'une équipe qui n'aurait pas été qualifiée selon les anciennes règles.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-84",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_84.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-84-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel brésilien a remporté le trophée de meilleur footballeur européen en 2005 ?",
+      "answer": "Ronaldinho",
+      "options": [
+        "Ronaldo",
+        "Rivaldo",
+        "Romario",
+        "Ronaldinho"
+      ],
+      "explanation": "Ronaldinho s'est réellement imposé en Europe en tant qu'ailier gauche, avec ses dribbles fulgurants.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-84",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_84.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-84-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle croix apparaît sur l'emblème du FC Barcelone ?",
+      "answer": "St George",
+      "options": [
+        "St Simon",
+        "St George",
+        "St Andrew",
+        "St Patrick"
+      ],
+      "explanation": "La croix de saint Georges est utilisée comme drapeau de l'Angleterre, dont le saint est également le patron.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-84",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_84.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-84-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel club a remporté le premier duel El Clasico en 1929 ?",
+      "answer": "Real Madrid",
+      "options": [
+        "Real Madrid",
+        "Athletic Bilbao",
+        "Barcelone",
+        "Valence"
+      ],
+      "explanation": "La rivalité entre le FC Barcelone et le Real Madrid est la plus élevée du football espagnol.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-84",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_84.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-84-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel nom est donné à l'équipe de réserve du FC Barcelone ?",
+      "answer": "FC Barcelone B",
+      "options": [
+        "FC Barcelone II",
+        "Jeunes du Barça",
+        "FC Barcelone B",
+        "Barcelone Athletico"
+      ],
+      "explanation": "L'équipe évolue au Mini Estadi, une enceinte de 15 276 places située à proximité du Camp Nou à Barcelone.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-84",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_84.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-84-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de victoires en Champions Ligue Guardiola a-t-il remporté avec Barcelone ?",
+      "answer": "2",
+      "options": [
+        "4",
+        "2",
+        "1",
+        "3"
+      ],
+      "explanation": "Pep Guardiola a réussi en 2009 en tant qu'entraîneur un sextuplé inédit dans l'histoire du football.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-84",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_84.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-84-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En 2011, contre qui le Barça a-t-il remporté la Supercoupe d'Espagne ?",
+      "answer": "Real Madrid",
+      "options": [
+        "Valence",
+        "Real Madrid",
+        "Majorque",
+        "La Corogne"
+      ],
+      "explanation": "L'Argentin Lionel Messi est, avec onze buts, le meilleur buteur de l'histoire de cette compétition.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-84",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_84.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-84-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année la finale de la Ligue des Champions a-t-elle eu lieu au Camp Nou ?",
+      "answer": "1999",
+      "options": [
+        "1999",
+        "1987",
+        "2006",
+        "1978"
+      ],
+      "explanation": "C'est la première victoire d'une équipe qui n'aurait pas été qualifiée selon les anciennes règles.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-84",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_84.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-84-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Durant quelle saison Ronaldo a-t-il remporté le Soulier d'or de l'UEFA ?",
+      "answer": "1996-97",
+      "options": [
+        "2002-03",
+        "2000-01",
+        "1996-97",
+        "1998-99"
+      ],
+      "explanation": "Nommé au FIFA 100 par Pelé et la FIFA, il a remporté deux fois le Ballon d'or France Football en 1997 et 2002.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-84",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_84.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-84-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces joueurs n'a pas remporté le Trophée Zamora en jouant pour Barcelone ?",
+      "answer": "Pepe Reina",
+      "options": [
+        "José Pesuo",
+        "Pedro Artoia",
+        "Javier Urruticoechea",
+        "Pepe Reina"
+      ],
+      "explanation": "Ce Trophée tient son nom du légendaire gardien des années 1920 Ricardo Zamora.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-84",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_84.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-84-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel club Gerardo Martino a-t-il renoncé à son poste d'entraîneur pour le Barça en 2013 ?",
+      "answer": "Newell's Old Boys",
+      "options": [
+        "Santos",
+        "AC Milan",
+        "Newell's Old Boys",
+        "Villareal"
+      ],
+      "explanation": "Il démissionnera un an plus tard, le 17 mai 2014, après le match nul (1-1) face à l'Atletico Madrid.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-84",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_84.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-84-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel club du championnat Dani Alves a-t-il rejoint Barcelone en 2008 ?",
+      "answer": "Séville",
+      "options": [
+        "Osasuna",
+        "Séville",
+        "Real Sociedad",
+        "Valence"
+      ],
+      "explanation": "Nommé au Ballon d'or 2010 et 2011, Alves est considéré comme l'un des meilleurs défenseurs de la planète.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-84",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_84.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-84-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a marqué un but sensationnel en finale de Coupe européenne à Wembley en 1992 ?",
+      "answer": "Ronald Koeman",
+      "options": [
+        "Hristo Stoichkov",
+        "José Maria Bakzero",
+        "Ronald Koeman",
+        "Albert Ferrer"
+      ],
+      "explanation": "Fils du footballeur Martin Koeman, son frère Erwin fut également footballeur professionnel et international.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-84",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_84.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-84-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel joueur du Barça a été suspendu deux mois pour avoir écrasé le pied d'un arbitre ?",
+      "answer": "Hristo Stoichkov",
+      "options": [
+        "Hristo Stoichkov",
+        "Romario",
+        "Albert Ferrer",
+        "Michael Laudrup"
+      ],
+      "explanation": "En juin 2013, il a été recruté par le CSKA Sofia, club où il a commencé sa carrière de joueur professionnel.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-84",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_84.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

@@ -1,0 +1,699 @@
+{
+  "id": "oq-195",
+  "title": "Questions de nombres",
+  "originalTitle": "Questions de nombres (Les nombres gouvernent le monde)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_195.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    2,
+    7,
+    14,
+    19
+  ],
+  "questions": [
+    {
+      "id": "oqdb-195-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de travaux Hercule dut-il exécuter pour Eurysthée, roi de Tirynthe ?",
+      "answer": "12",
+      "options": [
+        "10",
+        "100",
+        "40",
+        "12"
+      ],
+      "explanation": "Héraclès correspond à l'Hercule romain, au Melqart phénicien, à l'Hercle étrusque et au Kakasbos en Asie Mineure.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-195",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_195.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-195-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la différence chiffrée entre le carré de 87 et le carré de 86 ?",
+      "answer": "173",
+      "options": [
+        "86",
+        "87",
+        "1",
+        "173"
+      ],
+      "explanation": "Tout nombre réel strictement positif est le carré d'exactement deux nombres, l'un strictement positif, l'autre strictement négatif.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-195",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_195.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-195-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de milliers de passagers le Titanic pouvait-il contenir à son bord ?",
+      "answer": "3 000",
+      "options": [
+        "4 000",
+        "2 000",
+        "3 000",
+        "1 000"
+      ],
+      "explanation": "La coque du Titanic était pourvue de seize compartiments étanches servant à protéger le navire en cas de voies d'eau.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-195",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_195.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-195-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année Charlemagne a-t-il été couronné empereur à Rome ?",
+      "answer": "800",
+      "options": [
+        "900",
+        "700",
+        "600",
+        "800"
+      ],
+      "explanation": "Souverain réformateur, soucieux de culture, il protège les arts et lettres et est à l'origine de la renaissance carolingienne.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-195",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_195.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-195-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En mesure, quelle est la valeur en millimètres d'un pouce anglais ?",
+      "answer": "25 mm",
+      "options": [
+        "45 mm",
+        "32 mm",
+        "25 mm",
+        "16 mm"
+      ],
+      "explanation": "Le pouce est une unité de longueur datant du Moyen Âge, aujourd'hui utilisée pour les tailles des pneus ou des écrans d'ordinateurs.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-195",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_195.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-195-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans la mythologie grecque, combien d'Argonautes ont accompagné Jason ?",
+      "answer": "50",
+      "options": [
+        "50",
+        "500",
+        "40",
+        "100"
+      ],
+      "explanation": "Le périple des Argonautes a donné lieu à plusieurs péplums qui s'inspirent assez librement des différentes sources du mythe.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-195",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_195.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-195-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année a eu lieu le tout premier Festival de Cannes ?",
+      "answer": "1946",
+      "options": [
+        "1966",
+        "1956",
+        "1976",
+        "1946"
+      ],
+      "explanation": "Le Festival fut fondé en 1946 sur un projet de Jean Zay, ministre de l'Éducation nationale et des Beaux-arts du Front populaire.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-195",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_195.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-195-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien d'année Robinson Crusoé a-t-il passées sur son île ?",
+      "answer": "28",
+      "options": [
+        "20",
+        "16",
+        "24",
+        "28"
+      ],
+      "explanation": "'Robinson Crusoé' est un roman anglais écrit par Daniel Defoe dont l'histoire s'inspire très librement de la vie d'Alexandre Selkirk.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-195",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_195.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-195-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En informatique, combien y a-t-il d'octets dans un kilooctet ?",
+      "answer": "1 024",
+      "options": [
+        "32",
+        "512",
+        "256",
+        "1 024"
+      ],
+      "explanation": "Le terme est utilisé comme unité de mesure en informatique pour indiquer la capacité de mémorisation des mémoires.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-195",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_195.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-195-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année Michel Preud'homme a-t-il décroché le Prix Lev Yachine ?",
+      "answer": "1994",
+      "options": [
+        "1992",
+        "1988",
+        "1990",
+        "1994"
+      ],
+      "explanation": "Michel Preud'homme a occupé le poste d'entraîneur au Standard de Liège, après avoir été le directeur sportif du même club.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-195",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_195.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-195-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien le site de Carnac compte-t-il de menhirs dans ses alignements ?",
+      "answer": "2 934",
+      "options": [
+        "1 934",
+        "2 394",
+        "2 934",
+        "1 394"
+      ],
+      "explanation": "Le site de Carnac est située sur la limite nord de Mor braz, entre le golfe du Morbihan à l'est et la presqu'île de Quiberon à l'ouest.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-195",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_195.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-195-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle distance sépare la ligne de départ de la première haie au 400m haie ?",
+      "answer": "45 m",
+      "options": [
+        "18 m",
+        "37 m",
+        "29 m",
+        "45 m"
+      ],
+      "explanation": "Les meilleurs athlètes masculins finissent la course en environ 47 secondes et les athlètes féminines en environ 53 secondes.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-195",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_195.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-195-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de matchs l'équipe nationale de foot belge a-t-elle disputés avec Guy Thys ?",
+      "answer": "100",
+      "options": [
+        "100",
+        "140",
+        "80",
+        "120"
+      ],
+      "explanation": "Né à Anvers et fils de Ivan Thys, Guy Thys a été l'entraîneur de l'équipe nationale belge de football le plus couronné de succès.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-195",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_195.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-195-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le pourcentage de silicium entrant dans la composition de l'écorce terrestre ?",
+      "answer": "25 %",
+      "options": [
+        "32 %",
+        "8 %",
+        "25 %",
+        "19 %"
+      ],
+      "explanation": "Le silicium n'est comparativement présent qu'en relativement faible quantité dans la matière constituant le vivant.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-195",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_195.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-195-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien d'années Ferdinand Marcos a-t-il été président des Philippines ?",
+      "answer": "21",
+      "options": [
+        "17",
+        "21",
+        "25",
+        "19"
+      ],
+      "explanation": "Marcos peut être considéré comme un expert du détournement de fonds: il aurait détourné des milliards de dollars du Trésor philippin.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-195",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_195.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-195-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de pièces contenait le palais impérial dans la Cité interdite ?",
+      "answer": "9 999",
+      "options": [
+        "6 666",
+        "9 999",
+        "7 777",
+        "8 888"
+      ],
+      "explanation": "Le chiffre de 9 999 s'explique par le fait que seules leurs divinités avaient le droit de construire un palais comprenant 10 000 pièces.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-195",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_195.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-195-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la longueur totale du pont du Golden Gate de San Francisco ?",
+      "answer": "1 280 m",
+      "options": [
+        "1 280 m",
+        "1 146 m",
+        "996 m",
+        "1 073 m"
+      ],
+      "explanation": "Le pont du Golden Gate fut, jusqu'en 1964, le pont suspendu le plus long du monde et reste un célèbre monument de San Francisco.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-195",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_195.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-195-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de chansons d'Elvis Presley ont été numéro un au hit-parade américain ?",
+      "answer": "18",
+      "options": [
+        "14",
+        "12",
+        "18",
+        "16"
+      ],
+      "explanation": "Elvis a contribué à populariser le genre naissant du rockabilly, un mélange énergique de musique country et de rhythm and blues.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-195",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_195.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-195-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans la mythologie grecque, combien le géant Argos avait-il d'yeux ?",
+      "answer": "100",
+      "options": [
+        "60",
+        "80",
+        "100",
+        "40"
+      ],
+      "explanation": "Il y en a en permanence cinquante qui dorment et cinquante qui veillent, de sorte qu'il soit impossible de tromper sa vigilance.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-195",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_195.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-195-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De combien de fois la superficie de la Chine est-elle plus grande que celle du Japon ?",
+      "answer": "39",
+      "options": [
+        "39",
+        "9",
+        "19",
+        "29"
+      ],
+      "explanation": "Le Japon forme, depuis 1945, un archipel de 6 852 îles dont les quatre plus grandes sont Hokkaido, Honshu, Shikoku, et Kyushu.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-195",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_195.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-195-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la longueur de la cordillère des Andes culminant à 6 962 mètres ?",
+      "answer": "7 100 km",
+      "options": [
+        "9 700 km",
+        "6 700 km",
+        "8 300 km",
+        "7 100 km"
+      ],
+      "explanation": "La cordillère des Andes débute au Venezuela puis traverse la Colombie, l'Équateur, le Pérou, la Bolivie, le Chili et l'Argentine.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-195",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_195.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-195-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la longueur du tunnel ferroviaire japonais du Seikan ?",
+      "answer": "53 km",
+      "options": [
+        "37 km",
+        "53 km",
+        "42 km",
+        "29 km"
+      ],
+      "explanation": "Le tunnel du Seikan est légèrement plus long que le tunnel sous la Manche et comporte un tronçon de 23.3 km sous le fond marin.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-195",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_195.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-195-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de confettis ont été lancés sur John Glenn après son voyage célèbre spatial ?",
+      "answer": "3 474 tonnes",
+      "options": [
+        "2 828 tonnes",
+        "3 474 tonnes",
+        "1 732 tonnes",
+        "4 437 tonnes"
+      ],
+      "explanation": "Après avoir quitté la NASA en 1963, il entame une carrière politique infructueuse qui l'oblige à se tourner vers le monde des affaires.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-195",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_195.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-195-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de soldats environ compte l'armée enterrée de l'empereur Qin ?",
+      "answer": "8 000",
+      "options": [
+        "4 000",
+        "8 000",
+        "6 000",
+        "10 000"
+      ],
+      "explanation": "Des couleurs minérales étaient appliquées après cuisson sur les statues permettant ainsi de distinguer les différentes unités.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-195",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_195.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-195-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année Nicolas Appert a-t-il découvert la boîte de conserve ?",
+      "answer": "1795",
+      "options": [
+        "1847",
+        "1902",
+        "1795",
+        "1829"
+      ],
+      "explanation": "L'appertisation peut être définie comme un procédé de conservation qui consiste à stériliser par la chaleur des denrées périssables.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-195",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_195.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-195-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le nombre d'îles présentes sur l'ensemble du territoire finlandais ?",
+      "answer": "180 000",
+      "options": [
+        "120 000",
+        "140 000",
+        "160 000",
+        "180 000"
+      ],
+      "explanation": "La plupart des îles sont dans le Sud-Ouest, dans l'archipel d'Aland, et le long de la côte méridionale du golfe de Finlande.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-195",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_195.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

@@ -1,0 +1,798 @@
+{
+  "id": "oq-122",
+  "title": "Folklore",
+  "originalTitle": "Folklore",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_122.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-122-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle plante automnale sert traditionnellement à fleurir les tombes à la Toussaint ?",
+      "answer": "Chrysanthème",
+      "options": [
+        "Pensée",
+        "Chrysanthème",
+        "Lys",
+        "Renoncule"
+      ],
+      "explanation": "Les plus connus des chrysanthèmes sont les chrysanthèmes d'automne, ou chrysanthèmes des fleuristes (pomponette).",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-122",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_122.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-122-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville Bernadette Soubirous a-t-elle déclaré avoir vu une apparition de la Vierge ?",
+      "answer": "Lourdes",
+      "options": [
+        "Lisieux",
+        "Lourdes",
+        "La Salette",
+        "Domrémy"
+      ],
+      "explanation": "Au cours d'une de ces apparitions, elle a creusé le sol pour y prendre de l'eau, réputée par la suite miraculeuse et source de guérisons.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-122",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_122.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-122-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quels mets cuisine-t-on traditionnellement lors de la fête de la Chandeleur ?",
+      "answer": "Des crêpes",
+      "options": [
+        "Des brioches",
+        "Des tartes",
+        "Des crêpes",
+        "Des croissants"
+      ],
+      "explanation": "La tradition attribue cette coutume au pape Gélase Ier qui faisait distribuer des crêpes aux pèlerins qui arrivaient à Rome.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-122",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_122.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-122-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel animal est associé à la flatterie, au mensonge, à la malice et à la ruse ?",
+      "answer": "Le renard",
+      "options": [
+        "Le renard",
+        "Le coyote",
+        "Le chacal",
+        "Le loup"
+      ],
+      "explanation": "De nombreux peuples ont remarqué les mœurs rusées du renard dans leurs récits et les traduisent de manières différentes.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-122",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_122.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-122-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel objet est généralement considéré comme ayant des vertus porte-bonheur ?",
+      "answer": "Le fer à cheval",
+      "options": [
+        "Le fer à cheval",
+        "Le fer à repasser",
+        "Le fer à dorer",
+        "Le fer à friser"
+      ],
+      "explanation": "Cette vertu viendrait du fait qu'un fer à cheval égaré était revendu au forgeron et permettait ainsi d'en récolter quelques espèces.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-122",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_122.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-122-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Selon une croyance tenace, quels légumes seraient bons pour la vue ?",
+      "answer": "Les carottes",
+      "options": [
+        "Les brocolis",
+        "Les carottes",
+        "Les salsifis",
+        "Les haricots"
+      ],
+      "explanation": "L'apport énergétique réel de la carotte crue, riche en bêta-carotène (provitamine A), est de 26 kilocalories par 100g.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-122",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_122.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-122-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle ville du Nord de la France les berlingots appelés « bêtises » sont-ils une spécialité ?",
+      "answer": "Cambrai",
+      "options": [
+        "Arras",
+        "Cambrai",
+        "Lille",
+        "Rouen"
+      ],
+      "explanation": "Il s'agit de bonbons aromatisés à la menthe et rayés de sucre caramélisé, dont la recette serait en fait issue d'une erreur.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-122",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_122.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-122-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel gâteau décore-t-on traditionnellement de sapins et de petits personnages ?",
+      "answer": "La bûche de Noël",
+      "options": [
+        "La bûche de Noël",
+        "La galette des Rois",
+        "Le palet de dame",
+        "La forêt noire"
+      ],
+      "explanation": "Cette coutume répandue dans toute l'Europe est attestée depuis le Moyen Âge et héritée de divers rites païens.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-122",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_122.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-122-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Où mange-t-on régulièrement de la moussaka en buvant de la retsina ?",
+      "answer": "En Grèce",
+      "options": [
+        "Au Maroc",
+        "Au Canada",
+        "En Russie",
+        "En Grèce"
+      ],
+      "explanation": "La retsina est un vin blanc (ou rosé léger) dans lequel est rajoutée de la résine de pin au cours de la fermentation.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-122",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_122.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-122-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Maman est en haut, qui fait des gâteaux, papa est en bas, qui fait...",
+      "answer": "Du nougat",
+      "options": [
+        "Des dégâts",
+        "Des rasta",
+        "Du nougat",
+        "Du cinéma"
+      ],
+      "explanation": "La berceuse, qui se retrouve dans toutes les sociétés du monde, est une chanson douce destinée à aider les enfants à s'endormir.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-122",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_122.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-122-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle religieuse italienne est connue pour être avocate des causes désespérées ?",
+      "answer": "Sainte Rita",
+      "options": [
+        "Sainte Sophie",
+        "Sainte Cécile",
+        "Sainte Rita",
+        "Sainte Lise"
+      ],
+      "explanation": "Canonisée le 24 mai 1900 par le pape Léon XIII, un important sanctuaire fut érigé à Cascia en son honneur au début du XXe siècle.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-122",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_122.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-122-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle célèbre danse de cabaret était surtout pratiquée dans le quartier de Montmartre ?",
+      "answer": "Le cancan",
+      "options": [
+        "Le calypso",
+        "Le carmagnole",
+        "La carioca",
+        "Le cancan"
+      ],
+      "explanation": "Le cancan cristallise l'image d'une société parisienne frivole et canaille, proche de celle décrite dans 'La Vie parisienne' d'Offenbach.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-122",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_122.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-122-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel thé est consommé par les japonais lors de la cérémonie du thé ?",
+      "answer": "Le thé vert",
+      "options": [
+        "Le thé blanc",
+        "Le thé rouge",
+        "Le thé noir",
+        "Le thé vert"
+      ],
+      "explanation": "Le rituel de la cérémonie du thé au Japon, préparé de manière traditionnelle, est influencé par le bouddhisme zen.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-122",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_122.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-122-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Les branches de quel arbuste sont traditionnellement utilisées pour la fête des Rameaux ?",
+      "answer": "Le buis",
+      "options": [
+        "Le houx",
+        "Le buis",
+        "Le chèvrefeuille",
+        "Le yucca"
+      ],
+      "explanation": "Le buis est également un matériau très utilisé en tabletterie, notamment pour la conception de pièces de jeux d'échecs.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-122",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_122.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-122-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel personnage type possède un costume fait de losanges multicolores ?",
+      "answer": "Arlequin",
+      "options": [
+        "Arlequin",
+        "Pierrot",
+        "Beltrame",
+        "Colombine"
+      ],
+      "explanation": "Les losanges de ce personnage de la commedia dell'arte représenteraient les multiples facettes d'Arlequin et sa pauvreté.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-122",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_122.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-122-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Parmi les symboles de Marianne, que représente le bonnet phrygien ?",
+      "answer": "La liberté",
+      "options": [
+        "La fraternité",
+        "Le pouvoir",
+        "La puissance",
+        "La liberté"
+      ],
+      "explanation": "Le bonnet phrygien tire sa symbolique de liberté de sa parenté avec le « pileus » qui coiffait les esclaves affranchis de l'Empire romain.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-122",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_122.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-122-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle fête annuelle se déroule à Menton depuis plus de 70 ans ?",
+      "answer": "Fête du Citron",
+      "options": [
+        "Fête du Mimosa",
+        "Fête du Citron",
+        "Fête des Roses",
+        "Fête des Mandarines"
+      ],
+      "explanation": "Le citron est un des symboles de la ville de Menton où, grâce à un climat méditerranéen très doux, des citronniers fructifient.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-122",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_122.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-122-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel animal est symbole de malheur pour les marins superstitieux ?",
+      "answer": "Le lapin",
+      "options": [
+        "Le castor",
+        "Le chat",
+        "Le lapin",
+        "Le chien"
+      ],
+      "explanation": "En France, les marins sont regroupés au Comité national des pêches maritimes et des élevages marins (CNPMEM).",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-122",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_122.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-122-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel mot provençal désigne un lutin taquin et espiègle, doué de pouvoirs fantastiques ?",
+      "answer": "Farfadet",
+      "options": [
+        "Mourioche",
+        "Picolaton",
+        "Farfadet",
+        "Coulobre"
+      ],
+      "explanation": "Le farfadet est entre autres présent dans le folklore de la Vendée et du Poitou ainsi que dans la mythologie occitane.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-122",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_122.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-122-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment se déplaçaient autrefois la plupart des bergers landais ?",
+      "answer": "Avec des échasses",
+      "options": [
+        "Avec des voiles",
+        "Avec des tracteurs",
+        "Avec des échasses",
+        "Avec des sabots"
+      ],
+      "explanation": "L'usage des échasses remonterait au XVIIIe siècle et prend fin au XIXe siècle, avec la disparition du système agro-pastoral.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-122",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_122.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-122-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle danse folklorique bretonne devenue danse de salon a été fixée au XIXe siècle ?",
+      "answer": "La gavotte",
+      "options": [
+        "La galvaudée",
+        "La bourrée",
+        "La gavotte",
+        "La sarabande"
+      ],
+      "explanation": "Les gavottes bretonnes forment une grande famille de danses avec des variantes correspondant aux anciens terroirs.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-122",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_122.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-122-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En Europe occidentale, quel « fruit » les belles du XVIe pouvaient-elles porter au cou ?",
+      "answer": "Des fraises",
+      "options": [
+        "Des myrtilles",
+        "Des fraises",
+        "Des cerises",
+        "Des framboises"
+      ],
+      "explanation": "La fraise est un col de lingerie formé de plis ou de godrons, placé autour du cou qu'il cache, mettant ainsi le visage en valeur.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-122",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_122.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-122-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle région de France mange-t-on les treize desserts de Noël ?",
+      "answer": "Provence",
+      "options": [
+        "Provence",
+        "Auvergne",
+        "Alsace",
+        "Bretagne"
+      ],
+      "explanation": "Les desserts peuvent être bus avec du vin cuit ou du vin muscat, tandis qu'à la fin apparaissent toutes les liqueurs maisons.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-122",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_122.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-122-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel chant portugais tire son inspiration de poésies populaires et nostalgiques ?",
+      "answer": "Le fado",
+      "options": [
+        "Le fado",
+        "Le bel canto",
+        "Le prado",
+        "Le largo"
+      ],
+      "explanation": "Le fado est probablement apparu vers les années 1820 ou 1840 au Portugal, mais ses origines précises sont incertaines.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-122",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_122.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-122-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En Irlande, que laisse-t-on sur la table avant de partir pour la messe de Noël ?",
+      "answer": "Whisky et carottes",
+      "options": [
+        "Whisky et carottes",
+        "Pommes et citrons",
+        "Pain et sel",
+        "Gin et oranges"
+      ],
+      "explanation": "Le symbole officiel du pays est la harpe celtique, mais le trèfle irlandais est souvent utilisé comme autre symbole (rugby).",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-122",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_122.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-122-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sous quel autre nom est également connu le Manneken-Pis de Bruxelles ?",
+      "answer": "Le Petit Julien",
+      "options": [
+        "Le Petit Julien",
+        "Le Petit bouclé",
+        "Le Petit mouilleur",
+        "Le Petit bronzé"
+      ],
+      "explanation": "Manneken-Pis est le symbole le plus connu des Bruxellois, qui personnifie aussi leur sens de l'humour et leur indépendance d'esprit.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-122",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_122.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-122-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle localité de France a réalisé la dentelle de la robe de mariée de Kate Middleton ?",
+      "answer": "Caudry",
+      "options": [
+        "Tourcoing",
+        "Gravelines",
+        "Bergues",
+        "Caudry"
+      ],
+      "explanation": "Caudry est, avec Calais, le centre mondial de la dentelle mécanique « Leavers » et exporte plus de 80% d'un produit raffiné.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-122",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_122.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-122-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel pays les femmes portent-elles encore des mantilles ?",
+      "answer": "Espagne",
+      "options": [
+        "Maroc",
+        "Grèce",
+        "Algérie",
+        "Espagne"
+      ],
+      "explanation": "La mantille est un voile léger apparu en Espagne et au Portugal, porté à la messe par les femmes catholiques.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-122",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_122.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-122-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville de France est célébrée chaque année la fête des jonquilles ?",
+      "answer": "Gérardmer",
+      "options": [
+        "Hauteluce",
+        "Tignes",
+        "Courchevel",
+        "Gérardmer"
+      ],
+      "explanation": "C'est l'occasion pour les Gérômois de célébrer l'un des symboles de leur ville, en particulier en y défilant sur des chars fleuris.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-122",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_122.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-122-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelles couleurs dominent les chapeaux portés pour la Sainte Catherine ?",
+      "answer": "Jaune et verte",
+      "options": [
+        "Grise et violette",
+        "Rose et orange",
+        "Jaune et verte",
+        "Rouge et bleue"
+      ],
+      "explanation": "Autrefois, les statues de sainte Catherine placées dans les églises étaient ornées d'une coiffe qui était renouvelée chaque année.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-122",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_122.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

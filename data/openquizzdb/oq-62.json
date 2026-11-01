@@ -1,0 +1,798 @@
+{
+  "id": "oq-62",
+  "title": "Jean Michel Jarre",
+  "originalTitle": "Jean Michel Jarre",
+  "universe": "music",
+  "emoji": "🎵",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_62.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-62-1",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "De quel compositeur de musiques de films Jean Michel Jarre est-il le fils ?",
+      "answer": "Maurice Jarre",
+      "options": [
+        "Raymond Jarre",
+        "Maurice Jarre",
+        "Jean-Luc Jarre",
+        "André Jarre"
+      ],
+      "explanation": "Maurice Jarre fait partie des très rares artistes français à avoir été honorés par une étoile au Hollywood Walk of Fame à Los Angeles.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-62",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_62.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-62-2",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Dans quelle ville des États-Unis Jean Michel Jarre a-t-il donné son méga-concert 'Rendez-Vous' ?",
+      "answer": "Houston",
+      "options": [
+        "Chicago",
+        "Houston",
+        "Miami",
+        "Los Angeles"
+      ],
+      "explanation": "Le concert a été mis en scène par Christian Bourret, qui réalisera par la suite la plupart des concerts de Jean Michel Jarre.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-62",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_62.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-62-3",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quelle actrice française Jean Michel Jarre a-t-il épousé en 2005 ?",
+      "answer": "Anne Parillaud",
+      "options": [
+        "Karin Viard",
+        "Anne Parillaud",
+        "Juliette Binoche",
+        "Isabelle Adjani"
+      ],
+      "explanation": "Elle collaborera pour le DVD <i>AERO</i> puis en 2007 où sa voix fut utilisée dans le titre <i>Beautiful Agony' de l'album <i>Téo et Téa</i>.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-62",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_62.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-62-4",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Dans quelle ville Jean Michel Jarre a-t-il donné le son concert 'Destination Docklands' ?",
+      "answer": "Londres",
+      "options": [
+        "Houston",
+        "Lyon",
+        "Londres",
+        "Paris"
+      ],
+      "explanation": "C'est en 1988 que Jean Michel Jarre a donné ce concert dans des conditions météorologiques désastreuses.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-62",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_62.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-62-5",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Le texte de quel immense tube de Christophe a été écrit par Jean Michel Jarre ?",
+      "answer": "Les Mots Bleus",
+      "options": [
+        "Succès Fou",
+        "Aline",
+        "Les Mots Bleus",
+        "La Dolce Vita"
+      ],
+      "explanation": "Jean Michel Jarre a participé aux textes des albums <i>Les Paradis perdus</i> (1973) et <i>Les Mots bleus</i> (1974) pour Christophe.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-62",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_62.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-62-6",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Pour qui Jean Michel Jarre est-il parolier et producteur du hit 'Où sont les femmes ?' ?",
+      "answer": "Patrick Juvet",
+      "options": [
+        "Julio Iglesias",
+        "Claude François",
+        "Éric Charden",
+        "Patrick Juvet"
+      ],
+      "explanation": "Le titre aux sonorités disco connaîtra un grand succès en France où il est considéré comme le premier tube disco français chanté.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-62",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_62.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-62-7",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel album de Jean Michel Jarre a envahi les premières places des ventes en 1976 ?",
+      "answer": "Oxygène",
+      "options": [
+        "Oxygène",
+        "Equinoxe",
+        "Rendez-vous",
+        "Chronologie"
+      ],
+      "explanation": "Vendu à environ 18 millions d'exemplaires, il s'agit d'un des plus gros succès de l'histoire de la discographie française.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-62",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_62.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-62-8",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Dans quelle ville de France Jean Michel Jarre a-t-il donné son méga-concert 'Rendez-Vous' ?",
+      "answer": "Lyon",
+      "options": [
+        "Paris",
+        "Marseille",
+        "Lyon",
+        "Toulouse"
+      ],
+      "explanation": "Le « concert pour le pape », donné en l'honneur de la venue de Jean-Paul II, se déroule sur la colline de Fourvière.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-62",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_62.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-62-9",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quelle actrice britannique Jean Michel Jarre a-t-il épousé en 1978 ?",
+      "answer": "Charlotte Rampling",
+      "options": [
+        "Julie Cox",
+        "Charlotte Rampling",
+        "Kate Beckinsale",
+        "Jane Birkin"
+      ],
+      "explanation": "Charlotte Rampling aura un enfant avec lui, prénommé David, et se séparera de Jean Michel Jarre en 1997.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-62",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_62.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-62-10",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Dans quelle ville Jean Michel Jarre a-t-il organisé son premier concert en extérieur gratuit ?",
+      "answer": "Paris",
+      "options": [
+        "Houston",
+        "Lyon",
+        "Paris",
+        "Londres"
+      ],
+      "explanation": "Le concert place de la Concorde, intitulé <i>Paris Bleu Blanc Rouge</i>, a attiré un million de spectateurs, sans compter les téléspectateurs.",
+      "level": "easy",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-62",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_62.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-62-11",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "De quel artiste Jean-Michel Jarre a-t-il mis en scène le spectacle en 1975 ?",
+      "answer": "Christophe",
+      "options": [
+        "Christophe",
+        "Claude Nougaro",
+        "Michel Berger",
+        "Julien Clerc"
+      ],
+      "explanation": "On pouvait y voir un piano voler. C'est à ce moment qu'il rencontre Francis Dreyfus, son futur éditeur.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-62",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_62.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-62-12",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "À combien d'exemplaires l'album 'Musique pour supermarché' de Jean Michel Jarre est-il sorti ?",
+      "answer": "Un seul",
+      "options": [
+        "1 000",
+        "Un seul",
+        "100",
+        "10 000 000"
+      ],
+      "explanation": "Cet album unique a été vendu aux enchères le 6 juillet 1983 à l'hôtel Drouot pour la somme de 69 000 francs (10 519 €).",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-62",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_62.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-62-13",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel album ethnique de Jean Michel Jarre rappelle fortement 'Zoolook' ?",
+      "answer": "Révolutions",
+      "options": [
+        "Chronologie",
+        "Aero",
+        "Metamorphoses",
+        "Révolutions"
+      ],
+      "explanation": "Réédité et remastérisé en 1994, l'album <i>Révolutions</i> devait initialement s'appeler <i>Destinations</i>.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-62",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_62.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-62-14",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Avec quel leader des Shadows Jean Michel Jarre a-t-il joué 'London Kid' en 1989 ?",
+      "answer": "Hank Marvin",
+      "options": [
+        "Ken Pavey",
+        "Bruce Welch",
+        "Hank Marvin",
+        "Brian Bennett"
+      ],
+      "explanation": "Hank Marvin a inspiré des musiciens comme Eric Clapton, Mike Oldfield, Brian May, George Harrison et Mark Knopfler.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-62",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_62.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-62-15",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel morceau de Jean Michel Jarre est utilisé en musique d'attente avant ses concerts ?",
+      "answer": "En Attendant Cousteau",
+      "options": [
+        "En Attendant Cousteau",
+        "Zoolookologie",
+        "London Kid",
+        "Soul Intrusion"
+      ],
+      "explanation": "Il a aussi réalisé la musique d'un reportage de l'Odyssée du Commandant Cousteau sur les Philippines.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-62",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_62.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-62-16",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quelle est la particularité de l'album 'Odyssey Through O2' de Jean Michel Jarre ?",
+      "answer": "C'est un CD-ROM",
+      "options": [
+        "Il ne s'écoute pas",
+        "Il contient 1 titre",
+        "Il dure 9 minutes",
+        "C'est un CD-ROM"
+      ],
+      "explanation": "La partie audio est constituée de remixes de différentes parties d'Oxygène, alors que la partie multimédia est très travaillée.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-62",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_62.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-62-17",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel album de Jean Michel Jarre est (inhabituellement) accompagné de paroles ?",
+      "answer": "Metamorphoses",
+      "options": [
+        "Chronologie",
+        "Geometry of Love",
+        "Metamorphoses",
+        "Aero"
+      ],
+      "explanation": "Cet album, joué lors du concert au Caire, comporte entre autres les voix de Natacha Atlas ou de Laurie Anderson.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-62",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_62.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-62-18",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Dans quelle ville est né le compositeur français de musique électronique Jean Michel Jarre ?",
+      "answer": "Lyon",
+      "options": [
+        "Marseille",
+        "Toulouse",
+        "Lyon",
+        "Nice"
+      ],
+      "explanation": "Issu d'une famille de musiciens, Jean Michel Jarre est né en 1948 dans le quartier de la Croix Rousse, à Lyon.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-62",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_62.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-62-19",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel album de Jean Michel Jarre est un hommage au vent ?",
+      "answer": "Aero",
+      "options": [
+        "Téo & Téa",
+        "Chronologie",
+        "Geometry of Love",
+        "Aero"
+      ],
+      "explanation": "<i>AERO</i> est présenté par Jean Michel Jarre comme étant le premier album entièrement conçu en son 5.1.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-62",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_62.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-62-20",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel label a acheté en 1977 les droits de distribution des œuvres de Jean Michel Jarre ?",
+      "answer": "Polydor",
+      "options": [
+        "Mute Records",
+        "Parlophone",
+        "Phonogram",
+        "Polydor"
+      ],
+      "explanation": "La même année, Jean Michel Jarre est nommé « Personnalité de l'année » par le magazine américain <i>People</i>.",
+      "level": "medium",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-62",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_62.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-62-21",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Combien de spectateurs ont assisté à 'La Défense en concert' de Jean Michel Jarre ?",
+      "answer": "2 500 000",
+      "options": [
+        "1 500 000",
+        "2 000 000",
+        "2 500 000",
+        "1 000 000"
+      ],
+      "explanation": "Un livre souvenir de ce concert est publié aux Éditions du Moniteur, onze ans après son premier méga-concert.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-62",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_62.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-62-22",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel album de Jean Michel Jarre a marqué le retour des synthétiseurs analogiques ?",
+      "answer": "Chronologie",
+      "options": [
+        "Geometry of Love",
+        "Aero",
+        "Chronologie",
+        "Metamorphoses"
+      ],
+      "explanation": "À noter également sur cet album la collaboration avec le guitariste de metal instrumental Patrick Rondat.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-62",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_62.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-62-23",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Avec quel groupe Jean Michel Jarre a-t-il remporté le premier prix du tremplin de la Foire de Paris ?",
+      "answer": "Mystères IV",
+      "options": [
+        "Secrets V",
+        "Souvenirs III",
+        "Mystères IV",
+        "Bizarro IV"
+      ],
+      "explanation": "Dans les années 1960, Jean Michel Jarre a joué dans plusieurs groupes de rock et de jazz, dont les Mystères IV.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-62",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_62.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-62-24",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "De quelle émission Jean-Michel Jarre a-t-il composé le générique en 1972 ?",
+      "answer": "Sport en fête",
+      "options": [
+        "La Preuve par 4",
+        "Sport en fête",
+        "Champs-Élysées",
+        "Stars 90"
+      ],
+      "explanation": "Travaillant à l'époque de façon indépendante, il a composé le générique de cette émission présentée par Michel Drucker.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-62",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_62.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-62-25",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "De quel film avec Alain Delon Jean Michel Jarre a-t-il signé la bande originale ?",
+      "answer": "Les Granges brûlées",
+      "options": [
+        "Les Granges brûlées",
+        "Borsalino and Co",
+        "Zorro",
+        "Scorpio"
+      ],
+      "explanation": "L'intrigue du film 'Les Granges brûlées' de Jean Chapot n'est pas sans rappeler celle de <i>L'Affaire Dominici</i> sorti la même année.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-62",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_62.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-62-26",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel album très expérimental de Jean Michel Jarre a été composé à l'orgue Farfisa ?",
+      "answer": "Deserted Palace",
+      "options": [
+        "Equinoxe",
+        "Oxygène",
+        "Rendez-vous",
+        "Deserted Palace"
+      ],
+      "explanation": "L'album fut distribué comme compilation de musiques d'ambiance créées pour la société américaine Underground Muzaks.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-62",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_62.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-62-27",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Sous quel pseudonyme Jean Michel Jarre a-t-il sorti sa propre version de 'Pop-corn' ?",
+      "answer": "Jamie Jefferson",
+      "options": [
+        "Jimmy Paxton",
+        "Damian Rafferty",
+        "Jamie Jefferson",
+        "Paul Hardcastle"
+      ],
+      "explanation": "En face B, <i>Black bird</i> propose une version différente de <i>Bridge of promises</i> que l'on trouve originellement sur l'album <i>Deserted Palace</i>.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-62",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_62.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-62-28",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel album de Jean Michel Jarre marque le début de sa collaboration avec Michel Geiss ?",
+      "answer": "Equinoxe",
+      "options": [
+        "Révolutions",
+        "Rendez-vous",
+        "Equinoxe",
+        "Oxygène"
+      ],
+      "explanation": "Deuxième gros succès après <i>Oxygène</i>, <i>Equinoxe</i> a été vendu à environ 10 millions d'exemplaires dans le monde.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-62",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_62.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-62-29",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Dans quel album Jean Michel Jarre a-t-il utilisé pour la première fois le Fairlight CMI ?",
+      "answer": "Les Chants Magnétiques",
+      "options": [
+        "Oxygène",
+        "Equinoxe",
+        "Les Chants Magnétiques",
+        "Rendez-vous"
+      ],
+      "explanation": "'Les Chants Magnétiques' est l'un des premiers albums à utiliser massivement la technique de l'échantillonnage.",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-62",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_62.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-62-30",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Qui a distribué à Jean Michel Jarre une Victoire de la musique dans les années 1980 ?",
+      "answer": "Daniel Balavoine",
+      "options": [
+        "Daniel Balavoine",
+        "Alain Souchon",
+        "Michel Berger",
+        "Charles Aznavour"
+      ],
+      "explanation": "Quelques morceaux de <i>Zoolook</i> sont utilisés comme génériques d'émissions (<i>Zénith</i> sur Canal+ et <i>Histoires courtes</i> sur Antenne 2).",
+      "level": "hard",
+      "emoji": "🎵",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-62",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_62.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

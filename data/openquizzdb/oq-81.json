@@ -1,0 +1,774 @@
+{
+  "id": "oq-81",
+  "title": "Hunger Games",
+  "originalTitle": "Hunger Games",
+  "universe": "film",
+  "emoji": "🎬",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_81.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    22
+  ],
+  "questions": [
+    {
+      "id": "oqdb-81-1",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "La mort de quel tribut a été le seul moment où Katniss a craqué et pleuré ?",
+      "answer": "Rue",
+      "options": [
+        "Glimmer",
+        "Rue",
+        "Cato",
+        "Peeta"
+      ],
+      "explanation": "Rue est morte à l'âge de 12 ans quand Marvel a envoyé un épieu dans son estomac.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-81",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_81.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-81-2",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans 'Hunger Games', qui se porte volontaire pour être tribut à la place de Haymitch ?",
+      "answer": "Peeta",
+      "options": [
+        "Peeta",
+        "Katniss",
+        "Primrose",
+        "Gale"
+      ],
+      "explanation": "Peeta est le fils du boulanger, ce qui le rend plus riche que la plupart des habitants du district Douze, le district minier.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-81",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_81.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-81-3",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans la saga 'Hunger Games', que manque-t-il à un Avox ?",
+      "answer": "La langue",
+      "options": [
+        "Les dents",
+        "Les yeux",
+        "La langue",
+        "Les mains"
+      ],
+      "explanation": "Un Avox est une personne qui a été puni pour être un rebelle contre le Capitole, un traître ou un déserteur.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-81",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_81.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-81-4",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui s'imagine avoir tiré sur quelqu'un en chassant le dindon ?",
+      "answer": "Katniss",
+      "options": [
+        "Gale",
+        "Katniss",
+        "Cinna",
+        "Peeta"
+      ],
+      "explanation": "Katniss passait ses journées à chasser, c'est ainsi qu'elle rencontra son meilleur ami Gale Hawthorne.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-81",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_81.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-81-5",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Que peut-on observer sur la broche de Katniss, reçue d'une commerçante de la Plaque ?",
+      "answer": "Un geai moqueur",
+      "options": [
+        "Un arc",
+        "Une pioche",
+        "Un geai moqueur",
+        "Un globe"
+      ],
+      "explanation": "Le geai moqueur est un drôle d'oiseau qui représente une forme de mouflet pour le Capitole.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-81",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_81.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-81-6",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans la saga 'Hunger Games', qui utilise le symbole du geai moqueur ?",
+      "answer": "Les rebelles",
+      "options": [
+        "Le capitole",
+        "Les rebelles",
+        "Le District 11",
+        "Le District 12"
+      ],
+      "explanation": "Dans 'Hunger Games : La Révolte', les rebelles entreprennent une révolution sanglante contre le Capitole.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-81",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_81.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-81-7",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui donne à Katniss un instrument qui extrait du liquide des arbres ?",
+      "answer": "Haymitch",
+      "options": [
+        "Haymitch",
+        "Johanna",
+        "Gale",
+        "Peeta"
+      ],
+      "explanation": "Haymitch était le seul tribut en vie du District 12 jusqu'à la 74ème édition des Hunger Games.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-81",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_81.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-81-8",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel véhicule vient récupérer les vainqueurs à la fin des jeux de 'Hunger Games' ?",
+      "answer": "Un aéroglisseur",
+      "options": [
+        "Un bateau",
+        "Un aéroglisseur",
+        "Une limousine",
+        "Une motocyclette"
+      ],
+      "explanation": "Pour le District 13, les décorateurs ont conçu des aéroglisseurs à l'apparence plus ancienne que ceux appartenant au Capitol.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-81",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_81.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-81-9",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel personnage important de 'Hunger Games' porte généralement une rose blanche ?",
+      "answer": "Snow",
+      "options": [
+        "Peeta",
+        "Katniss",
+        "Snow",
+        "Cinna"
+      ],
+      "explanation": "Le président Coriolanus Snow a été le chef de Panem pendant au moins 25 ans.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-81",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_81.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-81-10",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel membre de la famille de Katniss est mort dans une mine de charbon ?",
+      "answer": "Son père",
+      "options": [
+        "Son oncle",
+        "Son frère",
+        "Son père",
+        "Son chien"
+      ],
+      "explanation": "Le père de Katniss est mort suite à une explosion dans la mine (un coup de grisou) quand elle avait onze ans.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-81",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_81.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-81-11",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quel État s'est déroulé la quasi-totalité du tournage du premier 'Hunger Games' ?",
+      "answer": "Caroline du Nord",
+      "options": [
+        "Vermont",
+        "Arizona",
+        "Caroline du Nord",
+        "Oregon"
+      ],
+      "explanation": "Hunger Games est une tétralogie cinématographique de science-fiction réalisée par Gary Ross puis Francis Lawrence.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-81",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_81.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-81-12",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelles baies empoisonnées Peeta a-t-il cueilli sans le savoir pour le manger avec Katniss ?",
+      "answer": "Sureau",
+      "options": [
+        "Ciguë",
+        "Sureau",
+        "Napalm",
+        "Trèfle"
+      ],
+      "explanation": "Peeta est allé à l'école avec Katniss mais n'a jamais été assez courageux pour lui parler car il l'aime en secret.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-81",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_81.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-81-13",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel acteur joue le rôle de Caesar Flickerman dans la saga 'Hunger Games' ?",
+      "answer": "Stanley Tucci",
+      "options": [
+        "Donald Sutherland",
+        "Josh Hutcherson",
+        "Stanley Tucci",
+        "Woody Harrelson"
+      ],
+      "explanation": "Caesar Flickerman est le présentateur des interviews des tributs lors des Hunger Games.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-81",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_81.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-81-14",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "À quelle heure l'arbre est-il frappé par la foudre dans l'arène de 'Hunger Games' ?",
+      "answer": "12h00",
+      "options": [
+        "1h00",
+        "3h00",
+        "12h00",
+        "8h00"
+      ],
+      "explanation": "Johanna et Katniss ont déroulé un fil métallique relié à l'arbre pour électriser la mer située au centre de l'arène.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-81",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_81.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-81-15",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui tire presque sur Gale au début du film 'L'Embrasement' ?",
+      "answer": "Katniss",
+      "options": [
+        "Peeta",
+        "Cinna",
+        "Katniss",
+        "Primrose"
+      ],
+      "explanation": "Gale Hawthorne est le meilleur ami de Katniss Everdeen et son partenaire de chasse.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-81",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_81.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-81-16",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "De quoi meurent habituellement une partie des tributs dans 'Hunger Games' ?",
+      "answer": "Déshydratation",
+      "options": [
+        "Déshydratation",
+        "Diabète",
+        "Infection",
+        "Fièvre"
+      ],
+      "explanation": "Les enfants du Capitole ne sont jamais tirés au sort pour les Hunger Games, car seuls les districts doivent fournir les tributs.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-81",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_81.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-81-17",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui est le nouveau chef des pacificateurs du District 12 dans 'L'Embrasement' ?",
+      "answer": "Romulus Thread",
+      "options": [
+        "Romulus Thread",
+        "Haymitch",
+        "Plutarch",
+        "Cinna"
+      ],
+      "explanation": "Thread est connu pour être le Pacificateur le plus méchant et le plus dévoué au Capitole du district.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-81",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_81.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-81-18",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle coiffure Prim a-t-elle arborée lors de la moisson ?",
+      "answer": "Des tresses",
+      "options": [
+        "Des couettes",
+        "Des tresses",
+        "Un chignon",
+        "Une queue de cheval"
+      ],
+      "explanation": "Prim a les yeux bleus et les cheveux blonds, à la différence de la plupart de la population de la Veine.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-81",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_81.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-81-19",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le métier du père de Peeta, personnage très droit, juste et sincère de la saga 'Hunger Games' ?",
+      "answer": "Boulanger",
+      "options": [
+        "Coiffeur",
+        "Boulanger",
+        "Pharmacien",
+        "Avocat"
+      ],
+      "explanation": "Son père était gentil mais sa mère, connue en tant que « sorcière », était réputée pour battre Peeta.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-81",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_81.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-81-20",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui joue le rôle de Cato dans la saga 'Hunger Games' ?",
+      "answer": "Alexander Ludwig",
+      "options": [
+        "Josh Hutcherson",
+        "Dwayne Johnson",
+        "Daniel Radcliffe",
+        "Alexander Ludwig"
+      ],
+      "explanation": "Tribut masculin du District 2, Grand et fort, Cato a la particularité d'être cruel envers ses victimes.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-81",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_81.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-81-21",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le nom de famille de Haymitch, ancien gagnant de la seconde Expiation ?",
+      "answer": "Abernathy",
+      "options": [
+        "Mellark",
+        "Trinket",
+        "Everdeen",
+        "Abernathy"
+      ],
+      "explanation": "Depuis sa victoire, Haymitch vit de façon aisée dans sa maison située dans le Village des Vainqueurs.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-81",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_81.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-81-23",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Que dit Peeta la première fois qu'il découvre le Capitole de ses propres yeux ?",
+      "answer": "Le voici",
+      "options": [
+        "C'est fabuleux",
+        "On y est",
+        "Incroyable",
+        "Le voici"
+      ],
+      "explanation": "Le Capitole de Panem est une ville technologiquement avancée où vivent les personnes les plus riches et les puissantes de la nation.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-81",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_81.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-81-24",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel objet a causé la blessure à la jambe de Peeta dans la première partie ?",
+      "answer": "Une épée",
+      "options": [
+        "Une bougie",
+        "Une flèche",
+        "Une épée",
+        "Une boule de feu"
+      ],
+      "explanation": "Peeta ayant sauvé Katniss d'une tentative d'assassinat de Cato, ce dernier se vengea en lui plantant son épée dans la jambe.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-81",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_81.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-81-25",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel camouflage Peeta a-t-il dessiné sur sa main au centre d'entraînement ?",
+      "answer": "Une écorce",
+      "options": [
+        "Une écorce",
+        "Une rivière",
+        "Une herbe",
+        "Une roche"
+      ],
+      "explanation": "Peeta est extrêmement doué pour le camouflage car il décorait les gâteaux à la boulangerie.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-81",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_81.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-81-26",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui aide Katniss à se débarrasser des fournitures des Carrières ?",
+      "answer": "Rue",
+      "options": [
+        "Thresh",
+        "La Renarde",
+        "Peeta",
+        "Rue"
+      ],
+      "explanation": "Rue Barnette est décrite dans le livre comme ayant la peau brune et les cheveux noirs.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-81",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_81.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-81-27",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans le premier 'Hunger Games', quel acteur joue le rôle du tribut mâle du District 11 ?",
+      "answer": "Dayo Okeniyi",
+      "options": [
+        "Rupert Grint",
+        "Dayo Okeniyi",
+        "Liam Hemsworth",
+        "Nicholas Hoult"
+      ],
+      "explanation": "Fort et plein de ressources, Tresh s'est vite imposé comme l'un des adversaires principaux des autres tributs.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-81",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_81.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-81-28",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "De combien de notes se compose l'appel au geai moqueur de Rue ?",
+      "answer": "4",
+      "options": [
+        "6",
+        "5",
+        "4",
+        "3"
+      ],
+      "explanation": "Exclusivement mâle, le geai moqueur regagne toujours son gîte à la manière d'un pigeon voyageur.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-81",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_81.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-81-29",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle note a obtenu Marvel, le garçon du District 1, après son évaluation ?",
+      "answer": "9",
+      "options": [
+        "11",
+        "10",
+        "9",
+        "8"
+      ],
+      "explanation": "Marvel sera tué par Katniss qui lui tire une flèche dans le cou après qu'il ait tué Rue.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-81",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_81.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-81-30",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans 'Hunger Games', de quel district vient Finnick Odair ?",
+      "answer": "District 4",
+      "options": [
+        "District 12",
+        "District 11",
+        "District 4",
+        "District 3"
+      ],
+      "explanation": "Finnick Odair est connu pour être le gagnant des 65ème Hunger Games à 14 ans seulement.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-81",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_81.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

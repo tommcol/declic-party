@@ -1,0 +1,798 @@
+{
+  "id": "oq-233",
+  "title": "Citations courtes",
+  "originalTitle": "Citations courtes (Les plus courtes sont les meilleures)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_233.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-233-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a dit : « Un seul être vous manque, et tout est dépeuplé » ?",
+      "answer": "Lamartine",
+      "options": [
+        "Stendhal",
+        "Lamartine",
+        "Voltaire",
+        "Montesquieu"
+      ],
+      "explanation": "Alphonse de Lamartine est un poète et romancier qui participa à la Révolution de février 1848 et proclama la Deuxième République.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-233",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_233.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-233-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a dit : « Quand les gens parlent de toi, c'est que tu existes » ?",
+      "answer": "Éric Cantona",
+      "options": [
+        "Serge Gainsbourg",
+        "Grand corps malade",
+        "Éric Cantona",
+        "Coluche"
+      ],
+      "explanation": "Ses frasques, ses colères et son caractère imprévisible font d'Éric Cantona un acteur incontournable des médias.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-233",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_233.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-233-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a dit : « Ne buvez pas au volant, vous pourriez en renverser » ?",
+      "answer": "Coluche",
+      "options": [
+        "Woody Allen",
+        "Frédéric Dard",
+        "Coluche",
+        "Michel Audiard"
+      ],
+      "explanation": "Fils d'un immigré italien et d'une Française, Michel Colucci grandit à Montrouge et adoptera le pseudonyme de Coluche à 26 ans.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-233",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_233.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-233-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a dit : « La vie ne vaut rien, mais rien ne vaut la vie » ?",
+      "answer": "André Malraux",
+      "options": [
+        "Albert Camus",
+        "Jules Renard",
+        "Oscar Wilde",
+        "André Malraux"
+      ],
+      "explanation": "Malraux a obtenu le prix Goncourt avec « La Condition humaine », roman qui s'inspire des soubresauts révolutionnaires de la Chine.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-233",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_233.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-233-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a dit : « Je n'ai jamais eu qu'une seule ride et je suis assise dessus » ?",
+      "answer": "Jeanne Calment",
+      "options": [
+        "Jeanne Calment",
+        "Albert Einstein",
+        "Mère Teresa",
+        "Woody Allen"
+      ],
+      "explanation": "Jeanne Calment est devenue l'être humain ayant vécu le plus longtemps parmi les personnes à la date de naissance certifiée.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-233",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_233.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-233-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a dit : « Quand j'étais jeune j'étais très con : je suis resté très jeune » ?",
+      "answer": "J-C Van Damme",
+      "options": [
+        "Woody Allen",
+        "Sacha Guitry",
+        "Coluche",
+        "J-C Van Damme"
+      ],
+      "explanation": "En 2007, il révèle au magazine Empire sa liaison avec la chanteuse Kylie Minogue durant le tournage de « Street Fighter ».",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-233",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_233.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-233-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle célébrité a dit : « L'avenir appartient à ceux qui rêvent trop » ?",
+      "answer": "Grand corps malade",
+      "options": [
+        "Eric Cantona",
+        "William Shakespeare",
+        "Bob Marley",
+        "Grand corps malade"
+      ],
+      "explanation": "Lors d'une colonie de vacances qu'il animait en 1997, il a fait un plongeon dans une piscine dont le niveau d'eau était trop bas.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-233",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_233.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-233-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a dit : « Un intellectuel assis va moins loin qu'un con qui marche » ?",
+      "answer": "Michel Audiard",
+      "options": [
+        "Frédéric Dard",
+        "Michel Audiard",
+        "Tristan Bernard",
+        "Serge Gainsbourg"
+      ],
+      "explanation": "Les dialogues de Michel Audiard constituent l'un des meilleurs témoignages de l'irrévérence détachée propre aux années 1960.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-233",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_233.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-233-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a dit : « Je suis fier que l'on me compare à Michel Platini » ?",
+      "answer": "Zinédine Zidane",
+      "options": [
+        "Zinédine Zidane",
+        "Laurent Blanc",
+        "Lionel Messi",
+        "David Beckham"
+      ],
+      "explanation": "Célèbre numéro 10 des Bleus, Zinédine Zidane mettra un terme à sa carrière à la suite de la Coupe du monde de football 2006.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-233",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_233.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-233-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a dit : « Les enfants c'est comme les pets, on supporte surtout les siens » ?",
+      "answer": "Frédéric Dard",
+      "options": [
+        "Coluche",
+        "Sacha Guitry",
+        "Frédéric Dard",
+        "Jean-Paul Guerlain"
+      ],
+      "explanation": "Frédéric Dard est surtout connu pour les aventures du commissaire San Antonio, souvent aidé de son adjoint Bérurier.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-233",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_233.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-233-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a dit : « Le parfum d'une femme est la forme la plus intense du souvenir » ?",
+      "answer": "Jean-Paul Guerlain",
+      "options": [
+        "François Demachy",
+        "Jean-Paul Guerlain",
+        "Pierre Bourdon",
+        "Jean Patou"
+      ],
+      "explanation": "Marié, il était le dernier héritier de la célèbre maison de parfumeurs homonyme, avant de la céder en 1994 au groupe LVMH.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-233",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_233.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-233-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a dit : « L'homme n'est pas fait pour travailler : la preuve, ça le fatigue » ?",
+      "answer": "Tristan Bernard",
+      "options": [
+        "Oscar Wilde",
+        "Jules Renard",
+        "Tristan Bernard",
+        "Albert Camus"
+      ],
+      "explanation": "Outre ses romans, Tristan Bernard est également connu pour ses grilles de mots croisés, pleines d'esprit et de malice.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-233",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_233.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-233-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a dit : « Être fidèle, c'est, bien souvent, enchaîner l'autre » ?",
+      "answer": "Sacha Guitry",
+      "options": [
+        "Sacha Guitry",
+        "Jules Renard",
+        "Voltaire",
+        "Mère Teresa"
+      ],
+      "explanation": "Auteur dramatique prolifique, Sacha Guitry a écrit 124 pièces de théâtre, dont beaucoup furent et restent de grands succès.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-233",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_233.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-233-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel homme célèbre a dit : « La vie est courte, mais l'ennui l'allonge » ?",
+      "answer": "Jules Renard",
+      "options": [
+        "Bob Marley",
+        "Woody Allen",
+        "Serge Gainsbourg",
+        "Jules Renard"
+      ],
+      "explanation": "Soutient d'Émile Zola dans l'affaire Dreyfus, il se révèle aussi être un admirateur enthousiaste et presque délirant de Victor Hugo.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-233",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_233.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-233-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a dit : « La bouche obéit mal lorsque le coeur murmure » ?",
+      "answer": "Voltaire",
+      "options": [
+        "Malraux",
+        "Voltaire",
+        "Shakespeare",
+        "Confucius"
+      ],
+      "explanation": "Représentant le plus connu de la philosophie des Lumières, Voltaire domina son époque par la durée de sa vie (83 ans).",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-233",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_233.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-233-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a dit : « Si vous jugez les gens, vous n'avez pas le temps de les aimer » ?",
+      "answer": "Mère Teresa",
+      "options": [
+        "Grand corps malade",
+        "Mère Teresa",
+        "Alfred de Musset",
+        "Oscar Wilde"
+      ],
+      "explanation": "Mère Teresa est connue pour son action caritative avec les « Missionnaires de la Charité » qui suivent son exemple.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-233",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_233.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-233-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a dit : « L'imagination est plus importante que le savoir » ?",
+      "answer": "Albert Einstein",
+      "options": [
+        "Albert Einstein",
+        "Confucius",
+        "Oscar Wilde",
+        "Guy de Maupassant"
+      ],
+      "explanation": "Albert Einstein a publié sa théorie de la relativité restreinte en 1905 et sa théorie de la gravitation dite relativité générale en 1915.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-233",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_233.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-233-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a dit : « Parler de ses peines, c'est déjà se consoler » ?",
+      "answer": "Albert Camus",
+      "options": [
+        "Albert Camus",
+        "Jeanne Calment",
+        "Mère Teresa",
+        "Alfred de Musset"
+      ],
+      "explanation": "En marge des courants philosophiques, Camus sera d'abord témoin de son temps, intransigeant, refusant toute compromission.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-233",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_233.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-233-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel génie a dit : « L'éternité c'est long, surtout vers la fin » ?",
+      "answer": "Woody Allen",
+      "options": [
+        "Woody Allen",
+        "Tristan Bernard",
+        "Albert Einstein",
+        "Guy de Maupassant"
+      ],
+      "explanation": "Réalisant pratiquement un film par an, Woody Allen est l'un des cinéastes américains les plus prolifiques de ces dernières années.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-233",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_233.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-233-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel homme de lettres a dit : « La tristesse vient de la solitude du coeur » ?",
+      "answer": "Montesquieu",
+      "options": [
+        "Lamartine",
+        "Voltaire",
+        "Montesquieu",
+        "Stendhal"
+      ],
+      "explanation": "Montesquieu est l'un des penseurs de l'organisation politique et sociale sur lesquels les sociétés modernes s'appuient.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-233",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_233.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-233-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle personnalité a dit : « C'est ce qui sort de ta bouche qui te maintient en vie » ?",
+      "answer": "Bob Marley",
+      "options": [
+        "Woody Allen",
+        "Bob Marley",
+        "Confucius",
+        "Emile Deschanel"
+      ],
+      "explanation": "Bob Marley est celui qui a permis à la musique jamaïcaine et au mouvement rastafari de connaître une audience planétaire.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-233",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_233.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-233-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a dit : « Le masque est si charmant que j'ai peur du visage » ?",
+      "answer": "Alfred de Musset",
+      "options": [
+        "André Malraux",
+        "Alfred de Musset",
+        "Montesquieu",
+        "Stendhal"
+      ],
+      "explanation": "Le théâtre et la poésie lyrique d'Alfred de Musset montrent une sensibilité extrême et une interrogation sur la pureté et la débauche.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-233",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_233.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-233-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a dit : « La beauté est dans les yeux de celui qui regarde » ?",
+      "answer": "Oscar Wilde",
+      "options": [
+        "Oscar Wilde",
+        "Confucius",
+        "Guy de Maupassant",
+        "Stendhal"
+      ],
+      "explanation": "Oscar Wilde incarne une nouvelle sensibilité qui apparaît en réaction contre le positivisme et le naturalisme.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-233",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_233.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-233-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a dit : « Un baiser légal ne vaut jamais un baiser volé » ?",
+      "answer": "Guy de Maupassant",
+      "options": [
+        "Guy de Maupassant",
+        "André Malraux",
+        "Alfred de Musset",
+        "Sacha Guitry"
+      ],
+      "explanation": "Reconnu de son vivant, il conserve un renom de premier plan, renouvelé par les nombreuses adaptations filmées de ses oeuvres.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-233",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_233.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-233-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a dit : « On n'emporte en mourant que ce qu'on a donné » ?",
+      "answer": "Émile Deschanel",
+      "options": [
+        "Hector Durville",
+        "Théodore Garnier",
+        "Gaston Méry",
+        "Émile Deschanel"
+      ],
+      "explanation": "Les papiers personnels de la famille Deschanel sont conservés aux Archives nationales sous la cote 151AP.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-233",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_233.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-233-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a dit : « Plus on plaît généralement, moins on plaît profondément » ?",
+      "answer": "Stendhal",
+      "options": [
+        "Voltaire",
+        "Stendhal",
+        "Lamartine",
+        "Montesquieu"
+      ],
+      "explanation": "Stendhal aurait voulu consacrer sa vie à la rêverie, à la chasse au bonheur et à l'amour ; malgré lui, il eut une vie mouvementée.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-233",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_233.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-233-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a dit : « Mieux vaut mourir incompris que passer sa vie à s'expliquer » ?",
+      "answer": "William Shakespeare",
+      "options": [
+        "Serge Gainsbourg",
+        "Eric Cantona",
+        "William Shakespeare",
+        "Oscar Wilde"
+      ],
+      "explanation": "Il est réputé pour sa maîtrise des formes poétiques et littéraires, ainsi que sa capacité à représenter les aspects de la nature humaine.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-233",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_233.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-233-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a dit : « La perte d'un ennemi ne compense pas celle d'un ami » ?",
+      "answer": "Abraham Lincoln",
+      "options": [
+        "Oscar Wilde",
+        "Stendhal",
+        "Abraham Lincoln",
+        "Lamartine"
+      ],
+      "explanation": "Seizième président des États-Unis, il fut élu à deux reprises président du pays, en novembre 1860 et en novembre 1864.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-233",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_233.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-233-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a dit : « La chance est bien souvent un hasard qui se provoque » ?",
+      "answer": "Confucius",
+      "options": [
+        "Guy de Maupassant",
+        "Confucius",
+        "Oscar Wilde",
+        "Bob Marley"
+      ],
+      "explanation": "Personnage historique ayant le plus marqué la civilisation chinoise, Confucius est considéré comme le premier éducateur de la Chine.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-233",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_233.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-233-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a dit : « La beauté est la seule vengeance des femmes » ?",
+      "answer": "Serge Gainsbourg",
+      "options": [
+        "Sacha Guitry",
+        "Coluche",
+        "Woody Allen",
+        "Serge Gainsbourg"
+      ],
+      "explanation": "Serge Gainsbourg influencera considérablement des artistes français comme le groupe Taxi Girl, Renaud ou encore Étienne Daho.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-233",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_233.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

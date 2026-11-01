@@ -1,0 +1,774 @@
+{
+  "id": "oq-53",
+  "title": "Eaux minérales",
+  "originalTitle": "Eaux minérales (S'hydrater régulièrement)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_53.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    27
+  ],
+  "questions": [
+    {
+      "id": "oqdb-53-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment appelle-t-on une eau du robinet commercialisée en bouteilles ?",
+      "answer": "Eau de table",
+      "options": [
+        "Eau douce",
+        "Eau de table",
+        "Eau plate",
+        "Eau de Seltz"
+      ],
+      "explanation": "De manière générale une eau minérale naturelle doit avoir une origine souterraine et une composition chimique stable.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-53",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_53.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-53-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quel groupe agroalimentaire français appartient la marque Volvic ?",
+      "answer": "Danone",
+      "options": [
+        "Sodebo",
+        "Lactalis",
+        "Régilait",
+        "Danone"
+      ],
+      "explanation": "En Amérique du Nord, Volvic est considérée comme une eau de source, du fait de sa faible teneur en minéraux.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-53",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_53.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-53-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces eaux minérales est naturellement gazeuse ?",
+      "answer": "Vichy Célestins",
+      "options": [
+        "Hépar",
+        "Vittel",
+        "Volvic",
+        "Vichy Célestins"
+      ],
+      "explanation": "Sa source se nomme Les Célestins, nom venant d'un ancien couvent situé juste au-dessus de la source et se situe dans Vichy.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-53",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_53.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-53-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle eau minérale a utilisé le célèbre « Ça va fort ! » comme slogan publicitaire ?",
+      "answer": "Saint-Yorre",
+      "options": [
+        "Jouvence",
+        "Saint-Yorre",
+        "Alet",
+        "Thonon"
+      ],
+      "explanation": "Vichy Saint Yorre appartient au groupe des eaux très minéralisées et a été reconnue bénéfique à la santé.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-53",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_53.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-53-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la première marque mondiale d'eaux gazeuses embouteillées ?",
+      "answer": "Perrier",
+      "options": [
+        "Rozana",
+        "Badoit",
+        "Saint-Yorre",
+        "Perrier"
+      ],
+      "explanation": "Perrier est une eau minérale gazeuse française issue de la source des Bouillens nommée depuis 1903 source Perrier.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-53",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_53.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-53-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a autorisé la marque Badoit à utiliser son célébrissime « Y'a de la joie » ?",
+      "answer": "Charles Trenet",
+      "options": [
+        "Charles Dumont",
+        "Charles Trenet",
+        "Charles Berling",
+        "Charles Aznavour"
+      ],
+      "explanation": "Dès 1778, ses vertus « apéritives et exhilarantes » furent reconnues par Richard Marin de Laprade, médecin honoraire du roi Louis XVI.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-53",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_53.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-53-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces eaux n'est pas une eau naturelle gazeuse de la marque Badoit ?",
+      "answer": "Badoit jaune",
+      "options": [
+        "Badoit vert",
+        "Badoit jaune",
+        "Badoit rouge",
+        "Badoit aromatisée"
+      ],
+      "explanation": "En 2012, Badoit représente 12,6% en volume et 16,1% en valeur du marché des eaux naturelles gazeuses en France.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-53",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_53.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-53-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la seule eau minérale naturelle de Bretagne, dans les Côtes-d'Armor ?",
+      "answer": "Plancoët",
+      "options": [
+        "Aproz",
+        "Edelvia",
+        "Plancoët",
+        "Asperjoc"
+      ],
+      "explanation": "Depuis 2011, une eau finement gazeuse « Plancoët Fines Bulles » a été lancée pour la clientèle de l'hôtellerie et restauration.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-53",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_53.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-53-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment appelle-t-on une eau d'origine souterraine naturellement conforme ?",
+      "answer": "Eau de source",
+      "options": [
+        "Eau de source",
+        "Eau usée",
+        "Eau déminéralisée",
+        "Eau gazeuse"
+      ],
+      "explanation": "Une eau de source a bénéficié d'une protection contre la pollution et n'a subi ni traitement chimique ni adjonction.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-53",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_53.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-53-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel pays européen est le plus gros consommateur d'eau en bouteille ?",
+      "answer": "Italie",
+      "options": [
+        "Italie",
+        "Belgique",
+        "Espagne",
+        "Allemagne"
+      ],
+      "explanation": "En 2004, la consommation mondiale d'eau en bouteille en plastique représentait 154 milliards de litres.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-53",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_53.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-53-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces eaux n'est pas une eau minérale espagnole ?",
+      "answer": "Valvert",
+      "options": [
+        "Viladrau",
+        "Bezoya",
+        "Aquarel",
+        "Valvert"
+      ],
+      "explanation": "Valvert est une eau qui prend sa source au coeur de la forêt d'Étalle, en Gaume, au sud de l'Ardenne belge.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-53",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_53.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-53-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel département français se situe la source de Volvic ?",
+      "answer": "Puy-de-Dôme",
+      "options": [
+        "Puy-de-Dôme",
+        "Vaucluse",
+        "Cantal",
+        "Lozère"
+      ],
+      "explanation": "2 sites de 12 lignes de production réalisent 1 milliard de bouteilles produites par an, soit 4 millions de bouteilles produites par jour.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-53",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_53.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-53-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quelle société appartient la marque d'eau minérale Vittel ?",
+      "answer": "Nestlé Waters",
+      "options": [
+        "PepsiCo",
+        "Nestlé Waters",
+        "Danone",
+        "Orangina"
+      ],
+      "explanation": "Son histoire se confond avec celle du thermalisme et débute en 1854 avec l'achat d'une fontaine par Louis Bouloumié à Vittel.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-53",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_53.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-53-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle eau minérale a sa source située dans le département de la Lozère ?",
+      "answer": "Quézac",
+      "options": [
+        "Vittel",
+        "Quézac",
+        "Valvert",
+        "Hépar"
+      ],
+      "explanation": "La source de Quézac était déjà connue par les Celtes et les Gallo-Romains qui l'utilisaient pour des thermes.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-53",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_53.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-53-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de litres d'eau minérale la marque Évian produit-elle chaque année ?",
+      "answer": "1,5 milliard",
+      "options": [
+        "2 milliards",
+        "1,5 milliard",
+        "500 millions",
+        "1 milliard"
+      ],
+      "explanation": "40 % des ventes se font en France où la marque représente 18 % du marché des eaux plates en bouteille.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-53",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_53.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-53-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle eau a été reconnue dès 1778 pour ses vertus apéritives et exhilarantes ?",
+      "answer": "Badoit",
+      "options": [
+        "Saint-Yorre",
+        "Contrex",
+        "Badoit",
+        "Perrier"
+      ],
+      "explanation": "2015 a vu le lancement de Badoit en Canettes : Badoit Rouge, Badoit Citron et Badoit Citron vert (Lime).",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-53",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_53.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-53-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année la bouteille ronde de l'eau Hépar est-elle devenue carrée ?",
+      "answer": "1980",
+      "options": [
+        "1990",
+        "2010",
+        "1980",
+        "2000"
+      ],
+      "explanation": "Dans les années 1930, Hépar fut vendue en bouteille de verre pour permettre aux curistes de prolonger la cure à domicile.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-53",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_53.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-53-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle eau minérale gazeuse française a sa source en Haute-Corse ?",
+      "answer": "Orezza",
+      "options": [
+        "Rozana",
+        "Edelvia",
+        "Badoit",
+        "Orezza"
+      ],
+      "explanation": "Les visites du site historique et de la chaîne de production ne sont plus possibles en raison de normes de sécurité.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-53",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_53.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-53-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle couleur est associée à l'eau Celtic légèrement pétillante ?",
+      "answer": "Verte",
+      "options": [
+        "Bleue",
+        "Verte",
+        "Rouge",
+        "Jaune"
+      ],
+      "explanation": "La Celtic est proposée en trois versions : nature, en étiquette bleue, légèrement pétillante en vert et bien pétillante en rouge.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-53",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_53.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-53-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces eaux n'est pas une eau minérale belge ?",
+      "answer": "Edelvia",
+      "options": [
+        "Edelvia",
+        "Spa",
+        "Duke",
+        "Valvert"
+      ],
+      "explanation": "En Suisse, il y a un siècle, la consommation d'eau minérale atteignait annuellement moins de deux litres par tête d'habitant.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-53",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_53.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-53-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En 2013, combien d'eaux minérales naturelles la France a-t-elle reconnu sur son territoire ?",
+      "answer": "82",
+      "options": [
+        "59",
+        "67",
+        "75",
+        "82"
+      ],
+      "explanation": "La France a reconnu 82 eaux sur son territoire contre 30 pour la Belgique, 25 pour la Bulgarie et 342 pour l'Italie.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-53",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_53.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-53-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle eau permet une augmentation du volume urinaire et donc de la diurèse ?",
+      "answer": "Contrex",
+      "options": [
+        "Badoit",
+        "Contrex",
+        "Perrier",
+        "Saint-Yorre"
+      ],
+      "explanation": "Contrex permettrait un bon lavage des cavités rénales et des voies urinaires, ainsi qu'une bonne élimination des déchets.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-53",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_53.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-53-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel pays la Saint-Justin est-elle embouteillée, à la source de Saint-Justin ?",
+      "answer": "Canada",
+      "options": [
+        "Nouvelle-Zélande",
+        "Canada",
+        "Brésil",
+        "Espagne"
+      ],
+      "explanation": "Il existe plus de 100 marques d'eau en bouteille sur le marché au Canada, dont 20 % sont importées.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-53",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_53.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-53-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces eaux minérales n'est pas une eau en provenance de Suisse ?",
+      "answer": "Bezoya",
+      "options": [
+        "Aproz",
+        "Bezoya",
+        "Edelvia",
+        "Arkina"
+      ],
+      "explanation": "En Espagne,, la Bezoya est souvent conseillée par les pédiatres car elle est la plus basse en sodium.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-53",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_53.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-53-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "L'eau Vichy Célestins est réputée pour sa forte teneur en quel métal ?",
+      "answer": "Sodium",
+      "options": [
+        "Calcium",
+        "Magnésium",
+        "Potassium",
+        "Sodium"
+      ],
+      "explanation": "Du fait de sa forte teneur en sodium, L'eau Vichy Célestins est déconseillée aux personnes faisant de l'hypertension artérielle.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-53",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_53.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-53-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle marque a utilisé « La princesse des eaux de table » comme premier slogan ?",
+      "answer": "Perrier",
+      "options": [
+        "Contrex",
+        "Perrier",
+        "Volvic",
+        "Saint-Yorre"
+      ],
+      "explanation": "La typographie à empattement de la lettre P du mot Perrier symbolise une entreprise ancrée dans ses valeurs.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-53",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_53.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-53-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle eau a d'abord été vendue sous l'appellation « Eau de table de Nazareth » ?",
+      "answer": "Plancoët",
+      "options": [
+        "Contrex",
+        "Plancoët",
+        "Rozana",
+        "Valvert"
+      ],
+      "explanation": "Les 96 hectares qui environnent la source sont protégés de toute activité agricole depuis les débuts de son exploitation commerciale.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-53",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_53.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-53-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces eaux ne fait pas partie de la Société des eaux de Vittel ?",
+      "answer": "Volvic",
+      "options": [
+        "Hépar",
+        "Vittel",
+        "Volvic",
+        "Contrex"
+      ],
+      "explanation": "En 2005, Vittel s'est payé les services de David Bowie pour promouvoir son eau à travers un spot symbolique.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-53",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_53.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-53-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle source est connue depuis l'antiquité sous le nom de « source des Romains » ?",
+      "answer": "Rozana",
+      "options": [
+        "Rozana",
+        "Quézac",
+        "Badoit",
+        "Volvic"
+      ],
+      "explanation": "Les eaux de Rozana ont servi aussi de source d'appoint pour de nombreuses armées lors des batailles.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-53",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_53.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

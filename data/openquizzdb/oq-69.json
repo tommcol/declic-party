@@ -1,0 +1,699 @@
+{
+  "id": "oq-69",
+  "title": "Sculpture",
+  "originalTitle": "Sculpture",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_69.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    3,
+    16,
+    19,
+    28
+  ],
+  "questions": [
+    {
+      "id": "oqdb-69-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a sculpté les tombeaux des Médicis à Florence, accompagné de Tribolo et da Montelupo ?",
+      "answer": "Michel-Ange",
+      "options": [
+        "Vicentino",
+        "Donatello",
+        "Raphaël",
+        "Michel-Ange"
+      ],
+      "explanation": "Les tombeaux des Médicis sont deux monuments de la 'Nouvelle Sacristie' élaborée à l'intérieur des Chapelles des Médicis.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-69",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_69.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-69-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Où peut-on voir la 'Victoire de Samothrace', sculpture grecque de l'époque hellénistique ?",
+      "answer": "Musée du Louvre",
+      "options": [
+        "Tate Gallery",
+        "Musée du Louvre",
+        "Metropolitan Museum",
+        "Centre Pompidou"
+      ],
+      "explanation": "La 'Victoire de Samothrace' est une sculpture grecque représentant la déesse Niké, personnification de la victoire.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-69",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_69.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-69-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que représente la sculpture de Marcel Duchamp 'Fontaine', signée « R. Mutt » et datée de 1917 ?",
+      "answer": "Un urinoir",
+      "options": [
+        "Une fontaine",
+        "Un urinoir",
+        "Un vase",
+        "Une cascade"
+      ],
+      "explanation": "Œuvre controversée de l'art du XXe siècle, 'Fontaine' est un ready made, c'est-à-dire un « objet tout fait ».",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-69",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_69.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-69-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle statue monumentale de Michel-Ange trône à Florence ?",
+      "answer": "David",
+      "options": [
+        "Alexandre",
+        "David",
+        "Goliath",
+        "Apollon"
+      ],
+      "explanation": "La statue de 4.34 mètres de hauteur est tirée d'un bloc de marbre blanc de Carrare.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-69",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_69.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-69-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel français est le créateur de la statue de la liberté de New York ?",
+      "answer": "Auguste Bartholdi",
+      "options": [
+        "Antoine Bourdelle",
+        "Auguste Bartholdi",
+        "Anatole Guillot",
+        "Joseph Desbrosses"
+      ],
+      "explanation": "Il est aussi l'auteur de la Fontaine Bartholdi, située Place des Terreaux à Lyon.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-69",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_69.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-69-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel musée vous trouvez-vous si vous contemplez la Vénus de Milo ?",
+      "answer": "Le Musée du Louvre",
+      "options": [
+        "Le Musée Rodin",
+        "Le Musée Magnin",
+        "Le Musée Hébert",
+        "Le Musée du Louvre"
+      ],
+      "explanation": "Le buste de la statue a été mis au jour le 8 avril 1820 à Milo, une île de la mer Égée.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-69",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_69.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-69-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel musée français peut-on admirer la 'Victoire de Samothrace' ?",
+      "answer": "Musée du Louvre",
+      "options": [
+        "Musée d'Orsay",
+        "Musée Rodin",
+        "Musée Picasso",
+        "Musée du Louvre"
+      ],
+      "explanation": "Cette sculpture grecque représente la déesse Niké, personnification de la victoire.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-69",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_69.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-69-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quel sculpteur français doit-on un désormais célèbre « baiser », exposé dans un musée parisien ?",
+      "answer": "Rodin",
+      "options": [
+        "Lenoir",
+        "Rodin",
+        "Moreau",
+        "Choppin"
+      ],
+      "explanation": "'Le Baiser' de Rodin est une sculpture en marbre représentant un couple enlacé réalisée à l'échelle 1.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-69",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_69.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-69-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville belge trouve-t-on près du beffroi une statue de Christine de Lalaing ?",
+      "answer": "Tournai",
+      "options": [
+        "Mons",
+        "Bruxelles",
+        "Tournai",
+        "Liège"
+      ],
+      "explanation": "En l'absence de son mari, elle défendit la ville de Tournai contre le prince de Parme.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-69",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_69.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-69-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel type de sculpture le français Auguste Cain était-il spécialisé ?",
+      "answer": "Animalière",
+      "options": [
+        "Monumentale",
+        "Funéraire",
+        "Architecturale",
+        "Animalière"
+      ],
+      "explanation": "À partir des années 1860, Auguste Cain commencera à recevoir des commandes officielles.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-69",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_69.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-69-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel célèbre sculpteur a participé à la construction du Parthénon ?",
+      "answer": "Phidias",
+      "options": [
+        "Galidias",
+        "Phidias",
+        "Rodin",
+        "Elias"
+      ],
+      "explanation": "Phidias sera choisi par Périclès pour superviser l'ensemble des travaux de sculpture.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-69",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_69.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-69-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De combien de personnages est composée la sculpture de Rodin 'Les Bourgeois de Calais' ?",
+      "answer": "Six",
+      "options": [
+        "Deux",
+        "Six",
+        "Dix",
+        "Quatre"
+      ],
+      "explanation": "Le plâtre original achevé en 1889 a été édité en onze autres exemplaires en bronze.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-69",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_69.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-69-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel monument fait de blocs de grès roses se trouve dans la ville de Belfort ?",
+      "answer": "Lion de Belfort",
+      "options": [
+        "Tour de la Miotte",
+        "Les Trois-Sièges",
+        "Lion de Belfort",
+        "Porte de Brisach"
+      ],
+      "explanation": "La sculpture représente un lion couché et blessé prêt à se dresser qui repose sur un piédestal en rocaillage.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-69",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_69.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-69-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quel sculpteur doit-on la statue équestre de Vercingétorix située à Clermont-Ferrand ?",
+      "answer": "Auguste Bartholdi",
+      "options": [
+        "Antoine Bourdelle",
+        "Auguste Bartholdi",
+        "Jean Baffier",
+        "Honoré Daumier"
+      ],
+      "explanation": "Cette statue fait face à la statue du général Desaix, sur la place de Jaude.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-69",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_69.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-69-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la taille, sans le socle, du 'David' de Michel-Ange ?",
+      "answer": "4,34 mètres",
+      "options": [
+        "4,34 mètres",
+        "5,67 mètres",
+        "6,84 mètres",
+        "3,26 mètres"
+      ],
+      "explanation": "Michel-Ange a représenté David, une fronde à la main, avant son combat contre Goliath.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-69",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_69.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-69-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quel sculpteur doit-on le célèbre Lion de Belfort, sculpture monumentale en ronde-bosse ?",
+      "answer": "Auguste Bartholdi",
+      "options": [
+        "Auguste Bartholdi",
+        "Honoré Daumier",
+        "Félix Charpentier",
+        "Antoine Bourdelle"
+      ],
+      "explanation": "Longue de 22 mètres, la sculpture est constituée de blocs de grès rose de Pérouse, sculptés individuellement.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-69",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_69.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-69-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel sculpteur les œuvres ne nous sont-elles parvenues que sous forme de copies ?",
+      "answer": "Myron",
+      "options": [
+        "Phidias",
+        "Scopas",
+        "Myron",
+        "Lysippe"
+      ],
+      "explanation": "Pline l'Ancien dira de Myron qu'il est « plus fécond » que son rival Polyclète.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-69",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_69.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-69-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle était la nationalité du sculpteur et peintre Alberto Giacometti ?",
+      "answer": "Suisse",
+      "options": [
+        "Italienne",
+        "Argentine",
+        "Suisse",
+        "Portugaise"
+      ],
+      "explanation": "À la fin de sa vie, Giacometti a dénié à ses objets la moindre valeur, pourtant vendus aujourd'hui à plusieurs millions d'euros.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-69",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_69.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-69-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel sculpteur français est considéré comme un pionnier de la sculpture animalière ?",
+      "answer": "Pierre Jules Mène",
+      "options": [
+        "Raymond Martin",
+        "Serge Mangin",
+        "Pierre Jules Mène",
+        "Léon-Ernest Drivier"
+      ],
+      "explanation": "Il a produit de nombreuses sculptures particulièrement en vogue sous le second empire.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-69",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_69.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-69-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelles statues grecques, datant de la période archaïque, représentent des hommes nus ?",
+      "answer": "Des kouroï",
+      "options": [
+        "Des kouroï",
+        "Des callypiges",
+        "Des kores",
+        "Des éphèbes"
+      ],
+      "explanation": "Les kouroi, aux visages montrant l'influence de la Crète, sont toujours nus, portant tout au plus une ceinture et parfois des bottes.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-69",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_69.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-69-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle technique de sculpture est observable de tous les côtés ?",
+      "answer": "La ronde-bosse",
+      "options": [
+        "Le haut relief",
+        "La grande entaille",
+        "Le relief pictural",
+        "La ronde-bosse"
+      ],
+      "explanation": "Ce type de sculpture est le plus souvent utilisé pour des représentations figuratives.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-69",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_69.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-69-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel artiste a décoré une fontaine à côté du centre Beaubourg, à Paris ?",
+      "answer": "Jean Tinguely",
+      "options": [
+        "David Smith",
+        "Charles Despiau",
+        "Pol Bury",
+        "Jean Tinguely"
+      ],
+      "explanation": "La fontaine Stravinski évoque l'œuvre musicale du compositeur russe Stravinski.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-69",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_69.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-69-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville belge peut-on admirer une statue du soldat légendaire Silvius Brabo ?",
+      "answer": "Anvers",
+      "options": [
+        "Bruxelles",
+        "Anvers",
+        "Namur",
+        "Bastogne"
+      ],
+      "explanation": "La statue de Silvius Brabo brandissant et jetant la main d'Antigone est située sur la Grand-Place d'Anvers.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-69",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_69.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-69-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a réalisé 'Le Passe-muraille', statue installée devant la maison où habitait Marcel Aymé ?",
+      "answer": "Jean Marais",
+      "options": [
+        "Jacques Prévert",
+        "Antoine Blondin",
+        "Jean Marais",
+        "Aragon"
+      ],
+      "explanation": "Jean Marais est enterré dans le petit cimetière de Vallauris, la ville des potiers, où il a passé les dernières années de sa vie.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-69",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_69.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-69-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle sculpture de Gian Lorenzo Bernini, dit Le Bernin, se trouve à Londres ?",
+      "answer": "Neptune et Triton",
+      "options": [
+        "La fontaine du Triton",
+        "Le rapt de Prosperine",
+        "Apollon et Daphné",
+        "Neptune et Triton"
+      ],
+      "explanation": "L'art de Le Bernin, typiquement baroque, est caractérisé par la recherche du mouvement et des effets d'illusion.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-69",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_69.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-69-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel sculpteur, aimé de Louis XIV, a beaucoup travaillé pour le château de Versailles ?",
+      "answer": "Antoine Coysevox",
+      "options": [
+        "Antoine Coysevox",
+        "Gervais Drouet",
+        "Thibaud Maistrier",
+        "Thomas Boudin"
+      ],
+      "explanation": "Antoine Coysevox fut le décorateur du célèbre navire de guerre 'le Soleil royal'.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-69",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_69.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

@@ -1,8 +1,9 @@
 import './scripts/build-question-bank.mjs';
-import {readFile,writeFile,mkdir} from 'node:fs/promises';
+import {readFile,writeFile,mkdir,readdir} from 'node:fs/promises';
 const files=['index.html','style.css','app.js','engine.js','audio.js','catalog.js','quiz.js','question-bank.js'];
 const types={html:'text/html; charset=utf-8',css:'text/css; charset=utf-8',js:'text/javascript; charset=utf-8'};
 const assets={};for(const f of files)assets['/'+f]={body:await readFile(new URL('public/'+f,import.meta.url),'utf8'),type:types[f.split('.').pop()]};
+for(const folder of ['openquizzdb','qulture','learnclash'])for(const f of (await readdir(new URL('data/'+folder+'/',import.meta.url))).filter(f=>f.endsWith('.json'))){const body=await readFile(new URL('data/'+folder+'/'+f,import.meta.url),'utf8');const pack=JSON.parse(body);assets['/quiz-packs/'+pack.id+'.json']={body:JSON.stringify(pack),type:'application/json; charset=utf-8'};}
 await writeFile(new URL('src/assets.generated.js',import.meta.url),'export const ASSETS = '+JSON.stringify(assets)+';\n');
 // Deployable single-module bundle. No build dependency or secret is needed.
 let worker=await readFile(new URL('src/worker.js',import.meta.url),'utf8');

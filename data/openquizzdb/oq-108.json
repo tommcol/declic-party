@@ -1,0 +1,798 @@
+{
+  "id": "oq-108",
+  "title": "Rio 2016",
+  "originalTitle": "Rio 2016",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_108.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-108-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces quartiers de la ville de Rio de Janeiro ne faisait pas partie des quartiers olympiques ?",
+      "answer": "Brasilia",
+      "options": [
+        "Brasilia",
+        "Barra",
+        "Copacabana",
+        "Deodoro"
+      ],
+      "explanation": "Brasilia est la capitale de la République fédérative du Brésil et le siège du gouvernement du District fédéral.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-108",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_108.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-108-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Pour quel pays David Rudisha a-t-il essayé de conserver sa médaille d'or sur 800m à Rio ?",
+      "answer": "Le Kenya",
+      "options": [
+        "La France",
+        "Les Fidji",
+        "L'Australie",
+        "Le Kenya"
+      ],
+      "explanation": "Sixième d'une famille de sept enfants, David Rudisha est le fils de Daniel Rudisha, ancien athlète de haut niveau.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-108",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_108.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-108-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel était le nom de la mascotte des Jeux olympiques d'été de 2016 ?",
+      "answer": "Vinicius",
+      "options": [
+        "Blaze",
+        "Smiley",
+        "Vinicius",
+        "Youppi"
+      ],
+      "explanation": "Depuis les Jeux d'hiver de 1968, chaque édition des Jeux (été et hiver) possède une mascotte officielle.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-108",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_108.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-108-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Après les JO de 2016, aux mains de quelle ville la flamme olympique a-t-elle été remise ?",
+      "answer": "Tokyo",
+      "options": [
+        "Lima",
+        "Copenhague",
+        "Mexico",
+        "Tokyo"
+      ],
+      "explanation": "Le logo de la candidature japonaise représente des fleurs de cerisier, fleur symbole de Tokyo, disposées en cercle.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-108",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_108.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-108-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel sport Usain Bolt a-t-il tenté la passe de trois pour l'or olympique à Rio en 2016 ?",
+      "answer": "L'athlétisme",
+      "options": [
+        "Le cyclisme",
+        "La boxe",
+        "Le triathlon",
+        "L'athlétisme"
+      ],
+      "explanation": "Son nom et ses performances en sprint ont valu à Usain Bolt le surnom de « Lightning Bolt », « l'Éclair ».",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-108",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_108.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-108-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel pays a été suspendu de toutes les disciplines d'athlétisme aux JO de 2016 ?",
+      "answer": "La Russie",
+      "options": [
+        "Haïti",
+        "Le Canada",
+        "La Russie",
+        "L'Autriche"
+      ],
+      "explanation": "Suite à des accusations de dopage, l'Agence mondiale antidopage appela à l'exclusion de la Russie des Jeux olympiques.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-108",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_108.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-108-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle numérotation romaine désigne les Jeux olympiques d'été de Rio de 2016 ?",
+      "answer": "XXXI",
+      "options": [
+        "XVIII",
+        "XXIV",
+        "XXXI",
+        "LX"
+      ],
+      "explanation": "À la suite du vote, le gouverneur de Tokyo Shintaro Ishihara a dénoncé la « logique invisible à l'œuvre pour l'attribution des JO ».",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-108",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_108.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-108-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la langue officielle du pays hôte des Jeux olympiques d'été de 2016 ?",
+      "answer": "Le portugais",
+      "options": [
+        "L'allemand",
+        "Le portugais",
+        "L'espagnol",
+        "Le français"
+      ],
+      "explanation": "Cette langue est parlée par une très grande majorité de la population et est utilisée dans les documents administratifs.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-108",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_108.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-108-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel pays a été le dernier à entrer durant la parade des nations de Jeux olympiques de 2016 ?",
+      "answer": "Le Brésil",
+      "options": [
+        "La Suisse",
+        "La Grèce",
+        "Le Sénégal",
+        "Le Brésil"
+      ],
+      "explanation": "45 chefs d’État et de gouvernement ont assisté à la cérémonie d'ouverture ainsi que 55 ministres des Sports du monde entier.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-108",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_108.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-108-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle était la devise des Jeux olympiques d'été de 2016 qui eurent lieu à Rio ?",
+      "answer": "Vis ta passion",
+      "options": [
+        "Fais face",
+        "Cours toujours",
+        "Samba pour tous",
+        "Vis ta passion"
+      ],
+      "explanation": "Le lieu de la compétition a été choisi le 2 octobre 2009 et annoncé officiellement par Jacques Rogge.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-108",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_108.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-108-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "L'équipe olympique de quel pays la star d'Internet Michelle Jenneke a-t-elle rejoint en 2016 ?",
+      "answer": "L'Australie",
+      "options": [
+        "L'Australie",
+        "La Russie",
+        "La Hongrie",
+        "L'Irlande"
+      ],
+      "explanation": "En 2010, Michelle Jenneke participa aux Jeux olympiques de la jeunesse à Singapour et termina deuxième du 100 m haies.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-108",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_108.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-108-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de courses a-t-on pu suivre en aviron aux Jeux olympiques de 2016 ?",
+      "answer": "14",
+      "options": [
+        "14",
+        "22",
+        "31",
+        "7"
+      ],
+      "explanation": "Le Lagoa Rodrigo de Freitas est une étendue naturelle d'eau située au sud de la ville de Rio de Janeiro.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-108",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_108.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-108-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le nom de la plus grande installation des Jeux olympiques de Rio ?",
+      "answer": "Stade Maracana",
+      "options": [
+        "Rio Centro",
+        "Stade Maracana",
+        "Fort de Copacabana",
+        "Marina de Gloria"
+      ],
+      "explanation": "Le stade a une forme ovale, pour une superficie de 200 000 m2 et une capacité initiale de 220 000 spectateurs.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-108",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_108.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-108-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle épreuve olympique la star d'Internet Michelle Jenneke a-t-elle concouru à Rio ?",
+      "answer": "Les haies",
+      "options": [
+        "Le marteau",
+        "Les haies",
+        "Le disque",
+        "Le javelot"
+      ],
+      "explanation": "Michelle Jenneke fit sensation par une vidéo, postée sur YouTube, montrant son échauffement avant la course.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-108",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_108.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-108-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien d'escrimeurs ont concouru pour une médaille d'or aux Jeux olympiques de Rio ?",
+      "answer": "212",
+      "options": [
+        "212",
+        "144",
+        "187",
+        "169"
+      ],
+      "explanation": "L'épreuve d'épée masculine par équipes remplace celle de sabre, et l'épreuve de sabre féminin par équipes remplace celle du fleuret.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-108",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_108.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-108-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces disciplines olympiques s'est déroulée à la réserve de Marapendi en 2016 ?",
+      "answer": "Le golf",
+      "options": [
+        "Le football",
+        "Le golf",
+        "La boxe",
+        "Le basket-ball"
+      ],
+      "explanation": "Le golf est réintégré au programme olympique en 2016 à Rio à la suite de la décision du CIO le 9 octobre 2009.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-108",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_108.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-108-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien y a-t-il eu de sports au total lors des Jeux olympiques d'été de 2016 ?",
+      "answer": "28",
+      "options": [
+        "20",
+        "28",
+        "24",
+        "32"
+      ],
+      "explanation": "Cinq sports étaient candidats pour leur entrée en lice aux JO : le karaté, le squash, le rugby à sept, le roller et le golf.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-108",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_108.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-108-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel pays a été le premier à entrer durant la parade des nations de Jeux olympiques de 2016 ?",
+      "answer": "La Grèce",
+      "options": [
+        "La France",
+        "La Grèce",
+        "Le Brésil",
+        "Les États-Unis"
+      ],
+      "explanation": "L'organisation de la cérémonie d'ouverture a été confiée à Fernando Meirelles, Daniela Thomas et Andrucha Waddington.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-108",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_108.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-108-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de trous comprenait le format du tournoi de golf des JO de Rio en 2016 ?",
+      "answer": "72",
+      "options": [
+        "16",
+        "72",
+        "18",
+        "34"
+      ],
+      "explanation": "Les épreuves pratiquées en stroke-play furent jouées sur 72 trous (un parcours de 18 trous joués 4 jours consécutifs).",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-108",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_108.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-108-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien d'équipes se sont affrontées dans le tournoi masculin de basket-ball aux JO de Rio ?",
+      "answer": "12",
+      "options": [
+        "20",
+        "12",
+        "24",
+        "16"
+      ],
+      "explanation": "Il fallut attendre 1936 pour que le basket-ball devienne une épreuve officielle, qui vit le couronnement des États-Unis.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-108",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_108.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-108-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En tir à l'arc féminin, quelle équipe nationale a essayé de conserver sa médaille d'or à Rio ?",
+      "answer": "La Corée du Sud",
+      "options": [
+        "L'Inde",
+        "Le Venezuela",
+        "La Corée du Sud",
+        "Le Mexique"
+      ],
+      "explanation": "Absent du programme de 1924 à 1968, le tir à l'arc a été réintroduit à l'occasion des Jeux olympiques d'été de 1972 à Munich.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-108",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_108.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-108-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces pays a été banni des Jeux olympiques d'été de 2016 ?",
+      "answer": "Le Koweït",
+      "options": [
+        "La Corée du Sud",
+        "Le Koweït",
+        "L'Allemagne",
+        "Le Chili"
+      ],
+      "explanation": "Les sportifs ont concouru sous la bannière olympique au sein de la délégation des athlètes olympiques indépendants.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-108",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_108.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-108-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de bénévoles ont permis le bon déroulement des Jeux olympiques de Rio de 2016 ?",
+      "answer": "70 000",
+      "options": [
+        "30 000",
+        "90 000",
+        "70 000",
+        "50 000"
+      ],
+      "explanation": "Le budget global du comité d'organisation pour Rio 2016, incluant les frais de candidature, s'élève à 7,4 milliards de réals.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-108",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_108.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-108-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel était le jour de départ de la flamme olympique pour le Brésil en 2016 ?",
+      "answer": "Le 27 avril",
+      "options": [
+        "Le 16 juin",
+        "Le 27 avril",
+        "Le 4 juillet",
+        "Le 3 mai"
+      ],
+      "explanation": "La vasque olympique a été allumée par Vanderlei Cordeiro de Lima après avoir reçu la flamme des mains de Hortencia Marcari.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-108",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_108.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-108-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces pays a participé à ses premiers Jeux olympiques à Rio en 2016 ?",
+      "answer": "Le Kosovo",
+      "options": [
+        "La Lettonie",
+        "La Lituanie",
+        "Le Kosovo",
+        "La Slovaquie"
+      ],
+      "explanation": "Le Soudan du Sud et le Kosovo ont porté à 206 le nombre de nations participantes à ces Jeux olympiques d'été.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-108",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_108.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-108-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le nom de la mascotte des Jeux paralympiques de 2016 ?",
+      "answer": "Tom",
+      "options": [
+        "Joe",
+        "Bobby",
+        "Tom",
+        "Fredo"
+      ],
+      "explanation": "Ces Jeux voient l'introduction de deux nouveaux sports au programme paralympique, le canoë et le paratriathlon.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-108",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_108.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-108-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En plus du tir à l'arc, quelle discipline olympique a eu lieu au sambodrome en 2016 ?",
+      "answer": "Le marathon",
+      "options": [
+        "Le marathon",
+        "Le basket-ball",
+        "Le water-polo",
+        "Le tir"
+      ],
+      "explanation": "Le sambodrome est une avenue entourée de gradins où se déroule le défilé des meilleures écoles de samba.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-108",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_108.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-108-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien d'équipes ont constitué les poules du tournoi féminin de football pour les JO de 2016 ?",
+      "answer": "12",
+      "options": [
+        "8",
+        "12",
+        "16",
+        "20"
+      ],
+      "explanation": "En France, en 2015, le football restait, avec le rugby, le sport olympique le moins pratiqué par les femmes.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-108",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_108.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-108-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces pays a participé à ses premiers Jeux olympiques d'été en 2016 ?",
+      "answer": "Le Soudan du Sud",
+      "options": [
+        "La Mongolie",
+        "L’Égypte",
+        "Taïwan",
+        "Le Soudan du Sud"
+      ],
+      "explanation": "Le Soudan du Sud est un pays d'Afrique orientale de langue anglaise dont la capitale est Djouba.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-108",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_108.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-108-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces disciplines a été ajoutée pour la voile aux Jeux olympiques de 2016 ?",
+      "answer": "Skiff femmes",
+      "options": [
+        "Skiff hommes",
+        "RS:X hommes",
+        "RS:X femmes",
+        "Skiff femmes"
+      ],
+      "explanation": "Les qualifications se sont effectuées lors des championnats du monde des deux années précédant la compétition.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-108",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_108.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

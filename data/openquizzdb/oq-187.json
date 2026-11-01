@@ -1,0 +1,798 @@
+{
+  "id": "oq-187",
+  "title": "Culture en vrac",
+  "originalTitle": "Culture en vrac (De la culture générale à tous les niveaux)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_187.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-187-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que jette-t-on sur le ring en cas d'abandon durant un match de boxe ?",
+      "answer": "Éponge",
+      "options": [
+        "Gant",
+        "Protège-dents",
+        "Culotte",
+        "Éponge"
+      ],
+      "explanation": "Durant un match, l'arbitre est le garant principal de la sécurité des boxeurs et peut sanctionner les gestes interdits et dangereux.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-187",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_187.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-187-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle espèce d'oiseaux encore présente en Europe gringotte, quiritte ou trille ?",
+      "answer": "Rossignol",
+      "options": [
+        "Perroquet",
+        "Corbeau",
+        "Moineau",
+        "Rossignol"
+      ],
+      "explanation": "Son chant des plus mélodieux et des plus complexes a fasciné les chercheurs qui ont dénombré 260 séquences différentes.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-187",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_187.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-187-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui est devenu célèbre grâce au 'Poinçonneur des Lilas' sorti en 1958 ?",
+      "answer": "Serge Gainsbourg",
+      "options": [
+        "Serge Gainsbourg",
+        "Charles Trenet",
+        "Boris Vian",
+        "Johnny Hallyday"
+      ],
+      "explanation": "Un scopitone a été réalisé pour l'occasion par Jean Bacqué, produit par Pathé, montrant Gainsbourg dans le métro parisien.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-187",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_187.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-187-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces professions ne peut-on associer au grand Léonard de Vinci ?",
+      "answer": "Auteur dramatique",
+      "options": [
+        "Auteur dramatique",
+        "Peintre",
+        "Botaniste",
+        "Sculpteur"
+      ],
+      "explanation": "Léonard de Vinci, génie universel, est souvent décrit comme l'archétype et le symbole de l'homme de la Renaissance.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-187",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_187.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-187-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Fils de Laïos et de Jocaste, qui Œdipe a-t-il tué dans la mythologie grecque ?",
+      "answer": "Son père",
+      "options": [
+        "Son fils",
+        "Sa mère",
+        "Son père",
+        "Sa fille"
+      ],
+      "explanation": "Œdipe est connu pour avoir résolu l'énigme du sphinx et pour s'être rendu involontairement coupable de parricide et d'inceste.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-187",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_187.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-187-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En France, à la Libération, combien de personnes se retrouvèrent à Notre-Dame de Paris ?",
+      "answer": "13 000",
+      "options": [
+        "13 000",
+        "17 000",
+        "5 000",
+        "9 000"
+      ],
+      "explanation": "Le général de Gaulle a descendu le 26 août l'Arc de Triomphe vers Notre-Dame pour un office religieux après la libération de Paris.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-187",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_187.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-187-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année a été bu le premier Coca-Cola concocté par John Pemberton ?",
+      "answer": "1886",
+      "options": [
+        "1886",
+        "1906",
+        "1946",
+        "1926"
+      ],
+      "explanation": "Contrairement à la chronologie officielle de l'entreprise, Coca-Cola ne s'est pas implantée en France en 1933, mais bien en 1919.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-187",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_187.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-187-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville se sont déroulés les Jeux olympiques de 1900 ?",
+      "answer": "Paris",
+      "options": [
+        "Athènes",
+        "Los Angeles",
+        "Rome",
+        "Paris"
+      ],
+      "explanation": "Aucune cérémonie d'ouverture ou de fermeture ne fut au programme, excepté un défilé des gymnastes à Vincennes.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-187",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_187.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-187-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quelle substance naturelle ou synthétique la pénicilline est-elle associée ?",
+      "answer": "Antibiotique",
+      "options": [
+        "Anesthésique",
+        "Soporifique",
+        "Analgésique",
+        "Antibiotique"
+      ],
+      "explanation": "À la base, la pénicilline est une toxine inoffensive pour l'homme synthétisée par certaines espèces de moisissures.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-187",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_187.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-187-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel prix Nobel Winston Leonard Spencer-Churchill a-t-il reçu en 1953 ?",
+      "answer": "Littérature",
+      "options": [
+        "Littérature",
+        "Physique",
+        "Paix",
+        "Chimie"
+      ],
+      "explanation": "Winston Churchill reste à ce jour l'unique ancien Premier ministre britannique à avoir reçu, en 1953, le prix Nobel de littérature.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-187",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_187.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-187-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "'Le train sifflera trois fois' est un western américain de quel réalisateur ?",
+      "answer": "Fred Zinnemann",
+      "options": [
+        "Fred Zinnemann",
+        "John Ford",
+        "George Stevens",
+        "Vincente Minnelli"
+      ],
+      "explanation": "L'album de Lucky Luke intitulé 'Les Dalton à la noce' reprend la trame scénaristique générale et quelques passages-clés du film.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-187",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_187.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-187-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année a-t-on pu assister à l'inauguration du métro parisien ?",
+      "answer": "1900",
+      "options": [
+        "1840",
+        "1880",
+        "1860",
+        "1900"
+      ],
+      "explanation": "La métro de Paris comporte à ce jour seize lignes en site propre, essentiellement souterraines, totalisant près de 220 kilomètres.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-187",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_187.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-187-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel écrivain et journaliste littéraire français fut surnommé le taureau normand ?",
+      "answer": "Guy de Maupassant",
+      "options": [
+        "Guy de Maupassant",
+        "Alfred de Musset",
+        "Victor Hugo",
+        "Honoré de Balzac"
+      ],
+      "explanation": "C'est un de ses biographes, Paul Morand, qui comparera ce Maupassant au physique robuste et athlétique à un taureau.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-187",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_187.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-187-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quel autre objet peut-on associer le paléophone inventé par Charles Cross ?",
+      "answer": "Disque à sillon",
+      "options": [
+        "Disque à sillon",
+        "Émetteur",
+        "Poste de radio",
+        "Téléphone"
+      ],
+      "explanation": "Faute de preuve, nul ne peut affirmer que Charles Cros ait pu réellement reproduire en 1877 le son qu'il avait réussi à enregistrer.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-187",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_187.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-187-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Durant quel siècle les pins furent-ils plantés dans la forêt des Landes de Gascogne ?",
+      "answer": "XIXe siècle",
+      "options": [
+        "XVe siècle",
+        "XVIIe siècle",
+        "XIIIe siècle",
+        "XIXe siècle"
+      ],
+      "explanation": "D'une superficie de près d'un million d'hectares, la forêt des Landes est la plus grande forêt artificielle d'Europe occidentale.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-187",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_187.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-187-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Monsieur Diafoirus est un médecin issu de l'imagination de quel dramaturge ?",
+      "answer": "Molière",
+      "options": [
+        "Rabelais",
+        "Corneille",
+        "Voltaire",
+        "Molière"
+      ],
+      "explanation": "'Le Malade imaginaire' est une comédie-ballet en trois actes représentée en 1673 et la dernière comédie écrite par Molière.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-187",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_187.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-187-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Par rapport à la vitesse duquel de ces éléments le mètre peut-il se définir ?",
+      "answer": "Lumière",
+      "options": [
+        "Son",
+        "Eau",
+        "Lumière",
+        "Vent"
+      ],
+      "explanation": "La valeur du mètre est définie comme la distance parcourue par la lumière dans le vide en 1/299 792 458 de seconde.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-187",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_187.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-187-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Auquel de ces politiciens français Lénine aurait-il pu expliquer la révolution ?",
+      "answer": "Georges Marchais",
+      "options": [
+        "Raymond Barre",
+        "Jacques Chirac",
+        "Georges Marchais",
+        "Robert Hue"
+      ],
+      "explanation": "Lénine est à l'origine de la Tchéka, police politique chargée d'éliminer tous les ennemis du nouveau régime qu'il met en place.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-187",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_187.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-187-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "La perle à abdomen remarquable ou plécoptère est en fait...",
+      "answer": "Un insecte",
+      "options": [
+        "Une fleur",
+        "Un oiseau",
+        "Un insecte",
+        "Un coquillage"
+      ],
+      "explanation": "Les Plécoptères sont appelés mouches de pierre car ils se posent très fréquemment sur les pierres en bordure de cours d'eau.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-187",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_187.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-187-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel prolifique compositeur français est mort à Paris en 1918 ?",
+      "answer": "Claude Debussy",
+      "options": [
+        "Édouard Lalo",
+        "Georges Bizet",
+        "Claude Debussy",
+        "Hector Berlioz"
+      ],
+      "explanation": "Une part importante de l'œuvre de Claude Debussy est pour piano et utilise une palette sonore particulièrement riche et évocatrice.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-187",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_187.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-187-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Pour quelle profession la ville de Crémone, située dans le nord de l'Italie, est-elle célèbre ?",
+      "answer": "Luthier",
+      "options": [
+        "Luthier",
+        "Sabotier",
+        "Potier",
+        "Peintre"
+      ],
+      "explanation": "La ville est la patrie d'Antonio Giacomo Stradivari, dit Stradivarius, fabricant de violons, de violoncelles, d'altos et de guitares.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-187",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_187.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-187-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Autrefois, la phtisie désignait une des formes de quelle maladie ?",
+      "answer": "Tuberculose",
+      "options": [
+        "Tuberculose",
+        "Syphilis",
+        "Asthme",
+        "Lèpre"
+      ],
+      "explanation": "La tuberculose est une maladie contagieuse infectieuse causée par une bactérie, avec des signes cliniques variables.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-187",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_187.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-187-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Par quel pays Macao a-t-elle été colonisée et administrée durant plus de 400 ans ?",
+      "answer": "Portugal",
+      "options": [
+        "Angleterre",
+        "Portugal",
+        "Espagne",
+        "Allemagne"
+      ],
+      "explanation": "La ville de Macao est considérée comme le dernier comptoir ainsi que la dernière colonie européenne en Chine et en Asie.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-187",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_187.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-187-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces écrivains avait 40 ans à la naissance de Gustave Flaubert ?",
+      "answer": "Balzac",
+      "options": [
+        "Balzac",
+        "Stendhal",
+        "Favre",
+        "Hugo"
+      ],
+      "explanation": "Gustave Flaubert a marqué la littérature par la profondeur de ses analyses psychologiques et son souci de réalisme.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-187",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_187.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-187-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment peut-on littéralement traduire le terme république d'Albanie ?",
+      "answer": "Pays des aigles",
+      "options": [
+        "Pays des morts",
+        "Pays des chevaux",
+        "Pays des vivants",
+        "Pays des aigles"
+      ],
+      "explanation": "Le pays a un régime politique de type démocratie parlementaire, sa capitale est Tirana et sa langue officielle est l'albanais.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-187",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_187.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-187-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel état se trouve la prison américaine de Sing Sing, située sur les rives de l'Hudson ?",
+      "answer": "New York",
+      "options": [
+        "Texas",
+        "Alabama",
+        "New York",
+        "Géorgie"
+      ],
+      "explanation": "La prison de Sing Sing est classée comme établissement de sécurité maximale et a été le lieu, avant 2004, d'exécutions capitales.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-187",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_187.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-187-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est probablement la rencontre la plus célèbre de Camp David en 1978 ?",
+      "answer": "Sadate-Begin",
+      "options": [
+        "Nixon-Brejnev",
+        "Reagan-Thatcher",
+        "Clinton-Arafat",
+        "Sadate-Begin"
+      ],
+      "explanation": "Le Camp David, d'une superficie de 50 hectares dans le Maryland, est le lieu de villégiature officiel du président des États-Unis.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-187",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_187.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-187-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel journal est paru le célèbre 'J'accuse... !' d'Émile Zola ?",
+      "answer": "Aurore",
+      "options": [
+        "Pravda",
+        "Aurore",
+        "Humanité",
+        "Figaro"
+      ],
+      "explanation": "Rédigé au cours de l'affaire Dreyfus, cet article est paru sous la forme d'une lettre ouverte au président français Félix Faure.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-187",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_187.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-187-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel pays coule le Shannon, traversant des successions interminables de lacs ?",
+      "answer": "Irlande",
+      "options": [
+        "Canada",
+        "Israël",
+        "Irlande",
+        "États-Unis"
+      ],
+      "explanation": "Les 386 kilomètres du fleuve Shannon en font le plus long cours d'eau des Îles Britanniques et le plus abondant par son débit.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-187",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_187.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-187-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel philosophe français habitait 10 rue Monsieur-le-Prince à Paris ?",
+      "answer": "Auguste Comte",
+      "options": [
+        "Pierre Leroux",
+        "Marcel Proust",
+        "Anatole France",
+        "Auguste Comte"
+      ],
+      "explanation": "Auguste Comte fut le secrétaire particulier puis collaborateur du comte de Saint-Simon, fondateur du mouvement saint-simonien.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-187",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_187.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

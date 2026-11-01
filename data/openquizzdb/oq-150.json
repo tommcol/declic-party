@@ -1,0 +1,798 @@
+{
+  "id": "oq-150",
+  "title": "Foot d’antan",
+  "originalTitle": "Foot d’antan",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_150.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-150-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que siffle l'arbitre si un défenseur touche le ballon de la main dans les 16 mètres ?",
+      "answer": "Un penalty",
+      "options": [
+        "Un penalty",
+        "Une touche",
+        "La mi-temps",
+        "Un coup-franc"
+      ],
+      "explanation": "Un but peut être marqué directement contre l'équipe adverse sur un penalty, mais ce n'est pas une obligation.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-150",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_150.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-150-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui était le gardien de but du Benfica Lisbonne en 1981 ?",
+      "answer": "Manuel Bento",
+      "options": [
+        "Pedro Estrems",
+        "José Valero",
+        "Manuel Bento",
+        "Carlos Medrano"
+      ],
+      "explanation": "Manuel Bento a été le gardien indiscutable du Portugal entre 1976 à 1986 en alignant 63 sélections en équipe du Portugal.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-150",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_150.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-150-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle était la nationalité du célèbre arbitre S. Gonella ?",
+      "answer": "Italienne",
+      "options": [
+        "Espagnole",
+        "Française",
+        "Portugaise",
+        "Italienne"
+      ],
+      "explanation": "Sergio Gonella devint arbitre international en 1972 et arrêta en 1978. De 1998 à 2000, il fut le président des arbitres italiens.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-150",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_150.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-150-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de pays sont à l'origine de la création de la FIFA en 1904 ?",
+      "answer": "8",
+      "options": [
+        "12",
+        "10",
+        "8",
+        "14"
+      ],
+      "explanation": "En 2016, la FIFA comptait 211 associations nationales affiliées qui doivent être reconnues par l'une des six confédérations.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-150",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_150.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-150-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel joueur de football portugais était souvent comparé à Pelé ?",
+      "answer": "Eusébio",
+      "options": [
+        "Eusébio",
+        "Nani",
+        "Duda",
+        "Manecas"
+      ],
+      "explanation": "Considéré comme l'un des meilleurs joueurs de l'histoire, il est surnommé la « la panthère noire » ou bien encore « le roi ».",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-150",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_150.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-150-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui fut élu « Meilleur joueur français de l'année 1989 » ?",
+      "answer": "Jean-Pierre Papin",
+      "options": [
+        "Maxime Bossis",
+        "Alain Giresse",
+        "Jean-Pierre Papin",
+        "Manuel Amoros"
+      ],
+      "explanation": "Avant-centre efficace et spectaculaire, ses reprises de volée et retournés acrobatiques (papinades) sont restés célèbres.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-150",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_150.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-150-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Breitner et Beckenbauer ont joué dans quel même club de football ?",
+      "answer": "Bayern Munich",
+      "options": [
+        "Bayern Munich",
+        "Hambourg SV",
+        "FC Barcelone",
+        "Manchester United"
+      ],
+      "explanation": "Le FC Bayern rejoint la Bundesliga en 1965 et s'impose en cador du championnat, remportant 4 titres entre 1969 et 1973.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-150",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_150.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-150-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel championnat le club CA Osuasuna évolue-t-il ?",
+      "answer": "Espagnol",
+      "options": [
+        "Espagnol",
+        "Grec",
+        "Portugais",
+        "Italien"
+      ],
+      "explanation": "Le 18 juin 2016, le CA Osasuna entraîné par Enrique Martín Monreal remonte en première division en battant Girona FC.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-150",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_150.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-150-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelles sont les couleurs des maillots de l'Ajax Amsterdam ?",
+      "answer": "Blanc et rouge",
+      "options": [
+        "Vert et gris",
+        "Orange et bleu",
+        "Blanc et rouge",
+        "Noir et blanc"
+      ],
+      "explanation": "L'Ajax Amsterdam fait partie des trois grands clubs de football de Hollande avec le Feyenoord Rotterdam et le PSV Eindhoven.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-150",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_150.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-150-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle équipe Caligaris était-il le défenseur dans les années 30 ?",
+      "answer": "Juventus FC",
+      "options": [
+        "Lazio Rome",
+        "Milan AC",
+        "US Palerme",
+        "Juventus FC"
+      ],
+      "explanation": "Umberto Caligaris aurait dit : « L'argent ne vaut pas l'amour pour un maillot et je n'en ai que deux, un bianconero et un azzurro. »",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-150",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_150.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-150-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de coupes d'Espagne a remporté Barcelone entre 1980 et 1989 ?",
+      "answer": "3",
+      "options": [
+        "6",
+        "5",
+        "4",
+        "3"
+      ],
+      "explanation": "La Coupe d'Espagne (ou Coupe du Roi) a pour nom officiel « Campeonato de España-Copa de Su Majestad el Rey de Fútbol ».",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-150",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_150.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-150-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel club gagna la Coupe de France de football 1982-1983 ?",
+      "answer": "PSG",
+      "options": [
+        "FC Nantes",
+        "PSG",
+        "AS Monaco",
+        "Lille OSC"
+      ],
+      "explanation": "Il s'agit de la deuxième Coupe de France remportée par le club de la capitale, les joueurs conservant ainsi leur titre acquis en 1982.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-150",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_150.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-150-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de sélections en équipe nationale compte Franz Beckenbauer ?",
+      "answer": "103",
+      "options": [
+        "63",
+        "83",
+        "123",
+        "103"
+      ],
+      "explanation": "À ce jour, il est, avec Mario Zagallo le seul footballeur à avoir gagné la Coupe du monde en tant que joueur et entraîneur.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-150",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_150.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-150-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle équipe nationale Grosics était-il le fabuleux gardien de but ?",
+      "answer": "Hongrie",
+      "options": [
+        "Hongrie",
+        "Grèce",
+        "Autriche",
+        "Suisse"
+      ],
+      "explanation": "Surnommé « la panthère noire », il compte 86 sélections en équipe de Hongrie et fait partie du légendaire onze des années cinquante.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-150",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_150.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-150-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui fut proclamé meilleur buteur de D1 en France en 1979 ?",
+      "answer": "Carlos Bianchi",
+      "options": [
+        "Erwin Kostedde",
+        "Carlos Bianchi",
+        "Josip Skoblar",
+        "Delio Onnis"
+      ],
+      "explanation": "En dix-neuf ans de saisons professionnelles, Bianchi inscrit 397 buts en 565 matchs officiels, soit une moyenne de 0,70 but par match.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-150",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_150.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-150-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces stars du foot entraînait le Paris Saint-Germain en 1983 ?",
+      "answer": "Lucien Leduc",
+      "options": [
+        "Yves Bertucci",
+        "Guy Lacombe",
+        "Christian Coste",
+        "Lucien Leduc"
+      ],
+      "explanation": "Devenu entraîneur, il est notamment connu pour avoir remporté les cinq premiers trophées professionnels de l'histoire de l'AS Monaco.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-150",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_150.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-150-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la nationalité de l'attaquant et soulier d'or Petar Jekov ?",
+      "answer": "Bulgare",
+      "options": [
+        "Anglaise",
+        "Bulgare",
+        "Russe",
+        "Allemande"
+      ],
+      "explanation": "Petar Jekov a connu 44 sélections en équipe nationale bulgare entre 1963 et 1972 et a marqué 25 buts.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-150",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_150.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-150-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le prénom de l'ancien gardien de but français Baratelli ?",
+      "answer": "Dominique",
+      "options": [
+        "Jean",
+        "Michel",
+        "Dominique",
+        "Jean-Luc"
+      ],
+      "explanation": "À la surprise générale, Jean-Luc Ettori (au lieu de Baratelli) sera nommé titulaire par Michel Hidalgo en 1982.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-150",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_150.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-150-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel fameux club portugais a entraîné Béla Gutman en 1965 ?",
+      "answer": "Benfica",
+      "options": [
+        "Porto",
+        "Tondela",
+        "Braga",
+        "Benfica"
+      ],
+      "explanation": "Guttmann est considéré comme l'un des inventeurs du 4-2-4, une tactique qu'il introduira lors de son passage au Brésil en 1957.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-150",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_150.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-150-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel joueur allemand détenait le record de sélections avant Beckenbauer ?",
+      "answer": "Paul Janes",
+      "options": [
+        "Jakob Bender",
+        "Paul Janes",
+        "Edmund Conen",
+        "Josef Streb"
+      ],
+      "explanation": "Janes fait partie du 'Onze de Breslau' qui bat le Danemark 8-0 à Breslau en 1937 et qui gagna dix matchs sur onze.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-150",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_150.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-150-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel championnat évolue le club de football de Palmeiras ?",
+      "answer": "Brésilien",
+      "options": [
+        "Grec",
+        "Espagnol",
+        "Portugais",
+        "Brésilien"
+      ],
+      "explanation": "La SE Palmeiras est l'équipe la plus titrée sur le plan national, avec 9 championnats, 3 Coupes du Brésil et 1 Coupe des champions.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-150",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_150.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-150-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Où jouait Karl-Heinz Förster avant de signer à l'Olympique de Marseille ?",
+      "answer": "Stuttgart",
+      "options": [
+        "Nuremberg",
+        "Stuttgart",
+        "Munich",
+        "Düsseldorf"
+      ],
+      "explanation": "Pièce maîtresse de la défense de l'équipe nationale d'Allemagne de 1978 à 1986, ce stoppeur était impitoyable sur l'homme.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-150",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_150.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-150-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "La Coupe d'Espagne de football (ou Coupe du Roi) fut créée en quelle année ?",
+      "answer": "1902",
+      "options": [
+        "1920",
+        "1902",
+        "1932",
+        "1946"
+      ],
+      "explanation": "Comme en Angleterre, en Écosse ou en France, cette épreuve a vu le jour avant la mise en place du championnat national.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-150",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_150.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-150-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lev Yachine a subi une amputation de quelle partie du corps ?",
+      "answer": "La jambe",
+      "options": [
+        "La main",
+        "La jambe",
+        "Le bras",
+        "Le pied"
+      ],
+      "explanation": "Souvent considéré comme le meilleur portier de tous les temps, Lev Yachine est le seul gardien à avoir remporté le Ballon d'or.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-150",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_150.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-150-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de clubs de D1 comptait le championnat belge de football en 1989 ?",
+      "answer": "18",
+      "options": [
+        "18",
+        "14",
+        "6",
+        "10"
+      ],
+      "explanation": "La Belgique a découvert le football dès les années 1860, par l'entremise des ouvriers anglais actifs dans la zone d'Anvers.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-150",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_150.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-150-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle équipe nationale a évolué le footballeur Jesper Kristensen ?",
+      "answer": "Danemark",
+      "options": [
+        "Danemark",
+        "Suède",
+        "Norvège",
+        "Finlande"
+      ],
+      "explanation": "Durant la saison 1995-1996, il joue les premiers matchs de la saison mais se blesse et met un terme à sa carrière.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-150",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_150.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-150-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel club italien joua Alcides Ghiggia dans les années 50 ?",
+      "answer": "AS Roma",
+      "options": [
+        "FC Rieti",
+        "AS Roma",
+        "SS Lazio",
+        "AC Milan"
+      ],
+      "explanation": "Dernier joueur vivant ayant disputé la finale de la Coupe du monde de 1950, Alcides_Ghiggia s'est éteint 65 ans après, jour pour jour.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-150",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_150.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-150-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel club du Danemark est le second plus vieux club d'Europe ?",
+      "answer": "KB Copenhague",
+      "options": [
+        "IK Skovbakken",
+        "Helsingor IF",
+        "KB Copenhague",
+        "AGF Aarhus"
+      ],
+      "explanation": "La section football de ce club omnisports a fusionné avec le Boldklubben 1903 en 1992 pour former le FC Copenhague.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-150",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_150.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-150-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année Marius Trésor a-t-il marqué son premier but international ?",
+      "answer": "1973",
+      "options": [
+        "1975",
+        "1974",
+        "1976",
+        "1973"
+      ],
+      "explanation": "Marius Trésor a été sélectionné à 65 reprises et a marqué 4 buts sous le maillot bleu. En 2004, il est nommé au FIFA 100.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-150",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_150.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-150-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel joueur était surnommé « Le Mozart du football » ?",
+      "answer": "Sindelar",
+      "options": [
+        "Wagner",
+        "Stroh",
+        "Janda",
+        "Sindelar"
+      ],
+      "explanation": "15 000 personnes assistèrent aux funérailles du « plus grand footballeur autrichien de tous les temps ».",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-150",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_150.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

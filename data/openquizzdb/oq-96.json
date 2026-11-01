@@ -1,0 +1,798 @@
+{
+  "id": "oq-96",
+  "title": "Vins divins",
+  "originalTitle": "Vins divins",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_96.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-96-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment appelle-t-on l'ensemble des sensations olfactives procurées par le vin ?",
+      "answer": "Le bouquet",
+      "options": [
+        "Le bouquet",
+        "La robe",
+        "Le nez",
+        "La texture"
+      ],
+      "explanation": "Le terme « bouquet » est exclusivement réservé aux parfums issus du vieillissement en bouteille dits secondaires ou tertiaires.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-96",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_96.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-96-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Par quel fleuve la région de Saint-Émilion et ses nombreux coteaux est-elle arrosée ?",
+      "answer": "La Dordogne",
+      "options": [
+        "La Garonne",
+        "La Dordogne",
+        "Le Rhin",
+        "La Meuse"
+      ],
+      "explanation": "Site touristique de premier plan, Saint-Émilion possède une importante parure monumentale qui se décline au gré des ruelles.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-96",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_96.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-96-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel pays d'Amérique latine au drapeau bleu et blanc possède le plus grand vignoble ?",
+      "answer": "L'Argentine",
+      "options": [
+        "Le Pérou",
+        "La Colombie",
+        "Le Chili",
+        "L'Argentine"
+      ],
+      "explanation": "Les vignes en hautains, sur espaliers ou en gobelets furent les trois méthodes les plus utilisées en viticulture dès 1561.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-96",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_96.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-96-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Le phylloxéra, qui a ravagé au siècle dernier presque tous les vignobles du monde, est en fait...",
+      "answer": "Un puceron",
+      "options": [
+        "Un puceron",
+        "Une plante",
+        "Un champignon",
+        "Une bactérie"
+      ],
+      "explanation": "En France, la maladie fut observée pour la première fois vers 1863 sur le plateau de Pujaut près Roquemaure, dans le Gard.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-96",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_96.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-96-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel cépage provient le chablis, vin blanc sec français d'appellation d'origine contrôlée ?",
+      "answer": "Du Chardonnay",
+      "options": [
+        "Du Chardonnay",
+        "Du cabernet",
+        "Du sauvignon",
+        "Du pinot blanc"
+      ],
+      "explanation": "Il s'agit de la principale appellation en volume du vignoble de Chablis, avec le petit-chablis et le chablis grand cru.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-96",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_96.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-96-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel verbe utilise-t-on lorsque l'on souhaite mettre un vin dans la glace pour le refroidir ?",
+      "answer": "Frapper",
+      "options": [
+        "Glacer",
+        "Frapper",
+        "Couper",
+        "Tirer"
+      ],
+      "explanation": "Pour beaucoup, frappé a le sens de rafraîchir ce qui est une erreur car un vin est frappé lorsqu’il est frappé de glace.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-96",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_96.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-96-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Pour les protéger de quels prédateurs plantait-on autrefois des roses à l'entrée des vignobles ?",
+      "answer": "Des pucerons",
+      "options": [
+        "Des abeilles",
+        "Des pucerons",
+        "Des araignées",
+        "Des fourmis"
+      ],
+      "explanation": "Le Phylloxéra est un minuscule insecte piqueur inféodé à la vigne, apparenté aux pucerons.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-96",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_96.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-96-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Au Moyen Âge, qu'employait-on comme antiseptique pour panser les blessures ?",
+      "answer": "Du vin",
+      "options": [
+        "Du miel",
+        "Du sucre",
+        "Du beurre",
+        "Du vin"
+      ],
+      "explanation": "Un centimètre cube de vin tue 99% des bacilles typhiques et des microbes du choléra dans une quantité égale à la culture.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-96",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_96.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-96-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Parmi ces Saints, lequel ne porte pas le nom d'un cru viticole ou d'un grand vignoble ?",
+      "answer": "St Raphaël",
+      "options": [
+        "St Julien",
+        "St Amour",
+        "St Raphaël",
+        "St Aubin"
+      ],
+      "explanation": "Le Saint-Raphaël est un apéritif à base de mélange de mistelle rouge ou blanche et de plantes aromatiques.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-96",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_96.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-96-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quel dieu égyptien attribue-t-on le fait d'avoir planté la vigne sur les bords du Nil ?",
+      "answer": "Osiris",
+      "options": [
+        "Thot",
+        "Amon",
+        "Osiris",
+        "Râ"
+      ],
+      "explanation": "Osiris, fils du Ciel et de la Terre, était surnommé « Le Maître de la Vigne en Fleurs ».",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-96",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_96.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-96-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Le Chénas est une appellation d'origine contrôlée de quelle grande région viticole ?",
+      "answer": "Du Beaujolais",
+      "options": [
+        "De Bourgogne",
+        "Du Châlonnais",
+        "Du Jura",
+        "Du Beaujolais"
+      ],
+      "explanation": "L'appellation est située à cheval sur les départements du Rhône et de Saône-et-Loire, au nord du vignoble du Beaujolais.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-96",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_96.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-96-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Selon les écrits, quel peuple cultiva pour la première fois la vigne en France ?",
+      "answer": "Les Grecs",
+      "options": [
+        "Les Burgondes",
+        "Les Grecs",
+        "Les Romains",
+        "Les Gaulois"
+      ],
+      "explanation": "Les Grecs, aux alentours de Marseille. Les Romains l'ont ensuite propagé au cours de leurs conquêtes.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-96",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_96.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-96-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment désigne-t-on un vin qui peut se garder très longtemps et qui demande même à vieillir ?",
+      "answer": "Vin de garde",
+      "options": [
+        "Vin de garde",
+        "Graves",
+        "Élixir",
+        "Échanson"
+      ],
+      "explanation": "Les vins de garde ne doivent pas se boire trop jeunes et doivent subir une période de maturation de l'ordre de trois à cinq ans.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-96",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_96.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-96-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Pour garder son appellation, le pineau des Charentes doit obligatoirement tirer entre 16° et...",
+      "answer": "22°",
+      "options": [
+        "20°",
+        "18°",
+        "24°",
+        "22°"
+      ],
+      "explanation": "Il est à noter que 75% de la production du pineau des Charentes est consommée en France.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-96",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_96.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-96-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Le pouilly-fuissé est un vin blanc issu d'un seul cépage, mais lequel ?",
+      "answer": "Le Chardonnay",
+      "options": [
+        "Le Chemin Blanc",
+        "Le Sauvignon",
+        "Le Sémillon",
+        "Le Chardonnay"
+      ],
+      "explanation": "Les terroirs du pouilly-fuissé sont de constitution majoritairement argilo-calcaire (Jurassique de l'ère secondaire).",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-96",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_96.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-96-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel appareil permet de mesurer le taux d'alcool d'un vin ?",
+      "answer": "Un ébullioscope",
+      "options": [
+        "Un ébullioscope",
+        "Un alcootest",
+        "Un œnolitre",
+        "Un barrica"
+      ],
+      "explanation": "Puisque l'alcool bout à 78° et l'eau à 100°, l'ébullioscope permet de mesurer la quantité d'alcool contenue dans une boisson alcoolisée.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-96",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_96.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-96-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel local la vinification est-elle généralement pratiquée ?",
+      "answer": "Le cuvier",
+      "options": [
+        "Le pommard",
+        "Le cellier",
+        "Le chai",
+        "Le cuvier"
+      ],
+      "explanation": "C'est dans le cuvier que s'effectue la vinification et par extension le stockage en cuve des vins en cours d'élevage.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-96",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_96.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-96-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Idéalement, quel vin convient le mieux aux artichauts à la poivrade, spécialité provençale ?",
+      "answer": "Le rosé",
+      "options": [
+        "Le rouge",
+        "Le blanc pétillant",
+        "Le rosé",
+        "Le blanc"
+      ],
+      "explanation": "Le violet de Provence peut se manger cru quand il est jeune (poivrade); cru ou cuit, il se déguste notamment en salade.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-96",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_96.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-96-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel aéronef annonce chaque année la récolte du Château Guiraud en Sauternes ?",
+      "answer": "Une montgolfière",
+      "options": [
+        "Un ULM",
+        "Un avion",
+        "Une montgolfière",
+        "Un delta-plane"
+      ],
+      "explanation": "En AOC Sauternes, il est classé premier grand cru dans la classification officielle des vins de Bordeaux de 1855.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-96",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_96.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-96-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment désigne-t-on un vin rosé dont la cuvaison a duré moins de 24 heures ?",
+      "answer": "Vin de café",
+      "options": [
+        "Vin de foire",
+        "Vin de café",
+        "Vin de messe",
+        "Vin de jour"
+      ],
+      "explanation": "L'expression « vin d'une nuit » est moins péjorative que « vin de café ».",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-96",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_96.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-96-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel vin, célébré par Goethe comme par Voltaire, fut décrété « Vin des rois et Rois des vins » ?",
+      "answer": "Tokay Aszu",
+      "options": [
+        "Meursault",
+        "Chénas",
+        "Richebourg",
+        "Tokay Aszu"
+      ],
+      "explanation": "Les Tokaj sont principalement connus pour la gamme de vins liquoreux haut de gamme issus de grains de raisin sur-mûris.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-96",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_96.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-96-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En 1850, combien de domaines viticoles du Bordelais utilisaient déjà un nom de château ?",
+      "answer": "50",
+      "options": [
+        "50",
+        "180",
+        "510",
+        "318"
+      ],
+      "explanation": "Le vignoble de Bordeaux est le vignoble regroupant toutes les vignes du département de la Gironde.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-96",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_96.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-96-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Le festival de Vevey, en Suisse, est un des plus importants festivals du vin depuis quel siècle ?",
+      "answer": "Le XVIIe",
+      "options": [
+        "Le XIXe",
+        "Le XXe",
+        "Le XVIIIe",
+        "Le XVIIe"
+      ],
+      "explanation": "La Fête des Vignerons est une fête traditionnelle qui a lieu cinq fois par siècle à Vevey, en Suisse.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-96",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_96.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-96-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel raisin, destiné à la production du vin, est le plus cultivé dans la région de Dao, au Portugal ?",
+      "answer": "Le touriga",
+      "options": [
+        "Le riaja",
+        "Le touzao",
+        "L'ugni",
+        "Le touriga"
+      ],
+      "explanation": "Cette variété à petits grains et peaux épaisses joue un rôle essentiel dans les assemblages du vin de Porto.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-96",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_96.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-96-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle expression est utilisée pour désigner le fait d'ajouter de l'alcool dans un vin ?",
+      "answer": "Viner un vin",
+      "options": [
+        "Claper un vin",
+        "Viner un vin",
+        "Frapper un vin",
+        "Mander un vin"
+      ],
+      "explanation": "Il ne faut pas confondre « vinage » avec le mot anglais « vintage » qui signifie dans ce contexte millésime ou millésimé.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-96",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_96.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-96-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces Saints est sans conteste « plus alcoolique » que les trois autres ?",
+      "answer": "Saint James",
+      "options": [
+        "Saint Emilion",
+        "Saint-Véran",
+        "Saint Julien",
+        "Saint James"
+      ],
+      "explanation": "Saint James est un rhum titrant plus de 80 degrés d'alcool, tandis que les autres sont des vins.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-96",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_96.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-96-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel vin rouge fait à partir des cépages gamay et pinot noir est produit dans le Valais ?",
+      "answer": "La Dôle",
+      "options": [
+        "La Dôle",
+        "Le Médoc",
+        "Le Sancerre",
+        "Le Tavel"
+      ],
+      "explanation": "La Dôle est souvent qualifiée de « capiteuse, racée et moelleuse » avec une robe aux reflets de pourpre.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-96",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_96.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-96-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Par des cures de quel vin Erasme soignait-il ses troubles d'estomac ?",
+      "answer": "Côte de Beaune",
+      "options": [
+        "Morgan",
+        "Pomerol",
+        "Côte de Beaune",
+        "Château Guiraud"
+      ],
+      "explanation": "Le Côte de Beaune est en effet réputé pour sa richesse en éléments minéraux et ses propriétés bactéricides.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-96",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_96.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-96-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Parmi ces vins blancs liquoreux de Bordeaux s'est glissé un intrus, lequel ?",
+      "answer": "Listrac",
+      "options": [
+        "Listrac",
+        "Barrac",
+        "Cadillac",
+        "Loupiac"
+      ],
+      "explanation": "Listrac est en effet un vin rouge ou un vin blanc sec d'appellation d'origine contrôlée produit autour de Listrac-Médoc dans le Médoc.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-96",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_96.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-96-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle méthode augmente le taux d'alcool d'un vin en ajoutant du sucre dans le moût ?",
+      "answer": "La chaptalisation",
+      "options": [
+        "L'enfarinage",
+        "Ma muscadelle",
+        "L'ambrie",
+        "La chaptalisation"
+      ],
+      "explanation": "Dans la théorie, l'ajout de 16,83 grammes de sucre par litre conduit à la production d'un degré d'alcool supplémentaire.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-96",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_96.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

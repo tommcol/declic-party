@@ -1,0 +1,798 @@
+{
+  "id": "oq-267",
+  "title": "La Casa de Papel",
+  "originalTitle": "La Casa de Papel (2.4 milliards en onze jours)",
+  "universe": "film",
+  "emoji": "🎬",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_267.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-267-1",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quel pays a été tourné la série « La Casa de Papel » ?",
+      "answer": "Espagne",
+      "options": [
+        "France",
+        "Portugal",
+        "Espagne",
+        "Italie"
+      ],
+      "explanation": "Il a fallu plus de trois mois et une quarantaine de professionnels pour construire les décors de l'intérieur de la fabrique.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-267",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_267.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-267-2",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Sur quelle plate-forme de streaming a-t-on pu voir « La Casa de Papel » ?",
+      "answer": "Netflix",
+      "options": [
+        "PeerTube",
+        "Netflix",
+        "Megavideo",
+        "Vimeo"
+      ],
+      "explanation": "L'idée de Netflix est venue d'une contrariété après avoir dû verser 40 dollars à la suite d'un film loué mais rendu trop tard.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-267",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_267.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-267-3",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Combien de malfaiteurs le professeur a-t-il recruté au départ dans « La Casa de Papel » ?",
+      "answer": "Huit",
+      "options": [
+        "Douze",
+        "Six",
+        "Dix",
+        "Huit"
+      ],
+      "explanation": "Les huit braqueurs de départ de la série sont Tokyo, Rio, Berlin, Moscou, Denver, Nairobi, Helsinki et Oslo.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-267",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_267.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-267-4",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "De quel peintre sont inspirés les masques portés dans « La Casa de Papel » ?",
+      "answer": "Salvador Dali",
+      "options": [
+        "Salvador Dali",
+        "Max Ernst",
+        "René Magritte",
+        "Joan Miro"
+      ],
+      "explanation": "Dali est considéré comme l'un des principaux représentants du surréalisme, et comme l'un des plus célèbres peintres du XXe siècle.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-267",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_267.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-267-5",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quels noms les braqueurs de « La Casa de Papel » utilisent-ils ?",
+      "answer": "Noms de villes",
+      "options": [
+        "Noms de pays",
+        "Noms de fleurs",
+        "Noms de villes",
+        "Noms de peintres"
+      ],
+      "explanation": "Un jour, un membre de la production est arrivé avec un tee-shirt sur lequel était écrit Tokyo! C'est comme cela que ça a commencé.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-267",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_267.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-267-6",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel personnage est aussi la narratrice de ce cambriolage hors norme ?",
+      "answer": "Tokyo",
+      "options": [
+        "Nairobi",
+        "Tokyo",
+        "Rio",
+        "Denver"
+      ],
+      "explanation": "Tokyo, qui est aussi le personnage féminin principal de la série, fait part de ses impressions tout au long de sa narration.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-267",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_267.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-267-7",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel qualificatif identifie le mieux Berlin dans la série « La Casa de Papel » ?",
+      "answer": "Psychopathe",
+      "options": [
+        "Psychopathe",
+        "Attentionné",
+        "Ponctuel",
+        "Serviable"
+      ],
+      "explanation": "Berlin s'attache à suivre les règles définies par le Professeur, bien qu'il soit le premier à les avoir détourné en faisant tuer un otage.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-267",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_267.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-267-8",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel membre du braquage est le seul à évoluer à l'extérieur de la Fabrique ?",
+      "answer": "Le Professeur",
+      "options": [
+        "Le Professeur",
+        "Tokyo",
+        "Berlin",
+        "Moscou"
+      ],
+      "explanation": "Grâce à ses installations et une analyse minutieuse des lieux, le Professeur a toujours une longueur d'avance sur la police.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-267",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_267.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-267-9",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quel objet appartenant à Angel les braqueurs ont-il installé un micro ?",
+      "answer": "Ses lunettes",
+      "options": [
+        "Son ordinateur",
+        "Ses lunettes",
+        "Son stylo",
+        "Son téléphone"
+      ],
+      "explanation": "Se faisant passer pour un infirmier, Angel s'est introduit dans la Fabrique pour analyser la situation de l'intérieur.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-267",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_267.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-267-10",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel serbe est le cousin d'Helsinki dans la série « La Casa de Papel » ?",
+      "answer": "Oslo",
+      "options": [
+        "Berlin",
+        "Rio",
+        "Oslo",
+        "Denver"
+      ],
+      "explanation": "Son véritable nom est Radko Dragic, mais il est également connu des services de police sous le nom de Dimitri Mostovoi.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-267",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_267.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-267-11",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle somme le professeur a-t-il prévu d'imprimer dans « La Casa de Papel » ?",
+      "answer": "2,4 milliards",
+      "options": [
+        "2,4 milliards",
+        "800 millions",
+        "400 millions",
+        "200 millions"
+      ],
+      "explanation": "Le but est d'imprimer 2,4 milliards d'euros en moins de onze jours et sans verser une goutte de sang, malgré la présence de 67 otages.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-267",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_267.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-267-12",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui est vu comme le Mozart des ordinateurs dans la série « La Casa de Papel » ?",
+      "answer": "Rio",
+      "options": [
+        "Rio",
+        "Moscou",
+        "Nairobi",
+        "Helsinki"
+      ],
+      "explanation": "En couple avec Tokyo, Rio programme les ordinateurs et gère les explosifs ainsi que leur placement stratégique.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-267",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_267.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-267-13",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Sur quelle chaîne ibérique a été diffusée la série « La Casa de Papel » ?",
+      "answer": "Antena 3",
+      "options": [
+        "Canal Club",
+        "Cuatro",
+        "Boing",
+        "Antena 3"
+      ],
+      "explanation": "Antena 3 est une chaîne de télévision généraliste commerciale privée espagnole appartenant au groupe Atresmedia.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-267",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_267.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-267-14",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Combien de personnes ont été prises en otage dans la première saison de « La Casa de Papel » ?",
+      "answer": "67",
+      "options": [
+        "55",
+        "42",
+        "67",
+        "39"
+      ],
+      "explanation": "Les otages portent souvent les mêmes tenues et masques que les braqueurs pour que l'on puisse les confondre.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-267",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_267.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-267-15",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Comment se prénomme l'inspecteur adjoint, collègue et ami de Raquel ?",
+      "answer": "Angel",
+      "options": [
+        "Francisco",
+        "Pablo",
+        "Angel",
+        "Alberto"
+      ],
+      "explanation": "Marié à Mari Carmen, Angel Rubio est sous-inspecteur de police, en binôme avec l'inspectrice Raquel Murillo depuis quinze ans.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-267",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_267.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-267-16",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle voiture « El Profesor » a-t-il eu bien du mal à dissimuler à la police ?",
+      "answer": "Seat Ibiza",
+      "options": [
+        "Audi 100",
+        "Renault Clio",
+        "Seat Ibiza",
+        "Ford Escort"
+      ],
+      "explanation": "Le Professeur se rendra lui-même sur les lieux pour masquer les empreintes, se faisant passer pour un clochard.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-267",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_267.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-267-17",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Laquelle de ces villes ne désigne pas un des personnages de « La Casa de Papel » ?",
+      "answer": "Dallas",
+      "options": [
+        "Dallas",
+        "Nairobi",
+        "Oslo",
+        "Helsinki"
+      ],
+      "explanation": "Les braqueurs se sont donnés des noms de villes pour ne pas avoir à divulguer leur réelle identité auprès des autres intervenants.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-267",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_267.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-267-18",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "De qui Denver est-il le fils dans la série « La Casa de Papel » ?",
+      "answer": "Moscou",
+      "options": [
+        "Oslo",
+        "Washington",
+        "Berlin",
+        "Moscou"
+      ],
+      "explanation": "Moscou a emmené son fils avec lui dans le plan du Professeur parce qu'il a des problèmes avec certains trafiquants.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-267",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_267.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-267-19",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle responsable qualité fait dans la fausse monnaie depuis ses treize ans ?",
+      "answer": "Nairobi",
+      "options": [
+        "Nairobi",
+        "Tokyo",
+        "Oslo",
+        "Moscou"
+      ],
+      "explanation": "Son charisme personnel et sa bonne humeur font que tout le monde s'entend bien avec elle, sauf Berlin, fréquemment en désaccord.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-267",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_267.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-267-20",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Comment se prénomme la secrétaire du directeur de la Fabrique ?",
+      "answer": "Monica",
+      "options": [
+        "Ariadna",
+        "Mercedes",
+        "Silene",
+        "Monica"
+      ],
+      "explanation": "Bien éduquée et gentille, Monica est considérée comme le genre de femme typique qui fait souvent de mauvais choix.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-267",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_267.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-267-21",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Avant quelle fête Netflix a-t-il diffusée « La Casa de Papel » en 2017 ?",
+      "answer": "Noël",
+      "options": [
+        "Pâques",
+        "Halloween",
+        "Noël",
+        "Fête nationale"
+      ],
+      "explanation": "Le géant d'internet a demandé aux scénaristes de concevoir deux saisons supplémentaires, qui seront donc au nombre de quatre.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-267",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_267.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-267-22",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Pendant combien de temps les braqueurs ont-ils vécus reclus avant le premier braquage ?",
+      "answer": "Cinq mois",
+      "options": [
+        "Dix mois",
+        "Vingt jours",
+        "Cinq mois",
+        "Deux ans"
+      ],
+      "explanation": "Le Professeur en a profité pour divulguer tout ce dont ses braqueurs avaient besoin de connaître pour réaliser ce coup du siècle.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-267",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_267.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-267-23",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel scénariste espagnol a créé la série télévisée à succès « La Casa de Papel » ?",
+      "answer": "Alex Pina",
+      "options": [
+        "Luis Tosar",
+        "Enrique Gato",
+        "Alex Pina",
+        "Juan Bas"
+      ],
+      "explanation": "Alex Pina a commencé sa carrière comme journaliste dans la presse et plus tard au sein de l'agence de presse Europa.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-267",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_267.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-267-24",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le véritable prénom de « Tokyo » dans la série « La Casa de Papel » ?",
+      "answer": "Silene",
+      "options": [
+        "Agata",
+        "Raquel",
+        "Silene",
+        "Monica"
+      ],
+      "explanation": "Silene Oliveira n'a rien à perdre en contribuant à ce vol parce qu'elle n'a rien ni personne d'important dans sa vie.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-267",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_267.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-267-25",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel acteur incarne Salvador « Salva » Martin, dit « le Professeur » ?",
+      "answer": "Alvaro Morte",
+      "options": [
+        "Mario Morales",
+        "Alfredo Mayo",
+        "José Mota",
+        "Alvaro Morte"
+      ],
+      "explanation": "En 2012, Alvaro Morte a fondé la compagnie de théâtre 300 Pistolas auprès de laquelle il dirige des pièces de théâtre.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-267",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_267.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-267-26",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "De quelle oeuvre d'Edvard Munch fut inspiré un des masques de « La Casa de Papel » ?",
+      "answer": "Le Cri",
+      "options": [
+        "Le Baiser",
+        "Le Cri",
+        "La Tempête",
+        "La Madone"
+      ],
+      "explanation": "Symbolisant l'homme moderne emporté par une crise d'angoisse existentielle, elle est l'oeuvre la plus importante de l'artiste.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-267",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_267.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-267-27",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel rappeur s'est habillé comme dans la série dans son clip « Sheguey 12 » ?",
+      "answer": "Gradur",
+      "options": [
+        "Gradur",
+        "Black M",
+        "Maître Gims",
+        "Kaaris"
+      ],
+      "explanation": "De son vrai nom Wanani Gradi Mariadi, le rappeur français né à Roubaix dans le Nord fait partie du collectif Sheguey Squaad.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-267",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_267.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-267-28",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel chant révolutionnaire antifasciste est devenu l'hymne de la série ?",
+      "answer": "Bella ciao",
+      "options": [
+        "Adesso tu",
+        "La Montanara",
+        "Ruota Libera",
+        "Bella ciao"
+      ],
+      "explanation": "Les paroles de la version qui renvoie aux événements les plus anciens ont été fixées en 1951 par Vasco Scansani.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-267",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_267.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-267-29",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Combien de fois « La Casa de Papel » a-t-elle été visionnée en France en 2017 ?",
+      "answer": "17 millions",
+      "options": [
+        "11 millions",
+        "17 millions",
+        "8 millions",
+        "14 millions"
+      ],
+      "explanation": "Tous les membres de l'équipe de la série ont été surpris par l'engouement mondial développé autour de « La Casa de Papel ».",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-267",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_267.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-267-30",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Par amour, sous quel nom Monica va-t-elle entrer dans la bande ?",
+      "answer": "Stockholm",
+      "options": [
+        "Vienne",
+        "Paris",
+        "Madrid",
+        "Stockholm"
+      ],
+      "explanation": "Le syndrome de Stockholm est un phénomène psychologique observé chez des otages ayant vécu avec leurs geôliers.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-267",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_267.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

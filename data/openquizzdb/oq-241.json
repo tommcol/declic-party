@@ -1,0 +1,798 @@
+{
+  "id": "oq-241",
+  "title": "Alien : la saga",
+  "originalTitle": "Alien : la saga (Influencée par l'oeuvre d'Hans Ruedi Giger )",
+  "universe": "film",
+  "emoji": "🎬",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Catherine De Smeytere",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_241.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-241-1",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "En quelle année le film « Alien, le huitième passager » est-il sorti en France ?",
+      "answer": "1979",
+      "options": [
+        "1984",
+        "1989",
+        "1974",
+        "1979"
+      ],
+      "explanation": "Le succès du film a engendré une franchise, dont trois suites directes appartenant à la saga « Alien » et son héroïne Ellen Ripley.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-241",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_241.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-241-2",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le nom de l'androïde voyageant à bord du Betty dans « Alien, la résurrection » ?",
+      "answer": "Call",
+      "options": [
+        "Call",
+        "Fiorina",
+        "Bishop",
+        "Karl"
+      ],
+      "explanation": "À l'origine, c'est Angelina Jolie qui devait tenir le rôle de l'androïde Annalee Call, jeune recrue curieuse à bord du Betty.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-241",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_241.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-241-3",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le type de vaisseau spatial du film « Alien, le huitième passager » ?",
+      "answer": "Commercial",
+      "options": [
+        "Scientifique",
+        "Commercial",
+        "Expérimental",
+        "Touristique"
+      ],
+      "explanation": "En 2122, le cargo interstellaire Nostromo, de retour vers la Terre à la fin de sa mission de raffinerie, capte un signal sonore.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-241",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_241.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-241-4",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel parasite génère des embryons dans la gorge des humains ?",
+      "answer": "Facehugger",
+      "options": [
+        "Facebunker",
+        "Facehugger",
+        "Facepower",
+        "Faceleader"
+      ],
+      "explanation": "Cet étreigneur de visage, qui se déplace très vite, est également capable de courir et de sauter sur de grandes distances.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-241",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_241.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-241-5",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Comment meurt Ripley dans le film « Alien 3 » réalisé par David Fincher ?",
+      "answer": "Suicide",
+      "options": [
+        "Noyade",
+        "Électrocution",
+        "Meurtre",
+        "Suicide"
+      ],
+      "explanation": "Si dans l'édition de 1992, la Reine alien sort du corps de Ripley quand celle-ci se suicide, il n'en est rien dans la version longue.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-241",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_241.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-241-6",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui a réalisé le film de science-fiction « Alien, le huitième passager » ?",
+      "answer": "Ridley Scott",
+      "options": [
+        "James Cameron",
+        "Jean-Pierre Jeunet",
+        "David Fincher",
+        "Ridley Scott"
+      ],
+      "explanation": "Ridley Scott est reconnu pour son style visuel très concentré et atmosphérique, qui a inspiré un grand nombre de réalisateurs.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-241",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_241.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-241-7",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel animal de compagnie possèdent les membres du Nostromo ?",
+      "answer": "Chat",
+      "options": [
+        "Rat",
+        "Canard",
+        "Chien",
+        "Chat"
+      ],
+      "explanation": "Aidé par l'équipage, le chat Jones aura la lourde tache de tenter de survivre parmi les aliens présents dans son vaisseau spatial.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-241",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_241.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-241-8",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Comment appelle-t-on les extraterrestres dans la saga « Alien » ?",
+      "answer": "Xénomorphes",
+      "options": [
+        "Kaeloo",
+        "Xénomorphes",
+        "Intramorphes",
+        "Kookabuira"
+      ],
+      "explanation": "Le terme xénomorphe, qui signifie forme étrangère, désigne une créature non répertoriée à l'excellente sensibilité.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-241",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_241.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-241-9",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quelle catégorie le film « Alien 3 » a-t-il obtenu un MPSE Awards ?",
+      "answer": "Montage sonore",
+      "options": [
+        "Montage sonore",
+        "Effets spéciaux",
+        "Réalisation",
+        "Musique"
+      ],
+      "explanation": "Les noms des membres actifs apparaît généralement dans les génériques de films avec les lettres post-nominales MPSE.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-241",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_241.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-241-10",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle actrice interprète avec panache Ellen Ripley dans la saga « Alien » ?",
+      "answer": "Sigourney Weaver",
+      "options": [
+        "Cameron Diaz",
+        "Michelle Pfeiffer",
+        "Sigourney Weaver",
+        "Jodie Foster"
+      ],
+      "explanation": "En 1985, elle épouse Jim Simpson, un metteur en scène de théâtre qui lui offrira un rôle en 1986 dans « Le Marchand de Venise ».",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-241",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_241.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-241-11",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans « Alien », quelle compagnie colonise des planètes en vue de les terraformer ?",
+      "answer": "Weyland",
+      "options": [
+        "Sulaco",
+        "Harleys",
+        "Benedict",
+        "Weyland"
+      ],
+      "explanation": "Son expertise : laboratoires, industrie, terraformation, colonisation de planètes, raffinage de minerais et transport de fret.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-241",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_241.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-241-12",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "De quelle manière est morte Newt dans le film « Alien 3 » sorti en 1992 ?",
+      "answer": "Noyade",
+      "options": [
+        "Électrocution",
+        "Étranglement",
+        "Suicide",
+        "Noyade"
+      ],
+      "explanation": "Lors du crash de l'USS Sulaco, Hicks s'est empalé sur un vérin de sécurité et Newt s'est noyée dans son cryotube.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-241",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_241.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-241-13",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Pendant combien de temps Ripley a-t-elle dérivé dans l'espace dans « Alien, le retour » ?",
+      "answer": "57 ans",
+      "options": [
+        "57 ans",
+        "60 ans",
+        "35 ans",
+        "42 ans"
+      ],
+      "explanation": "Ripley, alors qu'elle dérivait en biostase pendant 57 ans dans l'espace, a appris que sa fille était morte à l'âge de 66 ans.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-241",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_241.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-241-14",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel nom porte l'officier scientifique dans « Alien, le huitième passager » ?",
+      "answer": "Ash",
+      "options": [
+        "John",
+        "Pace",
+        "K",
+        "Ash"
+      ],
+      "explanation": "Le liquide blanchâtre qui s'échappe de son corps après un coup d'extincteur sur la tête révèle alors que Ash est un androïde.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-241",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_241.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-241-15",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle est la particularité très spécifique du sang du xénomorphe alien ?",
+      "answer": "Acide",
+      "options": [
+        "Phosphorescent",
+        "Acide",
+        "Bleu",
+        "Vert"
+      ],
+      "explanation": "Le sang du xénomorphe est un puissant acide moléculaire qui est capable de ronger même le métal le plus robuste.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-241",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_241.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-241-16",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le nom du vaisseau spatial utilisé dans « Alien, le huitième passager » ?",
+      "answer": "Nostromo",
+      "options": [
+        "Nostromo",
+        "Nobuco",
+        "Nostrado",
+        "Nostradamus"
+      ],
+      "explanation": "« Nostromo » est également le nom d'un roman de Joseph Conrad, publié en 1904, ainsi qu'une série télé réalisée par Alastair Reid.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-241",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_241.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-241-17",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel métier Ripley exerçait-elle avant de rencontrer les aliens ?",
+      "answer": "Pilote",
+      "options": [
+        "Pilote",
+        "Mécanicienne",
+        "Scientifique",
+        "Archéologue"
+      ],
+      "explanation": "Ellen Ripley est interprétée par l'actrice américaine Sigourney Weaver, et apparaît dans quatre films et plusieurs jeux vidéo.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-241",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_241.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-241-18",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "En 1980, « Alien, le huitième passager » a reçu le prix Hugo du meilleur...",
+      "answer": "Film",
+      "options": [
+        "Costume",
+        "Scénario",
+        "Film",
+        "Second rôle"
+      ],
+      "explanation": "Les lauréats sont élus par des fans membres de la World Science Fiction Society et reçoivent un trophée en forme de fusée.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-241",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_241.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-241-19",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "En quelle année est sorti le film « Prometheus », produit et réalisé par Ridley Scott ?",
+      "answer": "2012",
+      "options": [
+        "2010",
+        "2014",
+        "2008",
+        "2012"
+      ],
+      "explanation": "Ce film était prévu à l'origine en tant que préquelle directe d'« Alien, le huitième passager », le deuxième long métrage de Ridley Scott.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-241",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_241.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-241-20",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel nom a été donné à l'ordinateur de bord du film « Alien, le huitième passager » ?",
+      "answer": "Maman",
+      "options": [
+        "Papa",
+        "Maman",
+        "Thelma",
+        "Anna"
+      ],
+      "explanation": "L'ordinateur de bord (appelé Maman) a interrompu le trajet du Nostromo et réveillé l'équipage maintenu en biostase.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-241",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_241.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-241-21",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Pourquoi l'ordinateur de bord du Sulaco éjecte-t-il la capsule de Ripley dans « Alien » ?",
+      "answer": "Incendie",
+      "options": [
+        "Incendie",
+        "Inondation",
+        "Rébellion",
+        "Panne moteur"
+      ],
+      "explanation": "Dévoré par les flammes, l'ordinateur de bord du Sulaco fait évacuer les quatre cryotubes par EEV (Emergency Escape Vehicle).",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-241",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_241.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-241-22",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Combien de temps après la mort de Ripley les scientifiques l'ont-ils cloné ?",
+      "answer": "200 ans",
+      "options": [
+        "200 ans",
+        "150 ans",
+        "100 ans",
+        "50 ans"
+      ],
+      "explanation": "En 2379, des scientifiques militaires parviennent à recréer un clone à partir d'échantillons de sang collectés avant la mort de Ripley.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-241",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_241.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-241-23",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Au cinéma, pour quel crime le Dr Clemens purge-t-il une peine sur Forina 161 ?",
+      "answer": "Meurtre",
+      "options": [
+        "Meurtre",
+        "Viol",
+        "Braquage",
+        "Séquestration"
+      ],
+      "explanation": "Pour le doublage français de Clemens dans la version longue, Patrick Osmond dût remplacer Daniel Sarky, décédé en 1999.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-241",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_241.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-241-24",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Sur quelle planète Ripley se pose-t-elle et découvre les Aliens ?",
+      "answer": "LV-426",
+      "options": [
+        "LV-544",
+        "LV-426",
+        "LV-712",
+        "LV-532"
+      ],
+      "explanation": "LV-426 est la planète où l'équipage du Nostromo découvre un vaisseau d'une espèce inconnue et où l'un des membres est infecté.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-241",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_241.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-241-25",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans la saga « Alien », lequel de ces androïdes peut-on retrouver à bord du Sulaco ?",
+      "answer": "Bishop",
+      "options": [
+        "Bishop",
+        "David",
+        "Giger",
+        "Call"
+      ],
+      "explanation": "Bishop est un androïde intelligent joué par Lance Henriksen dans le second opus de la saga, « Aliens, le retour », sorti en 1986.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-241",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_241.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-241-26",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "À l'extraction de quel métal précieux étaient affectés les prisonniers de Fury 161 ?",
+      "answer": "Platine",
+      "options": [
+        "Palladium",
+        "Argent",
+        "Platine",
+        "Or"
+      ],
+      "explanation": "Extrêmement inhospitalière, balayée par des vents puissants, la planète Fiorina-16 abrite le centre pénitentiaire Fury-161 de Classe C.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-241",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_241.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-241-27",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans « Alien », après combien de fécondations meurt un Superfacehugger ?",
+      "answer": "Deux",
+      "options": [
+        "Trois",
+        "Cinq",
+        "Deux",
+        "Quatre"
+      ],
+      "explanation": "Le FaceHugger ressemble vaguement à une araignée de couleur chair, avec huit pattes articulées semblables à des doigts humains.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-241",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_241.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-241-28",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Comment se prénomme la fille de Ripley dont on parle dans « Alien, le retour » ?",
+      "answer": "Amanda",
+      "options": [
+        "Johanna",
+        "Laura",
+        "Mathilda",
+        "Amanda"
+      ],
+      "explanation": "Ripley est solitaire, et ce parfois malgré elle, car tous ses proches, famille, amis ou collègues, meurent pratiquement toujours.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-241",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_241.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-241-29",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quelle navette de sauvetage du Nostromo Ripley s'est-elle réfugiée ?",
+      "answer": "Narcicuss",
+      "options": [
+        "Nautilus",
+        "Narcicuss",
+        "Sulaco",
+        "Nirvana"
+      ],
+      "explanation": "Sa navette sera finalement retrouvée en 2179 et rapatriée sur la station orbitale Gateway, située en orbite autour de la Terre.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-241",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_241.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-241-30",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le matricule de Ripley, évoqué dans le film « Alien, le retour » ?",
+      "answer": "14472",
+      "options": [
+        "14475",
+        "13472",
+        "12475",
+        "14472"
+      ],
+      "explanation": "Van Leuwen dit que le matricule de Ripley est le 14472, mais sur l'écran derrière elle, on peut lire 14672 (en pause sur image).",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-241",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_241.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

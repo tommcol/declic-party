@@ -1,0 +1,774 @@
+{
+  "id": "oq-158",
+  "title": "Vins d'ailleurs",
+  "originalTitle": "Vins d'ailleurs (Promenade au détour des vignobles)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_158.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    6
+  ],
+  "questions": [
+    {
+      "id": "oqdb-158-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Preignac, Barsac et Bommes sont des communes de quelle région viticole française ?",
+      "answer": "Sauternais",
+      "options": [
+        "Médoc",
+        "Sauternais",
+        "Libournais",
+        "Graves"
+      ],
+      "explanation": "Toutes situées sur la rive gauche de la Garonne, ces communes font partie des cinq privilégiés ayant droit à l'appellation Sauternes.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-158",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_158.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-158-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle île de Grèce produit un muscat bien connu des amateurs de vins ?",
+      "answer": "Samos",
+      "options": [
+        "Ikaria",
+        "Fourni",
+        "Lesbos",
+        "Samos"
+      ],
+      "explanation": "Les vendanges commencent à la mi-août, au niveau de la mer, et se poursuivent fin octobre dans les régions montagneuses.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-158",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_158.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-158-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle région naturelle française est situé le Château Latour Premier Cru ?",
+      "answer": "Médoc",
+      "options": [
+        "Libournais",
+        "Graves",
+        "Fronsac",
+        "Médoc"
+      ],
+      "explanation": "Château Latour est devenu en 1993 la copropriété de la holding Artémis de François Pinault, qui détient 149 parts sur 155.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-158",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_158.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-158-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle région est produit le Monbazillac, vin blanc liquoreux sous AOC ?",
+      "answer": "Bergerac",
+      "options": [
+        "Béarn",
+        "Bergerac",
+        "Tarn",
+        "Champagne"
+      ],
+      "explanation": "De couleur paille, liquoreux ou moelleux, riches en glycérol et autres corps sucrés, les monbazillacs sont puissants et corsés.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-158",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_158.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-158-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel pays assez riche en soleil provient le muscat de Patras ?",
+      "answer": "Grèce",
+      "options": [
+        "Grèce",
+        "Chypre",
+        "Turquie",
+        "Espagne"
+      ],
+      "explanation": "Les premiers vins grecs ont été datés de 6 500 ans, leur élaboration correspondant aux besoins de familles ou communautés.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-158",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_158.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-158-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Les vignobles de la Clairette de Die s'étendent le long de quelle rivière ?",
+      "answer": "Drôme",
+      "options": [
+        "Drôme",
+        "Ardèche",
+        "Vienne",
+        "Isère"
+      ],
+      "explanation": "Le sol argilo-crayeux a la particularité de conserver les eaux de pluie pour maintenir un approvisionnement hydrique constant.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-158",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_158.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-158-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces vins fait sans conteste partie des Côtes du Rhône ?",
+      "answer": "Vacqueyras",
+      "options": [
+        "Vacqueyras",
+        "Fitou",
+        "Faugères",
+        "Saint Chinian"
+      ],
+      "explanation": "Le vacqueyras rouge est recommandé dans l'accompagnement des viandes rouges, du gibier et des fromages de caractère.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-158",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_158.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-158-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Le Valpolicella est un vin sec de quelle région du nord-est de l'Italie ?",
+      "answer": "Vénétie",
+      "options": [
+        "Campanie",
+        "Vénétie",
+        "Piémont",
+        "Toscane"
+      ],
+      "explanation": "Similaire au Bardolino, les caractéristiques essentielles du Valpolicella sont un taux d'alcool modéré et une acidité moyenne.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-158",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_158.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-158-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Le Mercurey est un Bourgogne viticole de quelle région ?",
+      "answer": "Chalon",
+      "options": [
+        "Montceau",
+        "Châblis",
+        "Mâcon",
+        "Chalon"
+      ],
+      "explanation": "La superficie de production comprend 650 hectares de vignes, avec 580 hectares de vins rouges et 75 hectares de vins blancs.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-158",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_158.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-158-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Le Palette est un vin d'appellation d'origine contrôlée en provenance de quel pays ?",
+      "answer": "France",
+      "options": [
+        "Italie",
+        "France",
+        "Portugal",
+        "Allemagne"
+      ],
+      "explanation": "Le rouge, qui possède une grande aptitude au vieillissement, est traditionnellement conseillé sur du gibier et de la venaison.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-158",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_158.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-158-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville se situe la Cité du Vin inaugurée en France en 2016 ?",
+      "answer": "Bordeaux",
+      "options": [
+        "Calais",
+        "Paris",
+        "Reims",
+        "Bordeaux"
+      ],
+      "explanation": "La Cité du Vin est accessible par le tramway, par la rocade, par le pont Chaban-Delmas et par les lignes 7 et 32 du réseau TBM.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-158",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_158.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-158-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Le Vignoble de Franconie, qui s'étend sur plus de 6000 ha, est associé à quel pays ?",
+      "answer": "Allemagne",
+      "options": [
+        "Suisse",
+        "Allemagne",
+        "Italie",
+        "Afrique du Sud"
+      ],
+      "explanation": "Avec plus 6 000 hectares recensés en 2008, le Vignoble de Franconie fait partie des vignobles de taille moyenne en Allemagne.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-158",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_158.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-158-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Le Soave est un vin blanc de couleur jaune paille clair qui possède quelle nationalité ?",
+      "answer": "Italienne",
+      "options": [
+        "Suisse",
+        "Grecque",
+        "Yougoslave",
+        "Italienne"
+      ],
+      "explanation": "Dotée d'une appellation DOC depuis 1968, la zone de production se situe au nord de l'autoroute qui relie Vérone et Venise.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-158",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_158.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-158-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le principal cépage qui produit les vins de Cahors ?",
+      "answer": "Malbec",
+      "options": [
+        "Malbec",
+        "Cabernet",
+        "Riesling",
+        "Merlot"
+      ],
+      "explanation": "Depuis 2007, le marché du malbec vise à se développer dans le reste du monde grâce au concept Cahors Malbec.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-158",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_158.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-158-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "La Saône est une rivière qui arrose les vignobles de quelle région ?",
+      "answer": "Beaujolais",
+      "options": [
+        "Bourgogne",
+        "Beaujolais",
+        "Provence",
+        "Châblis"
+      ],
+      "explanation": "Les vins de l'appellation beaujolais peuvent être produits par toutes les communes du vignoble du Beaujolais.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-158",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_158.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-158-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel pays du continent européen produit l'excellent vin blanc baptisé Aphrodite ?",
+      "answer": "Chypre",
+      "options": [
+        "Chypre",
+        "Espagne",
+        "France",
+        "Grèce"
+      ],
+      "explanation": "Le vin produit sur l'île entra très tôt dans la mythologie grâce à Aphrodite, native de Chypre, et à Dionysos, dieu du vin.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-158",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_158.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-158-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sur les collines de quelle région de France produit-on le pacherenc-du-vic-bilh ?",
+      "answer": "Pyrénées",
+      "options": [
+        "Auvergne",
+        "Bretagne",
+        "Pyrénées",
+        "Alsace"
+      ],
+      "explanation": "Le nom très ancien de l'appellation vient du gascon vin de vigne en échalas de la région gasconne du Vic-Bilh.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-158",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_158.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-158-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Le Vaduzer est un vin rouge léger produit depuis l'époque romaine...",
+      "answer": "Au Liechtenstein",
+      "options": [
+        "En Bohême",
+        "Au Liechtenstein",
+        "En Autriche",
+        "Dans le Jura"
+      ],
+      "explanation": "Au Liechtenstein, qui est la plus petite région viticole au monde, on peut déguster d'excellents vins, parmi lesquels le Vaduzer.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-158",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_158.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-158-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Le Marignan, sans lien apparent avec la bataille, est un cru de quelle région de France ?",
+      "answer": "Savoie",
+      "options": [
+        "Tarn",
+        "Jura",
+        "Béarn",
+        "Savoie"
+      ],
+      "explanation": "Situé au pied des pentes du mont de Boisy, le vignoble remonte à la création de l'abbaye de Filly fondée en 930.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-158",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_158.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-158-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "La liqueur Izarra est originaire de quelle région d'Europe ?",
+      "answer": "Pays Basque",
+      "options": [
+        "Eurasie",
+        "Pays Basque",
+        "Balkans",
+        "Caucase"
+      ],
+      "explanation": "L'Izarra, qui signifie l'étoile en basque, est une marque de liqueur créée en 1906 à Hendaye par le botaniste Joseph Grattau.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-158",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_158.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-158-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Le rosé des Riceys est un vin AOC en provenance de quel vignoble ?",
+      "answer": "Champagne",
+      "options": [
+        "Alsace",
+        "Bordeaux",
+        "Loire",
+        "Champagne"
+      ],
+      "explanation": "Le seul cépage autorisé pour le rosé est le pinot noir, les deux autres cépages entrant dans l'élaboration du champagne.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-158",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_158.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-158-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le cépage de cuve blanc le plus répandu en Allemagne ?",
+      "answer": "Müller-thurgau",
+      "options": [
+        "Riesling",
+        "Mauzac",
+        "Müller-thurgau",
+        "Sylvaner"
+      ],
+      "explanation": "Avec 24 % de la superficie totale, le müller-thurgau a longtemps été considéré comme un croisement des cépages riesling et sylvaner.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-158",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_158.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-158-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces pays ne produit pas de Gewürztraminer ?",
+      "answer": "Grèce",
+      "options": [
+        "Australie",
+        "Italie",
+        "Nouvelle-Zélande",
+        "Grèce"
+      ],
+      "explanation": "Sensible à la chlorose et au dessèchement de la rafle, le Gewürztraminer résiste assez bien au froid hivernal.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-158",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_158.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-158-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel cépage est le plus fréquent dans la Moselle et le Rheingau allemands ?",
+      "answer": "Riesling",
+      "options": [
+        "Sylvaner",
+        "Riesling",
+        "Traminer",
+        "Ruländer"
+      ],
+      "explanation": "Le riesling est un cépage en expansion qui doit sa faveur croissante auprès du public à un éventail de vins large et de qualité.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-158",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_158.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-158-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le cépage blanc italien le plus utilisé en Charente ?",
+      "answer": "Ugni blanc",
+      "options": [
+        "Folle-blanche",
+        "Savagnin",
+        "Ugni blanc",
+        "Colombard"
+      ],
+      "explanation": "Il est cultivé dans la zone méditerranéenne, donnant la trame des vins de table blancs, en assemblage avec un vin plus aromatique.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-158",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_158.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-158-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel village viticole de Bourgogne est aussi connu pour son eau que pour son vin ?",
+      "answer": "Santenay",
+      "options": [
+        "Santenay",
+        "Monthélie",
+        "Saint-Aubin",
+        "Volnay"
+      ],
+      "explanation": "On soigne presque tout à Santenay : le diabète, la goutte ou l'arthrose, et ce principalement grâce aux eaux thermales.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-158",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_158.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-158-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Le Crépy est un vin blanc sec de quelle région de France ?",
+      "answer": "Savoie",
+      "options": [
+        "Roussillon",
+        "Vendée",
+        "Savoie",
+        "Alsace"
+      ],
+      "explanation": "Sur ce vignoble qui couvre 35 hectares et produit 825 hectolitres, le rendement est très bas puisqu'il plafonne à 23,6 hl/ha.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-158",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_158.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-158-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Un des cépages cultivés dans l'Orégon porte le nom de quel Maréchal de France ?",
+      "answer": "Foch",
+      "options": [
+        "Joffre",
+        "Fayolle",
+        "Foch",
+        "Pétain"
+      ],
+      "explanation": "Des plantations sont connues au Canada (Québec) et aux États-Unis (Orégon), alors qu'en France, il en reste très peu.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-158",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_158.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-158-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel pays fut découverte l'une des plus anciennes traces de vinification ?",
+      "answer": "Géorgie",
+      "options": [
+        "Irak",
+        "Syrie",
+        "Géorgie",
+        "Yémen"
+      ],
+      "explanation": "C'est sur le site néolithique de Shulaveri que des ceps et des grains desséchés datés des environs de -6000 ont été retrouvés.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-158",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_158.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

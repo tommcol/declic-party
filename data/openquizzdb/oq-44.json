@@ -1,0 +1,749 @@
+{
+  "id": "oq-44",
+  "title": "Automobile",
+  "originalTitle": "Automobile",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_44.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    12,
+    22
+  ],
+  "questions": [
+    {
+      "id": "oqdb-44-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel pays se situe le circuit de course automobile du Mans ?",
+      "answer": "En France",
+      "options": [
+        "En Belgique",
+        "En Suisse",
+        "Aux Pays-Bas",
+        "En France"
+      ],
+      "explanation": "Il est aussi utilisé par les voitures de course anciennes lors du Mans Classic qui a lieu une fois tous les deux ans.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-44",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_44.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-44-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quel modèle de voiture ressemble le vieux tacot jaune et délabré que conduit Gaston Lagaffe ?",
+      "answer": "Fiat 509",
+      "options": [
+        "Jeep",
+        "Citroën B10",
+        "Fiat 509",
+        "Rolls-Royce"
+      ],
+      "explanation": "Franquin s'est inspiré de la Fiat 509, une voiture de 1925 donc déjà antédiluvienne dans les années 1960.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-44",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_44.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-44-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel sport automobile consiste à accélérer le plus rapidement possible avec son véhicule ?",
+      "answer": "Le dragster",
+      "options": [
+        "Le monster truck",
+        "Le dragster",
+        "Le trial",
+        "Le drift"
+      ],
+      "explanation": "La catégorie reine est le « Top Fuel », les plus rapides passant la ligne des 402 mètres en moins de 4.5 secondes.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-44",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_44.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-44-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment s'appelle le véhicule du personnage de bande dessinée Batman ?",
+      "answer": "La Batmobile",
+      "options": [
+        "La Batmobile",
+        "La Batdrive",
+        "La Batcar",
+        "La Batauto"
+      ],
+      "explanation": "Au fil des années, les artistes ayant travaillé sur la série ont souvent modifié son aspect et ses caractéristiques.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-44",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_44.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-44-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quand date le Duster, véhicule utilitaire sport vendu par la marque roumaine Dacia ?",
+      "answer": "2010",
+      "options": [
+        "2006",
+        "2010",
+        "2008",
+        "2012"
+      ],
+      "explanation": "Disponible en version 4×2 et 4×4, le Renault Duster est le véhicule de la marque le plus produit en 2014.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-44",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_44.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-44-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En France, refuser une priorité peut vous coûter combien de points sur le permis ?",
+      "answer": "4 points",
+      "options": [
+        "6 points",
+        "2 points",
+        "4 points",
+        "8 points"
+      ],
+      "explanation": "En France, le permis de conduire est apparu dans le code de la route de 1922, en remplacement du certificat de capacité.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-44",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_44.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-44-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle principauté accueille l'un des plus prestigieux Grand Prix de Formule 1 ?",
+      "answer": "Monaco",
+      "options": [
+        "Liechtenstein",
+        "Andorre",
+        "Monaco",
+        "Montoue"
+      ],
+      "explanation": "La course inaugurale fut remportée le 14 avril 1929 par William Grover-Williams au volant d'une Bugatti.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-44",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_44.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-44-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel principal organisme régit les courses automobiles de stock-car aux États-Unis ?",
+      "answer": "NASCAR",
+      "options": [
+        "NASCAR",
+        "GOCAR",
+        "GASPAR",
+        "LASCAR"
+      ],
+      "explanation": "Les origines de la Nascar sont liées à la contrebande d'alcool aux États-Unis du temps de la prohibition dans les années 1930.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-44",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_44.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-44-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans le monde automobile, quel sigle correspond au Grand Tourisme Injection ?",
+      "answer": "GTi",
+      "options": [
+        "Sport",
+        "TT",
+        "GTi",
+        "Turbo"
+      ],
+      "explanation": "Le terme « grand tourisme » est le nom donné à une catégorie de voitures de petite production à tendance luxueuse et sportive.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-44",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_44.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-44-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle société appartenant au groupe Belron « répare et remplace » votre pare-brise ?",
+      "answer": "Carglass",
+      "options": [
+        "Carglass",
+        "Midas",
+        "Norauto",
+        "Speedy"
+      ],
+      "explanation": "Le siège français se situe à Courbevoie dans les Hauts-de-Seine au nord du quartier d'affaires de La Défense.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-44",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_44.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-44-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans le jargon automobile courant, « avoir une chaussette trouée » signifie avoir...",
+      "answer": "Un pneu crevé",
+      "options": [
+        "Une vidange à faire",
+        "Un pneu crevé",
+        "Un vitre cassée",
+        "Un moteur qui fuit"
+      ],
+      "explanation": "Une crevaison a pour conséquence directe le dégonflement du pneu et le contact indirect de la jante avec le sol.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-44",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_44.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-44-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle firme automobile, filiale française de FIAT, a ensuite intégré le groupe Chrysler ?",
+      "answer": "Simca",
+      "options": [
+        "Hommell",
+        "Simca",
+        "Packard",
+        "Triumph"
+      ],
+      "explanation": "Ce procédé a permis à Fiat de vendre ses modèles sur le territoire français sans payer de taxes d'importations et de droits de douane.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-44",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_44.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-44-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année a été commercialisé pour la première fois le coupé Audi TT ?",
+      "answer": "1998",
+      "options": [
+        "1998",
+        "1978",
+        "2008",
+        "1988"
+      ],
+      "explanation": "Le nom de TT provient du modèle NSU Prinz TT (La marque NSU a été absorbée par Audi en 1977).",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-44",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_44.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-44-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel pays se situe le circuit automobile de Silvertsone, situé sur une ancienne base aérienne ?",
+      "answer": "Royaume-Uni",
+      "options": [
+        "États-Unis",
+        "Australie",
+        "Portugal",
+        "Royaume-Uni"
+      ],
+      "explanation": "Une moitié du circuit se trouve dans le Northamptonshire, l'autre moitié dans le Buckinghamshire.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-44",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_44.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-44-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle partie de votre voiture est parfois appelée « le dentier » ?",
+      "answer": "La boîte de vitesse",
+      "options": [
+        "La boîte de vitesse",
+        "Le coffre",
+        "Le radiateur",
+        "La calandre"
+      ],
+      "explanation": "La boîte de vitesse permet d'adapter la transmission d'un mouvement entre un arbre moteur et un arbre récepteur.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-44",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_44.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-44-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel constructeur automobile est le recordman des titres au 24 Heures du Mans ?",
+      "answer": "Porsche",
+      "options": [
+        "BMW",
+        "Audi",
+        "Peugeot",
+        "Porsche"
+      ],
+      "explanation": "La société fut fondée en 1931 par Ferdinand Porsche, puis reprise par son fils Ferry Porsche.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-44",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_44.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-44-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Parmi ces quatre verbes, lequel peut être associé à l'expression « mettre le pied dans le phare » ?",
+      "answer": "Accélérer",
+      "options": [
+        "Braquer",
+        "Klaxonner",
+        "Freiner",
+        "Accélérer"
+      ],
+      "explanation": "Dans le langage courant, l'accélération s'oppose à la décélération et indique l'augmentation de la vitesse.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-44",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_44.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-44-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que signifie le sigle « Z.E. » chez le constructeur automobile français Renault ?",
+      "answer": "Zéro Émission",
+      "options": [
+        "Zéro Engagement",
+        "Zéro Émission",
+        "Zéro Echo",
+        "Zéro Espoir"
+      ],
+      "explanation": "La lutte contre le dérèglement climatique passe par un changement de comportement à l'égard de l'automobile.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-44",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_44.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-44-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle marque automobile a pour slogan publicitaire « Le plaisir de conduire » ?",
+      "answer": "BMW",
+      "options": [
+        "Renault",
+        "Kia",
+        "Mercedes-Benz",
+        "BMW"
+      ],
+      "explanation": "En 2014 le groupe BMW a vendu 2 117 965 véhicules automobiles (BMW, MINI, et Rolls-Royce) et 123 495 deux-roues (BMW).",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-44",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_44.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-44-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle voiture jaune Tintin conduit-il dans 'Tintin au Congo', deuxième album de la série ?",
+      "answer": "Ford T",
+      "options": [
+        "Citroën Traction",
+        "Ford T",
+        "Corvette",
+        "Jeep"
+      ],
+      "explanation": "Des éditions pirates de 'Tintin au Congo' ont été diffusées en réaction à son indisponibilité en librairie.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-44",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_44.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-44-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel constructeur automobile fondé en 1906 a réalisé la Firebird, la GTO et la LeMans ?",
+      "answer": "Pontiac",
+      "options": [
+        "Pontiac",
+        "Oldsmobile",
+        "Mercury",
+        "AMC"
+      ],
+      "explanation": "Le nom choisi par le constructeur fait référence à Pontiac un grand chef amérindien de la tribu des Outaouais.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-44",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_44.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-44-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En France, quelle somme maximale peut vous coûter l'utilisation abusive d'un avertisseur sonore ?",
+      "answer": "35 euros",
+      "options": [
+        "95 euros",
+        "55 euros",
+        "35 euros",
+        "75 euros"
+      ],
+      "explanation": "Par abus de langage, un avertisseur sonore est communément dénommé « Klaxon », bien qu'il s'agisse d'une marque.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-44",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_44.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-44-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle voiture Tintin est-il conduit au pied de la fusée dans l'album 'Objectif Lune' ?",
+      "answer": "Une Jeep",
+      "options": [
+        "Une Jeep",
+        "Une Rover Mini",
+        "Une Ford T",
+        "Un Hummer H1"
+      ],
+      "explanation": "Cet album fut adapté dans la série animée de 1962 (couplé avec sa suite) et dans la série animée de 1992.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-44",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_44.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-44-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel pilote de rallye français est devenu champion du monde des rallyes (WRC) en 2013 ?",
+      "answer": "Sébastien Ogier",
+      "options": [
+        "Sébastien Ogier",
+        "Sébastien Loeb",
+        "Sébastien Bourdais",
+        "Sébastien Rousseaux"
+      ],
+      "explanation": "Avec 31 victoires au compteur, Sébastien Ogier est le deuxième meilleur pilote français de l'histoire du WRC.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-44",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_44.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-44-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quel groupe appartient le slogan : « Vous ne viendrez plus chez nous par hasard » ?",
+      "answer": "Total",
+      "options": [
+        "Esso",
+        "Shell",
+        "Total",
+        "Elf"
+      ],
+      "explanation": "Total SA est la première entreprise française en termes de chiffre d'affaires en 2014.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-44",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_44.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-44-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quelle couleur de voiture le personnage de bande dessinée Ric Hochet est-il fidèle ?",
+      "answer": "Le jaune",
+      "options": [
+        "Le bleu",
+        "Le rouge",
+        "Le vert",
+        "Le jaune"
+      ],
+      "explanation": "Le véritable nom de Ric Hochet est Frédéric Hochet, Ric n'étant donc pas le diminutif de Richard.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-44",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_44.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-44-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle entreprise était réputée pour ses voitures de luxe équipées de V8 d'origine Chrysler ?",
+      "answer": "Facel-Vega",
+      "options": [
+        "Facel-Vega",
+        "Delage",
+        "Matra",
+        "Delahaye"
+      ],
+      "explanation": "Ces voitures furent produites entre 1954 et 1964 par les Forges et Ateliers de Constructions d'Eure-et-Loir (Facel).",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-44",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_44.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-44-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Akio Toyoda est le PDG de quelle grande marque automobile ?",
+      "answer": "Toyota",
+      "options": [
+        "Hyundai",
+        "Toyota",
+        "Suzuki",
+        "Yamaha"
+      ],
+      "explanation": "En janvier 2009, Akio Toyoda fut annoncé comme le successeur du président Katsuaki Watanabe.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-44",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_44.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

@@ -1,0 +1,798 @@
+{
+  "id": "oq-191",
+  "title": "Escalade",
+  "originalTitle": "Escalade (Qui veut gravir commence par le bas)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_191.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-191-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien faut-il être au minimum pour prétendre pouvoir grimper en escalade ?",
+      "answer": "Un",
+      "options": [
+        "Quatre",
+        "Deux",
+        "Trois",
+        "Un"
+      ],
+      "explanation": "L'escalade sportive se pratique sur des voies entièrement équipées, où des points d'ancrage ont été au préalable mis en place.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-191",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_191.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-191-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel noeud important doit-on au minimum savoir réaliser pour faire de l'escalade ?",
+      "answer": "Noeud en huit",
+      "options": [
+        "Noeud papillon",
+        "Noeud plat",
+        "Noeud de chaise",
+        "Noeud en huit"
+      ],
+      "explanation": "Le noeud en huit est relativement simple à défaire, n'abîme pas trop le cordage et forme un noeud plus gros que le noeud simple.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-191",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_191.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-191-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle technique de descente se pratique le long d'une corde munie d'un frein ?",
+      "answer": "Rappel",
+      "options": [
+        "Assurage",
+        "Tyrolienne",
+        "Désobstruction",
+        "Rappel"
+      ],
+      "explanation": "L'invention en 1876 de la technique de descente en rappel est attribuée à Jean Charlet-Straton, un guide chamoniard.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-191",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_191.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-191-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que dois-je suivre si je décide de n'utiliser que des prises de même couleur sur un mur ?",
+      "answer": "Voie",
+      "options": [
+        "Chemin",
+        "Parcours",
+        "Tracé",
+        "Voie"
+      ],
+      "explanation": "Une voie d'escalade est un cheminement par lequel un grimpeur atteint le haut d'une montagne ou d'un rocher.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-191",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_191.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-191-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces cotations désigne un niveau de difficulté officiel en escalade ?",
+      "answer": "7C",
+      "options": [
+        "2-4",
+        "7C",
+        "C2",
+        "B+"
+      ],
+      "explanation": "Le grimpeur qui réussit la première ascension d'une voie est généralement celui qui donne la première cotation de la voie.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-191",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_191.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-191-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En escalade, quel système constitue un point d'ancrage dans la roche ?",
+      "answer": "Coinceur",
+      "options": [
+        "Coinceur",
+        "Relais",
+        "Grigri",
+        "Mousqueton"
+      ],
+      "explanation": "Ce point d'ancrage peut servir de point de protection dans une longueur ou de progression, ou bien servir à constituer un relais.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-191",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_191.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-191-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel équipement vient enserrer le bassin du grimpeur tel un harnais ?",
+      "answer": "Baudrier",
+      "options": [
+        "Baudrier",
+        "Anneau de sangle",
+        "Crash pad",
+        "Coinceur"
+      ],
+      "explanation": "Le baudrier est largement utilisé dans la pratique de divers sports comme l'escalade, l'alpinisme, le canyonisme et la spéléologie.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-191",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_191.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-191-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle poudre blanche sert à ne pas transpirer des mains en escalade ?",
+      "answer": "Magnésie",
+      "options": [
+        "Sucre glace",
+        "Farine",
+        "Talc",
+        "Magnésie"
+      ],
+      "explanation": "Le carbonate de magnésium peut contenir une faible proportion de silice qui, inhalée, peut avoir des effets néfastes sur les poumons.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-191",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_191.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-191-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel type de chaussures est généralement utilisé pour l'escalade ?",
+      "answer": "Chausson",
+      "options": [
+        "Pantoufle",
+        "Chausson",
+        "Botte",
+        "Basket"
+      ],
+      "explanation": "Afin d'améliorer l'accroche du pied par friction sur un mur d'escalade ou un rocher, le chausson est recouvert d'une couche de gomme.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-191",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_191.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-191-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces cotations est la plus haute pour un grimpeur averti ?",
+      "answer": "9a",
+      "options": [
+        "1a",
+        "e7",
+        "9a",
+        "7c+"
+      ],
+      "explanation": "La difficulté est estimée pour une ascension en tête, sans s'aider des points d'assurage et sans se reposer pendu à la corde.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-191",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_191.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-191-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que signifie « lover une corde » dans la terminologie des grimpeurs ?",
+      "answer": "Enrouler",
+      "options": [
+        "Dénouer",
+        "Accrocher",
+        "Enrouler",
+        "Détacher"
+      ],
+      "explanation": "L'utilisation est dite à simple lorsque le sportif est assuré par un seul brin de corde et à double par deux brins indépendants.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-191",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_191.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-191-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la nationalité de la marque Petzl, surtout connue pour ses lampes frontales ?",
+      "answer": "Française",
+      "options": [
+        "Anglaise",
+        "Autrichienne",
+        "Américaine",
+        "Française"
+      ],
+      "explanation": "La marque Petzl propose du matériel pour l'alpinisme, l'escalade, la spéléologie, la via ferrata, le canyonisme et le trail running.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-191",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_191.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-191-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel noeud bien connu des grimpeurs permet de se vacher en toute sécurité ?",
+      "answer": "Cabestan",
+      "options": [
+        "Papillon",
+        "Pêcheur",
+        "Chaise",
+        "Cabestan"
+      ],
+      "explanation": "Le noeud de cabestan est noué sur la corde d'assurance passée dans un mousqueton : la corde est alors bloquée dans les deux sens.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-191",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_191.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-191-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle partie du mur d'escalade appelle-t-on le dévers ?",
+      "answer": "Penchée",
+      "options": [
+        "Verticale",
+        "En bordure",
+        "Droite",
+        "Penchée"
+      ],
+      "explanation": "C'est en 1983 que François Savigny inventa les prises d'escalade amovibles, d'abord en grès puis en béton de résine.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-191",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_191.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-191-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel système de sécurité peut-on passer une corde lorsque l'on grimpe ?",
+      "answer": "Mousqueton",
+      "options": [
+        "Piolet",
+        "Mousqueton",
+        "Crash pad",
+        "Tamponnoir"
+      ],
+      "explanation": "L'utilisation du mousqueton en escalade était en fait une conséquence logique de l'usage des pitons inventés par Hans Fiechtl.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-191",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_191.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-191-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est l'autre nom que donnent parfois les grimpeurs à la colophane ?",
+      "answer": "Pof",
+      "options": [
+        "Clip",
+        "Jumar",
+        "Pof",
+        "Longe"
+      ],
+      "explanation": "Le pof ou colophane est une résine que les musiciens mettent sur les crins des archets. En escalade, le pof imperméabilise et colle.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-191",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_191.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-191-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En escalade sur roche, quel autre terme est utilisé pour mousquetonner ?",
+      "answer": "Clipper",
+      "options": [
+        "Clipper",
+        "Flasher",
+        "Corder",
+        "Brocher"
+      ],
+      "explanation": "Apparue dans les années 1980, l'escalade sportive est un des types d'escalade les plus modernes et aussi la pratique la plus sécuritaire.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-191",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_191.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-191-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle règle faut-il suivre pour garder son équilibre en escalade ?",
+      "answer": "Trois points",
+      "options": [
+        "Trois points",
+        "Temps zéro",
+        "Carré interne",
+        "Pleine main"
+      ],
+      "explanation": "Elle consiste à garder en permanence au moins trois points d'appui lors de la progression (deux pieds une main ou deux mains un pied).",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-191",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_191.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-191-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel livre sont répertoriées les voies d'escalade et leur difficulté ?",
+      "answer": "Topo-guide",
+      "options": [
+        "Lunule",
+        "Sérac",
+        "Prussik",
+        "Topo-guide"
+      ],
+      "explanation": "Les topos peuvent aussi offrir de l'information sur l'histoire, les possibilités locales de restauration, les bars et les hébergements.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-191",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_191.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-191-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En escalade, que donne-t-on lorsque l'on assure son partenaire en tête ?",
+      "answer": "Du mou",
+      "options": [
+        "De la résistance",
+        "Un panier",
+        "Un harnais",
+        "Du mou"
+      ],
+      "explanation": "L'assureur peut ainsi bloquer son défilement au cas où le grimpeur viendrait à chuter via un frein ou un dispositif autobloquant.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-191",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_191.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-191-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel matériel faut-il en plus des dégaines pour grimper en falaise ?",
+      "answer": "Vache",
+      "options": [
+        "Bélier",
+        "Vache",
+        "Mouton",
+        "Chamois"
+      ],
+      "explanation": "La vache ou longe est constituée d'un anneau de sangle et de son mousqueton ainsi que d'un bout de corde dynamique.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-191",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_191.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-191-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel grimpeur de haut niveau est couramment appelé le Spiderman français ?",
+      "answer": "Alain Robert",
+      "options": [
+        "Alain Robert",
+        "Jeff Mercier",
+        "Charles Albert",
+        "Patrick Edlinger"
+      ],
+      "explanation": "Alain Robert s'est spécialisé dans l'escalade rocheuse en solo intégral puis dans l'escalade d'immeubles, aussi en solo intégral.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-191",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_191.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-191-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En escalade, quel noeud faut-il impérativement réaliser après un noeud de chaise ?",
+      "answer": "Noeud d'arrêt",
+      "options": [
+        "Noeud de coeur",
+        "Noeud de papillon",
+        "Noeud d'arrêt",
+        "Noeud de Lorenzi"
+      ],
+      "explanation": "Le noeud de chaise est facile à desserrer, contrairement au noeud de huit qui peut parfois être difficile à desserrer après une chute.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-191",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_191.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-191-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le meilleur moyen pour effectuer une réchappe en voie ?",
+      "answer": "Maillon rapide",
+      "options": [
+        "Dégaine",
+        "Cordelette",
+        "Maillon rapide",
+        "Mousqueton"
+      ],
+      "explanation": "Depuis trois générations, Péguet est le fabricant du Maillon Rapide pour toute connexion permanente ou semi permanente.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-191",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_191.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-191-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel grimpeur a participé en 2004 à une publicité pour les céréales Grany ?",
+      "answer": "Patrick Edlinger",
+      "options": [
+        "Daniel Du Lac",
+        "Patrick Edlinger",
+        "Laurent Jacob",
+        "Manuel Romain"
+      ],
+      "explanation": "Réputé pour ses ascensions en solo intégral, Patrick Edlinger est l'un des grands pionniers de l'escalade libre de haut niveau.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-191",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_191.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-191-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le nom de la plus célèbre voie réalisée par Fred Rouhling ?",
+      "answer": "Akira",
+      "options": [
+        "Dreamtime",
+        "Hubble",
+        "Akira",
+        "Silence"
+      ],
+      "explanation": "En 1995, Fred Rouhling ouvre Akira et propose la cotation inédite de 9b, ce qui entraînera de nombreuses réactions de grimpeurs.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-191",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_191.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-191-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel noeud faut-il utiliser pour faire du rappel avec un mousqueton ovoïde ?",
+      "answer": "Demi-cabestan",
+      "options": [
+        "Noeud en huit",
+        "Noeud plat",
+        "Noeud de chaise",
+        "Demi-cabestan"
+      ],
+      "explanation": "Ce noeud peut être utilisé pour assurer un grimpeur en escalade ou le remplacement d'un descendeur lorsqu'on a perdu celui-ci.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-191",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_191.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-191-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel mode d'ascension escalade-t-on une voie encore non testée ?",
+      "answer": "À vue",
+      "options": [
+        "Flash",
+        "Trad",
+        "À vue",
+        "Urbaine"
+      ],
+      "explanation": "Ce mode d'ascension pour grimpeurs avertis est considéré comme plus difficile que l'ascension flash ou que l'ascension après travail.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-191",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_191.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-191-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Depuis 1875, comment l'escalade était-elle autrefois appelée ?",
+      "answer": "Varappe",
+      "options": [
+        "Vairon",
+        "Vantance",
+        "Varappe",
+        "Valdrague"
+      ],
+      "explanation": "Ce nom provient de plusieurs couloirs rocheux du mont Salève, près de Genève où, dès 1862, des grimpeurs se retrouvaient amicalement.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-191",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_191.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-191-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle norme européenne régit les structures artificielles d'escalade ?",
+      "answer": "EN 12572",
+      "options": [
+        "KC 8855",
+        "EN 12572",
+        "RG 165",
+        "BD 432"
+      ],
+      "explanation": "La France a quant à elle élaboré une seconde norme, à titre expérimental en 2005 : la norme XP P 90-312.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-191",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_191.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

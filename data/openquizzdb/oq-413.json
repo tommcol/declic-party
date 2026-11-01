@@ -1,0 +1,749 @@
+{
+  "id": "oq-413",
+  "title": "Colombophilie",
+  "originalTitle": "Colombophilie (L'art d'élever les pigeons voyageurs)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Damien Moreau",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_413.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    4,
+    16
+  ],
+  "questions": [
+    {
+      "id": "oqdb-413-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "La colombophilie concerne l'élevage de quels animaux ?",
+      "answer": "Pigeons",
+      "options": [
+        "Poules",
+        "Pigeons",
+        "Canards",
+        "Oiseaux"
+      ],
+      "explanation": "La colombophilie est aussi l'art de faire concourir des pigeons voyageurs via un sport non officiel et très peu connu.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-413",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Damien Moreau",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_413.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-413-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment appelle-t-on le jeune du pigeon, souvent appelé ainsi jusqu'à un an ?",
+      "answer": "Pigeonneau",
+      "options": [
+        "Pigeonneau",
+        "Pigeonnier",
+        "Tourtereau",
+        "Paonneau"
+      ],
+      "explanation": "Le pigeonneau désigne aussi par extension la viande de pigeon issue du pigeon sauvage ou de l'élevage du pigeon.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-413",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Damien Moreau",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_413.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-413-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le poids général moyen d'un pigeon voyageur ?",
+      "answer": "400 g",
+      "options": [
+        "2 kg",
+        "1 kg",
+        "400 g",
+        "100 g"
+      ],
+      "explanation": "Lors d'un concours difficile en raison de la météo, le pigeon voyageur peut perdre presque la moitié de son poids.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-413",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Damien Moreau",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_413.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-413-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Selon une phrase restée célèbre pour les colombophiles, que font les convoyeurs ?",
+      "answer": "Ils attendent",
+      "options": [
+        "Ils pleurent",
+        "Ils prient",
+        "Ils courent",
+        "Ils attendent"
+      ],
+      "explanation": "De nos jours, les colombophiles consultent sur internet les informations mises à jour et relatives aux lâchers des pigeons.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-413",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Damien Moreau",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_413.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-413-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment appelle-t-on les grandes plumes rigides de l'aile du pigeon ?",
+      "answer": "Rémiges",
+      "options": [
+        "Plumage",
+        "Duvet",
+        "Rémiges",
+        "Rames"
+      ],
+      "explanation": "Chaque espèce possède des rémiges de formes ou de couleurs différentes, ce qui permet d'identifier les oiseaux.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-413",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Damien Moreau",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_413.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-413-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel lieu résident généralement les pigeons du colombophile ?",
+      "answer": "Pigeonnier",
+      "options": [
+        "Abri",
+        "Pigeonnier",
+        "Clapier",
+        "Grenier"
+      ],
+      "explanation": "Il existe une surprenante géographie des colombiers, avec des densités variables suivant les régions méditerranéennes.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-413",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Damien Moreau",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_413.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-413-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment appelle-t-on la femelle du pigeon, souvent plus petite que le mâle ?",
+      "answer": "Pigeonne",
+      "options": [
+        "Pigeonne",
+        "Colombe",
+        "Tourterelle",
+        "Palombe"
+      ],
+      "explanation": "Lorsqu'ils sont jeunes, il n'est pas inhabituel d'avoir du mal à distinguer un pigeon mâle d'un pigeon femelle.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-413",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Damien Moreau",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_413.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-413-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le mot picard bien connu pour désigner le colombophile ?",
+      "answer": "Coulonneux",
+      "options": [
+        "Coulonneux",
+        "Péristérophile",
+        "Colombier",
+        "Colombiculteur"
+      ],
+      "explanation": "La colombophilie est inscrite à l'Inventaire du patrimoine culturel immatériel français depuis 2012.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-413",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Damien Moreau",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_413.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-413-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle maladie oblige souvent le colombophile à confiner ses pigeons ?",
+      "answer": "Grippe aviaire",
+      "options": [
+        "Grippe aviaire",
+        "Méningite",
+        "Bronchite",
+        "Coronavirus"
+      ],
+      "explanation": "Les virus aviaires qui sévissent chez les oiseaux peuvent parfois infecter l'homme : c'est le cas du virus H5N1.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-413",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Damien Moreau",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_413.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-413-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de doigts le pigeon possède-t-il à chaque patte ?",
+      "answer": "Quatre",
+      "options": [
+        "Six",
+        "Deux",
+        "Quatre",
+        "Huit"
+      ],
+      "explanation": "La patte du pigeon, présent dans tous les continents, pose sur trois doigts à l'avant et sur un doigt à l'arrière.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-413",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Damien Moreau",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_413.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-413-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui aurait utilisé le premier un pigeon comme pigeon voyageur ?",
+      "answer": "Noé",
+      "options": [
+        "Christophe Colomb",
+        "Eisenhower",
+        "Jules César",
+        "Noé"
+      ],
+      "explanation": "Après le déluge, Noé lâcha une colombe qui revint à l'arche avec un rameau d'olivier, devenu un symbole de paix.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-413",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Damien Moreau",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_413.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-413-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle ville représente la plus longue distance parcourue par les pigeons hollandais et belges ?",
+      "answer": "Barcelone",
+      "options": [
+        "Paris",
+        "Lille",
+        "Casablanca",
+        "Barcelone"
+      ],
+      "explanation": "Le concours international de Barcelone est un rendez-vous incontournable pour de très nombreux colombophiles.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-413",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Damien Moreau",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_413.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-413-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel pays est considéré comme le berceau de la colombophilie mondiale ?",
+      "answer": "Belgique",
+      "options": [
+        "Pays-Bas",
+        "Allemagne",
+        "France",
+        "Belgique"
+      ],
+      "explanation": "Une statue, située à Bruxelles au square des Blindés, possède un piédestal portant la mention « Au pigeon soldat ».",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-413",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Damien Moreau",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_413.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-413-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel acronyme désigne l'organisme central de la colombophilie belge ?",
+      "answer": "R.F.C.B.",
+      "options": [
+        "R.F.C.B.",
+        "S.C.B.",
+        "F.G.T.B.",
+        "A.C.B."
+      ],
+      "explanation": "La Royale Fédération Colombophile Belge a été fondée à l'occasion du congrès colombophile international du 16 octobre 1910.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-413",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Damien Moreau",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_413.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-413-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel appareil sert à relever l'heure d'arrivée des pigeons voyageurs lors d'un concours ?",
+      "answer": "Constateur",
+      "options": [
+        "Pendule",
+        "Horloge",
+        "Montre",
+        "Constateur"
+      ],
+      "explanation": "De nos jours, le constateur est pour ainsi dire remplacé par un système de scannage électronique via une puce RFID.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-413",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Damien Moreau",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_413.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-413-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien d'oeufs la femelle du pigeon pond-elle généralement par couvée ?",
+      "answer": "Deux",
+      "options": [
+        "Huit",
+        "Deux",
+        "Six",
+        "Quatre"
+      ],
+      "explanation": "Si, par exemple, les oeufs sont cassés, la femelle pond à nouveau généralement après une dizaine de jours.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-413",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Damien Moreau",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_413.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-413-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de kilomètres un pigeon voyageur peut-il parcourir en une journée ?",
+      "answer": "1 000 km",
+      "options": [
+        "50 km",
+        "500 km",
+        "1 000 km",
+        "200 km"
+      ],
+      "explanation": "Un pigeon lâché le matin à 1 000 km de chez lui est capable d'atteindre son pigeonnier le même jour à la tombée de la nuit.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-413",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Damien Moreau",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_413.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-413-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle vitesse peut atteindre un pigeon voyageur par fort vent poussant ?",
+      "answer": "120 km/h",
+      "options": [
+        "50 km/h",
+        "20 km/h",
+        "200 km/h",
+        "120 km/h"
+      ],
+      "explanation": "Un pigeon voyageur peut parcourir 1 200 kilomètres en 16 heures, le record étant de 11 590 km en 24 jours entre Saigon et Lille.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-413",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Damien Moreau",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_413.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-413-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Où se trouve la glande uropygienne du pigeon, glande spécifique des oiseaux ?",
+      "answer": "Croupion",
+      "options": [
+        "Tête",
+        "Cou",
+        "Croupion",
+        "Ailes"
+      ],
+      "explanation": "Cette glande, qui servirait principalement à l'entretien du plumage, est constamment sollicitée lors des séances de toilettage.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-413",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Damien Moreau",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_413.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-413-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel pays provenaient les frères Janssen, colombophiles mondialement connus ?",
+      "answer": "Belgique",
+      "options": [
+        "France",
+        "Allemagne",
+        "Belgique",
+        "Pays-Bas"
+      ],
+      "explanation": "Leurs pigeons de ces frères étaient très recherchés par de nombreux colombophiles partout dans le monde.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-413",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Damien Moreau",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_413.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-413-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quel moment de la journée la tique du pigeon se nourrit-elle de son sang ?",
+      "answer": "Nuit",
+      "options": [
+        "Après-midi",
+        "Journée",
+        "Nuit",
+        "Matin"
+      ],
+      "explanation": "Le nom scientifique de la tique du pigeon est Argas reflexus. Parfois, cette tique se nourrit également sur l'homme.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-413",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Damien Moreau",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_413.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-413-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui est connue comme étant la sainte patronne des colombophiles ?",
+      "answer": "Sainte Catherine",
+      "options": [
+        "Sainte Sophie",
+        "Sainte Lucie",
+        "Sainte Catherine",
+        "Sainte Marie"
+      ],
+      "explanation": "En effet, Catherine d'Alexandrie s'occupait beaucoup au début du IVe siècle des pigeons dans la ferme de ses parents.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-413",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Damien Moreau",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_413.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-413-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel pigeon devenu célèbre le colonel Raynal a-t-il lâché en 1916 à Verdun ?",
+      "answer": "Le Vaillant",
+      "options": [
+        "Le Valeureux",
+        "Le Tenace",
+        "Le Vaillant",
+        "Le Courageux"
+      ],
+      "explanation": "Le 4 juin 1916, le fort de Vaux à Verdun étant encerclé par les Allemands, le colonel Raynal lâcha son dernier pigeon pour obtenir de l'aide.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-413",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Damien Moreau",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_413.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-413-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle bande dessinée est tout particulièrement consacrée à la colombophilie ?",
+      "answer": "Le vieux bleu",
+      "options": [
+        "Le pigeon voyageur",
+        "Colombo Phil",
+        "Le vieux bleu",
+        "La vie colombophile"
+      ],
+      "explanation": "Cette bande dessinée de 1974, célèbre dans le milieu colombophile, a été dessinée par François Walthéry et scénarisée par Raoul Cauvin.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-413",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Damien Moreau",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_413.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-413-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de rémiges comporte l'aile du pigeon voyageur ?",
+      "answer": "Dix",
+      "options": [
+        "Vingt cinq",
+        "Dix",
+        "Quinze",
+        "Vingt"
+      ],
+      "explanation": "Les rémiges, ces grandes plumes rigides de l'aile, sont parfois au nombre de 11 et sont dirigées vers l'extérieur et l'arrière de l'aile.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-413",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Damien Moreau",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_413.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-413-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien y a-t-il encore environ de colombophiles belges en activité ?",
+      "answer": "20 000",
+      "options": [
+        "2 000",
+        "100 000",
+        "200 000",
+        "20 000"
+      ],
+      "explanation": "La colombophilie perd des plumes en Belgique : le nombre de colombophiles après la Seconde Guerre mondiale était de 250 000.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-413",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Damien Moreau",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_413.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-413-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment appelle-t-on les concours de pigeons voyageurs au-delà de 800 km ?",
+      "answer": "Grand fond",
+      "options": [
+        "Vitesse",
+        "Demi-fond",
+        "Fond",
+        "Grand fond"
+      ],
+      "explanation": "Les concours sont répartis comme suit : vitesse entre 50 et 200 km, demi-fond entre 250 et 500 km et fond entre 600 et 750 km.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-413",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Damien Moreau",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_413.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-413-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En 2019, pour quel montant le pigeon voyageur le plus cher du monde a-t-il été vendu ?",
+      "answer": "1 252 000 ",
+      "options": [
+        "10 500 ",
+        "45 850 ",
+        "1 252 000 ",
+        "473 000 "
+      ],
+      "explanation": "Lors d'une vente aux enchères en 2019, le pigeon flamand Armando a été vendu 1 252 000 euros à un colombophile chinois.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-413",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Damien Moreau",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_413.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

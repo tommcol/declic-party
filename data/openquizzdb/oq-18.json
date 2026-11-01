@@ -1,0 +1,774 @@
+{
+  "id": "oq-18",
+  "title": "Star Trek",
+  "originalTitle": "Star Trek (La plus grande odyssée spatiale)",
+  "universe": "film",
+  "emoji": "🎬",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_18.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    16
+  ],
+  "questions": [
+    {
+      "id": "oqdb-18-1",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans « Star Trek », quelle flotte est chargée de la défense des frontières de la Fédération ?",
+      "answer": "Starfleet",
+      "options": [
+        "Starfleet",
+        "Cardassia",
+        "FedCon",
+        "Klingon"
+      ],
+      "explanation": "La mission première de Starfleet est de récolter autant d'informations que possible concernant l'Univers.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-18",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_18.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-18-2",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel mot a été utilisé fin des années 1960 pour désigner les fans de la série « Star Trek » ?",
+      "answer": "Trekkies",
+      "options": [
+        "Friendies",
+        "Trekkies",
+        "Spockies",
+        "Sixties"
+      ],
+      "explanation": "Parfois le terme « trekkie » est remplacé par « trekker », qui a pour certains une connotation moins péjorative.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-18",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_18.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-18-3",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel acteur reste indissociable des premières aventures du capitaine James T. Kirk ?",
+      "answer": "William Shatner",
+      "options": [
+        "William Shatner",
+        "DeForest Kelley",
+        "Leonard Nimoy",
+        "James Doohan"
+      ],
+      "explanation": "William Shatner a écrit plusieurs ouvrages de la série « Star Trek », publiés en version française aux éditions Fleuve noir.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-18",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_18.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-18-4",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans l'univers de « Star Trek », quel physicien est aussi un fin timonier ?",
+      "answer": "Sulu",
+      "options": [
+        "Sulu",
+        "Chekov",
+        "Uhura",
+        "McCoy"
+      ],
+      "explanation": "Il se pourrait que Hikaru Sulu soit une déformation de « Hikari utsuru », évoquant le déplacement à la vitesse de la lumière.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-18",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_18.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-18-5",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le gadget technologique le plus emblématique de la saga « Star Trek » ?",
+      "answer": "Téléporteur",
+      "options": [
+        "Télécran",
+        "Téléporteur",
+        "Cube cosmique",
+        "Planitron"
+      ],
+      "explanation": "Une téléportation s'effectue normalement depuis une plate-forme de téléportation vers une position donnée.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-18",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_18.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-18-6",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quel film les personnages de « Star Trek » doivent-ils retrouver un couple de baleines ?",
+      "answer": "Retour sur Terre",
+      "options": [
+        "Terre inconnue",
+        "Premier Contact",
+        "La Colère de Khan",
+        "Retour sur Terre"
+      ],
+      "explanation": "« Retour sur Terre » est l'un des meilleurs films de la saga au box-office américain, arrivant troisième sur douze.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-18",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_18.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-18-7",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le sous-titre du deuxième film fondé sur la série originale « Star Trek » ?",
+      "answer": "La Colère de Khan",
+      "options": [
+        "Premier Contact",
+        "La Colère de Khan",
+        "Terre inconnue",
+        "Retour sur Terre"
+      ],
+      "explanation": "« Star Trek 2 » est l'un des premiers films de la saga à présenter une séquence totalement conçue par ordinateur.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-18",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_18.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-18-8",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans « Star Trek », quel membre d'équipage féminin a une origine afro-américaine ?",
+      "answer": "Uhura",
+      "options": [
+        "Uhura",
+        "Chekov",
+        "McCoy",
+        "Chapel"
+      ],
+      "explanation": "Au cours du temps, son nom se complète et devient « Nyota Upende Uhura », signifiant en swahili « étoile-aime-liberté ».",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-18",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_18.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-18-9",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui a remplacé Leonard Nimoy dans les derniers longs-métrages de « Star Trek » ?",
+      "answer": "Zachary Quinto",
+      "options": [
+        "Chris Pine",
+        "Zachary Quinto",
+        "Avery Brooks",
+        "Jonathan Frakes"
+      ],
+      "explanation": "Le 16 octobre 2011, l'acteur évoqua son homosexualité pour la première fois lors d'un entretien donné au « New York Magazine ».",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-18",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_18.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-18-10",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Comment est surnommé l'ingénieur écossais de l'Enterprise dans la saga « Star Trek » ?",
+      "answer": "Scotty",
+      "options": [
+        "Benny",
+        "Vinny",
+        "Jimmy",
+        "Scotty"
+      ],
+      "explanation": "Montgomery Scott, surnommé Scotty, a deux amours : son Enterprise qu'il bichonne soigneusement et le whisky.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-18",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_18.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-18-11",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "À quel scénariste doit-on la création de l'univers de « Star Trek » ?",
+      "answer": "Gene Roddenberry",
+      "options": [
+        "Gene Roddenberry",
+        "Ed Burns",
+        "William Stuart",
+        "David Jacobs"
+      ],
+      "explanation": "L'astéroïde 4659 Roddenberry, et un cratère d'impact sur Mars, le cratère Roddenberry, sont tous les deux nommés en son honneur.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-18",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_18.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-18-12",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Combien de séries télévisées basées sur l'univers de « Star Trek » ont vu le jour ?",
+      "answer": "Cinq",
+      "options": [
+        "Sept",
+        "Trois",
+        "Neuf",
+        "Cinq"
+      ],
+      "explanation": "La première série télévisée suscita l'enthousiasme d'une partie du public, sans jamais devenir très populaire.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-18",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_18.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-18-13",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "À quelle vitesse le voyage spatial est-il développé dans la saga « Star Trek » ?",
+      "answer": "Supraluminique",
+      "options": [
+        "Sublimique",
+        "Sonique",
+        "Catalytique",
+        "Supraluminique"
+      ],
+      "explanation": "Une vitesse supraluminique (« superluminal » en anglais) désigne une vitesse supérieure à la vitesse de la lumière.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-18",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_18.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-18-14",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui a remplacé William Shatner dans les derniers longs-métrages de « Star Trek » ?",
+      "answer": "Chris Pine",
+      "options": [
+        "Zachary Quinto",
+        "Patrick Stewart",
+        "Chris Pine",
+        "Brent Spiner"
+      ],
+      "explanation": "En 2017, Chris Pine rejoindra une franchise de super-héros pour le blockbuster « Wonder Woman ».",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-18",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_18.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-18-15",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans « Star Trek », quel appareil permet de dialoguer avec le personnel en mission au sol ?",
+      "answer": "Communicateur",
+      "options": [
+        "Communicateur",
+        "Tricordeur",
+        "Téléporteur",
+        "Télépode"
+      ],
+      "explanation": "Cet appareil portable, attribué à chaque membre de Starfleet, est apparu pour la première fois dans la série télévisée « Star Trek ».",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-18",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_18.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-18-17",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle arme à faisceau d'énergie dirigée est utilisée par les humains dans « Star Trek » ?",
+      "answer": "Phaseur",
+      "options": [
+        "Phaseur",
+        "Multiplexeur",
+        "Laserium",
+        "Sabre laser"
+      ],
+      "explanation": "Son apparition amènera la disparition des armes à projectiles utilisées sur Terre et lança une nouvelle génération d'armes laser.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-18",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_18.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-18-18",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le nom du capitaine dans « Star Trek : Nouvelle Génération » ?",
+      "answer": "Jean-Luc Picard",
+      "options": [
+        "Jean-Luc Picard",
+        "James T. Kirk",
+        "Leonard McCoy",
+        "William Riker"
+      ],
+      "explanation": "Jean-Luc Picard a été capturé et assimilé en 2367 par les Borgs qui l'ont alors retourné contre la Fédération des planètes unies.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-18",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_18.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-18-19",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans « Star Trek », quelle espèce extraterrestre est originaire de la planète Kronos ?",
+      "answer": "Klingons",
+      "options": [
+        "Borgs",
+        "Romuliens",
+        "Klingons",
+        "Talosiens"
+      ],
+      "explanation": "Les Klingons sont des humanoïdes généralement plus grands et plus forts que les Humains en raison d'une musculature puissante.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-18",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_18.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-18-20",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel film propose la dernière apparition du capitaine Kirk, secondé par Scotty et Chekov ?",
+      "answer": "Générations",
+      "options": [
+        "La Colère de Khan",
+        "Premier Contact",
+        "Retour sur Terre",
+        "Générations"
+      ],
+      "explanation": "Leonard Nimoy a refusé de reprendre son rôle de Spock, notamment après avoir lu le script.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-18",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_18.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-18-21",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Le premier pilote de la série « Star Trek » a été refusé car le commandant en second était...",
+      "answer": "Une femme",
+      "options": [
+        "Noir",
+        "Trop vieux",
+        "Trop jeune",
+        "Une femme"
+      ],
+      "explanation": "La série « Star Trek » a donné lieu à un vaste engouement auprès d'un large public avec la création de nombreux fanzines.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-18",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_18.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-18-22",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans « Star Trek », quelle race de créatures est en partie organique et mécanique ?",
+      "answer": "Borgs",
+      "options": [
+        "Borgs",
+        "Klingons",
+        "Andoriens",
+        "Romuliens"
+      ],
+      "explanation": "L'assimilation d'un grand nombre de peuples a permis aux Borgs d'atteindre un niveau technologique surprenant.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-18",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_18.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-18-23",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel nom a été donné à la plus grande convention « Star Trek » en Europe ?",
+      "answer": "FedCon",
+      "options": [
+        "EuroTrek",
+        "AlphaKirk",
+        "FedCon",
+        "SpaceCraft"
+      ],
+      "explanation": "En 2011, FedCon battit le record du monde du plus grand nombre de personnes avec un costume Star Trek, avec 691 personnes.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-18",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_18.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-18-24",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le prénom de Chekov, membre d'équipe de l'Enterprise dans « Star Trek » ?",
+      "answer": "Pavel",
+      "options": [
+        "Nyota",
+        "Hikaru",
+        "Pavel",
+        "Janice"
+      ],
+      "explanation": "L'accent russe de Pavel Chekov trahit ses origines slaves ainsi que son amour pour la vodka.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-18",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_18.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-18-25",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans l'univers de « Star Trek », quelle date sert de référence temporelle pour la galaxie ?",
+      "answer": "Stellaire",
+      "options": [
+        "Stellaire",
+        "Planétaire",
+        "Fédérale",
+        "Universelle"
+      ],
+      "explanation": "Dans « Star Trek », la date stellaire tient compte de la dilatation du temps due à la relativité.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-18",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_18.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-18-26",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans « Star Trek », en combien de parties la galaxie est-elle divisée ?",
+      "answer": "Quatre",
+      "options": [
+        "Six",
+        "Huit",
+        "Deux",
+        "Quatre"
+      ],
+      "explanation": "L'univers « Star Trek » dépeint un futur dans lequel l'humanité a éradiqué la maladie, le racisme, la pauvreté et la guerre sur Terre.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-18",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_18.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-18-27",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel androïde retrouve-t-on dans « Star Trek : La Nouvelle Génération » ?",
+      "answer": "Data",
+      "options": [
+        "Worf",
+        "Data",
+        "Soong",
+        "Kapa"
+      ],
+      "explanation": "Cette série télévisée américaine, comprenant 178 épisodes de 45 minutes, a été diffusée entre 1987 et 1994.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-18",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_18.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-18-28",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel documentaire sorti en 2011 raconte l'influence qu'a pu avoir « Star Trek » ?",
+      "answer": "Trek Nation",
+      "options": [
+        "Galaxy Five",
+        "Trek Nation",
+        "First Contact",
+        "Space Odyssey"
+      ],
+      "explanation": "Le documentaire « Trek Nation » analyse l'impact qu'a pu avoir « Star Trek » et son créateur, Gene Roddenberry.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-18",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_18.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-18-29",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans « Star Trek », quelle espèce possède une température corporelle proche de -30°C ?",
+      "answer": "Breens",
+      "options": [
+        "Borgs",
+        "Klingons",
+        "Romuliens",
+        "Breens"
+      ],
+      "explanation": "Pour voyager, ils se déplacent donc dans des combinaisons réfrigérantes car une température supérieure à -18°C peut les tuer.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-18",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_18.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-18-30",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui a illustré un grand nombre des affiches des films de la saga « Star Trek » ?",
+      "answer": "Bob Peak",
+      "options": [
+        "Bob Peak",
+        "Gerald Brom",
+        "Clark Hulings",
+        "Ben Stahl"
+      ],
+      "explanation": "Le peintre et illustrateur américain Bob Peak est aussi connu pour les affiches de « My Fair Lady » et « Apocalypse Now ».",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-18",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_18.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

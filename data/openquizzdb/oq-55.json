@@ -1,0 +1,774 @@
+{
+  "id": "oq-55",
+  "title": "Sophie Marceau",
+  "originalTitle": "Sophie Marceau",
+  "universe": "film",
+  "emoji": "🎬",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_55.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    1
+  ],
+  "questions": [
+    {
+      "id": "oqdb-55-2",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui incarne 007 face à la belle Sophie Marceau dans la saga des 'James Bond' ?",
+      "answer": "Pierce Brosnan",
+      "options": [
+        "Sean Connery",
+        "Daniel Craig",
+        "Pierce Brosnan",
+        "Timothy Dalton"
+      ],
+      "explanation": "La séquence de poursuite en bateau sur la Tamise a pris sept semaines à être tournée, avec trente-cinq bateaux utilisés.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-55",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_55.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-55-3",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle comédie a réuni sur les écrans Sophie Marceau et Jean-Paul Belmondo ?",
+      "answer": "Joyeuses Pâques",
+      "options": [
+        "Descente aux Enfers",
+        "Marquise",
+        "Joyeuses Pâques",
+        "Police"
+      ],
+      "explanation": "Ce film marque la troisième collaboration de Belmondo avec Marie Laforêt après 'Flic ou Voyou' (1979) et 'Les Morfalous' (1984).",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-55",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_55.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-55-4",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Avec qui Sophie Marceau a-t-elle joué dans 'Fort Sagane', film initiatique de 1983 ?",
+      "answer": "Gérard Depardieu",
+      "options": [
+        "Jacques Dutronc",
+        "Alain Souchon",
+        "Gérard Depardieu",
+        "Claude Brasseur"
+      ],
+      "explanation": "Ce fut, à l'époque, le film le plus cher du cinéma français (un véritable fort ayant été construit sur la piste de Chinguetti).",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-55",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_55.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-55-5",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Pour quel film dont il est le réalisateur Mel Gibson a-t-il choisi Sophie Marceau ?",
+      "answer": "Braveheart",
+      "options": [
+        "Hacksaw Ridge",
+        "Braveheart",
+        "Apocalypto",
+        "La Passion du Christ"
+      ],
+      "explanation": "'Braveheart' a suscité un intérêt considérable pour l'Écosse et l'histoire écossaise, à travers le monde mais aussi en Écosse elle-même.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-55",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_55.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-55-6",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "À quel réalisateur et metteur en scène de théâtre Sophie Marceau a-t-elle été mariée ?",
+      "answer": "Andrzej Zulawski",
+      "options": [
+        "Francis Girod",
+        "Andrzej Zulawski",
+        "Claude Pinoteau",
+        "Alain Corneau"
+      ],
+      "explanation": "Sophie Marceau et Andrzej Zulawski se sont rencontrés à l'hôtel Majestic à Cannes et ont vécu ensemble durant dix-sept ans.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-55",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_55.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-55-7",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "En quelle année Sophie Marceau a-t-elle été membre du jury du festival de Cannes ?",
+      "answer": "2015",
+      "options": [
+        "2012",
+        "2009",
+        "2005",
+        "2015"
+      ],
+      "explanation": "Elle fut jury aux côtés de Rossy de Palma, Sienna Miller, Rokia Traoré, Jake Gyllenhaal, Guillermo del Toro et Xavier Dolan.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-55",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_55.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-55-8",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quel film romantique Sophie Marceau a-t-elle François Cluzet pour partenaire ?",
+      "answer": "Une rencontre",
+      "options": [
+        "À ce soir",
+        "Une rencontre",
+        "Anthony Zimmer",
+        "Arrêtez-moi"
+      ],
+      "explanation": "'Une rencontre' est un film romantique et dramatique français réalisé par Lisa Azuelos, sorti en 2014.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-55",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_55.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-55-9",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Combien de personnages Sophie Marceau incarne-t-elle dans 'La Disparue de Deauville' ?",
+      "answer": "Deux",
+      "options": [
+        "Quatre",
+        "Cinq",
+        "Trois",
+        "Deux"
+      ],
+      "explanation": "Le film a été tourné essentiellement dans la ville du Havre, dans le célèbre centre commercial 'Espace Coty'.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-55",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_55.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-55-10",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "En quelle année Sophie Marceau et Chistophe Lambert se sont-ils séparés ?",
+      "answer": "2014",
+      "options": [
+        "2014",
+        "2012",
+        "2010",
+        "2008"
+      ],
+      "explanation": "En 2007, Sophie Marceau aurait eu un véritable coup de foudre pour Christophe Lambert, rencontré sur 'La Disparue de Deauville'.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-55",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_55.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-55-11",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel film avec Sophie Marceau est tiré d'un chef-d'œuvre de Tolstoï ?",
+      "answer": "Anna Karénine",
+      "options": [
+        "Belphégor",
+        "Anna Karénine",
+        "À ce soir",
+        "Pour Sacha"
+      ],
+      "explanation": "Paru en France en 1885, 'Anna Karénine' marque l'entrée triomphale de la littérature russe dans la culture européenne.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-55",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_55.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-55-12",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quel film Maurice Pialat a-t-il poussé Sophie Marceau jusqu'à ses limites ?",
+      "answer": "Police",
+      "options": [
+        "Arrêtez-moi",
+        "Police",
+        "Pour Sacha",
+        "Anna Karénine"
+      ],
+      "explanation": "Le scénario a été rédigé par Catherine Breillat à partir d'un travail d'observation effectué dans les milieux de la drogue à Belleville.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-55",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_55.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-55-13",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel film de 2009 avec Sophie Marceau contient de nombreuses références à 'La Boum' ?",
+      "answer": "LOL",
+      "options": [
+        "Pour Sacha",
+        "LOL",
+        "Joyeuses Pâques",
+        "Marquise"
+      ],
+      "explanation": "Pour l'anecdote, on entend la musique de 'La Boum' lorsque Charlotte (Marion Chabassol) fait ses courses au supermarché.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-55",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_55.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-55-14",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quel film Sophie Marceau se retrouve-t-elle en mauvaise posture avec Claude Brasseur ?",
+      "answer": "Descente aux Enfers",
+      "options": [
+        "Belphégor",
+        "Police",
+        "Une rencontre",
+        "Descente aux Enfers"
+      ],
+      "explanation": "Claude Brasseur a fait ses premiers pas au théâtre en 1955 en créant 'Judas' de Marcel Pagnol.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-55",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_55.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-55-15",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel personnage Sophie Marceau a-t-elle incarné dans 'Le monde ne suffit pas' ?",
+      "answer": "Elecktra King",
+      "options": [
+        "Elecktra King",
+        "Camille Montes",
+        "Vesper Lynd",
+        "Madeleine Swann"
+      ],
+      "explanation": "Dans le film, Bond ordonne a Elektra de stopper Renard mais celle-ci refuse et meurt d'une balle en pleine poitrine.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-55",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_55.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-55-16",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quel film Sophie Marceau incarne-t-elle la maîtresse d'un grand criminel financier ?",
+      "answer": "Anthony Zimmer",
+      "options": [
+        "Une rencontre",
+        "À ce soir",
+        "Pour Sacha",
+        "Anthony Zimmer"
+      ],
+      "explanation": "En 2010 est sorti un remake américain intitulé 'The Tourist', avec Angelina Jolie et Johnny Depp dans les rôles principaux.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-55",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_55.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-55-17",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui joue aux côtés de Sophie Marceau dans le thriller 'Ne te retourne pas' ?",
+      "answer": "Monica Bellucci",
+      "options": [
+        "Isabelle Adjani",
+        "Emmanuelle Béart",
+        "Monica Bellucci",
+        "Carole Bouquet"
+      ],
+      "explanation": "Sélectionné hors compétition au Festival de Cannes 2009, le travail sur les effets spéciaux a nécessité plus de dix mois de travail.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-55",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_55.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-55-18",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel film de 1993 avec Sophie Marceau a été écrit et réalisé par Alexandre Jardin ?",
+      "answer": "Fanfan",
+      "options": [
+        "Fanfan",
+        "Belphégor",
+        "Pour Sacha",
+        "Anna Karénine"
+      ],
+      "explanation": "Alexandre Jardin, né le 14 avril 1965 à Neuilly-sur-Seine, est un écrivain, cinéaste et pamphlétaire français.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-55",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_55.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-55-19",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quel film Sophie Marceau, battue, pousse-t-elle son mari par la fenêtre ?",
+      "answer": "Arrêtez-moi",
+      "options": [
+        "À ce soir",
+        "Une rencontre",
+        "Anthony Zimmer",
+        "Arrêtez-moi"
+      ],
+      "explanation": "Le réalisateur, voulant travailler avec elle, lui propose le rôle de la coupable : l'actrice a d'abord lu le scénario avant d'accepter.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-55",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_55.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-55-20",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Pour quel film Sophie Marceau a-t-elle reçu le César du meilleur espoir féminin en 1983 ?",
+      "answer": "La Boum 2",
+      "options": [
+        "Anna Karénine",
+        "Fanfan",
+        "Police",
+        "La Boum 2"
+      ],
+      "explanation": "Claude Pinoteau avait annoncé la réalisation de 'La Boum 2' lors du 85e anniversaire de Denise Grey.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-55",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_55.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-55-21",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "De quel personnage de 'Happy Feet' Sophie Marceau est-elle la voix française ?",
+      "answer": "Norma Jean",
+      "options": [
+        "Norma Jean",
+        "Memphis",
+        "Gloria",
+        "Miss Viola"
+      ],
+      "explanation": "Une énorme confusion existe avec le film d'animation 'Les Rois de la glisse' des studios Sony sorti peu après.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-55",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_55.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-55-22",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Face à qui Sophie Marceau joue-t-elle Blanche dans 'Mes nuits sont plus belles que vos jours' ?",
+      "answer": "Jacques Dutronc",
+      "options": [
+        "Jacques Dutronc",
+        "Jean-Paul Belmondo",
+        "Gérard Depardieu",
+        "Claude Brasseur"
+      ],
+      "explanation": "Bizarrement, bien que Valérie Lagrange n'eut pas tourné depuis très longtemps, Zulawski tenait absolument à elle pour le film.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-55",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_55.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-55-23",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel réalisateur français a suggéré à Sophie Marceau de prendre un pseudonyme ?",
+      "answer": "Claude Pinoteau",
+      "options": [
+        "Claude Pinoteau",
+        "Claude Zidi",
+        "Claude Berri",
+        "Claude Autant-Lara"
+      ],
+      "explanation": "Claude Pinoteau lui suggéra de prendre un pseudonyme et lui proposa de choisir dans une liste de noms d'avenues de Paris.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-55",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_55.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-55-24",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel film avec Sophie Marceau a pour thème la guerre des Six Jours de 1967 ?",
+      "answer": "Pour Sacha",
+      "options": [
+        "Fanfan",
+        "Anna Karénine",
+        "Une rencontre",
+        "Pour Sacha"
+      ],
+      "explanation": "Le film fut conçu autour du roman 'Pour Sacha' publié aux éditions Fayard, coécrit par Alexandre Arcady et Pierre Malvine.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-55",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_55.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-55-25",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le nom de famille de Vic, interprétée par Sophie Marceau dans le film 'La Boum' ?",
+      "answer": "Beretton",
+      "options": [
+        "Fontanet",
+        "Lehman",
+        "Beretton",
+        "Bressac"
+      ],
+      "explanation": "Pour gagner un peu d'argent, Sophie Marceau s'inscrivit dans une agence de publicité pour enfants et adolescents où elle fut repérée.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-55",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_55.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-55-26",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Pour quel film documentaire sur ARTE Sophie Marceau est-elle la « voix-off » ?",
+      "answer": "La France Sauvage",
+      "options": [
+        "Menace en France",
+        "La France Sauvage",
+        "Planète en danger",
+        "Cinéma du monde"
+      ],
+      "explanation": "Le compositeur belge David Reyes fut avec 'La France Sauvage' demi-finaliste des Jerry Goldsmith Awards 2013.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-55",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_55.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-55-27",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le véritable nom de Sophie Marceau, née le 17 novembre 1966 à Paris ?",
+      "answer": "Sophie Maupu",
+      "options": [
+        "Virginie Pal",
+        "Marie-Pierre Marceau",
+        "Claire Doux",
+        "Sophie Maupu"
+      ],
+      "explanation": "Sophie Marceau est en contrat avec Dior pour représenter les produits Dior Beauté en Asie, ainsi qu'avec le joaillier Chaumet",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-55",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_55.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-55-28",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Avec quel producteur Sophie Marceau a-t-elle eu une fille prénommée Juliette ?",
+      "answer": "Jim Lemley",
+      "options": [
+        "Joe Connelly",
+        "Jim Lemley",
+        "Peter Berg",
+        "Tom Engelman"
+      ],
+      "explanation": "Le couple partage alors sa vie entre la France et Los Angeles où Sophie Marceau joue dans quelques films, notamment 'Firelight'.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-55",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_55.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-55-29",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le titre du roman publié par Sophie Marceau en 1996 ?",
+      "answer": "Menteuse",
+      "options": [
+        "Menteuse",
+        "Rêveuse",
+        "Tricheuse",
+        "Voleuse"
+      ],
+      "explanation": "Sophie Marceau y parle de l'enfance dans un milieu modeste, des premières amours, de la carrière au cinéma et au théâtre.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-55",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_55.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-55-30",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Avec qui Sophie Marceau a-t-elle chanté le duo 'Dream in blue' en 1981 ?",
+      "answer": "François Valéry",
+      "options": [
+        "François Valéry",
+        "Pierre Bachelet",
+        "Sacha Distel",
+        "Alain Souchon"
+      ],
+      "explanation": "Le pseudo de François Valéry, né Jean-Louis Mougeot, lui a été trouvé par une voyante.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-55",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_55.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

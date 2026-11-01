@@ -1,0 +1,798 @@
+{
+  "id": "oq-67",
+  "title": "Pommes",
+  "originalTitle": "Pommes (Pour un corps en bonne santé)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_67.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-67-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel verger poussent presque exclusivement des pommiers ?",
+      "answer": "Pommeraie",
+      "options": [
+        "Vergepommes",
+        "Vergeture",
+        "Pommeraie",
+        "Pommiseau"
+      ],
+      "explanation": "La pomme est le troisième fruit consommé dans le monde, après les agrumes et la banane.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-67",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_67.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-67-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la variété de pommes la plus répandue en France ?",
+      "answer": "Golden",
+      "options": [
+        "Gala",
+        "Golden",
+        "Jonagold",
+        "Granny Smith"
+      ],
+      "explanation": "Cette variété est depuis plus d'un siècle une des cinq variétés les plus utilisées par les obtenteurs pour créer de nouvelles variétés.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-67",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_67.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-67-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle vitamine la pomme est-elle la mieux pourvue ?",
+      "answer": "Vitamine C",
+      "options": [
+        "Vitamine E",
+        "Vitamine D",
+        "Vitamine B",
+        "Vitamine C"
+      ],
+      "explanation": "Pour gagner en vitamines, mieux vaut croquer la pomme sans la peler, en ayant pris soin de correctement la laver.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-67",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_67.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-67-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle partie de la pomme contient le plus de vitamine ?",
+      "answer": "La peau",
+      "options": [
+        "La pulpe",
+        "Les pépins",
+        "Le pédoncule",
+        "La peau"
+      ],
+      "explanation": "Les pommes 'Ribston Pipping', 'Reinette d'Orléans', 'Reinette Ananas' ou 'Ontario' sont fortement pourvues en vitamine C.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-67",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_67.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-67-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que permet de réguler le gel formé par la pectine présente dans la pomme ?",
+      "answer": "Le cholestérol",
+      "options": [
+        "Le lanostérol",
+        "Le campestérol",
+        "Le cholestérol",
+        "Le phytostérol"
+      ],
+      "explanation": "La pectine du commerce, souvent utilisée pour épaissir les confitures et les gelées, est extraite du marc de pommes desséchées.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-67",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_67.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-67-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Complétez ce diction : « Une pomme chaque matin éloigne... »",
+      "answer": "Le médecin",
+      "options": [
+        "Le chagrin",
+        "Le destin",
+        "Le pantin",
+        "Le médecin"
+      ],
+      "explanation": "Jadis, on utilisait les vertus thérapeutiques de la pomme qui entrait dans la confection d'onguents (d'où vient le mot « pommade »).",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-67",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_67.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-67-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle confiserie est constituée d'une pomme fraîche entourée de sucre cuit, souvent rouge ?",
+      "answer": "Pomme d'amour",
+      "options": [
+        "Le crumble",
+        "Tarte Tatin",
+        "Apfelstrudel",
+        "Pomme d'amour"
+      ],
+      "explanation": "La pomme d'amour peut aussi être trempée dans le chocolat noir ou au lait et durci, comme est la variante habituelle en Irlande.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-67",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_67.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-67-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel dessert les pommes sont-elles enrobées de pâte et frites dans l'huile ?",
+      "answer": "Un beignet",
+      "options": [
+        "Une croûte",
+        "Une bûche",
+        "Un flan",
+        "Un beignet"
+      ],
+      "explanation": "Le beignet est ainsi servi chaud avec du sucre en poudre et peut être également flambé, par exemple au calvados.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-67",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_67.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-67-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle grande entreprise multinationale américaine a pour logo une pomme ?",
+      "answer": "Apple",
+      "options": [
+        "Apple",
+        "Microsoft",
+        "IBM",
+        "Xerox"
+      ],
+      "explanation": "En 2011, l'entreprise Apple employait 60 400 personnes pour un chiffre d'affaires annuel de plus de 170 milliards de dollars.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-67",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_67.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-67-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle célèbre princesse originaire de contes a été empoisonnée par une pomme ?",
+      "answer": "Blanche-Neige",
+      "options": [
+        "Jasmine",
+        "Aurore",
+        "Cendrillon",
+        "Blanche-Neige"
+      ],
+      "explanation": "Le conte collecté par les frères Jacob et Wilhelm Grimm aurait été inspiré par un mythe germanique.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-67",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_67.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-67-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle boisson alcoolisée à base de pommes titre habituellement entre 2 % et 8 % d'alcool ?",
+      "answer": "Le cidre",
+      "options": [
+        "Le calvados",
+        "Le pommeau",
+        "Le lambig",
+        "Le cidre"
+      ],
+      "explanation": "Chez les producteurs, l'adjectif cidricole fait référence aussi bien à la boisson fermentée à base de pomme qu'à base de poire.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-67",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_67.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-67-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que désigne le mot « pomme » dans le langage populaire ?",
+      "answer": "Le visage",
+      "options": [
+        "Le visage",
+        "Les fesses",
+        "Le ventre",
+        "Les genoux"
+      ],
+      "explanation": "Il s'utilise aussi par extension pour désigner une personne serviable et un peu naïve : « c'est une bonne pomme ».",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-67",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_67.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-67-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de pépins compte-t-on dans chacune des cinq loges de l'ovaire initial de la pomme ?",
+      "answer": "Deux",
+      "options": [
+        "Quatre",
+        "Huit",
+        "Six",
+        "Deux"
+      ],
+      "explanation": "Entouré d'une enveloppe sclérifiée (ce qui rappelle le noyau d'une drupe), l'ensemble est lui-même entouré d'une pulpe mince.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-67",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_67.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-67-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle place occupe la pomme dans la consommation des fruits dans le monde ?",
+      "answer": "Troisième",
+      "options": [
+        "Première",
+        "Deuxième",
+        "Quatrième",
+        "Troisième"
+      ],
+      "explanation": "La pomme peut se manger crue ou cuite, en dessert, compote, tarte, gâteau, gelée, confiture ou en pâte de fruit.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-67",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_67.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-67-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel pays est le plus gros producteur de pommes avec 35 millions de tonnes par an ?",
+      "answer": "Chine",
+      "options": [
+        "Turquie",
+        "Italie",
+        "États-Unis",
+        "Chine"
+      ],
+      "explanation": "L'Europe produit quant à elle 7,5 millions de tonnes de pommes chaque année, dont deux millions en France.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-67",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_67.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-67-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel célèbre gâteau traditionnel autrichien est cuisiné à base de pommes ?",
+      "answer": "Apfelstrudel",
+      "options": [
+        "Apfelstrudel",
+        "La croustade",
+        "Le crumble",
+        "Tarte Tatin"
+      ],
+      "explanation": "Les communautés juives ashkénazes l'ont également introduit en Israël, mais aussi aux États-Unis et en Argentine.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-67",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_67.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-67-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle tarte aux pommes renversée les pommes sont-elles caramélisées ?",
+      "answer": "Tarte Tatin",
+      "options": [
+        "Tarte au maton",
+        "Tarte normande",
+        "Tarte Tatin",
+        "Tarte au riz"
+      ],
+      "explanation": "C'est le restaurateur auvergnat Louis Vaudable, propriétaire de Maxim's, qui le premier la découvre chez les soeurs Tatin.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-67",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_67.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-67-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a été obligé de tirer un carreau d'arbalète dans une pomme posée sur la tête de son fils ?",
+      "answer": "Guillaume Tell",
+      "options": [
+        "Sinbad le marin",
+        "Perceval",
+        "Guillaume Tell",
+        "Belphégor"
+      ],
+      "explanation": "Figure probablement légendaire, Guillaume Tell est un héros de l'indépendance de la Suisse qui aurait vécu au XIVe siècle.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-67",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_67.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-67-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel président français a utilisé la pomme comme symbole de sa campagne politique ?",
+      "answer": "Jacques Chirac",
+      "options": [
+        "Jacques Chirac",
+        "François Mitterrand",
+        "François Hollande",
+        "Nicolas Sarkozy"
+      ],
+      "explanation": "La phrase « Mangez des pommes » fut vite reprise dans les médias ainsi qu'au sein de la population.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-67",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_67.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-67-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui aurait compris les lois de l'attraction universelle une pomme tombée sur la tête ?",
+      "answer": "Isaac Newton",
+      "options": [
+        "Galilée",
+        "Isaac Newton",
+        "Nicolas Copernic",
+        "Edmond Halley"
+      ],
+      "explanation": "Newton a montré que le mouvement des objets sur Terre et des corps célestes sont gouvernés par les mêmes lois naturelles.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-67",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_67.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-67-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combinaison de plusieurs organes, la pomme est un fruit, mais plus précisément...",
+      "answer": "Un faux-fruit",
+      "options": [
+        "Une stomate",
+        "Une pruine",
+        "Un faux-fruit",
+        "Une souche"
+      ],
+      "explanation": "La fécondation induit parfois le développement d'autres organes : pédoncule floral chez la pomme cajou, bractées chez l'ananas.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-67",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_67.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-67-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de tonnes de pommes récolte-t-on annuellement dans le monde ?",
+      "answer": "69 millions",
+      "options": [
+        "53 millions",
+        "45 millions",
+        "69 millions",
+        "37 millions"
+      ],
+      "explanation": "Le terme « pomme de consommation » désigne les fruits destinés à être vendus directement au consommateur.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-67",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_67.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-67-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle partie de la pomme contient principalement de la pectine ?",
+      "answer": "Les pépins",
+      "options": [
+        "La pulpe",
+        "La peau",
+        "Les pépins",
+        "Le pédoncule"
+      ],
+      "explanation": "Le gel formé par la pectine emprisonne les graisses, régulant ainsi le taux de cholestérol.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-67",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_67.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-67-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel gâteau à base de pommes est appelé « croustade » au Québec ?",
+      "answer": "Crumble",
+      "options": [
+        "Apfelstrudel",
+        "Chausson",
+        "Tarte Tatin",
+        "Crumble"
+      ],
+      "explanation": "En Pologne, on prépare depuis le XIXe siècle des pâtisseries avec cet émietté (mélange de farine sucre et beurre).",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-67",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_67.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-67-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle eau-de-vie d'origine normande est obtenue par distillation de cidre ?",
+      "answer": "Le calvados",
+      "options": [
+        "Le calvados",
+        "Le lambig",
+        "Le pommeau",
+        "Le cidre"
+      ],
+      "explanation": "Cette eau-de-vie est attestée au XVIe siècle dans le journal de Gilles de Gouberville, gentilhomme du Cotentin.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-67",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_67.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-67-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle pomme représente le logo de la maison de disques du groupe anglais The Beatles ?",
+      "answer": "Granny Smith",
+      "options": [
+        "Granny Smith",
+        "Jonagold",
+        "Golden",
+        "Gala"
+      ],
+      "explanation": "Le nom et le logo proviennent d'un célèbre tableau de René Magritte et le design est complété par le graphiste britannique Gene Mahon.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-67",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_67.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-67-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel peintre belge a employé une pomme pour appuyer son travail sur les mots ?",
+      "answer": "René Magritte",
+      "options": [
+        "René Magritte",
+        "James Ensor",
+        "Henri Michaux",
+        "Paul Delvaux"
+      ],
+      "explanation": "Parmi les objets qui contribuent à faire de ses toiles d'impénétrables énigmes, une sphère noire apparaît de façon récurrente.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-67",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_67.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-67-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Suite à quelle maladie observe-t-on des taches noirâtres sur les feuilles des pommiers ?",
+      "answer": "Tavelure",
+      "options": [
+        "Tavelure",
+        "Rouille",
+        "Charbon",
+        "Galle"
+      ],
+      "explanation": "Sur fruits, les manifestations vont jusqu'à la déformation complète, avec crevasses profondes et/ou la chute du fruit.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-67",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_67.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-67-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel était généralement le jour de la pomme dans le calendrier républicain français ?",
+      "answer": "22 octobre",
+      "options": [
+        "16 novembre",
+        "11 janvier",
+        "22 octobre",
+        "6 décembre"
+      ],
+      "explanation": "Les noms des mois et des jours furent conçus par le poète Fabre d'Églantine avec l'aide d'André Thouin, jardinier.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-67",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_67.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-67-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le poids d'une pomme calibrée à 60/65 pour la consommation ?",
+      "answer": "75-108 g",
+      "options": [
+        "142-176 g",
+        "108-142 g",
+        "75-108 g",
+        "176-209 g"
+      ],
+      "explanation": "La pomme est le premier fruit consommé en France (22,6 %) devant l'orange (12,3 %) et la banane (12,2 %).",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-67",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_67.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

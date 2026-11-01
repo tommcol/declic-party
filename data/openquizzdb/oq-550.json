@@ -1,0 +1,798 @@
+{
+  "id": "oq-550",
+  "title": "Mots croisés",
+  "originalTitle": "Mots croisés (Petites énigmes linguistiques)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_550.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-550-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Abri de tortue, mot de huit lettres commençant par un C ?",
+      "answer": "Carapace",
+      "options": [
+        "Cabestan",
+        "Cachette",
+        "Carapace",
+        "Calandre"
+      ],
+      "explanation": "La carapace est une section dorsale de l'exosquelette de divers arthropodes ou d'exosquelette partiel pour la tortue.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-550",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_550.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-550-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Personnage central, mot de cinq lettres commençant par un H ?",
+      "answer": "Héros",
+      "options": [
+        "Huron",
+        "Hayon",
+        "Harem",
+        "Héros"
+      ],
+      "explanation": "Les héros et les héroïnes sont des personnages réels ou fictifs de l'histoire, exemplaires de la mythologie humaine.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-550",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_550.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-550-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Il nous transporte, mot de huit lettres commençant par un V ?",
+      "answer": "Véhicule",
+      "options": [
+        "Volatile",
+        "Vagabond",
+        "Vivarium",
+        "Véhicule"
+      ],
+      "explanation": "Un véhicule est le plus souvent un moyen de transport motorisé, mais sa finalité première n'est pas toujours le transport.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-550",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_550.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-550-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Homme de soins, mot de sept lettres commençant par un M ?",
+      "answer": "Médecin",
+      "options": [
+        "Morveux",
+        "Médecin",
+        "Microbe",
+        "Malabar"
+      ],
+      "explanation": "Un médecin est un professionnel de la santé titulaire, en France, d'un diplôme d'État de docteur en médecine.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-550",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_550.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-550-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Défense de homard, mot de cinq lettres commençant par un P ?",
+      "answer": "Pince",
+      "options": [
+        "Paire",
+        "Plume",
+        "Pulpe",
+        "Pince"
+      ],
+      "explanation": "Le homard se distingue de la langouste par la présence de pinces imposantes et par une carapace moins épineuse.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-550",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_550.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-550-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Chacun a le sien, mot de trois lettres commençant par un N ?",
+      "answer": "Nom",
+      "options": [
+        "Nul",
+        "Nef",
+        "Nid",
+        "Nom"
+      ],
+      "explanation": "Le nom est un mot ou un groupe de mots servant à désigner des êtres, des choses, des concepts, des notions et des lieux.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-550",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_550.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-550-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "L'enseignement y est supérieur, mot de dix lettres commençant par un U ?",
+      "answer": "Université",
+      "options": [
+        "Urographie",
+        "Université",
+        "Usurpation",
+        "Utilitaire"
+      ],
+      "explanation": "Cet établissement d'enseignement supérieur est destiné à la transmission de connaissances entre professeurs et étudiants.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-550",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_550.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-550-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Liquide de vipère, mot de cinq lettres commençant par un V ?",
+      "answer": "Venin",
+      "options": [
+        "Vigne",
+        "Venin",
+        "Valve",
+        "Verge"
+      ],
+      "explanation": "On appelle venin toute substance toxique produite par des animaux et destinée à tuer ou paralyser leurs proies.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-550",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_550.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-550-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Beau poil, mot de huit lettres commençant par un F ?",
+      "answer": "Fourrure",
+      "options": [
+        "Fermière",
+        "Fourrure",
+        "Finition",
+        "Faisceau"
+      ],
+      "explanation": "Les fourrures traitées par l'Homme puis commercialisées proviennent le plus souvent de mammifères sauvages ou d'élevage.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-550",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_550.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-550-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Toujours à la noce, mot de sept lettres commençant par un M ?",
+      "answer": "Mariage",
+      "options": [
+        "Mariage",
+        "Minerai",
+        "Moulure",
+        "Macaque"
+      ],
+      "explanation": "Le mariage est une union conjugale contractuelle à durée illimitée, reconnue par une institution juridique ou religieuse.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-550",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_550.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-550-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Est nécessaire au canotier, mot de six lettres commençant par un A ?",
+      "answer": "Aviron",
+      "options": [
+        "Aviron",
+        "Avocat",
+        "Acajou",
+        "Amende"
+      ],
+      "explanation": "Aviron désigne le sport du canotage, sport nautique dont le principe est de propulser une embarcation à l'aide de pagaies.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-550",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_550.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-550-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Rondelle de caoutchouc, mot de sept lettres commençant par un R ?",
+      "answer": "Rustine",
+      "options": [
+        "Récolte",
+        "Ressort",
+        "Rhizome",
+        "Rustine"
+      ],
+      "explanation": "Une rustine est une petite pièce de caoutchouc destinée à obturer un trou sur une chambre à air ou tout autre objet gonflable.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-550",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_550.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-550-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Partenaire particulière, mot de six lettres commençant par un A ?",
+      "answer": "Amante",
+      "options": [
+        "Abysse",
+        "Amante",
+        "Asthme",
+        "Annexe"
+      ],
+      "explanation": "Amant est un nom commun qui désigne une personne qui aime, mais qui peut être féminisé par le terme maîtresse (ou amante).",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-550",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_550.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-550-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Animal très changeant, mot de huit lettres commençant par un C ?",
+      "answer": "Caméléon",
+      "options": [
+        "Caméléon",
+        "Champion",
+        "Cervelet",
+        "Concubin"
+      ],
+      "explanation": "Le caméléon se caractérise par la mobilité indépendante de ses yeux, sa langue protractile et sa capacité à changer de couleur.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-550",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_550.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-550-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Elle coupe bien, mot de huit lettres commençant par un I ?",
+      "answer": "Incisive",
+      "options": [
+        "Incisive",
+        "Infinité",
+        "Identité",
+        "Instance"
+      ],
+      "explanation": "Caractérisées par une couronne aplatie à bord libre tranchant, les incisives ont également un rôle esthétique important.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-550",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_550.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-550-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Plante qui ne s'arrose pas, mot de cinq lettres commençant par un A ?",
+      "answer": "Algue",
+      "options": [
+        "Algue",
+        "Alèse",
+        "Anode",
+        "Agape"
+      ],
+      "explanation": "Les algues et leur biodiversité constituent la base principale des chaînes alimentaires des eaux douces, saumâtres et marines.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-550",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_550.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-550-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sale affaire, mot de huit lettres commençant par un S ?",
+      "answer": "Scandale",
+      "options": [
+        "Surprise",
+        "Sarrasin",
+        "Sabotage",
+        "Scandale"
+      ],
+      "explanation": "Le sens contemporain de scandale est une affaire retentissante soulevant l'indignation de l'opinion publique.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-550",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_550.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-550-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Elles sont liquides, mot de huit lettres commençant par un B ?",
+      "answer": "Boissons",
+      "options": [
+        "Balances",
+        "Badianes",
+        "Binettes",
+        "Boissons"
+      ],
+      "explanation": "La boisson la plus naturelle est l'eau, la seule que boivent les animaux (avec le lait) et la seule qui réhydrate efficacement.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-550",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_550.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-550-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans une pochette, mot de huit lettres commençant par un S ?",
+      "answer": "Surprise",
+      "options": [
+        "Solarium",
+        "Silicone",
+        "Suiveuse",
+        "Surprise"
+      ],
+      "explanation": "Généralement de courte durée, la surprise finit par s'estomper pour laisser place à une autre émotion comme la peur ou la joie.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-550",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_550.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-550-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Outil de levage, mot de quatre lettres commençant par un C ?",
+      "answer": "Cric",
+      "options": [
+        "Cage",
+        "Cure",
+        "Cale",
+        "Cric"
+      ],
+      "explanation": "Un cric est un appareil de levage couramment utilisé dans des corps de métiers allant de la réparation automobile aux caves vinicoles.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-550",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_550.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-550-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui mérite une image, mot de quatre lettres commençant par un S ?",
+      "answer": "Sage",
+      "options": [
+        "Sage",
+        "Slip",
+        "Sève",
+        "Stop"
+      ],
+      "explanation": "Le sage représente l'idéal de vie humaine la plus haute, l'excellence dans le savoir ou dans la disposition au savoir.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-550",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_550.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-550-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Jongleuse de cirque, mot de six lettres commençant par un O ?",
+      "answer": "Otarie",
+      "options": [
+        "Osmose",
+        "Otarie",
+        "Octave",
+        "Ovaire"
+      ],
+      "explanation": "Les otaries possèdent de petites oreilles et n'ont pas perdu l'usage de leurs membres postérieurs en reptation terrestre.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-550",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_550.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-550-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Monstre sacré, mot de cinq lettres commençant par un I ?",
+      "answer": "Idole",
+      "options": [
+        "Inuit",
+        "Image",
+        "Idole",
+        "Index"
+      ],
+      "explanation": "Une idole est une représentation matérielle d'une divinité qui fait l'objet d'un culte, comme la divinité elle-même.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-550",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_550.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-550-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Se tient au barreau, mot de six lettres commençant par un A ?",
+      "answer": "Avocat",
+      "options": [
+        "Avocat",
+        "Abruti",
+        "Agenda",
+        "Adulte"
+      ],
+      "explanation": "En droit, l'avocat est un juriste dont les fonctions sont de conseiller, de représenter, d'assister et de défendre ses clients.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-550",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_550.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-550-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Penchant de petit clown, mot de six lettres commençant par un M ?",
+      "answer": "Malice",
+      "options": [
+        "Menhir",
+        "Malice",
+        "Magret",
+        "Marmot"
+      ],
+      "explanation": "Telle une espièglerie, la malice reflète le goût d'un esprit farceur et fin, adepte des petites cachotteries et plaisanteries.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-550",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_550.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-550-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Première chambre de bébé, mot de six lettres commençant par un V ?",
+      "answer": "Ventre",
+      "options": [
+        "Valise",
+        "Volcan",
+        "Vidoir",
+        "Ventre"
+      ],
+      "explanation": "La gestation humaine ou grossesse est l'état d'une femme enceinte, c'est-à-dire portant un embryon ou un foetus humain.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-550",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_550.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-550-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Mot doux pour être cher, mot de six lettres commençant par un T ?",
+      "answer": "Trésor",
+      "options": [
+        "Trésor",
+        "Tampon",
+        "Tortue",
+        "Tocade"
+      ],
+      "explanation": "Le trésor au sens moderne du terme se réfère à un amoncellement d'objets précieux accumulés sous la forme d'un dépôt protégé.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-550",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_550.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-550-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Fait chambre à part, mot de huit lettres commençant par un S ?",
+      "answer": "Sénateur",
+      "options": [
+        "Sicilien",
+        "Sabotier",
+        "Sénateur",
+        "Suzerain"
+      ],
+      "explanation": "Dans de nombreux pays comme la Belgique ou la France, un sénateur est un membre du Sénat, qui tire son nom du Sénat romain.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-550",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_550.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-550-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Pompe à la ferme, mot de cinq lettres commençant par un S ?",
+      "answer": "Sabot",
+      "options": [
+        "Semis",
+        "Salon",
+        "Sabot",
+        "Sauge"
+      ],
+      "explanation": "Un sabot est à l'origine une chaussure réalisée en creusant un morceau de bois pour que le pied puisse s'y glisser.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-550",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_550.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-550-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Noble serviteur, mot de quatre lettres commençant par un P ?",
+      "answer": "Page",
+      "options": [
+        "Père",
+        "Pion",
+        "Paon",
+        "Page"
+      ],
+      "explanation": "Un page était autrefois un jeune apprenti écuyer, passé noble et attaché au service d'un roi, d'une reine ou d'un prince.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-550",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_550.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

@@ -1,0 +1,798 @@
+{
+  "id": "oq-94",
+  "title": "Chambord",
+  "originalTitle": "Chambord (Plongez au sein du domaine)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_94.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-94-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel département peut-on visiter le superbe château de Chambord ?",
+      "answer": "Loir-et-Cher",
+      "options": [
+        "Aveyron",
+        "Drôme",
+        "Haute-Garonne",
+        "Loir-et-Cher"
+      ],
+      "explanation": "Le Loir-et-Cher, dont la préfecture est Blois, est un département relativement plat avec un point culminant de 256 mètres.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-94",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_94.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-94-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la longueur du mur entourant le parc forestier clos du château de Chambord ?",
+      "answer": "32 km",
+      "options": [
+        "16 km",
+        "9 km",
+        "32 km",
+        "27 km"
+      ],
+      "explanation": "Le château de Chambord a été construit au coeur du plus grand parc forestier clos d'Europe (environ 50 km carrés).",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-94",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_94.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-94-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quoi le château de Chambord fut-il transformé durant la guerre franco-prussienne ?",
+      "answer": "Hôpital",
+      "options": [
+        "Musée",
+        "Caserne",
+        "Hôpital",
+        "Prison"
+      ],
+      "explanation": "La guerre franco-allemande opposa de juillet 1870 à janvier 1871 la France et les États allemands coalisés sous l'égide de la Prusse.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-94",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_94.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-94-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel unique bâtiment était prévu à l'origine de la construction du château de Chambord ?",
+      "answer": "Donjon carré",
+      "options": [
+        "Basilique",
+        "Aile ouest",
+        "Donjon carré",
+        "Tour ronde"
+      ],
+      "explanation": "Le plan centré du château repose sur un corps central parfaitement carré en croix grecque, comme celui de plusieurs églises italiennes.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-94",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_94.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-94-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Par quel style architectural le château de Chambord a-t-il été nettement inspiré ?",
+      "answer": "Gothique",
+      "options": [
+        "Baroque",
+        "Byzantine",
+        "Gothique",
+        "Ottomane"
+      ],
+      "explanation": "Les techniques et l'esthétique gothique se perpétuent dans l'architecture française au-delà du XVIe siècle.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-94",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_94.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-94-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment appelle-t-on également l'escalier à double révolution du château de Chambord ?",
+      "answer": "Double vis",
+      "options": [
+        "Double face",
+        "Double tour",
+        "Double vis",
+        "Double noeud"
+      ],
+      "explanation": "Il est probable que l'escalier à double révolution soit de Léonard de Vinci, ou en tout cas inspiré de ses croquis.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-94",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_94.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-94-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel but fut mis en place l'enclos boisé entourant le château de Chambord ?",
+      "answer": "Chasse",
+      "options": [
+        "Chasse",
+        "Équitation",
+        "Combat",
+        "Méditation"
+      ],
+      "explanation": "Le parc de Chambord est totalement original de par ses dimensions inhabituelles et par la position centrale du château.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-94",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_94.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-94-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En plus du sanglier, quelle autre espèce est emblématique de la forêt de Chambord ?",
+      "answer": "Le cerf",
+      "options": [
+        "L'autruche",
+        "Le lapin",
+        "Le cerf",
+        "Le lémurien"
+      ],
+      "explanation": "On y trouve également des mouflons méditerranéens introduits dans l'enclos à partir de populations issus de Corse.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-94",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_94.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-94-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année le prince Charles et Lady Diana ont-ils visité le château de Chambord ?",
+      "answer": "1988",
+      "options": [
+        "1998",
+        "1988",
+        "1978",
+        "1968"
+      ],
+      "explanation": "Le prince Charles et son épouse Lady Diana ont visité le château le 9 novembre 1988 dans le cadre d'une visite officielle.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-94",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_94.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-94-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Les tours du corps central du château de Chambord indiquent avec précision les quatre...",
+      "answer": "Points cardinaux",
+      "options": [
+        "Vallées",
+        "Éléments",
+        "Points cardinaux",
+        "Saisons"
+      ],
+      "explanation": "L'origine du château actuel remonte au XVIe siècle et au règne du roi de France François Ier qui supervisa son édification.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-94",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_94.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-94-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces oeuvres a été entreposée quelques mois au château de Chambord ?",
+      "answer": "La Joconde",
+      "options": [
+        "La Laitière",
+        "Le Cri",
+        "La Joconde",
+        "Guernica"
+      ],
+      "explanation": "À la Seconde Guerre mondiale, le château est devenu un centre de triage des trésors des musées nationaux de Paris.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-94",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_94.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-94-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment était surnommé François Ier, qui ordonna l'édification du château de Chambord ?",
+      "answer": "Prince architecte",
+      "options": [
+        "Prince architecte",
+        "Duc du siècle",
+        "Roi Soleil",
+        "Comte de Bord"
+      ],
+      "explanation": "François Ier, sacré roi de France en 1515, est considéré comme le roi emblématique de la période de la Renaissance française.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-94",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_94.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-94-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle région naturelle forestière française se situe le château de Chambord ?",
+      "answer": "Sologne",
+      "options": [
+        "Drouais",
+        "Cévennes",
+        "Sologne",
+        "Beauce"
+      ],
+      "explanation": "La Sologne a presque toujours conservé un caractère sauvage et humide voire précaire avec un sol humide l'hiver et sec l'été.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-94",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_94.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-94-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle route départementale traverse le domaine du château de Chambord ?",
+      "answer": "Route 33",
+      "options": [
+        "Route 58",
+        "Route 46",
+        "Route 25",
+        "Route 33"
+      ],
+      "explanation": "La route départementale 33, ou RD 33, dans le département de la Mayenne, reprend l'ancienne RN 806, déclassée en 1972.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-94",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_94.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-94-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien d'ouvriers auraient travaillé à la construction du château de Chambord ?",
+      "answer": "1 800",
+      "options": [
+        "1 800",
+        "1 200",
+        "2 400",
+        "800"
+      ],
+      "explanation": "Plusieurs maîtres-maçons se sont simultanément succédés, dont Jacques Sourdeau, Pierre Nepveu et Denis Sourdeau.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-94",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_94.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-94-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel roi faudra-t-il attendre pour l'achèvement du projet de François Ier à Chambord ?",
+      "answer": "Louis XIV",
+      "options": [
+        "Charles IX",
+        "Henri IV",
+        "Louis XIV",
+        "Philippe VI"
+      ],
+      "explanation": "Né Louis, surnommé « Dieudonné », Louis XIV est monté sur le trône de France au décès de son père Louis XIII, le 14 mai 1643.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-94",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_94.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-94-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel roi de France a résidé à Chambord en présence de Madame de Maintenon en 1685 ?",
+      "answer": "Louis XIV",
+      "options": [
+        "Louis XIV",
+        "Louis XVI",
+        "Louis XV",
+        "Louis XIII"
+      ],
+      "explanation": "On prête à Madame de Maintenon une grande influence sur le roi et sur la Cour, comme par exemple pour la révocation.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-94",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_94.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-94-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année le domaine de Chambord fut-il classé au patrimoine mondial de l'UNESCO ?",
+      "answer": "1981",
+      "options": [
+        "1994",
+        "1977",
+        "1968",
+        "1981"
+      ],
+      "explanation": "Le but du programme est de cataloguer, nommer, et conserver les biens dits culturels ou naturels d'importance.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-94",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_94.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-94-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sur quel type de sol peu conventionnel le château de Chambord a-t-il été construit ?",
+      "answer": "Marécages",
+      "options": [
+        "Gravillons",
+        "Marécages",
+        "Sableux",
+        "Roches"
+      ],
+      "explanation": "Construit sur des marécages, la vie au château était rude et beaucoup d'ouvriers moururent de la fièvre pendant la construction.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-94",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_94.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-94-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel film de Jacques Demy peut-on voir le château de Chambord ?",
+      "answer": "Peau d'âne",
+      "options": [
+        "Lola",
+        "Lady Oscar",
+        "Peau d'âne",
+        "Parking"
+      ],
+      "explanation": "Producteur et acteur, proche de la Nouvelle Vague, Jacques Demy est surtout connu pour ses films musicaux.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-94",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_94.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-94-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de pièces dénombre-t-on au total dans le château de Chambord ?",
+      "answer": "426",
+      "options": [
+        "198",
+        "282",
+        "426",
+        "372"
+      ],
+      "explanation": "Le château de Chambord compte également 77 escaliers, 282 cheminées et 800 chapiteaux sculptés.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-94",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_94.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-94-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quel étage du château de Chambord se situe le musée de la chasse et de la nature ?",
+      "answer": "Deuxième",
+      "options": [
+        "Cinquième",
+        "Quatrième",
+        "Troisième",
+        "Deuxième"
+      ],
+      "explanation": "La Fondation y présente une partie de ses collections de tableaux, de tapisseries et d'art contemporain.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-94",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_94.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-94-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de tonnes de pierres fallut-il pour finaliser le chantier de Chambord ?",
+      "answer": "220 000",
+      "options": [
+        "98 000",
+        "187 000",
+        "307 000",
+        "220 000"
+      ],
+      "explanation": "À défaut de pouvoir dévier le cours de la Loire, on se résoudra finalement à détourner le Cosson.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-94",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_94.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-94-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Mort en 1547, combien de nuit François Ier a-t-il finalement passé à Chambord ?",
+      "answer": "72",
+      "options": [
+        "500",
+        "243",
+        "72",
+        "Aucune"
+      ],
+      "explanation": "Il avait pris l'habitude de disparaître en forêt pour y chasser en compagnie d'un petit groupe d'intimes.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-94",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_94.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-94-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de niveaux habitables dénombre-t-on dans le donjon du château de Chambord ?",
+      "answer": "Cinq",
+      "options": [
+        "Quatre",
+        "Cinq",
+        "Trois",
+        "Six"
+      ],
+      "explanation": "À l'intérieur du donjon, il y a quatre appartements carrés et quatre appartements dans les tours rondes par niveau.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-94",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_94.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-94-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sur les 5 440 hectares du parc de Chambord, combien sont ouverts au public ?",
+      "answer": "1 000",
+      "options": [
+        "2 000",
+        "1 000",
+        "4 000",
+        "3 000"
+      ],
+      "explanation": "Cette immensité de plus de 5 440 hectares en fait aujourd'hui le plus grand parc forestier clos d'Europe.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-94",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_94.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-94-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Depuis quand François Ier a-t-il supervisé l'édification du château de Chambord ?",
+      "answer": "1519",
+      "options": [
+        "1727",
+        "1812",
+        "1630",
+        "1519"
+      ],
+      "explanation": "Chambord reste un château Renaissance très ancré dans l'héritage de l'architecture médiévale française.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-94",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_94.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-94-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de documents mentionnent les premiers architectes du château de Chambord ?",
+      "answer": "Aucun",
+      "options": [
+        "Aucun",
+        "Deux",
+        "Un seul",
+        "Trois"
+      ],
+      "explanation": "Ceci est vrai, à l'exception toutefois de François Ier qui fut personnellement impliqué dans la conception du bâtiment.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-94",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_94.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-94-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle pierre blanche et friable a été utilisée pour la construction du château de Chambord ?",
+      "answer": "Yuffeau",
+      "options": [
+        "Moellon",
+        "Schiste",
+        "Yuffeau",
+        "Travertin"
+      ],
+      "explanation": "Cette pierre de taille tendre permet de bâtir et de réaliser les décors typiques de l'architecture de la Renaissance.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-94",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_94.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-94-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de scouts on fêté en 2007 à Chambord les cent ans de la création du scoutisme ?",
+      "answer": "17 300",
+      "options": [
+        "17 300",
+        "15 200",
+        "11 400",
+        "13 800"
+      ],
+      "explanation": "Le scoutisme est un mouvement de jeunesse mondial créé par Lord Robert Baden-Powell en 1907, à Brownsea.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-94",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_94.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

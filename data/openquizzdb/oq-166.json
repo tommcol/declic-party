@@ -1,0 +1,798 @@
+{
+  "id": "oq-166",
+  "title": "Victime de la mode",
+  "originalTitle": "Victime de la mode (La mode se démode, le style jamais)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_166.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-166-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle icône de la mode portait toujours en public un catogan et des lunettes noires ?",
+      "answer": "Karl Lagerfeld",
+      "options": [
+        "Karl Lagerfeld",
+        "Pierre Cardin",
+        "Thierry Mugler",
+        "Paco Rabanne"
+      ],
+      "explanation": "En plus de ses occupations en haute couture, Karl Lagerfeld a édité des livres en Allemagne et possédait une librairie.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-166",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_166.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-166-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Pour quelle marque la célèbre top model Kate Moss arbore-t-elle les it bags de la collection ?",
+      "answer": "Longchamp",
+      "options": [
+        "Chanel",
+        "Longchamp",
+        "Mango",
+        "Gucci"
+      ],
+      "explanation": "C'est une campagne de publicité pour la marque américaine Calvin Klein qui a propulsé Kate Moss sur le devant de la scène.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-166",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_166.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-166-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel mythique modèle de lunettes Ray-Ban est associé aux Blues Brothers ?",
+      "answer": "Wayfarer",
+      "options": [
+        "Wayfarer",
+        "Ekoï",
+        "Vuarnet",
+        "Cébé"
+      ],
+      "explanation": "Les Wayfarer sont parfois citées comme une des meilleures ventes de conception de lunettes de soleil de l'histoire.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-166",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_166.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-166-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel prénom monsieur Takada a-t-il su faire rayonner dans le milieu de la mode ?",
+      "answer": "Kenzo",
+      "options": [
+        "Kalvin",
+        "Karl",
+        "Kenzo",
+        "Kyrio"
+      ],
+      "explanation": "En 1993, Kenzo Takada a revendu la marque Kenzo au groupe LVMH, demeurant propriétaire du nom complet.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-166",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_166.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-166-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Pour quelle marque de luxe l'actrice Catherine Deneuve a-t-elle posé assise sur une valise ?",
+      "answer": "Louis Vuitton",
+      "options": [
+        "Ralph Lauren",
+        "Boucheron",
+        "Louis Vuitton",
+        "Cerruti"
+      ],
+      "explanation": "Pendant six années consécutives (de 2006 à 2012), Louis Vuitton a été nommée marque de luxe la plus précieuse au monde.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-166",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_166.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-166-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle star de « Loft Story » a lancé un parfum fraise des bois et pastèque ?",
+      "answer": "Loana",
+      "options": [
+        "Laure de Lattre",
+        "Kenza Braiga",
+        "Afida Turner",
+        "Loana"
+      ],
+      "explanation": "La renommée de Loana lui a permis de s'essayer aux métiers de styliste, de chanteuse et de présentatrice de télévision française.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-166",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_166.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-166-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel ancien couturier de chez Dior a inventé le smoking pour femme ?",
+      "answer": "Yves Saint Laurent",
+      "options": [
+        "Yves Saint Laurent",
+        "André Courrèges",
+        "Christian Dior",
+        "Pierre Balmain"
+      ],
+      "explanation": "Saint Laurent a réinventé le trench-coat dès 1962, instauré le smoking pour femmes en 1966 et le tailleur-pantalon en 1967.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-166",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_166.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-166-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quelle marque française de mode la salamandre est-elle étroitement liée ?",
+      "answer": "Agnès b.",
+      "options": [
+        "Naf Naf",
+        "Dim",
+        "Agnès b.",
+        "Lacoste"
+      ],
+      "explanation": "Tarantino a fait appel à Agnès b. pour créer l'intégralité des tenues portées à l'écran par Uma Thurman dans le film « Pulp Fiction ».",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-166",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_166.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-166-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle couleur signe avec classe et sensualité les semelles des chaussures Louboutin ?",
+      "answer": "Rouge",
+      "options": [
+        "Verte",
+        "Mauve",
+        "Bleue",
+        "Rouge"
+      ],
+      "explanation": "Christian Louboutin, inspiré par le pop art, a basé sa spécificité sur la semelle en cuir rouge visant à devenir son signe distinctif.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-166",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_166.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-166-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle fleur est devenue un symbole de la maison de couture Coco Chanel ?",
+      "answer": "Camélia",
+      "options": [
+        "Camélia",
+        "Rose",
+        "Marguerite",
+        "Coquelicot"
+      ],
+      "explanation": "Coco Chanel a fait du camélia son emblème et a lancé la mode du camélia blanc à la boutonnière, très vite devenue un engouement.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-166",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_166.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-166-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle marque de luxe a sponsorisé le Prix de Diane de 1983 à 2007 ?",
+      "answer": "Hermès",
+      "options": [
+        "Dior",
+        "Courrèges",
+        "Cardin",
+        "Hermès"
+      ],
+      "explanation": "La course sacre à Chantilly la meilleure pouliche de trois ans dans une ambiance de ferveur sportive et de pique-nique chic.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-166",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_166.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-166-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quel italien John Galliano a-t-il succédé à la tête de la maison Dior ?",
+      "answer": "Gianfranco Ferré",
+      "options": [
+        "Ottavio Missoni",
+        "Gianfranco Ferré",
+        "Enrico Coveri",
+        "Riccardo Tisci"
+      ],
+      "explanation": "Initialement destiné au métier d'architecte, Gianfranco Ferré a débuté dans la mode en 1970 en dessinant des accessoires.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-166",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_166.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-166-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle styliste britannique a fêté en 2007 ses 35 ans d'underground ?",
+      "answer": "Vivienne Westwood",
+      "options": [
+        "Vivienne Westwood",
+        "Stella McCartney",
+        "Zandra Rhodes",
+        "Sarah Burton"
+      ],
+      "explanation": "Dans les années 1970, Vivienne Westwood a créé une boutique de mode qui contribua à lancer la mode punk.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-166",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_166.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-166-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle marque Laetitia Casta, Lindsay Lohan et Kirsten Dunst ont-elles été les égéries ?",
+      "answer": "Miu Miu",
+      "options": [
+        "Miu Miu",
+        "Rodeo Drive",
+        "Berluti",
+        "Moncler"
+      ],
+      "explanation": "Miu Miu, marque lancée en 1993 et souvent appelée la petite soeur de Prada, est voulue plus jeune et plus abordable.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-166",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_166.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-166-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel couturier a créé les parfums « Rouge » et « Noir » pour la société Avon ?",
+      "answer": "Christian Lacroix",
+      "options": [
+        "Thierry Mugler",
+        "Christian Lacroix",
+        "Franck Sorbier",
+        "Raf Simons"
+      ],
+      "explanation": "Christian Lacroix s'est orienté vers divers univers, comme notamment la décoration d'hôtels ou de moyens de transport.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-166",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_166.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-166-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel styliste italien a été consultant mode sur la série télévisée « Deux flics à Miami » ?",
+      "answer": "Gianni Versace",
+      "options": [
+        "Gianni Versace",
+        "Paco Rabanne",
+        "John Galliano",
+        "Valentino"
+      ],
+      "explanation": "Au sommet de la gloire et du succès artistique, Gianni Versace fut assassiné à l'âge de 50 ans à Miami de deux balles dans la tête.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-166",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_166.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-166-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel couturier espagnol avait été surnommé le métallurgiste par Chanel ?",
+      "answer": "Paco Rabanne",
+      "options": [
+        "Cristobal Balenciaga",
+        "Mariano Madrazo",
+        "Paco Rabanne",
+        "Antonio del Castillo"
+      ],
+      "explanation": "Paco Rabanne s'est également illustré dans les médias à travers des prédictions (s'étant la plupart du temps révélées d'ailleurs fausses).",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-166",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_166.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-166-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Pour quelle marque Laure Manaudou s'est-elle retrouvée dans une fontaine publique ?",
+      "answer": "Lancel",
+      "options": [
+        "Fendi",
+        "Gucci",
+        "Pliage",
+        "Lancel"
+      ],
+      "explanation": "À ses débuts, Lancel commercialisait des pipes et accessoires pour fumeurs et a déposé le brevet du briquet automatique.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-166",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_166.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-166-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel couturier a créé les costumes de la tournée mondiale d'Elton John de 1992 ?",
+      "answer": "Gianni Versace",
+      "options": [
+        "Rocco Barocco",
+        "Giuseppe Zanotti",
+        "Gianni Versace",
+        "Romeo Gigli"
+      ],
+      "explanation": "Le 3 décembre 1995, Elton John a remis en personne à Gianni Versace le prix VHI Fashion and Music Award à New York.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-166",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_166.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-166-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Le Mahina est un modèle de grand sac signé de quelle marque ?",
+      "answer": "Vuitton",
+      "options": [
+        "Hermès",
+        "Vuitton",
+        "Gucci",
+        "Chanel"
+      ],
+      "explanation": "D'emblée, son design voluptueux et généreux et son cuir doux comme une peau de bébé accrochent l'oeil et la main.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-166",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_166.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-166-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a créé un pendentif en forme de jambe pour lancer sa ligne de bijoux ?",
+      "answer": "Stella McCartney",
+      "options": [
+        "Sarah Burton",
+        "Mary Quant",
+        "Stella McCartney",
+        "Zandra Rhodes"
+      ],
+      "explanation": "En tant que végétarienne comme sa mère Linda Eastman, Stella McCartney n'utilise ni fourrure ni cuir dans ses collections.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-166",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_166.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-166-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel duo a lancé une collection dans une boutique avec des chaises au plafond ?",
+      "answer": "Viktor et Rolf",
+      "options": [
+        "H et M",
+        "Viktor et Rolf",
+        "Paul et Shark",
+        "Dolce et Gabbana"
+      ],
+      "explanation": "En 2015, Viktor et Rolf a annoncé l'arrêt de sa ligne de prêt-à-porter, préférant se concentrer sur le parfum et la haute couture.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-166",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_166.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-166-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel pays vient la marque Uniqlo qui propose des vêtements basiques ?",
+      "answer": "Japon",
+      "options": [
+        "Inde",
+        "Japon",
+        "Suède",
+        "Canada"
+      ],
+      "explanation": "Disney a signé un contrat avec Uniqlo pour commercialiser en Chine ses produits « Star Wars », « Avengers » et « La Reine des neiges ».",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-166",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_166.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-166-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle Danoise installée à Paris a créé une mode pour la vraie vie ?",
+      "answer": "Vanessa Bruno",
+      "options": [
+        "Vanessa Bruno",
+        "Madeleine Vionnet",
+        "Louise Chéruit",
+        "Nina Ricci"
+      ],
+      "explanation": "La mode de Vanessa Bruno est constituée d'épaisses couches de tricot et de jambières justaucorps, en couleurs sobres ou pastel.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-166",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_166.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-166-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En 2008, sur quel endroit du corps était-il chic de porter le mini-sac Chanel ?",
+      "answer": "À la cheville",
+      "options": [
+        "Autour du cou",
+        "Au poignet",
+        "À la cheville",
+        "À la taille"
+      ],
+      "explanation": "Gabrielle Chasnel, dite Coco Chanel, née en 1883, est à l'origine de la Maison Chanel, symbole de l'élégance française.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-166",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_166.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-166-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le pays d'origine de la chaîne de magasins Hennes et Mauritz ?",
+      "answer": "Suède",
+      "options": [
+        "Espagne",
+        "Suède",
+        "Royaume-Uni",
+        "France"
+      ],
+      "explanation": "Hennes et Mauritz est présent dans 61 pays, emploie environ 148 000 personnes et possède plus de 4 000 magasins.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-166",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_166.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-166-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel franco-tunisien a sculpté les silhouettes de Grace Jones et de Tina Turner ?",
+      "answer": "Azzedine Alaïa",
+      "options": [
+        "Emanuel Ungaro",
+        "Bouchra Jarrar",
+        "Azzedine Alaïa",
+        "Izet Curi"
+      ],
+      "explanation": "De très nombreux artistes et personnalités ont côtoyé Azzedine Alaïa, mais c'est bien Grace Jones qui deviendra sa muse.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-166",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_166.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-166-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel couturier a fait poser Naomi Campbell et Dita Von Teese nues pour ses tee-shirts ?",
+      "answer": "Marc Jacobs",
+      "options": [
+        "Tom Ford",
+        "Mike Ness",
+        "Marc Jacobs",
+        "Ralph Lauren"
+      ],
+      "explanation": "Créateur de mode américain, Marc Jacobs a été directeur artistique des collections Louis Vuitton de 1997 à 2013.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-166",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_166.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-166-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel parfum proposé dans une boule à facettes fut lancé par Cathy Guetta ?",
+      "answer": "Ibiza",
+      "options": [
+        "Paris",
+        "Saint-Tropez",
+        "Palace",
+        "Ibiza"
+      ],
+      "explanation": "Cathy Guetta est une organisatrice de soirées et de spectacles, ainsi qu'une personnalité de télévision française.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-166",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_166.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-166-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En 2007, quel créateur a dessiné pour Lenôtre la bûche de Noël ?",
+      "answer": "Karl Lagerfeld",
+      "options": [
+        "Karl Lagerfeld",
+        "Gianni Versace",
+        "Pierre Cardin",
+        "Paco Rabanne"
+      ],
+      "explanation": "L'entreprise Lenôtre possède actuellement 15 boutiques en France, soit 13 à Paris et 2 sur la côte d'Azur, à Cannes et à Nice.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-166",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_166.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

@@ -1,0 +1,798 @@
+{
+  "id": "oq-382",
+  "title": "C'était en 2019",
+  "originalTitle": "C'était en 2019 (Faits historiques et événements culturels)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_382.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-382-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Contre quel président a-t-on lancé une procédure de destitution en 2019 ?",
+      "answer": "Donald Trump",
+      "options": [
+        "Emmanuel Macron",
+        "Donald Trump",
+        "Rodrigo Duterte",
+        "Vladimir Poutine"
+      ],
+      "explanation": "Donald Trump sera mis en accusation par la Chambre, devenant le troisième président américain à être inculpé.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-382",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_382.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-382-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel clip vidéo de Luis Fonsi a dépassé les six milliards de vues sur YouTube ?",
+      "answer": "Despacito",
+      "options": [
+        "Respira",
+        "Calypso",
+        "Despacito",
+        "Tentación"
+      ],
+      "explanation": "Le clip de « Despacito » de Luis Fonsi était déjà la première vidéo à avoir dépassé les 3 milliards, les 4 milliards et les 5 milliards de vues.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-382",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_382.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-382-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a remporté en 2019 son sixième titre de champion du monde de Formule 1 ?",
+      "answer": "Lewis Hamilton",
+      "options": [
+        "Lewis Hamilton",
+        "Pierre Gasly",
+        "Lando Norris",
+        "Sebastian Vettel"
+      ],
+      "explanation": "Champion du monde de F1 en 2008, 2014, 2015, 2017, 2018 et 2019, il est aussi recordman du nombre de pole positions.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-382",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_382.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-382-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel pape a annoncé en 2019 une ouverture des archives secrètes du Vatican pour 2020 ?",
+      "answer": "François",
+      "options": [
+        "François",
+        "Benoît XVI",
+        "Pie XI",
+        "Jean-Paul II"
+      ],
+      "explanation": "Jorge Mario Bergoglio, né le 17 décembre 1936 à Buenos Aires, était avant le 13 mars 2013 archevêque de Buenos Aires et cardinal.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-382",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_382.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-382-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle célèbre cathédrale Notre-Dame fut ravagée par un incendie le 15 avril 2019 ?",
+      "answer": "Paris",
+      "options": [
+        "Bayeux",
+        "Verdun",
+        "Paris",
+        "Die"
+      ],
+      "explanation": "Cet important sinistre subi par la cathédrale a détruit la flèche et la totalité de la toiture couvrant la nef, le choeur et le transept.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-382",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_382.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-382-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui fut nommé Premier ministre du Royaume-Uni, succédant ainsi à Theresa May ?",
+      "answer": "Boris Johnson",
+      "options": [
+        "Boris Johnson",
+        "David Cameron",
+        "Tony Blair",
+        "Gordon Brown"
+      ],
+      "explanation": "Les conservateurs obtinrent leur plus grande majorité depuis 1987, ce qui permettra à Boris Johnson d'annoncer la réalisation du Brexit.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-382",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_382.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-382-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En août 2019, dans quel pays s'est tenu le sommet du G7 ?",
+      "answer": "France",
+      "options": [
+        "France",
+        "Japon",
+        "Canada",
+        "Italie"
+      ],
+      "explanation": "Le dernier sommet du G7 organisé sur le territoire français, avant celui de 2019, remontait à 2011 sous Nicolas Sarkozy.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-382",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_382.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-382-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle suédoise a tenu en 2019 un discours à l'ONU en faveur de l'écologie ?",
+      "answer": "Greta Thunberg",
+      "options": [
+        "Greta Thunberg",
+        "Hilda Nilsson",
+        "Lisbet Rausing",
+        "Simone Giertz"
+      ],
+      "explanation": "Ayant reçu prix et distinctions, elle a fait en mai 2019 la couverture du magazine Time la décernant personnalité de l'année.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-382",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_382.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-382-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel pays s'est déroulée la Coupe du monde de rugby à XV de 2019 ?",
+      "answer": "Japon",
+      "options": [
+        "Japon",
+        "France",
+        "Nouvelle-Zélande",
+        "Australie"
+      ],
+      "explanation": "L'Afrique du Sud remportera cette Coupe du monde en battant l'Angleterre, devenant championne du monde pour la troisième fois.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-382",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_382.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-382-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel ex-président nous a quitté le 26 septembre 2019, journée de deuil national ?",
+      "answer": "Jacques Chirac",
+      "options": [
+        "François Mitterrand",
+        "Jacques Chirac",
+        "François Hollande",
+        "Nicolas Sarkozy"
+      ],
+      "explanation": "Engagé à gauche dans sa jeunesse, Jacques Chirac sera généralement considéré comme gaulliste et classé à droite de l'échiquier politique.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-382",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_382.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-382-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel président algérien a démissionné de son poste en avril 2019 ?",
+      "answer": "Abdelaziz Bouteflika",
+      "options": [
+        "Abdelaziz Bouteflika",
+        "Chadli Bendjedid",
+        "Ali Kafi",
+        "Liamine Zéroual"
+      ],
+      "explanation": "Après avoir été victime en 2013 d'un grave accident vasculaire cérébral, Abdelaziz Bouteflika a vu son état de santé se dégrader rapidement.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-382",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_382.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-382-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quels nouveaux billets furent mis en circulation en Europe en 2019 ?",
+      "answer": "100 et 200 euros",
+      "options": [
+        "20 et 50 euros",
+        "200 et 500 euros",
+        "50 et 100 euros",
+        "100 et 200 euros"
+      ],
+      "explanation": "Au 1er janvier 2019, il y avait 2 804 486 391 billets de 100 euros en circulation dans le monde, pour une valeur totale de 280 448 639 100 .",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-382",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_382.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-382-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel empereur du Japon, intronisé en 1990, a abdiqué le 30 avril 2019 ?",
+      "answer": "Akihito",
+      "options": [
+        "Showa",
+        "Naruhito",
+        "Akihito",
+        "Taisho"
+      ],
+      "explanation": "La Constitution japonaise de 1947 avait limité le rôle de l'empereur Akihito à celui de symbole de l'État et de l'unité du peuple japonais.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-382",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_382.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-382-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville eut lieu la finale du concours Eurovision de la chanson 2019 ?",
+      "answer": "Tel-Aviv",
+      "options": [
+        "Tel-Aviv",
+        "Stockholm",
+        "Kiev",
+        "Lisbonne"
+      ],
+      "explanation": "Cette compétition s'est tenue à Tel Aviv, en Israël, à la suite de la victoire de Netta lors de l'édition 2018, avec la chanson « Toy ».",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-382",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_382.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-382-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel pays a remporté la Coupe du monde masculine de basket-ball 2019 ?",
+      "answer": "Espagne",
+      "options": [
+        "Espagne",
+        "France",
+        "Argentine",
+        "Australie"
+      ],
+      "explanation": "La compétition sera marquée par l'élimination des États-Unis, tenants du titre, et de la France (première défaite depuis treize ans).",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-382",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_382.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-382-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En Belgique, qui fut nommée Première ministre le 28 octobre 2019 ?",
+      "answer": "Sophie Wilmès",
+      "options": [
+        "Julie Payette",
+        "Brigitte Bierlein",
+        "Sophie Wilmès",
+        "Erna Solberg"
+      ],
+      "explanation": "Échevine à Rhode-Saint-Genèse entre 2000 et 2015, Sophie Wilmès deviendra en 2014 députée fédérale en suppléance de Didier Reynders.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-382",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_382.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-382-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En 2019, quel anniversaire a-t-on fêté concernant la chute du mur de Berlin ?",
+      "answer": "Les trente ans",
+      "options": [
+        "Les vingt ans",
+        "Les quarante ans",
+        "Les dix ans",
+        "Les trente ans"
+      ],
+      "explanation": "Ce fut rendu possible par la nouvelle politique de l'URSS vis-à-vis des pays de l'Est instaurée par Mikhaïl Gorbatchev depuis 1985.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-382",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_382.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-382-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de soldats français sont morts au Mali après une collision d'hélicoptères ?",
+      "answer": "Treize",
+      "options": [
+        "Dix",
+        "Seize",
+        "Treize",
+        "Vingt"
+      ],
+      "explanation": "Le 2 décembre, la France leur rendra un hommage national, le président de la République leur remettant la Légion d'honneur à titre posthume.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-382",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_382.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-382-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel compositeur et musicien français nous a quitté le 26 janvier 2019 ?",
+      "answer": "Michel Legrand",
+      "options": [
+        "Michel Legrand",
+        "Maurice Jarre",
+        "Vladimir Cosma",
+        "Francis Lai"
+      ],
+      "explanation": "Comme suite à son décès, de nombreux artistes francophones ont repris un de ses plus grands succès, « Les Moulins de mon coeur ».",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-382",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_382.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-382-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville eurent lieu les Championnats du monde d'athlétisme 2019 ?",
+      "answer": "Doha",
+      "options": [
+        "Pékin",
+        "Doha",
+        "Moscou",
+        "Londres"
+      ],
+      "explanation": "Le Qatar accueille pour la première fois cet événement sportif, organisé par l'Association internationale des fédérations d'athlétisme (IAAF).",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-382",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_382.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-382-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel artiste les Pays-Bas ont-ils célébré en 2019 les 350 ans de la mort ?",
+      "answer": "Rembrandt",
+      "options": [
+        "Bosschaert",
+        "De Jongh",
+        "Rembrandt",
+        "Van Dijck"
+      ],
+      "explanation": "Rembrandt est généralement considéré comme l'un des plus grands peintres de l'histoire de la peinture, notamment de la peinture baroque.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-382",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_382.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-382-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En 2019, contre quelle maladie le vaccin est-il devenu obligatoire en Somalie ?",
+      "answer": "Rougeole",
+      "options": [
+        "Varicelle",
+        "Rubéole",
+        "Coqueluche",
+        "Rougeole"
+      ],
+      "explanation": "Cette vaccination fait suite à une épidémie qui a fait 63 morts, elle-même causée par une faible couverture vaccinale des Îles Samoa.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-382",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_382.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-382-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel pays a pris en janvier 2019 la présidence tournante de l'Union européenne ?",
+      "answer": "Roumanie",
+      "options": [
+        "Allemagne",
+        "Finlande",
+        "Croatie",
+        "Roumanie"
+      ],
+      "explanation": "La présidence du Conseil n'est pas détenue par un président unique mais est exercée par le gouvernement de l'État membre.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-382",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_382.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-382-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "La rupture de quel barrage brésilien eut un impact sur la biodiversité amazonienne ?",
+      "answer": "Brumadinho",
+      "options": [
+        "Brumadinho",
+        "Camacari",
+        "Arapiraca",
+        "Sumaré"
+      ],
+      "explanation": "La rupture du barrage de Brumadinho au Minas Gerais fit au moins 115 morts et de nombreux disparus, provoquant un désastre écologique.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-382",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_382.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-382-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel nouveau site maya d'offrandes quasi-intact fut révélé au grand public en 2019 ?",
+      "answer": "Chichén Itzá",
+      "options": [
+        "Uxmal",
+        "Culuba",
+        "Chichén Itzá",
+        "Bonampak"
+      ],
+      "explanation": "Connu par les archéologues mexicains et les populations mayas locales depuis 50 ans, le site était jusque-là caché dans une grotte murée.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-382",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_382.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-382-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel cyclone a provoqué plus de trois cents morts au Mozambique et au Zimbabwe ?",
+      "answer": "Idai",
+      "options": [
+        "Bingiza",
+        "Idai",
+        "Tracy",
+        "Gamède"
+      ],
+      "explanation": "Alors que les morts se comptent très probablement en milliers au Mozambique, Idai y a détruit à 90 % Beira, la deuxième ville du pays.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-382",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_382.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-382-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel eurodéputé italien a été élu président du Parlement européen en 2019 ?",
+      "answer": "David Sassoli",
+      "options": [
+        "Mario Mauro",
+        "Paolo De Castro",
+        "Franco Bonanini",
+        "David Sassoli"
+      ],
+      "explanation": "Ce journaliste et homme politique italien a également été présentateur de l'édition de 20 heures et vice-directeur du TG1 sur Rai 1.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-382",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_382.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-382-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Au Mexique, quelle famille fut massacrée dans la Sierra Madre en 2019 ?",
+      "answer": "LeBaron",
+      "options": [
+        "Michoacana",
+        "LeBaron",
+        "Sinaloa",
+        "Fernando"
+      ],
+      "explanation": "Si les assaillants de ce groupe de femmes et d'enfants sont bien des narcotrafiquants, cela en ferait un massacre de la Guerre de la drogue.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-382",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_382.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-382-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel volcan est entré en éruption le 9 décembre 2019 en Nouvelle-Zélande ?",
+      "answer": "White Island",
+      "options": [
+        "Kambalny",
+        "White Island",
+        "Mont Carlisle",
+        "Home Reef"
+      ],
+      "explanation": "L'île est constituée de deux volcans andésitiques imbriqués dont l'un est un cratère en forme de fer à cheval ouvert vers le sud-est.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-382",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_382.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-382-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle ville a fêté en 2019 les cent ans de sa station de radio ?",
+      "answer": "Montréal",
+      "options": [
+        "Miami",
+        "Berlin",
+        "Londres",
+        "Montréal"
+      ],
+      "explanation": "Montréal, ville du Canada, a en effet été la première ville au monde à posséder une vraie station de radio en 1919.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-382",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_382.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

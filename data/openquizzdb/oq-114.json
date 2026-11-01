@@ -1,0 +1,798 @@
+{
+  "id": "oq-114",
+  "title": "Bob l'éponge",
+  "originalTitle": "Bob l'éponge",
+  "universe": "film",
+  "emoji": "🎬",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_114.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-114-1",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Tout le monde connaît Bob l'éponge, mais que représente-t-il en réalité ?",
+      "answer": "Une éponge de mer",
+      "options": [
+        "Une palourde",
+        "Une éponge de mer",
+        "Une étoile de mer",
+        "Un hippocampe"
+      ],
+      "explanation": "Bob travaille comme cuisinier au Crabe croustillant, un restaurant dirigé par un crabe, le Capitaine Krabs.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-114",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_114.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-114-2",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "De quelle couleur est le corps de Bob l'éponge, la célèbre éponge de mer ?",
+      "answer": "Jaune",
+      "options": [
+        "Blanche",
+        "Jaune",
+        "Grise",
+        "Rose"
+      ],
+      "explanation": "La plupart du temps, on ne voit que ses deux dents de devant, mais il a en fait toutes ses dents bien en place.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-114",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_114.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-114-3",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Sur quelle chaîne de télévision était originalement diffusée la série 'Bob l'éponge' ?",
+      "answer": "Nickelodeon",
+      "options": [
+        "Nickelodeon",
+        "TF1",
+        "CBS",
+        "Fox"
+      ],
+      "explanation": "Première chaîne au monde spécialisée pour les enfants, Nickelodeon a émis en 1979 sous le nom de Pinwheel.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-114",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_114.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-114-4",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans la saga 'Bob l'éponge', Sandy, qui vient de la surface, est en fait...",
+      "answer": "Un écureuil",
+      "options": [
+        "Un écureuil",
+        "Un lama",
+        "Un hamster",
+        "Un chat"
+      ],
+      "explanation": "Sandy s'est construit un dôme d'air en polyuréthane au fond de l'océan pour vivre normalement comme si elle était sur terre.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-114",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_114.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-114-5",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel personnage et ami de Bob l'éponge vit sous un rocher ?",
+      "answer": "Patrick",
+      "options": [
+        "Eugène",
+        "Patrick",
+        "Carlo",
+        "Sandy"
+      ],
+      "explanation": "Ses loisirs sont surtout : regarder la télévision, manger des pâtés de crabe, pêcher la méduse et dormir.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-114",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_114.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-114-6",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le nom du patron de Bob l'éponge dans la série du même nom ?",
+      "answer": "M. Krabs",
+      "options": [
+        "M. Plaice",
+        "M. Krabs",
+        "M. Thomas",
+        "M. Bates"
+      ],
+      "explanation": "Il parle comme un marin, il a beaucoup de connaissances dans le domaine de la mer et possède un bateau, le Cheapskate.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-114",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_114.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-114-7",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel personnage terrestre de 'Bob l'éponge' hiberne en hiver ?",
+      "answer": "Sandy",
+      "options": [
+        "Carlo",
+        "Patrick",
+        "Sandy",
+        "Plankton"
+      ],
+      "explanation": "Sandy a pensé à rapporter des créatures terrestre dans son jardin et vit avec des oiseaux, des papillons et des araignées.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-114",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_114.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-114-8",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est la couleur de Patrick, célèbre compagnon de Bob l'éponge ?",
+      "answer": "Rose",
+      "options": [
+        "Jaune",
+        "Rose",
+        "Verte",
+        "Bleue"
+      ],
+      "explanation": "Patrick, l'étoile de mer saumon de Bikini Bottom habite seul sous une grosse pierre au 120 de la rue des Conques.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-114",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_114.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-114-9",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qu'est-ce Bob l'éponge aime faire avec Sandy dès qu'il a un peu de temps devant lui ?",
+      "answer": "Du karaté",
+      "options": [
+        "Du tennis",
+        "Du karaté",
+        "Du rugby",
+        "Du foot"
+      ],
+      "explanation": "Sandy est très gentille et souvent de bonne humeur, mais elle peut vite devenir agressive quand on se moque des écureuils.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-114",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_114.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-114-10",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Lequel de ces mots est fréquemment prononcé par Gary l'escargot dans 'Bob l'éponge' ?",
+      "answer": "Miaou",
+      "options": [
+        "Miaou",
+        "Meuh",
+        "Wouf",
+        "Bêêh"
+      ],
+      "explanation": "Gary est beaucoup plus intelligent que son maître et a souvent de bien meilleures solutions aux problèmes que lui.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-114",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_114.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-114-11",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le nom du populaire hamburger vendu au Crabe Croustillant dans 'Bob l'éponge' ?",
+      "answer": "Pâté de crabe",
+      "options": [
+        "Pâté de crabe",
+        "Burger aux huîtres",
+        "Burger de Neptune",
+        "Pâté en croûte"
+      ],
+      "explanation": "Le restaurant est dirigé par Eugène Krabs, vétéran de la guerre, cupide, radin, possessif mais néanmoins sympathique.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-114",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_114.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-114-12",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel était le nom initial anglais de Bob l'éponge avant qu'il ne devienne Bob l'éponge ?",
+      "answer": "SpongeBoy",
+      "options": [
+        "SpongeLarry",
+        "SpongeBoy",
+        "SpongeKid",
+        "SpongeFred"
+      ],
+      "explanation": "Une attraction 'SpongeBob SquarePants 4-D' se trouve dans le Six Flags Over Texas, aux États-Unis.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-114",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_114.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-114-13",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "À quel animateur et ex-biologiste doit-on la série télévisée 'Bob l'éponge' ?",
+      "answer": "Stephen Hillenburg",
+      "options": [
+        "Scott MacDonald",
+        "Ash Brannon",
+        "Chris Sanders",
+        "Stephen Hillenburg"
+      ],
+      "explanation": "Après le film, Stephen Hillenburg a cessé de travailler pour la série et a légué son rôle à Paul Tibbitt.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-114",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_114.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-114-14",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le prénom du maître nageur de Goo Lagoon dans 'Bob l'éponge' ?",
+      "answer": "Larry",
+      "options": [
+        "Larry",
+        "Thomas",
+        "Benny",
+        "Ian"
+      ],
+      "explanation": "Aussi bizarre que cela puisse paraître, il y en effet a un lagon (fait de pétrole) à Bikini Bottom, sous l'océan.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-114",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_114.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-114-15",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui est directrice et monitrice de l'école de conduite visible dans 'Bob l'éponge' ?",
+      "answer": "Mme. Puff",
+      "options": [
+        "Sandy",
+        "Potty",
+        "Mme. Puff",
+        "Mr. Krabs"
+      ],
+      "explanation": "Madame Puff est plus ou moins condamnée à avoir Bob comme élève jusqu'à la fin de sa vie.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-114",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_114.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-114-16",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le nom de l'acolyte de l'Homme Sirène dans la série 'Bob l'éponge' ?",
+      "answer": "Bernard l'Ermite",
+      "options": [
+        "Bernard l'Ermite",
+        "L'Homme Requin",
+        "Patrick Plastique",
+        "Le Garçon Palourde"
+      ],
+      "explanation": "Bernard l'Ermitea les mêmes pouvoirs que l'Homme Sirène, c'est à dire qu'il peut invoquer les créatures du fond de l'océan.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-114",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_114.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-114-17",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel triton est le Roi de la mer dans le dessin animé 'Bob l'éponge' ?",
+      "answer": "Neptune",
+      "options": [
+        "Mars",
+        "Jupiter",
+        "Neptune",
+        "Pluton"
+      ],
+      "explanation": "Neptune a un gros complexe : il est chauve et devient furieux quand sa couronne disparaît pour montrer sa calvitie.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-114",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_114.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-114-18",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "De quelle couleur sont les pantoufles de l'Homme Sirène dans 'Bob l'éponge' ?",
+      "answer": "Rose",
+      "options": [
+        "Rouge",
+        "Rose",
+        "Jaune",
+        "Bleue"
+      ],
+      "explanation": "À cause de son âge, l'Homme Sirène perd un peu la tête et oublie tout, même ce qu'il a mangé au petit déjeuner.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-114",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_114.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-114-19",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel personnage de la série 'Bob l'éponge' aime peindre des autoportraits ?",
+      "answer": "Carlo Tentacule",
+      "options": [
+        "Bob l'éponge",
+        "Patrick",
+        "Carlo Tentacule",
+        "L'Homme Sirène"
+      ],
+      "explanation": "Carlo Tentacule est un calmar grognon qui vit dans les fonds des océans et prétend que Bob et Patrick sont des crétins.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-114",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_114.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-114-20",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le travail exercé par Sandy dans 'Bob l'éponge' ?",
+      "answer": "Scientifique",
+      "options": [
+        "Enseignante",
+        "Policière",
+        "Scientifique",
+        "Journaliste"
+      ],
+      "explanation": "S'intéressant à l'astronomie, Sandy est déjà allée sur la Lune et a construit sa propre fusée pour y retourner.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-114",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_114.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-114-21",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "De quelle couleur est la coquille de Gary dans 'Bob l'éponge' ?",
+      "answer": "Rose",
+      "options": [
+        "Blanche",
+        "Rose",
+        "Verte",
+        "Jaune"
+      ],
+      "explanation": "Animal domestique de Bob l'éponge, Gary l'escargot émet une large bande de salive après son passage.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-114",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_114.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-114-22",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui a remporté la compétition « Bernard l'Hermite » en saison 1 de 'Bob l'éponge' ?",
+      "answer": "Bob l'éponge",
+      "options": [
+        "Gary",
+        "Bob l'éponge",
+        "Sandy",
+        "Patrick"
+      ],
+      "explanation": "Chaque épisode de 'Bob l'éponge' est constitué de 1 à 3 épisodes individuels (le plus généralement 2).",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-114",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_114.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-114-23",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "De quelle couleur sont les chaussures du désormais célèbre Bob l'éponge ?",
+      "answer": "Noires",
+      "options": [
+        "Rouges",
+        "Noires",
+        "Bleues",
+        "Jaunes"
+      ],
+      "explanation": "La création du personnage de Bob l'éponge a été pensée par Hillenburg en 1984 lors d'une étude de la biologie marine.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-114",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_114.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-114-24",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est la prénom de la fille de Mr. Krabs dans la saga 'Bob l'éponge' ?",
+      "answer": "Pearl",
+      "options": [
+        "Sharon",
+        "Vanessa",
+        "Sandy",
+        "Pearl"
+      ],
+      "explanation": "La raison pour laquelle la fille de Krabs est une baleine, de surcroît majorette adolescente, reste inconnue.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-114",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_114.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-114-25",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui est arrivé à Bikini Bottom durant la saison 9 de la série 'Bob l'éponge' ?",
+      "answer": "Kenny le chat",
+      "options": [
+        "Rodney le lapin",
+        "Sid le serpent",
+        "Dawson le chien",
+        "Kenny le chat"
+      ],
+      "explanation": "Bikini Bottom est une ville dans l'Océan Pacifique représentant la véritable vie marine de l'île d'Atoll de Bikini.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-114",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_114.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-114-26",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "En quoi a été transformé le mari de Mme Puff dans la saga 'Bob l'éponge' ?",
+      "answer": "En lampe",
+      "options": [
+        "En lampe",
+        "En chaise",
+        "En vélo",
+        "En tapis"
+      ],
+      "explanation": "Transformé par les humains, la pauvre Madame Puff n'en parle jamais tant ça lui fait du chagrin de repenser à lui.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-114",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_114.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-114-27",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel nom Patchy le pirate a-t-il donné à son perroquet domestique plus agaçant ?",
+      "answer": "Potty",
+      "options": [
+        "Potty",
+        "Marbles",
+        "Looney",
+        "Nutty"
+      ],
+      "explanation": "Le pirate est là pour présenter, toujours de manière très drôle, les épisodes spéciaux de 'Bob l'éponge'.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-114",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_114.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-114-28",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "En quoi se transforment ceux qui souffrent de la maladie de l'escargot fou dans 'Bob l'éponge' ?",
+      "answer": "En zombies",
+      "options": [
+        "En écureuils",
+        "En vaches",
+        "En zombies",
+        "En chevaux"
+      ],
+      "explanation": "Bob a la possibilité de prendre n'importe quelle forme, mais c'est surtout pour faire des gags.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-114",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_114.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-114-29",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans 'Bob l'éponge', quel prénom Sandy a-t-elle donné à sa chenille qui deviendra papillon ?",
+      "answer": "Wormy",
+      "options": [
+        "Wormy",
+        "Geoff",
+        "Catty",
+        "Paul"
+      ],
+      "explanation": "Une fois devenue papillon, Bob et Patrick n'ont jamais vu de telles créatures et ils sont effrayés, tout comme les habitants.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-114",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_114.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-114-30",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel personnage de la série 'Bob l'éponge' est l'heureux propriétaire d'un bateau invisible ?",
+      "answer": "L'Homme Sirène",
+      "options": [
+        "Mindy",
+        "L'Homme Sirène",
+        "Patrick",
+        "Plankton"
+      ],
+      "explanation": "L'Homme Sirène peut invoquer des créatures du fond des océans, lancer des boules d'eau ou faire des tourbillons.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-114",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_114.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

@@ -1,0 +1,798 @@
+{
+  "id": "oq-254",
+  "title": "Culture en vrac 4",
+  "originalTitle": "Culture en vrac 4 (De la culture générale à tous les niveaux)",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_254.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [],
+  "questions": [
+    {
+      "id": "oqdb-254-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Aux JO de 1992, dans quel sport une équipe fut-elle surnommée « Dream Team » ?",
+      "answer": "Basket-ball",
+      "options": [
+        "Athlétisme",
+        "Basket-ball",
+        "Escrime",
+        "Tennis"
+      ],
+      "explanation": "La Dream Team est considérée comme la plus grande équipe de tous les temps et est entrée au Basketball Hall of Fame en 2010.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-254",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_254.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-254-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces ingrédients vous permettra de réussir une mayonnaise traditionnelle ?",
+      "answer": "Oeuf",
+      "options": [
+        "Lait",
+        "Farine",
+        "Oeuf",
+        "Vin blanc"
+      ],
+      "explanation": "La mayonnaise est une sauce froide à base d'huile émulsionnée dans un mélange de jaune d'oeuf et de vinaigre, ou de jus de citron.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-254",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_254.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-254-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En informatique, quel petit symbole signale un fichier joint attaché à un e-mail ?",
+      "answer": "Trombone",
+      "options": [
+        "Gomme",
+        "Élastique",
+        "Trousse",
+        "Trombone"
+      ],
+      "explanation": "L'envoi d'un e-mail avec une pièce jointe de 1 Mo consomme 7,5 g équivalent de fer, soit le poids d'une pièce de 1 euro.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-254",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_254.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-254-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel pays est originaire la recette du cappuccino et de sa coiffe de lait ?",
+      "answer": "Italie",
+      "options": [
+        "Brésil",
+        "Colombie",
+        "Espagne",
+        "Italie"
+      ],
+      "explanation": "Ce café est servi dans une grande tasse, à base d'un expresso et coiffé de lait chauffé à la vapeur jusqu'à le faire mousser.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-254",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_254.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-254-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle profession un maître queux exerce-t-il dans une grande maison ?",
+      "answer": "Cuisinier",
+      "options": [
+        "Amuseur",
+        "Cuisinier",
+        "Pianiste",
+        "Coiffeur"
+      ],
+      "explanation": "Le chef cuisinier est le responsable en cuisine du processus complet de confection des plats, des mets ou des repas d'une cuisine.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-254",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_254.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-254-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces objets ne fait pas partie des armes du jeu de société Cluedo ?",
+      "answer": "Pied de biche",
+      "options": [
+        "Clé anglaise",
+        "Revolver",
+        "Chandelier",
+        "Pied de biche"
+      ],
+      "explanation": "Les joueurs doivent découvrir parmi eux qui est le meurtrier d'un crime commis dans un manoir anglais, le Manoir Tudor.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-254",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_254.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-254-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelles pâtes en forme de cylindres farcit-on avant de les cuire au four ?",
+      "answer": "Cannellonis",
+      "options": [
+        "Cannellonis",
+        "Raviolis",
+        "Tortellinis",
+        "Lasagnes"
+      ],
+      "explanation": "D'origine italienne, on trouve également des cannelloni de spécialité corse, qui peuvent contenir de la cervelle d'agneau ou du brocciu.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-254",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_254.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-254-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces aliments le comte Dracula craint-il avec effroi ?",
+      "answer": "Ail",
+      "options": [
+        "Tomate",
+        "Ail",
+        "Concombre",
+        "Ciboulette"
+      ],
+      "explanation": "Dracula peut se transformer en loup, en chauve-souris, en chien, en brouillard et en particules de lumière.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-254",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_254.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-254-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sur la musique de quel groupe Valérie Lemercier a-t-elle présenté les Césars 2007 ?",
+      "answer": "Zouk Machine",
+      "options": [
+        "Zouk Machine",
+        "Philippe Lavil",
+        "Kassav'",
+        "Franky Vincent"
+      ],
+      "explanation": "Cette 32e cérémonie des César fut présidée au théâtre du Châtelet par Claude Brasseur et dédiée à la mémoire de Philippe Noiret.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-254",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_254.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-254-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces pays est le seul à posséder un drapeau bicolore ?",
+      "answer": "Japon",
+      "options": [
+        "Colombie",
+        "Japon",
+        "Gabon",
+        "Seychelles"
+      ],
+      "explanation": "Le drapeau est blanc avec un grand disque rouge en son centre représentant le soleil (la déesse shinto du soleil Amaterasu).",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-254",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_254.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-254-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quel jeu de cartes souvent coloré doit-on distribuer et jouer de droite à gauche ?",
+      "answer": "Tarot",
+      "options": [
+        "Tarot",
+        "Rami",
+        "Poker fermé",
+        "Bridge"
+      ],
+      "explanation": "Les différents jeux de tarot permettent de jouer au tarocchini italien ou au tarot français, ou d'en faire un usage occulte et mystique.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-254",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_254.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-254-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Selon la commission de terminologie, David Guetta serait un...",
+      "answer": "Platiniste",
+      "options": [
+        "Vinyliste",
+        "Platiniste",
+        "Mixeur",
+        "Passeur de disques"
+      ],
+      "explanation": "Kool Herc fut le premier DJ qui mixa deux disques réglés sur le même BPM, faisant ainsi une transition appelée un calage tempo.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-254",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_254.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-254-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Fin 2012, lequel de ces hommes de télévision avait moins de 70 ans ?",
+      "answer": "J-P Foucault",
+      "options": [
+        "M. Drucker",
+        "J-P Elkabbach",
+        "Ph. Gildas",
+        "J-P Foucault"
+      ],
+      "explanation": "Jean-Pierre Foucault est un des rares animateurs à être salarié en contrat à durée indéterminée sur TF1.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-254",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_254.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-254-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces personnalités du cinéma est née le plus tard ?",
+      "answer": "Robin Williams",
+      "options": [
+        "Bill Murray",
+        "Anthony Hopkins",
+        "Al Pacino",
+        "Robin Williams"
+      ],
+      "explanation": "Débutant au cinéma dans le rôle-titre du « Popeye » de Robert Altman, il se fit connaître avec la série télévisée « Mork and Mindy ».",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-254",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_254.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-254-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle série télé a débuté par l'épisode « Surtout pas de neige à Hawaii » ?",
+      "answer": "Magnum",
+      "options": [
+        "Dynastie",
+        "Dallas",
+        "Magnum",
+        "Kojak"
+      ],
+      "explanation": "Lorsqu'on lui a proposé le rôle de Thomas Magnum, Tom Selleck était sur le point de mettre un terme à sa carrière d'acteur.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-254",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_254.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-254-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Assis à une table dressée à la française, votre verre à vin rouge est posé à droite du...",
+      "answer": "Verre à eau",
+      "options": [
+        "Coquetier",
+        "Verre à vin blanc",
+        "Verre à eau",
+        "Pain de table"
+      ],
+      "explanation": "Des affinités ou antipathies des personnes placées côte à côte dépend très largement l'ambiance, et donc la réussite du repas.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-254",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_254.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-254-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces villes est située la plus au nord ?",
+      "answer": "Reykjavik",
+      "options": [
+        "Stockholm",
+        "Saint Petersbourg",
+        "Reykjavik",
+        "Copenhague"
+      ],
+      "explanation": "Reykjavik se situe à 250 km au sud du cercle polaire arctique, ce qui en fait la capitale la plus septentrionale d'un État souverain.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-254",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_254.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-254-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Aux États-Unis, quel arbre de plus de 83 mètres de haut se nomme General Sherman ?",
+      "answer": "Séquoia",
+      "options": [
+        "Eucalyptus",
+        "Séquoia",
+        "Thuya",
+        "Baobab"
+      ],
+      "explanation": "Ce séquoia géant, situé dans le parc national de Sequoia (Californie, États-Unis), a un âge estimé à environ 2 200 ans.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-254",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_254.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-254-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Selon le code de la route français, que signale un « H » majuscule noir ?",
+      "answer": "Une clinique",
+      "options": [
+        "Une clinique",
+        "Une halte routière",
+        "Un héliport",
+        "Un motel"
+      ],
+      "explanation": "Il ne faut pas confondre le même panneau écrit avec la lettre H majuscule en blanc qui désigne quant à lui un hôpital.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-254",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_254.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-254-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle recette un oeuf dur est-il farci de mayonnaise et de jaune écrasé ?",
+      "answer": "Mimosa",
+      "options": [
+        "Hortensia",
+        "Bégonia",
+        "Camélia",
+        "Mimosa"
+      ],
+      "explanation": "L'origine de l'oeuf mimosa remonte à la Rome antique où déjà des oeufs pelés et coupés en quatre étaient servis garnis de sauces.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-254",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_254.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-254-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces célébrités fort convoitées ne fut jamais mariée ?",
+      "answer": "Luis Mariano",
+      "options": [
+        "Jean Gabin",
+        "Luis Mariano",
+        "George Sand",
+        "Paul Verlaine"
+      ],
+      "explanation": "Luis Mariano accéda à la célébrité en 1945 grâce à « La Belle de Cadix », opérette de Francis Lopez, devenant ainsi le « prince de l'opérette ».",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-254",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_254.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-254-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En épousant le prince Charles, Camilla Parker Bowles est devenue duchesse de...",
+      "answer": "Cornouailles",
+      "options": [
+        "Cornouailles",
+        "Cambridge",
+        "Kent",
+        "Londres"
+      ],
+      "explanation": "Le site officiel mentionne qu'elle devrait utiliser le titre de Son Altesse royale la princesse consort, lors de son accession au trône.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-254",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_254.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-254-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces épices ne pousse pas en état naturel ?",
+      "answer": "Curry",
+      "options": [
+        "Curry",
+        "Muscade",
+        "Cardamone",
+        "Paprika"
+      ],
+      "explanation": "Les épices varient selon la tradition culturelle nationale ou régionale, la pratique religieuse et les préférences familiales.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-254",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_254.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-254-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel insecte possède des espèces dites « champignonnistes » ?",
+      "answer": "Fourmi",
+      "options": [
+        "Fourmi",
+        "Cloporte",
+        "Mouche",
+        "Puceron"
+      ],
+      "explanation": "Les morceaux de feuilles mâchés servent de substrat pour la culture du champignon, dont les fourmis vont ensuite se nourrir.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-254",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_254.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-254-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces objets Florent Pagny ne chante-t-il pas dans « Ma liberté de penser » ?",
+      "answer": "Lave vaisselle",
+      "options": [
+        "Micro-ondes",
+        "Cuillères",
+        "Lave vaisselle",
+        "Télé"
+      ],
+      "explanation": "La chanson fait référence aux démêlés du chanteur avec le fisc français. Il sera condamné en 2005 pour « fraude fiscale ».",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-254",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_254.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-254-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel légume du bassin méditerranéen prépare-t-on « à la fontenelle » ?",
+      "answer": "Asperges",
+      "options": [
+        "Haricot verts",
+        "Asperges",
+        "Tomates",
+        "Maïs"
+      ],
+      "explanation": "Les asperges sont depuis longtemps utilisées comme légumes et plantes médicinales, en raison de leurs propriétés diurétiques.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-254",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_254.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-254-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Avec quel poisson prépare-t-on la spécialité provençale appelée brandade ?",
+      "answer": "Morue",
+      "options": [
+        "Espadon",
+        "Morue",
+        "Sardine",
+        "Thon"
+      ],
+      "explanation": "Jusqu'à l'invention des réfrigérateurs, la seule façon de conserver le cabillaud était de le saler et de le sécher (« morue »).",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-254",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_254.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-254-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces propositions désigne une race française de mouton ?",
+      "answer": "Bleu du Maine",
+      "options": [
+        "Setter rouge",
+        "Bleu du Maine",
+        "Cul noir limousin",
+        "Cou clair du Bery"
+      ],
+      "explanation": "De grande taille, la toison du Bleu du Maine est blanche mais sa tête et l'extrémité de ses pattes sont de couleur gris-bleu à noir.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-254",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_254.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-254-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel film la première James Bond girl française a-t-elle joué ?",
+      "answer": "Opération Tonnerre",
+      "options": [
+        "Goldfinger",
+        "Casino Royale",
+        "Opération Tonnerre",
+        "Thunderball"
+      ],
+      "explanation": "Claudine Auger a été première dauphine de Miss Monde 1958 avant de devenir la toute première James Bond girl française.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-254",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_254.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-254-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces chanteurs a participé à la première tournée des Enfoirés en 1989 ?",
+      "answer": "Michel Sardou",
+      "options": [
+        "MC Solaar",
+        "Patrick Fiori",
+        "Bénabar",
+        "Michel Sardou"
+      ],
+      "explanation": "Les Enfoirés est le nom que prend depuis 1985 un regroupement d'artistes pour chanter au profit des Restos du Coeur.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-254",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_254.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

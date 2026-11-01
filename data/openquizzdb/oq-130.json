@@ -1,0 +1,749 @@
+{
+  "id": "oq-130",
+  "title": "Royaume-Uni",
+  "originalTitle": "Royaume-Uni",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_130.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    17,
+    26
+  ],
+  "questions": [
+    {
+      "id": "oqdb-130-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel palais britannique Big Ben est-elle désignée la « grande cloche » ?",
+      "answer": "Westminster",
+      "options": [
+        "Winchester",
+        "Buckingham",
+        "Kensington",
+        "Westminster"
+      ],
+      "explanation": "Le palais borde la rive nord de la Tamise et se situe dans l'arrondissement londonien de la Cité de Westminster.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-130",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_130.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-130-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel fleuve du Royaume-Uni possède une longueur totale de 346 kilomètres ?",
+      "answer": "La Tamise",
+      "options": [
+        "Le Spey",
+        "La Trent",
+        "La Tamise",
+        "Le Tay"
+      ],
+      "explanation": "L'activité humaine a profité de la Tamise pendant des milliers d'années pour en tirer son eau, sa nourriture et son énergie.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-130",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_130.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-130-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle couleur sont les célèbres LTI, les taxis londoniens ?",
+      "answer": "Noire",
+      "options": [
+        "Verte",
+        "Rouge",
+        "Jaune",
+        "Noire"
+      ],
+      "explanation": "La compagnie London Taxis International produit chaque année pas moins de 30 000 nouveaux « taxis noirs ».",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-130",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_130.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-130-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel ancien premier ministre de Grande-Bretagne appelait-on la « Dame de Fer » ?",
+      "answer": "Margaret Thatcher",
+      "options": [
+        "Tessa Jowell",
+        "Eleanor Rathbone",
+        "Patricia Hewitt",
+        "Margaret Thatcher"
+      ],
+      "explanation": "Margaret Thatcher est la plus renommée des leaders politiques britanniques depuis Winston Churchill.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-130",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_130.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-130-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel comté du Royaume-Uni a donné son nom à une race de chiens de petite taille ?",
+      "answer": "Yorkshire",
+      "options": [
+        "Sussex",
+        "Rutland",
+        "Kent",
+        "Yorkshire"
+      ],
+      "explanation": "Les traits distinctifs de la race sont sa petite taille et son pelage long et soyeux de couleur bleue et feu.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-130",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_130.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-130-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle unité monétaire est principalement utilisée en Grande-Bretagne ?",
+      "answer": "Livre sterling",
+      "options": [
+        "Livre de Jersey",
+        "Livre parisis",
+        "Livre tournois",
+        "Livre sterling"
+      ],
+      "explanation": "Bien qu'unité monétaire officielle, il faut toutefois différencier plusieurs livres sterling selon les territoires.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-130",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_130.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-130-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le prénom de la seconde épouse du prince de Galles ?",
+      "answer": "Camilla",
+      "options": [
+        "Camilla",
+        "Claudia",
+        "Samantha",
+        "Diana"
+      ],
+      "explanation": "Son Altesse Royale, la duchesse de Cornouailles, est donc promise à devenir reine du Royaume-Uni.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-130",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_130.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-130-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quel auteur britannique doit-on le roman 'Dix petits nègres' ?",
+      "answer": "Agatha Christie",
+      "options": [
+        "Mary Stewart",
+        "Arthur Conan Doyle",
+        "Peter James",
+        "Agatha Christie"
+      ],
+      "explanation": "Avec plus de 100 millions de copies, ce livre est un des ouvrages les plus vendus des romans d'Agatha Christie.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-130",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_130.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-130-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À Londres, où êtes-vous si vous circulez dans le Tube ?",
+      "answer": "Dans le métro",
+      "options": [
+        "Dans le train",
+        "Dans le métro",
+        "Dans le taxi",
+        "Dans le bus"
+      ],
+      "explanation": "Ouvert en 1863, le métro de Londres ou 'London Underground' est le plus vieux métro du monde.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-130",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_130.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-130-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle couleur sont la plupart des boîtes aux lettres londoniennes depuis 1874 ?",
+      "answer": "Rouge",
+      "options": [
+        "Rouge",
+        "Jaune",
+        "Bleue",
+        "Verte"
+      ],
+      "explanation": "Dans de nombreux pays, l'emplacement et les dimensions d'une boîte aux lettres sont souvent réglementées.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-130",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_130.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-130-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À Londres, quel édifice porte le nom de « Sir Benjamin Hall » ?",
+      "answer": "Big Ben",
+      "options": [
+        "Old Bailey",
+        "Big Ben",
+        "Syon House",
+        "Kew Palace"
+      ],
+      "explanation": "Seules les personnes qui habitent au Royaume-Uni peuvent visiter Big Ben, après avoir obtenu une autorisation.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-130",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_130.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-130-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui détient le rôle principal dans la série télévisée britannique 'Inspecteur Barnaby' ?",
+      "answer": "John Nettles",
+      "options": [
+        "Anthony LaPaglia",
+        "Paolo Seganti",
+        "John Nettles",
+        "Emily Deschanel"
+      ],
+      "explanation": "Cette série, diffusée sur le réseau ITV, arrive à dépeindre une Angleterre « authentique » bien qu'imaginaire.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-130",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_130.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-130-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le plus grand parc du centre de Londres en terme de superficie ?",
+      "answer": "Hyde Park",
+      "options": [
+        "Kensington Gardens",
+        "Green Park",
+        "Russell Square",
+        "Hyde Park"
+      ],
+      "explanation": "La plus ancienne partie du parc appartenait au manoir d'Ebury et avait une superficie d'un « hide ».",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-130",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_130.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-130-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la ville britannique la plus proche du continent européen ?",
+      "answer": "Douvres",
+      "options": [
+        "Southampton",
+        "Plymouth",
+        "Belfast",
+        "Douvres"
+      ],
+      "explanation": "Située au bord de la Manche, Douvres est une ville portuaire du comté du Kent, dans le Sud-Est de l'Angleterre.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-130",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_130.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-130-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de fois Winston Churchill a-t-il été nommé premier ministre anglais ?",
+      "answer": "Deux fois",
+      "options": [
+        "Deux fois",
+        "Trois fois",
+        "Une fois",
+        "Quatre fois"
+      ],
+      "explanation": "À sa mort, la reine le gratifie d'obsèques nationales qui rassembleront de très nombreux hommes d'État.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-130",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_130.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-130-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel ingrédient principal compose la très britannique marmelade ?",
+      "answer": "Les oranges amères",
+      "options": [
+        "Les oranges amères",
+        "Les pommes",
+        "Les poires",
+        "Les citrons"
+      ],
+      "explanation": "Une marmelade était à l'origine une confiture de coing (devant du mot 'marmelo' en portugais).",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-130",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_130.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-130-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quel parti politique anglais appartenait Margaret Thatcher ?",
+      "answer": "Conservateur",
+      "options": [
+        "Travailliste",
+        "Libéral",
+        "Socialiste",
+        "Conservateur"
+      ],
+      "explanation": "Margaret Thatcher reste fortement associée à la « révolution conservatrice » des années 1980.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-130",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_130.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-130-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien y a-t-il de triangles bleus sur le drapeau du Royaume-Uni ?",
+      "answer": "8",
+      "options": [
+        "12",
+        "10",
+        "6",
+        "8"
+      ],
+      "explanation": "Le drapeau du Royaume-Uni est également appelé « Union Flag » ou « Union Jack ».",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-130",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_130.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-130-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville anglaise les habitants sont-ils appelés les Mancuniens ?",
+      "answer": "Manchester",
+      "options": [
+        "Manchester",
+        "Chester",
+        "Coventry",
+        "Cambridge"
+      ],
+      "explanation": "Le terme « Manchester » est utilisé pour désigner à la fois l'agglomération et la ville-centre elle-même.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-130",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_130.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-130-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année la première ligne du métro londonien a-t-elle été inaugurée ?",
+      "answer": "1863",
+      "options": [
+        "1872",
+        "1879",
+        "1869",
+        "1863"
+      ],
+      "explanation": "Un second réseau, le Docklands Light Railway, dessert également l'agglomération de Londres (les Docklands et la City).",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-130",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_130.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-130-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel musicien anglais a composé la musique du film 'Birdy' ?",
+      "answer": "Peter Gabriel",
+      "options": [
+        "Clint Mansell",
+        "Michael Nyman",
+        "Peter Gabriel",
+        "David Arnold"
+      ],
+      "explanation": "Peter Gabriel est aussi un producteur britannique de disques par le biais de son label Real World.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-130",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_130.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-130-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle abbaye constitue un reliquaire de toutes les époques du gothique anglais ?",
+      "answer": "Westminster",
+      "options": [
+        "Glastonbury",
+        "Westminster",
+        "Melrose",
+        "Malmesbury"
+      ],
+      "explanation": "L'abbaye est le lieu de sépulture d'une partie des rois et reines d'Angleterre et aussi des hommes et des femmes célèbres.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-130",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_130.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-130-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel célèbre site préhistorique semble être un sanctuaire du culte solaire ?",
+      "answer": "Stonehenge",
+      "options": [
+        "Blaenavon",
+        "Stonehenge",
+        "Silbury Hill",
+        "Greenwich"
+      ],
+      "explanation": "Aujourd'hui, seul 40% du site néolithique subsiste, attirant chaque année près d'un million de touristes.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-130",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_130.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-130-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel ancien nom était jadis donné à la Grande-Bretagne ?",
+      "answer": "Albion",
+      "options": [
+        "Albano",
+        "Alberton",
+        "Albini",
+        "Albion"
+      ],
+      "explanation": "Le nom « Albion » une hellénisation renaissante du nom antique de la Grande-Bretagne, Alba.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-130",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_130.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-130-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel plongeur britannique s'est marié deux ans après son coming out ?",
+      "answer": "Tom Daley",
+      "options": [
+        "Tom Daley",
+        "Jack Laugher",
+        "Brian Phelps",
+        "Chris Mears"
+      ],
+      "explanation": "Sa déclaration a été favorablement accueillie, constituant même un « modèle pour la communauté LGBT ».",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-130",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_130.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-130-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle discipline la revue britannique 'The Lancet' traite-t-elle ?",
+      "answer": "Science médicale",
+      "options": [
+        "Aviation",
+        "Astronomie",
+        "Science médicale",
+        "Physique et chimie"
+      ],
+      "explanation": "Le premier numéro date du 5 octobre 1823 et a été lancé par Thomas Wakley qui éditera la revue jusqu'à sa mort.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-130",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_130.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-130-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel endroit est souvent considéré comme étant le « cœur de Londres » ?",
+      "answer": "Charing Cross",
+      "options": [
+        "Covent Garden",
+        "Oxford Street",
+        "Charing Cross",
+        "Trafalgar Square"
+      ],
+      "explanation": "Les distances calculées depuis Londres se font à partir de la statue équestre de Charles Ier, située au centre de Charing Cross.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-130",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_130.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-130-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville anglaise se trouve le stade de football Old Trafford ?",
+      "answer": "Manchester",
+      "options": [
+        "Liverpool",
+        "Manchester",
+        "Lancaster",
+        "Birmingham"
+      ],
+      "explanation": "Construit en 1909, le stade est la résidence de Manchester United depuis 1910, à l'exception de la période 1941 à 1949.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-130",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_130.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

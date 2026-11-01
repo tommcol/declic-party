@@ -1,0 +1,774 @@
+{
+  "id": "oq-125",
+  "title": "Objets et instruments",
+  "originalTitle": "Objets et instruments",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_125.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    19
+  ],
+  "questions": [
+    {
+      "id": "oqdb-125-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Avec quel appareil peut-on mesurer la profondeur des océans ?",
+      "answer": "Un sonar",
+      "options": [
+        "Un compteur Geiger",
+        "Un sonar",
+        "Un sextant",
+        "Un radar"
+      ],
+      "explanation": "Un sonar est un appareil utilisant les propriétés de la propagation du son dans l'eau pour détecter et situer les objets sous l'eau.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-125",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_125.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-125-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel petit objet est utilisé pour maintenir solidaire une liasse de feuilles de papier ?",
+      "answer": "Un trombone",
+      "options": [
+        "Un stencil",
+        "Un post-it",
+        "Un trombone",
+        "Un Rolodex"
+      ],
+      "explanation": "Le mot s'emploie pour désigner la petite « agrafe provisoire » permettant d'assembler plusieurs feuilles de papier.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-125",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_125.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-125-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de trous possédait autrefois le cadran de votre ancien téléphone ?",
+      "answer": "10 trous",
+      "options": [
+        "12 trous",
+        "10 trous",
+        "6 trous",
+        "8 trous"
+      ],
+      "explanation": "Le cadran était alors composé d'un disque rotatif autour duquel sont portés les chiffres de 1 à 9 puis 0.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-125",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_125.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-125-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Contre quoi un paratonnerre avec mise à la terre protège-t-il un bâtiment ?",
+      "answer": "La foudre",
+      "options": [
+        "Le vent",
+        "La pluie",
+        "Le soleil",
+        "La foudre"
+      ],
+      "explanation": "Pour construire une protection contre la foudre, il faut construire une cage de Faraday enveloppant l'édifice à protéger.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-125",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_125.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-125-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel appareil de levage permet entre autre de soulever une voiture ?",
+      "answer": "Un cric",
+      "options": [
+        "Un cric",
+        "Un delco",
+        "Un hayon",
+        "Une rustine"
+      ],
+      "explanation": "L'utilisation la plus fréquente du cric permet de changer une roue après une crevaison ou un problème de pneumatique.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-125",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_125.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-125-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel appareil, redouté par toutes les femmes, sert à arracher le poil ?",
+      "answer": "Un épilateur",
+      "options": [
+        "Un épilateur",
+        "Un sèche-cheveux",
+        "Un aspirateur",
+        "Un vibromasseur"
+      ],
+      "explanation": "Les raisons invoquées vont des critères cosmétiques de beauté, de traditions ethniques aux soucis de confort ou d'hygiène.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-125",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_125.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-125-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que retrouve-ton traditionnellement à l'intérieur d'un juke-box ?",
+      "answer": "Des disques",
+      "options": [
+        "Des disques",
+        "Des fruits",
+        "Des friandises",
+        "Des jeux vidéo"
+      ],
+      "explanation": "Un juke-box (ou jukebox) est un appareil public capable de jouer automatiquement de la musique enregistrée.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-125",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_125.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-125-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel accessoire, indispensable pour jouer au 421, peut être « pipé » ?",
+      "answer": "Un dé",
+      "options": [
+        "Une cible",
+        "Un dé",
+        "Un tapis",
+        "Une carte"
+      ],
+      "explanation": "Les dés les plus courants sont des petits cubes de 1 à 2 cm de côté, possédant donc 6 faces numérotées de 1 à 6.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-125",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_125.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-125-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel organe du corps humain un pacemaker règle-t-il le rythme ?",
+      "answer": "Le cœur",
+      "options": [
+        "Le poumon",
+        "Le rein",
+        "Le cœur",
+        "Le foie"
+      ],
+      "explanation": "C'est en 1781 que Luigi Galvani constate que la stimulation électrique d'un nerf provoque la contraction du muscle relié.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-125",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_125.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-125-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel appareil électroménager peut être à la fois « balai », « sans sac » ou « à main » ?",
+      "answer": "Aspirateur",
+      "options": [
+        "Frigidaire",
+        "Aspirateur",
+        "Cuit vapeur",
+        "Grille-pain"
+      ],
+      "explanation": "L'aspirateur motorisé a été inventé en 1901 par l’ingénieur britannique Hubert Cecil Booth, né à Paris en 1871.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-125",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_125.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-125-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel ustensile sert à couper les légumes en très fines tranches ?",
+      "answer": "Une mandoline",
+      "options": [
+        "Une mandoline",
+        "Un bandonéon",
+        "Un massicot",
+        "Un hachoir"
+      ],
+      "explanation": "La mandoline est généralement en inox pour les professionnels ou en matière plastique ABS pour les particuliers.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-125",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_125.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-125-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En alpinisme, quelle lame métallique est enfoncée dans une fissure avec un marteau ?",
+      "answer": "Un piton",
+      "options": [
+        "Un baudrier",
+        "Un piolet",
+        "Un crampon",
+        "Un piton"
+      ],
+      "explanation": "Les pitons ont été le premier type de matériel de protection et sont toujours utilisés quand rien d'autre ne convient.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-125",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_125.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-125-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel mammifère a donné son nom à un instrument de rasage ?",
+      "answer": "Le blaireau",
+      "options": [
+        "Le buffle",
+        "Le bouquetin",
+        "Le bison",
+        "Le blaireau"
+      ],
+      "explanation": "Traditionnellement fabriqué en poils de blaireau, il en existe aussi en soies de sanglier, en crin de cheval ou poils synthétiques.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-125",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_125.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-125-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel outil utilise-t-on pour alimenter un foyer en air, domestique ou industriel ?",
+      "answer": "Un soufflet",
+      "options": [
+        "Une chasse",
+        "Un soufflet",
+        "Un burin",
+        "Une estrapade"
+      ],
+      "explanation": "Divers instruments de musique sont également munis de soufflets, tel l'orgue, l'accordéon ou diverses cornemuses.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-125",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_125.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-125-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel long balai-brosse est généralement utilisé pour ramoner une cheminée ?",
+      "answer": "Un hérisson",
+      "options": [
+        "Un blaireau",
+        "Un hérisson",
+        "Un col de cygne",
+        "Une girafe"
+      ],
+      "explanation": "Les ramoneurs étaient souvent atteints de déformations articulaires, de brûlures et de cancer causé par la suie.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-125",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_125.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-125-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel objet du quotidien peut être à la fois aiguille, bobine, plat ou crayon ?",
+      "answer": "Un talon",
+      "options": [
+        "Une pince",
+        "Une assiette",
+        "Un fil",
+        "Un talon"
+      ],
+      "explanation": "Un talon peut être la partie rigide à l'arrière d'une chaussure qui se pose sur le sol et sur laquelle repose l'arrière du pied.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-125",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_125.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-125-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel appareil permet de surveiller la surface de la mer depuis un sous-marin en plongée ?",
+      "answer": "Le périscope",
+      "options": [
+        "Le monocle",
+        "Le fibroscope",
+        "Le catadioptre",
+        "Le périscope"
+      ],
+      "explanation": "Depuis l'avènement du matériel vidéo et de la fibre optique, le périscope est souvent remplacé par une caméra.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-125",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_125.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-125-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment appelle-t-on familièrement des bottes à bout pointu et talon biseauté ?",
+      "answer": "Des santiag",
+      "options": [
+        "Des santiag",
+        "Des mocassins",
+        "Des mules",
+        "Des charentaises"
+      ],
+      "explanation": "Les santiags ou bottes de cowboy, au talon assez haut, sont principalement fabriquées à base de cuir de vachette.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-125",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_125.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-125-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quel objet utilisé par le pêcheur se rapporte le terme « madrague » ?",
+      "answer": "Un filet de pêche",
+      "options": [
+        "Un bateau de pêche",
+        "Une canne à pêche",
+        "Un filet de pêche",
+        "Un épuisette"
+      ],
+      "explanation": "Ce filet de pêche fixe est particulièrement conçu pour la pêche aux thons migrant régulièrement en longeant certaines côtes.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-125",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_125.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-125-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel autre nom est donné au détecteur de mensonges appliqué sur un individu ?",
+      "answer": "Polygraphe",
+      "options": [
+        "Tachigraphe",
+        "Polygraphe",
+        "Mésographe",
+        "Détectographe"
+      ],
+      "explanation": "Le stress engendré par le mensonge augmenterait sensiblement la transpiration et donc la conductance cutanée.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-125",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_125.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-125-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel instrument servait autrefois à enfoncer les portes des châteaux-forts ?",
+      "answer": "Le bélier",
+      "options": [
+        "Le bélier",
+        "La baliste",
+        "Le scorpion",
+        "Le corbeau"
+      ],
+      "explanation": "L'utilisation des béliers a eu un effet important sur l'évolution de la conception des murailles et des fortifications.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-125",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_125.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-125-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel outil des cordonniers et des bourreliers sert à percer le cuir ?",
+      "answer": "Une alêne",
+      "options": [
+        "Un touchau",
+        "Un cachet",
+        "Un perçoir",
+        "Une alêne"
+      ],
+      "explanation": "Ce poinçon servant à percer le cuir existe depuis le paléolithique où il servait alors à assembler les peaux.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-125",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_125.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-125-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel ciseau à tranchant courbé ou en V sert à sculpter et faire des moulures ?",
+      "answer": "La gouge",
+      "options": [
+        "La gouge",
+        "La masse",
+        "Le fusain",
+        "Le burin"
+      ],
+      "explanation": "La gouge a été perfectionnée en Angleterre et réintroduite au faubourg St Antoine par la sœur du roi Louis XIII.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-125",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_125.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-125-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel récipient cylindrique à fond plat est utilisé dans de nombreux laboratoires ?",
+      "answer": "Un bécher",
+      "options": [
+        "Une cuvette",
+        "Un bécher",
+        "Un décanteur",
+        "Une pipette"
+      ],
+      "explanation": "Le bécher, signifiant « gobelet » en allemand, est également appelé « vase de Berlin » ou « berlin » (surtout en Belgique).",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-125",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_125.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-125-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment appelle-t-on le petit robinet installé sur les tonneaux à alcool ?",
+      "answer": "Un chantepleure",
+      "options": [
+        "Une diluvienne",
+        "Une valsesource",
+        "Un chantepleure",
+        "Une tendrefontaine"
+      ],
+      "explanation": "Ce robinet pour tonneau de vin, souvent fabriqué en laiton, est utilisé avec le pressoir à robinet d'écoulement.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-125",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_125.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-125-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel instrument de navigation maritime sert à mesurer la vitesse des bateaux ?",
+      "answer": "Le loch",
+      "options": [
+        "Le sextant",
+        "La boussole",
+        "Le loch",
+        "Le compas"
+      ],
+      "explanation": "La vitesse est simplement obtenue par division de la distance parcourue par le temps passé à effectuer la mesure.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-125",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_125.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-125-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel objet peut-on souffler pour reproduire le chant des oiseaux ?",
+      "answer": "Un appeau",
+      "options": [
+        "Un moineau",
+        "Un chat",
+        "Un appeau",
+        "Un berlingot"
+      ],
+      "explanation": "L'appeau est utilisé à la chasse pour produire un son ou un bruit particulier attirant les oiseaux ou le gibier.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-125",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_125.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-125-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que peut-on utiliser pour mesurer le nombre de dents sur un timbre-poste on utilise un...",
+      "answer": "Un odontomètre",
+      "options": [
+        "Un dentoscope",
+        "Un odontoscope",
+        "Un odontomètre",
+        "Un dentomètre"
+      ],
+      "explanation": "Cet instrument philatélique donne avec précision le nombre exact de dents sur environ deux centimètres.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-125",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_125.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-125-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment appelle-t-on la partie ronde située au bout des ancres des navires ?",
+      "answer": "La cigale",
+      "options": [
+        "Le lapin",
+        "Le lièvre",
+        "La fourmi",
+        "La cigale"
+      ],
+      "explanation": "Les ancres modernes sont conçues pour pénétrer profondément et par leur surface importante, résister à l'ensemble de ces forces.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-125",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_125.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

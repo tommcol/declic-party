@@ -1,0 +1,774 @@
+{
+  "id": "oq-32",
+  "title": "Logiciels et applications web",
+  "originalTitle": "Logiciels et applications web",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_32.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    18
+  ],
+  "questions": [
+    {
+      "id": "oqdb-32-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel logiciel de traitement de texte a été mis au point par Microsoft ?",
+      "answer": "Word",
+      "options": [
+        "Word",
+        "PowerPoint",
+        "Excel",
+        "Access"
+      ],
+      "explanation": "Microsoft publie plusieurs logiciels de traitement de texte, mais 'Word' en reste la « vedette ».",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-32",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_32.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-32-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Le logiciel Excel extrait de la suite bureautique Microsoft Office est un...",
+      "answer": "Tableur",
+      "options": [
+        "Traitement de texte",
+        "Client de messagerie",
+        "Tableur",
+        "Navigateur internet"
+      ],
+      "explanation": "Excel a été critiqué pour ses problèmes de précision sur calculs à virgule flottante.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-32",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_32.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-32-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En informatique, comment appelle-t-on une erreur de programmation encore non localisée ?",
+      "answer": "Un bug",
+      "options": [
+        "Un spam",
+        "Un virus",
+        "Un crack",
+        "Un bug"
+      ],
+      "explanation": "La gravité du dysfonctionnement informatique peut aller de bénigne à majeure.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-32",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_32.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-32-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle version de Windows Microsoft a-t-il lancé le vendredi 26 octobre 2012 ?",
+      "answer": "Windows 8",
+      "options": [
+        "Windows CE",
+        "Windows 8",
+        "Windows 7",
+        "Windows Mobile"
+      ],
+      "explanation": "La version Windows 8.1 est une mise à jour gratuite de Windows 8 disponible depuis 2013.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-32",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_32.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-32-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment est communément abrégée la publication assistée par ordinateur ?",
+      "answer": "PAO",
+      "options": [
+        "USB",
+        "PAO",
+        "VGA",
+        "CIO"
+      ],
+      "explanation": "La PAO consiste à créer des documents imprimés en travaillant la composition et la typographie de documents.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-32",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_32.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-32-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle application informatique de la société Apple permet de gérer facilement un iPod ?",
+      "answer": "iTunes",
+      "options": [
+        "iTunes",
+        "FileMaker",
+        "QuickTime",
+        "HyperCard"
+      ],
+      "explanation": "'iTunes' faisait partie de la suite logicielle d'Apple 'iLife' jusqu'à la version '06.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-32",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_32.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-32-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En informatique, quel logiciel permet de créer des calculs automatiques ?",
+      "answer": "Un tableur",
+      "options": [
+        "Un tableur",
+        "Un navigateur",
+        "Un explorateur",
+        "Un débogueur"
+      ],
+      "explanation": "Une feuille de calcul est une table d'informations la plupart du temps financières.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-32",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_32.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-32-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel pirate informatique casse les systèmes informatique et les logiciels protégés ?",
+      "answer": "Un hacker",
+      "options": [
+        "Un blagueur",
+        "Un pirateur",
+        "Un forceur",
+        "Un hacker"
+      ],
+      "explanation": "Certains utilisent ce savoir-faire dans un cadre légal, d'autres étant hors-la-loi.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-32",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_32.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-32-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quels logiciels installés sur PC, tablette ou smartphone, permettent de « surfer » sur Internet ?",
+      "answer": "Des navigateurs",
+      "options": [
+        "Des navigateurs",
+        "Des éditeurs",
+        "Des tableurs",
+        "Des émulateurs"
+      ],
+      "explanation": "Le premier navigateur stable et largement diffusé fut 'NCSA Mosaic', en 1993.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-32",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_32.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-32-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel outil développé par le géant Google permet de gérer son emploi du temps ?",
+      "answer": "Google Agenda",
+      "options": [
+        "Google Mobile",
+        "Google TimeLine",
+        "Google Agenda",
+        "Google Tempo"
+      ],
+      "explanation": "'Google Agenda' permet de partager des événements et des agendas et de les publier sur internet ou sur un site Web.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-32",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_32.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-32-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle grande société a reçu le feu vert en 2011 pour le rachat de 'Skype' ?",
+      "answer": "Microsoft",
+      "options": [
+        "Facebook",
+        "Microsoft",
+        "Apple",
+        "Google"
+      ],
+      "explanation": "'Skype' est un logiciel gratuit qui permet de passer des appels téléphoniques et vidéo via Internet, ainsi que le partage d'écran.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-32",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_32.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-32-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est probablement le plus connu des systèmes informatiques dits « libre » ?",
+      "answer": "Linux",
+      "options": [
+        "Linux",
+        "MS-DOS",
+        "Mac OS",
+        "Windows"
+      ],
+      "explanation": "Linux est un système informatique qui fonctionne sur du matériel allant du téléphone portable au supercalculateur.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-32",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_32.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-32-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est le nom de la solution professionnelle de services Google ?",
+      "answer": "Google Apps",
+      "options": [
+        "Google Apps",
+        "Google Mac",
+        "Google Pro",
+        "Google Serve"
+      ],
+      "explanation": "Ce site Web au service des entreprises met en ligne de nombreuses applications.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-32",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_32.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-32-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel logiciel est mis gratuitement et librement à disposition par son créateur ?",
+      "answer": "Un freeware",
+      "options": [
+        "Un adware",
+        "Un software",
+        "Un malware",
+        "Un freeware"
+      ],
+      "explanation": "Il ne faut toutefois pas confondre freeware (gratuiciel) et shareware (partagiciel).",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-32",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_32.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-32-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En avril 2012, quelle start-up Facebook a-t-il racheté pour un milliard de dollars ?",
+      "answer": "Instagram",
+      "options": [
+        "Backelite",
+        "Valve",
+        "Instagram",
+        "Globalnet"
+      ],
+      "explanation": "'Instagram' est une application cofondée et lancée par l'américain Kevin Systrom et le Brésilien Michel Mike Krieger en octobre 2010.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-32",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_32.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-32-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Au Québec, quel mot est souvent utilisé pour désigner le courrier électronique ?",
+      "answer": "Courriel",
+      "options": [
+        "Lettrinter",
+        "Copitel",
+        "Courriel",
+        "Emel"
+      ],
+      "explanation": "Le courriel tend à être reconnu comme moyen valide de contacter une personne.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-32",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_32.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-32-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel logiciel de Microsoft a remplacé 'Windows Live Messenger' en 2013 ?",
+      "answer": "Skype",
+      "options": [
+        "QuickTime",
+        "Skype",
+        "Pidgin",
+        "Instagram"
+      ],
+      "explanation": "'Skype' a été fondé en Estonie par Niklas Zennström et Janus Friis en 2003 et développé par 3 Estoniens à l'origine du logiciel 'KaZaA'.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-32",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_32.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-32-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel logiciel est indispensable pour protéger votre ordinateur sur Internet ?",
+      "answer": "Un antivirus",
+      "options": [
+        "Un antivirus",
+        "Un navigateur",
+        "Une messagerie",
+        "Un chat"
+      ],
+      "explanation": "Les antivirus peuvent balayer le contenu d'un disque dur, mais également la mémoire vive de l'ordinateur.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-32",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_32.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-32-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui est le tout premier pape à avoir envoyé un message sur 'Twitter' ?",
+      "answer": "Benoît XVI",
+      "options": [
+        "Jean-Paul II",
+        "François",
+        "Benoît XVI",
+        "Paul VI"
+      ],
+      "explanation": "Réputé conservateur, le cardinal Ratzinger a été élu le 19 avril 2005 pour succéder à Jean-Paul II.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-32",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_32.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-32-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel courrielleur créé par Mozilla est le compagnon idéal du navigateur 'Firefox' ?",
+      "answer": "Thunderbird",
+      "options": [
+        "Thunderbird",
+        "Foxmail",
+        "Incredimail",
+        "Sylpheed"
+      ],
+      "explanation": "Tout comme 'Firefox', 'Thunderbird' et son interface en XUL est basé sur le moteur Gecko.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-32",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_32.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-32-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel nom porte la suite bureautique en ligne proposée par Microsoft ?",
+      "answer": "Office 365",
+      "options": [
+        "Office 365",
+        "KOffice",
+        "OpenOffice",
+        "StarOffice"
+      ],
+      "explanation": "Les abonnements 'Office 365' pour les particuliers permettent de bénéficier de la version complète de la suite Office que l'on connaît.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-32",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_32.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-32-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel était le nom de code de la version 3.1 de Windows ?",
+      "answer": "Janus",
+      "options": [
+        "Uranus",
+        "Janus",
+        "Opus",
+        "Startus"
+      ],
+      "explanation": "La version 3 a été la première à connaître un large succès, permettant à Microsoft de rivaliser avec l'Apple Macintosh.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-32",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_32.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-32-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel nom porte le service de stockage en ligne de Windows Live ?",
+      "answer": "Onedrive",
+      "options": [
+        "MediaFire",
+        "Dropbox",
+        "RapidShare",
+        "Onedrive"
+      ],
+      "explanation": "Ce service en ligne de stockage et d'applications, créé en 2007, est une manifestation du concept de cloud computing.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-32",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_32.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-32-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le nouveau nom du logiciel gratuit de messagerie instantanée 'Gaim' ?",
+      "answer": "Pidgin",
+      "options": [
+        "Komunnity",
+        "Connect",
+        "Pidgin",
+        "iShare"
+      ],
+      "explanation": "'Gaim' a été renommé en 'Pidgin' en 2007 en raison de plaintes de la société AOL et de sa marque AIM.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-32",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_32.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-32-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle suite logicielle équivaut à Microsoft Office chez le géant Google ?",
+      "answer": "Google Documents",
+      "options": [
+        "Google Sites",
+        "Google Documents",
+        "OpenOffice",
+        "Works"
+      ],
+      "explanation": "'Google Documents' est une suite des évolutions de 'Google Spreadsheets' et de 'Writely', logiciel de traitement de texte.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-32",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_32.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-32-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel pays la suite logicielle gratuite 'Opera' est-elle originaire ?",
+      "answer": "Norvège",
+      "options": [
+        "Norvège",
+        "France",
+        "Autriche",
+        "Italie"
+      ],
+      "explanation": "'Opera' est un navigateur Web développé par la société norvégienne Opera Software, qui propose plusieurs logiciels relatifs à Internet.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-32",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_32.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-32-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces outils ne permet pas de visionner des pages web ?",
+      "answer": "Acrobat Reader",
+      "options": [
+        "Mozilla Firefox",
+        "Google Chrome",
+        "Internet Explorer",
+        "Acrobat Reader"
+      ],
+      "explanation": "Adobe change régulièrement le nom des produits de la famille Acrobat et cela en subdivisant ses produits.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-32",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_32.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-32-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de téléchargements dénombrait-on sur le célèbre 'App Store' fin 2012 ?",
+      "answer": "35 milliards",
+      "options": [
+        "35 milliards",
+        "15 milliards",
+        "5 milliards",
+        "25 milliards"
+      ],
+      "explanation": "Depuis la mise à jour du système d'exploitation d'Apple iOS 7 en septembre 2013, l''App Store' possède un tout nouveau design.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-32",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_32.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-32-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la date « officielle » de création de 'Wikipédia' en Français ?",
+      "answer": "Le 23 mars 2001",
+      "options": [
+        "Le 2 janvier 1999",
+        "Le 15 janvier 2002",
+        "Le 8 décembre 2000",
+        "Le 23 mars 2001"
+      ],
+      "explanation": "Plusieurs moyens de consulter l'encyclopédie existent, tels que des sites web miroirs ou des applications pour smartphone.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-32",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_32.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

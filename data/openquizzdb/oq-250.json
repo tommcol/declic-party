@@ -1,0 +1,474 @@
+{
+  "id": "oq-250",
+  "title": "Comédies françaises",
+  "originalTitle": "Comédies françaises (Il s'appelle Juste Leblanc)",
+  "universe": "film",
+  "emoji": "🎬",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_250.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "review": "source-archive",
+  "excludedOriginalIds": [
+    5,
+    14,
+    16,
+    19,
+    20,
+    21,
+    22,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30
+  ],
+  "questions": [
+    {
+      "id": "oqdb-250-1",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui est en fait Pouic-Pouic dans la comédie du même nom avec Louis de Funès ?",
+      "answer": "Un coq",
+      "options": [
+        "Un chat",
+        "Un coq",
+        "Jacqueline Maillan",
+        "Louis de Funès"
+      ],
+      "explanation": "Lorsque la pièce de théâtre fut montée en 1952, Louis de Funès jouait alors le maître d'hôtel, interprété ici par Christian Marin.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-250",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_250.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-250-2",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui est aux côtés de Christian Clavier dans « Les anges gardiens » ?",
+      "answer": "Gérard Depardieu",
+      "options": [
+        "Gérard Depardieu",
+        "Gérard Jugnot",
+        "Jean Reno",
+        "Marie-Anne Chazel"
+      ],
+      "explanation": "Les similitudes avec « Les Visiteurs » sont l'opposition entre Tarain et son ange, le groom violemment expédié et la disparition des anges.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-250",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_250.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-250-3",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "De combien doivent hériter chacun des frères de la comédie « Les 3 frères » ?",
+      "answer": "100 patates",
+      "options": [
+        "100 briques",
+        "100 euros",
+        "100 patates",
+        "100 francs"
+      ],
+      "explanation": "Le film réunissant la troupe comique des Inconnus, sorti en 1995. fut réalisé par Didier Bourdon et Bernard Campan eux-mêmes.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-250",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_250.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-250-4",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui est surnommé « Ma biche » par Louis de Funès dans la plupart de ses films ?",
+      "answer": "Sa femme",
+      "options": [
+        "Sa soeur",
+        "Sa femme",
+        "Sa fille",
+        "Sa mère"
+      ],
+      "explanation": "Claude Gensac ayant souvent joué sa femme à l'écran, beaucoup de Français croyaient qu'elle était aussi sa femme dans la vie.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-250",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_250.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-250-6",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans l'un de ses films, Coluche est surnommé Inspecteur...",
+      "answer": "La Bavure",
+      "options": [
+        "La Bêtise",
+        "La Banqueroute",
+        "La Bévue",
+        "La Bavure"
+      ],
+      "explanation": "Le personnage de Roger Morzini est un pastiche de Jacques Mesrine, ennemi public numéro 1 tué par la police un an avant le film.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-250",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_250.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-250-7",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quel café-théâtre se sont fait connaître les acteurs des Bronzés ?",
+      "answer": "Le Splendid",
+      "options": [
+        "Le Splendid",
+        "Le Sublime",
+        "Le Super",
+        "Le Spécial"
+      ],
+      "explanation": "Anémone, Martin Lamotte, Dominique Lavanant et Roland Giraud ont souvent accompagné la troupe sur scène ou devant la caméra.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-250",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_250.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-250-8",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel diplôme tentent de décrocher les élèves dans « Les Sous-doués » ?",
+      "answer": "Baccalauréat",
+      "options": [
+        "BEP",
+        "Brevet",
+        "Baccalauréat",
+        "Master"
+      ],
+      "explanation": "La machine à apprendre n'est pas très fiable : elle prétend que l'ONU a été fondée en 1942, alors que c'est en 1945.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-250",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_250.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-250-9",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui incarne le fameux extra-terrestre jaune dans « La Soupe aux choux » ?",
+      "answer": "Jacques Villeret",
+      "options": [
+        "Michel Galabru",
+        "Bernard Campan",
+        "Jacques Villeret",
+        "Louis de Funès"
+      ],
+      "explanation": "Louis de Funès tournera pour la première fois avec écran de contrôle vidéo, permettant de visionner immédiatement les prises.",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-250",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_250.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-250-10",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui a écrit les dialogues cultes des « Tontons Flingueurs » ?",
+      "answer": "Michel Audiard",
+      "options": [
+        "Marguerite Duras",
+        "Michel Audiard",
+        "Georges Lautner",
+        "Jean Cocteau"
+      ],
+      "explanation": "En 2003, une édition numérotée du film à 1 963 exemplaires sous coffret en bois a été proposée en y associant « Les Barbouzes ».",
+      "level": "easy",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-250",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_250.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-250-11",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le nom de famille de Pierre Richard dans le film « La chèvre » de Francis Veber ?",
+      "answer": "Perrin",
+      "options": [
+        "Perrin",
+        "Pignon",
+        "Duchemin",
+        "Tricatel"
+      ],
+      "explanation": "Les rôles devaient à l'origine être tenus par Lino Ventura et Jacques Villeret, mais le premier ne souhaitait pas tourner avec le second.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-250",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_250.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-250-12",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Où se trouve mon curé selon un titre de comédie française ?",
+      "answer": "Chez les nudistes",
+      "options": [
+        "Chez les nonnes",
+        "Chez les mondains",
+        "Chez les nudistes",
+        "Chez les grecs"
+      ],
+      "explanation": "Ce film, qualifié de navet par les Cahiers du cinéma et de chef-d'oeuvre par l'animateur Arthur, a fait 1 173 770 entrées.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-250",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_250.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-250-13",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Lequel de ces chanteurs est aussi acteur comique à ses heures ?",
+      "answer": "Jacques Brel",
+      "options": [
+        "Claude Nougaro",
+        "Jacques Brel",
+        "Boris Vian",
+        "Charles Aznavour"
+      ],
+      "explanation": "En décembre 2005, Jacques Brel fut élu au rang de « plus grand Belge » par le public de la RTBF (Radio-télévision belge).",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-250",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_250.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-250-15",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui a réalisé « Les visiteurs », comptabilisant plus de 14 millions d'entrées ?",
+      "answer": "Jean-Marie Poiré",
+      "options": [
+        "Claude Berri",
+        "Claude Zidi",
+        "Jean-Marie Poiré",
+        "Claude Lelouch"
+      ],
+      "explanation": "Après son succès au box-office, le film fut nommé huit fois à la 19e cérémonie des César, pour n'en recevoir finalement qu'un.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-250",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_250.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-250-17",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Avec qui Michel Serrault partage-t-il la vedette dans « La Cage aux folles » ?",
+      "answer": "Ugo Tognazzi",
+      "options": [
+        "Jean Lefebvre",
+        "Bourvil",
+        "Ugo Tognazzi",
+        "Aldo Maccione"
+      ],
+      "explanation": "Pierre Mondy, la voix française d'Ugo Tognazzi dans le film, était un ami de Jean Poiret et de Michel Serrault.",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-250",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_250.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-250-18",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Combien de comédies Pierre Richard et Gérard Depardieu ont-ils jouées ensemble ?",
+      "answer": "Trois",
+      "options": [
+        "Six",
+        "Quatre",
+        "Cinq",
+        "Trois"
+      ],
+      "explanation": "Nous avons pu retrouver les deux comédiens dans les films suivants : « La Chèvre », « Les Compères » et « Les Fugitifs ».",
+      "level": "medium",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-250",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_250.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-250-23",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Lequel de ces acteurs ne retrouve-t-on pas dans « Le gendarme se marie » ?",
+      "answer": "Maurice Rich",
+      "options": [
+        "Jean Lefebvre",
+        "Christian Marin",
+        "Maurice Rich",
+        "Nicole Vervil"
+      ],
+      "explanation": "Le tournage du film fut marqué par la mort d'un cascadeur et par une longue grève déclenchée par les événements de Mai 68.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-250",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_250.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-250-24",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel écrivain, dramaturge et cinéaste a réalisé « Le Schpountz » en 1938 ?",
+      "answer": "Marcel Pagnol",
+      "options": [
+        "Marcel Pagnol",
+        "Marcel Aboulker",
+        "Marcel Carné",
+        "Marcel Achard"
+      ],
+      "explanation": "Un remake a été réalisé en 1999 par Gérard Oury avec en tête d'affiche Smaïn, Sabine Azéma et Ticky Holgado.",
+      "level": "hard",
+      "emoji": "🎬",
+      "duration": 30,
+      "points": 100,
+      "theme": "oq-250",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_250.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}
