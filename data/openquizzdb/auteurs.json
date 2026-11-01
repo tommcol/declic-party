@@ -1,0 +1,623 @@
+{
+  "id": "auteurs",
+  "title": "Écrivains et littérature",
+  "originalTitle": "Auteurs classiques",
+  "universe": "quiz",
+  "emoji": "📚",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_140.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "excludedOriginalIds": [
+    1,
+    5,
+    10,
+    13,
+    23,
+    24,
+    28
+  ],
+  "questions": [
+    {
+      "id": "oqdb-140-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel poète chilien a reçu le prix Nobel de littérature en 1971 ?",
+      "answer": "Pablo Neruda",
+      "options": [
+        "Gabriela Mistral",
+        "Pablo Neruda",
+        "Pablo de Rokha",
+        "Vicente Huidobro"
+      ],
+      "explanation": "Il est considéré comme l'un des quatre grands de la poésie chilienne (avec Gabriela Mistral, Pablo de Rokha et Vicente Huidobro).",
+      "level": "easy",
+      "emoji": "📚",
+      "duration": 30,
+      "points": 100,
+      "theme": "auteurs",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_140.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-140-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel poète et écrivain français était surnommé « le pape » du surréalisme ?",
+      "answer": "André Breton",
+      "options": [
+        "René Char",
+        "André Breton",
+        "Paul Éluard",
+        "Alain Jouffroy"
+      ],
+      "explanation": "Les œuvres complètes d'André Breton ont été publiées par Gallimard en quatre tomes dans la Bibliothèque de la Pléiade.",
+      "level": "easy",
+      "emoji": "📚",
+      "duration": 30,
+      "points": 100,
+      "theme": "auteurs",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_140.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-140-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel était le prénom du poète Du Bellay, né vers 1522 à Liré en Anjou ?",
+      "answer": "Joachim",
+      "options": [
+        "Edgar",
+        "Joachim",
+        "Honoré",
+        "Henri"
+      ],
+      "explanation": "Sa rencontre avec Pierre de Ronsard fut à l'origine de la formation de la Pléiade, pour lequel du Bellay rédigea un manifeste.",
+      "level": "easy",
+      "emoji": "📚",
+      "duration": 30,
+      "points": 100,
+      "theme": "auteurs",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_140.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-140-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel écrivain, mort en 1814, a parfois été surnommé le « divin marquis » ?",
+      "answer": "Sade",
+      "options": [
+        "Sade",
+        "Rimbaud",
+        "Montesquieu",
+        "Joyce"
+      ],
+      "explanation": "Il fut surnommé le « divin marquis », en référence au « divin Arétin », premier auteur érotique des temps modernes.",
+      "level": "easy",
+      "emoji": "📚",
+      "duration": 30,
+      "points": 100,
+      "theme": "auteurs",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_140.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-140-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel écrivain allemand a travaillé et repris pendant 60 ans son livre 'Faust' ?",
+      "answer": "Goethe",
+      "options": [
+        "Goethe",
+        "Becker",
+        "Jacoby",
+        "Lingg"
+      ],
+      "explanation": "Goethe est l'auteur d'une œuvre abondante aux accents encyclopédiques qui le rattache à deux mouvements littéraires.",
+      "level": "easy",
+      "emoji": "📚",
+      "duration": 30,
+      "points": 100,
+      "theme": "auteurs",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_140.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-140-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel romancier du XIXe siècle s’est lui-même baptisé « le Napoléon des lettres » ?",
+      "answer": "Balzac",
+      "options": [
+        "Balzac",
+        "Goethe",
+        "Verlaine",
+        "Montesquieu"
+      ],
+      "explanation": "Comme il l'explique dans 'La Comédie humaine', il a pour projet d'identifier les « Espèces sociales » de son époque.",
+      "level": "easy",
+      "emoji": "📚",
+      "duration": 30,
+      "points": 100,
+      "theme": "auteurs",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_140.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-140-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel poète, auteur d’'Alcools', a aussi écrit des romans libertins ?",
+      "answer": "Apollinaire",
+      "options": [
+        "Mauriac",
+        "Apollinaire",
+        "Balzac",
+        "Montaigne"
+      ],
+      "explanation": "Apollinaire est également l'auteur de poèmes tels que 'Zone', 'La Chanson du mal-aimé' ou encore 'Le Pont Mirabeau'.",
+      "level": "easy",
+      "emoji": "📚",
+      "duration": 30,
+      "points": 100,
+      "theme": "auteurs",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_140.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-140-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel écrivain russe a été excommunié par l'Église orthodoxe ?",
+      "answer": "Léon Tolstoï",
+      "options": [
+        "Roman Goul",
+        "Léon Tolstoï",
+        "Leonid Andreïev",
+        "Vladimir Charov"
+      ],
+      "explanation": "'Résurrection', écrit en 1899, est une œuvre regroupant la majorité des arguments de la philosophie de Léon Tolstoï.",
+      "level": "medium",
+      "emoji": "📚",
+      "duration": 30,
+      "points": 100,
+      "theme": "auteurs",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_140.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-140-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel écrivain américain du XIXe siècle a été traduit en France par Baudelaire ?",
+      "answer": "Edgar Allan Poe",
+      "options": [
+        "Mark Frost",
+        "Edgar Allan Poe",
+        "Chuck Wendig",
+        "Henry James"
+      ],
+      "explanation": "Connu surtout pour ses contes, il a donné à la nouvelle ses lettres de noblesse et est considéré comme l'inventeur du roman policier.",
+      "level": "medium",
+      "emoji": "📚",
+      "duration": 30,
+      "points": 100,
+      "theme": "auteurs",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_140.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-140-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle était la nationalité du romancier et essayiste Aldous Huxley ?",
+      "answer": "Anglaise",
+      "options": [
+        "Hongroise",
+        "Russe",
+        "Grecque",
+        "Anglaise"
+      ],
+      "explanation": "Le courant de pensée dit du « New Age » se réfère fréquemment à ses écrits mystiques et d'étude des hallucinogènes.",
+      "level": "medium",
+      "emoji": "📚",
+      "duration": 30,
+      "points": 100,
+      "theme": "auteurs",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_140.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-140-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel poète du XIXe siècle a été surnommé « l’homme aux semelles de vent » ?",
+      "answer": "Arthur Rimbaud",
+      "options": [
+        "Charles Baudelaire",
+        "Antoine Jofre",
+        "Arthur Rimbaud",
+        "Édouard Dujardin"
+      ],
+      "explanation": "Arthur Rimbaud abandonnera assez vite l'écriture pour se consacrer aux voyages et à l'étude des langues étrangères.",
+      "level": "medium",
+      "emoji": "📚",
+      "duration": 30,
+      "points": 100,
+      "theme": "auteurs",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_140.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-140-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a séjourné en Angleterre avant de rédiger 'De l'Esprit des lois' ?",
+      "answer": "Montesquieu",
+      "options": [
+        "Mauriac",
+        "Mirabeau",
+        "Montaigne",
+        "Montesquieu"
+      ],
+      "explanation": "Cette œuvre majeure, qui a demandé à Montesquieu quatorze ans de travail, a fait l'objet d'une mise à l'Index en 1751.",
+      "level": "medium",
+      "emoji": "📚",
+      "duration": 30,
+      "points": 100,
+      "theme": "auteurs",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_140.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-140-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel prix Simone de Beauvoir a-t-elle obtenu pour 'Les Mandarins' ?",
+      "answer": "Prix Goncourt",
+      "options": [
+        "Prix Nobel",
+        "Prix Goncourt",
+        "Prix Femina",
+        "Prix Renaudot"
+      ],
+      "explanation": "Il est dédié à Nelson Algren, un écrivain communiste américain avec lequel Beauvoir entretenait une intense relation depuis 1947.",
+      "level": "medium",
+      "emoji": "📚",
+      "duration": 30,
+      "points": 100,
+      "theme": "auteurs",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_140.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-140-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel écrivain, auteur du 'Hussard sur le toit', est né en Provence ?",
+      "answer": "Jean Giono",
+      "options": [
+        "Jean Garcin",
+        "Henri Bosco",
+        "Jean Giono",
+        "Auguste Lacour"
+      ],
+      "explanation": "Inspirée par son imagination et ses visions de la Grèce antique, son œuvre romanesque dépeint la condition de l'homme dans le monde.",
+      "level": "medium",
+      "emoji": "📚",
+      "duration": 30,
+      "points": 100,
+      "theme": "auteurs",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_140.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-140-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la nationalité de l'écrivain et scénariste Dashiell Hammett ?",
+      "answer": "Américaine",
+      "options": [
+        "Américaine",
+        "Anglaise",
+        "Irlandaise",
+        "Écossaise"
+      ],
+      "explanation": "Considéré comme le fondateur du roman noir, la contribution de Hammett à la littérature américaine est d'une importance capitale.",
+      "level": "medium",
+      "emoji": "📚",
+      "duration": 30,
+      "points": 100,
+      "theme": "auteurs",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_140.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-140-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel écrivain a fait publier les œuvres de son ami La Boétie ?",
+      "answer": "Montaigne",
+      "options": [
+        "Mallarmé",
+        "Mirabeau",
+        "Montesquieu",
+        "Montaigne"
+      ],
+      "explanation": "Le plus souvent souffrant ou maladif, Michel de Montaigne essaya de guérir en voyageant vers des lieux de cure.",
+      "level": "medium",
+      "emoji": "📚",
+      "duration": 30,
+      "points": 100,
+      "theme": "auteurs",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_140.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-140-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Près de quelle ville du sud-ouest Montaigne et Montesquieu ont-ils vécu ?",
+      "answer": "Bordeaux",
+      "options": [
+        "Toulouse",
+        "Lyon",
+        "Marseille",
+        "Bordeaux"
+      ],
+      "explanation": "Prenant une part active à la vie politique en Aquitaine, Montaigne sera par deux fois maire de Bordeaux, de 1581 à 1585.",
+      "level": "hard",
+      "emoji": "📚",
+      "duration": 30,
+      "points": 100,
+      "theme": "auteurs",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_140.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-140-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel dramaturge a confié la mise en scène du 'Soulier de satin' à Jean-Louis Barrault ?",
+      "answer": "Paul Claudel",
+      "options": [
+        "Jean Giono",
+        "René Char",
+        "Paul Claudel",
+        "François Mauriac"
+      ],
+      "explanation": "'Le Soulier de satin' est rarement joué en raison de sa durée et des effets que nécessite la mise en scène.",
+      "level": "hard",
+      "emoji": "📚",
+      "duration": 30,
+      "points": 100,
+      "theme": "auteurs",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_140.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-140-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel pays Louis Hémon est-il mort écrasé par un train ?",
+      "answer": "Canada",
+      "options": [
+        "Canada",
+        "Suisse",
+        "Inde",
+        "Allemagne"
+      ],
+      "explanation": "Il doit sa célébrité à son principal roman, 'Maria Chapdelaine', écrit en 1912-1913 au Québec et publié après sa mort.",
+      "level": "hard",
+      "emoji": "📚",
+      "duration": 30,
+      "points": 100,
+      "theme": "auteurs",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_140.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-140-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel écrivain irlandais a vu son livre 'Ulysse' jugé « matière obscène » ?",
+      "answer": "James Joyce",
+      "options": [
+        "Graham Greene",
+        "Chris Beckett",
+        "James Joyce",
+        "Mat Coward"
+      ],
+      "explanation": "Dans un premier temps, il fut publié sous forme de feuilleton dans le magazine américain 'The Little Review' entre 1918 et 1920.",
+      "level": "hard",
+      "emoji": "📚",
+      "duration": 30,
+      "points": 100,
+      "theme": "auteurs",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_140.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-140-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle romancière du début du XXe siècle a été danseuse et mime ?",
+      "answer": "Colette",
+      "options": [
+        "Champol",
+        "Calouan",
+        "Colette",
+        "Cardeline"
+      ],
+      "explanation": "Après Judith Gautier en 1910, Sidonie-Gabrielle Colette est la deuxième femme élue membre de l'académie Goncourt en 1945.",
+      "level": "hard",
+      "emoji": "📚",
+      "duration": 30,
+      "points": 100,
+      "theme": "auteurs",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_140.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-140-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel romancier évoque son domaine de Malagar en Aquitaine ?",
+      "answer": "François Mauriac",
+      "options": [
+        "Jean Giono",
+        "Guy de Maupassant",
+        "André Gide",
+        "François Mauriac"
+      ],
+      "explanation": "L'histoire de Malagar est intimement liée à l'écrivain François Mauriac dont ce fut l'une des demeures familiales.",
+      "level": "hard",
+      "emoji": "📚",
+      "duration": 30,
+      "points": 100,
+      "theme": "auteurs",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_140.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-140-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel romancier a reçu le prix Nobel de littérature en 1952 ?",
+      "answer": "François Mauriac",
+      "options": [
+        "François Mauriac",
+        "Paul Claudel",
+        "Jean Giono",
+        "André Breton"
+      ],
+      "explanation": "Il fut salué pour « l’imprégnation spirituelle et l'intensité artistique avec laquelle ses romans ont pénétré le drame de la vie humaine ».",
+      "level": "hard",
+      "emoji": "📚",
+      "duration": 30,
+      "points": 100,
+      "theme": "auteurs",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_140.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

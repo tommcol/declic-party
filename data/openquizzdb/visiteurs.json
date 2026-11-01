@@ -1,0 +1,623 @@
+{
+  "id": "visiteurs",
+  "title": "Les Visiteurs",
+  "originalTitle": "Les Visiteurs (Okay c'est okay !)",
+  "universe": "film",
+  "emoji": "🏰",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_59.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "excludedOriginalIds": [
+    4,
+    6,
+    8,
+    9,
+    19,
+    27,
+    30
+  ],
+  "questions": [
+    {
+      "id": "oqdb-59-1",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel personnage est incarné par Jean Reno dans la saga « Les Visiteurs » ?",
+      "answer": "Godefroy",
+      "options": [
+        "Godefroy",
+        "Jacquouille",
+        "Florian",
+        "Thibaud"
+      ],
+      "explanation": "Le comte Godefroy de Montmirail, dit le Hardi, se voit promettre en épousailles Frénégonde, la fillotte du duc Fulbert de Pouille.",
+      "level": "easy",
+      "emoji": "🏰",
+      "duration": 30,
+      "points": 100,
+      "theme": "visiteurs",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_59.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-59-2",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui incarne Béatrice de Montmirail dans la comédie « Les Visiteurs » ?",
+      "answer": "Valérie Lemercier",
+      "options": [
+        "Valérie Lemercier",
+        "Michèle Laroque",
+        "Murielle Robin",
+        "Isabelle Nanty"
+      ],
+      "explanation": "Le film a réuni à nouveau le trio de « L'Opération Corned-Beef » : Jean Reno, Christian Clavier et Valérie Lemercier.",
+      "level": "easy",
+      "emoji": "🏰",
+      "duration": 30,
+      "points": 100,
+      "theme": "visiteurs",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_59.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-59-3",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le statut social de Ginette Sarclay, excentrique personnage du film « Les Visiteurs » ?",
+      "answer": "SDF",
+      "options": [
+        "SDF",
+        "Comtesse",
+        "Infirmière",
+        "Servante"
+      ],
+      "explanation": "Ginette, après avoir rencontré avec Godefroy et Jacquouille, leur interprète le refrain de « Casser la voix », sortie trois ans plus tôt.",
+      "level": "easy",
+      "emoji": "🏰",
+      "duration": 30,
+      "points": 100,
+      "theme": "visiteurs",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_59.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-59-5",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Où Jacquouille rencontre-t-il Ginette dans « Les Visiteurs » ?",
+      "answer": "Sur un parking",
+      "options": [
+        "Dans un restaurant",
+        "En discothèque",
+        "Au supermarché",
+        "Sur un parking"
+      ],
+      "explanation": "Le premier volet de la saga « Les Visiteurs », sorti en 1993, a attiré plus de 13 782 991 spectateurs rien qu'en France.",
+      "level": "easy",
+      "emoji": "🏰",
+      "duration": 30,
+      "points": 100,
+      "theme": "visiteurs",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_59.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-59-7",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans « Les Visiteurs », un des personnages se nomme Jacquouille la...",
+      "answer": "Fripouille",
+      "options": [
+        "Gargouille",
+        "Grenouille",
+        "Trouille",
+        "Fripouille"
+      ],
+      "explanation": "Des internautes ont créé le site « La boîte à Jacquouille » dans lequel on peut écouter les répliques les plus connues de Jacquouille.",
+      "level": "easy",
+      "emoji": "🏰",
+      "duration": 30,
+      "points": 100,
+      "theme": "visiteurs",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_59.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-59-10",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "De qui Jacquouille tombe-t-il amoureux dans « Les Visiteurs » ?",
+      "answer": "Dame Ginette",
+      "options": [
+        "Dame Gilberte",
+        "Dame Josette",
+        "Dame Janette",
+        "Dame Ginette"
+      ],
+      "explanation": "Parmi les répliques cultes, on retiendra le célèbre « Merci la gueuse. Tu es un laideron mais tu es bien bonne ».",
+      "level": "easy",
+      "emoji": "🏰",
+      "duration": 30,
+      "points": 100,
+      "theme": "visiteurs",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_59.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-59-11",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel roi Godefroy sauve-t-il dans le film « Les Visiteurs » ?",
+      "answer": "Louis VI",
+      "options": [
+        "Louis V",
+        "Louis VII",
+        "Louis VI",
+        "Louis VIII"
+      ],
+      "explanation": "Louis VI le Gros a été dépeint de manière caricaturale dans « Les Visiteurs » sous les traits de l'acteur Didier Pain.",
+      "level": "medium",
+      "emoji": "🏰",
+      "duration": 30,
+      "points": 100,
+      "theme": "visiteurs",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_59.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-59-12",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quoi Jacquouille met-il les cigares de Jean-Pierre dans « Les Visiteurs 2 » ?",
+      "answer": "Évier",
+      "options": [
+        "Évier",
+        "Frigo",
+        "Congélateur",
+        "Four"
+      ],
+      "explanation": "Jean-Pierre Goulard, interprété par l'acteur Christian Bujeau, est dans le film dentiste de profession et surtout le mari de Béatrice.",
+      "level": "medium",
+      "emoji": "🏰",
+      "duration": 30,
+      "points": 100,
+      "theme": "visiteurs",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_59.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-59-13",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Que sentent les pastilles des urinoirs selon Jacquouille dans « Les visiteurs en Amérique » ?",
+      "answer": "La forêt",
+      "options": [
+        "La merdasse",
+        "La souplette",
+        "La forêt",
+        "Le purin"
+      ],
+      "explanation": "Des acteurs anglophones comme Christina Applegate, Malcolm McDowell et Tara Reid ont complété la distribution du film.",
+      "level": "medium",
+      "emoji": "🏰",
+      "duration": 30,
+      "points": 100,
+      "theme": "visiteurs",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_59.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-59-14",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Coment Jean-Pierre Goulard appelle-t-il sa femme dans le film « Les Visiteurs » ?",
+      "answer": "Béa",
+      "options": [
+        "Béa",
+        "Dora",
+        "Cora",
+        "Zora"
+      ],
+      "explanation": "Après son succès au box-office, le film « Les Visiteurs » fut nommé huit fois à la 19e cérémonie des César.",
+      "level": "medium",
+      "emoji": "🏰",
+      "duration": 30,
+      "points": 100,
+      "theme": "visiteurs",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_59.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-59-15",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel ingrédient de la préparation le mage des « Visiteurs » oublie-t-il de mettre dans la potion ?",
+      "answer": "Un oeuf",
+      "options": [
+        "Un oeuf",
+        "Une herbe",
+        "Un poisson",
+        "Une limace"
+      ],
+      "explanation": "Suite à cet oubli, Godefroy et son écuyer Jacquouille la Fripouille se retrouvent alors propulsés au XXe siècle, en 1992.",
+      "level": "medium",
+      "emoji": "🏰",
+      "duration": 30,
+      "points": 100,
+      "theme": "visiteurs",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_59.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-59-16",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quels uniformes les personnages du film « Les Visiteurs 2 » arborent-ils ?",
+      "answer": "Gendarmes",
+      "options": [
+        "Pompiers",
+        "Militaires",
+        "Policiers",
+        "Gendarmes"
+      ],
+      "explanation": "C'est la rue Saint-Côme à Luzarches que traversent Godefroy et Jacquouille, habillés en gendarmes et accostant Mme Legueux.",
+      "level": "medium",
+      "emoji": "🏰",
+      "duration": 30,
+      "points": 100,
+      "theme": "visiteurs",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_59.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-59-17",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Comment surnomme-t-on Godefroy dans la saga « Les Visiteurs » ?",
+      "answer": "Le Hardi",
+      "options": [
+        "Le Bon",
+        "Le Franc",
+        "Le Hardi",
+        "Le Vaillant"
+      ],
+      "explanation": "Dans le film « Les Visiteurs en Amérique », le personnage de Thibault de Malfète est un équivalent de Godefroy de Montmirail.",
+      "level": "medium",
+      "emoji": "🏰",
+      "duration": 30,
+      "points": 100,
+      "theme": "visiteurs",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_59.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-59-18",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le métier du mari de dame Béatrice dans « Les Visiteurs » ?",
+      "answer": "Dentiste",
+      "options": [
+        "Avocat",
+        "Vétérinaire",
+        "Pompier",
+        "Dentiste"
+      ],
+      "explanation": "Jean-Pierre n'est pas issu d'une famille noble, ce qui lui vaut d'être appelé « le gueux » par Jacquouille et Godefroy",
+      "level": "medium",
+      "emoji": "🏰",
+      "duration": 30,
+      "points": 100,
+      "theme": "visiteurs",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_59.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-59-20",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "À quel réalisateur et producteur français doit-on le film « Les Visiteurs », sorti en 1993 ?",
+      "answer": "Jean-Marie Poiré",
+      "options": [
+        "Jean-Marie Poiré",
+        "Claude Zidi",
+        "Alexandre Astier",
+        "Patrick Braoudé"
+      ],
+      "explanation": "Jean-Marie Poiré a rencontré l'acteur et scénariste Christian Clavier sur le tournage du « père Noël est une ordure ».",
+      "level": "medium",
+      "emoji": "🏰",
+      "duration": 30,
+      "points": 100,
+      "theme": "visiteurs",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_59.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-59-21",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "En quelle année le film « Les Visiteurs » est-il sorti dans nos salles de cinéma ?",
+      "answer": "1993",
+      "options": [
+        "1995",
+        "1993",
+        "1994",
+        "1992"
+      ],
+      "explanation": "Comédie populaire du cinéma français, le film « Les Visiteurs » est le cinquième film français ayant engrangé le plus d'entrées.",
+      "level": "hard",
+      "emoji": "🏰",
+      "duration": 30,
+      "points": 100,
+      "theme": "visiteurs",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_59.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-59-22",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Comment se prénomme la femme de Maurice, l'homme au chapeau, dans « Les Visiteurs 2 » ?",
+      "answer": "Gisèle",
+      "options": [
+        "Joseline",
+        "Ginette",
+        "Gisèle",
+        "Janine"
+      ],
+      "explanation": "Gisèle et Maurice possèdent un exemplaire du guide Gault et Millau mais qui daté de 1998, alors que le film se déroule en 1992.",
+      "level": "hard",
+      "emoji": "🏰",
+      "duration": 30,
+      "points": 100,
+      "theme": "visiteurs",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_59.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-59-23",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel sociétaire de la Comédie-Française incarne le mage Eusæbius dans « Les Visiteurs » ?",
+      "answer": "Pierre Vial",
+      "options": [
+        "Gérard Séty",
+        "Pierre Vial",
+        "Jean-Paul Muel",
+        "Didier Pain"
+      ],
+      "explanation": "Pierre Vial a dirigé la Comédie de Saint-Étienne de 1970 à 1975 et a été instituteur en Algérie.",
+      "level": "hard",
+      "emoji": "🏰",
+      "duration": 30,
+      "points": 100,
+      "theme": "visiteurs",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_59.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-59-24",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel objet est appelé la boîte à troubadours dans le film « Les Visiteurs » ?",
+      "answer": "Télévision",
+      "options": [
+        "Télévision",
+        "Lave-linge",
+        "Chaîne hi-fi",
+        "Radio"
+      ],
+      "explanation": "Troubadour est un mot de langue d'oc, et son usage n'a pas de pertinence en dehors des limites de l'Occitanie.",
+      "level": "hard",
+      "emoji": "🏰",
+      "duration": 30,
+      "points": 100,
+      "theme": "visiteurs",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_59.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-59-25",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel acteur incarne Thibault de Malfète dans le film « Les visiteurs en Amérique » ?",
+      "answer": "Jean Reno",
+      "options": [
+        "Pierre Vial",
+        "Christian Bujeau",
+        "Jean Reno",
+        "Christian Clavier"
+      ],
+      "explanation": "Le nom Malfète est tiré du nom du personnage original, Godefroy de Montmirail, dont le nom complet est Godefroy Amaury de Malefète.",
+      "level": "hard",
+      "emoji": "🏰",
+      "duration": 30,
+      "points": 100,
+      "theme": "visiteurs",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_59.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-59-26",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quelle ville « Les Visiteurs » ont-ils atterri en Amérique ?",
+      "answer": "Chicago",
+      "options": [
+        "New York",
+        "Miami",
+        "Los Angeles",
+        "Chicago"
+      ],
+      "explanation": "Le film « Les Visiteurs en Amérique » a été tourné du 14 avril au 26 juin 1999 en Grande-Bretagne et à Chicago, aux États-Unis.",
+      "level": "hard",
+      "emoji": "🏰",
+      "duration": 30,
+      "points": 100,
+      "theme": "visiteurs",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_59.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-59-28",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel employé de garage est le bon compagnon de Jacquouille dans « Les Visiteurs » ?",
+      "answer": "Paulo",
+      "options": [
+        "Roberto",
+        "Pedro",
+        "Paulo",
+        "Carlo"
+      ],
+      "explanation": "Paulo est interprété par Candide Sanchez, acteur français ayant fait de nombreuses apparitions au cinéma dans des rôles mineurs.",
+      "level": "hard",
+      "emoji": "🏰",
+      "duration": 30,
+      "points": 100,
+      "theme": "visiteurs",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_59.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-59-29",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel capitaine de gendarmerie est chargé d'enquêter dans « Les Visiteurs » ?",
+      "answer": "Batardet",
+      "options": [
+        "Bachardet",
+        "Batardet",
+        "Bagardet",
+        "Bazardet"
+      ],
+      "explanation": "Batardet sera aussi invité au mariage de Philippine de Montmirail et Benoît Lumeau-Péricard.",
+      "level": "hard",
+      "emoji": "🏰",
+      "duration": 30,
+      "points": 100,
+      "theme": "visiteurs",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_59.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

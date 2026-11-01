@@ -1,0 +1,329 @@
+{
+  "id": "culturepop",
+  "title": "Culture pop et séries",
+  "universe": "quiz",
+  "emoji": "🍿",
+  "credit": {
+    "publisher": "LearnClash",
+    "author": "LearnClash — Pluxia GmbH (2026)",
+    "source": "https://github.com/Pluxia-GmbH/learnclash-open-trivia/blob/219b618fe569982a4a4b11a275a8f0d98b4661cd/fr/index.html",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "questions": [
+    {
+      "id": "learnclash-88",
+      "originalId": 88,
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans les films Marvel, de quel métal est fait le bouclier de Captain America ?",
+      "answer": "Vibranium",
+      "options": [
+        "Vibranium",
+        "Adamantium",
+        "Beskar",
+        "Mithril"
+      ],
+      "explanation": "Dans les films, le bouclier est en vibranium. Les comics décrivent un alliage différent.",
+      "level": "easy",
+      "emoji": "🍿",
+      "duration": 30,
+      "points": 100,
+      "theme": "culturepop",
+      "credit": {
+        "publisher": "LearnClash",
+        "author": "LearnClash — Pluxia GmbH (2026)",
+        "source": "https://github.com/Pluxia-GmbH/learnclash-open-trivia/blob/219b618fe569982a4a4b11a275a8f0d98b4661cd/fr/index.html",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "aliases": []
+    },
+    {
+      "id": "learnclash-89",
+      "originalId": 89,
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel poste Harry Potter occupe-t-il au Quidditch ?",
+      "answer": "Attrapeur",
+      "options": [
+        "Attrapeur",
+        "Gardien",
+        "Batteur",
+        "Poursuiveur"
+      ],
+      "explanation": "L’attrapeur cherche à saisir le Vif d’or.",
+      "level": "easy",
+      "emoji": "🍿",
+      "duration": 30,
+      "points": 100,
+      "theme": "culturepop",
+      "credit": {
+        "publisher": "LearnClash",
+        "author": "LearnClash — Pluxia GmbH (2026)",
+        "source": "https://github.com/Pluxia-GmbH/learnclash-open-trivia/blob/219b618fe569982a4a4b11a275a8f0d98b4661cd/fr/index.html",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "aliases": []
+    },
+    {
+      "id": "learnclash-90",
+      "originalId": 90,
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sur quel continent se trouvent les Sept Couronnes dans Game of Thrones ?",
+      "answer": "Westeros",
+      "options": [
+        "Westeros",
+        "Essos",
+        "Sothoryos",
+        "Ulthos"
+      ],
+      "explanation": "Westeros se trouve à l’ouest d’Essos, où se déroule une autre partie de l’histoire.",
+      "level": "medium",
+      "emoji": "🍿",
+      "duration": 30,
+      "points": 100,
+      "theme": "culturepop",
+      "credit": {
+        "publisher": "LearnClash",
+        "author": "LearnClash — Pluxia GmbH (2026)",
+        "source": "https://github.com/Pluxia-GmbH/learnclash-open-trivia/blob/219b618fe569982a4a4b11a275a8f0d98b4661cd/fr/index.html",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "aliases": []
+    },
+    {
+      "id": "learnclash-91",
+      "originalId": 91,
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans les films Star Wars, quelle est la couleur du sabre laser de Mace Windu ?",
+      "answer": "Violette",
+      "options": [
+        "Violette",
+        "Rouge",
+        "Verte",
+        "Bleue"
+      ],
+      "explanation": "Mace Windu, interprété par Samuel L. Jackson, porte un sabre à lame violette.",
+      "level": "medium",
+      "emoji": "🍿",
+      "duration": 30,
+      "points": 100,
+      "theme": "culturepop",
+      "credit": {
+        "publisher": "LearnClash",
+        "author": "LearnClash — Pluxia GmbH (2026)",
+        "source": "https://github.com/Pluxia-GmbH/learnclash-open-trivia/blob/219b618fe569982a4a4b11a275a8f0d98b4661cd/fr/index.html",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "aliases": [
+        "violet"
+      ]
+    },
+    {
+      "id": "learnclash-93",
+      "originalId": 93,
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment s’appelle le cheval de Gandalf dans Le Seigneur des anneaux ?",
+      "answer": "Gripoil",
+      "options": [
+        "Gripoil",
+        "Brego",
+        "Asfaloth",
+        "Bill"
+      ],
+      "explanation": "Gripoil est le nom français de Shadowfax, le cheval de Gandalf.",
+      "level": "hard",
+      "emoji": "🍿",
+      "duration": 30,
+      "points": 100,
+      "theme": "culturepop",
+      "credit": {
+        "publisher": "LearnClash",
+        "author": "LearnClash — Pluxia GmbH (2026)",
+        "source": "https://github.com/Pluxia-GmbH/learnclash-open-trivia/blob/219b618fe569982a4a4b11a275a8f0d98b4661cd/fr/index.html",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "aliases": [
+        "Shadowfax"
+      ]
+    },
+    {
+      "id": "learnclash-94",
+      "originalId": 94,
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel groupe a enregistré l’album Abbey Road ?",
+      "answer": "The Beatles",
+      "options": [
+        "The Beatles",
+        "The Rolling Stones",
+        "The Who",
+        "The Kinks"
+      ],
+      "explanation": "Abbey Road est un album des Beatles sorti en 1969.",
+      "level": "easy",
+      "emoji": "🍿",
+      "duration": 30,
+      "points": 100,
+      "theme": "culturepop",
+      "credit": {
+        "publisher": "LearnClash",
+        "author": "LearnClash — Pluxia GmbH (2026)",
+        "source": "https://github.com/Pluxia-GmbH/learnclash-open-trivia/blob/219b618fe569982a4a4b11a275a8f0d98b4661cd/fr/index.html",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "aliases": []
+    },
+    {
+      "id": "learnclash-95",
+      "originalId": 95,
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment s’appelle le frère de Mario dans les jeux Nintendo ?",
+      "answer": "Luigi",
+      "options": [
+        "Luigi",
+        "Wario",
+        "Toad",
+        "Yoshi"
+      ],
+      "explanation": "Luigi accompagne Mario dans de nombreux jeux de la série.",
+      "level": "easy",
+      "emoji": "🍿",
+      "duration": 30,
+      "points": 100,
+      "theme": "culturepop",
+      "credit": {
+        "publisher": "LearnClash",
+        "author": "LearnClash — Pluxia GmbH (2026)",
+        "source": "https://github.com/Pluxia-GmbH/learnclash-open-trivia/blob/219b618fe569982a4a4b11a275a8f0d98b4661cd/fr/index.html",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "aliases": []
+    },
+    {
+      "id": "learnclash-96",
+      "originalId": 96,
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le nom complet du majordome de Batman ?",
+      "answer": "Alfred Pennyworth",
+      "options": [
+        "Alfred Pennyworth",
+        "James Gordon",
+        "Lucius Fox",
+        "Harvey Dent"
+      ],
+      "explanation": "Alfred Pennyworth est le majordome et confident de Bruce Wayne.",
+      "level": "medium",
+      "emoji": "🍿",
+      "duration": 30,
+      "points": 100,
+      "theme": "culturepop",
+      "credit": {
+        "publisher": "LearnClash",
+        "author": "LearnClash — Pluxia GmbH (2026)",
+        "source": "https://github.com/Pluxia-GmbH/learnclash-open-trivia/blob/219b618fe569982a4a4b11a275a8f0d98b4661cd/fr/index.html",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "aliases": [
+        "Alfred"
+      ]
+    },
+    {
+      "id": "learnclash-97",
+      "originalId": 97,
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle série télévisée met en scène Walter White ?",
+      "answer": "Breaking Bad",
+      "options": [
+        "Breaking Bad",
+        "Better Call Saul",
+        "Dexter",
+        "Prison Break"
+      ],
+      "explanation": "Walter White est interprété par Bryan Cranston.",
+      "level": "easy",
+      "emoji": "🍿",
+      "duration": 30,
+      "points": 100,
+      "theme": "culturepop",
+      "credit": {
+        "publisher": "LearnClash",
+        "author": "LearnClash — Pluxia GmbH (2026)",
+        "source": "https://github.com/Pluxia-GmbH/learnclash-open-trivia/blob/219b618fe569982a4a4b11a275a8f0d98b4661cd/fr/index.html",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "aliases": []
+    },
+    {
+      "id": "learnclash-98",
+      "originalId": 98,
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment s’appelle l’école de sorcellerie de Harry Potter en français ?",
+      "answer": "Poudlard",
+      "options": [
+        "Poudlard",
+        "Beauxbâtons",
+        "Durmstrang",
+        "Ilvermorny"
+      ],
+      "explanation": "Poudlard est le nom français de Hogwarts.",
+      "level": "easy",
+      "emoji": "🍿",
+      "duration": 30,
+      "points": 100,
+      "theme": "culturepop",
+      "credit": {
+        "publisher": "LearnClash",
+        "author": "LearnClash — Pluxia GmbH (2026)",
+        "source": "https://github.com/Pluxia-GmbH/learnclash-open-trivia/blob/219b618fe569982a4a4b11a275a8f0d98b4661cd/fr/index.html",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "aliases": []
+    },
+    {
+      "id": "learnclash-100",
+      "originalId": 100,
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année Super Mario Bros. est-il sorti au Japon sur Famicom ?",
+      "answer": "1985",
+      "options": [
+        "1985",
+        "1981",
+        "1989",
+        "1991"
+      ],
+      "explanation": "Le jeu est sorti au Japon en septembre 1985, après la première apparition de Mario dans Donkey Kong en 1981.",
+      "level": "medium",
+      "emoji": "🍿",
+      "duration": 30,
+      "points": 100,
+      "theme": "culturepop",
+      "credit": {
+        "publisher": "LearnClash",
+        "author": "LearnClash — Pluxia GmbH (2026)",
+        "source": "https://github.com/Pluxia-GmbH/learnclash-open-trivia/blob/219b618fe569982a4a4b11a275a8f0d98b4661cd/fr/index.html",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "aliases": []
+    }
+  ]
+}

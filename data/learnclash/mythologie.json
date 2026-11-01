@@ -1,0 +1,379 @@
+{
+  "id": "mythologie",
+  "title": "Mythologies et légendes",
+  "universe": "quiz",
+  "emoji": "⚡",
+  "credit": {
+    "publisher": "LearnClash",
+    "author": "LearnClash — Pluxia GmbH (2026)",
+    "source": "https://github.com/Pluxia-GmbH/learnclash-open-trivia/blob/219b618fe569982a4a4b11a275a8f0d98b4661cd/fr/index.html",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "questions": [
+    {
+      "id": "learnclash-75",
+      "originalId": 75,
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le nom du marteau de Thor dans la mythologie nordique ?",
+      "answer": "Mjölnir",
+      "options": [
+        "Mjölnir",
+        "Excalibur",
+        "Gungnir",
+        "Gram"
+      ],
+      "explanation": "Mjölnir est le marteau du dieu Thor dans la mythologie nordique.",
+      "level": "medium",
+      "emoji": "⚡",
+      "duration": 30,
+      "points": 100,
+      "theme": "mythologie",
+      "credit": {
+        "publisher": "LearnClash",
+        "author": "LearnClash — Pluxia GmbH (2026)",
+        "source": "https://github.com/Pluxia-GmbH/learnclash-open-trivia/blob/219b618fe569982a4a4b11a275a8f0d98b4661cd/fr/index.html",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "aliases": []
+    },
+    {
+      "id": "learnclash-76",
+      "originalId": 76,
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans la mythologie grecque, qui pétrifie ceux qui croisent son regard ?",
+      "answer": "Méduse",
+      "options": [
+        "Méduse",
+        "Athéna",
+        "Aphrodite",
+        "Artémis"
+      ],
+      "explanation": "Méduse est l’une des trois Gorgones. Persée la vainc en évitant de regarder directement son visage.",
+      "level": "easy",
+      "emoji": "⚡",
+      "duration": 30,
+      "points": 100,
+      "theme": "mythologie",
+      "credit": {
+        "publisher": "LearnClash",
+        "author": "LearnClash — Pluxia GmbH (2026)",
+        "source": "https://github.com/Pluxia-GmbH/learnclash-open-trivia/blob/219b618fe569982a4a4b11a275a8f0d98b4661cd/fr/index.html",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "aliases": []
+    },
+    {
+      "id": "learnclash-77",
+      "originalId": 77,
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel personnage de la mythologie nordique est associé à la ruse et aux métamorphoses ?",
+      "answer": "Loki",
+      "options": [
+        "Loki",
+        "Thor",
+        "Baldr",
+        "Heimdall"
+      ],
+      "explanation": "Loki est une figure rusée et ambiguë, capable de changer de forme.",
+      "level": "easy",
+      "emoji": "⚡",
+      "duration": 30,
+      "points": 100,
+      "theme": "mythologie",
+      "credit": {
+        "publisher": "LearnClash",
+        "author": "LearnClash — Pluxia GmbH (2026)",
+        "source": "https://github.com/Pluxia-GmbH/learnclash-open-trivia/blob/219b618fe569982a4a4b11a275a8f0d98b4661cd/fr/index.html",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "aliases": []
+    },
+    {
+      "id": "learnclash-78",
+      "originalId": 78,
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Selon le mythe, quel était le point faible d’Achille ?",
+      "answer": "Son talon",
+      "options": [
+        "Son talon",
+        "Son épaule",
+        "Son genou",
+        "Son poignet"
+      ],
+      "explanation": "Dans une version du mythe, Thétis tient Achille par le talon en le plongeant dans le Styx.",
+      "level": "easy",
+      "emoji": "⚡",
+      "duration": 30,
+      "points": 100,
+      "theme": "mythologie",
+      "credit": {
+        "publisher": "LearnClash",
+        "author": "LearnClash — Pluxia GmbH (2026)",
+        "source": "https://github.com/Pluxia-GmbH/learnclash-open-trivia/blob/219b618fe569982a4a4b11a275a8f0d98b4661cd/fr/index.html",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "aliases": []
+    },
+    {
+      "id": "learnclash-79",
+      "originalId": 79,
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le fleuve de l’oubli dans la mythologie grecque ?",
+      "answer": "Le Léthé",
+      "options": [
+        "Le Léthé",
+        "Le Styx",
+        "L’Achéron",
+        "Le Phlégéthon"
+      ],
+      "explanation": "Les eaux du Léthé font perdre la mémoire à ceux qui les boivent.",
+      "level": "hard",
+      "emoji": "⚡",
+      "duration": 30,
+      "points": 100,
+      "theme": "mythologie",
+      "credit": {
+        "publisher": "LearnClash",
+        "author": "LearnClash — Pluxia GmbH (2026)",
+        "source": "https://github.com/Pluxia-GmbH/learnclash-open-trivia/blob/219b618fe569982a4a4b11a275a8f0d98b4661cd/fr/index.html",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "aliases": []
+    },
+    {
+      "id": "learnclash-80",
+      "originalId": 80,
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui était le dieu romain de la guerre ?",
+      "answer": "Mars",
+      "options": [
+        "Mars",
+        "Neptune",
+        "Mercure",
+        "Vulcain"
+      ],
+      "explanation": "Mars est associé à la guerre dans la religion romaine. Son équivalent grec est Arès.",
+      "level": "easy",
+      "emoji": "⚡",
+      "duration": 30,
+      "points": 100,
+      "theme": "mythologie",
+      "credit": {
+        "publisher": "LearnClash",
+        "author": "LearnClash — Pluxia GmbH (2026)",
+        "source": "https://github.com/Pluxia-GmbH/learnclash-open-trivia/blob/219b618fe569982a4a4b11a275a8f0d98b4661cd/fr/index.html",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "aliases": []
+    },
+    {
+      "id": "learnclash-81",
+      "originalId": 81,
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui vole trop près du Soleil avec les ailes fabriquées par Dédale ?",
+      "answer": "Icare",
+      "options": [
+        "Icare",
+        "Orphée",
+        "Thésée",
+        "Jason"
+      ],
+      "explanation": "La cire qui maintient les plumes de ses ailes fond, provoquant sa chute.",
+      "level": "easy",
+      "emoji": "⚡",
+      "duration": 30,
+      "points": 100,
+      "theme": "mythologie",
+      "credit": {
+        "publisher": "LearnClash",
+        "author": "LearnClash — Pluxia GmbH (2026)",
+        "source": "https://github.com/Pluxia-GmbH/learnclash-open-trivia/blob/219b618fe569982a4a4b11a275a8f0d98b4661cd/fr/index.html",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "aliases": []
+    },
+    {
+      "id": "learnclash-82",
+      "originalId": 82,
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle créature mythologique renaît de ses cendres ?",
+      "answer": "Le phénix",
+      "options": [
+        "Le phénix",
+        "Le griffon",
+        "La chimère",
+        "Le minotaure"
+      ],
+      "explanation": "Le phénix est associé à la mort puis à la renaissance.",
+      "level": "easy",
+      "emoji": "⚡",
+      "duration": 30,
+      "points": 100,
+      "theme": "mythologie",
+      "credit": {
+        "publisher": "LearnClash",
+        "author": "LearnClash — Pluxia GmbH (2026)",
+        "source": "https://github.com/Pluxia-GmbH/learnclash-open-trivia/blob/219b618fe569982a4a4b11a275a8f0d98b4661cd/fr/index.html",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "aliases": []
+    },
+    {
+      "id": "learnclash-83",
+      "originalId": 83,
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment s’appelle l’arbre-monde de la mythologie nordique ?",
+      "answer": "Yggdrasil",
+      "options": [
+        "Yggdrasil",
+        "Asgard",
+        "Midgard",
+        "Valhalla"
+      ],
+      "explanation": "Yggdrasil relie les différents mondes de la cosmologie nordique.",
+      "level": "hard",
+      "emoji": "⚡",
+      "duration": 30,
+      "points": 100,
+      "theme": "mythologie",
+      "credit": {
+        "publisher": "LearnClash",
+        "author": "LearnClash — Pluxia GmbH (2026)",
+        "source": "https://github.com/Pluxia-GmbH/learnclash-open-trivia/blob/219b618fe569982a4a4b11a275a8f0d98b4661cd/fr/index.html",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "aliases": []
+    },
+    {
+      "id": "learnclash-84",
+      "originalId": 84,
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle déesse grecque est associée à la sagesse ?",
+      "answer": "Athéna",
+      "options": [
+        "Athéna",
+        "Héra",
+        "Déméter",
+        "Aphrodite"
+      ],
+      "explanation": "Athéna est aussi associée à la stratégie guerrière et à l’artisanat.",
+      "level": "easy",
+      "emoji": "⚡",
+      "duration": 30,
+      "points": 100,
+      "theme": "mythologie",
+      "credit": {
+        "publisher": "LearnClash",
+        "author": "LearnClash — Pluxia GmbH (2026)",
+        "source": "https://github.com/Pluxia-GmbH/learnclash-open-trivia/blob/219b618fe569982a4a4b11a275a8f0d98b4661cd/fr/index.html",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "aliases": []
+    },
+    {
+      "id": "learnclash-85",
+      "originalId": 85,
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui est le roi des dieux dans la mythologie grecque ?",
+      "answer": "Zeus",
+      "options": [
+        "Zeus",
+        "Poséidon",
+        "Hadès",
+        "Apollon"
+      ],
+      "explanation": "Zeus règne sur les dieux de l’Olympe. Son équivalent romain est Jupiter.",
+      "level": "easy",
+      "emoji": "⚡",
+      "duration": 30,
+      "points": 100,
+      "theme": "mythologie",
+      "credit": {
+        "publisher": "LearnClash",
+        "author": "LearnClash — Pluxia GmbH (2026)",
+        "source": "https://github.com/Pluxia-GmbH/learnclash-open-trivia/blob/219b618fe569982a4a4b11a275a8f0d98b4661cd/fr/index.html",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "aliases": []
+    },
+    {
+      "id": "learnclash-86",
+      "originalId": 86,
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle créature égyptienne possède un corps de lion et une tête humaine ?",
+      "answer": "Le sphinx",
+      "options": [
+        "Le sphinx",
+        "Le griffon",
+        "Le centaure",
+        "La sirène"
+      ],
+      "explanation": "Le Grand Sphinx de Gizeh est l’une des représentations les plus célèbres de cette créature.",
+      "level": "medium",
+      "emoji": "⚡",
+      "duration": 30,
+      "points": 100,
+      "theme": "mythologie",
+      "credit": {
+        "publisher": "LearnClash",
+        "author": "LearnClash — Pluxia GmbH (2026)",
+        "source": "https://github.com/Pluxia-GmbH/learnclash-open-trivia/blob/219b618fe569982a4a4b11a275a8f0d98b4661cd/fr/index.html",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "aliases": []
+    },
+    {
+      "id": "learnclash-87",
+      "originalId": 87,
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que désigne le Ragnarök dans la mythologie nordique ?",
+      "answer": "La fin du monde suivie d’un renouveau",
+      "options": [
+        "La fin du monde suivie d’un renouveau",
+        "Le palais d’Odin",
+        "La naissance de Thor",
+        "Le marteau de Thor"
+      ],
+      "explanation": "Le Ragnarök comprend une grande bataille et la destruction du monde, qui renaît ensuite.",
+      "level": "hard",
+      "emoji": "⚡",
+      "duration": 30,
+      "points": 100,
+      "theme": "mythologie",
+      "credit": {
+        "publisher": "LearnClash",
+        "author": "LearnClash — Pluxia GmbH (2026)",
+        "source": "https://github.com/Pluxia-GmbH/learnclash-open-trivia/blob/219b618fe569982a4a4b11a275a8f0d98b4661cd/fr/index.html",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "aliases": []
+    }
+  ]
+}

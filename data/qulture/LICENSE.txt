@@ -1,0 +1,43 @@
+Qulture General Knowledge Question Dataset — version 1.0.0
+
+RIGHTS HOLDER AND PUBLISHER
+
+Rights holder: Qulture.
+Published by Martin Berbesson for Qulture.
+Contact: contact@qulture-app.com
+Copyright © 2026 Qulture.
+
+LICENCE
+
+The dataset material defined below is licensed under the Creative Commons
+Attribution 4.0 International License (CC BY 4.0).
+
+Licence deed and legal code: https://creativecommons.org/licenses/by/4.0/
+Permanent record: https://doi.org/10.5281/zenodo.22108528
+
+MATERIAL COVERED
+
+The licence covers the questions, answer choices, correct answers,
+explanations, identifiers, translation relationships and Qulture metadata
+distributed in the JSON and CSV files.
+
+EXCLUSIONS
+
+Third-party trademarks, linked source pages and referenced images remain
+subject to their owners’ rights. Image fields are identifiers only and do not
+grant image reuse rights. External URLs are supplied as provenance metadata;
+their presence does not place third-party material under this licence.
+
+SUGGESTED ATTRIBUTION
+
+Qulture (2026). “Qulture General Knowledge Question Dataset”,
+version 1.0.0. https://doi.org/10.5281/zenodo.22108528
+
+Reusers must provide a link to CC BY 4.0 and indicate whether changes were
+made.
+
+AI-USE DISCLOSURE
+
+Generative AI tools assisted with drafting, translation, quality checks,
+technical packaging and documentation. Qulture selected, checked, maintained
+and published the records and remains responsible for the dataset.

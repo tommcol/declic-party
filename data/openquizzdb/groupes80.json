@@ -1,0 +1,698 @@
+{
+  "id": "groupes80",
+  "title": "Groupes français des années 80",
+  "originalTitle": "Groupes eighties (Antisocial tu perds ton sang froid)",
+  "universe": "music",
+  "emoji": "🎸",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_136.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "excludedOriginalIds": [
+    1,
+    7,
+    15,
+    30
+  ],
+  "questions": [
+    {
+      "id": "oqdb-136-2",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel était le véritable métier des deux chanteurs du groupe Début de Soirée ?",
+      "answer": "Disc-jockeys",
+      "options": [
+        "Avocats",
+        "Plombiers",
+        "Comptables",
+        "Disc-jockeys"
+      ],
+      "explanation": "Les arrangements de la version la plus connue de 1988 de « Nuit de folie » proviendraient d'une chanson de Patty Ryan.",
+      "level": "easy",
+      "emoji": "🎸",
+      "duration": 30,
+      "points": 100,
+      "theme": "groupes80",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_136.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-136-3",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel groupe de rock'n'roll français est devenu populaire avec la chanson « Chante » ?",
+      "answer": "Les Forbans",
+      "options": [
+        "Les Forbans",
+        "Mano Negra",
+        "Pacifique",
+        "Luna Parker"
+      ],
+      "explanation": "En décembre 2012, le groupe a enflammé les réseaux sociaux suite à un éventuel gala privé donné pour le Front national.",
+      "level": "easy",
+      "emoji": "🎸",
+      "duration": 30,
+      "points": 100,
+      "theme": "groupes80",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_136.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-136-4",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel groupe de rock fut mené jusqu'en 2010 par le chanteur Bertrand Cantat ?",
+      "answer": "Noir Désir",
+      "options": [
+        "Noir Désir",
+        "Indochine",
+        "Mano Negra",
+        "Bérurier noir"
+      ],
+      "explanation": "Noir Désir a connu un destin singulier après 2003 en raison de la condamnation du chanteur pour l'homicide de Marie Trintignant.",
+      "level": "easy",
+      "emoji": "🎸",
+      "duration": 30,
+      "points": 100,
+      "theme": "groupes80",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_136.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-136-5",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel membre du groupe Mano Negra est aussi appelé « Oscar Tramor » ?",
+      "answer": "Manu Chao",
+      "options": [
+        "Manu Chao",
+        "Daniel Jamet",
+        "Pierre Gauthé",
+        "Joseph Dahan"
+      ],
+      "explanation": "Manu Chao a aussi évolué avec les groupes Joint de culasse, Les Flappers, Hot Pants, Parachute, The Kingsnakes et Los Carayos.",
+      "level": "easy",
+      "emoji": "🎸",
+      "duration": 30,
+      "points": 100,
+      "theme": "groupes80",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_136.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-136-6",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel groupe est principalement composé des deux rappeurs JoeyStarr et Kool Shen ?",
+      "answer": "Suprême NTM",
+      "options": [
+        "IAM",
+        "Sexion d'Assaut",
+        "Suprême NTM",
+        "Arsenik"
+      ],
+      "explanation": "Le groupe est connu pour ses paroles ouvertement critiques sur le racisme et les inégalités de classe dans la société française.",
+      "level": "easy",
+      "emoji": "🎸",
+      "duration": 30,
+      "points": 100,
+      "theme": "groupes80",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_136.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-136-8",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel groupe a sorti, en 1976, un premier album intitulé « Ba mwen en ti bo » ?",
+      "answer": "La Compagnie créole",
+      "options": [
+        "Kassav",
+        "Kazero",
+        "Zouk Machine",
+        "La Compagnie créole"
+      ],
+      "explanation": "Ils ont été l'une des têtes d'affiche des tournées « Âge tendre et Têtes de bois » saison 4 (2009-2010) et 5 (2010-2011).",
+      "level": "easy",
+      "emoji": "🎸",
+      "duration": 30,
+      "points": 100,
+      "theme": "groupes80",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_136.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-136-9",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel groupe français a rencontré en 1986 « Les Démons de minuit » ?",
+      "answer": "Images",
+      "options": [
+        "Début de Soirée",
+        "Les Forbans",
+        "IAM",
+        "Images"
+      ],
+      "explanation": "Le clip accompagnant cette chanson fit quelque peu scandale car il représentait un homme d'Église en proie à la tentation.",
+      "level": "easy",
+      "emoji": "🎸",
+      "duration": 30,
+      "points": 100,
+      "theme": "groupes80",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_136.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-136-10",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel titre d'IAM est devenu un énorme tube avec plus de 500 000 exemplaires vendus ?",
+      "answer": "Je danse le mia",
+      "options": [
+        "Noble art",
+        "La saga",
+        "Petit frère",
+        "Je danse le mia"
+      ],
+      "explanation": "IAM est considéré comme l'un des piliers du rap français ainsi que l'un des meilleurs groupes de son histoire.",
+      "level": "easy",
+      "emoji": "🎸",
+      "duration": 30,
+      "points": 100,
+      "theme": "groupes80",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_136.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-136-11",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Sous quel nom Aubert, Bertignac et Kolinka se sont-ils reformés ?",
+      "answer": "Les Insus",
+      "options": [
+        "Noir Désir",
+        "Kazero",
+        "Les Ablettes",
+        "Les Insus"
+      ],
+      "explanation": "Ils interprètent le répertoire de Téléphone lors de quelques concerts fin 2015, pour une grande tournée en 2016 et des festivals en 2017.",
+      "level": "medium",
+      "emoji": "🎸",
+      "duration": 30,
+      "points": 100,
+      "theme": "groupes80",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_136.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-136-12",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel premier single de Niagara est influencé par la musique afro-cubaine ?",
+      "answer": "Tchiki Boum",
+      "options": [
+        "Le Minotaure",
+        "J'ai vu",
+        "Tchiki Boum",
+        "Baby Louis"
+      ],
+      "explanation": "Le groupe L'Ombre jaune sera rebaptisé Niagara en 1984, en référence au film d'Henry Hathaway avec Marilyn Monroe.",
+      "level": "medium",
+      "emoji": "🎸",
+      "duration": 30,
+      "points": 100,
+      "theme": "groupes80",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_136.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-136-13",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel groupe allie le style guinguette aux musiques sud-américaines ?",
+      "answer": "Les Négresses vertes",
+      "options": [
+        "Raft",
+        "Noir Désir",
+        "Mano Negra",
+        "Les Négresses vertes"
+      ],
+      "explanation": "Les Négresses Vertes sont l'une des formations les plus marquantes dans le monde de la scène rock alternative française.",
+      "level": "medium",
+      "emoji": "🎸",
+      "duration": 30,
+      "points": 100,
+      "theme": "groupes80",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_136.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-136-14",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Avec quel album le groupe Indochine a-t-il retrouvé le succès en 2002 ?",
+      "answer": "Paradize",
+      "options": [
+        "Le Baiser",
+        "Paradize",
+        "Dancetaria",
+        "Wax"
+      ],
+      "explanation": "Pour la première fois de son histoire, Indochine s'ouvre aux collaborations, de nombreux artistes ayant participé à sa conception.",
+      "level": "medium",
+      "emoji": "🎸",
+      "duration": 30,
+      "points": 100,
+      "theme": "groupes80",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_136.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-136-16",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel groupe de « l'after punk » vous invite à « Chercher le garçon » ?",
+      "answer": "Taxi Girl",
+      "options": [
+        "Les Ablettes",
+        "Élégance",
+        "Indochine",
+        "Taxi Girl"
+      ],
+      "explanation": "Le groupe connaîtra son premier drame au décès du batteur Pierre Wolfsohn, mort d'une overdose de cocaïne le 24 juillet 1981.",
+      "level": "medium",
+      "emoji": "🎸",
+      "duration": 30,
+      "points": 100,
+      "theme": "groupes80",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_136.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-136-17",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel groupe phare de la scène punk a pour particularité de ne pas avoir de batteur ?",
+      "answer": "Bérurier noir",
+      "options": [
+        "Dirty Fonzy",
+        "Bérurier noir",
+        "Les Sheriff",
+        "Les Wampas"
+      ],
+      "explanation": "Le « troisième membre » du groupe est Dédé, qui est en fait la boîte à rythmes des Bérurier Noir (une Electro harmonix drm-16).",
+      "level": "medium",
+      "emoji": "🎸",
+      "duration": 30,
+      "points": 100,
+      "theme": "groupes80",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_136.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-136-18",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel groupe pop/funk français « oubliait tout » en vacances ?",
+      "answer": "Élégance",
+      "options": [
+        "Élégance",
+        "Partenaire Particulier",
+        "Images",
+        "Luna Parker"
+      ],
+      "explanation": "François Feldman, Didier Barbelivien et Gilbert Di Nino ont participé à certains titres du groupe Élégance.",
+      "level": "medium",
+      "emoji": "🎸",
+      "duration": 30,
+      "points": 100,
+      "theme": "groupes80",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_136.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-136-19",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel groupe à la durée éphémère était composé de Rachel et Éric ?",
+      "answer": "Luna Parker",
+      "options": [
+        "Luna Parker",
+        "Élégance",
+        "Les Ablettes",
+        "Pacifique"
+      ],
+      "explanation": "Luna Parker connût un énorme succès grâce à son titre « Tes états d'âme... Éric », classé n°10 des ventes en 1987.",
+      "level": "medium",
+      "emoji": "🎸",
+      "duration": 30,
+      "points": 100,
+      "theme": "groupes80",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_136.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-136-20",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel groupe mélange musique de cirque moderne, poésie, peinture et théâtre ?",
+      "answer": "Têtes raides",
+      "options": [
+        "Têtes raides",
+        "Élégance",
+        "Pacifique",
+        "Les Vagabonds"
+      ],
+      "explanation": "Des artistes comme Jean Corti ou encore Yann Tiersen ont régulièrement collaboré avec les Têtes Raides.",
+      "level": "medium",
+      "emoji": "🎸",
+      "duration": 30,
+      "points": 100,
+      "theme": "groupes80",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_136.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-136-21",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel groupe lancé par Orlando vous a fait danser « Le temps des yéyés » ?",
+      "answer": "Les Vagabonds",
+      "options": [
+        "Les Insus",
+        "Élégance",
+        "Les Forbans",
+        "Les Vagabonds"
+      ],
+      "explanation": "Fondé en 1989, Les Vagabonds et leur rock style années 60 ont fait les beaux jours du Top 50 dans les années 90.",
+      "level": "hard",
+      "emoji": "🎸",
+      "duration": 30,
+      "points": 100,
+      "theme": "groupes80",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_136.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-136-22",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel titre des Avions sera d'abord un flop avant de devenir un tube en 1986 ?",
+      "answer": "Nuit Sauvage",
+      "options": [
+        "Loin",
+        "Nuit Sauvage",
+        "Quatre",
+        "Fanfare"
+      ],
+      "explanation": "Au retour d'un voyage et de nuits en boîte à Lisbonne, les Avions enregistrèrent trois maquettes dont « Nuit Sauvage ».",
+      "level": "hard",
+      "emoji": "🎸",
+      "duration": 30,
+      "points": 100,
+      "theme": "groupes80",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_136.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-136-23",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "À quel groupe originaire de Toulouse doit-on le tube « Thaï nana » ?",
+      "answer": "Kazero",
+      "options": [
+        "Les Vagabonds",
+        "Kazero",
+        "Images",
+        "Les Forbans"
+      ],
+      "explanation": "Produit par Jacques Cardona, le titre aussi rapide que désabusé et au climat absurde sera leur plus grand succès.",
+      "level": "hard",
+      "emoji": "🎸",
+      "duration": 30,
+      "points": 100,
+      "theme": "groupes80",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_136.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-136-24",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Au sein de quel groupe Cathy Lajous a-t-elle chanté « Quand tu serres mon corps » ?",
+      "answer": "Pacifique",
+      "options": [
+        "Century",
+        "Taxi Girl",
+        "Luna Parker",
+        "Pacifique"
+      ],
+      "explanation": "La sortie de leur second album sera un échec et entraînera la fin de la collaboration artistique des trois membres de Pacifique.",
+      "level": "hard",
+      "emoji": "🎸",
+      "duration": 30,
+      "points": 100,
+      "theme": "groupes80",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_136.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-136-25",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Laquelle de ces propositions désigne un des grands succès du groupe Raft ?",
+      "answer": "Yakadansé",
+      "options": [
+        "Paris Latino",
+        "Yakadansé",
+        "Nuit Sauvage",
+        "Antisocial"
+      ],
+      "explanation": "Raft s'est reformé en 2007 pour la tournée « RFM Party 80 » avec en apogée un concert au Stade de France le 17 mai 2008.",
+      "level": "hard",
+      "emoji": "🎸",
+      "duration": 30,
+      "points": 100,
+      "theme": "groupes80",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_136.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-136-26",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel groupe de musique new wave français a été créé par les frères Lomprez ?",
+      "answer": "Trisomie 21",
+      "options": [
+        "Trisomie 21",
+        "No Tears",
+        "Monte Kristo",
+        "Bunker Strasse"
+      ],
+      "explanation": "Le groupe Trisomie 21 collabora avec le groupe Indochine en 2002 notamment sur le morceau « Le Grand Secret ».",
+      "level": "hard",
+      "emoji": "🎸",
+      "duration": 30,
+      "points": 100,
+      "theme": "groupes80",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_136.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-136-27",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel groupe français était composé de Philo, Pascal, Bebeck et Gilles-Roger ?",
+      "answer": "Les Ablettes",
+      "options": [
+        "Élégance",
+        "Les Vagabonds",
+        "Les Ablettes",
+        "Bérurier noir"
+      ],
+      "explanation": "Le groupe a fait un tube rock en 1983 avec la reprise de « Tu verras » de Claude Nougaro, sur le label Réflexes.",
+      "level": "hard",
+      "emoji": "🎸",
+      "duration": 30,
+      "points": 100,
+      "theme": "groupes80",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_136.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-136-28",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quelle formation a enregistré les 45T « Lover Why » et « Jane » ?",
+      "answer": "Century",
+      "options": [
+        "Century",
+        "Gold",
+        "Taxi Girl",
+        "Kazero"
+      ],
+      "explanation": "Le premier deviendra un énorme tube en 1985, toujours présent sur d'innombrables compilations des années 1980.",
+      "level": "hard",
+      "emoji": "🎸",
+      "duration": 30,
+      "points": 100,
+      "theme": "groupes80",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_136.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-136-29",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Qui chantait « Chacun fait c'qui lui plaît » aux côté de Grégory Ken ?",
+      "answer": "Valli",
+      "options": [
+        "Valli",
+        "Desireless",
+        "Yta Farrow",
+        "Davia"
+      ],
+      "explanation": "Grégory Ken, chanteur du groupe Chagrin d'amour, a jusqu'en 1991 été la voix off des bandes-annonces de Canal Plus.",
+      "level": "hard",
+      "emoji": "🎸",
+      "duration": 30,
+      "points": 100,
+      "theme": "groupes80",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_136.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

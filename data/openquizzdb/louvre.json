@@ -1,0 +1,523 @@
+{
+  "id": "louvre",
+  "title": "Le Louvre et ses œuvres",
+  "originalTitle": "Musée du Louvre",
+  "universe": "quiz",
+  "emoji": "🖼️",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_86.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "excludedOriginalIds": [
+    1,
+    3,
+    8,
+    10,
+    14,
+    17,
+    18,
+    19,
+    22,
+    23,
+    24
+  ],
+  "questions": [
+    {
+      "id": "oqdb-86-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quand le Louvre est-il devenu un musée, le plus grand de Paris ?",
+      "answer": "À la Révolution",
+      "options": [
+        "Au Moyen Âge",
+        "À la Révolution",
+        "Dès l'Antiquité",
+        "Sous Mitterrand"
+      ],
+      "explanation": "Le musée du Louvre a pris naissance sous Louis XV mais n'aboutira véritablement qu'avec la Révolution.",
+      "level": "easy",
+      "emoji": "🖼️",
+      "duration": 30,
+      "points": 100,
+      "theme": "louvre",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_86.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-86-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel métier fut exercé au Louvre par Jean-François Champollion ?",
+      "answer": "Conservateur",
+      "options": [
+        "Surveillant",
+        "Conservateur",
+        "Architecte",
+        "Archéologue"
+      ],
+      "explanation": "Considéré comme le père de l'égyptologie, Champollion fut le premier à déchiffrer les hiéroglyphes.",
+      "level": "easy",
+      "emoji": "🖼️",
+      "duration": 30,
+      "points": 100,
+      "theme": "louvre",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_86.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-86-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment était utilisé le Louvre à sa construction en 1190 ?",
+      "answer": "En forteresse",
+      "options": [
+        "En ferme",
+        "En forteresse",
+        "En musée",
+        "En bureau"
+      ],
+      "explanation": "C'est en voulant renforcer la défense de Paris que Philippe Auguste entreprît de faire construire une enceinte.",
+      "level": "easy",
+      "emoji": "🖼️",
+      "duration": 30,
+      "points": 100,
+      "theme": "louvre",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_86.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-86-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces célèbres personnages de jeu vidéo a évolué au Louvre ?",
+      "answer": "Lara Croft",
+      "options": [
+        "Solid Snake",
+        "Lara Croft",
+        "Gordon Freeman",
+        "Sonic"
+      ],
+      "explanation": "'Tomb Raider : l'Ange des ténèbres' est le sixième épisode de la série 'Tomb Raider'.",
+      "level": "easy",
+      "emoji": "🖼️",
+      "duration": 30,
+      "points": 100,
+      "theme": "louvre",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_86.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-86-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quoi est construite la Pyramide du Louvre, située au milieu de la cour Napoléon du musée ?",
+      "answer": "En verre",
+      "options": [
+        "En pierre",
+        "En verre",
+        "En carton",
+        "En bois"
+      ],
+      "explanation": "La Pyramide du Louvre est située au milieu de la cour Napoléon du musée du Louvre à Paris.",
+      "level": "easy",
+      "emoji": "🖼️",
+      "duration": 30,
+      "points": 100,
+      "theme": "louvre",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_86.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-86-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Au Louvre, quelles œuvres sont exposées dans les Cours Marly et Puget ?",
+      "answer": "Des sculptures",
+      "options": [
+        "Des tableaux",
+        "Des momies",
+        "Des croquis",
+        "Des sculptures"
+      ],
+      "explanation": "À ses débuts, le musée n'exposait que des sculptures antiques, à l’exception de deux statues de Michel-Ange.",
+      "level": "easy",
+      "emoji": "🖼️",
+      "duration": 30,
+      "points": 100,
+      "theme": "louvre",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_86.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-86-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel artiste a peint 'L'Embarquement d'Ulysse' en 1646 ?",
+      "answer": "Le Lorrain",
+      "options": [
+        "Le Limousin",
+        "Le Parisien",
+        "Le Lorrain",
+        "Le Lyonnais"
+      ],
+      "explanation": "Claude Gellée, dit « le Lorrain, est un peintre lorrain, figure emblématique du paysage de style classique.",
+      "level": "medium",
+      "emoji": "🖼️",
+      "duration": 30,
+      "points": 100,
+      "theme": "louvre",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_86.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-86-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle écriture est-il possible de déchiffrer sur la Stèle de Minnakht ?",
+      "answer": "Des hiéroglyphes",
+      "options": [
+        "Du cunéiforme",
+        "Des hiéroglyphes",
+        "Du chinois",
+        "Du grec"
+      ],
+      "explanation": "Faite de calcaire, la stèle trouvée à Akhmîm mesure 1,48 mètre par 0,89 mètre.",
+      "level": "medium",
+      "emoji": "🖼️",
+      "duration": 30,
+      "points": 100,
+      "theme": "louvre",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_86.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-86-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel autre musée se cache dans les bâtiments du Louvre ?",
+      "answer": "Arts décoratifs",
+      "options": [
+        "Sciences",
+        "Arts décoratifs",
+        "Renaissance",
+        "Italien"
+      ],
+      "explanation": "Les Arts décoratifs sont nés de l'école royale gratuite de dessin créée en 1766 par Jean-Jacques Bachelier.",
+      "level": "medium",
+      "emoji": "🖼️",
+      "duration": 30,
+      "points": 100,
+      "theme": "louvre",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_86.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-86-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a peint une œuvre représentant Œdipe répondant à l'énigme du sphinx ?",
+      "answer": "Ingres",
+      "options": [
+        "Van Eyck",
+        "Degas",
+        "Ingres",
+        "Poussin"
+      ],
+      "explanation": "'Œdipe explique l'énigme du sphinx' a été légué en 1878 au musée du Louvre par la comtesse Duchâtel.",
+      "level": "medium",
+      "emoji": "🖼️",
+      "duration": 30,
+      "points": 100,
+      "theme": "louvre",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_86.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-86-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle exposition annuelle présentait au Louvre les artistes officiels ?",
+      "answer": "Le Salon",
+      "options": [
+        "La Crèche",
+        "La Vente",
+        "La Biennale",
+        "Le Salon"
+      ],
+      "explanation": "La manifestation, orthographiée initialement « Sallon », fut organisée par l'Académie à partir de 1737.",
+      "level": "medium",
+      "emoji": "🖼️",
+      "duration": 30,
+      "points": 100,
+      "theme": "louvre",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_86.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-86-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de carats composent le Régent, célèbre diamant du Musée du Louvre ?",
+      "answer": "140 carats",
+      "options": [
+        "210 carats",
+        "300 carats",
+        "140 carats",
+        "60 carats"
+      ],
+      "explanation": "Le Régent est considéré comme l'une des pierres précieuses les plus remarquables de la Couronne de France.",
+      "level": "medium",
+      "emoji": "🖼️",
+      "duration": 30,
+      "points": 100,
+      "theme": "louvre",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_86.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-86-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est l'origine de la présence au Louvre des 'Noces de Cana' de Véronèse ?",
+      "answer": "Un pillage",
+      "options": [
+        "Un cadeau",
+        "Un achat",
+        "Un pillage",
+        "Un oubli"
+      ],
+      "explanation": "Les 'Noces de Cana' est actuellement exposé au musée du Louvre, faisant face à la Joconde de Léonard de Vinci.",
+      "level": "hard",
+      "emoji": "🖼️",
+      "duration": 30,
+      "points": 100,
+      "theme": "louvre",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_86.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-86-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel pays viennent les grands taureaux barbus présentés au Louvre ?",
+      "answer": "Irak",
+      "options": [
+        "Irak",
+        "Chili",
+        "Égypte",
+        "Allemagne"
+      ],
+      "explanation": "Des génies protecteurs, taureaux ailés à tête humaine, étaient les gardiens de certaines portes de la ville et du palais.",
+      "level": "hard",
+      "emoji": "🖼️",
+      "duration": 30,
+      "points": 100,
+      "theme": "louvre",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_86.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-86-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment appelle-t-on un portrait peint sur un support de format circulaire ?",
+      "answer": "Un tondo",
+      "options": [
+        "Un uno",
+        "Un tondo",
+        "Une roue",
+        "Un oval"
+      ],
+      "explanation": "Depuis l'Antiquité, le cercle, la sphère et le disque renvoient à l'idée de perfection.",
+      "level": "hard",
+      "emoji": "🖼️",
+      "duration": 30,
+      "points": 100,
+      "theme": "louvre",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_86.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-86-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel martyr plein de flèches a été peint par Andrea Mantegna vers 1480 ?",
+      "answer": "Saint Sébastien",
+      "options": [
+        "Jésus",
+        "Judas",
+        "Saint Louis",
+        "Saint Sébastien"
+      ],
+      "explanation": "Lors de son long séjour à Mantoue, Mantegna résidait près de l’église dédiée à saint Sébastien.",
+      "level": "hard",
+      "emoji": "🖼️",
+      "duration": 30,
+      "points": 100,
+      "theme": "louvre",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_86.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-86-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel artisan, très présent au Louvre, a donné son nom à une école d'ameublement parisienne ?",
+      "answer": "Boulle",
+      "options": [
+        "Boulle",
+        "Billard",
+        "Bill",
+        "Billot"
+      ],
+      "explanation": "Ébéniste du roi, André-Charles Boulle fut le premier de son temps à appliquer du bronze doré à l'ébénisterie.",
+      "level": "hard",
+      "emoji": "🖼️",
+      "duration": 30,
+      "points": 100,
+      "theme": "louvre",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_86.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-86-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a peint un portrait de Mary Cassatt intitulé 'La Visite au Louvre' ?",
+      "answer": "Degas",
+      "options": [
+        "Monet",
+        "Picasso",
+        "Pissaro",
+        "Degas"
+      ],
+      "explanation": "Après son baccalauréat en 1853, Edgar Degas passa ses journées au Louvre où il fut admis comme « copiste ».",
+      "level": "hard",
+      "emoji": "🖼️",
+      "duration": 30,
+      "points": 100,
+      "theme": "louvre",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_86.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-86-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle origine est 'L'ivoire Barberini', chef d’œuvre du Musée du Louvre ?",
+      "answer": "Byzantine",
+      "options": [
+        "Bouddhiste",
+        "Byzantine",
+        "Islamique",
+        "Étrusque"
+      ],
+      "explanation": "'L'ivoire Barberini' est un feuillet d'ivoire composé de quatre plaques sculptées dans le style classicisant dit théodosien tardif.",
+      "level": "hard",
+      "emoji": "🖼️",
+      "duration": 30,
+      "points": 100,
+      "theme": "louvre",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_86.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

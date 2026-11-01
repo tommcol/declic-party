@@ -88,10 +88,12 @@ Les autres branches ne publient pas le site de production ; les aperçus automat
 
 L’authentification de publication reste gérée par Cloudflare ; aucun jeton n’est stocké dans le dépôt. Pour un déploiement manuel depuis un poste authentifié, `npm run deploy` reste disponible.
 
-### Quiz prêts à jouer (v0.4)
+### Quiz prêts à jouer (v0.4.1)
 
-« Les quiz » propose 302 questions françaises dans 12 thèmes : instruments, variété française, comédies françaises, Star Wars, Le Roi Lion, géographie, Égypte ancienne, chimie, sports collectifs, animaux et habitats, cuisines du monde, Nintendo. Choisir un pack ouvre sa préparation ; on peut mélanger jusqu’à trois thèmes du même univers et filtrer les niveaux débutant, confirmé ou expert. Le nombre joué est limité au nombre disponible après filtrage, sans répétition dans la partie.
+« Les quiz » propose **746 questions françaises dans 33 thèmes**, avec recherche par thème, source affichée sur chaque pack et trois niveaux de difficulté. Choisir un pack ouvre sa préparation ; on peut mélanger jusqu’à trois thèmes du même univers. Le nombre joué est limité au nombre disponible après filtrage, sans répétition dans la partie.
 
-Ces questionnaires écrits fonctionnent en USB/clavier, QCM téléphone, réponse écrite ou buzzer téléphone. Les anecdotes et crédits apparaissent après révélation et dans le bilan. La banque statique est consultable dans les sources publiques ; le jeu vise l’animation de soirées, pas les examens sécurisés.
+Nouveautés : new wave, reggae, groupes français des années 80, Johnny Hallyday, Jurassic Park, Les Visiteurs, Le Cinquième Élément, Louvre, littérature, Tintin, monuments, inventions, oiseaux, fourmis, grandes dates du XXe siècle, herbes et épices, fromages, sports d’hiver, curiosités culturelles, mythologies et culture pop.
 
-Données adaptées d’OpenQuizzDB, auteurs Philippe Bresoux et Geremia Fortunato, **CC BY-SA 4.0**. Voir [provenance, changements et licence](data/openquizzdb/NOTICE.md). Les fichiers JSON français sont réutilisables sous cette licence. Régénération : `node scripts/build-question-bank.mjs`. Les questionnaires sont inclus dans le déploiement et ne dépendent pas d’une API externe.
+Les questionnaires écrits fonctionnent en USB/clavier, QCM téléphone, réponse écrite ou buzzer téléphone. Anecdotes et crédits apparaissent après révélation et dans le bilan. La banque statique est consultable dans les sources publiques ; le jeu vise l’animation de soirées, pas les examens sécurisés.
+
+Données : 705 questions OpenQuizzDB (CC BY-SA 4.0), 17 questions Qulture et 24 adaptations LearnClash (CC BY 4.0). Voir [sources, recherche, auteurs et licences](data/SOURCES.md). Régénération : `node scripts/build-question-bank.mjs`. Le catalogue est inclus dans le déploiement et ne dépend d’aucune API externe pendant la partie.

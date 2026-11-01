@@ -1,0 +1,548 @@
+{
+  "id": "inventions",
+  "title": "Inventions et découvertes",
+  "originalTitle": "Inventions",
+  "universe": "quiz",
+  "emoji": "💡",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_123.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "excludedOriginalIds": [
+    1,
+    9,
+    10,
+    13,
+    14,
+    18,
+    22,
+    23,
+    28,
+    30
+  ],
+  "questions": [
+    {
+      "id": "oqdb-123-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces inventions ne porte pas le nom de son inventeur ?",
+      "answer": "Le laser",
+      "options": [
+        "Le colt",
+        "Le laser",
+        "La poubelle",
+        "Le macadam"
+      ],
+      "explanation": "En 1950, Alfred Kastler proposa un procédé de pompage optique qu'il valida expérimentalement deux ans plus tard.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "inventions",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_123.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-123-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle compétition prime chaque année les meilleures inventions françaises ?",
+      "answer": "Le Concours Lépine",
+      "options": [
+        "Le Concours Lépine",
+        "Le Concours Edison",
+        "Le Concours Novastar",
+        "Le Concours Thomas"
+      ],
+      "explanation": "Ce concours-exposition de jouets était principalement destiné à sortir les petits fabricants du marasme économique ambiant.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "inventions",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_123.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-123-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel jeu de société international Chris Haney et Scott Abbott ont-ils créé ?",
+      "answer": "Trivial Pursuit",
+      "options": [
+        "Monopoly",
+        "Trivial Pursuit",
+        "Puissance 4",
+        "Cluedo"
+      ],
+      "explanation": "Le jeu a été commercialisé en France sous le nom 'Remue-méninges' avant de connaître le succès que nous lui connaissons.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "inventions",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_123.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-123-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a inventé la dynamite au moyen de la nitroglycérine ?",
+      "answer": "Alfred Nobel",
+      "options": [
+        "Albert Einstein",
+        "Isaac Newton",
+        "Lavoisier",
+        "Alfred Nobel"
+      ],
+      "explanation": "La dynamite a été très utilisée, notamment dans l'industrie minière, jusqu'à son remplacement par des explosifs plus puissants.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "inventions",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_123.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-123-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel biologiste français a inventé la pasteurisation de la bière ?",
+      "answer": "Louis Pasteur",
+      "options": [
+        "Louis Pasteur",
+        "Laurent Chabry",
+        "Thomas Preat",
+        "Maurice Fontaine"
+      ],
+      "explanation": "La pasteurisation est un procédé de conservation des aliments par lequel ceux-ci sont chauffés puis rapidement refroidis.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "inventions",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_123.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-123-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel inventeur italien a conçu à la fin du XVe siècle un canon et un parachute ?",
+      "answer": "Léonard de Vinci",
+      "options": [
+        "Léonard de Vinci",
+        "Ettore Bugatti",
+        "Roberto Galletti",
+        "Alessandro Volta"
+      ],
+      "explanation": "Léonard de Vinci a fait progresser la connaissance dans les domaines de l'anatomie, du génie civil, de l'optique et de l'hydrodynamique.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "inventions",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_123.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-123-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Selon des textes anciens, dans quel pays a-t-on inventé le cerf-volant ?",
+      "answer": "En Chine",
+      "options": [
+        "Aux États-Unis",
+        "Au Mexique",
+        "En Chine",
+        "En Inde"
+      ],
+      "explanation": "À l'origine, le cerf-volant servait de signal, mais aussi à porter des messages, à effrayer les ennemis ou à évaluer des distances.",
+      "level": "easy",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "inventions",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_123.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-123-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel terme fut inventé en 1955 par le philologue français Jacques Perret ?",
+      "answer": "Ordinateur",
+      "options": [
+        "Transistor",
+        "Ordinateur",
+        "Imprimante",
+        "Ampoule"
+      ],
+      "explanation": "Le terme « Ordinateur » voulait dire, selon les intentions du docteur en lettres, « Dieu mettant de l'ordre dans le monde ».",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "inventions",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_123.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-123-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel français a inventé le stéthoscope, alors une simple liasse de papiers roulés ?",
+      "answer": "René Laennec",
+      "options": [
+        "Louis Pasteur",
+        "René Laennec",
+        "Léon Binet",
+        "Louis Braille"
+      ],
+      "explanation": "Ce procédé certes rudimentaire permettait d'éloigner l'oreille du médecin de son patient pour des raisons de pudeur et d'efficacité.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "inventions",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_123.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-123-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel savant italien a découvert le principe de la pile électrique ?",
+      "answer": "Volta",
+      "options": [
+        "Marconi",
+        "Volta",
+        "Bugatti",
+        "Turriano"
+      ],
+      "explanation": "À l'origine, le terme « pile » désignait un dispositif inventé par Alessandro Volta, composé d'un empilement de rondelles.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "inventions",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_123.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-123-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle invention Nicolas Appert a-t-il mise au point pour les armées de Napoléon ?",
+      "answer": "La conserve",
+      "options": [
+        "Le lit de camp",
+        "La conserve",
+        "Le ceinturon",
+        "Le tissu imperméable"
+      ],
+      "explanation": "Par sa méthode de conservation, Nicolas Appert a créé en France la première usine de conserves au monde.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "inventions",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_123.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-123-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle marque a inventé la cassette audio ou minicassette ?",
+      "answer": "Philips",
+      "options": [
+        "Philips",
+        "Fuji",
+        "Sony",
+        "BASF"
+      ],
+      "explanation": "Bien que le CD ait supplanté la cassette audio, on peut encore en trouver des exemplaires vierges dans beaucoup d'enseignes.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "inventions",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_123.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-123-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À qui doit-on le prototype de la première dynamo industrielle réalisé en 1869 ?",
+      "answer": "Zénobe Gramme",
+      "options": [
+        "Frédéric Neuhaus",
+        "Victor Simon",
+        "John Cockerill",
+        "Zénobe Gramme"
+      ],
+      "explanation": "La dynamo est une machine à courant continu fonctionnant en générateur électrique par induction électromagnétique.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "inventions",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_123.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-123-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel physicien et mathématicien italien a inventé le baromètre en 1643 ?",
+      "answer": "Evangelista Torricelli",
+      "options": [
+        "Orazio Grassi",
+        "Evangelista Torricelli",
+        "Pietro Blaserna",
+        "Giuseppe Piazzi"
+      ],
+      "explanation": "Un baromètre, pouvant aussi servir d'altimètre, est un instrument de mesure servant à mesurer la pression atmosphérique.",
+      "level": "medium",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "inventions",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_123.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-123-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel ingénieur écossais fut le premier à utiliser le terme « cheval-vapeur » ?",
+      "answer": "James Watt",
+      "options": [
+        "William Rankine",
+        "James Watt",
+        "Henry Dyer",
+        "Alexander Thom"
+      ],
+      "explanation": "En 1879, les 38 lignes d'omnibus de Paris requéraient l'entretien pharaonique de pas moins de 16 500 chevaux.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "inventions",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_123.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-123-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel était le véritable métier de Samuel Morse, qui déposa en 1840 le brevet du télégraphe ?",
+      "answer": "Peintre sculpteur",
+      "options": [
+        "Peintre sculpteur",
+        "Compositeur lyrique",
+        "Chorégraphe danseur",
+        "Écrivain éditeur"
+      ],
+      "explanation": "Le génie de Samuel Morse fut de concevoir une machine simple, efficace, bon marché et robuste à la fois.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "inventions",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_123.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-123-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel docteur et professeur en médecine est surtout connu pour avoir inventé le basket-ball ?",
+      "answer": "James Naismith",
+      "options": [
+        "Martin Roy",
+        "James Naismith",
+        "Jacques Dextraze",
+        "Gordon Herbert"
+      ],
+      "explanation": "Durant sa jeunesse, James Naismith était un gymnaste et un joueur de football canadien de haut niveau à l'université McGill.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "inventions",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_123.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-123-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel pays le 'Lego' a-t-il été inventé par un charpentier ?",
+      "answer": "Danemark",
+      "options": [
+        "Suède",
+        "Norvège",
+        "Danemark",
+        "Finlande"
+      ],
+      "explanation": "Le nom de la société fut créé par Ole Kirk Christiansen en 1932, à partir du danois « leg godt », signifiant « joue bien ».",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "inventions",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_123.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-123-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel inventeur français a mis au point la première carte à puce ?",
+      "answer": "Roland Moreno",
+      "options": [
+        "Léon Bollée",
+        "Gustave Lyon",
+        "Henri Fourel",
+        "Roland Moreno"
+      ],
+      "explanation": "Roland Moreno a reçu pour son invention de la carte à puce l'Oscar du livre mondial des inventions en 1985.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "inventions",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_123.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-123-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Louis Réard a inventé le bikini, mais quel était son véritable métier ?",
+      "answer": "Ingénieur automobile",
+      "options": [
+        "Barbier",
+        "Ingénieur automobile",
+        "Charcutier",
+        "Coiffeur"
+      ],
+      "explanation": "Il le présenta en 1946 à la piscine Molitor, porté par Micheline Bernardini, une danseuse nue bien connue du Casino de Paris.",
+      "level": "hard",
+      "emoji": "💡",
+      "duration": 30,
+      "points": 100,
+      "theme": "inventions",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_123.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

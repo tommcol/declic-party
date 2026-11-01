@@ -1,0 +1,564 @@
+{
+  "id": "curiosites",
+  "title": "Curiosités culturelles",
+  "universe": "quiz",
+  "emoji": "✨",
+  "credit": {
+    "publisher": "Qulture",
+    "author": "Qulture — Martin Berbesson (2026)",
+    "source": "https://www.qulture-app.com/open-data/qulture-reviewed-questions.json",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "datasetGeneratedAt": "2026-08-28T09:21:55.104Z",
+  "excludedOriginalIds": [
+    2437,
+    2554
+  ],
+  "questions": [
+    {
+      "id": "qulture-629",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel festival a débuté comme festival de musique en 1987 avant d’ajouter le cinéma et Interactive ?",
+      "answer": "SXSW (South by Southwest)",
+      "options": [
+        "SXSW (South by Southwest)",
+        "Coachella",
+        "Tomorrowland",
+        "Ultra Music Festival"
+      ],
+      "explanation": "SXSW a débuté à Austin en 1987 comme festival et conférence consacrés à la musique, afin de donner davantage de visibilité à la scène musicale locale. Les volets Film et Interactive ont été ajoutés en 1994. Aujourd’hui, SXSW réunit musique, cinéma, technologie, éducation et culture, mais son origine est musicale — et non une conférence technologique.",
+      "level": "medium",
+      "emoji": "✨",
+      "duration": 30,
+      "points": 100,
+      "theme": "curiosites",
+      "credit": {
+        "publisher": "Qulture",
+        "author": "Qulture — Martin Berbesson (2026)",
+        "source": "https://www.qulture-app.com/open-data/qulture-reviewed-questions.json",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "originalId": 629,
+      "factSource": {
+        "url": "https://sxsw.com/about/history/",
+        "label": "SXSW — History of SXSW",
+        "reviewedAt": "2026-08-09"
+      }
+    },
+    {
+      "id": "qulture-1262",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelles communautés d’Africains ayant échappé à l’esclavage ont contribué au déclenchement de la Révolution haïtienne ?",
+      "answer": "Les Marrons",
+      "options": [
+        "Les Tainos",
+        "Les Arawaks",
+        "Les Caribes",
+        "Les Marrons"
+      ],
+      "explanation": "Les communautés marronnes étaient formées d’Africains ayant échappé à l’esclavage et de leurs descendants. Dans la colonie française de Saint-Domingue, elles ont résisté au pouvoir colonial et contribué au déclenchement de la Révolution haïtienne, qui mena à l’indépendance d’Haïti en 1804. Il ne s’agissait pas d’un peuple autochtone : leur histoire relève surtout de la diaspora africaine et de la résistance à l’esclavage.",
+      "level": "hard",
+      "emoji": "✨",
+      "duration": 30,
+      "points": 100,
+      "theme": "curiosites",
+      "credit": {
+        "publisher": "Qulture",
+        "author": "Qulture — Martin Berbesson (2026)",
+        "source": "https://www.qulture-app.com/open-data/qulture-reviewed-questions.json",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "originalId": 1262,
+      "factSource": {
+        "url": "https://folkways.si.edu/rebel-tour-maroon-communities/african-amerian-struggle-protest/music/article/smithsonian",
+        "label": "Smithsonian Folkways — Maroon communities",
+        "reviewedAt": "2026-08-09"
+      }
+    },
+    {
+      "id": "qulture-976",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la capitale de la Nouvelle-Zélande, souvent confondue avec sa ville la plus peuplée, Auckland ?",
+      "answer": "Wellington",
+      "options": [
+        "Wellington",
+        "Christchurch",
+        "Auckland",
+        "Dunedin"
+      ],
+      "explanation": "Wellington est la capitale de la Nouvelle-Zélande depuis 1865. Elle accueille le Parlement, les bureaux du Cabinet et du Premier ministre, ainsi que les plus hautes juridictions du pays. Auckland, qui fut la capitale de 1841 à 1865, est aujourd’hui nettement plus peuplée, ce qui explique la confusion fréquente. Sa situation au sud de l’île du Nord facilite aussi les liaisons maritimes et aériennes entre les deux grandes îles du pays.",
+      "level": "easy",
+      "emoji": "✨",
+      "duration": 30,
+      "points": 100,
+      "theme": "curiosites",
+      "credit": {
+        "publisher": "Qulture",
+        "author": "Qulture — Martin Berbesson (2026)",
+        "source": "https://www.qulture-app.com/open-data/qulture-reviewed-questions.json",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "originalId": 976,
+      "factSource": {
+        "url": "https://teara.govt.nz/en/capital-city",
+        "label": "Te Ara — Capital city",
+        "reviewedAt": "2026-08-09"
+      }
+    },
+    {
+      "id": "qulture-633",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel festival malien est devenu célèbre pour ses concerts en plein air dans le Sahara près de Tombouctou ?",
+      "answer": "Festival au Désert",
+      "options": [
+        "Burning Man",
+        "Festival au Désert",
+        "Coachella",
+        "Desert Daze"
+      ],
+      "explanation": "Créé en 2001, le Festival au Désert se tenait à Essakane, près de Tombouctou, et mettait en avant les musiques touarègues aux côtés d’artistes du monde entier. La crise politico-sécuritaire de 2012 et l’interdiction de la musique dans le nord du Mali ont empêché son retour sur son site. L’organisation a ensuite fait vivre ses valeurs de paix et de tolérance sous forme d’une caravane itinérante et de concerts en exil.",
+      "level": "medium",
+      "emoji": "✨",
+      "duration": 30,
+      "points": 100,
+      "theme": "curiosites",
+      "credit": {
+        "publisher": "Qulture",
+        "author": "Qulture — Martin Berbesson (2026)",
+        "source": "https://www.qulture-app.com/open-data/qulture-reviewed-questions.json",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "originalId": 633,
+      "factSource": {
+        "url": "https://www.essakaneproduction.com/thepeacecaravan",
+        "label": "Essakane Production — Festival au Désert",
+        "reviewedAt": "2026-08-09"
+      }
+    },
+    {
+      "id": "qulture-456",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel club de jazz a ouvert dans Greenwich Village, à New York, en 1981 ?",
+      "answer": "The Blue Note",
+      "options": [
+        "The Blue Note",
+        "The Cotton Club",
+        "Birdland",
+        "Village Vanguard."
+      ],
+      "explanation": "Le Blue Note ouvrit en 1981 dans Greenwich Village, à New York, à l’initiative de Danny Bensusan. Le club voulait offrir aux artistes de jazz un lieu intimiste où la musique resterait au centre de l’expérience. Il accueillit au fil du temps des musiciens tels que Sarah Vaughan, Dizzy Gillespie, Oscar Peterson, Ray Brown, Stanley Turrentine et Tito Puente, puis développa des établissements et partenariats ailleurs dans le monde. John Coltrane, mort en 1967, ne pouvait évidemment pas s’y être produit. Le Cotton Club, Birdland et le Village Vanguard appartiennent à d’autres périodes importantes de l’histoire du jazz new-yorkais.",
+      "level": "hard",
+      "emoji": "✨",
+      "duration": 30,
+      "points": 100,
+      "theme": "curiosites",
+      "credit": {
+        "publisher": "Qulture",
+        "author": "Qulture — Martin Berbesson (2026)",
+        "source": "https://www.qulture-app.com/open-data/qulture-reviewed-questions.json",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "originalId": 456,
+      "factSource": {
+        "url": "https://www.bluenotejazz.com/nyc/about/",
+        "label": "Blue Note New York — About",
+        "reviewedAt": "2026-08-09"
+      }
+    },
+    {
+      "id": "qulture-1047",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle île des Caraïbes est l’unique habitat naturel de l’Amazone verte (Amazona agilis) ?",
+      "answer": "Jamaïque",
+      "options": [
+        "Cuba",
+        "Jamaïque",
+        "Hispaniola",
+        "Porto Rico."
+      ],
+      "explanation": "L’Amazone verte, aussi appelée amazone à bec noir, porte le nom scientifique « Amazona agilis ». Ce perroquet est endémique de la Jamaïque : à l’état sauvage, il ne vit nulle part ailleurs. Il fréquente principalement les forêts humides de montagne, notamment dans les Blue Mountains et le Cockpit Country, où il se nourrit de fruits, de graines et de fleurs. Son bec sombre permet de le distinguer de l’Amazone à bec jaune, l’autre amazone endémique de l’île. Le perroquet jaco est une espèce différente, originaire d’Afrique centrale et occidentale, et ne doit pas être associé à la Jamaïque.",
+      "level": "hard",
+      "emoji": "✨",
+      "duration": 30,
+      "points": 100,
+      "theme": "curiosites",
+      "credit": {
+        "publisher": "Qulture",
+        "author": "Qulture — Martin Berbesson (2026)",
+        "source": "https://www.qulture-app.com/open-data/qulture-reviewed-questions.json",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "originalId": 1047,
+      "factSource": {
+        "url": "https://jis.gov.jm/jamaican-parrots-being-sold-illegally/",
+        "label": "Jamaica Information Service — Jamaican parrots",
+        "reviewedAt": "2026-08-09"
+      }
+    },
+    {
+      "id": "qulture-1399",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel explorateur a lancé l’expédition du premier tour du monde, achevée par Juan Sebastián Elcano ?",
+      "answer": "Ferdinand Magellan",
+      "options": [
+        "Marco Polo",
+        "Christophe Colomb",
+        "Ferdinand Magellan",
+        "Vasco da Gama"
+      ],
+      "explanation": "L’expédition partie d’Espagne en 1519 fut organisée sous le commandement de Ferdinand Magellan afin de rejoindre les îles aux épices par l’ouest. Magellan découvrit le passage qui porte aujourd’hui son nom et traversa l’océan Pacifique, mais il mourut aux Philippines en 1521. Juan Sebastián Elcano prit ensuite le commandement de la « Victoria » et ramena le navire en Espagne en septembre 1522. Elcano et les autres survivants revenus avec lui furent ainsi les premiers à accomplir un tour complet du globe. L’exploit doit donc être présenté comme une expédition initiée par Magellan et achevée par Elcano.",
+      "level": "medium",
+      "emoji": "✨",
+      "duration": 30,
+      "points": 100,
+      "theme": "curiosites",
+      "credit": {
+        "publisher": "Qulture",
+        "author": "Qulture — Martin Berbesson (2026)",
+        "source": "https://www.qulture-app.com/open-data/qulture-reviewed-questions.json",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "originalId": 1399,
+      "factSource": {
+        "url": "https://www.unesco.org/en/memory-world/first-voyage-circumnavigation-fernao-de-magalhaes-and-juan-sebastian-elcano-1519-1522",
+        "label": "UNESCO — First voyage of circumnavigation",
+        "reviewedAt": "2026-08-09"
+      }
+    },
+    {
+      "id": "qulture-3063",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel savant a perfectionné la lunette et l’a utilisée dès 1609 pour des observations astronomiques pionnières ?",
+      "answer": "Galileo Galilei",
+      "options": [
+        "Johannes Kepler",
+        "Galileo Galilei",
+        "Isaac Newton",
+        "Albert Einstein."
+      ],
+      "explanation": "Les premières lunettes d’approche connues apparurent aux Pays-Bas en 1608, et Hans Lipperhey demanda cette année-là un brevet pour un instrument rudimentaire. Ayant appris leur existence, Galilée construisit en 1609 ses propres modèles, en améliora rapidement le grossissement et les dirigea vers le ciel. Il observa le relief de la Lune, les satellites de Jupiter, les phases de Vénus et de nombreuses étoiles invisibles à l’œil nu. Ces observations transformèrent l’astronomie et soutinrent la remise en cause du modèle géocentrique. Galilée n’a donc pas inventé la lunette, mais il en fit l’un des premiers grands instruments de recherche astronomique.",
+      "level": "medium",
+      "emoji": "✨",
+      "duration": 30,
+      "points": 100,
+      "theme": "curiosites",
+      "credit": {
+        "publisher": "Qulture",
+        "author": "Qulture — Martin Berbesson (2026)",
+        "source": "https://www.qulture-app.com/open-data/qulture-reviewed-questions.json",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "originalId": 3063,
+      "factSource": {
+        "url": "https://www.loc.gov/collections/finding-our-place-in-the-cosmos-with-carl-sagan/articles-and-essays/modeling-the-cosmos/galileo-and-the-telescope/",
+        "label": "Library of Congress — Galileo and the telescope",
+        "reviewedAt": "2026-08-09"
+      }
+    },
+    {
+      "id": "qulture-955",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel film de 1995 est le premier long métrage entièrement réalisé en animation par ordinateur ?",
+      "answer": "Toy Story",
+      "options": [
+        "Jurassic Park",
+        "Toy Story",
+        "Tron",
+        "Avatar."
+      ],
+      "explanation": "Sorti en 1995, « Toy Story » est le premier long métrage entièrement réalisé en animation par ordinateur. Produit par Pixar et distribué par Disney, le film suit les jouets Woody et Buzz l’Éclair et combine innovation technique, comédie et récit d’amitié. Sa fabrication nécessita de nouveaux outils de modélisation, d’éclairage et de rendu adaptés à un film complet. Des œuvres antérieures, comme « Tron » ou « Jurassic Park », avaient déjà utilisé des images de synthèse pour des décors ou des personnages importants. Le record précis de « Toy Story » ne concerne donc pas le premier personnage principal numérique, mais le premier long métrage entièrement animé par ordinateur.",
+      "level": "easy",
+      "emoji": "✨",
+      "duration": 30,
+      "points": 100,
+      "theme": "curiosites",
+      "credit": {
+        "publisher": "Qulture",
+        "author": "Qulture — Martin Berbesson (2026)",
+        "source": "https://www.qulture-app.com/open-data/qulture-reviewed-questions.json",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "originalId": 955,
+      "factSource": {
+        "url": "https://www.pixar.com/our-story",
+        "label": "Pixar — Our story",
+        "reviewedAt": "2026-08-09"
+      }
+    },
+    {
+      "id": "qulture-1509",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel empereur romain a accordé la tolérance au christianisme avec Licinius en 313 et favorisé son essor ?",
+      "answer": "Constantin",
+      "options": [
+        "Néron",
+        "Constantin",
+        "Auguste",
+        "Marc Aurèle."
+      ],
+      "explanation": "En 313, Constantin et Licinius publièrent des dispositions traditionnellement appelées édit de Milan, accordant aux chrétiens et aux autres groupes religieux la liberté de pratiquer leur culte. Constantin soutint ensuite l’Église, convoqua le concile de Nicée en 325 et fonda Constantinople, inaugurée en 330. Il reçut le baptême peu avant sa mort en 337. Il ne fit cependant pas du christianisme la religion officielle de l’Empire. Cette étape est associée à l’empereur Théodose Ier et à l’édit de Thessalonique de 380, qui établit le christianisme nicéen comme norme religieuse impériale. Son règne transforma durablement les rapports entre le pouvoir impérial et l’Église.",
+      "level": "medium",
+      "emoji": "✨",
+      "duration": 30,
+      "points": 100,
+      "theme": "curiosites",
+      "credit": {
+        "publisher": "Qulture",
+        "author": "Qulture — Martin Berbesson (2026)",
+        "source": "https://www.qulture-app.com/open-data/qulture-reviewed-questions.json",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "originalId": 1509,
+      "factSource": {
+        "url": "https://byzantine-museum.gr/christian-byzantium/",
+        "label": "Byzantine and Christian Museum — Christian Byzantium",
+        "reviewedAt": "2026-08-09"
+      }
+    },
+    {
+      "id": "qulture-978",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la capitale de l’Islande, connue pour sa nature époustouflante et sa culture riche ?",
+      "answer": "Reykjavik",
+      "options": [
+        "Reykjavik",
+        "Akureyri",
+        "Keflavík",
+        "Hafnarfjörður"
+      ],
+      "explanation": "Reykjavik, connue pour être la capitale la plus septentrionale du monde, se distingue par sa qualité de vie exceptionnelle, ses initiatives environnementales exemplaires et sa riche scène culturelle. Ville propre, verte et sûre, Reykjavik est entourée de paysages naturels à couper le souffle, incluant des sources géothermales, des volcans et des paysages glacés. C'est un centre vibrant pour les arts, la musique et la littérature, offrant un accès privilégié aux merveilles naturelles de l'Islande, comme les aurores boréales. Sa gestion durable de l'environnement et son engagement envers le développement vert en font un modèle pour les villes du futur.",
+      "level": "easy",
+      "emoji": "✨",
+      "duration": 30,
+      "points": 100,
+      "theme": "curiosites",
+      "credit": {
+        "publisher": "Qulture",
+        "author": "Qulture — Martin Berbesson (2026)",
+        "source": "https://www.qulture-app.com/open-data/qulture-reviewed-questions.json",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "originalId": 978,
+      "factSource": {
+        "url": "https://visitreykjavik.is/reykjavik",
+        "label": "Visit Reykjavík — Reykjavík",
+        "reviewedAt": "2026-08-22"
+      }
+    },
+    {
+      "id": "qulture-212",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel album des Beatles de 1967 contient notamment Lucy in the Sky with Diamonds et A Day in the Life ?",
+      "answer": "Sgt. Pepper’s Lonely Hearts Club Band",
+      "options": [
+        "Abbey Road",
+        "Sgt. Pepper’s Lonely Hearts Club Band",
+        "Rubber Soul",
+        "Revolver."
+      ],
+      "explanation": "Paru en 1967, « Sgt. Pepper’s Lonely Hearts Club Band » marque une étape majeure dans le travail en studio des Beatles. Le groupe y explore des arrangements orchestraux, des effets sonores, des collages et des techniques d’enregistrement alors novatrices dans la musique populaire. L’album contient notamment « With a Little Help from My Friends », « Lucy in the Sky with Diamonds » et « A Day in the Life ». Sa pochette conçue par Peter Blake et Jann Haworth est devenue emblématique. L’idée que le disque serait le tout premier album-concept est discutée, mais son ambition et sa cohérence ont profondément influencé la manière de concevoir l’album comme une œuvre complète.",
+      "level": "medium",
+      "emoji": "✨",
+      "duration": 30,
+      "points": 100,
+      "theme": "curiosites",
+      "credit": {
+        "publisher": "Qulture",
+        "author": "Qulture — Martin Berbesson (2026)",
+        "source": "https://www.qulture-app.com/open-data/qulture-reviewed-questions.json",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "originalId": 212,
+      "factSource": {
+        "url": "https://www.thebeatles.com/sgt-peppers-lonely-hearts-club-band",
+        "label": "The Beatles — Sgt. Pepper’s Lonely Hearts Club Band",
+        "reviewedAt": "2026-08-22"
+      }
+    },
+    {
+      "id": "qulture-268",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la ville américaine souvent considérée comme le berceau du hip-hop ?",
+      "answer": "New York",
+      "options": [
+        "Los Angeles",
+        "New York",
+        "Chicago",
+        "Detroit"
+      ],
+      "explanation": "New York, en particulier le Bronx, est universellement reconnue comme le véritable berceau du hip-hop. Au cœur des années 70, cette métropole a été le théâtre de l'éclosion des quatre piliers fondamentaux du hip-hop : le DJing, où les platines et les mixeurs permettaient de créer de nouvelles musiques à partir de disques existants; le MCing, plus connu sous le nom de rap, où la parole devient rythme et poésie; le breakdance, une forme de danse acrobatique qui s'est développée dans les rues et le graffiti, un art visuel qui a transformé le paysage urbain. Ce mouvement culturel a émergé dans un contexte socio-économique difficile, marqué par la pauvreté, le chômage, et une certaine marginalisation des communautés afro-américaines et latines. Cependant, loin de se laisser abattre par ces défis, les jeunes de New York ont utilisé ces formes d'expression comme un moyen de résistance, d'affirmation de soi et de contestation.",
+      "level": "medium",
+      "emoji": "✨",
+      "duration": 30,
+      "points": 100,
+      "theme": "curiosites",
+      "credit": {
+        "publisher": "Qulture",
+        "author": "Qulture — Martin Berbesson (2026)",
+        "source": "https://www.qulture-app.com/open-data/qulture-reviewed-questions.json",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "originalId": 268,
+      "factSource": {
+        "url": "https://www.si.edu/spotlight/hip-hop-rap-music",
+        "label": "Smithsonian — Hip-Hop and Rap Across the Smithsonian",
+        "reviewedAt": "2026-08-22"
+      }
+    },
+    {
+      "id": "qulture-665",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel tableau d’Edward Hopper illustre la solitude urbaine ?",
+      "answer": "Nighthawks",
+      "options": [
+        "American Gothic",
+        "Guernica",
+        "Nighthawks",
+        "La Liberté guidant le peuple."
+      ],
+      "explanation": "Peint en 1942, « Nighthawks » est devenu l’une des images les plus célèbres d’Edward Hopper. Le tableau montre quatre personnes dans un diner vivement éclairé, à l’angle d’une rue new-yorkaise presque vide. Hopper s’inspira d’un restaurant de Greenwich Avenue, tout en simplifiant fortement l’architecture et l’environnement. L’absence d’entrée visible, les grandes surfaces vitrées et le faible échange entre les personnages renforcent l’impression de séparation. Ces choix de composition expliquent pourquoi l’œuvre est souvent associée à la solitude et à l’anonymat de la vie urbaine moderne.",
+      "level": "hard",
+      "emoji": "✨",
+      "duration": 30,
+      "points": 100,
+      "theme": "curiosites",
+      "credit": {
+        "publisher": "Qulture",
+        "author": "Qulture — Martin Berbesson (2026)",
+        "source": "https://www.qulture-app.com/open-data/qulture-reviewed-questions.json",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "originalId": 665,
+      "factSource": {
+        "url": "https://www.artic.edu/artworks/111628/nighthawks",
+        "label": "Art Institute of Chicago — Nighthawks",
+        "reviewedAt": "2026-08-22"
+      }
+    },
+    {
+      "id": "qulture-656",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a peint La Nuit étoilée ?",
+      "answer": "Vincent van Gogh",
+      "options": [
+        "Pablo Picasso",
+        "Vincent van Gogh",
+        "Claude Monet",
+        "Léonard de Vinci."
+      ],
+      "explanation": "Vincent van Gogh peignit « La Nuit étoilée » en juin 1889 alors qu’il séjournait à l’asile de Saint-Paul-de-Mausole, à Saint-Rémy-de-Provence. Le paysage s’appuie en partie sur la vue orientée vers l’est depuis sa chambre, qu’il observa à plusieurs moments de la journée. Il transforma cependant fortement la scène : le village et son clocher sont imaginés, tandis que le ciel tourbillonnant organise la composition. Van Gogh réalisa la toile en atelier et non directement pendant la nuit. Aujourd’hui conservée au Museum of Modern Art de New York, elle est devenue l’une de ses œuvres les plus célèbres.",
+      "level": "easy",
+      "emoji": "✨",
+      "duration": 30,
+      "points": 100,
+      "theme": "curiosites",
+      "credit": {
+        "publisher": "Qulture",
+        "author": "Qulture — Martin Berbesson (2026)",
+        "source": "https://www.qulture-app.com/open-data/qulture-reviewed-questions.json",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "originalId": 656,
+      "factSource": {
+        "url": "https://www.moma.org/collection/works/79802",
+        "label": "MoMA — The Starry Night",
+        "reviewedAt": "2026-08-22"
+      }
+    },
+    {
+      "id": "qulture-1400",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel était l’objectif principal du premier voyage de Christophe Colomb en 1492 ?",
+      "answer": "Trouver une route maritime vers les Indes en naviguant vers l’ouest",
+      "options": [
+        "Trouver une route maritime vers les Indes en naviguant vers l’ouest",
+        "Découvrir l'Amérique",
+        "Explorer l'Afrique",
+        "Établir des colonies en Amérique"
+      ],
+      "explanation": "Christophe Colomb cherchait une route maritime occidentale vers les Indes, terme européen qui désignait alors différentes régions d’Asie. Il espérait faciliter l’accès aux réseaux commerciaux asiatiques. Son expédition atteignit des îles des Caraïbes en 1492. Colomb ne comprit pas qu’il avait rencontré, pour les Européens, un continent distinct de l’Asie, et ses voyages ouvrirent une période de conquête et de colonisation aux conséquences majeures.",
+      "level": "medium",
+      "emoji": "✨",
+      "duration": 30,
+      "points": 100,
+      "theme": "curiosites",
+      "credit": {
+        "publisher": "Qulture",
+        "author": "Qulture — Martin Berbesson (2026)",
+        "source": "https://www.qulture-app.com/open-data/qulture-reviewed-questions.json",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "originalId": 1400,
+      "factSource": {
+        "url": "https://www.loc.gov/exhibits/1492/columbus.html",
+        "label": "Library of Congress — Christopher Columbus: Man and Myth",
+        "reviewedAt": "2026-08-28"
+      }
+    },
+    {
+      "id": "qulture-2448",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui est surnommé “Money” pour sa capacité à générer d’énormes revenus dans le monde de la boxe ?",
+      "answer": "Floyd Mayweather Jr.",
+      "options": [
+        "Manny Pacquiao",
+        "Oscar De La Hoya",
+        "Floyd Mayweather Jr.",
+        "Canelo Alvarez"
+      ],
+      "explanation": "Floyd Mayweather Jr., surnommé \"Money Mayweather\", est reconnu non seulement pour son incroyable palmarès invaincu mais aussi pour être l'un des sportifs les plus lucratifs de tous les temps. Sa capacité à promouvoir et à vendre ses combats, combinée à son talent incontesté sur le ring, a généré des revenus records pour la boxe. Mayweather est célèbre pour ses combats contre de grands noms comme Manny Pacquiao et Conor McGregor, chacun étant parmi les événements payants les plus rentables de l'histoire du sport. Sa maîtrise défensive, sa précision et son intelligence sur le ring lui ont permis de dominer plusieurs divisions de poids, établissant un héritage comme l'un des plus grands boxeurs défensifs de tous les temps. En dehors du ring, son sens des affaires et sa personnalité flamboyante ont fait de lui une figure emblématique mondiale, transcendant le sport de la boxe.",
+      "level": "medium",
+      "emoji": "✨",
+      "duration": 30,
+      "points": 100,
+      "theme": "curiosites",
+      "credit": {
+        "publisher": "Qulture",
+        "author": "Qulture — Martin Berbesson (2026)",
+        "source": "https://www.qulture-app.com/open-data/qulture-reviewed-questions.json",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "originalId": 2448,
+      "factSource": {
+        "url": "https://www.ibhof.com/pages/about/inductees/modern/mayweather.html",
+        "label": "International Boxing Hall of Fame — Floyd Mayweather",
+        "reviewedAt": "2026-08-28"
+      }
+    }
+  ]
+}

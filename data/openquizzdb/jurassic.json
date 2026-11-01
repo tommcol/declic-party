@@ -1,0 +1,623 @@
+{
+  "id": "jurassic",
+  "title": "Jurassic Park",
+  "originalTitle": "Jurassic Park",
+  "universe": "film",
+  "emoji": "🦖",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Catherine De Smeytere",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_63.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "excludedOriginalIds": [
+    4,
+    9,
+    19,
+    25,
+    26,
+    29,
+    30
+  ],
+  "questions": [
+    {
+      "id": "oqdb-63-1",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui a rêvé et financé le retour des dinosaures dans la saga 'Jurassic Park' ?",
+      "answer": "John Hammond",
+      "options": [
+        "Robert Muldoon",
+        "John Hammond",
+        "Alan Grant",
+        "Ian Malcolm"
+      ],
+      "explanation": "John Parker Hammond, le PDG de la puissante compagnie InGen, parvient à donner vie à des dinosaures grâce au clonage.",
+      "level": "easy",
+      "emoji": "🦖",
+      "duration": 30,
+      "points": 100,
+      "theme": "jurassic",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_63.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-63-2",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Que mange le Tyrannosaure Rex dans le film 'Jurassic Park' ?",
+      "answer": "De la viande",
+      "options": [
+        "Des feuilles",
+        "De la viande",
+        "Des baies",
+        "Des big macs"
+      ],
+      "explanation": "Le tyrannosaure aurait vécu il y a environ 68 à 66 millions d'années, dans ce qui est actuellement l'Amérique du Nord.",
+      "level": "easy",
+      "emoji": "🦖",
+      "duration": 30,
+      "points": 100,
+      "theme": "jurassic",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_63.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-63-3",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle actrice américaine d'origine britannique interprète Sarah dans 'Le Monde Perdu' ?",
+      "answer": "Julianne Moore",
+      "options": [
+        "Michelle Pfeiffer",
+        "Julianne Moore",
+        "Laura Dern",
+        "Nicole Kidman"
+      ],
+      "explanation": "Depuis 2002, elle utilise régulièrement sa notoriété afin de venir en aide aux enfants victimes de la sclérose tubéreuse de Bourneville.",
+      "level": "easy",
+      "emoji": "🦖",
+      "duration": 30,
+      "points": 100,
+      "theme": "jurassic",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_63.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-63-5",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le nom du PDG de l'entreprise InGen dans 'Jurassic Park' ?",
+      "answer": "John Hammond",
+      "options": [
+        "John Hammond",
+        "Robert Muldoon",
+        "Alan Grant",
+        "Ian Malcolm"
+      ],
+      "explanation": "John Hammond a travaillé à la création d'un parc d'attractions sur Isla Nublar, une île qu'il possède au large du Costa Rica.",
+      "level": "easy",
+      "emoji": "🦖",
+      "duration": 30,
+      "points": 100,
+      "theme": "jurassic",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_63.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-63-6",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui a réalisé les deux premiers opus de la saga 'Jurassic Park' ?",
+      "answer": "Steven Spielberg",
+      "options": [
+        "Colin Trevorrow",
+        "Derek Connolly",
+        "Steven Spielberg",
+        "Joe Johnston"
+      ],
+      "explanation": "Steven Spielberg est souvent cité comme le meilleur représentant de l'industrie cinématographique hollywoodienne.",
+      "level": "easy",
+      "emoji": "🦖",
+      "duration": 30,
+      "points": 100,
+      "theme": "jurassic",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_63.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-63-7",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Pour quel anniversaire le film 'Jurassic Park' est-il ressorti en 3D ?",
+      "answer": "20 ans",
+      "options": [
+        "25 ans",
+        "10 ans",
+        "15 ans",
+        "20 ans"
+      ],
+      "explanation": "Le développement de la première version du film a commencé avant même que le livre soit publié par Michael Crichton.",
+      "level": "easy",
+      "emoji": "🦖",
+      "duration": 30,
+      "points": 100,
+      "theme": "jurassic",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_63.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-63-8",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui a composé pour Steven Spielberg la bande originale du film 'Jurassic Park' ?",
+      "answer": "John Williams",
+      "options": [
+        "James Horner",
+        "Hans Zimmer",
+        "John Williams",
+        "Thomas Newman"
+      ],
+      "explanation": "Avec 50 nominations aux Oscars, John Williams est la deuxième personne la plus nommée après Walt Disney.",
+      "level": "easy",
+      "emoji": "🦖",
+      "duration": 30,
+      "points": 100,
+      "theme": "jurassic",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_63.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-63-10",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Entre 1993 et 2015, combien de films ont constitué la saga 'Jurassic Park' ?",
+      "answer": "Quatre",
+      "options": [
+        "Trois",
+        "Quatre",
+        "Six",
+        "Cinq"
+      ],
+      "explanation": "'Jurassic Park' est le premier film de l'histoire à amasser plus de 900 millions de dollars, devenant le film le mieux reçu jusque-là.",
+      "level": "easy",
+      "emoji": "🦖",
+      "duration": 30,
+      "points": 100,
+      "theme": "jurassic",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_63.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-63-11",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Comment se prénomme la petite amie de Malcom dans 'Le Monde Perdu' ?",
+      "answer": "Sarah",
+      "options": [
+        "Sarah",
+        "Sandra",
+        "Mina",
+        "Laura"
+      ],
+      "explanation": "Dans le roman, Sarah Harding et Malcolm sont de simples amis. Dans le film, ils sont en couple.",
+      "level": "medium",
+      "emoji": "🦖",
+      "duration": 30,
+      "points": 100,
+      "theme": "jurassic",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_63.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-63-12",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel professeur est un spécialiste de la théorie du chaos dans la saga 'Jurassic Park' ?",
+      "answer": "Malcom",
+      "options": [
+        "Brandt",
+        "Malcom",
+        "Lazard",
+        "Rogue"
+      ],
+      "explanation": "Grand amateur de dinosaures, Jeff Goldblum a rencontré James Gleick et Ivar Ekeland pour discuter de la théorie du chaos.",
+      "level": "medium",
+      "emoji": "🦖",
+      "duration": 30,
+      "points": 100,
+      "theme": "jurassic",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_63.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-63-13",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "À quelle espèce appartient le bébé dinosaure à la patte cassée dans 'Le Monde Perdu' ?",
+      "answer": "Tyrannosaure",
+      "options": [
+        "Tyrannosaure",
+        "Stégosaure",
+        "Bronchiosaure",
+        "Vélociraptor"
+      ],
+      "explanation": "50 cascadeurs ont travaillé sur ce film alors que seulement 13 avaient été utilisés dans le premier film.",
+      "level": "medium",
+      "emoji": "🦖",
+      "duration": 30,
+      "points": 100,
+      "theme": "jurassic",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_63.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-63-14",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui est l'auteur du roman 'Jurassic Park' dont s'est inspiré le film éponyme ?",
+      "answer": "Michael Crichton",
+      "options": [
+        "Stephen King",
+        "Michael Crichton",
+        "Maxime Chattam",
+        "J. K. Rowling"
+      ],
+      "explanation": "Le film reprend l'idée de base du roman tout en apportant des modifications significatives aux personnages et aux péripéties.",
+      "level": "medium",
+      "emoji": "🦖",
+      "duration": 30,
+      "points": 100,
+      "theme": "jurassic",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_63.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-63-15",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle est la spécialité du docteur Alan Grant dans 'Jurassic Park' ?",
+      "answer": "Paléontologue",
+      "options": [
+        "Paléontologue",
+        "Généticien",
+        "Archéologue",
+        "Botaniste"
+      ],
+      "explanation": "Alan Grant est un paléontologue qui n'aime pas grand chose : ni les enfants, ni les machines, et grimper aux arbres lui fait horreur.",
+      "level": "medium",
+      "emoji": "🦖",
+      "duration": 30,
+      "points": 100,
+      "theme": "jurassic",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_63.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-63-16",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Combien d'Oscars le film 'Jurassic Park' a-t-il remporté ?",
+      "answer": "Trois",
+      "options": [
+        "Trois",
+        "Un",
+        "Aucun",
+        "Deux"
+      ],
+      "explanation": "Les Oscars remportés sont : Oscar des meilleurs effets visuels, Oscar du meilleur son, Oscar du meilleur mixage de son.",
+      "level": "medium",
+      "emoji": "🦖",
+      "duration": 30,
+      "points": 100,
+      "theme": "jurassic",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_63.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-63-17",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Sur quelle île se déroule l'action du film 'Jurassic World' ?",
+      "answer": "Isla Nublar",
+      "options": [
+        "Isla Maya",
+        "Isla Nublar",
+        "Isla Sora",
+        "Isla Nubia"
+      ],
+      "explanation": "Pour <i>Mad Movies</i>, Jurassic World est la meilleure des suites du premier film, utilisant l'humour comme dans le premier opus.",
+      "level": "medium",
+      "emoji": "🦖",
+      "duration": 30,
+      "points": 100,
+      "theme": "jurassic",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_63.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-63-18",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui a racheté la société de biotechnologie InGen dans le film 'Jurassic World' ?",
+      "answer": "Simon Masrani",
+      "options": [
+        "Simon Masrani",
+        "Masha Homadi",
+        "Yoki Mashani",
+        "Robert Basmatti"
+      ],
+      "explanation": "C'est l'acteur indien Irfan Khan, de son vrai nom Sahabzade Irrfan Ali Khan, qui interprète le rôle du milliardaire propriétaire du parc.",
+      "level": "medium",
+      "emoji": "🦖",
+      "duration": 30,
+      "points": 100,
+      "theme": "jurassic",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_63.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-63-20",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui sont Alexis et Timothy pour John Hammond dans le film 'Jurassic Park' ?",
+      "answer": "Ses petits enfants",
+      "options": [
+        "Ses filleuls",
+        "Ses enfants",
+        "Ses petits enfants",
+        "Ses neveux"
+      ],
+      "explanation": "Dans le roman, John Hammond est loin d'être un « gentil grand-père » et ressemble plus à un impitoyable homme d'affaires.",
+      "level": "medium",
+      "emoji": "🦖",
+      "duration": 30,
+      "points": 100,
+      "theme": "jurassic",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_63.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-63-21",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel acteur interpète Ray Arnold dans le premier volet de la saga 'Jurassic Park' ?",
+      "answer": "Samuel L. Jackson",
+      "options": [
+        "Sam Neill",
+        "Samuel L. Jackson",
+        "Liam Neeson",
+        "John Travolta"
+      ],
+      "explanation": "En 2011, il entre dans le <i>Livre Guinness des records</i> en tant qu'acteur ayant apporté le plus de recettes au box-office mondial.",
+      "level": "hard",
+      "emoji": "🦖",
+      "duration": 30,
+      "points": 100,
+      "theme": "jurassic",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_63.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-63-22",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Comment se prénomme la fille de Malcom dans la saga 'Jurassic Park' ?",
+      "answer": "Kelly",
+      "options": [
+        "Sandy",
+        "Cindy",
+        "Kelly",
+        "Nelly"
+      ],
+      "explanation": "Son prénom vient de Kelly Curtis, une fille dans le second volet du livre, et sa couleur de peau est en fait une allusion à Arby Benton.",
+      "level": "hard",
+      "emoji": "🦖",
+      "duration": 30,
+      "points": 100,
+      "theme": "jurassic",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_63.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-63-23",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Où a été construit, sur le continent, le nouveau parc du film 'Le Monde Perdu' ?",
+      "answer": "San Diego",
+      "options": [
+        "Los Angeles",
+        "San Diego",
+        "Miami",
+        "New York"
+      ],
+      "explanation": "Des quatre films de la série, il s'agit du deuxième ayant le plus de décès. Il y en a 10 dans l'île et 3 à San Diego.",
+      "level": "hard",
+      "emoji": "🦖",
+      "duration": 30,
+      "points": 100,
+      "theme": "jurassic",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_63.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-63-24",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui est le premier à être dévoré par le T-Rex dans le 'Jurassic Park' de 1993 ?",
+      "answer": "Donald Gennaro",
+      "options": [
+        "John Hammond",
+        "Alan Grant",
+        "Ian Malcolm",
+        "Donald Gennaro"
+      ],
+      "explanation": "Donald Gennaro, avocat des actionnaires d'InGen, était invité sur Jurassic Park pour s'assurer de l'investissement.",
+      "level": "hard",
+      "emoji": "🦖",
+      "duration": 30,
+      "points": 100,
+      "theme": "jurassic",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_63.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-63-27",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Par quel dinosaure la première grande attaque est-elle menée dans 'Jurassic Park III' ?",
+      "answer": "Spinosaure",
+      "options": [
+        "Brachiosaure",
+        "Tyrannosaure",
+        "Spinosaure",
+        "Megalosaure"
+      ],
+      "explanation": "Cet épisode a beaucoup souffert de la comparaison avec les précédents, notamment en raison de l'absence de Steven Spielberg.",
+      "level": "hard",
+      "emoji": "🦖",
+      "duration": 30,
+      "points": 100,
+      "theme": "jurassic",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_63.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-63-28",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle entreprise représente le concurrent direct d'InGen dans la saga 'Jurassic Park' ?",
+      "answer": "Biosyn",
+      "options": [
+        "BioGen",
+        "Matrox",
+        "Biosyn",
+        "Skynet"
+      ],
+      "explanation": "Acheté par Biosyn, concurrent direct d’InGen, Nedry a désactivé le système de sécurité du parc pour pouvoir voler des embryons.",
+      "level": "hard",
+      "emoji": "🦖",
+      "duration": 30,
+      "points": 100,
+      "theme": "jurassic",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Catherine De Smeytere",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_63.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

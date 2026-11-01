@@ -1,0 +1,623 @@
+{
+  "id": "monuments",
+  "title": "Monuments du monde",
+  "originalTitle": "Monuments du monde",
+  "universe": "quiz",
+  "emoji": "🗽",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_22.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "excludedOriginalIds": [
+    4,
+    10,
+    11,
+    14,
+    16,
+    25,
+    18
+  ],
+  "questions": [
+    {
+      "id": "oqdb-22-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel pays se trouve la Liberté éclairant le monde, ou Statue de la Liberté ?",
+      "answer": "États-Unis",
+      "options": [
+        "Canada",
+        "France",
+        "États-Unis",
+        "Royaume-Uni"
+      ],
+      "explanation": "Cette statue est située sur l'île de Liberty Island au sud de Manhattan, à l'embouchure de l'Hudson et à proximité d'Ellis Island.",
+      "level": "easy",
+      "emoji": "🗽",
+      "duration": 30,
+      "points": 100,
+      "theme": "monuments",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_22.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-22-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel État européen se situe la Sagrada Familia, consacrée par Benoît XVI en 2010 ?",
+      "answer": "En Espagne",
+      "options": [
+        "En Italie",
+        "En Espagne",
+        "Au Portugal",
+        "À Chypre"
+      ],
+      "explanation": "C’est l'un des exemples les plus connus du modernisme catalan et un monument emblématique de la ville de Barcelone.",
+      "level": "easy",
+      "emoji": "🗽",
+      "duration": 30,
+      "points": 100,
+      "theme": "monuments",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_22.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-22-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel pays peut-on voir les pyramides de Gizeh, classées depuis 1979 ?",
+      "answer": "En Égypte",
+      "options": [
+        "En Afrique du Sud",
+        "En Égypte",
+        "Au Maroc",
+        "En Tunisie"
+      ],
+      "explanation": "Les trois plus grandes et plus célèbres des pyramides d'Égypte sont celles de Khéops, Khéphren et Mykérinos.",
+      "level": "easy",
+      "emoji": "🗽",
+      "duration": 30,
+      "points": 100,
+      "theme": "monuments",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_22.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-22-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel pays européen peut-on regarder le Colisée, à l'origine amphithéâtre Flavien ?",
+      "answer": "En Italie",
+      "options": [
+        "En Espagne",
+        "Au Portugal",
+        "En Italie",
+        "En Grèce"
+      ],
+      "explanation": "Cet immense amphithéâtre ovoïde est le plus grand jamais construit dans l'empire romain.",
+      "level": "easy",
+      "emoji": "🗽",
+      "duration": 30,
+      "points": 100,
+      "theme": "monuments",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_22.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-22-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville peut-on entendre sonner Big Ben, grande cloche de plus de 13 tonnes ?",
+      "answer": "Londres",
+      "options": [
+        "New York",
+        "Pékin",
+        "Paris",
+        "Londres"
+      ],
+      "explanation": "Big Ben se trouve au sommet de l'Elizabeth Tower, la tour horloge du Palais de Westminster, qui est le siège du parlement britannique.",
+      "level": "easy",
+      "emoji": "🗽",
+      "duration": 30,
+      "points": 100,
+      "theme": "monuments",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_22.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-22-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel pays retrouve-t-on la plus grande muraille du monde jamais construite ?",
+      "answer": "En Chine",
+      "options": [
+        "En Inde",
+        "En France",
+        "En Chine",
+        "En Afrique du Sud"
+      ],
+      "explanation": "Depuis 1987, la Grande Muraille est classée au patrimoine mondial de l'UNESCO sous le numéro 438.",
+      "level": "easy",
+      "emoji": "🗽",
+      "duration": 30,
+      "points": 100,
+      "theme": "monuments",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_22.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-22-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel musée parisien, indissociable de sa pyramide, est connu dans le monde entier ?",
+      "answer": "Musée du Louvre",
+      "options": [
+        "Musée de Cluny",
+        "Musée du Louvre",
+        "Musée Rodin",
+        "Musée Picasso"
+      ],
+      "explanation": "Le Louvre est le musée le plus visité au monde ainsi que le site culturel payant le plus visité de France.",
+      "level": "easy",
+      "emoji": "🗽",
+      "duration": 30,
+      "points": 100,
+      "theme": "monuments",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_22.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-22-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel pays se dresse le Machu Pichu, perché sur un promontoire rocheux ?",
+      "answer": "Au Pérou",
+      "options": [
+        "En Bolivie",
+        "Au Cambodge",
+        "Au Pérou",
+        "Au Chili"
+      ],
+      "explanation": "Machu Picchu, ville sacrée oubliée durant des siècles, est considérée comme une œuvre maîtresse de l’architecture inca.",
+      "level": "easy",
+      "emoji": "🗽",
+      "duration": 30,
+      "points": 100,
+      "theme": "monuments",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_22.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-22-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sur quelles îles se trouvent les Moaï, gigantesques ancêtres divinisés de pierre ?",
+      "answer": "Îles de Pâques",
+      "options": [
+        "Îles de Pâques",
+        "Îles Cook",
+        "Îles de Noël",
+        "Îles Galapagos"
+      ],
+      "explanation": "La majorité de ces monolithes est sculptée dans du tuf issu principalement de la carrière de Rano Raraku.",
+      "level": "medium",
+      "emoji": "🗽",
+      "duration": 30,
+      "points": 100,
+      "theme": "monuments",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_22.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-22-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel pays peut-on assister à un concert dans l'opéra de Sydney ?",
+      "answer": "En Australie",
+      "options": [
+        "En Australie",
+        "Dans les Samoa",
+        "En Antarctique",
+        "En Nouvelle-Zélande"
+      ],
+      "explanation": "L'opéra est aujourd'hui une attraction touristique majeure de la ville bien que les visiteurs ne puissent assister aux représentations.",
+      "level": "medium",
+      "emoji": "🗽",
+      "duration": 30,
+      "points": 100,
+      "theme": "monuments",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_22.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-22-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel grand monument métallique est représentatif de la ville de Bruxelles ?",
+      "answer": "Atomium",
+      "options": [
+        "Tour et Taxis",
+        "Luizenmolen",
+        "Voortrekker",
+        "Atomium"
+      ],
+      "explanation": "L'Atomium représente la maille conventionnelle du cristal de fer (structure cubique centrée) agrandie 165 milliards de fois.",
+      "level": "medium",
+      "emoji": "🗽",
+      "duration": 30,
+      "points": 100,
+      "theme": "monuments",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_22.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-22-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel pont-aqueduc romain comportant trois étages enjambe le Gardon ?",
+      "answer": "Le pont du Gard",
+      "options": [
+        "Le pont Napoléon",
+        "Le pont du Gard",
+        "Le pont Caquot",
+        "Le pont de Seyssel"
+      ],
+      "explanation": "Le pont assurait dans sa fonction première la continuité de l'aqueduc romain qui conduisait l'eau d'Uzès à Nîmes.",
+      "level": "medium",
+      "emoji": "🗽",
+      "duration": 30,
+      "points": 100,
+      "theme": "monuments",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_22.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-22-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville française peut-on retrouver une tour surnommée 'Le Crayon' ?",
+      "answer": "Lyon",
+      "options": [
+        "Lyon",
+        "Bordeaux",
+        "Toulouse",
+        "Limoges"
+      ],
+      "explanation": "La Tour Part-Dieu est un gratte-ciel de bureaux situé dans le quartier de la Part-Dieu à Lyon, en France.",
+      "level": "medium",
+      "emoji": "🗽",
+      "duration": 30,
+      "points": 100,
+      "theme": "monuments",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_22.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-22-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quels temples creusés dans la falaise ont été construits par le pharaon Ramsès II ?",
+      "answer": "Abou Simbel",
+      "options": [
+        "Abou Simbel",
+        "Mallawi",
+        "Esna",
+        "Péluse"
+      ],
+      "explanation": "Les temples ont été construits au nord du lac Nasser sur le Nil, à environ soixante-dix kilomètres de la deuxième cataracte du Nil.",
+      "level": "medium",
+      "emoji": "🗽",
+      "duration": 30,
+      "points": 100,
+      "theme": "monuments",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_22.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-22-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel pays renferme la Tour de Belém, inscrite au patrimoine mondial de l'UNESCO ?",
+      "answer": "Le Portugal",
+      "options": [
+        "Le Portugal",
+        "L’Égypte",
+        "Israël",
+        "L'Espagne"
+      ],
+      "explanation": "La Tour de Belém a été construite sur les bords du Tage dans la freguesia de Santa Maria de Belém entre 1515 et 1521.",
+      "level": "hard",
+      "emoji": "🗽",
+      "duration": 30,
+      "points": 100,
+      "theme": "monuments",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_22.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-22-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel pays africain se situe le Voortrekker Monument, rendant hommage aux pionniers boers ?",
+      "answer": "En Afrique du Sud",
+      "options": [
+        "En Égypte",
+        "Au Mali",
+        "En Afrique du Sud",
+        "Au Ghana"
+      ],
+      "explanation": "Symbole du nationalisme afrikaner, le monument se dresse depuis 1949 sur une colline à l'entrée sud de la capitale sud-africaine.",
+      "level": "hard",
+      "emoji": "🗽",
+      "duration": 30,
+      "points": 100,
+      "theme": "monuments",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_22.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-22-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel État sud-américain peut-on admirer une célèbre statue de Carlos Pellegrini ?",
+      "answer": "En Argentine",
+      "options": [
+        "En Bolivie",
+        "En Colombie",
+        "En Argentine",
+        "Au Brésil"
+      ],
+      "explanation": "Durant sa période présidentielle, il réussit à assainir les finances de l'état et créa la Banque de la Nation Argentine.",
+      "level": "hard",
+      "emoji": "🗽",
+      "duration": 30,
+      "points": 100,
+      "theme": "monuments",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_22.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-22-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien d'étages possède la tour de Pise, sur la Piazza dei Miracoli ?",
+      "answer": "Huit",
+      "options": [
+        "Huit",
+        "Dix",
+        "Treize",
+        "Cinq"
+      ],
+      "explanation": "Sa célébrité vient notamment de son inclinaison caractéristique, qui est actuellement d'un angle de 3° 59' vers le sud.",
+      "level": "hard",
+      "emoji": "🗽",
+      "duration": 30,
+      "points": 100,
+      "theme": "monuments",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_22.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-22-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de noms de savants sont gravés sur la base du premier étage de la Tour Eiffel ?",
+      "answer": "72",
+      "options": [
+        "72",
+        "87",
+        "55",
+        "64"
+      ],
+      "explanation": "Gustave Eiffel a fait graver soixante-douze noms de scientifiques, ingénieurs ou industriels qui ont honoré la France de 1789 à 1889.",
+      "level": "hard",
+      "emoji": "🗽",
+      "duration": 30,
+      "points": 100,
+      "theme": "monuments",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_22.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-22-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le style du Parthénon de l'Acropole à Athènes, réalisé en marbre du Pentélique ?",
+      "answer": "Dorique",
+      "options": [
+        "Éolique",
+        "Dorique",
+        "Corinthien",
+        "Ionique"
+      ],
+      "explanation": "Le Parthénon était consacré à la déesse Athéna Parthenos, protectrice de la cité et déesse de la guerre et de la sagesse.",
+      "level": "hard",
+      "emoji": "🗽",
+      "duration": 30,
+      "points": 100,
+      "theme": "monuments",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_22.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-22-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la longueur du célèbre pont de pierre de Bordeaux ?",
+      "answer": "487 mètres",
+      "options": [
+        "339 mètres",
+        "487 mètres",
+        "560 mètres",
+        "621 mètres"
+      ],
+      "explanation": "Le pont est construit en pierre et en brique, avec la particularité de comporter des espaces vides intérieurs.",
+      "level": "hard",
+      "emoji": "🗽",
+      "duration": 30,
+      "points": 100,
+      "theme": "monuments",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_22.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-22-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle gare classée a été mise en avant dans une publicité de la marque Chanel ?",
+      "answer": "Gare de Limoges",
+      "options": [
+        "Gare de Limoges",
+        "Gare de Toulouse",
+        "Gare de Bordeaux",
+        "Gare de Lyon"
+      ],
+      "explanation": "L'esthétique du bâtiment actuel emprunte autant à un Art nouveau tardif qu'à l'Art déco et au néoclassicisme.",
+      "level": "hard",
+      "emoji": "🗽",
+      "duration": 30,
+      "points": 100,
+      "theme": "monuments",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_22.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-22-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Où pouvez-vous visiter le palais Jacques-Cœur, chef-d’œuvre de l'architecture gothique tardive ?",
+      "answer": "Bourges",
+      "options": [
+        "Blois",
+        "Bourges",
+        "Besançon",
+        "Bordeaux"
+      ],
+      "explanation": "Cet édifice naît de la volonté du riche marchand Jacques Cœur de bâtir une « grand' maison » dans sa ville natale.",
+      "level": "hard",
+      "emoji": "🗽",
+      "duration": 30,
+      "points": 100,
+      "theme": "monuments",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_22.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

@@ -1,0 +1,723 @@
+{
+  "id": "cinquieme",
+  "title": "Le Cinquième Élément",
+  "originalTitle": "Le Cinquième Élément",
+  "universe": "film",
+  "emoji": "🛸",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_47.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "excludedOriginalIds": [
+    16,
+    17,
+    30
+  ],
+  "questions": [
+    {
+      "id": "oqdb-47-1",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui a réalisé le film de science-fiction 'Le Cinquième Élément' sorti en 1997 ?",
+      "answer": "Luc Besson",
+      "options": [
+        "Jean-Pierre Jeunet",
+        "Luc Besson",
+        "Georges Lucas",
+        "Steven Spielberg"
+      ],
+      "explanation": "Luc Besson a écrit la première ébauche du scénario du 'Cinquième Élément' alors qu'il était au lycée.",
+      "level": "easy",
+      "emoji": "🛸",
+      "duration": 30,
+      "points": 100,
+      "theme": "cinquieme",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_47.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-47-2",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel animateur de radio déjanté retrouve-t-on dans le film à succès 'Le Cinquième Élément' ?",
+      "answer": "Ruby Rhod",
+      "options": [
+        "Mangalore",
+        "Ruby Rhod",
+        "Pacoli",
+        "Vito Cornelius"
+      ],
+      "explanation": "C'est Prince et Lenny Kravitz qui ont inspiré Luc Besson et son équipe pour la concrétisation du personnage de Ruby Rhod.",
+      "level": "easy",
+      "emoji": "🛸",
+      "duration": 30,
+      "points": 100,
+      "theme": "cinquieme",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_47.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-47-3",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le prénom du petit garçon responsable de la lumière au début du film 'Le Cinquième Élément' ?",
+      "answer": "Aziz",
+      "options": [
+        "Youssef",
+        "Omar",
+        "Ahmed",
+        "Aziz"
+      ],
+      "explanation": "Le personnage d'Aziz, que l'on retrouve au début du film 'Le Cinquième Élément', est interprété par le jeune Said Talidi.",
+      "level": "easy",
+      "emoji": "🛸",
+      "duration": 30,
+      "points": 100,
+      "theme": "cinquieme",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_47.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-47-4",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel personnage est incarné par Bruce Willis dans le film 'Le Cinquième Élément' ?",
+      "answer": "Korben Dallas",
+      "options": [
+        "Général Munro",
+        "Zorg",
+        "Vito Cornelius",
+        "Korben Dallas"
+      ],
+      "explanation": "C'est Jean Reno qui devait jouer le rôle de Korben Dallas, alors que Kevin Costner a failli jouer le rôle du général Munroe.",
+      "level": "easy",
+      "emoji": "🛸",
+      "duration": 30,
+      "points": 100,
+      "theme": "cinquieme",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_47.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-47-5",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Avec quoi Ruby Rhod signe-t-il les autographes des japonaises dans 'Le Cinquième Élément' ?",
+      "answer": "Un pinceau",
+      "options": [
+        "Une plume",
+        "Un pinceau",
+        "Un chalumeau",
+        "Un pistolet"
+      ],
+      "explanation": "Sorte de drag-queen afro-américaine aux tics sur-efféminés, Ruby Rhod marque un amusant contraste avec Korben Dallas.",
+      "level": "easy",
+      "emoji": "🛸",
+      "duration": 30,
+      "points": 100,
+      "theme": "cinquieme",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_47.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-47-6",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le métier de Korben Dallas dans le film 'Le Cinquième Élément' de Luc Besson ?",
+      "answer": "Chauffeur de taxi",
+      "options": [
+        "Policier",
+        "Tueur à gage",
+        "Chauffeur de taxi",
+        "Militaire"
+      ],
+      "explanation": "Manuel Dorne, blogueur français spécialisé dans la culture geek, a choisi comme pseudonyme Korben, en référence à Korben Dallas.",
+      "level": "easy",
+      "emoji": "🛸",
+      "duration": 30,
+      "points": 100,
+      "theme": "cinquieme",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_47.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-47-7",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui est en fait le « cinquième élément » dans le film du même nom sorti sur les écrans en 1997 ?",
+      "answer": "Leeloo",
+      "options": [
+        "Cornelius",
+        "Leeloo",
+        "Ruby Rhod",
+        "Korben Dallas"
+      ],
+      "explanation": "Le nom complet de Leeloo dans le film est Leeloominaï Lekatariba Lamina-Tchaï Ekbat De Sebat.",
+      "level": "easy",
+      "emoji": "🛸",
+      "duration": 30,
+      "points": 100,
+      "theme": "cinquieme",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_47.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-47-8",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel acteur interprète le rôle de Zorg dans le film 'Le Cinquième Élément' ?",
+      "answer": "Gary Oldman",
+      "options": [
+        "Chris Tucker",
+        "Bruce Willis",
+        "Gary Oldman",
+        "Ian Holm"
+      ],
+      "explanation": "C'est le chanteur et musicien Tricky (Adrian Thaws) qui interprète le bras droit de Mr Zorg tout au long du film.",
+      "level": "easy",
+      "emoji": "🛸",
+      "duration": 30,
+      "points": 100,
+      "theme": "cinquieme",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_47.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-47-9",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui aime « être green » et parfois même « super green » dans le film 'Le Cinquième Élément' ?",
+      "answer": "Ruby Rhod",
+      "options": [
+        "Ruby Rhod",
+        "Korben Dallas",
+        "Zorg",
+        "Vito Cornelius"
+      ],
+      "explanation": "C'est le très posé Tom Novembre qui a prêté sa voix à l'excentrique Ruby Rhod, ce qui fut paraît-il une réelle épreuve pour lui.",
+      "level": "easy",
+      "emoji": "🛸",
+      "duration": 30,
+      "points": 100,
+      "theme": "cinquieme",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_47.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-47-10",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Combien de pierres au total doivent retrouver les protagonistes du film 'Le Cinquième Élément' ?",
+      "answer": "Quatre",
+      "options": [
+        "Quatre",
+        "Deux",
+        "Trois",
+        "Cinq"
+      ],
+      "explanation": "Zorg, sur commande de M. Shadow, est déterminé à voler les pierres représentant les 4 éléments et à détruire le 5ème Élément.",
+      "level": "easy",
+      "emoji": "🛸",
+      "duration": 30,
+      "points": 100,
+      "theme": "cinquieme",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_47.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-47-11",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Comment se prénomme le disciple du prêtre Cornelius dans 'Le Cinquième Élément' ?",
+      "answer": "David",
+      "options": [
+        "David",
+        "Pierre",
+        "Joshua",
+        "Simon"
+      ],
+      "explanation": "Cornelius est chargé de retrouver l'être suprême qui, associé aux quatre éléments vitaux, peut seul repousser Le Mal.",
+      "level": "medium",
+      "emoji": "🛸",
+      "duration": 30,
+      "points": 100,
+      "theme": "cinquieme",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_47.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-47-12",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quels monstres sont au service de Zorg dans le film 'Le Cinquième Élément' ?",
+      "answer": "Les Mangalores",
+      "options": [
+        "Les Mangalores",
+        "Les Brévians",
+        "Les Aralors",
+        "Les Astimecks"
+      ],
+      "explanation": "Mangalore est également la ville d'origine de la célèbre actrice et Miss Monde 94, Aishwarya Rai.",
+      "level": "medium",
+      "emoji": "🛸",
+      "duration": 30,
+      "points": 100,
+      "theme": "cinquieme",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_47.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-47-13",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans 'Le Cinquième Élément', sur combien de temps est réglée la bombe placée par Zorg ?",
+      "answer": "20 minutes",
+      "options": [
+        "20 minutes",
+        "15 minutes",
+        "25 minutes",
+        "30 minutes"
+      ],
+      "explanation": "Gary Oldman a joué dans le film pour remercier Besson d'avoir financé 'Nil by Mouth', un film qu'il avait écrit et réalisé.",
+      "level": "medium",
+      "emoji": "🛸",
+      "duration": 30,
+      "points": 100,
+      "theme": "cinquieme",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_47.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-47-14",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Comment s'appelle le chef des Mangalores dans le film 'Le Cinquième Élément' ?",
+      "answer": "Aknot",
+      "options": [
+        "Akmet",
+        "Akrill",
+        "Akrom",
+        "Aknot"
+      ],
+      "explanation": "C'est Vladimir McCrary qui incarne le rôle du garde mangalore Aknot, alors que Jean Reno lui prête sa voix.",
+      "level": "medium",
+      "emoji": "🛸",
+      "duration": 30,
+      "points": 100,
+      "theme": "cinquieme",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_47.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-47-15",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans le film 'Le Cinquième Élément', selon le très excentrique Ruby, comment sont les ministres ?",
+      "answer": "Sinistres",
+      "options": [
+        "Mortels",
+        "Sinistres",
+        "Ennuyeux",
+        "Greens"
+      ],
+      "explanation": "Luc Besson a longuement insisté pour que le film soit français, même si la majorité des acteurs sont américains.",
+      "level": "medium",
+      "emoji": "🛸",
+      "duration": 30,
+      "points": 100,
+      "theme": "cinquieme",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_47.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-47-18",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel Grand Méchant du film 'Le Cinquième Élément' s'apprête à anéantir la planète Terre ?",
+      "answer": "Mr Shadow",
+      "options": [
+        "Mr Shadow",
+        "Mr Black",
+        "Mr Dark",
+        "Mr Death"
+      ],
+      "explanation": "La peur de Mr Shadow fait sécouler du sang sur le fron de Mr Zorg lorsqu'il lui adresse la parole.",
+      "level": "medium",
+      "emoji": "🛸",
+      "duration": 30,
+      "points": 100,
+      "theme": "cinquieme",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_47.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-47-19",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui est le compositeur de la bande originale du film 'Le Cinquième Élément' ?",
+      "answer": "Éric Serra",
+      "options": [
+        "Hans Zimmer",
+        "Jerry Goldsmith",
+        "Éric Serra",
+        "John Williams"
+      ],
+      "explanation": "Éric Serra est le compositeur attitré de la musique des films de Luc Besson depuis le début des années 1980.",
+      "level": "medium",
+      "emoji": "🛸",
+      "duration": 30,
+      "points": 100,
+      "theme": "cinquieme",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_47.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-47-20",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quel pays se trouve le temple du début du film 'Le Cinquième Élément' ?",
+      "answer": "Égypte",
+      "options": [
+        "Tunisie",
+        "Égypte",
+        "Maroc",
+        "Libye"
+      ],
+      "explanation": "Les scènes se déroulant en Égypte sont tournées en Mauritanie, alors que les scènes de l'opéra l'ont été à Londres.",
+      "level": "medium",
+      "emoji": "🛸",
+      "duration": 30,
+      "points": 100,
+      "theme": "cinquieme",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_47.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-47-21",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle arme est fabriqués par l'entreprise Zorg dans le film 'Le Cinquième Élément' ?",
+      "answer": "ZF-1",
+      "options": [
+        "ZF-1",
+        "Falcon-1",
+        "MK-1",
+        "Pag-1"
+      ],
+      "explanation": "Le fusil ZF-1 utilisé par Gary Oldman dans le film de Luc Besson 'Le Cinquième Élément' est en passe de devenir réalité.",
+      "level": "hard",
+      "emoji": "🛸",
+      "duration": 30,
+      "points": 100,
+      "theme": "cinquieme",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_47.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-47-22",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le nom du vaisseau de croisière du film 'Le Cinquième Élément' ?",
+      "answer": "Fhloston Paradise",
+      "options": [
+        "Mirage 2000",
+        "Enterprise",
+        "Faucon Millenium",
+        "Fhloston Paradise"
+      ],
+      "explanation": "Dans le film, la diva Plavalaguna doit donner un récital à bord du vaisseau de croisière Fhloston Paradise.",
+      "level": "hard",
+      "emoji": "🛸",
+      "duration": 30,
+      "points": 100,
+      "theme": "cinquieme",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_47.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-47-23",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel concours a remporté Korben Dallas dans le film 'Le Cinquième Élément' ?",
+      "answer": "Gemini Croquettes",
+      "options": [
+        "Jiminy Cricket",
+        "Sony Crockett",
+        "Davy Crocket",
+        "Gemini Croquettes"
+      ],
+      "explanation": "On peut aperçevoir Mya Frye dans le spot de pub pour le concours au début du film, lorsque le chat regarde la télé.",
+      "level": "hard",
+      "emoji": "🛸",
+      "duration": 30,
+      "points": 100,
+      "theme": "cinquieme",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_47.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-47-24",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le nom de la célèbre Diva du film 'Le Cinquième Élément' ?",
+      "answer": "Plavalaguna",
+      "options": [
+        "Mondoshawan",
+        "Sofialoma",
+        "Plavalaguna",
+        "Janjua"
+      ],
+      "explanation": "C'est la diva Plavalaguna qui a été choisir pour être la dépositaire des pierres des quatre éléments.",
+      "level": "hard",
+      "emoji": "🛸",
+      "duration": 30,
+      "points": 100,
+      "theme": "cinquieme",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_47.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-47-25",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans 'Le Cinquième Élément', quels êtres pacifiques vivent bien loin de la Terre ?",
+      "answer": "Les Mondoshawans",
+      "options": [
+        "Les Badlanders",
+        "Les Mondoshawans",
+        "Les Morlocks",
+        "Les Fenghuangs"
+      ],
+      "explanation": "Un groupe d'extraterrestres débarque sur Terre afin de récupérer quatre pierres représentant les quatre éléments de la vie.",
+      "level": "hard",
+      "emoji": "🛸",
+      "duration": 30,
+      "points": 100,
+      "theme": "cinquieme",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_47.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-47-26",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le prénom du prêtre Cornelius dans le film 'Le Cinquième Élément' ?",
+      "answer": "Vito",
+      "options": [
+        "Vito",
+        "Claudio",
+        "Paulo",
+        "Otto"
+      ],
+      "explanation": "Korben, ancien agent des forces de sécurité, conduira Leeloo chez le père Cornelius, qui reconnaît en elle... le cinquième élément.",
+      "level": "hard",
+      "emoji": "🛸",
+      "duration": 30,
+      "points": 100,
+      "theme": "cinquieme",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_47.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-47-27",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel est le deuxième prénom de Zorg dans le film 'Le Cinquième Élément' ?",
+      "answer": "Emmanuel",
+      "options": [
+        "Patrick",
+        "Jean-Baptiste",
+        "Emmanuel",
+        "Simon"
+      ],
+      "explanation": "Gary Oldman a doublé son propre personnage de Jean-Baptiste Emannuel Zorg dans le jeu vidéo 'Le Cinquième Élément'.",
+      "level": "hard",
+      "emoji": "🛸",
+      "duration": 30,
+      "points": 100,
+      "theme": "cinquieme",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_47.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-47-28",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel restaurateur thaïlandais livre ses plats dans le film 'Le Cinquième Élément' ?",
+      "answer": "Mr Kim",
+      "options": [
+        "Mr Jim",
+        "Mr Kim",
+        "Mr Lim",
+        "Mr Dim"
+      ],
+      "explanation": "Les répliques cultes de Mr Kim sont « Pleut jamais tous les jours » et « Bonne philosophie : voir le bien dans le mal ».",
+      "level": "hard",
+      "emoji": "🛸",
+      "duration": 30,
+      "points": 100,
+      "theme": "cinquieme",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_47.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-47-29",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel agent devait accompagner Korben durant sa croisière dans 'Le Cinquième Élément' ?",
+      "answer": "Major Iceborg",
+      "options": [
+        "Major Stryker",
+        "Major Munroe",
+        "Major Pacoli",
+        "Major Iceborg"
+      ],
+      "explanation": "La coiffure du major Iceborg rappelle étonnament celle de la Princesse Leia de la sage de 'La guerre des étoiles'.",
+      "level": "hard",
+      "emoji": "🛸",
+      "duration": 30,
+      "points": 100,
+      "theme": "cinquieme",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_47.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

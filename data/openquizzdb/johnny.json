@@ -1,0 +1,673 @@
+{
+  "id": "johnny",
+  "title": "Johnny Hallyday",
+  "originalTitle": "Johnny Hallyday (Légende du Rock'n'Roll)",
+  "universe": "music",
+  "emoji": "⭐",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_182.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "excludedOriginalIds": [
+    1,
+    7,
+    11,
+    28,
+    30
+  ],
+  "questions": [
+    {
+      "id": "oqdb-182-2",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "En quelle année Johnny Hallyday a-t-il trouvé la mort d'un cancer du poumon ?",
+      "answer": "2017",
+      "options": [
+        "2015",
+        "2016",
+        "2017",
+        "2014"
+      ],
+      "explanation": "C'est l'empereur Napoléon III qui, en 1859, autorisa par décret la ville de Marnes à prendre le nom de Marnes-la-Coquette.",
+      "level": "easy",
+      "emoji": "⭐",
+      "duration": 30,
+      "points": 100,
+      "theme": "johnny",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_182.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-182-3",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Qui devint la première femme de Johnny Hallyday le 12 avril 1965 ?",
+      "answer": "Sylvie Vartan",
+      "options": [
+        "Sylvie Vartan",
+        "Adeline Blondiau",
+        "Lætitia Boudou",
+        "Nathalie Baye"
+      ],
+      "explanation": "Sylvie Vartan et Johnny Hallyday furent présentés l'un à l'autre par Eddie Vartan, fin décembre 1961, à l'Olympia de Paris.",
+      "level": "easy",
+      "emoji": "⭐",
+      "duration": 30,
+      "points": 100,
+      "theme": "johnny",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_182.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-182-4",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel genre musical Johnny Hallyday a-t-il popularisé dans l'hexagone en 1960 ?",
+      "answer": "Rock'n'Roll",
+      "options": [
+        "Punk",
+        "Jazz",
+        "Jerk",
+        "Rock'n'Roll"
+      ],
+      "explanation": "Le rock'n'roll, ayant émergé aux États-Unis, découle directement du rhythm and blues, musique populaire métissée.",
+      "level": "easy",
+      "emoji": "⭐",
+      "duration": 30,
+      "points": 100,
+      "theme": "johnny",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_182.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-182-5",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Avec qui Johnny a-t-il formé les Vieilles Canailles aux côtés de Jacques Dutronc ?",
+      "answer": "Eddy Mitchell",
+      "options": [
+        "Dick Rivers",
+        "Eddy Mitchell",
+        "Salvatore Adamo",
+        "Enrico Macias"
+      ],
+      "explanation": "À l'origine du projet se trouve la passion que partagent le producteur Valéry Zeitoun et Eddy Mitchell pour le Rat Pack.",
+      "level": "easy",
+      "emoji": "⭐",
+      "duration": 30,
+      "points": 100,
+      "theme": "johnny",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_182.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-182-6",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "À qui Sylvie Vartan a-t-elle donné naissance après son mariage avec Johnny Hallyday ?",
+      "answer": "David",
+      "options": [
+        "Laura",
+        "Jade",
+        "David",
+        "Joy"
+      ],
+      "explanation": "David Hallyday est le demi-frère de Laura Smet, de Jade et Joy Smet ainsi que de Darina Scotti du côté de sa mère.",
+      "level": "easy",
+      "emoji": "⭐",
+      "duration": 30,
+      "points": 100,
+      "theme": "johnny",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_182.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-182-8",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Dans quel film Johnny Hallyday a-t-il découvert Elvis Presley au cinéma ?",
+      "answer": "Amour Frénétique",
+      "options": [
+        "Musique en tête",
+        "Avril à Paris",
+        "Amour Frénétique",
+        "Joyeux Départ"
+      ],
+      "explanation": "La mère d'Elvis, Gladys Presley, fait une apparition dans ce film en tant que figurante (lors de la dernière chanson du film).",
+      "level": "easy",
+      "emoji": "⭐",
+      "duration": 30,
+      "points": 100,
+      "theme": "johnny",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_182.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-182-9",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel album de Johnny a été composé et réalisé par David Hallyday, son fils ?",
+      "answer": "Sang pour sang",
+      "options": [
+        "Ma vérité",
+        "Sang pour sang",
+        "Rester vivant",
+        "Lorada"
+      ],
+      "explanation": "L'album s'est vendu à deux millions d'exemplaires, devenant ainsi une des plus grosses ventes du chanteur à ce jour.",
+      "level": "easy",
+      "emoji": "⭐",
+      "duration": 30,
+      "points": 100,
+      "theme": "johnny",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_182.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-182-10",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Qui fut la dernière épouse de Johnny Hallyday depuis son mariage en 1996 ?",
+      "answer": "Læticia Boudou",
+      "options": [
+        "Nathalie Baye",
+        "Læticia Boudou",
+        "Adeline Blondiau",
+        "Sylvie Vartan"
+      ],
+      "explanation": "Ayant souffert d'anorexie, elle confiera avoir souffert de nombreuses fausses couches, notamment en novembre 2004.",
+      "level": "easy",
+      "emoji": "⭐",
+      "duration": 30,
+      "points": 100,
+      "theme": "johnny",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_182.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-182-12",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel lieu culte du rock français Johnny Hallyday a-t-il fréquenté à partir de 1958 ?",
+      "answer": "Golf-Drouot",
+      "options": [
+        "Chat noir",
+        "Golf-Drouot",
+        "Don Camillo",
+        "Alcazar"
+      ],
+      "explanation": "À l'origine, en 1955, il s'agissait d'un salon de thé original du fait de l'existence d'un minigolf intérieur à neuf trous.",
+      "level": "medium",
+      "emoji": "⭐",
+      "duration": 30,
+      "points": 100,
+      "theme": "johnny",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_182.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-182-13",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Qui est devenu le nouvel impresario de Johnny Hallyday après sa signature chez Philips ?",
+      "answer": "Johnny Stark",
+      "options": [
+        "Pascal Nègre",
+        "Pierre Jaubert",
+        "Johnny Stark",
+        "Paul Lederman"
+      ],
+      "explanation": "Plus tard, Johnny Stark deviendra également l'impresario de Line Renaud, Sylvie Vartan, Hugues Aufray et Mireille Mathieu.",
+      "level": "medium",
+      "emoji": "⭐",
+      "duration": 30,
+      "points": 100,
+      "theme": "johnny",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_182.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-182-14",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Sous la direction de qui Johnny se fera-t-il enlever dans « L'aventure c'est l'aventure » ?",
+      "answer": "Claude Lelouch",
+      "options": [
+        "Claude Pinoteau",
+        "Claude Andrieux",
+        "Claude Lelouch",
+        "Claude Miller"
+      ],
+      "explanation": "C'est pendant le tournage que Jacques Brel fera la connaissance de Maddly Bamy, qui deviendra sa dernière compagne.",
+      "level": "medium",
+      "emoji": "⭐",
+      "duration": 30,
+      "points": 100,
+      "theme": "johnny",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_182.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-182-15",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel artiste a écrit, composé et réalisé l'album « Rock'n'Roll Attitude » ?",
+      "answer": "Michel Berger",
+      "options": [
+        "Pascal Obispo",
+        "Matthieu Chedid",
+        "Michel Berger",
+        "Yodelice"
+      ],
+      "explanation": "Pour la première fois, un artiste de renom se vit confier la réalisation de tout un album pour Johnny Hallyday.",
+      "level": "medium",
+      "emoji": "⭐",
+      "duration": 30,
+      "points": 100,
+      "theme": "johnny",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_182.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-182-16",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Dans quelle série télévisée Johnny Hallyday a-t-il tenu le rôle-titre ?",
+      "answer": "David Lansky",
+      "options": [
+        "David Lansky",
+        "Moi Renart",
+        "Coplan",
+        "Billet doux"
+      ],
+      "explanation": "Le personnage de David Lansky joué dans la série est directement inspiré du frère vertueux du criminel Meyer Lansky.",
+      "level": "medium",
+      "emoji": "⭐",
+      "duration": 30,
+      "points": 100,
+      "theme": "johnny",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_182.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-182-17",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel titre officiel Johnny Hallyday a-t-il chanté pour la Coupe du monde 2002 ?",
+      "answer": "Tous ensemble",
+      "options": [
+        "Tous ensemble",
+        "Kili Watch",
+        "Marie",
+        "Cadillac"
+      ],
+      "explanation": "Depuis la création du Top 50 en 1984, c'est la première fois que Johnny Hallyday se classera numéro un.",
+      "level": "medium",
+      "emoji": "⭐",
+      "duration": 30,
+      "points": 100,
+      "theme": "johnny",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_182.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-182-18",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Le décès de Johnny est survenu moins de 24 heures après celui de quelle autre figure ?",
+      "answer": "Jean d'Ormesson",
+      "options": [
+        "Hervé Bazin",
+        "Guy des Cars",
+        "Louis Dalmas",
+        "Jean d'Ormesson"
+      ],
+      "explanation": "Jean d'Ormesson a travaillé durant des années au journal Le Figaro, notamment comme journaliste puis directeur général.",
+      "level": "medium",
+      "emoji": "⭐",
+      "duration": 30,
+      "points": 100,
+      "theme": "johnny",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_182.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-182-19",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel nom Johnny Hallyday a-t-il donné à sa villa de Ramatuelle ?",
+      "answer": "Lorada",
+      "options": [
+        "La Boisserie",
+        "Mandala",
+        "La Madrague",
+        "Lorada"
+      ],
+      "explanation": "Construite dans le quartier de l'Oumède, son nom est la contraction du prénom des enfants de Johnny Hallyday, Laura et David.",
+      "level": "medium",
+      "emoji": "⭐",
+      "duration": 30,
+      "points": 100,
+      "theme": "johnny",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_182.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-182-20",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Avec quel film de Godard Johnny Hallyday a-t-il monté les marches à Cannes ?",
+      "answer": "Détective",
+      "options": [
+        "Le Mépris",
+        "Pravda",
+        "Détective",
+        "Passion"
+      ],
+      "explanation": "Avec le slogan « Un polar de Godard », Sarde voulait associer le nom médiatique du cinéaste au genre du film policier.",
+      "level": "medium",
+      "emoji": "⭐",
+      "duration": 30,
+      "points": 100,
+      "theme": "johnny",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_182.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-182-21",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel père de coeur était pour Johnny Hallyday une incarnation du rêve américain ?",
+      "answer": "Lee Halliday",
+      "options": [
+        "Lee Halliday",
+        "Jon Hallyday",
+        "Brett Halliday",
+        "Simon Halliday"
+      ],
+      "explanation": "Au moment de choisir un nom d'artiste, Jean-Philippe Smet optera ainsi pour le nom de scène Johnny Halliday.",
+      "level": "hard",
+      "emoji": "⭐",
+      "duration": 30,
+      "points": 100,
+      "theme": "johnny",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_182.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-182-22",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Avec quel label Johnny Hallyday a-t-il signé son premier disque ?",
+      "answer": "Vogue",
+      "options": [
+        "Philips",
+        "Barclay",
+        "Vogue",
+        "Warner"
+      ],
+      "explanation": "Sur la pochette, son nom est, par erreur, orthographié avec deux « y », graphie qui sera alors définitivement adoptée.",
+      "level": "hard",
+      "emoji": "⭐",
+      "duration": 30,
+      "points": 100,
+      "theme": "johnny",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_182.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-182-23",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel parolier français orientera Johnny Hallyday vers un rock plus mélodieux ?",
+      "answer": "Michel Mallory",
+      "options": [
+        "Lionel Florence",
+        "Joe Gracy",
+        "Pierre Louki",
+        "Michel Mallory"
+      ],
+      "explanation": "Michel Mallory est revenu à la chanson durant les années 1980 en chantant dans sa langue natale, le corse.",
+      "level": "hard",
+      "emoji": "⭐",
+      "duration": 30,
+      "points": 100,
+      "theme": "johnny",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_182.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-182-24",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Comment s'intitule le premier double album studio de Johnny Hallyday ?",
+      "answer": "Hamlet",
+      "options": [
+        "Gang",
+        "Hallelujah",
+        "Hamlet",
+        "Insolitudes"
+      ],
+      "explanation": "« Hamlet », adaptation musicale du classique de William Shakespeare, est un projet vieux de six ans qui sera un échec.",
+      "level": "hard",
+      "emoji": "⭐",
+      "duration": 30,
+      "points": 100,
+      "theme": "johnny",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_182.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-182-25",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Qui pilotait l'hélicoptère du spectacle « Hallyday fait son show » ?",
+      "answer": "Michel Drucker",
+      "options": [
+        "Michel Leeb",
+        "Jean Boulet",
+        "Thierry Sabine",
+        "Michel Drucker"
+      ],
+      "explanation": "« Allumer le feu », se joue sous un feu d'artifice et de lumières, avant que Johnny ne conclue avec « Sur ma vie » d'Aznavour.",
+      "level": "hard",
+      "emoji": "⭐",
+      "duration": 30,
+      "points": 100,
+      "theme": "johnny",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_182.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-182-26",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Au volant de quelle marque Johnny Hallyday a-t-il participé en 2001 au rallye Dakar ?",
+      "answer": "Nissan",
+      "options": [
+        "Nissan",
+        "Citroën",
+        "Porsche",
+        "Peugeot"
+      ],
+      "explanation": "Son copilote était René Metge, qui possède un des plus beaux palmarès sur le Rallye Dakar avoir trois victoires.",
+      "level": "hard",
+      "emoji": "⭐",
+      "duration": 30,
+      "points": 100,
+      "theme": "johnny",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_182.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-182-27",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Qui a réalisé « Le Coeur d'un homme », album produit par Warner ?",
+      "answer": "Yvan Cassar",
+      "options": [
+        "Jean-Luc Étienne",
+        "Yvan Cassar",
+        "Jean Langlais",
+        "Pierre Boulez"
+      ],
+      "explanation": "Yvan Cassar fut le réalisateur et directeur musical de nombreux albums et spectacles de Johnny Hallyday.",
+      "level": "hard",
+      "emoji": "⭐",
+      "duration": 30,
+      "points": 100,
+      "theme": "johnny",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_182.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-182-29",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Où Johnny s'était-il installé en Suisse pour des raisons fiscales ?",
+      "answer": "Gstaad",
+      "options": [
+        "Genève",
+        "Gstaad",
+        "Lausanne",
+        "Zurich"
+      ],
+      "explanation": "Ce village est connu pour être une station de ski huppée de la jet set et de la haute-société internationale.",
+      "level": "hard",
+      "emoji": "⭐",
+      "duration": 30,
+      "points": 100,
+      "theme": "johnny",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_182.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

@@ -1,0 +1,523 @@
+{
+  "id": "fromages",
+  "title": "Fromages de France",
+  "originalTitle": "Fromages de France (Près de mille fromages différents)",
+  "universe": "quiz",
+  "emoji": "🧀",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_9.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "excludedOriginalIds": [
+    3,
+    6,
+    7,
+    9,
+    12,
+    16,
+    18,
+    20,
+    27,
+    29,
+    30
+  ],
+  "questions": [
+    {
+      "id": "oqdb-9-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel fromage français a été représenté par une jeune fille blonde avec des nattes ?",
+      "answer": "Belle des Champs",
+      "options": [
+        "Tomme du Jura",
+        "Belle des Champs",
+        "Petit chèvre",
+        "Palet du Poitou"
+      ],
+      "explanation": "Ce fromage à pâte molle et à croûte fleurie, de forme cylindrique, pèse environ deux kilogrammes.",
+      "level": "easy",
+      "emoji": "🧀",
+      "duration": 30,
+      "points": 100,
+      "theme": "fromages",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_9.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-9-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel fromage industriel est généralement enrobé de paraffine teinte en rouge ?",
+      "answer": "Babybel",
+      "options": [
+        "Saint-paulin",
+        "Époisses",
+        "Babybel",
+        "Chavroux"
+      ],
+      "explanation": "La version classique de ce fromage est composée de lait de vache (98 %), de sel, de ferments lactiques et de coagulant.",
+      "level": "easy",
+      "emoji": "🧀",
+      "duration": 30,
+      "points": 100,
+      "theme": "fromages",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_9.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-9-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel fromage est réputé dans la commune de Meaux en France ?",
+      "answer": "Le brie",
+      "options": [
+        "Le gruyère",
+        "Le cantal",
+        "Le roquefort",
+        "Le brie"
+      ],
+      "explanation": "Son nom vient de la région de la Brie et de la commune de Meaux en France.",
+      "level": "easy",
+      "emoji": "🧀",
+      "duration": 30,
+      "points": 100,
+      "theme": "fromages",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_9.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-9-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel fromage français est principalement produit en Franche-Comté ?",
+      "answer": "Le comté",
+      "options": [
+        "La fourme",
+        "Le demi-sel",
+        "Le comté",
+        "Le chèvre"
+      ],
+      "explanation": "Avec une production de 60 000 tonnes par an, il faut environ 450 litres de lait pour produire une meule de comté.",
+      "level": "easy",
+      "emoji": "🧀",
+      "duration": 30,
+      "points": 100,
+      "theme": "fromages",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_9.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-9-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel fromage a connu son heure de gloire suite à un film de Dany Boon ?",
+      "answer": "Le maroilles",
+      "options": [
+        "Le gruyère",
+        "Le brie",
+        "Le maroilles",
+        "Le roquefort"
+      ],
+      "explanation": "Le film expose ainsi la pratique habituelle qu'auraient les habitants de tremper du maroilles dans leur café.",
+      "level": "easy",
+      "emoji": "🧀",
+      "duration": 30,
+      "points": 100,
+      "theme": "fromages",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_9.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-9-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel fromage français est fabriqué dans quelques fermes aux alentours de Bergues ?",
+      "answer": "Le Bergues",
+      "options": [
+        "Le Bergues",
+        "Le beaufort",
+        "Le savaron",
+        "Le livarot"
+      ],
+      "explanation": "La plus ancienne trace de ce fromage se trouve dans les archives communales de Bergues Saint Winoc dès 1554.",
+      "level": "easy",
+      "emoji": "🧀",
+      "duration": 30,
+      "points": 100,
+      "theme": "fromages",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_9.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-9-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel fromage français a été surnommé le Prince des gruyères par Brillat-Savarin ?",
+      "answer": "Le beaufort",
+      "options": [
+        "Le beaufort",
+        "Le munster",
+        "Le morbier",
+        "Le brie"
+      ],
+      "explanation": "Le beaufort, bénéficiant d'une appellation d'origine protégée, est moulé en forme de meule à talon légèrement concave.",
+      "level": "medium",
+      "emoji": "🧀",
+      "duration": 30,
+      "points": 100,
+      "theme": "fromages",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_9.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-9-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel fromage français est aussi appelé boule de Lille de par sa forme ?",
+      "answer": "La Mimolette vieille",
+      "options": [
+        "Le pavé du Nord",
+        "Le mouflon",
+        "La rigotte",
+        "La Mimolette vieille"
+      ],
+      "explanation": "Sa période de dégustation jugée optimale s'étale d'avril à septembre après un affinage de 12 à 18 mois.",
+      "level": "medium",
+      "emoji": "🧀",
+      "duration": 30,
+      "points": 100,
+      "theme": "fromages",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_9.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-9-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel fromage doit son nom à un terme savoyard qui signifie traire une deuxième fois ?",
+      "answer": "Reblochon",
+      "options": [
+        "Roquefort",
+        "Reblochon",
+        "Gruyère",
+        "Emmental"
+      ],
+      "explanation": "La tradition veut que les fermiers du massif fissent une première traite pour le propriétaire.",
+      "level": "medium",
+      "emoji": "🧀",
+      "duration": 30,
+      "points": 100,
+      "theme": "fromages",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_9.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-9-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel fromage à pâte persillée est élaboré avec des laits crus de brebis ?",
+      "answer": "Roquefort",
+      "options": [
+        "Beaufort",
+        "Roquefort",
+        "Munster",
+        "Brie"
+      ],
+      "explanation": "De réputation internationale, le roquefort est associé à l'excellence de l'agriculture française et à sa gastronomie.",
+      "level": "medium",
+      "emoji": "🧀",
+      "duration": 30,
+      "points": 100,
+      "theme": "fromages",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_9.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-9-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel fromage affilié au maroilles a un nom de mammifère ?",
+      "answer": "Le dauphin",
+      "options": [
+        "Le marsouin",
+        "Le wallaby",
+        "Le lapin",
+        "Le dauphin"
+      ],
+      "explanation": "Aujourd'hui, les agriculteurs emploient majoritairement des formes carrées, rectangulaires ou en losange pour des raisons de coûts.",
+      "level": "medium",
+      "emoji": "🧀",
+      "duration": 30,
+      "points": 100,
+      "theme": "fromages",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_9.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-9-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel fromage français du Dauphiné est un proche cousin du saint-félicien ?",
+      "answer": "Le saint-marcellin",
+      "options": [
+        "Le saint-paulin",
+        "Le saint-marcellin",
+        "Le saint-siméon",
+        "Le saint-julien"
+      ],
+      "explanation": "Ce petit fromage à base de lait de vache est réalisé avec le lait provenant de 274 communes.",
+      "level": "medium",
+      "emoji": "🧀",
+      "duration": 30,
+      "points": 100,
+      "theme": "fromages",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_9.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-9-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel fromage français est moulé en forme de meule à talon légèrement concave ?",
+      "answer": "Beaufort",
+      "options": [
+        "Beaufort",
+        "Livernon",
+        "Cantal",
+        "Reblochon"
+      ],
+      "explanation": "Autrefois, le beaufort représentait une production importante, mais il a payé un lourd tribut à l'exode rural et à son coût de production.",
+      "level": "hard",
+      "emoji": "🧀",
+      "duration": 30,
+      "points": 100,
+      "theme": "fromages",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_9.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-9-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel fromage triple-crème est produit dans les régions de Normandie et de Bourgogne ?",
+      "answer": "Brillat-savarin",
+      "options": [
+        "Gaperon",
+        "Pélardon",
+        "Brillat-savarin",
+        "Mélusine"
+      ],
+      "explanation": "Le brillat-savarin est un fromage triple-crème, doux au palais, qui se mange jeune et bien frais.",
+      "level": "hard",
+      "emoji": "🧀",
+      "duration": 30,
+      "points": 100,
+      "theme": "fromages",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_9.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-9-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel fromage français actuel est parfois aussi appelé brie petit moule ?",
+      "answer": "Le coulommiers",
+      "options": [
+        "Le charolais",
+        "Le civray",
+        "Le coulommiers",
+        "Le chevrotin"
+      ],
+      "explanation": "En gastronomie, le coulommiers est utilisé pour la préparation de la « crème de Coulommiers ».",
+      "level": "hard",
+      "emoji": "🧀",
+      "duration": 30,
+      "points": 100,
+      "theme": "fromages",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_9.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-9-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel fromage est cerclé de trois à cinq bandelettes séchées et découpées ?",
+      "answer": "Le livarot",
+      "options": [
+        "Le montbriac",
+        "Le livernon",
+        "Le fédou",
+        "Le livarot"
+      ],
+      "explanation": "Ces bandes, qui servaient à la bonne tenue du fromage lors de l'affinage, sont à l'origine du surnom de « colonel » du fromage.",
+      "level": "hard",
+      "emoji": "🧀",
+      "duration": 30,
+      "points": 100,
+      "theme": "fromages",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_9.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-9-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel fromage français possède une fine couche de cendre à la saveur douce et fruitée ?",
+      "answer": "Le morbier",
+      "options": [
+        "Le trou du Cru",
+        "Le vachard",
+        "Le morbier",
+        "Le savaron"
+      ],
+      "explanation": "Morbier est une appellation d'origine désignant un fromage de lait cru de vache, fabriqué dans le massif du Jura en France.",
+      "level": "hard",
+      "emoji": "🧀",
+      "duration": 30,
+      "points": 100,
+      "theme": "fromages",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_9.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-9-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel fromage français utilise le taureau comme logotype ?",
+      "answer": "Le laguiole",
+      "options": [
+        "Le livarot",
+        "Le barousse",
+        "Le laguiole",
+        "Le fédou"
+      ],
+      "explanation": "Le laguiole a failli disparaître au milieu du XXe siècle, du fait des prix de revient élevés de ses méthodes de fabrication.",
+      "level": "hard",
+      "emoji": "🧀",
+      "duration": 30,
+      "points": 100,
+      "theme": "fromages",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_9.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-9-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel fromage de lait de vache se nomme géromé en Lorraine ?",
+      "answer": "Le munster",
+      "options": [
+        "Le trou du Cru",
+        "Le munster",
+        "Le morbier",
+        "Le savaron"
+      ],
+      "explanation": "La recette du munster a été laissée aux Vosgiens au IXe siècle par un moine irlandais de passage.",
+      "level": "hard",
+      "emoji": "🧀",
+      "duration": 30,
+      "points": 100,
+      "theme": "fromages",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_9.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

@@ -1,0 +1,648 @@
+{
+  "id": "tintin",
+  "title": "Tintin et la BD",
+  "originalTitle": "Tintin (L'univers du jeune reporter)",
+  "universe": "quiz",
+  "emoji": "💬",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_124.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "excludedOriginalIds": [
+    2,
+    3,
+    9,
+    17,
+    18,
+    29
+  ],
+  "questions": [
+    {
+      "id": "oqdb-124-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle aventure Tintin se retrouve-t-il face à un impressionnant Yeti ?",
+      "answer": "Tintin au Tibet",
+      "options": [
+        "Coke en Stock",
+        "Le Lotus bleu",
+        "Tintin au Tibet",
+        "Tintin au Congo"
+      ],
+      "explanation": "Le film « La Neige en deuil », d'Edward Dmytryk, comporte des séquences qui ont probablement dû marquer la mémoire d'Hergé.",
+      "level": "easy",
+      "emoji": "💬",
+      "duration": 30,
+      "points": 100,
+      "theme": "tintin",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_124.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-124-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans Tintin, quelle est la différence visuelle entre Dupond et Dupont ?",
+      "answer": "La moustache",
+      "options": [
+        "Le costume",
+        "La moustache",
+        "Le nez",
+        "Le chapeau"
+      ],
+      "explanation": "Celle de Dupond est droite ou en forme de D incliné, alors que celle de Dupont est en forme de T épais renversé.",
+      "level": "easy",
+      "emoji": "💬",
+      "duration": 30,
+      "points": 100,
+      "theme": "tintin",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_124.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-124-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel personnage est en lévitation sur la couverture des « Sept Boules de cristal » ?",
+      "answer": "Tournesol",
+      "options": [
+        "Haddock",
+        "Tournesol",
+        "Milou",
+        "Tintin"
+      ],
+      "explanation": "L'allusion aux découvreurs de la tombe de Toutankhamon est clairement définie dans cet ouvrage grand public.",
+      "level": "easy",
+      "emoji": "💬",
+      "duration": 30,
+      "points": 100,
+      "theme": "tintin",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_124.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-124-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville Tintin se fait-il enlever dans « Tintin en Amérique » ?",
+      "answer": "Chicago",
+      "options": [
+        "Texas",
+        "Detroit",
+        "Chicago",
+        "New York"
+      ],
+      "explanation": "À l'époque de la Prohibition, Tintin se retrouve emmené à Chicago juste après son voyage au Congo.",
+      "level": "easy",
+      "emoji": "💬",
+      "duration": 30,
+      "points": 100,
+      "theme": "tintin",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_124.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-124-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a volé les Bijoux de la Castafiore, dont une émeraude de grande valeur ?",
+      "answer": "Une pie",
+      "options": [
+        "Une pie",
+        "Tryphon Tournesol",
+        "Les frères Loiseau",
+        "Les bohémiens"
+      ],
+      "explanation": "La Castafiore est une cantatrice italienne de renommée internationale, surnommée le Rossignol milanais.",
+      "level": "easy",
+      "emoji": "💬",
+      "duration": 30,
+      "points": 100,
+      "theme": "tintin",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_124.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-124-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la suite de l'album « Les Sept Boules de cristal » ?",
+      "answer": "Le Temple du Soleil",
+      "options": [
+        "Tintin au Tibet",
+        "Le Temple du Soleil",
+        "Le Lotus bleu",
+        "Coke en stock"
+      ],
+      "explanation": "Cet album a amené Hergé à effectuer de multiples recherches dans des documents s'intéressant à la civilisation inca.",
+      "level": "easy",
+      "emoji": "💬",
+      "duration": 30,
+      "points": 100,
+      "theme": "tintin",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_124.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-124-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel album Tintin se rend-il dans une colonie belge ?",
+      "answer": "Tintin au Congo",
+      "options": [
+        "Coke en stock",
+        "Tintin en Amérique",
+        "Tintin au Congo",
+        "Tintin au Tibet"
+      ],
+      "explanation": "En 1946, Hergé s'adjoint les services d'Edgar P. Jacobs et réécrivent l'album dans un format plus court et en couleurs.",
+      "level": "easy",
+      "emoji": "💬",
+      "duration": 30,
+      "points": 100,
+      "theme": "tintin",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_124.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-124-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel phénomène spectaculaire sauve Tintin et ses amis dans « Le temple du soleil » ?",
+      "answer": "Éclipse de soleil",
+      "options": [
+        "Éclipse de soleil",
+        "Avalanche",
+        "Ouragan",
+        "Séisme"
+      ],
+      "explanation": "L'intrigue de l'album est inspirée du roman sous forme de feuilleton de Gaston Leroux, « L'Épouse du soleil ».",
+      "level": "medium",
+      "emoji": "💬",
+      "duration": 30,
+      "points": 100,
+      "theme": "tintin",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_124.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-124-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Le dernier album de Tintin achevé par Hergé est paru en 1976. Quel en était le titre ?",
+      "answer": "Tintin et les Picaros",
+      "options": [
+        "Tintin et les Picaros",
+        "Tintin au Tibet",
+        "Tintin au Congo",
+        "Vol 714 pour Sydney"
+      ],
+      "explanation": "Une page a dû être retirée lors de l'édition finale de l'album, car il devait en contenir au maximum 62 (comme à l'habitude).",
+      "level": "medium",
+      "emoji": "💬",
+      "duration": 30,
+      "points": 100,
+      "theme": "tintin",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_124.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-124-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel métier Roberto Rastapopoulos exerce-t-il dans « Les Cigares du pharaon » ?",
+      "answer": "Producteur",
+      "options": [
+        "Banquier",
+        "Scientifique",
+        "Producteur",
+        "Assureur"
+      ],
+      "explanation": "« Les Cigares du pharaon » est le premier album de Tintin directement imprimé par les Éditions Casterman.",
+      "level": "medium",
+      "emoji": "💬",
+      "duration": 30,
+      "points": 100,
+      "theme": "tintin",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_124.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-124-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans Tintin, le château de Moulinsart apparaît pour la première fois dans « Le »...",
+      "answer": "Secret de la Licorne",
+      "options": [
+        "Secret de la Licorne",
+        "Sceptre d'Ottokar",
+        "Lotus bleu",
+        "Temple du Soleil"
+      ],
+      "explanation": "Pour beaucoup, le château de Moulinsart serait une réplique fort similaire du château de Cheverny.",
+      "level": "medium",
+      "emoji": "💬",
+      "duration": 30,
+      "points": 100,
+      "theme": "tintin",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_124.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-124-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la marque de whisky préférée du Capitaine Haddock ?",
+      "answer": "Loch Lomond",
+      "options": [
+        "Loch Fields",
+        "Loch Lomond",
+        "Loch Mahouss",
+        "Loch Ness"
+      ],
+      "explanation": "Aujourd'hui, cette marque de whisky est plus connue par les tintinophiles que par les amateurs de cet alcool.",
+      "level": "medium",
+      "emoji": "💬",
+      "duration": 30,
+      "points": 100,
+      "theme": "tintin",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_124.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-124-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le prénom du Professeur Tournesol dans les aventures de Tintin ?",
+      "answer": "Tryphon",
+      "options": [
+        "Hyppolite",
+        "Séraphin",
+        "Archibald",
+        "Tryphon"
+      ],
+      "explanation": "Le Professeur Tournesol est un scientifique assez âgé, dur d'oreille, portant une barbichette et des lunettes rondes.",
+      "level": "medium",
+      "emoji": "💬",
+      "duration": 30,
+      "points": 100,
+      "theme": "tintin",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_124.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-124-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la nationalité du milliardaire Rastapopoulos ?",
+      "answer": "Grecque",
+      "options": [
+        "Anglaise",
+        "Grecque",
+        "Marocaine",
+        "Indienne"
+      ],
+      "explanation": "Roberto Rastapopoulos est un milliardaire connu sous le faux nom de Marquis di Gorgonzola.",
+      "level": "medium",
+      "emoji": "💬",
+      "duration": 30,
+      "points": 100,
+      "theme": "tintin",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_124.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-124-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quoi est attaché Tintin sur la couverture de « Tintin en Amérique » ?",
+      "answer": "Un totem indien",
+      "options": [
+        "Un taureau",
+        "Un chariot",
+        "Un totem indien",
+        "Un tonneau"
+      ],
+      "explanation": "La trame de l'histoire se déroule aux États-Unis, pendant la Prohibition, où Tintin lutte contre les gangsters de la ville.",
+      "level": "medium",
+      "emoji": "💬",
+      "duration": 30,
+      "points": 100,
+      "theme": "tintin",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_124.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-124-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel château de la Loire a servi de modèle pour le château de Moulinsart ?",
+      "answer": "Cheverny",
+      "options": [
+        "Chenonceau",
+        "Cheverny",
+        "Chambord",
+        "Chaumont"
+      ],
+      "explanation": "Le château de Moulinsart serait une réplique de Cheverny, auquel on aurait retiré les deux ailes externes.",
+      "level": "hard",
+      "emoji": "💬",
+      "duration": 30,
+      "points": 100,
+      "theme": "tintin",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_124.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-124-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment se nomme le moine qui a des visions dans « Tintin au Tibet » ?",
+      "answer": "Foudre Bénie",
+      "options": [
+        "Foudre Bénie",
+        "Grand Pachacamac",
+        "Grand Précieux",
+        "Savoir Infini"
+      ],
+      "explanation": "En touchant l'écharpe de Tchang, Foudre Bénie a une vision et voit ce dernier dans une grotte avec le yéti.",
+      "level": "hard",
+      "emoji": "💬",
+      "duration": 30,
+      "points": 100,
+      "theme": "tintin",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_124.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-124-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans les aventures de Tintin, quelle est la profession de Séraphin Lampion ?",
+      "answer": "Assureur",
+      "options": [
+        "Journaliste",
+        "Banquier",
+        "Policier",
+        "Assureur"
+      ],
+      "explanation": "Lampion semble à l'aise dans tous les milieux, ne voyant pas qu'il exaspère son « public » et se croyant bienvenu partout.",
+      "level": "hard",
+      "emoji": "💬",
+      "duration": 30,
+      "points": 100,
+      "theme": "tintin",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_124.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-124-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le prénom de Haddock, capitaine de marine marchande ?",
+      "answer": "Archibald",
+      "options": [
+        "Isidore",
+        "Mauricien",
+        "Gustave",
+        "Archibald"
+      ],
+      "explanation": "Le prénom du capitaine Haddock est mentionné pour la première fois dans l'album « Tintin et les Picaros ».",
+      "level": "hard",
+      "emoji": "💬",
+      "duration": 30,
+      "points": 100,
+      "theme": "tintin",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_124.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-124-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans « Les Bijoux de la Castafiore », quel journal annonce les noces de la diva ?",
+      "answer": "Paris-Flash",
+      "options": [
+        "Ici Pour Vous",
+        "Paris-Flash",
+        "Jours de Paris",
+        "Stars de France"
+      ],
+      "explanation": "Trois ans après le succès de « Tintin au Tibet », Hergé semble ici être à l'apogée de son oeuvre sur le plan narratif.",
+      "level": "hard",
+      "emoji": "💬",
+      "duration": 30,
+      "points": 100,
+      "theme": "tintin",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_124.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-124-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel personnage a inspiré Hergé pour créer le Professeur Tournesol ?",
+      "answer": "Auguste Piccard",
+      "options": [
+        "Albert Einstein",
+        "Auguste Piccard",
+        "Graham Bell",
+        "Thomas Edison"
+      ],
+      "explanation": "Auguste Piccard est un physicien suisse, explorateur de la haute atmosphère et des grandes profondeurs.",
+      "level": "hard",
+      "emoji": "💬",
+      "duration": 30,
+      "points": 100,
+      "theme": "tintin",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_124.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-124-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Avant de devenir le domestique du Capitaine Haddock, pour qui travaillait Nestor ?",
+      "answer": "Les frères Loiseau",
+      "options": [
+        "Rastapopoulos",
+        "Les frères Loiseau",
+        "La Castafiore",
+        "Müller"
+      ],
+      "explanation": "D'allure très soignée, portant une livrée, Nestor est devenu dans la culture francophone l'archétype du majordome.",
+      "level": "hard",
+      "emoji": "💬",
+      "duration": 30,
+      "points": 100,
+      "theme": "tintin",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_124.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-124-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel acteur joua le rôle de Tintin au cinéma dans les années 1960 ?",
+      "answer": "Jean-Pierre Talbot",
+      "options": [
+        "Jean-Pierre Talbot",
+        "André Marie",
+        "Serge Marquand",
+        "Max Elloy"
+      ],
+      "explanation": "Jean-Pierre Talbot est le seul acteur à avoir physiquement incarné le personnage de Tintin au cinéma.",
+      "level": "hard",
+      "emoji": "💬",
+      "duration": 30,
+      "points": 100,
+      "theme": "tintin",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_124.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-124-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel artiste aurait inspiré Hergé pour le personnage de Tchang ?",
+      "answer": "Zhang Chongren",
+      "options": [
+        "Fang Lijun",
+        "Liu Xiaodong",
+        "Wang Shiyan",
+        "Zhang Chongren"
+      ],
+      "explanation": "Zhang, artiste et sculpteur chinois qui recevra la nationalité française en 1985, meurt à Paris le 8 octobre 1998.",
+      "level": "hard",
+      "emoji": "💬",
+      "duration": 30,
+      "points": 100,
+      "theme": "tintin",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_124.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

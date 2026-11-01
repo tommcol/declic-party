@@ -1,0 +1,548 @@
+{
+  "id": "fourmis",
+  "title": "Fourmis et petites bêtes",
+  "originalTitle": "Fourmis (Insectes aux particularités fascinantes)",
+  "universe": "quiz",
+  "emoji": "🐜",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_48.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "excludedOriginalIds": [
+    5,
+    9,
+    12,
+    21,
+    23,
+    24,
+    25,
+    26,
+    27,
+    29
+  ],
+  "questions": [
+    {
+      "id": "oqdb-48-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle espèce animale font partie les fourmis, de l'ordre des hyménoptères ?",
+      "answer": "Insectes",
+      "options": [
+        "Insectes",
+        "Invertébrés",
+        "Poissons",
+        "Mammifères"
+      ],
+      "explanation": "Certaines espèces de fourmis forment des supercolonies à plusieurs centaines de millions d'individus et à plus de 50 colonies.",
+      "level": "easy",
+      "emoji": "🐜",
+      "duration": 30,
+      "points": 100,
+      "theme": "fourmis",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_48.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-48-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel habitat des fourmis est généralement conçu par construction de dômes ?",
+      "answer": "Fourmilière",
+      "options": [
+        "Niche",
+        "Nid",
+        "Fourmilière",
+        "Cage"
+      ],
+      "explanation": "La fourmilière a pour but de protéger la ou les reines et de garantir à la colonie une sécurité et un abri face aux intempéries.",
+      "level": "easy",
+      "emoji": "🐜",
+      "duration": 30,
+      "points": 100,
+      "theme": "fourmis",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_48.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-48-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel film d'animation, sorti des studios Pixar, Tilt est-il un ouvrier fourmi ?",
+      "answer": "1001 pattes",
+      "options": [
+        "1001 pattes",
+        "Ratatouille",
+        "Toy Story",
+        "Monstres et Cie"
+      ],
+      "explanation": "Woody, le cow-boy héros du film d'animation « Toy Story », est apparu dans le bêtisier du générique de fin.",
+      "level": "easy",
+      "emoji": "🐜",
+      "duration": 30,
+      "points": 100,
+      "theme": "fourmis",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_48.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-48-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quels insectes sont parfois appelés « fourmis blanches » au sein de colonies hiérarchisées ?",
+      "answer": "Les termites",
+      "options": [
+        "Les termites",
+        "Les cancrelats",
+        "Les cafards",
+        "Les blattes"
+      ],
+      "explanation": "Les termites se rencontrent surtout dans les pays chauds, où certaines espèces construisent de grands nids en terre mâchée.",
+      "level": "easy",
+      "emoji": "🐜",
+      "duration": 30,
+      "points": 100,
+      "theme": "fourmis",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_48.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-48-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Au sein d'une colonie de fourmis, qui pond les oeufs dans la fourmilière ?",
+      "answer": "La reine",
+      "options": [
+        "La guerrière",
+        "La tisserande",
+        "L'ouvrière",
+        "La reine"
+      ],
+      "explanation": "Certaines espèces de fourmis peuvent tolérer plusieurs reines lorsque la colonie est conséquente.",
+      "level": "easy",
+      "emoji": "🐜",
+      "duration": 30,
+      "points": 100,
+      "theme": "fourmis",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_48.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-48-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Avec quoi les fourmis sentent-elles le repérage de pistes olfactives ?",
+      "answer": "Leurs antennes",
+      "options": [
+        "Leur queue",
+        "Leur abdomen",
+        "Leurs pattes",
+        "Leurs antennes"
+      ],
+      "explanation": "Les fourmis peuvent aussi détecter à quel groupe de travail (par exemple la recherche de nourriture) l'une ou l'autre appartient.",
+      "level": "easy",
+      "emoji": "🐜",
+      "duration": 30,
+      "points": 100,
+      "theme": "fourmis",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_48.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-48-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Avec quel autre insecte la fourmi partage-t-elle une célèbre fable de Jean de La Fontaine ?",
+      "answer": "La cigale",
+      "options": [
+        "La coccinelle",
+        "La cigale",
+        "La libellule",
+        "La mouche"
+      ],
+      "explanation": "« La Cigale et la Fourmi » est la première fable du livre I de Jean de La Fontaine située dans le premier recueil des « Fables de La Fontaine ».",
+      "level": "easy",
+      "emoji": "🐜",
+      "duration": 30,
+      "points": 100,
+      "theme": "fourmis",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_48.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-48-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel film du studio Dreamworks sorti en 1998 relate la vie des fourmis ?",
+      "answer": "Fourmiz",
+      "options": [
+        "Chicken Run",
+        "Shrek",
+        "Fourmiz",
+        "Madagascar"
+      ],
+      "explanation": "Seulement un mois après la sortie du film fut proposé le film d'animation « 1001 pattes » du « concurrent historique » Pixar.",
+      "level": "easy",
+      "emoji": "🐜",
+      "duration": 30,
+      "points": 100,
+      "theme": "fourmis",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_48.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-48-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel écrivain français né à Toulouse a publié une célèbre trilogie sur les fourmis ?",
+      "answer": "Bernard Werber",
+      "options": [
+        "Bernard Werber",
+        "Gaston Boca",
+        "Alain Grousset",
+        "Robert Merle"
+      ],
+      "explanation": "Son oeuvre, traduite dans une trentaine de langues, fait se rencontrer spiritualité, science-fiction, polar, biologie et mythologie.",
+      "level": "medium",
+      "emoji": "🐜",
+      "duration": 30,
+      "points": 100,
+      "theme": "fourmis",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_48.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-48-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Chez les fourmis, comment appelle-t-on les femelles aptères et stériles ?",
+      "answer": "Ouvrières",
+      "options": [
+        "Nettoyeuses",
+        "Guerrières",
+        "Reines",
+        "Ouvrières"
+      ],
+      "explanation": "Les différences morphologiques majeures entre les castes d'ouvrières sont induites par le régime alimentaire au stade larvaire.",
+      "level": "medium",
+      "emoji": "🐜",
+      "duration": 30,
+      "points": 100,
+      "theme": "fourmis",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_48.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-48-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel sexe aura obligatoirement une fourmi si son oeuf a la chance d'être fécondé ?",
+      "answer": "Femelle",
+      "options": [
+        "Mâle",
+        "Mâle ou femelle",
+        "Femelle",
+        "On ne sait pas"
+      ],
+      "explanation": "Si l'oeuf est fécondé, l'individu est alors diploïde et l'oeuf donnera une femelle; s'il ne l'est pas, l'individu est haploïde et forme un mâle.",
+      "level": "medium",
+      "emoji": "🐜",
+      "duration": 30,
+      "points": 100,
+      "theme": "fourmis",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_48.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-48-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelles fourmis, pourtant parfois de petite taille, font leurs nids en creusant le bois ?",
+      "answer": "Charpentières",
+      "options": [
+        "Tisserandes",
+        "Moissonneuses",
+        "Charpentières",
+        "Pot-de-miel"
+      ],
+      "explanation": "Les ouvrières varient en taille et certaines d'entre elles comptent parmi les plus grandes espèces d'Europe.",
+      "level": "medium",
+      "emoji": "🐜",
+      "duration": 30,
+      "points": 100,
+      "theme": "fourmis",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_48.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-48-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment sont parfois appelées les ouvrières géantes au sein d'une colonie de fourmis ?",
+      "answer": "Soldats",
+      "options": [
+        "Soldats",
+        "Guêpes",
+        "Pondeuses",
+        "Ouvrières"
+      ],
+      "explanation": "Les plus grandes ouvrières sont parfois appelées « soldats », bien que leur rôle défensif ne soit pas nécessairement prépondérant.",
+      "level": "medium",
+      "emoji": "🐜",
+      "duration": 30,
+      "points": 100,
+      "theme": "fourmis",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_48.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-48-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelles fourmis à l'abdomen gonflé deviennent des mets délicieux en Australie ?",
+      "answer": "Pot-de-miel",
+      "options": [
+        "Charpentières",
+        "Pot-de-miel",
+        "Tisserandes",
+        "Moissonneuses"
+      ],
+      "explanation": "Ces fourmis servent de réservoir vivant aux autres fourmis de la colonie qui viennent leur donner le miellat.",
+      "level": "medium",
+      "emoji": "🐜",
+      "duration": 30,
+      "points": 100,
+      "theme": "fourmis",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_48.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-48-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quels produits chimiques sont utilisés pour faciliter la communication entre les fourmis ?",
+      "answer": "Les phéromones",
+      "options": [
+        "Les phéromones",
+        "Les neurotoxiques",
+        "Les glucides",
+        "Les biocides"
+      ],
+      "explanation": "Les phéromones agissent comme des messagers et jouent notamment un rôle dans l'attraction sexuelle.",
+      "level": "medium",
+      "emoji": "🐜",
+      "duration": 30,
+      "points": 100,
+      "theme": "fourmis",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_48.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-48-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelles fourmis sont chargées d'éliminer les cadavres du nid ?",
+      "answer": "Les nettoyeuses",
+      "options": [
+        "Les guerrières",
+        "Les nettoyeuses",
+        "Les guérisseuses",
+        "Les ouvrières"
+      ],
+      "explanation": "Les nettoyeuses sont souvent des ouvrières en fin de vie ou des individus qui restent dans les endroits consacrés aux déchets.",
+      "level": "medium",
+      "emoji": "🐜",
+      "duration": 30,
+      "points": 100,
+      "theme": "fourmis",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_48.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-48-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel prédateur est également nommé le fourmilier géant ou grand fourmilier ?",
+      "answer": "Le tamanoir",
+      "options": [
+        "Le tamanoir",
+        "Le saphir",
+        "Le hurleur",
+        "Le ragondin"
+      ],
+      "explanation": "Le tamanoir est surtout terrestre, contrairement à d'autres fourmiliers ou paresseux, qui sont arboricoles ou semi-arboricole.",
+      "level": "medium",
+      "emoji": "🐜",
+      "duration": 30,
+      "points": 100,
+      "theme": "fourmis",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_48.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-48-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment sont appelées les espèces de fourmis possédant une seule reine ?",
+      "answer": "Monogynes",
+      "options": [
+        "Monogynes",
+        "Euryapsides",
+        "Phytozoaires",
+        "Zoophytes"
+      ],
+      "explanation": "Ce terme est également applicable chez les abeilles, les guêpes, les termites et rats-taupes nus.",
+      "level": "hard",
+      "emoji": "🐜",
+      "duration": 30,
+      "points": 100,
+      "theme": "fourmis",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_48.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-48-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel terme utilise-t-on généralement pour désigner les sons émis par les fourmis ?",
+      "answer": "Stridulations",
+      "options": [
+        "Stridulations",
+        "Percussions",
+        "Déformations",
+        "Bourdonnements"
+      ],
+      "explanation": "La stridulation permet d'émettre une large gamme de signaux sonores (sélection sexuelle, territorialité, etc...).",
+      "level": "hard",
+      "emoji": "🐜",
+      "duration": 30,
+      "points": 100,
+      "theme": "fourmis",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_48.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-48-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel mammifère insectivore recouvert d'écailles est un prédateur pour les fourmis ?",
+      "answer": "Pangolin",
+      "options": [
+        "Pangolin",
+        "Ragondin",
+        "Saphir",
+        "Tamanoir"
+      ],
+      "explanation": "Les pangolins peuplent les forêts et les savanes des régions tropicales et équatoriales d'Afrique et d'Asie du Sud-Est.",
+      "level": "hard",
+      "emoji": "🐜",
+      "duration": 30,
+      "points": 100,
+      "theme": "fourmis",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_48.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

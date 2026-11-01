@@ -1,5 +1,15 @@
 export const normalize = v => String(v??'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]/g,'');
 export function matches(value, expected, aliases=[]){const a=normalize(value);if(!a)return false;return [expected,...aliases].filter(Boolean).some(v=>{const b=normalize(v);if(a===b)return true;if(Math.min(a.length,b.length)<5)return false;const max=Math.min(a.length,b.length)>=9?2:1;if(Math.abs(a.length-b.length)>max)return false;let row=Array.from({length:b.length+1},(_,i)=>i);for(let i=0;i<a.length;i++){const next=[i+1];for(let j=0;j<b.length;j++)next.push(Math.min(next[j]+1,row[j+1]+1,row[j]+(a[i]===b[j]?0:1)));row=next;}return row[b.length]<=max;});}
+// Only known dataset origins may be displayed as source links in rooms.
+export function normalizeQuizCredit(credit){
+ if(!credit||typeof credit.author!=='string'||typeof credit.source!=='string')return undefined;
+ const source=credit.source;let publisher,license,licenseUrl;
+ if(/^https:\/\/github\.com\/Zeuh\/OpenQuizzDB\/blob\/[a-f0-9]{40}\/data\/openquizzdb_\d+\.json$/.test(source)){publisher='OpenQuizzDB';license='CC BY-SA 4.0';licenseUrl='https://creativecommons.org/licenses/by-sa/4.0/';}
+ else if(source==='https://www.qulture-app.com/open-data/qulture-reviewed-questions.json'){publisher='Qulture';license='CC BY 4.0';licenseUrl='https://creativecommons.org/licenses/by/4.0/';}
+ else if(/^https:\/\/github\.com\/Pluxia-GmbH\/learnclash-open-trivia\/blob\/[a-f0-9]{40}\/fr\/index\.html$/.test(source)){publisher='LearnClash';license='CC BY 4.0';licenseUrl='https://creativecommons.org/licenses/by/4.0/';}
+ else return undefined;
+ return {publisher,author:credit.author.slice(0,100),source,license,licenseUrl};
+}
 export const LISTEN_STEPS=[1,2,5,10];
 export const isBuzzer=s=>s.mode==='usb'||s.input==='buzzer';
 export const isProgressive=(s,q=s.question||s.questions?.[s.index])=>s.settings?.listening==='progressive'&&q?.kind==='audio';

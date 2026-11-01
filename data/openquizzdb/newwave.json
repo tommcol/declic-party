@@ -1,0 +1,648 @@
+{
+  "id": "newwave",
+  "title": "New wave",
+  "originalTitle": "La new wave",
+  "universe": "music",
+  "emoji": "📼",
+  "credit": {
+    "publisher": "OpenQuizzDB",
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_38.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "excludedOriginalIds": [
+    7,
+    8,
+    14,
+    19,
+    26,
+    28
+  ],
+  "questions": [
+    {
+      "id": "oqdb-38-1",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Dans quel groupe chante Robert Smith et sa coiffure arachnéenne ?",
+      "answer": "The Cure",
+      "options": [
+        "Cocteau Twins",
+        "Indochine",
+        "The Cure",
+        "Alphaville"
+      ],
+      "explanation": "Robert Smith est l'auteur de la quasi-totalité des textes qu'il interprète et le principal compositeur des titres du groupe.",
+      "level": "easy",
+      "emoji": "📼",
+      "duration": 30,
+      "points": 100,
+      "theme": "newwave",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_38.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-38-2",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "'Don't you want me' fut un des plus grands tubes de quel groupe new wave ?",
+      "answer": "The Human League",
+      "options": [
+        "Spandau Ballet",
+        "The Human League",
+        "INXS",
+        "Kajagoogoo"
+      ],
+      "explanation": "Le groupe se forma au début de l'année 1978 avec le chanteur Phil Oakey et les claviéristes Martyn Ware et Ian Marsh.",
+      "level": "easy",
+      "emoji": "📼",
+      "duration": 30,
+      "points": 100,
+      "theme": "newwave",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_38.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-38-3",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "À quel groupe new wave peut-on associer les tubes 'Electricity' et 'Enola Gay' ?",
+      "answer": "OMD",
+      "options": [
+        "Yazoo",
+        "OMD",
+        "Joy Division",
+        "Fox The Fox"
+      ],
+      "explanation": "En 1983, un extrait de la chanson 'Souvenir' a été utilisé dans une bande publicitaire pour BNP Paribas.",
+      "level": "easy",
+      "emoji": "📼",
+      "duration": 30,
+      "points": 100,
+      "theme": "newwave",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_38.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-38-4",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel groupe a connu son premier grand tube en 1981 avec 'Tainted Love' ?",
+      "answer": "Soft Cell",
+      "options": [
+        "Soft Cell",
+        "Yazoo",
+        "Depeche Mode",
+        "Simple Minds"
+      ],
+      "explanation": "Ce morceau a été repris de nombreuses fois, notamment par Marilyn Manson en 2001 pour la BO du film 'Sex Academy'.",
+      "level": "easy",
+      "emoji": "📼",
+      "duration": 30,
+      "points": 100,
+      "theme": "newwave",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_38.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-38-5",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel groupe new wave et pop britannique a été créé par l'incomparable Boy George ?",
+      "answer": "Culture Club",
+      "options": [
+        "Bronski Beat",
+        "Culture Club",
+        "Erasure",
+        "Kajagoogoo"
+      ],
+      "explanation": "Boy George et Culture Club sont rapidement devenus pour le public américain le fer de lance de la grande nouvelle vague (new wave).",
+      "level": "easy",
+      "emoji": "📼",
+      "duration": 30,
+      "points": 100,
+      "theme": "newwave",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_38.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-38-6",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "À quel groupe new wave doit-on le hit 'Shout', enregistré en 1984 ?",
+      "answer": "Tears For Fears",
+      "options": [
+        "Dead Or Alive",
+        "Pet Shop Boys",
+        "Cocteau Twins",
+        "Tears For Fears"
+      ],
+      "explanation": "Accompagnée de percussions, la chanson va musicalement devenir de plus en plus riche au fur et à mesure qu'elle progresse.",
+      "level": "easy",
+      "emoji": "📼",
+      "duration": 30,
+      "points": 100,
+      "theme": "newwave",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_38.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-38-9",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel groupe anglais a obtenu son premier numéro un avec 'Relax' ?",
+      "answer": "FGTH",
+      "options": [
+        "OMD",
+        "A4D",
+        "U2",
+        "FGTH"
+      ],
+      "explanation": "La chanson 'Relax' a ensuite été incluse dans l'album 'Welcome to the Pleasuredome' sorti un an plus tard.",
+      "level": "easy",
+      "emoji": "📼",
+      "duration": 30,
+      "points": 100,
+      "theme": "newwave",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_38.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-38-10",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "'Such a Shame' a été l'un des plus grands tubes de quel groupe musical ?",
+      "answer": "Talk Talk",
+      "options": [
+        "Talking Heads",
+        "Eurythmics",
+        "New Order",
+        "Talk Talk"
+      ],
+      "explanation": "'Such a Shame' fut écrite par Mark Hollis et fut grandement inspirée par le roman culte de l'auteur américain Luke Rhinhart 'L'Homme-dé'.",
+      "level": "easy",
+      "emoji": "📼",
+      "duration": 30,
+      "points": 100,
+      "theme": "newwave",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_38.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-38-11",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quels nouveaux romantiques furent emmenés par Simon Le Bon dans les années 1980 ?",
+      "answer": "Duran Duran",
+      "options": [
+        "Duran Duran",
+        "Talk Talk",
+        "Tings Tings",
+        "Tears For Fears"
+      ],
+      "explanation": "C'est la petite amie de Le Bon de l'époque, Fiona Kemp, barmaid au Rum Runner, qui a présenté le futur chanteur au reste du groupe.",
+      "level": "medium",
+      "emoji": "📼",
+      "duration": 30,
+      "points": 100,
+      "theme": "newwave",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_38.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-38-12",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel groupe est composé des membres restant du groupe Joy Division ?",
+      "answer": "New Order",
+      "options": [
+        "Kajagoogoo",
+        "New World",
+        "Soft Cell",
+        "New Order"
+      ],
+      "explanation": "Joy Division, considéré comme l'un des initiateurs de la cold wave, est l'un des groupes précurseurs et « parrains du rock gothique ».",
+      "level": "medium",
+      "emoji": "📼",
+      "duration": 30,
+      "points": 100,
+      "theme": "newwave",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_38.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-38-13",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel nom de groupe, pionnier de la dream pop, fait référence à un grand écrivain ?",
+      "answer": "Cocteau Twins",
+      "options": [
+        "Dead Can Dance",
+        "London Grammar",
+        "Sparks",
+        "Cocteau Twins"
+      ],
+      "explanation": "La musique des Cocteau Twins est aérienne, à la fois mélancolique et légère, mais surtout très abstraite.",
+      "level": "medium",
+      "emoji": "📼",
+      "duration": 30,
+      "points": 100,
+      "theme": "newwave",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_38.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-38-15",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "L'album 'Reggatta de Blanc' fait partie de la discographie de quel groupe ?",
+      "answer": "The Police",
+      "options": [
+        "The Clash",
+        "The Police",
+        "The Cramps",
+        "The Scabs"
+      ],
+      "explanation": "Avec l'album 'Reggatta de Blanc', Sting a été élu meilleur chanteur de l'année 1979 par le New Musical Express.",
+      "level": "medium",
+      "emoji": "📼",
+      "duration": 30,
+      "points": 100,
+      "theme": "newwave",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_38.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-38-16",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel groupe punk a glissé vers la new wave avec le titre 'Golden Brown' ?",
+      "answer": "The Stranglers",
+      "options": [
+        "The Police",
+        "The Stranglers",
+        "The Clash",
+        "The Scabs"
+      ],
+      "explanation": "Ode à l'héroïne et aux femmes, les arrangements acoustiques et le rythme de valse de 'Golden Brown' en font un titre intemporel.",
+      "level": "medium",
+      "emoji": "📼",
+      "duration": 30,
+      "points": 100,
+      "theme": "newwave",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_38.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-38-17",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Alphaville est un groupe new wave de quelle nationalité ?",
+      "answer": "Allemande",
+      "options": [
+        "Anglaise",
+        "Allemande",
+        "Suisse",
+        "Danoise"
+      ],
+      "explanation": "Le nom du groupe a été choisi en référence au film 'Alphaville, une étrange aventure de Lemmy Caution' de Jean-Luc Godard.",
+      "level": "medium",
+      "emoji": "📼",
+      "duration": 30,
+      "points": 100,
+      "theme": "newwave",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_38.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-38-18",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel est le titre du premier album du groupe Indochine, sorti en 1982 ?",
+      "answer": "L'Aventurier",
+      "options": [
+        "L'Aventurier",
+        "Le Péril jaune",
+        "7000 danses",
+        "Le Baiser"
+      ],
+      "explanation": "Après un désintérêt manifeste des médias pour Indochine dans les années 1990, celui-ci retrouve le succès en 2002.",
+      "level": "medium",
+      "emoji": "📼",
+      "duration": 30,
+      "points": 100,
+      "theme": "newwave",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_38.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-38-20",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quelle est la nationalité du groupe Front 242, assimilé au mouvement new wave ?",
+      "answer": "Belge",
+      "options": [
+        "Allemande",
+        "Hollandaise",
+        "Suisse",
+        "Belge"
+      ],
+      "explanation": "Par ses prises de position abruptes et radicales, par sa musique atypique et anti-consensuelle, Front 242 n'a jamais fait l'unanimité.",
+      "level": "medium",
+      "emoji": "📼",
+      "duration": 30,
+      "points": 100,
+      "theme": "newwave",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_38.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-38-21",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Ian Curtis et sa voix mortifère faisait partie de quel célèbre groupe ?",
+      "answer": "Joy Division",
+      "options": [
+        "Joy Division",
+        "New Order",
+        "The Pretenders",
+        "Killing Joke"
+      ],
+      "explanation": "Le groupe gagnant en popularité, Ian Curtis souffrit de sa célébrité naissante qui s'accordait mal avec sa vie privée.",
+      "level": "hard",
+      "emoji": "📼",
+      "duration": 30,
+      "points": 100,
+      "theme": "newwave",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_38.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-38-22",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel groupe français interprète le titre 'Cherchez le garçon' ?",
+      "answer": "Taxi Girl",
+      "options": [
+        "Bijou",
+        "Goûts de Luxe",
+        "Les Infidèles",
+        "Taxi Girl"
+      ],
+      "explanation": "Taxi Girl est un groupe de « l'after punk » à tendance new wave et à l'esthétique romantique, rouge et noire, magnétique, punk.",
+      "level": "hard",
+      "emoji": "📼",
+      "duration": 30,
+      "points": 100,
+      "theme": "newwave",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_38.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-38-23",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Le nom de quel groupe musical des années 1980 provient d'un graffiti aperçu à Berlin ?",
+      "answer": "Spandau Ballet",
+      "options": [
+        "Talk Talk",
+        "Bronski Beat",
+        "Duran Duran",
+        "Spandau Ballet"
+      ],
+      "explanation": "Initialement inspiré par un mélange de funk, jazz et de rock, le groupe s'est successivement appelé The Cut et The Makers.",
+      "level": "hard",
+      "emoji": "📼",
+      "duration": 30,
+      "points": 100,
+      "theme": "newwave",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_38.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-38-24",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "À quelle chanteuse anglaise doit-on le tube 'Our Darkness' ?",
+      "answer": "Anne Clark",
+      "options": [
+        "Cyndi Lauper",
+        "Anne Clark",
+        "Patti Smith",
+        "Blondie"
+      ],
+      "explanation": "Sa musique expérimentale la positionne comme une artiste majeure des années 1980 : les textes ne sont en effet pas chantés.",
+      "level": "hard",
+      "emoji": "📼",
+      "duration": 30,
+      "points": 100,
+      "theme": "newwave",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_38.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-38-25",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "À quel groupe doit-on le légendaire 'Flash in the Night' ?",
+      "answer": "Secret Service",
+      "options": [
+        "Secret Service",
+        "Saxon",
+        "The Korgis",
+        "Yazoo"
+      ],
+      "explanation": "En 1986, le chanteur Ola Hakansson a fait un duo avec Agnetha Faltskog, la chanteuse d'ABBA, intitulé 'The Way You Are'.",
+      "level": "hard",
+      "emoji": "📼",
+      "duration": 30,
+      "points": 100,
+      "theme": "newwave",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_38.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-38-27",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel film réalisé par Anton Corbijn retrace la vie du chanteur Ian Curtis ?",
+      "answer": "Control",
+      "options": [
+        "Closer",
+        "Linear",
+        "Life",
+        "Control"
+      ],
+      "explanation": "Le scénario est adapté du roman 'Touching from a Distance', de sa femme Deborah, également coproductrice du film.",
+      "level": "hard",
+      "emoji": "📼",
+      "duration": 30,
+      "points": 100,
+      "theme": "newwave",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_38.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-38-29",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Qui est le chanteur du groupe rock britannique Echo and the Bunnymen ?",
+      "answer": "Ian McCulloch",
+      "options": [
+        "Robert Smith",
+        "Dave Gahan",
+        "Joe Strummer",
+        "Ian McCulloch"
+      ],
+      "explanation": "Le groupe Echo and the Bunnymen, toujours en activité, s'est disloqué en 1988, séparé en 1992 et reformé en 1996.",
+      "level": "hard",
+      "emoji": "📼",
+      "duration": 30,
+      "points": 100,
+      "theme": "newwave",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_38.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-38-30",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel label indépendant compte parmi son catalogue Joy Division et New Order ?",
+      "answer": "Factory Records",
+      "options": [
+        "Factory Records",
+        "Mute Records",
+        "China Records",
+        "Radar Records"
+      ],
+      "explanation": "Tout comme le label 4AD, Factory Records disposait d'une équipe créative qui assura à ses artistes un son et une image singuliers.",
+      "level": "hard",
+      "emoji": "📼",
+      "duration": 30,
+      "points": 100,
+      "theme": "newwave",
+      "credit": {
+        "publisher": "OpenQuizzDB",
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_38.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}
