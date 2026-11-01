@@ -1,1 +1,1 @@
-{"name":"declic-party","version":"0.5.2","private":true,"type":"module","scripts":{"build":"node build.mjs","test":"node --test tests/*.test.mjs","dev":"node dev.mjs","deploy":"npm run build && npx wrangler deploy"}}
+{"name":"declic-party","version":"0.5.3","private":true,"type":"module","scripts":{"build":"node build.mjs","test":"node --test tests/*.test.mjs","dev":"node dev.mjs","deploy":"npm run build && npx wrangler deploy"}}

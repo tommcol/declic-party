@@ -3,10 +3,11 @@ export {QUESTION_BANKS,QUIZ_CATEGORIES};
 const fold=value=>String(value).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
 export function quizCatalogue({category='',query=''}={}){const term=fold(query.trim());return QUESTION_BANKS.filter(b=>(!category||b.category===category)&&fold(b.title+' '+QUIZ_CATEGORIES.find(c=>c.id===b.category)?.title).includes(term)).sort((a,b)=>a.title.localeCompare(b.title,'fr'));}
 export const QUESTION_COUNT=QUESTION_BANKS.reduce((n,b)=>n+b.count,0);
+export const GENERAL_QUIZ={id:'all',emoji:'🎲',title:'Quiz général · tout mélanger',questionCount:QUESTION_COUNT};
 export const quizThemes=universe=>QUESTION_BANKS.filter(b=>!universe||b.universe===universe);
 const packs=new Map(),pending=new Map();
-export function categoryQuizSettings(id){const category=QUIZ_CATEGORIES.find(c=>c.id===id);if(!category)return undefined;return {source:'bank',quizScope:'category',quizCategory:id,quizThemes:[],quizLevel:'all',universe:id==='music'?'music':id==='cinema'?'film':'quiz',challenge:'title',effect:'normal'};}
-const selected=config=>config.quizScope==='category'?QUESTION_BANKS.filter(b=>b.category===config.quizCategory):quizThemes(config.universe).filter(b=>(config.quizThemes||[]).includes(b.id));
+export function categoryQuizSettings(id){const category=id==='all'?GENERAL_QUIZ:QUIZ_CATEGORIES.find(c=>c.id===id);if(!category)return undefined;return {source:'bank',quizScope:'category',quizCategory:id,quizThemes:[],quizLevel:'all',universe:id==='music'?'music':id==='cinema'?'film':'quiz',challenge:'title',effect:'normal'};}
+const selected=config=>config.quizScope==='category'?QUESTION_BANKS.filter(b=>config.quizCategory==='all'||b.category===config.quizCategory):quizThemes(config.universe).filter(b=>(config.quizThemes||[]).includes(b.id));
 export const quizAvailableCount=config=>selected(config).reduce((n,b)=>n+(!config.quizLevel||config.quizLevel==='all'?b.count:b.levels[config.quizLevel]||0),0);
 export async function loadQuizThemes(config,fetcher=fetch){
  await Promise.all(selected(config).map(async bank=>{
@@ -22,8 +23,20 @@ export async function loadQuizThemes(config,fetcher=fetch){
 }
 const shuffle=items=>{const a=[...items];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;};
 export function quizPool(config){return selected(config).flatMap(b=>packs.get(b.id)||[]).filter(q=>!config.quizLevel||config.quizLevel==='all'||q.level===config.quizLevel);}
-export function quizQuestions(config){const pool=quizPool(config),limit=Math.max(1,Math.min(100,Number(config.count)||10));let result;
+export function quizQuestions(config){return mixQuizQuestions(quizPool(config),config);}
+function mixQuizQuestions(pool,config){const limit=Math.max(1,Math.min(100,Number(config.count)||10));let result;
  if(config.quizScope==='category'){const byTheme=new Map();for(const q of pool){if(!byTheme.has(q.theme))byTheme.set(q.theme,[]);byTheme.get(q.theme).push(q);}const groups=shuffle([...byTheme.values()]).map(shuffle);result=[];while(result.length<limit&&groups.some(g=>g.length))for(const group of groups){if(group.length&&result.length<limit)result.push(group.pop());}}
  else result=shuffle(pool).slice(0,limit);
  return result.map(q=>({...q,options:shuffle(q.options),credit:{...q.credit}}));
+}
+
+export async function prepareQuizQuestions(config,fetcher=fetch){
+ if(config.quizScope!=='category'||config.quizCategory!=='all'){await loadQuizThemes(config,fetcher);return quizQuestions(config);}
+ // Pick packs across categories before downloading, so a 10-question game does not fetch all 213 packs.
+ const eligible=QUESTION_BANKS.filter(b=>!config.quizLevel||config.quizLevel==='all'||b.levels[config.quizLevel]>0),byCategory=new Map();
+ for(const bank of eligible){if(!byCategory.has(bank.category))byCategory.set(bank.category,[]);byCategory.get(bank.category).push(bank);}
+ const groups=shuffle([...byCategory.values()]).map(shuffle),chosen=[],limit=Math.max(1,Math.min(100,Number(config.count)||10));
+ while(chosen.length<limit&&groups.some(g=>g.length))for(const group of groups){if(group.length&&chosen.length<limit)chosen.push(group.pop());}
+ const narrowed={...config,quizScope:'themes',universe:undefined,quizThemes:chosen.map(b=>b.id)};
+ await loadQuizThemes(narrowed,fetcher);return mixQuizQuestions(quizPool(narrowed),config);
 }

@@ -88,7 +88,7 @@ Les autres branches ne publient pas le site de production ; les aperçus automat
 
 L’authentification de publication reste gérée par Cloudflare ; aucun jeton n’est stocké dans le dépôt. Pour un déploiement manuel depuis un poste authentifié, `npm run deploy` reste disponible.
 
-### Quiz prêts à jouer (v0.5.2)
+### Quiz prêts à jouer (v0.5.3)
 
 « Les quiz » propose **5 995 questions françaises dans 12 grandes catégories et 213 sous-thèmes**. Le catalogue affiche d’abord les catégories : musique ; cinéma, séries et TV ; sport ; géographie et voyages ; histoire et civilisations ; sciences et technologies ; nature et animaux ; arts, livres et BD ; cuisine et boissons ; jeux vidéo ; célébrités et société ; culture générale et traditions. Cliquer sur une catégorie prépare directement un quiz général : toutes ses questions sont disponibles et la sélection varie les thèmes automatiquement. Les sujets précis restent accessibles dans « Personnaliser ce quiz (facultatif) » ou la recherche avancée. Aucun sous-thème n’est à choisir pour lancer une soirée classique. Le sélecteur d’ajout de thème dans la préparation reprend ces groupes, en respectant l’univers de la partie. Les catégories servent à ranger le catalogue ; les questions et les parties existantes sont conservées. Un aperçu permet à l’animateur de lire les questions et réponses avant de jouer.
 
@@ -97,3 +97,5 @@ Le premier catalogue de 746 questions est conservé. L’import élargi ajoute 5
 Les téléphones chargent uniquement un index de thèmes. Les questions des thèmes choisis sont récupérées à la demande par le PC animateur, puis les manches sont transmises au salon. Les textes ne dépendent d’aucune API tierce pendant le jeu. Ils fonctionnent en USB/clavier, QCM téléphone, réponse écrite ou buzzer téléphone.
 
 Données : 5 954 questions OpenQuizzDB (CC BY-SA 4.0), 17 Qulture et 24 adaptations LearnClash (CC BY 4.0). Régénération : `node scripts/build-question-bank.mjs` (également exécutée par le build). Le mode de développement sert les mêmes packs JSON que le Worker. Les jeux de données et leurs adaptations restent réutilisables sous leurs licences respectives.
+
+Le bouton **Quiz général · tout mélanger** prépare une partie à partir des 12 catégories et des 5 995 questions. La sélection varie les catégories et les sujets. Pour une partie de 10 questions, 10 packs seulement sont choisis puis chargés ; les 213 fichiers ne sont pas téléchargés au lancement. Les niveaux restent filtrables. Le blind test audio est accessible dans **Les musiques** et utilise l’API Deezer ; Spotify, Apple Music et les API vidéo ne sont pas intégrés.
