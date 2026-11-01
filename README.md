@@ -88,9 +88,9 @@ Les autres branches ne publient pas le site de production ; les aperçus automat
 
 L’authentification de publication reste gérée par Cloudflare ; aucun jeton n’est stocké dans le dépôt. Pour un déploiement manuel depuis un poste authentifié, `npm run deploy` reste disponible.
 
-### Quiz prêts à jouer (v0.5)
+### Quiz prêts à jouer (v0.5.1)
 
-« Les quiz » propose **5 995 questions françaises dans 213 thèmes**. La recherche par thème, l’affichage progressif du catalogue et le mélange de trois thèmes évitent une liste de centaines de cartes sur la préparation de partie. Un aperçu permet à l’animateur de lire les questions et réponses avant de jouer.
+« Les quiz » propose **5 995 questions françaises dans 12 grandes catégories et 213 sous-thèmes**. Le catalogue affiche d’abord les catégories : musique ; cinéma, séries et TV ; sport ; géographie et voyages ; histoire et civilisations ; sciences et technologies ; nature et animaux ; arts, livres et BD ; cuisine et boissons ; jeux vidéo ; célébrités et société ; culture générale et traditions. Chaque catégorie ouvre ses sous-thèmes avec recherche et affichage progressif. Le sélecteur d’ajout de thème dans la préparation reprend ces groupes, en respectant l’univers de la partie. Les catégories servent à ranger le catalogue ; les questions et les parties existantes sont conservées. Un aperçu permet à l’animateur de lire les questions et réponses avant de jouer.
 
 Le premier catalogue de 746 questions est conservé. L’import élargi ajoute 5 249 questions d’une archive libre OpenQuizzDB ; ces nouvelles questions sont identifiées comme questions d’archive. Les filtres contrôlent format, doublons de formulation, temporalité repérable et thèmes exclus. Ils ne vérifient pas la vérité de chaque réponse. Les conditions et le rapport d’import figurent dans [les sources](data/SOURCES.md).
 

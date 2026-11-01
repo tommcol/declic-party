@@ -37,3 +37,7 @@ La copie historique épinglée contient 290 fichiers JSON, dont 264 valides couv
 Le [rapport d’import](import-report.json) conserve les packs exclus, les questions rejetées et les raisons. Le script `scripts/import-openquizzdb.py` documente les règles utilisées et refuse une autre révision source. Ces règles repèrent des formats invalides et certaines formulations périmées ; **elles ne constituent pas une relecture factuelle exhaustive**. Les nouveaux packs portent `review: source-archive`, visible dans le catalogue et dans la préparation. Un aperçu permet de relire les réponses avant de jouer.
 
 Le catalogue léger (`public/question-bank.js`) contient les compteurs, niveaux et URL, sans les questions. Chaque pack est servi séparément sous `/quiz-packs/<id>.json`. Seuls les thèmes sélectionnés sont chargés, avec contrôle d’intégrité, cache en mémoire et nouvelle tentative possible après un échec réseau.
+
+## Classement du catalogue
+
+Les 213 packs sont rangés dans 12 grandes catégories définies dans `quiz-categories.json`. Chaque pack appartient à exactement une catégorie. Le générateur bloque les doublons, les packs inconnus et les packs sans catégorie ; les compteurs des catégories sont calculés depuis les packs. Ce classement concerne la navigation, sans modifier les questions, les licences ou les univers des parties.

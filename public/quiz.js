@@ -1,5 +1,7 @@
-import {QUESTION_BANKS} from './question-bank.js';
-export {QUESTION_BANKS};
+import {QUESTION_BANKS,QUIZ_CATEGORIES} from './question-bank.js';
+export {QUESTION_BANKS,QUIZ_CATEGORIES};
+const fold=value=>String(value).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+export function quizCatalogue({category='',query=''}={}){const term=fold(query.trim());return QUESTION_BANKS.filter(b=>(!category||b.category===category)&&fold(b.title+' '+QUIZ_CATEGORIES.find(c=>c.id===b.category)?.title).includes(term)).sort((a,b)=>a.title.localeCompare(b.title,'fr'));}
 export const QUESTION_COUNT=QUESTION_BANKS.reduce((n,b)=>n+b.count,0);
 export const quizThemes=universe=>QUESTION_BANKS.filter(b=>!universe||b.universe===universe);
 const packs=new Map(),pending=new Map();
