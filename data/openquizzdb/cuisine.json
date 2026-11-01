@@ -1,0 +1,575 @@
+{
+  "id": "cuisine",
+  "title": "Cuisines du monde",
+  "originalTitle": "Gastronomie étrangère",
+  "universe": "quiz",
+  "emoji": "🍜",
+  "credit": {
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_80.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "excludedOriginalIds": [
+    1,
+    2,
+    5,
+    16,
+    23,
+    24,
+    26,
+    28
+  ],
+  "questions": [
+    {
+      "id": "oqdb-80-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qu'est-ce qu'un blini, dont le nom vient du vieux slave « mlin », qui signifie « moudre » ?",
+      "answer": "Une crêpe",
+      "options": [
+        "Une crêpe",
+        "Un gâteau",
+        "Une gaufre",
+        "Une tarte"
+      ],
+      "explanation": "Le blini est une sorte de crêpe de grande taille très fine, souvent servie en relation avec un rituel ou des fêtes religieuses.",
+      "level": "easy",
+      "emoji": "🍜",
+      "duration": 30,
+      "points": 100,
+      "theme": "cuisine",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_80.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-80-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel fruit sert à la préparation d'un apfelstrudel, gâteau traditionnel autrichien ?",
+      "answer": "La pomme",
+      "options": [
+        "La pêche",
+        "La pomme",
+        "La prune",
+        "La poire"
+      ],
+      "explanation": "L'apfelstrudel est un gâteau fait d'une pâte feuilletée fine et fourrée de gros morceaux de pommes acidulées et de raisins secs.",
+      "level": "easy",
+      "emoji": "🍜",
+      "duration": 30,
+      "points": 100,
+      "theme": "cuisine",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_80.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-80-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Où fabrique-t-on le mousseux italien nommé « Asti Spumante » ?",
+      "answer": "Asti",
+      "options": [
+        "Biella",
+        "Turin",
+        "Rivoli",
+        "Asti"
+      ],
+      "explanation": "Seuls ont droit à la DOCG les vins blancs récoltés à l'intérieur de l'aire de production définie par le décret.",
+      "level": "easy",
+      "emoji": "🍜",
+      "duration": 30,
+      "points": 100,
+      "theme": "cuisine",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_80.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-80-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que trouve-t-on dans le sushi et dans le gohan japonais, cuit à l'eau sans aucun condiment ?",
+      "answer": "Du riz",
+      "options": [
+        "Du bœuf",
+        "Du canard",
+        "Du saumon",
+        "Du riz"
+      ],
+      "explanation": "Équivalent du pain des Occidentaux, le Gohan est le riz cuit à la japonaise, il signifie également « repas » en japonais.",
+      "level": "easy",
+      "emoji": "🍜",
+      "duration": 30,
+      "points": 100,
+      "theme": "cuisine",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_80.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-80-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Les feuilles de quelle plante met-on dans le thé au Maroc ?",
+      "answer": "La menthe",
+      "options": [
+        "La menthe",
+        "Le bleuet",
+        "L'eucalyptus",
+        "L'anis"
+      ],
+      "explanation": "Le thé à la menthe est une spécialité traditionnelle de la cuisine des pays du Maghreb.",
+      "level": "easy",
+      "emoji": "🍜",
+      "duration": 30,
+      "points": 100,
+      "theme": "cuisine",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_80.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-80-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle ville située à l'est de Milan a donné son nom à un fromage bleu au goût prononcé ?",
+      "answer": "Gorgonzola",
+      "options": [
+        "Gorgonzola",
+        "Bresso",
+        "Dresano",
+        "Corbetta"
+      ],
+      "explanation": "Depuis le 12 juin 1996, la dénomination Gorgonzola est protégée au niveau européen par une appellation d'origine protégée (AOP).",
+      "level": "easy",
+      "emoji": "🍜",
+      "duration": 30,
+      "points": 100,
+      "theme": "cuisine",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_80.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-80-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que mettent les ménagères anglaises dans le Christmas Cake pour mieux le conserver ?",
+      "answer": "Un alcool",
+      "options": [
+        "De la gélatine",
+        "Du sapin",
+        "Un alcool",
+        "De la crème"
+      ],
+      "explanation": "Il convient de faire mariner tous les fruits secs dans le whisky et les jus de citron et d'orange durant deux bonnes heures.",
+      "level": "easy",
+      "emoji": "🍜",
+      "duration": 30,
+      "points": 100,
+      "theme": "cuisine",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_80.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-80-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la forme traditionnelle des samoussas dans tout l'océan indien ?",
+      "answer": "Triangulaire",
+      "options": [
+        "Ronde",
+        "Carrée",
+        "Ovale",
+        "Triangulaire"
+      ],
+      "explanation": "Le samoussa est composé d'une fine pâte de blé qui enrobe une farce traditionnellement faite de légumes ou de viande.",
+      "level": "medium",
+      "emoji": "🍜",
+      "duration": 30,
+      "points": 100,
+      "theme": "cuisine",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_80.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-80-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que vous offre votre hôte Chinois quand il vous propose du « cha » ?",
+      "answer": "Du thé",
+      "options": [
+        "Du whisky",
+        "Du thé",
+        "Du chocolat",
+        "Du café"
+      ],
+      "explanation": "Le thé est d'origine chinoise, en provenance des montagnes du Yunnan où il est connu depuis l'Antiquité.",
+      "level": "medium",
+      "emoji": "🍜",
+      "duration": 30,
+      "points": 100,
+      "theme": "cuisine",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_80.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-80-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment appelle-t-on la manière de cuisiner avec du beurre salé, du poivre et du jus de citron ?",
+      "answer": "Meunière",
+      "options": [
+        "Meunière",
+        "Poivrière",
+        "Citronnée",
+        "Beurrière"
+      ],
+      "explanation": "La qualité gustative, la consistance et la couleur du beurre fermier varient selon la saison, le terroir et la qualité des prairies.",
+      "level": "medium",
+      "emoji": "🍜",
+      "duration": 30,
+      "points": 100,
+      "theme": "cuisine",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_80.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-80-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Avec quoi est fait le sashimi, mets traditionnel de la gastronomie japonaise ?",
+      "answer": "Du poisson cru",
+      "options": [
+        "Du porc salé",
+        "Du vin blanc",
+        "Du canard laqué",
+        "Du poisson cru"
+      ],
+      "explanation": "Le mot « sashimi » est un terme japonais francisé signifiant littéralement « corps taillé ».",
+      "level": "medium",
+      "emoji": "🍜",
+      "duration": 30,
+      "points": 100,
+      "theme": "cuisine",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_80.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-80-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qu'est-ce qu'une bombilla glissée dans le thé en Argentine ?",
+      "answer": "Une paille",
+      "options": [
+        "Une cuillère",
+        "Une pâte de fruit",
+        "Une cerise",
+        "Une paille"
+      ],
+      "explanation": "L'utilisation de pailles minimise le contact de la boisson avec les dents et permet ainsi de réduire le risque de carie.",
+      "level": "medium",
+      "emoji": "🍜",
+      "duration": 30,
+      "points": 100,
+      "theme": "cuisine",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_80.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-80-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En Chine, à quel moment utilise-t-on avec dextérité des kuaizi ?",
+      "answer": "Au repas",
+      "options": [
+        "Avant de dormir",
+        "En se levant",
+        "Au repas",
+        "En voiture"
+      ],
+      "explanation": "L'usage des baguettes est attesté en Chine dès le temps de la dynastie Shang.",
+      "level": "medium",
+      "emoji": "🍜",
+      "duration": 30,
+      "points": 100,
+      "theme": "cuisine",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_80.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-80-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quels champignons met-on dans le riz du « djon-djon » haïtien ?",
+      "answer": "Noirs",
+      "options": [
+        "Rouges",
+        "Noirs",
+        "Verts",
+        "Bleus"
+      ],
+      "explanation": "L'oreille de Judas est communément appelée « champignon noir » en gastronomie asiatique.",
+      "level": "medium",
+      "emoji": "🍜",
+      "duration": 30,
+      "points": 100,
+      "theme": "cuisine",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_80.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-80-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est l'ingrédient principal d'un lassi que l'on peut boire en Inde ?",
+      "answer": "Le yaourt",
+      "options": [
+        "Le vinaigre",
+        "Le miel",
+        "Le yaourt",
+        "Le vin"
+      ],
+      "explanation": "Le lassi, aliment de base dans la région Pendjab, existe en plusieurs versions : nature, salée, épicée ou sucrée.",
+      "level": "medium",
+      "emoji": "🍜",
+      "duration": 30,
+      "points": 100,
+      "theme": "cuisine",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_80.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-80-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qu'est-ce que l'allium sativum, qui entre dans la composition de presque tous les plats coréens ?",
+      "answer": "De l'ail",
+      "options": [
+        "De l'ail",
+        "Du cumin",
+        "Du céleri",
+        "Du thym"
+      ],
+      "explanation": "Quand on cuisine de l'ail, certains conseillent de retirer le germe, qui serait moins digeste que le reste de la gousse.",
+      "level": "medium",
+      "emoji": "🍜",
+      "duration": 30,
+      "points": 100,
+      "theme": "cuisine",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_80.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-80-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel contient le calalou que l'on vous proposera à la période de Pâques dans les Antilles ?",
+      "answer": "Du crabe",
+      "options": [
+        "Du cobra",
+        "Du crabe",
+        "Du sanglier",
+        "Du faisan"
+      ],
+      "explanation": "Le calalou, typique de la période de Pâques, est fait à partir de crabes de terre et est accommodé de riz blanc.",
+      "level": "hard",
+      "emoji": "🍜",
+      "duration": 30,
+      "points": 100,
+      "theme": "cuisine",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_80.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-80-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment est le chocolat des confiseries nommées « gianduiotti » en Italie ?",
+      "answer": "Aux noisettes",
+      "options": [
+        "Aux amandes",
+        "Aux noisettes",
+        "Aux fruits confits",
+        "Au nougat"
+      ],
+      "explanation": "Ce chocolat originaire de Turin est produit avec du gianduja, une pâte de noisette et de cacao.",
+      "level": "hard",
+      "emoji": "🍜",
+      "duration": 30,
+      "points": 100,
+      "theme": "cuisine",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_80.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-80-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Avec la purée de quel fruit est fait le nectar arabe appelé « kanar-eldin » ?",
+      "answer": "Abricot",
+      "options": [
+        "Pêche",
+        "Pomme",
+        "Abricot",
+        "Poire"
+      ],
+      "explanation": "La chair de l'abricot est sucrée, peu juteuse, ferme et jaune orangé suite à sa teneur en carotène, dimère de la vitamine A.",
+      "level": "hard",
+      "emoji": "🍜",
+      "duration": 30,
+      "points": 100,
+      "theme": "cuisine",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_80.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-80-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que vous fournira-t-on avec le sel pour mettre sur vos frites en Angleterre ?",
+      "answer": "Du vinaigre",
+      "options": [
+        "Du sirop",
+        "Du sucre",
+        "Du vinaigre",
+        "Du lait"
+      ],
+      "explanation": "La plupart des frites consommées dans le monde sont des frites surgelées produites industriellement.",
+      "level": "hard",
+      "emoji": "🍜",
+      "duration": 30,
+      "points": 100,
+      "theme": "cuisine",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_80.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-80-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est l'ingrédient de base des rasgulla, confiseries indiennes traditionnelles ?",
+      "answer": "Le lait",
+      "options": [
+        "La pomme",
+        "Le miel",
+        "Le chocolat",
+        "Le lait"
+      ],
+      "explanation": "Ces boules de fromage non mûr ou de lait caillé sont recouvertes d'un sirop sucré.",
+      "level": "hard",
+      "emoji": "🍜",
+      "duration": 30,
+      "points": 100,
+      "theme": "cuisine",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_80.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-80-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quelle boisson les Tibétains rajoutent-ils leur tsampa matinal ?",
+      "answer": "Au thé",
+      "options": [
+        "Au vin",
+        "Au café",
+        "Au thé",
+        "Au champagne"
+      ],
+      "explanation": "La Tsampa, aliment traditionnel de base au Tibet, est le nom tibétain de la farine d'orge du Tibet grillée.",
+      "level": "hard",
+      "emoji": "🍜",
+      "duration": 30,
+      "points": 100,
+      "theme": "cuisine",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_80.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

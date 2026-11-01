@@ -1,0 +1,671 @@
+{
+  "id": "variete",
+  "title": "Variété française",
+  "originalTitle": "Variété française (Sans variété, point de beauté)",
+  "universe": "music",
+  "emoji": "🎤",
+  "credit": {
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_159.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "excludedOriginalIds": [
+    2,
+    12,
+    28,
+    29
+  ],
+  "questions": [
+    {
+      "id": "oqdb-159-1",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel auteur-compositeur-interprète est 'Tombé pour la France' ?",
+      "answer": "Étienne Daho",
+      "options": [
+        "Étienne Daho",
+        "Marc Lavoine",
+        "Francis Cabrel",
+        "Maxime Le Forestier"
+      ],
+      "explanation": "Né à Oran (Algérie) et figure de la pop française, Étienne Daho est issu de la vague du rock rennais du tout début des années 1980.",
+      "level": "easy",
+      "emoji": "🎤",
+      "duration": 30,
+      "points": 100,
+      "theme": "variete",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_159.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-159-3",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel était le prénom du 'Chanteur' de Daniel Balavoine ?",
+      "answer": "Henri",
+      "options": [
+        "Charlie",
+        "Henri",
+        "Eddy",
+        "Johnny"
+      ],
+      "explanation": "Devenu un titre marquant du répertoire de Balavoine, 'Le Chanteur' est également celui qui a véritablement lancé sa carrière.",
+      "level": "easy",
+      "emoji": "🎤",
+      "duration": 30,
+      "points": 100,
+      "theme": "variete",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_159.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-159-4",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Qui est l'artiste pour qui « ça n'a pas plané » au festival Eurovision 1987 ?",
+      "answer": "Plastic Bertrand",
+      "options": [
+        "Jean-Claude Pascal",
+        "Marc Lavoine",
+        "Plastic Bertrand",
+        "Hugues Aufray"
+      ],
+      "explanation": "Le nom « Plastic Bertrand » fait référence à Bert Bertrand, un journaliste rock belge qui incarnait le microcosme belge du punk.",
+      "level": "easy",
+      "emoji": "🎤",
+      "duration": 30,
+      "points": 100,
+      "theme": "variete",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_159.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-159-5",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Où Michel Sardou danse-t-il la java dans une de ses chansons ?",
+      "answer": "À Broadway",
+      "options": [
+        "À Rio",
+        "À Broadway",
+        "À Manille",
+        "À Venise"
+      ],
+      "explanation": "En cinquante années de carrière, il a enregistré 25 albums studio et 18 albums live, réunissant un total de près de 350 chansons.",
+      "level": "easy",
+      "emoji": "🎤",
+      "duration": 30,
+      "points": 100,
+      "theme": "variete",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_159.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-159-6",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel groupe de gitans s'est imposé au Top 50 en 1987 ?",
+      "answer": "Gipsy Kings",
+      "options": [
+        "Las Ketchup",
+        "Pata Negra",
+        "Gipsy Kings",
+        "Alabina"
+      ],
+      "explanation": "Le groupe composé de musiciens issus de deux familles, les Baliardo et les Reyes, originaires de Montpellier et d'Arles.",
+      "level": "easy",
+      "emoji": "🎤",
+      "duration": 30,
+      "points": 100,
+      "theme": "variete",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_159.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-159-7",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Dans quelle région habite la dame chantée par Francis Cabrel ?",
+      "answer": "En Haute-Savoie",
+      "options": [
+        "En Haute-Savoie",
+        "En Ardèche",
+        "En Gironde",
+        "En Haute-Corse"
+      ],
+      "explanation": "Francis Cabrel, père de trois filles dont une adoptée, connaît très bien le répertoire de Bob Dylan dont il est un fan inconditionnel.",
+      "level": "easy",
+      "emoji": "🎤",
+      "duration": 30,
+      "points": 100,
+      "theme": "variete",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_159.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-159-8",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel dessert sert l'abominable homme des neiges dans une chanson de Lio ?",
+      "answer": "Un banana split",
+      "options": [
+        "Une dame blanche",
+        "Un banana split",
+        "Un éclair",
+        "Un merveilleux"
+      ],
+      "explanation": "En 2012, la chanteuse Lio a prêté son image pour une campagne de la Croix-Rouge belge dont elle a été pour l'occasion la marraine.",
+      "level": "easy",
+      "emoji": "🎤",
+      "duration": 30,
+      "points": 100,
+      "theme": "variete",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_159.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-159-9",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Comment se prénomme la métisse d'Ibiza chantée par Julien Clerc ?",
+      "answer": "Mélissa",
+      "options": [
+        "Marbella",
+        "Cassandra",
+        "Rosanna",
+        "Mélissa"
+      ],
+      "explanation": "Avec 'Mélissa', Julien Clerc confirme son succès et devient un chanteur « désirable » sur toutes les stations de télévision.",
+      "level": "easy",
+      "emoji": "🎤",
+      "duration": 30,
+      "points": 100,
+      "theme": "variete",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_159.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-159-10",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "De qui Chantal Goya a-t-elle affirmé être la cousine dans une chanson ?",
+      "answer": "Bécassine",
+      "options": [
+        "Bécassine",
+        "Joséphine",
+        "Amandine",
+        "Clémentine"
+      ],
+      "explanation": "Elle doit son nom de scène à Jean-Jacques Debout qui trouvait qu'elle ressemblait à un portrait peint par Francisco de Goya.",
+      "level": "easy",
+      "emoji": "🎤",
+      "duration": 30,
+      "points": 100,
+      "theme": "variete",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_159.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-159-11",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel duo français avait 'Besoin de rien, envie de toi' en 1984 ?",
+      "answer": "Peter et Sloane",
+      "options": [
+        "Peter et Sloane",
+        "Luna Parker",
+        "Les Rita Mitsuko",
+        "Sheila et Ringo"
+      ],
+      "explanation": "Boudé par les radios FM, Europe 1 diffusera pourtant ce titre sorti à l'origine en face B de 'Ma vie avec toi, ta vie avec moi'.",
+      "level": "medium",
+      "emoji": "🎤",
+      "duration": 30,
+      "points": 100,
+      "theme": "variete",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_159.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-159-13",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Dans quelle chanson Michel Delpech regardait-il passer les oies sauvages ?",
+      "answer": "Le Chasseur",
+      "options": [
+        "Les Divorcés",
+        "Le Chasseur",
+        "Pour un flirt",
+        "Chez Laurette"
+      ],
+      "explanation": "C'est en 1967 que Johnny Stark, imprésario de Mireille Mathieu, le prend en main et l'aide à se forger une image de vedette.",
+      "level": "medium",
+      "emoji": "🎤",
+      "duration": 30,
+      "points": 100,
+      "theme": "variete",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_159.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-159-14",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Dans quelle ville 'Nathalie' guidait-elle Gilbert Bécaud dans une des ses chansons ?",
+      "answer": "Moscou",
+      "options": [
+        "Belgrade",
+        "Paris",
+        "Moscou",
+        "Madrid"
+      ],
+      "explanation": "Gilbert Bécaud a gagné son surnom de « Monsieur 100 000 volts » grâce à son sens du swing et à ses fans souvent survoltés.",
+      "level": "medium",
+      "emoji": "🎤",
+      "duration": 30,
+      "points": 100,
+      "theme": "variete",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_159.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-159-15",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quelle est la matière préférée de la chanteuse Caroline Loeb ?",
+      "answer": "La ouate",
+      "options": [
+        "La soie",
+        "Le coton",
+        "Le lin",
+        "La ouate"
+      ],
+      "explanation": "Parmi les choristes de 'C'est la ouate', on notera la participation d'Amina qui représentera la France au Concours Eurovision.",
+      "level": "medium",
+      "emoji": "🎤",
+      "duration": 30,
+      "points": 100,
+      "theme": "variete",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_159.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-159-16",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel artiste strasbourgeois au grand cœur chantait 'Pour le plaisir' ?",
+      "answer": "Herbert Léonard",
+      "options": [
+        "Herbert Léonard",
+        "Gérard Blanc",
+        "Alain Souchon",
+        "Hervé Vilard"
+      ],
+      "explanation": "C'est Vline Buggy qui découvrira le jeune compositeur Julien Lepers et contactera Herbert Léonard pour les unir en musique.",
+      "level": "medium",
+      "emoji": "🎤",
+      "duration": 30,
+      "points": 100,
+      "theme": "variete",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_159.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-159-17",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quelle montagne a été chantée par le corse Pascal Danel ?",
+      "answer": "Le Kilimandjaro",
+      "options": [
+        "L'Everest",
+        "L'Aconcagua",
+        "Le Kilimandjaro",
+        "Le Mont Blanc"
+      ],
+      "explanation": "Repris dans plus de 180 versions dans le monde, 'Kilimandjaro' sera un des plus grands standards français de la décennie.",
+      "level": "medium",
+      "emoji": "🎤",
+      "duration": 30,
+      "points": 100,
+      "theme": "variete",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_159.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-159-18",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "De quoi la 'Paulette' des Charlots est-elle la reine dans une de leurs chansons ?",
+      "answer": "Des paupiettes",
+      "options": [
+        "Des paupiettes",
+        "Des gaufrettes",
+        "Des courgettes",
+        "Des rillettes"
+      ],
+      "explanation": "Les Charlots ont assuré les premières parties de Françoise Hardy (1965), Johnny Hallyday (1967) ou encore Claude François (1968).",
+      "level": "medium",
+      "emoji": "🎤",
+      "duration": 30,
+      "points": 100,
+      "theme": "variete",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_159.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-159-19",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quelle chanson interprétée par Elsa figure sur la BO de 'La femme de ma vie' ?",
+      "answer": "T'en vas pas",
+      "options": [
+        "Bouscule-moi",
+        "Un roman d'amitié",
+        "T'en vas pas",
+        "Jamais nous"
+      ],
+      "explanation": "Cet essai sera couronné de succès puisqu'il lui permettra d'être, à l'âge de 13 ans, la plus jeune artiste n°1 du Top 50.",
+      "level": "medium",
+      "emoji": "🎤",
+      "duration": 30,
+      "points": 100,
+      "theme": "variete",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_159.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-159-20",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "De quelle ville sont originaires les groupes Gold et Images ?",
+      "answer": "Toulouse",
+      "options": [
+        "Grenoble",
+        "Toulouse",
+        "Reims",
+        "Arras"
+      ],
+      "explanation": "En 1990, le chanteur Émile Wandelmer quitte le groupe Gold à la suite d'un désaccord sur l'orientation musicale future du groupe.",
+      "level": "medium",
+      "emoji": "🎤",
+      "duration": 30,
+      "points": 100,
+      "theme": "variete",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_159.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-159-21",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Qu'est-ce que 'Macumba' dans la chanson de Jean-Pierre Mader ?",
+      "answer": "Un cabaret",
+      "options": [
+        "Un village",
+        "Une danseuse",
+        "Un cabaret",
+        "Un bateau"
+      ],
+      "explanation": "Après des études d'Informatique, Jean-Pierre Mader sera bassiste dans un groupe toulousain Tangara puis dans un orchestre de bal.",
+      "level": "hard",
+      "emoji": "🎤",
+      "duration": 30,
+      "points": 100,
+      "theme": "variete",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_159.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-159-22",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quelle chanteuse a été lancée grâce à l'imprésario Johnny Stark ?",
+      "answer": "Mireille Mathieu",
+      "options": [
+        "Annie Cordy",
+        "Nana Mouskouri",
+        "Sylvie Vartan",
+        "Mireille Mathieu"
+      ],
+      "explanation": "En 2005, la chanteuse a reçu un disque de rubis (non reconnu par le SNEP) annonçant la vente de 122 millions de disques.",
+      "level": "hard",
+      "emoji": "🎤",
+      "duration": 30,
+      "points": 100,
+      "theme": "variete",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_159.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-159-23",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quelle chanson Sheila et Ringo ont-ils chanté en duo après leur mariage ?",
+      "answer": "Les Gondoles à Venise",
+      "options": [
+        "Comme hier",
+        "Rosanna",
+        "Tendrement",
+        "Les Gondoles à Venise"
+      ],
+      "explanation": "Le disque par la suite revisité a initialement été écrit par Paul et Lana Sebastian sous le titre 'Les clés qui n'ouvrent pas ta porte'.",
+      "level": "hard",
+      "emoji": "🎤",
+      "duration": 30,
+      "points": 100,
+      "theme": "variete",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_159.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-159-24",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Qui a composé la comédie musicale pour enfants 'Émilie Jolie' ?",
+      "answer": "Philippe Chatel",
+      "options": [
+        "Julien Clerc",
+        "Étienne Daho",
+        "Philippe Chatel",
+        "Laurent Voulzy"
+      ],
+      "explanation": "Suite à cette comédie musicale, le prénom Émilie a été donné à 11 885 petites filles en 1980, contre 5 074 seulement en 1979.",
+      "level": "hard",
+      "emoji": "🎤",
+      "duration": 30,
+      "points": 100,
+      "theme": "variete",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_159.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-159-25",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Par quelle chanson Renaud s'est attaqué violemment aux défauts de la France ?",
+      "answer": "Hexagone",
+      "options": [
+        "Déserteur",
+        "Miss Maggie",
+        "Ma gonzesse",
+        "Hexagone"
+      ],
+      "explanation": "Renaud utilise ses chansons pour critiquer la société, rendre hommage ou faire sourire par un usage intensif de l'argot.",
+      "level": "hard",
+      "emoji": "🎤",
+      "duration": 30,
+      "points": 100,
+      "theme": "variete",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_159.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-159-26",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "À qui le clip de Jean-Louis Aubert, 'Juste une illusion', rend-il hommage ?",
+      "answer": "Georges Méliès",
+      "options": [
+        "Georges Méliès",
+        "George Lucas",
+        "David Copperfield",
+        "Steven Spielberg"
+      ],
+      "explanation": "C'est avec Richard Kolinka, son ami de toujours, qu'il publia le 6 juin 1986 ce tube sous le nom de Aubert'n'Ko.",
+      "level": "hard",
+      "emoji": "🎤",
+      "duration": 30,
+      "points": 100,
+      "theme": "variete",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_159.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-159-27",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel chanteur a, après un 'coup de folie', déclaré son amour de la 'musique noire' ?",
+      "answer": "Thierry Pastor",
+      "options": [
+        "Charlélie Couture",
+        "Jean-Pierre Mader",
+        "Thierry Pastor",
+        "Gérard Blanc"
+      ],
+      "explanation": "'Le coup de folie', titre phare du répertoire de Thierry Pastor (il avait alors 21 ans) a été produit par Roland Magdane.",
+      "level": "hard",
+      "emoji": "🎤",
+      "duration": 30,
+      "points": 100,
+      "theme": "variete",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_159.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-159-30",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quelle est la particularité de l'avion chanté par Charlélie Couture ?",
+      "answer": "Il n'a pas d'ailes",
+      "options": [
+        "Il n'a pas d'ailes",
+        "Il ne vole pas",
+        "Il est jaune",
+        "Il est vide"
+      ],
+      "explanation": "Charlélie Couture est un artiste « multiste », comme il aime être présenté, explorant de multiples disciplines artistiques.",
+      "level": "hard",
+      "emoji": "🎤",
+      "duration": 30,
+      "points": 100,
+      "theme": "variete",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_159.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

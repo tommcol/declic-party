@@ -1,0 +1,695 @@
+{
+  "id": "nintendo",
+  "title": "Nintendo",
+  "originalTitle": "Jeux et consoles Nintendo",
+  "universe": "quiz",
+  "emoji": "🎮",
+  "credit": {
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_35.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "excludedOriginalIds": [
+    8,
+    16,
+    30
+  ],
+  "questions": [
+    {
+      "id": "oqdb-35-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel plombier de jeu vidéo, vêtu de rouge, est également la mascotte de Nintendo ?",
+      "answer": "Mario",
+      "options": [
+        "Luigi",
+        "Wario",
+        "Peach",
+        "Mario"
+      ],
+      "explanation": "Mario est facilement reconnaissable à sa moustache, sa salopette, ses gants blancs et sa casquette rouge marquée d'un M.",
+      "level": "easy",
+      "emoji": "🎮",
+      "duration": 30,
+      "points": 100,
+      "theme": "nintendo",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_35.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-35-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sur quelle console de chez Nintendo sont sortis les deux premiers jeux 'Pokémon' ?",
+      "answer": "Game Boy",
+      "options": [
+        "Game Boy",
+        "Nintendo DS",
+        "Super Nintendo",
+        "Game Cube"
+      ],
+      "explanation": "Le joueur contrôle le personnage principal via une vue aérienne et le dirige dans l'ensemble de la région fictive de Kanto.",
+      "level": "easy",
+      "emoji": "🎮",
+      "duration": 30,
+      "points": 100,
+      "theme": "nintendo",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_35.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-35-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces personnages de jeu ne fait pas partie de l'univers de Mario ?",
+      "answer": "Mylord",
+      "options": [
+        "Luigi",
+        "Mylord",
+        "Wario",
+        "Peach"
+      ],
+      "explanation": "La série 'Mario' est la plus vendue de l'histoire du jeu vidéo, avec plus de 195 millions d'exemplaires écoulés.",
+      "level": "easy",
+      "emoji": "🎮",
+      "duration": 30,
+      "points": 100,
+      "theme": "nintendo",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_35.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-35-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel jeu vidéo de sport développé et édité par Nintendo était offert pour l'achat d'une Wii ?",
+      "answer": "Wii Sports",
+      "options": [
+        "Wii Play",
+        "Wii Sports",
+        "Wii Games",
+        "Wii Mix"
+      ],
+      "explanation": "Le jeu a été inclus dans un paquetage promotionnel avec la Wii sur tous les territoires, excepté au Japon et en Corée du Sud.",
+      "level": "easy",
+      "emoji": "🎮",
+      "duration": 30,
+      "points": 100,
+      "theme": "nintendo",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_35.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-35-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel personnage fictif de jeu vidéo représente la fidèle monture de Mario ?",
+      "answer": "Yoshi",
+      "options": [
+        "Birbo",
+        "Peach",
+        "Yoshi",
+        "Kirby"
+      ],
+      "explanation": "Yoshi a fait sa première apparition (dans un jeu) dans le niveau 1-2 de 'Super Mario World' sur Super Nintendo, sorti en 1990 au Japon.",
+      "level": "easy",
+      "emoji": "🎮",
+      "duration": 30,
+      "points": 100,
+      "theme": "nintendo",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_35.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-35-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel gorille costaud fut un des premiers personnages célèbres de la marque Nintendo ?",
+      "answer": "Donkey Kong",
+      "options": [
+        "King Kong",
+        "Mookie",
+        "Donkey Kong",
+        "Abu"
+      ],
+      "explanation": "Créé par Shigeru Miyamoto, ce gorille est à l'origine l'ennemi de Jumpman, son maître, dont il a enlevé la fiancée.",
+      "level": "easy",
+      "emoji": "🎮",
+      "duration": 30,
+      "points": 100,
+      "theme": "nintendo",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_35.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-35-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que signifie le sigle « DS » de la Nintendo DS, console portable sortie en 2005 en Europe ?",
+      "answer": "Dual Screen",
+      "options": [
+        "Direct Shot",
+        "Dual Screen",
+        "Detect System",
+        "Data Super"
+      ],
+      "explanation": "La Nintendo DS est devenue la console la plus vendue de tous les temps au cours du mois de décembre 2012.",
+      "level": "easy",
+      "emoji": "🎮",
+      "duration": 30,
+      "points": 100,
+      "theme": "nintendo",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_35.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-35-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel accessoire prévu pour être connecté à la console Wii est associé au jeu 'Wii Fit' ?",
+      "answer": "Wii Balance Board",
+      "options": [
+        "Wii Balance Board",
+        "Wii Zapper",
+        "Wii Gun",
+        "Wii Shot"
+      ],
+      "explanation": "La Wii Balance Board est un accessoire en forme de pèse-personne électronique conçu pour les consoles de jeu Wii et Wii U.",
+      "level": "easy",
+      "emoji": "🎮",
+      "duration": 30,
+      "points": 100,
+      "theme": "nintendo",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_35.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-35-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans l'univers Nintendo, quel habitant de Dream Land est représenté par une petite boule rose ?",
+      "answer": "Kirby",
+      "options": [
+        "Pinky",
+        "Kirby",
+        "Yoshi",
+        "Dadidou"
+      ],
+      "explanation": "La particularité de Kirby est qu'il peut aspirer tout ce qu'il voit, que ce soit des objets ou des ennemis.",
+      "level": "easy",
+      "emoji": "🎮",
+      "duration": 30,
+      "points": 100,
+      "theme": "nintendo",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_35.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-35-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle arme est utilisée par Luigi dans 'Luigi's Mansion' sous la dénomination « Ectoblast 3000 » ?",
+      "answer": "Un aspirateur",
+      "options": [
+        "Un aspirateur",
+        "Un lance-flammes",
+        "Une raquette",
+        "Un marteau"
+      ],
+      "explanation": "Le jeu retrace les aventures de Luigi dans un manoir qu'il a gagné lors d'un concours auquel il n'a jamais participé.",
+      "level": "medium",
+      "emoji": "🎮",
+      "duration": 30,
+      "points": 100,
+      "theme": "nintendo",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_35.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-35-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel a été le tout premier nom de Mario, apparu en 1981 dans le jeu 'Donkey Kong' ?",
+      "answer": "Jumpman",
+      "options": [
+        "Jumpman",
+        "Link",
+        "Yoshi",
+        "Zelda"
+      ],
+      "explanation": "Les jeux de la série 'Super Mario' ont joué un rôle important dans l'évolution du jeu de plates-formes.",
+      "level": "medium",
+      "emoji": "🎮",
+      "duration": 30,
+      "points": 100,
+      "theme": "nintendo",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_35.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-35-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel était le nom de prototype de la Wii depuis la conférence de presse précédant l'E3 de 2004 ?",
+      "answer": "Revolution",
+      "options": [
+        "Revolution",
+        "Nintendo 64",
+        "Super GameCube",
+        "Wiitendo"
+      ],
+      "explanation": "La Wii était jusqu'alors évoquée sous les noms de « GCNext » et « N5 » (N5 signifiant cinquième génération de consoles Nintendo).",
+      "level": "medium",
+      "emoji": "🎮",
+      "duration": 30,
+      "points": 100,
+      "theme": "nintendo",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_35.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-35-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle ville de la région de Kanto est la ville natale de Sacha dans 'Pokémon' ?",
+      "answer": "Bourg Palette",
+      "options": [
+        "SachaLand",
+        "Kong City",
+        "Dream Land",
+        "Bourg Palette"
+      ],
+      "explanation": "Kanto est la région utilisée dans les versions Vert (Japon uniquement), Rouge, Bleu, Jaune, Or, Argent et Rouge Feu.",
+      "level": "medium",
+      "emoji": "🎮",
+      "duration": 30,
+      "points": 100,
+      "theme": "nintendo",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_35.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-35-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel accessoire transforme la wiimote et le nunchuk de la Wii en un simulateur de mitraillette ?",
+      "answer": "Wii Zapper",
+      "options": [
+        "Wii Wiz",
+        "Wii Shot",
+        "Wii Gun",
+        "Wii Zapper"
+      ],
+      "explanation": "Le Wii Zapper, vendu avec 'Link's Crossbow Training', a reçu ce nom en référence au pistolet optique du NES, le NES Zapper.",
+      "level": "medium",
+      "emoji": "🎮",
+      "duration": 30,
+      "points": 100,
+      "theme": "nintendo",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_35.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-35-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À quelle console au design très similaire la Nintendo DSi a-t-elle succédé ?",
+      "answer": "DS Lite",
+      "options": [
+        "Game Boy",
+        "Advance",
+        "DS",
+        "DS Lite"
+      ],
+      "explanation": "La DSi est équipée de deux caméras, un lecteur de cartes SD, un navigateur web Opera intégré et un lecteur audio.",
+      "level": "medium",
+      "emoji": "🎮",
+      "duration": 30,
+      "points": 100,
+      "theme": "nintendo",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_35.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-35-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces consoles révolutionnaire de Nintendo peut fonctionner avec un stylet ?",
+      "answer": "DS",
+      "options": [
+        "DS",
+        "Famicom",
+        "Nintendo 64",
+        "GameCube"
+      ],
+      "explanation": "Son jeu phare, 'New Super Mario Bros.', reste quant à lui l'un des jeux les plus vendus du monde.",
+      "level": "medium",
+      "emoji": "🎮",
+      "duration": 30,
+      "points": 100,
+      "theme": "nintendo",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_35.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-35-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel message apparaît fréquemment derrière l'héroïne du jeu 'Donkey Kong' ?",
+      "answer": "HELP !",
+      "options": [
+        "BONUS",
+        "HELP !",
+        "SMILE",
+        "PUSH"
+      ],
+      "explanation": "Malgré les doutes initiaux de l'équipe américaine, 'Donkey Kong' fut un succès énorme au Japon et en Amérique du Nord.",
+      "level": "medium",
+      "emoji": "🎮",
+      "duration": 30,
+      "points": 100,
+      "theme": "nintendo",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_35.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-35-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces consoles fut considérée comme un échec commercial par Nintendo ?",
+      "answer": "Virtual Boy",
+      "options": [
+        "Virtual Boy",
+        "Wii",
+        "Game Cube",
+        "3DS"
+      ],
+      "explanation": "Le Virtual Boy est la console la moins vendue dans l'histoire des consoles de jeu vidéo de Nintendo, avec 770 000 unités vendues.",
+      "level": "medium",
+      "emoji": "🎮",
+      "duration": 30,
+      "points": 100,
+      "theme": "nintendo",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_35.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-35-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel petit astronaute est un personnage imaginaire et emblématique de Nintendo ?",
+      "answer": "Olimar",
+      "options": [
+        "Louie",
+        "Pikmin",
+        "Olimar",
+        "Kirby"
+      ],
+      "explanation": "Olimar est équipé d'un scaphandre qu'il met toujours sur la Planète Lointaine car, pour lui, l'oxygène est toxique.",
+      "level": "hard",
+      "emoji": "🎮",
+      "duration": 30,
+      "points": 100,
+      "theme": "nintendo",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_35.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-35-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel était le tout premier métier de Mario avant de devenir plombier dans 'Mario Bros.' ?",
+      "answer": "Charpentier",
+      "options": [
+        "Charpentier",
+        "Boulanger",
+        "Pizzaïolo",
+        "Magicien"
+      ],
+      "explanation": "Le nom de Mario aurait été choisi en l'honneur du propriétaire des locaux de la société Nintendo of America de l'époque, Mario Segali.",
+      "level": "hard",
+      "emoji": "🎮",
+      "duration": 30,
+      "points": 100,
+      "theme": "nintendo",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_35.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-35-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel était le nom de prototype de la console de jeux vidéo de salon GameCube ?",
+      "answer": "Dolphin",
+      "options": [
+        "Revolution",
+        "Dolphin",
+        "Game 128",
+        "Famicom"
+      ],
+      "explanation": "C'est le 24 août 2000 que la machine est officiellement présentée avec son nouveau nom, la GameCube.",
+      "level": "hard",
+      "emoji": "🎮",
+      "duration": 30,
+      "points": 100,
+      "theme": "nintendo",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_35.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-35-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans 'Super Mario Kart', chaque coupe est composée de 5 courses comptant chacune combien de tours ?",
+      "answer": "5",
+      "options": [
+        "3",
+        "5",
+        "2",
+        "4"
+      ],
+      "explanation": "Dans 'Super Mario Kart', le joueur contrôle l'un des huit personnages issus de l'univers 'Super Mario'.",
+      "level": "hard",
+      "emoji": "🎮",
+      "duration": 30,
+      "points": 100,
+      "theme": "nintendo",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_35.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-35-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle ville se trouve le siège de la société Nintendo fondée en 1889 par Fusajiro Yamauchi ?",
+      "answer": "Kyoto",
+      "options": [
+        "Kyoto",
+        "Tokyo",
+        "Shanghai",
+        "Pékin"
+      ],
+      "explanation": "Nintendo est l'une des rares entreprises de jeu vidéo à avoir su faire rentrer certaines de ses licences, en particulier 'Mario' ou 'Pokémon'.",
+      "level": "hard",
+      "emoji": "🎮",
+      "duration": 30,
+      "points": 100,
+      "theme": "nintendo",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_35.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-35-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle déesse a créé la vie dans le jeu vidéo phare 'Zelda : Ocarina of time' ?",
+      "answer": "Farore",
+      "options": [
+        "Eikichi",
+        "Din",
+        "Nayru",
+        "Farore"
+      ],
+      "explanation": "Les trois Déesses d'Hyrule sont Din, déesse de la Force, Nayru, déesse de la Sagesse et du Temps et Farore, déesse du Courage.",
+      "level": "hard",
+      "emoji": "🎮",
+      "duration": 30,
+      "points": 100,
+      "theme": "nintendo",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_35.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-35-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que faisait la société Nintendo avant de produire des jeux vidéo ?",
+      "answer": "Des cartes à jouer",
+      "options": [
+        "Des dés à jouer",
+        "Des montres",
+        "Des livres",
+        "Des cartes à jouer"
+      ],
+      "explanation": "C’est à partir des années 1970 que la société Nintendo a diversifié ses activités en produisant des jouets et des bornes d’arcade.",
+      "level": "hard",
+      "emoji": "🎮",
+      "duration": 30,
+      "points": 100,
+      "theme": "nintendo",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_35.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-35-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est le nom de la deuxième génération de console Nintendo DS ?",
+      "answer": "DS Lite",
+      "options": [
+        "DS3D",
+        "DSi",
+        "Advance",
+        "DS Lite"
+      ],
+      "explanation": "La Nintendo DS Lite, avec ses 93 millions de ventes, est aujourd'hui la console portable la mieux vendue de tous les temps.",
+      "level": "hard",
+      "emoji": "🎮",
+      "duration": 30,
+      "points": 100,
+      "theme": "nintendo",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_35.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-35-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En quelle année la société Nintendo est-elle entrée en bourse ?",
+      "answer": "1962",
+      "options": [
+        "1972",
+        "1982",
+        "1962",
+        "1992"
+      ],
+      "explanation": "C’est grâce à un contrat signé avec Disney en 1959 que la société prend une envergure internationale et entre en bourse en 1962.",
+      "level": "hard",
+      "emoji": "🎮",
+      "duration": 30,
+      "points": 100,
+      "theme": "nintendo",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_35.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

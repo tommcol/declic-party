@@ -1,0 +1,623 @@
+{
+  "id": "sports",
+  "title": "Sports collectifs",
+  "originalTitle": "Sports collectifs (Estime et confiance en soi)",
+  "universe": "quiz",
+  "emoji": "🏅",
+  "credit": {
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_60.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "excludedOriginalIds": [
+    3,
+    7,
+    13,
+    22,
+    24,
+    27
+  ],
+  "questions": [
+    {
+      "id": "oqdb-60-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien vaut un lancer franc au basket-ball, accordé à un joueur victime d'une faute ?",
+      "answer": "Un point",
+      "options": [
+        "Trois points",
+        "Un point",
+        "Sept points",
+        "Cinq points"
+      ],
+      "explanation": "En cas de faute flagrante, les lancers francs accordés le sont sans joueur au rebond, car la balle est redonné à l'équipe du tireur.",
+      "level": "easy",
+      "emoji": "🏅",
+      "duration": 30,
+      "points": 100,
+      "theme": "sports",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_60.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-60-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel sport la finale est-elle connue aux USA sous le nom de « Super Bowl » ?",
+      "answer": "Football américain",
+      "options": [
+        "Football",
+        "Basket-ball",
+        "Football américain",
+        "Baseball"
+      ],
+      "explanation": "Le Super Bowl est la finale du championnat de football américain qui voit s'affronter les vainqueurs des deux conférences.",
+      "level": "easy",
+      "emoji": "🏅",
+      "duration": 30,
+      "points": 100,
+      "theme": "sports",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_60.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-60-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel nom porte la version « soft » du baseball aux États-Unis, aussi appelé « balle-molle » ?",
+      "answer": "Softball",
+      "options": [
+        "Netball",
+        "Softball",
+        "Handball",
+        "Korfball"
+      ],
+      "explanation": "Tout comme le baseball, le softball est pratiqué par les deux sexes de façon amateur ou compétitive.",
+      "level": "easy",
+      "emoji": "🏅",
+      "duration": 30,
+      "points": 100,
+      "theme": "sports",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_60.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-60-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Au rugby à XV, combien de points vaut un essai permettant de tenter une transformation ?",
+      "answer": "Cinq",
+      "options": [
+        "Deux",
+        "Cinq",
+        "Quatre",
+        "Trois"
+      ],
+      "explanation": "Au rugby, un essai est l'action de jeu consistant à aplatir le ballon dans l'en-but adverse.",
+      "level": "easy",
+      "emoji": "🏅",
+      "duration": 30,
+      "points": 100,
+      "theme": "sports",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_60.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-60-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Laquelle de ces propositions représente le point commun entre le football et le cricket ?",
+      "answer": "Onze joueurs",
+      "options": [
+        "La balle",
+        "Onze joueurs",
+        "La batte",
+        "Le terrain"
+      ],
+      "explanation": "Plus de cent pays sont affiliés à l'International Cricket Council, qui organise notamment la Coupe du monde de cricket.",
+      "level": "easy",
+      "emoji": "🏅",
+      "duration": 30,
+      "points": 100,
+      "theme": "sports",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_60.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-60-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel sport Johan Cruijff, dit le « Chevalier Blanc », est-il connu ?",
+      "answer": "Le football",
+      "options": [
+        "La boxe",
+        "Le tennis",
+        "Le football",
+        "Le golf"
+      ],
+      "explanation": "Premier joueur de football à remporter trois fois le Ballon d'or, il est considéré comme l'un des meilleurs joueurs de l'Histoire.",
+      "level": "easy",
+      "emoji": "🏅",
+      "duration": 30,
+      "points": 100,
+      "theme": "sports",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_60.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-60-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En France, dans quel sport collectif gagne-t-on le Bouclier de Brennus ?",
+      "answer": "Rugby",
+      "options": [
+        "Basket-ball",
+        "Football",
+        "Rugby",
+        "Handball"
+      ],
+      "explanation": "Conçu d'après un dessin initial du baron Pierre de Coubertin, ce trophée doit son nom à son artiste créateur Charles Brennus.",
+      "level": "easy",
+      "emoji": "🏅",
+      "duration": 30,
+      "points": 100,
+      "theme": "sports",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_60.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-60-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Entré aux Jeux olympiques, quel est le sport collectif aquatique « par excellence » ?",
+      "answer": "Water-polo",
+      "options": [
+        "Roller derby",
+        "Ultimate",
+        "Water-polo",
+        "Fistball"
+      ],
+      "explanation": "Le water-polo masculin existe depuis 1870 alors que le water-polo féminin n'est apparu qu'au début du XXe siècle.",
+      "level": "easy",
+      "emoji": "🏅",
+      "duration": 30,
+      "points": 100,
+      "theme": "sports",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_60.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-60-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Où s'affrontent la plupart du temps les joueurs de kayak-polo ?",
+      "answer": "En piscine",
+      "options": [
+        "Sur gazon",
+        "En piscine",
+        "Sur la neige",
+        "En montagne"
+      ],
+      "explanation": "Le kayak-polo est souvent décrit comme un mélange de kayak, de handball, basket-ball et de water-polo.",
+      "level": "medium",
+      "emoji": "🏅",
+      "duration": 30,
+      "points": 100,
+      "theme": "sports",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_60.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-60-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de joueurs compte-t-on dans une équipe de hockey sur gazon ?",
+      "answer": "Onze",
+      "options": [
+        "Six",
+        "Onze",
+        "Huit",
+        "Cinq"
+      ],
+      "explanation": "Le hockey sur gazon est le plus ancien jeu de balle avec crosse connu qu'on ait pu trouver parmi les premières civilisations.",
+      "level": "medium",
+      "emoji": "🏅",
+      "duration": 30,
+      "points": 100,
+      "theme": "sports",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_60.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-60-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que réalise une équipe qui gagne tous ses matchs lors d'un Tournoi des Six Nations ?",
+      "answer": "Le Grand Chelem",
+      "options": [
+        "Un tie-break",
+        "Le Jeu décisif",
+        "Une Triple couronne",
+        "Le Grand Chelem"
+      ],
+      "explanation": "Par extension, cette expression peut être employée pour toute compétition fonctionnant sur un système identique au Tournoi.",
+      "level": "medium",
+      "emoji": "🏅",
+      "duration": 30,
+      "points": 100,
+      "theme": "sports",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_60.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-60-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le pays des terribles All Blacks, rugbymen de renom ?",
+      "answer": "Nouvelle-Zélande",
+      "options": [
+        "Pays de Galles",
+        "Irlande",
+        "Nouvelle-Zélande",
+        "Écosse"
+      ],
+      "explanation": "Le rugby à XV est le sport le plus populaire de Nouvelle-Zélande et attire principalement les meilleurs sportifs du pays.",
+      "level": "medium",
+      "emoji": "🏅",
+      "duration": 30,
+      "points": 100,
+      "theme": "sports",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_60.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-60-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien y a-t-il de joueurs sur le terrain à gazon d'une équipe de polo ?",
+      "answer": "Quatre",
+      "options": [
+        "Quatre",
+        "Sept",
+        "Six",
+        "Cinq"
+      ],
+      "explanation": "Le polo est un sport équestre qui serait né chez les peuples cavaliers des steppes d'Asie centrale il y a 2 500 ans au moins.",
+      "level": "medium",
+      "emoji": "🏅",
+      "duration": 30,
+      "points": 100,
+      "theme": "sports",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_60.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-60-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel sport frappe-t-on un palet avec une crosse de 135 cm ?",
+      "answer": "Hockey sur glace",
+      "options": [
+        "Croquet",
+        "Hockey sur glace",
+        "Cricket",
+        "Baseball"
+      ],
+      "explanation": "Sport de vitesse, le hockey sur glace est souvent qualifié de « sport collectif le plus rapide du monde ».",
+      "level": "medium",
+      "emoji": "🏅",
+      "duration": 30,
+      "points": 100,
+      "theme": "sports",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_60.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-60-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui a marqué un but de la main gauche en Coupe du Monde de football 1986 ?",
+      "answer": "Diego Maradona",
+      "options": [
+        "Didier Deschamps",
+        "Fabio Cannavaro",
+        "Laurent Blanc",
+        "Diego Maradona"
+      ],
+      "explanation": "En 1986, Maradona était capitaine d'une équipe d'Argentine qui voulait à tout prix venger la déroute de 1982.",
+      "level": "medium",
+      "emoji": "🏅",
+      "duration": 30,
+      "points": 100,
+      "theme": "sports",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_60.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-60-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel sport américain dérivé des mêmes racines que le cricket se pratique en neuf manches ?",
+      "answer": "Baseball",
+      "options": [
+        "Basket-ball",
+        "Golf",
+        "Baseball",
+        "Football américain"
+      ],
+      "explanation": "Au baseball, les gants de réception de la balle que portent les joueurs de défense varient selon le poste occupé.",
+      "level": "medium",
+      "emoji": "🏅",
+      "duration": 30,
+      "points": 100,
+      "theme": "sports",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_60.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-60-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de joueurs dénombre-t-on dans une équipe de cricket ?",
+      "answer": "Onze",
+      "options": [
+        "Treize",
+        "Douze",
+        "Dix",
+        "Onze"
+      ],
+      "explanation": "Un match de cricket peut durer, selon la forme jouée, de quelques heures à parfois plusieurs jours.",
+      "level": "medium",
+      "emoji": "🏅",
+      "duration": 30,
+      "points": 100,
+      "theme": "sports",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_60.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-60-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel sport d'équipe se pratique en patin à roulettes sur une piste de forme ovale ?",
+      "answer": "Roller derby",
+      "options": [
+        "Ultimate",
+        "Fistball",
+        "Roller derby",
+        "Water-polo"
+      ],
+      "explanation": "En 2013, on comptait plus de 1 250 ligues de roller derby autour du monde, principalement dans les pays anglophones.",
+      "level": "hard",
+      "emoji": "🏅",
+      "duration": 30,
+      "points": 100,
+      "theme": "sports",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_60.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-60-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel sport souvent assimilé au volley-ball se pratique en plein air ?",
+      "answer": "Fistball",
+      "options": [
+        "Roller derby",
+        "Water-polo",
+        "Ultimate",
+        "Fistball"
+      ],
+      "explanation": "La dernière édition de la Coupe du monde masculine s'est tenue en Allemagne en août 2007.",
+      "level": "hard",
+      "emoji": "🏅",
+      "duration": 30,
+      "points": 100,
+      "theme": "sports",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_60.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-60-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel sport se pratique sur le célèbre terrain londonien The Oval ?",
+      "answer": "Cricket",
+      "options": [
+        "Football",
+        "Rugby",
+        "Tennis",
+        "Cricket"
+      ],
+      "explanation": "Traditionnellement, il accueille les matchs de l'équipe du Surrey, ainsi que le dernier test-match de la saison sur le sol anglais.",
+      "level": "hard",
+      "emoji": "🏅",
+      "duration": 30,
+      "points": 100,
+      "theme": "sports",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_60.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-60-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de cercles sont dessinés sur une patinoire de hockey sur glace ?",
+      "answer": "Cinq",
+      "options": [
+        "Neuf",
+        "Sept",
+        "Cinq",
+        "Trois"
+      ],
+      "explanation": "Le hockey se joue sur une surface de glace rectangulaire, d'une soixantaine de mètres de long avec des coins arrondis.",
+      "level": "hard",
+      "emoji": "🏅",
+      "duration": 30,
+      "points": 100,
+      "theme": "sports",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_60.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-60-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien de joueurs figurent dans une équipe de moto-ball ?",
+      "answer": "Cinq",
+      "options": [
+        "Neuf",
+        "Sept",
+        "Trois",
+        "Cinq"
+      ],
+      "explanation": "Chaque formation de moto-ball est composée de quatre joueurs plus un gardien qui n'est pas à moto.",
+      "level": "hard",
+      "emoji": "🏅",
+      "duration": 30,
+      "points": 100,
+      "theme": "sports",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_60.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-60-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quelle langue vient le mot polo, d'abord entraînement pour les unités de cavalerie ?",
+      "answer": "Le tibétain",
+      "options": [
+        "Le coréen",
+        "Le portugais",
+        "Le tibétain",
+        "Le russe"
+      ],
+      "explanation": "Le sport traditionnel de polo se joue sur un large terrain à gazon mesurant jusqu'à 300 mètres de long.",
+      "level": "hard",
+      "emoji": "🏅",
+      "duration": 30,
+      "points": 100,
+      "theme": "sports",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_60.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-60-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel sport collectif utilise un disque opposant deux équipes de sept joueurs ?",
+      "answer": "Ultimate",
+      "options": [
+        "Ultimate",
+        "Fistball",
+        "Roller derby",
+        "Water-polo"
+      ],
+      "explanation": "L'ultimate se pratique dans sa version la plus courante sur terrain en herbe à l'extérieur (7 contre 7).",
+      "level": "hard",
+      "emoji": "🏅",
+      "duration": 30,
+      "points": 100,
+      "theme": "sports",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_60.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

@@ -1,0 +1,695 @@
+{
+  "id": "instruments",
+  "title": "Instruments de musique",
+  "originalTitle": "Instruments de musique",
+  "universe": "music",
+  "emoji": "🎷",
+  "credit": {
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_39.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "excludedOriginalIds": [
+    8,
+    22,
+    26
+  ],
+  "questions": [
+    {
+      "id": "oqdb-39-1",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "De quel instrument de musique joue Lisa Simpson, créée par le dessinateur Matt Groening ?",
+      "answer": "Du saxophone",
+      "options": [
+        "Du piano",
+        "De la trompette",
+        "Du saxophone",
+        "De la flûte"
+      ],
+      "explanation": "Les Simpson forment une famille américaine typique de classe moyenne qui vit dans la ville de Springfield.",
+      "level": "easy",
+      "emoji": "🎷",
+      "duration": 30,
+      "points": 100,
+      "theme": "instruments",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_39.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-39-2",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel instrument de musique à cordes pincées, voisin de la guitare, est utilisé en Inde ?",
+      "answer": "Le sitar",
+      "options": [
+        "Le glingi",
+        "La cithare",
+        "Le sitar",
+        "Le théorbe"
+      ],
+      "explanation": "On en joue assis en tailleur par terre : l'instrument, calé sous le coude droit, repose par terre (parfois sur le pied).",
+      "level": "easy",
+      "emoji": "🎷",
+      "duration": 30,
+      "points": 100,
+      "theme": "instruments",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_39.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-39-3",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Pour quel instrument Mozart a-t-il composé le plus grand nombre de concerto ?",
+      "answer": "Le piano",
+      "options": [
+        "Le piano",
+        "Le violon",
+        "Le violoncelle",
+        "La clarinette"
+      ],
+      "explanation": "Mort à trente-cinq ans, Mozart laissa une œuvre importante qui embrasse tous les genres musicaux de son époque.",
+      "level": "easy",
+      "emoji": "🎷",
+      "duration": 30,
+      "points": 100,
+      "theme": "instruments",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_39.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-39-4",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Combien de cordes possède un violon, occupant une place importante en musique classique ?",
+      "answer": "4 cordes",
+      "options": [
+        "5 cordes",
+        "3 cordes",
+        "4 cordes",
+        "6 cordes"
+      ],
+      "explanation": "Les luthiers comme Antonio Stradivari sont les artisans qui créent et entretiennent les instruments à cordes.",
+      "level": "easy",
+      "emoji": "🎷",
+      "duration": 30,
+      "points": 100,
+      "theme": "instruments",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_39.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-39-5",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel instrument de musique à cordes pincées est souvent utilisé dans la musique country ?",
+      "answer": "Le banjo",
+      "options": [
+        "Le ranjo",
+        "Le banjo",
+        "Le panjo",
+        "Le danjo"
+      ],
+      "explanation": "Accompagnateur dans le style « New Orleans », le banjo est également utilisé comme soliste dans la musique irlandaise.",
+      "level": "easy",
+      "emoji": "🎷",
+      "duration": 30,
+      "points": 100,
+      "theme": "instruments",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_39.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-39-6",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "En quelle matière est faite la mèche présente sur un archet de violon ?",
+      "answer": "En crin",
+      "options": [
+        "En coton",
+        "En mohair",
+        "En angora",
+        "En crin"
+      ],
+      "explanation": "La mèche est constituée de crins de cheval prélevés sur la queue de l'étalon car ceux de jument sont abîmés par l'urine.",
+      "level": "easy",
+      "emoji": "🎷",
+      "duration": 30,
+      "points": 100,
+      "theme": "instruments",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_39.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-39-7",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "De quel instrument de musique à vent et à anche libre joue un harmoniciste ?",
+      "answer": "Harmonica",
+      "options": [
+        "Xylophone",
+        "Harmonica",
+        "Harmonium",
+        "Accordéon"
+      ],
+      "explanation": "Malgré la connaissance réduite du public, il semblerait que l'harmonica soit en quantité l'instrument le plus vendu au monde.",
+      "level": "easy",
+      "emoji": "🎷",
+      "duration": 30,
+      "points": 100,
+      "theme": "instruments",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_39.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-39-9",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "De quel instrument John Lennon jouait-il au sein des Beatles avec plus de 200 chansons ?",
+      "answer": "De la guitare",
+      "options": [
+        "Du saxophone",
+        "Du clavier",
+        "De la batterie",
+        "De la guitare"
+      ],
+      "explanation": "Lennon forme avec McCartney l'un des tandems d'auteurs-compositeurs les plus influents et prolifiques de l'histoire du rock.",
+      "level": "easy",
+      "emoji": "🎷",
+      "duration": 30,
+      "points": 100,
+      "theme": "instruments",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_39.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-39-10",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Instrument de la famille des violons, dans quelle position joue-t-on du violoncelle ?",
+      "answer": "Assise",
+      "options": [
+        "Debout",
+        "Assise",
+        "Couchée",
+        "À genoux"
+      ],
+      "explanation": "Le violoncelle se joue assis, tenu entre les jambes et repose désormais sur une pique escamotable.",
+      "level": "easy",
+      "emoji": "🎷",
+      "duration": 30,
+      "points": 100,
+      "theme": "instruments",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_39.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-39-11",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quelle clef, proche du la du diapason, est utilisée par le violoniste ?",
+      "answer": "La clef de sol",
+      "options": [
+        "La clef de sol",
+        "La clef de fa",
+        "La clef de ré",
+        "La clef de do"
+      ],
+      "explanation": "En solfège, une clé est un signe graphique placé au début de la portée qui indique la hauteur des notes associées à chaque ligne.",
+      "level": "medium",
+      "emoji": "🎷",
+      "duration": 30,
+      "points": 100,
+      "theme": "instruments",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_39.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-39-12",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel instrument fut popularisé par Lionel Hampton à la fin des années 1930 ?",
+      "answer": "Le vibraphone",
+      "options": [
+        "Le vibraphone",
+        "Le saxophone",
+        "Le métallophone",
+        "Le xylophone"
+      ],
+      "explanation": "Surnommé « Le lion », Lionel Hampton a été le premier géant du jazz à donner ses lettres de noblesse au vibraphone.",
+      "level": "medium",
+      "emoji": "🎷",
+      "duration": 30,
+      "points": 100,
+      "theme": "instruments",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_39.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-39-13",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Sur quel instrument à percussion frappe-t-on avec une baguette à tampon ?",
+      "answer": "Un gong",
+      "options": [
+        "Un bong",
+        "Un gang",
+        "Un bang",
+        "Un gong"
+      ],
+      "explanation": "L'instrument en lui-même provient vraisemblablement des percussions en bronze de Chine.",
+      "level": "medium",
+      "emoji": "🎷",
+      "duration": 30,
+      "points": 100,
+      "theme": "instruments",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_39.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-39-14",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "De quel instrument Ginger Baker était-il tenu pour un virtuose ?",
+      "answer": "La batterie",
+      "options": [
+        "La trompette",
+        "La batterie",
+        "La guitare",
+        "Le violon"
+      ],
+      "explanation": "Depuis 1986, Ginger Baker a sorti plusieurs albums de jazz fusion et a tourné avec des groupes de styles variés.",
+      "level": "medium",
+      "emoji": "🎷",
+      "duration": 30,
+      "points": 100,
+      "theme": "instruments",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_39.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-39-15",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel instrument de musique assez répandu en Grèce est joué avec un plectre ?",
+      "answer": "Le bouzouki",
+      "options": [
+        "Le baglama",
+        "Le rebetiko",
+        "Le trypes",
+        "Le bouzouki"
+      ],
+      "explanation": "Le bouzouki est souvent considéré comme l'instrument « national » de la Grèce depuis le milieu du XXe siècle.",
+      "level": "medium",
+      "emoji": "🎷",
+      "duration": 30,
+      "points": 100,
+      "theme": "instruments",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_39.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-39-16",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "La balalaïka est un instrument de musique à cordes pincées russe, mais de quelle forme ?",
+      "answer": "Triangulaire",
+      "options": [
+        "Rectangulaire",
+        "Carrée",
+        "Triangulaire",
+        "Ronde"
+      ],
+      "explanation": "La balalaïka se joue le plus souvent au doigt et parfois avec un plectre et se décline en plusieurs tailles.",
+      "level": "medium",
+      "emoji": "🎷",
+      "duration": 30,
+      "points": 100,
+      "theme": "instruments",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_39.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-39-17",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel instrument de musique est le plus aigu dans un orchestre symphonique ?",
+      "answer": "Le piccolo",
+      "options": [
+        "Le tuba",
+        "Le piccolo",
+        "Le hautbois",
+        "Le trombone"
+      ],
+      "explanation": "Le piccolo était surtout utilisé pour doubler la grande flûte à l'octave supérieure, pour augmenter l'éclat orchestral.",
+      "level": "medium",
+      "emoji": "🎷",
+      "duration": 30,
+      "points": 100,
+      "theme": "instruments",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_39.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-39-18",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Dans quel pays joue-t-on du sitar et du vînâ, sorte de cithare sur bâton avec deux résonateurs ?",
+      "answer": "En Inde",
+      "options": [
+        "Au Brésil",
+        "En Inde",
+        "Au Maroc",
+        "En Espagne"
+      ],
+      "explanation": "La rudra vinâ est le plus ancien des instruments à cordes frettées indiens : on la nomme aussi bîn.",
+      "level": "medium",
+      "emoji": "🎷",
+      "duration": 30,
+      "points": 100,
+      "theme": "instruments",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_39.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-39-19",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel instrument de musique figure sur les étiquettes de la brasserie irlandaise Guinness ?",
+      "answer": "Une harpe",
+      "options": [
+        "Une flûte",
+        "Une harpe",
+        "Un saxophone",
+        "Un violon"
+      ],
+      "explanation": "La Guinness est un stout, une bière noire coiffée d'une mousse blanche, connue mondialement pour sa saveur et son aspect.",
+      "level": "medium",
+      "emoji": "🎷",
+      "duration": 30,
+      "points": 100,
+      "theme": "instruments",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_39.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-39-20",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Combien de pistons une trompette compte-t-elle, en réponse au vœu de rendre chromatique ?",
+      "answer": "Trois",
+      "options": [
+        "Cinq",
+        "Quatre",
+        "Deux",
+        "Trois"
+      ],
+      "explanation": "La trompette à pistons est celle qui est la plus utilisée aujourd'hui dans la plupart des pays.",
+      "level": "medium",
+      "emoji": "🎷",
+      "duration": 30,
+      "points": 100,
+      "theme": "instruments",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_39.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-39-21",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Combien y a-t-il de cordes sur une harpe de concert, obtenant ainsi une tessiture de 6 octaves ?",
+      "answer": "47",
+      "options": [
+        "67",
+        "37",
+        "47",
+        "57"
+      ],
+      "explanation": "La harpe de concert a la particularité d'avoir des cordes perpendiculaires à la caisse de résonance.",
+      "level": "hard",
+      "emoji": "🎷",
+      "duration": 30,
+      "points": 100,
+      "theme": "instruments",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_39.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-39-23",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quelle partie du violon le violoniste bloque-t-il entre son cou et son épaule ?",
+      "answer": "La mentonnière",
+      "options": [
+        "Le reposoir",
+        "La mentonnière",
+        "La mâchoire",
+        "Le dépauloire"
+      ],
+      "explanation": "Un violon se compose de trois parties distinctes : la caisse de résonance, le manche et les cordes.",
+      "level": "hard",
+      "emoji": "🎷",
+      "duration": 30,
+      "points": 100,
+      "theme": "instruments",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_39.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-39-24",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "De quel mollusque peut-on utiliser le coquillage comme instrument de musique à vent ?",
+      "answer": "La conque",
+      "options": [
+        "Le dizi",
+        "Le piri",
+        "Le sifflet",
+        "La conque"
+      ],
+      "explanation": "Prenant la conque en main, l'instrumentiste en produit le son selon le même principe que la trompe ou la corne.",
+      "level": "hard",
+      "emoji": "🎷",
+      "duration": 30,
+      "points": 100,
+      "theme": "instruments",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_39.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-39-25",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quelle est la tonalité la plus fréquente des bourdons de la cornemuse écossaise ?",
+      "answer": "Le si bémol",
+      "options": [
+        "Le sol",
+        "Le si bémol",
+        "Le do",
+        "Le mi bémol"
+      ],
+      "explanation": "Les anches doubles sont aussi utilisées par le basson, la chalémie, le hautbois, la bombarde, ou encore le cor anglais.",
+      "level": "hard",
+      "emoji": "🎷",
+      "duration": 30,
+      "points": 100,
+      "theme": "instruments",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_39.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-39-27",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel instrument de musique est aussi connu sous le nom de « trompette tsigane » ?",
+      "answer": "La guimbarde",
+      "options": [
+        "La crécelle",
+        "La guimbarde",
+        "La bandurria",
+        "La harpe"
+      ],
+      "explanation": "Composée de deux éléments, la guimbarde est l'un des instruments de musique les plus anciens du monde.",
+      "level": "hard",
+      "emoji": "🎷",
+      "duration": 30,
+      "points": 100,
+      "theme": "instruments",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_39.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-39-28",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quelle petite flûte traversière était autrefois utilisée dans les fanfares militaires ?",
+      "answer": "Le fifre",
+      "options": [
+        "La gasba",
+        "Le sodina",
+        "Le kaval",
+        "Le fifre"
+      ],
+      "explanation": "Le fifre, de petite longueur et fabriqué en bois, comporte six ou sept trous de jeu et parfois une clé.",
+      "level": "hard",
+      "emoji": "🎷",
+      "duration": 30,
+      "points": 100,
+      "theme": "instruments",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_39.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-39-29",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel marteau léger est utilisé pour frapper différents instruments à percussion ?",
+      "answer": "La mailloche",
+      "options": [
+        "La tricoise",
+        "La mailloche",
+        "Le brochoir",
+        "Le dérivoir"
+      ],
+      "explanation": "Différentes variétés de mailloches (aussi parfois appelées « cigognes ») permettent d'obtenir des sons différents.",
+      "level": "hard",
+      "emoji": "🎷",
+      "duration": 30,
+      "points": 100,
+      "theme": "instruments",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_39.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-39-30",
+      "universe": "music",
+      "kind": "question",
+      "prompt": "Quel instrument de musique traditionnel à cordes est devenu celui des geisha ?",
+      "answer": "Le shamisen",
+      "options": [
+        "Le taiko",
+        "Le shamisen",
+        "Le shakuhachi",
+        "Le koto"
+      ],
+      "explanation": "Le shamisen se joue agenouillé sur un zabuton en pinçant les cordes à l'aide d'un large plectre en ivoire.",
+      "level": "hard",
+      "emoji": "🎷",
+      "duration": 30,
+      "points": 100,
+      "theme": "instruments",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_39.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

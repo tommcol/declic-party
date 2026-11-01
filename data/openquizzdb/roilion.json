@@ -1,0 +1,647 @@
+{
+  "id": "roilion",
+  "title": "Le Roi Lion",
+  "originalTitle": "Le Roi Lion",
+  "universe": "film",
+  "emoji": "🦁",
+  "credit": {
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_52.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "excludedOriginalIds": [
+    14,
+    15,
+    19,
+    20,
+    30
+  ],
+  "questions": [
+    {
+      "id": "oqdb-52-1",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Comment se prénomme le personnage principal du long-métrage d'animation 'Le Roi Lion' ?",
+      "answer": "Simba",
+      "options": [
+        "Simba",
+        "Timon",
+        "Rafiki",
+        "Scar"
+      ],
+      "explanation": "Après avoir remporté la victoire contre Scar le tyran et ses hyènes, Simba devient roi de la Terre des Lions.",
+      "level": "easy",
+      "emoji": "🦁",
+      "duration": 30,
+      "points": 100,
+      "theme": "roilion",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_52.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-52-2",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle année marque la sortie en France du dessin animé 'Le Roi Lion', des studios Disney ?",
+      "answer": "1994",
+      "options": [
+        "1992",
+        "1994",
+        "1990",
+        "1996"
+      ],
+      "explanation": "Le film est inspiré en grande partie de l'œuvre d'Osamu Tezuka 'Le Roi Léo' (1951) et d''Hamlet' de William Shakespeare.",
+      "level": "easy",
+      "emoji": "🦁",
+      "duration": 30,
+      "points": 100,
+      "theme": "roilion",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_52.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-52-3",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel animal est Pumba, compagnon de Timon le suricate dans le film 'Le Roi Lion' ?",
+      "answer": "Un phacochère",
+      "options": [
+        "Un calao",
+        "Un phacochère",
+        "Un suricate",
+        "Un mandrill"
+      ],
+      "explanation": "Les phacochères peuvent courir très vite en cas de danger avec des pointes à plus de 50 km/h pour échapper aux prédateurs.",
+      "level": "easy",
+      "emoji": "🦁",
+      "duration": 30,
+      "points": 100,
+      "theme": "roilion",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_52.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-52-4",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel lion portant une cicatrice est le « méchant » de l'histoire du film 'Le Roi Lion' ?",
+      "answer": "Scar",
+      "options": [
+        "Simba",
+        "Pumba",
+        "Nala",
+        "Scar"
+      ],
+      "explanation": "Devenu un tyran, Scar a ravagé la Terre des Lions et imagine plusieurs plans diaboliques pour anéantir son frère et son neveu.",
+      "level": "easy",
+      "emoji": "🦁",
+      "duration": 30,
+      "points": 100,
+      "theme": "roilion",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_52.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-52-5",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Comment se prénomme le père du prince Simba dans le « Classique d'animation » 'Le Roi Lion' ?",
+      "answer": "Mufasa",
+      "options": [
+        "Mufasa",
+        "Sarafina",
+        "Scar",
+        "Pumba"
+      ],
+      "explanation": "Aimé et respecté des siens, Mufasa règne avec sagesse sur la Terre des Lions mais sera pourtant trahi et tué par son frère Scar.",
+      "level": "easy",
+      "emoji": "🦁",
+      "duration": 30,
+      "points": 100,
+      "theme": "roilion",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_52.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-52-6",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui est à l'origine du complot conduisant au meurtre de Mufasa dans 'Le Roi Lion' ?",
+      "answer": "Scar",
+      "options": [
+        "Scar",
+        "Pumba",
+        "Simba",
+        "Ed"
+      ],
+      "explanation": "Fourbe, machiavélique et cruel, il est finalement destitué par Simba après avoir régné en tyran et meurt dévoré par les hyènes.",
+      "level": "easy",
+      "emoji": "🦁",
+      "duration": 30,
+      "points": 100,
+      "theme": "roilion",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_52.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-52-7",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle est la particularité physique de Scar dans 'Le Roi Lion' ?",
+      "answer": "Une cicatrice",
+      "options": [
+        "Un œil blanc",
+        "Un visage brûlé",
+        "Une cicatrice",
+        "Pas de moustaches"
+      ],
+      "explanation": "Frère cadet de Mufasa et oncle de Simba, « méchant » de l'histoire, Scar a un nom qui signifie « cicatrice » en anglais.",
+      "level": "easy",
+      "emoji": "🦁",
+      "duration": 30,
+      "points": 100,
+      "theme": "roilion",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_52.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-52-8",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Comment se prénomme le compagnon de Timon dans le film 'Le Roi Lion' ?",
+      "answer": "Pumbaa",
+      "options": [
+        "Scar",
+        "Pumbaa",
+        "Zazu",
+        "Shenzi"
+      ],
+      "explanation": "On en apprendra plus sur l'histoire de ces deux personnages dans le film 'Le Roi lion 3 : Hakuna Matata'.",
+      "level": "easy",
+      "emoji": "🦁",
+      "duration": 30,
+      "points": 100,
+      "theme": "roilion",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_52.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-52-9",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans quel paysage se déroule l'action du dessin animé 'Le Roi Lion' ?",
+      "answer": "Dans la savane",
+      "options": [
+        "Dans les steppes",
+        "Dans la savane",
+        "Dans les rochers",
+        "Dans le désert"
+      ],
+      "explanation": "Dans la savane africaine, tous les animaux de la Terre des Lions se sont réunis pour célébrer la naissance du prince Simba.",
+      "level": "easy",
+      "emoji": "🦁",
+      "duration": 30,
+      "points": 100,
+      "theme": "roilion",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_52.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-52-10",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle jeune lionne est l'amie d'enfance de Simba dans le film 'Le Roi Lion' ?",
+      "answer": "Nala",
+      "options": [
+        "Zazu",
+        "Pumba",
+        "Sarafina",
+        "Nala"
+      ],
+      "explanation": "Devenu adulte, Simba retrouve par hasard Nala qu'une expédition de chasse avait emmenée de l'autre côté du désert.",
+      "level": "easy",
+      "emoji": "🦁",
+      "duration": 30,
+      "points": 100,
+      "theme": "roilion",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_52.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-52-11",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel artiste international chante dans la bande originale du film 'Le Roi Lion' ?",
+      "answer": "Elton John",
+      "options": [
+        "Phil Collins",
+        "Tom Jones",
+        "Kurt Cobain",
+        "Elton John"
+      ],
+      "explanation": "C'est avec le titre 'Can You Feel the Love Tonight' qu'Elton John a pu intégrer le générique de fin du film.",
+      "level": "medium",
+      "emoji": "🦁",
+      "duration": 30,
+      "points": 100,
+      "theme": "roilion",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_52.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-52-12",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel animal est Timon, le meilleur ami du phacochère Pumbaa dans le film 'Le Roi Lion' ?",
+      "answer": "Un suricate",
+      "options": [
+        "Un phacochère",
+        "Un suricate",
+        "Un calao",
+        "Un mandrill"
+      ],
+      "explanation": "Toujours à la recherche de confort et de bien-être, Timon et Pumbaa ont adopté la philosophie « Hakuna matata ».",
+      "level": "medium",
+      "emoji": "🦁",
+      "duration": 30,
+      "points": 100,
+      "theme": "roilion",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_52.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-52-13",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui est le frère cadet de Mufasa dans le film Disney 'Le Roi Lion' ?",
+      "answer": "Scar",
+      "options": [
+        "Sarafina",
+        "Zazu",
+        "Simba",
+        "Scar"
+      ],
+      "explanation": "C'est Jeremy Irons qui prête sa voix à Scar dans la version originale du 'Roi Lion' et Jean Piat qui s'y prête dans la version française.",
+      "level": "medium",
+      "emoji": "🦁",
+      "duration": 30,
+      "points": 100,
+      "theme": "roilion",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_52.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-52-16",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Comment se prénomme la lionne et mère de Nala dans 'Le Roi Lion' ?",
+      "answer": "Sarafina",
+      "options": [
+        "Sarabi",
+        "Safarova",
+        "Sérafina",
+        "Sarafina"
+      ],
+      "explanation": "Son nom n'est jamais mentionné dans le film : ce n'est que dans les bandes dessinées et livres dérivés du film qu'il sera révélé.",
+      "level": "medium",
+      "emoji": "🦁",
+      "duration": 30,
+      "points": 100,
+      "theme": "roilion",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_52.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-52-17",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans 'Le Roi Lion', où Simba revoit-il son père après sa mort ?",
+      "answer": "Dans les nuages",
+      "options": [
+        "Dans un arbre",
+        "Dans un rêve",
+        "Dans la poussière",
+        "Dans les nuages"
+      ],
+      "explanation": "Turbulent et désobéissant, Simba devient à l'âge adulte un roi aussi sage et bienveillant que le fut son père.",
+      "level": "medium",
+      "emoji": "🦁",
+      "duration": 30,
+      "points": 100,
+      "theme": "roilion",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_52.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-52-18",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "En quoi se déguise Timon, le petit suricate du célèbre film 'Le Roi Lion' ?",
+      "answer": "En vahiné",
+      "options": [
+        "En hyène",
+        "En lionceau",
+        "En brindille",
+        "En vahiné"
+      ],
+      "explanation": "Le suricate, parfois surnommé « sentinelle du désert », est un petit carnivore vivant dans le sud-ouest de l'Afrique.",
+      "level": "medium",
+      "emoji": "🦁",
+      "duration": 30,
+      "points": 100,
+      "theme": "roilion",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_52.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-52-21",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Lequel de ces noms n'est pas celui d'une hyène dans 'Le Roi Lion' ?",
+      "answer": "Korea",
+      "options": [
+        "Shenzi",
+        "Ed",
+        "Banzaï",
+        "Korea"
+      ],
+      "explanation": "Ed, le second mâle du trio, ne parle pas et se contente d'approuver les initiatives des deux autres en riant de manière hystérique.",
+      "level": "hard",
+      "emoji": "🦁",
+      "duration": 30,
+      "points": 100,
+      "theme": "roilion",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_52.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-52-22",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui traite Zazu de « bec-de-banane » dans le film 'Le Roi Lion' ?",
+      "answer": "Simba",
+      "options": [
+        "Les Hyènes",
+        "Simba",
+        "Nala",
+        "Scar"
+      ],
+      "explanation": "Heureux d'exercer son rôle auprès de Mufasa, Zazu est un calao à bec rouge occupant le poste de majordome royal.",
+      "level": "hard",
+      "emoji": "🦁",
+      "duration": 30,
+      "points": 100,
+      "theme": "roilion",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_52.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-52-23",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans la savane profonde, où habite Rafiki dans le film 'Le Roi Lion' ?",
+      "answer": "Dans un baobab",
+      "options": [
+        "On ne le sait pas",
+        "Dans les rochers",
+        "Dans un baobab",
+        "Chez sa mère"
+      ],
+      "explanation": "Ce mandrill intervient ponctuellement pour informer un personnage ou l'amener à se poser « les bonnes questions ».",
+      "level": "hard",
+      "emoji": "🦁",
+      "duration": 30,
+      "points": 100,
+      "theme": "roilion",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_52.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-52-24",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui conserve sa voix originale dans toutes les versions étrangères du 'Roi Lion' ?",
+      "answer": "Ed",
+      "options": [
+        "Nala",
+        "Ed",
+        "Scar",
+        "Zazu"
+      ],
+      "explanation": "Ses ricanements frénétiques et sa langue pendante donnent à Ed un air assez attardé sur le plan mental.",
+      "level": "hard",
+      "emoji": "🦁",
+      "duration": 30,
+      "points": 100,
+      "theme": "roilion",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_52.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-52-25",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quelle race simiesque caractérise le sage Rafiki, sorcier du film 'Le Roi Lion' ?",
+      "answer": "Mandrill",
+      "options": [
+        "Babouin",
+        "Mandrill",
+        "Gorille",
+        "Macaque"
+      ],
+      "explanation": "Ce primate de la famille des cercopithécidés, apparenté au babouin, est très proche du drill.",
+      "level": "hard",
+      "emoji": "🦁",
+      "duration": 30,
+      "points": 100,
+      "theme": "roilion",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_52.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-52-26",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui prête sa voix au personnage de Mufasa dans la version française du 'Roi Lion' ?",
+      "answer": "Jean Reno",
+      "options": [
+        "Jean Reno",
+        "Gérard Darmon",
+        "Sébastien Cauet",
+        "Elie Semoun"
+      ],
+      "explanation": "Jean Reno, pseudonyme de Juan Moreno y Herrera-Jiménez, est né à Casablanca de parents espagnols.",
+      "level": "hard",
+      "emoji": "🦁",
+      "duration": 30,
+      "points": 100,
+      "theme": "roilion",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_52.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-52-27",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui a réalisé le film 'Le Roi Lion', sorti en France et en Belgique en novembre 1994 ?",
+      "answer": "Allers & Minkoff",
+      "options": [
+        "Mecchi & Roberts",
+        "Roberts & Allers",
+        "Minkoff & Mecchi",
+        "Allers & Minkoff"
+      ],
+      "explanation": "'Le Roi lion' est l'un des deux seuls « Classiques » Disney (avec 'Dinosaure') dans lequel il n'est fait aucune référence aux humains.",
+      "level": "hard",
+      "emoji": "🦁",
+      "duration": 30,
+      "points": 100,
+      "theme": "roilion",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_52.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-52-28",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel animal est Zazu dans le film 'Le Roi Lion' réalisé par Roger Allers et Rob Minkoff ?",
+      "answer": "Un calao",
+      "options": [
+        "Un toucan",
+        "Une perruche",
+        "Un perroquet",
+        "Un calao"
+      ],
+      "explanation": "Zazu conserve ses fonctions lorsque Scar devient roi, mais celui-ci le confine alors dans un rôle subalterne.",
+      "level": "hard",
+      "emoji": "🦁",
+      "duration": 30,
+      "points": 100,
+      "theme": "roilion",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_52.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-52-29",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Qui occupe le poste de « majordome royal » dans le film 'Le Roi Lion' ?",
+      "answer": "Zazu",
+      "options": [
+        "Ed",
+        "Zazu",
+        "Scar",
+        "Nala"
+      ],
+      "explanation": "Qualifié de « bec-de-banane » ou de « loufiat du Grand Manitou », Zazu reste fier et essaye d'être à la hauteur de ses fonctions.",
+      "level": "hard",
+      "emoji": "🦁",
+      "duration": 30,
+      "points": 100,
+      "theme": "roilion",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_52.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

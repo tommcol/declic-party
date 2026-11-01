@@ -1,0 +1,647 @@
+{
+  "id": "egypte",
+  "title": "Égypte ancienne",
+  "originalTitle": "Égypte ancienne",
+  "universe": "quiz",
+  "emoji": "🏺",
+  "credit": {
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_120.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "excludedOriginalIds": [
+    12,
+    14,
+    17,
+    23,
+    30
+  ],
+  "questions": [
+    {
+      "id": "oqdb-120-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Par quel ensemble de techniques les égyptiens préservaient-ils les cadavres avant de les inhumer ?",
+      "answer": "L'embaumement",
+      "options": [
+        "La scarification",
+        "L'embaumement",
+        "L'enturbanement",
+        "La découpe"
+      ],
+      "explanation": "L'embaumement vise à conserver les corps des personnes mortes dans un état plus ou moins proche de leur état vivant.",
+      "level": "easy",
+      "emoji": "🏺",
+      "duration": 30,
+      "points": 100,
+      "theme": "egypte",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_120.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-120-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle couleur symbolise la végétation et la régénération en Égypte ancienne ?",
+      "answer": "Le vert",
+      "options": [
+        "Le vert",
+        "Le rouge",
+        "Le blanc",
+        "Le jaune"
+      ],
+      "explanation": "L'Égypte antique est une ancienne civilisation d'Afrique du Nord-Est concentrée le long du cours inférieur du Nil.",
+      "level": "easy",
+      "emoji": "🏺",
+      "duration": 30,
+      "points": 100,
+      "theme": "egypte",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_120.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-120-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment appelle-t-on un cadavre préservé de la putréfaction au moyen de l'embaumement ?",
+      "answer": "Une momie",
+      "options": [
+        "Un sistre",
+        "Un cataracte",
+        "Un anubis",
+        "Une momie"
+      ],
+      "explanation": "C'est une dessiccation naturelle dans une grotte sépulcrale qui est à l'origine de la plus ancienne momie attestée : la momie de Fallon.",
+      "level": "easy",
+      "emoji": "🏺",
+      "duration": 30,
+      "points": 100,
+      "theme": "egypte",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_120.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-120-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel concept décrit la fascination de certains pour la culture et l’histoire de l'Égypte Antique ?",
+      "answer": "Égyptomanie",
+      "options": [
+        "Cleptomanie",
+        "Potomanie",
+        "Pyromanie",
+        "Égyptomanie"
+      ],
+      "explanation": "Le tourisme de masse, initié en Égypte par l'agence Cook en 1869, développe cette égyptomanie.",
+      "level": "easy",
+      "emoji": "🏺",
+      "duration": 30,
+      "points": 100,
+      "theme": "egypte",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_120.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-120-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Comment appelle-t-on la « cuve » contenant le cercueil et la momie d’un pharaon ?",
+      "answer": "Le sarcophage",
+      "options": [
+        "La baignoire",
+        "Le bastet",
+        "Le sarcophage",
+        "Le coffre"
+      ],
+      "explanation": "En tant qu’objet funéraire, le sarcophage est présent dans des cultures et civilisations diverses et éloignées les unes des autres.",
+      "level": "easy",
+      "emoji": "🏺",
+      "duration": 30,
+      "points": 100,
+      "theme": "egypte",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_120.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-120-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle était la première fonction des monumentales pyramides d'Égypte ?",
+      "answer": "Une tombe",
+      "options": [
+        "Une maison",
+        "Un décor",
+        "Une bibliothèque",
+        "Une tombe"
+      ],
+      "explanation": "Tombeaux des rois et des reines, la forme pyramidale de pierre accueille une ou plusieurs chambres internes reliées par des couloirs.",
+      "level": "easy",
+      "emoji": "🏺",
+      "duration": 30,
+      "points": 100,
+      "theme": "egypte",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_120.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-120-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel film américain de 1999 a pour personnage principal la momie d’un prêtre égyptien maudit ?",
+      "answer": "La Momie",
+      "options": [
+        "Matrix",
+        "La Momie",
+        "Intrusion",
+        "Oxygen"
+      ],
+      "explanation": "Le film a donné lieu à deux suites : 'Le Retour de la momie' en 2001 puis 'La Momie : La Tombe de l'empereur Dragon' en 2008.",
+      "level": "easy",
+      "emoji": "🏺",
+      "duration": 30,
+      "points": 100,
+      "theme": "egypte",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_120.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-120-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Près de quelle ville importante sont situées les grandes pyramides d’Égypte ?",
+      "answer": "Le Caire",
+      "options": [
+        "Assiout",
+        "Edfou",
+        "Le Caire",
+        "Esna"
+      ],
+      "explanation": "Le centre historique de la ville comprend le Vieux Caire ainsi que le quartier islamique, classé au patrimoine mondial de l'humanité.",
+      "level": "easy",
+      "emoji": "🏺",
+      "duration": 30,
+      "points": 100,
+      "theme": "egypte",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_120.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-120-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quels films et série dérivée de ce film mêlent science-fiction et mythologie égyptienne ?",
+      "answer": "Stargate",
+      "options": [
+        "Stargate",
+        "The Shield",
+        "Doctor Who",
+        "The Flash"
+      ],
+      "explanation": "Contrairement à la plupart des films basés sur l'exploration de la galaxie, l'action de 'Stargate' se situe à notre époque.",
+      "level": "easy",
+      "emoji": "🏺",
+      "duration": 30,
+      "points": 100,
+      "theme": "egypte",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_120.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-120-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien y a-t-il de grandes pyramides sur le plateau de Gizeh, classé à l'UNESCO ?",
+      "answer": "3",
+      "options": [
+        "3",
+        "1",
+        "Aucune",
+        "10"
+      ],
+      "explanation": "Les trois plus grandes pyramides d'Égypte (Khéops, Khéphren et Mykérinos) se situent sur la nécropole de Gizeh.",
+      "level": "easy",
+      "emoji": "🏺",
+      "duration": 30,
+      "points": 100,
+      "theme": "egypte",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_120.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-120-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle partie du visage manque-t-il au Sphinx qui se dresse devant les grandes pyramides de Gizeh ?",
+      "answer": "Le nez",
+      "options": [
+        "Le nez",
+        "Une oreille",
+        "Un œil",
+        "Un coin de bouche"
+      ],
+      "explanation": "Le corps du sphinx, sculpté dans la couche sous-jacente de calcaire plus tendre, pourrait être celui d'un lion couché.",
+      "level": "medium",
+      "emoji": "🏺",
+      "duration": 30,
+      "points": 100,
+      "theme": "egypte",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_120.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-120-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel opéra célèbre de Verdi met en scène une intrigue entre une esclave et un officier égyptien ?",
+      "answer": "Aïda",
+      "options": [
+        "Aïda",
+        "La Walkyrie",
+        "Carmen",
+        "Nabucco"
+      ],
+      "explanation": "N'ayant pas assisté à la première, Verdi ne fut pas satisfait par ce succès parce que la salle n'était composée que de dignitaires invités.",
+      "level": "medium",
+      "emoji": "🏺",
+      "duration": 30,
+      "points": 100,
+      "theme": "egypte",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_120.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-120-15",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel musée est conservée la pierre de Rosette ayant servi à déchiffrer les hiéroglyphes ?",
+      "answer": "British Museum",
+      "options": [
+        "MET",
+        "Musée du Caire",
+        "Le Louvre",
+        "British Museum"
+      ],
+      "explanation": "L'inscription qu'elle comporte est un décret promulgué à Memphis par le pharaon Ptolémée V en 196 av. J.-C.",
+      "level": "medium",
+      "emoji": "🏺",
+      "duration": 30,
+      "points": 100,
+      "theme": "egypte",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_120.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-120-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Qui est le Dieu seigneur de la Nécropole, de la mort et protecteur des embaumeurs ?",
+      "answer": "Anubis",
+      "options": [
+        "Amon",
+        "Rê",
+        "Anubis",
+        "Apis"
+      ],
+      "explanation": "Les principales épithètes du dieu Anubis mettent en avant ses liens avec les nécropoles du pays et son rôle de divinité funéraire.",
+      "level": "medium",
+      "emoji": "🏺",
+      "duration": 30,
+      "points": 100,
+      "theme": "egypte",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_120.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-120-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En investissant la Vallée des Rois, qui les égyptiens espéraient-ils éloigner des sépultures ?",
+      "answer": "Les pilleurs",
+      "options": [
+        "Les pilleurs",
+        "Les touristes",
+        "Les photographes",
+        "Les antiquaires"
+      ],
+      "explanation": "'Les Pilleurs de sarcophages' est un roman historique écrit par Odile Weulersse paru en 1984, édité par Hachette Jeunesse.",
+      "level": "medium",
+      "emoji": "🏺",
+      "duration": 30,
+      "points": 100,
+      "theme": "egypte",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_120.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-120-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À la hauteur de quelle grande ville se situe la vallée des rois, bien connue des égyptologues ?",
+      "answer": "Thèbes",
+      "options": [
+        "El-Minia",
+        "Thèbes",
+        "Assiout",
+        "Gizeh"
+      ],
+      "explanation": "La vallée des rois est connue pour abriter les hypogées de nombreux pharaons, d'épouses et d'enfants de pharaons.",
+      "level": "medium",
+      "emoji": "🏺",
+      "duration": 30,
+      "points": 100,
+      "theme": "egypte",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_120.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-120-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel dieu envoya Sekhmet la lionne massacrer les humains qui complotaient avant de se repentir ?",
+      "answer": "Rê",
+      "options": [
+        "Geb",
+        "Apopis",
+        "Rê",
+        "Chou"
+      ],
+      "explanation": "Déesse guerrière personnifiant la puissance destructrice du Soleil, Sekhmet est l'instrument de la vengeance de Rê.",
+      "level": "medium",
+      "emoji": "🏺",
+      "duration": 30,
+      "points": 100,
+      "theme": "egypte",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_120.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-120-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Lequel de ces instruments de la famille des percussions était courant dans l'Égypte ancienne ?",
+      "answer": "Le sistre",
+      "options": [
+        "Le sistre",
+        "Le piano",
+        "La harpe",
+        "La flûte"
+      ],
+      "explanation": "Le sistre est constitué d'un cadre dans lequel sont enfilées des coques de fruits, des coquilles ou des rondelles métalliques.",
+      "level": "hard",
+      "emoji": "🏺",
+      "duration": 30,
+      "points": 100,
+      "theme": "egypte",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_120.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-120-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle déesse égyptienne aux traits félins est le symbole de la maternité et de la fécondité ?",
+      "answer": "Bastet",
+      "options": [
+        "Isis",
+        "Bastet",
+        "Hathor",
+        "Amonet"
+      ],
+      "explanation": "Bastet est l’une des déesses les plus discrètes du panthéon égyptien, et n’est jamais représentée, sinon dans son temple à Bubastis.",
+      "level": "hard",
+      "emoji": "🏺",
+      "duration": 30,
+      "points": 100,
+      "theme": "egypte",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_120.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-120-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le nom grec de la double couronne égyptienne portée par les pharaons égyptiens ?",
+      "answer": "Pschent",
+      "options": [
+        "Pschent",
+        "Sokolata",
+        "Kiriaki",
+        "Marmelada"
+      ],
+      "explanation": "Le nom égyptien de cette double couronne est skhemty, qui deviendra « pschent », « les deux puissants ».",
+      "level": "hard",
+      "emoji": "🏺",
+      "duration": 30,
+      "points": 100,
+      "theme": "egypte",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_120.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-120-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel pharaon tenta d’instaurer une religion à Dieu unique en changeant son nom ?",
+      "answer": "Akhenaton",
+      "options": [
+        "Akhenaton",
+        "Ramsès V",
+        "Taousert",
+        "Nectanébo Ier"
+      ],
+      "explanation": "On ne sait ni quand ni comment Akhenaton décède, ses successeurs ayant tout fait pour effacer les traces du roi hérétique.",
+      "level": "hard",
+      "emoji": "🏺",
+      "duration": 30,
+      "points": 100,
+      "theme": "egypte",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_120.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-120-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Au nombre de quatre, que recueillent les vases canopes lors de l'embaumement d'un corps ?",
+      "answer": "Les viscères",
+      "options": [
+        "Le sang",
+        "Les yeux",
+        "Les viscères",
+        "Les cheveux"
+      ],
+      "explanation": "Les vases canopes étaient fabriqués en calcaire, en albâtre, en terre cuite ou en céramique et étaient déposés près du sarcophage.",
+      "level": "hard",
+      "emoji": "🏺",
+      "duration": 30,
+      "points": 100,
+      "theme": "egypte",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_120.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-120-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel site mégalithique égyptien est antérieur de 1000 ans à celui de Stonehenge ?",
+      "answer": "Nabta Playa",
+      "options": [
+        "Nabta Playa",
+        "Hat-Hor",
+        "Karnak",
+        "Badari"
+      ],
+      "explanation": "Ce site, bien conservé par les conditions désertiques du climat, offre un grand intérêt pour l'anthropologie, l'archéologie et la préhistoire.",
+      "level": "hard",
+      "emoji": "🏺",
+      "duration": 30,
+      "points": 100,
+      "theme": "egypte",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_120.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-120-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel animal incarne la représentation du Dieu Apophis, personnification du chaos ?",
+      "answer": "Un serpent",
+      "options": [
+        "Une vache",
+        "Un lion",
+        "Un aigle",
+        "Un serpent"
+      ],
+      "explanation": "Dans certaines scènes, le roi ou le pharaon lors de la bataille est représenté avec un objet rond qui symbolise l'œil d'Apophis.",
+      "level": "hard",
+      "emoji": "🏺",
+      "duration": 30,
+      "points": 100,
+      "theme": "egypte",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_120.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-120-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Sous l'influence d'Akhenaton, quel art bouleversa les canons artistiques classiques de l'époque ?",
+      "answer": "Art amarnien",
+      "options": [
+        "Art amarnien",
+        "Art antique",
+        "Art baroque",
+        "Art moderne"
+      ],
+      "explanation": "Il se caractérise par un art délicat où abondent les plantes, les fleurs et les oiseaux et par la représentation réaliste des personnages.",
+      "level": "hard",
+      "emoji": "🏺",
+      "duration": 30,
+      "points": 100,
+      "theme": "egypte",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_120.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

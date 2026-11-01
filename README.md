@@ -87,3 +87,11 @@ Le déploiement automatique est assuré par **Cloudflare Workers Builds**, reli�
 Les autres branches ne publient pas le site de production ; les aperçus automatiques sont désactivés. Les résultats et journaux sont disponibles dans les builds Cloudflare et les vérifications du commit GitHub. GitHub Actions conserve en parallèle son contrôle des tests et de la compilation.
 
 L’authentification de publication reste gérée par Cloudflare ; aucun jeton n’est stocké dans le dépôt. Pour un déploiement manuel depuis un poste authentifié, `npm run deploy` reste disponible.
+
+### Quiz prêts à jouer (v0.4)
+
+« Les quiz » propose 302 questions françaises dans 12 thèmes : instruments, variété française, comédies françaises, Star Wars, Le Roi Lion, géographie, Égypte ancienne, chimie, sports collectifs, animaux et habitats, cuisines du monde, Nintendo. Choisir un pack ouvre sa préparation ; on peut mélanger jusqu’à trois thèmes du même univers et filtrer les niveaux débutant, confirmé ou expert. Le nombre joué est limité au nombre disponible après filtrage, sans répétition dans la partie.
+
+Ces questionnaires écrits fonctionnent en USB/clavier, QCM téléphone, réponse écrite ou buzzer téléphone. Les anecdotes et crédits apparaissent après révélation et dans le bilan. La banque statique est consultable dans les sources publiques ; le jeu vise l’animation de soirées, pas les examens sécurisés.
+
+Données adaptées d’OpenQuizzDB, auteurs Philippe Bresoux et Geremia Fortunato, **CC BY-SA 4.0**. Voir [provenance, changements et licence](data/openquizzdb/NOTICE.md). Les fichiers JSON français sont réutilisables sous cette licence. Régénération : `node scripts/build-question-bank.mjs`. Les questionnaires sont inclus dans le déploiement et ne dépendent pas d’une API externe.

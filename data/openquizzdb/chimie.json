@@ -1,0 +1,647 @@
+{
+  "id": "chimie",
+  "title": "Chimie",
+  "originalTitle": "Chimie",
+  "universe": "quiz",
+  "emoji": "🧪",
+  "credit": {
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_71.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "excludedOriginalIds": [
+    9,
+    12,
+    15,
+    22,
+    27
+  ],
+  "questions": [
+    {
+      "id": "oqdb-71-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans un laboratoire de chimie, quel nom porte un récipient en verre de forme sphérique ?",
+      "answer": "Un ballon",
+      "options": [
+        "Un ballon",
+        "Une éprouvette",
+        "Une pipette",
+        "Une burette"
+      ],
+      "explanation": "Le ballon est très utilisé pour conduire des réactions chimiques en chimie organique.",
+      "level": "easy",
+      "emoji": "🧪",
+      "duration": 30,
+      "points": 100,
+      "theme": "chimie",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_71.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-71-2",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le symbole chimique du magnésium, de numéro atomique 12 ?",
+      "answer": "Mg",
+      "options": [
+        "Mi",
+        "Mg",
+        "Ma",
+        "Mn"
+      ],
+      "explanation": "Le magnésium est le huitième élément le plus abondant de la croûte terrestre et le troisième composant des sels dissous en mer.",
+      "level": "easy",
+      "emoji": "🧪",
+      "duration": 30,
+      "points": 100,
+      "theme": "chimie",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_71.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-71-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel instrument permet de créer le « vide » dans une cloche en verre ?",
+      "answer": "Une pompe à air",
+      "options": [
+        "Une pompe à air",
+        "Un tube axial",
+        "Un moulin à eau",
+        "Une turbine à gaz"
+      ],
+      "explanation": "C'est le physicien allemand Otto von Guericke qui, en étudiant les propriétés de l'air et la création du vide, a inventé la pompe à air.",
+      "level": "easy",
+      "emoji": "🧪",
+      "duration": 30,
+      "points": 100,
+      "theme": "chimie",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_71.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-71-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel élément chimique a pour symbole Na et pour numéro atomique 11 ?",
+      "answer": "Sodium",
+      "options": [
+        "Sélénium",
+        "Sodium",
+        "Soufre",
+        "Silicium"
+      ],
+      "explanation": "Le sodium est un métal mou et argenté, qui appartient aux métaux alcalins.",
+      "level": "easy",
+      "emoji": "🧪",
+      "duration": 30,
+      "points": 100,
+      "theme": "chimie",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_71.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-71-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle scientifique française a été lauréate du prix Nobel de Physique et de Chimie ?",
+      "answer": "Marie Curie",
+      "options": [
+        "Suzanne Fortier",
+        "Susan Solomon",
+        "Marie Curie",
+        "Mary Archer"
+      ],
+      "explanation": "Marie Curie est la seule femme parmi tous les lauréats du Nobel à avoir été récompensée dans deux domaines scientifiques distincts.",
+      "level": "easy",
+      "emoji": "🧪",
+      "duration": 30,
+      "points": 100,
+      "theme": "chimie",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_71.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-71-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le symbole chimique du fer, présent dans la nature sous forme pure ?",
+      "answer": "Fe",
+      "options": [
+        "Fe",
+        "F",
+        "Fr",
+        "Fl"
+      ],
+      "explanation": "Le fer était connu dès le chalcolithique à travers les météorites ferreuses, et sa métallurgie demeura longtemps confidentielle.",
+      "level": "easy",
+      "emoji": "🧪",
+      "duration": 30,
+      "points": 100,
+      "theme": "chimie",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_71.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-71-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel paramètre permet de déterminer si un milieu est acide, neutre ou basique ?",
+      "answer": "Le pH",
+      "options": [
+        "La puissance",
+        "La constante",
+        "Le pH",
+        "La base"
+      ],
+      "explanation": "Les produits plus acides que l’acide sulfurique à 100 % sont qualifiés de superacides.",
+      "level": "easy",
+      "emoji": "🧪",
+      "duration": 30,
+      "points": 100,
+      "theme": "chimie",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_71.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-71-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel élément chimique, le plus commun des halogènes, a pour symbole « Cl » ?",
+      "answer": "Le chlore",
+      "options": [
+        "Le chlore",
+        "Le carbone",
+        "Le césium",
+        "Le calcium"
+      ],
+      "explanation": "Certains virus (norovirus par exemple), certaines bactéries ou les biofilms peuvent développer une certaine résistance au chlore.",
+      "level": "easy",
+      "emoji": "🧪",
+      "duration": 30,
+      "points": 100,
+      "theme": "chimie",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_71.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-71-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la formule chimique du sel alimentaire ou sel de cuisine ?",
+      "answer": "NaCl",
+      "options": [
+        "SlCl2",
+        "NaCl",
+        "CaCl",
+        "CaCl2"
+      ],
+      "explanation": "Le sel de table ou sel alimentaire est composé essentiellement de chlorure de sodium.",
+      "level": "easy",
+      "emoji": "🧪",
+      "duration": 30,
+      "points": 100,
+      "theme": "chimie",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_71.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-71-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel élément chimique est représenté par le symbole B ?",
+      "answer": "Le bore",
+      "options": [
+        "Le brome",
+        "Le bismuth",
+        "Le benzène",
+        "Le bore"
+      ],
+      "explanation": "Le bore a la résistance à la traction la plus élevée de tous les éléments connus.",
+      "level": "medium",
+      "emoji": "🧪",
+      "duration": 30,
+      "points": 100,
+      "theme": "chimie",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_71.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-71-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel élément chimique porte un nom dérivé du mot latin « silex » ?",
+      "answer": "Le silicium",
+      "options": [
+        "Le sodium",
+        "Le soufre",
+        "Le scandium",
+        "Le silicium"
+      ],
+      "explanation": "Le silicium est l'élément le plus abondant dans la croûte terrestre après l'oxygène.",
+      "level": "medium",
+      "emoji": "🧪",
+      "duration": 30,
+      "points": 100,
+      "theme": "chimie",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_71.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-71-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le symbole chimique du potassium, d'aspect blanc métallique ?",
+      "answer": "K",
+      "options": [
+        "P",
+        "K",
+        "T",
+        "O"
+      ],
+      "explanation": "Le potassium s'oxyde rapidement au contact de l'air et réagit violemment avec l'eau.",
+      "level": "medium",
+      "emoji": "🧪",
+      "duration": 30,
+      "points": 100,
+      "theme": "chimie",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_71.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-71-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En chimie, que signifie le pH qui mesure l'acidité ou la basicité d'une solution ?",
+      "answer": "Potentiel hydrogène",
+      "options": [
+        "Pouvoir hirsute",
+        "Particule hydrogène",
+        "Processus halogène",
+        "Potentiel hydrogène"
+      ],
+      "explanation": "Il existe de nombreuses façons de mesurer l'acidité, et on utilise d'ailleurs fréquemment des indicateurs de pH.",
+      "level": "medium",
+      "emoji": "🧪",
+      "duration": 30,
+      "points": 100,
+      "theme": "chimie",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_71.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-71-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel est le symbole chimique du sodium, qui appartient aux métaux alcalins ?",
+      "answer": "Na",
+      "options": [
+        "Na",
+        "So",
+        "Sd",
+        "Um"
+      ],
+      "explanation": "On ne trouve pas le sodium à l'état de corps pur dans la nature, mais il est très abondant sous forme de composés.",
+      "level": "medium",
+      "emoji": "🧪",
+      "duration": 30,
+      "points": 100,
+      "theme": "chimie",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_71.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-71-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "De quel élément chimique proviennent à la fois la charbon et le diamant ?",
+      "answer": "Le carbone",
+      "options": [
+        "Le chrome",
+        "Le cobalt",
+        "Le cuivre",
+        "Le carbone"
+      ],
+      "explanation": "Le carbone existe sous forme de sédiments, charbon, pétrole, et également sous sa forme pure graphite, le diamant.",
+      "level": "medium",
+      "emoji": "🧪",
+      "duration": 30,
+      "points": 100,
+      "theme": "chimie",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_71.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-71-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la formule chimique du dioxyde de carbone ?",
+      "answer": "CO2",
+      "options": [
+        "NaCl",
+        "CO2",
+        "H2O",
+        "C3P0"
+      ],
+      "explanation": "Le dioxyde de carbone est communément appelé gaz carbonique ou anhydride carbonique.",
+      "level": "medium",
+      "emoji": "🧪",
+      "duration": 30,
+      "points": 100,
+      "theme": "chimie",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_71.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-71-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Que signifie le E de E=MC2, exprimé en 1905 par Einstein dans le cadre de la relativité restreinte ?",
+      "answer": "Énergie",
+      "options": [
+        "Écart",
+        "Effet",
+        "Énergie",
+        "Élément"
+      ],
+      "explanation": "L'équation fait partie des apports que certains contestent à Einstein dans le cadre de la controverse sur la paternité de la relativité.",
+      "level": "medium",
+      "emoji": "🧪",
+      "duration": 30,
+      "points": 100,
+      "theme": "chimie",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_71.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-71-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Combien y a-t-il de périodes dans le tableau périodique de Mendeleïev ?",
+      "answer": "Sept",
+      "options": [
+        "Neuf",
+        "Trois",
+        "Sept",
+        "Cinq"
+      ],
+      "explanation": "Son invention est attribuée au chimiste Mendeleïev, qui construisit en 1869 une table différente de celle qu'on utilise aujourd'hui.",
+      "level": "hard",
+      "emoji": "🧪",
+      "duration": 30,
+      "points": 100,
+      "theme": "chimie",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_71.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-71-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel dosage colorimétrique permet de déterminer la concentration en phosphore ?",
+      "answer": "Méthode de Briggs",
+      "options": [
+        "Méthode de Briggs",
+        "Méthode de Kjeldahl",
+        "Méthode de Wijs",
+        "Méthode de Bertrand"
+      ],
+      "explanation": "L'intensité de la coloration du complexe est proportionnelle à la concentration en phosphate.",
+      "level": "hard",
+      "emoji": "🧪",
+      "duration": 30,
+      "points": 100,
+      "theme": "chimie",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_71.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-71-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel chimiste québécois a été un précurseur dans le domaine de la chimie quantique ?",
+      "answer": "Camille Sandorfy",
+      "options": [
+        "Camille Sandorfy",
+        "Léon Lortie",
+        "Christian Roy",
+        "Bernard Cloutier"
+      ],
+      "explanation": "Certaines de ses études spectroscopiques aident à comprendre des processus biologiques.",
+      "level": "hard",
+      "emoji": "🧪",
+      "duration": 30,
+      "points": 100,
+      "theme": "chimie",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_71.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-71-25",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel équipement de labo protège une substance des environnements humides ?",
+      "answer": "Dessiccateur",
+      "options": [
+        "Dessiccateur",
+        "Décanteur",
+        "Bécher",
+        "Manchon"
+      ],
+      "explanation": "En fonction de l'usage qui en est fait, la verrerie de laboratoire est fabriquée dans différents types de verres ou de matières plastiques.",
+      "level": "hard",
+      "emoji": "🧪",
+      "duration": 30,
+      "points": 100,
+      "theme": "chimie",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_71.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-71-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel métal brûle avec une flamme blanche aveuglante ?",
+      "answer": "Le magnésium",
+      "options": [
+        "Le calcium",
+        "Le magnésium",
+        "Le baryum",
+        "Le radium"
+      ],
+      "explanation": "Le magnésium est le huitième élément le plus abondant de la croûte terrestre.",
+      "level": "hard",
+      "emoji": "🧪",
+      "duration": 30,
+      "points": 100,
+      "theme": "chimie",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_71.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-71-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans le lait, quelle protéine permet aux graisses de se mélanger au liquide ?",
+      "answer": "La caséine",
+      "options": [
+        "La gélatine",
+        "La caséine",
+        "La lectine",
+        "La fibrine"
+      ],
+      "explanation": "Dans la fabrication du fromage, la caséine précipite après adjonction d'acide ou de présure.",
+      "level": "hard",
+      "emoji": "🧪",
+      "duration": 30,
+      "points": 100,
+      "theme": "chimie",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_71.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-71-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle est la formule chimique du méthane, découvert et isolé par Alessandro Volta ?",
+      "answer": "CH4",
+      "options": [
+        "CH4",
+        "C3P0",
+        "H2O",
+        "NaCl"
+      ],
+      "explanation": "Il s'agit du plus simple des hydrocarbures, et plus précisément du premier terme de la famille des alcanes.",
+      "level": "hard",
+      "emoji": "🧪",
+      "duration": 30,
+      "points": 100,
+      "theme": "chimie",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_71.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-71-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel atome a des propriétés proches de celles du carbone ?",
+      "answer": "Le silicium",
+      "options": [
+        "Le bismuth",
+        "Le soufre",
+        "Le silicium",
+        "Le césium"
+      ],
+      "explanation": "Le silicium est l'élément le plus abondant dans la croûte terrestre après l'oxygène, soit 25,7 % de sa masse.",
+      "level": "hard",
+      "emoji": "🧪",
+      "duration": 30,
+      "points": 100,
+      "theme": "chimie",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_71.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

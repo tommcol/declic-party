@@ -1,0 +1,695 @@
+{
+  "id": "animaux",
+  "title": "Animaux et habitats",
+  "originalTitle": "Animaux et habitats",
+  "universe": "quiz",
+  "emoji": "🐾",
+  "credit": {
+    "author": "Philippe Bresoux",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_49.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "excludedOriginalIds": [
+    2,
+    15,
+    25
+  ],
+  "questions": [
+    {
+      "id": "oqdb-49-1",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel animal vertébré retrouve-t-on la plupart du temps dans un aquarium communautaire ?",
+      "answer": "Un poisson",
+      "options": [
+        "Un lapin",
+        "Un oiseau",
+        "Une fourmi",
+        "Un poisson"
+      ],
+      "explanation": "Un aquarium est une reproduction de l'habitat naturel de l'espèce ou des espèces qui habite(ent) dans cet aquarium.",
+      "level": "easy",
+      "emoji": "🐾",
+      "duration": 30,
+      "points": 100,
+      "theme": "animaux",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_49.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-49-3",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle bâtisse est destinée au logement des ânes, chevaux et autres mulets ?",
+      "answer": "Une écurie",
+      "options": [
+        "Une arène",
+        "Un ranch",
+        "Un hippodrome",
+        "Une écurie"
+      ],
+      "explanation": "Les différents éléments qui composent l'écurie doivent satisfaire aux conditions d'hygiène nécessaires au maintien en intérieur d'équidés.",
+      "level": "easy",
+      "emoji": "🐾",
+      "duration": 30,
+      "points": 100,
+      "theme": "animaux",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_49.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-49-4",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel habitat a pour but de protéger la ou les reines chez les fourmis ?",
+      "answer": "Une fourmilière",
+      "options": [
+        "Une fourmilière",
+        "Un colombier",
+        "Une ruche",
+        "Un insectarium"
+      ],
+      "explanation": "La fourmilière est généralement un endroit que les fourmis ont construit par excavation ou par construction de dômes.",
+      "level": "easy",
+      "emoji": "🐾",
+      "duration": 30,
+      "points": 100,
+      "theme": "animaux",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_49.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-49-5",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel circuit, généralement de forme ovale, est aujourd'hui dévolu au sport hippique ?",
+      "answer": "Un hippodrome",
+      "options": [
+        "Un delphinarium",
+        "Un vivarium",
+        "Un hippodrome",
+        "Un cynodrome"
+      ],
+      "explanation": "D'origine antique, disposant de gradins ou de tribunes, les hippodromes étaient alors dévolus aux courses de chars.",
+      "level": "easy",
+      "emoji": "🐾",
+      "duration": 30,
+      "points": 100,
+      "theme": "animaux",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_49.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-49-6",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel endroit renferme généralement une collection d'insectes vivants ou morts ?",
+      "answer": "Un insectarium",
+      "options": [
+        "Un delphinarium",
+        "Un cynodrome",
+        "Un insectarium",
+        "Un vivarium"
+      ],
+      "explanation": "Un insectarium n'est pas forcément accessible au grand public s'il est implanté dans l'enceinte d'une université ou d'un laboratoire.",
+      "level": "easy",
+      "emoji": "🐾",
+      "duration": 30,
+      "points": 100,
+      "theme": "animaux",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_49.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-49-7",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel abri situé à l'extérieur des maisons est spécifiquement fabriqué pour les chiens ?",
+      "answer": "La niche",
+      "options": [
+        "Le clapier",
+        "La niche",
+        "La bauge",
+        "La garenne"
+      ],
+      "explanation": "Charles M. Schulz, le dessinateur des 'Peanuts', représente souvent le chien Snoopy allongé sur le toit de sa niche.",
+      "level": "easy",
+      "emoji": "🐾",
+      "duration": 30,
+      "points": 100,
+      "theme": "animaux",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_49.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-49-8",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel bâtiment est conçu et adapté pour l'élevage intensif des porcs ?",
+      "answer": "Une porcherie",
+      "options": [
+        "Une volière",
+        "Une bauge",
+        "Une écloserie",
+        "Une porcherie"
+      ],
+      "explanation": "Les premières porcheries datent probablement de l'antiquité et semblaient être des enclos avec un abri simple.",
+      "level": "easy",
+      "emoji": "🐾",
+      "duration": 30,
+      "points": 100,
+      "theme": "animaux",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_49.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-49-9",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel bâtiment, généralement de taille modeste, élève-t-on de la volaille ?",
+      "answer": "Un poulailler",
+      "options": [
+        "Un poulailler",
+        "Un toril",
+        "Un clapier",
+        "Un manège"
+      ],
+      "explanation": "Les volailles aiment vivre à l'extérieur mais le poulailler procure un abri contre la neige, les prédateurs et pour la nuit.",
+      "level": "easy",
+      "emoji": "🐾",
+      "duration": 30,
+      "points": 100,
+      "theme": "animaux",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_49.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-49-10",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle structure artificielle presque fermée est-il possible de récolter du miel ?",
+      "answer": "Une ruche",
+      "options": [
+        "Un nichoir",
+        "Une ruche",
+        "Une écloserie",
+        "Un clapier"
+      ],
+      "explanation": "L'intérieur de la ruche est composé de rayons formés par des cellules hexagonales de cire d'abeille.",
+      "level": "easy",
+      "emoji": "🐾",
+      "duration": 30,
+      "points": 100,
+      "theme": "animaux",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_49.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-49-11",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel aquarium artificiel pouvez-vous voir jouer des dauphins ?",
+      "answer": "Un delphinarium",
+      "options": [
+        "Un delphinarium",
+        "Un vivarium",
+        "Un insectarium",
+        "Une magnanerie"
+      ],
+      "explanation": "Les delphinariums sont des structures ouvertes au public, souvent intégrées dans des parcs d'attraction ou des parcs zoologiques.",
+      "level": "medium",
+      "emoji": "🐾",
+      "duration": 30,
+      "points": 100,
+      "theme": "animaux",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_49.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-49-12",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel abri artificiel construit ou aménagé par l'homme est aussi appelé « cabane à oiseaux » ?",
+      "answer": "Un nichoir",
+      "options": [
+        "Une garenne",
+        "Une frayère",
+        "Un nichoir",
+        "Un poulailler"
+      ],
+      "explanation": "La construction et l'aménagement de nichoirs n'offrent qu'une maigre compensation face à la disparition des sites naturels.",
+      "level": "medium",
+      "emoji": "🐾",
+      "duration": 30,
+      "points": 100,
+      "theme": "animaux",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_49.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-49-13",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Où pratique-t-on l'élevage extensif de bétail dans le Sud des États-Unis ?",
+      "answer": "Dans un ranch",
+      "options": [
+        "Dans un manège",
+        "Dans un vivarium",
+        "Dans un ranch",
+        "Dans un hippodrome"
+      ],
+      "explanation": "Les ranchs peuvent être de toute taille, certains disposent de terres arables, irriguées ou non, produisant des récoltes fourragères.",
+      "level": "medium",
+      "emoji": "🐾",
+      "duration": 30,
+      "points": 100,
+      "theme": "animaux",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_49.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-49-14",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel espace sont réunies de nombreuses espèces animales vivantes ?",
+      "answer": "Un zoo",
+      "options": [
+        "Une fourmilière",
+        "Un zoo",
+        "Un chenil",
+        "Une garenne"
+      ],
+      "explanation": "On recense plus de 2 000 zoos dans le monde, attirant un ensemble de près de 350 millions de visiteurs par an.",
+      "level": "medium",
+      "emoji": "🐾",
+      "duration": 30,
+      "points": 100,
+      "theme": "animaux",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_49.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-49-16",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quoi sont généralement réunis les lapins au fond des jardins ?",
+      "answer": "Un clapier",
+      "options": [
+        "Un clapier",
+        "Une volière",
+        "Un nichoir",
+        "Une écloserie"
+      ],
+      "explanation": "Le clapier comporte habituellement plusieurs cases souvent dotées de portes grillagées, chaque case étant affectée à un lapin.",
+      "level": "medium",
+      "emoji": "🐾",
+      "duration": 30,
+      "points": 100,
+      "theme": "animaux",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_49.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-49-17",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "En aquaculture, quelle installation est destinée à produire des larves ou des alevins ?",
+      "answer": "Une écloserie",
+      "options": [
+        "Un toril",
+        "Une frayère",
+        "Une bauge",
+        "Une écloserie"
+      ],
+      "explanation": "Une écloserie permet de vendre a des ostréiculteurs des naissains d'huîtres appropriés à leurs besoins.",
+      "level": "medium",
+      "emoji": "🐾",
+      "duration": 30,
+      "points": 100,
+      "theme": "animaux",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_49.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-49-18",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel endroit couvert, au sol meuble et souple, permet de travailler les chevaux ?",
+      "answer": "Le manège",
+      "options": [
+        "La bauge",
+        "Le toril",
+        "Le ranch",
+        "Le manège"
+      ],
+      "explanation": "Idéalement, un manège est couvert et fermé pour permettre de travailler quel que soit le temps.",
+      "level": "medium",
+      "emoji": "🐾",
+      "duration": 30,
+      "points": 100,
+      "theme": "animaux",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_49.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-49-19",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "À l'époque féodale, quel édifice était destiné à loger et à élever des pigeons ?",
+      "answer": "Le colombier",
+      "options": [
+        "Le colombier",
+        "Le manège",
+        "Le cynodrome",
+        "La porcherie"
+      ],
+      "explanation": "Le colombier désigne encore les édifices de la Renaissance et du début des Temps modernes.",
+      "level": "medium",
+      "emoji": "🐾",
+      "duration": 30,
+      "points": 100,
+      "theme": "animaux",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_49.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-49-20",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quelle cage de grande taille est destinée à contenir des oiseaux ?",
+      "answer": "Une volière",
+      "options": [
+        "Une volière",
+        "Une écloserie",
+        "Un colombier",
+        "Une bauge"
+      ],
+      "explanation": "La cage est très souvent reprise comme symbole ou comme métaphore pour désigner l'emprisonnement.",
+      "level": "medium",
+      "emoji": "🐾",
+      "duration": 30,
+      "points": 100,
+      "theme": "animaux",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_49.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-49-21",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel animal aux longues oreilles peut donner du lait dans une asinerie ?",
+      "answer": "Une ânesse",
+      "options": [
+        "Une chèvre",
+        "Une vache",
+        "Une brebis",
+        "Une ânesse"
+      ],
+      "explanation": "Très vite, l'âne est aussi devenu l'animal de transport terrestre privilégié en raison de ses larges qualités.",
+      "level": "hard",
+      "emoji": "🐾",
+      "duration": 30,
+      "points": 100,
+      "theme": "animaux",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_49.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-49-22",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel espace boisé ou herbeux vivent les lapins sauvages ?",
+      "answer": "La garenne",
+      "options": [
+        "La bauge",
+        "La garenne",
+        "Le manège",
+        "Le clapier"
+      ],
+      "explanation": "À l'origine, la garenne est un espace réservé à certaines espèces de gibier et où les animaux peuvent trouver pâture.",
+      "level": "hard",
+      "emoji": "🐾",
+      "duration": 30,
+      "points": 100,
+      "theme": "animaux",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_49.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-49-23",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel établissement ouvert au public est spécialisé dans la présentation d'espèces animales marines ?",
+      "answer": "Un oceanarium",
+      "options": [
+        "Un oceanarium",
+        "Une écloserie",
+        "Un zoo",
+        "Un vivarium"
+      ],
+      "explanation": "Le premier oceanarium connu fut établi à St Augustine en Floride, en 1938, sous le nom des 'Marine Studios'.",
+      "level": "hard",
+      "emoji": "🐾",
+      "duration": 30,
+      "points": 100,
+      "theme": "animaux",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_49.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-49-24",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quelle cage vitrée élève-t-on le plus souvent des reptiles et des amphibiens ?",
+      "answer": "Un vivarium",
+      "options": [
+        "Une écloserie",
+        "Un oceanarium",
+        "Un vivarium",
+        "Une magnanerie"
+      ],
+      "explanation": "Les conditions climatiques telles que la ventilation, la lumière, la température et l'humidité y sont ajustées artificiellement.",
+      "level": "hard",
+      "emoji": "🐾",
+      "duration": 30,
+      "points": 100,
+      "theme": "animaux",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_49.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-49-26",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "La bouverie est un lieu rassemblant quels animaux imposants ?",
+      "answer": "Les bœufs",
+      "options": [
+        "Les moutons",
+        "Les oies",
+        "Les chèvres",
+        "Les bœufs"
+      ],
+      "explanation": "Un bœuf est un bovin domestique mâle ayant subi une castration dans le cadre de son élevage.",
+      "level": "hard",
+      "emoji": "🐾",
+      "duration": 30,
+      "points": 100,
+      "theme": "animaux",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_49.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-49-27",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Quel circuit est dévolu aux courses de lévriers dont le coursing fait partie ?",
+      "answer": "Un cynodrome",
+      "options": [
+        "Un hippodrome",
+        "Un vivarium",
+        "Un cynodrome",
+        "Une arène"
+      ],
+      "explanation": "L'open coursing est la forme la plus sportive et ces courses sont très suivies car dotées de nombreux prix.",
+      "level": "hard",
+      "emoji": "🐾",
+      "duration": 30,
+      "points": 100,
+      "theme": "animaux",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_49.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-49-28",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel lieu se reproduisent poissons et batraciens, et par extension les mollusques ?",
+      "answer": "Une frayère",
+      "options": [
+        "Une frayère",
+        "Un vivarium",
+        "Une magnanerie",
+        "Une garenne"
+      ],
+      "explanation": "C'est donc souvent aussi l'endroit où les femelles déposent leurs œufs afin que les mâles les recouvrent de semence.",
+      "level": "hard",
+      "emoji": "🐾",
+      "duration": 30,
+      "points": 100,
+      "theme": "animaux",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_49.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-49-29",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel lieu d'exploitation pratique-t-on l'élevage du ver à soie ?",
+      "answer": "Une magnanerie",
+      "options": [
+        "Une magnanerie",
+        "Une frayère",
+        "Un vivarium",
+        "Une écloserie"
+      ],
+      "explanation": "Les femmes employées dans une magnanerie sont appelées magnanarelles ou magnarelles.",
+      "level": "hard",
+      "emoji": "🐾",
+      "duration": 30,
+      "points": 100,
+      "theme": "animaux",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_49.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-49-30",
+      "universe": "quiz",
+      "kind": "question",
+      "prompt": "Dans quel lieu de l'arène tient-on les taureaux enfermés avant le combat ?",
+      "answer": "Le toril",
+      "options": [
+        "Le toril",
+        "La niche",
+        "Le nichoir",
+        "La frayère"
+      ],
+      "explanation": "Le toril comme les chiqueros diffèrent du corral qui est un ensemble de cours communiquant entre elles par des portes.",
+      "level": "hard",
+      "emoji": "🐾",
+      "duration": 30,
+      "points": 100,
+      "theme": "animaux",
+      "credit": {
+        "author": "Philippe Bresoux",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_49.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}

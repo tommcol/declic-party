@@ -1,0 +1,599 @@
+{
+  "id": "starwars",
+  "title": "Star Wars",
+  "originalTitle": "Star Wars",
+  "universe": "film",
+  "emoji": "🚀",
+  "credit": {
+    "author": "Geremia Fortunato",
+    "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_90.json",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "excludedOriginalIds": [
+    1,
+    10,
+    16,
+    18,
+    21,
+    24,
+    29
+  ],
+  "questions": [
+    {
+      "id": "oqdb-90-2",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel petit bonhomme vert a enseigné à Luke comment utiliser la Force ?",
+      "answer": "Yoda",
+      "options": [
+        "Yoda",
+        "Anakin Skywalker",
+        "Yado",
+        "Jabba"
+      ],
+      "explanation": "Yoda est présent dans cinq épisodes sur ceux que compte actuellement la saga (I, II, III, V, VI).",
+      "level": "easy",
+      "emoji": "🚀",
+      "duration": 30,
+      "points": 100,
+      "theme": "starwars",
+      "credit": {
+        "author": "Geremia Fortunato",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_90.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-90-3",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Dans la saga 'Star Wars', quels chevaliers se battent avec des sabres lasers ?",
+      "answer": "Jedi",
+      "options": [
+        "Table ronde",
+        "Zodiak",
+        "Samourai",
+        "Jedi"
+      ],
+      "explanation": "L'Ordre Jedi est dirigé par le Conseil Jedi, qui se réunit sur la planète Coruscant.",
+      "level": "easy",
+      "emoji": "🚀",
+      "duration": 30,
+      "points": 100,
+      "theme": "starwars",
+      "credit": {
+        "author": "Geremia Fortunato",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_90.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-90-4",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "De quelle station spatiale ennemie la princesse Leia apprend-elle les plans de construction ?",
+      "answer": "L'Étoile Noire",
+      "options": [
+        "La Lune obscure",
+        "Le côté obscur",
+        "L'Étoile qui tue",
+        "L'Étoile Noire"
+      ],
+      "explanation": "L'Étoile noire et l'Étoile de la mort sont deux stations spatiales sidérales mobiles de la taille d'une lune.",
+      "level": "easy",
+      "emoji": "🚀",
+      "duration": 30,
+      "points": 100,
+      "theme": "starwars",
+      "credit": {
+        "author": "Geremia Fortunato",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_90.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-90-5",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Personnage central de la saga 'Star Wars', avec qui Anakin Skywalker se marie-t-il ?",
+      "answer": "Sénatrice Padme",
+      "options": [
+        "Madpe",
+        "Obiwana",
+        "Sénatrice Padme",
+        "Leia Organa"
+      ],
+      "explanation": "Padmé Amidala Skywalker est née en 46 av. BY sur Naboo et morte en 19 av. BY sur Polis Massa.",
+      "level": "easy",
+      "emoji": "🚀",
+      "duration": 30,
+      "points": 100,
+      "theme": "starwars",
+      "credit": {
+        "author": "Geremia Fortunato",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_90.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-90-6",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Pour aider les Jedi a réparer leur vaisseau, Anakin doit gagner une course...",
+      "answer": "De module",
+      "options": [
+        "De nodule",
+        "De acklay",
+        "De nexu",
+        "De module"
+      ],
+      "explanation": "Après une course acharnée et très disputée, Anakin parviendra finalement à remporter la victoire.",
+      "level": "easy",
+      "emoji": "🚀",
+      "duration": 30,
+      "points": 100,
+      "theme": "starwars",
+      "credit": {
+        "author": "Geremia Fortunato",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_90.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-90-7",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Que contrôlent les Jedi qui les rendent très différents des simples humains ?",
+      "answer": "La Force",
+      "options": [
+        "La Force",
+        "Le langage droïde",
+        "L'immortalité",
+        "La lumière"
+      ],
+      "explanation": "Les chevaliers Jedi forment un ordre d'individus qui sont aptes à maîtriser la Force et qui l'utilisent uniquement pour faire le bien.",
+      "level": "easy",
+      "emoji": "🚀",
+      "duration": 30,
+      "points": 100,
+      "theme": "starwars",
+      "credit": {
+        "author": "Geremia Fortunato",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_90.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-90-8",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quels puissants ennemis et « seigneurs » les Jedi pensent-ils avoir vaincu ?",
+      "answer": "Les siths",
+      "options": [
+        "Les Vicks",
+        "Les Ch'tis",
+        "Les siths",
+        "Les friths"
+      ],
+      "explanation": "Les siths sont les ennemis jurés des Jedi dont ils constituent une menace pour la République Galactique.",
+      "level": "easy",
+      "emoji": "🚀",
+      "duration": 30,
+      "points": 100,
+      "theme": "starwars",
+      "credit": {
+        "author": "Geremia Fortunato",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_90.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-90-9",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "De qui la princesse Leia tombe-t-elle amoureuse dans la saga 'Star Wars' ?",
+      "answer": "Han Solo",
+      "options": [
+        "Luke Skywalker",
+        "Obi-Wan Kenobi",
+        "Han Solo",
+        "Chewbacca"
+      ],
+      "explanation": "Han Solo est un contrebandier, pilote et ancien élève officier impérial qui a dû déserter pour sauver Chewbacca.",
+      "level": "easy",
+      "emoji": "🚀",
+      "duration": 30,
+      "points": 100,
+      "theme": "starwars",
+      "credit": {
+        "author": "Geremia Fortunato",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_90.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-90-11",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel chancelier suprême est seigneur noir des Sith et homme politique dans la série 'Star Wars' ?",
+      "answer": "Palpatine",
+      "options": [
+        "Valorum",
+        "Palpatine",
+        "Padme Amidala",
+        "Yoda"
+      ],
+      "explanation": "Originaire de Naboo, Palpatine a été formé au côté obscur de la Force dès le plus jeune âge par son maître, Dark Plagueis.",
+      "level": "medium",
+      "emoji": "🚀",
+      "duration": 30,
+      "points": 100,
+      "theme": "starwars",
+      "credit": {
+        "author": "Geremia Fortunato",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_90.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-90-12",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "De qui Chewbacca, le plus célèbre des guerriers Wookie, est-il le co-pilote ?",
+      "answer": "Han Solo",
+      "options": [
+        "Obi-Wan Kenobi",
+        "Luke Skywalker",
+        "Han Solo",
+        "Anakin Skywalker"
+      ],
+      "explanation": "Chewbacca fait partie du noyau de rebelles qui ont restauré la liberté dans la galaxie.",
+      "level": "medium",
+      "emoji": "🚀",
+      "duration": 30,
+      "points": 100,
+      "theme": "starwars",
+      "credit": {
+        "author": "Geremia Fortunato",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_90.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-90-13",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Que se passe-t-il lorsqu'Anakin Skywalker affronte le compte Dooku la première fois ?",
+      "answer": "Il perd une main",
+      "options": [
+        "Il gagne le duel",
+        "Yoda tue Dooku",
+        "Il perd une main",
+        "Dooku lui file sa toux"
+      ],
+      "explanation": "Dooku fut l'héritier d'une famille d'aristocrates et diplomates de Serenno à la fortune colossale.",
+      "level": "medium",
+      "emoji": "🚀",
+      "duration": 30,
+      "points": 100,
+      "theme": "starwars",
+      "credit": {
+        "author": "Geremia Fortunato",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_90.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-90-14",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Parmi ces personnages de 'Star Wars', qui dirige le conseil des Jedi avec Yoda ?",
+      "answer": "Mace Windu",
+      "options": [
+        "Qui Go Jin",
+        "Obiwan Kenobi",
+        "Mace Windu",
+        "Anakin Skywalker"
+      ],
+      "explanation": "En plus de sa réputation de sage, Windu est considéré comme l'un des meilleurs combattants au sabre laser de l'Ordre Jedi.",
+      "level": "medium",
+      "emoji": "🚀",
+      "duration": 30,
+      "points": 100,
+      "theme": "starwars",
+      "credit": {
+        "author": "Geremia Fortunato",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_90.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-90-15",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel maître Jedi d'Obi-Wan Kenobi sera finalement tué par Dark Maul ?",
+      "answer": "Qui-Gon Jinn",
+      "options": [
+        "Qui-Gon Jinn",
+        "Adi Gallia",
+        "Ki-Adi-Mundi",
+        "Plo Koon"
+      ],
+      "explanation": "Le personnage est interprété par Liam Neeson et doublé par Samuel Labarthe en France.",
+      "level": "medium",
+      "emoji": "🚀",
+      "duration": 30,
+      "points": 100,
+      "theme": "starwars",
+      "credit": {
+        "author": "Geremia Fortunato",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_90.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-90-17",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel nom porte le vaisseau spatial du contrebandier Han Solo ?",
+      "answer": "Faucon Millénium",
+      "options": [
+        "Anneau Solaire",
+        "Enterprise",
+        "Faucon Millénium",
+        "Intergalactique"
+      ],
+      "explanation": "Le Faucon Millénium fut appelé 'Millenium Condor' dans la version française du premier épisode produit.",
+      "level": "medium",
+      "emoji": "🚀",
+      "duration": 30,
+      "points": 100,
+      "theme": "starwars",
+      "credit": {
+        "author": "Geremia Fortunato",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_90.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-90-19",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Sur quelle planète vit Anakin avant de partir rejoindre les Jedi ?",
+      "answer": "Tatooine",
+      "options": [
+        "Naboo",
+        "Mustafar",
+        "Tatooine",
+        "Dagobah"
+      ],
+      "explanation": "Située dans la Bordure extérieure, cette planète désertique est le refuge des plus vils brigands de la galaxie.",
+      "level": "medium",
+      "emoji": "🚀",
+      "duration": 30,
+      "points": 100,
+      "theme": "starwars",
+      "credit": {
+        "author": "Geremia Fortunato",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_90.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-90-20",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel célèbre chasseur de primes a été engagé par Dark Vador pour traquer Han Solo ?",
+      "answer": "Boba Fett",
+      "options": [
+        "Han Solo",
+        "Boba Fett",
+        "Jabba le Hutt",
+        "Zam Wesell"
+      ],
+      "explanation": "L'origine de Boba Fett est donnée dans 'L'Attaque des clones' : il est le « fils » du légendaire chasseur de primes Jango Fett.",
+      "level": "medium",
+      "emoji": "🚀",
+      "duration": 30,
+      "points": 100,
+      "theme": "starwars",
+      "credit": {
+        "author": "Geremia Fortunato",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_90.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-90-22",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel taux de cette molécule Anakin possède-t-il lorsque Qui-Gon l'analyse pour la première fois ?",
+      "answer": "Plus de 20 000",
+      "options": [
+        "Plus de 5 000",
+        "Plus de 10 000",
+        "Plus de 20 000",
+        "Plus de 1 000"
+      ],
+      "explanation": "Ce taux de midi-­chloriens est de plus supérieur à celui de Yoda, pourtant reconnu comme Grand Maître des Jedi.",
+      "level": "hard",
+      "emoji": "🚀",
+      "duration": 30,
+      "points": 100,
+      "theme": "starwars",
+      "credit": {
+        "author": "Geremia Fortunato",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_90.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-90-23",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Quel mystique de la connaissance est le maître de Dark Sidious ?",
+      "answer": "Dark Plagueis",
+      "options": [
+        "Dark Vador",
+        "Dark Bane",
+        "Dark Tyranus",
+        "Dark Plagueis"
+      ],
+      "explanation": "Seigneur Noir des Sith, il possédait un pouvoir inimaginable qui lui permettait de garder les gens en vie avec la Force.",
+      "level": "hard",
+      "emoji": "🚀",
+      "duration": 30,
+      "points": 100,
+      "theme": "starwars",
+      "credit": {
+        "author": "Geremia Fortunato",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_90.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-90-25",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "À partir de quelle bataille peut-on mesurer la chronologie dans 'Star Wars' ?",
+      "answer": "Bataille de Yavin",
+      "options": [
+        "Bataille de Jaku",
+        "Bataille de Naboo",
+        "Bataille de Coruscant",
+        "Bataille de Yavin"
+      ],
+      "explanation": "La bataille de Yavin oppose l'Empire galactique aux Rebelles autour de la planète gazeuse Yavin.",
+      "level": "hard",
+      "emoji": "🚀",
+      "duration": 30,
+      "points": 100,
+      "theme": "starwars",
+      "credit": {
+        "author": "Geremia Fortunato",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_90.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-90-26",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Que signifie la dernière phrase de Dark Vador avant de mourir : « Tu l'as déjà fait Luke » ?",
+      "answer": "L'avoir sauvé",
+      "options": [
+        "L'avoir trahi",
+        "L'avoir retrouvé",
+        "L'avoir aimé",
+        "L'avoir sauvé"
+      ],
+      "explanation": "Le fait que Dark Vador soit le père des jumeaux Luke Skywalker et Leia Organa constitue l'intrigue principale de la saga.",
+      "level": "hard",
+      "emoji": "🚀",
+      "duration": 30,
+      "points": 100,
+      "theme": "starwars",
+      "credit": {
+        "author": "Geremia Fortunato",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_90.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-90-27",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Contre qui Han Solo remporte-t-il le Faucon Millénium lors d'une partie de sabacc ?",
+      "answer": "Lando Calrissian",
+      "options": [
+        "Watto",
+        "Boba Fett",
+        "Jabba le Hutt",
+        "Lando Calrissian"
+      ],
+      "explanation": "Lando Calrissian est devenu par la suite administrateur de la cité des Nuages, une colonie minière.",
+      "level": "hard",
+      "emoji": "🚀",
+      "duration": 30,
+      "points": 100,
+      "theme": "starwars",
+      "credit": {
+        "author": "Geremia Fortunato",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_90.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-90-28",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Sur quelle planète Luke est-il parti pour apprendre à devenir un véritable Jedi ?",
+      "answer": "Dagobah",
+      "options": [
+        "Malastare",
+        "Utapau",
+        "Dagobah",
+        "Naboo"
+      ],
+      "explanation": "Dagobah, dans le secteur Sluis, est un monde de sombres marais, de bayous putrides et de forêts d'arbres tortueux.",
+      "level": "hard",
+      "emoji": "🚀",
+      "duration": 30,
+      "points": 100,
+      "theme": "starwars",
+      "credit": {
+        "author": "Geremia Fortunato",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_90.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "id": "oqdb-90-30",
+      "universe": "film",
+      "kind": "question",
+      "prompt": "Combien d'années séparent le premier épisode sorti en salle de l'épisode 3 ?",
+      "answer": "28 ans",
+      "options": [
+        "28 ans",
+        "30 ans",
+        "26 ans",
+        "24 ans"
+      ],
+      "explanation": "À l'origine nommée 'La Guerre des étoiles', 'Star Wars' est un univers de science-fiction créé par George Lucas en 1977.",
+      "level": "hard",
+      "emoji": "🚀",
+      "duration": 30,
+      "points": 100,
+      "theme": "starwars",
+      "credit": {
+        "author": "Geremia Fortunato",
+        "source": "https://github.com/Zeuh/OpenQuizzDB/blob/a16819964d171e40e6652368fc562f3bd27d0c5b/data/openquizzdb_90.json",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ]
+}
