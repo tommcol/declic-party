@@ -1,10 +1,18 @@
-# Déclic ! — v0.2
+# Déclic ! — v0.3
 
 Jeu de soirée musique et cinéma, avec une identité et un code indépendants. Interface française, écran animateur et fenêtre publique.
 
 Version publiée : https://declic-party.tommcolin.workers.dev/
 
 ## Jouer
+
+### Nouveautés v0.3
+
+- **Téléphone-buzzer** : choisir Téléphones puis « Buzzer · réponse orale ». Le premier appui reçu par le serveur interrompt l’extrait sur le PC ; l’animateur attribue le titre, l’artiste ou la réponse. Les règles de rebuzz et de reprise sont communes au clavier et au téléphone. Le réseau reste nécessaire et son délai peut influencer l’ordre de réception.
+- **Écoute progressive** : choisir 1, 2, 5 puis 10 secondes. L’animateur déclenche chaque palier, depuis le début de l’extrait. La musique s’arrête automatiquement, puis les équipes peuvent répondre jusqu’à la fin du délai. Les points de réponse valent 100 %, 80 %, 60 %, puis 40 % ; pas de bonus de rapidité sur ces manches. Le bonus de série reste réglable. Les équipes peuvent retenter au palier suivant ; les réponses déjà gagnées gardent leurs points. Seules les questions de type audio utilisent ces paliers.
+- **Paroles à compléter** : choisir ce défi puis préparer une question dans Mes questions. Importer un extrait chanté, écrire la phrase avec un blanc, les mots attendus et trois distracteurs, puis choisir la coupure (0,1 à 30 secondes). La lecture originale s’arrête à cet instant, même après un buzz ou une pause. Ce mode utilise les fichiers préparés par l’animateur, sans récupération automatique de paroles. Une démonstration instrumentale sur une chanson traditionnelle est disponible via Découverte.
+- Correction de la reprise manuelle depuis une pause : elle reprend la manche active, sans tenter de charger une ancienne partie USB.
+
 
 - **Catalogue musique Deezer** : recherche de titres et de playlists publiques, import par lien, écoute des extraits, sélection conservée dans le navigateur. Jusqu’à trois thèmes à mélanger : variété française, pop/rock, disco/dance, rap français, années 80, famille. Disponibilité des extraits selon Deezer ; maximum 30 secondes par question. Les playlists sont limitées aux 100 premiers titres.
 - **Variantes** : titre, artiste, titre et artiste indépendants, pochette progressivement révélée, choix entre plusieurs titres d’un artiste, mélange de défis. La sélection peut privilégier les titres populaires ou moins connus.
@@ -44,7 +52,7 @@ npx wrangler deploy
 - `public/audio.js` : décodage Web Audio, effets et fichiers locaux.
 - `src/catalog.js` : accès Deezer, métadonnées mises en cache cinq minutes, validation des URL audio et diffusion sans stockage permanent des extraits.
 - `src/worker.js` : ressources, salons et Durable Objects SQLite, autorisations et expiration.
-- `tests/` : 18 tests sur les règles, réponses partielles, chronomètre, rebuzz, scores, confidentialité et variantes QCM.
+- `tests/` : 28 tests sur les règles, réponses partielles, chronomètre, rebuzz, scores, confidentialité et variantes QCM.
 
 Les solutions et alias sont exclus des messages publics avant révélation. Chaque téléphone reçoit uniquement son propre résultat partiel ; les points de tous sont publiés à la révélation. Les secrets animateur et équipe ne figurent pas dans les liens publics. Le serveur conserve un hash du secret animateur. Les salons expirent sous 24 heures.
 
@@ -54,7 +62,7 @@ Les solutions et alias sont exclus des messages publics avant révélation. Chaq
 - Pas de bandes-annonces vidéo, QR code intégré, mode LAN hors connexion ou prise en charge des buzzers exclusivement de type manette.
 - Les modèles USB doivent émuler des touches. Aucun matériel physique ni groupe de 50 téléphones n’a été testé.
 - Les médias personnels restent dans le navigateur : les réassocier après transfert des questions JSON. Maximum 30 Mo par fichier ; formats selon le navigateur. Les fichiers longs sont décodés en mémoire.
-- Les extraits bouclent pendant la durée d’une manche ; l’écoute du catalogue joue une fois l’extrait. Le passage automatique après révélation prépare la question suivante ; l’animateur démarre ensuite l’extrait.
+- En écoute continue, les extraits bouclent pendant la durée d’une manche ; l’écoute du catalogue joue une fois l’extrait. Le passage automatique après révélation prépare la question suivante ; l’animateur démarre ensuite l’extrait.
 - La correction approximative tolère une ou deux différences selon la longueur, sans garantir toutes les variantes d’un nom.
 - La reprise des anciennes parties v0.1 exige de créer une nouvelle soirée.
 - Utiliser des contenus dont la diffusion est autorisée pour l’événement.

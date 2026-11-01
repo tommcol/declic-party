@@ -10,7 +10,7 @@ export default {
   try{
    const url=new URL(req.url);
    if(req.method==='GET'&&url.pathname.startsWith('/api/music/'))return musicRoute(req);
-   if(url.pathname==='/api/health')return json({ok:true,version:'0.2.0'});
+   if(url.pathname==='/api/health')return json({ok:true,version:'0.3.0'});
    if(req.method==='POST'&&url.pathname==='/api/rooms'){
     if(req.headers.get('Origin')!==url.origin)return json({error:'Origine refusée'},403);
     if(Number(req.headers.get('Content-Length'))>150000)return json({error:'Partie trop volumineuse'},413);
@@ -18,11 +18,12 @@ export default {
     const data=JSON.parse(text);
     if(!Array.isArray(data.questions)||data.questions.length<1||data.questions.length>100)return json({error:'Choisissez entre 1 et 100 questions.'},400);
     for(const q of data.questions){if(typeof q.answer!=='string'||!q.answer.trim()||q.answer.length>180||typeof q.prompt!=='string'||q.prompt.length>300||!Array.isArray(q.options)||q.options.length>4||q.options.some(o=>typeof o!=='string'||o.length>180)||!q.options.includes(q.answer)||!Number.isFinite(q.duration)||q.duration<5||q.duration>90||!Number.isFinite(q.points)||q.points<1||q.points>1000)return json({error:'Question invalide : vérifiez les réponses, les points et la durée.'},400);}
+    if(data.questions.some(q=>q.kind==='lyrics'&&(!Number.isFinite(q.cutAt)||q.cutAt<.1||q.cutAt>30||q.cutAt>=q.duration)))return json({error:'Choisissez une coupure entre 0,1 et 30 secondes, avant la fin de la manche.'},400);
     const allowedTargets=['both','title','artist','cover','artistTitle'];
-    data.questions=data.questions.map(q=>({id:String(q.id).slice(0,80),universe:q.universe==='film'?'film':'music',kind:['audio','image','question'].includes(q.kind)?q.kind:'question',prompt:q.prompt,answer:q.answer,aliases:(Array.isArray(q.aliases)?q.aliases:[]).filter(v=>typeof v==='string').slice(0,15).map(v=>v.slice(0,180)),options:q.options,duration:q.duration,points:q.points,title:typeof q.title==='string'?q.title.slice(0,180):undefined,artist:typeof q.artist==='string'?q.artist.slice(0,180):undefined,titleAliases:(Array.isArray(q.titleAliases)?q.titleAliases:[]).filter(v=>typeof v==='string').slice(0,10).map(v=>v.slice(0,180)),artistAliases:(Array.isArray(q.artistAliases)?q.artistAliases:[]).filter(v=>typeof v==='string').slice(0,10).map(v=>v.slice(0,180)),target:allowedTargets.includes(q.target)?q.target:'title',emoji:typeof q.emoji==='string'?q.emoji.slice(0,80):undefined,artwork:typeof q.artwork==='string'&&/^https:\/\/[^/]+\.dzcdn\.net\//.test(q.artwork)?q.artwork:undefined,link:typeof q.link==='string'&&/^https:\/\/www\.deezer\.com\//.test(q.link)?q.link:undefined,provider:q.provider==='Deezer'?'Deezer':undefined}));
+    data.questions=data.questions.map(q=>({id:String(q.id).slice(0,80),universe:q.universe==='film'?'film':'music',cutAt:q.kind==='lyrics'?q.cutAt:undefined,kind:['audio','image','question','lyrics'].includes(q.kind)?q.kind:'question',prompt:q.prompt,answer:q.answer,aliases:(Array.isArray(q.aliases)?q.aliases:[]).filter(v=>typeof v==='string').slice(0,15).map(v=>v.slice(0,180)),options:q.options,duration:q.duration,points:q.points,title:typeof q.title==='string'?q.title.slice(0,180):undefined,artist:typeof q.artist==='string'?q.artist.slice(0,180):undefined,titleAliases:(Array.isArray(q.titleAliases)?q.titleAliases:[]).filter(v=>typeof v==='string').slice(0,10).map(v=>v.slice(0,180)),artistAliases:(Array.isArray(q.artistAliases)?q.artistAliases:[]).filter(v=>typeof v==='string').slice(0,10).map(v=>v.slice(0,180)),target:allowedTargets.includes(q.target)?q.target:'title',emoji:typeof q.emoji==='string'?q.emoji.slice(0,80):undefined,artwork:typeof q.artwork==='string'&&/^https:\/\/[^/]+\.dzcdn\.net\//.test(q.artwork)?q.artwork:undefined,link:typeof q.link==='string'&&/^https:\/\/www\.deezer\.com\//.test(q.link)?q.link:undefined,provider:q.provider==='Deezer'?'Deezer':undefined}));
     const code=Array.from(crypto.getRandomValues(new Uint8Array(8)),n=>'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'[n%32]).join('');
     const token=crypto.randomUUID();
-    const result=await env.ROOMS.getByName(code).initialize({questions:data.questions,input:data.input==='text'?'text':'qcm',hostHash:await digest(token),code,settings:data.settings&&typeof data.settings==='object'?data.settings:{},effect:['normal','fast','slow','chipmunk','reverse','image'].includes(data.effect)?data.effect:'normal'});
+    const result=await env.ROOMS.getByName(code).initialize({questions:data.questions,input:['text','buzzer'].includes(data.input)?data.input:'qcm',hostHash:await digest(token),code,settings:data.settings&&typeof data.settings==='object'?data.settings:{},effect:['normal','fast','slow','chipmunk','reverse','image'].includes(data.effect)?data.effect:'normal'});
     return result?json({code,token}):json({error:'Veuillez réessayer.'},409);
    }
    const m=url.pathname.match(/^\/api\/rooms\/([A-Z2-9]{8})$/);
@@ -53,8 +54,9 @@ export class PartyRoom extends DurableObject {
     if(!t){if(s.phase!=='lobby')throw Error('La partie a commencé. Rejoignez la prochaine !');if(s.teams.length>=50)throw Error('50 équipes maximum');const name=String(m.name||'').trim().slice(0,24);if(!name)throw Error('Entrez un nom d’équipe');if(s.teams.some(t=>t.name.toLowerCase()===name.toLowerCase()))throw Error('Ce nom est déjà utilisé');t={id:crypto.randomUUID(),name,score:0,key:'',token:crypto.randomUUID()};s.teams.push(t);await this.ctx.storage.put('room',s);}
     a.role='player';a.team=t.id;ws.serializeAttachment(a);this.send(ws,{type:'session',id:t.id,token:t.token});this.broadcast(s);return;
    }
-   if(m.type==='answer'&&a.role==='player'){if(m.questionId!==s.questions[s.index]?.id)throw Error('Cette question est terminée');s=applyAction(s,{type:'answer',team:a.team,answer:m.answer,title:m.title,artist:m.artist},now);this.send(ws,{type:'received',accepted:!!s.answers[a.team]});}
-   else if(a.role==='host'&&['play','pause','resume','reveal','next','adjust'].includes(m.type)){if(m.type==='play'&&!s.teams.length)throw Error('Attendez au moins une équipe');s=applyAction(s,m,now);}
+   if(m.type==='buzz'&&a.role==='player'&&s.input==='buzzer'){if(m.questionId!==s.questions[s.index]?.id)throw Error('Cette question est terminée');s=applyAction(s,{type:'buzz',team:a.team},now);}
+   else if(m.type==='answer'&&a.role==='player'&&s.input!=='buzzer'){if(m.questionId!==s.questions[s.index]?.id)throw Error('Cette question est terminée');s=applyAction(s,{type:'answer',team:a.team,answer:m.answer,title:m.title,artist:m.artist},now);this.send(ws,{type:'received',accepted:!!s.answers[a.team]});}
+   else if(a.role==='host'&&['play','pause','resume','reveal','next','adjust','judge','listen-more'].includes(m.type)){if(m.type==='play'&&!s.teams.length)throw Error('Attendez au moins une équipe');s=applyAction(s,m,now);}
    else throw Error('Action non autorisée');
    await this.ctx.storage.put('room',s);
    await this.ctx.storage.setAlarm(s.phase==='playing'?s.endAt:s.nextAt||s.expires);
