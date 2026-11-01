@@ -1,0 +1,53 @@
+export const normalize = v => String(v??'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]/g,'');
+export function matches(value, expected, aliases=[]){const a=normalize(value);if(!a)return false;return [expected,...aliases].filter(Boolean).some(v=>{const b=normalize(v);if(a===b)return true;if(Math.min(a.length,b.length)<5)return false;const max=Math.min(a.length,b.length)>=9?2:1;if(Math.abs(a.length-b.length)>max)return false;let row=Array.from({length:b.length+1},(_,i)=>i);for(let i=0;i<a.length;i++){const next=[i+1];for(let j=0;j<b.length;j++)next.push(Math.min(next[j]+1,row[j+1]+1,row[j]+(a[i]===b[j]?0:1)));row=next;}return row[b.length]<=max;});}
+export function targets(q){return (q.title&&q.artist)||q.musical?(q.target==='both'?['title','artist']:[q.target==='artist'||q.target==='cover'?'artist':'title']):['answer'];}
+export function gameSettings(input={}){return {duration:Math.max(5,Math.min(90,Number(input.duration)||30)),titlePoints:Math.max(1,Math.min(1000,Number(input.titlePoints)||50)),artistPoints:Math.max(1,Math.min(1000,Number(input.artistPoints)||50)),speed:input.speed!==false,streak:input.streak!==false,rebuzz:['round','none','3','5','10'].includes(String(input.rebuzz))?String(input.rebuzz):'round',resume:input.resume==='manual'?'manual':'auto',autoNext:input.autoNext===true};}
+export function createGame(questions, teams=[], mode='usb', input='qcm', settings={}) {
+ return {version:2,questions:structuredClone(questions),teams:teams.map((t,i)=>({id:t.id||String(i),name:t.name||t,score:0,key:t.key||String(i+1),streak:0})),mode,input,settings:gameSettings(settings),index:0,phase:'lobby',buzz:null,blocked:[],cooldowns:{},claimed:{},answers:{},pending:{},startAt:0,endAt:0,remaining:0,event:null,revision:0,history:[]};
+}
+export function applyAction(game, action, now=Date.now()) {
+ const s=structuredClone(game), q=s.questions[s.index];s.settings=gameSettings(s.settings);s.history??=[];s.cooldowns??={};s.claimed??={};
+ if(action.questionId&&action.questionId!==q?.id)return game;
+ const emit=(type,extra={})=>{s.event={type,id:crypto.randomUUID(),...extra};};
+ const roundResult=id=>s.answers[id]??={parts:[],breakdown:{title:0,artist:0,answer:0,speed:0,streak:0},total:0,attempts:0};
+ const award=(id,part)=>{const r=roundResult(id);if(r.parts.includes(part))return;r.parts.push(part);const points=part==='title'?s.settings.titlePoints:part==='artist'?s.settings.artistPoints:(q.points||100);r.breakdown[part]=points;r.total+=points;if(r.parts.length===1){const speed=s.settings.speed?Math.round(50*Math.max(0,Math.min(1,(s.endAt-now)/((q.duration||s.settings.duration)*1000)))):0;const streak=s.settings.streak?Math.min(5,s.teams.find(t=>t.id===id)?.streak||0)*10:0;r.breakdown.speed=speed;r.breakdown.streak=streak;r.total+=speed+streak;}s.pending[id]=r.total;};
+ const reveal=()=>{for(const t of s.teams){t.score+=s.pending[t.id]||0;t.streak=s.answers[t.id]?.parts?.length?(t.streak||0)+1:0;}s.pending={};s.phase='reveal';s.buzz=null;s.history.push({index:s.index,question:{id:q.id,prompt:q.prompt,title:q.title,artist:q.artist,answer:q.answer,provider:q.provider,link:q.link},results:s.teams.map(t=>({id:t.id,name:t.name,score:t.score,result:s.answers[t.id]||{parts:[],total:0,breakdown:{}}}))});emit('reveal');s.nextAt=s.settings.autoNext?now+8000:0;};
+ const continueRound=()=>{s.buzz=null;if(s.settings.resume==='manual'){s.phase='paused';}else{s.phase='playing';s.startAt=now;s.endAt=now+s.remaining;}};
+ if(action.type==='play'&&['lobby','ready'].includes(s.phase)&&q){s.phase='playing';s.startAt=now+3000;s.endAt=s.startAt+(q.duration||s.settings.duration)*1000;s.buzz=null;s.blocked=[];s.cooldowns={};s.claimed={};s.answers={};s.pending={};emit('start');}
+ else if(action.type==='pause'&&s.phase==='playing'&&now>=s.startAt){s.remaining=Math.max(0,s.endAt-now);s.phase='paused';emit('pause');}
+ else if(action.type==='resume'&&s.phase==='paused'){s.phase='playing';s.startAt=now;s.endAt=now+s.remaining;emit('resume');}
+ else if(action.type==='buzz'&&s.mode==='usb'&&s.phase==='playing'&&now>=s.startAt&&now<s.endAt&&s.teams.some(t=>t.id===action.team)&&!s.blocked.includes(action.team)&&(s.cooldowns[action.team]||0)<=now){s.buzz=action.team;s.remaining=s.endAt-now;s.phase='buzzed';emit('buzz',{team:action.team});}
+ else if(action.type==='judge'&&s.phase==='buzzed'){
+  const id=s.buzz;if(action.correct){const wanted=targets(q),requested=action.part&&action.part!=='both'?[action.part]:wanted;const fresh=requested.filter(p=>wanted.includes(p)&&!s.claimed[p]);if(!fresh.length)return game;for(const p of fresh){award(id,p);s.claimed[p]=id;}if(wanted.every(p=>s.claimed[p])){reveal();s.event.type='correct';s.event.team=id;}else{continueRound();emit('partial',{team:id});}}
+  else{if(s.settings.rebuzz==='round')s.blocked.push(id);else if(s.settings.rebuzz!=='none')s.cooldowns[id]=now+Number(s.settings.rebuzz)*1000;if(s.blocked.length>=s.teams.length){reveal();}else{continueRound();emit('wrong');}}
+ }
+ else if(action.type==='answer'&&s.mode==='phone'&&s.phase==='playing'&&now>=s.startAt&&now<s.endAt&&s.teams.some(t=>t.id===action.team)){
+  const id=action.team,r=roundResult(id),wanted=targets(q);if(r.attempts>=(s.input==='qcm'?1:5)||wanted.every(p=>r.parts.includes(p)))return game;
+  const values=s.input==='text'&&q.title&&q.artist?{title:action.title,artist:action.artist}:{[wanted[0]]:action.answer};
+  if(!Object.values(values).some(v=>typeof v==='string'&&v.trim()))return game;if(s.input==='qcm'&&!q.options.includes(action.answer))return game;
+  r.attempts++;for(const part of wanted){if(r.parts.includes(part))continue;const text=String(values[part]||'').trim().slice(0,180);if(!text)continue;const expected=part==='title'?q.title:part==='artist'?q.artist:q.answer;const aliases=part==='artist'?(q.artistAliases||[]):part==='title'?(q.titleAliases||[]):(q.aliases||[]);if(s.input==='qcm'?normalize(text)===normalize(expected):matches(text,expected,aliases))award(id,part);}
+  r.correct=r.parts.length>0;emit('answer');
+ }
+ else if((action.type==='reveal'||action.type==='timeout')&&['playing','buzzed','paused'].includes(s.phase)){
+  if(action.type==='timeout'&&(s.phase!=='playing'||now<s.endAt))return game;reveal();
+ }
+ else if(action.type==='next'&&s.phase==='reveal'){s.index++;s.phase=s.index>=s.questions.length?'finished':'ready';s.buzz=null;s.blocked=[];s.answers={};s.pending={};s.claimed={};s.cooldowns={};s.nextAt=0;emit(s.phase==='finished'?'podium':'next');}
+ else if(action.type==='adjust'&&s.teams.some(t=>t.id===action.team)&&Number.isFinite(action.points)&&Math.abs(action.points)<=1000){s.teams.find(t=>t.id===action.team).score+=Math.round(action.points);emit('adjust');}
+ else return game;
+ s.revision++;return s;
+}
+export function publicGame(s,teamId){
+ const q=s.questions[s.index],revealed=s.phase==='reveal';
+ const question=q?{id:q.id,universe:q.universe,kind:q.kind,prompt:q.prompt,options:s.input==='qcm'?q.options:[],emoji:q.emoji,duration:q.duration,points:q.points,target:q.target,musical:!!q.title&&!!q.artist,displayArtist:q.target==='artistTitle'?q.artist:undefined,artwork:q.target==='cover'||s.effect==='image'||revealed?q.artwork:undefined,...(revealed?{answer:q.answer,title:q.title,artist:q.artist,provider:q.provider,link:q.link}: {})}:null;
+ return {version:2,mode:s.mode,input:s.input,index:s.index,total:s.questions.length,phase:s.phase,buzz:s.buzz,blocked:s.blocked,claimed:s.claimed,answered:Object.keys(s.answers),remaining:s.remaining,teams:s.teams.map(({id,name,score,key,streak})=>({id,name,score,key,streak})),startAt:s.startAt,endAt:s.endAt,nextAt:s.nextAt,event:s.event,revision:s.revision,question,effect:s.effect,history:s.history,me:teamId?s.answers[teamId]:undefined};
+}
+export const DEMO=[
+{id:'m1',universe:'music',kind:'audio',prompt:'Quel est le titre de cette mélodie ?',answer:'Frère Jacques',aliases:['frere jacques'],options:['Frère Jacques','Au clair de la lune','Sur le pont d’Avignon','Une souris verte'],notes:[[60,.4],[62,.4],[64,.4],[60,.4],[60,.4],[62,.4],[64,.4],[60,.4],[64,.4],[65,.4],[67,.8],[64,.4],[65,.4],[67,.8]],hint:'Une mélodie qui traverse les générations.',duration:25,points:100},
+{id:'m2',universe:'music',kind:'audio',prompt:'Reconnaissez-vous cette œuvre ?',answer:'Ode à la joie',aliases:['hymne a la joie','ode a la joie','beethoven'],options:['La Marche turque','Ode à la joie','Le Lac des cygnes','Les Quatre Saisons'],notes:[[64,.4],[64,.4],[65,.4],[67,.4],[67,.4],[65,.4],[64,.4],[62,.4],[60,.4],[60,.4],[62,.4],[64,.4],[64,.6],[62,.2],[62,.8]],hint:'Un air de Beethoven.',duration:25,points:100},
+{id:'m3',universe:'music',kind:'question',prompt:'Quel instrument possède généralement 88 touches ?',answer:'Le piano',aliases:['piano'],options:['L’accordéon','La guitare','Le piano','La batterie'],emoji:'🎹',hint:'Les touches noires et blanches.',duration:20,points:100},
+{id:'m4',universe:'music',kind:'audio',prompt:'Retrouvez cette chanson traditionnelle.',answer:'Au clair de la lune',aliases:['au clair de lune'],options:['Alouette','Au clair de la lune','Frère Jacques','À la claire fontaine'],notes:[[60,.4],[60,.4],[60,.4],[62,.4],[64,.8],[62,.8],[60,.4],[64,.4],[62,.4],[62,.4],[60,1]],duration:25,points:100,hint:'Une chanson à fredonner la nuit.'},
+{id:'f1',universe:'film',kind:'image',prompt:'Quel film se cache derrière ces indices ?',answer:'Le Roi Lion',aliases:['roi lion','the lion king'],options:['Madagascar','Le Roi Lion','Tarzan','Le Livre de la jungle'],emoji:'🦁 👑 🌅',hint:'Une histoire de famille dans la savane.',duration:25,points:100},
+{id:'f2',universe:'film',kind:'image',prompt:'Trois indices. Un film culte.',answer:'Retour vers le futur',aliases:['back to the future'],options:['Interstellar','Cars','Retour vers le futur','Le Cinquième Élément'],emoji:'🚗 ⚡ 🕰️',hint:'La destination ? Une autre époque.',duration:25,points:100},
+{id:'f3',universe:'film',kind:'image',prompt:'À vous de retrouver ce film !',answer:'Jurassic Park',aliases:['jurassic park'],options:['King Kong','Jurassic Park','Avatar','Godzilla'],emoji:'🦖 🧬 🏝️',hint:'Une visite qui tourne mal.',duration:25,points:100},
+{id:'f4',universe:'film',kind:'image',prompt:'Reconnaissez le film avec ces indices.',answer:'Titanic',aliases:['titanic'],options:['Pirates des Caraïbes','L’Odyssée de Pi','Titanic','Les Dents de la mer'],emoji:'🚢 🧊 💔',hint:'Une traversée devenue légendaire.',duration:25,points:100}
+];
