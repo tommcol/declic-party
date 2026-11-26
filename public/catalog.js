@@ -3,6 +3,67 @@ export const THEMES=[['fr','🇫🇷','Variété française','Des classiques aux
 export const CHALLENGES=[['title','🎵','Le titre'],['artist','🎤','L’artiste'],['both','⚡','Titre + artiste'],['cover','🖼️','Pochette mystère'],['artistTitle','💿','Parmi ses titres'],['mix','🎲','Surprise !']];
 export function shuffle(values){const a=[...values];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
 export const cleanTitle=s=>String(s).replace(/\s*\((?:.*?remaster.*?|.*?version.*?|.*?edition.*?)\)\s*/gi,' ').replace(/\s*-\s*(?:remaster|radio edit).*$/i,'').trim();
+// The year belongs to the recording listed here, not to a later reissue.
+export const SPECIAL_TRACKS={
+ timeline:[
+  ['I Want to Hold Your Hand','The Beatles',1963],['Respect','Aretha Franklin',1967],
+  ['Bohemian Rhapsody','Queen',1975],['Dancing Queen','ABBA',1976],
+  ['Billie Jean','Michael Jackson',1982],['Take On Me','a-ha',1985],
+  ['Smells Like Teen Spirit','Nirvana',1991],['Wannabe','Spice Girls',1996],
+  ['Crazy in Love','Beyoncé',2003],['Umbrella','Rihanna',2007],
+  ['Rolling in the Deep','Adele',2010],['Get Lucky','Daft Punk',2013],
+  ['Shape of You','Ed Sheeran',2017],['Blinding Lights','The Weeknd',2019],
+  ['Flowers','Miley Cyrus',2023]
+ ],
+ coversQuiz:[
+  ['Hallelujah','Jeff Buckley','Leonard Cohen'],['I Will Always Love You','Whitney Houston','Dolly Parton'],
+  ['Nothing Compares 2 U','Sinéad O’Connor','The Family'],['Girls Just Want to Have Fun','Cyndi Lauper','Robert Hazard'],
+  ['Tainted Love','Soft Cell','Gloria Jones'],['I Love Rock ’n’ Roll','Joan Jett & The Blackhearts','The Arrows'],
+  ['The Man Who Sold the World','Nirvana','David Bowie'],['Valerie','Mark Ronson','The Zutons'],
+  ['Respect','Aretha Franklin','Otis Redding'],['Killing Me Softly With His Song','Fugees','Lori Lieberman'],
+  ['Twist and Shout','The Beatles','The Top Notes'],['All Along the Watchtower','Jimi Hendrix','Bob Dylan']
+ ],
+ soundtrack:[
+  ['My Heart Will Go On','Céline Dion','Titanic'],['Eye of the Tiger','Survivor','Rocky III'],
+  ['Ghostbusters','Ray Parker Jr.','SOS Fantômes'],['Footloose','Kenny Loggins','Footloose'],
+  ['A Thousand Miles','Vanessa Carlton','FBI : Fausses blondes infiltrées'],
+  ['You’ve Got a Friend in Me','Randy Newman','Toy Story'],
+  ['I’ll Be There for You','The Rembrandts','Friends'],
+  ['Game of Thrones','Ramin Djawadi','Game of Thrones'],
+  ['Stranger Things','Kyle Dixon','Stranger Things'],
+  ['Shallow','Lady Gaga','A Star Is Born'],
+  ['Happy','Pharrell Williams','Moi, moche et méchant 2'],
+  ['(I’ve Had) The Time of My Life','Bill Medley','Dirty Dancing']
+ ]
+};
+export function matchSpecialTrack(tracks,title,artist){
+ const titleKey=normalize(title),artistKey=normalize(artist);
+ return tracks.find(t=>t.preview&&normalize(cleanTitle(t.title))===titleKey&&normalize(t.artist).startsWith(artistKey));
+}
+export function specialQuestions(mode,entries,config){
+ const values=SPECIAL_TRACKS[mode].map(entry=>entry[2]);
+ const out=[];
+ for(const {track,entry} of shuffle(entries)){
+  const [title,artist,value]=entry;
+  let prompt,answer,options,timeline;
+  if(mode==='timeline'){
+   const anchors=shuffle(SPECIAL_TRACKS.timeline.filter(row=>row!==entry)).slice(0,3).sort((a,b)=>a[2]-b[2]);
+   timeline=anchors.map(row=>row[0]+' · '+row[2]);
+   options=['A','B','C','D'];
+   answer=options[anchors.filter(row=>row[2]<value).length];
+   prompt='Où placer « '+title+' » sur la frise ?';
+  }else{
+   answer=value;
+   options=shuffle([answer,...shuffle(values.filter(v=>v!==answer)).slice(0,3)]);
+   prompt=mode==='coversQuiz'?'Qui a interprété la version originale ?':'Dans quel film ou quelle série entend-on cette musique ?';
+  }
+  out.push({id:crypto.randomUUID(),universe:mode==='soundtrack'?'film':'music',kind:'audio',
+   target:mode,prompt,answer,options,timeline,title,artist,
+   explanation:mode==='timeline'?title+' — '+artist+' ('+value+').':title+' — '+artist+'.',
+   audioUrl:track.preview,duration:config.duration,points:100,provider:'Deezer',link:track.link});
+ }
+ return out.slice(0,config.count);
+}
 export function musicQuestions(tracks,config){
  let pool=tracks.filter(t=>t.id&&t.title&&t.artist&&t.preview&&(config.explicit!==false||!t.explicit));const seen=new Set();pool=pool.filter(t=>{const k=normalize(t.artist+cleanTitle(t.title));if(seen.has(k))return false;seen.add(k);return true;});
  if(config.difficulty==='easy')pool.sort((a,b)=>(b.rank||0)-(a.rank||0));else if(config.difficulty==='hard')pool.sort((a,b)=>(a.rank||0)-(b.rank||0));else pool=shuffle(pool);

@@ -1,6 +1,6 @@
 import {test} from 'node:test';import assert from 'node:assert/strict';
 import {createGame,applyAction,publicGame,matches} from '../public/engine.js';
-import {musicQuestions} from '../public/catalog.js';
+import {musicQuestions,SPECIAL_TRACKS,specialQuestions,matchSpecialTrack} from '../public/catalog.js';
 const q={id:'song',universe:'music',kind:'audio',title:'Get Lucky',artist:'Daft Punk',artistAliases:['Daft Punk'],answer:'Get Lucky',target:'both',options:['Get Lucky','Imagine','Billie Jean','Dancing Queen'],duration:30,points:100};
 const start=(mode='usb',settings={})=>applyAction(createGame([q],[{id:'a',name:'A'},{id:'b',name:'B'}],mode,'text',{speed:false,streak:false,...settings}),{type:'play'},0);
 test('Titre puis artiste peuvent être trouvés par deux équipes, sans double attribution',()=>{let s=start();s=applyAction(s,{type:'buzz',team:'a'},5000);s=applyAction(s,{type:'judge',correct:true,part:'title'},5100);assert.equal(s.phase,'playing');assert.equal(s.pending.a,50);s=applyAction(s,{type:'buzz',team:'b'},6000);const invalid=applyAction(s,{type:'judge',correct:true,part:'title'},6100);assert.equal(invalid,s);s=applyAction(s,{type:'judge',correct:true,part:'artist'},6200);assert.equal(s.phase,'reveal');assert.equal(s.teams[0].score,50);assert.equal(s.teams[1].score,50);assert.equal(s.history.length,1);});
@@ -34,4 +34,26 @@ test('La bonne pochette : quatre albums, choix anonymes et correction de la lett
  assert.equal(visible.title,undefined);
  s=applyAction(s,{type:'answer',team:'a',answer:q.answer},5000);
  assert.equal(s.answers.a.total,100);
+});
+
+test('Jeux spécialisés : contrôle de l’interprète, réponse cachée et correction QCM',()=>{
+ for(const mode of ['timeline','coversQuiz','soundtrack']){
+  const entry=SPECIAL_TRACKS[mode][0];
+  const [title,artist,value]=entry;
+  const track={title,artist,preview:'/preview/123'};
+  assert.equal(matchSpecialTrack([{...track,artist:'Autre interprète'},track],title,artist),track);
+  const [question]=specialQuestions(mode,[{track,entry}],{duration:20,count:5});
+  let s=createGame([question],[{id:'a',name:'Alpha'}],'phone','qcm',{speed:false,streak:false});
+  s=applyAction(s,{type:'play'},1000);
+  const visible=publicGame(s,'a').question;
+  assert.equal(visible.answer,undefined);
+  assert.equal(visible.explanation,undefined);
+  assert.equal(visible.options.length,4);
+  if(mode==='timeline'){
+   const years=visible.timeline.map(label=>Number(label.split(' · ').at(-1)));
+   assert.equal(question.answer,visible.options[years.filter(year=>year<value).length]);
+  }else assert.equal(question.answer,value);
+  s=applyAction(s,{type:'answer',team:'a',answer:question.answer},5000);
+  assert.equal(s.answers.a.total,100);
+ }
 });

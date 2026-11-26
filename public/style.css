@@ -47,3 +47,15 @@
   background: var(--lime);
   color: #241539;
 }
+
+.music-timeline {
+  list-style: none;
+  padding: 0;
+}
+.music-timeline .option {
+  width: 100%;
+}
+.music-timeline p {
+  margin: .55rem 0;
+  font-weight: 700;
+}

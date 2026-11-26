@@ -69,3 +69,36 @@ test('Bingo musical : carton privé, ligne prématurée refusée et victoire apr
  assert.equal(s.phase,'finished');
  assert.equal(publicGame(s,'b').bingoWinner,'a');
 });
+
+test('Maillon faible : points sécurisés, points perdus et vote privé',()=>{
+ const participants=[...teams,{id:'c',name:'Gamma'}];
+ const questions=Array.from({length:5},(_,i)=>({...audio,id:'track-'+i}));
+ let s=createGame(questions,participants,'phone','qcm',{chain:true,speed:false,streak:false});
+ const action=(type,now,extra={})=>{s=applyAction(s,{type,...extra},now);};
+ action('play',1000);
+ action('answer',4500,{team:'a',answer:'Titre'});
+ action('answer',4500,{team:'b',answer:'Titre'});
+ action('reveal',5000);
+ assert.equal(publicGame(s,'a').chainUnbanked,50);
+ assert.equal(s.teams[0].score,0);
+ action('next',5100);
+ action('play',5200);
+ action('chain-bank',8500,{team:'a'});
+ action('answer',9000,{team:'b',answer:'Faux'});
+ action('reveal',9100);
+ assert.equal(s.teams[0].score,50);
+ assert.equal(publicGame(s,'b').chainUnbanked,0);
+ action('next',9200);
+ action('play',9300);
+ action('reveal',13000);
+ action('chain-vote',13100,{team:'a',candidate:'c'});
+ action('chain-vote',13200,{team:'b',candidate:'c'});
+ assert.equal(publicGame(s,'a').chainMyVote,'c');
+ assert.equal(publicGame(s,'c').chainMyVote,undefined);
+ action('next',14000);
+ assert.equal(s.teams[2].eliminated,true);
+ action('play',14100);
+ const before=s;
+ action('answer',18000,{team:'c',answer:'Titre'});
+ assert.equal(s,before);
+});
