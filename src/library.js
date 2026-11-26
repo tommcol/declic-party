@@ -1,5 +1,6 @@
 import { DurableObject } from "cloudflare:workers";
 import { LIBRARY_SEED, LIBRARY_SEED_VERSION } from './library-seed.js';
+import { LIBRARY_MASTER } from './library-master.js';
 
 const librarySources = {
  fr20261106: 'Official Charts / SNEP, 6–12 novembre 2026',
@@ -46,8 +47,10 @@ export function libraryGroups(year = new Date().getUTCFullYear()) {
 const normalizeLibraryText = value => value.normalize('NFKD')
  .replace(/\p{M}/gu,'').toLowerCase().replace(/[^\p{L}\p{N}]+/gu,' ').trim();
 
+let seedTracks;
 export function seedLibrary() {
- return LIBRARY_SEED.split('\n').map(line=>{
+ if(seedTracks)return seedTracks;
+ const existing=LIBRARY_SEED.split('\n').map(line=>{
   const [originalYear,rawArtist,title,tags,work,source]=line.split('|');
   const year=Number(originalYear), artist=rawArtist.trim();
   const id=normalizeLibraryText(artist)+'|'+normalizeLibraryText(title);
@@ -55,6 +58,16 @@ export function seedLibrary() {
   const playlists=[...new Set([String(decade),...tags.split(','),'mix'])];
   return {id,title,artist,year,playlists,work:work||null,source:source??null};
  });
+ const tracks=new Map(existing.map(track=>[track.id,track]));
+ for(const [title,artist,year,playlists,work,source] of LIBRARY_MASTER){
+  const id=normalizeLibraryText(artist)+'|'+normalizeLibraryText(title);
+  const previous=tracks.get(id);
+  tracks.set(id,{id,title,artist,year:year||0,
+   playlists:[...new Set([...(previous?.playlists||[]),...playlists])],
+   work:work||previous?.work||null,source:source||previous?.source||null});
+ }
+ seedTracks=[...tracks.values()];
+ return seedTracks;
 }
 
 export function libraryRouteParams(url) {
@@ -115,8 +128,15 @@ export class MusicLibrary extends DurableObject {
    WHERE playlist=? AND excluded=? AND search LIKE ?
    ORDER BY title COLLATE NOCASE,id LIMIT ? OFFSET ?
   `,playlist,Number(excluded),'%'+query+'%',libraryPAGE+1,offset).toArray();
-  return {tracks:rows.slice(0,libraryPAGE).map(row=>({...row,source:librarySources[row.source]??null,available:false,difficulty:null})),
+  return {tracks:rows.slice(0,libraryPAGE).map(row=>({...row,year:row.year||null,source:librarySources[row.source]??row.source??null,available:false,difficulty:null})),
    next:rows.length>libraryPAGE?offset+libraryPAGE:null};
+ }
+
+ candidates(playlist,limit){
+  return this.db.exec(`
+   SELECT id,title,artist,year,work FROM library_membership JOIN library_track ON track=id
+   WHERE playlist=? AND excluded=0 ORDER BY RANDOM() LIMIT ?
+  `,playlist,limit).toArray();
  }
 
  setExcluded(id,excluded) {

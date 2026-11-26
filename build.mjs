@@ -8,6 +8,7 @@ let worker=await readFile(new URL('src/worker.js',import.meta.url),'utf8');
 worker=worker.replace("import {createGame,applyAction,publicGame,normalizeQuizCredit,BINGO_CARD_SIZE} from '../public/engine.js';",'').replace("import {musicRoute} from './catalog.js';",'').replace("import {ASSETS} from './assets.generated.js';",'');
 worker=worker.replace("import {MusicLibrary,libraryRouteParams} from './library.js';",'').replace('export {MusicLibrary};','');
 const librarySeed=(await readFile(new URL('src/library-seed.js',import.meta.url),'utf8')).replaceAll('export ','');
+const libraryMaster=(await readFile(new URL('src/library-master.js',import.meta.url),'utf8')).replace(/^export /gm,'');
 const library=(await readFile(new URL('src/library.js',import.meta.url),'utf8'))
  .replace(/^import .*;$/gm,'');
 worker=worker.replace(/^import .*from '\.\/tyrolien-room.js';$/m,'');
@@ -17,5 +18,5 @@ const tyrolien=(await Promise.all(['public/music-source.js','src/tyrolien.js','s
 const catalog=(await readFile(new URL('src/catalog.js',import.meta.url),'utf8')).replaceAll('export ','');
 const engine=(await readFile(new URL('public/engine.js',import.meta.url),'utf8')).split('export const DEMO=')[0].replaceAll('export ','');
 await mkdir(new URL('dist/',import.meta.url),{recursive:true});
-await writeFile(new URL('dist/worker.mjs',import.meta.url),'const ASSETS='+JSON.stringify(assets)+';\n'+engine+'\n'+catalog+'\n'+tyrolien+'\n'+librarySeed+'\n'+library+'\n'+worker);
+await writeFile(new URL('dist/worker.mjs',import.meta.url),'const ASSETS='+JSON.stringify(assets)+';\n'+engine+'\n'+catalog+'\n'+tyrolien+'\n' +librarySeed+'\n'+libraryMaster+'\n'+library+'\n'+worker);
 console.log('Built Déclic ! — '+Object.keys(assets).length+' assets, standalone Worker bundle.');

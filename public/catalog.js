@@ -63,7 +63,7 @@ export function specialQuestions(mode,entries,config){
  const soundtrack=['soundtrack','tvThemes','allSoundtracks'].includes(mode);
  const sources=mode==='allSoundtracks'?[...SPECIAL_TRACKS.soundtrack,...SPECIAL_TRACKS.tvThemes]:SPECIAL_TRACKS[mode];
  const choiceIndex=mode==='coversQuiz'&&config.coversDirection==='original'?1:2;
- const values=[...new Set(sources.map(entry=>entry[choiceIndex]))];
+ const values=[...new Set([...sources.map(entry=>entry[choiceIndex]),...entries.map(item=>item.entry[2])])];
  const out=[];
  for(const {track,entry} of shuffle(entries)){
   const [title,artist,value]=entry;

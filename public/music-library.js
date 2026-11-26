@@ -1,6 +1,7 @@
 export function openMusicLibrary(root, request, escape) {
  let category='', playlist='', query='', offset=0, excluded=false, summary=null;
  let generation=0, timer;
+ const selectedPlaylists=new Map();
  const count=new Intl.NumberFormat('fr-FR');
  const button=(label, action, value='')=>
   `<button type="button" class="btn ghost" data-library="${action}" value="${escape(value)}">${label}</button>`;
@@ -18,7 +19,9 @@ export function openMusicLibrary(root, request, escape) {
   root.innerHTML=`<section class="music-library">
    <div class="music-library-actions"><button type="button" class="btn ghost" data-action="home">← Accueil animateur</button>
    ${button('Ancien explorateur Deezer','legacy')}</div>
-   <h1>Bibliothèque musicale</h1>${content}
+   <h1>Bibliothèque musicale</h1>${selectedPlaylists.size?`<div class="music-library-actions">
+   <span>${[...selectedPlaylists.values()].map(escape).join(' · ')}</span>
+   ${button('Utiliser pour un jeu','play-selection')}${button('Vider la sélection','clear-selection')}</div>`:''}${content}
   </section>`;
  }
 
@@ -47,10 +50,11 @@ export function openMusicLibrary(root, request, escape) {
     const page=await request('/api/library/tracks?'+params);
     if(current!==generation||!root.isConnected)return;
     show(`${button(selected?'← '+escape(selected.name):'← Toutes les catégories','back')}
-     <h2>${escape(list.name)}</h2><p>${details(list)}</p>${searchForm()}
+     <h2>${escape(list.name)}</h2><p>${details(list)}</p>
+     ${button(selectedPlaylists.has(playlist)?'Retirer de la sélection':'Ajouter à la sélection','select-playlist',playlist)}${searchForm()}
      ${button(excluded?'Afficher les titres actifs':'Afficher les titres exclus','excluded')}
      <ul class="music-library-tracks">${page.tracks.map(track=>`
-      <li><div><strong>${escape(track.title)}</strong><span>${escape(track.artist)} · ${track.year}
+      <li><div><strong>${escape(track.title)}</strong><span>${escape(track.artist)}${track.year?' · '+track.year:''}
        ${track.work?' · '+escape(track.work):''}</span><small>${trackStatus(track)} · Difficulté à établir</small>
        ${track.source?`<small>${escape(track.source)}</small>`:''}</div>
        ${button(track.excluded?'Restaurer':'Exclure','toggle',track.id)}
@@ -91,6 +95,18 @@ export function openMusicLibrary(root, request, escape) {
   const target=event.target.closest('[data-library]');
   if(!target||target.disabled)return;
   const action=target.dataset.library, value=target.value;
+  if(action==='play-selection'){
+   root.dispatchEvent(new CustomEvent('play-library-selection',{detail:[...selectedPlaylists],bubbles:true}));
+   return;
+  }
+  if(action==='clear-selection')selectedPlaylists.clear();
+  if(action==='select-playlist'){
+   if(selectedPlaylists.has(value))selectedPlaylists.delete(value);
+   else if(selectedPlaylists.size<5){
+    const selected=summary.categories.flatMap(group=>group.playlists).find(entry=>entry.id===value);
+    if(selected)selectedPlaylists.set(value,selected.name);
+   }
+  }
   if(action==='legacy'){
    root.dispatchEvent(new CustomEvent('legacy-music',{bubbles:true}));
    return;

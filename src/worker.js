@@ -34,6 +34,10 @@ async function libraryRoute(req,env,url){
  const library=env.MUSIC_LIBRARY.getByName(await digest(credential));
  if(req.method==='GET'){
   if(url.pathname==='/api/library')return json(await library.summary());
+  if(url.pathname==='/api/library/candidates'){
+   const params=libraryRouteParams(url);
+   return params?json({tracks:await library.candidates(params.playlist,50)}):json({error:'Playlist inconnue.'},400);
+  }
   if(url.pathname==='/api/library/tracks'){
    const params=libraryRouteParams(url);
    return params?json(await library.list(params)):json({error:'Recherche invalide.'},400);
@@ -64,7 +68,7 @@ export default {
    if(url.pathname==='/api/library'||url.pathname.startsWith('/api/library/'))return await libraryRoute(req,env,url);
    if(url.pathname==='/api/evening')return await eveningRoute(req,env,url);
    if(req.method==='GET'&&url.pathname.startsWith('/api/music/'))return musicRoute(req);
-   if(url.pathname==='/api/health')return json({ok:true,version:'0.7.2'});
+   if(url.pathname==='/api/health')return json({ok:true,version:'0.7.3'});
    if(req.method==='POST'&&url.pathname==='/api/rooms'){
     if(req.headers.get('Origin')!==url.origin)return json({error:'Origine refusée'},403);
     if(Number(req.headers.get('Content-Length'))>150000)return json({error:'Partie trop volumineuse'},413);
@@ -119,25 +123,41 @@ export default {
 };
 function eveningTotals(room){
  const totals={...room.eveningTotals};
+ const history=room.history||[];
+ const attempts=new Map();
+ if(!room.tyrolien){
+  for(const round of history){
+   for(const {id,result} of round.results){
+    const row=attempts.get(id)||{correct:0,wrong:0,absent:0,elapsed:0,timed:0,best:null};
+    if(result.correct||result.parts?.length){
+     row.correct++;
+     if(Number.isFinite(result.elapsed)){
+      row.timed++;
+      row.elapsed+=result.elapsed;
+      row.best=Math.min(row.best??Infinity,result.elapsed);
+     }
+    }else if(result.attempts)row.wrong++;
+    else row.absent++;
+    attempts.set(id,row);
+   }
+  }
+ }
  for(const team of room.teams){
   const prior=totals[team.id]||{points:0,correct:0,played:0};
   const ty=room.tyrolien?.scores[team.id];
-  let correct=0,played=0;
-  if(room.tyrolien){
-   correct=ty?.points||0;
-   played=ty?.played||0;
-  }else{
-   const history=room.history||[];
-   played=history.length;
-   for(const round of history){
-    const result=round.results.find(row=>row.id===team.id)?.result;
-    if(result?.correct||result?.parts?.length)correct++;
-   }
-  }
+  const stats=attempts.get(team.id);
+  const correct=ty?.points??stats?.correct??0;
+  const played=room.tyrolien?(ty?.played||0):history.length;
+  const bestTimes=[prior.best,stats?.best].filter(Number.isFinite);
   totals[team.id]={id:team.id,name:team.name,
+   games:(prior.games||0)+(played>0?1:0),
    jokersEarned:(prior.jokersEarned||0)+(team.joker?.earned?.length||0),
    jokersUsed:(prior.jokersUsed||0)+(team.joker?.used?.length||0),
-   points:prior.points+(room.tyrolien?correct:(team.score||0)+(team.timelineBonus||0)),correct:prior.correct+correct,played:prior.played+played};
+   points:prior.points+(room.tyrolien?correct:(team.score||0)+(team.timelineBonus||0)),
+   correct:prior.correct+correct,played:prior.played+played,
+   wrong:(prior.wrong||0)+(stats?.wrong||0),absent:(prior.absent||0)+(stats?.absent||0),
+   elapsed:(prior.elapsed||0)+(ty?.elapsed??stats?.elapsed??0),timed:(prior.timed||0)+(ty?.points??stats?.timed??0),
+   best:bestTimes.length?Math.min(...bestTimes):null};
  }
  return totals;
 }
@@ -277,13 +297,20 @@ export class PartyRoom extends DurableObject {
  }
  async fetch(){const room=await this.ctx.storage.get('room');if(!room||room.expires<Date.now())return json({error:'Cette partie est introuvable ou a expiré.'},404);if(this.ctx.getWebSockets().length>=CONNECTION_LIMIT)return json({error:'Salon complet'},429);const [client,server]=Object.values(new WebSocketPair());this.ctx.acceptWebSocket(server);server.serializeAttachment({role:'guest',last:0,count:0});return new Response(null,{status:101,webSocket:client});}
  send(ws,data){try{ws.send(JSON.stringify(data));}catch{}}
- sendState(ws,s,a){
+ eveningRanking(s){
+  const showCurrent=['paused','reveal','finished','result','vote','attack'].includes(s.phase);
+  const totals=showCurrent?eveningTotals(s):s.eveningTotals;
+  return Object.values(totals||{}).sort((left,right)=>right.points-left.points);
+ }
+ sendState(ws,s,a,eveningRanking){
   const state=s.tyrolien?tyrolienView(s,a.role,a.team):a.role==='host'
    ?{...s,hostHash:undefined}:publicGame(s,a.role==='player'?a.team:undefined);
-  if(a.role==='host'||a.role==='tv'){
-   const showCurrent=['paused','reveal','finished','result','vote','attack'].includes(s.phase);
-   const totals=showCurrent?eveningTotals(s):s.eveningTotals;
-   state.eveningRanking=Object.values(totals||{}).sort((left,right)=>right.points-left.points);
+  if(a.role==='host'||a.role==='tv'||a.role==='player'&&['paused','finished'].includes(s.phase)){
+   const ranking=eveningRanking||this.eveningRanking(s);
+   if(a.role==='player'){
+    const rank=ranking.findIndex(team=>team.id===a.team);
+    if(rank>=0)state.eveningPersonal={...ranking[rank],rank:rank+1};
+   }else state.eveningRanking=ranking;
   }
   if(!s.tyrolien&&a.role==='tv'){
    state.historyCount=state.history.length;
@@ -294,11 +321,12 @@ export class PartyRoom extends DurableObject {
   this.send(ws,{type:'state',state});
  }
  broadcast(s,respondingPlayer){
+  const ranking=this.eveningRanking(s);
   for(const ws of this.ctx.getWebSockets()){
    const identity=ws.deserializeAttachment();
    if(identity?.role==='host'||identity?.role==='tv'||
       (identity?.role==='player'&&(!respondingPlayer||identity.team===respondingPlayer))){
-    this.sendState(ws,s,identity);
+    this.sendState(ws,s,identity,ranking);
    }
   }
  }

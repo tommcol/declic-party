@@ -41,7 +41,7 @@ Les derniers échanges nomment le Blind test classique comme jeu 8. Une liste an
 | Pochettes, reprises et cinéma | QCM par pochettes et bilan collectif. Deux sens de recherche pour les reprises. Sélection groupée films, séries et génériques avec 2 à 5 propositions. |
 | Statistiques de soirée | Cumul serveur des scores et bonnes réponses entre jeux en mode connecté. Le détail et les indicateurs de soirée restent à compléter. |
 | Frise | Deux modes jouables, ajout automatique ou après réussite, départage au temps et répartition collective. La sélection repose encore sur les extraits datés du catalogue de départ. |
-| Moteur musical et playlists | Bibliothèque de référence, recherche Deezer et extraits de démonstration présents. Intégration et validation audio du catalogue enrichi encore à faire. |
+| Moteur musical et playlists | Bibliothèque de référence enrichie avec les métadonnées du catalogue maître, recherche Deezer et extraits de démonstration. La sélection d’une à cinq playlists recherche des extraits Deezer correspondants à la demande. La validation audio exhaustive titre par titre reste à faire. Les années signalées comme incertaines sont masquées dans le catalogue. |
 | Joker commun | Attribution serveur, progression privée et effets selon le type de jeu. Les récompenses automatiques avancées et le détail de l’historique par type restent à compléter. |
 
 La liste des conversations du projet est accessible. Le texte complet de plusieurs réponses anciennes n’a pas été récupéré au moment de cette version, ainsi que le contenu complet de tous les fichiers historiques. Les divergences de règles non résolues doivent être comparées aux conversations sources avant d’étendre le comportement.
