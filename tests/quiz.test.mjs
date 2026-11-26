@@ -59,7 +59,7 @@ test('Une soirée conserve ses joueurs et leurs accès au changement de jeu',asy
  vm.runInContext(code,context);
  const questions=[{id:'next-song',kind:'audio'}];
  const expires=Date.now()+60000;
- let state={phase:'finished',hostHash:'host',revision:9,code:'ABCDEFGH',expires,teams:[{id:'a',name:'Alpha',token:'player-token',score:90,eliminated:true}]};
+ let state={phase:'finished',hostHash:'host',revision:9,code:'ABCDEFGH',expires,history:[{results:[{id:'a',result:{correct:true}}]},{results:[{id:'a',result:{correct:false}}]}],teams:[{id:'a',name:'Alpha',token:'player-token',score:90,eliminated:true}]};
  let shown;
  const room=new context.PartyRoom({
   setWebSocketAutoResponse(){},getWebSockets:()=>[],
@@ -76,6 +76,9 @@ test('Une soirée conserve ses joueurs et leurs accès au changement de jeu',asy
  assert.equal(shown.teams[0].token,'player-token');
  assert.equal(shown.teams[0].id,'a');
  assert.equal(shown.teams[0].score,0);
+ assert.equal(shown.eveningTotals.a.points,90);
+ assert.equal(shown.eveningTotals.a.correct,1);
+ assert.equal(shown.eveningTotals.a.played,2);
  assert.equal(shown.teams[0].eliminated,undefined);
  state.phase='playing';
  assert.equal(await room.prepare({questions,input:'qcm'},'host'),409);

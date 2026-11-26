@@ -60,7 +60,10 @@ export function matchSpecialTrack(tracks,title,artist,alternateTitle){
  return tracks.find(t=>t.preview&&titles.includes(normalize(cleanTitle(t.title)))&&normalize(t.artist).startsWith(artistKey));
 }
 export function specialQuestions(mode,entries,config){
- const values=SPECIAL_TRACKS[mode].map(entry=>entry[2]);
+ const soundtrack=['soundtrack','tvThemes','allSoundtracks'].includes(mode);
+ const sources=mode==='allSoundtracks'?[...SPECIAL_TRACKS.soundtrack,...SPECIAL_TRACKS.tvThemes]:SPECIAL_TRACKS[mode];
+ const choiceIndex=mode==='coversQuiz'&&config.coversDirection==='original'?1:2;
+ const values=[...new Set(sources.map(entry=>entry[choiceIndex]))];
  const out=[];
  for(const {track,entry} of shuffle(entries)){
   const [title,artist,value]=entry;
@@ -73,10 +76,10 @@ export function specialQuestions(mode,entries,config){
    prompt='Où placer « '+title+' » sur la frise ?';
   }else{
    answer=value;
-   options=shuffle([answer,...shuffle(values.filter(v=>v!==answer)).slice(0,3)]);
-   prompt=mode==='coversQuiz'?'Qui a interprété la version originale ?':'Dans quel film ou quelle série entend-on cette musique ?';
+   const choiceCount=soundtrack?Math.min(5,Math.max(2,Number(config.soundtrackChoices)||4)):4;
+   options=shuffle([answer,...shuffle(values.filter(v=>v!==answer)).slice(0,choiceCount-1)]);
+   prompt=mode==='coversQuiz'?(config.coversDirection==='original'?'Qui a interprété la reprise ?':'Qui a interprété la version originale ?'):'À quel film, série, dessin animé ou émission appartient cette musique ?';
   }
-  const soundtrack=mode==='soundtrack'||mode==='tvThemes';
   if(mode==='tvThemes')prompt='À quelle série, émission ou dessin animé appartient ce générique ?';
   out.push({id:crypto.randomUUID(),universe:soundtrack?'film':'music',kind:'audio',
    target:soundtrack?'soundtrack':mode,prompt,answer,options,timeline,title,artist,
@@ -88,6 +91,15 @@ export function specialQuestions(mode,entries,config){
 export function musicQuestions(tracks,config){
  let pool=tracks.filter(t=>t.id&&t.title&&t.artist&&t.preview&&(config.explicit!==false||!t.explicit));const seen=new Set();pool=pool.filter(t=>{const k=normalize(t.artist+cleanTitle(t.title));if(seen.has(k))return false;seen.add(k);return true;});
  if(config.difficulty==='easy')pool.sort((a,b)=>(b.rank||0)-(a.rank||0));else if(config.difficulty==='hard')pool.sort((a,b)=>(a.rank||0)-(b.rank||0));else pool=shuffle(pool);
+ if(config.musicGame==='bingo'){
+  const labels=new Set();
+  pool=shuffle(pool).filter(track=>{
+   const label=normalize(config.challenge==='artist'?track.artist:cleanTitle(track.title));
+   if(labels.has(label))return false;
+   labels.add(label);
+   return true;
+  });
+ }
  if(config.challenge==='coverChoice'){
   pool=pool.filter(t=>t.artwork);
   const covers=[...new Set(pool.map(t=>t.artwork))];

@@ -14,60 +14,60 @@ test('La quatrième écoute est la dernière et une ancienne question est refus�
 test('Paroles : coupure précise, aucun retour du son après pause et réponse générique',()=>{const q={...DEMO.find(q=>q.kind==='lyrics'),title:'Titre privé',artist:'Artiste privé'};let s=start('text',{},q);assert.equal(audioRemaining(s,6500),.5);assert.equal(audioRemaining(s,7000),0);s=applyAction(s,{type:'pause'},8000);s=applyAction(s,{type:'resume'},12000);assert.equal(audioRemaining(s,12001),0);s=applyAction(s,{type:'answer',team:'a',answer:'Pierrot'},13000);s=applyAction(s,{type:'reveal'},14000);assert.equal(s.teams[0].score,100);});
 test('Vue téléphone : état du palier partagé, solution et médias personnels protégés',()=>{const s=start('buzzer',{listening:'progressive'});s.questions[0].mediaKey='secret';s.questions[0].audioUrl='/private';const p=publicGame(s,'a');assert.equal(p.settings.listening,'progressive');assert.equal(p.listenStep,0);assert.equal(p.question.title,undefined);assert.equal(p.question.audioUrl,undefined);assert.equal(p.question.mediaKey,undefined);assert.deepEqual(p.question.options,[]);});
 
-test('Dernier survivant : une manche sans bonne réponse conserve les joueurs, puis élimination et victoire',()=>{
+test('Dernier survivant : vies, départage et réponses des éliminés',()=>{
  const participants=[...teams,{id:'c',name:'Gamma'}];
- let s=createGame([audio,audio,audio,audio],participants,'phone','qcm',{survival:true});
- const play=()=>{s=applyAction(s,{type:'play'},1000);};
- const answer=(team,answer)=>{s=applyAction(s,{type:'answer',team,answer},5000);};
- const reveal=()=>{s=applyAction(s,{type:'reveal'},6000);};
- const next=()=>{s=applyAction(s,{type:'next'},7000);};
- play();
- reveal();
- assert.equal(s.teams.filter(t=>!t.eliminated).length,3);
- next();
- play();
- answer('a','Titre');
- answer('b','Titre');
- reveal();
- assert.equal(publicGame(s,'c').teams.find(t=>t.id==='c').eliminated,true);
- next();
- play();
- const before=s;
- answer('c','Titre');
- assert.equal(s,before);
- answer('b','Titre');
- reveal();
+ let s=createGame([audio,audio,audio],participants,'phone','qcm',{survival:true,survivalLives:1});
+ const act=(type,now,extra={})=>{s=applyAction(s,{type,...extra},now);};
+ act('play',1000);
+ act('answer',5000,{team:'a',answer:'Titre'});
+ act('answer',5001,{team:'b',answer:'Titre'});
+ act('reveal',6000);
+ assert.equal(publicGame(s,'c').teams.find(t=>t.id==='c').lives,0);
+ act('next',7000);
+ act('play',8000);
+ act('answer',12000,{team:'c',answer:'Titre'});
+ act('reveal',13000);
+ assert.equal(s.teams.find(t=>t.id==='c').eliminated,true);
+ assert.ok(s.teams.find(t=>t.id==='c').score>0);
+ assert.equal(s.survivalWinner,undefined);
+ assert.deepEqual(s.teams.map(t=>t.lives),[1,1,0]);
+ act('next',14000);
+ act('play',15000);
+ act('answer',19000,{team:'b',answer:'Titre'});
+ act('reveal',20000);
  assert.equal(publicGame(s,'b').survivalWinner,'b');
- next();
+ act('next',21000);
  assert.equal(s.phase,'finished');
 });
 
-test('Bingo musical : carton privé, ligne prématurée refusée et victoire après diffusion',()=>{
- const questions=Array.from({length:20},(_,i)=>({...audio,id:'song-'+i,title:'Titre '+i}));
+test('Bingo : mêmes 16 titres, choix secret, cochage à la révélation et trois étapes',()=>{
+ const questions=Array.from({length:16},(_,i)=>({...audio,id:'song-'+i,title:'Titre '+i}));
  let s=createGame(questions,teams,'phone','qcm',{bingo:true});
  let now=1000;
  const act=(type,extra={})=>{s=applyAction(s,{type,...extra},now);};
- const play=()=>{act('play');now+=3000;};
- play();
- const card=publicGame(s,'a').bingoCard;
- assert.equal(new Set(card.card.map(q=>q.id)).size,16);
+ act('play');
+ assert.equal(new Set(s.teams[0].bingo.card.map(q=>q.id)).size,16);
+ assert.notDeepEqual(s.teams[0].bingo.card,s.teams[1].bingo.card);
  assert.equal(publicGame(s).bingoCard,undefined);
- assert.equal(publicGame(s,'a').question.title,undefined);
- assert.equal(publicGame(s,'a').teams[0].bingo,undefined);
- for(const song of card.card.slice(0,4))act('bingo-mark',{team:'a',song:song.id,marked:true});
- act('bingo-claim',{team:'a'});
- assert.equal(s.phase,'playing');
- assert.ok(publicGame(s,'a').bingoCard.notice);
- const winningIndex=Math.max(...card.card.slice(0,4).map(q=>questions.findIndex(song=>song.id===q.id)));
- while(s.index<winningIndex){
+ now+=3000;
+ act('bingo-mark',{team:'a',song:'song-0'});
+ assert.deepEqual(publicGame(s,'a').me,{attempts:1});
+ assert.deepEqual(s.teams[0].bingo.marked,[]);
+ const first=s;
+ act('bingo-mark',{team:'a',song:'song-1'});
+ assert.equal(s,first);
+ while(s.phase!=='finished'){
   act('reveal');
+  assert.ok(s.teams.every(team=>team.bingo.marked.includes(questions[s.index].id)));
   act('next');
-  now+=1000;
-  play();
+  if(s.phase!=='finished'){
+   now+=1000;
+   act('play');
+   now+=3000;
+  }
  }
- act('bingo-claim',{team:'a'});
- assert.equal(s.phase,'finished');
- assert.equal(publicGame(s,'b').bingoWinner,'a');
+ assert.deepEqual(s.bingoMilestones.map(goal=>goal.rows),[1,2,3]);
+ assert.ok(s.bingoWinner);
 });
 
 test('Maillon faible : points sécurisés, points perdus et vote privé',()=>{

@@ -9,6 +9,8 @@ async function boundedText(req,max){const reader=req.body?.getReader();if(!reade
 const json=(v,status=200)=>Response.json(v,{status,headers:{'Cache-Control':'no-store'}});
 const digest=async s=>Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(s)))).map(x=>x.toString(16).padStart(2,'0')).join('');
 const roomCode=()=>Array.from(crypto.getRandomValues(new Uint8Array(8)),n=>'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'[n%32]).join('');
+const PLAYER_LIMIT=300;
+const CONNECTION_LIMIT=PLAYER_LIMIT+32;
 const validCode=code=>typeof code==='string'&&/^[A-Z2-9]{8}$/.test(code);
 const hostToken=token=>typeof token==='string'&&/^[0-9a-f-]{36}$/.test(token);
 async function eveningRoute(req,env,url){
@@ -62,7 +64,7 @@ export default {
    if(url.pathname==='/api/library'||url.pathname.startsWith('/api/library/'))return await libraryRoute(req,env,url);
    if(url.pathname==='/api/evening')return await eveningRoute(req,env,url);
    if(req.method==='GET'&&url.pathname.startsWith('/api/music/'))return musicRoute(req);
-   if(url.pathname==='/api/health')return json({ok:true,version:'0.7.0'});
+   if(url.pathname==='/api/health')return json({ok:true,version:'0.7.1'});
    if(req.method==='POST'&&url.pathname==='/api/rooms'){
     if(req.headers.get('Origin')!==url.origin)return json({error:'Origine refusée'},403);
     if(Number(req.headers.get('Content-Length'))>150000)return json({error:'Partie trop volumineuse'},413);
@@ -75,12 +77,12 @@ export default {
     }
     if(!Array.isArray(data.questions)||data.questions.length<1||data.questions.length>100)return json({error:'Choisissez entre 1 et 100 questions.'},400);
     if(data.questions.some(q=>q?.universe!=='music'&&!(q?.universe==='film'&&q.target==='soundtrack')))return json({error:'Choisissez un jeu musical.'},400);
-    for(const q of data.questions){if(typeof q.answer!=='string'||!q.answer.trim()||q.answer.length>180||typeof q.prompt!=='string'||q.prompt.length>300||!Array.isArray(q.options)||q.options.length>4||q.options.some(o=>typeof o!=='string'||o.length>180)||!q.options.includes(q.answer)||!Number.isFinite(q.duration)||q.duration<5||q.duration>90||!Number.isFinite(q.points)||q.points<1||q.points>1000)return json({error:'Question invalide : vérifiez les réponses, les points et la durée.'},400);}
+    for(const q of data.questions){if(typeof q.answer!=='string'||!q.answer.trim()||q.answer.length>180||typeof q.prompt!=='string'||q.prompt.length>300||!Array.isArray(q.options)||q.options.length>(q.target==='soundtrack'?5:4)||q.options.some(o=>typeof o!=='string'||o.length>180)||!q.options.includes(q.answer)||!Number.isFinite(q.duration)||q.duration<5||q.duration>90||!Number.isFinite(q.points)||q.points<1||q.points>1000)return json({error:'Question invalide : vérifiez les réponses, les points et la durée.'},400);}
     if(data.questions.some(q=>q.kind==='lyrics'&&(!Number.isFinite(q.cutAt)||q.cutAt<.1||q.cutAt>30||q.cutAt>=q.duration)))return json({error:'Choisissez une coupure entre 0,1 et 30 secondes, avant la fin de la manche.'},400);
     const isCoverUrl=url=>typeof url==='string'&&url.length<=500&&/^https:\/\/[a-z0-9.-]+\.dzcdn\.net\//i.test(url);
     if(data.questions.some(q=>q.target==='coverChoice'&&(data.input!=='qcm'||!Array.isArray(q.optionArtwork)||q.optionArtwork.length!==4||q.options.join(',')!=='A,B,C,D'||new Set(q.optionArtwork).size!==4||!q.optionArtwork.every(isCoverUrl)||q.optionArtwork[q.options.indexOf(q.answer)]!==q.artwork)))return json({error:'Ce jeu nécessite quatre pochettes distinctes.'},400);
     if(data.settings?.chain&&(data.input!=='qcm'||data.settings.bingo===true||data.settings.survival===true||data.questions.length<4))return json({error:'Ce jeu nécessite au moins quatre questions en QCM.'},400);
-    if(data.settings?.bingo&&(data.input!=='qcm'||data.settings.survival===true||data.questions.length<BINGO_CARD_SIZE||data.questions.some(q=>q.kind!=='audio'||typeof q.title!=='string'||!q.title.trim()||typeof q.artist!=='string'||!q.artist.trim())||new Set(data.questions.map(q=>String(q.id).slice(0,80))).size!==data.questions.length))return json({error:'Le bingo nécessite au moins 16 extraits distincts et un salon sur téléphone.'},400);
+    if(data.settings?.bingo&&(data.input!=='qcm'||data.settings.survival===true||data.questions.length!==BINGO_CARD_SIZE||data.questions.some(q=>q.kind!=='audio'||typeof q.title!=='string'||!q.title.trim()||typeof q.artist!=='string'||!q.artist.trim())||new Set(data.questions.map(q=>String(q.id).slice(0,80))).size!==data.questions.length))return json({error:'Le bingo nécessite 16 extraits distincts et un salon sur téléphone.'},400);
     const allowedTargets=['both','title','artist','cover','artistTitle','coverChoice','timeline','coversQuiz','soundtrack'];
     data.questions=data.questions.map(q=>({id:String(q.id).slice(0,80),universe:q.target==='soundtrack'?q.universe:'music',cutAt:q.kind==='lyrics'?q.cutAt:undefined,kind:['audio','image','question','lyrics'].includes(q.kind)?q.kind:'question',prompt:q.prompt,answer:q.answer,explanation:typeof q.explanation==='string'?q.explanation.slice(0,1500):undefined,theme:typeof q.theme==='string'?q.theme.slice(0,80):undefined,credit:normalizeQuizCredit(q.credit),aliases:(Array.isArray(q.aliases)?q.aliases:[]).filter(v=>typeof v==='string').slice(0,15).map(v=>v.slice(0,180)),options:q.options,timeline:q.target==='timeline'&&Array.isArray(q.timeline)?q.timeline.filter(v=>typeof v==='string').slice(0,3).map(v=>v.slice(0,180)):undefined,optionArtwork:q.target==='coverChoice'?q.optionArtwork:undefined,duration:q.duration,points:q.points,title:typeof q.title==='string'?q.title.slice(0,180):undefined,artist:typeof q.artist==='string'?q.artist.slice(0,180):undefined,titleAliases:(Array.isArray(q.titleAliases)?q.titleAliases:[]).filter(v=>typeof v==='string').slice(0,10).map(v=>v.slice(0,180)),artistAliases:(Array.isArray(q.artistAliases)?q.artistAliases:[]).filter(v=>typeof v==='string').slice(0,10).map(v=>v.slice(0,180)),target:allowedTargets.includes(q.target)?q.target:'title',emoji:typeof q.emoji==='string'?q.emoji.slice(0,80):undefined,artwork:typeof q.artwork==='string'&&/^https:\/\/[^/]+\.dzcdn\.net\//.test(q.artwork)?q.artwork:undefined,link:typeof q.link==='string'&&/^https:\/\/www\.deezer\.com\//.test(q.link)?q.link:undefined,provider:q.provider==='Deezer'?'Deezer':undefined}));
     const setup={questions:data.questions,input:['text','buzzer'].includes(data.input)?data.input:'qcm',settings:data.settings&&typeof data.settings==='object'?data.settings:{},effect:['normal','fast','slow','chipmunk','reverse','image'].includes(data.effect)?data.effect:'normal'};
@@ -97,6 +99,28 @@ export default {
   }catch(e){console.error(JSON.stringify({event:'request_error',message:e.message}));return json({error:'Impossible de traiter cette demande.'},500);}
  }
 };
+function eveningTotals(room){
+ const totals={...room.eveningTotals};
+ for(const team of room.teams){
+  const prior=totals[team.id]||{points:0,correct:0,played:0};
+  const ty=room.tyrolien?.scores[team.id];
+  let correct=0,played=0;
+  if(room.tyrolien){
+   correct=ty?.points||0;
+   played=ty?.played||0;
+  }else{
+   const history=room.history||[];
+   played=history.length;
+   for(const round of history){
+    const result=round.results.find(row=>row.id===team.id)?.result;
+    if(result?.correct||result?.parts?.length)correct++;
+   }
+  }
+  totals[team.id]={id:team.id,name:team.name,
+   points:prior.points+(room.tyrolien?correct:team.score||0),correct:prior.correct+correct,played:prior.played+played};
+ }
+ return totals;
+}
 export class PartyRoom extends DurableObject {
  constructor(ctx,env){super(ctx,env);this.ctx.setWebSocketAutoResponse(new WebSocketRequestResponsePair('ping','pong'));}
  // A host object stores one active room and a recoverable lifecycle operation.
@@ -210,7 +234,7 @@ export class PartyRoom extends DurableObject {
   if(current.hostHash!==hostHash)return 403;
   if(current.tyrolien&&current.phase!=='finished')return 200;
   if(!['lobby','finished'].includes(current.phase))return 409;
-  const next={...current,questions:[],phase:'lobby',tyrolien:createTyrolien(),revision:(current.revision||0)+1};
+  const next={...current,questions:[],phase:'lobby',tyrolien:createTyrolien(),eveningTotals:eveningTotals(current),revision:(current.revision||0)+1};
   await this.ctx.storage.put('room',next);
   await this.schedule(next);
   this.broadcast(next);
@@ -224,21 +248,40 @@ export class PartyRoom extends DurableObject {
   const next={
    ...createGame(data.questions,current.teams,'phone',data.input,data.settings),
    teams:current.teams.map(({id,name,key,token})=>({id,name,key,token,score:0,streak:0})),
-   effect:data.effect,hostHash,code:current.code,expires:current.expires,revision:(current.revision||0)+1
+   eveningTotals:eveningTotals(current),effect:data.effect,hostHash,code:current.code,expires:current.expires,revision:(current.revision||0)+1
   };
   await this.ctx.storage.put('room',next);
   await this.schedule(next);
   this.broadcast(next);
   return 200;
  }
- async fetch(){const room=await this.ctx.storage.get('room');if(!room||room.expires<Date.now())return json({error:'Cette partie est introuvable ou a expiré.'},404);if(this.ctx.getWebSockets().length>=100)return json({error:'Salon complet'},429);const [client,server]=Object.values(new WebSocketPair());this.ctx.acceptWebSocket(server);server.serializeAttachment({role:'guest',last:0,count:0});return new Response(null,{status:101,webSocket:client});}
+ async fetch(){const room=await this.ctx.storage.get('room');if(!room||room.expires<Date.now())return json({error:'Cette partie est introuvable ou a expiré.'},404);if(this.ctx.getWebSockets().length>=CONNECTION_LIMIT)return json({error:'Salon complet'},429);const [client,server]=Object.values(new WebSocketPair());this.ctx.acceptWebSocket(server);server.serializeAttachment({role:'guest',last:0,count:0});return new Response(null,{status:101,webSocket:client});}
  send(ws,data){try{ws.send(JSON.stringify(data));}catch{}}
  sendState(ws,s,a){
   const state=s.tyrolien?tyrolienView(s,a.role,a.team):a.role==='host'
    ?{...s,hostHash:undefined}:publicGame(s,a.role==='player'?a.team:undefined);
+  if(a.role==='host'||a.role==='tv'){
+   const showCurrent=['paused','reveal','finished','result','vote','attack'].includes(s.phase);
+   const totals=showCurrent?eveningTotals(s):s.eveningTotals;
+   state.eveningRanking=Object.values(totals||{}).sort((left,right)=>right.points-left.points);
+  }
+  if(!s.tyrolien&&a.role==='tv'){
+   state.historyCount=state.history.length;
+   state.history=state.history.slice(-1);
+  }else if(!s.tyrolien&&a.role==='player'){
+   state.history=state.history.map(round=>({...round,results:round.results.filter(result=>result.id===a.team)}));
+  }
   this.send(ws,{type:'state',state});
  }
- broadcast(s){for(const ws of this.ctx.getWebSockets()){const a=ws.deserializeAttachment();if(['host','player','tv'].includes(a?.role))this.sendState(ws,s,a);}}
+ broadcast(s,respondingPlayer){
+  for(const ws of this.ctx.getWebSockets()){
+   const identity=ws.deserializeAttachment();
+   if(identity?.role==='host'||identity?.role==='tv'||
+      (identity?.role==='player'&&(!respondingPlayer||identity.team===respondingPlayer))){
+    this.sendState(ws,s,identity);
+   }
+  }
+ }
  async webSocketMessage(ws,msg){
   try{
    if(typeof msg!=='string'||msg.length>20000)throw Error('Message invalide');
@@ -249,30 +292,35 @@ export class PartyRoom extends DurableObject {
    if(m.type==='join'){
     if(a.role==='player'){this.sendState(ws,s,a);return;}
     let t=typeof m.token==='string'?s.teams.find(t=>t.token===m.token):null;
-    if(!t){if(s.phase!=='lobby')throw Error('La partie a commencé. Rejoignez la prochaine !');if(s.teams.length>=50)throw Error('50 équipes maximum');const name=String(m.name||'').trim().slice(0,24);if(!name)throw Error('Entrez un nom d’équipe');if(s.teams.some(t=>t.name.toLowerCase()===name.toLowerCase()))throw Error('Ce nom est déjà utilisé');t={id:crypto.randomUUID(),name,score:0,key:'',token:crypto.randomUUID()};s.teams.push(t);await this.ctx.storage.put('room',s);}
-    a.role='player';a.team=t.id;ws.serializeAttachment(a);this.send(ws,{type:'session',id:t.id,token:t.token});this.broadcast(s);return;
+    if(!t){if(s.phase!=='lobby')throw Error('La partie a commencé. Rejoignez la prochaine !');if(s.teams.length>=PLAYER_LIMIT)throw Error(PLAYER_LIMIT+' participants maximum');const name=String(m.name||'').trim().slice(0,24);if(!name)throw Error('Entrez un nom d’équipe');if(s.teams.some(t=>t.name.toLowerCase()===name.toLowerCase()))throw Error('Ce nom est déjà utilisé');t={id:crypto.randomUUID(),name,score:0,key:'',token:crypto.randomUUID()};s.teams.push(t);await this.ctx.storage.put('room',s);}
+    a.role='player';a.team=t.id;ws.serializeAttachment(a);
+    this.send(ws,{type:'session',id:t.id,token:t.token});
+    this.broadcast(s,m.token&&t.token===m.token?t.id:undefined);
+    return;
    }
    if(s.tyrolien){
     if(m.type==='ty-tick')throw Error('Action non autorisée');
     s=await this.updateTyrolien(m,a,now);
-    this.broadcast(s);
+    this.broadcast(s,m.type==='ty-answer'||m.type==='ty-vote'?a.team:undefined);
     return;
    }
+   const previous=s;
    if(m.type==='buzz'&&a.role==='player'&&s.input==='buzzer'){if(m.questionId!==s.questions[s.index]?.id)throw Error('Cette question est terminée');s=applyAction(s,{type:'buzz',team:a.team},now);}
    else if(['chain-bank','chain-vote'].includes(m.type)&&a.role==='player'&&s.settings?.chain){
     if(m.questionId!==s.questions[s.index]?.id)throw Error('Cette manche est terminée.');
     s=applyAction(s,{type:m.type,team:a.team,candidate:m.candidate},now);
    }
-   else if(['bingo-mark','bingo-claim'].includes(m.type)&&a.role==='player'&&s.settings?.bingo){
+   else if(m.type==='bingo-mark'&&a.role==='player'&&s.settings?.bingo){
     if(m.questionId!==s.questions[s.index]?.id)throw Error('Cet extrait est terminé.');
     s=applyAction(s,{type:m.type,team:a.team,song:m.song,marked:m.marked},now);
    }
    else if(m.type==='answer'&&a.role==='player'&&s.input!=='buzzer'){if(m.questionId!==s.questions[s.index]?.id)throw Error('Cette question est terminée');s=applyAction(s,{type:'answer',team:a.team,answer:m.answer,title:m.title,artist:m.artist},now);this.send(ws,{type:'received',accepted:!!s.answers[a.team]});}
    else if(a.role==='host'&&['play','pause','resume','reveal','next','adjust','judge','listen-more'].includes(m.type)){if(m.type==='play'&&s.teams.length<(s.settings?.chain?3:s.settings?.survival&&s.input==='qcm'?2:1))throw Error(s.settings?.chain?'Attendez au moins trois participants.':s.settings?.survival?'Attendez au moins deux participants.':'Attendez au moins une équipe.');s=applyAction(s,m,now);}
    else throw Error('Action non autorisée');
+   if(s===previous)return;
    await this.ctx.storage.put('room',s);
-   await this.schedule(s);
-   this.broadcast(s);
+   if(s.phase!==previous.phase||s.endAt!==previous.endAt||s.nextAt!==previous.nextAt)await this.schedule(s);
+   this.broadcast(s,m.type==='answer'||m.type==='bingo-mark'||m.type==='chain-vote'?a.team:undefined);
   }catch(e){this.send(ws,{type:'error',message:e.message});}
  }
  async updateTyrolien(action,identity,now){
