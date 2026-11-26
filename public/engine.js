@@ -28,7 +28,85 @@ function dealBingoCard(questions) {
  }
  return songs;
 }
-export function gameSettings(input={}){return {chain:input.chain===true,bingo:input.bingo===true,survival:input.survival===true,survivalLives:Math.max(1,Math.min(5,Math.trunc(Number(input.survivalLives)||3))),listening:input.listening==='progressive'?'progressive':'continuous',duration:Math.max(5,Math.min(90,Number(input.duration)||30)),titlePoints:Math.max(1,Math.min(1000,Number(input.titlePoints)||50)),artistPoints:Math.max(1,Math.min(1000,Number(input.artistPoints)||50)),speed:input.speed!==false,streak:input.streak!==false,rebuzz:['round','none','3','5','10'].includes(String(input.rebuzz))?String(input.rebuzz):'round',resume:input.resume==='manual'?'manual':'auto',autoNext:input.autoNext===true};}
+function timelineMode(input){
+ return ['collective','individual'].includes(input)?input:undefined;
+}
+function timelineSong(question){
+ return {id:question.id,title:question.title,artist:question.artist,year:question.year};
+}
+function timelineInsert(cards,question){
+ cards.push(timelineSong(question));
+ cards.sort((left,right)=>left.year-right.year);
+}
+function timelineCards(state,team){
+ return state.settings.timelineMode==='individual'?team?.timelineCards||[]:state.timelineCards||[];
+}
+function inChronologicalOrder(cards,slot,year){
+ return (cards[slot-1]?.year??-Infinity)<=year&&year<=(cards[slot]?.year??Infinity);
+}
+function timelineSlots(cards,question){
+ const total=cards.length+1;
+ if(total<=5)return Array.from({length:total},(_,slot)=>slot);
+ const valid=cards.findIndex(card=>card.year>=question.year);
+ const firstValid=valid===-1?cards.length:valid;
+ const earliest=Math.max(0,firstValid-4), latest=Math.min(firstValid,total-5);
+ const offset=[...question.id].reduce((value,char)=>(value*31+char.charCodeAt(0))>>>0,0);
+ const start=earliest+offset%(latest-earliest+1);
+ return Array.from({length:5},(_,index)=>start+index);
+}
+function compatibleJokers(state,question){
+ if(!state.settings.jokers||state.mode!=='phone'||state.input==='buzzer'||state.settings.bingo||state.settings.chain)return [];
+ if(state.settings.timelineMode)return ['decade','double'];
+ if(state.settings.survival)return ['life','shield','half'];
+ if(question.target==='coverChoice')return ['half','retry'];
+ if(question.target==='coversQuiz')return ['half','retry','double'];
+ if(question.target==='soundtrack')return ['half','double'];
+ return state.input==='qcm'?['double','retry']:['double'];
+}
+function jokerProgress(state,question){
+ const available=compatibleJokers(state,question);
+ if(!available.length)return;
+ const fastest=state.teams.filter(team=>state.answers[team.id]?.correct&&Number.isFinite(state.answers[team.id].elapsed))
+  .sort((left,right)=>state.answers[left.id].elapsed-state.answers[right.id].elapsed)[0]?.id;
+ state.jokerAwards=0;
+ for(const team of state.teams){
+  const joker=team.joker??={correct:0,fastest:0,earned:[],used:[]};
+  if(joker.held||joker.armed)continue;
+  joker.correct=state.answers[team.id]?.correct?joker.correct+1:0;
+  joker.fastest=fastest===team.id?joker.fastest+1:0;
+  if(joker.correct<4&&joker.fastest<2)continue;
+  const compatible=available.filter(kind=>kind!=='life'&&kind!=='shield'||!team.eliminated);
+  if(!compatible.length)continue;
+  joker.held=compatible[Math.floor(Math.random()*compatible.length)];
+  joker.earned.push(joker.held);
+  state.jokerAwards++;
+ }
+}
+function applyJoker(state,question,team){
+ const joker=team?.joker,kind=joker?.held;
+ if(!kind||!compatibleJokers(state,question).includes(kind))return false;
+ const prior=state.answers[team.id];
+ if(kind==='retry'&&(!prior?.attempts||prior.correct))return false;
+ if(kind==='half'&&(prior?.attempts||question.options.length<3))return false;
+ if(kind==='life'&&(team.eliminated||team.lives>=state.settings.survivalLives))return false;
+ if(kind==='shield'&&team.eliminated)return false;
+ if((kind==='double'||kind==='shield')&&(prior?.attempts||joker.armed))return false;
+ switch(kind){
+  case 'life': team.lives++;break;
+  case 'retry': joker.extraAttempt=true;break;
+  case 'double':
+  case 'shield': joker.armed=kind;break;
+  case 'half': joker.hidden=question.options.filter(option=>option!==question.answer).slice(0,Math.floor((question.options.length-1)/2));break;
+  case 'decade': joker.decade=Math.floor(question.year/10)*10;break;
+ }
+ joker.used.push(kind);
+ joker.held=undefined;
+ joker.correct=0;
+ joker.fastest=0;
+ return true;
+}
+
+export function gameSettings(input={}){return {chain:input.chain===true,jokers:input.jokers===true,bingo:input.bingo===true,survival:input.survival===true,timelineMode:timelineMode(input.timelineMode),timelineAnchor:timelineMode(input.timelineMode)?input.timelineAnchor:undefined,survivalLives:Math.max(1,Math.min(5,Math.trunc(Number(input.survivalLives)||3))),listening:input.listening==='progressive'?'progressive':'continuous',duration:Math.max(5,Math.min(90,Number(input.duration)||30)),titlePoints:Math.max(1,Math.min(1000,Number(input.titlePoints)||50)),artistPoints:Math.max(1,Math.min(1000,Number(input.artistPoints)||50)),speed:input.speed!==false,streak:input.streak!==false,rebuzz:['round','none','3','5','10'].includes(String(input.rebuzz))?String(input.rebuzz):'round',resume:input.resume==='manual'?'manual':'auto',autoNext:input.autoNext===true};}
 export function createGame(questions, teams=[], mode='usb', input='qcm', settings={}) {
  return {version:2,questions:structuredClone(questions),teams:teams.map((t,i)=>({id:t.id||String(i),name:t.name||t,score:0,key:t.key||String(i+1),streak:0})),mode,input,settings:gameSettings(settings),index:0,phase:'lobby',buzz:null,blocked:[],cooldowns:{},claimed:{},answers:{},pending:{},startAt:0,endAt:0,remaining:0,event:null,revision:0,history:[],listenStep:0,audioElapsed:0};
 }
@@ -40,8 +118,19 @@ export function applyAction(game, action, now=Date.now()) {
  const award=(id,part)=>{const r=roundResult(id);if(r.parts.includes(part))return;r.parts.push(part);const factor=isProgressive(s,q)?[1,.8,.6,.4][s.listenStep||0]:1;const points=Math.round(factor*(part==='title'?s.settings.titlePoints:part==='artist'?s.settings.artistPoints:(q.points||100)));r.breakdown[part]=points;r.total+=points;if(r.parts.length===1){const speed=s.settings.speed&&!isProgressive(s,q)?Math.round(50*Math.max(0,Math.min(1,(s.phase==='buzzed'?s.remaining:s.endAt-now)/((q.duration||s.settings.duration)*1000)))):0;const streak=s.settings.streak?Math.min(5,s.teams.find(t=>t.id===id)?.streak||0)*10:0;r.breakdown.speed=speed;r.breakdown.streak=streak;r.total+=speed+streak;}s.pending[id]=r.total;};
  const bingo=s.settings.bingo&&s.mode==='phone'&&s.input==='qcm';
  const chain=s.settings.chain&&s.mode==='phone'&&s.input==='qcm';
+ const timeline=s.settings.timelineMode;
  const survival=s.settings.survival&&s.mode==='phone'&&s.input==='qcm';
  const reveal=()=>{
+  if(timeline){
+   if(timeline==='collective')timelineInsert(s.timelineCards,q);
+   for(const team of s.teams){
+    const result=s.answers[team.id];
+    if(result?.correct){
+     team.timelineElapsed=(team.timelineElapsed||0)+result.elapsed;
+     if(timeline==='individual')timelineInsert(team.timelineCards,q);
+    }
+   }
+  }
   if(bingo){
    for(const team of s.teams)team.bingo.marked.push(q.id);
    const rows=s.teams.map(team=>[team.id,completedBingoRows(team.bingo)]);
@@ -57,7 +146,7 @@ export function applyAction(game, action, now=Date.now()) {
    const active=s.teams.filter(t=>!t.eliminated);
    for(const team of active){
     const lives=team.lives??s.settings.survivalLives;
-    team.lives=Math.max(0,lives-(s.answers[team.id]?.correct?0:1));
+    team.lives=Math.max(0,lives-(s.answers[team.id]?.correct||team.joker?.armed==='shield'?0:1));
     team.eliminated=team.lives===0;
    }
    const survivors=active.filter(t=>!t.eliminated);
@@ -75,9 +164,31 @@ export function applyAction(game, action, now=Date.now()) {
    }
    s.chainVote=!lastRound&&(s.index+1)%3===0&&active.length>2?{}:null;
   }
-  for(const t of s.teams){if(!chain)t.score+=s.pending[t.id]||0;t.streak=s.answers[t.id]?.parts?.length?(t.streak||0)+1:0;}s.pending={};s.phase='reveal';s.buzz=null;s.history.push({index:s.index,question:{id:q.id,prompt:q.prompt,title:q.title,artist:q.artist,answer:q.answer,provider:q.provider,link:q.link,explanation:q.explanation,credit:q.credit,theme:q.theme},results:s.teams.map(t=>({id:t.id,name:t.name,score:t.score,result:s.answers[t.id]||{parts:[],total:0,breakdown:{}}}))});emit('reveal');s.nextAt=s.settings.autoNext&&!s.chainVote?now+8000:0;};
+  for(const t of s.teams){
+   const points=s.pending[t.id]||0;
+   if(!chain)t.score+=points;
+   if(t.joker?.armed==='double'){
+    if(timeline)t.timelineBonus=(t.timelineBonus||0)+points;
+    else t.score+=points;
+   }
+   if(t.joker){
+    if(t.joker.armed==='double'&&points>0||t.joker.armed==='shield'&&!s.answers[t.id]?.correct)t.joker.armed=undefined;
+    t.joker.extraAttempt=false;
+    t.joker.hidden=undefined;
+    t.joker.decade=undefined;
+   }
+   t.streak=s.answers[t.id]?.parts?.length?(t.streak||0)+1:0;
+  }
+  jokerProgress(s,q);
+  s.pending={};s.phase='reveal';s.buzz=null;s.history.push({index:s.index,question:{id:q.id,prompt:q.prompt,title:q.title,artist:q.artist,answer:q.answer,provider:q.provider,link:q.link,explanation:q.explanation,credit:q.credit,theme:q.theme},results:s.teams.map(t=>({id:t.id,name:t.name,score:t.score,result:s.answers[t.id]||{parts:[],total:0,breakdown:{}}}))});emit('reveal');s.nextAt=s.settings.autoNext&&!s.chainVote?now+8000:0;};
  const continueRound=()=>{s.buzz=null;if(s.settings.resume==='manual'){s.phase='paused';}else{s.phase='playing';s.startAt=now;s.endAt=now+s.remaining;}};
  if(action.type==='play'&&['lobby','ready'].includes(s.phase)&&q&&(!(survival||chain)||s.teams.length>=(chain?3:2))){
+  if(timeline&&s.phase==='lobby'){
+   const first=s.settings.timelineAnchor;
+   if(!first||!Number.isInteger(first.year))return game;
+   if(timeline==='collective')s.timelineCards=[first];
+   else for(const team of s.teams)team.timelineCards=[{...first}];
+  }
   if(survival&&s.phase==='lobby'){
    for(const team of s.teams)team.lives=s.settings.survivalLives;
   }
@@ -123,15 +234,38 @@ export function applyAction(game, action, now=Date.now()) {
   if(action.team===action.candidate||s.chainVote[action.team]||!active.some(t=>t.id===action.team)||!active.some(t=>t.id===action.candidate))return game;
   s.chainVote[action.team]=action.candidate;
  }
+ else if(action.type==='joker'&&s.phase==='playing'&&now>=s.startAt&&now<s.endAt){
+  if(!applyJoker(s,q,s.teams.find(team=>team.id===action.team)))return game;
+ }
+ else if(timeline&&action.type==='answer'&&s.phase==='playing'&&now>=s.startAt&&now<s.endAt){
+  const team=s.teams.find(entry=>entry.id===action.team);
+  if(!team||s.answers[team.id]||typeof action.answer!=='string'||!/^\d{1,3}$/.test(action.answer))return game;
+  const cards=timelineCards(s,team),slot=Number(action.answer);
+  if(!timelineSlots(cards,q).includes(slot))return game;
+  const result=roundResult(team.id);
+  result.correct=inChronologicalOrder(cards,slot,q.year);
+  result.attempts=1;
+  result.elapsed=(s.audioElapsed||0)+now-s.startAt;
+  if(result.correct){
+   result.parts.push('answer');
+   result.breakdown.answer=result.total=s.pending[team.id]=1;
+  }
+ }
  else if(!bingo&&action.type==='answer'&&s.mode==='phone'&&['text','qcm'].includes(s.input)&&s.phase==='playing'&&now>=s.startAt&&now<s.endAt&&s.teams.some(t=>t.id===action.team&&(!chain||!t.eliminated))){
-  const id=action.team,r=roundResult(id),wanted=targets(q);if(r.attempts>=(s.input==='qcm'?1:5)||wanted.every(p=>r.parts.includes(p)))return game;
+  const id=action.team,r=roundResult(id),wanted=targets(q);
+  const joker=s.teams.find(team=>team.id===id)?.joker;
+  if(r.attempts>=(s.input==='qcm'?(joker?.extraAttempt?2:1):5)||wanted.every(p=>r.parts.includes(p)))return game;
+  if(joker?.hidden?.includes(action.answer))return game;
   const values=s.input==='text'&&wanted[0]!=='answer'&&q.title&&q.artist?{title:action.title,artist:action.artist}:{[wanted[0]]:action.answer};
   if(!Object.values(values).some(v=>typeof v==='string'&&v.trim()))return game;if(s.input==='qcm'&&!q.options.includes(action.answer))return game;
   r.attempts++;r.elapsed??=(s.audioElapsed||0)+now-s.startAt;for(const part of wanted){if(r.parts.includes(part))continue;const text=String(values[part]||'').trim().slice(0,180);if(!text)continue;const expected=part==='title'?q.title:part==='artist'?q.artist:q.answer;const aliases=part==='artist'?(q.artistAliases||[]):part==='title'?(q.titleAliases||[]):(q.aliases||[]);if(s.input==='qcm'?normalize(text)===normalize(expected):matches(text,expected,aliases))award(id,part);}
-  r.correct=r.parts.length>0;emit('answer');
+  const wasCorrect=r.correct;
+  r.correct=r.parts.length>0;
+  if(r.correct&&!wasCorrect)r.elapsed=(s.audioElapsed||0)+now-s.startAt;
+  emit('answer');
  }
  else if((action.type==='reveal'||action.type==='timeout')&&['playing','buzzed','paused'].includes(s.phase)){
-  if(action.type==='timeout'&&(s.phase!=='playing'||now<s.endAt))return game;reveal();
+  if((action.type==='timeout'||timeline)&&(s.phase!=='playing'||now<s.endAt))return game;reveal();
  }
  else if(action.type==='next'&&s.phase==='reveal'){
   if(chain&&s.chainVote){
@@ -142,15 +276,32 @@ export function applyAction(game, action, now=Date.now()) {
    if(first.count&&(first.count!==second.count||first.team.score!==second.team.score))first.team.eliminated=true;
    s.chainVote=null;
   }
-  s.index++;s.phase=s.bingoWinner||s.survivalWinner||s.index>=s.questions.length?'finished':'ready';s.buzz=null;s.blocked=[];s.answers={};s.pending={};s.claimed={};s.cooldowns={};s.nextAt=0;emit(s.phase==='finished'?'podium':'next');}
+  s.index++;s.phase=s.bingoWinner||s.survivalWinner||s.index>=s.questions.length?'finished':'ready';s.buzz=null;s.blocked=[];s.answers={};s.pending={};s.claimed={};s.cooldowns={};s.nextAt=0;
+  if(timeline&&s.phase==='finished')s.teams.sort((left,right)=>right.score-left.score||(left.timelineElapsed||0)-(right.timelineElapsed||0));
+  emit(s.phase==='finished'?'podium':'next');}
  else if(action.type==='adjust'&&s.teams.some(t=>t.id===action.team)&&Number.isFinite(action.points)&&Math.abs(action.points)<=1000){s.teams.find(t=>t.id===action.team).score+=Math.round(action.points);emit('adjust');}
  else return game;
  s.revision++;return s;
 }
 export function publicGame(s,teamId){
  const q=s.questions[s.index],revealed=s.phase==='reveal';
- const question=q?{id:q.id,universe:q.universe,kind:q.kind,prompt:q.prompt,timeline:q.timeline,options:s.input==='qcm'&&!s.settings?.bingo?q.options:[],optionArtwork:s.input==='qcm'?q.optionArtwork:undefined,emoji:q.emoji,duration:q.duration,cutAt:q.kind==='lyrics'?q.cutAt:undefined,points:q.points,target:q.target,musical:targets(q)[0]!=='answer',displayArtist:q.target==='artistTitle'?q.artist:undefined,artwork:q.target==='cover'||q.target!=='coverChoice'&&s.effect==='image'||revealed?q.artwork:undefined,...(revealed?{answer:q.answer,title:q.title,artist:q.artist,provider:q.provider,link:q.link,explanation:q.explanation,credit:q.credit,theme:q.theme}: {})}:null;
- return {version:2,mode:s.mode,input:s.input,index:s.index,total:s.questions.length,phase:s.phase,buzz:s.buzz,blocked:s.blocked,claimed:s.claimed,cooldowns:s.cooldowns,answered:Object.keys(s.answers),remaining:s.remaining,settings:{listening:s.settings?.listening||'continuous',survival:s.settings?.survival===true,bingo:s.settings?.bingo===true,bingoTarget:s.questions[0]?.target,chain:s.settings?.chain===true},chainVoting:!!s.chainVote,chainMyVote:teamId?s.chainVote?.[teamId]:undefined,chainUnbanked:teamId?s.teams.find(t=>t.id===teamId)?.unbanked:undefined,bingoWinner:s.bingoWinner,bingoMilestones:s.bingoMilestones,bingoCard:teamId?s.teams.find(t=>t.id===teamId)?.bingo:undefined,survivalWinner:s.survivalWinner,listenStep:s.listenStep||0,audioElapsed:s.audioElapsed||0,teams:s.teams.map(({id,name,score,key,streak,eliminated,lives})=>({id,name,score,key,streak,eliminated,lives})),startAt:s.startAt,endAt:s.endAt,nextAt:s.nextAt,event:s.event,revision:s.revision,question,effect:s.effect,history:s.history,me:teamId?(s.input==='qcm'&&!revealed&&s.answers[teamId]?{attempts:s.answers[teamId].attempts}:s.answers[teamId]):undefined};
+ const timeMode=s.settings?.timelineMode;
+ const timelineTeam=teamId?s.teams.find(team=>team.id===teamId):undefined;
+ const myJoker=timelineTeam?.joker;
+ const cards=timeMode?timelineCards(s,timelineTeam):undefined;
+ const timelineResult=timeMode&&s.phase==='finished'&&timelineTeam?{
+  rank:s.teams.findIndex(team=>team.id===teamId)+1,
+  correct:timelineTeam.score,total:s.questions.length
+ }:undefined;
+ const distribution=timeMode==='individual'&&!teamId&&(revealed||s.phase==='finished')?Object.entries(
+  s.teams.reduce((counts,team)=>(counts[team.score]=(counts[team.score]||0)+1,counts),{})
+ ).map(([correct,players])=>({correct:Number(correct),players})).reverse():undefined;
+ const question=q?{id:q.id,universe:q.universe,kind:q.kind,prompt:q.prompt,timeline:q.timeline,options:s.input==='qcm'&&!s.settings?.bingo?(q.options||[]).filter(option=>!myJoker?.hidden?.includes(option)):[],optionArtwork:s.input==='qcm'&&q.optionArtwork?q.optionArtwork.filter((_,index)=>!myJoker?.hidden?.includes(q.options[index])):undefined,emoji:q.emoji,duration:q.duration,cutAt:q.kind==='lyrics'?q.cutAt:undefined,points:q.points,target:q.target,musical:targets(q)[0]!=='answer',displayArtist:q.target==='artistTitle'?q.artist:undefined,artwork:q.target==='cover'||q.target!=='coverChoice'&&s.effect==='image'||revealed?q.artwork:undefined,...(revealed?{answer:q.answer,title:q.title,artist:q.artist,provider:q.provider,link:q.link,explanation:q.explanation,credit:q.credit,theme:q.theme,year:q.year}: {})}:null;
+ return {joker:teamId&&q&&compatibleJokers(s,q).length&&s.phase!=='finished'?
+ {held:myJoker?.held,correct:myJoker?.correct||0,fastest:myJoker?.fastest||0,
+  decade:myJoker?.decade,retry:myJoker?.extraAttempt===true,
+  canRetry:myJoker?.held==='retry'&&!!s.answers[teamId]?.attempts&&!s.answers[teamId]?.correct}:undefined,
+ jokerAwards:revealed?s.jokerAwards:undefined,timelineMode:timeMode,timelineCards:cards,timelineSlots:q&&cards&&teamId?timelineSlots(cards,q):undefined,timelineResult,distribution,version:2,mode:s.mode,input:s.input,index:s.index,total:s.questions.length,phase:s.phase,buzz:s.buzz,blocked:s.blocked,claimed:s.claimed,cooldowns:s.cooldowns,answered:Object.keys(s.answers),remaining:s.remaining,settings:{listening:s.settings?.listening||'continuous',survival:s.settings?.survival===true,bingo:s.settings?.bingo===true,bingoTarget:s.questions[0]?.target,chain:s.settings?.chain===true},chainVoting:!!s.chainVote,chainMyVote:teamId?s.chainVote?.[teamId]:undefined,chainUnbanked:teamId?s.teams.find(t=>t.id===teamId)?.unbanked:undefined,bingoWinner:s.bingoWinner,bingoMilestones:s.bingoMilestones,bingoCard:teamId?s.teams.find(t=>t.id===teamId)?.bingo:undefined,survivalWinner:s.survivalWinner,listenStep:s.listenStep||0,audioElapsed:s.audioElapsed||0,teams:s.teams.map(({id,name,score,key,streak,eliminated,lives})=>({id,name,score:timeMode&&teamId&&s.phase!=='finished'?undefined:score,key,streak:timeMode&&teamId?undefined:streak,eliminated,lives})),startAt:s.startAt,endAt:s.endAt,nextAt:s.nextAt,event:s.event,revision:s.revision,question,effect:s.effect,history:timeMode&&teamId&&s.phase!=='finished'?[]:s.history,me:teamId?(s.input==='qcm'&&(!revealed||timeMode)&&s.answers[teamId]?{attempts:s.answers[teamId].attempts}:s.answers[teamId]):undefined};
 }
 export const DEMO=[
 {id:'m1',universe:'music',kind:'audio',prompt:'Quel est le titre de cette mélodie ?',answer:'Frère Jacques',aliases:['frere jacques'],options:['Frère Jacques','Au clair de la lune','Sur le pont d’Avignon','Une souris verte'],notes:[[60,.4],[62,.4],[64,.4],[60,.4],[60,.4],[62,.4],[64,.4],[60,.4],[64,.4],[65,.4],[67,.8],[64,.4],[65,.4],[67,.8]],hint:'Une mélodie qui traverse les générations.',duration:25,points:100},

@@ -27,7 +27,9 @@ Les derniers échanges nomment le Blind test classique comme jeu 8. Une liste an
 - Conserver les 37 playlists de référence, les métadonnées, les exclusions manuelles et la déduplication. Le catalogue maître consulté compte 2 143 références et déclare 0 extrait validé. Les métadonnées et un extrait effectivement jouable représentent deux étapes distinctes du contrôle.
 - Maintenir les statistiques de chaque joueur sur la soirée et rendre les résultats consultables notamment aux pauses et en fin de soirée.
 - Un joueur peut détenir un seul joker. Le seuil validé est quatre bonnes réponses de suite ou deux premières réponses correctes les plus rapides de suite. Le Tyrolien garde son mécanisme propre. Les vies du Dernier survivant relèvent de la mécanique du jeu. Les autres jeux n’ajoutent aucun malus transversal.
-- Les effets précis des jokers par jeu doivent être repris du texte validé avant activation.
+- L’animateur peut activer les jokers au lancement. Attribution aléatoire parmi les jokers compatibles, compteurs suspendus pendant la possession, remise à zéro à l’utilisation. Le joker expire au changement de jeu.
+- Bingo : récompenses automatiques Éclair et Combo, avec grille inchangée. Frise : indice décennie et double points. Pochettes : 50/50 et seconde chance. Dernier survivant : vie supplémentaire, bouclier et 50/50. Reprises : 50/50, seconde chance et double points. Cinéma : 50/50 et double points. Blind test : double points et seconde chance selon le mode de réponse. Tyrolien : système propre.
+- Le barème général équilibré entre jeux reste à valider. Les statistiques brutes demeurent indépendantes des effets des jokers.
 
 ## État des développements
 
@@ -38,8 +40,8 @@ Les derniers échanges nomment le Blind test classique comme jeu 8. Une liste an
 | Dernier survivant | Vies configurables, départage tant qu’il reste un extrait, joueurs éliminés toujours actifs et bilan par nombre de vies. |
 | Pochettes, reprises et cinéma | QCM par pochettes et bilan collectif. Deux sens de recherche pour les reprises. Sélection groupée films, séries et génériques avec 2 à 5 propositions. |
 | Statistiques de soirée | Cumul serveur des scores et bonnes réponses entre jeux en mode connecté. Le détail et les indicateurs de soirée restent à compléter. |
-| Frise | QCM de placement existant. Les deux modes complets et leurs restitutions demandées restent à développer. |
+| Frise | Deux modes jouables, ajout automatique ou après réussite, départage au temps et répartition collective. La sélection repose encore sur les extraits datés du catalogue de départ. |
 | Moteur musical et playlists | Bibliothèque de référence, recherche Deezer et extraits de démonstration présents. Intégration et validation audio du catalogue enrichi encore à faire. |
-| Joker commun | Règle d’obtention documentée, activation et effets par jeu encore à faire. |
+| Joker commun | Attribution serveur, progression privée et effets selon le type de jeu. Les récompenses automatiques avancées et le détail de l’historique par type restent à compléter. |
 
 La liste des conversations du projet est accessible. Le texte complet de plusieurs réponses anciennes n’a pas été récupéré au moment de cette version, ainsi que le contenu complet de tous les fichiers historiques. Les divergences de règles non résolues doivent être comparées aux conversations sources avant d’étendre le comportement.

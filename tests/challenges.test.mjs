@@ -102,3 +102,85 @@ test('Maillon faible : points sécurisés, points perdus et vote privé',()=>{
  action('answer',18000,{team:'c',answer:'Titre'});
  assert.equal(s,before);
 });
+
+for(const timelineMode of ['collective','individual']){
+ test('Frise '+timelineMode+' : placement, dates égales, confidentialité et classement',()=>{
+  const anchor={id:'anchor',title:'Point de départ',artist:'Artiste',year:1980};
+  const questions=[1980,1995,1965,2000,2010,2020].map((year,index)=>({
+   ...audio,id:'timeline-'+index,target:'timeline',year
+  }));
+  let game=createGame(questions,teams,'phone','qcm',{timelineMode,timelineAnchor:anchor});
+  let now=1000;
+  const act=(type,extra={})=>{game=applyAction(game,{type,...extra},now);};
+  act('play');
+  now=game.startAt+20;
+  assert.equal(publicGame(game,'a').question.year,undefined);
+  assert.deepEqual(publicGame(game,'a').timelineSlots,[0,1]);
+  act('answer',{team:'a',answer:'0'});
+  now+=10;
+  act('answer',{team:'b',answer:'1'});
+  const answered=game;
+  act('answer',{team:'a',answer:'1'});
+  act('reveal');
+  assert.equal(game,answered);
+  now=game.endAt;
+  act('timeout');
+  assert.deepEqual(game.teams.map(team=>team.score),[1,1]);
+  assert.equal(publicGame(game,'a').teams[0].score,undefined);
+  assert.deepEqual(publicGame(game,'a').me,{attempts:1});
+  act('next');
+  act('play');
+  now=game.startAt+20;
+  act('answer',{team:'a',answer:'0'});
+  now=game.endAt;
+  act('timeout');
+  assert.equal(publicGame(game,'a').timelineCards.length,timelineMode==='collective'?3:2);
+  while(game.phase!=='finished'){
+   act('next');
+   if(game.phase==='finished')break;
+   act('play');
+   now=game.endAt;
+   act('timeout');
+  }
+  assert.equal(publicGame(game,'a').timelineResult.rank,1);
+  assert.equal(publicGame(game,'a').timelineResult.correct,1);
+  assert.equal(publicGame(game,'a').timelineResult.total,6);
+  if(timelineMode==='individual')assert.deepEqual(publicGame(game).distribution,[{correct:1,players:2}]);
+ });
+}
+
+test('Jokers : séries distinctes, cumul impossible, réinitialisation et points bruts',()=>{
+ const questions=Array.from({length:8},(_,index)=>({...audio,id:'joker-'+index,target:'soundtrack',answer:'Titre'}));
+ let game=createGame(questions,teams,'phone','qcm',{jokers:true,speed:false,streak:false});
+ let now=1000;
+ const act=(type,extra={})=>{game=applyAction(game,{type,...extra},now);};
+ for(let round=0;round<4;round++){
+  act('play');
+  now=game.startAt+10;
+  act('answer',{team:'a',answer:'Titre'});
+  now+=10;
+  act('answer',{team:'b',answer:'Titre'});
+  now=game.endAt;
+  act('timeout');
+  if(round===1)assert.equal(game.teams[0].joker.earned.length,1);
+  act('next');
+ }
+ assert.equal(game.teams[0].joker.earned.length,1);
+ assert.equal(game.teams[1].joker.earned.length,1);
+ game.teams[0].joker.held='double';
+ const before=game.teams[0].score;
+ act('play');
+ now=game.startAt+10;
+ act('joker',{team:'a'});
+ assert.equal(game.teams[0].joker.correct,0);
+ assert.equal(game.teams[0].joker.fastest,0);
+ assert.equal(game.teams[0].joker.held,undefined);
+ const used=game;
+ act('joker',{team:'a'});
+ assert.equal(game,used);
+ act('answer',{team:'a',answer:'Titre'});
+ now=game.endAt;
+ act('timeout');
+ assert.equal(game.teams[0].score,before+200);
+ assert.equal(game.history.at(-1).results[0].result.total,100);
+});

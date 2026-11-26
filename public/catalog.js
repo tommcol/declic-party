@@ -82,7 +82,7 @@ export function specialQuestions(mode,entries,config){
   }
   if(mode==='tvThemes')prompt='À quelle série, émission ou dessin animé appartient ce générique ?';
   out.push({id:crypto.randomUUID(),universe:soundtrack?'film':'music',kind:'audio',
-   target:soundtrack?'soundtrack':mode,prompt,answer,options,timeline,title,artist,
+   target:soundtrack?'soundtrack':mode,prompt,answer,options,timeline,title,artist,year:mode==='timeline'?value:undefined,
    explanation:mode==='timeline'?title+' — '+artist+' ('+value+').':title+' — '+artist+'.',
    audioUrl:track.preview,duration:config.duration,points:100,provider:'Deezer',link:track.link});
  }

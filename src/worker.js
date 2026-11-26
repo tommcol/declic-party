@@ -64,7 +64,7 @@ export default {
    if(url.pathname==='/api/library'||url.pathname.startsWith('/api/library/'))return await libraryRoute(req,env,url);
    if(url.pathname==='/api/evening')return await eveningRoute(req,env,url);
    if(req.method==='GET'&&url.pathname.startsWith('/api/music/'))return musicRoute(req);
-   if(url.pathname==='/api/health')return json({ok:true,version:'0.7.1'});
+   if(url.pathname==='/api/health')return json({ok:true,version:'0.7.2'});
    if(req.method==='POST'&&url.pathname==='/api/rooms'){
     if(req.headers.get('Origin')!==url.origin)return json({error:'Origine refusée'},403);
     if(Number(req.headers.get('Content-Length'))>150000)return json({error:'Partie trop volumineuse'},413);
@@ -83,8 +83,26 @@ export default {
     if(data.questions.some(q=>q.target==='coverChoice'&&(data.input!=='qcm'||!Array.isArray(q.optionArtwork)||q.optionArtwork.length!==4||q.options.join(',')!=='A,B,C,D'||new Set(q.optionArtwork).size!==4||!q.optionArtwork.every(isCoverUrl)||q.optionArtwork[q.options.indexOf(q.answer)]!==q.artwork)))return json({error:'Ce jeu nécessite quatre pochettes distinctes.'},400);
     if(data.settings?.chain&&(data.input!=='qcm'||data.settings.bingo===true||data.settings.survival===true||data.questions.length<4))return json({error:'Ce jeu nécessite au moins quatre questions en QCM.'},400);
     if(data.settings?.bingo&&(data.input!=='qcm'||data.settings.survival===true||data.questions.length!==BINGO_CARD_SIZE||data.questions.some(q=>q.kind!=='audio'||typeof q.title!=='string'||!q.title.trim()||typeof q.artist!=='string'||!q.artist.trim())||new Set(data.questions.map(q=>String(q.id).slice(0,80))).size!==data.questions.length))return json({error:'Le bingo nécessite 16 extraits distincts et un salon sur téléphone.'},400);
+    if(data.settings?.timelineMode){
+     const validModes=['collective','individual'];
+     const anchor=data.settings.timelineAnchor;
+     const validSong=song=>typeof song?.id==='string'&&song.id.length>0&&song.id.length<=80&&
+      typeof song.title==='string'&&song.title.trim()&&song.title.length<=180&&
+      typeof song.artist==='string'&&song.artist.trim()&&song.artist.length<=180&&
+      Number.isInteger(song.year)&&song.year>=1900&&song.year<=new Date().getFullYear();
+     if(!validModes.includes(data.settings.timelineMode)||data.input!=='qcm'||!validSong(anchor)||
+        data.questions.length<5||data.questions.some(q=>q.target!=='timeline'||q.kind!=='audio'||!validSong(q))||
+        new Set([anchor.id,...data.questions.map(q=>q.id)]).size!==data.questions.length+1){
+      return json({error:'Choisissez au moins cinq extraits et une chanson de départ datés.'},400);
+     }
+     const {id,title,artist,year}=anchor;
+     data.settings={
+      timelineMode:data.settings.timelineMode,timelineAnchor:{id,title,artist,year},
+      jokers:data.settings.jokers===true,autoNext:data.settings.autoNext===true
+     };
+    }
     const allowedTargets=['both','title','artist','cover','artistTitle','coverChoice','timeline','coversQuiz','soundtrack'];
-    data.questions=data.questions.map(q=>({id:String(q.id).slice(0,80),universe:q.target==='soundtrack'?q.universe:'music',cutAt:q.kind==='lyrics'?q.cutAt:undefined,kind:['audio','image','question','lyrics'].includes(q.kind)?q.kind:'question',prompt:q.prompt,answer:q.answer,explanation:typeof q.explanation==='string'?q.explanation.slice(0,1500):undefined,theme:typeof q.theme==='string'?q.theme.slice(0,80):undefined,credit:normalizeQuizCredit(q.credit),aliases:(Array.isArray(q.aliases)?q.aliases:[]).filter(v=>typeof v==='string').slice(0,15).map(v=>v.slice(0,180)),options:q.options,timeline:q.target==='timeline'&&Array.isArray(q.timeline)?q.timeline.filter(v=>typeof v==='string').slice(0,3).map(v=>v.slice(0,180)):undefined,optionArtwork:q.target==='coverChoice'?q.optionArtwork:undefined,duration:q.duration,points:q.points,title:typeof q.title==='string'?q.title.slice(0,180):undefined,artist:typeof q.artist==='string'?q.artist.slice(0,180):undefined,titleAliases:(Array.isArray(q.titleAliases)?q.titleAliases:[]).filter(v=>typeof v==='string').slice(0,10).map(v=>v.slice(0,180)),artistAliases:(Array.isArray(q.artistAliases)?q.artistAliases:[]).filter(v=>typeof v==='string').slice(0,10).map(v=>v.slice(0,180)),target:allowedTargets.includes(q.target)?q.target:'title',emoji:typeof q.emoji==='string'?q.emoji.slice(0,80):undefined,artwork:typeof q.artwork==='string'&&/^https:\/\/[^/]+\.dzcdn\.net\//.test(q.artwork)?q.artwork:undefined,link:typeof q.link==='string'&&/^https:\/\/www\.deezer\.com\//.test(q.link)?q.link:undefined,provider:q.provider==='Deezer'?'Deezer':undefined}));
+    data.questions=data.questions.map(q=>({id:String(q.id).slice(0,80),universe:q.target==='soundtrack'?q.universe:'music',cutAt:q.kind==='lyrics'?q.cutAt:undefined,kind:['audio','image','question','lyrics'].includes(q.kind)?q.kind:'question',prompt:q.prompt,answer:q.answer,explanation:typeof q.explanation==='string'?q.explanation.slice(0,1500):undefined,theme:typeof q.theme==='string'?q.theme.slice(0,80):undefined,credit:normalizeQuizCredit(q.credit),aliases:(Array.isArray(q.aliases)?q.aliases:[]).filter(v=>typeof v==='string').slice(0,15).map(v=>v.slice(0,180)),options:q.options,year:q.target==='timeline'&&Number.isInteger(q.year)?q.year:undefined,timeline:q.target==='timeline'&&Array.isArray(q.timeline)?q.timeline.filter(v=>typeof v==='string').slice(0,3).map(v=>v.slice(0,180)):undefined,optionArtwork:q.target==='coverChoice'?q.optionArtwork:undefined,duration:q.duration,points:q.points,title:typeof q.title==='string'?q.title.slice(0,180):undefined,artist:typeof q.artist==='string'?q.artist.slice(0,180):undefined,titleAliases:(Array.isArray(q.titleAliases)?q.titleAliases:[]).filter(v=>typeof v==='string').slice(0,10).map(v=>v.slice(0,180)),artistAliases:(Array.isArray(q.artistAliases)?q.artistAliases:[]).filter(v=>typeof v==='string').slice(0,10).map(v=>v.slice(0,180)),target:allowedTargets.includes(q.target)?q.target:'title',emoji:typeof q.emoji==='string'?q.emoji.slice(0,80):undefined,artwork:typeof q.artwork==='string'&&/^https:\/\/[^/]+\.dzcdn\.net\//.test(q.artwork)?q.artwork:undefined,link:typeof q.link==='string'&&/^https:\/\/www\.deezer\.com\//.test(q.link)?q.link:undefined,provider:q.provider==='Deezer'?'Deezer':undefined}));
     const setup={questions:data.questions,input:['text','buzzer'].includes(data.input)?data.input:'qcm',settings:data.settings&&typeof data.settings==='object'?data.settings:{},effect:['normal','fast','slow','chipmunk','reverse','image'].includes(data.effect)?data.effect:'normal'};
     const status=await env.ROOMS.getByName(data.room).prepare(setup,await digest(data.token));
     return status===200?json({code:data.room,token:data.token}):json({error:status===404?'Cette soirée a expiré. Créez une nouvelle soirée.':status===403?'Accès animateur refusé.':'Terminez le jeu en cours avant de changer de jeu.'},status);
@@ -117,7 +135,9 @@ function eveningTotals(room){
    }
   }
   totals[team.id]={id:team.id,name:team.name,
-   points:prior.points+(room.tyrolien?correct:team.score||0),correct:prior.correct+correct,played:prior.played+played};
+   jokersEarned:(prior.jokersEarned||0)+(team.joker?.earned?.length||0),
+   jokersUsed:(prior.jokersUsed||0)+(team.joker?.used?.length||0),
+   points:prior.points+(room.tyrolien?correct:(team.score||0)+(team.timelineBonus||0)),correct:prior.correct+correct,played:prior.played+played};
  }
  return totals;
 }
@@ -314,13 +334,17 @@ export class PartyRoom extends DurableObject {
     if(m.questionId!==s.questions[s.index]?.id)throw Error('Cet extrait est terminé.');
     s=applyAction(s,{type:m.type,team:a.team,song:m.song,marked:m.marked},now);
    }
+   else if(m.type==='joker'&&a.role==='player'){
+    if(m.questionId!==s.questions[s.index]?.id)throw Error('Cette manche est terminée.');
+    s=applyAction(s,{type:'joker',team:a.team},now);
+   }
    else if(m.type==='answer'&&a.role==='player'&&s.input!=='buzzer'){if(m.questionId!==s.questions[s.index]?.id)throw Error('Cette question est terminée');s=applyAction(s,{type:'answer',team:a.team,answer:m.answer,title:m.title,artist:m.artist},now);this.send(ws,{type:'received',accepted:!!s.answers[a.team]});}
    else if(a.role==='host'&&['play','pause','resume','reveal','next','adjust','judge','listen-more'].includes(m.type)){if(m.type==='play'&&s.teams.length<(s.settings?.chain?3:s.settings?.survival&&s.input==='qcm'?2:1))throw Error(s.settings?.chain?'Attendez au moins trois participants.':s.settings?.survival?'Attendez au moins deux participants.':'Attendez au moins une équipe.');s=applyAction(s,m,now);}
    else throw Error('Action non autorisée');
    if(s===previous)return;
    await this.ctx.storage.put('room',s);
    if(s.phase!==previous.phase||s.endAt!==previous.endAt||s.nextAt!==previous.nextAt)await this.schedule(s);
-   this.broadcast(s,m.type==='answer'||m.type==='bingo-mark'||m.type==='chain-vote'?a.team:undefined);
+   this.broadcast(s,m.type==='answer'||m.type==='joker'||m.type==='bingo-mark'||m.type==='chain-vote'?a.team:undefined);
   }catch(e){this.send(ws,{type:'error',message:e.message});}
  }
  async updateTyrolien(action,identity,now){
