@@ -29,3 +29,21 @@
   object-fit: cover;
   border-radius: .4rem;
 }
+
+.bingo-card {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: .4rem;
+  margin: 1rem 0;
+}
+.bingo-card .option {
+  display: grid;
+  align-content: center;
+  padding: .45rem;
+  min-height: 4.5rem;
+  overflow-wrap: anywhere;
+}
+.bingo-card .option[aria-pressed="true"] {
+  background: var(--lime);
+  color: #241539;
+}

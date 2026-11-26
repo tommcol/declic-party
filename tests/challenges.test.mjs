@@ -41,3 +41,31 @@ test('Dernier survivant : une manche sans bonne réponse conserve les joueurs, p
  next();
  assert.equal(s.phase,'finished');
 });
+
+test('Bingo musical : carton privé, ligne prématurée refusée et victoire après diffusion',()=>{
+ const questions=Array.from({length:12},(_,i)=>({...audio,id:'song-'+i,title:'Titre '+i}));
+ let s=createGame(questions,teams,'phone','qcm',{bingo:true});
+ let now=1000;
+ const act=(type,extra={})=>{s=applyAction(s,{type,...extra},now);};
+ const play=()=>{act('play');now+=3000;};
+ play();
+ const card=publicGame(s,'a').bingoCard;
+ assert.equal(new Set(card.card.map(q=>q.id)).size,9);
+ assert.equal(publicGame(s).bingoCard,undefined);
+ assert.equal(publicGame(s,'a').question.title,undefined);
+ assert.equal(publicGame(s,'a').teams[0].bingo,undefined);
+ for(const song of card.card.slice(0,3))act('bingo-mark',{team:'a',song:song.id,marked:true});
+ act('bingo-claim',{team:'a'});
+ assert.equal(s.phase,'playing');
+ assert.ok(publicGame(s,'a').bingoCard.notice);
+ const winningIndex=Math.max(...card.card.slice(0,3).map(q=>questions.findIndex(song=>song.id===q.id)));
+ while(s.index<winningIndex){
+  act('reveal');
+  act('next');
+  now+=1000;
+  play();
+ }
+ act('bingo-claim',{team:'a'});
+ assert.equal(s.phase,'finished');
+ assert.equal(publicGame(s,'b').bingoWinner,'a');
+});

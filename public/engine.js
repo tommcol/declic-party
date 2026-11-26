@@ -16,7 +16,16 @@ export const isProgressive=(s,q=s.question||s.questions?.[s.index])=>s.settings?
 export const listeningLimit=(s,q=s.question||s.questions?.[s.index])=>q?.kind==='lyrics'?Number(q.cutAt)||5:isProgressive(s,q)?LISTEN_STEPS[s.listenStep||0]:Infinity;
 export function audioRemaining(s,now=Date.now()){if(s.phase!=='playing'||now<s.startAt)return 0;return Math.max(0,listeningLimit(s)-((s.audioElapsed||0)+now-s.startAt)/1000);}
 export function targets(q){if(q.kind==='lyrics'||q.target==='coverChoice')return ['answer'];return (q.title&&q.artist)||q.musical?(q.target==='both'?['title','artist']:[q.target==='artist'||q.target==='cover'?'artist':'title']):['answer'];}
-export function gameSettings(input={}){return {survival:input.survival===true,listening:input.listening==='progressive'?'progressive':'continuous',duration:Math.max(5,Math.min(90,Number(input.duration)||30)),titlePoints:Math.max(1,Math.min(1000,Number(input.titlePoints)||50)),artistPoints:Math.max(1,Math.min(1000,Number(input.artistPoints)||50)),speed:input.speed!==false,streak:input.streak!==false,rebuzz:['round','none','3','5','10'].includes(String(input.rebuzz))?String(input.rebuzz):'round',resume:input.resume==='manual'?'manual':'auto',autoNext:input.autoNext===true};}
+const BINGO_LINES=[[0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[2,4,6]];
+function dealBingoCard(questions){
+ const songs=questions.map(({id,title,artist})=>({id,title,artist}));
+ for(let i=songs.length-1;i>0;i--){
+  const j=Math.floor(Math.random()*(i+1));
+  [songs[i],songs[j]]=[songs[j],songs[i]];
+ }
+ return songs.slice(0,9);
+}
+export function gameSettings(input={}){return {bingo:input.bingo===true,survival:input.survival===true,listening:input.listening==='progressive'?'progressive':'continuous',duration:Math.max(5,Math.min(90,Number(input.duration)||30)),titlePoints:Math.max(1,Math.min(1000,Number(input.titlePoints)||50)),artistPoints:Math.max(1,Math.min(1000,Number(input.artistPoints)||50)),speed:input.speed!==false,streak:input.streak!==false,rebuzz:['round','none','3','5','10'].includes(String(input.rebuzz))?String(input.rebuzz):'round',resume:input.resume==='manual'?'manual':'auto',autoNext:input.autoNext===true};}
 export function createGame(questions, teams=[], mode='usb', input='qcm', settings={}) {
  return {version:2,questions:structuredClone(questions),teams:teams.map((t,i)=>({id:t.id||String(i),name:t.name||t,score:0,key:t.key||String(i+1),streak:0})),mode,input,settings:gameSettings(settings),index:0,phase:'lobby',buzz:null,blocked:[],cooldowns:{},claimed:{},answers:{},pending:{},startAt:0,endAt:0,remaining:0,event:null,revision:0,history:[],listenStep:0,audioElapsed:0};
 }
@@ -26,6 +35,7 @@ export function applyAction(game, action, now=Date.now()) {
  const emit=(type,extra={})=>{s.event={type,id:crypto.randomUUID(),...extra};};
  const roundResult=id=>s.answers[id]??={parts:[],breakdown:{title:0,artist:0,answer:0,speed:0,streak:0},total:0,attempts:0};
  const award=(id,part)=>{const r=roundResult(id);if(r.parts.includes(part))return;r.parts.push(part);const factor=isProgressive(s,q)?[1,.8,.6,.4][s.listenStep||0]:1;const points=Math.round(factor*(part==='title'?s.settings.titlePoints:part==='artist'?s.settings.artistPoints:(q.points||100)));r.breakdown[part]=points;r.total+=points;if(r.parts.length===1){const speed=s.settings.speed&&!isProgressive(s,q)?Math.round(50*Math.max(0,Math.min(1,(s.phase==='buzzed'?s.remaining:s.endAt-now)/((q.duration||s.settings.duration)*1000)))):0;const streak=s.settings.streak?Math.min(5,s.teams.find(t=>t.id===id)?.streak||0)*10:0;r.breakdown.speed=speed;r.breakdown.streak=streak;r.total+=speed+streak;}s.pending[id]=r.total;};
+ const bingo=s.settings.bingo&&s.mode==='phone'&&s.input==='qcm';
  const survival=s.settings.survival&&s.mode==='phone'&&s.input==='qcm';
  const reveal=()=>{
   if(survival){
@@ -38,7 +48,11 @@ export function applyAction(game, action, now=Date.now()) {
   }
   for(const t of s.teams){t.score+=s.pending[t.id]||0;t.streak=s.answers[t.id]?.parts?.length?(t.streak||0)+1:0;}s.pending={};s.phase='reveal';s.buzz=null;s.history.push({index:s.index,question:{id:q.id,prompt:q.prompt,title:q.title,artist:q.artist,answer:q.answer,provider:q.provider,link:q.link,explanation:q.explanation,credit:q.credit,theme:q.theme},results:s.teams.map(t=>({id:t.id,name:t.name,score:t.score,result:s.answers[t.id]||{parts:[],total:0,breakdown:{}}}))});emit('reveal');s.nextAt=s.settings.autoNext?now+8000:0;};
  const continueRound=()=>{s.buzz=null;if(s.settings.resume==='manual'){s.phase='paused';}else{s.phase='playing';s.startAt=now;s.endAt=now+s.remaining;}};
- if(action.type==='play'&&['lobby','ready'].includes(s.phase)&&q&&(!survival||s.teams.length>=2)){s.phase='playing';s.listenStep=0;s.audioElapsed=0;s.startAt=now+3000;s.endAt=s.startAt+(q.duration||s.settings.duration)*1000;s.buzz=null;s.blocked=[];s.cooldowns={};s.claimed={};s.answers={};s.pending={};emit('start');}
+ if(action.type==='play'&&['lobby','ready'].includes(s.phase)&&q&&(!survival||s.teams.length>=2)){
+  if(bingo&&s.phase==='lobby'){
+   for(const team of s.teams)team.bingo={card:dealBingoCard(s.questions),marked:[]};
+  }
+  s.phase='playing';s.listenStep=0;s.audioElapsed=0;s.startAt=now+3000;s.endAt=s.startAt+(q.duration||s.settings.duration)*1000;s.buzz=null;s.blocked=[];s.cooldowns={};s.claimed={};s.answers={};s.pending={};emit('start');}
  else if(action.type==='pause'&&s.phase==='playing'&&now>=s.startAt){s.remaining=Math.max(0,s.endAt-now);s.audioElapsed=(s.audioElapsed||0)+Math.max(0,now-s.startAt);s.phase='paused';emit('pause');}
  else if(action.type==='resume'&&s.phase==='paused'){s.phase='playing';s.startAt=now;s.endAt=now+s.remaining;emit('resume');}
  else if(action.type==='buzz'&&isBuzzer(s)&&s.phase==='playing'&&now>=s.startAt&&now<s.endAt&&s.teams.some(t=>t.id===action.team)&&!s.blocked.includes(action.team)&&(s.cooldowns[action.team]||0)<=now){s.buzz=action.team;s.remaining=s.endAt-now;s.audioElapsed=(s.audioElapsed||0)+Math.max(0,now-s.startAt);s.phase='buzzed';emit('buzz',{team:action.team});}
@@ -47,7 +61,27 @@ export function applyAction(game, action, now=Date.now()) {
   const id=s.buzz;if(action.correct){const wanted=targets(q),requested=action.part&&action.part!=='both'?[action.part]:wanted;const fresh=requested.filter(p=>wanted.includes(p)&&!s.claimed[p]);if(!fresh.length)return game;for(const p of fresh){award(id,p);s.claimed[p]=id;}if(wanted.every(p=>s.claimed[p])){reveal();s.event.type='correct';s.event.team=id;}else{continueRound();emit('partial',{team:id});}}
   else{if(s.settings.rebuzz==='round')s.blocked.push(id);else if(s.settings.rebuzz!=='none')s.cooldowns[id]=now+Number(s.settings.rebuzz)*1000;if(s.blocked.length>=s.teams.length){if(isProgressive(s,q)&&(s.listenStep||0)<LISTEN_STEPS.length-1){s.buzz=null;s.phase='paused';emit('wrong');}else reveal();}else{continueRound();emit('wrong');}}
  }
- else if(action.type==='answer'&&s.mode==='phone'&&['text','qcm'].includes(s.input)&&s.phase==='playing'&&now>=s.startAt&&now<s.endAt&&s.teams.some(t=>t.id===action.team&&(!survival||!t.eliminated))){
+ else if(bingo&&['bingo-mark','bingo-claim'].includes(action.type)&&['playing','reveal'].includes(s.phase)&&now>=s.startAt&&!s.bingoWinner){
+  const card=s.teams.find(t=>t.id===action.team)?.bingo;
+  if(!card)return game;
+  if(action.type==='bingo-mark'){
+   if(!card.card.some(song=>song.id===action.song)||typeof action.marked!=='boolean')return game;
+   card.marked=card.marked.filter(id=>id!==action.song);
+   if(action.marked)card.marked.push(action.song);
+   card.notice=null;
+  }else{
+   const heard=new Set(s.questions.slice(0,s.index+1).map(song=>song.id));
+   const valid=BINGO_LINES.some(line=>line.every(i=>heard.has(card.card[i]?.id)&&card.marked.includes(card.card[i]?.id)));
+   if(valid){
+    s.bingoWinner=action.team;
+    if(s.phase==='playing')reveal();
+    s.phase='finished';
+    s.nextAt=0;
+    emit('podium');
+   }else card.notice='Aucune ligne complète avec des titres déjà joués.';
+  }
+ }
+ else if(!bingo&&action.type==='answer'&&s.mode==='phone'&&['text','qcm'].includes(s.input)&&s.phase==='playing'&&now>=s.startAt&&now<s.endAt&&s.teams.some(t=>t.id===action.team&&(!survival||!t.eliminated))){
   const id=action.team,r=roundResult(id),wanted=targets(q);if(r.attempts>=(s.input==='qcm'?1:5)||wanted.every(p=>r.parts.includes(p)))return game;
   const values=s.input==='text'&&wanted[0]!=='answer'&&q.title&&q.artist?{title:action.title,artist:action.artist}:{[wanted[0]]:action.answer};
   if(!Object.values(values).some(v=>typeof v==='string'&&v.trim()))return game;if(s.input==='qcm'&&!q.options.includes(action.answer))return game;
@@ -64,8 +98,8 @@ export function applyAction(game, action, now=Date.now()) {
 }
 export function publicGame(s,teamId){
  const q=s.questions[s.index],revealed=s.phase==='reveal';
- const question=q?{id:q.id,universe:q.universe,kind:q.kind,prompt:q.prompt,options:s.input==='qcm'?q.options:[],optionArtwork:s.input==='qcm'?q.optionArtwork:undefined,emoji:q.emoji,duration:q.duration,cutAt:q.kind==='lyrics'?q.cutAt:undefined,points:q.points,target:q.target,musical:q.kind!=='lyrics'&&!!q.title&&!!q.artist,displayArtist:q.target==='artistTitle'?q.artist:undefined,artwork:q.target==='cover'||q.target!=='coverChoice'&&s.effect==='image'||revealed?q.artwork:undefined,...(revealed?{answer:q.answer,title:q.title,artist:q.artist,provider:q.provider,link:q.link,explanation:q.explanation,credit:q.credit,theme:q.theme}: {})}:null;
- return {version:2,mode:s.mode,input:s.input,index:s.index,total:s.questions.length,phase:s.phase,buzz:s.buzz,blocked:s.blocked,claimed:s.claimed,cooldowns:s.cooldowns,answered:Object.keys(s.answers),remaining:s.remaining,settings:{listening:s.settings?.listening||'continuous',survival:s.settings?.survival===true},survivalWinner:s.survivalWinner,listenStep:s.listenStep||0,audioElapsed:s.audioElapsed||0,teams:s.teams.map(({id,name,score,key,streak,eliminated})=>({id,name,score,key,streak,eliminated})),startAt:s.startAt,endAt:s.endAt,nextAt:s.nextAt,event:s.event,revision:s.revision,question,effect:s.effect,history:s.history,me:teamId?s.answers[teamId]:undefined};
+ const question=q?{id:q.id,universe:q.universe,kind:q.kind,prompt:q.prompt,options:s.input==='qcm'&&!s.settings?.bingo?q.options:[],optionArtwork:s.input==='qcm'?q.optionArtwork:undefined,emoji:q.emoji,duration:q.duration,cutAt:q.kind==='lyrics'?q.cutAt:undefined,points:q.points,target:q.target,musical:q.kind!=='lyrics'&&!!q.title&&!!q.artist,displayArtist:q.target==='artistTitle'?q.artist:undefined,artwork:q.target==='cover'||q.target!=='coverChoice'&&s.effect==='image'||revealed?q.artwork:undefined,...(revealed?{answer:q.answer,title:q.title,artist:q.artist,provider:q.provider,link:q.link,explanation:q.explanation,credit:q.credit,theme:q.theme}: {})}:null;
+ return {version:2,mode:s.mode,input:s.input,index:s.index,total:s.questions.length,phase:s.phase,buzz:s.buzz,blocked:s.blocked,claimed:s.claimed,cooldowns:s.cooldowns,answered:Object.keys(s.answers),remaining:s.remaining,settings:{listening:s.settings?.listening||'continuous',survival:s.settings?.survival===true,bingo:s.settings?.bingo===true},bingoWinner:s.bingoWinner,bingoCard:teamId?s.teams.find(t=>t.id===teamId)?.bingo:undefined,survivalWinner:s.survivalWinner,listenStep:s.listenStep||0,audioElapsed:s.audioElapsed||0,teams:s.teams.map(({id,name,score,key,streak,eliminated})=>({id,name,score,key,streak,eliminated})),startAt:s.startAt,endAt:s.endAt,nextAt:s.nextAt,event:s.event,revision:s.revision,question,effect:s.effect,history:s.history,me:teamId?s.answers[teamId]:undefined};
 }
 export const DEMO=[
 {id:'m1',universe:'music',kind:'audio',prompt:'Quel est le titre de cette mélodie ?',answer:'Frère Jacques',aliases:['frere jacques'],options:['Frère Jacques','Au clair de la lune','Sur le pont d’Avignon','Une souris verte'],notes:[[60,.4],[62,.4],[64,.4],[60,.4],[60,.4],[62,.4],[64,.4],[60,.4],[64,.4],[65,.4],[67,.8],[64,.4],[65,.4],[67,.8]],hint:'Une mélodie qui traverse les générations.',duration:25,points:100},
