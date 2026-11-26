@@ -107,7 +107,7 @@ for(const timelineMode of ['collective','individual']){
  test('Frise '+timelineMode+' : placement, dates égales, confidentialité et classement',()=>{
   const anchor={id:'anchor',title:'Point de départ',artist:'Artiste',year:1980};
   const questions=[1980,1995,1965,2000,2010,2020].map((year,index)=>({
-   ...audio,id:'timeline-'+index,target:'timeline',year
+   ...audio,id:'timeline-'+index,target:'timeline',year,prompt:'Titre visible uniquement par l’animateur'
   }));
   let game=createGame(questions,teams,'phone','qcm',{timelineMode,timelineAnchor:anchor});
   let now=1000;
@@ -115,6 +115,7 @@ for(const timelineMode of ['collective','individual']){
   act('play');
   now=game.startAt+20;
   assert.equal(publicGame(game,'a').question.year,undefined);
+  assert.doesNotMatch(publicGame(game).question.prompt,/Titre visible/);
   assert.deepEqual(publicGame(game,'a').timelineSlots,[0,1]);
   act('answer',{team:'a',answer:'0'});
   now+=10;
