@@ -1,4 +1,5 @@
 import http from 'node:http';import {readFile} from 'node:fs/promises';
 const types={html:'text/html',css:'text/css',js:'text/javascript',json:'application/json'};
 http.createServer(async(req,res)=>{try{const p=new URL(req.url,'http://localhost').pathname;
- const f=['/','/tv','/join'].includes(p)?'index.html':p.slice(1);if(!['index.html','style.css','app.js','engine.js','audio.js','catalog.js','solo.html','solo.js','solo-engine.js'].includes(f)){res.writeHead(404);res.end('Use Cloudflare deployment for connected rooms');return;}res.setHeader('Content-Type',types[f.split('.').pop()]);res.end(await readFile(new URL('public/'+f,import.meta.url)));}catch{res.writeHead(404);res.end();}}).listen(Number(process.env.PORT||process.argv[process.argv.indexOf('--port')+1])||3000,'0.0.0.0');
+ if(p==='/solo.html'){res.writeHead(302,{Location:'/'});res.end();return;}
+ const f=['/','/tv','/join'].includes(p)?'index.html':p.slice(1);if(!['index.html','style.css','app.js','engine.js','audio.js','catalog.js','qrcode.js'].includes(f)){res.writeHead(404);res.end('Use Cloudflare deployment for connected rooms');return;}res.setHeader('Content-Type',types[f.split('.').pop()]);res.end(await readFile(new URL('public/'+f,import.meta.url)));}catch{res.writeHead(404);res.end();}}).listen(Number(process.env.PORT||process.argv[process.argv.indexOf('--port')+1])||3000,'0.0.0.0');

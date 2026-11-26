@@ -51,3 +51,32 @@ test('Préparation générale : charge tous les packs de la catégorie et peut r
 
 test('Quiz général toutes catégories : les 5995 questions restent éligibles',()=>{const config=categoryQuizSettings('all');assert.equal(config.universe,'quiz');assert.equal(quizAvailableCount(config),5995);assert.equal(quizPool(config).length,5995);assert.equal(new Set(quizPool(config).map(q=>BANK_INDEX.find(b=>b.id===q.theme).category)).size,12);});
 test('Tout mélanger : variété entre catégories, dix packs chargés pour dix questions',async()=>{const lazy=await import('../public/quiz.js?all-categories-test'),calls=[];const config={...lazy.categoryQuizSettings('all'),count:10};const qs=await lazy.prepareQuizQuestions(config,async url=>{calls.push(url);return localFetch(url);});assert.equal(qs.length,10);assert.equal(new Set(qs.map(q=>q.id)).size,10);assert.equal(calls.length,10);assert.equal(new Set(qs.map(q=>BANK_INDEX.find(b=>b.id===q.theme).category)).size,10);assert.ok(qs.every(q=>q.options.includes(q.answer)));const mixed=await lazy.prepareQuizQuestions({...config,count:20,quizLevel:'hard'},localFetch);assert.equal(mixed.length,20);assert.ok(mixed.every(q=>q.level==='hard'));assert.equal(new Set(mixed.map(q=>BANK_INDEX.find(b=>b.id===q.theme).category)).size,12);});
+
+test('Une soirée conserve ses joueurs et leurs accès au changement de jeu',async()=>{
+ const source=await readFile(new URL('../src/worker.js',import.meta.url),'utf8');
+ const code=source.replace(/^import .*;$/gm,'').replace('export default {','globalThis.worker = {').replace('export class PartyRoom','globalThis.PartyRoom = class PartyRoom');
+ const context=vm.createContext({Response,URL,console,DurableObject:class{constructor(ctx){this.ctx=ctx;}},WebSocketRequestResponsePair:class{},createGame});
+ vm.runInContext(code,context);
+ const questions=[{id:'next-song',kind:'audio'}];
+ const expires=Date.now()+60000;
+ let state={phase:'finished',hostHash:'host',revision:9,code:'ABCDEFGH',expires,teams:[{id:'a',name:'Alpha',token:'player-token',score:90,eliminated:true}]};
+ let shown;
+ const room=new context.PartyRoom({
+  setWebSocketAutoResponse(){},getWebSockets:()=>[],
+  storage:{get:async()=>state,put:async(key,value)=>{state=value;},setAlarm:async()=>{}}
+ });
+ room.broadcast=value=>{shown=value;};
+ assert.equal(await room.prepare({questions,input:'qcm',effect:'normal'},'wrong'),403);
+ assert.equal(state.phase,'finished');
+ assert.equal(await room.prepare({questions,input:'qcm',effect:'normal'},'host'),200);
+ assert.equal(shown.phase,'lobby');
+ assert.equal(shown.code,'ABCDEFGH');
+ assert.equal(shown.revision,10);
+ assert.equal(shown.expires,expires);
+ assert.equal(shown.teams[0].token,'player-token');
+ assert.equal(shown.teams[0].id,'a');
+ assert.equal(shown.teams[0].score,0);
+ assert.equal(shown.teams[0].eliminated,undefined);
+ state.phase='playing';
+ assert.equal(await room.prepare({questions,input:'qcm'},'host'),409);
+});
