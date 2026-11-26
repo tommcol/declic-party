@@ -13,3 +13,31 @@ test('Progressif QCM : nouvel essai à chaque palier, points déjà acquis incha
 test('La quatrième écoute est la dernière et une ancienne question est refusée',()=>{let s=start('buzzer',{listening:'progressive'});for(let i=0;i<3;i++)s=applyAction(s,{type:'listen-more'},6000+i*2000);assert.equal(s.listenStep,3);assert.equal(applyAction(s,{type:'listen-more'},13000),s);assert.equal(applyAction(s,{type:'buzz',team:'a',questionId:'ancienne'},13000),s);});
 test('Paroles : coupure précise, aucun retour du son après pause et réponse générique',()=>{const q={...DEMO.find(q=>q.kind==='lyrics'),title:'Titre privé',artist:'Artiste privé'};let s=start('text',{},q);assert.equal(audioRemaining(s,6500),.5);assert.equal(audioRemaining(s,7000),0);s=applyAction(s,{type:'pause'},8000);s=applyAction(s,{type:'resume'},12000);assert.equal(audioRemaining(s,12001),0);s=applyAction(s,{type:'answer',team:'a',answer:'Pierrot'},13000);s=applyAction(s,{type:'reveal'},14000);assert.equal(s.teams[0].score,100);});
 test('Vue téléphone : état du palier partagé, solution et médias personnels protégés',()=>{const s=start('buzzer',{listening:'progressive'});s.questions[0].mediaKey='secret';s.questions[0].audioUrl='/private';const p=publicGame(s,'a');assert.equal(p.settings.listening,'progressive');assert.equal(p.listenStep,0);assert.equal(p.question.title,undefined);assert.equal(p.question.audioUrl,undefined);assert.equal(p.question.mediaKey,undefined);assert.deepEqual(p.question.options,[]);});
+
+test('Dernier survivant : une manche sans bonne réponse conserve les joueurs, puis élimination et victoire',()=>{
+ const participants=[...teams,{id:'c',name:'Gamma'}];
+ let s=createGame([audio,audio,audio,audio],participants,'phone','qcm',{survival:true});
+ const play=()=>{s=applyAction(s,{type:'play'},1000);};
+ const answer=(team,answer)=>{s=applyAction(s,{type:'answer',team,answer},5000);};
+ const reveal=()=>{s=applyAction(s,{type:'reveal'},6000);};
+ const next=()=>{s=applyAction(s,{type:'next'},7000);};
+ play();
+ reveal();
+ assert.equal(s.teams.filter(t=>!t.eliminated).length,3);
+ next();
+ play();
+ answer('a','Titre');
+ answer('b','Titre');
+ reveal();
+ assert.equal(publicGame(s,'c').teams.find(t=>t.id==='c').eliminated,true);
+ next();
+ play();
+ const before=s;
+ answer('c','Titre');
+ assert.equal(s,before);
+ answer('b','Titre');
+ reveal();
+ assert.equal(publicGame(s,'b').survivalWinner,'b');
+ next();
+ assert.equal(s.phase,'finished');
+});

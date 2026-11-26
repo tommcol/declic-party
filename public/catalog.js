@@ -6,10 +6,26 @@ export const cleanTitle=s=>String(s).replace(/\s*\((?:.*?remaster.*?|.*?version.
 export function musicQuestions(tracks,config){
  let pool=tracks.filter(t=>t.id&&t.title&&t.artist&&t.preview&&(config.explicit!==false||!t.explicit));const seen=new Set();pool=pool.filter(t=>{const k=normalize(t.artist+cleanTitle(t.title));if(seen.has(k))return false;seen.add(k);return true;});
  if(config.difficulty==='easy')pool.sort((a,b)=>(b.rank||0)-(a.rank||0));else if(config.difficulty==='hard')pool.sort((a,b)=>(a.rank||0)-(b.rank||0));else pool=shuffle(pool);
+ if(config.challenge==='coverChoice'){
+  pool=pool.filter(t=>t.artwork);
+  const covers=[...new Set(pool.map(t=>t.artwork))];
+  if(covers.length<4)return [];
+ }
  const count=Number(config.count)||10;const chosen=shuffle(pool.slice(0,config.difficulty==='balanced'?pool.length:Math.max(count,Math.ceil(pool.length/2)))).slice(0,count),out=[];
  for(const [index,t] of chosen.entries()){
   let target=config.challenge||'title';if(target==='mix'){const variants=['title','artist','cover'];if(config.mode==='usb'||config.input==='text')variants.push('both');target=variants[index%variants.length];}
   if(target==='both'&&config.mode==='phone'&&config.input==='qcm')target='title';
+  if(target==='coverChoice'){
+   const distractors=shuffle([...new Set(pool.map(v=>v.artwork))].filter(url=>url!==t.artwork)).slice(0,3);
+   const optionArtwork=shuffle([t.artwork,...distractors]);
+   const options=['A','B','C','D'];
+   out.push({id:crypto.randomUUID(),universe:'music',kind:'audio',target,
+    prompt:'Quelle pochette correspond à cet extrait ?',title:cleanTitle(t.title),artist:t.artist,
+    answer:options[optionArtwork.indexOf(t.artwork)],options,optionArtwork,
+    duration:Math.min(30,Number(config.duration)||30),points:100,artwork:t.artwork,
+    audioUrl:t.preview,provider:'Deezer',link:t.link});
+   continue;
+  }
   const peers=pool.filter(v=>normalize(v.artist)===normalize(t.artist));if(target==='artistTitle'&&new Set(peers.map(v=>normalize(cleanTitle(v.title)))).size<4)continue;
   if(target==='cover'&&!t.artwork)continue;
   const title=cleanTitle(t.title),artist=t.artist,artistTarget=['artist','cover'].includes(target),answer=artistTarget?artist:title;

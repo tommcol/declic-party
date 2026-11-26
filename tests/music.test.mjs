@@ -13,3 +13,25 @@ test('Une équipe ne voit que son propre résultat partiel avant révélation',(
 test('Le bilan ne contient que les manches révélées et ne duplique pas les points',()=>{let s=start('phone');assert.equal(s.history.length,0);s=applyAction(s,{type:'answer',team:'a',title:'Get Lucky'},5000);s=applyAction(s,{type:'reveal'},6000);const once=s.teams[0].score;s=applyAction(s,{type:'reveal'},6100);assert.equal(s.history.length,1);assert.equal(s.teams[0].score,once);assert.equal(s.history[0].results[0].result.breakdown.title,50);});
 test('Les bonus sont attribués une fois et une bonne manche incrémente la série',()=>{let s=start('phone',{speed:true,streak:true});s.teams[0].streak=2;s=applyAction(s,{type:'answer',team:'a',artist:'Daft Punk'},6000);const first=s.pending.a;s=applyAction(s,{type:'answer',team:'a',title:'Get Lucky'},7000);assert.equal(s.pending.a,first+50);s=applyAction(s,{type:'reveal'},8000);assert.equal(s.teams[0].streak,3);assert.equal(s.answers.a.breakdown.streak,20);assert.ok(s.answers.a.breakdown.speed<=50);});
 test('Génération de QCM : bons artistes, quatre choix uniques, titre du même artiste',()=>{const tracks=Array.from({length:7},(_,i)=>({id:String(i),title:'Titre '+i,artist:i<5?'Artiste A':'Artiste B',preview:'/api/music/preview/'+(i+1),link:'https://www.deezer.com/track/1',artwork:'https://cdns-images.dzcdn.net/images/a.jpg'}));for(const challenge of ['artist','title','cover','artistTitle']){const qs=musicQuestions(tracks,{challenge,count:5,duration:30,mode:'phone',input:'qcm'});assert.ok(qs.length);for(const q of qs){assert.equal(q.options.length,4);assert.equal(new Set(q.options).size,4);assert.ok(q.options.includes(q.answer));if(challenge==='artistTitle'){assert.equal(q.artist,'Artiste A');assert.ok(q.options.every(o=>/^Titre [0-4]$/.test(o)));}}}});
+
+test('La bonne pochette : quatre albums, choix anonymes et correction de la lettre',()=>{
+ const tracks=Array.from({length:5},(_,i)=>({
+  id:String(i),title:'Titre '+i,artist:'Artiste '+i,preview:'/preview/'+i,
+  artwork:'https://example.dzcdn.net/'+Math.min(i,3)
+ }));
+ const config={challenge:'coverChoice',difficulty:'balanced'};
+ assert.deepEqual(musicQuestions(tracks.slice(0,3),config),[]);
+ const [q]=musicQuestions(tracks,config);
+ assert.equal(new Set(q.optionArtwork).size,4);
+ assert.equal(q.optionArtwork[q.options.indexOf(q.answer)],q.artwork);
+ let s=createGame([q],[{id:'a',name:'Alpha'}],'phone','qcm',{speed:false,streak:false});
+ s.effect='image';
+ s=applyAction(s,{type:'play'},1000);
+ const visible=publicGame(s,'a').question;
+ assert.deepEqual(visible.optionArtwork,q.optionArtwork);
+ assert.equal(visible.artwork,undefined);
+ assert.equal(visible.answer,undefined);
+ assert.equal(visible.title,undefined);
+ s=applyAction(s,{type:'answer',team:'a',answer:q.answer},5000);
+ assert.equal(s.answers.a.total,100);
+});
