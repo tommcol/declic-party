@@ -23,6 +23,24 @@ export const SPECIAL_TRACKS={
   ['Respect','Aretha Franklin','Otis Redding'],['Killing Me Softly With His Song','Fugees','Lori Lieberman'],
   ['Twist and Shout','The Beatles','The Top Notes'],['All Along the Watchtower','Jimi Hendrix','Bob Dylan']
  ],
+ tvThemes:[
+  ['I’ll Be There for You','The Rembrandts','Friends'],
+  ['Game of Thrones','Ramin Djawadi','Game of Thrones'],
+  ['Stranger Things','Kyle Dixon','Stranger Things'],
+  ['Pokémon Theme','Jason Paige','Pokémon','Pokémon Theme-New Studio Recording'],
+  ['The Simpsons Theme','Danny Elfman','Les Simpson','"The Simpsons" Main Title Theme'],
+  ['The X-Files Theme','Mark Snow','X-Files','Materia Primoris: The X-Files Theme (Main Title)'],
+  ['Where Everybody Knows Your Name','Gary Portnoy','Cheers'],
+  ['The Fresh Prince of Bel-Air','DJ Jazzy Jeff & The Fresh Prince','Le Prince de Bel-Air'],
+  ['I Don’t Want to Wait','Paula Cole','Dawson'],
+  ['California','Phantom Planet','Newport Beach'],
+  ['Teardrop','Massive Attack','Dr House'],
+  ['Boss of Me','They Might Be Giants','Malcolm'],
+  ['Love and Marriage','Frank Sinatra','Mariés, deux enfants'],
+  ['Goldorak','Noam','Goldorak','Goldorak (Générique original de la série TV)'],
+  ['Capitaine Flam','Richard Simon','Capitaine Flam','Capitaine Flam: La chevauchée du Capitaine Flam'],
+  ['Boogie Body','Rock the Factory','C’est pas sorcier']
+ ],
  soundtrack:[
   ['My Heart Will Go On','Céline Dion','Titanic'],['Eye of the Tiger','Survivor','Rocky III'],
   ['Ghostbusters','Ray Parker Jr.','SOS Fantômes'],['Footloose','Kenny Loggins','Footloose'],
@@ -36,9 +54,10 @@ export const SPECIAL_TRACKS={
   ['(I’ve Had) The Time of My Life','Bill Medley','Dirty Dancing']
  ]
 };
-export function matchSpecialTrack(tracks,title,artist){
- const titleKey=normalize(title),artistKey=normalize(artist);
- return tracks.find(t=>t.preview&&normalize(cleanTitle(t.title))===titleKey&&normalize(t.artist).startsWith(artistKey));
+export function matchSpecialTrack(tracks,title,artist,alternateTitle){
+ const titles=[title,alternateTitle].filter(Boolean).map(normalize);
+ const artistKey=normalize(artist);
+ return tracks.find(t=>t.preview&&titles.includes(normalize(cleanTitle(t.title)))&&normalize(t.artist).startsWith(artistKey));
 }
 export function specialQuestions(mode,entries,config){
  const values=SPECIAL_TRACKS[mode].map(entry=>entry[2]);
@@ -57,8 +76,10 @@ export function specialQuestions(mode,entries,config){
    options=shuffle([answer,...shuffle(values.filter(v=>v!==answer)).slice(0,3)]);
    prompt=mode==='coversQuiz'?'Qui a interprété la version originale ?':'Dans quel film ou quelle série entend-on cette musique ?';
   }
-  out.push({id:crypto.randomUUID(),universe:mode==='soundtrack'?'film':'music',kind:'audio',
-   target:mode,prompt,answer,options,timeline,title,artist,
+  const soundtrack=mode==='soundtrack'||mode==='tvThemes';
+  if(mode==='tvThemes')prompt='À quelle série, émission ou dessin animé appartient ce générique ?';
+  out.push({id:crypto.randomUUID(),universe:soundtrack?'film':'music',kind:'audio',
+   target:soundtrack?'soundtrack':mode,prompt,answer,options,timeline,title,artist,
    explanation:mode==='timeline'?title+' — '+artist+' ('+value+').':title+' — '+artist+'.',
    audioUrl:track.preview,duration:config.duration,points:100,provider:'Deezer',link:track.link});
  }

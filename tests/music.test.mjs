@@ -37,7 +37,7 @@ test('La bonne pochette : quatre albums, choix anonymes et correction de la lett
 });
 
 test('Jeux spécialisés : contrôle de l’interprète, réponse cachée et correction QCM',()=>{
- for(const mode of ['timeline','coversQuiz','soundtrack']){
+ for(const mode of ['timeline','coversQuiz','soundtrack','tvThemes']){
   const entry=SPECIAL_TRACKS[mode][0];
   const [title,artist,value]=entry;
   const track={title,artist,preview:'/preview/123'};
@@ -56,4 +56,17 @@ test('Jeux spécialisés : contrôle de l’interprète, réponse cachée et cor
   s=applyAction(s,{type:'answer',team:'a',answer:question.answer},5000);
   assert.equal(s.answers.a.total,100);
  }
+});
+
+
+test('Génériques TV : les variantes de titre sont reconnues et le salon utilise le mode Cinéma musical',()=>{
+ const entry=SPECIAL_TRACKS.tvThemes.find(row=>row[2]==='Les Simpson');
+ const [title,artist,show,alternateTitle]=entry;
+ const track={title:alternateTitle,artist,preview:'/preview/123'};
+ assert.equal(matchSpecialTrack([track],title,artist,alternateTitle),track);
+ const [q]=specialQuestions('tvThemes',[{track,entry}],{duration:20,count:5});
+ assert.equal(q.target,'soundtrack');
+ assert.equal(q.universe,'film');
+ assert.equal(q.answer,show);
+ assert.equal(new Set(q.options).size,4);
 });
