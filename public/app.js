@@ -5,7 +5,8 @@ import {SoundDesk,storeBlob,getBlob} from './audio.js';
 const $=s=>document.querySelector(s), esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const read=(k,f)=>{try{return JSON.parse(localStorage.getItem(k))??f;}catch{return f;}};
 const write=(k,v)=>localStorage.setItem(k,JSON.stringify(v));
-let config=read('declic.config',{universe:'music',mode:'usb',input:'qcm',effect:'normal',source:'demo',teams:[{id:'0',name:'Les Disco',key:'1'},{id:'1',name:'Les Rockstars',key:'2'},{id:'2',name:'Les Paillettes',key:'3'},{id:'3',name:'Les Incollables',key:'4'}]});
+const defaultTeams=()=>['Les Disco','Les Rockstars','Les Paillettes','Les Incollables'].map((name,index)=>({id:String(index),name,key:String(index+1)}));
+let config=read('declic.config',{universe:'music',mode:'phone',input:'qcm',effect:'normal',source:'demo',teams:defaultTeams()});
 let invitationCode=null,invitationSvg='';
 let custom=read('declic.library',[]), view='home', game=null, room=null, ws=null, role='host', teamId=null, connected=false, reconnect=null, auth=null, lastEvent=null, seenCount=null, countdown=-1, lastRevision=-1, assetUrls=new Map(), audioReady=false, soundTask=0, busy=false;
 let catalogPool=read('declic.musicPool',{name:'',tracks:[],themeKey:''}),catalogResults={tracks:[],playlists:[]},catalogQuery='',catalogSearchType='tracks',catalogMessage='',audioError='',replyDraft={},audioSegment='';
@@ -27,11 +28,14 @@ config.settings=gameSettings(config.settings);if(config.version!==2||config.univ
  write('declic.config',config);
 }
 const desk=new SoundDesk();
+desk.muted=read('declic.muted',false);
+let activeEvening=null, eveningStatus='loading', changingEvening=false;
+let usbRevision=0, usbSave=null, usbRetry=null, usbQueue=[];
 const effects=[['normal','🎧','Classique','L’extrait original','#e6e1ff'],['fast','⏩','Accéléré','Tout va plus vite','#ffe3cd'],['slow','🐢','Ralenti','Prenez votre temps','#e4f3cb'],['chipmunk','🐿️','Voix écureuil','Aiguë et accélérée','#ffe2ef'],['reverse','↶','À l’envers','Les repères s’envolent','#deedff'],['image','▧','Image mystère','Du flou au déclic','#fbe9be']];
 const colors=['#e9ddff','#ffdfc9','#e4f1bc','#ffd9e9','#d5ecff','#ffeaa9','#d1f3e7','#e7ddf6','#ffdbd3','#d9e7f8'];
 const icons=['🪩','🎸','✨','⚡','🎬','🎤','🚀','🍿','🦄','🏆'];
 let channel=new BroadcastChannel('declic-screen');
-channel.onmessage=e=>{if(e.data.type==='request'&&game&&role==='host')broadcastTV();if(e.data.type==='state'&&role==='tv'&&!room){game=e.data.state;receive();}};
+channel.onmessage=e=>{if(e.data.type==='ended'&&role==='tv'){game=null;render();}if(e.data.type==='request'&&game&&role==='host')broadcastTV();if(e.data.type==='state'&&role==='tv'&&!room){game=e.data.state;receive();}};
 function toast(s){$('#toast').textContent=s;$('#toast').classList.add('show');clearTimeout(toast.timeout);toast.timeout=setTimeout(()=>$('#toast').classList.remove('show'),4000);}
 function celebrate(){if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;const el=$('#confetti');el.innerHTML=Array.from({length:55},(_,i)=>`<i class="confetto" style="left:${Math.random()*100}%;background:${['#e2f889','#ff925b','#ffc6e0','#9f7af3','#79c5ed'][i%5]};animation-delay:${Math.random()*.5}s;animation-duration:${2+Math.random()}s;transform:rotate(${i*27}deg)"></i>`).join('');setTimeout(()=>el.replaceChildren(),4000);}
 function saveConfig(){write('declic.config',config);}
@@ -47,13 +51,14 @@ function render(){
  if($('#catalog-player'))desk.stop();
  const form=$('#answer-form');if(form&&currentQ())replyDraft[form.dataset.question||currentQ().id]={...replyDraft[form.dataset.question||currentQ().id],...Object.fromEntries(new FormData(form))};
  const a=$('#app');
+ if(role==='host'&&view==='home'){a.innerHTML=home();return;}
  if(role==='tv'){a.innerHTML=tvScreen();return;}
  if(view==='join'){a.innerHTML=joinScreen();return;}
  if(role==='player'&&view!=='history'){a.innerHTML=phoneScreen();return;}
- a.innerHTML=`<div class="shell">${header()}${view==='home'?home():view==='setup'?setupScreen():view==='catalog'?catalogScreen():view==='history'?historyScreen():view==='library'?library():view==='help'?help():studio()}${footer()}</div>`;
+ a.innerHTML=`<div class="shell">${header()}${view==='setup'?setupScreen():view==='catalog'?catalogScreen():view==='history'?historyScreen():view==='library'?library():view==='help'?help():view==='settings'?settingsScreen():studio()}${footer()}</div>`;
  if(view==='studio')void prepareImage();
 }
-function fullHome(){const qs=selectedQuestions();return `<div class="workspace"><main class="maincol"><section class="hero"><span class="eyebrow">LE JEU QUI MET LA SALLE EN MOUVEMENT</span><span class="tag">Prêts pour le déclic ?</span><h1>Les tubes passent.<br><em>À vous de jouer.</em></h1><p>Des jeux pour tous les goûts musicaux.<br>Vos équipes, vos règles, votre soirée.</p><div class="hero-art" aria-hidden="true"><div class="record"></div><span class="note">♫</span><span class="spark">✦</span></div></section><div class="sectiontitle"><h2><span class="step">1</span>Composez votre sélection</h2><small>Jusqu’à 3 ambiances à mélanger</small></div><div class="theme-grid">${THEMES.map(([id,icon,title,sub])=>`<button class="theme-card ${config.themes.includes(id)?'active':''}" data-action="v2-theme" data-value="${id}" aria-pressed="${config.themes.includes(id)}"><span>${icon}</span><strong>${title}</strong><small>${sub}</small>${config.themes.includes(id)?'<b>✓</b>':''}</button>`).join('')}</div><div class="catalog-banner"><div><strong>Vos prochains refrains sont ici.</strong><p>Recherchez un artiste, choisissez des titres ou importez une playlist Deezer.</p></div><button class="btn ghost" data-action="v2-catalog">Explorer les musiques ↗</button></div><div class="sectiontitle"><h2><span class="step">2</span>À vous de deviner…</h2></div><div class="challenge-grid">${[...CHALLENGES,['lyrics','🎙️','La suite des paroles'],...(config.challenge==='coverChoice'?[['coverChoice','💿','La bonne pochette']]:[])].filter(([id])=>id!=='both'||config.mode==='usb'||config.input!=='qcm').map(([id,icon,title])=>`<button class="challenge ${config.challenge===id?'active':''}" data-action="v2-challenge" data-value="${id}" aria-pressed="${config.challenge===id}"><span>${icon}</span>${title}</button>`).join('')}</div>${config.challenge==='lyrics'?'<div class="callout">Préparez votre extrait chanté, la coupure et les mots attendus. <button class="textbtn" data-action="v3-new-lyrics">Préparer une question paroles →</button></div>':''}<div class="sectiontitle"><h2><span class="step">3</span>Un grain de folie</h2><small>Appliqué aux extraits audio ou images</small></div><div class="effect-grid">${effects.map(([id,icon,title,sub,tint])=>`<button class="effect ${config.effect===id?'active':''}" data-action="effect" data-value="${id}" aria-pressed="${config.effect===id}"><span class="icon" style="--tint:${tint}">${icon}</span><strong>${title}</strong><small>${sub}</small></button>`).join('')}</div><div class="bottomstrip"><span>✦ <strong>Une soirée à votre image.</strong> Les questions et fichiers personnels restent disponibles.</span><button class="textbtn" data-action="library">Préparer mes questions ↗</button></div></main>${gameRules(qs)}</div><div class="row" style="margin-bottom:25px"><button class="textbtn" data-action="join-page">Rejoindre une partie →</button>${savedMusicGame('declic.host')?'<button class="textbtn" data-action="resume-phone">Reprendre ma partie téléphones</button>':''}${savedMusicGame('declic.localGame')?'<button class="textbtn" data-action="resume-local">Reprendre ma partie USB</button>':''}${game?'<button class="textbtn" data-action="v2-return">Revenir à la partie en cours</button>':''}</div>`;}
+function fullHome(){const qs=selectedQuestions();return `<div class="workspace"><main class="maincol"><section class="hero"><span class="eyebrow">LE JEU QUI MET LA SALLE EN MOUVEMENT</span><span class="tag">Prêts pour le déclic ?</span><h1>Les tubes passent.<br><em>À vous de jouer.</em></h1><p>Des jeux pour tous les goûts musicaux.<br>Vos équipes, vos règles, votre soirée.</p><div class="hero-art" aria-hidden="true"><div class="record"></div><span class="note">♫</span><span class="spark">✦</span></div></section><div class="sectiontitle"><h2><span class="step">1</span>Composez votre sélection</h2><small>Jusqu’à 3 ambiances à mélanger</small></div><div class="theme-grid">${THEMES.map(([id,icon,title,sub])=>`<button class="theme-card ${config.themes.includes(id)?'active':''}" data-action="v2-theme" data-value="${id}" aria-pressed="${config.themes.includes(id)}"><span>${icon}</span><strong>${title}</strong><small>${sub}</small>${config.themes.includes(id)?'<b>✓</b>':''}</button>`).join('')}</div><div class="catalog-banner"><div><strong>Vos prochains refrains sont ici.</strong><p>Recherchez un artiste, choisissez des titres ou importez une playlist Deezer.</p></div><button class="btn ghost" data-action="v2-catalog">Explorer les musiques ↗</button></div><div class="sectiontitle"><h2><span class="step">2</span>À vous de deviner…</h2></div><div class="challenge-grid">${[...CHALLENGES,['lyrics','🎙️','La suite des paroles'],...(config.challenge==='coverChoice'?[['coverChoice','💿','La bonne pochette']]:[])].filter(([id])=>id!=='both'||config.mode==='usb'||config.input!=='qcm').map(([id,icon,title])=>`<button class="challenge ${config.challenge===id?'active':''}" data-action="v2-challenge" data-value="${id}" aria-pressed="${config.challenge===id}"><span>${icon}</span>${title}</button>`).join('')}</div>${config.challenge==='lyrics'?'<div class="callout">Préparez votre extrait chanté, la coupure et les mots attendus. <button class="textbtn" data-action="v3-new-lyrics">Préparer une question paroles →</button></div>':''}<div class="sectiontitle"><h2><span class="step">3</span>Un grain de folie</h2><small>Appliqué aux extraits audio ou images</small></div><div class="effect-grid">${effects.map(([id,icon,title,sub,tint])=>`<button class="effect ${config.effect===id?'active':''}" data-action="effect" data-value="${id}" aria-pressed="${config.effect===id}"><span class="icon" style="--tint:${tint}">${icon}</span><strong>${title}</strong><small>${sub}</small></button>`).join('')}</div><div class="bottomstrip"><span>✦ <strong>Une soirée à votre image.</strong> Les questions et fichiers personnels restent disponibles.</span><button class="textbtn" data-action="library">Préparer mes questions ↗</button></div></main>${gameRules(qs)}</div>`;}
 function library(){return `<main class="library"><div class="row"><div><span class="eyebrow">LA BOÎTE À IDÉES</span><h1>Vos questions. Votre ambiance.</h1><p class="help">Préparez vos extraits et vos indices. Les fichiers restent dans ce navigateur.</p></div><button class="btn primary right" data-action="new-question">＋ Nouvelle question</button></div><div class="row"><button class="btn ghost" data-action="export">Exporter les questions JSON</button><label class="btn ghost">Importer un JSON<input type="file" id="import-json" accept="application/json" hidden></label></div><div class="cards">${custom.filter(q=>q.universe==='music').map(q=>`<article class="qcard"><span class="badge">MUSIQUE · ${q.kind==='lyrics'?'PAROLES':q.kind==='audio'?'EXTRAIT':q.kind==='image'?'IMAGE':'QUESTION'}</span><div class="emoji" style="margin-top:16px">${q.kind==='audio'?'🎧':q.kind==='image'?'🖼️':'💡'}</div><h3>${esc(q.prompt)}</h3><p>Réponse : <strong>${esc(q.answer)}</strong><br>${q.duration} secondes · ${q.points} points</p><div class="row" style="margin-top:16px"><button class="textbtn" data-action="edit-question" data-value="${esc(q.id)}">Modifier</button><button class="textbtn right" data-action="delete-question" data-value="${esc(q.id)}">Retirer</button></div></article>`).join('')||'<div class="empty wide">La piste est à vous !<br>Ajoutez une première question pour créer votre blind test.</div>'}</div><div class="callout">Les réponses écrites acceptent les accents et la ponctuation indifféremment. Ajoutez des réponses alternatives dans l’éditeur. L’export JSON contient les questions, pas les fichiers audio ou images.</div></main>`;}
 function help(){return `<main class="help-page"><span class="eyebrow">LA RECETTE D’UNE BONNE SOIRÉE</span><h1>Moins de réglages. Plus de jeu.</h1><div class="cards"><article class="qcard"><div class="emoji">🎛️</div><h3>1. Préparez</h3><p>Choisissez un jeu musical, un effet et votre sélection. Testez les questions de découverte ou importez vos extraits.</p></article><article class="qcard"><div class="emoji">⚡</div><h3>2. Faites buzzer</h3><p>En USB, l’animateur lance l’extrait. La première touche coupe le son. Bonne réponse : des points ! Mauvaise réponse : l’équipe est bloquée pour cette question et le son reprend.</p></article><article class="qcard"><div class="emoji">🏆</div><h3>3. Célébrez</h3><p>Révélez la réponse, affichez le classement et passez à la suite. La partie se termine par le podium.</p></article></div><div class="qcard" style="margin-top:20px"><h3>Le PC + la TV</h3><p>Cliquez sur « Écran public ». Déplacez cette fenêtre sur la TV et mettez-la en plein écran. Gardez les commandes sur le PC. Le son sort uniquement du PC animateur.</p><h3 style="margin-top:25px">Les buzzers USB</h3><p>Cette ébauche accepte les buzzers qui envoient une touche de clavier. Configurez une touche différente par équipe dans le studio. Les modèles qui se présentent uniquement comme des manettes nécessiteront une prise en charge supplémentaire. Le navigateur doit avoir le focus.</p><h3 style="margin-top:25px">Les téléphones</h3><p>Créez une partie en mode téléphones et partagez le lien ou le code. Choisissez « Buzzer · réponse orale » pour laisser l’animateur valider, ou QCM / écrit pour une correction automatique. La correction est automatique : titre et artiste sont indépendants. La rapidité et les séries peuvent ajouter chacune jusqu’à 50 points. Cinq essais maximum par manche écrite ; une seule réponse en QCM. Les points sont affichés à la révélation. Internet est nécessaire pour ce premier mode connecté.</p><h3 style="margin-top:25px">Vos fichiers et les effets</h3><p>Importez un MP3, WAV ou autre audio compatible avec votre navigateur, ou une image. Les effets accéléré, ralenti, écureuil et envers agissent sur l’audio. L’effet écureuil augmente la vitesse et la hauteur ensemble. L’image mystère révèle progressivement les détails. Pour compléter des paroles, choisissez le défi Paroles dans Mes questions, ajoutez votre extrait chanté et indiquez la coupure en secondes. La lecture originale s’arrête automatiquement au point choisi. Saisissez une phrase avec ___ et les mots attendus. Une démonstration instrumentale est disponible dans Découverte. Les paroles ne sont pas récupérées automatiquement.</p><h3 style="margin-top:25px">Écoute progressive</h3><p>Dans le studio, choisissez Écoute progressive. L’animateur propose 1, 2, 5 puis 10 secondes du même extrait. Les points de réponse passent à 100 %, 80 %, 60 %, puis 40 %. Le bonus de rapidité est désactivé pour ces questions. Chaque palier permet de retenter une réponse ; les points déjà gagnés restent acquis. Les autres types de questions conservent leurs règles normales.</p><h3 style="margin-top:25px">Ce qui arrive plus tard</h3><p>Le catalogue Deezer est connecté : recherche de titres et de playlists, thèmes à mélanger et extraits de 30 secondes maximum. Le QR code, les bandes-annonces vidéo, le réseau local sans Internet et les buzzers de type manette restent à venir.</p><p style="margin-top:20px">Utilisez des contenus que vous êtes autorisé à diffuser. Les parties connectées expirent après 24 heures. Les questions personnelles et les médias restent sur le PC ; seul le texte utile au jeu est partagé dans la partie.</p></div></main>`;}
 function currentQ(){return game?.question||game?.questions?.[game.index];}
@@ -116,16 +121,16 @@ function questionForm(q={}){const editing=!!q.id;modal(`<div class="top"><h2>${e
 function modal(html){$('.dialog')?.remove();const d=document.createElement('div');d.className='dialog';d.innerHTML=`<div class="modal" role="dialog" aria-modal="true">${html}</div>`;document.body.append(d);d.querySelector('input,button')?.focus();}
 function closeModal(){$('.dialog')?.remove();}
 async function prepareImage(){const q=currentQ();if(!q)return;let url=q.imageUrl;if(!url&&q.mediaKey){if(!assetUrls.has(q.mediaKey)){const b=await getBlob(q.mediaKey);if(b?.type.startsWith('image/'))assetUrls.set(q.mediaKey,URL.createObjectURL(b));}url=assetUrls.get(q.mediaKey);}if(url&&$('[data-image]')){$('[data-image]').innerHTML=`<img src="${esc(url)}" alt="Image mystère à identifier" data-mystery>`;}}
-function broadcastTV(){if(!game||role!=='host')return;const s=publicGame(game),q=currentQ();s.effect=game.effect||config.effect;s.roomCode=room;if(q?.mediaKey&&assetUrls.has(q.mediaKey)){s.question={...s.question,mediaKind:'image',imageUrl:assetUrls.get(q.mediaKey)};}channel.postMessage({type:'state',state:s});}
+function broadcastTV(){if(!game||role!=='host')return;const s=publicGame(game),q=currentQ();s.effect=game.effect||config.effect;s.roomCode=game.mode==='phone'?room:null;if(q?.mediaKey&&assetUrls.has(q.mediaKey)){s.question={...s.question,mediaKind:'image',imageUrl:assetUrls.get(q.mediaKey)};}channel.postMessage({type:'state',state:s});}
 async function receive(){
  const ev=game?.event;if(ev&&ev.id!==lastEvent){if(['correct','podium'].includes(ev.type)||game.mode==='phone'&&game.phase==='reveal'&&Object.values(game.answers||{}).some(r=>r.total>0))celebrate();if(role==='host')desk.jingle(ev.type);}
  if(role==='host'&&game.phase!=='playing')desk.pause();
- lastEvent=ev?.id;seenCount=null;render();await prepareImage();if(role==='host'){broadcastTV();if(game.mode==='usb')write('declic.localGame',game);}
+ lastEvent=ev?.id;seenCount=null;if(view!=='home')render();await prepareImage();if(role==='host'){broadcastTV();}
 }
-async function ensureAudio(){const q=currentQ();if(!q)return;if(desk.id===q.id&&audioReady)return;audioReady=false;audioError='';await desk.load(q,q.mediaKey?await getBlob(q.mediaKey):null,q.kind==='lyrics'?'normal':game.effect||config.effect);if(q.kind==='lyrics'&&desk.buffer&&q.cutAt>=desk.buffer.duration)throw Error('La coupure doit précéder la fin du fichier audio. Modifiez la question.');audioReady=true;}
-function send(action){if(['answer','buzz','listen-more','judge','bingo-mark','bingo-claim','chain-bank','chain-vote'].includes(action.type))action.questionId=currentQ()?.id;if(game?.mode==='phone'){if(!ws||ws.readyState!==WebSocket.OPEN){toast('Connexion interrompue. Attendez la reconnexion.');return;}ws.send(JSON.stringify(action));}else{const next=applyAction(game,action);if(next!==game){game=next;void receive();}}}
+async function ensureAudio(){const q=currentQ();if(!q)return;if(desk.id===q.id&&audioReady)return;audioReady=false;audioError='';const track=q.provider==='Deezer'&&q.link?.match(/\/track\/(\d+)(?:[/?#]|$)/)?.[1];await desk.load(!q.audioUrl&&track?{...q,audioUrl:'/api/music/preview/'+track}:q,q.mediaKey?await getBlob(q.mediaKey):null,q.kind==='lyrics'?'normal':game.effect||config.effect);if(q.kind==='lyrics'&&desk.buffer&&q.cutAt>=desk.buffer.duration)throw Error('La coupure doit précéder la fin du fichier audio. Modifiez la question.');audioReady=true;}
+function send(action){if(['answer','buzz','listen-more','judge','bingo-mark','bingo-claim','chain-bank','chain-vote'].includes(action.type))action.questionId=currentQ()?.id;if(game?.mode==='phone'){if(!ws||ws.readyState!==WebSocket.OPEN){toast('Connexion interrompue. Attendez la reconnexion.');return;}ws.send(JSON.stringify(action));}else{const next=applyAction(game,action);if(next!==game){game=next;if(next.mode==='usb')queueUSB(next);void receive();}}}
 async function requestRoom(payload){
- const response=await fetch('/api/rooms',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)});
+ const response=await fetch('/api/rooms',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload),signal:AbortSignal.timeout(12000)});
  const data=await response.json();
  if(!response.ok)throw Error(data.error);
  return data;
@@ -139,18 +144,156 @@ function openHostRoom(data,questions,effect,nextView){
  view=nextView;
  connect();
 }
-async function createEvening(){
- if(busy)return;
- busy=true;render();
- try{
-  await desk.unlock();
-  const data=await requestRoom({questions:[],lobby:true});
-  role='host';
-  config.mode='phone';saveConfig();
-  openHostRoom(data,[],'normal','setup');
- }catch(error){toast(error.message||'Impossible de créer la soirée.');}
- finally{busy=false;render();}
+function hostCredential(){
+ let credential=read('declic.hostKey',null);
+ if(!credential){
+  credential=Array.from(crypto.getRandomValues(new Uint8Array(32)),byte=>byte.toString(16).padStart(2,'0')).join('');
+  write('declic.hostKey',credential);
+ }
+ return credential;
 }
+async function eveningRequest(method='GET',data){
+ const credential=read('declic.hostKey',null)??(navigator.locks?await navigator.locks.request('declic.hostKey',hostCredential):hostCredential());
+ const response=await fetch('/api/evening',{
+  method,headers:{Authorization:'Bearer '+credential,'Content-Type':'application/json'},
+  body:data===undefined?undefined:JSON.stringify(data),signal:AbortSignal.timeout(12000)
+ });
+ const result=await response.json();
+ if(!response.ok)throw Object.assign(Error(result.error),{status:response.status});
+ return result;
+}
+async function loadEvening(){
+ eveningStatus='loading';if(view==='home')render();
+ try{
+  let {active}=await eveningRequest();
+  const legacy=savedMusicGame('declic.host');
+  if(!active&&legacy?.token&&legacy?.room){
+   ({active}=await eveningRequest('POST',{adopt:{code:legacy.room,token:legacy.token}}));
+   if(!active)localStorage.removeItem('declic.host');
+  }
+  if(activeEvening?.code&&activeEvening.code!==active?.code)clearEvening();
+  activeEvening=active;
+  usbRevision=active?.usb?.revision||0;
+  usbQueue=read('declic.usbPending',[]).filter(item=>item.code===active?.code);
+  if(usbQueue.length)void flushUSB();
+  eveningStatus='ready';
+ }catch{eveningStatus='error';}
+ if(view==='home')render();
+}
+window.addEventListener('storage',event=>{
+ if(event.key==='declic.hostSessionChanged'&&view==='home'&&!changingEvening)void loadEvening();
+});
+function clearEvening(){
+ clearTimeout(reconnect);clearTimeout(usbRetry);
+ if(ws){ws.onclose=null;ws.close();ws=null;}
+ game=null;room=null;auth=null;connected=false;usbRevision=0;usbQueue=[];
+ for(const key of ['declic.host','declic.localGame','declic.usbPending'])localStorage.removeItem(key);
+ desk.stop();desk.id=null;audioReady=false;lastEvent=null;replyDraft={};
+ channel.postMessage({type:'ended'});
+}
+function eveningConfirmation(end=false){
+ const dialog=document.createElement('dialog');
+ dialog.className='evening-dialog';
+ dialog.setAttribute('aria-labelledby','evening-dialog-title');
+ dialog.setAttribute('aria-describedby','evening-dialog-message');
+ dialog.innerHTML=`<h2 id="evening-dialog-title">${end?'Terminer la soirée ?':'Créer une nouvelle soirée ?'}</h2>
+  <p id="evening-dialog-message">La soirée actuelle sera définitivement supprimée, ainsi que ses participants et ses scores.</p>
+  <div class="evening-dialog-actions"><button type="button" data-action="cancel-evening" autofocus>Annuler</button>
+  <button type="button" data-action="${end?'confirm-end':'confirm-evening'}">${end?'Terminer la soirée':'Nouvelle soirée'}</button></div>`;
+ document.body.append(dialog);
+ dialog.addEventListener('close',()=>dialog.remove(),{once:true});
+ dialog.showModal();
+}
+async function changeEvening(end=false){
+ if(changingEvening||eveningStatus!=='ready')return;
+ changingEvening=true;
+ document.querySelector('.evening-dialog')?.close();
+ render();
+ const previous=activeEvening;
+ const expected=previous?.code||null;
+ const id=crypto.randomUUID();
+ try{
+  const {active}=await eveningRequest(end?'DELETE':'POST',{expected,id});
+  clearEvening();
+  config.teams=defaultTeams();saveConfig();
+  activeEvening=active;
+  write('declic.hostSessionChanged',id);
+  if(active)openHostRoom(active,[],'normal','setup');
+ }catch(error){
+  toast(error.status===409?error.message:'Impossible de vérifier la modification. Vérifiez votre connexion.');
+  await loadEvening();
+ }finally{changingEvening=false;render();void flushUSB();}
+}
+async function resumeEvening(){
+ if(changingEvening)return;
+ await desk.unlock();
+ if(!activeEvening){
+  const legacy=savedMusicGame('declic.localGame');
+  if(!legacy)return;
+  try{
+   const {active}=await eveningRequest('POST',{expected:null,id:crypto.randomUUID()});
+   activeEvening=active;
+   queueUSB(legacy);
+   await flushUSB();
+   localStorage.removeItem('declic.localGame');
+   openUSB(legacy);
+  }catch(error){toast(error.message);}
+  return;
+ }
+ if(game&&room===activeEvening.code){view=game.questions.length?'studio':'setup';render();return;}
+ const state=usbQueue.at(-1)?.state??activeEvening.usb?.state;
+ if(state){openUSB(state);return;}
+ const saved=read('declic.host',{});
+ openHostRoom(activeEvening,saved.room===activeEvening.code?saved.questions:[],saved.effect,'studio');
+}
+function openUSB(state){
+ clearTimeout(reconnect);
+ if(ws){ws.onclose=null;ws.close();ws=null;}
+ room=activeEvening.code;auth={type:'host',token:activeEvening.token};
+ game=state;desk.id=null;audioReady=false;view='studio';
+ if(game.phase==='playing')void ensureAudio().catch(error=>toast(error.message));
+ void receive();
+}
+function queueUSB(state){
+ if(!activeEvening)return;
+ // Keep the in-flight write plus the newest state, including when temporarily offline.
+ const first=usbQueue[0];
+ const keep=first&&(usbSave||first.revision!==undefined)?[first]:[];
+ usbQueue=[...keep,{code:activeEvening.code,id:crypto.randomUUID(),state}];
+ write('declic.usbPending',usbQueue);
+ void flushUSB();
+}
+function flushUSB(){
+ if(usbSave||!usbQueue.length||changingEvening)return usbSave;
+ clearTimeout(usbRetry);
+ const item=usbQueue[0];
+ item.revision??=usbRevision;
+ write('declic.usbPending',usbQueue);
+ usbSave=eveningRequest('PUT',item).then(({revision})=>{
+  if(activeEvening?.code!==item.code||usbQueue[0]?.id!==item.id)return;
+  usbRevision=revision;
+  activeEvening.usb={state:item.state,revision};
+  usbQueue.shift();
+  write('declic.usbPending',usbQueue);
+ }).catch(error=>{
+  if(activeEvening?.code!==item.code)return;
+  if(error.status===409){
+   usbQueue=[];localStorage.removeItem('declic.usbPending');
+   toast('La sauvegarde a changé dans un autre onglet. Revenez à l’accueil pour la recharger.');
+   return;
+  }
+  toast('Sauvegarde USB en attente de connexion.');
+  usbRetry=setTimeout(()=>{usbRetry=null;void flushUSB();},4000);
+ }).finally(()=>{
+  usbSave=null;
+  if(!usbRetry&&usbQueue.length)void flushUSB();
+ });
+ return usbSave;
+}
+window.addEventListener('online',()=>{
+ if(eveningStatus==='error'&&view==='home')void loadEvening();
+ void flushUSB();
+});
 async function launch(){if(busy)return;busy=true;catalogMessage='';audioError='';render();
  try{
  const special=config.source==='catalog'&&Object.hasOwn(SPECIAL_TRACKS,config.musicGame)?config.musicGame:null;
@@ -172,18 +315,33 @@ async function launch(){if(busy)return;busy=true;catalogMessage='';audioError=''
  if(config.mode==='usb'){const keys=config.teams.map(t=>t.key.toLowerCase());if(keys.some(k=>!k.trim())||new Set(keys).size!==keys.length)throw Error('Attribuez une touche différente à chaque équipe.');if(config.teams.some(t=>!t.name.trim()))throw Error('Donnez un nom à chaque équipe.');}
  await desk.unlock();
  const questions=qs.map(q=>({...q,id:crypto.randomUUID(),duration:Math.min(q.audioUrl?30:90,Math.max(config.duration,q.kind==='lyrics'?q.cutAt+5:0)),target:q.target,artwork:q.artwork}));
- if(config.mode==='usb'){clearTimeout(reconnect);if(ws){ws.onclose=null;ws.close();ws=null;}desk.stop();desk.id=null;audioReady=false;lastEvent=null;room=null;auth=null;game=createGame(questions,config.teams,'usb','text',config.settings);game.effect=config.effect;view='studio';await receive();return;}
+ if(!activeEvening)throw Error('Créez une soirée depuis l’accueil.');
+ if(config.mode==='usb'){
+  const state=createGame(questions,config.teams,'usb','text',config.settings);
+  state.effect=config.effect;
+  queueUSB(state);openUSB(state);return;
+ }
+ if(usbQueue.length)throw Error('Attendez la sauvegarde USB avant de changer de mode.');
  const clean=questions.map(({mediaKey,mediaType,notes,audioUrl,...q})=>q);
- const existing=room&&auth?.type==='host'?{room,token:auth.token}:{};
+ const existing={room:activeEvening.code,token:activeEvening.token};
  const effect=bingo||special?'normal':config.effect;
  const data=await requestRoom({...existing,questions:clean,input:config.input,settings:{...config.settings,survival,bingo,chain,listening:bingo||chain?'continuous':config.settings.listening},effect});
+ if(activeEvening.usb?.state){
+  const {revision}=await eveningRequest('PUT',{code:activeEvening.code,revision:usbRevision,id:crypto.randomUUID(),state:null});
+  usbRevision=revision;activeEvening.usb={state:null,revision};
+ }
  openHostRoom(data,questions,effect,'studio');
  }catch(e){catalogMessage=e.message||'Impossible de préparer la partie.';toast(catalogMessage);view='setup';}finally{busy=false;render();}
 }
 function connect(){clearTimeout(reconnect);if(ws){ws.onclose=null;ws.close();}connected=false;ws=new WebSocket(`${location.protocol==='https:'?'wss:':'ws:'}//${location.host}/api/rooms/${room}`);const socket=ws;
  socket.onopen=()=>{connected=true;socket.send(JSON.stringify(auth));};
- socket.onmessage=e=>{if(e.data==='pong')return;try{const m=JSON.parse(e.data);if(m.type==='error'){busy=false;toast(m.message);if(view==='join')render();if(/expir|introuvable|refus|commencé|déjà|maximum|Entrez/.test(m.message)){socket.onclose=null;socket.close();connected=false;}return;}if(m.type==='session'){teamId=m.id;sessionStorage.setItem('declic.player.'+room,JSON.stringify({id:m.id,token:m.token}));auth={type:'join',token:m.token};role='player';view='phone';busy=false;}if(m.type==='state'){game=m.state;game.teams=game.teams.map(({id,name,score,key,streak,eliminated})=>({id,name,score,key,streak,eliminated}));if(role==='host'){const saved=read('declic.host',{});if(saved.room===room){game.effect=saved.effect;game.questions=game.questions.map(q=>({...q,...saved.questions?.find(v=>v.id===q.id)}));}}void receive();}}catch{toast('Erreur de synchronisation.');}};
- socket.onclose=()=>{connected=false;busy=false;if(view==='join'){toast('Partie introuvable ou indisponible. Vérifiez le code.');render();return;}render();reconnect=setTimeout(()=>connect(),2500);};socket.onerror=()=>{};
+ socket.onmessage=e=>{if(e.data==='pong')return;try{const m=JSON.parse(e.data);if(m.type==='error'){busy=false;toast(m.message);if(view==='join')render();if(/expir|introuvable|refus|commencé|déjà|maximum|Entrez/.test(m.message)){socket.onclose=null;socket.close();connected=false;}return;}if(m.type==='session'){teamId=m.id;sessionStorage.setItem('declic.player.'+room,JSON.stringify({id:m.id,token:m.token}));auth={type:'join',token:m.token};role='player';view='phone';busy=false;}if(m.type==='state'){game=m.state;game.teams=game.teams.map(({id,name,score,key,streak,eliminated})=>({id,name,score,key,streak,eliminated}));if(role==='host'){if(view==='studio'&&!game.questions.length)view='setup';const saved=read('declic.host',{});if(saved.room===room){game.effect=saved.effect||game.effect;game.questions=game.questions.map(q=>({...q,...saved.questions?.find(v=>v.id===q.id)}));}if(game.phase==='playing'&&!audioReady)void ensureAudio().catch(error=>toast(error.message));}void receive();}}catch{toast('Erreur de synchronisation.');}};
+ socket.onclose=event=>{connected=false;busy=false;
+ if(event.code===4001){
+  if(role==='host'){if(!changingEvening){clearEvening();view='home';void loadEvening();}}
+  else{sessionStorage.removeItem('declic.player.'+room);role='host';view='join';game=null;room=null;toast('Cette soirée est terminée.');render();}
+  return;
+ }if(view==='join'){toast('Partie introuvable ou indisponible. Vérifiez le code.');render();return;}render();reconnect=setTimeout(()=>connect(),2500);};socket.onerror=()=>{};
 }
 setInterval(()=>{if(ws?.readyState===WebSocket.OPEN)ws.send('ping');},25000);
 setInterval(()=>{
@@ -202,10 +360,20 @@ document.addEventListener('click',async e=>{const b=e.target.closest('[data-acti
  try{
  if(act==='close-modal'){closeModal();return;}
  if(act==='fullscreen'){if(!document.fullscreenElement)await document.documentElement.requestFullscreen();else await document.exitFullscreen();return;}
- if(act==='sound'){desk.muted=!desk.muted;render();return;}
- if(act==='create-evening'){await createEvening();return;}
- if(act==='local-setup'){config.mode='usb';saveConfig();view='setup';render();return;}
- if(act==='home'){if(role!=='host'&&game)return;view='home';render();return;}
+ if(act==='sound'){desk.muted=!desk.muted;write('declic.muted',desk.muted);render();return;}
+ if(act==='create-evening'){
+  if(changingEvening||eveningStatus!=='ready')return;
+  if(activeEvening||savedMusicGame('declic.localGame'))eveningConfirmation();
+  else await changeEvening();
+  return;
+ }
+ if(act==='end-evening'){eveningConfirmation(true);return;}
+ if(act==='cancel-evening'){document.querySelector('.evening-dialog')?.close();return;}
+ if(act==='confirm-evening'||act==='confirm-end'){await changeEvening(act==='confirm-end');return;}
+ if(act==='retry-evening'){await loadEvening();return;}
+ if(act==='resume-evening'){await resumeEvening();return;}
+ if(act==='settings'){view='settings';render();return;}
+ if(act==='home'){if(role!=='host'&&game)return;view='home';void loadEvening();return;}
  if(act==='library'||act==='help'){view=act;render();return;}
  if(act==='music-game'){
   const phoneOnly=Object.hasOwn(SPECIAL_TRACKS,v)||v==='covers'||v==='survival'||v==='bingo'||v==='chain';
@@ -221,12 +389,10 @@ document.addEventListener('click',async e=>{const b=e.target.closest('[data-acti
  if(act==='add-team'){const id=crypto.randomUUID();config.teams.push({id,name:'Équipe '+(config.teams.length+1),key:'1234567890'.split('').find(k=>!config.teams.some(t=>t.key===k))});saveConfig();render();return;}
  if(act==='remove-team'){config.teams.splice(Number(v),1);saveConfig();render();return;}
  if(act==='launch'){await launch();return;}
- if(act==='resume-phone'){const saved=savedMusicGame('declic.host');if(saved){room=saved.room;auth={type:'host',token:saved.token};role='host';view='studio';await desk.unlock();connect();render();}return;}
- if(act==='resume-local'){const s=savedMusicGame('declic.localGame');if(s&&s.version!==2){toast('Cette ancienne partie ne peut pas être reprise. Lancez une nouvelle soirée.');return;}if(s){ws?.close();ws=null;room=null;game=s;role='host';view='studio';desk.id=null;await desk.unlock();await receive();}return;}
  if(act==='new-game'){desk.stop();view='setup';render();return;}
  if(act==='screen'){const win=window.open('/tv','declic-public','width=1280,height=800');if(!win)toast('Autorisez les fenêtres pour ouvrir l’écran public.');return;}
  if(act==='copy-link'){await navigator.clipboard.writeText(location.origin+'/join?code='+room);toast('Lien d’invitation copié !');return;}
- if(act==='join-page'){desk.stop();view='join';room=null;render();return;}
+ if(act==='join-page'){location.assign('/join');return;}
  if(act==='new-question'){questionForm({universe:config.universe});return;}
  if(act==='edit-question'){questionForm(custom.find(q=>q.id===v));return;}
  if(act==='delete-question'){const q=custom.find(q=>q.id===v);modal(`<h2>Retirer cette question ?</h2><p class="help">${esc(q?.prompt)}</p><p class="mini">Vous pourrez la recréer ou la réimporter depuis votre export.</p><div class="row" style="margin-top:22px"><button class="btn ghost" data-action="close-modal">Garder</button><button class="btn primary" data-action="confirm-delete" data-value="${esc(v)}">Retirer</button></div>`);return;}
@@ -259,7 +425,7 @@ document.addEventListener('keydown',e=>{
  if(role!=='host'||view!=='studio'||game?.mode!=='usb'||e.repeat||e.target.closest('input,textarea,select')||$('.dialog'))return;
  const t=game.teams.find(t=>t.key.toLowerCase()===e.key.toLowerCase());if(!t)return;e.preventDefault();if(game.phase==='lobby'){toast(t.name+' : buzzer reconnu !');void desk.unlock().then(()=>desk.jingle('buzz'));return;}send({type:'buzz',team:t.id});
 });
-function catalogScreen(){return `<main class="library"><div class="row"><div><span class="eyebrow">LA BOÎTE À TUBES</span><h1>Trouvez les sons de votre soirée.</h1><p class="help">Recherche de titres et de playlists Deezer. Les extraits sont écoutés à la demande.</p></div><button class="btn primary right" data-action="v2-use-catalog">Utiliser ma sélection →</button></div><form id="catalog-search" class="catalog-search"><input name="query" placeholder="Un artiste, un titre…" aria-label="Rechercher des musiques" value="${esc(catalogQuery)}" minlength="2" required maxlength="120"><select name="type" aria-label="Type de recherche"><option value="tracks" ${catalogSearchType==='tracks'?'selected':''}>Titres</option><option value="playlists" ${catalogSearchType==='playlists'?'selected':''}>Playlists</option></select><button class="btn primary" ${busy?'disabled':''}>Rechercher</button></form><form id="playlist-import" class="playlist-import"><label for="playlist-url">Ou collez le lien d’une playlist Deezer publique</label><div class="row"><input id="playlist-url" name="url" placeholder="https://www.deezer.com/fr/playlist/…" required><button class="btn ghost" ${busy?'disabled':''}>Importer</button></div></form>${catalogMessage?`<div class="catalog-message" role="status">${esc(catalogMessage)}</div>`:''}<div class="catalog-meta"><strong>${esc(catalogPool.name||'Ma sélection')} · ${catalogPool.tracks.length} titre(s)</strong><div class="row"><button class="textbtn" data-action="v2-add-all" ${!catalogResults.tracks?.length?'disabled':''}>＋ Tous les résultats</button><button class="textbtn" data-action="v2-clear-pool" ${!catalogPool.tracks.length?'disabled':''}>Vider la sélection</button></div></div><div id="catalog-player" class="callout hidden" role="status"><span></span> <button class="btn ghost" data-action="v2-stop-preview">■ Arrêter l’écoute</button></div><div class="track-list">${(catalogSearchType==='playlists'?catalogResults.playlists:catalogResults.tracks||[]).map(t=>catalogSearchType==='playlists'?`<article class="track-row"><img src="${esc(t.artwork||'')}" alt="" loading="lazy"><div><strong>${esc(t.title)}</strong><small>${esc(t.author||'')} · ${t.tracks||'?'} titres</small></div><button class="btn ghost" data-action="v2-playlist" data-value="${esc(t.id)}">Importer</button></article>`:trackRow(t)).join('')}</div>${!catalogResults.tracks?.length&&!catalogResults.playlists?.length?'<div class="empty">Recherchez un artiste ou chargez vos thèmes depuis le studio.<br>Votre sélection est conservée dans ce navigateur.</div>':''}${catalogPool.tracks.length?`<div class="sectiontitle"><h2>Dans votre sélection</h2><span class="badge">${catalogPool.tracks.length} TITRES</span></div><div class="track-list">${catalogPool.tracks.map(t=>trackRow(t,true)).join('')}</div>`:''}<div class="callout">La connexion musicale active est Deezer. Spotify et Apple Music ne sont pas connectés dans cette version. Les fichiers audio personnels restent disponibles dans « Mes questions ».</div></main>`;}
+function catalogScreen(){return `<main class="library"><div class="row"><div><span class="eyebrow">LA BOÎTE À TUBES</span><h1>Trouvez les sons de votre soirée.</h1><p class="help">Recherche de titres et de playlists Deezer. Les extraits sont écoutés à la demande.</p></div><div class="row"><button class="btn ghost" data-action="library">Mes questions</button><button class="btn primary" data-action="v2-use-catalog">Utiliser ma sélection →</button></div></div><form id="catalog-search" class="catalog-search"><input name="query" placeholder="Un artiste, un titre…" aria-label="Rechercher des musiques" value="${esc(catalogQuery)}" minlength="2" required maxlength="120"><select name="type" aria-label="Type de recherche"><option value="tracks" ${catalogSearchType==='tracks'?'selected':''}>Titres</option><option value="playlists" ${catalogSearchType==='playlists'?'selected':''}>Playlists</option></select><button class="btn primary" ${busy?'disabled':''}>Rechercher</button></form><form id="playlist-import" class="playlist-import"><label for="playlist-url">Ou collez le lien d’une playlist Deezer publique</label><div class="row"><input id="playlist-url" name="url" placeholder="https://www.deezer.com/fr/playlist/…" required><button class="btn ghost" ${busy?'disabled':''}>Importer</button></div></form>${catalogMessage?`<div class="catalog-message" role="status">${esc(catalogMessage)}</div>`:''}<div class="catalog-meta"><strong>${esc(catalogPool.name||'Ma sélection')} · ${catalogPool.tracks.length} titre(s)</strong><div class="row"><button class="textbtn" data-action="v2-add-all" ${!catalogResults.tracks?.length?'disabled':''}>＋ Tous les résultats</button><button class="textbtn" data-action="v2-clear-pool" ${!catalogPool.tracks.length?'disabled':''}>Vider la sélection</button></div></div><div id="catalog-player" class="callout hidden" role="status"><span></span> <button class="btn ghost" data-action="v2-stop-preview">■ Arrêter l’écoute</button></div><div class="track-list">${(catalogSearchType==='playlists'?catalogResults.playlists:catalogResults.tracks||[]).map(t=>catalogSearchType==='playlists'?`<article class="track-row"><img src="${esc(t.artwork||'')}" alt="" loading="lazy"><div><strong>${esc(t.title)}</strong><small>${esc(t.author||'')} · ${t.tracks||'?'} titres</small></div><button class="btn ghost" data-action="v2-playlist" data-value="${esc(t.id)}">Importer</button></article>`:trackRow(t)).join('')}</div>${!catalogResults.tracks?.length&&!catalogResults.playlists?.length?'<div class="empty">Recherchez un artiste ou chargez vos thèmes depuis le studio.<br>Votre sélection est conservée dans ce navigateur.</div>':''}${catalogPool.tracks.length?`<div class="sectiontitle"><h2>Dans votre sélection</h2><span class="badge">${catalogPool.tracks.length} TITRES</span></div><div class="track-list">${catalogPool.tracks.map(t=>trackRow(t,true)).join('')}</div>`:''}<div class="callout">La connexion musicale active est Deezer. Spotify et Apple Music ne sont pas connectés dans cette version. Les fichiers audio personnels restent disponibles dans « Mes questions ».</div></main>`;}
 function trackRow(t,inPool=false){const added=catalogPool.tracks.some(v=>v.id===t.id);return `<article class="track-row"><img src="${esc(t.artwork||'')}" alt="" loading="lazy"><div><strong>${esc(t.title)}</strong><small>${esc(t.artist)} ${t.explicit?'<b class="explicit">E</b>':''}</small><a href="${esc(t.link)}" target="_blank" rel="noopener noreferrer">Sur Deezer ↗</a></div><button class="btn ghost" data-action="v2-preview" data-value="${esc(t.id)}" aria-label="Écouter ${esc(t.title)}">▶</button><button class="btn ${inPool?'ghost':added?'good':'primary'}" data-action="${inPool?'v2-remove-track':'v2-add-track'}" data-value="${esc(t.id)}" ${!inPool&&added?'disabled':''}>${inPool?'Retirer':added?'✓ Ajouté':'＋ Ajouter'}</button></article>`;}
 function scoreBreakdown(r){const labels={title:'Titre',artist:'Artiste',answer:'Réponse',speed:'Rapidité',streak:'Série'};return `<div class="score-breakdown">${Object.entries(r.breakdown||{}).filter(([,v])=>v>0).map(([id,v])=>`<span>${labels[id]} <b>+${v}</b></span>`).join('')}</div>`;}
 function historyScreen(){return `<main class="library"><div class="row"><div><span class="eyebrow">CHAQUE DÉCLIC COMPTE</span><h1>Le bilan de la soirée.</h1></div><button class="btn ghost right" data-action="v2-return">Revenir au jeu</button><button class="btn primary" data-action="v2-export-results">Exporter le bilan</button></div><div class="results-leaders">${leaderboard()}</div>${(game?.history||[]).map(h=>`<details class="round-history" open><summary><span class="step">${h.index+1}</span>${esc(h.question.title||h.question.answer)}${h.question.artist?' · '+esc(h.question.artist):''}</summary>${questionExplanation(h.question)}${h.results.map(t=>`<div class="history-team"><strong>${esc(t.name)}</strong><span>+${t.result.total||0} pts</span>${scoreBreakdown(t.result)}</div>`).join('')}</details>`).join('')||'<div class="empty">Le détail sera disponible après la première révélation.</div>'}</main>`;}
@@ -294,7 +460,7 @@ document.addEventListener('click',async e=>{const b=e.target.closest('[data-acti
  if(act==='v2-theme'){if(config.challenge==='lyrics')config.challenge='title';if(config.themes.includes(v)){if(config.themes.length===1){toast('Gardez au moins une ambiance.');return;}config.themes=config.themes.filter(id=>id!==v);}else{if(config.themes.length>=3){toast('Vous pouvez mélanger jusqu’à trois ambiances.');return;}config.themes.push(v);}config.catalogFrom='themes';config.source='catalog';saveConfig();render();}
  if(act==='v2-challenge'){config.challenge=v;if(v==='lyrics')config.source='custom';if(v!=='coverChoice')config.musicGame=null;saveConfig();render();}
  if(act==='v2-load-themes')await withBusy(loadThemes);
- if(act==='v2-use-catalog'){if(!catalogPool.tracks.length){toast('Ajoutez des titres ou importez une playlist.');return;}config.catalogFrom='explorer';config.source='catalog';config.universe='music';saveConfig();view='setup';render();}
+ if(act==='v2-use-catalog'){if(!activeEvening){view='home';render();toast('Créez une soirée pour utiliser cette sélection.');return;}if(!catalogPool.tracks.length){toast('Ajoutez des titres ou importez une playlist.');return;}config.catalogFrom='explorer';config.source='catalog';config.universe='music';saveConfig();view='setup';render();}
  if(act==='v2-add-track'){const t=catalogResults.tracks.find(t=>t.id===v);if(t&&!catalogPool.tracks.some(x=>x.id===v)){if(catalogPool.tracks.length>=100){toast('100 titres maximum par sélection.');return;}catalogPool={name:'Ma sélection',tracks:[...catalogPool.tracks,t],themeKey:''};config.catalogFrom='explorer';config.source='catalog';persistPool();saveConfig();render();}}
  if(act==='v2-remove-track'){catalogPool.tracks=catalogPool.tracks.filter(t=>t.id!==v);persistPool();render();}
  if(act==='v2-add-all'){const all=[...new Map([...catalogPool.tracks,...catalogResults.tracks].map(t=>[t.id,t])).values()].slice(0,100);catalogPool={name:'Ma sélection',tracks:all,themeKey:''};config.catalogFrom='explorer';persistPool();saveConfig();render();}
@@ -309,10 +475,6 @@ document.addEventListener('submit',async e=>{const form=e.target;if(!['catalog-s
  if(form.id==='catalog-search'){catalogQuery=String(data.get('query')).trim();catalogSearchType=data.get('type');catalogMessage='Recherche en cours…';await withBusy(async()=>{catalogResults=await apiJSON('/api/music/search?q='+encodeURIComponent(catalogQuery)+'&type='+catalogSearchType);catalogMessage=catalogSearchType==='playlists'?`${catalogResults.playlists.length} playlist(s) trouvée(s).`:`${catalogResults.tracks.length} titre(s) avec un extrait disponible.`;});}
  if(form.id==='playlist-import'){const value=String(data.get('url')).trim();let id=value;if(!/^\d+$/.test(id)){try{const u=new URL(value);if(!/(^|\.)deezer\.com$/.test(u.hostname))throw Error();id=u.pathname.match(/\/playlist\/(\d+)/)?.[1];}catch{id=null;}}if(!id){catalogMessage='Collez un lien complet de playlist Deezer publique (deezer.com/…/playlist/123). Les liens Spotify ne sont pas pris en charge.';render();return;}await withBusy(()=>loadPlaylist(id));}
 });
-const params=new URLSearchParams(location.search);
-if(location.pathname==='/tv'){role='tv';view='tv';channel.postMessage({type:'request'});}
-else if(location.pathname==='/join'){view='join';room=(params.get('code')||'').toUpperCase();}
-render();
 
 function listeningMarkup(){const q=currentQ();if(!q||!['playing','paused','buzzed'].includes(game.phase))return '';if(isProgressive(game,q))return `<div class="listening-card"><strong>Écoute ${(game.listenStep||0)+1}/4 · ${LISTEN_STEPS[game.listenStep||0]} seconde(s)</strong><span>${[100,80,60,40][game.listenStep||0]} % des points de réponse</span><small data-listen-status></small></div>`;if(q.kind==='lyrics')return `<div class="listening-card"><strong>🎙️ La musique s’arrête… à vous de continuer !</strong><small data-listen-status></small></div>`;return '';}
 function buzzerPanel(){return `<button class="phone-buzzer" data-action="v3-buzz" data-buzz-button disabled>⚡ BUZZ !</button><p class="help" data-buzz-status>Attendez le signal…</p>`;}
@@ -333,9 +495,56 @@ function invitationMarkup(code=room){
  }
  return `<div class="answerbox room-code">${esc(code)}</div>${invitationSvg}`;
 }
+const homeIcons={
+ wave:'<path d="M3 10v4m4-7v10m5-14v18m5-14v10m4-7v4"/>',
+ play:'<path d="m9 5 11 7-11 7z"/>',
+ plus:'<path d="M12 5v14M5 12h14"/>',
+ music:'<path d="M9 18V5l12-2v13M9 9l12-2"/><ellipse cx="6" cy="18" rx="3" ry="2"/><ellipse cx="18" cy="16" rx="3" ry="2"/>',
+ gear:'<circle cx="12" cy="12" r="3"/><path d="m10 3-1 3-3 1-3-1-1 3 2 2v2l-2 2 1 3 3-1 3 1 1 3h4l1-3 3-1 3 1 1-3-2-2v-2l2-2-1-3-3 1-3-1-1-3z"/>',
+ arrow:'<path d="M4 12h15m-6-6 6 6-6 6"/>'
+};
+function homeIcon(name){
+ return `<svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">${homeIcons[name]}</svg>`;
+}
+function homeCard(action,icon,label,detail='',primary=false){
+ return `<button class="host-card${primary?' host-card-primary':''}" data-action="${action}" ${changingEvening?'disabled':''}>
+  <span class="host-card-icon">${homeIcon(icon)}</span>
+  <span><strong>${label}</strong>${detail?`<small>${detail}</small>`:''}</span>
+  <span class="host-card-arrow">${homeIcon('arrow')}</span>
+ </button>`;
+}
 function home(){
- const saved=savedMusicGame('declic.host');
- return `<section class="hero"><h1>Déclic <em>Party</em></h1><p>Vos jeux musicaux pour une soirée entre amis.</p><div class="row"><button class="btn primary" data-action="create-evening" ${busy?'disabled':''}>${busy?'Création…':'Créer une soirée'}</button><button class="btn ghost" data-action="join-page">Rejoindre une soirée</button></div>${saved?'<button class="textbtn" data-action="resume-phone">Reprendre ma soirée</button>':''}<button class="textbtn" data-action="local-setup">Jouer avec des buzzers USB</button></section>`;
+ const active=activeEvening||savedMusicGame('declic.localGame');
+ const ready=eveningStatus==='ready';
+ return `<div class="host-home">
+  <header class="host-brand"><span>${homeIcon('wave')}</span> DÉCLIC PARTY</header>
+  <main class="host-main">
+   <section class="host-welcome">
+    <div class="host-equalizer" aria-hidden="true">${Array.from({length:9},()=>'<i></i>').join('')}</div>
+    <h1>Que la fête commence !</h1>
+    <p>La musique rassemble, à vous de jouer.</p>
+   </section>
+   <div class="host-actions">
+    ${changingEvening?'<p class="host-status" role="status">Mise à jour de la soirée…</p>':
+      eveningStatus==='loading'?'<p class="host-status" role="status">Récupération de la soirée…</p>':
+      eveningStatus==='error'?'<div class="host-status" role="status">Impossible de vérifier la soirée active. <button class="host-link" data-action="retry-evening">Réessayer</button></div>':
+      active?homeCard('resume-evening','play','Reprendre la soirée','Soirée en cours',true):
+      homeCard('create-evening','plus','Créer une soirée','C’est parti !',true)}
+    <div class="host-secondary">
+     ${ready&&active?homeCard('create-evening','plus','Créer une soirée'):''}
+     ${homeCard('v2-catalog','music','Bibliothèque musicale')}
+     ${homeCard('settings','gear','Paramètres')}
+    </div>
+    ${ready&&activeEvening&&!changingEvening?'<button class="host-link host-end" data-action="end-evening">Terminer la soirée</button>':''}
+   </div>
+  </main>
+  <footer class="host-join">Vous êtes participant ? <a class="host-link" href="/join">Rejoindre une soirée ${homeIcon('arrow')}</a></footer>
+ </div>`;
+}
+function settingsScreen(){
+ return `<main class="library"><h1>Paramètres</h1>
+  <button class="btn ghost" data-action="sound" aria-pressed="${!desk.muted}">${desk.muted?'♪ Jingles coupés':'♫ Jingles actifs'}</button>
+ </main>`;
 }
 function setupScreen(){
  const invite=room&&auth?.type==='host'&&config.mode==='phone';
@@ -343,3 +552,9 @@ function setupScreen(){
 }
 
 function gameRules(qs){return `<aside class="sidebar"><span class="eyebrow">LE STUDIO</span><h2>Les règles du jeu</h2>${config.musicGame==='soundtrack'&&config.source==='catalog'?'<label class="field-label">Catégorie<select data-config="soundtrackCategory"><option value="soundtrack" '+(config.soundtrackCategory==='tvThemes'?'':'selected')+'>Films et séries</option><option value="tvThemes" '+(config.soundtrackCategory==='tvThemes'?'selected':'')+'>Génériques TV</option></select></label>':''}<div class="segmented"><button data-action="mode" data-value="usb" class="${config.mode==='usb'?'active':''}">◉ Buzzers USB</button><button data-action="mode" data-value="phone" class="${config.mode==='phone'?'active':''}">▯ Téléphones</button></div><p class="help">${config.mode==='usb'?'Les équipes buzzent. Vous validez leurs réponses.':'Un code à partager : buzzer et répondre à voix haute, ou jouer en QCM et par écrit.'}</p>${config.mode==='phone'?`<label class="field-label" for="inputmode">Réponse sur téléphone</label><select id="inputmode"><option value="buzzer" ${config.input==='buzzer'?'selected':''}>Buzzer · réponse orale</option><option value="qcm" ${config.input==='qcm'?'selected':''}>QCM · 4 choix</option><option value="text" ${config.input==='text'?'selected':''}>Écrit · titre et artiste séparés</option></select>`:`<span class="field-label">Les équipes · touches personnalisables</span>${config.teams.map((t,i)=>`<div class="teamrow"><span class="avatar" style="--team:${colors[i]}">${icons[i]}</span><input aria-label="Nom de l’équipe ${i+1}" data-team="${i}" value="${esc(t.name)}" maxlength="24"><input class="customkey" aria-label="Touche de l’équipe ${i+1}" data-key="${i}" value="${esc(t.key)}" maxlength="1"><button class="iconbtn" aria-label="Retirer l’équipe ${i+1}" data-action="remove-team" data-value="${i}" ${config.teams.length<=2?'disabled':''}>×</button></div>`).join('')}<button class="textbtn" data-action="add-team" ${config.teams.length>=10?'disabled':''}>＋ Ajouter une équipe</button>`}<div class="divider"></div><label class="field-label" for="source">Les contenus</label><select id="source">${config.challenge!=='lyrics'?`<option value="catalog" ${config.source==='catalog'?'selected':''}>Catalogue · extraits Deezer</option>`:''}<option value="custom" ${config.source==='custom'?'selected':''}>Mes questions personnelles</option><option value="demo" ${config.source==='demo'?'selected':''}>Découverte · démonstration</option></select>${config.source==='catalog'?`<p class="mini" style="margin-top:10px">${catalogPool.tracks.length?`${catalogPool.tracks.length} titres chargés · ${esc(catalogPool.name)}`:'Vos thèmes seront chargés au lancement.'}</p><button class="textbtn" data-action="v2-load-themes" ${busy?'disabled':''}>↻ Charger les thèmes choisis</button>`:`<p class="mini" style="margin-top:10px">${qs.length} questions disponibles dans cette sélection.</p>`}<label class="field-label">Écoute<select aria-label="Écoute" data-setting="listening"><option value="continuous" ${config.settings.listening!=='progressive'?'selected':''}>Extrait continu</option><option value="progressive" ${config.settings.listening==='progressive'?'selected':''}>Progressive · 1, 2, 5 puis 10 s</option></select></label><p class="mini">En progressif : 100 %, 80 %, 60 %, 40 % des points de réponse. Pas de bonus de rapidité. Seuls les défis audio utilisent ces paliers.</p><div class="two-fields"><label>${config.musicGame==='bingo'?'Extraits':'Questions'}<select data-config="count">${(config.musicGame==='bingo'?[BINGO_CARD_SIZE,20]:[5,10,15,20]).map(n=>`<option ${config.count===n?'selected':''}>${n}</option>`).join('')}</select></label><label>Durée<select data-config="duration">${[10,15,20,30].map(n=>`<option value="${n}" ${config.duration===n?'selected':''}>${n} s</option>`).join('')}</select></label></div><label class="field-label" for="difficulty">Sélection des titres</label><select id="difficulty" data-config="difficulty"><option value="easy" ${config.difficulty==='easy'?'selected':''}>Les plus populaires</option><option value="balanced" ${config.difficulty==='balanced'?'selected':''}>Un mélange équilibré</option><option value="hard" ${config.difficulty==='hard'?'selected':''}>Des titres moins connus</option></select><details class="settings-details"><summary>⚙ Points et déroulement</summary><div class="two-fields"><label>Points titre<input type="number" min="1" max="1000" data-setting="titlePoints" value="${config.settings.titlePoints}"></label><label>Points artiste<input type="number" min="1" max="1000" data-setting="artistPoints" value="${config.settings.artistPoints}"></label></div><label class="checkboxline"><input type="checkbox" data-setting="speed" ${config.settings.speed?'checked':''}> Bonus de rapidité · jusqu’à 50 pts</label><label class="checkboxline"><input type="checkbox" data-setting="streak" ${config.settings.streak?'checked':''}> Bonus de série · jusqu’à 50 pts</label>${config.mode==='usb'||config.input==='buzzer'?`<label class="field-label">Après une mauvaise réponse<select data-setting="rebuzz">${[['round','Bloqué pour cette question'],['none','Rebuzz immédiat'],['3','Rebuzz après 3 secondes'],['5','Rebuzz après 5 secondes'],['10','Rebuzz après 10 secondes']].map(([id,name])=>`<option value="${id}" ${config.settings.rebuzz===id?'selected':''}>${name}</option>`).join('')}</select></label><label class="field-label">Reprise de la musique<select data-setting="resume"><option value="auto" ${config.settings.resume==='auto'?'selected':''}>Automatique après validation</option><option value="manual" ${config.settings.resume==='manual'?'selected':''}>Manuelle · je garde la main</option></select></label>`:''}<label class="checkboxline"><input type="checkbox" data-setting="autoNext" ${config.settings.autoNext?'checked':''}> Question suivante après 8 secondes</label><label class="checkboxline"><input type="checkbox" data-config="explicit" ${config.explicit===false?'checked':''}> Exclure les titres marqués explicites</label></details>${catalogMessage?`<div class="catalog-message" role="status">${esc(catalogMessage)}</div>`:''}<button class="btn primary full" data-action="launch" ${busy?'disabled':''}>${busy?'Préparation des extraits…':'Lancer la soirée →'}</button><p class="caption">${config.mode==='usb'?'2 à 10 équipes · clavier ou buzzer qui émule une touche':'Jusqu’à 50 équipes · Internet nécessaire'}<br>${config.source==='catalog'?'Extraits de 30 s maximum. Disponibilité selon Deezer.':'Vos contenus personnels restent sur ce PC.'}</p></aside>`;}
+
+const params=new URLSearchParams(location.search);
+if(location.pathname==='/tv'){role='tv';view='tv';channel.postMessage({type:'request'});}
+else if(location.pathname==='/join'){view='join';room=(params.get('code')||'').toUpperCase();}
+render();
+if(view==='home')void loadEvening();

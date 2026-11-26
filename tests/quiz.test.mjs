@@ -19,9 +19,9 @@ test('API salons : accepte les jeux musicaux et refuse les anciens quiz généra
  const context=vm.createContext({Response,URL,crypto:webcrypto,TextEncoder,TextDecoder,Uint8Array,console,DurableObject:class{},createGame,normalizeQuizCredit,ASSETS:{},musicRoute:()=>{}});
  vm.runInContext(code,context);
  let captured;
- const env={ROOMS:{getByName:()=>({initialize:async data=>{captured=data;return true;}})}};
+ const env={ROOMS:{getByName:()=>({prepare:async data=>{captured=data;return 200;}})}};
  const request=questions=>context.worker.fetch(new Request('https://declic.test/api/rooms',{
-  method:'POST',headers:{Origin:'https://declic.test','Content-Type':'application/json'},body:JSON.stringify({questions})
+  method:'POST',headers:{Origin:'https://declic.test','Content-Type':'application/json'},body:JSON.stringify({questions,room:'ABCDEFGH',token:webcrypto.randomUUID()})
  }),env);
  const archived=QUESTION_BANKS.find(bank=>bank.universe==='quiz').questions[0];
  assert.equal((await request([archived])).status,400);

@@ -37,7 +37,7 @@ npm run build
 npm run dev
 ```
 
-Le serveur de développement simple sert l’interface et le mode USB avec les médias locaux. Les salons connectés et l’API musicale nécessitent le Worker Cloudflare.
+Le serveur de développement Wrangler exécute le Worker et les Durable Objects en local. Il permet de créer une soirée et de vérifier sa reprise, y compris en mode USB. Le navigateur conserve la clé animateur de son profil et les fichiers musicaux personnels. Les parties sont sauvegardées côté Worker. Les extraits Deezer nécessitent une connexion Internet.
 
 ```sh
 npm run build

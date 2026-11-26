@@ -5,19 +5,38 @@ import {ASSETS} from './assets.generated.js';
 async function boundedText(req,max){const reader=req.body?.getReader();if(!reader)return '';const chunks=[];let size=0;try{while(true){const {done,value}=await reader.read();if(done)break;size+=value.byteLength;if(size>max){await reader.cancel();throw Error('Partie trop volumineuse');}chunks.push(value);}}finally{reader.releaseLock();}const bytes=new Uint8Array(size);let at=0;for(const c of chunks){bytes.set(c,at);at+=c.byteLength;}return new TextDecoder().decode(bytes);}
 const json=(v,status=200)=>Response.json(v,{status,headers:{'Cache-Control':'no-store'}});
 const digest=async s=>Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(s)))).map(x=>x.toString(16).padStart(2,'0')).join('');
+const roomCode=()=>Array.from(crypto.getRandomValues(new Uint8Array(8)),n=>'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'[n%32]).join('');
+const validCode=code=>typeof code==='string'&&/^[A-Z2-9]{8}$/.test(code);
+const hostToken=token=>typeof token==='string'&&/^[0-9a-f-]{36}$/.test(token);
+async function eveningRoute(req,env,url){
+ const method=req.method;
+ if(!['GET','POST','PUT','DELETE'].includes(method))return json({error:'Méthode non autorisée.'},405);
+ if(method!=='GET'&&req.headers.get('Origin')!==url.origin)return json({error:'Origine refusée.'},403);
+ const credential=req.headers.get('Authorization')?.match(/^Bearer ([0-9a-f]{64})$/)?.[1];
+ if(!credential)return json({error:'Accès animateur refusé.'},403);
+ let data={};
+ if(method!=='GET'){
+  try{data=JSON.parse(await boundedText(req,method==='PUT'?1000000:2048));}
+  catch{return json({error:'Demande invalide ou trop volumineuse.'},400);}
+  if(!data||typeof data!=='object')return json({error:'Demande invalide.'},400);
+ }
+ const result=await env.ROOMS.getByName('host:'+await digest(credential)).evening(method,data);
+ return json(result.body,result.status);
+}
 export default {
  async fetch(req,env){
   try{
    const url=new URL(req.url);
+   if(url.pathname==='/api/evening')return await eveningRoute(req,env,url);
    if(req.method==='GET'&&url.pathname.startsWith('/api/music/'))return musicRoute(req);
-   if(url.pathname==='/api/health')return json({ok:true,version:'0.5.3'});
+   if(url.pathname==='/api/health')return json({ok:true,version:'0.6.0'});
    if(req.method==='POST'&&url.pathname==='/api/rooms'){
     if(req.headers.get('Origin')!==url.origin)return json({error:'Origine refusée'},403);
     if(Number(req.headers.get('Content-Length'))>150000)return json({error:'Partie trop volumineuse'},413);
     const text=await boundedText(req,150000);if(text.length>150000)return json({error:'Partie trop volumineuse'},413);
     const data=JSON.parse(text);
-    const emptyLobby=data.lobby===true&&data.room===undefined;
-    if(!Array.isArray(data.questions)||data.questions.length<(emptyLobby?0:1)||data.questions.length>100)return json({error:'Choisissez entre 1 et 100 questions.'},400);
+    if(!validCode(data?.room)||!hostToken(data.token))return json({error:'Accès animateur refusé.'},403);
+    if(!Array.isArray(data.questions)||data.questions.length<1||data.questions.length>100)return json({error:'Choisissez entre 1 et 100 questions.'},400);
     if(data.questions.some(q=>q?.universe!=='music'&&!(q?.universe==='film'&&q.target==='soundtrack')))return json({error:'Choisissez un jeu musical.'},400);
     for(const q of data.questions){if(typeof q.answer!=='string'||!q.answer.trim()||q.answer.length>180||typeof q.prompt!=='string'||q.prompt.length>300||!Array.isArray(q.options)||q.options.length>4||q.options.some(o=>typeof o!=='string'||o.length>180)||!q.options.includes(q.answer)||!Number.isFinite(q.duration)||q.duration<5||q.duration>90||!Number.isFinite(q.points)||q.points<1||q.points>1000)return json({error:'Question invalide : vérifiez les réponses, les points et la durée.'},400);}
     if(data.questions.some(q=>q.kind==='lyrics'&&(!Number.isFinite(q.cutAt)||q.cutAt<.1||q.cutAt>30||q.cutAt>=q.duration)))return json({error:'Choisissez une coupure entre 0,1 et 30 secondes, avant la fin de la manche.'},400);
@@ -28,15 +47,8 @@ export default {
     const allowedTargets=['both','title','artist','cover','artistTitle','coverChoice','timeline','coversQuiz','soundtrack'];
     data.questions=data.questions.map(q=>({id:String(q.id).slice(0,80),universe:q.target==='soundtrack'?q.universe:'music',cutAt:q.kind==='lyrics'?q.cutAt:undefined,kind:['audio','image','question','lyrics'].includes(q.kind)?q.kind:'question',prompt:q.prompt,answer:q.answer,explanation:typeof q.explanation==='string'?q.explanation.slice(0,1500):undefined,theme:typeof q.theme==='string'?q.theme.slice(0,80):undefined,credit:normalizeQuizCredit(q.credit),aliases:(Array.isArray(q.aliases)?q.aliases:[]).filter(v=>typeof v==='string').slice(0,15).map(v=>v.slice(0,180)),options:q.options,timeline:q.target==='timeline'&&Array.isArray(q.timeline)?q.timeline.filter(v=>typeof v==='string').slice(0,3).map(v=>v.slice(0,180)):undefined,optionArtwork:q.target==='coverChoice'?q.optionArtwork:undefined,duration:q.duration,points:q.points,title:typeof q.title==='string'?q.title.slice(0,180):undefined,artist:typeof q.artist==='string'?q.artist.slice(0,180):undefined,titleAliases:(Array.isArray(q.titleAliases)?q.titleAliases:[]).filter(v=>typeof v==='string').slice(0,10).map(v=>v.slice(0,180)),artistAliases:(Array.isArray(q.artistAliases)?q.artistAliases:[]).filter(v=>typeof v==='string').slice(0,10).map(v=>v.slice(0,180)),target:allowedTargets.includes(q.target)?q.target:'title',emoji:typeof q.emoji==='string'?q.emoji.slice(0,80):undefined,artwork:typeof q.artwork==='string'&&/^https:\/\/[^/]+\.dzcdn\.net\//.test(q.artwork)?q.artwork:undefined,link:typeof q.link==='string'&&/^https:\/\/www\.deezer\.com\//.test(q.link)?q.link:undefined,provider:q.provider==='Deezer'?'Deezer':undefined}));
     const setup={questions:data.questions,input:['text','buzzer'].includes(data.input)?data.input:'qcm',settings:data.settings&&typeof data.settings==='object'?data.settings:{},effect:['normal','fast','slow','chipmunk','reverse','image'].includes(data.effect)?data.effect:'normal'};
-    if(data.room!==undefined){
-     if(typeof data.room!=='string'||!/^[A-Z2-9]{8}$/.test(data.room)||typeof data.token!=='string'||data.token.length>100)return json({error:'Accès animateur refusé.'},403);
-     const status=await env.ROOMS.getByName(data.room).prepare(setup,await digest(data.token));
-     return status===200?json({code:data.room,token:data.token}):json({error:status===404?'Cette soirée a expiré. Créez une nouvelle soirée.':status===403?'Accès animateur refusé.':'Terminez le jeu en cours avant de changer de jeu.'},status);
-    }
-    const code=Array.from(crypto.getRandomValues(new Uint8Array(8)),n=>'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'[n%32]).join('');
-    const token=crypto.randomUUID();
-    const result=await env.ROOMS.getByName(code).initialize({...setup,hostHash:await digest(token),code});
-    return result?json({code,token}):json({error:'Veuillez réessayer.'},409);
+    const status=await env.ROOMS.getByName(data.room).prepare(setup,await digest(data.token));
+    return status===200?json({code:data.room,token:data.token}):json({error:status===404?'Cette soirée a expiré. Créez une nouvelle soirée.':status===403?'Accès animateur refusé.':'Terminez le jeu en cours avant de changer de jeu.'},status);
    }
    const m=url.pathname.match(/^\/api\/rooms\/([A-Z2-9]{8})$/);
    if(m){if(req.headers.get('Upgrade')!=='websocket')return json({error:'Connexion WebSocket attendue'},426);if(req.headers.get('Origin')!==url.origin)return json({error:'Origine refusée'},403);return env.ROOMS.getByName(m[1]).fetch(req);}
@@ -50,7 +62,111 @@ export default {
 };
 export class PartyRoom extends DurableObject {
  constructor(ctx,env){super(ctx,env);this.ctx.setWebSocketAutoResponse(new WebSocketRequestResponsePair('ping','pong'));}
- async initialize(data){if(await this.ctx.storage.get('room'))return false;await this.ctx.storage.put('room',{...createGame(data.questions,[],'phone',data.input,data.settings),effect:data.effect,hostHash:data.hostHash,code:data.code,expires:Date.now()+86400000});await this.ctx.storage.setAlarm(Date.now()+86400000);return true;}
+ // A host object stores one active room and a recoverable lifecycle operation.
+ async evening(method,data){
+  const run=(this.lifecycle||Promise.resolve()).then(()=>this.updateEvening(method,data));
+  this.lifecycle=run.catch(()=>{});
+  return run;
+ }
+ async updateEvening(method,data){
+  const storage=this.ctx.storage, rooms=this.env.ROOMS;
+  const reply=(body,status=200)=>({body,status});
+  const conflict=()=>reply({error:'La soirée a changé dans un autre onglet. Rechargez son état.'},409);
+  let active=await storage.get('active')||null;
+  let pending=await storage.get('pending');
+  if(pending){
+   active=await this.finishEvening(pending);
+  }
+  if(method==='GET')return reply({active});
+  if(method==='PUT'){
+   if(!active||data.code!==active.code)return conflict();
+   if(!Number.isSafeInteger(data.revision)||data.revision<0||(data.state!==null&&(data.state?.mode!=='usb'||!Array.isArray(data.state.questions)||!Array.isArray(data.state.teams)))){
+    return reply({error:'Sauvegarde USB invalide.'},400);
+   }
+   const previous=active.usb;
+   if(previous?.id===data.id)return reply({revision:previous.revision});
+   if(!hostToken(data.id)||data.revision!==(previous?.revision||0))return conflict();
+   active.usb={id:data.id,revision:data.revision+1,state:data.state};
+   await storage.put('active',active);
+   return reply({revision:active.usb.revision});
+  }
+  if(method==='POST'&&data.adopt){
+   if(active)return reply({active});
+   const {code,token}=data.adopt;
+   if(!validCode(code)||!hostToken(token))return reply({error:'Accès animateur refusé.'},403);
+   const hash=await digest(token);
+   if(!await rooms.getByName(code).adoptRoom(hash))return reply({active:null});
+   active={code,token};
+   await storage.put('active',active);
+   return reply({active});
+  }
+  if(method==='POST'&&active?.operation===data.id)return reply({active});
+  if((active?.code||null)!==data.expected)return conflict();
+  if(method==='DELETE'){
+   if(!active)return reply({active:null});
+   pending={old:{code:active.code,token:active.token},next:null};
+  }else{
+   if(!hostToken(data.id))return reply({error:'Identifiant de création invalide.'},400);
+   let code=roomCode();
+   while(code===active?.code)code=roomCode();
+   pending={old:active&&{code:active.code,token:active.token},next:{code,token:crypto.randomUUID(),operation:data.id}};
+  }
+  await storage.put('pending',pending);
+  return reply({active:await this.finishEvening(pending)});
+ }
+ async finishEvening(pending){
+  const storage=this.ctx.storage, rooms=this.env.ROOMS;
+  if(pending.next){
+   const {code,token}=pending.next;
+   const initialized=await rooms.getByName(code).initialize({questions:[],input:'qcm',effect:'normal',hostHash:await digest(token),code,managed:true});
+   if(!initialized){
+    await storage.delete('pending');
+    throw Error('Code de soirée déjà utilisé.');
+   }
+  }
+  if(pending.old){
+   const {code,token}=pending.old;
+   const status=await rooms.getByName(code).removeRoom(await digest(token));
+   if(status===403)throw Error('Accès à la soirée précédente refusé.');
+  }
+  await storage.transaction(async tx=>{
+   if(pending.next)await tx.put('active',pending.next);
+   else await tx.delete('active');
+   await tx.delete('pending');
+  });
+  return pending.next;
+ }
+ async initialize(data){
+  const existing=await this.ctx.storage.get('room');
+  if(existing)return data.managed&&existing.hostHash===data.hostHash;
+  const expires=data.managed?undefined:Date.now()+86400000;
+  await this.ctx.storage.put('room',{...createGame(data.questions,[],'phone',data.input,data.settings),effect:data.effect,hostHash:data.hostHash,code:data.code,expires});
+  if(expires)await this.ctx.storage.setAlarm(expires);
+  return true;
+ }
+ async adoptRoom(hostHash){
+  const room=await this.ctx.storage.get('room');
+  if(!room||room.expires<=Date.now()||room.hostHash!==hostHash)return false;
+  delete room.expires;
+  await this.ctx.storage.put('room',room);
+  await this.schedule(room);
+  return true;
+ }
+ async removeRoom(hostHash){
+  const room=await this.ctx.storage.get('room');
+  if(!room)return 404;
+  if(room.hostHash!==hostHash)return 403;
+  await this.ctx.storage.deleteAll();
+  await this.ctx.storage.deleteAlarm();
+  for(const ws of this.ctx.getWebSockets())ws.close(4001,'Soirée terminée');
+  return 200;
+ }
+ async schedule(room){
+  const at=room.phase==='playing'?room.endAt:room.nextAt;
+  const alarm=Math.min(at||Infinity,room.expires||Infinity);
+  if(Number.isFinite(alarm))await this.ctx.storage.setAlarm(alarm);
+  else await this.ctx.storage.deleteAlarm();
+ }
  async prepare(data,hostHash){
   const current=await this.ctx.storage.get('room');
   if(!current||current.expires<=Date.now())return 404;
@@ -62,7 +178,7 @@ export class PartyRoom extends DurableObject {
    effect:data.effect,hostHash,code:current.code,expires:current.expires,revision:(current.revision||0)+1
   };
   await this.ctx.storage.put('room',next);
-  await this.ctx.storage.setAlarm(next.expires);
+  await this.schedule(next);
   this.broadcast(next);
   return 200;
  }
@@ -73,8 +189,8 @@ export class PartyRoom extends DurableObject {
   try{
    if(typeof msg!=='string'||msg.length>20000)throw Error('Message invalide');
    const a=ws.deserializeAttachment()||{role:'guest',last:0,count:0};const now=Date.now();a.count=now-a.last<1000?a.count+1:1;a.last=now;ws.serializeAttachment(a);if(a.count>12)throw Error('Trop de demandes');
-   const m=JSON.parse(msg);let s=await this.ctx.storage.get('room');if(!s||s.expires<now)throw Error('Partie expirée');
-   if(m.type==='host'){if(typeof m.token!=='string'||await digest(m.token)!==s.hostHash)throw Error('Accès animateur refusé');a.role='host';ws.serializeAttachment(a);this.send(ws,{type:'state',state:{...s,hostHash:undefined}});return;}
+   const m=JSON.parse(msg);const hash=m.type==='host'&&hostToken(m.token)?await digest(m.token):null;let s=await this.ctx.storage.get('room');if(!s||s.expires<now)throw Error('Partie expirée');
+   if(m.type==='host'){if(hash!==s.hostHash)throw Error('Accès animateur refusé');a.role='host';ws.serializeAttachment(a);this.send(ws,{type:'state',state:{...s,hostHash:undefined}});return;}
    if(m.type==='tv'){a.role='tv';ws.serializeAttachment(a);this.send(ws,{type:'state',state:publicGame(s,a?.role==='player'?a.team:undefined)});return;}
    if(m.type==='join'){
     if(a.role==='player'){this.send(ws,{type:'state',state:publicGame(s,a?.role==='player'?a.team:undefined)});return;}
@@ -95,10 +211,10 @@ export class PartyRoom extends DurableObject {
    else if(a.role==='host'&&['play','pause','resume','reveal','next','adjust','judge','listen-more'].includes(m.type)){if(m.type==='play'&&s.teams.length<(s.settings?.chain?3:s.settings?.survival&&s.input==='qcm'?2:1))throw Error(s.settings?.chain?'Attendez au moins trois participants.':s.settings?.survival?'Attendez au moins deux participants.':'Attendez au moins une équipe.');s=applyAction(s,m,now);}
    else throw Error('Action non autorisée');
    await this.ctx.storage.put('room',s);
-   await this.ctx.storage.setAlarm(s.phase==='playing'?s.endAt:s.nextAt||s.expires);
+   await this.schedule(s);
    this.broadcast(s);
   }catch(e){this.send(ws,{type:'error',message:e.message});}
  }
- async alarm(){let s=await this.ctx.storage.get('room');if(!s)return;if(s.expires<=Date.now()){for(const ws of this.ctx.getWebSockets())ws.close(1000,'Partie expirée');await this.ctx.storage.deleteAll();return;}if(s.phase==='playing')s=applyAction(s,{type:'timeout'});else if(s.phase==='reveal'&&s.nextAt&&s.nextAt<=Date.now())s=applyAction(s,{type:'next'});await this.ctx.storage.put('room',s);this.broadcast(s);await this.ctx.storage.setAlarm(s.nextAt||s.expires);}
+ async alarm(){let s=await this.ctx.storage.get('room');if(!s)return;if(s.expires<=Date.now()){for(const ws of this.ctx.getWebSockets())ws.close(4001,'Partie expirée');await this.ctx.storage.deleteAll();return;}if(s.phase==='playing')s=applyAction(s,{type:'timeout'});else if(s.phase==='reveal'&&s.nextAt&&s.nextAt<=Date.now())s=applyAction(s,{type:'next'});await this.ctx.storage.put('room',s);this.broadcast(s);await this.schedule(s);}
  webSocketError(ws){ws.close(1011,'Connexion interrompue');}
 }
