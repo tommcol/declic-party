@@ -32,9 +32,12 @@
 
 .bingo-card {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: .4rem;
   margin: 1rem 0;
+}
+.bingo-card-legacy {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 .bingo-card .option {
   display: grid;

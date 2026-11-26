@@ -16,14 +16,23 @@ export const isProgressive=(s,q=s.question||s.questions?.[s.index])=>s.settings?
 export const listeningLimit=(s,q=s.question||s.questions?.[s.index])=>q?.kind==='lyrics'?Number(q.cutAt)||5:isProgressive(s,q)?LISTEN_STEPS[s.listenStep||0]:Infinity;
 export function audioRemaining(s,now=Date.now()){if(s.phase!=='playing'||now<s.startAt)return 0;return Math.max(0,listeningLimit(s)-((s.audioElapsed||0)+now-s.startAt)/1000);}
 export function targets(q){if(q.kind==='lyrics'||['coverChoice','timeline','coversQuiz','soundtrack'].includes(q.target))return ['answer'];return (q.title&&q.artist)||q.musical?(q.target==='both'?['title','artist']:[q.target==='artist'||q.target==='cover'?'artist':'title']):['answer'];}
-const BINGO_LINES=[[0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[2,4,6]];
+export const BINGO_CARD_SIZE=16;
+function bingoLines(size){
+ const indexes=Array.from({length:size},(_,i)=>i);
+ return [
+  ...indexes.map(row=>indexes.map(col=>row*size+col)),
+  ...indexes.map(col=>indexes.map(row=>row*size+col)),
+  indexes.map(i=>i*size+i),
+  indexes.map(i=>i*size+size-1-i)
+ ];
+}
 function dealBingoCard(questions){
  const songs=questions.map(({id,title,artist})=>({id,title,artist}));
  for(let i=songs.length-1;i>0;i--){
   const j=Math.floor(Math.random()*(i+1));
   [songs[i],songs[j]]=[songs[j],songs[i]];
  }
- return songs.slice(0,9);
+ return songs.slice(0,questions.length<BINGO_CARD_SIZE?9:BINGO_CARD_SIZE);
 }
 export function gameSettings(input={}){return {chain:input.chain===true,bingo:input.bingo===true,survival:input.survival===true,listening:input.listening==='progressive'?'progressive':'continuous',duration:Math.max(5,Math.min(90,Number(input.duration)||30)),titlePoints:Math.max(1,Math.min(1000,Number(input.titlePoints)||50)),artistPoints:Math.max(1,Math.min(1000,Number(input.artistPoints)||50)),speed:input.speed!==false,streak:input.streak!==false,rebuzz:['round','none','3','5','10'].includes(String(input.rebuzz))?String(input.rebuzz):'round',resume:input.resume==='manual'?'manual':'auto',autoNext:input.autoNext===true};}
 export function createGame(questions, teams=[], mode='usb', input='qcm', settings={}) {
@@ -81,7 +90,7 @@ export function applyAction(game, action, now=Date.now()) {
    card.notice=null;
   }else{
    const heard=new Set(s.questions.slice(0,s.index+1).map(song=>song.id));
-   const valid=BINGO_LINES.some(line=>line.every(i=>heard.has(card.card[i]?.id)&&card.marked.includes(card.card[i]?.id)));
+   const valid=bingoLines(Math.sqrt(card.card.length)).some(line=>line.every(i=>heard.has(card.card[i]?.id)&&card.marked.includes(card.card[i]?.id)));
    if(valid){
     s.bingoWinner=action.team;
     if(s.phase==='playing')reveal();
