@@ -1,10 +1,12 @@
-# Déclic ! — v0.3
+# Déclic Party
 
-Jeu de soirée musique et cinéma, avec une identité et un code indépendants. Interface française, écran animateur et fenêtre publique.
+Jeu de soirée musical avec blind test en solo et jeux en équipe. Interface française, écran animateur et fenêtre publique.
 
 Version publiée : https://declic-party.tommcolin.workers.dev/
 
 ## Jouer
+
+L’accueil propose neuf jeux musicaux. Le mode solo est un blind test avec des extraits Deezer. En équipe, le Cinéma musical fait deviner un film ou une série à partir de sa musique.
 
 ### Nouveautés v0.3
 
@@ -21,7 +23,7 @@ Version publiée : https://declic-party.tommcolin.workers.dev/
 - **Scores** : points titre/artiste réglables, bonus de rapidité et de série désactivables, bilan par manche et export JSON, classement et podium.
 - **Effets** : accéléré ×1,35, ralenti ×0,7, écureuil ×1,8, lecture inversée ; image mystère progressivement défloutée. Vitesse et hauteur sont liées dans les effets audio.
 - **Questions personnelles** : audio ou images importés dans IndexedDB sur le PC, texte et réponses alternatives, durée et points. Export JSON des questions sans les médias.
-- **Cinéma** : démonstrations par emojis et questions personnelles, dont audio, répliques ou images. Les bandes-annonces vidéo ne sont pas encore connectées.
+- **Cinéma musical** : identifier un film ou une série en écoutant un extrait de sa musique.
 
 Ouvrir « Écran public », déplacer la fenêtre sur la TV puis passer en plein écran. La fenêtre TV et le PC utilisent le même navigateur et la même origine. Garder la fenêtre animateur active pour recevoir les touches des buzzers.
 
@@ -88,14 +90,3 @@ Les autres branches ne publient pas le site de production ; les aperçus automat
 
 L’authentification de publication reste gérée par Cloudflare ; aucun jeton n’est stocké dans le dépôt. Pour un déploiement manuel depuis un poste authentifié, `npm run deploy` reste disponible.
 
-### Quiz prêts à jouer (v0.5.3)
-
-« Les quiz » propose **5 995 questions françaises dans 12 grandes catégories et 213 sous-thèmes**. Le catalogue affiche d’abord les catégories : musique ; cinéma, séries et TV ; sport ; géographie et voyages ; histoire et civilisations ; sciences et technologies ; nature et animaux ; arts, livres et BD ; cuisine et boissons ; jeux vidéo ; célébrités et société ; culture générale et traditions. Cliquer sur une catégorie prépare directement un quiz général : toutes ses questions sont disponibles et la sélection varie les thèmes automatiquement. Les sujets précis restent accessibles dans « Personnaliser ce quiz (facultatif) » ou la recherche avancée. Aucun sous-thème n’est à choisir pour lancer une soirée classique. Le sélecteur d’ajout de thème dans la préparation reprend ces groupes, en respectant l’univers de la partie. Les catégories servent à ranger le catalogue ; les questions et les parties existantes sont conservées. Un aperçu permet à l’animateur de lire les questions et réponses avant de jouer.
-
-Le premier catalogue de 746 questions est conservé. L’import élargi ajoute 5 249 questions d’une archive libre OpenQuizzDB ; ces nouvelles questions sont identifiées comme questions d’archive. Les filtres contrôlent format, doublons de formulation, temporalité repérable et thèmes exclus. Ils ne vérifient pas la vérité de chaque réponse. Les conditions et le rapport d’import figurent dans [les sources](data/SOURCES.md).
-
-Les téléphones chargent uniquement un index de thèmes. Les questions des thèmes choisis sont récupérées à la demande par le PC animateur, puis les manches sont transmises au salon. Les textes ne dépendent d’aucune API tierce pendant le jeu. Ils fonctionnent en USB/clavier, QCM téléphone, réponse écrite ou buzzer téléphone.
-
-Données : 5 954 questions OpenQuizzDB (CC BY-SA 4.0), 17 Qulture et 24 adaptations LearnClash (CC BY 4.0). Régénération : `node scripts/build-question-bank.mjs` (également exécutée par le build). Le mode de développement sert les mêmes packs JSON que le Worker. Les jeux de données et leurs adaptations restent réutilisables sous leurs licences respectives.
-
-Le bouton **Quiz général · tout mélanger** prépare une partie à partir des 12 catégories et des 5 995 questions. La sélection varie les catégories et les sujets. Pour une partie de 10 questions, 10 packs seulement sont choisis puis chargés ; les 213 fichiers ne sont pas téléchargés au lancement. Les niveaux restent filtrables. Le blind test audio est accessible dans **Les musiques** et utilise l’API Deezer ; Spotify, Apple Music et les API vidéo ne sont pas intégrés.
