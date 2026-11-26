@@ -6,6 +6,6 @@
   "compatibility_flags": ["nodejs_compat"],
   "workers_dev": true,
   "observability": {"enabled": true},
-  "durable_objects": {"bindings": [{"name": "ROOMS", "class_name": "PartyRoom"}]},
-  "migrations": [{"tag": "v1", "new_sqlite_classes": ["PartyRoom"]}]
+  "durable_objects": {"bindings": [{"name": "ROOMS", "class_name": "PartyRoom"}, {"name": "MUSIC_LIBRARY", "class_name": "MusicLibrary"}]},
+  "migrations": [{"tag": "v1", "new_sqlite_classes": ["PartyRoom"]}, {"tag": "v2", "new_sqlite_classes": ["MusicLibrary"]}]
 }

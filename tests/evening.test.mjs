@@ -10,7 +10,7 @@ const runtime=vm.createContext({
  DurableObject:class {constructor(ctx,env){Object.assign(this,{ctx,env});}},
  WebSocketRequestResponsePair:class {}, createGame
 });
-vm.runInContext(source.replace(/^import .*;$/gm,'')
+vm.runInContext(source.replace(/^import .*;$/gm,'').replace('export {MusicLibrary};','')
  .replace('export default {','globalThis.worker = {')
  .replace('export class PartyRoom','globalThis.PartyRoom = class PartyRoom'),runtime);
 

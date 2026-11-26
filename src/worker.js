@@ -1,5 +1,8 @@
+import {createTyrolien,applyTyrolien,tyrolienView} from './tyrolien-room.js';
 import { DurableObject } from 'cloudflare:workers';
 import {createGame,applyAction,publicGame,normalizeQuizCredit,BINGO_CARD_SIZE} from '../public/engine.js';
+import {MusicLibrary,libraryRouteParams} from './library.js';
+export {MusicLibrary};
 import {musicRoute} from './catalog.js';
 import {ASSETS} from './assets.generated.js';
 async function boundedText(req,max){const reader=req.body?.getReader();if(!reader)return '';const chunks=[];let size=0;try{while(true){const {done,value}=await reader.read();if(done)break;size+=value.byteLength;if(size>max){await reader.cancel();throw Error('Partie trop volumineuse');}chunks.push(value);}}finally{reader.releaseLock();}const bytes=new Uint8Array(size);let at=0;for(const c of chunks){bytes.set(c,at);at+=c.byteLength;}return new TextDecoder().decode(bytes);}
@@ -23,19 +26,53 @@ async function eveningRoute(req,env,url){
  const result=await env.ROOMS.getByName('host:'+await digest(credential)).evening(method,data);
  return json(result.body,result.status);
 }
+async function libraryRoute(req,env,url){
+ const credential=req.headers.get('Authorization')?.match(/^Bearer ([0-9a-f]{64})$/)?.[1];
+ if(!credential)return json({error:'Accès animateur refusé.'},403);
+ const library=env.MUSIC_LIBRARY.getByName(await digest(credential));
+ if(req.method==='GET'){
+  if(url.pathname==='/api/library')return json(await library.summary());
+  if(url.pathname==='/api/library/tracks'){
+   const params=libraryRouteParams(url);
+   return params?json(await library.list(params)):json({error:'Recherche invalide.'},400);
+  }
+ }
+ if(req.method==='POST'||req.method==='PATCH'){
+  if(req.headers.get('Origin')!==url.origin)return json({error:'Origine refusée.'},403);
+  if(req.method==='POST'&&url.pathname==='/api/library/refresh'){
+   return json({import:await library.refresh(true)},202);
+  }
+  if(req.method==='PATCH'&&url.pathname==='/api/library/tracks'){
+   let data;
+   try{data=JSON.parse(await boundedText(req,2048));}
+   catch{return json({error:'Demande invalide.'},400);}
+   if(typeof data?.id!=='string'||data.id.length>360||typeof data.excluded!=='boolean'){
+    return json({error:'Titre invalide.'},400);
+   }
+   return await library.setExcluded(data.id,data.excluded)
+    ?json({ok:true}):json({error:'Titre introuvable.'},404);
+  }
+ }
+ return json({error:'Route de bibliothèque inconnue.'},404);
+}
 export default {
  async fetch(req,env){
   try{
    const url=new URL(req.url);
+   if(url.pathname==='/api/library'||url.pathname.startsWith('/api/library/'))return await libraryRoute(req,env,url);
    if(url.pathname==='/api/evening')return await eveningRoute(req,env,url);
    if(req.method==='GET'&&url.pathname.startsWith('/api/music/'))return musicRoute(req);
-   if(url.pathname==='/api/health')return json({ok:true,version:'0.6.0'});
+   if(url.pathname==='/api/health')return json({ok:true,version:'0.7.0'});
    if(req.method==='POST'&&url.pathname==='/api/rooms'){
     if(req.headers.get('Origin')!==url.origin)return json({error:'Origine refusée'},403);
     if(Number(req.headers.get('Content-Length'))>150000)return json({error:'Partie trop volumineuse'},413);
     const text=await boundedText(req,150000);if(text.length>150000)return json({error:'Partie trop volumineuse'},413);
     const data=JSON.parse(text);
     if(!validCode(data?.room)||!hostToken(data.token))return json({error:'Accès animateur refusé.'},403);
+    if(data.game==='tyrolien'){
+     const status=await env.ROOMS.getByName(data.room).prepareTyrolien(await digest(data.token));
+     return status===200?json({code:data.room,token:data.token}):json({error:'Ouvrez une soirée active et terminez le jeu en cours.'},status);
+    }
     if(!Array.isArray(data.questions)||data.questions.length<1||data.questions.length>100)return json({error:'Choisissez entre 1 et 100 questions.'},400);
     if(data.questions.some(q=>q?.universe!=='music'&&!(q?.universe==='film'&&q.target==='soundtrack')))return json({error:'Choisissez un jeu musical.'},400);
     for(const q of data.questions){if(typeof q.answer!=='string'||!q.answer.trim()||q.answer.length>180||typeof q.prompt!=='string'||q.prompt.length>300||!Array.isArray(q.options)||q.options.length>4||q.options.some(o=>typeof o!=='string'||o.length>180)||!q.options.includes(q.answer)||!Number.isFinite(q.duration)||q.duration<5||q.duration>90||!Number.isFinite(q.points)||q.points<1||q.points>1000)return json({error:'Question invalide : vérifiez les réponses, les points et la durée.'},400);}
@@ -162,10 +199,22 @@ export class PartyRoom extends DurableObject {
   return 200;
  }
  async schedule(room){
-  const at=room.phase==='playing'?room.endAt:room.nextAt;
+  const at=room.tyrolien?room.tyrolien.nextAt:room.phase==='playing'?room.endAt:room.nextAt;
   const alarm=Math.min(at||Infinity,room.expires||Infinity);
   if(Number.isFinite(alarm))await this.ctx.storage.setAlarm(alarm);
   else await this.ctx.storage.deleteAlarm();
+ }
+ async prepareTyrolien(hostHash){
+  const current=await this.ctx.storage.get('room');
+  if(!current||current.expires<=Date.now())return 404;
+  if(current.hostHash!==hostHash)return 403;
+  if(current.tyrolien&&current.phase!=='finished')return 200;
+  if(!['lobby','finished'].includes(current.phase))return 409;
+  const next={...current,questions:[],phase:'lobby',tyrolien:createTyrolien(),revision:(current.revision||0)+1};
+  await this.ctx.storage.put('room',next);
+  await this.schedule(next);
+  this.broadcast(next);
+  return 200;
  }
  async prepare(data,hostHash){
   const current=await this.ctx.storage.get('room');
@@ -184,19 +233,30 @@ export class PartyRoom extends DurableObject {
  }
  async fetch(){const room=await this.ctx.storage.get('room');if(!room||room.expires<Date.now())return json({error:'Cette partie est introuvable ou a expiré.'},404);if(this.ctx.getWebSockets().length>=100)return json({error:'Salon complet'},429);const [client,server]=Object.values(new WebSocketPair());this.ctx.acceptWebSocket(server);server.serializeAttachment({role:'guest',last:0,count:0});return new Response(null,{status:101,webSocket:client});}
  send(ws,data){try{ws.send(JSON.stringify(data));}catch{}}
- broadcast(s){for(const ws of this.ctx.getWebSockets()){const a=ws.deserializeAttachment();if(a?.role==='host')this.send(ws,{type:'state',state:{...s,hostHash:undefined}});else if(a?.role==='player'||a?.role==='tv')this.send(ws,{type:'state',state:publicGame(s,a?.role==='player'?a.team:undefined)});}}
+ sendState(ws,s,a){
+  const state=s.tyrolien?tyrolienView(s,a.role,a.team):a.role==='host'
+   ?{...s,hostHash:undefined}:publicGame(s,a.role==='player'?a.team:undefined);
+  this.send(ws,{type:'state',state});
+ }
+ broadcast(s){for(const ws of this.ctx.getWebSockets()){const a=ws.deserializeAttachment();if(['host','player','tv'].includes(a?.role))this.sendState(ws,s,a);}}
  async webSocketMessage(ws,msg){
   try{
    if(typeof msg!=='string'||msg.length>20000)throw Error('Message invalide');
    const a=ws.deserializeAttachment()||{role:'guest',last:0,count:0};const now=Date.now();a.count=now-a.last<1000?a.count+1:1;a.last=now;ws.serializeAttachment(a);if(a.count>12)throw Error('Trop de demandes');
    const m=JSON.parse(msg);const hash=m.type==='host'&&hostToken(m.token)?await digest(m.token):null;let s=await this.ctx.storage.get('room');if(!s||s.expires<now)throw Error('Partie expirée');
-   if(m.type==='host'){if(hash!==s.hostHash)throw Error('Accès animateur refusé');a.role='host';ws.serializeAttachment(a);this.send(ws,{type:'state',state:{...s,hostHash:undefined}});return;}
-   if(m.type==='tv'){a.role='tv';ws.serializeAttachment(a);this.send(ws,{type:'state',state:publicGame(s,a?.role==='player'?a.team:undefined)});return;}
+   if(m.type==='host'){if(hash!==s.hostHash)throw Error('Accès animateur refusé');a.role='host';ws.serializeAttachment(a);this.sendState(ws,s,a);return;}
+   if(m.type==='tv'){a.role='tv';ws.serializeAttachment(a);this.sendState(ws,s,a);return;}
    if(m.type==='join'){
-    if(a.role==='player'){this.send(ws,{type:'state',state:publicGame(s,a?.role==='player'?a.team:undefined)});return;}
+    if(a.role==='player'){this.sendState(ws,s,a);return;}
     let t=typeof m.token==='string'?s.teams.find(t=>t.token===m.token):null;
     if(!t){if(s.phase!=='lobby')throw Error('La partie a commencé. Rejoignez la prochaine !');if(s.teams.length>=50)throw Error('50 équipes maximum');const name=String(m.name||'').trim().slice(0,24);if(!name)throw Error('Entrez un nom d’équipe');if(s.teams.some(t=>t.name.toLowerCase()===name.toLowerCase()))throw Error('Ce nom est déjà utilisé');t={id:crypto.randomUUID(),name,score:0,key:'',token:crypto.randomUUID()};s.teams.push(t);await this.ctx.storage.put('room',s);}
     a.role='player';a.team=t.id;ws.serializeAttachment(a);this.send(ws,{type:'session',id:t.id,token:t.token});this.broadcast(s);return;
+   }
+   if(s.tyrolien){
+    if(m.type==='ty-tick')throw Error('Action non autorisée');
+    s=await this.updateTyrolien(m,a,now);
+    this.broadcast(s);
+    return;
    }
    if(m.type==='buzz'&&a.role==='player'&&s.input==='buzzer'){if(m.questionId!==s.questions[s.index]?.id)throw Error('Cette question est terminée');s=applyAction(s,{type:'buzz',team:a.team},now);}
    else if(['chain-bank','chain-vote'].includes(m.type)&&a.role==='player'&&s.settings?.chain){
@@ -215,6 +275,19 @@ export class PartyRoom extends DurableObject {
    this.broadcast(s);
   }catch(e){this.send(ws,{type:'error',message:e.message});}
  }
- async alarm(){let s=await this.ctx.storage.get('room');if(!s)return;if(s.expires<=Date.now()){for(const ws of this.ctx.getWebSockets())ws.close(4001,'Partie expirée');await this.ctx.storage.deleteAll();return;}if(s.phase==='playing')s=applyAction(s,{type:'timeout'});else if(s.phase==='reveal'&&s.nextAt&&s.nextAt<=Date.now())s=applyAction(s,{type:'next'});await this.ctx.storage.put('room',s);this.broadcast(s);await this.schedule(s);}
+ async updateTyrolien(action,identity,now){
+  return this.ctx.storage.transaction(async tx=>{
+   const latest=await tx.get('room');
+   if(!latest?.tyrolien)throw Error('Le Tyrolien est terminé.');
+   applyTyrolien(latest.tyrolien,action,identity,latest.teams,now);
+   latest.phase=latest.tyrolien.phase;
+   await tx.put('room',latest);
+   const alarm=Math.min(latest.tyrolien.nextAt||Infinity,latest.expires||Infinity);
+   if(Number.isFinite(alarm))await tx.setAlarm(alarm);
+   else await tx.deleteAlarm();
+   return latest;
+  });
+ }
+ async alarm(){let s=await this.ctx.storage.get('room');if(!s)return;if(s.expires<=Date.now()){for(const ws of this.ctx.getWebSockets())ws.close(4001,'Partie expirée');await this.ctx.storage.deleteAll();return;}if(s.tyrolien){this.broadcast(await this.updateTyrolien({type:'ty-tick'},{role:'server'},Date.now()));return;}if(s.phase==='playing')s=applyAction(s,{type:'timeout'});else if(s.phase==='reveal'&&s.nextAt&&s.nextAt<=Date.now())s=applyAction(s,{type:'next'});await this.ctx.storage.put('room',s);this.broadcast(s);await this.schedule(s);}
  webSocketError(ws){ws.close(1011,'Connexion interrompue');}
 }

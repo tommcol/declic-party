@@ -15,7 +15,7 @@ test('Sélection : mélange de thèmes, univers, niveau, limite et absence de mu
 test('Questionnaire sans audio : QCM, réponse écrite et buzzer attribuent les points',()=>{const q=quizQuestions({universe:'quiz',quizThemes:['animaux'],count:1})[0];for(const input of ['qcm','text','buzzer']){let s=applyAction(createGame([q],[{id:'a',name:'A'}],'phone',input,{speed:false,streak:false}),{type:'play'},1000);const hidden=publicGame(s,'a').question;assert.equal(hidden.universe,'quiz');assert.equal(hidden.answer,undefined);assert.equal(hidden.explanation,undefined);assert.equal(hidden.credit,undefined);if(input==='buzzer'){s=applyAction(s,{type:'buzz',team:'a'},5000);s=applyAction(s,{type:'judge',correct:true},6000);}else{s=applyAction(s,{type:'answer',team:'a',answer:q.answer},5000);s=applyAction(s,{type:'reveal'},6000);}assert.equal(s.teams[0].score,100);assert.equal(publicGame(s,'a').question.explanation,q.explanation);assert.equal(publicGame(s,'a').question.credit.author,q.credit.author);assert.deepEqual(s.history[0].question.credit,q.credit);}});
 test('API salons : accepte les jeux musicaux et refuse les anciens quiz généralistes',async()=>{
  const source=await readFile(new URL('../src/worker.js',import.meta.url),'utf8');
- const code=source.replace(/^import .*;$/gm,'').replace('export default {','globalThis.worker = {').replace('export class PartyRoom','class PartyRoom');
+ const code=source.replace(/^import .*;$/gm,'').replace('export {MusicLibrary};','').replace('export default {','globalThis.worker = {').replace('export class PartyRoom','class PartyRoom');
  const context=vm.createContext({Response,URL,crypto:webcrypto,TextEncoder,TextDecoder,Uint8Array,console,DurableObject:class{},createGame,normalizeQuizCredit,ASSETS:{},musicRoute:()=>{}});
  vm.runInContext(code,context);
  let captured;
@@ -54,7 +54,7 @@ test('Tout mélanger : variété entre catégories, dix packs chargés pour dix 
 
 test('Une soirée conserve ses joueurs et leurs accès au changement de jeu',async()=>{
  const source=await readFile(new URL('../src/worker.js',import.meta.url),'utf8');
- const code=source.replace(/^import .*;$/gm,'').replace('export default {','globalThis.worker = {').replace('export class PartyRoom','globalThis.PartyRoom = class PartyRoom');
+ const code=source.replace(/^import .*;$/gm,'').replace('export {MusicLibrary};','').replace('export default {','globalThis.worker = {').replace('export class PartyRoom','globalThis.PartyRoom = class PartyRoom');
  const context=vm.createContext({Response,URL,console,DurableObject:class{constructor(ctx){this.ctx=ctx;}},WebSocketRequestResponsePair:class{},createGame});
  vm.runInContext(code,context);
  const questions=[{id:'next-song',kind:'audio'}];
