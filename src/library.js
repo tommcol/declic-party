@@ -15,7 +15,8 @@ const groups = [
  ]],
  ['genres','Genres musicaux','🎧',[
   ['disco','Disco & Funk','🪩'],['rapus','Rap US & R&B','🎤'],['rapfr','Rap français','🎙️'],
-  ['rock','Rock & Hard Rock','🎸'],['pop','Pop internationale','🌍'],['dance','Dance & Électro','⚡'],['var','Variété française','🎶']
+  ['rock','Rock & Hard Rock','🎸'],['pop','Pop internationale','🌍'],['dance','Dance & Électro','⚡'],['var','Variété française','🎶'],
+  ['reggae','Reggae','🎵'],['world','Musiques du monde','🌎'],['instrumental','Musiques instrumentales','🎼']
  ]],
  ['screen','Cinéma & Télévision','🎬',[
   ['cartoons','Dessins animés','✏️'],['films','Films','🎬'],['series','Séries TV','📺'],['tv','Génériques TV','🎵'],
