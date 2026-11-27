@@ -815,7 +815,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 110,
+          "year": 1984,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "Stevie Wonder",
@@ -1211,7 +1219,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 217,
+          "year": 1978,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "Bee Gees",
@@ -1229,7 +1245,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 154,
+          "year": 1978,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "Bee Gees",
@@ -1364,7 +1388,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 345,
+          "year": 1979,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "ABBA",
@@ -1382,7 +1414,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 356,
+          "year": 1976,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "ABBA",
@@ -1778,7 +1818,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 179,
+          "year": 1979,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "Pink Floyd",
@@ -2111,7 +2159,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 76,
+          "year": 1976,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "Boney M.",
@@ -2120,7 +2176,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 73,
+          "year": 1978,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "Boney M.",
@@ -2174,7 +2238,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 167,
+          "year": 1979,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "Village People",
@@ -2201,7 +2273,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 304,
+          "year": 1979,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "Gloria Gaynor",
@@ -2282,7 +2362,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 359,
+          "year": 1978,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "Chic",
@@ -2642,7 +2730,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 66,
+          "year": 1977,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "Bonnie Tyler",
@@ -2984,7 +3080,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 303,
+          "year": 1978,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "Blondie",
@@ -3029,7 +3133,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 42,
+          "year": 1979,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "The Knack",
@@ -3173,7 +3285,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 302,
+          "year": 1986,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "Status Quo",
@@ -3200,7 +3320,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 63,
+          "year": 1984,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "Scorpions",
@@ -3371,7 +3499,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 200,
+          "year": 1984,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "Jimmy Cliff",
@@ -3713,7 +3849,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 211,
+          "year": 1970,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "Middle of the Road",
@@ -3749,7 +3893,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 220,
+          "year": 1974,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "Sweet",
@@ -4208,7 +4360,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 363,
+          "year": 1973,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "Aphrodite's Child",
@@ -4262,7 +4422,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 54,
+          "year": 1977,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "Umberto Tozzi",
@@ -4406,7 +4574,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 56,
+          "year": 1983,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "Michael Jackson",
@@ -4424,7 +4600,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 35,
+          "year": 1983,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "Michael Jackson",
@@ -4613,7 +4797,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 189,
+          "year": 1987,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "Madonna",
@@ -5117,7 +5309,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 324,
+          "year": 1985,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "a-ha",
@@ -5558,7 +5758,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 77,
+          "year": 1982,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "Pet Shop Boys",
@@ -5801,7 +6009,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 307,
+          "year": 1984,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "Frankie Goes to Hollywood",
@@ -5846,7 +6062,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 71,
+          "year": 1982,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "Kim Wilde",
@@ -6143,7 +6367,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 114,
+          "year": 2001,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "Kylie Minogue",
@@ -6458,7 +6690,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 169,
+          "year": 1985,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "Righeira",
@@ -6485,7 +6725,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 365,
+          "year": 1983,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "P. Lion",
@@ -6512,7 +6760,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 344,
+          "year": 1983,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "Scotch",
@@ -6530,7 +6786,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 74,
+          "year": 1982,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "Imagination",
@@ -6539,7 +6803,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 195,
+          "year": 1982,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "Imagination",
@@ -6674,7 +6946,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 301,
+          "year": 1980,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "Survivor",
@@ -6719,7 +6999,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 57,
+          "year": 1984,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "Huey Lewis and the News",
@@ -6773,7 +7061,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 120,
+          "year": 1986,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "Europe",
@@ -7178,7 +7474,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 322,
+          "year": 1988,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "Gazebo",
@@ -7358,7 +7662,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 50,
+          "year": 1981,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "Pat Benatar",
@@ -7700,7 +8012,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 265,
+          "year": 1982,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "Eddy Grant",
@@ -7781,7 +8101,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 119,
+          "year": 1983,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "Toto Cutugno",
@@ -7871,7 +8199,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 83,
+          "year": 1981,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "Ricchi e Poveri",
@@ -7943,7 +8279,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 109,
+          "year": 1987,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "Gloria Estefan",
@@ -8015,7 +8359,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 116,
+          "year": 1996,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "Mory Kanté",
@@ -8213,7 +8565,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 52,
+          "year": 1985,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "Spice Girls",
@@ -8222,7 +8582,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 214,
+          "year": 1996,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "Spice Girls",
@@ -8744,7 +9112,22 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 100,
+          "year": 2002,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        },
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_internationale",
+          "year": 2003,
+          "status": "winner",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-internationale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Shakira",
@@ -8762,7 +9145,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_internationale",
+          "year": 2011,
+          "status": "winner",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-internationale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Shakira",
@@ -8771,7 +9163,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_internationale",
+          "year": 2006,
+          "status": "winner",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-internationale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Shakira",
@@ -8951,7 +9352,22 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 165,
+          "year": 2001,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        },
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_internationale",
+          "year": 2002,
+          "status": "winner",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-internationale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Geri Halliwell",
@@ -10193,7 +10609,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 318,
+          "year": 1996,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "Robert Miles",
@@ -10679,7 +11103,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 88,
+          "year": 1996,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "Gala",
@@ -10697,7 +11129,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 41,
+          "year": 1997,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "Aqua",
@@ -10760,7 +11200,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 86,
+          "year": 1999,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "Eiffel 65",
@@ -10895,7 +11343,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 99,
+          "year": 1996,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "Rednex",
@@ -10940,7 +11396,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_internationale",
+          "year": 2000,
+          "status": "winner",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-internationale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Lou Bega",
@@ -11165,7 +11630,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 183,
+          "year": 1997,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "Will Smith",
@@ -11282,7 +11755,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 196,
+          "year": 2001,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "Shaggy",
@@ -11732,7 +12213,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 98,
+          "year": 1997,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "Andrea Bocelli",
@@ -11948,7 +12437,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_internationale",
+          "year": 2008,
+          "status": "winner",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-internationale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Rihanna",
@@ -11984,7 +12482,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_internationale",
+          "year": 2009,
+          "status": "winner",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-internationale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Rihanna",
@@ -12056,7 +12563,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_internationale",
+          "year": 2007,
+          "status": "winner",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-internationale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Rihanna",
@@ -12227,7 +12743,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_internationale",
+          "year": 2013,
+          "status": "winner",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-internationale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Katy Perry",
@@ -12488,7 +13013,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_internationale",
+          "year": 2012,
+          "status": "winner",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-internationale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Adele",
@@ -12776,7 +13310,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_internationale",
+          "year": 2010,
+          "status": "winner",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-internationale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "The Black Eyed Peas",
@@ -13037,7 +13580,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_internationale",
+          "year": 2001,
+          "status": "winner",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-internationale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Anastacia",
@@ -13316,7 +13868,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_internationale",
+          "year": 2023,
+          "status": "winner",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-internationale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Miley Cyrus",
@@ -13496,7 +14057,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_internationale",
+          "year": 2016,
+          "status": "winner",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-internationale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Justin Bieber",
@@ -14225,7 +14795,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_internationale",
+          "year": 2020,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-internationale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Jason Derulo",
@@ -15098,7 +15677,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_internationale",
+          "year": 2005,
+          "status": "winner",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-internationale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Maroon 5",
@@ -15143,7 +15731,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_internationale",
+          "year": 2018,
+          "status": "winner",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-internationale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Maroon 5",
@@ -15557,7 +16154,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 62,
+          "year": 2004,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "O-Zone",
@@ -15591,7 +16196,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 31,
+          "year": 2005,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
     },
     {
       "artist": "Global Deejays",
@@ -16059,7 +16672,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_internationale",
+          "year": 2021,
+          "status": "winner",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-internationale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Ed Sheeran",
@@ -16238,7 +16860,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_internationale",
+          "year": 2020,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-internationale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "The Weeknd",
@@ -16355,7 +16986,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_internationale",
+          "year": 2020,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-internationale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Dua Lipa",
@@ -16373,7 +17013,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_internationale",
+          "year": 2023,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-internationale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Dua Lipa",
@@ -16526,7 +17175,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_internationale",
+          "year": 2014,
+          "status": "winner",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-internationale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Sia",
@@ -16652,7 +17310,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_internationale",
+          "year": 2022,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-internationale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Imagine Dragons",
@@ -16769,7 +17436,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_internationale",
+          "year": 2022,
+          "status": "winner",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-internationale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Harry Styles",
@@ -16850,7 +17526,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_internationale",
+          "year": 2019,
+          "status": "winner",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-internationale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Camila Cabello",
@@ -16994,7 +17679,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_internationale",
+          "year": 2020,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-internationale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Lewis Capaldi",
@@ -17939,7 +18633,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_internationale",
+          "year": 2015,
+          "status": "winner",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-internationale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Wiz Khalifa",
@@ -18911,7 +19614,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_internationale",
+          "year": 2013,
+          "status": "winner",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-internationale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "PSY",
@@ -18974,7 +19686,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_internationale",
+          "year": 2017,
+          "status": "winner",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-internationale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Luis Fonsi",
@@ -19712,7 +20433,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_internationale",
+          "year": 2023,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-internationale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Shaboozey",
@@ -19908,6 +20638,5034 @@
       "genre": null,
       "chartVerified": false,
       "audioVerified": false
+    },
+    {
+      "artist": "Barbra Streisand",
+      "title": "Woman in Love",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 30,
+          "year": 1980,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
+    },
+    {
+      "artist": "Richard Sanderson",
+      "title": "Reality",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 37,
+          "year": 1980,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
+    },
+    {
+      "artist": "The Shorts",
+      "title": "Comment ça va",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 43,
+          "year": 1983,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
+    },
+    {
+      "artist": "Jeanette",
+      "title": "Porque te vas",
+      "artistGeneration": 1970,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 65,
+          "year": 1976,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
+    },
+    {
+      "artist": "Nikka Costa",
+      "title": "On My Own (Out Here)",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 75,
+          "year": 1981,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
+    },
+    {
+      "artist": "Jermaine Jackson & Pia Zadora",
+      "title": "When the Rain Begins to Fall",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 85,
+          "year": 1984,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
+    },
+    {
+      "artist": "Ennio Morricone",
+      "title": "Man with a Harmonica",
+      "artistGeneration": 1960,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 89,
+          "year": 1969,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
+    },
+    {
+      "artist": "DJ BoBo",
+      "title": "Chihuahua",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 91,
+          "year": 2003,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
+    },
+    {
+      "artist": "Break Machine",
+      "title": "Street Dance",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 94,
+          "year": 1984,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
+    },
+    {
+      "artist": "Adriano Celentano",
+      "title": "Don't Play That Song",
+      "artistGeneration": 1970,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 97,
+          "year": 1977,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
+    },
+    {
+      "artist": "The Art Company",
+      "title": "Susanna",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 108,
+          "year": 1984,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
+    },
+    {
+      "artist": "Ennio Morricone",
+      "title": "Chi Mai",
+      "artistGeneration": 1960,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 115,
+          "year": 1981,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
+    },
+    {
+      "artist": "Kajagoogoo",
+      "title": "Too Shy",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 121,
+          "year": 1982,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
+    },
+    {
+      "artist": "Al Corley",
+      "title": "Square Rooms",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 155,
+          "year": 1984,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
+    },
+    {
+      "artist": "Paul McCartney & Michael Jackson",
+      "title": "Say Say Say",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 159,
+          "year": 1983,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
+    },
+    {
+      "artist": "Bee Gees",
+      "title": "Too Much Heaven",
+      "artistGeneration": 1960,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 160,
+          "year": 1978,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
+    },
+    {
+      "artist": "Hermes House Band",
+      "title": "I Will Survive",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 164,
+          "year": 1997,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
+    },
+    {
+      "artist": "Joan Baez",
+      "title": "Here's to You",
+      "artistGeneration": 1970,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 181,
+          "year": 1971,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
+    },
+    {
+      "artist": "Cook da Books",
+      "title": "Your Eyes",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 184,
+          "year": 1982,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
+    },
+    {
+      "artist": "Demis Roussos",
+      "title": "My Reason",
+      "artistGeneration": 1970,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 185,
+          "year": 1972,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
+    },
+    {
+      "artist": "Cher",
+      "title": "Believe",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 192,
+          "year": 1998,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
+    },
+    {
+      "artist": "Michael Zager Band",
+      "title": "Let's All Chant",
+      "artistGeneration": 1970,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 193,
+          "year": 1977,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
+    },
+    {
+      "artist": "Carl Douglas",
+      "title": "Kung Fu Fighting",
+      "artistGeneration": 1970,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 198,
+          "year": 1974,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
+    },
+    {
+      "artist": "Chocolat's",
+      "title": "Brasilia Carnaval",
+      "artistGeneration": 1970,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 204,
+          "year": 1975,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
+    },
+    {
+      "artist": "Mikis Theodorakis",
+      "title": "Zorba's Dance",
+      "artistGeneration": 1960,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 207,
+          "year": 1965,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
+    },
+    {
+      "artist": "Captain Sensible",
+      "title": "Wot",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 212,
+          "year": 1982,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
+    },
+    {
+      "artist": "Madness",
+      "title": "One Step Beyond",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 262,
+          "year": 1980,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
+    },
+    {
+      "artist": "Boys Town Gang",
+      "title": "Can't Take My Eyes Off You",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 295,
+          "year": 1982,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
+    },
+    {
+      "artist": "Boney M.",
+      "title": "Belfast",
+      "artistGeneration": 1970,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 297,
+          "year": 1977,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
+    },
+    {
+      "artist": "Billy Swan",
+      "title": "I Can Help",
+      "artistGeneration": 1970,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 300,
+          "year": 1975,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
+    },
+    {
+      "artist": "Jive Bunny & the Mastermixers",
+      "title": "Swing the Mood",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 342,
+          "year": 1989,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
+    },
+    {
+      "artist": "Ph.D.",
+      "title": "I Won't Let You Down",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 352,
+          "year": 1982,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
+    },
+    {
+      "artist": "Bananarama",
+      "title": "Cruel Summer",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "rank": 361,
+          "year": 1983,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
+    },
+    {
+      "artist": "Blue & Elton John",
+      "title": "Sorry Seems to Be the Hardest Word",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_internationale",
+          "year": 2004,
+          "status": "winner",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-internationale-de-l-annee"
+        }
+      ]
+    },
+    {
+      "artist": "Master KG",
+      "title": "Jerusalema",
+      "artistGeneration": 2020,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_internationale",
+          "year": 2020,
+          "status": "winner",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-internationale-de-l-annee"
+        }
+      ]
+    },
+    {
+      "artist": "Ava Max",
+      "title": "Kings & Queens",
+      "artistGeneration": 2020,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_internationale",
+          "year": 2020,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-internationale-de-l-annee"
+        }
+      ]
+    },
+    {
+      "artist": "The Black Eyed Peas",
+      "title": "RITMO (Bad Boys for Life)",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_internationale",
+          "year": 2020,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-internationale-de-l-annee"
+        }
+      ]
+    },
+    {
+      "artist": "Karol G & Nicki Minaj",
+      "title": "Tusa",
+      "artistGeneration": 2020,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_internationale",
+          "year": 2020,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-internationale-de-l-annee"
+        }
+      ]
+    },
+    {
+      "artist": "Anitta",
+      "title": "Envolver",
+      "artistGeneration": 2020,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_internationale",
+          "year": 2022,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-internationale-de-l-annee"
+        }
+      ]
+    },
+    {
+      "artist": "The Black Eyed Peas",
+      "title": "Don't You Worry",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_internationale",
+          "year": 2022,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-internationale-de-l-annee"
+        }
+      ]
+    },
+    {
+      "artist": "Camila Cabello",
+      "title": "Bam Bam",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_internationale",
+          "year": 2022,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-internationale-de-l-annee"
+        }
+      ]
+    },
+    {
+      "artist": "GAYLE",
+      "title": "abcdefu",
+      "artistGeneration": 2020,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_internationale",
+          "year": 2022,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-internationale-de-l-annee"
+        }
+      ]
+    },
+    {
+      "artist": "Ayra Starr",
+      "title": "Rush",
+      "artistGeneration": 2020,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_internationale",
+          "year": 2023,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-internationale-de-l-annee"
+        }
+      ]
+    },
+    {
+      "artist": "Calvin Harris & Ellie Goulding",
+      "title": "Miracle",
+      "artistGeneration": 2020,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_internationale",
+          "year": 2023,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-internationale-de-l-annee"
+        }
+      ]
+    },
+    {
+      "artist": "Ed Sheeran",
+      "title": "Eyes Closed",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_internationale",
+          "year": 2023,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-internationale-de-l-annee"
+        }
+      ]
+    },
+    {
+      "artist": "Imagine Dragons",
+      "title": "Waves",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_internationale",
+          "year": 2023,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-internationale-de-l-annee"
+        }
+      ]
+    },
+    {
+      "artist": "Loreen",
+      "title": "Tattoo",
+      "artistGeneration": 2020,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_internationale",
+          "year": 2023,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-internationale-de-l-annee"
+        }
+      ]
+    },
+    {
+      "artist": "Cher",
+      "title": "If I Could Turn Back Time",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Cher",
+      "title": "The Shoop Shoop Song",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Cher",
+      "title": "Strong Enough",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Barbra Streisand",
+      "title": "Memory",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Barbra Streisand",
+      "title": "The Way We Were",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Barbra Streisand",
+      "title": "Guilty",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Madness",
+      "title": "Our House",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Madness",
+      "title": "Baggy Trousers",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Madness",
+      "title": "It Must Be Love",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Bachman-Turner Overdrive",
+      "title": "You Ain't Seen Nothing Yet",
+      "artistGeneration": 1970,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "The Stranglers",
+      "title": "Golden Brown",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "The Stranglers",
+      "title": "Always the Sun",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "The Waterboys",
+      "title": "The Whole of the Moon",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "The Hooters",
+      "title": "All You Zombies",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "The Christians",
+      "title": "Words",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "The Housemartins",
+      "title": "Caravan of Love",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "T'Pau",
+      "title": "China in Your Hand",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Taco",
+      "title": "Puttin' on the Ritz",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Fiction Factory",
+      "title": "Feels Like Heaven",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "The Flying Pickets",
+      "title": "Only You",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Frank Stallone",
+      "title": "Far from Over",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "John Parr",
+      "title": "St. Elmo's Fire (Man in Motion)",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "John Farnham",
+      "title": "You're the Voice",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Daryl Hall & John Oates",
+      "title": "Maneater",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Daryl Hall & John Oates",
+      "title": "Out of Touch",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Daryl Hall & John Oates",
+      "title": "I Can't Go for That (No Can Do)",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Diana Ross",
+      "title": "Upside Down",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Diana Ross",
+      "title": "I'm Coming Out",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Diana Ross",
+      "title": "Chain Reaction",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Diana Ross",
+      "title": "When You Tell Me That You Love Me",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Diana King",
+      "title": "Shy Guy",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Jermaine Jackson",
+      "title": "Do What You Do",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Santa Esmeralda",
+      "title": "You're My Everything",
+      "artistGeneration": 1970,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Silver Convention",
+      "title": "Fly Robin Fly",
+      "artistGeneration": 1970,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Silver Convention",
+      "title": "Get Up and Boogie",
+      "artistGeneration": 1970,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Bohannon",
+      "title": "Let's Start the Dance",
+      "artistGeneration": 1970,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Van McCoy",
+      "title": "The Hustle",
+      "artistGeneration": 1970,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Candi Staton",
+      "title": "Young Hearts Run Free",
+      "artistGeneration": 1970,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Andrea True Connection",
+      "title": "More More More",
+      "artistGeneration": 1970,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Tavares",
+      "title": "Heaven Must Be Missing an Angel",
+      "artistGeneration": 1970,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Tavares",
+      "title": "More Than a Woman",
+      "artistGeneration": 1970,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "The Emotions",
+      "title": "Best of My Love",
+      "artistGeneration": 1970,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Boney M.",
+      "title": "Hooray! Hooray! It's a Holi-Holiday",
+      "artistGeneration": 1970,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Little Eva",
+      "title": "The Loco-Motion",
+      "artistGeneration": 1960,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Chubby Checker",
+      "title": "Let's Twist Again",
+      "artistGeneration": 1960,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Chubby Checker",
+      "title": "The Twist",
+      "artistGeneration": 1960,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "The Tokens",
+      "title": "The Lion Sleeps Tonight",
+      "artistGeneration": 1960,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "The Marcels",
+      "title": "Blue Moon",
+      "artistGeneration": 1960,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Del Shannon",
+      "title": "Runaway",
+      "artistGeneration": 1960,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "The Ventures",
+      "title": "Walk Don't Run",
+      "artistGeneration": 1960,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "The Crystals",
+      "title": "Da Doo Ron Ron",
+      "artistGeneration": 1960,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "The Troggs",
+      "title": "Wild Thing",
+      "artistGeneration": 1960,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "The Moody Blues",
+      "title": "Nights in White Satin",
+      "artistGeneration": 1960,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Herman's Hermits",
+      "title": "No Milk Today",
+      "artistGeneration": 1960,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "The Archies",
+      "title": "Sugar Sugar",
+      "artistGeneration": 1960,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "The Ronettes",
+      "title": "Be My Baby",
+      "artistGeneration": 1960,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "The Turtles",
+      "title": "Happy Together",
+      "artistGeneration": 1960,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Meja",
+      "title": "All 'Bout the Money",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Tina Arena",
+      "title": "Chains",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Emilia",
+      "title": "Big Big World",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Hanson",
+      "title": "Where's the Love",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Jennifer Paige",
+      "title": "Crush",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Sophie B. Hawkins",
+      "title": "Damn I Wish I Was Your Lover",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Sophie B. Hawkins",
+      "title": "As I Lay Me Down",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Donna Lewis",
+      "title": "I Love You Always Forever",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Joan Osborne",
+      "title": "One of Us",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "The Connells",
+      "title": "74-75",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Chesney Hawkes",
+      "title": "The One and Only",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "The Rembrandts",
+      "title": "Just the Way It Is Baby",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Wet Wet Wet",
+      "title": "Love Is All Around",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "East 17",
+      "title": "Stay Another Day",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "East 17",
+      "title": "It's Alright",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Boyzone",
+      "title": "Picture of You",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Peter Andre",
+      "title": "Mysterious Girl",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Worlds Apart",
+      "title": "Everlasting Love",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Five",
+      "title": "Everybody Get Up",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Five",
+      "title": "Keep on Movin'",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "The Kelly Family",
+      "title": "An Angel",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "The Kelly Family",
+      "title": "I Can't Help Myself",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "The Rapsody",
+      "title": "Prince Igor",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Skee-Lo",
+      "title": "I Wish",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "P.M. Dawn",
+      "title": "Set Adrift on Memory Bliss",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "House of Pain",
+      "title": "Jump Around",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Cypress Hill",
+      "title": "Insane in the Brain",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "The Bloodhound Gang",
+      "title": "The Bad Touch",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Vengaboys",
+      "title": "Shalala Lala",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "2 Brothers on the 4th Floor",
+      "title": "Dreams (Will Come Alive)",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Twenty 4 Seven",
+      "title": "Slave to the Music",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Maxx",
+      "title": "Get-A-Way",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Cappella",
+      "title": "U Got 2 Let the Music",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Alexia",
+      "title": "Uh La La La",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Alexia",
+      "title": "The Summer Is Crazy",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Ann Lee",
+      "title": "2 Times",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Gina G",
+      "title": "Ooh Aah... Just a Little Bit",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "DJ BoBo",
+      "title": "Everybody",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "DJ BoBo",
+      "title": "Somebody Dance with Me",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "DJ BoBo",
+      "title": "Freedom",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Sash!",
+      "title": "Adelante",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Gigi D'Agostino",
+      "title": "La Passion",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Whigfield",
+      "title": "Sexy Eyes",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Mr. President",
+      "title": "I Give You My Heart",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Masterboy",
+      "title": "Feel the Heat of the Night",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Captain Jack",
+      "title": "Captain Jack",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Mo-Do",
+      "title": "Eins Zwei Polizei",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "The Tamperer featuring Maya",
+      "title": "Feel It",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "B*Witched",
+      "title": "C'est la Vie",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Blue",
+      "title": "All Rise",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Blue",
+      "title": "One Love",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Blue",
+      "title": "Too Close",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Craig David",
+      "title": "7 Days",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Craig David",
+      "title": "Fill Me In",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Craig David",
+      "title": "Walking Away",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Craig David",
+      "title": "Rise & Fall",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Jamelia",
+      "title": "Superstar",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Jamelia",
+      "title": "Thank You",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Mis-Teeq",
+      "title": "Scandalous",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Nelly Furtado",
+      "title": "Turn Off the Light",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Liberty X",
+      "title": "Just a Little",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "S Club 7",
+      "title": "Bring It All Back",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "S Club 7",
+      "title": "Don't Stop Movin'",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "S Club 7",
+      "title": "Never Had a Dream Come True",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Samantha Mumba",
+      "title": "Gotta Tell You",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Stacie Orrico",
+      "title": "(There's Gotta Be) More to Life",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Stacie Orrico",
+      "title": "Stuck",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Natasha Bedingfield",
+      "title": "Unwritten",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Natasha Bedingfield",
+      "title": "These Words",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Natasha Bedingfield",
+      "title": "Pocketful of Sunshine",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Daniel Bedingfield",
+      "title": "If You're Not the One",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Daniel Bedingfield",
+      "title": "Gotta Get Thru This",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Mandy Moore",
+      "title": "Candy",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Jessica Simpson",
+      "title": "I Wanna Love You Forever",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Ashlee Simpson",
+      "title": "Pieces of Me",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Hilary Duff",
+      "title": "Come Clean",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "JoJo",
+      "title": "Leave (Get Out)",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "JoJo",
+      "title": "Too Little Too Late",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Mario",
+      "title": "Let Me Love You",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Omarion",
+      "title": "Ice Box",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Cassie",
+      "title": "Me & U",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Keri Hilson",
+      "title": "Knock You Down",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Sean Kingston",
+      "title": "Beautiful Girls",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Sean Kingston",
+      "title": "Fire Burning",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Chamillionaire",
+      "title": "Ridin'",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Soulja Boy",
+      "title": "Crank That (Soulja Boy)",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Kevin Rudolf",
+      "title": "Let It Rock",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "T.I.",
+      "title": "Whatever You Like",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "T.I.",
+      "title": "Live Your Life",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Busta Rhymes",
+      "title": "I Know What You Want",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Busta Rhymes",
+      "title": "Touch It",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "N.E.R.D.",
+      "title": "She Wants to Move",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Alien Ant Farm",
+      "title": "Smooth Criminal",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Crazy Town",
+      "title": "Butterfly",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Limp Bizkit",
+      "title": "Behind Blue Eyes",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Limp Bizkit",
+      "title": "Rollin'",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "P.O.D.",
+      "title": "Youth of the Nation",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Papa Roach",
+      "title": "Last Resort",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "System of a Down",
+      "title": "Chop Suey!",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "System of a Down",
+      "title": "Toxicity",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "The All-American Rejects",
+      "title": "Gives You Hell",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "The Strokes",
+      "title": "Last Nite",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "The Hives",
+      "title": "Hate to Say I Told You So",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Kaiser Chiefs",
+      "title": "Ruby",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "The Kooks",
+      "title": "Naive",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "The Kooks",
+      "title": "She Moves in Her Own Way",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "The Temper Trap",
+      "title": "Sweet Disposition",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Lene Marlin",
+      "title": "Sitting Down Here",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Lene Marlin",
+      "title": "Unforgivable Sinner",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Melanie C",
+      "title": "Never Be the Same Again",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Melanie C",
+      "title": "I Turn to You",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Sophie Ellis-Bextor",
+      "title": "Get Over You",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Madison Avenue",
+      "title": "Don't Call Me Baby",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "The Tamperer featuring Maya",
+      "title": "If You Buy This Record",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Gigi D'Agostino",
+      "title": "Super (1 2 3)",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "DJ Tiësto",
+      "title": "Traffic",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "DJ Tiësto",
+      "title": "Adagio for Strings",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "DJ Tiësto",
+      "title": "Love Comes Again",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Armin van Buuren",
+      "title": "This Is What It Feels Like",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Paul van Dyk",
+      "title": "For an Angel",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "ATC",
+      "title": "Around the World (La La La La La)",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Scooter",
+      "title": "The Logical Song",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Kate Ryan",
+      "title": "Voyage voyage",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Milk Inc.",
+      "title": "Walk on Water",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Lasgo",
+      "title": "Something",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Uncle Kracker",
+      "title": "Follow Me",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Bomfunk MC's",
+      "title": "Freestyler",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Jessie J",
+      "title": "Do It Like a Dude",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Jessie J",
+      "title": "Nobody's Perfect",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Carly Rae Jepsen",
+      "title": "Call Me Maybe",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Carly Rae Jepsen",
+      "title": "I Really Like You",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Icona Pop",
+      "title": "I Love It",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Cheryl Cole",
+      "title": "Fight for This Love",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Miley Cyrus",
+      "title": "Malibu",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Lana Del Rey",
+      "title": "Blue Jeans",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Lana Del Rey",
+      "title": "West Coast",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Labrinth",
+      "title": "Beneath Your Beautiful",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Labrinth",
+      "title": "Jealous",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Emeli Sandé",
+      "title": "Next to Me",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Emeli Sandé",
+      "title": "Read All About It (Pt. III)",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Plan B",
+      "title": "She Said",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Taio Cruz",
+      "title": "Higher",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Olly Murs",
+      "title": "Troublemaker",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Olly Murs",
+      "title": "Heart Skips a Beat",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "The Wanted",
+      "title": "Glad You Came",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "The Wanted",
+      "title": "Chasing the Sun",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "5 Seconds of Summer",
+      "title": "She Looks So Perfect",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "5 Seconds of Summer",
+      "title": "Youngblood",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "DNCE",
+      "title": "Cake by the Ocean",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "MAGIC!",
+      "title": "Rude",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Rixton",
+      "title": "Me and My Broken Heart",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "MKTO",
+      "title": "Classic",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Gym Class Heroes",
+      "title": "Stereo Hearts",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Gym Class Heroes",
+      "title": "Cupid's Chokehold",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Travie McCoy",
+      "title": "Billionaire",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "B.o.B",
+      "title": "Airplanes",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "B.o.B",
+      "title": "Nothin' on You",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Far East Movement",
+      "title": "Like a G6",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Dev",
+      "title": "In the Dark",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "DJ Antoine",
+      "title": "Welcome to St. Tropez",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "DJ Antoine",
+      "title": "Ma Chérie",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Timmy Trumpet",
+      "title": "Freaks",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Dimitri Vegas & Like Mike",
+      "title": "The Hum",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Afrojack",
+      "title": "Take Over Control",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Afrojack",
+      "title": "Ten Feet Tall",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Alesso",
+      "title": "Heroes (We Could Be)",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Alesso",
+      "title": "If I Lose Myself",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Sebastian Ingrosso & Tommy Trash",
+      "title": "Reload",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Axwell /\\ Ingrosso",
+      "title": "More Than You Know",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Axwell /\\ Ingrosso",
+      "title": "Sun Is Shining",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "R3HAB",
+      "title": "All Around the World (La La La)",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Steve Aoki",
+      "title": "Boneless",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Showtek",
+      "title": "Booyah",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Bingo Players",
+      "title": "Rattle",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Bingo Players",
+      "title": "Get Up (Rattle)",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Tiësto",
+      "title": "The Business",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Tiësto",
+      "title": "Red Lights",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Tiësto",
+      "title": "Wasted",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Tiësto",
+      "title": "The Motto",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Tiësto",
+      "title": "Lay Low",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Tiësto",
+      "title": "10:35",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Avicii",
+      "title": "I Could Be the One",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Calvin Harris",
+      "title": "Sweet Nothing",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Calvin Harris",
+      "title": "Pray to God",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Mr. Probz",
+      "title": "Waves",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Lykke Li",
+      "title": "I Follow Rivers",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Klangkarussell",
+      "title": "Sonnentanz",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Wankelmut & Emma Louise",
+      "title": "My Head Is a Jungle",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Asaf Avidan",
+      "title": "One Day / Reckoning Song",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "John Newman",
+      "title": "Love Me Again",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "John Newman",
+      "title": "Come and Get It",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Ella Henderson",
+      "title": "Ghost",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Ella Henderson",
+      "title": "Glow",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Years & Years",
+      "title": "King",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Years & Years",
+      "title": "Shine",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "James Bay",
+      "title": "Hold Back the River",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "James Bay",
+      "title": "Let It Go",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "George Michael",
+      "title": "Amazing",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Loreen",
+      "title": "Euphoria",
+      "artistGeneration": 2020,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Elley Duhé",
+      "title": "Middle of the Night",
+      "artistGeneration": 2020,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Jax Jones & Calum Scott",
+      "title": "Whistle",
+      "artistGeneration": 2020,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Calum Scott",
+      "title": "You Are the Reason",
+      "artistGeneration": 2020,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Calum Scott",
+      "title": "Dancing on My Own",
+      "artistGeneration": 2020,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Rosa Linn",
+      "title": "Snap",
+      "artistGeneration": 2020,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Kygo & Ava Max",
+      "title": "Whatever",
+      "artistGeneration": 2020,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Alok & Bruno Martini",
+      "title": "Hear Me Now",
+      "artistGeneration": 2020,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Jubel",
+      "title": "Dancing in the Moonlight",
+      "artistGeneration": 2020,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Purple Disco Machine",
+      "title": "Beat of Your Heart",
+      "artistGeneration": 2020,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Robin Schulz",
+      "title": "All We Got",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Robin Schulz",
+      "title": "In Your Eyes",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Robin Schulz",
+      "title": "Somewhere Over the Rainbow / What a Wonderful World",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Djo",
+      "title": "End of Beginning",
+      "artistGeneration": 2020,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "The Weeknd",
+      "title": "Popular",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Billie Eilish",
+      "title": "Wildflower",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Sabrina Carpenter",
+      "title": "Feather",
+      "artistGeneration": 2020,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Benson Boone",
+      "title": "Cry",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Shawn Mendes",
+      "title": "When You're Gone",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Lewis Capaldi",
+      "title": "Wish You the Best",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Tom Grennan",
+      "title": "Little Bit of Love",
+      "artistGeneration": 2020,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Michael Schulte & R3HAB",
+      "title": "Waterfall",
+      "artistGeneration": 2020,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Dasha",
+      "title": "Austin",
+      "artistGeneration": 2020,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Ava Max",
+      "title": "Sweet but Psycho",
+      "artistGeneration": 2020,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Ava Max",
+      "title": "So Am I",
+      "artistGeneration": 2020,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
+    },
+    {
+      "artist": "Ava Max",
+      "title": "My Head & My Heart",
+      "artistGeneration": 2020,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "editorial_review",
+          "status": "needs_french_chart_confirmation"
+        }
+      ]
     }
   ]
 }
