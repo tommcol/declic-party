@@ -382,8 +382,7 @@
 .game-picker-card[data-value="soundtrack"] { --game-color: #ffda89; }
 .game-picker-card[data-value="covers"] { --game-color: #8be4da; }
 .game-picker-card[data-value="survival"] { --game-color: #ffa5b1; }
-.game-picker-card:is(:hover,[aria-pressed="true"]) { border-color: var(--game-color); background-color: #302743; }
-.game-picker-card[aria-pressed="true"] { box-shadow: inset 0 0 0 1px var(--game-color); }
+.game-picker-card:hover { border-color: var(--game-color); background-color: #302743; }
 .game-picker-icon {
   display: grid;
   place-items: center;
@@ -427,7 +426,6 @@
   .game-picker-card small { font-size: .75rem; }
 }
 .party-interface .ty-climber b { color: #243c49; }
-.party-interface .game-picker-card:focus-visible { outline-offset: 2px; }
 
 .phone-game-label { font-size: .8rem; font-weight: 700; color: inherit; }
 .bingo-phone { padding-inline: 10px; }
@@ -480,16 +478,40 @@
 
 .game-setup {
   display: grid;
-  gap: 14px;
-  max-width: 1040px;
+  gap: clamp(16px, 2vw, 24px);
+  max-width: 1200px;
   margin: 12px auto 24px;
+  overflow-wrap: anywhere;
 }
-.game-setup .qcard { margin: 0; }
-.game-setup .game-picker-card { min-height: 0; padding: 10px; }
-.game-setup .game-picker-card .game-picker-icon { width: 30px; height: 30px; margin-bottom: 3px; }
+.game-setup :is(.setup-full,.setup-music,.setup-launch,#music-games) { min-width: 0; }
+.game-setup .qcard { margin: 0; padding: clamp(10px, 1.5vw, 16px); border-radius: 14px; }
 .game-setup summary { cursor: pointer; }
 .game-setup [data-action="launch"] { margin-top: 12px; }
-.game-setup [aria-pressed="true"].btn { outline: 2px solid var(--purple); }
+.game-setup :is(button, summary):focus-visible { outline: 2px solid #f5ddff; outline-offset: -3px; }
+.game-setup :is(.btn.ghost,.segmented button,.theme-card,.game-picker-card) {
+  --selection-color: var(--game-color, #cda5ff);
+}
+.game-setup :is(.btn.ghost,.segmented button,.theme-card,.game-picker-card):is([aria-pressed="true"],[aria-expanded="true"],.active) {
+  color: #fff;
+  background-color: color-mix(in srgb, var(--party-card), var(--selection-color) 22%);
+  box-shadow: inset 0 0 0 1px var(--selection-color);
+}
+.game-setup .btn {
+  min-height: 40px;
+  max-width: 100%;
+  padding: 7px 12px;
+  border-radius: 10px;
+  white-space: normal;
+  line-height: 1.25;
+  font-size: .82rem;
+}
+.game-setup .btn.primary { min-height: 44px; }
+.game-setup .textbtn { max-width: 100%; min-height: 32px; text-align: start; }
+.game-setup .segmented { flex-wrap: wrap; }
+.game-setup .segmented button { min-height: 40px; white-space: normal; }
+.game-setup .row { gap: 7px; }
+.game-setup input, .game-setup select { min-width: 0; }
+.game-setup .room-code + svg { max-width: 100%; height: auto; }
 .host-round .timer { color: var(--ink); }
 .host-round .timer-track { background: #d4cce6; }
 
@@ -583,26 +605,67 @@
   .roulette-dial.spinning, .roulette-dial.slowing { animation: none; }
 }
 
-.setup-columns { display: grid; grid-template-columns: minmax(0, 3fr) minmax(230px, 1fr); align-items: start; gap: 20px; }
-.setup-selection { min-width: 0; }
-.setup-banner { min-height: 160px; padding: 22px; }
-.setup-banner h2 { position: relative; z-index: 1; max-width: 72%; margin: 0; font-size: clamp(1.4rem, 3vw, 2.3rem); }
-.setup-music h2 { margin: 14px 0 10px; }
-.setup-music .catalog-banner { justify-content: space-between; flex-wrap: wrap; gap: 8px; }
-.setup-launch h2 { margin: 0; font-size: 1.1rem; }
-@media (max-width: 760px) { .setup-columns { grid-template-columns: minmax(0, 1fr); } }
-
-.game-setup #music-games h1 { margin: 6px 0 12px; font-size: 1.65rem; }
-.game-setup .game-picker-card { min-height: 78px; }
+.game-setup #music-games { padding: 0; }
+.game-setup :is(#music-games h1,.setup-music h2,.setup-launch h2) {
+  margin: 0 0 10px;
+  font-size: clamp(1.2rem, 2.4vw, 1.65rem);
+}
+.game-setup .game-picker-card { min-height: 110px; padding: 14px; }
+.game-setup .game-picker-icon { width: 38px; height: 38px; margin-bottom: 8px; }
 .game-setup .game-picker-card small { display: none; }
-.playlist-quick { display: grid; grid-template-columns: repeat(auto-fit, minmax(125px, 1fr)); gap: 8px; }
+.setup-launch h3 { margin-top: 8px; font-size: .92rem; }
+.setup-launch .settings-details { margin-block: 12px; }
+
+.playlist-quick {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(158px, 100%), 1fr));
+  grid-auto-rows: 1fr;
+  gap: 8px;
+}
 .playlist-choice { position: relative; min-width: 0; }
-.playlist-tile { width: 100%; min-height: 64px; padding: 9px 10px; justify-content: center; gap: 3px; }
-.playlist-star { position: absolute; right: 5px; top: 5px; z-index: 1; }
-.playlist-choice:has(.playlist-star) .playlist-tile { padding-right: 32px; }
-.playlist-all { margin: 12px 0; }
-#setup-playlist-results details { margin: 8px 0; }
-#setup-playlist-results summary { min-height: 36px; }
+.game-setup .playlist-tile {
+  display: grid;
+  grid-template-columns: 26px minmax(0, 1fr);
+  align-content: center;
+  align-items: center;
+  gap: 7px;
+  width: 100%;
+  height: 100%;
+  min-height: 60px;
+  padding: 8px 38px 8px 8px;
+  border-radius: 12px;
+}
+.game-setup .playlist-tile:hover { border-color: var(--purple); }
+.playlist-tile strong { font-size: .8rem; line-height: 1.25; overflow-wrap: anywhere; }
+.playlist-tile .playlist-icon {
+  display: grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 7px;
+  background: #ffffff12;
+  font-size: .95rem;
+}
+.playlist-tile .playlist-check {
+  position: absolute;
+  top: 3px;
+  right: 6px;
+  color: var(--lime);
+  font-size: .8rem;
+  visibility: hidden;
+}
+.playlist-tile[aria-pressed="true"] .playlist-check { visibility: visible; }
+.playlist-star {
+  position: absolute;
+  right: 3px;
+  bottom: 3px;
+  width: 34px;
+  height: 34px;
+  color: var(--party-muted);
+  border-radius: 8px;
+}
+.playlist-star:hover { background: #ffffff14; }
+.playlist-star[aria-pressed="true"] { color: #ffda89; }
 .question-picks { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
 .question-picks .btn { min-width: 44px; }
 .setup-roulette-overlay { position: fixed; inset: 0; z-index: 20; display: grid; place-items: center; background: #10091ccf; padding: 12px; }
@@ -621,14 +684,11 @@
 .evening-ceremony .podium > div:nth-child(3) { animation-delay: .24s; }
 .setup-choices { padding: 0; border: 0; margin: 14px 0 0; min-width: 0; }
 .setup-choices legend { margin-bottom: 6px; font-weight: 700; }
-.setup-choices .row { flex-wrap: wrap; gap: 6px; }
-.setup-choices .btn { min-height: 36px; padding: 6px 9px; }
 
-.setup-full { display: grid; gap: 18px; }
+.setup-full { display: grid; gap: clamp(16px, 2vw, 24px); }
 .setup-full .setup-launch { max-width: none; }
 .setup-options { display: flex; flex-wrap: wrap; align-items: start; gap: 4px 14px; }
-.selection-controls { padding: 12px; margin-block: 10px !important; }
-.selection-controls .row { flex-wrap: wrap; gap: 6px; }
+.game-setup .selection-controls { margin-top: 10px; }
 .selection-controls details { margin-top: 8px; }
 .vote-surfaces { max-height: 100dvh; overflow: auto; }
 .vote-options { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 8px; width: min(100%,660px); margin-inline: auto; }
@@ -642,13 +702,41 @@
 .next-game-actions { margin-top: 14px; }
 .next-game-actions .row { flex-wrap: wrap; gap: 8px; }
 
-.playlist-modes, .playlist-selected .row { flex-wrap: wrap; }
-.playlist-selected { display: grid; gap: 6px; padding: 12px; margin-block: 10px; background: #211832; border-radius: 12px; }
-.playlist-chip { border: 1px solid #aa83da; border-radius: 999px; background: #503278; color: #fff; padding: 5px 11px; cursor: pointer; }
-.playlist-chip span { margin-inline-start: 5px; color: #e9ffad; font-size: 1.2em; }
-.playlist-tabs { display: flex; gap: 5px; overflow-x: auto; padding: 5px 2px; }
-.playlist-tabs button { flex: 0 0 auto; }
-#setup-playlist-results .playlist-quick { grid-template-columns: repeat(auto-fill, minmax(min(135px, 100%), 1fr)); }
+.playlist-selected { display: grid; gap: 4px; padding: 6px 10px; margin-block: 8px; background: #211832; border-radius: 10px; }
+.playlist-selected-header { justify-content: space-between; min-height: 32px; font-size: .84rem; }
+.playlist-selected .mini { display: flex; align-items: center; min-height: 34px; margin: 0; }
+.playlist-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  max-width: 100%;
+  min-height: 34px;
+  border: 1px solid #aa83da;
+  border-radius: 999px;
+  background: #503278;
+  color: #fff;
+  padding: 4px 9px;
+  cursor: pointer;
+  font-size: .8rem;
+  text-align: start;
+}
+.playlist-chip span:first-child { min-width: 0; }
+.playlist-chip span[aria-hidden] { color: var(--lime); font-size: 1.2em; }
+.playlist-tabs { display: flex; flex-wrap: wrap; gap: 6px; margin-block: 8px; }
+.game-setup .playlist-tabs button {
+  min-height: 34px;
+  padding: 4px 8px;
+  gap: 5px;
+  border-radius: 999px;
+  font-size: .76rem;
+}
+.playlist-tabs button > span:last-child { min-width: 0; }
+@media (max-width: 600px), (any-pointer: coarse) {
+  .game-setup :is(.btn,.playlist-tabs button,.playlist-chip,.textbtn,.segmented button),
+  .playlist-selected :is(.playlist-selected-header,.mini) { min-height: 44px; }
+  .game-setup .playlist-tile { min-height: 68px; padding-right: 48px; }
+  .playlist-star { width: 44px; height: 44px; }
+}
 .setup-roulette-overlay .roulette-surfaces { width: min(720px, 100%); }
 .roulette-surfaces { background: radial-gradient(ellipse at 50% 25%, #503374, #171126 66%); }
 .vote-options { grid-template-columns: repeat(auto-fit, minmax(min(145px, 100%), 1fr)); max-height: 57dvh; overflow-y: auto; padding: 4px; }

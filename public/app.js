@@ -210,7 +210,17 @@ function render(){
  if(role==='tv'){a.innerHTML=tvScreen();return;}
  if(view==='join'){a.innerHTML=joinScreen();return;}
  if(role==='player'&&view!=='history'){a.innerHTML=phoneScreen();return;}
+ const focusedSetupButton=a.querySelector('.game-setup button[data-action]:focus-visible');
  a.innerHTML=`<div class="shell">${header()}${view==='setup'?setupScreen():view==='catalog'?catalogScreen():view==='history'?historyScreen():view==='library'?library():view==='help'?help():view==='settings'?settingsScreen():studio()}${footer()}</div>`;
+ if(view==='setup'&&focusedSetupButton){
+  const {action,value,kind,key}=focusedSetupButton.dataset;
+  const wasChip=focusedSetupButton.classList.contains('playlist-chip');
+  const replacement=Array.from(a.querySelectorAll('.game-setup button[data-action]')).find(button=>
+   button.dataset.action===action&&button.dataset.value===value&&button.dataset.kind===kind&&button.dataset.key===key
+   &&button.classList.contains('playlist-chip')===wasChip);
+  const fallback=wasChip||action==='playlist-clear' ? $('#setup-playlist-search') : null;
+  (replacement||fallback)?.focus({preventScroll:!!replacement});
+ }
  if(view==='studio')void prepareImage();
 }
 function library(){return `<main class="library"><div class="row"><div><span class="eyebrow">LA BOÎTE À IDÉES</span><h1>Vos questions. Votre ambiance.</h1><p class="help">Préparez vos extraits et vos indices. Les fichiers restent dans ce navigateur.</p></div><button class="btn primary right" data-action="new-question">＋ Nouvelle question</button></div><div class="row"><button class="btn ghost" data-action="export">Exporter les questions JSON</button><label class="btn ghost">Importer un JSON<input type="file" id="import-json" accept="application/json" hidden></label></div><div class="cards">${custom.filter(q=>q.universe==='music').map(q=>`<article class="qcard"><span class="badge">MUSIQUE · ${q.kind==='lyrics'?'PAROLES':q.kind==='audio'?'EXTRAIT':q.kind==='image'?'IMAGE':'QUESTION'}</span><div class="emoji" style="margin-top:16px">${q.kind==='audio'?'🎧':q.kind==='image'?'🖼️':'💡'}</div><h3>${esc(q.prompt)}</h3><p>Réponse : <strong>${esc(q.answer)}</strong><br>${q.duration} secondes · ${q.points} points</p><div class="row" style="margin-top:16px"><button class="textbtn" data-action="edit-question" data-value="${esc(q.id)}">Modifier</button><button class="textbtn right" data-action="delete-question" data-value="${esc(q.id)}">Retirer</button></div></article>`).join('')||'<div class="empty wide">La piste est à vous !<br>Ajoutez une première question pour créer votre blind test.</div>'}</div><div class="callout">Les réponses écrites acceptent les accents et la ponctuation indifféremment. Ajoutez des réponses alternatives dans l’éditeur. L’export JSON contient les questions, pas les fichiers audio ou images.</div></main>`;}
@@ -1548,6 +1558,7 @@ function setupScreen(){
  ${fixedMusic?musicGameSettings():config.musicGame==='tyrolien'&&config.source==='demo'?'<p>Mélodies de découverte de Déclic Party.</p>':playlistSetup()}
  </section>
  <section class="qcard setup-launch">
+ <h2>3. Prêts à jouer ?</h2>
  ${questionSetup()}
  ${participationSetup()}
  ${config.mode==='phone'&&(sharedTeamsSelected()||config.musicGame==='tyrolien'||game?.teamPlan)?teamAdmin()+previousTeamGames():''}
@@ -1605,24 +1616,33 @@ function categoryPlaylists(){
 }
 
 function playlistSetup(){
+ const mode=preferredModes.playlist;
+ const emptySelection={
+  manual:config.catalogFrom==='explorer'&&catalogPool.tracks.length
+   ?'La sélection importée sera utilisée.' : 'Les ambiances par défaut seront utilisées.',
+  automatic:'La roulette tire une catégorie, puis une playlist compatible.',
+  participatory:'Le joueur désigné arrête la roulette pour choisir une catégorie, puis une playlist.',
+  vote:'Les participants votent pour une catégorie, puis pour une playlist compatible.'
+ }[mode];
  const entries=playlistIndex();
  const chosen=selectedPlaylists.map(id=>({id,name:id==='mix'?'Toutes les musiques':entries.get(id)?.name||verifiedPlaylists[id]?.name||id}));
  const categories=[...(playlistGroups||[]),{id:'favorites',name:'Favoris',icon:'★'},{id:'recent',name:'Récentes',icon:'◷'}];
  return `<div class="row playlist-modes">${selectionModes.map(([id,name])=>`<button class="btn ghost" data-action="selection-mode" data-kind="playlist" data-value="${id}" aria-pressed="${preferredModes.playlist===id}">${name}</button>`).join('')}
  ${preferredModes.playlist!=='manual'?`<button class="btn primary" data-action="roulette-playlist" data-value="${preferredModes.playlist}">Lancer le choix musical</button>`:''}</div>
- <div class="playlist-selected"><div class="row"><strong>Playlists sélectionnées · ${chosen.length}</strong>
+ <div class="playlist-selected"><div class="row playlist-selected-header"><strong>Playlists sélectionnées · ${chosen.length}</strong>
  ${chosen.length?'<button class="textbtn" data-action="playlist-clear">Tout retirer</button>':''}</div>
- <div class="row">${chosen.map(({id,name})=>`<button class="playlist-chip" data-action="playlist-toggle" data-value="${esc(id)}" aria-label="Retirer ${esc(name)}">${esc(name)} <span aria-hidden="true">×</span></button>`).join('')}</div></div>
+ <div class="row">${chosen.map(({id,name})=>`<button class="playlist-chip" data-action="playlist-toggle" data-value="${esc(id)}" aria-label="Retirer ${esc(name)}"><span>${esc(name)}</span><span aria-hidden="true">×</span></button>`).join('')||`<p class="mini">${emptySelection}</p>`}</div></div>
  <label class="field-label">Rechercher une playlist<input id="setup-playlist-search" type="search" value="${esc(playlistSearch)}"></label>
- <div class="playlist-tabs" aria-label="Catégories musicales">${categories.map(({id,name,icon})=>`<button class="btn ghost" data-action="playlist-category" data-value="${id}" aria-pressed="${id===playlistCategory&&!playlistSearch}">${icon} ${esc(name)}</button>`).join('')}</div>
+ <div class="playlist-tabs" aria-label="Catégories musicales">${categories.map(({id,name,icon})=>`<button class="btn ghost" data-action="playlist-category" data-value="${id}" aria-pressed="${id===playlistCategory&&!playlistSearch}"><span aria-hidden="true">${esc(icon)}</span><span>${esc(name)}</span></button>`).join('')}</div>
  <div class="row"><button class="textbtn" data-action="all-music">Toutes les musiques</button><button class="textbtn" data-action="playlist-all" ${!categoryPlaylists().length?'disabled':''}>Tout cocher · ${esc(categories.find(group=>group.id===playlistCategory)?.name||'')}</button></div>
  <div id="setup-playlist-results">${playlistResults()}</div>`;
 }
-function playlistTile(item,showFavorite=false){
+function playlistTile(item){
  const pressed=selectedPlaylists.includes(item.id), favorite=favoritePlaylists.includes(item.id);
- return `<div class="playlist-choice"><button class="theme-card playlist-tile ${pressed?'active':''}" data-action="playlist-toggle" data-value="${esc(item.id)}" aria-pressed="${pressed}">
- <span aria-hidden="true">${pressed?'✓':esc(item.icon)}</span><strong>${esc(item.name)}</strong></button>
- ${showFavorite?`<button class="iconbtn playlist-star" data-action="playlist-favorite" data-value="${esc(item.id)}" aria-label="Favori · ${esc(item.name)}" aria-pressed="${favorite}">${favorite?'★':'☆'}</button>`:''}</div>`;
+ return `<div class="playlist-choice"><button class="theme-card playlist-tile" data-action="playlist-toggle" data-value="${esc(item.id)}" aria-pressed="${pressed}">
+ <span class="playlist-icon" aria-hidden="true">${esc(item.icon)}</span><strong>${esc(item.name)}</strong>
+ <span class="playlist-check" aria-hidden="true">✓</span></button>
+ <button class="iconbtn playlist-star" data-action="playlist-favorite" data-value="${esc(item.id)}" aria-label="Favori · ${esc(item.name)}" aria-pressed="${favorite}">${favorite?'★':'☆'}</button></div>`;
 }
 function playlistResults(){
  if(!playlistGroups)return '<p>Chargement des playlists…</p>';
@@ -1639,7 +1659,7 @@ function playlistResults(){
  const size=36;
  const page=Math.min(playlistPage,Math.max(0,Math.ceil(matches.length/size)-1));
  return `${letters.length?`<div class="playlist-tabs" aria-label="Filtrer les artistes par initiale">${['',...letters].map(value=>`<button class="btn ghost" data-action="playlist-letter" data-value="${value}" aria-pressed="${value===playlistLetter}">${value||'Tous'}</button>`).join('')}</div>`:''}
- ${matches.length?`<div class="playlist-quick">${matches.slice(page*size,(page+1)*size).map(item=>playlistTile(item,true)).join('')}</div>`:'<p>Aucune playlist trouvée.</p>'}
+ ${matches.length?`<div class="playlist-quick">${matches.slice(page*size,(page+1)*size).map(playlistTile).join('')}</div>`:'<p>Aucune playlist trouvée.</p>'}
  ${matches.length>size?`<div class="row"><button class="textbtn" data-action="playlist-page" data-value="-1" ${page===0?'disabled':''}>Précédent</button><span>${page+1} / ${Math.ceil(matches.length/size)}</span><button class="textbtn" data-action="playlist-page" data-value="1" ${(page+1)*size>=matches.length?'disabled':''}>Suivant</button></div>`:''}`;
 }
 document.addEventListener('input',event=>{
@@ -1649,12 +1669,12 @@ document.addEventListener('input',event=>{
  $('#setup-playlist-results').innerHTML=playlistResults();
 });
 function questionSetup(){
- if(['bingo','tyrolien'].includes(config.musicGame))return `<h2>3. Prêts à jouer ?</h2>${config.musicGame==='bingo'?'<p>16 extraits · grille 4 × 4</p>':''}`;
+ if(['bingo','tyrolien'].includes(config.musicGame))return config.musicGame==='bingo'?'<p>16 extraits · grille 4 × 4</p>':'';
  const timeline=config.musicGame==='timeline', key=timeline?'timelineCount':'count';
  const count=Number(config[key])||5;
  const max=timeline?SPECIAL_TRACKS.timeline.length-1:100;
  const custom=customQuestionCount||!quickQuestionCounts.includes(count);
- return `<h2>3. Combien de questions ?</h2><div class="question-picks">${quickQuestionCounts.filter(n=>n<=max).map(n=>`<button class="btn ghost" data-action="question-count" data-value="${n}" aria-pressed="${!custom&&n===count}">${n}</button>`).join('')}
+ return `<h3>Combien de questions ?</h3><div class="question-picks">${quickQuestionCounts.filter(n=>n<=max).map(n=>`<button class="btn ghost" data-action="question-count" data-value="${n}" aria-pressed="${!custom&&n===count}">${n}</button>`).join('')}
  <button class="btn ghost" data-action="question-count" data-value="custom" aria-pressed="${custom}">Personnalisé</button></div>
  ${custom?`<label class="field-label">Nombre de questions<input type="number" min="5" max="${max}" value="${count}" data-config="${key}"></label>`:''}`;
 }
