@@ -125,7 +125,7 @@ export function openMusicLibrary(root, request, escape, options={}) {
     verified+' extrait(s) vérifié(s) sur cette page':'Disponibilité audio à vérifier'}</p>
     ${page.total?'<ul class="music-library-tracks">'+page.tracks.map(track=>`<li>
      <div><strong>${escape(track.title)}</strong>
-      ${track.playlists.some(tag=>screenTags.includes(tag))?`<small>Œuvre · ${escape(track.work||'Non renseignée')}</small>`:''}
+      ${track.playlists.some(tag=>screenTags.includes(tag))?`<small>Œuvre · ${escape(track.work||'Lien à confirmer')}</small>`:''}
       <span>${escape(track.artist)} · ${track.year||'Année inconnue'}</span>
       <small>${escape(track.genres.map(label).join(', ')||'Genre inconnu')} · ${escape(track.origins.map(label).join(', ')||'Origine inconnue')}</small>
       <small>${escape(trackStatus(track))}</small></div>
