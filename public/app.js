@@ -40,8 +40,8 @@ channel.onmessage=e=>{if(e.data.type==='ended'&&role==='tv'){game=null;render();
 function toast(s){$('#toast').textContent=s;$('#toast').classList.add('show');clearTimeout(toast.timeout);toast.timeout=setTimeout(()=>$('#toast').classList.remove('show'),4000);}
 function celebrate(){if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;const el=$('#confetti');el.innerHTML=Array.from({length:55},(_,i)=>`<i class="confetto" style="left:${Math.random()*100}%;background:${['#e2f889','#ff925b','#ffc6e0','#9f7af3','#79c5ed'][i%5]};animation-delay:${Math.random()*.5}s;animation-duration:${2+Math.random()}s;transform:rotate(${i*27}deg)"></i>`).join('');setTimeout(()=>el.replaceChildren(),4000);}
 function saveConfig(){write('declic.config',config);}
-function brand(){return '<button class="brand" data-action="home" aria-label="Déclic ! Accueil"><span>ϟ</span>Déclic !</button>';}
-function header(){return `<header class="topbar">${brand()}<nav class="nav" aria-label="Navigation principale"><button class="${['home','setup','studio'].includes(view)?'active':''}" data-action="home">Accueil</button><button class="${view==='catalog'?'active':''}" data-action="v2-catalog">Les musiques</button><button class="${view==='library'?'active':''}" data-action="library">Mes questions</button><button class="${view==='help'?'active':''}" data-action="help">Comment jouer</button></nav><span class="pill"><span class="dot"></span> La bonne humeur est prête</span></header>`;}
+function brand(){return '<button class="brand" data-action="home" aria-label="Déclic Party, accueil"><span>ϟ</span>Déclic Party</button>';}
+function header(){return `<header class="topbar">${brand()}<nav class="nav" aria-label="Navigation principale"><button class="${['home','setup','studio'].includes(view)?'active':''}" data-action="home">Accueil</button><button class="${view==='catalog'?'active':''}" data-action="v2-catalog">Les musiques</button><button class="${view==='library'?'active':''}" data-action="library">Mes questions</button><button class="${view==='help'?'active':''}" data-action="help">Comment jouer</button></nav></header>`;}
 function footer(){return '<footer class="footer"><span>De la musique et des déclics.</span><span>Déclic ! · Le studio de vos soirées · v0.5</span></footer>';}
 function savedMusicGame(key){
  const saved=read(key,null);
@@ -50,6 +50,7 @@ function savedMusicGame(key){
 function selectedQuestions(){if(config.source==='catalog'&&Object.hasOwn(SPECIAL_TRACKS,config.musicGame))return [];if(config.universe==='music'&&config.challenge==='lyrics')return(config.source==='demo'?DEMO:custom).filter(q=>q.universe===config.universe&&q.kind==='lyrics').slice(0,config.count);if(config.source==='catalog'&&config.universe==='music')return musicQuestions(catalogPool.tracks,config.musicGame==='bingo'?{...config,count:BINGO_CARD_SIZE,challenge:config.challenge==='artist'?'artist':'title',difficulty:'balanced'}:config);return(config.source==='custom'?custom:DEMO).filter(q=>q.universe===config.universe).slice(0,config.count);}
 function render(){
  const a=$('#app');
+ a.classList.toggle('party-interface',role!=='host'||view!=='home');
  if($('#catalog-player'))desk.stop();
  if(view==='music-library'){
   a.innerHTML=`<div class="shell"><main id="official-music-library"></main></div>`;
@@ -107,7 +108,7 @@ function stage(){if(!game)return '<div class="empty">En attente de l’animateur
   return `<div class="stage-content"><span class="eyebrow">MAILLON FAIBLE</span><h1>🏆 ${winners.map(t=>esc(t.name)).join(' · ')}</h1><p>${finalists[0]?.score||0} points sécurisés</p></div>`;
  }
  if(phase==='finished')return `<div class="stage-content"><span class="eyebrow">LE DERNIER MOT EST POUR VOUS</span><h1>Les champions du déclic !</h1><div class="podium">${sorted().slice(0,3).map((t,i)=>`<div><span style="font-size:35px">${['🏆','🥈','🥉'][i]}</span><strong>${esc(t.name)}</strong><span>${t.score} points</span></div>`).join('')}</div><p class="help">${total} manches. Bravo à toutes les équipes !</p></div>`;
- if(phase==='lobby')return `<div class="stage-content"><span class="eyebrow">PRÊTS À FAIRE LE DÉCLIC ?</span><div class="big-emoji">${q?.universe==='film'?'🍿':'🪩'}</div><h1>La soirée commence ici.</h1><p class="help">${game.mode==='phone'?`Rejoignez avec le code <strong style="color:var(--lime);font-size:27px;letter-spacing:4px">${esc(room)}</strong>`:'Installez vos équipes et testez vos touches !'}</p><p class="mini" style="color:#c4b2dc">${game.teams.length} équipe(s) · ${total} questions</p>${role==='tv'&&game.roomCode?invitationMarkup(game.roomCode):''}</div>`;
+ if(phase==='lobby')return `<div class="stage-content"><span class="eyebrow">PRÊTS À FAIRE LE DÉCLIC ?</span><div class="stage-wave" aria-hidden="true">${homeIcon('wave')}</div><h1>La soirée commence ici.</h1><p class="help">${game.mode==='phone'?`Rejoignez avec le code <strong style="color:var(--lime);font-size:27px;letter-spacing:4px">${esc(room)}</strong>`:'Installez vos équipes et testez vos touches !'}</p><p class="mini" style="color:#c4b2dc">${game.teams.length} équipe(s) · ${total} questions</p>${role==='tv'&&game.roomCode?invitationMarkup(game.roomCode):''}</div>`;
  const reveal=phase==='reveal',count=phase==='playing'&&Date.now()<game.startAt?Math.ceil((game.startAt-Date.now())/1000):0;const art=q?.artwork&&(q.target==='cover'||q.target!=='coverChoice'&&game.effect==='image'||reveal);
  return `<span class="counter">${game.index+1} / ${total}</span><div class="stage-content"><span class="eyebrow">${q?.universe==='film'?'CINÉMA MUSICAL':'MUSIQUE'} · ${q?.kind==='lyrics'?'PAROLES À COMPLÉTER':q?.kind==='question'?'QUESTION':CHALLENGES.find(v=>v[0]===q?.target)?.[2]||'LE DÉFI'}</span>${count?`<h1 class="countdown">${count}</h1><p class="help">À vos marques…</p>`:`<h1>${esc(game.timelineMode||game.settings?.timelineMode?'Où placer cette chanson sur la frise ?':q?.prompt)}</h1>${q?.target==='artistTitle'?`<div class="artist-cue">${esc(q.artist||q.displayArtist)}</div>`:''}${art?`<img src="${esc(q.artwork)}" alt="Pochette à identifier" ${q.target==='cover'||game.effect==='image'?'data-mystery':''}>`:q?.mediaKey&&q.kind==='image'||q?.imageUrl?'<div data-image></div>':q?.emoji?`<div class="big-emoji" data-mystery>${esc(q.emoji)}</div>`:q?.kind==='audio'?'<div class="record" aria-hidden="true"></div>':''}${phase==='buzzed'?`<div class="buzz-banner">⚡ ${esc(game.teams.find(t=>t.id===game.buzz)?.name)} a buzzé !</div>`:''}${phase==='paused'?'<div class="pause-banner">Ⅱ En pause · l’animateur garde la main</div>':''}${reveal?`<span class="eyebrow">LA RÉPONSE</span><h2>${esc(targets(q)[0]==='answer'&&q.target!=='coverChoice'&&q.target!=='timeline'?q.answer:q.title||q.answer)}</h2>${q.artist?`<p class="reveal-artist">${esc(q.artist)}</p>`:''}${questionExplanation(q)}${roundRecap()}${timelineDistribution()}${(game.chainVote||game.chainVoting)?'<p>Vote en cours sur les téléphones.</p>':''}${q.provider?`<a class="source-credit" href="${esc(q.link)}" target="_blank" rel="noopener noreferrer">Extrait fourni par Deezer · écouter le titre ↗</a>`:''}`:phase==='ready'?'<p class="help">Une nouvelle question vous attend.</p>':''}${listeningMarkup()}${(game.timelineMode||game.settings?.timelineMode)==='collective'?timelineList(game.timelineCards):''}${!reveal&&!(game.timelineMode||game.settings?.timelineMode)&&game.input==='qcm'&&game.mode==='phone'&&q?.options?.length?`<div class="options ${q.optionArtwork?'cover-options':''}">${q.options.map((o,i)=>`<div class="option"><span class="letter">${'ABCDE'[i]}</span>${q.optionArtwork?`<img src="${esc(q.optionArtwork[i])}" alt="Pochette ${esc(o)}">`:esc(o)}</div>`).join('')}</div>`:''}${timerMarkup()}`}</div>`;
 }
@@ -660,8 +661,26 @@ function buzzerPanel(){return `<button class="phone-buzzer" data-action="v3-buzz
 function updateBuzzer(){const button=$('[data-buzz-button]'),label=$('[data-buzz-status]');if(!button||!game)return;const now=Date.now(),blocked=game.blocked?.includes(teamId),wait=Math.ceil(((game.cooldowns?.[teamId]||0)-now)/1000),buzzed=game.phase==='buzzed',enabled=connected&&game.phase==='playing'&&now>=game.startAt&&now<game.endAt&&!blocked&&wait<=0;button.disabled=!enabled;label.textContent=buzzed?(game.buzz===teamId?'C’est à vous ! Répondez à voix haute.':(game.teams.find(t=>t.id===game.buzz)?.name||'Une équipe')+' a buzzé.'):blocked?'Votre équipe est bloquée pour cette question.':wait>0?'Rebuzz possible dans '+wait+' s.':enabled?'Appuyez puis donnez votre réponse à voix haute.':'Attendez le signal…';}
 
 function questionExplanation(q){return q?.explanation?`<p>${esc(q.explanation)}</p>`:'';}
+const gameIcons={
+ tyrolien:'<path d="M2 20 9 8l4 7 3-5 6 10H2Zm1-8 17-8m-5 2 2 4"/>',
+ bingo:'<rect x="3" y="3" width="18" height="18" rx="3"/><path d="M9 3v18m6-18v18M3 9h18M3 15h18"/>',
+ timeline:'<path d="M3 12h18m-4-4 4 4-4 4M6 9v6m5-9v12"/>',
+ coversQuiz:'<path d="M4 8h15m-4-4 4 4-4 4M20 16H5m4-4-4 4 4 4"/>',
+ soundtrack:'<rect x="3" y="3" width="18" height="18" rx="3"/><path d="M7 3v18M17 3v18M3 9h4m10 0h4M3 15h4m10 0h4"/>',
+ blind:'<path d="M4 14v-2a8 8 0 0 1 16 0v2"/><rect x="3" y="12" width="5" height="8" rx="2"/><rect x="16" y="12" width="5" height="8" rx="2"/>',
+ covers:'<rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/>',
+ survival:'<path d="m13 2-9 12h7l-1 8 10-12h-7z"/>'
+};
 function musicGames(){
- return `<section id="music-games"><div class="sectiontitle"><h2>Jeux musicaux</h2></div><div class="theme-grid">${MUSIC_GAMES.map(([id,name,description])=>`<button class="theme-card ${config.musicGame===id&&config.source==='catalog'?'active':''}" data-action="music-game" data-value="${id}"><strong>${name}</strong><small>${description}</small></button>`).join('')}</div></section>`;
+ const cards=MUSIC_GAMES.map(([id,name,description])=>{
+  const selected=config.musicGame===id&&config.source==='catalog';
+  return `<button class="game-picker-card" data-action="music-game" data-value="${id}" aria-pressed="${selected}">
+   <span class="game-picker-icon">${homeIcon(id)}</span>
+   <span class="game-picker-arrow">${homeIcon('arrow')}</span>
+   <strong>${name}</strong><small>${description}</small>
+  </button>`;
+ }).join('');
+ return `<section id="music-games"><h1>Choisir un jeu</h1><div class="game-picker-grid">${cards}</div></section>`;
 }
 function invitationMarkup(code=room){
  if(!code)return '';
@@ -683,7 +702,7 @@ const homeIcons={
  arrow:'<path d="M4 12h15m-6-6 6 6-6 6"/>'
 };
 function homeIcon(name){
- return `<svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">${homeIcons[name]}</svg>`;
+ return `<svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">${homeIcons[name]??gameIcons[name]}</svg>`;
 }
 function homeCard(action,icon,label,detail='',primary=false){
  return `<button class="host-card${primary?' host-card-primary':''}" data-action="${action}" ${changingEvening?'disabled':''}>

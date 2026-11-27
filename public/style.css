@@ -301,3 +301,130 @@
 .ty-teams{display:flex;flex-wrap:wrap;gap:.5rem;margin:1rem 0}.ty-teams div{flex:1;min-width:8rem;padding:.5rem .75rem;background:white;border-inline-start:5px solid var(--team);border-radius:8px}.ty-teams small{display:block}
 .ty-invite svg{max-width:170px;height:auto}.ty-controls{flex-wrap:wrap}.ty-screen .options button{min-height:48px}.ty-screen [data-ty-clock]{font-size:1.5rem}
 @media(prefers-reduced-motion:reduce){.ty-climber{animation:none!important}.ty-climber.falling{display:none}}
+
+/* Carry the welcome screen palette through setup, control and play. */
+.party-interface {
+  --ink: var(--party-text);
+  --muted: var(--party-muted);
+  --line: var(--party-border);
+  --paper: var(--party-card);
+  --purple: #dbb3ff;
+  --lime: #e2f889;
+  min-height: 100svh;
+  color: var(--ink);
+  color-scheme: dark;
+  background: radial-gradient(ellipse 780px 480px at 48% 0, #2b1c46, transparent), var(--party-bg);
+}
+.party-interface :focus-visible { outline: 3px solid #e7c4ff; outline-offset: 3px; }
+.party-interface .topbar { border-bottom: 1px solid var(--line); }
+.party-interface .brand { color: white; font-size: clamp(1rem, 2.5vw, 1.55rem); }
+.party-interface .brand span, .party-interface .btn.primary {
+  color: #fff;
+  background: linear-gradient(120deg, #7334ca, #a22a7d 65%, #5047bf);
+}
+.party-interface .btn.primary { box-shadow: 0 5px 16px #08050f66; }
+.party-interface .btn.primary:hover { filter: brightness(1.18); }
+.party-interface .btn.lime, .party-interface .buzz-banner, .party-interface .option.correct,
+.party-interface .podium > div:first-child { color: #16182a; }
+.party-interface .btn:not(.primary,.lime,.good,.bad),
+.party-interface :is(.sidebar,.control,.scorecard,.qcard,.theme-card,.effect,.challenge,.joincard,
+.choice,.music-library-tracks li,.catalog-banner,.bottomstrip,.answerbox,.segmented,.settings-details,.playlist-import) {
+  background: var(--party-card);
+  color: var(--ink);
+  border-color: var(--line);
+}
+.party-interface .btn.ghost:hover { background: #39304e; }
+.party-interface :is(input,select,textarea) {
+  background: #181629;
+  color: var(--ink);
+  border-color: var(--line);
+}
+.party-interface :is(.theme-card,.effect,.challenge).active,
+.party-interface .segmented button.active {
+  background: #3c255c;
+  border-color: var(--party-lilac);
+  color: white;
+}
+.party-interface :is(.callout,.catalog-message,.listening-card,.badge,.key) {
+  background: #34254b;
+  color: #f2e5ff;
+}
+.party-interface :is(.help,.mini,.caption,.footer,.theme-card small,.effect small) { color: var(--muted); }
+.party-interface :is(.theme-card b,.step) { color: #20152f; }
+.party-interface .offline { color: #ffba99; }
+
+#music-games { padding: clamp(24px, 4vw, 50px) 0 10px; }
+#music-games h1 { font-size: clamp(2rem, 5vw, 3.6rem); line-height: 1.05; margin-bottom: 22px; }
+.game-picker-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+.game-picker-card {
+  --game-color: #d5adff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 0;
+  padding: 20px;
+  border: 1px solid var(--party-border);
+  border-radius: 20px;
+  background: radial-gradient(ellipse at 100% 0, color-mix(in srgb, var(--game-color) 17%, transparent), transparent 74%), var(--party-card);
+  color: white;
+  text-align: left;
+  transition: border-color .18s, background-color .18s;
+}
+.game-picker-card[data-value="tyrolien"] { --game-color: #b9f385; }
+.game-picker-card[data-value="bingo"] { --game-color: #ffb490; }
+.game-picker-card[data-value="timeline"] { --game-color: #a6c4ff; }
+.game-picker-card[data-value="coversQuiz"] { --game-color: #fda2d3; }
+.game-picker-card[data-value="soundtrack"] { --game-color: #ffda89; }
+.game-picker-card[data-value="covers"] { --game-color: #8be4da; }
+.game-picker-card[data-value="survival"] { --game-color: #ffa5b1; }
+.game-picker-card:is(:hover,[aria-pressed="true"]) { border-color: var(--game-color); background-color: #302743; }
+.game-picker-card[aria-pressed="true"] { box-shadow: inset 0 0 0 1px var(--game-color); }
+.game-picker-icon {
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 14px;
+  background: color-mix(in srgb, var(--game-color) 17%, transparent);
+  color: var(--game-color);
+  margin-bottom: 16px;
+}
+.game-picker-icon svg { width: 26px; height: 26px; }
+.game-picker-arrow { position: absolute; right: 16px; top: 20px; color: var(--game-color); }
+.game-picker-arrow svg { width: 18px; height: 18px; }
+.game-picker-card strong { font-size: 1.05rem; line-height: 1.25; }
+.game-picker-card small { color: var(--party-muted); margin-top: 7px; line-height: 1.45; }
+
+.party-interface .stage {
+  background: radial-gradient(ellipse at 50% 0, #49226e, transparent 72%), linear-gradient(145deg, #23183e, #181529);
+  border: 1px solid #55416d;
+  overflow-wrap: anywhere;
+}
+.party-interface .stage h1 { text-wrap: balance; }
+.party-interface .timer-fill { background: linear-gradient(90deg, #c084fc, #ef83bd, #f6c48b); }
+.party-interface .tv-shell { background: transparent; padding: clamp(12px, 2.5vw, 36px); }
+.party-interface .tv-shell .stage { min-height: 72svh; margin: 14px 0; }
+.party-interface .tv-shell .scorecard { color: var(--ink); }
+.stage-wave { display: grid; place-items: center; margin: 20px auto; color: #efbbff; }
+.stage-wave svg { width: clamp(68px, 12vw, 150px); filter: drop-shadow(0 0 18px #d16bfa80); }
+.party-interface .ty-screen { background: transparent; color: var(--ink); }
+.party-interface .ty-screen h1 { color: white; }
+.party-interface .ty-teams div { background: var(--party-card); color: var(--ink); }
+.party-interface .ty-controls a { color: var(--ink); }
+
+@media (max-width: 850px) { .game-picker-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 540px) {
+  .party-interface .topbar { flex-wrap: wrap; height: auto; gap: 8px; padding: 12px 0; }
+  .party-interface .nav { display: flex; flex-wrap: wrap; }
+  .game-picker-grid { gap: 9px; }
+  .game-picker-card { padding: 13px; border-radius: 15px; }
+  .game-picker-arrow { right: 12px; top: 14px; }
+  .game-picker-card small { font-size: .75rem; }
+}
+.party-interface .ty-climber b { color: #243c49; }
+.party-interface .game-picker-card:focus-visible { outline-offset: 2px; }
