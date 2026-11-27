@@ -1,8 +1,10 @@
 import { DurableObject } from "cloudflare:workers";
 import { LIBRARY_ARTISTS, LIBRARY_MASTER } from './library-master.js';
 
+import {LIBRARY_CORRECTED_TRACKS,LIBRARY_ADDED_TRACKS,LIBRARY_ADDED_ARTISTS,LIBRARY_UNCONFIRMED_WORKS} from './library-corrections.js';
 import {screenWorkByRecording} from './library-screen-works.js';
 
+const catalogueArtists=[...LIBRARY_ARTISTS,...LIBRARY_ADDED_ARTISTS];
 const screenPlaylistTags=new Set(['films','series','cartoons','tv','shows','disney','ads']);
 
 const librarySources = {
@@ -32,7 +34,7 @@ const groups = [
  ['hits','Grands succès','⭐',[
   ['fr','Hits français','🇫🇷'],['intl','Hits internationaux','🌍'],['alltime','Tubes de tous les temps','🏆'],['mix','Toutes les musiques','🔀']
  ]],
- ['artists','Artistes','🎤',LIBRARY_ARTISTS]
+ ['artists','Artistes','🎤',catalogueArtists]
 ];
 
 const firstDisplayedYear=1960;
@@ -56,6 +58,12 @@ export function libraryGroups(year = new Date().getUTCFullYear()) {
 const normalizeLibraryText = value => value.normalize('NFKD')
  .replace(/\p{M}/gu,'').toLowerCase().replace(/[^\p{L}\p{N}]+/gu,' ').trim();
 
+const editablePlaylistIds=new Set(groups.filter(([id])=>!['artists','decades'].includes(id))
+ .flatMap(([, , , entries])=>entries.map(([id])=>id)).filter(id=>id!=='mix'));
+const correctionsByRecording=new Map(LIBRARY_CORRECTED_TRACKS.map(([title,artist,...fields])=>[artist+'|'+title,fields]));
+
+const unconfirmedWorkKeys=new Set(LIBRARY_UNCONFIRMED_WORKS.map(([title,artist])=>artist+'|'+title));
+
 let seedTracks;
 let tracksById;
 let tracksByPlaylist;
@@ -69,12 +77,26 @@ export function seedLibrary() {
   const tags=playlists.filter(tag=>(!year||!/^\d{4}$/.test(tag))&&(!credit||!screenPlaylistTags.has(tag)));
   if(credit)tags.push(...credit.tags);
   if(year)tags.push(decade,'year-'+year);
-  tracks.set(id,{id,title,artist,year:year||0,playlists:[...new Set(tags)],work:work||credit?.work||null,source,workSource:credit?.source||null});
+  const correction=correctionsByRecording.get(artist+'|'+title);
+  if(correction){
+   const [correctedTags,correctedWork,correctedSource]=correction;
+   const retainedTags=tags.filter(tag=>!editablePlaylistIds.has(tag));
+   tracks.set(id,{id,title,artist,year:year||0,playlists:[...new Set([...retainedTags,...correctedTags])],
+    work:correctedWork,source,workSource:correctedSource});
+  }else{
+   tracks.set(id,{id,title,artist,year:year||0,playlists:[...new Set(tags)],work:work||credit?.work||null,source,workSource:credit?.source||null});
+  }
+ }
+ for(const [title,artist,year,playlists,work,workSource] of LIBRARY_ADDED_TRACKS){
+  const id=normalizeLibraryText(artist)+'|'+normalizeLibraryText(title);
+  const period=year?[decadeId(year-year%10),'year-'+year]:[];
+  tracks.set(id,{id,title,artist,year:year||0,playlists:[...new Set([...playlists,...period])],work,source:null,workSource});
  }
  tracksById=tracks;
  seedTracks=[...tracks.values()].sort((a,b)=>a.title.localeCompare(b.title,'fr')||a.id.localeCompare(b.id,'fr'));
  tracksByPlaylist=new Map();
  for(const track of seedTracks){
+  track.workUnconfirmed=unconfirmedWorkKeys.has(track.artist+'|'+track.title);
   track.search=normalizeLibraryText(track.title+' '+track.artist+' '+(track.work??''));
   for(const playlist of new Set([...track.playlists,'mix'])){
    if(!tracksByPlaylist.has(playlist))tracksByPlaylist.set(playlist,[]);
@@ -88,7 +110,7 @@ const filterFamilies={
  origin:['fr','intl'],
  period:libraryGroups()[0].playlists.map(item=>item.id),
  genres:groups.find(group=>group[0]==='genres')[3].map(([id])=>id),
- artists:LIBRARY_ARTISTS.map(([id])=>id),
+ artists:catalogueArtists.map(([id])=>id),
  themes:groups.filter(([id])=>['screen','party','themes','hits'].includes(id))
   .flatMap(group=>group[3].map(([id])=>id)).filter(id=>!['fr','intl','mix'].includes(id))
 };
@@ -219,8 +241,8 @@ export class MusicLibrary extends DurableObject {
   return {tracks,total:matches.length,next:offset+libraryPage<matches.length?offset+libraryPage:null,playable:null};
  }
 
- describe({id,title,artist,year,work,source,workSource,playlists}) {
-  return {id,title,artist,year:year||null,work,workSource,source:librarySources[source]??source??null,
+ describe({id,title,artist,year,work,source,workSource,workUnconfirmed,playlists}) {
+  return {id,title,artist,year:year||null,work,workSource,workUnconfirmed,source:librarySources[source]??source??null,
    genres:playlists.filter(tag=>validFilters.genres.has(tag)),
    origins:playlists.filter(tag=>validFilters.origin.has(tag)),playlists};
  }

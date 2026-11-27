@@ -3,10 +3,13 @@ import {createHash,randomBytes} from 'node:crypto';
 import {readFile} from 'node:fs/promises';
 import {LIBRARY_MASTER} from '../src/library-master.js';
 
+import {LIBRARY_ADDED_TRACKS} from '../src/library-corrections.js';
+
 const origin=process.argv[2]||'http://127.0.0.1:3000';
 const revision=createHash('sha256').update((await readFile(
  new URL('../src/library-master.js',import.meta.url),'utf8')).replace(/^export /gm,'')).update((await readFile(
- new URL('../src/library-screen-works.js',import.meta.url),'utf8')).replace(/^export /gm,'')).digest('hex').slice(0,12);
+ new URL('../src/library-screen-works.js',import.meta.url),'utf8')).replace(/^export /gm,'')).update((await readFile(
+ new URL('../src/library-corrections.js',import.meta.url),'utf8')).replace(/^export /gm,'')).digest('hex').slice(0,12);
 const authorization='Bearer '+randomBytes(32).toString('hex');
 async function get(path){
  const response=await fetch(origin+path,{headers:{Authorization:authorization},signal:AbortSignal.timeout(4000)});
@@ -15,7 +18,7 @@ async function get(path){
 }
 const library=await get('/api/library');
 assert.equal(library.import?.version,revision,'Le serveur ne sert pas le catalogue du dépôt installé.');
-assert.equal(library.total,LIBRARY_MASTER.length);
+assert.equal(library.total,LIBRARY_MASTER.length+LIBRARY_ADDED_TRACKS.length);
 const artists=library.categories.find(group=>group.id==='artists').playlists;
 for(const name of ['Santa','Florent Pagny','Pierre Garnier']){
  const item=artists.find(item=>item.name.toLowerCase()===name.toLowerCase());

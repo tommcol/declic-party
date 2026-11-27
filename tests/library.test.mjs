@@ -31,7 +31,7 @@ test('Le catalogue local croise les filtres, conserve les références et retrou
  }
  await boot();
  const summary=await request('');
- assert.equal(summary.total,5166);
+ assert.equal(summary.total,5380);
  assert.equal(summary.references,summary.total);
  const catalog=new Map(LIBRARY_MASTER.map(track=>[track[1]+'|'+track[0],track]));
  assert.equal(screenWorkByRecording.size,SCREEN_WORKS.reduce((total,entry)=>total+entry[3].length,0));
@@ -45,7 +45,13 @@ test('Le catalogue local croise les filtres, conserve les références et retrou
  assert.equal(film.tracks.find(track=>track.artist==='Bee Gees')?.work,'La Fièvre du samedi soir');
  assert.equal(film.tracks.find(track=>track.artist==='Bee Gees')?.workSource,'https://www.loc.gov/item/95781649/');
  const series=await request('/tracks?playlist=series&q=Every+Breath+You+Take');
- assert.equal(series.tracks.find(track=>track.artist==='The Police')?.work,'Stranger Things');
+ assert.ok(!series.tracks.some(track=>track.artist==='The Police'));
+ const allTracks=await request('/tracks?q=Every+Breath+You+Take');
+ assert.equal(allTracks.tracks.find(track=>track.artist==='The Police')?.work,null);
+ const added=await request('/tracks?playlist=films&q=A+Million+Dreams');
+ assert.equal(added.tracks.find(track=>track.artist==='Hugh Jackman')?.work,'The Greatest Showman');
+ const unconfirmed=await request('/tracks?playlist=films&q=Moon+River');
+ assert.ok(unconfirmed.tracks.some(track=>track.artist==='Audrey Hepburn'&&track.work==='Diamants sur canapé'&&track.workUnconfirmed));
  const cartoon=await request('/tracks?playlist=cartoons&q=How+Far');
  assert.ok(cartoon.tracks.some(track=>track.work==='Vaiana, la légende du bout du monde'));
  const periods=summary.categories.find(group=>group.id==='decades').playlists;
@@ -107,8 +113,8 @@ test('Le catalogue local croise les filtres, conserve les références et retrou
  await request('/tracks',{id:initial[0].id,excluded:true},'PATCH',200);
  await app.close();app=null;await boot();
  const restored=await request('');
- assert.equal(restored.total,5166);
- assert.equal(restored.references,5165);
+ assert.equal(restored.total,5380);
+ assert.equal(restored.references,5379);
  assert.ok(restored.categories.find(item=>item.id==='custom').playlists.some(item=>item.id===playlist.id));
  assert.equal((await request('/tracks?playlist='+playlist.id)).total,initial.length-1);
  assert.equal((await request('/tracks?playlist='+playlist.id+'&excluded=1')).tracks[0].id,initial[0].id);

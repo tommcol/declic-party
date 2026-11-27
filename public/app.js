@@ -1244,13 +1244,13 @@ async function resolvePlaylistSelection(selection){
  config.catalogFrom='explorer';persistPool();saveConfig();
 }
 function specialEntry(candidate){
- const {title,artist,year,work,playlists}=candidate;
+ const {title,artist,year,work,workUnconfirmed,playlists}=candidate;
  switch(config.musicGame){
   case 'timeline':return year?[title,artist,year]:null;
   case 'soundtrack':{
    const category=config.soundtrackCategory||'soundtrack';
    const tags=category==='soundtrack'?['films','disney']:category==='tvThemes'?['tv','series','shows','cartoons']:['films','disney','tv','series','shows','cartoons'];
-   return work&&tags.some(tag=>playlists.includes(tag))?[title,artist,work]:null;
+   return work&&!workUnconfirmed&&tags.some(tag=>playlists.includes(tag))?[title,artist,work]:null;
   }
   case 'coversQuiz':{
    const original=config.coversDirection==='original';

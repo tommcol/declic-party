@@ -11,6 +11,7 @@ worker=worker.replace("import {createGame,applyAction,publicGame,normalizeQuizCr
 worker=worker.replace("import {MusicLibrary,libraryRouteParams} from './library.js';",'').replace('export {MusicLibrary};','');
 const libraryMaster=(await readFile(new URL('src/library-master.js',import.meta.url),'utf8')).replace(/^export /gm,'');
 const libraryScreenWorks=(await readFile(new URL('src/library-screen-works.js',import.meta.url),'utf8')).replace(/^export /gm,'');
+const libraryCorrections=(await readFile(new URL('src/library-corrections.js',import.meta.url),'utf8')).replace(/^export /gm,'');
 const library=(await readFile(new URL('src/library.js',import.meta.url),'utf8'))
  .replace(/^import .*;$/gm,'');
 worker=worker.replace(/^import .*roulette.js.*$/m,'').replace(/^import .*teams.js.*$/m,'');
@@ -21,7 +22,7 @@ const tyrolien=(await Promise.all(['public/roulette.js','public/teams.js','publi
 const catalog=(await readFile(new URL('src/catalog.js',import.meta.url),'utf8')).replaceAll('export ','');
 const engine=(await readFile(new URL('public/engine.js',import.meta.url),'utf8')).split('export const DEMO=')[0].replaceAll('export ','');
 await mkdir(new URL('dist/',import.meta.url),{recursive:true});
-const bundle='const ASSETS='+JSON.stringify(assets)+';\n'+engine+'\n'+catalog+'\n'+tyrolien+'\nconst LIBRARY_REVISION='+JSON.stringify(createHash('sha256').update(libraryMaster).update(libraryScreenWorks).digest('hex').slice(0,12))+';\n'+libraryMaster+'\n'+libraryScreenWorks+'\n'+library+'\n'+worker;
+const bundle='const ASSETS='+JSON.stringify(assets)+';\n'+engine+'\n'+catalog+'\n'+tyrolien+'\nconst LIBRARY_REVISION='+JSON.stringify(createHash('sha256').update(libraryMaster).update(libraryScreenWorks).update(libraryCorrections).digest('hex').slice(0,12))+';\n'+libraryMaster+'\n'+libraryScreenWorks+'\n'+libraryCorrections+'\n'+library+'\n'+worker;
 export async function buildLocal(){
  const localBundle=bundle.replace("import { DurableObject } from 'cloudflare:workers';",
   "import { DurableObject, WebSocketRequestResponsePair } from '../local/runtime.mjs';");
