@@ -165,3 +165,129 @@
 [data-show-role="player"]:not([data-show-theme="general"]) .phone-shell > .stage {
   border-top: 3px solid var(--light);
 }
+
+/* The ceiling rig, LED panels and glossy floor share the playlist lighting. */
+.show-backdrop {
+  background:
+    radial-gradient(ellipse at 50% 0%, color-mix(in srgb, var(--light) 20%, #101620), transparent 55%),
+    linear-gradient(#060a12 12%, #132234 58%, #06080d 95%);
+}
+.show-backdrop::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: 19%;
+  background: linear-gradient(#03050ac9, transparent 65%),
+    repeating-linear-gradient(115deg, transparent 0 5vw, #64799342 5vw calc(5vw + 2px));
+  mask-image: linear-gradient(#000 60%, transparent);
+}
+.show-backdrop::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at center, transparent 52%, #0305089c 100%);
+}
+.show-wall {
+  border-color: color-mix(in srgb, var(--light) 55%, #161d32);
+  box-shadow: 0 0 2.4vw color-mix(in srgb, var(--light) 27%, transparent),
+    inset 0 0 3vw color-mix(in srgb, var(--light) 20%, transparent), 0 1vw 0 #0a111a;
+}
+.show-wing {
+  box-shadow: 0 0 2vw color-mix(in srgb, var(--light) 32%, transparent),
+    inset 0 0 2vw color-mix(in srgb, var(--light) 25%, transparent);
+}
+.show-backdrop[data-show-scene="plateau"] .show-wall {
+  background:
+    repeating-linear-gradient(90deg, transparent 0 11%, #0a1421 11% 12%),
+    repeating-linear-gradient(0deg, #c1e8ff18 0 1px, transparent 1px 5px),
+    linear-gradient(120deg, #303161, #101827 52%, #143b48);
+}
+.show-backdrop[data-show-scene="gallery"] .show-wall {
+  inset-inline: 25%;
+  border-radius: 8px;
+  background: repeating-linear-gradient(90deg, #17212e 0 24%, #90b5c4 24% 25%),
+    #17212e;
+}
+.show-backdrop[data-show-scene="arena"] .show-wing {
+  width: 21%;
+  border-radius: 0;
+  background: repeating-linear-gradient(0deg, #0e151f 0 13%, #a97968 14%, #292e3b 15% 18%);
+}
+.show-backdrop[data-show-scene="chain"] .show-wing {
+  background: repeating-linear-gradient(145deg, #15232e 0 18%, #638695 19% 21%, #0d161e 22% 34%);
+}
+
+#app[data-show-role="tv"]:not([data-show-scene=""]) .tv-shell > .row {
+  padding: .55rem clamp(.75rem, 2vw, 1.8rem);
+  border: 1px solid #a6bdde33;
+  border-radius: 14px;
+  background: #080e19ee;
+}
+#app[data-show-role="tv"]:not([data-show-scene=""]) .tv-shell > .row > .right {
+  color: #c8d6e9;
+  font-size: clamp(.65rem, 1.15vw, .9rem);
+  letter-spacing: .12em;
+}
+#app[data-show-role="tv"]:not([data-show-scene=""]) .tv-shell .stage {
+  min-height: 66svh;
+  margin-block: clamp(.6rem, 1.4vh, 1.2rem);
+  padding: clamp(1.1rem, 3.6vh, 3rem) clamp(1rem, 4vw, 4rem);
+  background: radial-gradient(ellipse at center, #080f1cf5 14%, #080f1ce8 49%, #080f1c28 100%);
+}
+[data-show-role="tv"]:not([data-show-scene=""]) .tv-shell .stage h1 {
+  font-size: clamp(2rem, min(5.5vw, 7.5vh), 6.5rem);
+  line-height: 1.04;
+  text-wrap: balance;
+  overflow-wrap: anywhere;
+  text-shadow: 0 .08em .4em #000b;
+}
+[data-show-role="tv"]:not([data-show-scene=""]) .tv-shell .stage .eyebrow {
+  color: var(--light, #9ddfff);
+  letter-spacing: .15em;
+}
+[data-show-role="tv"]:not([data-show-scene=""]) .tv-shell .stage .counter {
+  background: #090f1dee;
+  border: 1px solid #b9d7ff55;
+  font-variant-numeric: tabular-nums;
+}
+[data-show-role="tv"]:not([data-show-scene=""]) .tv-intro p {
+  max-width: 44ch;
+  margin-inline: auto;
+  font-size: clamp(1rem, 2vw, 1.55rem);
+}
+[data-show-role="tv"]:not([data-show-scene=""]) .tv-shell .pause-banner {
+  background: #10192cf0;
+  border-color: #8cb5d57d;
+  color: #e1eeff;
+}
+[data-show-role="tv"][data-show-phase="reveal"]:not([data-show-scene=""]) .tv-shell .stage h2 {
+  color: #ffe3a5;
+  font-size: clamp(1.85rem, 4.5vw, 4.5rem);
+  overflow-wrap: anywhere;
+}
+[data-show-role="tv"][data-show-phase="reveal"] .stage .record {
+  width: clamp(68px, 12vh, 132px);
+  height: clamp(68px, 12vh, 132px);
+}
+[data-show-role="tv"][data-show-phase="reveal"] .stage .record::before { inset: 27%; }
+[data-show-role="tv"]:is([data-show-phase="paused"], [data-show-phase="reveal"]) .stage .record {
+  animation-play-state: paused;
+}
+.show-backdrop[data-show-phase="paused"] .show-beam { animation-play-state: paused; }
+
+#app[data-show-role="player"]:not([data-show-scene=""]) .phone-shell > .stage {
+  background: radial-gradient(ellipse at 50% 0%, #273953, #111a2c 65%);
+  border-color: var(--light, #79d2f5);
+}
+[data-show-role="player"]:not([data-show-scene=""]) .phone-buzzer:not(:disabled) {
+  background: linear-gradient(#f4faff, var(--light, #88d8fd) 15%,
+    color-mix(in srgb, var(--light, #88d8fd) 83%, #182039));
+}
+[data-show-role="player"]:not([data-show-scene=""]) .phone-shell :is(button, input, select):focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 3px;
+}
+@media (max-width: 600px) {
+  #app[data-show-role="tv"]:not([data-show-scene=""]) .tv-shell > .row > .right { display: none; }
+  #app[data-show-role="tv"]:not([data-show-scene=""]) .tv-shell > .row > button { margin-left: auto; }
+}
