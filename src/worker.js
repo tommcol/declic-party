@@ -136,7 +136,8 @@ export default {
    if(url.pathname==='/solo.html')return Response.redirect(new URL('/',url),302);
    const path=['/','/join','/tv'].includes(url.pathname)?'/index.html':url.pathname;
    const asset=ASSETS[path];if(!asset)return new Response('Introuvable',{status:404});
-   return new Response(req.method==='HEAD'?null:asset.body,{headers:{'Content-Type':asset.type,'Cache-Control':env.DECLIC_LOCAL==='true'?'no-store':'no-cache','X-Content-Type-Options':'nosniff','Referrer-Policy':'same-origin','Permissions-Policy':'camera=(), microphone=(), geolocation=()','Content-Security-Policy':"default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' blob: data: https://*.dzcdn.net https://*.deezer.com; media-src 'self' blob:; connect-src 'self'; frame-ancestors 'self'; base-uri 'self'; form-action 'self'"}});
+   const body=req.method==='HEAD'?null:asset.base64?Uint8Array.from(atob(asset.body), char=>char.charCodeAt(0)):asset.body;
+   return new Response(body,{headers:{'Content-Type':asset.type,'Cache-Control':env.DECLIC_LOCAL==='true'?'no-store':'no-cache','X-Content-Type-Options':'nosniff','Referrer-Policy':'same-origin','Permissions-Policy':'camera=(), microphone=(), geolocation=()','Content-Security-Policy':"default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' blob: data: https://*.dzcdn.net https://*.deezer.com; media-src 'self' blob:; connect-src 'self'; frame-ancestors 'self'; base-uri 'self'; form-action 'self'"}});
   }catch(e){console.error(JSON.stringify({event:'request_error',message:e.message}));return json({error:'Impossible de traiter cette demande.'},500);}
  }
 };

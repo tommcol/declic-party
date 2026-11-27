@@ -1,16 +1,28 @@
+// Coordinates follow the illuminated track on the TV artwork.
+const track=[[17,22],[26,30],[37,40],[46,48],[55,55],[62,61],[69,67],[75,71],[80,74]];
+function trackPoint(level,levels){
+ const index=Math.max(0,Math.min(level/levels,1))*(track.length-1);
+ const [x,y]=track[Math.floor(index)];
+ const [nextX,nextY]=track[Math.ceil(index)];
+ const fraction=index%1;
+ return {x:x+(nextX-x)*fraction,y:y+(nextY-y)*fraction};
+}
 export function tyrolienMountain(g,esc,animate=true) {
   const points=g.teams.map((team,index)=>{
-    const x=13+Math.min(team.position,g.levels)/g.levels*67;
-    const y=19+Math.min(team.position,g.levels)/g.levels*66;
     const falling=team.eliminated&&(g.phase==='result'&&team.id===g.loser||g.phase==='attack'&&team.id===g.target);
     if(team.eliminated&&!falling)return '';
-    const previous=falling?g.levels:Math.max(0,team.position-1);
+    const {x,y}=trackPoint(falling?g.levels:team.position,g.levels);
+    const previous=trackPoint(team.position-1,g.levels);
     const climbing=g.phase==='result'&&team.id===g.loser||g.phase==='attack'&&team.id===g.target;
     const lane=index-(g.teams.length-1)/2;
-    const row=index%2;
-    return `<div class="ty-climber ${falling?'falling':climbing?'climbing':''}" style="--x:${x}%;--y:${y}%;--lane:${lane};--lane-row:${row};--from-x:${13+previous/g.levels*67}%;--from-y:${19+previous/g.levels*66}%;--team:${team.color}"><span aria-hidden="true">🧑🏻‍🌾</span><b>${esc(team.icon||'')} ${esc(team.name)}</b></div>`;
+    const label=`${team.name} · ${falling?'Éliminée':`Palier ${team.position}/${g.levels}`}`;
+    return `<div class="ty-climber ${falling?'falling':climbing?'climbing':''} ${g.winner===team.id?'ty-winner':''}" aria-label="${esc(label)}" style="--x:${x}%;--y:${y}%;--lane:${lane};--from-x:${previous.x}%;--from-y:${previous.y}%;--team:${team.color}"><span aria-hidden="true">🧗</span><b>${esc(team.icon||'')} ${esc(team.name)}</b></div>`;
   }).join('');
-  return `<div class="ty-mountain ${animate?'':'ty-still'}" role="img" aria-label="Positions sur la montagne"><div class="ty-slope"></div><div class="ty-sun"></div>${Array.from({length:g.levels+1},(_,i)=>`<span class="ty-step" style="left:${13+i/g.levels*67}%;bottom:${19+i/g.levels*66}%">${i}</span>`).join('')}${points}</div>`;
+  const steps=Array.from({length:g.levels+1},(_,i)=>{
+    const {x,y}=trackPoint(i,g.levels);
+    return `<span class="ty-step" aria-hidden="true" style="left:${x}%;bottom:${y}%">${i}</span>`;
+  }).join('');
+  return `<div class="ty-mountain ty-set ${animate?'':'ty-still'}" aria-label="Positions sur la montagne">${steps}${points}</div>`;
 }
 
 export function tyrolienScreen(g, role, esc, invite, code, draft={}, plan=null,teamManager='') {

@@ -477,3 +477,40 @@
 @media (max-width: 760px) {
   .show-set-piece { opacity: .65; }
 }
+
+/* Keep the plate and the live coordinates in the same 16:9 frame. */
+.ty-screen .ty-mountain.ty-set,
+.mountain-panel .ty-mountain.ty-set {
+  width: min(100%, 96svh);
+  height: auto;
+  aspect-ratio: 16 / 9;
+  margin-inline: auto;
+  isolation: isolate;
+  border: 1px solid #51648a;
+  background: #101d34 url('/tyrolien-plateau.webp') center / 100% 100% no-repeat;
+  box-shadow: 0 1rem 3rem #0307149c;
+}
+.mountain-desk .ty-mountain.ty-set,
+.ty-screen:not(.ty-tv) .ty-mountain.ty-set { width: min(100%, 34rem); }
+.ty-set .ty-step {
+  background: #0b172a;
+  border: 1px solid #ffda8a;
+  color: #fff3d4;
+  font-size: clamp(.55rem, 1.25vw, .86rem);
+  font-variant-numeric: tabular-nums;
+}
+.ty-set .ty-climber {
+  transform: translate(calc(-50% + var(--lane) * clamp(10px, 2.4vw, 33px)), -12px);
+}
+.ty-set .ty-climber b {
+  background: #091426;
+  color: #fff;
+  border: 1px solid var(--team);
+  white-space: nowrap;
+  max-width: 13ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.ty-set .ty-winner span { box-shadow: 0 0 1.5rem .5rem #ffce77; }
+.ty-set.ty-still .ty-climber, .no-show-animation .ty-set .ty-climber { animation: none; }
+.ty-set.ty-still .ty-climber.falling, .no-show-animation .ty-set .ty-climber.falling { display: none; }
