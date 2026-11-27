@@ -110,7 +110,8 @@ export default {
     data.questions=data.questions.map(q=>({id:String(q.id).slice(0,80),universe:q.target==='soundtrack'?q.universe:'music',cutAt:q.kind==='lyrics'?q.cutAt:undefined,kind:['audio','image','question','lyrics'].includes(q.kind)?q.kind:'question',prompt:q.prompt,answer:q.answer,explanation:typeof q.explanation==='string'?q.explanation.slice(0,1500):undefined,theme:typeof q.theme==='string'?q.theme.slice(0,80):undefined,credit:normalizeQuizCredit(q.credit),aliases:(Array.isArray(q.aliases)?q.aliases:[]).filter(v=>typeof v==='string').slice(0,15).map(v=>v.slice(0,180)),options:q.options,year:q.target==='timeline'&&Number.isInteger(q.year)?q.year:undefined,timeline:q.target==='timeline'&&Array.isArray(q.timeline)?q.timeline.filter(v=>typeof v==='string').slice(0,3).map(v=>v.slice(0,180)):undefined,optionArtwork:q.target==='coverChoice'?q.optionArtwork:undefined,duration:q.duration,points:q.points,title:typeof q.title==='string'?q.title.slice(0,180):undefined,artist:typeof q.artist==='string'?q.artist.slice(0,180):undefined,titleAliases:(Array.isArray(q.titleAliases)?q.titleAliases:[]).filter(v=>typeof v==='string').slice(0,10).map(v=>v.slice(0,180)),artistAliases:(Array.isArray(q.artistAliases)?q.artistAliases:[]).filter(v=>typeof v==='string').slice(0,10).map(v=>v.slice(0,180)),target:allowedTargets.includes(q.target)?q.target:'title',emoji:typeof q.emoji==='string'?q.emoji.slice(0,80):undefined,artwork:typeof q.artwork==='string'&&/^https:\/\/[^/]+\.dzcdn\.net\//.test(q.artwork)?q.artwork:undefined,link:typeof q.link==='string'&&/^https:\/\/www\.deezer\.com\//.test(q.link)?q.link:undefined,provider:q.provider==='Deezer'?'Deezer':undefined}));
     const randomTeamCount=Number.isInteger(data.randomTeamCount)&&data.randomTeamCount>=2&&data.randomTeamCount<=4&&
      !data.settings?.bingo&&!data.settings?.survival&&!data.settings?.timelineMode&&!data.settings?.chain&&data.input!=='buzzer'?data.randomTeamCount:0;
-    const setup={randomTeamCount,questions:data.questions,input:['text','buzzer'].includes(data.input)?data.input:'qcm',settings:data.settings&&typeof data.settings==='object'?data.settings:{},effect:['normal','fast','slow','chipmunk','reverse','image'].includes(data.effect)?data.effect:'normal'};
+    const musicGame=['blind','bingo','timeline','coversQuiz','soundtrack','covers','survival'].includes(data.musicGame)?data.musicGame:undefined;
+    const setup={musicGame,showAnimations:data.showAnimations!==false,randomTeamCount,questions:data.questions,input:['text','buzzer'].includes(data.input)?data.input:'qcm',settings:data.settings&&typeof data.settings==='object'?data.settings:{},effect:['normal','fast','slow','chipmunk','reverse','image'].includes(data.effect)?data.effect:'normal'};
     const status=await env.ROOMS.getByName(data.room).prepare(setup,await digest(data.token));
     return status===200?json({code:data.room,token:data.token}):json({error:status===404?'Cette soirée a expiré. Créez une nouvelle soirée.':status===403?'Accès animateur refusé.':'Terminez le jeu en cours avant de changer de jeu.'},status);
    }
@@ -276,7 +277,7 @@ export class PartyRoom extends DurableObject {
   const next={
    ...createGame(data.questions,current.teams,'phone',data.input,data.settings),
    teams:current.teams.map(({id,name,key,token})=>({id,name,key,token,score:0,streak:0})),
-   randomTeamCount:data.randomTeamCount||undefined,roulettePlayers:current.roulettePlayers,eveningTotals:eveningTotals(current),effect:data.effect,hostHash,code:current.code,expires:current.expires,revision:(current.revision||0)+1
+   musicGame:data.musicGame,showAnimations:data.showAnimations,randomTeamCount:data.randomTeamCount||undefined,roulettePlayers:current.roulettePlayers,eveningTotals:eveningTotals(current),effect:data.effect,hostHash,code:current.code,expires:current.expires,revision:(current.revision||0)+1
   };
   await this.ctx.storage.put('room',next);
   await this.schedule(next);
@@ -294,6 +295,8 @@ export class PartyRoom extends DurableObject {
   const state=s.tyrolien?tyrolienView(s,a.role,a.team):a.role==='host'
    ?{...s,hostHash:undefined}:publicGame(s,a.role==='player'?a.team:undefined);
   state.roulette=rouletteView(s.roulette);
+  state.musicGame=s.musicGame;
+  state.showAnimations=s.showAnimations;
   if(s.randomTeamAssignments){
    const groups=Array.from({length:s.randomTeamCount},(_,id)=>({id,name:'Équipe '+(id+1),score:0}));
    for(const player of s.teams)groups[s.randomTeamAssignments[player.id]].score+=player.score;
@@ -390,6 +393,13 @@ export class PartyRoom extends DurableObject {
     a.role='player';a.team=t.id;ws.serializeAttachment(a);
     this.send(ws,{type:'session',id:t.id,token:t.token});
     this.broadcast(s,t.id);
+    return;
+   }
+   if(m.type==='ceremony'&&a.role==='host'&&['lobby','finished'].includes(s.phase)){
+    const ranking=m.open?Object.values(eveningTotals(s)).sort((left,right)=>right.points-left.points):null;
+    for(const socket of this.ctx.getWebSockets()){
+     if(['host','tv'].includes(socket.deserializeAttachment()?.role))this.send(socket,{type:'ceremony',ranking,animation:m.animation!==false});
+    }
     return;
    }
    if(['roulette-start','roulette-stop','roulette-dismiss'].includes(m.type)){

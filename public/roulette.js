@@ -7,14 +7,14 @@ export function rouletteIndex(length) {
 
 export function changeRoulette(current, action, identity, participants, history, now) {
  const host=identity.role==='host';
- if(action.type==='roulette-start'&&host&&(!current||current.revealAt<=now)){
+ if(action.type==='roulette-start'&&host&&(!current||current.revealAt!==null&&current.revealAt<=now)){
   const options=[...new Map((Array.isArray(action.options)?action.options:[])
    .filter(option=>typeof option?.id==='string'&&option.id.length<=120&&typeof option?.name==='string'&&option.name.length<=100)
    .map(option=>[option.id,{id:option.id,name:option.name}])).values()];
   if(!options.length||!['game','playlist'].includes(action.kind))throw Error('Aucun choix compatible.');
   const unused=participants.filter(person=>!history.includes(person.id));
   const pool=unused.length?unused:participants;
-  const player=action.player?participants.find(person=>person.id===action.player):pool.length?pool[rouletteIndex(pool.length)]:null;
+  const player=action.hostOnly?null:action.player?participants.find(person=>person.id===action.player):pool.length?pool[rouletteIndex(pool.length)]:null;
   if(action.player&&!player)throw Error('Ce participant est déconnecté.');
   const animation=action.animation!==false;
   return {id:crypto.randomUUID(),kind:action.kind,player:player||null,animation,

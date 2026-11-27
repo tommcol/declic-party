@@ -591,3 +591,35 @@
 .setup-music .catalog-banner { justify-content: space-between; flex-wrap: wrap; gap: 8px; }
 .setup-launch h2 { margin: 0; font-size: 1.1rem; }
 @media (max-width: 760px) { .setup-columns { grid-template-columns: minmax(0, 1fr); } }
+
+.game-setup #music-games h1 { margin: 6px 0 12px; font-size: 1.65rem; }
+.game-setup .game-picker-card { min-height: 78px; }
+.game-setup .game-picker-card small { display: none; }
+.playlist-quick { display: grid; grid-template-columns: repeat(auto-fit, minmax(125px, 1fr)); gap: 8px; }
+.playlist-choice { position: relative; min-width: 0; }
+.playlist-tile { width: 100%; min-height: 64px; padding: 9px 10px; justify-content: center; gap: 3px; }
+.playlist-star { position: absolute; right: 5px; top: 5px; z-index: 1; }
+.playlist-choice:has(.playlist-star) .playlist-tile { padding-right: 32px; }
+.playlist-all { margin: 12px 0; }
+#setup-playlist-results details { margin: 8px 0; }
+#setup-playlist-results summary { min-height: 36px; }
+.question-picks { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.question-picks .btn { min-width: 44px; }
+.setup-roulette-overlay { position: fixed; inset: 0; z-index: 20; display: grid; place-items: center; background: #10091ccf; padding: 12px; }
+.setup-roulette-overlay .roulette-surfaces { width: min(460px, 100%); max-height: 95dvh; overflow: auto; }
+
+.roulette-dial { display: grid; place-items: center; position: relative; }
+.roulette-dial span { display: grid; place-items: center; width: 34%; aspect-ratio: 1; border-radius: 50%; background: #23173b; color: #e2f889; font-size: clamp(1.35rem, 5vw, 4rem); }
+.roulette-tv .roulette-dial::before { content: ""; position: absolute; inset: -13px; border: 1px solid #f7d1ff; border-radius: 50%; box-shadow: 0 0 42px #f58bff77; }
+.tv-intro .stage-wave { animation: tv-intro-in .55s ease-out both; }
+@keyframes tv-intro-in { from { opacity: 0; transform: translateY(12px) scale(.86); } }
+@media (prefers-reduced-motion: reduce) { .tv-intro .stage-wave { animation: none; } }
+.no-show-animation *, .no-show-animation *::before, .no-show-animation *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+.evening-ceremony .stage { min-height: min(70dvh, 680px); margin-top: 14px; }
+.evening-ceremony .podium > div { animation: tv-intro-in .55s ease-out both; }
+.evening-ceremony .podium > div:nth-child(2) { animation-delay: .12s; }
+.evening-ceremony .podium > div:nth-child(3) { animation-delay: .24s; }
+.setup-choices { padding: 0; border: 0; margin: 14px 0 0; min-width: 0; }
+.setup-choices legend { margin-bottom: 6px; font-weight: 700; }
+.setup-choices .row { flex-wrap: wrap; gap: 6px; }
+.setup-choices .btn { min-height: 36px; padding: 6px 9px; }

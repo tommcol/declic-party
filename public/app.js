@@ -39,10 +39,34 @@ const desk=new SoundDesk();
 desk.muted=read('declic.muted',false);
 let activeEvening=null, eveningStatus='loading', changingEvening=false;
 let wheel=null,localWheel=null,wheelTimer=null,wheelCelebration=null;
-const wheelPrefs={avoidGames:true,avoidPlaylists:true,avoidSongs:true};
+const wheelPrefs={avoidGames:true,avoidPlaylists:true,avoidSongs:true,...read('declic.wheelFilters',{})};
 let verifiedPlaylists=read('declic.verifiedPlaylists',{});
 let eveningUsage={games:[],playlists:[],songs:[],spinners:[]};
-let selectedPlaylists=catalogPool.playlistIds||[],viewBeforeLibrary='home';
+let selectedPlaylists=read('declic.playlistSelection',catalogPool.playlistIds||[]),viewBeforeLibrary='home';
+let playlistGroups=null, playlistRequest=null, playlistSearch='', allPlaylistsOpen=false;
+const openPlaylistSections=new Set();
+let favoritePlaylists=read('declic.playlistFavorites',[]);
+let recentPlaylists=read('declic.playlistRecent',[]);
+let surprisePending=false, ceremony=null;
+let showAnimations=read('declic.showAnimations',true);
+
+let customQuestionCount=false;
+const quickPlaylistIds=['alltime','1960','1970','1980','1990','2000','2010','2020','var','intl','rock','disco','party','mix'];
+const quickQuestionCounts=[5,10,15,20,30,50];
+const wheelGameSelection=read('declic.wheelGames',[]);
+const wheelSettings={player:'',animation:true,...read('declic.wheelPreferences',{})};
+function playlistIndex(){
+ return new Map((playlistGroups||[]).flatMap(group=>group.playlists).map(item=>[item.id,item]));
+}
+function loadPlaylistGroups(){
+ if(playlistGroups||playlistRequest)return;
+ playlistRequest=hostRequest('/api/library').then(data=>{playlistGroups=data.categories;},()=>{playlistGroups=[];})
+ .finally(()=>{playlistRequest=null;if(view==='setup')render();});
+}
+function savePlaylistSelection(){
+ write('declic.playlistSelection',selectedPlaylists);
+}
+
 function useEveningHistory(){
  if(!activeEvening)return;
  eveningUsage=read('declic.usage.'+activeEvening.code,{games:[],playlists:[],songs:[],spinners:[]});
@@ -56,9 +80,9 @@ let usbRevision=0, usbSave=null, usbRetry=null, usbQueue=[];
 const colors=['#e9ddff','#ffdfc9','#e4f1bc','#ffd9e9','#d5ecff','#ffeaa9','#d1f3e7','#e7ddf6','#ffdbd3','#d9e7f8'];
 const icons=['🪩','🎸','✨','⚡','🎬','🎤','🚀','🍿','🦄','🏆'];
 let channel=new BroadcastChannel('declic-screen');
-channel.onmessage=e=>{if(e.data.type==='roulette'&&role==='tv'&&!room){showWheel(e.data.wheel);return;}if(e.data.type==='request'&&role==='host'&&localWheel)channel.postMessage({type:'roulette',wheel:rouletteView(localWheel)});if(e.data.type==='ended'&&role==='tv'){game=null;render();}if(e.data.type==='request'&&game&&role==='host')broadcastTV();if(e.data.type==='state'&&role==='tv'&&!room){game=e.data.state;receive();}};
+channel.onmessage=e=>{if(e.data.type==='ceremony'&&role==='tv'&&!room){showCeremony(e.data);return;}if(e.data.type==='request'&&ceremony&&role==='host')channel.postMessage({type:'ceremony',ranking:ceremony,animation:showAnimations});if(e.data.type==='roulette'&&role==='tv'&&!room){showWheel(e.data.wheel);return;}if(e.data.type==='request'&&role==='host'&&localWheel)channel.postMessage({type:'roulette',wheel:rouletteView(localWheel)});if(e.data.type==='ended'&&role==='tv'){game=null;ceremony=null;render();}if(e.data.type==='request'&&game&&role==='host')broadcastTV();if(e.data.type==='state'&&role==='tv'&&!room){game=e.data.state;receive();}};
 function toast(s){$('#toast').textContent=s;$('#toast').classList.add('show');clearTimeout(toast.timeout);toast.timeout=setTimeout(()=>$('#toast').classList.remove('show'),4000);}
-function celebrate(){if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;const el=$('#confetti');el.innerHTML=Array.from({length:55},(_,i)=>`<i class="confetto" style="left:${Math.random()*100}%;background:${['#e2f889','#ff925b','#ffc6e0','#9f7af3','#79c5ed'][i%5]};animation-delay:${Math.random()*.5}s;animation-duration:${2+Math.random()}s;transform:rotate(${i*27}deg)"></i>`).join('');setTimeout(()=>el.replaceChildren(),4000);}
+function celebrate(){if(!showAnimations||role!=='host'&&game?.showAnimations===false||matchMedia('(prefers-reduced-motion: reduce)').matches)return;const el=$('#confetti');el.innerHTML=Array.from({length:55},(_,i)=>`<i class="confetto" style="left:${Math.random()*100}%;background:${['#e2f889','#ff925b','#ffc6e0','#9f7af3','#79c5ed'][i%5]};animation-delay:${Math.random()*.5}s;animation-duration:${2+Math.random()}s;transform:rotate(${i*27}deg)"></i>`).join('');setTimeout(()=>el.replaceChildren(),4000);}
 function saveConfig(){
  write('declic.config',config);
  if(config.musicGame){
@@ -75,7 +99,10 @@ function savedMusicGame(key){
 }
 function selectedQuestions(){if(config.source==='catalog'&&Object.hasOwn(SPECIAL_TRACKS,config.musicGame))return [];if(config.universe==='music'&&config.challenge==='lyrics')return(config.source==='demo'?DEMO:custom).filter(q=>q.universe===config.universe&&q.kind==='lyrics').slice(0,config.count);if(config.source==='catalog'&&config.universe==='music')return musicQuestions(catalogPool.tracks,config.musicGame==='bingo'?{...config,count:BINGO_CARD_SIZE,challenge:config.challenge==='artist'?'artist':'title',difficulty:'balanced'}:config);return(config.source==='custom'?custom:DEMO).filter(q=>q.universe===config.universe).slice(0,config.count);}
 function render(){
+ if(view==='setup'&&!playlistGroups)loadPlaylistGroups();
  const a=$('#app');
+ a.classList.toggle('no-show-animation',role==='host'?!showAnimations:game?.showAnimations===false);
+ if(role==='tv'&&ceremony){a.innerHTML=ceremonyMarkup();return;}
  a.classList.toggle('party-interface',role!=='host'||view!=='home');
  if($('#catalog-player'))desk.stop();
  if(view==='music-library'){
@@ -161,6 +188,16 @@ function stage(){if(!game)return '<div class="empty">En attente de l’animateur
   return `<div class="stage-content"><span class="eyebrow">MAILLON FAIBLE</span><h1>🏆 ${winners.map(t=>esc(t.name)).join(' · ')}</h1><p>${finalists[0]?.score||0} points sécurisés</p></div>`;
  }
  if(phase==='finished')return `<div class="stage-content"><span class="eyebrow">LE DERNIER MOT EST POUR VOUS</span><h1>Les champions du déclic !</h1><div class="podium">${sorted().slice(0,3).map((t,i)=>`<div><span style="font-size:35px">${['🏆','🥈','🥉'][i]}</span><strong>${esc(t.name)}</strong><span>${t.score} points</span></div>`).join('')}</div><p class="help">${total} manches. Bravo à toutes les équipes !</p></div>`;
+ if(role==='tv'&&phase==='lobby'&&q&&game.musicGame){
+  const selected=MUSIC_GAMES.find(([id])=>id===game.musicGame);
+  if(selected){
+   const [id,name,rules]=selected;
+   const anchor=game.timelineCards?.[0]||game.settings?.timelineAnchor;
+   return `<div class="stage-content tv-intro"><div class="stage-wave" aria-hidden="true">${homeIcon(id)}</div><h1>${name}</h1><p>${rules}</p>
+   ${anchor?`<p>Morceau de départ · ${esc(anchor.title)} · ${anchor.year}</p>`:''}
+   <p>Code de la soirée · <strong>${esc(room)}</strong></p></div>`;
+  }
+ }
  if(phase==='lobby'&&(game.timelineMode||game.settings?.timelineMode)){
   const anchor=game.timelineCards?.[0]||game.settings?.timelineAnchor;
   return `<div class="stage-content"><h1>Morceau de départ</h1>${timelineList(anchor?[anchor]:[],[])}</div>`;
@@ -168,6 +205,34 @@ function stage(){if(!game)return '<div class="empty">En attente de l’animateur
  if(phase==='lobby')return `<div class="stage-content"><span class="eyebrow">PRÊTS À FAIRE LE DÉCLIC ?</span><div class="stage-wave" aria-hidden="true">${homeIcon('wave')}</div><h1>La soirée commence ici.</h1><p class="help">${game.mode==='phone'?`Rejoignez avec le code <strong style="color:var(--lime);font-size:27px;letter-spacing:4px">${esc(room)}</strong>`:'Installez vos équipes et testez vos touches !'}</p><p class="mini" style="color:#c4b2dc">${game.teams.length} équipe(s) · ${total} questions</p>${role==='tv'&&game.roomCode?invitationMarkup(game.roomCode):''}</div>`;
  const reveal=phase==='reveal',count=phase==='playing'&&Date.now()<game.startAt?Math.ceil((game.startAt-Date.now())/1000):0;const art=q?.artwork&&(q.target==='cover'||q.target!=='coverChoice'&&game.effect==='image'||reveal);
  return `<span class="counter">${game.index+1} / ${total}</span><div class="stage-content"><span class="eyebrow">${q?.universe==='film'?'CINÉMA MUSICAL':'MUSIQUE'} · ${q?.kind==='lyrics'?'PAROLES À COMPLÉTER':q?.kind==='question'?'QUESTION':CHALLENGES.find(v=>v[0]===q?.target)?.[2]||'LE DÉFI'}</span>${game.settings?.bingo&&phase==='playing'?`<p class="bingo-tv-count">${game.bingoAnswered??game.answered?.length??0} / ${game.teams.length} réponses</p>`:''}${count?`<h1 class="countdown">${count}</h1><p class="help">À vos marques…</p>`:`<h1>${esc(game.timelineMode||game.settings?.timelineMode?'Où placer cette chanson sur la frise ?':q?.prompt)}</h1>${q?.target==='artistTitle'?`<div class="artist-cue">${esc(q.artist||q.displayArtist)}</div>`:''}${art?`<img src="${esc(q.artwork)}" alt="Pochette à identifier" ${q.target==='cover'||game.effect==='image'?'data-mystery':''}>`:q?.mediaKey&&q.kind==='image'||q?.imageUrl?'<div data-image></div>':q?.emoji?`<div class="big-emoji" data-mystery>${esc(q.emoji)}</div>`:q?.kind==='audio'?'<div class="record" aria-hidden="true"></div>':''}${phase==='buzzed'?`<div class="buzz-banner">⚡ ${esc(game.teams.find(t=>t.id===game.buzz)?.name)} a buzzé !</div>`:''}${phase==='paused'?'<div class="pause-banner">Ⅱ En pause · l’animateur garde la main</div>':''}${reveal?`<span class="eyebrow">LA RÉPONSE</span><h2>${esc(targets(q)[0]==='answer'&&q.target!=='coverChoice'&&q.target!=='timeline'?q.answer:q.title||q.answer)}</h2>${q.artist?`<p class="reveal-artist">${esc(q.artist)}</p>`:''}${questionExplanation(q)}${roundRecap()}${timelineDistribution()}${(game.chainVote||game.chainVoting)?'<p>Vote en cours sur les téléphones.</p>':''}${q.provider?`<a class="source-credit" href="${esc(q.link)}" target="_blank" rel="noopener noreferrer">Extrait fourni par Deezer · écouter le titre ↗</a>`:''}`:phase==='ready'?'<p class="help">Une nouvelle question vous attend.</p>':''}${listeningMarkup()}${(game.timelineMode||game.settings?.timelineMode)==='collective'?timelineList(game.timelineCards):''}${!reveal&&!(game.timelineMode||game.settings?.timelineMode)&&game.input==='qcm'&&game.mode==='phone'&&q?.options?.length?`<div class="options ${q.optionArtwork?'cover-options':''}">${q.options.map((o,i)=>`<div class="option"><span class="letter">${'ABCDE'[i]}</span>${q.optionArtwork?`<img src="${esc(q.optionArtwork[i])}" alt="Pochette ${esc(o)}" width="160" height="160">`:esc(o)}</div>`).join('')}</div>`:''}${timerMarkup()}`}</div>`;
+}
+function publishCeremony(open){
+ if(game?.mode==='usb'){
+  const ranking=open?Object.values(usbEveningTotals(game)).sort((a,b)=>b.points-a.points):null;
+  const message={type:'ceremony',ranking,animation:showAnimations};
+  channel.postMessage(message);showCeremony(message);return;
+ }
+ if(ws?.readyState===WebSocket.OPEN)ws.send(JSON.stringify({type:'ceremony',open,animation:showAnimations}));
+}
+function showCeremony(message){
+ ceremony=message.ranking;
+ if(role==='tv')showAnimations=message.animation!==false;
+ render();
+ if(ceremony&&showAnimations){
+  if(role==='tv')celebrate();
+  if(role==='host')desk.jingle('podium');
+ }
+}
+function ceremonyMarkup(){
+ const played=ceremony.filter(row=>row.played);
+ const fastest=[...played].filter(row=>Number.isFinite(row.best)).sort((a,b)=>a.best-b.best)[0];
+ const correct=[...played].sort((a,b)=>b.correct-a.correct)[0];
+ return `<main class="tv-shell evening-ceremony"><section class="stage"><div class="stage-content"><h1>Le podium de la soirée</h1>
+ <div class="podium">${played.slice(0,3).map((row,index)=>`<div><span>${['🏆','🥈','🥉'][index]}</span><strong>${esc(row.name)}</strong><span>${row.points} points</span></div>`).join('')}</div>
+ ${fastest?`<p>Réponse éclair · ${esc(fastest.name)} · ${(fastest.best/1000).toFixed(2)} s</p>`:''}
+ ${correct?`<p>Meilleur total de bonnes réponses · ${esc(correct.name)} · ${correct.correct}</p>`:''}
+ <p>${played.reduce((total,row)=>total+row.correct,0)} bonnes réponses cumulées</p></div></section>
+ <details class="control"><summary>Classement général</summary>${played.map((row,index)=>`<div class="leaderrow"><span>${index+1}</span><span>${esc(row.name)}</span><strong>${row.points} pts</strong></div>`).join('')}</details></main>`;
 }
 function eveningRanking(){
  if(role==='player'){
@@ -265,7 +330,7 @@ function hostRound(q,phase){
  ${game.timelineMode&&phase==='reveal'?timelineDistribution():''}
  </section>`;
 }
-function studio(){if(!game)return '<div class="empty">Aucune partie en cours.</div>';const q=currentQ(),ph=game.phase,wanted=q?targets(q):[],claimed=game.claimed||{};return `<main class="studio"><div class="row"><span class="eyebrow">LE STUDIO · ${game.mode==='usb'?'BUZZERS USB':'TÉLÉPHONES'}</span><span class="connection ${game.mode==='phone'&&!connected?'offline':''}">${game.mode==='phone'?(connected?'● Connecté':'○ Reconnexion…'):'● Partie sur ce PC'}</span><button class="btn ghost right" data-action="screen">▣ Écran public</button><button class="btn ghost" data-action="sound">${desk.muted?'♪ Jingles coupés':'♫ Jingles actifs'}</button></div>${randomTeamScores()}<div class="game-layout">${game.settings?.bingo?bingoDesk():hostRound(q,ph)}<aside class="control"><h3>${ph==='lobby'?'Tout le monde est là ?':ph==='finished'?'Quelle soirée !':'À vous les commandes'}</h3>${game.mode==='phone'&&ph==='lobby'?`<p class="help">Partagez le code avec vos équipes :</p>${invitationMarkup()}<button class="btn ghost full" data-action="copy-link">Copier le lien d’invitation</button>`:''}${!['lobby','finished'].includes(ph)?`<div class="answerbox"><small>RÉPONSE · ANIMATEUR</small><strong>${esc(targets(q)[0]==='answer'&&q.target!=='coverChoice'&&q.target!=='timeline'?q.answer:q.title||q.answer)}</strong>${q.artist?`<br>${esc(q.artist)}`:''}</div>`:''}${timelineControls(ph)}${q&&['lobby','ready'].includes(ph)?`<button class="btn primary full" data-action="play" ${busy||game.mode==='phone'&&game.teams.length<(game.randomTeamCount|| (game.settings?.chain?3:game.settings?.survival?2:1))?'disabled':''}>${busy?'Chargement de l’extrait…':'▶ '+(ph==='lobby'&&game.settings?.timelineMode?'Lancer le premier extrait à placer':ph==='lobby'?'Lancer la partie':(q?.kind==='question'?'Afficher la question':'Lancer l’extrait'))}</button>`:''}${ph==='buzzed'?`${wanted.length===2?`<div class="judge-grid"><button class="btn good" data-action="v2-judge" data-value="title" ${claimed.title?'disabled':''}>✓ Titre</button><button class="btn good" data-action="v2-judge" data-value="artist" ${claimed.artist?'disabled':''}>✓ Artiste</button></div><button class="btn good full" data-action="good">✓ Les deux</button>`:'<button class="btn good full" data-action="good">✓ Bonne réponse</button>'}<button class="btn bad full" data-action="bad">✕ Mauvaise réponse</button>`:''}${isProgressive(game,q)&&['playing','paused'].includes(ph)&&(game.listenStep||0)<3?`<button class="btn lime full" data-action="listen-more">Écouter ${LISTEN_STEPS[(game.listenStep||0)+1]} secondes →</button>`:''}${ph==='playing'?'<button class="btn ghost full" data-action="pause">Ⅱ Mettre en pause</button>':''}${ph==='paused'?'<button class="btn lime full" data-action="resume">▶ Reprendre la musique</button>':''}${!game.settings?.timelineMode&&['playing','buzzed','paused'].includes(ph)?'<button class="btn ghost full" data-action="reveal">Révéler et terminer la manche</button>':''}${ph==='reveal'?`<button class="btn primary full" data-action="next">${game.index+1>=(game.questions?.length||game.total)?'Le podium 🏆':game.settings?.timelineMode?'Extrait suivant →':'Question suivante →'}</button>${game.nextAt?'<p class="mini">La suite arrive automatiquement après 8 secondes.</p>':''}`:''}${ph==='finished'||ph==='lobby'?'<button class="btn lime full" data-action="new-game">'+(q||ph==='finished'?'Choisir le jeu suivant':'Choisir le premier jeu')+'</button>':''}${game.mode==='phone'&&game.input!=='buzzer'&&ph==='playing'?`<p class="help">${Object.keys(game.answers||{}).length} / ${game.teams.length} équipe(s) ont répondu</p>`:''}${Object.keys(claimed).length?`<p class="mini">${claimed.title?'✓ Titre trouvé ':''}${claimed.artist?'✓ Artiste trouvé':''}</p>`:''}<div class="divider"></div><span class="eyebrow">LE CLASSEMENT</span>${leaderboard()}${eveningRanking()}${game.teams.length?'<button class="textbtn" data-action="adjust">Ajuster un score</button>':''}${game.history?.length?'<button class="textbtn full" data-action="v2-history">Voir le détail des manches →</button>':''}</aside></div>${game.mode==='usb'?`<div class="keytips">${game.teams.map(t=>`<strong>[${esc(t.key)}]</strong> ${esc(t.name)}${game.blocked?.includes(t.id)?' · bloqué':''}`).join(' · ')}<br>Gardez la fenêtre du PC active pour recevoir les buzzers.</div>`:''}${audioError?`<div class="catalog-message">${esc(audioError)}</div>`:''}${q?.provider?'<p class="media-notice">Extrait Deezer diffusé par le PC animateur. Le titre complet est accessible après la révélation.</p>':''}</main>`;}
+function studio(){if(!game)return '<div class="empty">Aucune partie en cours.</div>';const q=currentQ(),ph=game.phase,wanted=q?targets(q):[],claimed=game.claimed||{};return `<main class="studio"><div class="row"><span class="eyebrow">LE STUDIO · ${game.mode==='usb'?'BUZZERS USB':'TÉLÉPHONES'}</span><span class="connection ${game.mode==='phone'&&!connected?'offline':''}">${game.mode==='phone'?(connected?'● Connecté':'○ Reconnexion…'):'● Partie sur ce PC'}</span><button class="btn ghost right" data-action="screen">▣ Écran public</button><button class="btn ghost" data-action="sound">${desk.muted?'♪ Jingles coupés':'♫ Jingles actifs'}</button></div>${randomTeamScores()}<div class="game-layout">${game.settings?.bingo?bingoDesk():hostRound(q,ph)}<aside class="control"><h3>${ph==='lobby'?'Tout le monde est là ?':ph==='finished'?'Quelle soirée !':'À vous les commandes'}</h3>${game.mode==='phone'&&ph==='lobby'?`<p class="help">Partagez le code avec vos équipes :</p>${invitationMarkup()}<button class="btn ghost full" data-action="copy-link">Copier le lien d’invitation</button>`:''}${!['lobby','finished'].includes(ph)?`<div class="answerbox"><small>RÉPONSE · ANIMATEUR</small><strong>${esc(targets(q)[0]==='answer'&&q.target!=='coverChoice'&&q.target!=='timeline'?q.answer:q.title||q.answer)}</strong>${q.artist?`<br>${esc(q.artist)}`:''}</div>`:''}${timelineControls(ph)}${q&&['lobby','ready'].includes(ph)?`<button class="btn primary full" data-action="play" ${busy||game.mode==='phone'&&game.teams.length<(game.randomTeamCount|| (game.settings?.chain?3:game.settings?.survival?2:1))?'disabled':''}>${busy?'Chargement de l’extrait…':'▶ '+(ph==='lobby'&&game.settings?.timelineMode?'Lancer le premier extrait à placer':ph==='lobby'?'Lancer la partie':(q?.kind==='question'?'Afficher la question':'Lancer l’extrait'))}</button>`:''}${ph==='buzzed'?`${wanted.length===2?`<div class="judge-grid"><button class="btn good" data-action="v2-judge" data-value="title" ${claimed.title?'disabled':''}>✓ Titre</button><button class="btn good" data-action="v2-judge" data-value="artist" ${claimed.artist?'disabled':''}>✓ Artiste</button></div><button class="btn good full" data-action="good">✓ Les deux</button>`:'<button class="btn good full" data-action="good">✓ Bonne réponse</button>'}<button class="btn bad full" data-action="bad">✕ Mauvaise réponse</button>`:''}${isProgressive(game,q)&&['playing','paused'].includes(ph)&&(game.listenStep||0)<3?`<button class="btn lime full" data-action="listen-more">Écouter ${LISTEN_STEPS[(game.listenStep||0)+1]} secondes →</button>`:''}${ph==='playing'?'<button class="btn ghost full" data-action="pause">Ⅱ Mettre en pause</button>':''}${ph==='paused'?'<button class="btn lime full" data-action="resume">▶ Reprendre la musique</button>':''}${!game.settings?.timelineMode&&['playing','buzzed','paused'].includes(ph)?'<button class="btn ghost full" data-action="reveal">Révéler et terminer la manche</button>':''}${ph==='reveal'?`<button class="btn primary full" data-action="next">${game.index+1>=(game.questions?.length||game.total)?'Le podium 🏆':game.settings?.timelineMode?'Extrait suivant →':'Question suivante →'}</button>${game.nextAt?'<p class="mini">La suite arrive automatiquement après 8 secondes.</p>':''}`:''}${ph==='finished'||ph==='lobby'?'<button class="btn lime full" data-action="new-game">'+(q||ph==='finished'?'Choisir le jeu suivant':'Choisir le premier jeu')+'</button>':''}${game.mode==='phone'&&game.input!=='buzzer'&&ph==='playing'?`<p class="help">${Object.keys(game.answers||{}).length} / ${game.teams.length} équipe(s) ont répondu</p>`:''}${Object.keys(claimed).length?`<p class="mini">${claimed.title?'✓ Titre trouvé ':''}${claimed.artist?'✓ Artiste trouvé':''}</p>`:''}<div class="divider"></div><span class="eyebrow">LE CLASSEMENT</span>${leaderboard()}${eveningRanking()}${ph==='finished'?'<button class="btn ghost full" data-action="ceremony">Podium de la soirée · TV</button>':''}${game.teams.length?'<button class="textbtn" data-action="adjust">Ajuster un score</button>':''}${game.history?.length?'<button class="textbtn full" data-action="v2-history">Voir le détail des manches →</button>':''}</aside></div>${game.mode==='usb'?`<div class="keytips">${game.teams.map(t=>`<strong>[${esc(t.key)}]</strong> ${esc(t.name)}${game.blocked?.includes(t.id)?' · bloqué':''}`).join(' · ')}<br>Gardez la fenêtre du PC active pour recevoir les buzzers.</div>`:''}${audioError?`<div class="catalog-message">${esc(audioError)}</div>`:''}${q?.provider?'<p class="media-notice">Extrait Deezer diffusé par le PC animateur. Le titre complet est accessible après la révélation.</p>':''}</main>`;}
 function tvScreen(){return `<main class="tv-shell"><div class="row">${brand()}<span class="right">L’ÉCRAN DE LA SOIRÉE</span><button class="btn" data-action="fullscreen">⛶ Plein écran</button></div><section class="stage ${game?.phase==='playing'?'playing':''}">${stage()}</section> ${scorebar()}${eveningRanking()}</main>`;}
 function joinScreen(){return `<main class="phone-shell">${brand()}<div class="joincard"><span class="eyebrow">ON VOUS GARDAIT UNE PLACE</span><h1>Entrez dans la partie.</h1><p class="help">Votre prénom, le code de l’animateur et à vous de jouer.</p><form id="join-form"><label class="field-label" for="join-code">Code de la partie</label><input id="join-code" name="code" required minlength="8" maxlength="8" autocapitalize="characters" placeholder="EX. ABCD2345" value="${esc(room||'')}" autocomplete="off"><label class="field-label" for="join-name">Votre prénom ou nom d’équipe</label><input id="join-name" name="name" required maxlength="24" placeholder="Les rois du refrain" autocomplete="nickname"><button class="btn primary full" type="submit" ${busy?'disabled':''}>${busy?'Connexion…':'Rejoindre la soirée →'}</button></form></div><p class="caption">Le son est diffusé dans la salle par l’animateur.<br>Gardez cet écran ouvert pendant la partie.</p></main>`;}
 function timelineList(cards=[],slots=[]){
@@ -493,7 +558,8 @@ window.addEventListener('storage',event=>{
  if(event.key==='declic.hostSessionChanged'&&view==='home'&&!changingEvening)void loadEvening();
 });
 function clearEvening(){
- clearTimeout(wheelTimer);wheel=null;localWheel=null;selectedPlaylists=[];
+ ceremony=null;
+ clearTimeout(wheelTimer);wheel=null;localWheel=null;surprisePending=false;
  clearTimeout(reconnect);clearTimeout(usbRetry);
  if(ws){ws.onclose=null;ws.close();ws=null;}
  game=null;room=null;auth=null;connected=false;usbRevision=0;usbQueue=[];
@@ -639,6 +705,11 @@ async function launch(){if(busy)return;busy=true;catalogMessage='';audioError=''
  const covers=config.challenge==='coverChoice'&&config.source==='catalog'&&config.universe==='music';
  if((chain||special||bingo||survival||covers)&&(config.mode!=='phone'||config.input!=='qcm'))throw Error('Ce jeu se joue en QCM sur téléphone.');
  if(covers&&config.effect==='image')throw Error('Choisissez un autre effet pour garder la bonne pochette cachée.');
+ if(selectedPlaylists.length&&!fixedGameMusic()){
+  const index=playlistIndex();
+  const choices=selectedPlaylists.map(id=>index.get(id)||verifiedPlaylists[id]).filter(Boolean).map(item=>[item.id,item.name]);
+  if(choices.length)await resolvePlaylistSelection(choices);
+ }
  if(!special&&config.source==='catalog'&&config.universe==='music'&&(!catalogPool.tracks.length||config.catalogFrom!=='explorer'&&catalogPool.themeKey!==config.themes.join(',')))await loadThemes();
  const selection=special==='soundtrack'?(config.soundtrackCategory||'soundtrack'):special;
  let qs=selection?await loadSpecialQuestions(selection):selectedQuestions();if(!qs.length)throw Error(covers?'Choisissez des titres issus d’au moins quatre albums différents.':config.challenge==='artistTitle'?'Il faut au moins 4 titres du même artiste pour ce défi. Recherchez un artiste dans Les musiques.':'Aucun contenu jouable dans cette sélection. Ajoutez des titres ou choisissez Découverte.');
@@ -657,6 +728,8 @@ async function launch(){if(busy)return;busy=true;catalogMessage='';audioError=''
  if(config.mode==='usb'){
   const state=createGame(questions,config.teams,'usb','text',config.settings);
   state.effect=config.effect;
+  state.musicGame=config.musicGame;
+  state.showAnimations=showAnimations;
   state.eveningTotals=game?.mode==='usb'?usbEveningTotals(game):{};
   queueUSB(state);openUSB(state);recordLaunch();return;
  }
@@ -671,7 +744,7 @@ async function launch(){if(busy)return;busy=true;catalogMessage='';audioError=''
  const clean=questions.map(({mediaKey,mediaType,notes,audioUrl,...q})=>q);
  const existing={room:activeEvening.code,token:activeEvening.token};
  const effect=bingo||special?'normal':config.effect;
- const data=await requestRoom({...existing,questions:clean,input:config.input,randomTeamCount:randomTeamsSelected()?Number(config.randomTeamCount)||2:0,settings:{...config.settings,survival,bingo,chain,timelineMode:timelineAnchor?(config.timelineMode||'collective'):undefined,timelineAnchor,listening:bingo||chain?'continuous':config.settings.listening},effect});
+ const data=await requestRoom({...existing,questions:clean,input:config.input,musicGame:config.musicGame,showAnimations,randomTeamCount:randomTeamsSelected()?Number(config.randomTeamCount)||2:0,settings:{...config.settings,survival,bingo,chain,timelineMode:timelineAnchor?(config.timelineMode||'collective'):undefined,timelineAnchor,listening:bingo||chain?'continuous':config.settings.listening},effect});
  if(activeEvening.usb?.state){
   const {revision}=await eveningRequest('PUT',{code:activeEvening.code,revision:usbRevision,id:randomUUID(),state:null});
   usbRevision=revision;activeEvening.usb={state:null,revision};
@@ -697,7 +770,7 @@ function receiveBingoAnswer(message){
 }
 function connect(){clearTimeout(reconnect);if(ws){ws.onclose=null;ws.close();}connected=false;ws=new WebSocket(`${location.protocol==='https:'?'wss:':'ws:'}//${location.host}/api/rooms/${room}`);const socket=ws;
  socket.onopen=()=>{connected=true;socket.send(JSON.stringify(auth));};
- socket.onmessage=e=>{if(e.data==='pong')return;try{const m=JSON.parse(e.data);if(m.type==='roulette'){showWheel(m.wheel);return;}if(m.type==='bingo-answer'){receiveBingoAnswer(m);return;}if(m.type==='error'){busy=false;if(pendingBingo){pendingBingo=undefined;render();}toast(m.message);if(view==='join')render();if(/expir|introuvable|refus|commencé|déjà|maximum|Entrez/.test(m.message)){socket.onclose=null;socket.close();connected=false;}return;}if(m.type==='session'){teamId=m.id;sessionStorage.setItem('declic.player.'+room,JSON.stringify({id:m.id,token:m.token}));auth={type:'join',token:m.token};role='player';view='phone';busy=false;}if(m.type==='state'){game=m.state;wheel=game.roulette||null;if(role==='host'&&resumeOnConnect){resumeOnConnect=false;if(game.phase==='finished')view='setup';}if(game.tyrolien){void receive();return;}game.teams=game.teams.map(({id,name,score,key,streak,eliminated,lives,bingo})=>({id,name,score,key,streak,eliminated,lives,bingo}));if(role==='host'){if(view==='studio'&&!game.questions.length)view='setup';const saved=read('declic.host',{});if(saved.room===room){game.effect=saved.effect||game.effect;game.questions=game.questions.map(q=>({...q,...saved.questions?.find(v=>v.id===q.id),duration:q.duration}));}if(game.phase==='playing'&&!audioReady)void ensureAudio().catch(error=>toast(error.message));}void receive();}}catch{toast('Erreur de synchronisation.');}};
+ socket.onmessage=e=>{if(e.data==='pong')return;try{const m=JSON.parse(e.data);if(m.type==='ceremony'){showCeremony(m);return;}if(m.type==='roulette'){showWheel(m.wheel);return;}if(m.type==='bingo-answer'){receiveBingoAnswer(m);return;}if(m.type==='error'){busy=false;if(pendingBingo){pendingBingo=undefined;render();}toast(m.message);if(view==='join')render();if(/expir|introuvable|refus|commencé|déjà|maximum|Entrez/.test(m.message)){socket.onclose=null;socket.close();connected=false;}return;}if(m.type==='session'){teamId=m.id;sessionStorage.setItem('declic.player.'+room,JSON.stringify({id:m.id,token:m.token}));auth={type:'join',token:m.token};role='player';view='phone';busy=false;}if(m.type==='state'){game=m.state;wheel=game.roulette||null;if(role==='host'&&resumeOnConnect){resumeOnConnect=false;if(game.phase==='finished')view='setup';}if(game.tyrolien){void receive();return;}game.teams=game.teams.map(({id,name,score,key,streak,eliminated,lives,bingo})=>({id,name,score,key,streak,eliminated,lives,bingo}));if(role==='host'){if(view==='studio'&&!game.questions.length)view='setup';const saved=read('declic.host',{});if(saved.room===room){game.effect=saved.effect||game.effect;game.questions=game.questions.map(q=>({...q,...saved.questions?.find(v=>v.id===q.id),duration:q.duration}));}if(game.phase==='playing'&&!audioReady)void ensureAudio().catch(error=>toast(error.message));}void receive();}}catch{toast('Erreur de synchronisation.');}};
  socket.onclose=event=>{connected=false;busy=false;
  if(event.code===4001){
   if(role==='host'){if(!changingEvening){clearEvening();view='home';void loadEvening();}}
@@ -715,7 +788,7 @@ setInterval(()=>{
  }if(role==='host'&&game.mode==='usb'&&ph==='reveal'&&game.nextAt&&now>=game.nextAt){send({type:'next'});return;}
  if(ph==='playing'){
   if(role==='host'&&now>=game.startAt&&now<game.endAt){const heard=currentQ()?.trackId;if(heard&&!eveningUsage.songs.includes(heard))rememberUsage('songs',[heard]);}
-  const n=Math.max(0,Math.ceil((game.startAt-now)/1000));if(seenCount!==n){const previous=seenCount;seenCount=n;if(n||previous>0){render();void prepareImage();}if(n&&role==='host'&&n!==countdown){desk.jingle('tick');countdown=n;}}
+  const n=Math.max(0,Math.ceil((game.startAt-now)/1000));if(seenCount!==n){const previous=seenCount;seenCount=n;if(n||previous>0){render();void prepareImage();}if(n&&role==='host'&&showAnimations&&n!==countdown){desk.jingle('tick');countdown=n;}}
   if(role==='host'&&audioReady&&now>=game.startAt&&now<game.endAt){const segment=currentQ()?.id+':'+(game.listenStep||0);if(audioSegment!==segment){desk.stop();audioSegment=segment;}const left=audioRemaining(game,now);if(left>0)desk.play(left);else desk.pause();}
   if(now>=game.endAt&&role==='host'&&game.mode==='usb'){send({type:'timeout'});return;}
  }
@@ -737,6 +810,8 @@ document.addEventListener('click',async e=>{const b=e.target.closest('[data-acti
  }
  if(act==='close-modal'){closeModal();return;}
  if(act==='fullscreen'){if(!document.fullscreenElement)await document.documentElement.requestFullscreen();else await document.exitFullscreen();return;}
+ if(act==='toggle-show'){showAnimations=!showAnimations;write('declic.showAnimations',showAnimations);render();return;}
+ if(act==='ceremony'){await desk.unlock();publishCeremony(!ceremony);return;}
  if(act==='sound'){desk.muted=!desk.muted;write('declic.muted',desk.muted);render();return;}
  if(act==='create-evening'){
   if(changingEvening||eveningStatus!=='ready')return;
@@ -753,9 +828,35 @@ document.addEventListener('click',async e=>{const b=e.target.closest('[data-acti
  if(act==='home'){if(role!=='host'&&game)return;view='home';void loadEvening();return;}
  if(act==='library'||act==='help'){view=act;render();return;}
  if(act==='music-game'){selectGame(v);return;}
- if(act==='roulette-game'||act==='roulette-playlist'){await startWheel(act.split('-')[1]);return;}
+ if(act==='playlist-toggle'){
+  selectedPlaylists=selectedPlaylists.includes(v)?selectedPlaylists.filter(id=>id!==v):[...selectedPlaylists,v];
+  if(!selectedPlaylists.length){config.catalogFrom='themes';saveConfig();}
+  savePlaylistSelection();render();return;
+ }
+ if(act==='playlist-clear'){selectedPlaylists=[];config.catalogFrom='themes';savePlaylistSelection();saveConfig();render();return;}
+ if(act==='playlist-favorite'){
+  favoritePlaylists=favoritePlaylists.includes(v)?favoritePlaylists.filter(id=>id!==v):[...favoritePlaylists,v];
+  write('declic.playlistFavorites',favoritePlaylists);render();return;
+ }
+ if(act==='all-playlists'){
+  if(playlistGroups?.length===0){playlistGroups=null;loadPlaylistGroups();}
+  allPlaylistsOpen=!allPlaylistsOpen;render();return;
+ }
+ if(act==='setup-choice'){
+  const key=b.dataset.key;
+  if(key==='challenge'){
+   config.challenge=v;
+   if(config.mode==='phone'&&v==='both'&&config.input==='qcm')config.input='text';
+  }else if(key==='participation'||key==='randomTeamCount'||key==='timelineMode'||key==='soundtrackCategory'||key==='coversDirection'){
+   config[key]=v;
+  }
+  saveConfig();render();return;
+ }
+ if(act==='question-count'){customQuestionCount=v==='custom';if(!customQuestionCount){config[config.musicGame==='timeline'?'timelineCount':'count']=questionCount(v);saveConfig();}render();return;}
+ if(act==='surprise-total'){if(busy||wheel&&!wheel.result)return;surprisePending=true;try{await startWheel('game');}catch(error){surprisePending=false;throw error;}return;}
+ if(act==='roulette-game'||act==='roulette-playlist'){if(busy||wheel&&!wheel.result)return;surprisePending=false;await startWheel(act.split('-')[1]);return;}
  if(act==='roulette-stop'){await wheelAction({type:act,id:wheel?.id});return;}
- if(act==='roulette-dismiss'){await wheelAction({type:act,id:wheel?.id});return;}
+ if(act==='roulette-dismiss'){surprisePending=false;await wheelAction({type:act,id:wheel?.id});return;}
  if(act==='roulette-retry'){await startWheel(wheel.kind);return;}
  if(act==='roulette-confirm'){await confirmWheel();return;}
  if(act==='music-style'){config.musicStyle=v;saveConfig();viewBeforeLibrary='setup';view='music-library';render();return;}
@@ -773,7 +874,7 @@ document.addEventListener('click',async e=>{const b=e.target.closest('[data-acti
  if(act==='mode'){config.mode=v;if(!availableGame(config.musicGame)){config.musicGame='blind';config.challenge='title';}if(v==='phone'&&config.input==='qcm'&&config.challenge==='both')config.challenge='title';saveConfig();render();return;}
  if(act==='add-team'){const id=randomUUID();config.teams.push({id,name:'Équipe '+(config.teams.length+1),key:'1234567890'.split('').find(k=>!config.teams.some(t=>t.key===k))});saveConfig();render();return;}
  if(act==='remove-team'){config.teams.splice(Number(v),1);saveConfig();render();return;}
- if(act==='launch'){await launch();return;}
+ if(act==='launch'){if(ceremony)publishCeremony(false);await launch();return;}
  if(act==='next'&&game?.settings?.timelineMode&&game.phase==='reveal'&&game.questions[game.index+1]){
   if(busy)return;
   busy=true;render();
@@ -861,45 +962,49 @@ function historyScreen(){return `<main class="library"><div class="row"><div><sp
 function persistPool(){write('declic.musicPool',catalogPool);}
 async function prepareLibrarySelection(selection){
  if(busy||!selection.length)return;
- busy=true;
- toast('Recherche des extraits disponibles…');
- try{
-  const cached=selection.length===1&&verifiedPlaylists[selection[0][0]];
-  const required=config.musicGame==='bingo'?16:config.count;
-  if(cached&&playlistTracks(cached).length>=required){
-   catalogPool={name:cached.name,tracks:playlistTracks(cached),themeKey:'',playlistIds:[cached.id]};
-   selectedPlaylists=[cached.id];
-   config.catalogFrom='explorer';config.source='catalog';
-   persistPool();saveConfig();view='setup';return;
+ selectedPlaylists=[...new Set(selection.map(([id])=>id))];
+ savePlaylistSelection();
+ view='setup';
+ render();
+}
+async function resolvePlaylistSelection(selection,{useForGame=true}={}){
+ const required=config.musicGame==='bingo'?16:config.count;
+ const tracks=new Map();
+ function add(id,name,items){
+  const known=verifiedPlaylists[id]?.tracks||[];
+  const merged=[...new Map([...known,...items].map(track=>[track.id,track])).values()];
+  if(merged.length)verifiedPlaylists[id]={id,name,tracks:merged};
+  for(const track of merged)tracks.set(track.id,track);
+ }
+ for(const [id,name] of selection)add(id,name,[]);
+ const enough=()=>tracks.size>=required&&musicQuestions([...tracks.values()],{...config,count:required}).length>=required;
+ if(!enough()||selection.some(([id])=>!verifiedPlaylists[id])){
+  const pages=await Promise.all(selection.map(async ([id,name])=>({
+   id,name,tracks:(await hostRequest('/api/library/candidates?playlist='+encodeURIComponent(id))).tracks
+  })));
+  const attempted=new Map();
+  for(let offset=0;offset<Math.max(...pages.map(page=>page.tracks.length));offset++){
+   const batch=pages.flatMap(page=>page.tracks[offset]?[{candidate:page.tracks[offset],page}]:[]);
+   for(let i=0;i<batch.length;i+=4){
+    await Promise.allSettled(batch.slice(i,i+4).map(async ({candidate,page})=>{
+     if(!attempted.has(candidate.id)){
+      if(attempted.size>=Math.min(120,required*3+20))return;
+      const pending=apiJSON('/api/music/search?q='+encodeURIComponent(candidate.title+' '+candidate.artist))
+       .then(data=>matchSpecialTrack(data.tracks||[],candidate.title,candidate.artist),()=>null);
+      attempted.set(candidate.id,pending);
+     }
+     const hit=await attempted.get(candidate.id);
+     if(hit)add(page.id,page.name,[{...hit,year:candidate.year,work:candidate.work}]);
+    }));
+   }
+   if(enough()&&pages.every(page=>verifiedPlaylists[page.id])||attempted.size>=Math.min(120,required*3+20))break;
   }
-  const pages=await Promise.all(selection.map(([id])=>hostRequest('/api/library/candidates?playlist='+encodeURIComponent(id))));
-  const candidates=shuffle([...new Map(pages.flatMap(page=>page.tracks).map(track=>[track.id,track])).values()]).slice(0,32);
-  const tracks=[];
-  for(let i=0;i<candidates.length;i+=4){
-   const matches=await Promise.allSettled(candidates.slice(i,i+4).map(async candidate=>{
-    const data=await apiJSON('/api/music/search?q='+encodeURIComponent(candidate.title+' '+candidate.artist));
-    const hit=matchSpecialTrack(data.tracks||[],candidate.title,candidate.artist);
-    return hit?{...hit,year:candidate.year,work:candidate.work}:null;
-   }));
-   for(const response of matches)if(response.status==='fulfilled'&&response.value)tracks.push(response.value);
-  }
-  if(selection.length===1&&tracks.length){
-   const [[id,name]]=selection;
-   const merged=[...new Map([...(cached?.tracks||[]),...tracks].map(track=>[track.id,track])).values()];
-   verifiedPlaylists[id]={id,name,tracks:merged};
-   write('declic.verifiedPlaylists',verifiedPlaylists);
-  }
-  if(!tracks.length)throw Error('Aucun extrait correspondant trouvé dans cette sélection. Essayez une autre playlist.');
-  selectedPlaylists=selection.map(([id])=>id);
-  catalogPool={name:selection.map(([,name])=>name).join(' + '),tracks,themeKey:'',playlistIds:selectedPlaylists};
-  config.catalogFrom='explorer';
-  config.source='catalog';
-  persistPool();
-  saveConfig();
-  catalogMessage=`${tracks.length} extraits trouvés dans les playlists sélectionnées.`;
-  view='setup';
- }catch(error){toast(error.message);}
- finally{busy=false;render();}
+  write('declic.verifiedPlaylists',verifiedPlaylists);
+ }
+ if(!tracks.size)throw Error('Aucun extrait disponible dans les playlists choisies.');
+ if(!useForGame)return;
+ catalogPool={name:selection.map(([,name])=>name).join(' + '),tracks:[...tracks.values()],themeKey:'',playlistIds:selection.map(([id])=>id)};
+ config.catalogFrom='explorer';persistPool();saveConfig();
 }
 async function loadSpecialQuestions(mode){
  const entries=[];
@@ -948,7 +1053,7 @@ document.addEventListener('click',async e=>{const b=e.target.closest('[data-acti
  if(act==='v2-theme'){if(config.challenge==='lyrics')config.challenge='title';if(config.themes.includes(v)){if(config.themes.length===1){toast('Gardez au moins une ambiance.');return;}config.themes=config.themes.filter(id=>id!==v);}else{if(config.themes.length>=3){toast('Vous pouvez mélanger jusqu’à trois ambiances.');return;}config.themes.push(v);}config.catalogFrom='themes';config.source='catalog';saveConfig();render();}
  if(act==='v2-challenge'){config.challenge=v;if(v==='lyrics')config.source='custom';if(!(['bingo','survival','blind'].includes(config.musicGame)&&['title','artist',...(config.musicGame==='blind'?['both']:[])].includes(v)))config.musicGame=null;if(v==='both'&&config.mode==='phone')config.input='text';saveConfig();render();}
  if(act==='v2-load-themes')await withBusy(loadThemes);
- if(act==='v2-use-catalog'){if(!activeEvening){view='home';render();toast('Créez une soirée pour utiliser cette sélection.');return;}if(!catalogPool.tracks.length){toast('Ajoutez des titres ou importez une playlist.');return;}config.catalogFrom='explorer';config.source='catalog';config.universe='music';saveConfig();view='setup';render();}
+ if(act==='v2-use-catalog'){if(!activeEvening){view='home';render();toast('Créez une soirée pour utiliser cette sélection.');return;}if(!catalogPool.tracks.length){toast('Ajoutez des titres ou importez une playlist.');return;}selectedPlaylists=[];savePlaylistSelection();config.catalogFrom='explorer';config.source='catalog';config.universe='music';saveConfig();view='setup';render();}
  if(act==='v2-add-track'){const t=catalogResults.tracks.find(t=>t.id===v);if(t&&!catalogPool.tracks.some(x=>x.id===v)){if(catalogPool.tracks.length>=100){toast('100 titres maximum par sélection.');return;}catalogPool={name:'Ma sélection',tracks:[...catalogPool.tracks,t],themeKey:''};config.catalogFrom='explorer';config.source='catalog';persistPool();saveConfig();render();}}
  if(act==='v2-remove-track'){catalogPool.tracks=catalogPool.tracks.filter(t=>t.id!==v);persistPool();render();}
  if(act==='v2-add-all'){const all=[...new Map([...catalogPool.tracks,...catalogResults.tracks].map(t=>[t.id,t])).values()].slice(0,100);catalogPool={name:'Ma sélection',tracks:all,themeKey:''};config.catalogFrom='explorer';persistPool();saveConfig();render();}
@@ -958,7 +1063,7 @@ document.addEventListener('click',async e=>{const b=e.target.closest('[data-acti
  if(act==='v2-preview'){const t=[...(catalogResults.tracks||[]),...catalogPool.tracks].find(t=>t.id===v),player=$('#catalog-player');if(t&&player){player.classList.remove('hidden');player.querySelector('span').textContent='Chargement de '+t.title+'…';try{await desk.load({id:'preview-'+v,audioUrl:t.preview},null,'normal');if($('#catalog-player')!==player||player.classList.contains('hidden')||desk.id!=='preview-'+v)return;desk.play();if(desk.source)desk.source.loop=false;player.querySelector('span').textContent='♫ '+t.title+' · '+t.artist;}catch(err){player.querySelector('span').textContent=err.message;}}}
  if(act==='v2-judge'){await desk.unlock();send({type:'judge',correct:true,part:v});}
 });
-document.addEventListener('change',e=>{const el=e.target;if(el.dataset.config){const k=el.dataset.config;if(k==='answerTarget'){config.challenge=el.value;if(el.value==='both'&&config.mode==='phone'&&config.input==='qcm')config.input='text';saveConfig();render();return;}config[k]=k==='explicit'?!el.checked:k==='count'?questionCount(el.value):k==='duration'?Number(el.value):el.value;saveConfig();if(k==='count'){el.value=config.count;return;}if(k!=='explicit')render();}if(el.dataset.setting){const k=el.dataset.setting;config.settings[k]=el.type==='checkbox'?el.checked:el.type==='number'?Number(el.value):el.value;config.settings=gameSettings(config.settings);saveConfig();}});
+document.addEventListener('change',e=>{const el=e.target;if(el.dataset.config){const k=el.dataset.config;if(k==='answerTarget'){config.challenge=el.value;if(el.value==='both'&&config.mode==='phone'&&config.input==='qcm')config.input='text';saveConfig();render();return;}config[k]=k==='explicit'?!el.checked:k==='count'?questionCount(el.value):k==='timelineCount'?Math.min(SPECIAL_TRACKS.timeline.length-1,questionCount(el.value)):k==='duration'?Number(el.value):el.value;saveConfig();if(k==='count'||k==='timelineCount'){el.value=config[k];return;}if(k!=='explicit')render();}if(el.dataset.setting){const k=el.dataset.setting;config.settings[k]=el.type==='checkbox'?el.checked:el.type==='number'?Number(el.value):el.value;config.settings=gameSettings(config.settings);saveConfig();}});
 document.addEventListener('submit',async e=>{const form=e.target;if(!['catalog-search','playlist-import'].includes(form.id))return;e.preventDefault();const data=new FormData(form);
  if(form.id==='catalog-search'){catalogQuery=String(data.get('query')).trim();catalogSearchType=data.get('type');catalogMessage='Recherche en cours…';await withBusy(async()=>{catalogResults=await apiJSON('/api/music/search?q='+encodeURIComponent(catalogQuery)+'&type='+catalogSearchType);catalogMessage=catalogSearchType==='playlists'?`${catalogResults.playlists.length} playlist(s) trouvée(s).`:`${catalogResults.tracks.length} titre(s) avec un extrait disponible.`;});}
  if(form.id==='playlist-import'){const value=String(data.get('url')).trim();let id=value;if(!/^\d+$/.test(id)){try{const u=new URL(value);if(!/(^|\.)deezer\.com$/.test(u.hostname))throw Error();id=u.pathname.match(/\/playlist\/(\d+)/)?.[1];}catch{id=null;}}if(!id){catalogMessage='Collez un lien complet de playlist Deezer publique (deezer.com/…/playlist/123). Les liens Spotify ne sont pas pris en charge.';render();return;}await withBusy(()=>loadPlaylist(id));}
@@ -981,7 +1086,7 @@ const gameIcons={
 };
 function selectGame(v){
   if(!availableGame(v))return;
-  advancedOpen=false;
+  advancedOpen=false;customQuestionCount=false;
   Object.assign(config,{musicGame:v,universe:'music',source:'catalog',challenge:v==='covers'?'coverChoice':'title',effect:'normal',input:'qcm',
    count:10,duration:30,difficulty:'balanced',explicit:false,timelineMode:'collective',timelineCount:5,
    soundtrackCategory:'soundtrack',soundtrackChoices:4,coversDirection:'cover',settings:gameSettings()},gamePreferences[v]);
@@ -993,7 +1098,12 @@ function fixedGameMusic(id=config.musicGame){
 }
 function recordLaunch(){
  if(config.musicGame)rememberUsage('games',[config.musicGame]);
- if(config.source==='catalog'&&config.catalogFrom==='explorer'&&!fixedGameMusic())rememberUsage('playlists',catalogPool.playlistIds||[]);
+ if(config.source==='catalog'&&config.catalogFrom==='explorer'&&!fixedGameMusic()){
+  const ids=catalogPool.playlistIds||[];
+  rememberUsage('playlists',ids);
+  recentPlaylists=[...new Set([...ids,...recentPlaylists])].slice(0,12);
+  write('declic.playlistRecent',recentPlaylists);
+ }
 }
 function playlistTracks(playlist,settings=config){
  if(!wheelPrefs.avoidSongs)return playlist.tracks;
@@ -1004,14 +1114,26 @@ function playlistTracks(playlist,settings=config){
 function compatiblePlaylists(settings=config){
  const required=settings.musicGame==='bingo'?16:settings.count;
  return Object.values(verifiedPlaylists).filter(playlist=>
+  (!selectedPlaylists.length||selectedPlaylists.includes(playlist.id))&&
   (!wheelPrefs.avoidPlaylists||!eveningUsage.playlists.includes(playlist.id))&&
   musicQuestions(playlistTracks(playlist,settings),{...settings,count:required}).length>=required);
 }
 async function startWheel(kind){
  if(!activeEvening)throw Error('Créez d’abord une soirée.');
  if(kind==='playlist'&&fixedGameMusic())throw Error('Ce jeu utilise sa propre sélection musicale.');
+ if(kind==='playlist'&&selectedPlaylists.length&&!compatiblePlaylists().length){
+  const entries=playlistIndex();
+  const choices=selectedPlaylists.map(id=>entries.get(id)||verifiedPlaylists[id]).filter(Boolean).map(item=>[item.id,item.name]);
+  if(choices.length){
+   busy=true;catalogMessage='Recherche des extraits jouables…';render();
+   try{await resolvePlaylistSelection(choices,{useForGame:false});}
+   finally{busy=false;catalogMessage='';render();}
+  }
+ }
  const options=kind==='game'?MUSIC_GAMES
  .filter(([id])=>availableGame(id)&&(!wheelPrefs.avoidGames||!eveningUsage.games.includes(id)))
+ .filter(([id])=>!wheelGameSelection.length||wheelGameSelection.includes(id))
+ .filter(([id])=>!surprisePending||!fixedGameMusic(id)&&compatiblePlaylists({...config,...gamePreferences[id],musicGame:id,challenge:id==='covers'?'coverChoice':gamePreferences[id]?.challenge||'title'}).length)
  .filter(([id])=>id!=='survival'||(game?.teams?.length||0)>=2)
  .map(([id,name])=>({id,name})):compatiblePlaylists().map(({id,name})=>({id,name}));
  if(!options.length){
@@ -1020,18 +1142,19 @@ async function startWheel(kind){
  }
  if(wheel?.result)await wheelAction({type:'roulette-dismiss',id:wheel.id});
  await desk.unlock();
- await wheelAction({type:'roulette-start',kind,options});
+ await wheelAction({type:'roulette-start',kind,options,player:wheelSettings.player==='host'?'':wheelSettings.player,hostOnly:wheelSettings.player==='host',animation:showAnimations&&wheelSettings.animation});
 }
 async function confirmWheel(){
  const result=wheel?.result,kind=wheel?.kind;
  if(!result)return;
  await wheelAction({type:'roulette-dismiss',id:wheel.id});
- if(kind==='game'){selectGame(result.id);return;}
+ if(kind==='game'){selectGame(result.id);if(surprisePending)await startWheel('playlist');return;}
  const playlist=verifiedPlaylists[result.id];
  if(!playlist)throw Error('Cette playlist doit être vérifiée à nouveau.');
  catalogPool={name:playlist.name,tracks:playlistTracks(playlist),themeKey:'',playlistIds:[playlist.id]};
  Object.assign(config,{catalogFrom:'explorer',source:'catalog'});
- selectedPlaylists=[result.id];
+ selectedPlaylists=[result.id];savePlaylistSelection();
+ surprisePending=false;
  persistPool();saveConfig();
  render();
 }
@@ -1065,16 +1188,16 @@ function showWheel(state){
  if(state?.result&&state.animation&&wheelCelebration!==state.id){
   wheelCelebration=state.id;
   celebrate();
-  if(role==='host')desk.jingle('buzz');
+  if(role==='host')desk.jingle('podium');
  }
 }
 function rouletteMarkup(){
  const canStop=wheel.stopAt===null&&(role==='host'||role==='player'&&wheel.player?.id===teamId);
  const state=wheel.result?'revealed':wheel.stopAt===null?'spinning':'slowing';
  return `<section class="roulette-surfaces ${role==='tv'?'roulette-tv':''}" aria-label="Roulette">
- <h2>${wheel.kind==='game'?'Roulette des jeux':'Roulette musicale'}</h2>
+ <h2>${role==='tv'?(wheel.kind==='game'?'Quel sera notre prochain jeu ?':'Quelle sera notre prochaine ambiance musicale ?'):(wheel.kind==='game'?'Roulette des jeux':'Roulette musicale')}</h2>
  ${wheel.player?`<p>${esc(wheel.player.name)}, appuie sur STOP pour arrêter la roue.</p>`:''}
- <div class="roulette-dial ${state}" aria-hidden="true"></div>
+ <div class="roulette-dial ${state}" aria-hidden="true"><span>ϟ</span></div>
  <p class="roulette-result" role="status">${wheel.result?esc(wheel.result.name):state==='slowing'?'Résultat imminent…':`${wheel.optionsCount} choix en jeu`}</p>
  ${canStop?`<button class="btn primary roulette-stop" data-action="roulette-stop">${role==='host'?'Arrêter la roulette':'STOP'}</button>`:''}
  ${role==='host'?`<div class="row">${wheel.result?'<button class="btn primary" data-action="roulette-confirm">Valider</button><button class="btn ghost" data-action="roulette-retry">Relancer</button>':''}<button class="btn ghost" data-action="roulette-dismiss">Fermer</button></div>`:''}</section>`;
@@ -1083,9 +1206,9 @@ function availableGame(id){
  return config.mode==='phone'||id==='blind';
 }
 function musicGames(){
- return `<section id="music-games"><div class="row"><h1>Choisir un jeu</h1><button class="textbtn right" data-action="roulette-game">Tirer un jeu au sort</button></div><div class="game-picker-grid">${MUSIC_GAMES.filter(([id])=>availableGame(id)).map(([id,name,description])=>
+ return `<section id="music-games"><h1>1. On joue à quoi ?</h1><div class="game-picker-grid">${MUSIC_GAMES.filter(([id])=>availableGame(id)).map(([id,name,description])=>
  `<button class="game-picker-card" data-action="music-game" data-value="${id}" aria-pressed="${config.musicGame===id}">
- <span class="game-picker-icon">${homeIcon(id)}</span><strong>${name}</strong><small>${description}</small></button>`).join('')}</div></section>`;
+ <span class="game-picker-icon">${homeIcon(id)}</span><strong>${name}</strong><small>${description}</small></button>`).join('')}<button class="game-picker-card" data-action="roulette-game"><span class="game-picker-icon">🎲</span><strong>Roulette des jeux</strong></button><button class="game-picker-card" data-action="surprise-total"><span class="game-picker-icon">✨</span><strong>Surprise totale</strong></button></div></section>`;
 }
 function invitationMarkup(code=room){
  if(!code)return '';
@@ -1153,79 +1276,141 @@ function setupScreen(){
  const fixedMusic=fixedGameMusic();
  return `<main class="game-setup" id="multiplayer">
  <details class="qcard"><summary>Paramètres de la soirée${invite?' et invitations':''}</summary>
+ <button class="btn ghost" data-action="toggle-show" aria-pressed="${showAnimations}">${showAnimations?'Animations actives':'Animations coupées'}</button>
  ${eveningSettings()}${invite?`<div class="divider"></div>${invitationMarkup()}<div class="row"><button class="btn ghost" data-action="copy-link">Copier le lien</button><button class="btn ghost" data-action="screen">Écran public</button></div><p class="mini">${game?.teams?.length||game?.tyrolien?.participants?.length||0} participant(s)</p>`:''}
  </details>
  ${musicGames()}
  <div class="setup-columns">
- <div class="setup-selection">
- <section class="hero setup-banner">
- <h2>Les tubes passent.<br><em>À vous de jouer.</em></h2>
- <div class="hero-art" aria-hidden="true"><div class="record"></div><span class="note">♫</span></div>
+ <section class="setup-music"><h2>2. On écoute quoi ?</h2>
+ ${fixedMusic?musicGameSettings()||'<p>Extraits du Tyrolien</p>':playlistSetup()}
  </section>
- <section class="setup-music"><h2>Choisir la musique</h2>
- ${fixedMusic?musicGameSettings()||'<p>Extraits du Tyrolien</p>':`
- <div class="theme-grid">${THEMES.map(([id,icon,title,description])=>`<button class="theme-card ${config.catalogFrom!=='explorer'&&config.themes.includes(id)?'active':''}" data-action="v2-theme" data-value="${id}" aria-pressed="${config.catalogFrom!=='explorer'&&config.themes.includes(id)}"><span>${icon}</span><strong>${title}</strong><small>${description}</small></button>`).join('')}</div>
- ${config.catalogFrom==='explorer'&&catalogPool.name?`<p>Playlist choisie · ${esc(catalogPool.name)}</p>`:''}
- <div class="row catalog-banner"><button class="btn ghost" data-action="music-style" data-value="manual">Explorer les playlists</button>
- <button class="textbtn" data-action="roulette-playlist">Tirer une playlist au sort</button></div>`}
- </section></div>
  <aside class="qcard setup-launch">
- <div class="row"><h2>Lancer la partie</h2><button class="textbtn right" data-action="game-rules">Règles</button></div>
+ ${questionSetup()}
  ${participationSetup()}
  ${answerSetup()}
- ${config.musicGame==='tyrolien'?'':`<details class="settings-details" id="advanced-setup" ${advancedOpen?'open':''}><summary>Réglages avancés</summary>${setupAdvanced(fixedMusic)}</details>`}
+ ${config.musicGame==='tyrolien'?'':`<details class="settings-details" id="advanced-setup" ${advancedOpen?'open':''}><summary>Réglages avancés</summary>${setupAdvanced(fixedMusic)}${wheelControls()}</details>`}
+ ${game?.phase==='finished'?`<button class="textbtn" data-action="ceremony">${ceremony?'Fermer le podium de la soirée':'Afficher le podium de la soirée'}</button>`:''}
  ${catalogMessage?`<p role="status">${esc(catalogMessage)}</p>`:''}
  <button class="btn primary full" data-action="launch" ${busy?'disabled':''}>${busy?'Préparation des extraits…':'Lancer le jeu →'}</button>
- </aside></div>${wheel?rouletteMarkup():''}</main>`;
+ </aside></div>${wheel?`<div class="setup-roulette-overlay">${rouletteMarkup()}</div>`:''}</main>`;
 }
 document.addEventListener('toggle',event=>{
  if(event.target.id==='advanced-setup')advancedOpen=event.target.open;
+ const group=event.target.dataset.playlistGroup;
+ if(group&&!playlistSearch){
+  if(event.target.open)openPlaylistSections.add(group);
+  else openPlaylistSections.delete(group);
+ }
 },true);
+function wheelControls(){
+ const players=config.mode==='usb'?config.teams:game?.roulettePlayers||[];
+ return `<details><summary>Personnaliser les roulettes</summary>
+ <label class="checkboxline"><input type="checkbox" data-wheel-filter="avoidGames" ${wheelPrefs.avoidGames?'checked':''}> Éviter les jeux déjà joués</label>
+ <label class="checkboxline"><input type="checkbox" data-wheel-filter="avoidPlaylists" ${wheelPrefs.avoidPlaylists?'checked':''}> Éviter les playlists déjà utilisées</label>
+ <label class="checkboxline"><input type="checkbox" data-wheel-setting="animation" ${wheelSettings.animation?'checked':''}> Animer les roulettes</label>
+ <label class="field-label">Qui arrête la roue ?<select data-wheel-setting="player">
+ <option value="">Un joueur au hasard</option><option value="host" ${wheelSettings.player==='host'?'selected':''}>L’animateur</option>
+ ${players.map(({id,name})=>`<option value="${esc(id)}" ${wheelSettings.player===id?'selected':''}>${esc(name)}</option>`).join('')}</select></label>
+ <details><summary>Choisir les jeux du tirage</summary>
+ <p class="mini">Sans sélection, tous les jeux compatibles participent.</p>
+ ${MUSIC_GAMES.filter(([id])=>availableGame(id)).map(([id,name])=>`<label class="checkboxline"><input type="checkbox" data-wheel-game="${id}" ${wheelGameSelection.includes(id)?'checked':''}> ${name}</label>`).join('')}</details></details>`;
+}
+document.addEventListener('change',event=>{
+ const field=event.target;
+ const {wheelFilter,wheelGame,wheelSetting}=field.dataset;
+ if(wheelFilter){wheelPrefs[wheelFilter]=field.checked;write('declic.wheelFilters',wheelPrefs);}
+ if(wheelSetting){wheelSettings[wheelSetting]=field.type==='checkbox'?field.checked:field.value;write('declic.wheelPreferences',wheelSettings);}
+ if(wheelGame){
+  const index=wheelGameSelection.indexOf(wheelGame);
+  if(field.checked&&index===-1)wheelGameSelection.push(wheelGame);
+  if(!field.checked&&index>=0)wheelGameSelection.splice(index,1);
+  write('declic.wheelGames',wheelGameSelection);
+ }
+});
+function playlistSetup(){
+ const entries=playlistIndex();
+ const quick=[...new Set([...favoritePlaylists,...recentPlaylists.slice(0,3),...quickPlaylistIds])].map(id=>entries.get(id)).filter(Boolean);
+ const chosen=selectedPlaylists.map(id=>entries.get(id)?.name||verifiedPlaylists[id]?.name).filter(Boolean);
+ return `<div class="playlist-quick">${quick.map(item=>playlistTile(item)).join('')}
+ <button class="theme-card playlist-tile" data-action="roulette-playlist"><span aria-hidden="true">🎲</span><strong>Roulette musicale</strong></button></div>
+ ${chosen.length?`<p>${chosen.map(esc).join(' · ')}</p><button class="textbtn" data-action="playlist-clear">Tout désélectionner</button>`:
+ `<p class="mini">${config.catalogFrom==='explorer'&&catalogPool.name?esc(catalogPool.name):'Par défaut · '+THEMES.filter(([id])=>config.themes.includes(id)).map(([, ,name])=>esc(name)).join(' · ')}</p>`}
+ <button class="btn ghost playlist-all" data-action="all-playlists" aria-expanded="${allPlaylistsOpen}">Toutes les playlists</button>
+ ${allPlaylistsOpen?`<label class="field-label">Rechercher une playlist<input id="setup-playlist-search" type="search" value="${esc(playlistSearch)}"></label>
+ <div id="setup-playlist-results">${playlistResults()}</div>`:''}`;
+}
+function playlistTile(item,showFavorite=false){
+ const pressed=selectedPlaylists.includes(item.id), favorite=favoritePlaylists.includes(item.id);
+ return `<div class="playlist-choice"><button class="theme-card playlist-tile ${pressed?'active':''}" data-action="playlist-toggle" data-value="${esc(item.id)}" aria-pressed="${pressed}">
+ <span aria-hidden="true">${pressed?'✓':esc(item.icon)}</span><strong>${esc(item.name)}</strong></button>
+ ${showFavorite?`<button class="iconbtn playlist-star" data-action="playlist-favorite" data-value="${esc(item.id)}" aria-label="Favori · ${esc(item.name)}" aria-pressed="${favorite}">${favorite?'★':'☆'}</button>`:''}</div>`;
+}
+function playlistResults(){
+ if(!playlistGroups)return '<p>Chargement des playlists…</p>';
+ if(!playlistGroups.length)return '<p>Catalogue momentanément indisponible. Referme et rouvre les playlists pour réessayer.</p>';
+ const normalize=value=>value.normalize('NFD').replace(/\p{M}/gu,'').toLowerCase().trim();
+ const search=normalize(playlistSearch);
+ return playlistGroups.map(group=>{
+  const matches=group.playlists.filter(item=>normalize(item.name).includes(search));
+  return matches.length?`<details data-playlist-group="${esc(group.id)}" ${search||openPlaylistSections.has(group.id)?'open':''}><summary>${esc(group.name)} · ${matches.length}</summary><div class="playlist-quick">${matches.map(item=>playlistTile(item,true)).join('')}</div></details>`:'';
+ }).join('')||'<p>Aucune playlist trouvée.</p>';
+}
+document.addEventListener('input',event=>{
+ if(event.target.id!=='setup-playlist-search')return;
+ playlistSearch=event.target.value;
+ $('#setup-playlist-results').innerHTML=playlistResults();
+});
+function questionSetup(){
+ if(['bingo','tyrolien'].includes(config.musicGame))return `<h2>3. Prêts à jouer ?</h2>${config.musicGame==='bingo'?'<p>16 extraits · grille 4 × 4</p>':''}`;
+ const timeline=config.musicGame==='timeline', key=timeline?'timelineCount':'count';
+ const count=Number(config[key])||5;
+ const max=timeline?SPECIAL_TRACKS.timeline.length-1:100;
+ const custom=customQuestionCount||!quickQuestionCounts.includes(count);
+ return `<h2>3. Combien de questions ?</h2><div class="question-picks">${quickQuestionCounts.filter(n=>n<=max).map(n=>`<button class="btn ghost" data-action="question-count" data-value="${n}" aria-pressed="${!custom&&n===count}">${n}</button>`).join('')}
+ <button class="btn ghost" data-action="question-count" data-value="custom" aria-pressed="${custom}">Personnalisé</button></div>
+ ${custom?`<label class="field-label">Nombre de questions<input type="number" min="5" max="${max}" value="${count}" data-config="${key}"></label>`:''}`;
+}
 function setupAdvanced(fixedMusic){
  const flexible=!config.musicGame||config.musicGame==='blind';
  return `${!fixedMusic?`<button class="textbtn" data-action="v2-catalog">Recherche et import musical</button>`:''}
  ${!fixedMusic?`<button class="textbtn" data-action="music-style" data-value="mix">Mélanger plusieurs playlists</button>`:''}
+ ${config.musicGame==='soundtrack'?`<label class="field-label">Propositions<select data-config="soundtrackChoices">${[2,3,4,5].map(n=>`<option value="${n}" ${n===Number(config.soundtrackChoices||4)?'selected':''}>${n}</option>`).join('')}</select></label>`:''}
  ${flexible&&config.mode==='phone'?inputSettings():''}${gameRules(flexible,fixedMusic)}`;
 }
 function supportsRandomTeams(){
  return config.mode==='phone'&&config.input!=='buzzer'&&['blind','covers','coversQuiz','soundtrack'].includes(config.musicGame);
 }
 function randomTeamsSelected(){return supportsRandomTeams()&&config.participation==='random';}
+function choiceButtons(label,key,choices,value){
+ return `<fieldset class="setup-choices"><legend>${label}</legend><div class="row">${choices.map(([id,name])=>`<button class="btn ghost" data-action="setup-choice" data-key="${key}" data-value="${id}" aria-pressed="${String(value)===String(id)}">${name}</button>`).join('')}</div></fieldset>`;
+}
 function participationSetup(){
  if(config.musicGame==='tyrolien')return '<p>En équipes · répartition au lancement</p>';
  if(config.musicGame==='survival')return '<p>En individuel</p>';
  if(config.mode==='usb')return '<p>En équipes · buzzers USB</p>';
- return `<label class="field-label">Participants<select data-config="participation">
- <option value="individual">En individuel</option>
- ${supportsRandomTeams()? `<option value="random" ${config.participation==='random'?'selected':''}>Équipes tirées au sort</option>`:''}<option value="team" ${config.participation==='team'?'selected':''}>En équipes</option>
- </select></label>${randomTeamsSelected()?`<label class="field-label">Nombre d’équipes<select data-config="randomTeamCount">${[2,3,4].map(count=>`<option value="${count}" ${Number(config.randomTeamCount||2)===count?'selected':''}>${count}</option>`).join('')}</select></label><p class="mini">Un téléphone par joueur. Le jeu répartit les participants au démarrage.</p>`:''}${config.participation==='team'?'<p class="mini">Un téléphone par équipe. Entrez le nom de l’équipe à la connexion.</p>':''}`;
+ const choices=[['individual','Individuel'],['team','En équipes']];
+ if(supportsRandomTeams())choices.push(['random','Équipes au hasard']);
+ const selected=choices.some(([id])=>id===config.participation)?config.participation:'individual';
+ return choiceButtons('Participants','participation',choices,selected)+
+ (randomTeamsSelected()?choiceButtons('Nombre d’équipes','randomTeamCount',[[2,'2'],[3,'3'],[4,'4']],config.randomTeamCount||2)+'<p class="mini">Un téléphone par joueur.</p>':
+ selected==='team'?'<p class="mini">Un téléphone par équipe.</p>':'');
 }
 function answerSetup(){
  const blind=!config.musicGame||config.musicGame==='blind';
  if(!blind&&!['bingo','survival'].includes(config.musicGame))return '';
- const options=[['title','Le titre'],['artist','L’artiste'],...(blind?[['both','Le titre et l’artiste']]:[])];
- return `<label class="field-label">Que faut-il retrouver ?<select data-config="answerTarget">${options.map(([id,name])=>
- `<option value="${id}" ${config.challenge===id?'selected':''}>${name}</option>`).join('')}</select></label>`;
+ const options=[['title','Le titre'],['artist','L’artiste'],...(blind?[['both','Les deux']]:[])];
+ return choiceButtons('Que faut-il retrouver ?','challenge',options,config.challenge);
 }
 function musicGameSettings(){
- if(config.musicGame==='timeline')return `<label class="field-label">Mode<select data-config="timelineMode">
- <option value="collective">Frise collective</option><option value="individual" ${config.timelineMode==='individual'?'selected':''}>Frise individuelle</option>
- </select></label><label class="field-label">Nombre d’extraits souhaité<input type="number" data-config="timelineCount" min="5" max="${SPECIAL_TRACKS.timeline.length-1}" value="${Math.min(SPECIAL_TRACKS.timeline.length-1,Math.max(5,Number(config.timelineCount)||5))}"></label>`;
- if(config.musicGame==='soundtrack')return `<label class="field-label">Sélection<select data-config="soundtrackCategory">
- <option value="soundtrack">Films et séries</option>
- <option value="tvThemes" ${config.soundtrackCategory==='tvThemes'?'selected':''}>Génériques TV</option>
- <option value="allSoundtracks" ${config.soundtrackCategory==='allSoundtracks'?'selected':''}>Films, séries et génériques TV</option>
- </select></label><label class="field-label">Propositions<select data-config="soundtrackChoices">${[2,3,4,5].map(n=>`<option value="${n}" ${n===Number(config.soundtrackChoices||4)?'selected':''}>${n}</option>`).join('')}</select></label>`;
- if(config.musicGame==='coversQuiz')return `<label class="field-label">Version diffusée<select data-config="coversDirection">
- <option value="cover">Écouter la reprise · trouver l’interprète original</option>
- <option value="original" ${config.coversDirection==='original'?'selected':''}>Écouter l’original · trouver l’interprète de la reprise</option>
- </select></label>`;
+ if(config.musicGame==='timeline')return choiceButtons('Type de frise','timelineMode',[['collective','Collective'],['individual','Individuelle']],config.timelineMode||'collective');
+ if(config.musicGame==='soundtrack')return choiceButtons('Extraits','soundtrackCategory',[['soundtrack','Films et séries'],['tvThemes','Génériques TV'],['allSoundtracks','Les deux']],config.soundtrackCategory||'soundtrack');
+ if(config.musicGame==='coversQuiz')return choiceButtons('Version diffusée','coversDirection',[['cover','La reprise'],['original','L’original']],config.coversDirection||'cover');
  return '';
 }
 
 function eveningSettings(){return `<div class="segmented"><button data-action="mode" data-value="usb" class="${config.mode==='usb'?'active':''}">◉ Buzzers USB</button><button data-action="mode" data-value="phone" class="${config.mode==='phone'?'active':''}">▯ Téléphones</button></div><p class="help">${config.mode==='usb'?'Les équipes buzzent. Vous validez leurs réponses.':'Les participants rejoignent la soirée avec un code.'}</p>${config.mode==='phone'?'':`<span class="field-label">Les équipes · touches personnalisables</span>${config.teams.map((t,i)=>`<div class="teamrow"><span class="avatar" style="--team:${colors[i]}">${icons[i]}</span><input aria-label="Nom de l’équipe ${i+1}" data-team="${i}" value="${esc(t.name)}" maxlength="24"><input class="customkey" aria-label="Touche de l’équipe ${i+1}" data-key="${i}" value="${esc(t.key)}" maxlength="1"><button class="iconbtn" aria-label="Retirer l’équipe ${i+1}" data-action="remove-team" data-value="${i}" ${config.teams.length<=2?'disabled':''}>×</button></div>`).join('')}<button class="textbtn" data-action="add-team" ${config.teams.length>=10?'disabled':''}>＋ Ajouter une équipe</button>`}`;}
 function inputSettings(){return `<label class="field-label" for="inputmode">Réponse sur téléphone</label><select id="inputmode"><option value="buzzer" ${config.input==='buzzer'?'selected':''}>Buzzer · réponse orale</option><option value="qcm" ${config.input==='qcm'?'selected':''}>QCM · 4 choix</option><option value="text" ${config.input==='text'?'selected':''}>Écrit · titre et artiste séparés</option></select>`;}
-function gameRules(flexible,fixedMusic){return `${config.musicGame==='survival'?'<label class="field-label">Vies au départ<input type="number" min="1" max="5" data-setting="survivalLives" value="'+config.settings.survivalLives+'"></label>':''}${fixedMusic||config.musicGame==='bingo'?'':`<label class="field-label">Écoute<select aria-label="Écoute" data-setting="listening"><option value="continuous" ${config.settings.listening!=='progressive'?'selected':''}>Extrait continu</option><option value="progressive" ${config.settings.listening==='progressive'?'selected':''}>Progressive · 1, 2, 5 puis 10 s</option></select></label><p class="mini">En progressif : 100 %, 80 %, 60 %, 40 % des points de réponse. Pas de bonus de rapidité. Seuls les défis audio utilisent ces paliers.</p>`}${config.musicGame==='timeline'?'':`<div class="two-fields"><label>${config.musicGame==='bingo'?'Extraits':'Questions'}${config.musicGame==='bingo'?'<input value="16" readonly aria-label="16 extraits de Bingo">':`<input type="number" min="5" max="100" step="1" data-config="count" value="${config.count}" aria-label="Nombre de questions">`}</label><label>Durée<select data-config="duration">${[10,15,20,30].map(n=>`<option value="${n}" ${config.duration===n?'selected':''}>${n} s</option>`).join('')}</select></label></div>`}<label class="field-label" for="difficulty">Sélection des titres</label><select id="difficulty" data-config="difficulty"><option value="easy" ${config.difficulty==='easy'?'selected':''}>Les plus populaires</option><option value="balanced" ${config.difficulty==='balanced'?'selected':''}>Un mélange équilibré</option><option value="hard" ${config.difficulty==='hard'?'selected':''}>Des titres moins connus</option></select><details class="settings-details"><summary>⚙ Points et déroulement</summary><label class="checkboxline"><input type="checkbox" data-setting="jokers" ${config.settings.jokers?'checked':''}> Activer les jokers de ce jeu</label><div class="two-fields"><label>Points titre<input type="number" min="1" max="1000" data-setting="titlePoints" value="${config.settings.titlePoints}"></label><label>Points artiste<input type="number" min="1" max="1000" data-setting="artistPoints" value="${config.settings.artistPoints}"></label></div><label class="checkboxline"><input type="checkbox" data-setting="speed" ${config.settings.speed?'checked':''}> Bonus de rapidité · jusqu’à 50 pts</label><label class="checkboxline"><input type="checkbox" data-setting="streak" ${config.settings.streak?'checked':''}> Bonus de série · jusqu’à 50 pts</label>${config.mode==='usb'||config.input==='buzzer'?`<label class="field-label">Après une mauvaise réponse<select data-setting="rebuzz">${[['round','Bloqué pour cette question'],['none','Rebuzz immédiat'],['3','Rebuzz après 3 secondes'],['5','Rebuzz après 5 secondes'],['10','Rebuzz après 10 secondes']].map(([id,name])=>`<option value="${id}" ${config.settings.rebuzz===id?'selected':''}>${name}</option>`).join('')}</select></label><label class="field-label">Reprise de la musique<select data-setting="resume"><option value="auto" ${config.settings.resume==='auto'?'selected':''}>Automatique après validation</option><option value="manual" ${config.settings.resume==='manual'?'selected':''}>Manuelle · je garde la main</option></select></label>`:''}<label class="checkboxline"><input type="checkbox" data-setting="autoNext" ${config.settings.autoNext?'checked':''}> Question suivante après 8 secondes</label><label class="checkboxline"><input type="checkbox" data-config="explicit" ${config.explicit===false?'checked':''}> Exclure les titres marqués explicites</label></details>`;}
+function gameRules(flexible,fixedMusic){return `${config.musicGame==='survival'?'<label class="field-label">Vies au départ<input type="number" min="1" max="5" data-setting="survivalLives" value="'+config.settings.survivalLives+'"></label>':''}${fixedMusic||config.musicGame==='bingo'?'':`<label class="field-label">Écoute<select aria-label="Écoute" data-setting="listening"><option value="continuous" ${config.settings.listening!=='progressive'?'selected':''}>Extrait continu</option><option value="progressive" ${config.settings.listening==='progressive'?'selected':''}>Progressive · 1, 2, 5 puis 10 s</option></select></label><p class="mini">En progressif : 100 %, 80 %, 60 %, 40 % des points de réponse. Pas de bonus de rapidité. Seuls les défis audio utilisent ces paliers.</p>`}${['timeline','bingo'].includes(config.musicGame)?'':`<div class="two-fields"><label>Durée<select data-config="duration">${[10,15,20,30].map(n=>`<option value="${n}" ${config.duration===n?'selected':''}>${n} s</option>`).join('')}</select></label></div>`}<label class="field-label" for="difficulty">Sélection des titres</label><select id="difficulty" data-config="difficulty"><option value="easy" ${config.difficulty==='easy'?'selected':''}>Les plus populaires</option><option value="balanced" ${config.difficulty==='balanced'?'selected':''}>Un mélange équilibré</option><option value="hard" ${config.difficulty==='hard'?'selected':''}>Des titres moins connus</option></select><details class="settings-details"><summary>⚙ Points et déroulement</summary><label class="checkboxline"><input type="checkbox" data-setting="jokers" ${config.settings.jokers?'checked':''}> Activer les jokers de ce jeu</label><div class="two-fields"><label>Points titre<input type="number" min="1" max="1000" data-setting="titlePoints" value="${config.settings.titlePoints}"></label><label>Points artiste<input type="number" min="1" max="1000" data-setting="artistPoints" value="${config.settings.artistPoints}"></label></div><label class="checkboxline"><input type="checkbox" data-setting="speed" ${config.settings.speed?'checked':''}> Bonus de rapidité · jusqu’à 50 pts</label><label class="checkboxline"><input type="checkbox" data-setting="streak" ${config.settings.streak?'checked':''}> Bonus de série · jusqu’à 50 pts</label>${config.mode==='usb'||config.input==='buzzer'?`<label class="field-label">Après une mauvaise réponse<select data-setting="rebuzz">${[['round','Bloqué pour cette question'],['none','Rebuzz immédiat'],['3','Rebuzz après 3 secondes'],['5','Rebuzz après 5 secondes'],['10','Rebuzz après 10 secondes']].map(([id,name])=>`<option value="${id}" ${config.settings.rebuzz===id?'selected':''}>${name}</option>`).join('')}</select></label><label class="field-label">Reprise de la musique<select data-setting="resume"><option value="auto" ${config.settings.resume==='auto'?'selected':''}>Automatique après validation</option><option value="manual" ${config.settings.resume==='manual'?'selected':''}>Manuelle · je garde la main</option></select></label>`:''}<label class="checkboxline"><input type="checkbox" data-setting="autoNext" ${config.settings.autoNext?'checked':''}> Question suivante après 8 secondes</label><label class="checkboxline"><input type="checkbox" data-config="explicit" ${config.explicit===false?'checked':''}> Exclure les titres marqués explicites</label></details>`;}
 
 const params=new URLSearchParams(location.search);
 if(location.pathname==='/tv'){

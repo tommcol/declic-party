@@ -11,6 +11,7 @@ test('Le serveur réserve le STOP au joueur désigné et masque le résultat jus
  const wheel=changeRoulette(null,start,host,players,['a'],1000);
  assert.equal(wheel.player.id,'b');
  assert.equal(wheel.deadline,16000);
+ assert.equal(changeRoulette(wheel,start,host,players,[],1100),wheel);
  assert.equal(rouletteView(wheel,1000).result,null);
  const stop={type:'roulette-stop',id:wheel.id};
  assert.equal(changeRoulette(wheel,stop,{role:'player',team:'a'},players,[],2000),wheel);
@@ -27,4 +28,12 @@ test('Une roulette sans animation révèle immédiatement et déduplique les cho
  assert.equal(changeRoulette(wheel,{type:'roulette-dismiss',id:wheel.id},{role:'tv'},players,[],100),wheel);
  assert.equal(changeRoulette(wheel,{type:'roulette-dismiss',id:wheel.id},host,players,[],100),null);
  for(let roll=0;roll<100;roll++)assert.ok(rouletteIndex(7)<7);
+});
+
+test('Une roulette réservée à l’animateur ne désigne aucun joueur',()=>{
+ const wheel=changeRoulette(null,{...start,hostOnly:true},host,players,[],100);
+ assert.equal(wheel.player,null);
+ const stop={type:'roulette-stop',id:wheel.id};
+ assert.equal(changeRoulette(wheel,stop,{role:'player',team:'a'},players,[],150),wheel);
+ assert.equal(changeRoulette(wheel,stop,host,players,[],200).stopAt,200);
 });
