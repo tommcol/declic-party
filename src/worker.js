@@ -126,7 +126,7 @@ export default {
     const randomTeamCount=Number.isInteger(data.randomTeamCount)&&data.randomTeamCount>=2&&data.randomTeamCount<=MAX_PARTICIPANTS&&
      !data.settings?.bingo&&!data.settings?.survival&&!data.settings?.timelineMode&&!data.settings?.chain&&data.input!=='buzzer'?data.randomTeamCount:0;
     const musicGame=['blind','bingo','timeline','coversQuiz','soundtrack','covers','survival','tyrolien'].includes(data.musicGame)?data.musicGame:undefined;
-    const setup={mountain:mountain?mountainSettings(data.mountain):undefined,teamPlay:mountain||data.teamPlay===true&&Boolean(randomTeamCount),musicGame,showAnimations:data.showAnimations!==false,randomTeamCount,questions:data.questions,input:['text','buzzer'].includes(data.input)?data.input:'qcm',settings:data.settings&&typeof data.settings==='object'?data.settings:{},effect:['normal','fast','slow','chipmunk','reverse','image'].includes(data.effect)?data.effect:'normal'};
+    const setup={mountain:mountain?mountainSettings(data.mountain):undefined,teamPlay:mountain||data.teamPlay===true&&Boolean(randomTeamCount),musicGame,showTheme:typeof data.showTheme==='string'&&/^[a-z-]{1,20}$/.test(data.showTheme)?data.showTheme:undefined,showAnimations:data.showAnimations!==false,randomTeamCount,questions:data.questions,input:['text','buzzer'].includes(data.input)?data.input:'qcm',settings:data.settings&&typeof data.settings==='object'?data.settings:{},effect:['normal','fast','slow','chipmunk','reverse','image'].includes(data.effect)?data.effect:'normal'};
     const status=await env.ROOMS.getByName(data.room).prepare(setup,await digest(data.token));
     return status===200?json({code:data.room,token:data.token}):json({error:status===404?'Cette soirée a expiré. Créez une nouvelle soirée.':status===403?'Accès animateur refusé.':'Terminez le jeu en cours avant de changer de jeu.'},status);
    }
@@ -306,7 +306,7 @@ export class PartyRoom extends DurableObject {
     teams:current.teams.map(({id,name,key,token})=>({id,name,key,token,score:0,streak:0})),
     teamPlan:current.teamPlan||(data.mountain?{groups:[teamIdentity(0),teamIdentity(1)],assignments:{},mode:'free',open:false,gather:false}:undefined),
     mountain:data.mountain,teamPlay:data.teamPlay,teamResults:this.completedTeamGames(current),
-    musicGame:data.musicGame,showAnimations:data.showAnimations,randomTeamCount:data.randomTeamCount||undefined,roulettePlayers:current.roulettePlayers,eveningTotals:eveningTotals(current),effect:data.effect,hostHash,code:current.code,expires:current.expires,revision:(current.revision||0)+1
+    musicGame:data.musicGame,showTheme:data.showTheme,showAnimations:data.showAnimations,randomTeamCount:data.randomTeamCount||undefined,roulettePlayers:current.roulettePlayers,eveningTotals:eveningTotals(current),effect:data.effect,hostHash,code:current.code,expires:current.expires,revision:(current.revision||0)+1
    };
    await tx.put('room',next);
    return {status:200,room:next};
@@ -335,6 +335,7 @@ export class PartyRoom extends DurableObject {
   state.roulette=rouletteView(s.roulette,Date.now(),a.team);
   state.musicGame=s.musicGame;
   state.showAnimations=s.showAnimations;
+  state.showTheme=s.showTheme;
   if(s.randomTeamAssignments){
    state.randomTeams=this.classicTeamScores(s);
    state.myRandomTeam=s.randomTeamAssignments[a.team];

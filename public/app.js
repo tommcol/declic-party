@@ -1,3 +1,4 @@
+import {playlistShowTheme,updateShow} from './show.js';
 import {teamCards,teamGather,teamHost} from './team-ui.js';
 import {changeRoulette,rouletteView,rouletteAdvanceAt} from './roulette.js';
 import {tyrolienScreen,mountainPanel} from './tyrolien-ui.js';
@@ -159,6 +160,7 @@ function render(){
  if(view==='setup'&&!playlistGroups)loadPlaylistGroups();
  const a=$('#app');
  a.classList.toggle('no-show-animation',role==='host'?!showAnimations:game?.showAnimations===false);
+ updateShow(a,{role,game,wheel,ceremony,reduced:a.classList.contains('no-show-animation')});
  const plan=game?.teamPlan;
  if(plan?.gather&&safeTeamPhases.includes(game.phase)&&role==='player'){
   a.classList.add('party-interface');
@@ -852,11 +854,13 @@ async function launch(){if(busy)return;busy=true;catalogMessage='';audioError=''
  await desk.unlock();
  const questions=qs.map(q=>({...q,id:randomUUID(),duration:bingo||survival||special==='timeline'?30:Math.min(q.audioUrl?30:90,Math.max(config.duration,q.kind==='lyrics'?q.cutAt+5:0)),target:q.target,artwork:q.artwork}));
  if(!activeEvening)throw Error('Créez une soirée depuis l’accueil.');
+ const showTheme=playlistShowTheme(config.source==='catalog'?(catalogPool.playlistIds||[]):[]);
  if(config.mode==='usb'){
   const state=createGame(questions,config.teams,'usb','text',config.settings);
   state.effect=config.effect;
   state.musicGame=config.musicGame;
   state.showAnimations=showAnimations;
+  state.showTheme=showTheme;
   state.eveningTotals=game?.mode==='usb'?usbEveningTotals(game):{};
   queueUSB(state);openUSB(state);recordLaunch();return;
  }
@@ -871,7 +875,7 @@ async function launch(){if(busy)return;busy=true;catalogMessage='';audioError=''
  const clean=questions.map(({mediaKey,mediaType,notes,audioUrl,...q})=>q);
  const existing={room:activeEvening.code,token:activeEvening.token};
  const effect=bingo||special?'normal':config.effect;
- const data=await requestRoom({...existing,questions:clean,mountain:mountain?{levels:config.mountainLevels,bonuses:config.mountainAttacks!=='off'}:undefined,input:config.input,musicGame:config.musicGame,showAnimations,teamPlay:sharedTeamsSelected(),randomTeamCount:sharedTeamsSelected()?game?.teamPlan?.groups.length||2:0,settings:{...config.settings,survival,bingo,chain,timelineMode:timelineAnchor?(config.timelineMode||'collective'):undefined,timelineAnchor,listening:bingo||chain?'continuous':config.settings.listening},effect});
+ const data=await requestRoom({...existing,questions:clean,mountain:mountain?{levels:config.mountainLevels,bonuses:config.mountainAttacks!=='off'}:undefined,input:config.input,musicGame:config.musicGame,showAnimations,showTheme,teamPlay:sharedTeamsSelected(),randomTeamCount:sharedTeamsSelected()?game?.teamPlan?.groups.length||2:0,settings:{...config.settings,survival,bingo,chain,timelineMode:timelineAnchor?(config.timelineMode||'collective'):undefined,timelineAnchor,listening:bingo||chain?'continuous':config.settings.listening},effect});
  if(activeEvening.usb?.state){
   const {revision}=await eveningRequest('PUT',{code:activeEvening.code,revision:usbRevision,id:randomUUID(),state:null});
   usbRevision=revision;activeEvening.usb={state:null,revision};
@@ -1254,7 +1258,7 @@ async function loadPlaylist(id){const data=await apiJSON('/api/music/playlist?id
 async function withBusy(task){if(busy)return;busy=true;render();try{await task();}catch(e){catalogMessage=e.message||'Impossible de charger cette sélection.';toast(catalogMessage);}finally{busy=false;render();}}
 document.addEventListener('click',async e=>{const b=e.target.closest('[data-action]');if(!b||b.disabled)return;const act=b.dataset.action,v=b.dataset.value;
  if(view==='catalog'&&act!=='v2-preview'){desk.stop();$('#catalog-player')?.classList.add('hidden');}
- if(act==='v3-buzz'){send({type:'buzz'});return;}
+ if(act==='v3-buzz'){if(showAnimations&&game?.showAnimations!==false&&!matchMedia('(prefers-reduced-motion: reduce)').matches)navigator.vibrate?.(30);send({type:'buzz'});return;}
  if(act==='v2-catalog'){view='catalog';render();}
  if(act==='music-library'){viewBeforeLibrary=view;view='music-library';render();}
  if(act==='library-back'){view=viewBeforeLibrary;render();}

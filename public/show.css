@@ -1,0 +1,167 @@
+.show-backdrop {
+  --light: #49cbf4;
+  --warm: #ff865d;
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  background: radial-gradient(ellipse at 50% 47%, #203a50, #101b2a 44%, #05080e 76%);
+}
+.show-wall, .show-wing, .show-podium, .show-floor, .show-beam {
+  position: absolute;
+}
+.show-wall {
+  inset: 12% 20% 30%;
+  border: 2px solid #759ab6;
+  border-radius: 40% 40% 10% 10% / 12% 12% 5% 5%;
+  background: repeating-linear-gradient(0deg, #74c9ec13 0 1px, transparent 1px 5px),
+    linear-gradient(155deg, #1b3349, #070f19 48%, #172938);
+  box-shadow: 0 0 2.4vw #4cbffe50, inset 0 0 3vw #48bfee30, 0 1vw 0 #0a111a;
+}
+.show-wing {
+  top: 20%;
+  bottom: 27%;
+  width: 16%;
+  border: 2px solid var(--light);
+  border-radius: 8% 8% 3% 3%;
+  background: repeating-linear-gradient(0deg, #65d9fb35 0 1px, transparent 1px 6px),
+    linear-gradient(160deg, #182c3d, #091118 65%, #233a4a);
+  box-shadow: 0 0 2vw #51dafa44, inset 0 0 2vw #51dafa44;
+}
+.show-wing-left { left: 3%; transform: perspective(40vw) rotateY(31deg); }
+.show-wing-right { right: 3%; transform: perspective(40vw) rotateY(-31deg); }
+.show-floor {
+  inset: 54% -30% -30%;
+  transform-origin: center top;
+  transform: perspective(30vw) rotateX(48deg);
+  background: radial-gradient(ellipse at 50% 12%, #44bcdf50, transparent 46%),
+    repeating-linear-gradient(90deg, transparent 0 9.9%, #5d8ba547 10%),
+    repeating-linear-gradient(0deg, #152332 0 7.9%, #4a638259 8%);
+}
+.show-podium {
+  left: 21%;
+  right: 21%;
+  top: 68%;
+  height: 16%;
+  border-radius: 50%;
+  border: 2px solid var(--light);
+  background: radial-gradient(ellipse, #132332 20%, #253749 67%, #101824 69%);
+  box-shadow: 0 .8vw 0 #151d29, 0 1vw 0 var(--warm), 0 1.5vw 0 #05080e, 0 2vw 4vw #000;
+}
+.show-beam {
+  top: 5%;
+  width: 25%;
+  height: 70%;
+  opacity: .42;
+  transform-origin: 50% 0;
+  clip-path: polygon(48% 0, 52% 0, 100% 100%, 0 100%);
+  background: linear-gradient(var(--light), transparent 85%);
+  animation: show-sweep 13s ease-in-out infinite alternate;
+}
+.show-beam-left { left: -2%; --beam-angle: -27deg; }
+.show-beam-right { right: -2%; --beam-angle: 27deg; animation-delay: -7s; }
+@keyframes show-sweep {
+  from { transform: rotate(var(--beam-angle)); }
+  to { transform: rotate(calc(var(--beam-angle) * .4)); }
+}
+.show-backdrop[data-show-scene="studio"] .show-wall {
+  background: radial-gradient(circle at 15% 48%, #121c2a 0 4%, #68c9dc 4.4% 5%, #141e29 5.4% 15%, transparent 15.4%),
+    radial-gradient(circle at 85% 48%, #121c2a 0 4%, #68c9dc 4.4% 5%, #141e29 5.4% 15%, transparent 15.4%),
+    repeating-linear-gradient(90deg, #6091a31a 0 3px, transparent 3px 12px),
+    linear-gradient(130deg, #333230, #132430);
+}
+.show-backdrop[data-show-scene="disco"] { --light: #ffc047; --warm: #e16a9d; }
+.show-backdrop[data-show-scene="disco"] .show-wall {
+  background: repeating-linear-gradient(45deg, #a73e5840 0 6%, transparent 6% 12%),
+    repeating-linear-gradient(-45deg, #ffc04730 0 6%, #2c193b 6% 12%);
+}
+.show-backdrop[data-show-scene="chronology"] .show-wall {
+  background: repeating-linear-gradient(90deg, #0b1520 0 9%, #66c7dd 9% 9.5%, #0b1520 9.5% 10%);
+}
+.show-backdrop[data-show-scene="duel"] .show-wall {
+  background: linear-gradient(115deg, #842743, #28233c 49.5%, #efcb9b 50%, #18304b 50.5%, #236272);
+}
+.show-backdrop[data-show-scene="cinema"] { --light: #ffd890; --warm: #e94c43; }
+.show-backdrop[data-show-scene="cinema"] .show-wall {
+  background: repeating-linear-gradient(90deg, #1c0712, #581e28 4%, #140713 9%);
+}
+.show-backdrop[data-show-scene="gallery"] .show-wing {
+  background: repeating-linear-gradient(0deg, #153647 0 23%, #81d2e3 24% 25%);
+}
+.show-backdrop[data-show-scene="arena"] .show-wall {
+  background: repeating-linear-gradient(130deg, #1f3446 0 8%, #080f18 8% 16%);
+}
+.show-backdrop[data-show-scene="chain"] .show-wall {
+  background: repeating-radial-gradient(ellipse at center, #121e29 0 9%, #406678 10% 11%);
+}
+.show-backdrop[data-show-phase="reveal"] { --light: #ffd585; }
+.show-backdrop[data-show-phase="paused"] .show-beam { opacity: .16; }
+
+#app[data-show-role="tv"]:not([data-show-scene=""]) {
+  position: relative;
+  min-height: 100svh;
+  background: transparent;
+}
+#app[data-show-role="tv"]:not([data-show-scene=""]) .tv-shell > .row,
+#app[data-show-role="tv"]:not([data-show-scene=""]) .tv-shell > .row .brand {
+  color: #fff;
+}
+#app[data-show-role="tv"]:not([data-show-scene=""]) .tv-shell .stage {
+  background: radial-gradient(ellipse at center, #0b1423ed 16%, #0b1423d6 58%, #0b14231a 100%);
+  border: 0;
+  box-shadow: none;
+}
+[data-show-role="tv"][data-show-phase="reveal"]:not(.show-reduced) .tv-shell .stage h2 {
+  animation: show-reveal .45s cubic-bezier(.15,.7,.3,1) both;
+}
+@keyframes show-reveal {
+  from { opacity: 0; transform: translateY(.35em) scale(.96); }
+  to { opacity: 1; transform: none; }
+}
+[data-show-role="player"]:not([data-show-scene=""]) .phone-buzzer:not(:disabled) {
+  min-height: 88px;
+  border: 2px solid #e9f8ff;
+  background: linear-gradient(#e6faff, #88d8fd 7%, #35addb 75%, #1686b5);
+  color: #071f30;
+  box-shadow: 0 6px 0 #135673, 0 9px 22px #071d3660;
+}
+[data-show-role="player"]:not([data-show-scene=""]) .phone-buzzer:not(:disabled):active {
+  transform: translateY(4px);
+  box-shadow: 0 2px 0 #135673;
+}
+.show-reduced .show-beam { animation: none; }
+@media (prefers-reduced-motion: reduce) {
+  .show-beam, [data-show-role="tv"][data-show-phase="reveal"]:not(.show-reduced) .tv-shell .stage h2 {
+    animation: none;
+  }
+}
+
+[data-show-theme="synthwave"] { --light: #ff78c0; --warm: #b885ff; }
+[data-show-theme="concert"] { --light: #ff783e; --warm: #d63b53; }
+[data-show-theme="mirrorball"] { --light: #ffce72; --warm: #da6dae; }
+[data-show-theme="vintage"], [data-show-theme="warm"] { --light: #ffc888; --warm: #c47953; }
+[data-show-theme="retro-pop"], [data-show-theme="illustrated"] { --light: #ffc18d; --warm: #de6f78; }
+[data-show-theme="broadcast"], [data-show-theme="street"] { --light: #deed7b; --warm: #f77c4d; }
+[data-show-theme="chrome"], [data-show-theme="winter"] { --light: #bfe2fa; --warm: #46acef; }
+[data-show-theme="festival"], [data-show-theme="modern"] { --light: #73eddc; --warm: #ac82ed; }
+[data-show-theme="cinematic"] { --light: #ffd890; --warm: #e94c43; }
+[data-show-theme="summer"] { --light: #ffcf68; --warm: #38c5a6; }
+[data-show-theme="synthwave"] .show-floor {
+  background: repeating-linear-gradient(90deg, transparent 0 9.7%, #ff78c092 10%),
+    repeating-linear-gradient(0deg, #220e3e 0 7.7%, #ff78c092 8%);
+}
+[data-show-theme="concert"] .show-wing {
+  border-radius: 3%;
+  background: radial-gradient(circle, #0c1218 0 21%, #4b4240 22% 30%, transparent 31%) 0 0 / 100% 33.33%,
+    linear-gradient(105deg, #232326, #090b0d);
+}
+[data-show-theme="mirrorball"] .show-floor {
+  background: conic-gradient(#471f42 25%, #6d4738 0 50%, #352648 0 75%, #755038 0) 0 0 / 13% 21%;
+}
+[data-show-theme="festival"] .show-wing {
+  background: repeating-linear-gradient(135deg, #2a3257 0 8%, #13424d 8% 11%, #0a1726 11% 17%);
+}
+[data-show-phase="reveal"] .show-beam { opacity: .65; }
+[data-show-role="player"]:not([data-show-theme="general"]) .phone-shell > .stage {
+  border-top: 3px solid var(--light);
+}
