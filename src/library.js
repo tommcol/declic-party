@@ -1,6 +1,6 @@
 import { DurableObject } from "cloudflare:workers";
 import { LIBRARY_SEED, LIBRARY_SEED_VERSION } from './library-seed.js';
-import { LIBRARY_MASTER } from './library-master.js';
+import { LIBRARY_ARTISTS, LIBRARY_MASTER } from './library-master.js';
 
 const librarySources = {
  fr20261106: 'Official Charts / SNEP, 6–12 novembre 2026',
@@ -29,7 +29,8 @@ const groups = [
  ]],
  ['hits','Grands succès','⭐',[
   ['fr','Hits français','🇫🇷'],['intl','Hits internationaux','🌍'],['alltime','Tubes de tous les temps','🏆'],['mix','Mélange général','🔀']
- ]]
+ ]],
+ ['artists','Artistes','🎤',LIBRARY_ARTISTS]
 ];
 
 export function libraryGroups(year = new Date().getUTCFullYear()) {

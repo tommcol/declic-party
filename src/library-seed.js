@@ -1,5 +1,5 @@
 // Editorial selection. Years refer to the original hit recordings.
-export const LIBRARY_SEED_VERSION = 2;
+export const LIBRARY_SEED_VERSION = 3;
 export const LIBRARY_SEED = `
 1960|Édith Piaf|Non, je ne regrette rien|fr,var,karaoke,alltime
 1961|Ben E. King|Stand by Me|intl,pop,karaoke
