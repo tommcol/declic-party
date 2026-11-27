@@ -354,7 +354,7 @@ export function publicGame(s,teamId){
  const timeMode=s.settings?.timelineMode;
  const timelineTeam=teamId?s.teams.find(team=>team.id===teamId):undefined;
  const myJoker=timelineTeam?.joker;
- const cards=timeMode?timelineCards(s,timelineTeam):undefined;
+ const cards=timeMode?(s.phase==='lobby'&&s.settings.timelineAnchor?[timelineSong(s.settings.timelineAnchor)]:timelineCards(s,timelineTeam)):undefined;
  const timelineResult=timeMode&&s.phase==='finished'&&timelineTeam?{
   rank:s.teams.findIndex(team=>team.id===teamId)+1,
   correct:timelineTeam.score,total:s.questions.length

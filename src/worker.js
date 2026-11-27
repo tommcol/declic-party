@@ -368,6 +368,10 @@ export class PartyRoom extends DurableObject {
     s=applyAction(s,{type:'joker',team:a.team},now);
    }
    else if(m.type==='answer'&&a.role==='player'&&s.input!=='buzzer'){if(m.questionId!==s.questions[s.index]?.id)throw Error('Cette question est terminée');s=applyAction(s,{type:'answer',team:a.team,answer:m.answer,title:m.title,artist:m.artist},now);this.send(ws,{type:'received',accepted:!!s.answers[a.team]});}
+   else if(m.type==='timeline-next'&&a.role==='host'&&s.settings?.timelineMode&&s.phase==='reveal'){
+    s=applyAction(s,{type:'next'},now);
+    if(s.phase==='ready')s=applyAction(s,{type:'play'},now);
+   }
    else if(a.role==='host'&&['play','pause','resume','reveal','next','adjust','judge','listen-more'].includes(m.type)){if(m.type==='play'&&s.teams.length<(s.settings?.chain?3:s.settings?.survival&&s.input==='qcm'?2:1))throw Error(s.settings?.chain?'Attendez au moins trois participants.':s.settings?.survival?'Attendez au moins deux participants.':'Attendez au moins une équipe.');s=applyAction(s,m,now);}
    else throw Error('Action non autorisée');
    if(s===previous)return;
