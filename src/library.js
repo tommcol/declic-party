@@ -1,6 +1,10 @@
 import { DurableObject } from "cloudflare:workers";
 import { LIBRARY_ARTISTS, LIBRARY_MASTER } from './library-master.js';
 
+import {screenWorkByRecording} from './library-screen-works.js';
+
+const screenPlaylistTags=new Set(['films','series','cartoons','tv','shows','disney','ads']);
+
 const librarySources = {
  fr20261106: 'Official Charts / SNEP, 6–12 novembre 2026',
  cherie: 'Chérie FM, titres diffusés',
@@ -61,9 +65,11 @@ export function seedLibrary() {
  for(const [title,artist,year,playlists,work,source] of LIBRARY_MASTER){
   const id=normalizeLibraryText(artist)+'|'+normalizeLibraryText(title);
   const decade=year&&decadeId(year-year%10);
-  const tags=playlists.filter(tag=>!year||!/^\d{4}$/.test(tag));
+  const credit=work?null:screenWorkByRecording.get(artist+'|'+title);
+  const tags=playlists.filter(tag=>(!year||!/^\d{4}$/.test(tag))&&(!credit||!screenPlaylistTags.has(tag)));
+  if(credit)tags.push(...credit.tags);
   if(year)tags.push(decade,'year-'+year);
-  tracks.set(id,{id,title,artist,year:year||0,playlists:[...new Set(tags)],work,source});
+  tracks.set(id,{id,title,artist,year:year||0,playlists:[...new Set(tags)],work:work||credit?.work||null,source,workSource:credit?.source||null});
  }
  tracksById=tracks;
  seedTracks=[...tracks.values()].sort((a,b)=>a.title.localeCompare(b.title,'fr')||a.id.localeCompare(b.id,'fr'));
@@ -213,8 +219,8 @@ export class MusicLibrary extends DurableObject {
   return {tracks,total:matches.length,next:offset+libraryPage<matches.length?offset+libraryPage:null,playable:null};
  }
 
- describe({id,title,artist,year,work,source,playlists}) {
-  return {id,title,artist,year:year||null,work,source:librarySources[source]??source??null,
+ describe({id,title,artist,year,work,source,workSource,playlists}) {
+  return {id,title,artist,year:year||null,work,workSource,source:librarySources[source]??source??null,
    genres:playlists.filter(tag=>validFilters.genres.has(tag)),
    origins:playlists.filter(tag=>validFilters.origin.has(tag)),playlists};
  }

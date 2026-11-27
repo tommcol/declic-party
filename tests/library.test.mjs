@@ -5,6 +5,8 @@ import {tmpdir} from 'node:os';
 import {join} from 'node:path';
 import test from 'node:test';
 import {createLocalServer} from '../local/server.mjs';
+import {LIBRARY_MASTER} from '../src/library-master.js';
+import {SCREEN_WORKS,screenWorkByRecording} from '../src/library-screen-works.js';
 import {buildLocal} from '../build.mjs';
 
 test('Le catalogue local croise les filtres, conserve les références et retrouve les playlists enregistrées',async t=>{
@@ -31,6 +33,21 @@ test('Le catalogue local croise les filtres, conserve les références et retrou
  const summary=await request('');
  assert.equal(summary.total,5166);
  assert.equal(summary.references,summary.total);
+ const catalog=new Map(LIBRARY_MASTER.map(track=>[track[1]+'|'+track[0],track]));
+ assert.equal(screenWorkByRecording.size,SCREEN_WORKS.reduce((total,entry)=>total+entry[3].length,0));
+ for(const [recording,credit] of screenWorkByRecording){
+  const track=catalog.get(recording);
+  assert.ok(track,recording);
+  assert.equal(track[4],null,recording);
+  assert.ok(credit.work);
+ }
+ const film=await request('/tracks?playlist=films&q=How+Deep+Is+Your+Love');
+ assert.equal(film.tracks.find(track=>track.artist==='Bee Gees')?.work,'La Fièvre du samedi soir');
+ assert.equal(film.tracks.find(track=>track.artist==='Bee Gees')?.workSource,'https://www.loc.gov/item/95781649/');
+ const series=await request('/tracks?playlist=series&q=Every+Breath+You+Take');
+ assert.equal(series.tracks.find(track=>track.artist==='The Police')?.work,'Stranger Things');
+ const cartoon=await request('/tracks?playlist=cartoons&q=How+Far');
+ assert.ok(cartoon.tracks.some(track=>track.work==='Vaiana, la légende du bout du monde'));
  const periods=summary.categories.find(group=>group.id==='decades').playlists;
  assert.equal(periods[0].name,'Années 1960');
  assert.equal(periods.find(item=>item.id.startsWith('year-')).name,'1960');

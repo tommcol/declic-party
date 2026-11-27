@@ -5,7 +5,8 @@ import {LIBRARY_MASTER} from '../src/library-master.js';
 
 const origin=process.argv[2]||'http://127.0.0.1:3000';
 const revision=createHash('sha256').update((await readFile(
- new URL('../src/library-master.js',import.meta.url),'utf8')).replace(/^export /gm,'')).digest('hex').slice(0,12);
+ new URL('../src/library-master.js',import.meta.url),'utf8')).replace(/^export /gm,'')).update((await readFile(
+ new URL('../src/library-screen-works.js',import.meta.url),'utf8')).replace(/^export /gm,'')).digest('hex').slice(0,12);
 const authorization='Bearer '+randomBytes(32).toString('hex');
 async function get(path){
  const response=await fetch(origin+path,{headers:{Authorization:authorization},signal:AbortSignal.timeout(4000)});

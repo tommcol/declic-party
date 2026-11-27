@@ -1,0 +1,144 @@
+// Each entry identifies the catalog recording by its exact title and artist.
+// Source URLs are kept with the attribution for the catalog editor.
+export const SCREEN_WORKS = [
+ ['Muriel', ['films'], 'https://www.imdb.com/title/tt0110598/soundtrack/', [
+  ['Dancing Queen','ABBA'],['Fernando','ABBA'],['Mamma Mia','ABBA']
+ ]],
+ ['La Fièvre du samedi soir', ['films'], 'https://www.loc.gov/item/95781649/', [
+  ['How Deep Is Your Love','Bee Gees'],['Night Fever','Bee Gees']
+ ]],
+ ['Get Out', ['films'], 'https://www.imdb.com/title/tt5052448/soundtrack/', [['Redbone','Childish Gambino']]],
+ ['Dirty Dancing', ['films'], 'https://music.apple.com/us/album/dirty-dancing-original-motion-picture-soundtrack/254938499', [
+  ['The Time of My Life','Bill Medley & Jennifer Warnes']
+ ]],
+ ['Stand by Me', ['films'], 'https://www.imdb.com/title/tt0092005/soundtrack/', [['Stand by Me','Ben E. King']]],
+ ['Esprits rebelles', ['films'], 'https://www.imdb.com/title/tt0112792/soundtrack/', [['Gangsta\'s Paradise','Coolio']]],
+ ['Pretty Woman', ['films'], 'https://www.imdb.com/title/tt0100405/soundtrack/', [['Oh Pretty Woman','Roy Orbison']]],
+ ['Breakfast Club', ['films'], 'https://seances-speciales.fr/wp-content/uploads/2023/07/Breakfast-Club-Fiche-eleve.pdf', [
+  ['Don\'t You (Forget About Me)','Simple Minds']
+ ]],
+ ['Shrek', ['films','cartoons'], 'https://www.imdb.com/title/tt0126029/soundtrack/', [
+  ['I\'m a Believer (Shrek / Smash Mouth)','Smash Mouth']
+ ]],
+ ['Ready Player One', ['films'], 'https://www.imdb.com/title/tt1677720/soundtrack/', [
+  ['Jump','Van Halen'],['Take On Me','a-ha']
+ ]],
+ ['Easy Rider', ['films'], 'https://www.imdb.com/title/tt0064276/soundtrack/', [['Born to Be Wild','Steppenwolf']]],
+ ['Bohemian Rhapsody', ['films'], 'https://www.imdb.com/title/tt1727824/soundtrack/', [['Bohemian Rhapsody','Queen']]],
+ ['Moonwalker', ['films'], 'https://www.youtube.com/watch?v=h_D3VFfhvs4', [['Smooth Criminal','Michael Jackson']]],
+ ['Last Christmas', ['films'], 'https://www.imdb.com/title/tt8623904/soundtrack/', [
+  ['Last Christmas','Wham!'],['Wake Me Up Before You Go-Go','Wham!']
+ ]],
+ ['Men in Black', ['films'], 'https://www.imdb.com/title/tt0119654/soundtrack/', [['Men in Black','Will Smith']]],
+ ['Star Wars', ['films'], 'https://www.imdb.com/title/tt0076759/soundtrack/', [['Star Wars Main Theme','John Williams']]],
+ ['James Bond 007 contre Dr No', ['films'], 'https://www.imdb.com/title/tt0055928/soundtrack/', [['James Bond Theme','Monty Norman']]],
+ ['Tandem', ['films'], 'https://www.imdb.com/title/tt0094105/soundtrack/', [['Il mio rifugio','Richard Cocciante']]],
+ ['D’où viens-tu… Johnny ?', ['films'], 'https://www.imdb.com/title/tt0056974/soundtrack/', [
+  ['Pour moi la vie va commencer','Johnny Hallyday']
+ ]],
+ ['Les Parisiennes', ['films'], 'https://hallyday.com/Image/Dvd/parisiennes.html', [['Retiens la nuit','Johnny Hallyday']]],
+ ['Les Bronzés font du ski', ['films'], 'https://www.imdb.com/title/tt0078908/soundtrack/', [
+  ['Les Bronzés font du ski (Étoile des neiges)','Générique / Film']
+ ]],
+ ['Le Dîner de cons', ['films'], 'https://www.e.leclerc/fp/le-diner-de-cons-3596973945662', [
+  ['Le Dîner de cons (thème)','Vladimir Cosma']
+ ]],
+ ['Le Fabuleux Destin d’Amélie Poulain', ['films'], 'https://www.imdb.com/title/tt0211915/soundtrack/', [
+  ['Comptine d\'un autre été','Yann Tiersen']
+ ]],
+ ['Intouchables', ['films'], 'https://www.imdb.com/title/tt1675434/soundtrack/', [['Fly','Ludovico Einaudi']]],
+ ['Vaiana, la légende du bout du monde', ['films','cartoons','disney'], 'https://music.apple.com/us/multi-room/6469570083?l=fr', [
+  ['How Far I\'ll Go','Auli\'i Cravalho'],['Le Bleu lumière (Vaiana)','Cerise Calixte']
+ ]],
+ ['Encanto, la fantastique famille Madrigal', ['films','cartoons','disney'], 'https://music.apple.com/us/album/disney-halloween/1773363889', [
+  ['We Don\'t Talk About Bruno','Carolina Gaitán & cast']
+ ]],
+ ['La Belle et la Bête', ['films','cartoons','disney'], 'https://www.imdb.com/title/tt0101414/soundtrack/', [
+  ['Be Our Guest','Angela Lansbury']
+ ]],
+ ['Le Roi lion', ['films','cartoons','disney'], 'https://www.imdb.com/title/tt0110357/soundtrack/', [
+  ['Circle of Life','Elton John'],['Hakuna Matata','Nathan Lane & Ernie Sabella']
+ ]],
+ ['La Petite Sirène', ['films','cartoons','disney'], 'https://music.apple.com/us/playlist/alessia-caras-disney-favorites/pl.097b1d02d9f9405fa30d2f9aaeb56ddb', [
+  ['Under the Sea','Samuel E. Wright']
+ ]],
+ ['Coco', ['films','cartoons','disney'], 'https://www.imdb.com/title/tt2380307/soundtrack/', [
+  ['Remember Me','Miguel & Natalia Lafourcade']
+ ]],
+ ['Pocahontas, une légende indienne', ['films','cartoons','disney'], 'https://disney.go.com/disneyrecords/biographies/williams_bio.html', [
+  ['Colors of the Wind','Vanessa Williams']
+ ]],
+ ['Arsène Lupin', ['series','tv'], 'https://catalogue.bnf.fr/ark:/12148/cb38365629t', [['Gentleman cambrioleur','Jacques Dutronc']]],
+ ['Newport Beach', ['series','tv'], 'https://www.imdb.com/title/tt0663893/soundtrack/', [['Hallelujah','Jeff Buckley']]],
+ ['Alerte à Malibu', ['series','tv'], 'https://www.imdb.com/title/tt0096542/soundtrack/', [['I\'m Always Here','Jimi Jamison']]],
+ ['Friends', ['series','tv'], 'https://www.imdb.com/title/tt0108778/soundtrack/', [
+  ['Friends (I\'ll Be There for You)','The Rembrandts']
+ ]],
+ ['K 2000', ['series','tv'], 'https://www.imdb.com/title/tt0083437/soundtrack/', [['Knight Rider Theme','Stu Phillips']]],
+ ['Stranger Things', ['series','tv'], 'https://www.legacyrecordings.com/releases/stranger-things-music-from-the-netflix-original-series/', [
+  ['Every Breath You Take','The Police']
+ ]],
+ ['Invincible', ['series','cartoons','tv'], 'https://www.imdb.com/title/tt14556072/soundtrack/', [['Karma Police','Radiohead']]],
+ ['Question pour un champion', ['shows','tv'], 'https://catalogue.ina.fr/doc/TV-RADIO/TV_1136460.001/questions-pour-un-champion', [
+  ['Question pour un champion (Générique)','Générique TV']
+ ]],
+ ['Journal de 20 heures de TF1', ['shows','tv'], 'https://catalogue.ina.fr/doc/ECRIT/DE_12/tf1-documents-d-accompagnement', [
+  ['Thème du JT de 20h (TF1)','Générique TV']
+ ]],
+ ['Cinq colonnes à la une', ['shows','tv'], 'https://catalogue.ina.fr/doc/TV-RADIO/DA_CAF97100900/cinq-colonnes-a-la-une', [
+  ['Cinq colonnes à la une (Indicatif)','Indicatif TV']
+ ]],
+ ['Eurovision 2016', ['shows','tv'], 'https://eurovision.tv/participant/amir', [['J\'ai cherché','Amir']]],
+ ['Eurovision 2023', ['shows','tv'], 'https://eurovision.tv/participant/la-zarra-2023', [['Évidemment','La Zarra']]],
+ ['Eurovision 2024', ['shows','tv'], 'https://eurovision.tv/participant/slimane-2024', [['Mon amour','Slimane']]],
+ ['Eurovision 2001', ['shows','tv'], 'https://eurovision.tv/event/copenhagen-2001/grand-final', [['Je n\'ai que mon âme','Natasha St-Pier']]],
+ ['Star Academy', ['shows','tv'], 'https://www.tf1info.fr/culture/programme-tv-tf1-pierre-vainqueur-de-la-star-academy-interview-dadju-m-a-fait-un-magnifique-cadeau-2285043.html', [
+  ['Ceux qu’on était','Pierre Garnier']
+ ]],
+ ['Dragon Ball Z', ['cartoons','series','tv'], 'https://dragon-ballwiki.com/wiki/cha-la-head-cha-la/', [
+  ['Dragon Ball Z (Cha-La Head-Cha-La)','Hironobu Kageyama']
+ ]],
+ ['Denver, le dernier dinosaure', ['cartoons','series','tv'], 'https://www.lestelevores.com/index.php?action=affFiche&aff=home&idFiche=44', [
+  ['Denver, le dernier dinosaure','Générique VF']
+ ]],
+ ['Les Mystérieuses Cités d’or', ['cartoons','series','tv'], 'https://musee.sacem.fr/index.php/ExhibitionCMS/ExhibitionCMS/View?id=5877', [
+  ['Les Mystérieuses Cités d\'or','Sabine & Jacques Cardona']
+ ]],
+ ['Inspecteur Gadget', ['cartoons','series','tv'], 'https://musee.sacem.fr/index.php/ExhibitionCMS/ExhibitionCMS/View?id=5877', [
+  ['Inspecteur Gadget','Shuki Levy & Haim Saban']
+ ]],
+ ['Cette musique ne joue pour personne', ['films'], 'https://www.imdb.com/title/tt10965976/soundtrack/', [
+  ["Vertige de l'amour",'Alain Bashung']
+ ]],
+ ['Keanu', ['films'], 'https://www.imdb.com/title/tt4139124/soundtrack/', [
+  ['Faith','George Michael'],["Freedom! '90",'George Michael']
+ ]],
+ ['Click : Télécommandez votre vie', ['films'], 'https://www.imdb.com/title/tt0389860/soundtrack/', [
+  ['Linger','The Cranberries']
+ ]],
+ ['X-Men : Apocalypse', ['films'], 'https://www.imdb.com/title/tt3385516/soundtrack/', [
+  ['Sweet Dreams (Are Made of This)','Eurythmics']
+ ]],
+ ['Marche à l’ombre', ['films'], 'https://catalogue.bnf.fr/ark:/12148/cb16076765d', [["Marche à l'ombre",'Renaud']]],
+ ['Embrasse-moi Lucile', ['cartoons','series','tv'], 'https://animeguides.com/guides/generiques/embrassemoilucile.html', [
+  ['Embrasse-moi Lucile','Générique VF']
+ ]],
+ ['Publicité Lynx', ['ads'], 'https://www.koreus.com/modules/news/article2392.html', [
+  ['Over the Rainbow',"Israel Kamakawiwo'ole"]
+ ]],
+ // These records explicitly identify the programme in the catalog title.
+ ['Commissaire Moulin', ['series','tv'], null, [['Commissaire Moulin (Générique)','Générique TV']]],
+ ['Les Feux de l’amour', ['series','tv'], null, [['Les Feux de l\'amour (Générique)','Générique TV']]],
+ ['Les Saintes Chéries', ['series','tv'], null, [['Les Saintes Chéries (Générique)','Générique TV']]],
+ ['Un gars, une fille', ['series','tv'], null, [['Un gars, une fille','Générique TV']]],
+ ['Les Dossiers de l’écran', ['shows','tv'], null, [['Les Dossiers de l\'écran (Indicatif)','Indicatif TV']]],
+ ['Bonne nuit les petits', ['shows','tv'], null, [['Bonne nuit les petits','Jacqueline Joubert / Claude Laydu']]],
+ ['Pokémon', ['cartoons','series','tv'], null, [['Pokémon (Attrapez-les tous)','Pokémon FR']]],
+ ['Goldorak', ['cartoons','series','tv'], null, [['Goldorak','Aldo Franck']]],
+ ['Ulysse 31', ['cartoons','series','tv'], null, [['Ulysse 31','Denis Duran']]],
+ ['Capitaine Flam', ['cartoons','series','tv'], null, [['Capitaine Flam','Jean-Jacques Debout']]],
+];
+
+export const screenWorkByRecording = new Map(SCREEN_WORKS.flatMap(([work,tags,source,recordings])=>
+ recordings.map(([title,artist])=>[artist+'|'+title,{work,tags,source}])
+));
