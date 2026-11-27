@@ -525,7 +525,16 @@ document.addEventListener('click',async e=>{const b=e.target.closest('[data-acti
  if(act==='launch'){await launch();return;}
  if(act==='new-game'){desk.stop();view='setup';render();return;}
  if(act==='screen'){const win=window.open('/tv','declic-public','width=1280,height=800');if(!win)toast('Autorisez les fenêtres pour ouvrir l’écran public.');return;}
- if(act==='copy-link'){await navigator.clipboard.writeText(location.origin+'/join?code='+room);toast('Lien d’invitation copié !');return;}
+ if(act==='copy-link'){
+  const link=new URL('/join?code='+room,location.origin).href;
+  try{
+   await navigator.clipboard.writeText(link);
+   toast('Lien d’invitation copié !');
+  }catch{
+   window.prompt('Copiez le lien d’invitation :',link);
+  }
+  return;
+ }
  if(act==='join-page'){location.assign('/join');return;}
  if(act==='new-question'){questionForm({universe:config.universe});return;}
  if(act==='edit-question'){questionForm(custom.find(q=>q.id===v));return;}
