@@ -292,7 +292,7 @@ export class PartyRoom extends DurableObject {
    state.connectedPlayers=[...new Set(this.ctx.getWebSockets().map(socket=>socket.deserializeAttachment())
     .filter(identity=>identity?.role==='player').map(identity=>identity.team))];
   }
-  if(a.role==='host'||a.role==='tv'||a.role==='player'&&['paused','finished'].includes(s.phase)){
+  if(a.role==='host'||a.role==='tv'||a.role==='player'&&['lobby','paused','finished'].includes(s.phase)){
    const ranking=eveningRanking||this.eveningRanking(s);
    if(a.role==='player'){
     const rank=ranking.findIndex(team=>team.id===a.team);

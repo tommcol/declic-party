@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {createGame,applyAction,publicGame,audioRemaining,DEMO} from '../public/engine.js';
+import {createGame,applyAction,publicGame,bingoGrandWinners,audioRemaining,DEMO} from '../public/engine.js';
 const teams=[{id:'a',name:'Alpha'},{id:'b',name:'Beta'}];
 const audio={id:'audio',kind:'audio',prompt:'Le titre ?',answer:'Titre',title:'Titre',artist:'Artiste',target:'title',options:['Titre','Faux','Non','Autre'],duration:30,points:100};
 const start=(input='buzzer',settings={},q=audio)=>applyAction(createGame([q],teams,'phone',input,{speed:false,streak:false,...settings}),{type:'play'},1000);
@@ -70,6 +70,15 @@ test('Bingo : mêmes 16 titres, choix secret, cochage à la révélation et troi
  assert.deepEqual(s.bingoMilestones.map(goal=>goal.rows),[1,2,3]);
  assert.equal(s.index,16);
  assert.equal(s.history.length,16);
+});
+
+test('Bingo : les points finaux départagent les gagnants simultanés du Triple Bingo',()=>{
+ const milestone=[{rows:3,winners:['a','b'],index:12}];
+ const finalists=[{id:'a',score:80},{id:'b',score:110},{id:'c',score:200}];
+ assert.deepEqual(bingoGrandWinners(finalists,milestone).map(team=>team.id),['b']);
+ finalists[0].score=110;
+ assert.deepEqual(bingoGrandWinners(finalists,milestone).map(team=>team.id),['a','b']);
+ assert.deepEqual(bingoGrandWinners(finalists),[]);
 });
 
 test('Bingo : colonne, ligne et double étape simultanée avec ex æquo',()=>{

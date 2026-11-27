@@ -41,6 +41,13 @@ export function bingoProgress({card, marked}) {
   remaining:Math.min(...[...rows,...columns].map(line=>line.filter(id=>!marks.has(id)).length).filter(Boolean),size)
  };
 }
+export function bingoGrandWinners(teams,milestones=[]){
+ const triple=milestones.find(milestone=>milestone.rows===3);
+ if(!triple)return [];
+ const contenders=teams.filter(team=>triple.winners.includes(team.id));
+ const best=Math.max(...contenders.map(team=>team.score));
+ return contenders.filter(team=>team.score===best);
+}
 export function roundStatistics(history,teams) {
  const rows=new Map(teams.map(({id,name})=>[id,{id,name,correct:0,wrong:0,absent:0,
   timed:0,elapsed:0,best:null,last:null,fastest:0,streak:0,bestStreak:0}]));
