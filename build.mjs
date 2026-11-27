@@ -3,9 +3,9 @@ import {readFile,writeFile,mkdir} from 'node:fs/promises';
 const files=['index.html','style.css','app.js','engine.js','audio.js','catalog.js','qrcode.js','music-library.js','tyrolien-ui.js','roulette.js','teams.js','team-ui.js','show.js','show.css'];
 const types={html:'text/html; charset=utf-8',css:'text/css; charset=utf-8',js:'text/javascript; charset=utf-8'};
 const assets={};for(const f of files)assets['/'+f]={body:await readFile(new URL('public/'+f,import.meta.url),'utf8'),type:types[f.split('.').pop()]};
-for(const file of ['tyrolien-plateau.webp','jeux-plateaux.webp'])assets['/'+file]={
+for(const file of ['tyrolien-plateau.webp','jeux-plateaux.webp','grand-soir.webp','fonts/barlow.woff','fonts/dm.woff'])assets['/'+file]={
  body:(await readFile(new URL('public/'+file,import.meta.url))).toString('base64'),
- type:'image/webp',base64:true
+ type:file.endsWith('.woff')?'font/woff':'image/webp',base64:true
 };
 await writeFile(new URL('src/assets.generated.js',import.meta.url),'export const ASSETS = '+JSON.stringify(assets)+';\n');
 // Deployable single-module bundle. No build dependency or secret is needed.

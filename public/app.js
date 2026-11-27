@@ -1699,7 +1699,7 @@ function playlistSetup(){
 }
 function playlistTile(item){
  const pressed=selectedPlaylists.includes(item.id), favorite=favoritePlaylists.includes(item.id);
- return `<div class="playlist-choice"><button class="theme-card playlist-tile" data-action="playlist-toggle" data-value="${esc(item.id)}" aria-pressed="${pressed}">
+ return `<div class="playlist-choice" data-cover-theme="${playlistShowTheme([item.id])}"><button class="theme-card playlist-tile" data-action="playlist-toggle" data-value="${esc(item.id)}" aria-pressed="${pressed}">
  <span class="playlist-icon" aria-hidden="true">${esc(item.icon)}</span><strong>${esc(item.name)}</strong>
  <span class="playlist-check" aria-hidden="true">✓</span></button>
  <button class="iconbtn playlist-star" data-action="playlist-favorite" data-value="${esc(item.id)}" aria-label="Favori · ${esc(item.name)}" aria-pressed="${favorite}">${favorite?'★':'☆'}</button></div>`;

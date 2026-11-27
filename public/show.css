@@ -572,3 +572,109 @@
   .show-backdrop .show-wash { animation: none !important; }
   .show-backdrop :is(.show-artwork, .show-wash) { transition: none; }
 }
+
+@font-face {
+  font-family: 'Barlow Condensed';
+  src: url('/fonts/barlow.woff') format('woff');
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'DM Sans';
+  src: url('/fonts/dm.woff') format('woff');
+  font-weight: 100 1000;
+  font-display: swap;
+}
+:root {
+  --party-bg: #091321;
+  --party-card: #132338;
+  --party-border: #34465c;
+  --party-text: #fff4db;
+  --party-muted: #c0cddc;
+  --party-lilac: #ffd085;
+  --soir-title: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+  --soir-body: 'DM Sans', system-ui, sans-serif;
+}
+.host-home, .party-interface, .evening-dialog { font-family: var(--soir-body); }
+.host-home {
+  background: linear-gradient(0deg, #07111cef, #09132183 70%), url('/grand-soir.webp') center / cover;
+}
+.host-brand span, .host-card-icon { background: #172d41; color: #ffcf7b; }
+.host-welcome h1, .party-interface :is(h1,h2,h3), .host-card-primary strong {
+  font-family: var(--soir-title);
+  font-weight: 700;
+  letter-spacing: .005em;
+}
+.host-welcome h1 { font-size: clamp(3.1rem, 7vw, 6rem); text-shadow: 0 4px 25px #06101f; }
+.host-equalizer i { background: linear-gradient(#fff4db,#ffbf57); box-shadow: 0 0 12px #ffbf5745; }
+.host-card { color: #fff4db; background: #0e1d30f5; border-color: #526177; }
+.host-card-primary, .party-interface .btn.primary {
+  color: #20180c;
+  background: linear-gradient(110deg,#ffe2a4,#ffbd56 72%,#efab42);
+  border: 1px solid #ffdc95;
+  box-shadow: 0 3px 0 #845a24, 0 8px 24px #0004;
+}
+.host-card-primary :is(small,.host-card-icon,.host-card-arrow) { color: #362712; }
+.host-card-primary .host-card-icon { background: #fff6; }
+.party-interface { background: radial-gradient(ellipse at 80% 0, #183044, transparent 55%),#091321; }
+.party-interface :is(.studio .control,.host-round,.joincard,.round-history,.results-leaders) {
+  color: #fff4db; background: #122236; border: 1px solid #384c61;
+}
+.party-interface .studio .answerbox { background: #211e19; border-left: 4px solid #ffbf57; color: #ffe4af; }
+.party-interface .studio .connection:not(.offline) { color: #9df1ed; background: #11353c; }
+.party-interface .studio .control .btn { min-height: 44px; }
+.party-interface :is(.btn,.host-card,.option):enabled:active { transform: translateY(2px); }
+.party-interface .phone-score { color: #fff4db; background: #132338; border: 1px solid #546980; padding: .45em .8em; border-radius: 12px; }
+.party-interface .phone-shell :is(.option,.btn) { min-height: 46px; }
+.party-interface .phone-shell .phone-buzzer:not(:disabled) {
+  background: linear-gradient(#fff2cd,#ffd081 25%,#ffb747);
+  border-color: #fff1ca; color: #291d0c; box-shadow: 0 6px 0 #77501e,0 8px 22px #03090e88;
+}
+.party-interface .playlist-choice .playlist-icon {
+  display: inline-grid; place-items: center; width: 2.4em; aspect-ratio: 1;
+  border-radius: 6px; color: #fff4db; background:
+    repeating-radial-gradient(circle at 90% 90%,transparent 0 7%,#fff2 8% 9%,transparent 10% 15%),
+    linear-gradient(135deg,#317385,#15223b 75%); box-shadow: 2px 2px 0 #ffcf7655;
+}
+.playlist-choice:nth-child(3n+2) .playlist-icon { filter: hue-rotate(75deg); }
+.playlist-choice:nth-child(3n) .playlist-icon { filter: hue-rotate(185deg); }
+.party-interface .playlist-tile[aria-pressed="true"] { border-color: #ffbf57; box-shadow: inset 0 0 0 1px #ffbf57; }
+.show-backdrop[data-show-scene="plateau"] { background: #091321 url('/grand-soir.webp') center / cover; }
+.show-backdrop[data-show-scene="plateau"] :is(.show-wall,.show-wing,.show-floor,.show-podium,.show-set-piece) { display: none; }
+[data-show-role="tv"] .podium > div {
+  color: #fff4db; background: linear-gradient(#32475b,#102034); border: 1px solid #577086;
+}
+[data-show-role="tv"] .podium > div:first-child {
+  background: linear-gradient(#614827,#251d17); border-color: #edc787;
+}
+@keyframes soir-podium { from { opacity: 0; transform: translateY(1rem); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: no-preference) {
+  [data-show-role="tv"]:not(.show-reduced) .podium > div { animation: soir-podium .5s ease-out both; }
+  [data-show-role="tv"]:not(.show-reduced) .podium > div:nth-child(2) { animation-delay: .22s; }
+  [data-show-role="tv"]:not(.show-reduced) .podium > div:first-child { animation-delay: .48s; }
+  [data-show-role="tv"]:not(.show-reduced) .stage .countdown { animation: show-reveal .3s ease-out both; }
+}
+.party-interface .playlist-choice .playlist-icon {
+  background-image: linear-gradient(#0b14253b,#07111b8c), url('/jeux-plateaux.webp');
+  background-size: 100% 100%, 290% 200%;
+  background-position: center, 0% 0%;
+  filter: none;
+}
+.party-interface .playlist-choice:is([data-cover-theme="mirrorball"],[data-cover-theme="festival"],[data-cover-theme="summer"]) .playlist-icon { background-position: center, 100% 0%; }
+.party-interface .playlist-choice:is([data-cover-theme="warm"],[data-cover-theme="vintage"],[data-cover-theme="retro-pop"]) .playlist-icon { background-position: center, 0% 100%; }
+.party-interface .playlist-choice:is([data-cover-theme="cinematic"],[data-cover-theme="illustrated"]) .playlist-icon { background-position: center, 100% 100%; }
+#app[data-show-role="player"]:not([data-show-scene=""]) .phone-buzzer:not(:disabled) {
+  background: linear-gradient(#fff1c5,#ffcc7c 22%,#efac40);
+  border-color: #ffe8ad; color: #281b0b; box-shadow: 0 5px 0 #77501e;
+}
+@keyframes soir-listening {
+  from { opacity: .22; transform: scale(.86); }
+  to { opacity: 0; transform: scale(1.22); }
+}
+@media (prefers-reduced-motion: no-preference) {
+  [data-show-role="tv"][data-show-phase="playing"]:not(.show-reduced) .record::after {
+    content: ''; position: absolute; inset: -7%; pointer-events: none;
+    border: 2px solid #79e5f8; border-radius: 50%;
+    animation: soir-listening 1.7s ease-out infinite;
+  }
+}
