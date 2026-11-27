@@ -1,7 +1,6 @@
-import {spawn} from 'node:child_process';
-import {createRequire} from 'node:module';
-import {dirname,join} from 'node:path';
 import {fileURLToPath} from 'node:url';
+import {buildLocal} from './build.mjs';
+import {createLocalServer} from './local/server.mjs';
 
 const args=process.argv.slice(2);
 const portIndex=args.indexOf('--port');
@@ -11,19 +10,21 @@ if((args.length!==0&&(args.length!==2||portIndex<0))||
  throw Error('Usage : node dev.mjs [--port 3000]');
 }
 
-const require=createRequire(import.meta.url);
-const wrangler=join(dirname(require.resolve('wrangler/package.json')),'bin/wrangler.js');
-const cwd=fileURLToPath(new URL('.',import.meta.url));
-await import('./build.mjs');
-
-const server=spawn(process.execPath,[wrangler,'dev','--local','--ip','0.0.0.0',
- '--port',port,'--persist-to','.wrangler/state','--var','DECLIC_LOCAL:true',
- '--show-interactive-dev-session=false'],{
- cwd,stdio:'inherit',env:{...process.env,WRANGLER_SEND_METRICS:'false',CLOUDFLARE_CF_FETCH_ENABLED:'false'}
+await buildLocal();
+const {default:worker,PartyRoom,MusicLibrary}=await import('./dist/local-worker.mjs');
+const directory=process.env.DECLIC_DATA_DIR||fileURLToPath(new URL('.declic-local/',import.meta.url));
+const {server,close}=createLocalServer({worker,PartyRoom,MusicLibrary},directory);
+server.listen(Number(port),'0.0.0.0',()=>console.log('Déclic Party — serveur local sur http://0.0.0.0:'+port));
+server.on('error',async error=>{
+ console.error(error.message);
+ process.exitCode=1;
+ await close();
 });
+let stopping=false;
 for(const signal of ['SIGTERM','SIGINT']){
- process.once(signal,()=>server.kill(signal));
+ process.on(signal,async()=>{
+  if(stopping)return;
+  stopping=true;
+  await close();
+ });
 }
-server.once('exit',(code,signal)=>{
- process.exitCode=code??(signal==='SIGINT'||signal==='SIGTERM'?0:1);
-});

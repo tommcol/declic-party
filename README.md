@@ -29,19 +29,19 @@ Ouvrir « Écran public », déplacer la fenêtre sur la TV puis passer en plein
 
 ## Développement
 
-Utiliser Node.js 22.12 ou ultérieur. Les tests et la compilation n’ont pas besoin de Wrangler.
+Utiliser Node.js 22.12 ou ultérieur. Le serveur et les tests locaux utilisent SQLite intégré à Node.js et le paquet WebSocket `ws`.
 
 ```sh
-npm ci
+npm ci --omit=dev
 npm test
 npm run dev
 ```
 
-Ouvrir http://localhost:3000/ sur le serveur, ou http://192.168.1.147:3000/ depuis le réseau de Batocera. `npm run dev` et l’ancienne commande `node dev.mjs --port 3000` lancent le même Worker, avec les deux Durable Objects simulés localement par Wrangler. Les données locales sont conservées dans `.wrangler/state`, même après un arrêt. Les pages et scripts sont servis sans cache en développement. Le navigateur conserve sa clé animateur et ses fichiers personnels pour l’adresse utilisée. Les extraits Deezer nécessitent une connexion Internet et passent par le Worker local.
+Ouvrir http://localhost:3000/ sur le serveur ou http://192.168.1.147:3000/ depuis le réseau de Batocera. `npm run dev` et `node dev.mjs --port 3000` exécutent sous Node.js les mêmes routes et règles que sur Cloudflare. Les soirées, alarmes, scores et exclusions sont stockés dans `.declic-local/`. Conserver ce dossier lors des mises à jour. Les anciens fichiers `.wrangler/state` restent sur le disque et leur format diffère de celui du serveur Node. Les pages et scripts sont servis sans cache. Les extraits Deezer nécessitent une connexion Internet.
 
 ### Batocera
 
-Dans le terminal **Batocera**, depuis le dossier qui contient `debian` (`/media/NO_LABEL/serveur` sur cette installation), mettre à jour le dépôt sans écraser de modifications locales et installer Wrangler dans Debian.
+Dans le terminal **Batocera**, depuis le dossier qui contient `debian` (`/media/NO_LABEL/serveur` sur cette installation), mettre à jour le dépôt sans écraser de modifications locales et installer les dépendances du serveur Node dans Debian.
 
 ```sh
 cd /media/NO_LABEL/serveur
@@ -50,7 +50,7 @@ chroot "$PWD/debian" /usr/bin/env PATH=/opt/node22/bin:/usr/bin:/bin /bin/sh -c 
   cd /opt/applications/declic-party
   node --version
   git pull --ff-only origin main
-  npm ci --include=dev
+  npm ci --omit=dev
 '
 ```
 
@@ -61,6 +61,7 @@ mkdir -p /userdata/system/services
 cp debian/opt/applications/declic-party/scripts/batocera-service.sh /userdata/system/services/declic_party
 chmod +x /userdata/system/services/declic_party
 batocera-services enable declic_party
+batocera-services stop declic_party
 batocera-services start declic_party
 ```
 

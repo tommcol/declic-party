@@ -19,8 +19,8 @@ running() {
 case "${1:-}" in
     start)
         if running; then exit 0; fi
-        [ -x "$jail$node" ] && [ -f "$jail$app/node_modules/wrangler/bin/wrangler.js" ] ||
-            { echo "Déclic Party : Node ou Wrangler introuvable dans $jail" >&2; exit 1; }
+        [ -x "$jail$node" ] && [ -f "$jail$app/node_modules/ws/package.json" ] ||
+            { echo "Déclic Party : Node ou le module WebSocket introuvable dans $jail" >&2; exit 1; }
         mkdir -p "$jail/proc" "$jail/dev"
         [ -e "$jail/proc/self/status" ] || mount -t proc proc "$jail/proc"
         [ -c "$jail/dev/null" ] || mount -o bind /dev "$jail/dev"
@@ -30,7 +30,18 @@ case "${1:-}" in
         echo "$!" > "$pidfile"
         ;;
     stop)
-        if running; then kill "$pid"; fi
+        if running; then
+            kill "$pid"
+            remaining=20
+            while running; do
+                if [ "$remaining" -eq 0 ]; then
+                    echo "Déclic Party : le serveur met trop longtemps à s’arrêter" >&2
+                    exit 1
+                fi
+                sleep 1
+                remaining=$((remaining - 1))
+            done
+        fi
         rm -f "$pidfile"
         ;;
     status)
