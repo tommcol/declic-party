@@ -126,6 +126,60 @@ export const SCREEN_WORKS = [
  ['Publicité Lynx', ['ads'], 'https://www.koreus.com/modules/news/article2392.html', [
   ['Over the Rainbow',"Israel Kamakawiwo'ole"]
  ]],
+ ['Voicemails for Isabelle', ['films'], 'https://ringostrack.com/artist/benson-boone/297608', [
+  ['Beautiful Things','Benson Boone']
+ ]],
+ ['Freakier Friday', ['films'], 'https://www.imdb.com/title/tt31956415/soundtrack/', [['HOT TO GO!','Chappell Roan']]],
+ ['The Imposter', ['series','tv'], 'https://www.seekertune.com/shows/the-imposter/season-1/', [['Messy','Lola Young']]],
+ ['Yellowjackets', ['series','tv'], 'https://music.apple.com/us/song/1712728458', [['Zombie','The Cranberries']]],
+ ['Deadpool', ['films'], 'https://music.apple.com/za/song/1500500516', [['Careless Whisper','George Michael']]],
+ ['Very Bad Trip', ['films'], 'https://music.apple.com/us/album/the-hangover-original-motion-picture-soundtrack/1456275282', [
+  ['Yeah!','Usher feat. Lil Jon & Ludacris']
+ ]],
+ ['L’Enfer du devoir (Tour of Duty)', ['series','tv'], 'https://hum90.com/joseph_conlan.htm', [['Paint It Black','The Rolling Stones']]],
+ ['Docteurs (Doctors)', ['series','tv'], 'https://www.imdb.com/title/tt2030993/soundtrack/', [['Message in a Bottle','The Police']]],
+ ['Watchmen : Les Gardiens', ['films'], 'https://www.mediatheques.strasbourg.eu/doc/IGUANA_2/529576/watchmen-bande-originale-du-film', [
+  ['Hallelujah','Leonard Cohen']
+ ]],
+ ['Meeting People Is Easy', ['films'], 'https://www.imdb.com/title/tt0195909/soundtrack/', [['Creep','Radiohead']]],
+ ['Michael', ['films'], 'https://www.sonymusic.com/sonymusic-labels/michael-songs-from-the-motion-picture-available-now-via-sony-music/', [
+  ['Beat It','Michael Jackson'],['Billie Jean','Michael Jackson'],["Don't Stop 'Til You Get Enough",'Michael Jackson']
+ ]],
+ ['30 ans sinon rien', ['films'], 'https://www.imdb.com/title/tt0337563/soundtrack/', [['Thriller','Michael Jackson']]],
+ ['Danse ta vie (Center Stage)', ['films'], 'https://www.youtube.com/watch?v=c8hfqaXUt5M', [
+  ['The Way You Make Me Feel','Michael Jackson']
+ ]],
+ ['ABBA Forever: The Winner Takes It All', ['shows','tv'], 'https://www.imdb.com/title/tt11457538/soundtrack/', [
+  ['S.O.S.','ABBA'],['The Winner Takes It All','ABBA']
+ ]],
+ ['June and John', ['films'], 'https://www.imdb.com/title/tt20218618/soundtrack/', [['Osez Joséphine','Alain Bashung']]],
+ ['Tu seras mon fils', ['films'], 'https://www.imdb.com/title/tt1754795/soundtrack/', [['Les Mots bleus','Alain Bashung']]],
+ ['Heureux gagnants', ['films'], 'https://www.imdb.com/title/tt28444113/soundtrack/', [
+  ['Quand la musique est bonne','Jean-Jacques Goldman']
+ ]],
+ ['Mes très chers enfants', ['films'], 'https://www.imdb.com/title/tt13271264/soundtrack/', [
+  ['Je marche seul','Jean-Jacques Goldman']
+ ]],
+ ['Le Premier Jour du reste de ta vie', ['films'], 'https://www.imdb.com/title/tt0926759/soundtrack/', [['L’Aventurier','Indochine']]],
+ ['Les Amours imaginaires', ['films'], 'https://www.imdb.com/title/tt1600524/soundtrack/', [['3e sexe','Indochine']]],
+ ['Les Enfants de la télé', ['shows','tv'], 'https://www.imdb.com/title/tt11847626/soundtrack/', [['Un autre monde','Téléphone']]],
+ ['Voleuses', ['films'], 'https://www.imdb.com/title/tt21638298/soundtrack/', [
+  ["Je l'aime à mourir",'Francis Cabrel'],['Désenchantée','Mylène Farmer']
+ ]],
+ ['Pédale douce', ['films'], 'https://www.imdb.com/title/tt0117412/soundtrack/', [['Sans contrefaçon','Mylène Farmer']]],
+ ['The Walk : Rêver plus haut', ['films'], 'https://www.imdb.com/title/tt3488710/soundtrack/', [["Noir c'est noir",'Johnny Hallyday']]],
+ ['Wanted', ['films'], 'https://www.imdb.com/title/tt0310924/soundtrack/', [
+  ["Que je t'aime",'Johnny Hallyday'],['Dès que le vent soufflera','Renaud']
+ ]],
+ ['Chacun sa vie', ['films'], 'https://www.imdb.com/title/tt5825150/soundtrack/', [
+  ['Allumer le feu','Johnny Hallyday'],["La Musique que j'aime",'Johnny Hallyday']
+ ]],
+ ['Chouchou', ['films'], 'https://www.imdb.com/title/tt0328955/soundtrack/', [["C'est la ouate",'Caroline Loeb']]],
+ ['Le Bus : Les Bleus en grève', ['films'], 'https://www.imdb.com/title/tt37024319/soundtrack/', [['I Will Survive','Gloria Gaynor']]],
+ ['This Is It', ['films'], 'https://www.imdb.com/title/tt1477715/soundtrack/', [
+  ['Bad','Michael Jackson'],["They Don't Care About Us",'Michael Jackson']
+ ]],
+ ['Shifting Gears', ['series','tv'], 'https://www.imdb.com/title/tt34929761/soundtrack/', [['Espresso','Sabrina Carpenter']]],
  // These records explicitly identify the programme in the catalog title.
  ['Commissaire Moulin', ['series','tv'], null, [['Commissaire Moulin (Générique)','Générique TV']]],
  ['Les Feux de l’amour', ['series','tv'], null, [['Les Feux de l\'amour (Générique)','Générique TV']]],
