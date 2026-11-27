@@ -80,10 +80,13 @@ test('Le serveur Node synchronise une manche et reprend ses données et alarmes 
  assert.equal(new Set(sessions.map(s=>s.id)).size,2);
 
  const question={id:'piano',universe:'music',kind:'question',prompt:'Quel instrument ?',answer:'Piano',options:['Piano','Guitare'],points:100,duration:5};
- await request('/api/rooms','POST',{room:code,token,questions:[question],input:'qcm'});
+ await request('/api/rooms','POST',{room:code,token,questions:[question],input:'qcm',randomTeamCount:2});
  host.send({type:'play'});
  const playing=await phase(tv,'playing');
  assert.equal(playing.question.answer,undefined);
+ assert.deepEqual(playing.randomTeams.map(group=>group.score),[0,0]);
+ const assigned=await Promise.all(players.map(player=>phase(player,'playing')));
+ assert.equal(new Set(assigned.map(state=>state.myRandomTeam)).size,2);
  await sleep(Math.max(0,playing.startAt-Date.now())+40);
  players[0].send({type:'answer',questionId:question.id,answer:'Piano'});
  players[1].send({type:'answer',questionId:question.id,answer:'Guitare'});
@@ -104,6 +107,8 @@ test('Le serveur Node synchronise une manche et reprend ses données et alarmes 
  assert.equal((await restoredPlayer.waitFor(m=>m.type==='session')).id,sessions[0].id);
  const revealed=await phase(restoredTv,'reveal',9000);
  assert.equal(revealed.question.answer,'Piano');
+ assert.equal(revealed.randomTeams[0].id,assigned[0].myRandomTeam);
+ assert.equal(revealed.randomTeams[0].score,revealed.teams.find(team=>team.id===sessions[0].id).score);
  assert.ok(revealed.teams.find(team=>team.id===sessions[0].id).score>0);
  assert.equal(revealed.teams.find(team=>team.id===sessions[1].id).score,0);
  const exclusions=await request('/api/library/tracks?playlist=mix&excluded=1');

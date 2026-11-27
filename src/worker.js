@@ -1,4 +1,4 @@
-import {changeRoulette,rouletteView} from '../public/roulette.js';
+import {changeRoulette,rouletteView,rouletteIndex} from '../public/roulette.js';
 import {createTyrolien,applyTyrolien,tyrolienView} from './tyrolien-room.js';
 import { DurableObject } from 'cloudflare:workers';
 import {createGame,applyAction,publicGame,normalizeQuizCredit,roundStatistics,BINGO_CARD_SIZE} from '../public/engine.js';
@@ -108,7 +108,9 @@ export default {
     }
     const allowedTargets=['both','title','artist','cover','artistTitle','coverChoice','timeline','coversQuiz','soundtrack'];
     data.questions=data.questions.map(q=>({id:String(q.id).slice(0,80),universe:q.target==='soundtrack'?q.universe:'music',cutAt:q.kind==='lyrics'?q.cutAt:undefined,kind:['audio','image','question','lyrics'].includes(q.kind)?q.kind:'question',prompt:q.prompt,answer:q.answer,explanation:typeof q.explanation==='string'?q.explanation.slice(0,1500):undefined,theme:typeof q.theme==='string'?q.theme.slice(0,80):undefined,credit:normalizeQuizCredit(q.credit),aliases:(Array.isArray(q.aliases)?q.aliases:[]).filter(v=>typeof v==='string').slice(0,15).map(v=>v.slice(0,180)),options:q.options,year:q.target==='timeline'&&Number.isInteger(q.year)?q.year:undefined,timeline:q.target==='timeline'&&Array.isArray(q.timeline)?q.timeline.filter(v=>typeof v==='string').slice(0,3).map(v=>v.slice(0,180)):undefined,optionArtwork:q.target==='coverChoice'?q.optionArtwork:undefined,duration:q.duration,points:q.points,title:typeof q.title==='string'?q.title.slice(0,180):undefined,artist:typeof q.artist==='string'?q.artist.slice(0,180):undefined,titleAliases:(Array.isArray(q.titleAliases)?q.titleAliases:[]).filter(v=>typeof v==='string').slice(0,10).map(v=>v.slice(0,180)),artistAliases:(Array.isArray(q.artistAliases)?q.artistAliases:[]).filter(v=>typeof v==='string').slice(0,10).map(v=>v.slice(0,180)),target:allowedTargets.includes(q.target)?q.target:'title',emoji:typeof q.emoji==='string'?q.emoji.slice(0,80):undefined,artwork:typeof q.artwork==='string'&&/^https:\/\/[^/]+\.dzcdn\.net\//.test(q.artwork)?q.artwork:undefined,link:typeof q.link==='string'&&/^https:\/\/www\.deezer\.com\//.test(q.link)?q.link:undefined,provider:q.provider==='Deezer'?'Deezer':undefined}));
-    const setup={questions:data.questions,input:['text','buzzer'].includes(data.input)?data.input:'qcm',settings:data.settings&&typeof data.settings==='object'?data.settings:{},effect:['normal','fast','slow','chipmunk','reverse','image'].includes(data.effect)?data.effect:'normal'};
+    const randomTeamCount=Number.isInteger(data.randomTeamCount)&&data.randomTeamCount>=2&&data.randomTeamCount<=4&&
+     !data.settings?.bingo&&!data.settings?.survival&&!data.settings?.timelineMode&&!data.settings?.chain&&data.input!=='buzzer'?data.randomTeamCount:0;
+    const setup={randomTeamCount,questions:data.questions,input:['text','buzzer'].includes(data.input)?data.input:'qcm',settings:data.settings&&typeof data.settings==='object'?data.settings:{},effect:['normal','fast','slow','chipmunk','reverse','image'].includes(data.effect)?data.effect:'normal'};
     const status=await env.ROOMS.getByName(data.room).prepare(setup,await digest(data.token));
     return status===200?json({code:data.room,token:data.token}):json({error:status===404?'Cette soirée a expiré. Créez une nouvelle soirée.':status===403?'Accès animateur refusé.':'Terminez le jeu en cours avant de changer de jeu.'},status);
    }
@@ -274,7 +276,7 @@ export class PartyRoom extends DurableObject {
   const next={
    ...createGame(data.questions,current.teams,'phone',data.input,data.settings),
    teams:current.teams.map(({id,name,key,token})=>({id,name,key,token,score:0,streak:0})),
-   roulettePlayers:current.roulettePlayers,eveningTotals:eveningTotals(current),effect:data.effect,hostHash,code:current.code,expires:current.expires,revision:(current.revision||0)+1
+   randomTeamCount:data.randomTeamCount||undefined,roulettePlayers:current.roulettePlayers,eveningTotals:eveningTotals(current),effect:data.effect,hostHash,code:current.code,expires:current.expires,revision:(current.revision||0)+1
   };
   await this.ctx.storage.put('room',next);
   await this.schedule(next);
@@ -292,6 +294,12 @@ export class PartyRoom extends DurableObject {
   const state=s.tyrolien?tyrolienView(s,a.role,a.team):a.role==='host'
    ?{...s,hostHash:undefined}:publicGame(s,a.role==='player'?a.team:undefined);
   state.roulette=rouletteView(s.roulette);
+  if(s.randomTeamAssignments){
+   const groups=Array.from({length:s.randomTeamCount},(_,id)=>({id,name:'Équipe '+(id+1),score:0}));
+   for(const player of s.teams)groups[s.randomTeamAssignments[player.id]].score+=player.score;
+   state.randomTeams=groups.sort((left,right)=>right.score-left.score||left.id-right.id);
+   state.myRandomTeam=s.randomTeamAssignments[a.team];
+  }
   if(a.role==='host'&&['lobby','finished'].includes(s.phase)){
    state.roulettePlayers=this.rouletteParticipants(s);
   }
@@ -414,7 +422,16 @@ export class PartyRoom extends DurableObject {
     s=applyAction(s,{type:'next'},now);
     if(s.phase==='ready')s=applyAction(s,{type:'play'},now);
    }
-   else if(a.role==='host'&&['play','pause','resume','reveal','next','adjust','judge','listen-more'].includes(m.type)){if(m.type==='play'&&s.teams.length<(s.settings?.chain?3:s.settings?.survival&&s.input==='qcm'?2:1))throw Error(s.settings?.chain?'Attendez au moins trois participants.':s.settings?.survival?'Attendez au moins deux participants.':'Attendez au moins une équipe.');s=applyAction(s,m,now);}
+   else if(a.role==='host'&&['play','pause','resume','reveal','next','adjust','judge','listen-more'].includes(m.type)){if(m.type==='play'&&s.phase==='lobby'&&s.randomTeamCount){
+    if(s.teams.length<s.randomTeamCount)throw Error('Attendez au moins '+s.randomTeamCount+' joueurs pour former les équipes.');
+    const ids=s.teams.map(player=>player.id);
+    for(let index=ids.length-1;index>0;index--){
+     const pick=rouletteIndex(index+1);
+     [ids[index],ids[pick]]=[ids[pick],ids[index]];
+    }
+    s.randomTeamAssignments=Object.fromEntries(ids.map((id,index)=>[id,index%s.randomTeamCount]));
+   }
+   if(m.type==='play'&&s.teams.length<(s.settings?.chain?3:s.settings?.survival&&s.input==='qcm'?2:1))throw Error(s.settings?.chain?'Attendez au moins trois participants.':s.settings?.survival?'Attendez au moins deux participants.':'Attendez au moins une équipe.');s=applyAction(s,m,now);}
    else throw Error('Action non autorisée');
    if(s===previous)return;
    await this.ctx.storage.put('room',s);
