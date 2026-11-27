@@ -2,6 +2,8 @@
 
 Le registre `francophone.mjs` est une première sélection de travail, classée par artiste. Chaque notice porte un identifiant stable, une année de première sortie, un genre, des affectations de playlists et des liens documentaires. Toutes les notices sont en attente côté audio. Ce registre est distinct du catalogue actif et ne déclenche aucune requête fournisseur.
 
+Le repérage des artistes s’élargit à partir des articles Wikipédia sur la [chanson française](https://fr.wikipedia.org/wiki/Chanson_fran%C3%A7aise), la [pop française](https://fr.wikipedia.org/wiki/Pop_fran%C3%A7aise), le [rock français](https://fr.wikipedia.org/wiki/Rock_fran%C3%A7ais) et le [hip-hop français](https://fr.wikipedia.org/wiki/Hip-hop_fran%C3%A7ais). Les titres historiques sont ensuite sélectionnés individuellement, notamment à partir du [bilan des ventes de singles d’InfoDisc](https://infodisc.fr/Ventes_Chansons_Tout_Temps.php), qui donne des estimations hors streaming.
+
 La sélection s'appuie sur les chroniques de France Info publiées par Éduscol pour le répertoire ancien, les archives françaises de ventes, la documentation éditoriale de Nostalgie et les classements de diffusion SNEP/Yacast. Une présence dans un classement radio est une preuve de diffusion à la période indiquée. Elle ne donne pas à elle seule l'année de sortie d'un titre. L'exhaustivité de la sélection et le croisement des sources titre par titre restent à compléter.
 
 ## Bilan reproductible

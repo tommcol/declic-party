@@ -2,6 +2,7 @@ const history = decade => `https://eduscol.education.gouv.fr/chansonsquifontlhis
 const radio = (year, week) => `https://snepmusique.com/pdf/classement_pdf.php?annee=${year}&categorie=yacast&semaine=${week}&type=simple`;
 
 export const sources = {
+  ventesInfoDisc: "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php",
   sardou: "https://www.nostalgie.fr/artistes/michel-sardou/actus/michel-sardou-ses-plus-grands-tubes-350161",
   cabrel: "https://www.nostalgie.fr/artistes/francis-cabrel/actus/francis-cabrel-ses-plus-grands-succes-355376",
   cabrelMarie: "https://www.nostalgie.fr/artistes/francis-cabrel/actus/quand-francis-cabrel-chante-je-laime-a-mourir-en-espagnol-70250368",
@@ -147,6 +148,7 @@ export const artists = [
     ['fr-002', 'Je m’voyais déjà', 1960, 'Chanson française', ['var'], ['h60']],
     ['fr-003', 'La Bohème', 1965, 'Chanson française', ['var'], ['oldies']],
     ['fr-004', 'Comme ils disent', 1972, 'Chanson française', ['var'], ['h70']],
+    ["fr-268", "La Mamma", 1963, "Chanson française", ["var"], ["ventesInfoDisc"]],
   ]],
   ['Michel Polnareff', [
     ['fr-005', 'Le Bal des Laze', 1968, 'Chanson française', ['var'], ['h60']],
@@ -163,6 +165,8 @@ export const artists = [
   ['Joe Dassin', [
     ['fr-009', 'L’Été indien', 1975, 'Variété', ['var', 'summer'], ['h70']],
     ['fr-010', 'Et si tu n’existais pas', 1975, 'Variété', ['var'], ['oldies']],
+    ["fr-221", "L’Amérique", 1970, "Variété", ["var"], ["ventesInfoDisc"]],
+    ["fr-265", "Les Champs-Élysées", 1969, "Variété", ["var"], ["ventesInfoDisc"]],
   ]],
   ['Michel Delpech', [
     ['fr-011', 'Pour un flirt', 1971, 'Variété', ['var'], ['h70']],
@@ -181,6 +185,7 @@ export const artists = [
   ['Daniel Balavoine', [
     ['fr-017', 'Le Chanteur', 1978, 'Pop', ['var'], ['h70']],
     ["fr-077", "L'Aziza", 1985, "Pop", ["var"], ["chart77"]],
+    ["fr-270", "Mon fils, ma bataille", 1980, "Pop-rock", ["var", "rock"], ["ventesInfoDisc"]],
   ]],
   ['Jean-Jacques Goldman', [
     ['fr-018', 'Il suffira d’un signe', 1981, 'Pop', ['var'], ['goldman', 'goldman1981']],
@@ -188,6 +193,9 @@ export const artists = [
     ['fr-020', 'Au bout de mes rêves', 1982, 'Pop', ['var'], ['goldman1981']],
     ['fr-021', 'Envole-moi', 1984, 'Pop', ['var'], ['goldman', 'goldman1984']],
     ["fr-074", "Encore un matin", 1984, "Pop", ["var"], ["goldman"]],
+    ["fr-217", "Je marche seul", 1985, "Pop", ["var", "party"], ["ventesInfoDisc"]],
+    ["fr-252", "Comme toi", 1982, "Pop", ["var"], ["ventesInfoDisc"]],
+    ["fr-261", "Puisque tu pars", 1987, "Pop", ["var"], ["ventesInfoDisc"]],
   ]],
   ['Jean-Jacques Goldman & Michael Jones', [
     ['fr-022', 'Je te donne', 1985, 'Pop', ['var', 'duos'], ['goldman', 'top']],
@@ -197,12 +205,16 @@ export const artists = [
   ]],
   ['France Gall', [
     ['fr-024', 'Babacar', 1987, 'Pop', ['var'], ['h80']],
+    ["fr-203", "Il jouait du piano debout", 1980, "Pop", ["var"], ["ventesInfoDisc"]],
+    ["fr-240", "Résiste", 1981, "Pop", ["var", "party"], ["ventesInfoDisc"]],
   ]],
   ['Kaoma', [
     ['fr-025', 'Lambada', 1989, 'Dance', ['dance', 'party', 'summer'], ['h80', 'top']],
   ]],
   ['Alain Bashung', [
     ['fr-026', 'Osez Joséphine', 1991, 'Rock', ['rock'], ['h90']],
+    ["fr-202", "Gaby oh Gaby", 1980, "Rock", ["rock"], ["ventesInfoDisc"]],
+    ["fr-212", "Vertige de l’amour", 1981, "Rock", ["rock"], ["ventesInfoDisc"]],
   ]],
   ['Suprême NTM', [
     ['fr-027', 'La Fièvre', 1995, 'Rap', ['rapfr'], ['h90']],
@@ -246,6 +258,7 @@ export const artists = [
     ['fr-039', 'Le Chant des cygnes', 2024, 'Pop-rock', ['rock'], ['radio2024Oct']],
     ['fr-040', 'L’Amour fou', 2024, 'Pop-rock', ['rock'], ['radio2025Jun']],
     ["fr-123", "J'ai demandé à la lune", 2002, "Pop-rock", ["rock"], ["chart123"]],
+    ["fr-256", "L’Aventurier", 1982, "Pop-rock", ["rock", "party"], ["ventesInfoDisc"]],
   ]],
   ['Louane', [
     ['fr-041', 'La Pluie', 2024, 'Pop', ['var'], ['radio2024Oct']],
@@ -258,6 +271,7 @@ export const artists = [
   ]],
   ["Édith Piaf", [
     ["fr-045", "Milord", 1959, "Chanson française", ["var"], ["piaf"]],
+    ["fr-213", "Non, je ne regrette rien", 1960, "Chanson française", ["var"], ["ventesInfoDisc"]],
   ]],
   ["Dalida", [
     ["fr-046", "Bambino", 1956, "Variété", ["var"], ["h50", "dalida"]],
@@ -269,6 +283,9 @@ export const artists = [
     ["fr-050", "Cette année-là", 1976, "Disco", ["disco", "party"], ["claude"]],
     ["fr-051", "Alexandrie Alexandra", 1977, "Disco", ["disco", "party"], ["claude"]],
     ["fr-052", "Magnolias for Ever", 1977, "Disco", ["disco", "party"], ["claude"]],
+    ["fr-194", "Le Téléphone pleure", 1974, "Variété", ["var"], ["ventesInfoDisc"]],
+    ["fr-232", "Chanson populaire", 1973, "Variété", ["var"], ["ventesInfoDisc"]],
+    ["fr-247", "Le Lundi au soleil", 1972, "Variété", ["var"], ["ventesInfoDisc"]],
   ]],
   ["Francis Cabrel", [
     ["fr-053", "Petite Marie", 1977, "Chanson française", ["var"], ["cabrelMarie"]],
@@ -283,6 +300,12 @@ export const artists = [
     ["fr-060", "Les Bals populaires", 1970, "Variété", ["var", "party"], ["sardou"]],
     ["fr-061", "La Maladie d’amour", 1973, "Variété", ["var"], ["sardou"]],
     ["fr-062", "Les Lacs du Connemara", 1981, "Variété", ["var", "party"], ["sardou"]],
+    ["fr-184", "Dix ans plus tôt", 1977, "Variété", ["var"], ["ventesInfoDisc"]],
+    ["fr-187", "En chantant", 1978, "Variété", ["var"], ["ventesInfoDisc"]],
+    ["fr-199", "La Java de Broadway", 1977, "Variété", ["var", "party"], ["ventesInfoDisc"]],
+    ["fr-207", "Le France", 1975, "Variété", ["var"], ["ventesInfoDisc"]],
+    ["fr-235", "Être une femme", 1981, "Variété", ["var"], ["ventesInfoDisc"]],
+    ["fr-237", "Je vais t’aimer", 1976, "Variété", ["var"], ["ventesInfoDisc"]],
   ]],
   ["Johnny Hallyday", [
     ["fr-063", "Que je t’aime", 1969, "Rock", ["rock"], ["johnny"]],
@@ -292,6 +315,8 @@ export const artists = [
     ["fr-067", "L’Envie", 1986, "Rock", ["rock"], ["johnnyLive"]],
     ["fr-068", "Allumer le feu", 1998, "Rock", ["rock", "party"], ["johnny"]],
     ["fr-125", "Marie", 2002, "Rock", ["rock"], ["chart125"]],
+    ["fr-258", "J’ai oublié de vivre", 1977, "Rock", ["rock"], ["ventesInfoDisc"]],
+    ["fr-267", "Requiem pour un fou", 1976, "Rock", ["rock"], ["ventesInfoDisc"]],
   ]],
   ["Céline Dion", [
     ["fr-069", "S’il suffisait d’aimer", 1998, "Variété", ["var"], ["celineCulte"]],
@@ -318,6 +343,7 @@ export const artists = [
   ["Jeanne Mas", [
     ["fr-076", "Johnny, Johnny", 1985, "Pop", ["var"], ["chart76"]],
     ["fr-080", "En rouge et noir", 1986, "Pop", ["var"], ["chart80"]],
+    ["fr-200", "Toute première fois", 1984, "Pop", ["var", "party"], ["ventesInfoDisc"]],
   ]],
   ["Gold", [
     ["fr-078", "Capitaine abandonné", 1985, "Pop-rock", ["party", "rock"], ["chart78"]],
@@ -563,5 +589,193 @@ export const artists = [
   ["Amir", [
     ["fr-176", "Longtemps", 2018, "Pop", ["var"], ["radio2019"]],
     ["fr-177", "On verra bien", 2020, "Pop", ["var"], ["radio2020Dec"]],
+  ]],
+  ["Christophe", [
+    ["fr-178", "Aline", 1965, "Variété", ["var"], ["ventesInfoDisc"]],
+  ]],
+  ["Les Forbans", [
+    ["fr-179", "Chante", 1982, "Rock", ["rock", "party"], ["ventesInfoDisc"]],
+  ]],
+  ["Herbert Léonard", [
+    ["fr-180", "Pour le plaisir", 1981, "Variété", ["var"], ["ventesInfoDisc"]],
+  ]],
+  ["Laurent Voulzy", [
+    ["fr-181", "Rockollection", 1977, "Pop-rock", ["var", "party"], ["ventesInfoDisc"]],
+  ]],
+  ["Patrick Hernandez", [
+    ["fr-182", "Born to Be Alive", 1979, "Disco", ["disco", "party"], ["ventesInfoDisc"]],
+  ]],
+  ["Marie Myriam", [
+    ["fr-183", "L’Oiseau et l’Enfant", 1977, "Variété", ["var"], ["ventesInfoDisc"]],
+  ]],
+  ["Chagrin d’Amour", [
+    ["fr-185", "Chacun fait (c’qui lui plaît)", 1981, "Rap", ["rapfr", "party"], ["ventesInfoDisc"]],
+  ]],
+  ["Ottawan", [
+    ["fr-186", "T’es OK", 1980, "Disco", ["disco", "party"], ["ventesInfoDisc"]],
+    ["fr-251", "D.I.S.C.O.", 1979, "Disco", ["disco", "party"], ["ventesInfoDisc"]],
+  ]],
+  ["Rose Laurens", [
+    ["fr-188", "Africa", 1982, "Pop", ["var", "party"], ["ventesInfoDisc"]],
+  ]],
+  ["La Bande à Basile", [
+    ["fr-189", "La Chenille", 1979, "Festif", ["party"], ["ventesInfoDisc"]],
+  ]],
+  ["Pierre Bachelet", [
+    ["fr-190", "Les Corons", 1982, "Variété", ["var"], ["ventesInfoDisc"]],
+    ["fr-191", "Elle est d’ailleurs", 1980, "Variété", ["var"], ["ventesInfoDisc"]],
+  ]],
+  ["Philippe Lavil", [
+    ["fr-192", "Il tape sur des bambous", 1982, "Variété", ["var", "party"], ["ventesInfoDisc"]],
+  ]],
+  ["Annie Cordy", [
+    ["fr-193", "La Bonne du curé", 1975, "Variété", ["var", "party"], ["ventesInfoDisc"]],
+    ["fr-266", "Tata Yoyo", 1981, "Festif", ["party"], ["ventesInfoDisc"]],
+  ]],
+  ["Cookie Dingler", [
+    ["fr-195", "Femme libérée", 1984, "Pop", ["var", "party"], ["ventesInfoDisc"]],
+  ]],
+  ["Lio", [
+    ["fr-196", "Amoureux solitaires", 1980, "Pop", ["var"], ["ventesInfoDisc"]],
+    ["fr-218", "Le Banana Split", 1979, "Pop", ["var", "party"], ["ventesInfoDisc"]],
+  ]],
+  ["Claude Barzotti", [
+    ["fr-197", "Le Rital", 1983, "Variété", ["var"], ["ventesInfoDisc"]],
+  ]],
+  ["Plastic Bertrand", [
+    ["fr-198", "Ça plane pour moi", 1977, "Punk", ["rock", "party"], ["ventesInfoDisc"]],
+  ]],
+  ["Jackie Quartz", [
+    ["fr-201", "Mise au point", 1983, "Pop", ["var"], ["ventesInfoDisc"]],
+  ]],
+  ["Dave", [
+    ["fr-204", "Vanina", 1974, "Variété", ["var"], ["ventesInfoDisc"]],
+  ]],
+  ["Alain Barrière & Noëlle Cordier", [
+    ["fr-205", "Tu t’en vas", 1975, "Variété", ["var", "duos"], ["ventesInfoDisc"]],
+  ]],
+  ["Marie Laforêt", [
+    ["fr-206", "Viens, viens", 1973, "Variété", ["var"], ["ventesInfoDisc"]],
+  ]],
+  ["Mireille Mathieu", [
+    ["fr-208", "Mon credo", 1966, "Variété", ["var"], ["ventesInfoDisc"]],
+  ]],
+  ["Frédéric François", [
+    ["fr-209", "Laisse-moi vivre ma vie", 1972, "Variété", ["var"], ["ventesInfoDisc"]],
+  ]],
+  ["Mike Brant", [
+    ["fr-210", "Qui saura", 1972, "Variété", ["var"], ["ventesInfoDisc"]],
+    ["fr-219", "Laisse-moi t’aimer", 1970, "Variété", ["var"], ["ventesInfoDisc"]],
+  ]],
+  ["Jean-François Michaël", [
+    ["fr-211", "Adieu jolie Candy", 1969, "Variété", ["var"], ["ventesInfoDisc"]],
+  ]],
+  ["Richard Anthony", [
+    ["fr-214", "J’entends siffler le train", 1962, "Variété", ["var"], ["ventesInfoDisc"]],
+    ["fr-264", "Nouvelle Vague", 1959, "Pop", ["var"], ["ventesInfoDisc"]],
+  ]],
+  ["Gilbert Montagné", [
+    ["fr-215", "On va s’aimer", 1983, "Pop", ["var", "party"], ["ventesInfoDisc"]],
+  ]],
+  ["Hervé Vilard", [
+    ["fr-216", "Capri c’est fini", 1965, "Variété", ["var"], ["ventesInfoDisc"]],
+  ]],
+  ["Nino Ferrer", [
+    ["fr-220", "Le Sud", 1975, "Chanson française", ["var"], ["ventesInfoDisc"]],
+  ]],
+  ["Alain Chamfort", [
+    ["fr-222", "Manureva", 1979, "Pop", ["var"], ["ventesInfoDisc"]],
+  ]],
+  ["Chantal Goya", [
+    ["fr-223", "Un lapin", 1977, "Variété", ["var"], ["ventesInfoDisc"]],
+  ]],
+  ["Georges Moustaki", [
+    ["fr-224", "Le Métèque", 1969, "Chanson française", ["var"], ["ventesInfoDisc"]],
+  ]],
+  ["Sheila", [
+    ["fr-225", "Les Rois mages", 1971, "Variété", ["var"], ["ventesInfoDisc"]],
+    ["fr-229", "L’école est finie", 1963, "Variété", ["var"], ["ventesInfoDisc"]],
+  ]],
+  ["Jean Schultheis", [
+    ["fr-226", "Confidence pour confidence", 1981, "Pop", ["var"], ["ventesInfoDisc"]],
+  ]],
+  ["Françoise Hardy", [
+    ["fr-227", "Tous les garçons et les filles", 1962, "Pop", ["var"], ["ventesInfoDisc"]],
+  ]],
+  ["Sheila & Ringo", [
+    ["fr-228", "Les Gondoles à Venise", 1973, "Variété", ["var", "duos"], ["ventesInfoDisc"]],
+  ]],
+  ["Martin Circus", [
+    ["fr-230", "Marylène", 1975, "Pop-rock", ["rock", "party"], ["ventesInfoDisc"]],
+  ]],
+  ["Les Poppys", [
+    ["fr-231", "Non, non, rien n’a changé", 1971, "Variété", ["var"], ["ventesInfoDisc"]],
+  ]],
+  ["Le Grand Orchestre du Splendid", [
+    ["fr-233", "La Salsa du démon", 1978, "Festif", ["party"], ["ventesInfoDisc"]],
+  ]],
+  ["Enrico Macias", [
+    ["fr-234", "Enfants de tous pays", 1963, "Variété", ["var"], ["ventesInfoDisc"]],
+    ["fr-253", "Adieu mon pays", 1962, "Variété", ["var"], ["ventesInfoDisc"]],
+  ]],
+  ["Gérard Blanchard", [
+    ["fr-236", "Rock Amadour", 1981, "Pop-rock", ["rock", "party"], ["ventesInfoDisc"]],
+  ]],
+  ["Jane Birkin & Serge Gainsbourg", [
+    ["fr-238", "Je t’aime… moi non plus", 1969, "Chanson française", ["var", "duos"], ["ventesInfoDisc"]],
+  ]],
+  ["Michèle Torr", [
+    ["fr-239", "Emmène-moi danser ce soir", 1978, "Variété", ["var"], ["ventesInfoDisc"]],
+  ]],
+  ["Salvatore Adamo", [
+    ["fr-241", "Mes mains sur tes hanches", 1965, "Variété", ["var"], ["ventesInfoDisc"]],
+    ["fr-243", "Vous permettez, Monsieur ?", 1964, "Variété", ["var"], ["ventesInfoDisc"]],
+  ]],
+  ["Gérard Lenorman", [
+    ["fr-242", "Gentil dauphin triste", 1976, "Variété", ["var"], ["ventesInfoDisc"]],
+  ]],
+  ["Téléphone", [
+    ["fr-244", "Un autre monde", 1984, "Rock", ["rock", "party"], ["ventesInfoDisc"]],
+  ]],
+  ["Space", [
+    ["fr-245", "Magic Fly", 1977, "Électro", ["dance"], ["ventesInfoDisc"]],
+  ]],
+  ["Daniel Lavoie", [
+    ["fr-246", "Ils s’aiment", 1983, "Variété", ["var"], ["ventesInfoDisc"]],
+  ]],
+  ["Axel Bauer", [
+    ["fr-248", "Cargo", 1983, "Rock", ["rock"], ["ventesInfoDisc"]],
+  ]],
+  ["Carlos", [
+    ["fr-249", "Big Bisou", 1977, "Festif", ["party"], ["ventesInfoDisc"]],
+    ["fr-255", "Rosalie", 1978, "Festif", ["party"], ["ventesInfoDisc"]],
+  ]],
+  ["Sylvie Vartan", [
+    ["fr-250", "Qu’est-ce qui fait pleurer les blondes ?", 1976, "Pop", ["var"], ["ventesInfoDisc"]],
+  ]],
+  ["Renaud & Axelle Red", [
+    ["fr-254", "Manhattan-Kaboul", 2002, "Chanson française", ["var", "duos"], ["ventesInfoDisc"]],
+  ]],
+  ["Il était une fois", [
+    ["fr-257", "J’ai encore rêvé d’elle", 1975, "Variété", ["var"], ["ventesInfoDisc"]],
+  ]],
+  ["Bandolero", [
+    ["fr-259", "Paris Latino", 1983, "Dance", ["dance", "party"], ["ventesInfoDisc"]],
+  ]],
+  ["Eddy Mitchell", [
+    ["fr-260", "Couleur menthe à l’eau", 1980, "Rock", ["rock"], ["ventesInfoDisc"]],
+  ]],
+  ["Nicoletta", [
+    ["fr-262", "Mamy Blue", 1971, "Soul", ["var"], ["ventesInfoDisc"]],
+  ]],
+  ["Daniel Guichard", [
+    ["fr-263", "Mon vieux", 1974, "Chanson française", ["var"], ["ventesInfoDisc"]],
+  ]],
+  ["Julien Clerc", [
+    ["fr-269", "Lili voulait aller danser", 1982, "Pop", ["var"], ["ventesInfoDisc"]],
+    ["fr-272", "Cœur de rocker", 1983, "Pop-rock", ["var", "rock"], ["ventesInfoDisc"]],
+  ]],
+  ["Mort Shuman", [
+    ["fr-271", "Le Lac majeur", 1972, "Variété", ["var"], ["ventesInfoDisc"]],
   ]],
 ];
