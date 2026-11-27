@@ -29,22 +29,51 @@ Ouvrir « Écran public », déplacer la fenêtre sur la TV puis passer en plein
 
 ## Développement
 
-Node 24 ou récent, sans dépendances pour construire et tester.
+Utiliser Node.js 22.12 ou ultérieur. Les tests et la compilation n’ont pas besoin de Wrangler.
 
 ```sh
+npm ci
 npm test
-npm run build
 npm run dev
 ```
 
-Le serveur de développement Wrangler exécute le Worker et les Durable Objects en local. Il permet de créer une soirée et de vérifier sa reprise, y compris en mode USB. Le navigateur conserve la clé animateur de son profil et les fichiers musicaux personnels. Les parties sont sauvegardées côté Worker. Les extraits Deezer nécessitent une connexion Internet.
+Ouvrir http://localhost:3000/ sur le serveur, ou http://192.168.1.147:3000/ depuis le réseau de Batocera. `npm run dev` et l’ancienne commande `node dev.mjs --port 3000` lancent le même Worker, avec les deux Durable Objects simulés localement par Wrangler. Les données locales sont conservées dans `.wrangler/state`, même après un arrêt. Les pages et scripts sont servis sans cache en développement. Le navigateur conserve sa clé animateur et ses fichiers personnels pour l’adresse utilisée. Les extraits Deezer nécessitent une connexion Internet et passent par le Worker local.
+
+### Batocera
+
+Dans le terminal **Batocera**, depuis le dossier qui contient `debian` (`/media/NO_LABEL/serveur` sur cette installation), mettre à jour le dépôt sans écraser de modifications locales et installer Wrangler dans Debian.
 
 ```sh
-npm run build
-npx wrangler deploy
+cd /media/NO_LABEL/serveur
+chroot "$PWD/debian" /usr/bin/env PATH=/opt/node22/bin:/usr/bin:/bin /bin/sh -c '
+  set -e
+  cd /opt/applications/declic-party
+  node --version
+  git pull --ff-only origin main
+  npm ci --include=dev
+'
 ```
 
-`wrangler.jsonc` contient la configuration sans secret. Le build produit `dist/worker.mjs`, module autonome incluant les ressources de l’interface. Wrangler nécessite une authentification sur un nouveau poste.
+Arrêter le précédent serveur sur le port 3000. S’il tourne au premier plan dans son terminal, utiliser **Ctrl+C**. Sur Batocera v38 ou ultérieur, installer le service et activer son lancement au démarrage.
+
+```sh
+mkdir -p /userdata/system/services
+cp debian/opt/applications/declic-party/scripts/batocera-service.sh /userdata/system/services/declic_party
+chmod +x /userdata/system/services/declic_party
+batocera-services enable declic_party
+batocera-services start declic_party
+```
+
+Contrôler le démarrage avec `tail -n 30 /userdata/system/declic-party.log` et `curl -fsS http://127.0.0.1:3000/api/health`. Pour un autre emplacement de Debian, adapter `jail` dans le script installé. Après une mise à jour, arrêter puis redémarrer le service pour reconstruire le Worker.
+
+### Production
+
+```sh
+npm ci
+npm run deploy
+```
+
+`wrangler.jsonc` contient la configuration sans secret. Le build produit `dist/worker.mjs`, module autonome incluant l’interface. Seule la publication demande une authentification Cloudflare.
 
 ## Architecture
 

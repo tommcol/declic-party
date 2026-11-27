@@ -1,4 +1,4 @@
-import {normalize} from './engine.js';
+import {normalize,randomUUID} from './engine.js';
 export const THEMES=[['fr','🇫🇷','Variété française','Des classiques aux refrains récents'],['pop','🎸','Pop & rock','Les voix et les riffs incontournables'],['dance','🪩','Disco & dance','De quoi faire danser la salle'],['rap','🎤','Rap français','Flow, refrains et générations'],['eighties','📼','Les années 80','Une sélection de titres de cette décennie'],['family','🌈','En famille','Petits et grands dans la même équipe']];
 export const CHALLENGES=[['title','🎵','Le titre'],['artist','🎤','L’artiste'],['both','⚡','Titre + artiste'],['cover','🖼️','Pochette mystère'],['artistTitle','💿','Parmi ses titres'],['mix','🎲','Surprise !']];
 export function shuffle(values){const a=[...values];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
@@ -81,7 +81,7 @@ export function specialQuestions(mode,entries,config){
    prompt=mode==='coversQuiz'?(config.coversDirection==='original'?'Qui a interprété la reprise ?':'Qui a interprété la version originale ?'):'À quel film, série, dessin animé ou émission appartient cette musique ?';
   }
   if(mode==='tvThemes')prompt='À quelle série, émission ou dessin animé appartient ce générique ?';
-  out.push({id:crypto.randomUUID(),universe:soundtrack?'film':'music',kind:'audio',
+  out.push({id:randomUUID(),universe:soundtrack?'film':'music',kind:'audio',
    target:soundtrack?'soundtrack':mode,prompt,answer,options,timeline,title,artist,year:mode==='timeline'?value:undefined,
    explanation:mode==='timeline'?title+' — '+artist+' ('+value+').':title+' — '+artist+'.',
    audioUrl:track.preview,duration:config.duration,points:100,provider:'Deezer',link:track.link});
@@ -113,7 +113,7 @@ export function musicQuestions(tracks,config){
    const distractors=shuffle([...new Set(pool.map(v=>v.artwork))].filter(url=>url!==t.artwork)).slice(0,3);
    const optionArtwork=shuffle([t.artwork,...distractors]);
    const options=['A','B','C','D'];
-   out.push({id:crypto.randomUUID(),universe:'music',kind:'audio',target,
+   out.push({id:randomUUID(),universe:'music',kind:'audio',target,
     prompt:'Quelle pochette correspond à cet extrait ?',title:cleanTitle(t.title),artist:t.artist,
     answer:options[optionArtwork.indexOf(t.artwork)],options,optionArtwork,
     duration:Math.min(30,Number(config.duration)||30),points:100,artwork:t.artwork,
@@ -128,7 +128,7 @@ export function musicQuestions(tracks,config){
   const fallback=artistTarget?['Queen','Stromae','ABBA','Michael Jackson','Céline Dion','Daft Punk']:['La Vie en rose','Billie Jean','Dancing Queen','Get Lucky','Imagine'];
   const candidates=target==='artistTitle'?alternatives:[...alternatives,...fallback];const wrong=shuffle([...new Map(candidates.filter(v=>normalize(v)!==normalize(answer)).map(v=>[normalize(v),v])).values()]).slice(0,3);if(wrong.length<3)continue;
   const prompts={title:'Quel est le titre de cet extrait ?',artist:'Qui interprète cet extrait ?',both:'Retrouvez le titre et l’artiste.',cover:'À quel artiste appartient cette pochette ?',artistTitle:'Quel titre de cet artiste écoutez-vous ?'};
-  out.push({id:crypto.randomUUID(),universe:'music',kind:'audio',target,prompt:prompts[target],title,artist,titleAliases:[t.title],artistAliases:artist.split(/,| & | feat\.? /i).map(v=>v.trim()).filter(Boolean),answer,options:shuffle([answer,...wrong]),duration:Math.min(30,Number(config.duration)||30),points:100,artwork:t.artwork,audioUrl:t.preview,provider:'Deezer',link:t.link});
+  out.push({id:randomUUID(),universe:'music',kind:'audio',target,prompt:prompts[target],title,artist,titleAliases:[t.title],artistAliases:artist.split(/,| & | feat\.? /i).map(v=>v.trim()).filter(Boolean),answer,options:shuffle([answer,...wrong]),duration:Math.min(30,Number(config.duration)||30),points:100,artwork:t.artwork,audioUrl:t.preview,provider:'Deezer',link:t.link});
  }
  return out;
 }

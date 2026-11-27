@@ -1,7 +1,7 @@
 import {tyrolienScreen} from './tyrolien-ui.js';
 import {openMusicLibrary} from './music-library.js';
 import {THEMES,CHALLENGES,musicQuestions,shuffle,SPECIAL_TRACKS,matchSpecialTrack,specialQuestions} from './catalog.js';
-import {createGame,applyAction,publicGame,DEMO,targets,gameSettings,isBuzzer,isProgressive,LISTEN_STEPS,audioRemaining,listeningLimit,BINGO_CARD_SIZE} from './engine.js';
+import {randomUUID,createGame,applyAction,publicGame,DEMO,targets,gameSettings,isBuzzer,isProgressive,LISTEN_STEPS,audioRemaining,listeningLimit,BINGO_CARD_SIZE} from './engine.js';
 import qrcode from './qrcode.js';
 import {SoundDesk,storeBlob,getBlob} from './audio.js';
 const $=s=>document.querySelector(s), esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -262,7 +262,7 @@ async function hostRequest(path,method='GET',data){
  const credential=read('declic.hostKey',null)??(navigator.locks?await navigator.locks.request('declic.hostKey',hostCredential):hostCredential());
  const response=await fetch(path,{
   method,headers:{Authorization:'Bearer '+credential,'Content-Type':'application/json'},
-  body:data===undefined?undefined:JSON.stringify(data),signal:AbortSignal.timeout(12000)
+  body:data===undefined?undefined:JSON.stringify(data),cache:'no-store',signal:AbortSignal.timeout(12000)
  });
  const result=await response.json();
  if(!response.ok)throw Object.assign(Error(result.error),{status:response.status});
@@ -318,7 +318,7 @@ async function changeEvening(end=false){
  render();
  const previous=activeEvening;
  const expected=previous?.code||null;
- const id=crypto.randomUUID();
+ const id=randomUUID();
  try{
   const {active}=await eveningRequest(end?'DELETE':'POST',{expected,id});
   clearEvening();
@@ -338,7 +338,7 @@ async function resumeEvening(){
   const legacy=savedMusicGame('declic.localGame');
   if(!legacy)return;
   try{
-   const {active}=await eveningRequest('POST',{expected:null,id:crypto.randomUUID()});
+   const {active}=await eveningRequest('POST',{expected:null,id:randomUUID()});
    activeEvening=active;
    queueUSB(legacy);
    await flushUSB();
@@ -366,7 +366,7 @@ function queueUSB(state){
  // Keep the in-flight write plus the newest state, including when temporarily offline.
  const first=usbQueue[0];
  const keep=first&&(usbSave||first.revision!==undefined)?[first]:[];
- usbQueue=[...keep,{code:activeEvening.code,id:crypto.randomUUID(),state}];
+ usbQueue=[...keep,{code:activeEvening.code,id:randomUUID(),state}];
  write('declic.usbPending',usbQueue);
  void flushUSB();
 }
@@ -421,7 +421,7 @@ async function launch(){if(busy)return;busy=true;catalogMessage='';audioError=''
  if(!special&&!bingo&&config.effect==='image'){qs=qs.filter(q=>q.kind==='image'||q.artwork);if(!qs.length)throw Error('Choisissez des questions avec une image ou des pochettes pour cet effet.');}
  if(config.mode==='usb'){const keys=config.teams.map(t=>t.key.toLowerCase());if(keys.some(k=>!k.trim())||new Set(keys).size!==keys.length)throw Error('Attribuez une touche différente à chaque équipe.');if(config.teams.some(t=>!t.name.trim()))throw Error('Donnez un nom à chaque équipe.');}
  await desk.unlock();
- const questions=qs.map(q=>({...q,id:crypto.randomUUID(),duration:bingo||survival||special==='timeline'?30:Math.min(q.audioUrl?30:90,Math.max(config.duration,q.kind==='lyrics'?q.cutAt+5:0)),target:q.target,artwork:q.artwork}));
+ const questions=qs.map(q=>({...q,id:randomUUID(),duration:bingo||survival||special==='timeline'?30:Math.min(q.audioUrl?30:90,Math.max(config.duration,q.kind==='lyrics'?q.cutAt+5:0)),target:q.target,artwork:q.artwork}));
  if(!activeEvening)throw Error('Créez une soirée depuis l’accueil.');
  if(config.mode==='usb'){
   const state=createGame(questions,config.teams,'usb','text',config.settings);
@@ -440,7 +440,7 @@ async function launch(){if(busy)return;busy=true;catalogMessage='';audioError=''
  const effect=bingo||special?'normal':config.effect;
  const data=await requestRoom({...existing,questions:clean,input:config.input,settings:{...config.settings,survival,bingo,chain,timelineMode:timelineAnchor?(config.timelineMode||'collective'):undefined,timelineAnchor,listening:bingo||chain?'continuous':config.settings.listening},effect});
  if(activeEvening.usb?.state){
-  const {revision}=await eveningRequest('PUT',{code:activeEvening.code,revision:usbRevision,id:crypto.randomUUID(),state:null});
+  const {revision}=await eveningRequest('PUT',{code:activeEvening.code,revision:usbRevision,id:randomUUID(),state:null});
   usbRevision=revision;activeEvening.usb={state:null,revision};
  }
  openHostRoom(data,questions,effect,'studio');
@@ -520,7 +520,7 @@ document.addEventListener('click',async e=>{const b=e.target.closest('[data-acti
  }
  if(act==='effect'){config.effect=v;saveConfig();render();return;}
  if(act==='mode'){config.mode=v;if(v==='phone'&&config.input==='qcm'&&config.challenge==='both')config.challenge='title';saveConfig();render();return;}
- if(act==='add-team'){const id=crypto.randomUUID();config.teams.push({id,name:'Équipe '+(config.teams.length+1),key:'1234567890'.split('').find(k=>!config.teams.some(t=>t.key===k))});saveConfig();render();return;}
+ if(act==='add-team'){const id=randomUUID();config.teams.push({id,name:'Équipe '+(config.teams.length+1),key:'1234567890'.split('').find(k=>!config.teams.some(t=>t.key===k))});saveConfig();render();return;}
  if(act==='remove-team'){config.teams.splice(Number(v),1);saveConfig();render();return;}
  if(act==='launch'){await launch();return;}
  if(act==='new-game'){desk.stop();view='setup';render();return;}
@@ -547,10 +547,10 @@ document.addEventListener('input',e=>{if(e.target.dataset.team!==undefined){conf
 document.addEventListener('change',async e=>{
  if(e.target.id==='source'){config.source=e.target.value;config.musicGame=null;if(config.challenge==='coverChoice')config.challenge='title';saveConfig();render();}
  if(e.target.id==='inputmode'){config.input=e.target.value;if(config.input==='qcm'&&config.challenge==='both')config.challenge='title';saveConfig();render();}
- if(e.target.id==='import-json')try{const file=e.target.files[0];if(!file)return;if(file.size>1e6)throw Error('Le JSON doit faire moins de 1 Mo.');const data=JSON.parse(await file.text());if(!Array.isArray(data.questions)||data.questions.length>100)throw Error('Le fichier doit contenir une liste de 100 questions maximum.');const imported=data.questions.map(q=>{if(q.universe!=='music'||!['audio','image','question','lyrics'].includes(q.kind)||typeof q.prompt!=='string'||q.prompt.length>300||typeof q.answer!=='string'||!q.answer.trim()||q.answer.length>180||!Array.isArray(q.options)||q.options.length!==4||q.options.some(o=>typeof o!=='string'||o.length>180)||!q.options.includes(q.answer)||!Number.isFinite(q.duration)||q.duration<5||q.duration>90||!Number.isFinite(q.points)||q.points<1||q.points>1000)throw Error('Une question est invalide. Aucun import effectué.');if(q.kind==='lyrics'&&(!Number.isFinite(q.cutAt)||q.cutAt<.1||q.cutAt>30||q.cutAt>=q.duration))throw Error('La coupure d’une question paroles est invalide.');return {cutAt:q.kind==='lyrics'?q.cutAt:undefined,id:crypto.randomUUID(),universe:q.universe,kind:q.kind,prompt:q.prompt,answer:q.answer,aliases:(Array.isArray(q.aliases)?q.aliases:[]).filter(x=>typeof x==='string').map(x=>x.slice(0,180)),options:q.options,duration:q.duration,points:q.points,emoji:typeof q.emoji==='string'?q.emoji.slice(0,80):undefined};});custom.push(...imported);write('declic.library',custom);render();toast('Questions importées. Réassociez les fichiers dans l’éditeur.');}catch(err){toast(err.message);}
+ if(e.target.id==='import-json')try{const file=e.target.files[0];if(!file)return;if(file.size>1e6)throw Error('Le JSON doit faire moins de 1 Mo.');const data=JSON.parse(await file.text());if(!Array.isArray(data.questions)||data.questions.length>100)throw Error('Le fichier doit contenir une liste de 100 questions maximum.');const imported=data.questions.map(q=>{if(q.universe!=='music'||!['audio','image','question','lyrics'].includes(q.kind)||typeof q.prompt!=='string'||q.prompt.length>300||typeof q.answer!=='string'||!q.answer.trim()||q.answer.length>180||!Array.isArray(q.options)||q.options.length!==4||q.options.some(o=>typeof o!=='string'||o.length>180)||!q.options.includes(q.answer)||!Number.isFinite(q.duration)||q.duration<5||q.duration>90||!Number.isFinite(q.points)||q.points<1||q.points>1000)throw Error('Une question est invalide. Aucun import effectué.');if(q.kind==='lyrics'&&(!Number.isFinite(q.cutAt)||q.cutAt<.1||q.cutAt>30||q.cutAt>=q.duration))throw Error('La coupure d’une question paroles est invalide.');return {cutAt:q.kind==='lyrics'?q.cutAt:undefined,id:randomUUID(),universe:q.universe,kind:q.kind,prompt:q.prompt,answer:q.answer,aliases:(Array.isArray(q.aliases)?q.aliases:[]).filter(x=>typeof x==='string').map(x=>x.slice(0,180)),options:q.options,duration:q.duration,points:q.points,emoji:typeof q.emoji==='string'?q.emoji.slice(0,80):undefined};});custom.push(...imported);write('declic.library',custom);render();toast('Questions importées. Réassociez les fichiers dans l’éditeur.');}catch(err){toast(err.message);}
 });
 document.addEventListener('submit',async e=>{e.preventDefault();const f=e.target,data=new FormData(f);
- if(f.id==='question-form')try{const answer=String(data.get('answer')).trim(),wrong=String(data.get('wrong')).split('\n').map(x=>x.trim()).filter(Boolean);if(!answer||wrong.length!==3||new Set([answer,...wrong].map(x=>x.toLowerCase())).size!==4)throw Error('Saisissez une bonne réponse et trois mauvaises réponses différentes.');const existing=custom.find(q=>q.id===f.dataset.id),id=existing?.id||crypto.randomUUID();let mediaKey=existing?.mediaKey,mediaType=existing?.mediaType;const file=data.get('media'),kind=data.get('kind');if(file?.size){if(file.size>30*1024*1024)throw Error('Le fichier doit faire moins de 30 Mo.');if(['audio','lyrics'].includes(kind)&&!file.type.startsWith('audio/'))throw Error('Choisissez un fichier audio pour ce type de question.');if(kind==='image'&&!['image/jpeg','image/png','image/webp','image/gif'].includes(file.type))throw Error('Choisissez une image JPG, PNG, WebP ou GIF.');mediaKey=id;mediaType=file.type;await storeBlob(id,file);if(assetUrls.has(id)){URL.revokeObjectURL(assetUrls.get(id));assetUrls.delete(id);}}if(['audio','lyrics'].includes(kind)&&(!mediaKey||!mediaType?.startsWith('audio/')))throw Error('Ajoutez un fichier audio.');if(kind==='image'&&(!mediaKey||!mediaType?.startsWith('image/')))throw Error('Ajoutez une image.');const cutAt=Number(data.get('cutAt'));if(kind==='lyrics'&&(!Number.isFinite(cutAt)||cutAt<.1||cutAt>30||cutAt>=Number(data.get('duration'))))throw Error('La coupure doit être comprise entre 0,1 et 30 s, avant la fin de la manche.');const options=[answer,...wrong];for(let i=3;i>0;i--){const j=Math.floor(Math.random()*(i+1));[options[i],options[j]]=[options[j],options[i]];}const q={id,universe:'music',kind,prompt:String(data.get('prompt')).trim(),answer,aliases:String(data.get('aliases')).split(';').map(x=>x.trim()).filter(Boolean),options,duration:Number(data.get('duration')),points:Number(data.get('points')),mediaKey,mediaType,cutAt:kind==='lyrics'?cutAt:undefined,title:String(data.get('title')||'').trim()||undefined,artist:String(data.get('artist')||'').trim()||undefined,target:'both'};custom=existing?custom.map(v=>v.id===id?q:v):[...custom,q];write('declic.library',custom);closeModal();render();toast('Question enregistrée !');}catch(err){toast(err.message);}
+ if(f.id==='question-form')try{const answer=String(data.get('answer')).trim(),wrong=String(data.get('wrong')).split('\n').map(x=>x.trim()).filter(Boolean);if(!answer||wrong.length!==3||new Set([answer,...wrong].map(x=>x.toLowerCase())).size!==4)throw Error('Saisissez une bonne réponse et trois mauvaises réponses différentes.');const existing=custom.find(q=>q.id===f.dataset.id),id=existing?.id||randomUUID();let mediaKey=existing?.mediaKey,mediaType=existing?.mediaType;const file=data.get('media'),kind=data.get('kind');if(file?.size){if(file.size>30*1024*1024)throw Error('Le fichier doit faire moins de 30 Mo.');if(['audio','lyrics'].includes(kind)&&!file.type.startsWith('audio/'))throw Error('Choisissez un fichier audio pour ce type de question.');if(kind==='image'&&!['image/jpeg','image/png','image/webp','image/gif'].includes(file.type))throw Error('Choisissez une image JPG, PNG, WebP ou GIF.');mediaKey=id;mediaType=file.type;await storeBlob(id,file);if(assetUrls.has(id)){URL.revokeObjectURL(assetUrls.get(id));assetUrls.delete(id);}}if(['audio','lyrics'].includes(kind)&&(!mediaKey||!mediaType?.startsWith('audio/')))throw Error('Ajoutez un fichier audio.');if(kind==='image'&&(!mediaKey||!mediaType?.startsWith('image/')))throw Error('Ajoutez une image.');const cutAt=Number(data.get('cutAt'));if(kind==='lyrics'&&(!Number.isFinite(cutAt)||cutAt<.1||cutAt>30||cutAt>=Number(data.get('duration'))))throw Error('La coupure doit être comprise entre 0,1 et 30 s, avant la fin de la manche.');const options=[answer,...wrong];for(let i=3;i>0;i--){const j=Math.floor(Math.random()*(i+1));[options[i],options[j]]=[options[j],options[i]];}const q={id,universe:'music',kind,prompt:String(data.get('prompt')).trim(),answer,aliases:String(data.get('aliases')).split(';').map(x=>x.trim()).filter(Boolean),options,duration:Number(data.get('duration')),points:Number(data.get('points')),mediaKey,mediaType,cutAt:kind==='lyrics'?cutAt:undefined,title:String(data.get('title')||'').trim()||undefined,artist:String(data.get('artist')||'').trim()||undefined,target:'both'};custom=existing?custom.map(v=>v.id===id?q:v):[...custom,q];write('declic.library',custom);closeModal();render();toast('Question enregistrée !');}catch(err){toast(err.message);}
  if(f.id==='join-form'){const code=String(data.get('code')).trim().toUpperCase();if(!/^[A-Z2-9]{8}$/.test(code)){toast('Entrez le code de 8 caractères.');return;}room=code;const saved=JSON.parse(sessionStorage.getItem('declic.player.'+room)||'null');auth={type:'join',name:String(data.get('name')).trim(),token:saved?.token};teamId=saved?.id;busy=true;render();connect();}
  if(f.id==='answer-form'){send({type:'answer',answer:String(data.get('answer')||'').trim(),title:String(data.get('title')||'').trim(),artist:String(data.get('artist')||'').trim()});}
  if(f.id==='adjust-form'){send({type:'adjust',team:data.get('team'),points:Number(data.get('points'))});closeModal();}

@@ -1,5 +1,29 @@
-import http from 'node:http';import {readFile} from 'node:fs/promises';
-const types={html:'text/html',css:'text/css',js:'text/javascript',json:'application/json'};
-http.createServer(async(req,res)=>{try{const p=new URL(req.url,'http://localhost').pathname;
- if(p==='/solo.html'){res.writeHead(302,{Location:'/'});res.end();return;}
- const f=['/','/tv','/join'].includes(p)?'index.html':p.slice(1);if(!['index.html','style.css','app.js','engine.js','audio.js','catalog.js','qrcode.js','music-library.js','tyrolien-ui.js'].includes(f)){res.writeHead(404);res.end('Use Cloudflare deployment for connected rooms');return;}res.setHeader('Content-Type',types[f.split('.').pop()]);res.end(await readFile(new URL('public/'+f,import.meta.url)));}catch{res.writeHead(404);res.end();}}).listen(Number(process.env.PORT||process.argv[process.argv.indexOf('--port')+1])||3000,'0.0.0.0');
+import {spawn} from 'node:child_process';
+import {createRequire} from 'node:module';
+import {dirname,join} from 'node:path';
+import {fileURLToPath} from 'node:url';
+
+const args=process.argv.slice(2);
+const portIndex=args.indexOf('--port');
+const port=portIndex<0 ? process.env.PORT||'3000' : args[portIndex+1];
+if((args.length!==0&&(args.length!==2||portIndex<0))||
+   !/^[0-9]+$/.test(port||'')||Number(port)<1||Number(port)>65535){
+ throw Error('Usage : node dev.mjs [--port 3000]');
+}
+
+const require=createRequire(import.meta.url);
+const wrangler=join(dirname(require.resolve('wrangler/package.json')),'bin/wrangler.js');
+const cwd=fileURLToPath(new URL('.',import.meta.url));
+await import('./build.mjs');
+
+const server=spawn(process.execPath,[wrangler,'dev','--local','--ip','0.0.0.0',
+ '--port',port,'--persist-to','.wrangler/state','--var','DECLIC_LOCAL:true',
+ '--show-interactive-dev-session=false'],{
+ cwd,stdio:'inherit',env:{...process.env,WRANGLER_SEND_METRICS:'false',CLOUDFLARE_CF_FETCH_ENABLED:'false'}
+});
+for(const signal of ['SIGTERM','SIGINT']){
+ process.once(signal,()=>server.kill(signal));
+}
+server.once('exit',(code,signal)=>{
+ process.exitCode=code??(signal==='SIGINT'||signal==='SIGTERM'?0:1);
+});

@@ -1,3 +1,12 @@
+// randomUUID is unavailable on plain HTTP LAN origins, but getRandomValues is available.
+export function randomUUID(){
+ if(typeof crypto.randomUUID==='function')return crypto.randomUUID();
+ const bytes=crypto.getRandomValues(new Uint8Array(16));
+ bytes[6]=(bytes[6]&0x0f)|0x40;
+ bytes[8]=(bytes[8]&0x3f)|0x80;
+ const hex=Array.from(bytes,byte=>byte.toString(16).padStart(2,'0')).join('');
+ return [hex.slice(0,8),hex.slice(8,12),hex.slice(12,16),hex.slice(16,20),hex.slice(20)].join('-');
+}
 export const normalize = v => String(v??'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]/g,'');
 export function matches(value, expected, aliases=[]){const a=normalize(value);if(!a)return false;return [expected,...aliases].filter(Boolean).some(v=>{const b=normalize(v);if(a===b)return true;if(Math.min(a.length,b.length)<5)return false;const max=Math.min(a.length,b.length)>=9?2:1;if(Math.abs(a.length-b.length)>max)return false;let row=Array.from({length:b.length+1},(_,i)=>i);for(let i=0;i<a.length;i++){const next=[i+1];for(let j=0;j<b.length;j++)next.push(Math.min(next[j]+1,row[j+1]+1,row[j]+(a[i]===b[j]?0:1)));row=next;}return row[b.length]<=max;});}
 // Only known dataset origins may be displayed as source links in rooms.
@@ -113,7 +122,7 @@ export function createGame(questions, teams=[], mode='usb', input='qcm', setting
 export function applyAction(game, action, now=Date.now()) {
  const s=structuredClone(game), q=s.questions[s.index];s.settings=gameSettings(s.settings);s.history??=[];s.cooldowns??={};s.claimed??={};
  if(action.questionId&&action.questionId!==q?.id)return game;
- const emit=(type,extra={})=>{s.event={type,id:crypto.randomUUID(),...extra};};
+ const emit=(type,extra={})=>{s.event={type,id:randomUUID(),...extra};};
  const roundResult=id=>s.answers[id]??={parts:[],breakdown:{title:0,artist:0,answer:0,speed:0,streak:0},total:0,attempts:0};
  const award=(id,part)=>{const r=roundResult(id);if(r.parts.includes(part))return;r.parts.push(part);const factor=isProgressive(s,q)?[1,.8,.6,.4][s.listenStep||0]:1;const points=Math.round(factor*(part==='title'?s.settings.titlePoints:part==='artist'?s.settings.artistPoints:(q.points||100)));r.breakdown[part]=points;r.total+=points;if(r.parts.length===1){const speed=s.settings.speed&&!isProgressive(s,q)?Math.round(50*Math.max(0,Math.min(1,(s.phase==='buzzed'?s.remaining:s.endAt-now)/((q.duration||s.settings.duration)*1000)))):0;const streak=s.settings.streak?Math.min(5,s.teams.find(t=>t.id===id)?.streak||0)*10:0;r.breakdown.speed=speed;r.breakdown.streak=streak;r.total+=speed+streak;}s.pending[id]=r.total;};
  const bingo=s.settings.bingo&&s.mode==='phone'&&s.input==='qcm';
