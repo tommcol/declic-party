@@ -49,9 +49,10 @@ test('Bingo : mêmes 16 titres, choix secret, cochage à la révélation et troi
  assert.equal(new Set(s.teams[0].bingo.card.map(q=>q.id)).size,16);
  assert.notDeepEqual(s.teams[0].bingo.card,s.teams[1].bingo.card);
  assert.equal(publicGame(s).bingoCard,undefined);
+ assert.equal(publicGame(s,'a').question.id,'bingo-round-0');
  now+=3000;
  act('bingo-mark',{team:'a',song:'song-0'});
- assert.deepEqual(publicGame(s,'a').me,{attempts:1});
+ assert.deepEqual(publicGame(s,'a').me,{attempts:1,selectedSong:'song-0'});
  assert.deepEqual(s.teams[0].bingo.marked,[]);
  const first=s;
  act('bingo-mark',{team:'a',song:'song-1'});
@@ -67,7 +68,39 @@ test('Bingo : mêmes 16 titres, choix secret, cochage à la révélation et troi
   }
  }
  assert.deepEqual(s.bingoMilestones.map(goal=>goal.rows),[1,2,3]);
- assert.ok(s.bingoWinner);
+ assert.equal(s.index,16);
+ assert.equal(s.history.length,16);
+});
+
+test('Bingo : colonne, ligne et double étape simultanée avec ex æquo',()=>{
+ const questions=Array.from({length:16},(_,i)=>({...audio,id:'song-'+i,target:'artist'}));
+ let now=1000;
+ let state=createGame(questions,teams,'phone','qcm',{bingo:true});
+ function act(type,extra={}){state=applyAction(state,{type,...extra},now);}
+ act('play');
+ const layout=[6,0,1,2,3,7,8,9,4,10,11,12,5,13,14,15];
+ for(const team of state.teams)team.bingo.card=layout.map(i=>questions[i]);
+ for(let i=0;i<7;i++){
+  now+=3100;
+  if(i===0){
+   act('bingo-mark',{team:'a',song:'song-1'});
+   assert.equal(publicGame(state,'a').me.correct,undefined);
+   assert.equal(publicGame(state,'b').me,undefined);
+  }
+  act('reveal');
+  if(i===0)assert.equal(publicGame(state,'a').me.correct,false);
+  if(i<6){
+   assert.deepEqual(state.bingoMilestones,[]);
+   act('next');
+   act('play');
+  }
+ }
+ assert.deepEqual(state.bingoMilestones,[
+  {rows:1,winners:['a','b'],index:6},{rows:2,winners:['a','b'],index:6}
+ ]);
+ assert.deepEqual(state.bingoProgressions,[{id:'a',previous:0,count:2},{id:'b',previous:0,count:2}]);
+ act('next');
+ assert.equal(state.phase,'ready');
 });
 
 test('Maillon faible : points sécurisés, points perdus et vote privé',()=>{

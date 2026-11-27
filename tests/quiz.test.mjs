@@ -4,7 +4,7 @@ import {readFile,readdir} from 'node:fs/promises';
 import vm from 'node:vm';
 import {webcrypto} from 'node:crypto';
 import {QUESTION_BANKS as BANK_INDEX,quizQuestions,quizPool,loadQuizThemes,quizAvailableCount,QUIZ_CATEGORIES,quizCatalogue,categoryQuizSettings,prepareQuizQuestions} from '../public/quiz.js';
-import {createGame,applyAction,publicGame,normalizeQuizCredit} from '../public/engine.js';
+import {createGame,applyAction,publicGame,normalizeQuizCredit,roundStatistics} from '../public/engine.js';
 const QUESTION_BANKS=[];
 for(const folder of ['openquizzdb','qulture','learnclash'])for(const f of (await readdir(new URL('../data/'+folder+'/',import.meta.url))).filter(f=>f.endsWith('.json')).sort())QUESTION_BANKS.push(JSON.parse(await readFile(new URL('../data/'+folder+'/'+f,import.meta.url),'utf8')));
 const sourcePacks=new Map(QUESTION_BANKS.map(b=>['/quiz-packs/'+b.id+'.json',b]));
@@ -55,7 +55,7 @@ test('Tout mélanger : variété entre catégories, dix packs chargés pour dix 
 test('Une soirée conserve ses joueurs et leurs accès au changement de jeu',async()=>{
  const source=await readFile(new URL('../src/worker.js',import.meta.url),'utf8');
  const code=source.replace(/^import .*;$/gm,'').replace('export {MusicLibrary};','').replace('export default {','globalThis.worker = {').replace('export class PartyRoom','globalThis.PartyRoom = class PartyRoom');
- const context=vm.createContext({Response,URL,console,DurableObject:class{constructor(ctx){this.ctx=ctx;}},WebSocketRequestResponsePair:class{},createGame});
+ const context=vm.createContext({Response,URL,console,DurableObject:class{constructor(ctx){this.ctx=ctx;}},WebSocketRequestResponsePair:class{},createGame,roundStatistics});
  vm.runInContext(code,context);
  const questions=[{id:'next-song',kind:'audio'}];
  const expires=Date.now()+60000;

@@ -26,8 +26,50 @@ export const listeningLimit=(s,q=s.question||s.questions?.[s.index])=>q?.kind===
 export function audioRemaining(s,now=Date.now()){if(s.phase!=='playing'||now<s.startAt)return 0;return Math.max(0,listeningLimit(s)-((s.audioElapsed||0)+now-s.startAt)/1000);}
 export function targets(q){if(q.kind==='lyrics'||['coverChoice','timeline','coversQuiz','soundtrack'].includes(q.target))return ['answer'];return (q.title&&q.artist)||q.musical?(q.target==='both'?['title','artist']:[q.target==='artist'||q.target==='cover'?'artist':'title']):['answer'];}
 export const BINGO_CARD_SIZE=16;
-function completedBingoRows(card) {
- return [0,4,8,12].filter(start=>card.card.slice(start,start+4).every(song=>card.marked.includes(song.id))).length;
+export function bingoProgress({card, marked}) {
+ const size=Math.sqrt(card.length);
+ const indices=Array.from({length:size},(_,index)=>index);
+ const marks=new Set(marked);
+ const rows=indices.map(row=>indices.map(col=>card[row*size+col].id));
+ const columns=indices.map(col=>indices.map(row=>card[row*size+col].id));
+ const complete=lines=>lines.filter(line=>line.every(id=>marks.has(id)));
+ const fullRows=complete(rows),fullColumns=complete(columns);
+ return {
+  rows:fullRows.length,columns:fullColumns.length,
+  total:fullRows.length+fullColumns.length,
+  cells:[...new Set([...fullRows,...fullColumns].flat())],
+  remaining:Math.min(...[...rows,...columns].map(line=>line.filter(id=>!marks.has(id)).length).filter(Boolean),size)
+ };
+}
+export function roundStatistics(history,teams) {
+ const rows=new Map(teams.map(({id,name})=>[id,{id,name,correct:0,wrong:0,absent:0,
+  timed:0,elapsed:0,best:null,last:null,fastest:0,streak:0,bestStreak:0}]));
+ for(const round of history||[]){
+  let fastest=Infinity;
+  const timed=[];
+  for(const {id,result} of round.results){
+   const row=rows.get(id);
+   if(!row)continue;
+   row.last=result.elapsed??null;
+   if(result.correct||result.parts?.length){
+    row.correct++;
+    row.bestStreak=Math.max(row.bestStreak,++row.streak);
+    if(Number.isFinite(result.elapsed)){
+     row.elapsed+=result.elapsed;
+     row.timed++;
+     row.best=Math.min(row.best??Infinity,result.elapsed);
+     fastest=Math.min(fastest,result.elapsed);
+     timed.push([row,result.elapsed]);
+    }
+   }else{
+    row.streak=0;
+    if(result.attempts)row.wrong++;
+    else row.absent++;
+   }
+  }
+  for(const [row,elapsed] of timed)if(elapsed===fastest)row.fastest++;
+ }
+ return [...rows.values()].map(row=>({...row,average:row.timed?row.elapsed/row.timed:null}));
 }
 function dealBingoCard(questions) {
  const songs=questions.slice(0,BINGO_CARD_SIZE).map(({id,title,artist})=>({id,title,artist}));
@@ -141,14 +183,18 @@ export function applyAction(game, action, now=Date.now()) {
    }
   }
   if(bingo){
-   for(const team of s.teams)team.bingo.marked.push(q.id);
-   const rows=s.teams.map(team=>[team.id,completedBingoRows(team.bingo)]);
+   s.bingoProgressions=[];
+   for(const team of s.teams){
+    const previous=bingoProgress(team.bingo).total;
+    team.bingo.marked.push(q.id);
+    const count=bingoProgress(team.bingo).total;
+    if(count>previous)s.bingoProgressions.push({id:team.id,previous,count});
+   }
    s.bingoMilestones??=[];
    for(let goal=s.bingoMilestones.length+1;goal<=3;goal++){
-    const winners=rows.filter(([,count])=>count>=goal).map(([id])=>id);
+    const winners=s.bingoProgressions.filter(({count})=>count>=goal).map(({id})=>id);
     if(!winners.length)break;
-    s.bingoMilestones.push({rows:goal,winners});
-    if(goal===3)s.bingoWinner=winners[0];
+    s.bingoMilestones.push({rows:goal,winners,index:s.index});
    }
   }
   if(survival){
@@ -189,7 +235,7 @@ export function applyAction(game, action, now=Date.now()) {
    t.streak=s.answers[t.id]?.parts?.length?(t.streak||0)+1:0;
   }
   jokerProgress(s,q);
-  s.pending={};s.phase='reveal';s.buzz=null;s.history.push({index:s.index,question:{id:q.id,prompt:q.prompt,title:q.title,artist:q.artist,answer:q.answer,provider:q.provider,link:q.link,explanation:q.explanation,credit:q.credit,theme:q.theme},results:s.teams.map(t=>({id:t.id,name:t.name,score:t.score,result:s.answers[t.id]||{parts:[],total:0,breakdown:{}}}))});emit('reveal');s.nextAt=s.settings.autoNext&&!s.chainVote?now+8000:0;};
+  s.pending={};s.phase='reveal';s.buzz=null;s.history.push({index:s.index,bingoProgressions:bingo?s.bingoProgressions:undefined,question:{id:q.id,prompt:q.prompt,title:q.title,artist:q.artist,answer:q.answer,provider:q.provider,link:q.link,explanation:q.explanation,credit:q.credit,theme:q.theme},results:s.teams.map(t=>({id:t.id,name:t.name,score:t.score,result:s.answers[t.id]||{parts:[],total:0,breakdown:{}}}))});emit('reveal');s.nextAt=s.settings.autoNext&&!s.chainVote?now+8000:0;};
  const continueRound=()=>{s.buzz=null;if(s.settings.resume==='manual'){s.phase='paused';}else{s.phase='playing';s.startAt=now;s.endAt=now+s.remaining;}};
  if(action.type==='play'&&['lobby','ready'].includes(s.phase)&&q&&(!(survival||chain)||s.teams.length>=(chain?3:2))){
   if(timeline&&s.phase==='lobby'){
@@ -214,6 +260,9 @@ export function applyAction(game, action, now=Date.now()) {
     team.bingo={card,marked:[]};
    }
   }
+  if(bingo&&Number.isFinite(action.sourceDuration)){
+   q.duration=Math.min(30,Math.max(.25,action.sourceDuration));
+  }
   s.phase='playing';s.listenStep=0;s.audioElapsed=0;s.startAt=now+3000;s.endAt=s.startAt+(q.duration||s.settings.duration)*1000;s.buzz=null;s.blocked=[];s.cooldowns={};s.claimed={};s.answers={};s.pending={};emit('start');}
  else if(action.type==='pause'&&s.phase==='playing'&&now>=s.startAt){s.remaining=Math.max(0,s.endAt-now);s.audioElapsed=(s.audioElapsed||0)+Math.max(0,now-s.startAt);s.phase='paused';emit('pause');}
  else if(action.type==='resume'&&s.phase==='paused'){s.phase='playing';s.startAt=now;s.endAt=now+s.remaining;emit('resume');}
@@ -229,6 +278,7 @@ export function applyAction(game, action, now=Date.now()) {
   const result=roundResult(action.team);
   result.attempts=1;
   result.elapsed=(s.audioElapsed||0)+now-s.startAt;
+  result.selectedSong=action.song;
   result.correct=action.song===q.id;
   if(result.correct)award(action.team,q.target==='artist'?'artist':'title');
  }
@@ -285,7 +335,7 @@ export function applyAction(game, action, now=Date.now()) {
    if(first.count&&(first.count!==second.count||first.team.score!==second.team.score))first.team.eliminated=true;
    s.chainVote=null;
   }
-  s.index++;s.phase=s.bingoWinner||s.survivalWinner||s.index>=s.questions.length?'finished':'ready';s.buzz=null;s.blocked=[];s.answers={};s.pending={};s.claimed={};s.cooldowns={};s.nextAt=0;
+  s.index++;s.phase=s.survivalWinner||s.index>=s.questions.length?'finished':'ready';s.buzz=null;s.blocked=[];s.answers={};s.pending={};s.claimed={};s.cooldowns={};s.nextAt=0;
   if(timeline&&s.phase==='finished')s.teams.sort((left,right)=>right.score-left.score||(left.timelineElapsed||0)-(right.timelineElapsed||0));
   emit(s.phase==='finished'?'podium':'next');}
  else if(action.type==='adjust'&&s.teams.some(t=>t.id===action.team)&&Number.isFinite(action.points)&&Math.abs(action.points)<=1000){s.teams.find(t=>t.id===action.team).score+=Math.round(action.points);emit('adjust');}
@@ -305,12 +355,12 @@ export function publicGame(s,teamId){
  const distribution=timeMode==='individual'&&!teamId&&(revealed||s.phase==='finished')?Object.entries(
   s.teams.reduce((counts,team)=>(counts[team.score]=(counts[team.score]||0)+1,counts),{})
  ).map(([correct,players])=>({correct:Number(correct),players})).reverse():undefined;
- const question=q?{id:q.id,universe:q.universe,kind:q.kind,prompt:timeMode?'Où placer cette chanson sur la frise ?':q.prompt,timeline:timeMode?undefined:q.timeline,options:timeMode?[]:s.input==='qcm'&&!s.settings?.bingo?(q.options||[]).filter(option=>!myJoker?.hidden?.includes(option)):[],optionArtwork:s.input==='qcm'&&q.optionArtwork?q.optionArtwork.filter((_,index)=>!myJoker?.hidden?.includes(q.options[index])):undefined,emoji:q.emoji,duration:q.duration,cutAt:q.kind==='lyrics'?q.cutAt:undefined,points:q.points,target:q.target,musical:targets(q)[0]!=='answer',displayArtist:q.target==='artistTitle'?q.artist:undefined,artwork:q.target==='cover'||q.target!=='coverChoice'&&s.effect==='image'||revealed?q.artwork:undefined,...(revealed?{answer:q.answer,title:q.title,artist:q.artist,provider:q.provider,link:q.link,explanation:q.explanation,credit:q.credit,theme:q.theme,year:q.year}: {})}:null;
+ const question=q?{id:s.settings?.bingo&&!revealed?`bingo-round-${s.index}`:q.id,universe:q.universe,kind:q.kind,prompt:timeMode?'Où placer cette chanson sur la frise ?':q.prompt,timeline:timeMode?undefined:q.timeline,options:timeMode?[]:s.input==='qcm'&&!s.settings?.bingo?(q.options||[]).filter(option=>!myJoker?.hidden?.includes(option)):[],optionArtwork:s.input==='qcm'&&q.optionArtwork?q.optionArtwork.filter((_,index)=>!myJoker?.hidden?.includes(q.options[index])):undefined,emoji:q.emoji,duration:q.duration,cutAt:q.kind==='lyrics'?q.cutAt:undefined,points:q.points,target:q.target,musical:targets(q)[0]!=='answer',displayArtist:q.target==='artistTitle'?q.artist:undefined,artwork:q.target==='cover'||q.target!=='coverChoice'&&s.effect==='image'||revealed?q.artwork:undefined,...(revealed?{answer:q.answer,title:q.title,artist:q.artist,provider:q.provider,link:q.link,explanation:q.explanation,credit:q.credit,theme:q.theme,year:q.year}: {})}:null;
  return {joker:teamId&&q&&compatibleJokers(s,q).length&&s.phase!=='finished'?
  {held:myJoker?.held,correct:myJoker?.correct||0,fastest:myJoker?.fastest||0,
   decade:myJoker?.decade,retry:myJoker?.extraAttempt===true,
   canRetry:myJoker?.held==='retry'&&!!s.answers[teamId]?.attempts&&!s.answers[teamId]?.correct}:undefined,
- jokerAwards:revealed?s.jokerAwards:undefined,timelineMode:timeMode,timelineCards:cards,timelineSlots:q&&cards&&teamId?timelineSlots(cards,q):undefined,timelineResult,distribution,version:2,mode:s.mode,input:s.input,index:s.index,total:s.questions.length,phase:s.phase,buzz:s.buzz,blocked:s.blocked,claimed:s.claimed,cooldowns:s.cooldowns,answered:Object.keys(s.answers),remaining:s.remaining,settings:{listening:s.settings?.listening||'continuous',survival:s.settings?.survival===true,bingo:s.settings?.bingo===true,bingoTarget:s.questions[0]?.target,chain:s.settings?.chain===true},chainVoting:!!s.chainVote,chainMyVote:teamId?s.chainVote?.[teamId]:undefined,chainUnbanked:teamId?s.teams.find(t=>t.id===teamId)?.unbanked:undefined,bingoWinner:s.bingoWinner,bingoMilestones:s.bingoMilestones,bingoCard:teamId?s.teams.find(t=>t.id===teamId)?.bingo:undefined,survivalWinner:s.survivalWinner,listenStep:s.listenStep||0,audioElapsed:s.audioElapsed||0,teams:s.teams.map(({id,name,score,key,streak,eliminated,lives})=>({id,name,score:timeMode&&teamId&&s.phase!=='finished'?undefined:score,key,streak:timeMode&&teamId?undefined:streak,eliminated,lives})),startAt:s.startAt,endAt:s.endAt,nextAt:s.nextAt,event:s.event,revision:s.revision,question,effect:s.effect,history:timeMode&&teamId&&s.phase!=='finished'?[]:s.history,me:teamId?(s.input==='qcm'&&(!revealed||timeMode)&&s.answers[teamId]?{attempts:s.answers[teamId].attempts}:s.answers[teamId]):undefined};
+ jokerAwards:revealed?s.jokerAwards:undefined,timelineMode:timeMode,timelineCards:cards,timelineSlots:q&&cards&&teamId?timelineSlots(cards,q):undefined,timelineResult,distribution,version:2,mode:s.mode,input:s.input,index:s.index,total:s.questions.length,phase:s.phase,buzz:s.buzz,blocked:s.blocked,claimed:s.claimed,cooldowns:s.cooldowns,answered:Object.keys(s.answers),remaining:s.remaining,settings:{listening:s.settings?.listening||'continuous',survival:s.settings?.survival===true,bingo:s.settings?.bingo===true,bingoTarget:s.questions[0]?.target,chain:s.settings?.chain===true},chainVoting:!!s.chainVote,chainMyVote:teamId?s.chainVote?.[teamId]:undefined,chainUnbanked:teamId?s.teams.find(t=>t.id===teamId)?.unbanked:undefined,bingoFinal:s.settings?.bingo&&s.phase==='finished'?roundStatistics(s.history,teamId?s.teams.filter(t=>t.id===teamId):s.teams):undefined,bingoProgressions:revealed?s.bingoProgressions:undefined,bingoMilestones:s.bingoMilestones,bingoCard:teamId?s.teams.find(t=>t.id===teamId)?.bingo:undefined,survivalWinner:s.survivalWinner,listenStep:s.listenStep||0,audioElapsed:s.audioElapsed||0,teams:s.teams.map(({id,name,score,key,streak,eliminated,lives})=>({id,name,score:timeMode&&teamId&&s.phase!=='finished'?undefined:score,key,streak:timeMode&&teamId?undefined:streak,eliminated,lives})),startAt:s.startAt,endAt:s.endAt,nextAt:s.nextAt,event:s.event,revision:s.revision,question,effect:s.effect,history:timeMode&&teamId&&s.phase!=='finished'?[]:s.history,me:teamId?(s.input==='qcm'&&(!revealed||timeMode)&&s.answers[teamId]?{attempts:s.answers[teamId].attempts,...(s.settings?.bingo?{selectedSong:s.answers[teamId].selectedSong}:{})}:s.answers[teamId]):undefined};
 }
 export const DEMO=[
 {id:'m1',universe:'music',kind:'audio',prompt:'Quel est le titre de cette mélodie ?',answer:'Frère Jacques',aliases:['frere jacques'],options:['Frère Jacques','Au clair de la lune','Sur le pont d’Avignon','Une souris verte'],notes:[[60,.4],[62,.4],[64,.4],[60,.4],[60,.4],[62,.4],[64,.4],[60,.4],[64,.4],[65,.4],[67,.8],[64,.4],[65,.4],[67,.8]],hint:'Une mélodie qui traverse les générations.',duration:25,points:100},

@@ -6,6 +6,7 @@ import {openStorage} from './storage.mjs';
 
 export function createLocalServer({worker, PartyRoom, MusicLibrary}, directory) {
   const rooms=new Map();
+  let closing=false;
   const upgrades=new WeakMap();
   const sockets=new WebSocketServer({noServer:true,maxPayload:80000});
   const storage=openStorage(directory,(name,deliver)=>runRoom(name,room=>deliver(()=>room.alarm())));
@@ -49,6 +50,7 @@ export function createLocalServer({worker, PartyRoom, MusicLibrary}, directory) 
             client.on('error',()=>runRoom(name,room=>room.webSocketError(ws)).catch(reportError));
             client.on('close',()=>{
               clients.delete(ws);
+              if(!closing)runRoom(name,room=>room.webSocketClose(ws)).catch(reportError);
               release(name,entry);
             });
           });
@@ -106,6 +108,7 @@ export function createLocalServer({worker, PartyRoom, MusicLibrary}, directory) 
 
   storage.restoreAlarms();
   return {server, async close(){
+    closing=true;
     storage.stopAlarms();
     for(const socket of sockets.clients)socket.terminate();
     await new Promise(resolve=>server.close(resolve));

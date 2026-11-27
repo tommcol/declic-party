@@ -1,6 +1,6 @@
 import {createTyrolien,applyTyrolien,tyrolienView} from './tyrolien-room.js';
 import { DurableObject } from 'cloudflare:workers';
-import {createGame,applyAction,publicGame,normalizeQuizCredit,BINGO_CARD_SIZE} from '../public/engine.js';
+import {createGame,applyAction,publicGame,normalizeQuizCredit,roundStatistics,BINGO_CARD_SIZE} from '../public/engine.js';
 import {MusicLibrary,libraryRouteParams} from './library.js';
 export {MusicLibrary};
 import {musicRoute} from './catalog.js';
@@ -124,24 +124,7 @@ export default {
 function eveningTotals(room){
  const totals={...room.eveningTotals};
  const history=room.history||[];
- const attempts=new Map();
- if(!room.tyrolien){
-  for(const round of history){
-   for(const {id,result} of round.results){
-    const row=attempts.get(id)||{correct:0,wrong:0,absent:0,elapsed:0,timed:0,best:null};
-    if(result.correct||result.parts?.length){
-     row.correct++;
-     if(Number.isFinite(result.elapsed)){
-      row.timed++;
-      row.elapsed+=result.elapsed;
-      row.best=Math.min(row.best??Infinity,result.elapsed);
-     }
-    }else if(result.attempts)row.wrong++;
-    else row.absent++;
-    attempts.set(id,row);
-   }
-  }
- }
+ const attempts=new Map(room.tyrolien?[]:roundStatistics(history,room.teams).map(row=>[row.id,row]));
  for(const team of room.teams){
   const prior=totals[team.id]||{points:0,correct:0,played:0};
   const ty=room.tyrolien?.scores[team.id];
@@ -305,6 +288,10 @@ export class PartyRoom extends DurableObject {
  sendState(ws,s,a,eveningRanking){
   const state=s.tyrolien?tyrolienView(s,a.role,a.team):a.role==='host'
    ?{...s,hostHash:undefined}:publicGame(s,a.role==='player'?a.team:undefined);
+  if(a.role==='host'&&s.settings?.bingo){
+   state.connectedPlayers=[...new Set(this.ctx.getWebSockets().map(socket=>socket.deserializeAttachment())
+    .filter(identity=>identity?.role==='player').map(identity=>identity.team))];
+  }
   if(a.role==='host'||a.role==='tv'||a.role==='player'&&['paused','finished'].includes(s.phase)){
    const ranking=eveningRanking||this.eveningRanking(s);
    if(a.role==='player'){
@@ -330,6 +317,19 @@ export class PartyRoom extends DurableObject {
    }
   }
  }
+ broadcastBingoAnswer(s,player){
+  const count=Object.keys(s.answers).length;
+  const result=s.answers[player];
+  for(const socket of this.ctx.getWebSockets()){
+   const identity=socket.deserializeAttachment();
+   const message={type:'bingo-answer',index:s.index,revision:s.revision,count};
+   if(identity?.role==='host')this.send(socket,{...message,player,result});
+   else if(identity?.role==='tv')this.send(socket,message);
+   else if(identity?.role==='player'&&identity.team===player){
+    this.send(socket,{...message,me:{attempts:result.attempts,selectedSong:result.selectedSong}});
+   }
+  }
+ }
  async webSocketMessage(ws,msg){
   try{
    if(typeof msg!=='string'||msg.length>20000)throw Error('Message invalide');
@@ -343,7 +343,7 @@ export class PartyRoom extends DurableObject {
     if(!t){if(s.phase!=='lobby')throw Error('La partie a commencé. Rejoignez la prochaine !');if(s.teams.length>=PLAYER_LIMIT)throw Error(PLAYER_LIMIT+' participants maximum');const name=String(m.name||'').trim().slice(0,24);if(!name)throw Error('Entrez un nom d’équipe');if(s.teams.some(t=>t.name.toLowerCase()===name.toLowerCase()))throw Error('Ce nom est déjà utilisé');t={id:crypto.randomUUID(),name,score:0,key:'',token:crypto.randomUUID()};s.teams.push(t);await this.ctx.storage.put('room',s);}
     a.role='player';a.team=t.id;ws.serializeAttachment(a);
     this.send(ws,{type:'session',id:t.id,token:t.token});
-    this.broadcast(s,m.token&&t.token===m.token?t.id:undefined);
+    this.broadcast(s,s.settings?.bingo||m.token&&t.token===m.token?t.id:undefined);
     return;
    }
    if(s.tyrolien){
@@ -359,8 +359,9 @@ export class PartyRoom extends DurableObject {
     s=applyAction(s,{type:m.type,team:a.team,candidate:m.candidate},now);
    }
    else if(m.type==='bingo-mark'&&a.role==='player'&&s.settings?.bingo){
-    if(m.questionId!==s.questions[s.index]?.id)throw Error('Cet extrait est terminé.');
-    s=applyAction(s,{type:m.type,team:a.team,song:m.song,marked:m.marked},now);
+    if(m.questionId!==`bingo-round-${s.index}`)throw Error('Cet extrait est terminé.');
+    s=applyAction(s,{type:m.type,team:a.team,song:m.song},now);
+    if(s===previous)this.sendState(ws,s,a);
    }
    else if(m.type==='joker'&&a.role==='player'){
     if(m.questionId!==s.questions[s.index]?.id)throw Error('Cette manche est terminée.');
@@ -372,7 +373,8 @@ export class PartyRoom extends DurableObject {
    if(s===previous)return;
    await this.ctx.storage.put('room',s);
    if(s.phase!==previous.phase||s.endAt!==previous.endAt||s.nextAt!==previous.nextAt)await this.schedule(s);
-   this.broadcast(s,m.type==='answer'||m.type==='joker'||m.type==='bingo-mark'||m.type==='chain-vote'?a.team:undefined);
+   if(m.type==='bingo-mark')this.broadcastBingoAnswer(s,a.team);
+   else this.broadcast(s,['answer','joker','chain-vote'].includes(m.type)?a.team:undefined);
   }catch(e){this.send(ws,{type:'error',message:e.message});}
  }
  async updateTyrolien(action,identity,now){
@@ -389,5 +391,14 @@ export class PartyRoom extends DurableObject {
   });
  }
  async alarm(){let s=await this.ctx.storage.get('room');if(!s)return;if(s.expires<=Date.now()){for(const ws of this.ctx.getWebSockets())ws.close(4001,'Partie expirée');await this.ctx.storage.deleteAll();return;}if(s.tyrolien){this.broadcast(await this.updateTyrolien({type:'ty-tick'},{role:'server'},Date.now()));return;}if(s.phase==='playing')s=applyAction(s,{type:'timeout'});else if(s.phase==='reveal'&&s.nextAt&&s.nextAt<=Date.now())s=applyAction(s,{type:'next'});await this.ctx.storage.put('room',s);this.broadcast(s);await this.schedule(s);}
+ async webSocketClose(ws){
+  if(ws.deserializeAttachment()?.role!=='player')return;
+  const s=await this.ctx.storage.get('room');
+  if(!s?.settings?.bingo||s.expires<=Date.now())return;
+  for(const host of this.ctx.getWebSockets()){
+   const identity=host.deserializeAttachment();
+   if(identity?.role==='host')this.sendState(host,s,identity);
+  }
+ }
  webSocketError(ws){ws.close(1011,'Connexion interrompue');}
 }
