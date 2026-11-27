@@ -65,7 +65,7 @@ export function seedLibrary() {
  for(const [title,artist,year,playlists,work,source] of LIBRARY_MASTER){
   const id=normalizeLibraryText(artist)+'|'+normalizeLibraryText(title);
   const previous=tracks.get(id);
-  tracks.set(id,{id,title,artist,year:year||0,
+  tracks.set(id,{id,title,artist,year:year||previous?.year||0,
    playlists:[...new Set([...(previous?.playlists||[]),...playlists])],
    work:work||previous?.work||null,source:source||previous?.source||null});
  }
