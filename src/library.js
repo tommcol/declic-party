@@ -126,15 +126,15 @@ export class MusicLibrary extends DurableObject {
   return {tracks,next:offset+libraryPage<matches.length?offset+libraryPage:null};
  }
 
- candidates(playlist,limit){
+ candidates(playlists) {
   const excluded=this.exclusions();
-  const tracks=(tracksByPlaylist.get(playlist)||[]).filter(track=>!excluded.has(track.id));
-  const count=Math.min(tracks.length,limit);
-  for(let i=0;i<count;i++){
-   const j=i+Math.floor(Math.random()*(tracks.length-i));
-   [tracks[i],tracks[j]]=[tracks[j],tracks[i]];
+  const unique=new Map();
+  for(const playlist of playlists){
+   for(const track of tracksByPlaylist.get(playlist)||[]){
+    if(!excluded.has(track.id))unique.set(track.id,track);
+   }
   }
-  return tracks.slice(0,count).map(({id,title,artist,year,work})=>({id,title,artist,year,work}));
+  return [...unique.values()].map(({id,title,artist,year,work})=>({id,title,artist,year,work}));
  }
 
  setExcluded(id,excluded) {

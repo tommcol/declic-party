@@ -1,10 +1,10 @@
-import {changeRoulette,rouletteView,rouletteIndex} from '../public/roulette.js';
+import {changeRoulette,rouletteView,rouletteIndex,rouletteAdvanceAt} from '../public/roulette.js';
 import {createTyrolien,applyTyrolien,tyrolienView} from './tyrolien-room.js';
 import { DurableObject } from 'cloudflare:workers';
 import {createGame,applyAction,publicGame,normalizeQuizCredit,roundStatistics,BINGO_CARD_SIZE} from '../public/engine.js';
 import {MusicLibrary,libraryRouteParams} from './library.js';
 export {MusicLibrary};
-import {musicRoute} from './catalog.js';
+import {musicRoute,libraryPreviews} from './catalog.js';
 import {ASSETS} from './assets.generated.js';
 async function boundedText(req,max){const reader=req.body?.getReader();if(!reader)return '';const chunks=[];let size=0;try{while(true){const {done,value}=await reader.read();if(done)break;size+=value.byteLength;if(size>max){await reader.cancel();throw Error('Partie trop volumineuse');}chunks.push(value);}}finally{reader.releaseLock();}const bytes=new Uint8Array(size);let at=0;for(const c of chunks){bytes.set(c,at);at+=c.byteLength;}return new TextDecoder().decode(bytes);}
 const json=(v,status=200)=>Response.json(v,{status,headers:{'Cache-Control':'no-store'}});
@@ -36,8 +36,15 @@ async function libraryRoute(req,env,url){
  if(req.method==='GET'){
   if(url.pathname==='/api/library')return json(await library.summary());
   if(url.pathname==='/api/library/candidates'){
-   const params=libraryRouteParams(url);
-   return params?json({tracks:await library.candidates(params.playlist,50)}):json({error:'Playlist inconnue.'},400);
+   const ids=url.searchParams.getAll('playlist');
+   const playlists=ids.length?ids:['mix'];
+   const valid=playlists.every(id=>libraryRouteParams(new URL('/?playlist='+encodeURIComponent(id),url)));
+   return valid?json({tracks:await library.candidates([...new Set(playlists)])}):json({error:'Playlist inconnue.'},400);
+  }
+  if(url.pathname==='/api/library/previews'){
+   const queries=url.searchParams.getAll('q');
+   if(!queries.length||queries.length>8||queries.some(q=>q.length<2||q.length>180))return json({error:'Recherche invalide.'},400);
+   return json({results:await libraryPreviews(queries)});
   }
   if(url.pathname==='/api/library/tracks'){
    const params=libraryRouteParams(url);
@@ -252,7 +259,7 @@ export class PartyRoom extends DurableObject {
  async schedule(room){
   const at=room.tyrolien?room.tyrolien.nextAt:room.phase==='playing'?room.endAt:room.nextAt;
   const wheel=room.roulette;
-  const wheelAlarm=wheel&&(wheel.stopAt===null?wheel.deadline:wheel.revealAt>Date.now()?wheel.revealAt:null);
+  const wheelAlarm=wheel&&(wheel.stopAt===null?wheel.deadline:wheel.revealAt>Date.now()?wheel.revealAt:rouletteAdvanceAt(wheel));
   const alarm=Math.min(at||Infinity,room.expires||Infinity,wheelAlarm||Infinity);
   if(Number.isFinite(alarm))await this.ctx.storage.setAlarm(alarm);
   else await this.ctx.storage.deleteAlarm();
@@ -362,7 +369,7 @@ export class PartyRoom extends DurableObject {
    if(next===previous)return null;
    room.roulette=next;
    if(next?.player&&next.stopAt!==null&&previous?.stopAt!==next.stopAt){
-    room.roulettePlayers=[...new Set([...(room.roulettePlayers||[]),next.player.id])];
+    room.roulettePlayers=[...(room.roulettePlayers||[]),next.player.id];
    }
    await tx.put('room',room);
    return room;
@@ -482,7 +489,12 @@ export class PartyRoom extends DurableObject {
    await this.updateRoulette({type:'roulette-stop',id:wheel.id},{role:'server'},now);
    return;
   }
-  if(wheel&&wheel.revealAt!==null&&wheel.revealAt<=now)this.broadcastWheel(s);
+  const advanceAt=rouletteAdvanceAt(wheel);
+  if(advanceAt!==null&&advanceAt<=now){
+   await this.updateRoulette({type:'roulette-advance',id:wheel.id},{role:'server'},now);
+   return;
+  }
+  if(wheel?.revealAt!=null&&wheel.revealAt<=now)this.broadcastWheel(s);
   if(s.tyrolien?.nextAt&&s.tyrolien.nextAt<=now){
    this.broadcast(await this.updateTyrolien({type:'ty-tick'},{role:'server'},now));
    return;

@@ -1,4 +1,4 @@
-import {changeRoulette,rouletteView} from './roulette.js';
+import {changeRoulette,rouletteView,rouletteAdvanceAt} from './roulette.js';
 import {tyrolienScreen} from './tyrolien-ui.js';
 import {openMusicLibrary} from './music-library.js';
 import {THEMES,CHALLENGES,musicQuestions,shuffle,SPECIAL_TRACKS,matchSpecialTrack,specialQuestions} from './catalog.js';
@@ -39,23 +39,21 @@ const desk=new SoundDesk();
 desk.muted=read('declic.muted',false);
 let activeEvening=null, eveningStatus='loading', changingEvening=false;
 let wheel=null,localWheel=null,wheelTimer=null,wheelCelebration=null;
-const wheelPrefs={avoidGames:true,avoidPlaylists:true,avoidSongs:true,...read('declic.wheelFilters',{})};
+const wheelPrefs={avoidSongs:true,...read('declic.wheelFilters',{})};
 let verifiedPlaylists=read('declic.verifiedPlaylists',{});
 let eveningUsage={games:[],playlists:[],songs:[],spinners:[]};
 let selectedPlaylists=read('declic.playlistSelection',catalogPool.playlistIds||[]),viewBeforeLibrary='home';
-let playlistGroups=null, playlistRequest=null, playlistSearch='', allPlaylistsOpen=false;
-const openPlaylistSections=new Set();
+let playlistGroups=null, playlistRequest=null, playlistSearch='', playlistCategory='decades', playlistLetter='', playlistPage=0;
 let favoritePlaylists=read('declic.playlistFavorites',[]);
 let recentPlaylists=read('declic.playlistRecent',[]);
 let surprisePending=false, ceremony=null;
-let selectionPanel='', usbVoteChoice='';
+let selectionPanel='', usbVoteChoice='', appliedWheel=null, playlistShortlist=null;
 const selectionModes=[['manual','Manuel'],['automatic','Roulette automatique'],['participatory','Arrêt par un joueur'],['vote','Vote des participants']];
 const preferredModes={game:'participatory',playlist:'participatory',...read('declic.selectionModes',{})};
 let explicitPreference=read('declic.excludeExplicit',config.explicit!==true);
 let showAnimations=read('declic.showAnimations',true);
 
 let customQuestionCount=false;
-const quickPlaylistIds=['alltime','1960','1970','1980','1990','2000','2010','2020','var','intl','rock','disco','party','mix'];
 const quickQuestionCounts=[5,10,15,20,30,50];
 const wheelGameSelection=read('declic.wheelGames',[]);
 const wheelSettings={player:'',animation:true,...read('declic.wheelPreferences',{})};
@@ -77,7 +75,8 @@ function useEveningHistory(){
 }
 function rememberUsage(key,values){
  if(!activeEvening)return;
- eveningUsage[key]=[...new Set([...eveningUsage[key],...values])];
+ const combined=[...eveningUsage[key],...values];
+ eveningUsage[key]=key==='spinners'?combined:[...new Set(combined)];
  write('declic.usage.'+activeEvening.code,eveningUsage);
 }
 let usbRevision=0, usbSave=null, usbRetry=null, usbQueue=[];
@@ -515,7 +514,7 @@ async function playTyrolienClip(){
 }
 function send(action){if(['answer','joker','buzz','listen-more','judge','bingo-mark','chain-bank','chain-vote'].includes(action.type))action.questionId=currentQ()?.id;if(game?.mode==='phone'){if(!ws||ws.readyState!==WebSocket.OPEN){toast('Connexion interrompue. Attendez la reconnexion.');return;}ws.send(JSON.stringify(action));}else{const next=applyAction(game,action);if(next!==game){game=next;if(next.mode==='usb')queueUSB(next);void receive();}}}
 async function requestRoom(payload){
- const response=await fetch('/api/rooms',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload),signal:AbortSignal.timeout(12000)});
+ const response=await fetch('/api/rooms',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload),signal:AbortSignal.timeout(path.startsWith('/api/library/previews?')?25000:12000)});
  const data=await response.json();
  if(!response.ok)throw Error(data.error);
  return data;
@@ -543,7 +542,7 @@ async function hostRequest(path,method='GET',data){
  const credential=read('declic.hostKey',null)??(navigator.locks?await navigator.locks.request('declic.hostKey',hostCredential):hostCredential());
  const response=await fetch(path,{
   method,headers:{Authorization:'Bearer '+credential,'Content-Type':'application/json'},
-  body:data===undefined?undefined:JSON.stringify(data),cache:'no-store',signal:AbortSignal.timeout(12000)
+  body:data===undefined?undefined:JSON.stringify(data),cache:'no-store',signal:AbortSignal.timeout(path.startsWith('/api/library/previews?')?25000:12000)
  });
  const result=await response.json();
  if(!response.ok)throw Object.assign(Error(result.error),{status:response.status});
@@ -721,9 +720,11 @@ async function launch(){if(busy)return;busy=true;catalogMessage='';audioError=''
  if((chain||special||bingo||survival||covers)&&(config.mode!=='phone'||config.input!=='qcm'))throw Error('Ce jeu se joue en QCM sur téléphone.');
  if(covers&&config.effect==='image')throw Error('Choisissez un autre effet pour garder la bonne pochette cachée.');
  if(selectedPlaylists.length&&!fixedGameMusic()){
+  if(!playlistGroups?.length)playlistGroups=(await hostRequest('/api/library')).categories;
   const index=playlistIndex();
   const choices=selectedPlaylists.map(id=>index.get(id)||verifiedPlaylists[id]).filter(Boolean).map(item=>[item.id,item.name]);
-  if(choices.length)await resolvePlaylistSelection(choices);
+  if(choices.length!==selectedPlaylists.length)throw Error('Une playlist sélectionnée est introuvable. Retirez-la puis réessayez.');
+  await resolvePlaylistSelection(choices);
  }
  if(!special&&config.source==='catalog'&&config.universe==='music'&&(!catalogPool.tracks.length||config.catalogFrom!=='explorer'&&catalogPool.themeKey!==config.themes.join(',')))await loadThemes();
  const selection=special==='soundtrack'?(config.soundtrackCategory||'soundtrack'):special;
@@ -859,9 +860,15 @@ document.addEventListener('click',async e=>{const b=e.target.closest('[data-acti
   favoritePlaylists=favoritePlaylists.includes(v)?favoritePlaylists.filter(id=>id!==v):[...favoritePlaylists,v];
   write('declic.playlistFavorites',favoritePlaylists);render();return;
  }
- if(act==='all-playlists'){
-  if(playlistGroups?.length===0){playlistGroups=null;loadPlaylistGroups();}
-  allPlaylistsOpen=!allPlaylistsOpen;render();return;
+ if(act==='playlist-reload'){playlistGroups=null;loadPlaylistGroups();render();return;}
+ if(act==='playlist-category'){
+  playlistCategory=v;playlistSearch='';playlistLetter='';playlistPage=0;render();return;
+ }
+ if(act==='playlist-letter'){playlistLetter=v;playlistPage=0;render();return;}
+ if(act==='playlist-page'){playlistPage+=Number(v);render();return;}
+ if(act==='playlist-all'){
+  selectedPlaylists=[...new Set([...selectedPlaylists,...categoryPlaylists().map(item=>item.id)])];
+  savePlaylistSelection();render();return;
  }
  if(act==='setup-choice'){
   const key=b.dataset.key;
@@ -875,7 +882,7 @@ document.addEventListener('click',async e=>{const b=e.target.closest('[data-acti
  }
  if(act==='question-count'){customQuestionCount=v==='custom';if(!customQuestionCount){config[config.musicGame==='timeline'?'timelineCount':'count']=questionCount(v);saveConfig();}render();return;}
  if(act==='replay-playlist'){
-  view='setup';allPlaylistsOpen=true;selectionPanel='playlist';
+  view='setup';
   if(game?.musicGame)selectGame(game.musicGame);else render();
   $('.setup-music')?.scrollIntoView({block:'start'});return;
  }
@@ -904,7 +911,7 @@ document.addEventListener('click',async e=>{const b=e.target.closest('[data-acti
  if(act==='usb-vote-choice'){usbVoteChoice=v;publishLocalWheel();return;}
  if(act==='roulette-stop'){await wheelAction({type:act,id:wheel?.id});return;}
  if(act==='roulette-dismiss'){surprisePending=false;await wheelAction({type:act,id:wheel?.id});return;}
- if(act==='roulette-retry'){await startWheel(wheel.kind,wheel.mode);return;}
+ if(act==='roulette-retry'){await startWheel(wheel.kind,wheel.originMode||wheel.mode,playlistShortlist);return;}
  if(act==='roulette-confirm'){await confirmWheel();return;}
  if(act==='music-style'){config.musicStyle=v;saveConfig();viewBeforeLibrary='setup';view='music-library';render();return;}
  if(act==='game-rules'){
@@ -1022,45 +1029,48 @@ async function prepareLibrarySelection(selection){
  view='setup';
  render();
 }
-async function resolvePlaylistSelection(selection,{useForGame=true}={}){
- const required=config.musicGame==='bingo'?16:config.count;
- const tracks=new Map();
- const needsRenewal=useForGame&&selection.some(([id])=>eveningUsage.playlists.includes(id));
- function add(id,name,items){
-  const known=verifiedPlaylists[id]?.tracks||[];
-  const merged=[...new Map([...known,...items].map(track=>[track.id,track])).values()];
-  if(merged.length)verifiedPlaylists[id]={id,name,tracks:merged};
-  for(const track of merged)tracks.set(track.id,track);
- }
- for(const [id,name] of selection)add(id,name,[]);
- const enough=()=>tracks.size>=required&&musicQuestions([...tracks.values()],{...config,count:required}).length>=required;
- if(needsRenewal||!enough()||selection.some(([id])=>!verifiedPlaylists[id])){
-  const pages=await Promise.all(selection.map(async ([id,name])=>({
-   id,name,tracks:(await hostRequest('/api/library/candidates?playlist='+encodeURIComponent(id))).tracks
-  })));
-  const attempted=new Map();
-  const budget=needsRenewal&&enough()?8:Math.min(120,required*3+20);
-  for(let offset=0;offset<Math.max(...pages.map(page=>page.tracks.length));offset++){
-   const batch=pages.flatMap(page=>page.tracks[offset]?[{candidate:page.tracks[offset],page}]:[]);
-   for(let i=0;i<batch.length;i+=4){
-    await Promise.allSettled(batch.slice(i,i+4).map(async ({candidate,page})=>{
-     if(!attempted.has(candidate.id)){
-      if(attempted.size>=budget)return;
-      const pending=apiJSON('/api/music/search?q='+encodeURIComponent(candidate.title+' '+candidate.artist))
-       .then(data=>matchSpecialTrack(data.tracks||[],candidate.title,candidate.artist),()=>null);
-      attempted.set(candidate.id,pending);
-     }
-     const hit=await attempted.get(candidate.id);
-     if(hit)add(page.id,page.name,[{...hit,year:candidate.year,work:candidate.work}]);
-    }));
-   }
-   if((!needsRenewal||attempted.size>=Math.min(4,budget))&&enough()&&pages.every(page=>verifiedPlaylists[page.id])||attempted.size>=budget)break;
+async function resolvePlaylistSelection(selection){
+ const required=config.musicGame==='bingo'?BINGO_CARD_SIZE:Number(config.count)||10;
+ const settings={...config,count:required};
+ const params=new URLSearchParams(selection.map(([id])=>['playlist',id]));
+ const {tracks:candidates}=await hostRequest('/api/library/candidates?'+params);
+ const known=new Map(Object.values(verifiedPlaylists).flatMap(playlist=>playlist.tracks)
+  .filter(track=>track.referenceId).map(track=>[track.referenceId,track]));
+ const played=new Set(eveningUsage.songs);
+ const fresh=[], heard=[];
+ let failedBatches=0;
+ const enough=tracks=>tracks.length>=required&&musicQuestions(tracks,settings).length>=required;
+ const ordered=shuffle(candidates).sort((a,b)=>
+  Number(played.has(known.get(a.id)?.id))-Number(played.has(known.get(b.id)?.id)));
+ for(let offset=0;offset<ordered.length&&!enough(fresh);offset+=8){
+  const batch=ordered.slice(offset,offset+8);
+  const missing=batch.filter(candidate=>!known.has(candidate.id));
+  const queries=new URLSearchParams(missing.map(({title,artist})=>['q',(title+' '+artist).slice(0,180)]));
+  const preview=missing.length?await hostRequest('/api/library/previews?'+queries):null;
+  if(preview){
+   failedBatches=preview.results.every(result=>result===null)?failedBatches+1:0;
+   if(failedBatches>=2)throw Error('Le fournisseur d’extraits est indisponible. Réessayez dans quelques instants.');
   }
-  write('declic.verifiedPlaylists',verifiedPlaylists);
+  const matches=new Map(missing.map((candidate,index)=>[candidate.id,
+   matchSpecialTrack(preview?.results[index]||[],candidate.title,candidate.artist)]));
+  for(const candidate of batch){
+   const hit=known.get(candidate.id)||matches.get(candidate.id);
+   if(!hit)continue;
+   const track={...hit,referenceId:candidate.id,year:candidate.year,work:candidate.work};
+   (wheelPrefs.avoidSongs&&played.has(track.id)?heard:fresh).push(track);
+  }
  }
- if(!tracks.size)throw Error('Aucun extrait disponible dans les playlists choisies.');
- if(!useForGame)return;
- catalogPool={name:selection.map(([,name])=>name).join(' + '),tracks:playlistTracks({tracks:[...tracks.values()]}),themeKey:'',playlistIds:selection.map(([id])=>id)};
+ const tracks=enough(fresh)?fresh:[...fresh,...heard];
+ if(!enough(tracks))throw Error('Cette sélection ne contient pas assez d’extraits disponibles pour ce jeu.');
+ const ids=selection.map(([id])=>id);
+ const name=ids.length===1&&ids[0]==='mix'?'Toutes les musiques':selection.map(([,label])=>label).join(' + ');
+ if(ids.length===1){
+  const id=ids[0];
+  const previous=verifiedPlaylists[id]?.tracks||[];
+  verifiedPlaylists[id]={id,name,tracks:[...new Map([...previous,...tracks].map(track=>[track.id,track])).values()].slice(-150)};
+  try{write('declic.verifiedPlaylists',verifiedPlaylists);}catch{/* Le cache reste disponible en mémoire. */}
+ }
+ catalogPool={name,tracks,themeKey:'',playlistIds:ids};
  config.catalogFrom='explorer';persistPool();saveConfig();
 }
 async function loadSpecialQuestions(mode){
@@ -1162,72 +1172,48 @@ function recordLaunch(){
   write('declic.playlistRecent',recentPlaylists);
  }
 }
-function playlistTracks(playlist,settings=config){
- if(!wheelPrefs.avoidSongs)return playlist.tracks;
- const unused=playlist.tracks.filter(track=>!eveningUsage.songs.includes(track.id));
- const required=settings.musicGame==='bingo'?16:settings.count;
- return musicQuestions(unused,{...settings,explicit:!explicitPreference,count:required}).length>=required?unused:playlist.tracks;
+function compatiblePlaylistGroups(settings=config, shortlist=selectedPlaylists){
+ const required=settings.musicGame==='bingo'?16:Number(settings.count)||10;
+ return (playlistGroups||[]).map(group=>({...group,playlists:group.playlists.filter(item=>
+  item.references>=required&&(!shortlist.length||shortlist.includes(item.id)))}))
+  .filter(group=>group.playlists.length);
 }
-function compatiblePlaylists(settings=config){
- const required=settings.musicGame==='bingo'?16:settings.count;
- const candidates=Object.values(verifiedPlaylists).filter(playlist=>
-  (!selectedPlaylists.length||selectedPlaylists.includes(playlist.id))&&
-  musicQuestions(playlistTracks(playlist,settings),{...settings,explicit:!explicitPreference,count:required}).length>=required);
- const fresh=candidates.filter(playlist=>!eveningUsage.playlists.includes(playlist.id));
- return wheelPrefs.avoidPlaylists&&fresh.length?fresh:candidates;
-}
-async function startWheel(kind,mode='participatory'){
+async function startWheel(kind,mode='participatory',shortlist=selectedPlaylists){
  if(!activeEvening)throw Error('Créez d’abord une soirée.');
  if(ceremony)publishCeremony(false);
  if(kind==='playlist'&&fixedGameMusic())throw Error('Ce jeu utilise sa propre sélection musicale.');
- if(kind==='playlist'&&selectedPlaylists.length&&selectedPlaylists.some(id=>!verifiedPlaylists[id]||musicQuestions(playlistTracks(verifiedPlaylists[id]),{...config,explicit:!explicitPreference,count:config.musicGame==='bingo'?16:config.count}).length<(config.musicGame==='bingo'?16:config.count))){
-  const entries=playlistIndex();
-  const choices=selectedPlaylists.map(id=>entries.get(id)||verifiedPlaylists[id]).filter(Boolean).map(item=>[item.id,item.name]);
-  if(choices.length){
-   busy=true;catalogMessage='Recherche des extraits jouables…';render();
-   try{await resolvePlaylistSelection(choices,{useForGame:false});}
-   finally{busy=false;catalogMessage='';render();}
-  }
+ if(!playlistGroups?.length&&(kind==='playlist'||surprisePending&&preferredModes.playlist!=='manual')){
+  playlistGroups=(await hostRequest('/api/library')).categories;
  }
+ const byCategory=kind==='playlist'&&!shortlist.length;
+ const groups=kind==='playlist'?compatiblePlaylistGroups(config,shortlist):[];
  let options=kind==='game'?MUSIC_GAMES
- .filter(([id])=>availableGame(id))
- .filter(([id])=>!wheelGameSelection.length||wheelGameSelection.includes(id))
- .filter(([id])=>!surprisePending||preferredModes.playlist==='manual'||!fixedGameMusic(id)&&compatiblePlaylists({...config,...gamePreferences[id],musicGame:id,challenge:id==='covers'?'coverChoice':gamePreferences[id]?.challenge||'title'}).length)
- .filter(([id])=>id!=='survival'||(game?.teams?.length||0)>=2)
- .map(([id,name])=>({id,name})):compatiblePlaylists().map(({id,name})=>({id,name}));
- if(kind==='game'&&wheelPrefs.avoidGames){
-  const fresh=options.filter(option=>!eveningUsage.games.includes(option.id));
-  if(fresh.length)options=fresh;
- }
- if(mode==='vote'&&options.length>4){
-  if(kind==='game'?wheelGameSelection.length:selectedPlaylists.length)throw Error('Cochez quatre choix au maximum pour le vote.');
-  options=shuffle(options).slice(0,4);
- }
- if(!options.length){
-  throw Error(kind==='game'?'Aucun jeu compatible avec ces filtres.':'Aucune playlist vérifiée assez fournie. Ouvrez une playlist seule pour vérifier ses extraits.');
- }
+  .filter(([id])=>availableGame(id))
+  .filter(([id])=>!wheelGameSelection.length||wheelGameSelection.includes(id))
+  .filter(([id])=>!surprisePending||preferredModes.playlist==='manual'||!fixedGameMusic(id)&&compatiblePlaylistGroups({...config,...gamePreferences[id],musicGame:id}).length)
+  .filter(([id])=>id!=='survival'||(game?.teams?.length||0)>=2)
+  .map(([id,name])=>({id,name})):byCategory?groups:groups.flatMap(group=>group.playlists);
+ if(!options.length)throw Error(kind==='game'?'Aucun jeu compatible avec ces filtres.':'Aucune playlist assez fournie pour ce jeu.');
  if(wheel?.result)await wheelAction({type:'roulette-dismiss',id:wheel.id});
  await desk.unlock();
+ playlistShortlist=kind==='playlist'?[...shortlist]:null;
  usbVoteChoice=options[0].id;
- await wheelAction({type:'roulette-start',kind,mode,options,seconds:wheelSettings.seconds,player:wheelSettings.player==='host'?'':wheelSettings.player,hostOnly:wheelSettings.player==='host',animation:showAnimations&&wheelSettings.animation});
+ const asOption=({id,name})=>({id,name});
+ await wheelAction({type:'roulette-start',kind,mode,options:options.map(asOption),
+  categories:byCategory?groups.map(({id,playlists})=>({id,playlists:playlists.map(asOption)})):undefined,
+  seconds:wheelSettings.seconds,player:wheelSettings.player==='host'?'':wheelSettings.player,
+  hostOnly:wheelSettings.player==='host',animation:showAnimations&&wheelSettings.animation});
 }
 async function confirmWheel(){
- const result=wheel?.result,kind=wheel?.kind;
- if(!result)return;
- await wheelAction({type:'roulette-dismiss',id:wheel.id});
+ const {result,kind,stage,id}=wheel||{};
+ if(!result||stage==='category')return;
+ await wheelAction({type:'roulette-dismiss',id});
  if(kind==='game'){
-  selectGame(result.id);
   if(surprisePending&&preferredModes.playlist!=='manual')await startWheel('playlist',preferredModes.playlist);
   else surprisePending=false;
   return;
  }
- const playlist=verifiedPlaylists[result.id];
- if(!playlist)throw Error('Cette playlist doit être vérifiée à nouveau.');
- catalogPool={name:playlist.name,tracks:playlistTracks(playlist),themeKey:'',playlistIds:[playlist.id]};
- Object.assign(config,{catalogFrom:'explorer',source:'catalog'});
- selectedPlaylists=[result.id];savePlaylistSelection();
  surprisePending=false;
- persistPool();saveConfig();
  render();
 }
 async function wheelAction(action,identity={role:'host'}){
@@ -1240,10 +1226,16 @@ async function wheelAction(action,identity={role:'host'}){
  localWheel=changeRoulette(localWheel,action,identity,config.teams,eveningUsage.spinners,now);
  if(localWheel===previous)return;
  clearTimeout(wheelTimer);
+ if(localWheel?.id!==previous?.id)usbVoteChoice=localWheel?.choices?.[0]?.id||'';
  if(localWheel?.stopAt===null){
   wheelTimer=setTimeout(()=>void wheelAction({type:'roulette-stop',id:localWheel?.id},{role:'server'}),Math.max(0,localWheel.deadline-now));
  }else if(localWheel){
-  if(localWheel.player)rememberUsage('spinners',[localWheel.player.id]);
+  if(localWheel.player&&previous?.stopAt===null)rememberUsage('spinners',[localWheel.player.id]);
+  const advanceAt=rouletteAdvanceAt(localWheel);
+  if(advanceAt!==null){
+   const id=localWheel.id;
+   setTimeout(()=>void wheelAction({type:'roulette-advance',id},{role:'server'}),Math.max(0,advanceAt-now));
+  }
   if(localWheel.revealAt>now)wheelTimer=setTimeout(publishLocalWheel,localWheel.revealAt-now);
  }
  publishLocalWheel();
@@ -1258,6 +1250,14 @@ function showWheel(state){
  if(role==='host'&&config.mode==='phone')channel.postMessage({type:'roulette',wheel:state});
  const previous=wheel;
  wheel=state;
+ if(role==='host'&&state?.result&&state.stage!=='category'&&appliedWheel!==state.id){
+  appliedWheel=state.id;
+  if(state.kind==='game')selectGame(state.result.id);
+  else {selectedPlaylists=[state.result.id];savePlaylistSelection();}
+  if(state.optionsCount===1&&!state.category&&!state.animation){
+   void confirmWheel().catch(error=>toast(error.message));
+  }
+ }
  render();
  if(role==='host'&&state?.animation&&state.stopAt===null&&previous?.id!==state.id)desk.jingle('tick');
  if(role==='host'&&state?.animation&&state.stopAt!==null&&previous?.stopAt===null)desk.jingle('tick');
@@ -1270,14 +1270,15 @@ function showWheel(state){
 function voteMarkup(){
  const voting=wheel.stopAt===null;
  const remaining=Math.max(0,Math.ceil((wheel.deadline-Date.now())/1000));
- const maximum=Math.max(1,...Object.values(wheel.tally));
- const question=wheel.kind==='game'?'Quel sera notre prochain jeu ?':'Quelle sera notre prochaine playlist ?';
+ const highest=Math.max(0,...Object.values(wheel.tally));
+ const maximum=Math.max(1,highest);
+ const question=wheel.kind==='game'?'Quel sera notre prochain jeu ?':wheel.stage==='category'?'Quelle ambiance musicale ?':'Quelle sera notre prochaine playlist ?';
  return `<section class="roulette-surfaces vote-surfaces ${role==='tv'?'roulette-tv':''}" aria-label="Vote">
  <h2>${question}</h2>
  ${voting?`<strong class="vote-clock" data-vote-clock>${remaining} s</strong>`:''}
  ${role!=='player'?`<p>${wheel.voteCount} / ${wheel.eligibleCount} votes · ${wheel.eligibleCount-wheel.voteCount} en attente</p>`:''}
  ${role==='player'&&voting&&wheel.hasVoted?'<p role="status">Vote enregistré ✓</p>':''}
- ${wheel.tiebreak&&!wheel.result?`<p>${wheel.voteCount?'Égalité · départage à la roulette':'Aucun vote · tirage au sort'}</p><div class="roulette-dial slowing" aria-hidden="true"><span>ϟ</span></div>`:''}
+ ${wheel.tiebreak&&!wheel.result?`<p>${wheel.voteCount?'Égalité · départage à la roulette':'Aucun vote · tirage au sort'}</p>${wheelVisual('slowing',wheel.choices.filter(item=>(wheel.tally[item.id]||0)===highest))}`:''}
  <div class="vote-options">${wheel.choices.map(item=>{
   const tally=wheel.tally[item.id]||0;
   const winner=wheel.result?.id===item.id;
@@ -1290,21 +1291,44 @@ function voteMarkup(){
  ${wheel.result?`<p class="roulette-result" role="status">${esc(wheel.result.name)}</p>`:''}
  ${role==='host'? `${config.mode==='usb'&&voting?'<p>Choisis l’option ouverte, puis les équipes votent avec leur buzzer.</p>':''}
  <div class="row">${voting?'<button class="btn primary" data-action="roulette-stop">Clôturer le vote</button>':''}
- ${wheel.result?'<button class="btn primary" data-action="roulette-confirm">Valider</button><button class="btn ghost" data-action="roulette-retry">Relancer</button>':''}
+ ${wheel.result&&wheel.stage!=='category'?'<button class="btn primary" data-action="roulette-confirm">Continuer</button><button class="btn ghost" data-action="roulette-retry">Relancer</button>':''}
  <button class="btn ghost" data-action="roulette-dismiss">${voting?'Annuler':'Fermer'}</button></div>`:''}
  </section>`;
+}
+const categoryStyle={
+ decades:['#a63d85','📀'],genres:['#5043ab','🎧'],screen:['#195a9a','🎬'],
+ party:['#984514','🎉'],themes:['#166b65','🎛️'],hits:['#79521b','⭐'],artists:['#94364e','🎤']
+};
+function wheelVisual(state,choices=wheel.choices||[]){
+ if(role==='player'||!choices.length||choices.length===1)return '';
+ const index=choices.findIndex(item=>item.id===wheel.result?.id);
+ if(choices.length>9){
+  const step=Math.floor(choices.length/8);
+  const offset=wheel.startAt%choices.length;
+  const display=Array.from({length:9},(_,i)=>choices[(offset+(i%8)*step)%choices.length]);
+  return `<div class="wheel-reel ${state}" aria-hidden="true">${index>=0?`<strong>${esc(wheel.result.name)}</strong>`:
+   `<div>${display.map(item=>`<strong>${esc(item.name)}</strong>`).join('')}</div>`}</div>`;
+ }
+ const step=360/choices.length;
+ const rotation=index<0?0:-(index+.5)*step;
+ const colors=Object.values(categoryStyle);
+ const stops=choices.map((item,i)=>`${(categoryStyle[item.id]||colors[i%colors.length])[0]} ${i*step}deg ${(i+1)*step}deg`);
+ return `<div class="wheel-frame" aria-hidden="true"><div class="wheel-face ${state}" style="--turn:${rotation}deg;--segments:conic-gradient(${stops.join(',')})">
+  ${choices.map((item,i)=>`<div class="wheel-label" style="--angle:${(i+.5)*step}deg;--counter:${-(i+.5)*step-rotation}deg"><span>${categoryStyle[item.id]?.[1]||''} ${esc(item.name)}</span></div>`).join('')}
+  <b class="wheel-hub">ϟ</b></div></div>`;
 }
 function rouletteMarkup(){
  if(wheel.mode==='vote')return voteMarkup();
  const canStop=wheel.stopAt===null&&(role==='host'||role==='player'&&wheel.player?.id===teamId);
  const state=wheel.result?'revealed':wheel.stopAt===null?'spinning':'slowing';
  return `<section class="roulette-surfaces ${role==='tv'?'roulette-tv':''}" aria-label="Roulette">
- <h2>${role==='tv'?(wheel.kind==='game'?'Quel sera notre prochain jeu ?':'Quelle sera notre prochaine ambiance musicale ?'):(wheel.kind==='game'?'Roulette des jeux':'Roulette musicale')}</h2>
+ <h2>${wheel.stage==='category'?'Roulette des catégories':role==='tv'?(wheel.kind==='game'?'Quel sera notre prochain jeu ?':'Quelle sera notre prochaine ambiance musicale ?'):(wheel.kind==='game'?'Roulette des jeux':'Roulette musicale')}</h2>
  ${wheel.player?`<p>${esc(wheel.player.name)}, c’est à toi de jouer ! Appuie sur STOP quand tu veux.</p>`:''}
- <div class="roulette-dial ${wheel.animation?state:'still'}" aria-hidden="true"><span>ϟ</span></div>
+ ${wheel.category?`<p class="wheel-category">${esc(wheel.category.name)}</p>`:''}
+ ${wheelVisual(wheel.animation?state:'still')}
  <p class="roulette-result" role="status">${wheel.result?esc(wheel.result.name):state==='slowing'?'Résultat imminent…':`${wheel.optionsCount} choix en jeu`}</p>
  ${canStop?`<button class="btn primary roulette-stop" data-action="roulette-stop">${role==='host'?'Arrêter la roulette':'STOP'}</button>`:''}
- ${role==='host'?`<div class="row">${wheel.result?'<button class="btn primary" data-action="roulette-confirm">Valider</button><button class="btn ghost" data-action="roulette-retry">Relancer</button>':''}<button class="btn ghost" data-action="roulette-dismiss">Fermer</button></div>`:''}</section>`;
+ ${role==='host'?`<div class="row">${wheel.result&&wheel.stage!=='category'?'<button class="btn primary" data-action="roulette-confirm">Continuer</button><button class="btn ghost" data-action="roulette-retry">Relancer</button>':''}<button class="btn ghost" data-action="roulette-dismiss">Fermer</button></div>`:''}</section>`;
 }
 function availableGame(id){
  return config.mode==='phone'||id==='blind';
@@ -1401,22 +1425,19 @@ function setupScreen(){
 }
 document.addEventListener('toggle',event=>{
  if(event.target.id==='advanced-setup')advancedOpen=event.target.open;
- const group=event.target.dataset.playlistGroup;
- if(group&&!playlistSearch){
-  if(event.target.open)openPlaylistSections.add(group);
-  else openPlaylistSections.delete(group);
- }
 },true);
 function generalSelectionSettings(){
  return `<div class="setup-options">
  <label class="checkboxline"><input type="checkbox" data-wheel-setting="explicit" ${explicitPreference?'checked':''}> Exclure les titres explicites</label>
- ${[['avoidGames','Éviter les jeux déjà joués'],['avoidPlaylists','Éviter les playlists déjà utilisées'],['avoidSongs','Éviter les chansons déjà entendues']].map(([key,label])=>`<label class="checkboxline"><input type="checkbox" data-wheel-filter="${key}" ${wheelPrefs[key]?'checked':''}> ${label}</label>`).join('')}
+ <label class="checkboxline"><input type="checkbox" data-wheel-filter="avoidSongs" ${wheelPrefs.avoidSongs?'checked':''}> Éviter les chansons déjà entendues</label>
+ <label class="field-label">Durée du vote (secondes)<input type="number" min="5" max="60" value="${Number(wheelSettings.seconds)||15}" data-wheel-setting="seconds"></label>
  <label class="checkboxline"><input type="checkbox" data-wheel-setting="animation" ${wheelSettings.animation?'checked':''}> Animer les roulettes</label></div>`;
 }
 function selectionControls(kind){
  const players=config.mode==='usb'?config.teams:game?.roulettePlayers||[];
  return `<div class="selection-controls qcard">
- <div class="row">${selectionModes.filter(([id])=>id!=='manual').map(([id,name])=>`<button class="btn ghost" data-action="roulette-${kind}" data-value="${id}">${name}</button>`).join('')}</div>
+ <div class="row">${selectionModes.map(([id,name])=>`<button class="btn ghost" data-action="selection-mode" data-kind="${kind}" data-value="${id}" aria-pressed="${preferredModes[kind]===id}">${name}</button>`).join('')}
+ ${preferredModes[kind]!=='manual'?`<button class="btn primary" data-action="roulette-${kind}" data-value="${preferredModes[kind]}">Lancer le choix du jeu</button>`:''}</div>
  ${kind==='game'?`<details><summary>Choix du tirage ou du vote</summary>
  <p class="mini">Sans sélection, tous les jeux compatibles participent.</p><div class="setup-options">
  ${MUSIC_GAMES.filter(([id])=>availableGame(id)).map(([id,name])=>`<label class="checkboxline"><input type="checkbox" data-wheel-game="${id}" ${wheelGameSelection.includes(id)?'checked':''}> ${name}</label>`).join('')}</div></details>`:'<p class="mini">Coche les playlists pour limiter la sélection.</p>'}
@@ -1424,8 +1445,7 @@ function selectionControls(kind){
  <label class="field-label">Qui arrête la roue ?<select data-wheel-setting="player">
  <option value="">Un joueur au hasard</option><option value="host" ${wheelSettings.player==='host'?'selected':''}>L’animateur</option>
  ${players.map(({id,name})=>`<option value="${esc(id)}" ${wheelSettings.player===id?'selected':''}>${esc(name)}</option>`).join('')}</select></label>
- <label class="field-label">Durée du vote (secondes)<input type="number" min="5" max="60" value="${Number(wheelSettings.seconds)||15}" data-wheel-setting="seconds"></label>
- <p>Pour Surprise totale</p><div class="row">${selectionModes.map(([id,name])=>`<button class="btn ghost" data-action="selection-mode" data-kind="${kind}" data-value="${id}" aria-pressed="${preferredModes[kind]===id}">${name}</button>`).join('')}</div></details></div>`;
+ </details></div>`;
 }
 document.addEventListener('change',event=>{
  const field=event.target;
@@ -1440,17 +1460,26 @@ document.addEventListener('change',event=>{
   write('declic.wheelGames',wheelGameSelection);
  }
 });
+function categoryPlaylists(){
+ const entries=playlistIndex();
+ if(playlistCategory==='favorites')return favoritePlaylists.map(id=>entries.get(id)).filter(Boolean);
+ if(playlistCategory==='recent')return recentPlaylists.map(id=>entries.get(id)).filter(Boolean);
+ return playlistGroups?.find(group=>group.id===playlistCategory)?.playlists||[];
+}
+
 function playlistSetup(){
  const entries=playlistIndex();
- const quick=[...new Set([...favoritePlaylists,...recentPlaylists.slice(0,3),...quickPlaylistIds])].map(id=>entries.get(id)).filter(Boolean);
- const chosen=selectedPlaylists.map(id=>entries.get(id)?.name||verifiedPlaylists[id]?.name).filter(Boolean);
- return `<div class="playlist-quick"><button class="theme-card playlist-tile" data-action="all-music" aria-pressed="${selectedPlaylists.length===1&&selectedPlaylists[0]==='mix'}"><strong>Toutes les musiques</strong></button>${quick.filter(item=>item.id!=='mix').map(item=>playlistTile(item)).join('')}
- <button class="theme-card playlist-tile" data-action="selection-panel" data-value="playlist" aria-expanded="${selectionPanel==='playlist'}"><span aria-hidden="true">🎲</span><strong>Roulette / Vote</strong></button></div>${selectionPanel==='playlist'?selectionControls('playlist'):''}
- ${chosen.length?`<p>${chosen.map(esc).join(' · ')}</p><button class="textbtn" data-action="playlist-clear">Tout désélectionner</button>`:
- `<p class="mini">${config.catalogFrom==='explorer'&&catalogPool.name?esc(catalogPool.name):'Par défaut · '+THEMES.filter(([id])=>config.themes.includes(id)).map(([, ,name])=>esc(name)).join(' · ')}</p>`}
- <button class="btn ghost playlist-all" data-action="all-playlists" aria-expanded="${allPlaylistsOpen}">Toutes les playlists</button>
- ${allPlaylistsOpen?`<label class="field-label">Rechercher une playlist<input id="setup-playlist-search" type="search" value="${esc(playlistSearch)}"></label>
- <div id="setup-playlist-results">${playlistResults()}</div>`:''}`;
+ const chosen=selectedPlaylists.map(id=>({id,name:id==='mix'?'Toutes les musiques':entries.get(id)?.name||verifiedPlaylists[id]?.name||id}));
+ const categories=[...(playlistGroups||[]),{id:'favorites',name:'Favoris',icon:'★'},{id:'recent',name:'Récentes',icon:'◷'}];
+ return `<div class="row playlist-modes">${selectionModes.map(([id,name])=>`<button class="btn ghost" data-action="selection-mode" data-kind="playlist" data-value="${id}" aria-pressed="${preferredModes.playlist===id}">${name}</button>`).join('')}
+ ${preferredModes.playlist!=='manual'?`<button class="btn primary" data-action="roulette-playlist" data-value="${preferredModes.playlist}">Lancer le choix musical</button>`:''}</div>
+ <div class="playlist-selected"><div class="row"><strong>Playlists sélectionnées · ${chosen.length}</strong>
+ ${chosen.length?'<button class="textbtn" data-action="playlist-clear">Tout retirer</button>':''}</div>
+ <div class="row">${chosen.map(({id,name})=>`<button class="playlist-chip" data-action="playlist-toggle" data-value="${esc(id)}" aria-label="Retirer ${esc(name)}">${esc(name)} <span aria-hidden="true">×</span></button>`).join('')}</div></div>
+ <label class="field-label">Rechercher une playlist<input id="setup-playlist-search" type="search" value="${esc(playlistSearch)}"></label>
+ <div class="playlist-tabs" aria-label="Catégories musicales">${categories.map(({id,name,icon})=>`<button class="btn ghost" data-action="playlist-category" data-value="${id}" aria-pressed="${id===playlistCategory&&!playlistSearch}">${icon} ${esc(name)}</button>`).join('')}</div>
+ <div class="row"><button class="textbtn" data-action="all-music">Toutes les musiques</button><button class="textbtn" data-action="playlist-all" ${!categoryPlaylists().length?'disabled':''}>Tout cocher · ${esc(categories.find(group=>group.id===playlistCategory)?.name||'')}</button></div>
+ <div id="setup-playlist-results">${playlistResults()}</div>`;
 }
 function playlistTile(item,showFavorite=false){
  const pressed=selectedPlaylists.includes(item.id), favorite=favoritePlaylists.includes(item.id);
@@ -1460,17 +1489,26 @@ function playlistTile(item,showFavorite=false){
 }
 function playlistResults(){
  if(!playlistGroups)return '<p>Chargement des playlists…</p>';
- if(!playlistGroups.length)return '<p>Catalogue momentanément indisponible. Referme et rouvre les playlists pour réessayer.</p>';
- const normalize=value=>value.normalize('NFD').replace(/\p{M}/gu,'').toLowerCase().trim();
- const search=normalize(playlistSearch);
- return playlistGroups.map(group=>{
-  const matches=group.playlists.filter(item=>normalize(item.name).includes(search));
-  return matches.length?`<details data-playlist-group="${esc(group.id)}" ${search||openPlaylistSections.has(group.id)?'open':''}><summary>${esc(group.name)} · ${matches.length}</summary><div class="playlist-quick">${matches.map(item=>playlistTile(item,true)).join('')}</div></details>`:'';
- }).join('')||'<p>Aucune playlist trouvée.</p>';
+ if(!playlistGroups.length)return '<button class="btn ghost" data-action="playlist-reload">Réessayer de charger les playlists</button>';
+ const normalize=value=>value.normalize('NFD').replace(/\p{M}/gu,'').toLowerCase().replace(/[^\p{L}\p{N}]+/gu,' ').trim();
+ const words=normalize(playlistSearch).split(' ').filter(Boolean);
+ const letter=item=>normalize(item.name).charAt(0).toUpperCase();
+ const alphabetical=!words.length&&playlistCategory==='artists';
+ const items=words.length?playlistGroups.flatMap(group=>group.playlists.filter(item=>
+  words.every(word=>normalize([group.name,item.name,item.id].join(' ')).includes(word)))):categoryPlaylists();
+ const letters=alphabetical?[...new Set(items.map(letter))].sort():[];
+ const matches=alphabetical&&playlistLetter?items.filter(item=>letter(item)===playlistLetter):[...items];
+ if(alphabetical)matches.sort((a,b)=>a.name.localeCompare(b.name,'fr'));
+ const size=36;
+ const page=Math.min(playlistPage,Math.max(0,Math.ceil(matches.length/size)-1));
+ return `${letters.length?`<div class="playlist-tabs" aria-label="Filtrer les artistes par initiale">${['',...letters].map(value=>`<button class="btn ghost" data-action="playlist-letter" data-value="${value}" aria-pressed="${value===playlistLetter}">${value||'Tous'}</button>`).join('')}</div>`:''}
+ ${matches.length?`<div class="playlist-quick">${matches.slice(page*size,(page+1)*size).map(item=>playlistTile(item,true)).join('')}</div>`:'<p>Aucune playlist trouvée.</p>'}
+ ${matches.length>size?`<div class="row"><button class="textbtn" data-action="playlist-page" data-value="-1" ${page===0?'disabled':''}>Précédent</button><span>${page+1} / ${Math.ceil(matches.length/size)}</span><button class="textbtn" data-action="playlist-page" data-value="1" ${(page+1)*size>=matches.length?'disabled':''}>Suivant</button></div>`:''}`;
 }
 document.addEventListener('input',event=>{
  if(event.target.id!=='setup-playlist-search')return;
  playlistSearch=event.target.value;
+ playlistPage=0;
  $('#setup-playlist-results').innerHTML=playlistResults();
 });
 function questionSetup(){

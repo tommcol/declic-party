@@ -79,6 +79,23 @@ test('Le serveur Node synchronise une manche et reprend ses données et alarmes 
  await tv.waitFor(m=>m==='pong');
  assert.equal(new Set(sessions.map(s=>s.id)).size,2);
 
+ const groups=[{id:'genres',name:'Genres'},{id:'decades',name:'Décennies'}];
+ const playlists=Array.from({length:7},(_,index)=>({id:'p'+index,name:'Playlist '+index}));
+ host.send({type:'roulette-start',mode:'vote',kind:'playlist',animation:false,
+  options:groups,categories:groups.map(group=>({...group,playlists}))});
+ const {wheel:vote}=await players[0].waitFor(m=>m.wheel?.canVote);
+ players.forEach(player=>player.send({type:'roulette-vote',id:vote.id,choice:'genres'}));
+ const {wheel:selection}=await tv.waitFor(m=>m.wheel?.result&&m.wheel?.stage==='choice');
+ assert.equal(selection.category.id,'genres');
+ assert.equal(selection.optionsCount,7);
+ assert.equal(selection.player,null);
+ assert.equal((await request('/api/evening')).active.code,code);
+ host.send({type:'roulette-dismiss',id:selection.id});
+ await tv.waitFor(m=>m.type==='roulette'&&m.wheel===null);
+ const full=await request('/api/library/candidates?playlist=mix');
+ assert.ok(full.tracks.length>9000);
+ assert.equal(new Set(full.tracks.map(track=>track.id)).size,full.tracks.length);
+
  const question={id:'piano',universe:'music',kind:'question',prompt:'Quel instrument ?',answer:'Piano',options:['Piano','Guitare'],points:100,duration:5};
  await request('/api/rooms','POST',{room:code,token,questions:[question],input:'qcm',randomTeamCount:2});
  host.send({type:'play'});
@@ -113,4 +130,5 @@ test('Le serveur Node synchronise une manche et reprend ses données et alarmes 
  assert.equal(revealed.teams.find(team=>team.id===sessions[1].id).score,0);
  const exclusions=await request('/api/library/tracks?playlist=mix&excluded=1');
  assert.ok(exclusions.tracks.some(track=>track.id===tracks[0].id));
+ assert.ok(!(await request('/api/library/candidates?playlist=mix')).tracks.some(track=>track.id===tracks[0].id));
 });

@@ -75,3 +75,48 @@ test('La roulette automatique ne désigne personne et utilise son propre délai'
  assert.equal(wheel.player,null);
  assert.equal(wheel.deadline,3500);
 });
+
+test('Un vote conserve tous les candidats et résout directement un candidat unique',()=>{
+ const options=Array.from({length:221},(_,index)=>({id:'list-'+index,name:'Playlist '+index}));
+ const vote=changeRoulette(null,{...start,mode:'vote',options},host,players,[],1000);
+ assert.equal(rouletteView(vote,1000,'a').choices.length,221);
+ const choice=options.at(-1).id;
+ const first=changeRoulette(vote,{type:'roulette-vote',id:vote.id,choice},{role:'player',team:'a'},players,[],1100);
+ const last=changeRoulette(first,{type:'roulette-vote',id:vote.id,choice},{role:'player',team:'b'},players,[],1200);
+ assert.equal(rouletteView(last,1200).result.id,choice);
+ assert.equal(last.stopAt,1200);
+ const single=changeRoulette(null,{...start,mode:'vote',options:[options[0]]},host,players,[],1400);
+ assert.equal(rouletteView(single,1400).result.id,options[0].id);
+ assert.equal(single.player,undefined);
+});
+
+test('Le choix musical enchaîne les catégories et les playlists et donne le second STOP à un autre joueur',()=>{
+ const options=[{id:'genres',name:'Genres'},{id:'artists',name:'Artistes'}];
+ const playlists=Array.from({length:221},(_,index)=>({id:'list-'+index,name:'Playlist '+index}));
+ const categories=options.map(group=>({...group,playlists}));
+ const first=changeRoulette(null,{...start,kind:'playlist',options,categories},host,players,['a','a','b'],1000);
+ assert.equal(first.player.id,'b');
+ assert.equal(rouletteView(first,1000).categories,undefined);
+ const stopped=changeRoulette(first,{type:'roulette-stop',id:first.id},{role:'player',team:'b'},players,[],1100);
+ const advance={type:'roulette-advance',id:first.id};
+ assert.equal(changeRoulette(stopped,advance,{role:'server'},players,[],5099),stopped);
+ const second=changeRoulette(stopped,advance,{role:'server'},players,['a','a','b','b'],5100);
+ assert.equal(second.player.id,'a');
+ assert.equal(second.optionsCount,221);
+ assert.equal(second.category.id,stopped.selected.id);
+ assert.equal(second.deadline,20100);
+ const expired=changeRoulette(second,{type:'roulette-stop',id:second.id},{role:'server'},players,[],20100);
+ assert.ok(playlists.some(item=>item.id===rouletteView(expired,22500).result.id));
+});
+
+test('Le vote musical sans voix tire une catégorie puis enchaîne automatiquement',()=>{
+ const options=[{id:'decades',name:'Décennies'},{id:'genres',name:'Genres'}];
+ const categories=options.map(group=>({...group,playlists:choices}));
+ const vote=changeRoulette(null,{...start,kind:'playlist',mode:'vote',options,categories},host,players,[],1000);
+ const stopped=changeRoulette(vote,{type:'roulette-stop',id:vote.id},{role:'server'},players,[],16000);
+ const stage=changeRoulette(stopped,{type:'roulette-advance',id:vote.id},{role:'server'},players,[],20000);
+ assert.equal(stage.mode,'automatic');
+ assert.equal(stage.originMode,'vote');
+ assert.equal(stage.category.id,stopped.selected.id);
+ assert.equal(stage.deadline,23400);
+});

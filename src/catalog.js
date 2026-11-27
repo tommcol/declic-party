@@ -18,6 +18,17 @@ async function boundedProviderBody(response,max){const reader=response.body.getR
 function track(t){if(!t?.id||!t.preview||!t.artist?.name)return null;let preview;try{preview=new URL(t.preview);}catch{return null;}if(preview.protocol!=='https:'||!preview.hostname.endsWith('.dzcdn.net'))return null;return {id:String(t.id),title:String(t.title||'').slice(0,180),artist:String(t.artist.name).slice(0,180),artwork:t.album?.cover_medium||t.album?.cover_big||null,link:t.link||`https://www.deezer.com/track/${t.id}`,preview:'/api/music/preview/'+t.id,rank:Number(t.rank)||0,explicit:!!t.explicit_lyrics,provider:'Deezer'};}
 const catalogKey=v=>String(v).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]/g,'');
 function uniqueTracks(ts){const seen=new Set();return ts.filter(t=>{if(!t)return false;const key=(t.artist+' '+t.title.replace(/\s*[-(].*$/,'')).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();if(seen.has(key))return false;seen.add(key);return true;});}
+export async function libraryPreviews(queries){
+ const results=[];
+ for(let offset=0;offset<queries.length;offset+=4){
+  const batch=await Promise.allSettled(queries.slice(offset,offset+4).map(async q=>{
+   const data=await deezer('/search',{q,limit:40});
+   return uniqueTracks((data.data||[]).map(track));
+  }));
+  results.push(...batch.map(result=>result.status==='fulfilled'?result.value:null));
+ }
+ return results;
+}
 export async function musicRoute(req){const url=new URL(req.url),path=url.pathname;
  try{
   if(path==='/api/music/themes')return reply({themes:Object.entries(THEMES).map(([id,t])=>({id,name:t.name,emoji:t.emoji}))});

@@ -6,7 +6,7 @@ const assets={};for(const f of files)assets['/'+f]={body:await readFile(new URL(
 await writeFile(new URL('src/assets.generated.js',import.meta.url),'export const ASSETS = '+JSON.stringify(assets)+';\n');
 // Deployable single-module bundle. No build dependency or secret is needed.
 let worker=await readFile(new URL('src/worker.js',import.meta.url),'utf8');
-worker=worker.replace("import {createGame,applyAction,publicGame,normalizeQuizCredit,roundStatistics,BINGO_CARD_SIZE} from '../public/engine.js';",'').replace("import {musicRoute} from './catalog.js';",'').replace("import {ASSETS} from './assets.generated.js';",'');
+worker=worker.replace("import {createGame,applyAction,publicGame,normalizeQuizCredit,roundStatistics,BINGO_CARD_SIZE} from '../public/engine.js';",'').replace("import {musicRoute,libraryPreviews} from './catalog.js';",'').replace("import {ASSETS} from './assets.generated.js';",'');
 worker=worker.replace("import {MusicLibrary,libraryRouteParams} from './library.js';",'').replace('export {MusicLibrary};','');
 const librarySeed=(await readFile(new URL('src/library-seed.js',import.meta.url),'utf8')).replaceAll('export ','');
 const libraryMaster=(await readFile(new URL('src/library-master.js',import.meta.url),'utf8')).replace(/^export /gm,'');
