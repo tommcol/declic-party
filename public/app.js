@@ -457,18 +457,43 @@ function mountainMarkup(){
 }
 function studio(){if(!game)return '<div class="empty">Aucune partie en cours.</div>';const q=currentQ(),ph=game.phase,wanted=q?targets(q):[],claimed=game.claimed||{};return `<main class="studio"><div class="row"><span class="eyebrow">LE STUDIO · ${game.mode==='usb'?'BUZZERS USB':'TÉLÉPHONES'}</span><span class="connection ${game.mode==='phone'&&!connected?'offline':''}">${game.mode==='phone'?(connected?'● Connecté':'○ Reconnexion…'):'● Partie sur ce PC'}</span><button class="btn ghost right" data-action="screen">▣ Écran public</button><button class="btn ghost" data-action="sound">${desk.muted?'♪ Jingles coupés':'♫ Jingles actifs'}</button></div>${teamAdmin()}${previousTeamGames()}${randomTeamScores()}<div class="game-layout">${game.settings?.bingo?bingoDesk():hostRound(q,ph)}<aside class="control"><h3>${ph==='lobby'?'Tout le monde est là ?':ph==='finished'?'Quelle soirée !':'À vous les commandes'}</h3>${game.mode==='phone'&&ph==='lobby'?`<p class="help">Partagez le code avec vos équipes :</p>${invitationMarkup()}<button class="btn ghost full" data-action="copy-link">Copier le lien d’invitation</button>`:''}${!['lobby','finished'].includes(ph)?`<div class="answerbox"><small>RÉPONSE · ANIMATEUR</small><strong>${esc(targets(q)[0]==='answer'&&q.target!=='coverChoice'&&q.target!=='timeline'?q.answer:q.title||q.answer)}</strong>${q.artist?`<br>${esc(q.artist)}`:''}</div>`:''}${timelineControls(ph)}${q&&['lobby','ready'].includes(ph)?`<button class="btn primary full" data-action="play" ${busy||game.mode==='phone'&&game.teams.length<(game.teamPlay?game.teamPlan?.groups.length||2:game.randomTeamCount|| (game.settings?.chain?3:game.settings?.survival?2:1))?'disabled':''}>${busy?'Chargement de l’extrait…':'▶ '+(ph==='lobby'&&game.settings?.timelineMode?'Lancer le premier extrait à placer':ph==='lobby'?'Lancer la partie':(q?.kind==='question'?'Afficher la question':'Lancer l’extrait'))}</button>`:''}${ph==='buzzed'?`${wanted.length===2?`<div class="judge-grid"><button class="btn good" data-action="v2-judge" data-value="title" ${claimed.title?'disabled':''}>✓ Titre</button><button class="btn good" data-action="v2-judge" data-value="artist" ${claimed.artist?'disabled':''}>✓ Artiste</button></div><button class="btn good full" data-action="good">✓ Les deux</button>`:'<button class="btn good full" data-action="good">✓ Bonne réponse</button>'}<button class="btn bad full" data-action="bad">✕ Mauvaise réponse</button>`:''}${isProgressive(game,q)&&['playing','paused'].includes(ph)&&(game.listenStep||0)<3?`<button class="btn lime full" data-action="listen-more">Écouter ${LISTEN_STEPS[(game.listenStep||0)+1]} secondes →</button>`:''}${ph==='playing'||game.mountain&&ph==='reveal'?'<button class="btn ghost full" data-action="pause">Ⅱ Mettre en pause</button>':''}${ph==='paused'?'<button class="btn lime full" data-action="resume">▶ Reprendre</button>':''}${!game.settings?.timelineMode&&game.mountain?.pausedReveal===undefined&&['playing','buzzed','paused'].includes(ph)?'<button class="btn ghost full" data-action="reveal">Révéler et terminer la manche</button>':''}${ph==='reveal'&&game.mountain?.phase!=='vote'?`<button class="btn primary full" data-action="next">${game.mountain?(game.mountain.winner?'Le podium 🏆':game.mountain.beneficiary&&game.mountain.phase==='result'?'Lancer l’attaque':'Question suivante →'):game.index+1>=(game.questions?.length||game.total)?'Le podium 🏆':game.settings?.timelineMode?'Extrait suivant →':'Question suivante →'}</button>${game.nextAt?`<p class="mini">La suite arrive automatiquement après ${game.settings?.autoNextSeconds||8} secondes.</p>`:''}`:''}${ph==='finished'||ph==='lobby'?'<button class="btn lime full" data-action="new-game">'+(q||ph==='finished'?'Choisir le jeu suivant':'Choisir le premier jeu')+'</button>':''}${game.mode==='phone'&&game.input!=='buzzer'&&ph==='playing'?`<p class="help">${Object.keys(game.answers||{}).length} / ${game.teams.length} équipe(s) ont répondu</p>`:''}${game.mountain&&game.mountain.pausedReveal===undefined&&['playing','paused'].includes(ph)?'<button class="btn ghost full" data-action="skip">Passer l’extrait</button>':''}${game.mountain&&!['lobby','finished'].includes(ph)?'<button class="btn bad full" data-action="stop">Arrêter la partie</button>':''}${Object.keys(claimed).length?`<p class="mini">${claimed.title?'✓ Titre trouvé ':''}${claimed.artist?'✓ Artiste trouvé':''}</p>`:''}<div class="divider"></div><span class="eyebrow">LE CLASSEMENT</span>${leaderboard()}${eveningRanking()}${ph==='finished'?'<button class="btn ghost full" data-action="ceremony">Podium de la soirée · TV</button>':''}${game.teams.length?'<button class="textbtn" data-action="adjust">Ajuster un score</button>':''}${game.history?.length?'<button class="textbtn full" data-action="v2-history">Voir le détail des manches →</button>':''}</aside></div>${game.mode==='usb'?`<div class="keytips">${game.teams.map(t=>`<strong>[${esc(t.key)}]</strong> ${esc(t.name)}${game.blocked?.includes(t.id)?' · bloqué':''}`).join(' · ')}<br>Gardez la fenêtre du PC active pour recevoir les buzzers.</div>`:''}${audioError?`<div class="catalog-message">${esc(audioError)}</div>`:''}${q?.provider?'<p class="media-notice">Extrait Deezer diffusé par le PC animateur. Le titre complet est accessible après la révélation.</p>':''}${ph==='finished'?nextGameActions():''}</main>`;}
 function tvScreen(){return `<main class="tv-shell"><div class="row">${brand()}<span class="right">L’ÉCRAN DE LA SOIRÉE</span><button class="btn" data-action="fullscreen">⛶ Plein écran</button></div><section class="stage ${game?.mountain?'mountain-stage':''} ${game?.phase==='playing'?'playing':''}">${game?.mountain?mountainMarkup():''}${stage()}</section>${mountainStats()} ${scorebar()}${eveningRanking()}</main>`;}
-const showAvatars=[
- ['🪩','Boule disco'],['📼','Cassette'],['🔊','Enceinte'],['🎸','Guitare'],
- ['🎙️','Micro'],['🎧','Casque'],['📻','Radio'],['🎹','Clavier']
+const avatarCollections=[
+ ['Les icônes du studio',[
+  ['🪩','Boule disco'],['📼','Cassette'],['🔊','Enceinte'],['🎸','Guitare'],
+  ['🎙️','Micro'],['🎧','Casque'],['📻','Radio'],['🎹','Clavier']
+ ]],
+ ['Les instruments',[
+  ['🥁','Batterie'],['🎷','Saxophone'],['🎺','Trompette'],['🎻','Violon'],
+  ['🪗','Accordéon'],['🪕','Banjo'],['🪘','Congas'],['🪇','Maracas']
+ ]],
+ ['Les stars du festival',[
+  ['🕺','Danseur disco'],['💃','Danseuse de salsa'],['🤖','Robot DJ'],['👽','DJ cosmique'],
+  ['🦄','Licorne pop'],['🦊','Renard rock'],['🐙','Poulpe percussionniste'],['🦜','Perroquet tropical']
+ ]],
+ ['Les coulisses du cinéma',[
+  ['🎬','Clap'],['📽️','Projecteur'],['🍿','Pop-corn'],['🎭','Masques'],
+  ['🎞️','Pellicule'],['🎩','Magicien'],['👻','Fantôme'],['🕵️','Détective']
+ ]],
+ ['Les effets de scène',[
+  ['⚡','Éclair'],['🔥','Flamme'],['🚀','Fusée'],['🌈','Arc-en-ciel'],
+  ['⭐','Étoile'],['🛸','Soucoupe'],['🎆','Feu d’artifice'],['🎉','Canon à confettis']
+ ]]
 ];
+const showAvatars=avatarCollections.flatMap(([collection,avatars],group)=>
+ avatars.map(([icon,name])=>({icon,name,group}))
+);
 function avatarBadge(player){
  const avatar=showAvatars[player?.avatar];
- return avatar?`<span class="show-avatar" data-avatar="${player.avatar}" role="img" aria-label="${avatar[1]}">${avatar[0]}</span>`:'';
+ return avatar?`<span class="show-avatar" data-avatar="${player.avatar}" data-collection="${avatar.group}" role="img" aria-label="${avatar.name}">${avatar.icon}</span>`:'';
 }
 function avatarPicker(){
- return `<fieldset class="avatar-picker"><legend>Votre avatar</legend>
+ return `<fieldset class="avatar-picker"><legend>Votre avatar · 40 choix</legend>
    <label><input type="radio" name="avatar" value="random" checked><span>Au hasard</span></label>
-   ${showAvatars.map(([icon,name],index)=>`<label><input type="radio" name="avatar" value="${index}"><span>${avatarBadge({avatar:index})}<small>${name}</small></span></label>`).join('')}
+   ${avatarCollections.map(([name],group)=>`<details ${group===0?'open':''}>
+    <summary>${name}</summary><div class="avatar-grid">
+    ${showAvatars.map((avatar,index)=>avatar.group===group?
+     `<label><input type="radio" name="avatar" value="${index}" aria-label="${avatar.name}"><span>${avatarBadge({avatar:index})}<small>${avatar.name}</small></span></label>`:'').join('')}
+    </div></details>`).join('')}
  </fieldset>`;
 }
 function joinScreen(){return `<main class="phone-shell">${brand()}<div class="joincard"><span class="eyebrow">ON VOUS GARDAIT UNE PLACE</span><h1>Entrez dans la partie.</h1><p class="help">Votre prénom, le code de l’animateur et à vous de jouer.</p><form id="join-form"><label class="field-label" for="join-code">Code de la partie</label><input id="join-code" name="code" required minlength="8" maxlength="8" autocapitalize="characters" placeholder="EX. ABCD2345" value="${esc(room||'')}" autocomplete="off"><label class="field-label" for="join-name">Votre prénom ou nom d’équipe</label><input id="join-name" name="name" required maxlength="24" placeholder="Les rois du refrain" autocomplete="nickname">${avatarPicker()}<button class="btn primary full" type="submit" ${busy?'disabled':''}>${busy?'Connexion…':'Rejoindre la soirée →'}</button></form></div><p class="caption">Le son est diffusé dans la salle par l’animateur.<br>Gardez cet écran ouvert pendant la partie.</p></main>`;}

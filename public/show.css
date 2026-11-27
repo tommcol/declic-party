@@ -312,7 +312,6 @@
 
 .avatar-picker {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 6px;
   margin: 14px 0;
   border: 0;
@@ -320,7 +319,23 @@
   min-width: 0;
 }
 .avatar-picker legend { margin-bottom: 6px; font-weight: 800; }
-.avatar-picker label:first-of-type { grid-column: 1 / -1; }
+.avatar-picker details {
+  padding: 6px;
+  border: 1px solid #e3dbed;
+  border-radius: 10px;
+}
+.avatar-picker summary { padding: 4px; cursor: pointer; font-weight: 700; }
+.avatar-picker details:has(input:checked) { border-color: #7340ba; }
+.avatar-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 5px;
+  padding-top: 5px;
+}
+.show-avatar[data-collection="1"] { --avatar-color: #ffd575; }
+.show-avatar[data-collection="2"] { --avatar-color: #80e7b7; }
+.show-avatar[data-collection="3"] { --avatar-color: #cba3fa; }
+.show-avatar[data-collection="4"] { --avatar-color: #ffad89; }
 .avatar-picker label { position: relative; cursor: pointer; }
 .avatar-picker input { position: absolute; opacity: 0; inset: 0; margin: 0; cursor: pointer; }
 .avatar-picker label > span {

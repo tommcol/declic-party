@@ -464,7 +464,7 @@ export class PartyRoom extends DurableObject {
    const name=String(message.name||'').trim().slice(0,24);
    if(!name)throw Error('Entrez votre prénom');
    if(room.teams.some(player=>player.name.toLowerCase()===name.toLowerCase()))throw Error('Ce nom est déjà utilisé');
-   const avatar=Number.isInteger(message.avatar)&&message.avatar>=0&&message.avatar<8?message.avatar:undefined;
+   const avatar=Number.isInteger(message.avatar)&&message.avatar>=0&&message.avatar<40?message.avatar:undefined;
    const player={id:crypto.randomUUID(),name,avatar,score:0,key:'',token:crypto.randomUUID()};
    room.teams.push(player);
    if(room.teamPlan?.open&&room.teamPlan.mode==='auto')fillTeams(room.teamPlan,room.teams);
