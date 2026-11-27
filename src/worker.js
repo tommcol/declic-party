@@ -1,3 +1,4 @@
+import {changeRoulette,rouletteView} from '../public/roulette.js';
 import {createTyrolien,applyTyrolien,tyrolienView} from './tyrolien-room.js';
 import { DurableObject } from 'cloudflare:workers';
 import {createGame,applyAction,publicGame,normalizeQuizCredit,roundStatistics,BINGO_CARD_SIZE} from '../public/engine.js';
@@ -68,7 +69,7 @@ export default {
    if(url.pathname==='/api/library'||url.pathname.startsWith('/api/library/'))return await libraryRoute(req,env,url);
    if(url.pathname==='/api/evening')return await eveningRoute(req,env,url);
    if(req.method==='GET'&&url.pathname.startsWith('/api/music/'))return musicRoute(req);
-   if(url.pathname==='/api/health')return json({ok:true,version:'0.7.4'});
+   if(url.pathname==='/api/health')return json({ok:true,version:'0.8.0'});
    if(req.method==='POST'&&url.pathname==='/api/rooms'){
     if(req.headers.get('Origin')!==url.origin)return json({error:'Origine refusée'},403);
     if(Number(req.headers.get('Content-Length'))>150000)return json({error:'Partie trop volumineuse'},413);
@@ -247,7 +248,9 @@ export class PartyRoom extends DurableObject {
  }
  async schedule(room){
   const at=room.tyrolien?room.tyrolien.nextAt:room.phase==='playing'?room.endAt:room.nextAt;
-  const alarm=Math.min(at||Infinity,room.expires||Infinity);
+  const wheel=room.roulette;
+  const wheelAlarm=wheel&&(wheel.stopAt===null?wheel.deadline:wheel.revealAt>Date.now()?wheel.revealAt:null);
+  const alarm=Math.min(at||Infinity,room.expires||Infinity,wheelAlarm||Infinity);
   if(Number.isFinite(alarm))await this.ctx.storage.setAlarm(alarm);
   else await this.ctx.storage.deleteAlarm();
  }
@@ -257,7 +260,7 @@ export class PartyRoom extends DurableObject {
   if(current.hostHash!==hostHash)return 403;
   if(current.tyrolien&&current.phase!=='finished')return 200;
   if(!['lobby','finished'].includes(current.phase))return 409;
-  const next={...current,questions:[],phase:'lobby',tyrolien:createTyrolien(),eveningTotals:eveningTotals(current),revision:(current.revision||0)+1};
+  const next={...current,questions:[],phase:'lobby',tyrolien:createTyrolien(),roulette:null,roulettePlayers:current.roulettePlayers,eveningTotals:eveningTotals(current),revision:(current.revision||0)+1};
   await this.ctx.storage.put('room',next);
   await this.schedule(next);
   this.broadcast(next);
@@ -271,7 +274,7 @@ export class PartyRoom extends DurableObject {
   const next={
    ...createGame(data.questions,current.teams,'phone',data.input,data.settings),
    teams:current.teams.map(({id,name,key,token})=>({id,name,key,token,score:0,streak:0})),
-   eveningTotals:eveningTotals(current),effect:data.effect,hostHash,code:current.code,expires:current.expires,revision:(current.revision||0)+1
+   roulettePlayers:current.roulettePlayers,eveningTotals:eveningTotals(current),effect:data.effect,hostHash,code:current.code,expires:current.expires,revision:(current.revision||0)+1
   };
   await this.ctx.storage.put('room',next);
   await this.schedule(next);
@@ -288,6 +291,10 @@ export class PartyRoom extends DurableObject {
  sendState(ws,s,a,eveningRanking){
   const state=s.tyrolien?tyrolienView(s,a.role,a.team):a.role==='host'
    ?{...s,hostHash:undefined}:publicGame(s,a.role==='player'?a.team:undefined);
+  state.roulette=rouletteView(s.roulette);
+  if(a.role==='host'&&['lobby','finished'].includes(s.phase)){
+   state.roulettePlayers=this.rouletteParticipants(s);
+  }
   if(a.role==='host'&&s.settings?.bingo){
    state.connectedPlayers=[...new Set(this.ctx.getWebSockets().map(socket=>socket.deserializeAttachment())
     .filter(identity=>identity?.role==='player').map(identity=>identity.team))];
@@ -330,9 +337,40 @@ export class PartyRoom extends DurableObject {
    }
   }
  }
+ rouletteParticipants(room){
+  const ids=new Set(this.ctx.getWebSockets().map(socket=>socket.deserializeAttachment())
+   .filter(identity=>identity?.role==='player').map(identity=>identity.team));
+  return room.teams.filter(team=>ids.has(team.id)).map(({id,name})=>({id,name}));
+ }
+ async updateRoulette(action, identity, now){
+  const updated=await this.ctx.storage.transaction(async tx=>{
+   const room=await tx.get('room');
+   if(!room||!['lobby','finished'].includes(room.phase))throw Error('Terminez le jeu avant le tirage.');
+   const previous=room.roulette;
+   const next=changeRoulette(previous,action,identity,this.rouletteParticipants(room),room.roulettePlayers||[],now);
+   if(next===previous)return null;
+   room.roulette=next;
+   if(next?.player&&next.stopAt!==null&&previous?.stopAt!==next.stopAt){
+    room.roulettePlayers=[...new Set([...(room.roulettePlayers||[]),next.player.id])];
+   }
+   await tx.put('room',room);
+   return room;
+  });
+  if(updated){
+   this.broadcastWheel(updated);
+   await this.schedule(updated);
+  }
+ }
+ broadcastWheel(room){
+  const wheel=rouletteView(room.roulette);
+  for(const socket of this.ctx.getWebSockets()){
+   const identity=socket.deserializeAttachment();
+   if(identity?.role&&identity.role!=='guest')this.send(socket,{type:'roulette',wheel});
+  }
+ }
  async webSocketMessage(ws,msg){
   try{
-   if(typeof msg!=='string'||msg.length>20000)throw Error('Message invalide');
+   if(typeof msg!=='string'||msg.length>80000)throw Error('Message invalide');
    const a=ws.deserializeAttachment()||{role:'guest',last:0,count:0};const now=Date.now();a.count=now-a.last<1000?a.count+1:1;a.last=now;ws.serializeAttachment(a);if(a.count>12)throw Error('Trop de demandes');
    const m=JSON.parse(msg);const hash=m.type==='host'&&hostToken(m.token)?await digest(m.token):null;let s=await this.ctx.storage.get('room');if(!s||s.expires<now)throw Error('Partie expirée');
    if(m.type==='host'){if(hash!==s.hostHash)throw Error('Accès animateur refusé');a.role='host';ws.serializeAttachment(a);this.sendState(ws,s,a);return;}
@@ -343,7 +381,11 @@ export class PartyRoom extends DurableObject {
     if(!t){if(s.phase!=='lobby')throw Error('La partie a commencé. Rejoignez la prochaine !');if(s.teams.length>=PLAYER_LIMIT)throw Error(PLAYER_LIMIT+' participants maximum');const name=String(m.name||'').trim().slice(0,24);if(!name)throw Error('Entrez un nom d’équipe');if(s.teams.some(t=>t.name.toLowerCase()===name.toLowerCase()))throw Error('Ce nom est déjà utilisé');t={id:crypto.randomUUID(),name,score:0,key:'',token:crypto.randomUUID()};s.teams.push(t);await this.ctx.storage.put('room',s);}
     a.role='player';a.team=t.id;ws.serializeAttachment(a);
     this.send(ws,{type:'session',id:t.id,token:t.token});
-    this.broadcast(s,s.settings?.bingo||m.token&&t.token===m.token?t.id:undefined);
+    this.broadcast(s,t.id);
+    return;
+   }
+   if(['roulette-start','roulette-stop','roulette-dismiss'].includes(m.type)){
+    await this.updateRoulette(m,a,now);
     return;
    }
    if(s.tyrolien){
@@ -394,11 +436,41 @@ export class PartyRoom extends DurableObject {
    return latest;
   });
  }
- async alarm(){let s=await this.ctx.storage.get('room');if(!s)return;if(s.expires<=Date.now()){for(const ws of this.ctx.getWebSockets())ws.close(4001,'Partie expirée');await this.ctx.storage.deleteAll();return;}if(s.tyrolien){this.broadcast(await this.updateTyrolien({type:'ty-tick'},{role:'server'},Date.now()));return;}if(s.phase==='playing')s=applyAction(s,{type:'timeout'});else if(s.phase==='reveal'&&s.nextAt&&s.nextAt<=Date.now())s=applyAction(s,{type:'next'});await this.ctx.storage.put('room',s);this.broadcast(s);await this.schedule(s);}
+ async alarm(){
+  let s=await this.ctx.storage.get('room');
+  if(!s)return;
+  const now=Date.now();
+  if(s.expires<=now){
+   for(const ws of this.ctx.getWebSockets())ws.close(4001,'Partie expirée');
+   await this.ctx.storage.deleteAll();
+   return;
+  }
+  const wheel=s.roulette;
+  if(wheel&&wheel.stopAt===null&&wheel.deadline<=now){
+   await this.updateRoulette({type:'roulette-stop',id:wheel.id},{role:'server'},now);
+   return;
+  }
+  if(wheel&&wheel.revealAt!==null&&wheel.revealAt<=now)this.broadcastWheel(s);
+  if(s.tyrolien?.nextAt&&s.tyrolien.nextAt<=now){
+   this.broadcast(await this.updateTyrolien({type:'ty-tick'},{role:'server'},now));
+   return;
+  }
+  if(s.phase==='playing'&&s.endAt<=now)s=applyAction(s,{type:'timeout'},now);
+  else if(s.phase==='reveal'&&s.nextAt&&s.nextAt<=now)s=applyAction(s,{type:'next'},now);
+  else{await this.schedule(s);return;}
+  await this.ctx.storage.put('room',s);
+  this.broadcast(s);
+  await this.schedule(s);
+ }
  async webSocketClose(ws){
   if(ws.deserializeAttachment()?.role!=='player')return;
   const s=await this.ctx.storage.get('room');
-  if(!s?.settings?.bingo||s.expires<=Date.now())return;
+  if(!s||s.expires<=Date.now())return;
+  const wheel=s.roulette;
+  if(wheel?.stopAt===null&&wheel.player?.id===ws.deserializeAttachment().team&&!this.rouletteParticipants(s).some(person=>person.id===wheel.player.id)){
+   await this.updateRoulette({type:'roulette-stop',id:wheel.id},{role:'server'},Date.now());
+  }
+  if(!s.settings?.bingo&&!['lobby','finished'].includes(s.phase))return;
   for(const host of this.ctx.getWebSockets()){
    const identity=host.deserializeAttachment();
    if(identity?.role==='host')this.sendState(host,s,identity);

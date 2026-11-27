@@ -2,6 +2,7 @@ const names = ['Rouge','Bleue','Verte','Jaune'];
 
 export function tyrolienScreen(g, role, esc, invite, code, draft={}) {
   const host=role==='host', tv=role==='tv';
+  const answering=role==='player'&&['answer','vote','listen'].includes(g.phase);
   const me=g.teams.find(team=>team.id===g.me?.team);
   const winner=g.teams.find(team=>team.id===g.winner);
   const turn={lobby:'En attendant les joueurs',listen:'Écoutez l’extrait',answer:'À vous de jouer',
@@ -44,8 +45,8 @@ export function tyrolienScreen(g, role, esc, invite, code, draft={}) {
    ${g.phase!=='finished'?button('stop','Terminer'):button('new-game','Choisir le jeu suivant')+button('home','Retour à l’accueil')}
   </div>`:'';
   const final=g.phase==='finished'?`<div class="ty-final">${winner?`<h3>Classement des équipes</h3><ol>${[winner.id,...g.eliminated.slice().reverse()].map(id=>`<li>${esc(g.teams.find(team=>team.id===id)?.name)}</li>`).join('')}</ol>`:''}<h3>Classement individuel</h3><ol>${g.scores.map(score=>`<li>${esc(score.name)} · ${score.points||0}/${score.played||0} bonne(s) réponse(s)</li>`).join('')}</ol></div>`:'';
-  return `<main class="ty-screen ${tv?'ty-tv':''}"><header><div><h1>Le Tyrolien</h1><span>${g.round?`Manche ${g.round}`:'Blind test par équipes'}</span></div>${g.nextAt?`<strong data-ty-clock>${Math.max(0,Math.ceil((g.nextAt-Date.now())/1000))} s</strong>`:''}</header>
+  return `<main class="ty-screen ${tv?'ty-tv':''} ${answering?'ty-player-question':''}"><header><div><h1>Le Tyrolien</h1><span>${g.round?`Manche ${g.round}`:'Blind test par équipes'}</span></div>${g.nextAt?`<strong data-ty-clock>${Math.max(0,Math.ceil((g.nextAt-Date.now())/1000))} s</strong>`:''}</header>
     ${info}${setup}${g.phase==='lobby'&&(host||tv)?`<div class="ty-invite">${invite}</div>`:''}
     ${g.phase!=='lobby'&&(tv||host)?mountain:''}${me?`<p>${esc(me.name)} · ${g.me.points} pt${g.me.points===1?'':'s'}${me.eliminated?' · Continuez pour le classement individuel !':''}</p>`:''}
-    ${choices}${host&&g.phase==='answer'?`<p>Réponse animateur <strong data-ty-answer>${esc(g.question.answer)}</strong> · ${g.answered} réponse(s)</p>`:''}${revealed}${vote}${g.phase==='attack'?`<p>${esc(g.teams.find(team=>team.id===g.target)?.name)} monte d’un palier.</p>`:''}${teamCards}${final}${controls}</main>`;
+    ${choices}${host&&g.phase==='answer'?`<p>Réponse animateur <strong data-ty-answer>${esc(g.question.answer)}</strong> · ${g.answered} réponse(s)</p>`:''}${revealed}${vote}${g.phase==='attack'?`<p>${esc(g.teams.find(team=>team.id===g.target)?.name)} monte d’un palier.</p>`:''}${answering?'':teamCards}${final}${controls}</main>`;
 }

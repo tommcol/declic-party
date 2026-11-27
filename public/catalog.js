@@ -113,7 +113,7 @@ export function musicQuestions(tracks,config){
    const distractors=shuffle([...new Set(pool.map(v=>v.artwork))].filter(url=>url!==t.artwork)).slice(0,3);
    const optionArtwork=shuffle([t.artwork,...distractors]);
    const options=['A','B','C','D'];
-   out.push({id:randomUUID(),universe:'music',kind:'audio',target,
+   out.push({id:randomUUID(),trackId:t.id,universe:'music',kind:'audio',target,
     prompt:'Quelle pochette correspond à cet extrait ?',title:cleanTitle(t.title),artist:t.artist,
     answer:options[optionArtwork.indexOf(t.artwork)],options,optionArtwork,
     duration:Math.min(30,Number(config.duration)||30),points:100,artwork:t.artwork,
@@ -128,7 +128,7 @@ export function musicQuestions(tracks,config){
   const fallback=artistTarget?['Queen','Stromae','ABBA','Michael Jackson','Céline Dion','Daft Punk']:['La Vie en rose','Billie Jean','Dancing Queen','Get Lucky','Imagine'];
   const candidates=target==='artistTitle'?alternatives:[...alternatives,...fallback];const wrong=shuffle([...new Map(candidates.filter(v=>normalize(v)!==normalize(answer)).map(v=>[normalize(v),v])).values()]).slice(0,3);if(wrong.length<3)continue;
   const prompts={title:'Quel est le titre de cet extrait ?',artist:'Qui interprète cet extrait ?',both:'Retrouvez le titre et l’artiste.',cover:'À quel artiste appartient cette pochette ?',artistTitle:'Quel titre de cet artiste écoutez-vous ?'};
-  out.push({id:randomUUID(),universe:'music',kind:'audio',target,prompt:prompts[target],title,artist,titleAliases:[t.title],artistAliases:artist.split(/,| & | feat\.? /i).map(v=>v.trim()).filter(Boolean),answer,options:shuffle([answer,...wrong]),duration:Math.min(30,Number(config.duration)||30),points:100,artwork:t.artwork,audioUrl:t.preview,provider:'Deezer',link:t.link});
+  out.push({id:randomUUID(),trackId:t.id,universe:'music',kind:'audio',target,prompt:prompts[target],title,artist,titleAliases:[t.title],artistAliases:artist.split(/,| & | feat\.? /i).map(v=>v.trim()).filter(Boolean),answer,options:shuffle([answer,...wrong]),duration:Math.min(30,Number(config.duration)||30),points:100,artwork:t.artwork,audioUrl:t.preview,provider:'Deezer',link:t.link});
  }
  return out;
 }

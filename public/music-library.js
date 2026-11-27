@@ -1,4 +1,4 @@
-export function openMusicLibrary(root, request, escape) {
+export function openMusicLibrary(root, request, escape, single=false, returnView='home') {
  let category='', playlist='', query='', offset=0, excluded=false, summary=null;
  let generation=0, timer;
  const selectedPlaylists=new Map();
@@ -17,7 +17,7 @@ export function openMusicLibrary(root, request, escape) {
 
  function show(content) {
   root.innerHTML=`<section class="music-library">
-   <div class="music-library-actions"><button type="button" class="btn ghost" data-action="home">← Accueil animateur</button>
+   <div class="music-library-actions"><button type="button" class="btn ghost" data-action="library-back">${returnView==='setup'?'← Configuration':'← Accueil animateur'}</button>
    ${button('Ancien explorateur Deezer','legacy')}</div>
    <h1>Bibliothèque musicale</h1>${selectedPlaylists.size?`<div class="music-library-actions">
    <span>${[...selectedPlaylists.values()].map(escape).join(' · ')}</span>
@@ -104,7 +104,10 @@ export function openMusicLibrary(root, request, escape) {
    if(selectedPlaylists.has(value))selectedPlaylists.delete(value);
    else if(selectedPlaylists.size<5){
     const selected=summary.categories.flatMap(group=>group.playlists).find(entry=>entry.id===value);
-    if(selected)selectedPlaylists.set(value,selected.name);
+    if(selected){
+     if(single)selectedPlaylists.clear();
+     selectedPlaylists.set(value,selected.name);
+    }
    }
   }
   if(action==='legacy'){

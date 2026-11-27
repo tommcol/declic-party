@@ -477,3 +477,108 @@
   font-size: .8rem;
   overflow-wrap: anywhere;
 }
+
+.game-setup {
+  display: grid;
+  gap: 14px;
+  max-width: 1040px;
+  margin: 12px auto 24px;
+}
+.game-setup .qcard { margin: 0; }
+.game-setup .game-picker-card { min-height: 0; padding: 10px; }
+.game-setup .game-picker-card .game-picker-icon { width: 30px; height: 30px; margin-bottom: 3px; }
+.game-setup summary { cursor: pointer; }
+.game-setup [data-action="launch-flow"] { margin-top: 12px; }
+.game-setup [aria-pressed="true"].btn { outline: 2px solid var(--purple); }
+.host-round .timer { color: var(--ink); }
+.host-round .timer-track { background: #d4cce6; }
+
+.phone-question {
+  padding: max(6px, env(safe-area-inset-top)) max(8px, env(safe-area-inset-right)) max(6px, env(safe-area-inset-bottom)) max(8px, env(safe-area-inset-left));
+}
+.phone-question > .row { gap: 6px; flex-wrap: nowrap; }
+.phone-question .brand { margin: 3px 0; font-size: 1rem; white-space: nowrap; }
+.phone-question > .connection { display: block; margin: 3px 0; font-size: .7rem; }
+.phone-question .phone-score { min-width: 0; padding: 5px 7px; }
+.phone-question .stage { min-height: 0; margin-top: 5px; padding: clamp(6px, 2vw, 12px); }
+.phone-question .stage-content { max-width: 100%; }
+.phone-question .stage h1 { font-size: clamp(1rem, 4.4vw, 1.5rem); margin: 3px 0 6px; }
+.phone-question .stage p { margin: 4px 0; }
+.phone-question .timer { margin: 5px 0 0; }
+.phone-question .options { gap: 5px; margin: 6px 0; }
+.phone-question .option { min-height: 40px; padding: 5px 8px; overflow-wrap: anywhere; font-size: clamp(.82rem, 3.6vw, 1rem); }
+.phone-question .stage [data-mystery] { max-height: min(22dvh, 150px); object-fit: contain; }
+.phone-question .music-reply, .phone-question .textreply { margin-top: 6px; }
+.phone-question .joker-panel { margin-top: 5px; }
+.phone-question:has(.cover-options) .stage { background-blend-mode: multiply; }
+.phone-question .cover-options {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  width: min(100%, calc(100dvh - 145px), 410px);
+  margin-inline: auto;
+}
+.phone-question .cover-options .option {
+  display: grid;
+  position: relative;
+  padding: 2px;
+  aspect-ratio: 1;
+  min-height: 0;
+}
+.phone-question .cover-options .letter {
+  position: absolute;
+  inset: 5px auto auto 5px;
+  background: #31204f;
+  color: #fff;
+}
+.phone-question .cover-options img { width: 100%; height: 100%; max-height: none; }
+.phone-question .bingo-card { gap: 4px; margin: 7px auto; }
+.phone-question .bingo-card .option {
+  min-height: min(72px, calc((100dvh - 200px) / 4));
+  padding: 4px;
+  font-size: clamp(.66rem, 2.9vw, .9rem);
+}
+.phone-timeline .music-timeline {
+  display: flex;
+  overflow-x: auto;
+  scrollbar-width: auto;
+  max-width: 100%;
+  padding: 4px 2px 8px;
+  gap: 6px;
+}
+.phone-timeline .music-timeline li { flex: 0 0 105px; min-width: 0; }
+.ty-player-question { padding-block: max(8px, env(safe-area-inset-top)) max(8px, env(safe-area-inset-bottom)); }
+.ty-player-question :is(h1,h2,p) { margin-block: 5px; }
+.ty-player-question .options { gap: 5px; }
+.ty-player-question .options .btn { min-height: 42px; white-space: normal; }
+
+.roulette-surfaces {
+  display: grid;
+  justify-items: center;
+  gap: 10px;
+  text-align: center;
+  padding: 20px;
+  background: #1c1334;
+  color: #fff;
+  border: 1px solid #7852ad;
+  border-radius: 18px;
+}
+.roulette-surfaces :is(h2,p) { margin: 0; }
+.roulette-tv { min-height: 100dvh; align-content: center; border-radius: 0; }
+.roulette-dial {
+  width: 150px;
+  aspect-ratio: 1;
+  border: 5px solid #f9e8ff;
+  border-radius: 50%;
+  background: repeating-conic-gradient(#edb1ff 0deg 15deg, #6339aa 15deg 30deg, #ed884f 30deg 45deg, #ddf693 45deg 60deg);
+  box-shadow: 0 0 30px #ad71ff77;
+}
+.roulette-dial.spinning { animation: wheel-spin .9s linear infinite; }
+.roulette-dial.slowing { animation: wheel-spin 2.4s cubic-bezier(.08,.75,.25,1) both; }
+.roulette-tv .roulette-dial { width: min(52vh, 75vw); }
+.roulette-tv h2 { font-size: clamp(1.6rem, 5vw, 5rem); }
+.roulette-result { font-size: clamp(1rem, 4vw, 2.5rem); font-weight: 800; }
+.roulette-stop { min-width: min(240px, 90vw); min-height: 56px; }
+@keyframes wheel-spin { to { transform: rotate(2turn); } }
+@media (prefers-reduced-motion: reduce) {
+  .roulette-dial.spinning, .roulette-dial.slowing { animation: none; }
+}
