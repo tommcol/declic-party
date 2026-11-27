@@ -488,7 +488,7 @@
 .game-setup .game-picker-card { min-height: 0; padding: 10px; }
 .game-setup .game-picker-card .game-picker-icon { width: 30px; height: 30px; margin-bottom: 3px; }
 .game-setup summary { cursor: pointer; }
-.game-setup [data-action="launch-flow"] { margin-top: 12px; }
+.game-setup [data-action="launch"] { margin-top: 12px; }
 .game-setup [aria-pressed="true"].btn { outline: 2px solid var(--purple); }
 .host-round .timer { color: var(--ink); }
 .host-round .timer-track { background: #d4cce6; }
