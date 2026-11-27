@@ -103,7 +103,7 @@ export default {
      const {id,title,artist,year}=anchor;
      data.settings={
       timelineMode:data.settings.timelineMode,timelineAnchor:{id,title,artist,year},
-      jokers:data.settings.jokers===true,autoNext:data.settings.autoNext===true
+      jokers:data.settings.jokers===true,autoNext:data.settings.autoNext===true,autoNextSeconds:data.settings.autoNextSeconds
      };
     }
     const allowedTargets=['both','title','artist','cover','artistTitle','coverChoice','timeline','coversQuiz','soundtrack'];
@@ -294,7 +294,7 @@ export class PartyRoom extends DurableObject {
  sendState(ws,s,a,eveningRanking){
   const state=s.tyrolien?tyrolienView(s,a.role,a.team):a.role==='host'
    ?{...s,hostHash:undefined}:publicGame(s,a.role==='player'?a.team:undefined);
-  state.roulette=rouletteView(s.roulette);
+  state.roulette=rouletteView(s.roulette,Date.now(),a.team);
   state.musicGame=s.musicGame;
   state.showAnimations=s.showAnimations;
   if(s.randomTeamAssignments){
@@ -368,15 +368,20 @@ export class PartyRoom extends DurableObject {
    return room;
   });
   if(updated){
-   this.broadcastWheel(updated);
-   await this.schedule(updated);
+   if(action.type==='roulette-vote'&&updated.roulette.stopAt===null){
+    // Individual votes only update the voter, the host and the TV.
+    this.broadcastWheel(updated,identity.team);
+   }else{
+    this.broadcastWheel(updated);
+    await this.schedule(updated);
+   }
   }
  }
- broadcastWheel(room){
-  const wheel=rouletteView(room.roulette);
+ broadcastWheel(room,respondingPlayer){
+  const now=Date.now();
   for(const socket of this.ctx.getWebSockets()){
    const identity=socket.deserializeAttachment();
-   if(identity?.role&&identity.role!=='guest')this.send(socket,{type:'roulette',wheel});
+   if(identity?.role&&identity.role!=='guest'&&(!respondingPlayer||identity.role!=='player'||identity.team===respondingPlayer))this.send(socket,{type:'roulette',wheel:rouletteView(room.roulette,now,identity.team)});
   }
  }
  async webSocketMessage(ws,msg){
@@ -402,7 +407,7 @@ export class PartyRoom extends DurableObject {
     }
     return;
    }
-   if(['roulette-start','roulette-stop','roulette-dismiss'].includes(m.type)){
+   if(['roulette-start','roulette-stop','roulette-dismiss','roulette-vote'].includes(m.type)){
     await this.updateRoulette(m,a,now);
     return;
    }
@@ -494,6 +499,10 @@ export class PartyRoom extends DurableObject {
   const s=await this.ctx.storage.get('room');
   if(!s||s.expires<=Date.now())return;
   const wheel=s.roulette;
+  if(wheel?.stopAt===null&&wheel.mode==='vote'&&!this.rouletteParticipants(s).some(person=>person.id===ws.deserializeAttachment().team)){
+   await this.updateRoulette({type:'vote-presence',id:wheel.id},{role:'server'},Date.now());
+   return;
+  }
   if(wheel?.stopAt===null&&wheel.player?.id===ws.deserializeAttachment().team&&!this.rouletteParticipants(s).some(person=>person.id===wheel.player.id)){
    await this.updateRoulette({type:'roulette-stop',id:wheel.id},{role:'server'},Date.now());
   }

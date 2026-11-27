@@ -74,7 +74,7 @@ export function seedLibrary() {
  tracksByPlaylist=new Map();
  for(const track of seedTracks){
   track.search=normalizeLibraryText(track.title+' '+track.artist+' '+(track.work??''));
-  for(const playlist of track.playlists){
+  for(const playlist of new Set([...track.playlists,'mix'])){
    if(!tracksByPlaylist.has(playlist))tracksByPlaylist.set(playlist,[]);
    tracksByPlaylist.get(playlist).push(track);
   }
