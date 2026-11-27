@@ -1,12 +1,4 @@
-export function tyrolienScreen(g, role, esc, invite, code, draft={}, plan=null,teamManager='') {
-  const host=role==='host', tv=role==='tv';
-  const answering=role==='player'&&['answer','vote','listen'].includes(g.phase);
-  const me=g.teams.find(team=>team.id===g.me?.team);
-  const winner=g.teams.find(team=>team.id===g.winner);
-  const turn={lobby:'En attendant les joueurs',listen:'Écoutez l’extrait',answer:'À vous de jouer',
-    result:'Résultats de la manche',vote:'Bonus d’attaque',attack:'Attaque !',paused:'En pause',finished:'Fin de la partie'};
-  const button=(action,label,value='')=>`<button class="btn ghost" data-action="ty-${action}" data-value="${esc(value)}">${label}</button>`;
-  const info=g.winner&&g.phase==='finished'?`<h2>🏆 ${esc(winner?.name)} remporte la partie !</h2>`:`<h2>${turn[g.phase]}</h2>`;
+export function tyrolienMountain(g,esc,animate=true) {
   const points=g.teams.map((team,index)=>{
     const x=13+Math.min(team.position,g.levels)/g.levels*67;
     const y=19+Math.min(team.position,g.levels)/g.levels*66;
@@ -18,7 +10,19 @@ export function tyrolienScreen(g, role, esc, invite, code, draft={}, plan=null,t
     const row=index%2;
     return `<div class="ty-climber ${falling?'falling':climbing?'climbing':''}" style="--x:${x}%;--y:${y}%;--lane:${lane};--lane-row:${row};--from-x:${13+previous/g.levels*67}%;--from-y:${19+previous/g.levels*66}%;--team:${team.color}"><span aria-hidden="true">🧑🏻‍🌾</span><b>${esc(team.icon||'')} ${esc(team.name)}</b></div>`;
   }).join('');
-  const mountain=`<div class="ty-mountain" role="img" aria-label="Positions sur la montagne"><div class="ty-slope"></div><div class="ty-sun"></div>${Array.from({length:g.levels+1},(_,i)=>`<span class="ty-step" style="left:${13+i/g.levels*67}%;bottom:${19+i/g.levels*66}%">${i}</span>`).join('')}${points}</div>`;
+  return `<div class="ty-mountain ${animate?'':'ty-still'}" role="img" aria-label="Positions sur la montagne"><div class="ty-slope"></div><div class="ty-sun"></div>${Array.from({length:g.levels+1},(_,i)=>`<span class="ty-step" style="left:${13+i/g.levels*67}%;bottom:${19+i/g.levels*66}%">${i}</span>`).join('')}${points}</div>`;
+}
+
+export function tyrolienScreen(g, role, esc, invite, code, draft={}, plan=null,teamManager='') {
+  const host=role==='host', tv=role==='tv';
+  const answering=role==='player'&&['answer','vote','listen'].includes(g.phase);
+  const me=g.teams.find(team=>team.id===g.me?.team);
+  const winner=g.teams.find(team=>team.id===g.winner);
+  const turn={lobby:'En attendant les joueurs',listen:'Écoutez l’extrait',answer:'À vous de jouer',
+    result:'Résultats de la manche',vote:'Bonus d’attaque',attack:'Attaque !',paused:'En pause',finished:'Fin de la partie'};
+  const button=(action,label,value='')=>`<button class="btn ghost" data-action="ty-${action}" data-value="${esc(value)}">${label}</button>`;
+  const info=g.winner&&g.phase==='finished'?`<h2>🏆 ${esc(winner?.name)} remporte la partie !</h2>`:`<h2>${turn[g.phase]}</h2>`;
+  const mountain=tyrolienMountain(g,esc);
   const teamCards=`<div class="ty-teams">${g.teams.map(team=>{
     const row=g.results.find(item=>item.id===team.id);
     return `<div style="--team:${team.color}"><strong>${esc(team.icon||'')} ${esc(team.name)}</strong><small>${team.eliminated?'Éliminée':team.position===g.levels?'Au bord du précipice !':`Palier ${team.position}/${g.levels}`}${g.bonuses?` · Série ${team.streak}/4`:''}</small>${row?`<small>${row.correct}/${row.players} · ${Math.round(row.correct/Math.max(1,row.players)*100)} %</small>`:''}</div>`;
@@ -46,4 +50,35 @@ export function tyrolienScreen(g, role, esc, invite, code, draft={}, plan=null,t
     ${info}${teamManager}${setup}${g.phase==='lobby'&&(host||tv)?`<div class="ty-invite">${invite}</div>`:''}
     ${g.phase!=='lobby'&&(tv||host)?mountain:''}${me?`<p>${esc(me.name)} · ${g.me.points} pt${g.me.points===1?'':'s'}${me.eliminated?' · Continuez pour le classement individuel !':''}</p>`:''}
     ${choices}${host&&g.phase==='answer'?`<p>Réponse animateur <strong data-ty-answer>${esc(g.question.answer)}</strong> · ${g.answered} réponse(s)</p>`:''}${revealed}${vote}${g.phase==='attack'?`<p>${esc(g.teams.find(team=>team.id===g.target)?.name)} monte d’un palier.</p>`:''}${answering?'':teamCards}${final}${controls}</main>`;
+}
+
+export function mountainPanel(game, role, esc, animate) {
+  const g=game.mountain;
+  if(!g?.teams.length) return '';
+  const host=role==='host', tv=role==='tv', finished=game.phase==='finished';
+  const team=g.teams.find(item=>item.id===g.team);
+  const teamName=id=>esc(g.teams.find(item=>item.id===id)?.name);
+  const position=item=>item.eliminated?'Éliminée':item.position===g.levels?'Au bord du précipice':`Palier ${item.position}/${g.levels}`;
+  const event=g.phase==='attack'?`Attaque de ${teamName(g.beneficiary)} sur ${teamName(g.target)}`:
+    g.phase==='vote'?`${teamName(g.beneficiary)} choisit sa cible`:g.loser?`${teamName(g.loser)} monte d’un palier`:'';
+  const targets=g.teams.filter(item=>!item.eliminated&&item.id!==g.beneficiary);
+  const vote=g.phase==='vote'&&team?.id===g.beneficiary?`<div class="row">${g.voted?'Vote enregistré ✓':
+    targets.map(item=>`<button class="btn ghost" data-action="mountain-vote" data-value="${esc(item.id)}">${teamName(item.id)}</button>`).join('')}</div>`:'';
+  const order=[...(g.winner?[g.winner]:[]),...g.eliminated.slice().reverse()];
+  const ranking=finished?`<h3>Classement des équipes</h3><div class="ty-podium">${order.map((id,i)=>
+    `<div><strong>${g.winner?i+1:g.teams.length-order.length+i+1}. ${teamName(id)}</strong></div>`).join('')}</div>`:'';
+  return `<section class="mountain-panel ${host?'mountain-desk':tv?'mountain-tv':''}">
+    <h2>${g.winner?`🏆 ${teamName(g.winner)} remporte la partie !`:'Le Tyrolien'}</h2>
+    ${tv||host?tyrolienMountain(g,esc,animate):''}
+    ${event&&game.phase==='reveal'?`<p role="status">${event}</p>`:''}
+    ${g.phase==='vote'&&game.phase==='reveal'?`<p>${g.voteCount} vote(s) · <strong data-ty-clock></strong></p>${vote}`:''}
+    ${team?`<p class="ty-player-team" style="--team:${team.color}">${esc(team.icon)} ${teamName(team.id)} · ${position(team)}
+    ${team.eliminated?' · Vous continuez pour le classement individuel !':''}</p>`:''}
+    ${host||tv||finished?`<div class="ty-teams">${g.teams.map(item=>{
+      const row=g.results.find(result=>result.id===item.id);
+      const correct=row?`<small>${row.correct}/${row.players} · ${Math.round(row.correct/Math.max(1,row.players)*100)} %${host&&row.correct?` · ${(row.totalTime/row.correct/1000).toFixed(2)} s en moyenne`:''}</small>`:'';
+      const votes=host&&['vote','attack'].includes(g.phase)&&item.id!==g.beneficiary?`<small>${g.tallies?.[item.id]||0} vote(s)</small>`:'';
+      return `<div style="--team:${item.color}"><strong>${esc(item.icon)} ${teamName(item.id)}</strong><small>${position(item)}${g.bonuses?` · Série ${item.streak}/4`:''}</small>${correct}${votes}</div>`;
+    }).join('')}</div>`:''}
+    ${ranking}</section>`;
 }

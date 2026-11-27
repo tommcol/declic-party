@@ -217,8 +217,9 @@ test('Le serveur Node synchronise une manche et reprend ses données et alarmes 
  assert.ok(individual.state.teamResults.some(result=>result.game==='blind'&&result.groups.some(group=>group.name==='Les Comètes')));
  assert.ok(individual.state.eveningRanking.some(row=>row.id===sessions[0].id&&row.points>0));
 
- await request('/api/rooms','POST',{room:code,token,game:'tyrolien'});
- await leader.waitFor(m=>m.state?.tyrolien?.phase==='lobby');
+ const clip={...question,id:'clip-piano',kind:'audio',target:'title',title:'Piano',artist:'Déclic Party'};
+ await request('/api/rooms','POST',{room:code,token,musicGame:'tyrolien',questions:[clip],input:'qcm',mountain:{levels:4,bonuses:false}});
+ await leader.waitFor(m=>m.state?.mountain&&m.state.phase==='lobby');
  await sleep(1050);
  leader.send({type:'teams-config',count:6});
  await teamMessage(leader,plan=>plan.groups.length===6);
@@ -228,10 +229,29 @@ test('Le serveur Node synchronise une manche et reprend ses données et alarmes 
  leader.send({type:'teams-mode',mode:'auto'});
  leader.send({type:'teams-shuffle'});
  await teamMessage(leader,plan=>plan.mode==='auto'&&plan.total===6&&plan.groups.every(group=>group.members.length===1));
- leader.send({type:'ty-start',levels:4,seconds:5,bonuses:false});
- const ty=await restoredTv.waitFor(m=>m.state?.tyrolien?.phase==='listen');
- assert.equal(ty.state.tyrolien.teams.length,6);
- assert.ok(ty.state.tyrolien.teams.some(group=>group.name==='Les Comètes'&&group.color==='#a01132'));
+ leader.send({type:'play'});
+ const {state:ty}=await restoredTv.waitFor(m=>m.state?.mountain&&m.state.phase==='playing');
+ assert.equal(ty.mountain.teams.length,6);
+ assert.ok(ty.mountain.teams.some(group=>group.name==='Les Comètes'&&group.color==='#a01132'));
+ assert.equal(ty.question.answer,undefined);
+ assert.equal(ty.mountain.roster,undefined);
+ await sleep(Math.max(0,ty.startAt-Date.now())+30);
+ extraPlayers.forEach(client=>client.send({type:'answer',questionId:ty.question.id,answer:'Piano'}));
+ const replies=await Promise.all(extraPlayers.map(client=>client.waitFor(m=>m.type==='received'&&m.accepted)));
+ assert.equal(replies.length,3);
+ leader.send({type:'reveal',questionId:ty.question.id});
+ const {state:reveal}=await restoredTv.waitFor(m=>m.state?.mountain&&m.state.phase==='reveal');
+ assert.equal(reveal.question.artist,'Déclic Party');
+ assert.equal(reveal.history[0].results.filter(player=>player.result.correct).length,3);
+ leader.send({type:'next',questionId:ty.question.id});
+ const {state:recycled}=await restoredTv.waitFor(m=>m.state?.mountain?.round===2);
+ assert.notEqual(recycled.question.id,ty.question.id);
+ leader.send({type:'stop'});
+ const {state:finished}=await restoredTv.waitFor(m=>m.state?.mountain&&m.state.phase==='finished');
+ assert.equal(finished.gameStatistics.filter(player=>player.correct===1).length,3);
+ await request('/api/rooms','POST',{room:code,token,questions:[question],input:'qcm',musicGame:'blind'});
+ const {state:after}=await restoredTv.waitFor(m=>m.state?.musicGame==='blind'&&m.state.phase==='lobby'&&m.state.teams.length===6);
+ assert.equal(after.eveningRanking.filter(row=>row.correct>=1).length>=3,true);
  assert.equal((await request('/api/evening')).active.code,code);
 
 });

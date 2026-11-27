@@ -81,7 +81,7 @@ export function changeTeamPlan(room,action,identity){
  if(!editable)throw Error('Les équipes sont verrouillées pendant le jeu.');
  if(action.type==='teams-config'&&host){
   const count=action.count;
-  const limit=room.tyrolien&&room.phase==='lobby'?TYROLIEN_TEAMS:MAX_PARTICIPANTS;
+  const limit=(room.tyrolien||room.mountain)&&room.phase==='lobby'?TYROLIEN_TEAMS:MAX_PARTICIPANTS;
   if(!Number.isInteger(count)||count<2||count>limit)throw Error(`Choisissez entre 2 et ${limit} équipes.`);
   if(current&&Object.values(current.assignments).some(id=>Number(id)>=count)){
    throw Error('Déplacez les joueurs des équipes à retirer avant de réduire leur nombre.');

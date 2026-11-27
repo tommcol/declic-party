@@ -702,3 +702,24 @@
 @media (prefers-reduced-motion:reduce){.team-confirm{animation:none}}
 .team-card { background: linear-gradient(150deg,color-mix(in srgb,var(--team-color) 35%,#20152f),#211831 75%); }
 .team-card h3 span { display: inline-grid; place-items: center; width: 1.7em; height: 1.7em; background: var(--team-color); color: var(--team-ink); border-radius: .5em; font-size: .85em; }
+
+.mountain-panel { min-width: 0; margin-block: 1rem; }
+.mountain-desk .ty-mountain { height: clamp(160px, 25vh, 280px); }
+.mountain-tv .ty-mountain {
+  height: clamp(230px, 42vh, 490px);
+  background: radial-gradient(ellipse at 83% 13%, #f9d597 0%, transparent 30%),
+    linear-gradient(#214f74, #98bdce 68%, #466960);
+}
+.mountain-tv .ty-slope {
+  background: linear-gradient(160deg, #e8f4f2 9%, #acc5cc 28%, #587684 48%, #253d49 72%);
+  filter: drop-shadow(0 12px 18px #0d2438);
+}
+.party-interface .mountain-stage { display: flex; flex-direction: column; gap: 1rem; }
+.mountain-stage .mountain-panel { width: min(100%, 1200px); }
+.mountain-stage .record { display: none; }
+.mountain-panel .ty-still .ty-climber { animation: none; }
+.mountain-panel .ty-still .ty-climber.falling { display: none; }
+.ty-player-team { border-inline-start: 5px solid var(--team); padding: .65rem .8rem; border-radius: .45rem; }
+.ty-podium { display: flex; flex-wrap: wrap; gap: .75rem; }
+.ty-podium > div { background: #252537; padding: .85rem; border-radius: .65rem; }
+.ty-podium > div:first-child { border: 1px solid #e3af36; }

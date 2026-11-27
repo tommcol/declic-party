@@ -48,9 +48,9 @@ export function bingoGrandWinners(teams,milestones=[]){
  const best=Math.max(...contenders.map(team=>team.score));
  return contenders.filter(team=>team.score===best);
 }
-export function roundStatistics(history,teams) {
+export function roundStatistics(history,teams,previous) {
  const rows=new Map(teams.map(({id,name})=>[id,{id,name,correct:0,wrong:0,absent:0,
-  timed:0,elapsed:0,best:null,last:null,fastest:0,streak:0,bestStreak:0}]));
+  timed:0,elapsed:0,best:null,last:null,fastest:0,streak:0,bestStreak:0,...previous?.[id]}]));
  for(const round of history||[]){
   let fastest=Infinity;
   const timed=[];
@@ -328,6 +328,7 @@ export function applyAction(game, action, now=Date.now()) {
   const wasCorrect=r.correct;
   r.correct=r.parts.length>0;
   if(r.correct&&!wasCorrect)r.elapsed=(s.audioElapsed||0)+now-s.startAt;
+  if(wanted.length>1&&wanted.every(part=>r.parts.includes(part)))r.completedElapsed=(s.audioElapsed||0)+now-s.startAt;
   emit('answer');
  }
  else if((action.type==='reveal'||action.type==='timeout')&&['playing','buzzed','paused'].includes(s.phase)){

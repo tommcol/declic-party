@@ -13,8 +13,8 @@ const libraryMaster=(await readFile(new URL('src/library-master.js',import.meta.
 const library=(await readFile(new URL('src/library.js',import.meta.url),'utf8'))
  .replace(/^import .*;$/gm,'');
 worker=worker.replace(/^import .*roulette.js.*$/m,'').replace(/^import .*teams.js.*$/m,'');
-worker=worker.replace(/^import .*from '\.\/tyrolien-room.js';$/m,'');
-const tyrolien=(await Promise.all(['public/roulette.js','public/teams.js','public/music-source.js','src/tyrolien.js','src/tyrolien-room.js'].map(
+worker=worker.replace(/^import .*from '\.\/tyrolien-(room|game).js';$/gm,'');
+const tyrolien=(await Promise.all(['public/roulette.js','public/teams.js','public/music-source.js','src/tyrolien.js','src/tyrolien-room.js','src/tyrolien-game.js'].map(
  path=>readFile(new URL(path,import.meta.url),'utf8')
 ))).map(source=>source.replace(/^import .*;$/gm,'').replace(/^export /gm,'')).join('\n');
 const catalog=(await readFile(new URL('src/catalog.js',import.meta.url),'utf8')).replaceAll('export ','');
