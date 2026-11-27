@@ -74,9 +74,11 @@ test('Le serveur Node synchronise une manche et reprend ses données et alarmes 
  const players=await Promise.all([connect(code),connect(code)]);
  host.send({type:'host',token});
  tv.send({type:'tv'});
- players.forEach((player,index)=>player.send({type:'join',name:'Équipe '+index}));
+ players.forEach((player,index)=>player.send({type:'join',name:'Équipe '+index,avatar:index===0?3:99}));
  const sessions=await Promise.all(players.map(p=>p.waitFor(m=>m.type==='session')));
- await tv.waitFor(m=>m.state?.teams.length===2);
+ const {state:lobby}=await tv.waitFor(m=>m.state?.teams.length===2);
+ assert.equal(lobby.teams.find(team=>team.id===sessions[0].id).avatar,3);
+ assert.equal(lobby.teams.find(team=>team.id===sessions[1].id).avatar,undefined);
  tv.send('ping');
  await tv.waitFor(m=>m==='pong');
  assert.equal(new Set(sessions.map(s=>s.id)).size,2);
@@ -103,6 +105,7 @@ test('Le serveur Node synchronise une manche et reprend ses données et alarmes 
  host.send({type:'play'});
  const playing=await phase(tv,'playing');
  assert.equal(playing.question.answer,undefined);
+ assert.equal(playing.teams.find(team=>team.id===sessions[0].id).avatar,3);
  assert.deepEqual(playing.randomTeams.map(group=>group.score),[0,0]);
  const assigned=await Promise.all(players.map(player=>phase(player,'playing')));
  assert.equal(new Set(assigned.map(state=>state.myRandomTeam)).size,2);

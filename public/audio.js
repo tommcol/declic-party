@@ -11,7 +11,31 @@ export class SoundDesk {
  play(limit=Infinity){if(!this.buffer||this.source||limit<=0)return;const s=this.ctx.createBufferSource(),g=this.ctx.createGain();s.buffer=this.buffer;s.loop=true;s.playbackRate.value=this.rate;g.gain.value=this.master;s.connect(g);g.connect(this.ctx.destination);s.start(0,this.offset%this.buffer.duration);if(Number.isFinite(limit))s.stop(this.ctx.currentTime+limit);this.started=this.ctx.currentTime;this.source=s;}
  pause(){if(this.source){this.offset+=(this.ctx.currentTime-this.started)*this.rate;this.source.stop();this.source.disconnect();this.source=null;}}
  stop(){this.pause();this.offset=0;}
- jingle(type){if(this.muted||!this.ctx)return;const ns=type==='correct'?[72,76,79,84]:type==='podium'?[60,64,67,72,79]:type==='buzz'?[53,53]:type==='wrong'?[55,49]:[72];ns.forEach((n,i)=>{const o=this.ctx.createOscillator(),g=this.ctx.createGain(),at=this.ctx.currentTime+i*.11;o.type=type==='wrong'?'triangle':'sine';o.frequency.value=440*2**((n-69)/12);g.gain.setValueAtTime(.0001,at);g.gain.exponentialRampToValueAtTime(.14,at+.01);g.gain.exponentialRampToValueAtTime(.0001,at+.22);o.connect(g);g.connect(this.ctx.destination);o.start(at);o.stop(at+.25);});}
+ jingle(type){
+  if(this.muted||!this.ctx)return;
+  const cues={
+   start:[[48,0,.17],[60,.09,.18],[67,.2,.28]],
+   tick:[[76,0,.09]],
+   buzz:[[43,0,.11],[55,.035,.18]],
+   correct:[[67,0,.13],[72,.07,.18],[76,.14,.22],[84,.23,.36]],
+   wrong:[[55,0,.14],[49,.11,.22]],
+   reveal:[[67,0,.14],[74,.085,.24]],
+   podium:[[48,0,.32],[60,0,.23],[67,.13,.28],[72,.28,.5],[76,.28,.46],[84,.45,.58]]
+  };
+  for(const [note,delay,length] of cues[type]||[]){
+   const oscillator=this.ctx.createOscillator(),gain=this.ctx.createGain();
+   const at=this.ctx.currentTime+delay;
+   oscillator.type=['wrong','buzz','start'].includes(type)?'triangle':'sine';
+   oscillator.frequency.value=440*2**((note-69)/12);
+   gain.gain.setValueAtTime(.0001,at);
+   gain.gain.exponentialRampToValueAtTime(type==='podium'?.085:.12,at+.012);
+   gain.gain.exponentialRampToValueAtTime(.0001,at+length);
+   oscillator.connect(gain);
+   gain.connect(this.ctx.destination);
+   oscillator.start(at);
+   oscillator.stop(at+length);
+  }
+ }
 }
 export const mediaDB=()=>new Promise((resolve,reject)=>{const r=indexedDB.open('declic-media',1);r.onupgradeneeded=()=>r.result.createObjectStore('files');r.onsuccess=()=>resolve(r.result);r.onerror=()=>reject(r.error);});
 export async function storeBlob(id,blob){const db=await mediaDB();await new Promise((resolve,reject)=>{const tx=db.transaction('files','readwrite');tx.objectStore('files').put(blob,id);tx.oncomplete=resolve;tx.onerror=()=>reject(tx.error);});db.close();}

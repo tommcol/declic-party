@@ -151,7 +151,7 @@ function eveningTotals(room){
   const correct=ty?.points??stats?.correct??0;
   const played=room.tyrolien?(ty?.played||0):(room.mountain?.roundsPlayed??history.length);
   const bestTimes=[prior.best,stats?.best].filter(Number.isFinite);
-  totals[team.id]={id:team.id,name:team.name,
+  totals[team.id]={id:team.id,name:team.name,avatar:team.avatar,
    games:(prior.games||0)+(played>0?1:0),
    jokersEarned:(prior.jokersEarned||0)+(team.joker?.earned?.length||0),
    jokersUsed:(prior.jokersUsed||0)+(team.joker?.used?.length||0),
@@ -303,7 +303,7 @@ export class PartyRoom extends DurableObject {
    if(!['lobby','finished'].includes(current.phase))return {status:409};
    const next={
     ...createGame(data.questions,current.teams,'phone',data.input,data.settings),
-    teams:current.teams.map(({id,name,key,token})=>({id,name,key,token,score:0,streak:0})),
+    teams:current.teams.map(({id,name,key,token,avatar})=>({id,name,key,token,avatar,score:0,streak:0})),
     teamPlan:current.teamPlan||(data.mountain?{groups:[teamIdentity(0),teamIdentity(1)],assignments:{},mode:'free',open:false,gather:false}:undefined),
     mountain:data.mountain,teamPlay:data.teamPlay,teamResults:this.completedTeamGames(current),
     musicGame:data.musicGame,showTheme:data.showTheme,showAnimations:data.showAnimations,randomTeamCount:data.randomTeamCount||undefined,roulettePlayers:current.roulettePlayers,eveningTotals:eveningTotals(current),effect:data.effect,hostHash,code:current.code,expires:current.expires,revision:(current.revision||0)+1
@@ -464,7 +464,8 @@ export class PartyRoom extends DurableObject {
    const name=String(message.name||'').trim().slice(0,24);
    if(!name)throw Error('Entrez votre prénom');
    if(room.teams.some(player=>player.name.toLowerCase()===name.toLowerCase()))throw Error('Ce nom est déjà utilisé');
-   const player={id:crypto.randomUUID(),name,score:0,key:'',token:crypto.randomUUID()};
+   const avatar=Number.isInteger(message.avatar)&&message.avatar>=0&&message.avatar<8?message.avatar:undefined;
+   const player={id:crypto.randomUUID(),name,avatar,score:0,key:'',token:crypto.randomUUID()};
    room.teams.push(player);
    if(room.teamPlan?.open&&room.teamPlan.mode==='auto')fillTeams(room.teamPlan,room.teams);
    await tx.put('room',room);
