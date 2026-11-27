@@ -31,6 +31,16 @@ test('Le catalogue local croise les filtres, conserve les références et retrou
  const summary=await request('');
  assert.equal(summary.total,5166);
  assert.equal(summary.references,summary.total);
+ const periods=summary.categories.find(group=>group.id==='decades').playlists;
+ assert.equal(periods[0].name,'Années 1960');
+ assert.equal(periods.find(item=>item.id.startsWith('year-')).name,'1960');
+ assert.ok(periods.every(item=>Number(item.id.split('-').at(-1))>=1960));
+ assert.ok((await request('/tracks?period=1950')).total>0);
+ for(const type of ['films','series','cartoons']){
+  const {tracks}=await request('/tracks?playlist='+type);
+  assert.ok(tracks.some(track=>track.work));
+ }
+
  assert.match(summary.import.version,/^[a-f0-9]{12}$/);
  const index=new Map(summary.categories.flatMap(group=>group.playlists).map(item=>[item.name.toLowerCase(),item]));
  const santa=index.get('santa'),indochine=index.get('indochine');

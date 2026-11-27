@@ -1,4 +1,5 @@
 const normalizeSearch=value=>value.normalize('NFD').replace(/\p{M}/gu,'').toLowerCase();
+const screenTags=['films','series','cartoons','tv','shows','disney','ads'];
 const format=new Intl.NumberFormat('fr-FR');
 const familyNames={origin:'Origine',period:'Période',genres:'Genres',artists:'Artistes',themes:'Thèmes'};
 
@@ -123,7 +124,9 @@ export function openMusicLibrary(root, request, escape, options={}) {
    results().innerHTML=`<p><strong>${format.format(page.total)} titre(s)</strong> · ${verified?
     verified+' extrait(s) vérifié(s) sur cette page':'Disponibilité audio à vérifier'}</p>
     ${page.total?'<ul class="music-library-tracks">'+page.tracks.map(track=>`<li>
-     <div><strong>${escape(track.title)}</strong><span>${escape(track.artist)} · ${track.year||'Année inconnue'}</span>
+     <div><strong>${escape(track.title)}</strong>
+      ${track.playlists.some(tag=>screenTags.includes(tag))?`<small>Œuvre · ${escape(track.work||'Non renseignée')}</small>`:''}
+      <span>${escape(track.artist)} · ${track.year||'Année inconnue'}</span>
       <small>${escape(track.genres.map(label).join(', ')||'Genre inconnu')} · ${escape(track.origins.map(label).join(', ')||'Origine inconnue')}</small>
       <small>${escape(trackStatus(track))}</small></div>
      <div class="row">${previews.get(track.id)?.url?button('Écouter','listen',track.id):button('Vérifier l’extrait','verify',track.id)}

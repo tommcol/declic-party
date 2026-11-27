@@ -31,16 +31,17 @@ const groups = [
  ['artists','Artistes','🎤',LIBRARY_ARTISTS]
 ];
 
+const firstDisplayedYear=1960;
 const decadeId=decade=>decade<2020?String(decade):'decade-'+decade;
 
 export function libraryGroups(year = new Date().getUTCFullYear()) {
  return groups.map(([id,name,icon,entries])=>{
   const playlists=entries.map(([id,name,icon])=>({id,name,icon}));
   if(id==='decades'){
-   for(let decade=1900;decade<=year;decade+=10){
+   for(let decade=firstDisplayedYear;decade<=year;decade+=10){
     playlists.push({id:decadeId(decade),name:'Années '+decade,icon:'📀'});
    }
-   for(let current=1900;current<=year;current++){
+   for(let current=firstDisplayedYear;current<=year;current++){
     playlists.push({id:'year-'+current,name:String(current),icon:'📀'});
    }
   }
@@ -88,6 +89,19 @@ const filterFamilies={
 const validFilters=Object.fromEntries(Object.entries(filterFamilies).map(([key,ids])=>[key,new Set(ids)]));
 const familyByPlaylist=new Map(Object.entries(filterFamilies).flatMap(([family,ids])=>ids.map(id=>[id,family])));
 const playlistIds=new Set(libraryGroups().flatMap(group=>group.playlists.map(item=>item.id)));
+// Keep older saved filters usable without listing these years in new selections.
+for(let year=1900;year<firstDisplayedYear;year++){
+ const id='year-'+year;
+ validFilters.period.add(id);
+ playlistIds.add(id);
+ if(year%10===0){
+  const decade=String(year);
+  validFilters.period.add(decade);
+  playlistIds.add(decade);
+  familyByPlaylist.set(decade,'period');
+ }
+ familyByPlaylist.set(id,'period');
+}
 const customId=id=>/^custom-[0-9a-f]{8}(?:-[0-9a-f]{4}){3}-[0-9a-f]{12}$/.test(id);
 const legacyYear=id=>/^20[2-9][0-9]$/.test(id)&&playlistIds.has('year-'+id)?'year-'+id:id;
 const isPlaylist=id=>playlistIds.has(id)||customId(id);
