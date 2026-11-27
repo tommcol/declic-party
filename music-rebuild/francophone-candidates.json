@@ -126,7 +126,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 1987,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Johnny Hallyday",
@@ -576,7 +584,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 1988,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "France Gall",
@@ -2214,7 +2230,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 1985,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Julien Clerc",
@@ -2259,7 +2283,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 1991,
+          "status": "winner",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Julien Clerc",
@@ -2268,7 +2300,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 1994,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Michel Sardou",
@@ -2385,7 +2425,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 1987,
+          "status": "winner",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Michel Sardou",
@@ -2646,7 +2694,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 1988,
+          "status": "winner",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Maxime Le Forestier",
@@ -2655,7 +2711,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 1996,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Alain Souchon",
@@ -2664,7 +2728,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 1994,
+          "status": "winner",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Alain Souchon",
@@ -2700,7 +2772,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 1990,
+          "status": "winner",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Alain Souchon",
@@ -2763,7 +2843,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 1990,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Laurent Voulzy",
@@ -3006,7 +3094,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 1990,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Francis Cabrel",
@@ -3114,7 +3210,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 1992,
+          "status": "winner",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "William Sheller",
@@ -3185,8 +3289,16 @@
       "artistGeneration": 1970,
       "releaseYear": null,
       "genre": null,
-      "chartVerified": false,
-      "audioVerified": false
+      "chartVerified": true,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "weekly_singles",
+          "rank": 4,
+          "date": "1984-12-01",
+          "source": "https://lescharts.com/weekchart.asp?cat=s&date=19841201&year=1984"
+        }
+      ]
     },
     {
       "artist": "Frédéric François",
@@ -3708,7 +3820,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 1993,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Alain Bashung",
@@ -3717,7 +3837,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 1999,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Alain Bashung",
@@ -3726,7 +3854,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 1995,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Alain Bashung",
@@ -3735,7 +3871,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 1993,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Bernard Lavilliers",
@@ -3959,8 +4103,16 @@
       "artistGeneration": 1970,
       "releaseYear": null,
       "genre": null,
-      "chartVerified": false,
-      "audioVerified": false
+      "chartVerified": true,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "weekly_singles",
+          "rank": 6,
+          "date": "1984-12-01",
+          "source": "https://lescharts.com/weekchart.asp?cat=s&date=19841201&year=1984"
+        }
+      ]
     },
     {
       "artist": "Téléphone",
@@ -4068,7 +4220,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 1988,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Claude Nougaro",
@@ -4536,7 +4696,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 1992,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Patrick Bruel",
@@ -4662,7 +4830,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 1998,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Florent Pagny",
@@ -4797,7 +4973,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 1999,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Étienne Daho",
@@ -5175,7 +5359,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 1987,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Vanessa Paradis",
@@ -5256,7 +5448,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 1994,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Patricia Kaas",
@@ -5561,8 +5761,16 @@
       "artistGeneration": 1980,
       "releaseYear": null,
       "genre": null,
-      "chartVerified": false,
-      "audioVerified": false
+      "chartVerified": true,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "weekly_singles",
+          "rank": 8,
+          "date": "1984-12-29",
+          "source": "https://lescharts.com/weekchart.asp?cat=s&date=19841229&year=1984"
+        }
+      ]
     },
     {
       "artist": "Partenaire Particulier",
@@ -5634,7 +5842,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 1985,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Les Rita Mitsouko",
@@ -5723,8 +5939,16 @@
       "artistGeneration": 1980,
       "releaseYear": null,
       "genre": null,
-      "chartVerified": false,
-      "audioVerified": false
+      "chartVerified": true,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "weekly_singles",
+          "rank": 3,
+          "date": "1984-12-29",
+          "source": "https://lescharts.com/weekchart.asp?cat=s&date=19841229&year=1984"
+        }
+      ]
     },
     {
       "artist": "Chagrin d'amour",
@@ -5841,7 +6065,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 1991,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Liane Foly",
@@ -5868,7 +6100,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 1996,
+          "status": "winner",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Céline Dion",
@@ -6408,7 +6648,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 1998,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Pascal Obispo",
@@ -6453,7 +6701,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 1997,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Pascal Obispo",
@@ -6651,7 +6907,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 1998,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Lara Fabian",
@@ -6750,7 +7014,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 1999,
+          "status": "winner",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Patrick Fiori",
@@ -6912,7 +7184,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 1999,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Axelle Red",
@@ -7056,7 +7336,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 1995,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "IAM",
@@ -7263,7 +7551,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 1999,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Manau",
@@ -7353,7 +7649,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 1998,
+          "status": "winner",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Noir Désir",
@@ -7488,7 +7792,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 1997,
+          "status": "winner",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Khaled",
@@ -8730,7 +9042,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 2021,
+          "status": "winner",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Grand Corps Malade",
@@ -9414,7 +9734,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 2018,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Soprano",
@@ -9837,7 +10165,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 2023,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Stromae",
@@ -9882,7 +10218,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 2016,
+          "status": "winner",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Gims",
@@ -10133,7 +10477,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 2020,
+          "status": "winner",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Kendji Girac",
@@ -10304,7 +10656,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 2017,
+          "status": "winner",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Vianney",
@@ -10358,7 +10718,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 2016,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Louane",
@@ -10385,7 +10753,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 2018,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Louane",
@@ -10403,7 +10779,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 2024,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Zaz",
@@ -10673,7 +11057,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 2022,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Angèle",
@@ -10727,7 +11119,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 2022,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Clara Luciani",
@@ -10745,7 +11145,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 2022,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Juliette Armanet",
@@ -10781,7 +11189,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 2021,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Pomme",
@@ -10808,7 +11224,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 2021,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Madame Monsieur",
@@ -10862,7 +11286,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 2019,
+          "status": "winner",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Boulevard des Airs",
@@ -10871,7 +11303,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 2020,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Trois Cafés Gourmands",
@@ -11015,7 +11455,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 2023,
+          "status": "winner",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Orelsan",
@@ -11033,7 +11481,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 2022,
+          "status": "winner",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Bigflo et Oli",
@@ -11042,7 +11498,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 2018,
+          "status": "winner",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Bigflo et Oli",
@@ -11177,7 +11641,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 2016,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Nekfeu",
@@ -11357,7 +11829,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 2019,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Aya Nakamura",
@@ -11879,7 +12359,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 2025,
+          "status": "winner",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Pierre Garnier",
@@ -11924,7 +12412,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 2025,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Santa",
@@ -12032,7 +12528,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 2024,
+          "status": "winner",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Zaho de Sagazan",
@@ -12113,7 +12617,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 2026,
+          "status": "winner",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Marine",
@@ -12157,7 +12669,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 2023,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Pierre de Maere",
@@ -12166,7 +12686,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 2024,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Hervé",
@@ -12480,7 +13008,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 2026,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Vacra",
@@ -13803,7 +14339,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 1993,
+          "status": "winner",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Pow Wow",
@@ -18648,7 +19192,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 2022,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Feu! Chatterton",
@@ -18855,7 +19407,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 2025,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Yoa",
@@ -18909,7 +19469,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 2025,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Juliette Armanet",
@@ -18918,7 +19486,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 2023,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Vianney",
@@ -19327,6 +19903,12 @@
           "year": 2025,
           "rank": 5,
           "source": "https://www.chartsinfrance.net/actualite/news-134827.html"
+        },
+        {
+          "type": "victoires_chanson",
+          "year": 2026,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
         }
       ]
     },
@@ -19378,6 +19960,397 @@
           "year": 2025,
           "rank": 10,
           "source": "https://www.chartsinfrance.net/actualite/news-134827.html"
+        }
+      ]
+    },
+    {
+      "artist": "Michel Jonasz",
+      "title": "La Boîte de jazz",
+      "artistGeneration": 1970,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 1985,
+          "status": "winner",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-de-l-annee"
+        }
+      ]
+    },
+    {
+      "artist": "Eddy Mitchell",
+      "title": "Under the Rainbow",
+      "artistGeneration": 1960,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 1991,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-de-l-annee"
+        }
+      ]
+    },
+    {
+      "artist": "Nilda Fernández",
+      "title": "Nos fiançailles",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 1992,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-de-l-annee"
+        }
+      ]
+    },
+    {
+      "artist": "Laurent Voulzy",
+      "title": "Le Rêve du pêcheur",
+      "artistGeneration": 1970,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 1994,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-de-l-annee"
+        }
+      ]
+    },
+    {
+      "artist": "Enzo Enzo",
+      "title": "Juste quelqu'un de bien",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 1995,
+          "status": "winner",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-de-l-annee"
+        }
+      ]
+    },
+    {
+      "artist": "Art Mengo",
+      "title": "La mer n'existe pas",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 1996,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-de-l-annee"
+        }
+      ]
+    },
+    {
+      "artist": "Eddy Mitchell",
+      "title": "Les Tuniques bleues et les Indiens",
+      "artistGeneration": 1960,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 1997,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-de-l-annee"
+        }
+      ]
+    },
+    {
+      "artist": "Julien Clerc",
+      "title": "Les Séparés",
+      "artistGeneration": 1960,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 1998,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-de-l-annee"
+        }
+      ]
+    },
+    {
+      "artist": "Johnny Hallyday",
+      "title": "De l'amour",
+      "artistGeneration": 1960,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 2016,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        }
+      ]
+    },
+    {
+      "artist": "Kyo",
+      "title": "Ton mec",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 2018,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        }
+      ]
+    },
+    {
+      "artist": "Louane",
+      "title": "Midi sur novembre",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 2019,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        }
+      ]
+    },
+    {
+      "artist": "Orelsan",
+      "title": "Rêves bizarres",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 2019,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        }
+      ]
+    },
+    {
+      "artist": "Clara Luciani",
+      "title": "Nue",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 2020,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        }
+      ]
+    },
+    {
+      "artist": "Alain Souchon",
+      "title": "Presque",
+      "artistGeneration": 1970,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 2020,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        }
+      ]
+    },
+    {
+      "artist": "Katerine",
+      "title": "Stone avec toi",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 2020,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        }
+      ]
+    },
+    {
+      "artist": "Benjamin Biolay",
+      "title": "Comment est ta peine",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 2021,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        }
+      ]
+    },
+    {
+      "artist": "Michel Jonasz",
+      "title": "La Maison de retraite",
+      "artistGeneration": 1970,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 2021,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        }
+      ]
+    },
+    {
+      "artist": "Clara Luciani",
+      "title": "Cœur",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 2023,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        }
+      ]
+    },
+    {
+      "artist": "Clara Ysé",
+      "title": "Douce",
+      "artistGeneration": 2020,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 2024,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        }
+      ]
+    },
+    {
+      "artist": "Aliocha Schneider",
+      "title": "Ensemble",
+      "artistGeneration": 2020,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 2025,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        }
+      ]
+    },
+    {
+      "artist": "Marguerite",
+      "title": "Les filles, les meufs",
+      "artistGeneration": 2020,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 2026,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        }
+      ]
+    },
+    {
+      "artist": "Charlotte Cardin",
+      "title": "Tant pis pour elle",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "victoires_chanson",
+          "year": 2026,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        }
+      ]
+    },
+    {
+      "artist": "Chantal Goya",
+      "title": "Snoopy",
+      "artistGeneration": 1970,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": true,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "weekly_singles",
+          "rank": 6,
+          "date": "1984-12-29",
+          "source": "https://lescharts.com/weekchart.asp?cat=s&date=19841229&year=1984"
         }
       ]
     }
