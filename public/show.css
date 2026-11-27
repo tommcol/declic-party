@@ -378,3 +378,102 @@
 #app:not(.show-reduced) .show-awards li:nth-child(2) { animation-delay: .07s; }
 #app:not(.show-reduced) .show-awards li:nth-child(3) { animation-delay: .14s; }
 #app:not(.show-reduced) .show-awards li:nth-child(4) { animation-delay: .21s; }
+
+/* Scenic pieces sit outside the area used for questions and answers. */
+.show-set-piece {
+  position: absolute;
+  top: 9%;
+  bottom: 13%;
+  width: 23%;
+  --edge: color-mix(in srgb, var(--light) 68%, #d8e4ff);
+  --shadow: color-mix(in srgb, var(--warm) 26%, #080c17);
+}
+.show-set-piece-left { left: 0; }
+.show-set-piece-right { right: 0; transform: scaleX(-1); }
+
+.show-backdrop[data-show-scene="plateau"] .show-set-piece {
+  width: 32%;
+  top: 1%;
+  bottom: 12%;
+  clip-path: polygon(0 0, 94% 0, 72% 13%, 39% 20%, 13% 100%, 0 100%);
+  background:
+    repeating-linear-gradient(112deg, #080c17 0 7%, var(--edge) 7% 7.6%,
+      var(--shadow) 8% 11%, #151d31 11% 16%);
+}
+.show-backdrop[data-show-scene="plateau"] .show-podium {
+  top: 70%;
+  left: 14%;
+  right: 14%;
+  box-shadow: 0 .7vw 0 #171d2f, 0 .9vw 0 var(--warm), 0 1.45vw 0 #0b101b,
+    0 1.7vw 0 var(--light), 0 2.3vw 0 #05080e, 0 2.8vw 4vw #000;
+}
+.show-backdrop[data-show-scene="studio"] .show-set-piece {
+  bottom: 32%;
+  background: repeating-linear-gradient(0deg, transparent 0 12%, var(--edge) 13% 14%, transparent 15% 18%),
+    linear-gradient(105deg, #0a1420, var(--shadow));
+  clip-path: polygon(6% 12%, 90% 24%, 77% 82%, 6% 100%);
+}
+.show-backdrop[data-show-scene="disco"] .show-set-piece {
+  top: 14%;
+  bottom: 41%;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 36% 24%, #fff9dd, transparent 28%),
+    repeating-linear-gradient(0deg, #110f1d 0 2px, transparent 2px 10%),
+    repeating-linear-gradient(90deg, #b8886c 0 8%, #d9b8ba 8% 12%, #594669 12% 16%);
+  box-shadow: inset -4vw -2vw 5vw #171023, 0 0 4vw var(--shadow);
+  transform: scale(.68);
+}
+.show-backdrop[data-show-scene="disco"] .show-floor {
+  background: conic-gradient(var(--shadow) 25%, #151524 0 50%, #574055 0 75%, #1a1425 0) 0 0 / 13% 23%;
+}
+.show-backdrop[data-show-scene="chronology"] .show-set-piece {
+  background: repeating-linear-gradient(90deg, transparent 0 11%, var(--edge) 11% 13%),
+    linear-gradient(0deg, #060b13, var(--shadow));
+  clip-path: polygon(0 32%, 100% 45%, 100% 53%, 0 100%);
+}
+.show-backdrop[data-show-scene="duel"] .show-set-piece {
+  inset-block: 12% 22%;
+  background: repeating-linear-gradient(135deg, var(--edge) 0 1%, transparent 1% 9%),
+    linear-gradient(110deg, #7e3240, #251628);
+  clip-path: polygon(0 0, 95% 17%, 69% 91%, 0 100%);
+}
+.show-backdrop[data-show-scene="duel"] .show-set-piece-right {
+  background: repeating-linear-gradient(135deg, var(--edge) 0 1%, transparent 1% 9%),
+    linear-gradient(110deg, #20727c, #142739);
+}
+.show-backdrop[data-show-scene="cinema"] .show-set-piece {
+  top: 0;
+  width: 29%;
+  background: repeating-linear-gradient(90deg, #220915, #6e2634 8%, #a74253 12%, #300c1d 17%);
+  clip-path: polygon(0 0, 100% 0, 73% 17%, 59% 35%, 51% 62%, 65% 100%, 0 100%);
+}
+.show-backdrop[data-show-scene="gallery"] .show-set-piece {
+  top: 23%;
+  bottom: 37%;
+  background: repeating-linear-gradient(90deg, #202435 0 19%, var(--edge) 19% 20%,
+    #17111e 20% 31%, #070d17 31% 34%);
+  clip-path: polygon(2% 0, 95% 23%, 95% 78%, 2% 100%);
+}
+.show-backdrop[data-show-scene="arena"] .show-set-piece {
+  top: 28%;
+  background: repeating-linear-gradient(0deg, #171c28 0 12%, var(--edge) 12% 13%, #090d18 13% 18%);
+  clip-path: polygon(0 0, 100% 27%, 100% 45%, 58% 60%, 0 100%);
+}
+.show-backdrop[data-show-scene="chain"] .show-set-piece {
+  background: repeating-radial-gradient(ellipse at 20% 50%, transparent 0 9%, var(--edge) 10% 11%,
+    var(--shadow) 12% 14%, transparent 15% 21%);
+  clip-path: polygon(0 4%, 75% 28%, 73% 68%, 0 100%);
+}
+.show-backdrop[data-show-theme="synthwave"] .show-floor {
+  background: repeating-linear-gradient(90deg, transparent 0 9.7%, #ff78c092 10%),
+    repeating-linear-gradient(0deg, #220e3e 0 7.7%, #ff78c092 8%);
+}
+.show-backdrop[data-show-phase="playing"] .show-beam { opacity: .22; animation-play-state: paused; }
+.show-backdrop[data-show-phase="reveal"] .show-set-piece { filter: brightness(1.18); }
+.show-backdrop[data-show-phase="finished"] .show-podium,
+.evening-ceremony .podium { filter: drop-shadow(0 0 1.2rem #ffc56e5c); }
+
+@media (max-width: 760px) {
+  .show-set-piece { opacity: .65; }
+}

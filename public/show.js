@@ -40,6 +40,8 @@ export function playlistShowTheme(ids) {
 export function showBackdrop() {
   return `<div class="show-backdrop" aria-hidden="true">
     <div class="show-floor"></div>
+    <div class="show-set-piece show-set-piece-left"></div>
+    <div class="show-set-piece show-set-piece-right"></div>
     <div class="show-wing show-wing-left"></div>
     <div class="show-wing show-wing-right"></div>
     <div class="show-wall"></div>
@@ -62,9 +64,18 @@ export function updateShow(root, {role, game, wheel, ceremony, reduced}) {
     root.insertAdjacentHTML('beforebegin', showBackdrop());
     backdrop = root.previousElementSibling;
   }
+  const previousScene = backdrop.dataset.showScene;
   backdrop.hidden = !scene || role !== 'tv';
   backdrop.dataset.showScene = scene;
   backdrop.dataset.showTheme = root.dataset.showTheme;
   backdrop.dataset.showPhase = root.dataset.showPhase;
   backdrop.classList.toggle('show-reduced', reduced);
+  if (previousScene && scene && scene !== previousScene && !backdrop.hidden &&
+      !reduced && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    for (const animation of backdrop.getAnimations()) animation.cancel();
+    backdrop.animate(
+      [{opacity: .45, transform: 'scale(1.025)'}, {opacity: 1, transform: 'scale(1)'}],
+      {duration: 620, easing: 'cubic-bezier(.2,.7,.2,1)'}
+    );
+  }
 }
