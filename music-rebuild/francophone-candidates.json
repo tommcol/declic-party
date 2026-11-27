@@ -2932,7 +2932,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2003,
+          "status": "winner",
+          "source": "https://fr.wikipedia.org/wiki/NRJ_Music_Award_de_la_chanson_francophone_de_l%27ann%C3%A9e"
+        }
+      ]
     },
     {
       "artist": "Renaud",
@@ -5672,7 +5681,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2020,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-francophone-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Indochine",
@@ -6333,7 +6351,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2002,
+          "status": "winner",
+          "source": "https://fr.wikipedia.org/wiki/NRJ_Music_Award_de_la_chanson_francophone_de_l%27ann%C3%A9e"
+        }
+      ]
     },
     {
       "artist": "Stephan Eicher",
@@ -7577,7 +7604,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2000,
+          "status": "winner",
+          "source": "https://fr.wikipedia.org/wiki/NRJ_Music_Award_de_la_chanson_francophone_de_l%27ann%C3%A9e"
+        }
+      ]
     },
     {
       "artist": "Louise Attaque",
@@ -7711,7 +7747,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2020,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-francophone-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Tryo",
@@ -8547,7 +8592,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2020,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-francophone-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Shy'm",
@@ -8880,7 +8934,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2008,
+          "status": "winner",
+          "source": "https://fr.wikipedia.org/wiki/NRJ_Music_Award_de_la_chanson_francophone_de_l%27ann%C3%A9e"
+        }
+      ]
     },
     {
       "artist": "Christophe Maé",
@@ -8898,7 +8961,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2009,
+          "status": "winner",
+          "source": "https://fr.wikipedia.org/wiki/NRJ_Music_Award_de_la_chanson_francophone_de_l%27ann%C3%A9e"
+        }
+      ]
     },
     {
       "artist": "Christophe Maé",
@@ -9095,7 +9167,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2004,
+          "status": "winner",
+          "source": "https://fr.wikipedia.org/wiki/NRJ_Music_Award_de_la_chanson_francophone_de_l%27ann%C3%A9e"
+        }
+      ]
     },
     {
       "artist": "Kyo",
@@ -9356,7 +9437,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2006,
+          "status": "winner",
+          "source": "https://fr.wikipedia.org/wiki/NRJ_Music_Award_de_la_chanson_francophone_de_l%27ann%C3%A9e"
+        }
+      ]
     },
     {
       "artist": "M. Pokora",
@@ -9365,7 +9455,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2011,
+          "status": "winner",
+          "source": "https://fr.wikipedia.org/wiki/NRJ_Music_Award_de_la_chanson_francophone_de_l%27ann%C3%A9e"
+        }
+      ]
     },
     {
       "artist": "M. Pokora",
@@ -9374,7 +9473,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2012,
+          "status": "winner",
+          "source": "https://fr.wikipedia.org/wiki/NRJ_Music_Award_de_la_chanson_francophone_de_l%27ann%C3%A9e"
+        }
+      ]
     },
     {
       "artist": "M. Pokora",
@@ -9581,7 +9689,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2007,
+          "status": "winner",
+          "source": "https://fr.wikipedia.org/wiki/NRJ_Music_Award_de_la_chanson_francophone_de_l%27ann%C3%A9e"
+        }
+      ]
     },
     {
       "artist": "Diam's",
@@ -10048,7 +10165,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2005,
+          "status": "winner",
+          "source": "https://fr.wikipedia.org/wiki/NRJ_Music_Award_de_la_chanson_francophone_de_l%27ann%C3%A9e"
+        }
+      ]
     },
     {
       "artist": "L5",
@@ -10129,7 +10255,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2013,
+          "status": "winner",
+          "source": "https://fr.wikipedia.org/wiki/NRJ_Music_Award_de_la_chanson_francophone_de_l%27ann%C3%A9e"
+        }
+      ]
     },
     {
       "artist": "Stromae",
@@ -10405,7 +10540,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2024,
+          "status": "nominee",
+          "source": "https://www.nrj.fr/music-awards/actualites/chanson-francophone-qui-sont-les-nommes-71363353"
+        }
+      ]
     },
     {
       "artist": "Slimane",
@@ -10468,7 +10612,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2020,
+          "status": "winner",
+          "source": "https://fr.wikipedia.org/wiki/NRJ_Music_Award_de_la_chanson_francophone_de_l%27ann%C3%A9e"
+        }
+      ]
     },
     {
       "artist": "Vitaa",
@@ -10494,7 +10647,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2014,
+          "status": "winner",
+          "source": "https://fr.wikipedia.org/wiki/NRJ_Music_Award_de_la_chanson_francophone_de_l%27ann%C3%A9e"
+        }
+      ]
     },
     {
       "artist": "Kendji Girac",
@@ -10512,7 +10674,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2015,
+          "status": "winner",
+          "source": "https://fr.wikipedia.org/wiki/NRJ_Music_Award_de_la_chanson_francophone_de_l%27ann%C3%A9e"
+        }
+      ]
     },
     {
       "artist": "Kendji Girac",
@@ -10548,7 +10719,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2021,
+          "status": "winner",
+          "source": "https://fr.wikipedia.org/wiki/NRJ_Music_Award_de_la_chanson_francophone_de_l%27ann%C3%A9e"
+        }
+      ]
     },
     {
       "artist": "Amir",
@@ -10557,7 +10737,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2016,
+          "status": "winner",
+          "source": "https://fr.wikipedia.org/wiki/NRJ_Music_Award_de_la_chanson_francophone_de_l%27ann%C3%A9e"
+        }
+      ]
     },
     {
       "artist": "Amir",
@@ -10566,7 +10755,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2017,
+          "status": "winner",
+          "source": "https://fr.wikipedia.org/wiki/NRJ_Music_Award_de_la_chanson_francophone_de_l%27ann%C3%A9e"
+        }
+      ]
     },
     {
       "artist": "Amir",
@@ -10584,7 +10782,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2020,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-francophone-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Amir",
@@ -10786,6 +10993,13 @@
           "year": 2024,
           "status": "nominee",
           "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        },
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2023,
+          "status": "winner",
+          "source": "https://fr.wikipedia.org/wiki/NRJ_Music_Award_de_la_chanson_francophone_de_l%27ann%C3%A9e"
         }
       ]
     },
@@ -11030,7 +11244,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2019,
+          "status": "winner",
+          "source": "https://fr.wikipedia.org/wiki/NRJ_Music_Award_de_la_chanson_francophone_de_l%27ann%C3%A9e"
+        }
+      ]
     },
     {
       "artist": "Angèle",
@@ -11196,6 +11419,13 @@
           "year": 2021,
           "status": "nominee",
           "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        },
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2020,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-francophone-de-l-annee"
         }
       ]
     },
@@ -11462,6 +11692,13 @@
           "year": 2023,
           "status": "winner",
           "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        },
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2022,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-francophone-de-l-annee"
         }
       ]
     },
@@ -11542,7 +11779,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2022,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-francophone-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Ninho",
@@ -11739,7 +11985,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2022,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-francophone-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Soolking",
@@ -11873,7 +12128,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2022,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-francophone-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Aya Nakamura",
@@ -12224,7 +12488,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2020,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-francophone-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Keen'V",
@@ -12366,6 +12639,13 @@
           "year": 2025,
           "status": "winner",
           "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        },
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2024,
+          "status": "winner",
+          "source": "https://fr.wikipedia.org/wiki/NRJ_Music_Award_de_la_chanson_francophone_de_l%27ann%C3%A9e"
         }
       ]
     },
@@ -12403,7 +12683,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2023,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-francophone-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Santa",
@@ -12419,6 +12708,13 @@
           "year": 2025,
           "status": "nominee",
           "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        },
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2024,
+          "status": "nominee",
+          "source": "https://www.nrj.fr/music-awards/actualites/chanson-francophone-qui-sont-les-nommes-71363353"
         }
       ]
     },
@@ -12581,7 +12877,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2023,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-francophone-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Eloïz",
@@ -12624,6 +12929,13 @@
           "year": 2026,
           "status": "winner",
           "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        },
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2025,
+          "status": "winner",
+          "source": "https://www.nrj.fr/music-awards/actualites/nrj-music-awards-2025-71367062"
         }
       ]
     },
@@ -12693,6 +13005,13 @@
           "year": 2024,
           "status": "nominee",
           "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        },
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2023,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-francophone-de-l-annee"
         }
       ]
     },
@@ -15886,7 +16205,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2013,
+          "status": "winner",
+          "source": "https://fr.wikipedia.org/wiki/NRJ_Music_Award_de_la_chanson_francophone_de_l%27ann%C3%A9e"
+        }
+      ]
     },
     {
       "artist": "Sexion d'Assaut",
@@ -16615,7 +16943,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2022,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-francophone-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Amir",
@@ -16624,7 +16961,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2024,
+          "status": "nominee",
+          "source": "https://www.nrj.fr/music-awards/actualites/chanson-francophone-qui-sont-les-nommes-71363353"
+        }
+      ]
     },
     {
       "artist": "Claudio Capéo",
@@ -16651,7 +16997,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2023,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-francophone-de-l-annee"
+        }
+      ]
     },
     {
       "artist": "Louane",
@@ -17342,7 +17697,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2026,
+          "status": "nominee",
+          "source": "https://www.nrj.fr/music-awards/actualites/chanson-francophone-decouvrez-les-nommes-aux-nrj-music-awards-71367128"
+        }
+      ]
     },
     {
       "artist": "Linh",
@@ -17751,6 +18115,13 @@
           "year": 2025,
           "detail": "Titre francophone le plus diffusé",
           "source": "https://www.chartsinfrance.net/actualite/news-134827.html"
+        },
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2025,
+          "status": "nominee",
+          "source": "https://www.nrj.fr/music-awards/actualites/chanson-francophone-qui-sont-les-nommes-1-71365441"
         }
       ]
     },
@@ -19442,7 +19813,16 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2024,
+          "status": "nominee",
+          "source": "https://www.nrj.fr/music-awards/actualites/chanson-francophone-qui-sont-les-nommes-71363353"
+        }
+      ]
     },
     {
       "artist": "Santa",
@@ -20266,6 +20646,13 @@
           "year": 2023,
           "status": "nominee",
           "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        },
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2022,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-francophone-de-l-annee"
         }
       ]
     },
@@ -20334,6 +20721,13 @@
           "year": 2026,
           "status": "nominee",
           "source": "https://www.nrmagazine.com/musique/recompense/victoires-de-la-musique/categorie/chanson-originale-de-l-annee"
+        },
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2026,
+          "status": "nominee",
+          "source": "https://www.nrj.fr/music-awards/actualites/chanson-francophone-decouvrez-les-nommes-aux-nrj-music-awards-71367128"
         }
       ]
     },
@@ -20351,6 +20745,312 @@
           "rank": 6,
           "date": "1984-12-29",
           "source": "https://lescharts.com/weekchart.asp?cat=s&date=19841229&year=1984"
+        }
+      ]
+    },
+    {
+      "artist": "Damien Sargue, Grégori Baquet et Philippe d'Avilla",
+      "title": "Les Rois du monde",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2001,
+          "status": "winner",
+          "source": "https://fr.wikipedia.org/wiki/NRJ_Music_Award_de_la_chanson_francophone_de_l%27ann%C3%A9e"
+        }
+      ]
+    },
+    {
+      "artist": "Florent Mothe",
+      "title": "L'Assasymphonie",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2010,
+          "status": "winner",
+          "source": "https://fr.wikipedia.org/wiki/NRJ_Music_Award_de_la_chanson_francophone_de_l%27ann%C3%A9e"
+        }
+      ]
+    },
+    {
+      "artist": "Kendji Girac",
+      "title": "Pour oublier",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2018,
+          "status": "winner",
+          "source": "https://fr.wikipedia.org/wiki/NRJ_Music_Award_de_la_chanson_francophone_de_l%27ann%C3%A9e"
+        }
+      ]
+    },
+    {
+      "artist": "M. Pokora",
+      "title": "Qui on est",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2022,
+          "status": "winner",
+          "source": "https://fr.wikipedia.org/wiki/NRJ_Music_Award_de_la_chanson_francophone_de_l%27ann%C3%A9e"
+        }
+      ]
+    },
+    {
+      "artist": "Adèle Castillon",
+      "title": "Été avec toi",
+      "artistGeneration": 2020,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2026,
+          "status": "winner",
+          "source": "https://www.nrj.fr/music-awards/actualites/les-gagnants-et-resultats-par-categories-71367252"
+        }
+      ]
+    },
+    {
+      "artist": "Hatik",
+      "title": "Angela",
+      "artistGeneration": 2020,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2020,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-francophone-de-l-annee"
+        }
+      ]
+    },
+    {
+      "artist": "Izïa",
+      "title": "Mon cœur",
+      "artistGeneration": 2020,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2022,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-francophone-de-l-annee"
+        }
+      ]
+    },
+    {
+      "artist": "Keen'V",
+      "title": "Outété",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2022,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-francophone-de-l-annee"
+        }
+      ]
+    },
+    {
+      "artist": "Kendji Girac",
+      "title": "Eva",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2022,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-francophone-de-l-annee"
+        }
+      ]
+    },
+    {
+      "artist": "Slimane",
+      "title": "La Recette",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2022,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-francophone-de-l-annee"
+        }
+      ]
+    },
+    {
+      "artist": "Soprano",
+      "title": "Venga Mi",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2022,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-francophone-de-l-annee"
+        }
+      ]
+    },
+    {
+      "artist": "Kendji Girac",
+      "title": "Le Feu",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2023,
+          "status": "nominee",
+          "source": "https://www.nrmagazine.com/musique/recompense/nrj-music-awards/categorie/chanson-francophone-de-l-annee"
+        }
+      ]
+    },
+    {
+      "artist": "Keblack",
+      "title": "Melrose Place",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2025,
+          "status": "nominee",
+          "source": "https://www.nrj.fr/music-awards/actualites/chanson-francophone-qui-sont-les-nommes-1-71365441"
+        }
+      ]
+    },
+    {
+      "artist": "Eva",
+      "title": "Sur la piste",
+      "artistGeneration": 2020,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2026,
+          "status": "nominee",
+          "source": "https://www.nrj.fr/music-awards/actualites/chanson-francophone-decouvrez-les-nommes-aux-nrj-music-awards-71367128"
+        }
+      ]
+    },
+    {
+      "artist": "Mauvais Djo",
+      "title": "Pilé",
+      "artistGeneration": 2020,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2026,
+          "status": "nominee",
+          "source": "https://www.nrj.fr/music-awards/actualites/chanson-francophone-decouvrez-les-nommes-aux-nrj-music-awards-71367128"
+        }
+      ]
+    },
+    {
+      "artist": "Oria",
+      "title": "Soirée mondaine",
+      "artistGeneration": 2020,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2026,
+          "status": "nominee",
+          "source": "https://www.nrj.fr/music-awards/actualites/chanson-francophone-decouvrez-les-nommes-aux-nrj-music-awards-71367128"
+        }
+      ]
+    },
+    {
+      "artist": "Tayc",
+      "title": "Réanymé",
+      "artistGeneration": 2010,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "nrj_music_awards",
+          "category": "chanson_francophone",
+          "year": 2026,
+          "status": "nominee",
+          "source": "https://www.nrj.fr/music-awards/actualites/chanson-francophone-decouvrez-les-nommes-aux-nrj-music-awards-71367128"
         }
       ]
     }
