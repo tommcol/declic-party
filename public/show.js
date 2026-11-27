@@ -39,6 +39,8 @@ export function playlistShowTheme(ids) {
 
 export function showBackdrop() {
   return `<div class="show-backdrop" aria-hidden="true">
+    <div class="show-artwork"></div>
+    <div class="show-wash"></div>
     <div class="show-floor"></div>
     <div class="show-set-piece show-set-piece-left"></div>
     <div class="show-set-piece show-set-piece-right"></div>

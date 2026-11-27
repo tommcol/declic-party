@@ -514,3 +514,61 @@
 .ty-set .ty-winner span { box-shadow: 0 0 1.5rem .5rem #ffce77; }
 .ty-set.ty-still .ty-climber, .no-show-animation .ty-set .ty-climber { animation: none; }
 .ty-set.ty-still .ty-climber.falling, .no-show-animation .ty-set .ty-climber.falling { display: none; }
+
+/* Four illustrated sets share an atlas and keep the live graphics above it. */
+.show-artwork, .show-wash { display: none; }
+.show-backdrop:is([data-show-scene="studio"], [data-show-scene="disco"],
+  [data-show-scene="chronology"], [data-show-scene="cinema"]) {
+  --art-x: 0%;
+  --art-y: 0%;
+}
+.show-backdrop[data-show-scene="disco"] { --art-x: 100%; }
+.show-backdrop[data-show-scene="chronology"] { --art-y: 100%; }
+.show-backdrop[data-show-scene="cinema"] { --art-x: 100%; --art-y: 100%; }
+
+.show-backdrop:is([data-show-scene="studio"], [data-show-scene="disco"],
+  [data-show-scene="chronology"], [data-show-scene="cinema"]) :is(
+  .show-floor, .show-wing, .show-wall, .show-podium, .show-set-piece) { display: none; }
+
+.show-backdrop:is([data-show-scene="studio"], [data-show-scene="disco"],
+  [data-show-scene="chronology"], [data-show-scene="cinema"]) .show-artwork {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: max(100%, 177.778svh);
+  height: max(100%, 56.25vw);
+  transform: translate(-50%, -50%);
+  background: #080c13 url('/jeux-plateaux.webp') var(--art-x) var(--art-y) / 200% 200% no-repeat;
+  filter: brightness(.92);
+  transition: filter .5s ease;
+}
+.show-backdrop:is([data-show-scene="studio"], [data-show-scene="disco"],
+  [data-show-scene="chronology"], [data-show-scene="cinema"]) .show-wash {
+  display: block;
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at 10% 45%, var(--light), transparent 44%),
+    radial-gradient(ellipse at 91% 26%, var(--warm), transparent 38%);
+  mix-blend-mode: screen;
+  opacity: .17;
+  transition: opacity .5s ease;
+}
+.show-backdrop[data-show-phase="playing"] .show-artwork { filter: brightness(.73); }
+.show-backdrop[data-show-phase="playing"] .show-wash { opacity: .07; }
+.show-backdrop[data-show-phase="buzzed"] .show-wash { opacity: .3; }
+.show-backdrop[data-show-phase="reveal"] .show-artwork { filter: brightness(1.05); }
+.show-backdrop[data-show-phase="reveal"] .show-wash { opacity: .36; }
+.show-backdrop[data-show-phase="reveal"]:not(.show-reduced) .show-wash {
+  animation: show-light-reveal .9s ease-out both;
+}
+@keyframes show-light-reveal {
+  from { opacity: .12; }
+  to { opacity: .36; }
+}
+.show-reduced :is(.show-artwork, .show-wash) { transition: none; }
+@media (prefers-reduced-motion: reduce) {
+  .show-backdrop .show-wash { animation: none !important; }
+  .show-backdrop :is(.show-artwork, .show-wash) { transition: none; }
+}
