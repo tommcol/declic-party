@@ -26,10 +26,14 @@ function valid(url,provider){try{const u=new URL(url);return u.protocol==='https
 async function probe(url){
  try{const r=await fetch(url,{method:'HEAD',signal:AbortSignal.timeout(15000),redirect:'error'});return r.ok&&/^audio\//i.test(r.headers.get('content-type')||'')?'head_audio_ok':'unverified';}catch{return 'unverified';}
 }
+const batch=Number(process.argv[4]||200);
+if(!Number.isInteger(batch)||batch<1||batch>200)throw Error('Lot attendu : 1 à 200');
+let processed=0;
 const seen=new Map();
 for(const r of Object.values(saved))if(r.providerId)seen.set(r.provider+':'+r.providerId,r.id);
 for(const row of rows.values()){
  if(saved[row.id]?.version===3)continue;
+ if(processed>=batch)break;
  try{
  const wanted=parts(row.artist);
  const suggestions=[];
@@ -63,8 +67,10 @@ for(const row of rows.values()){
  if(key&&!duplicateOf)seen.set(key,row.id);
  saved[row.id]={...row,...found,duplicateOf,status:found?'preview_candidate':suggestions.length?'review_required':'no_exact_match',suggestions,version:3,checkedAt:new Date().toISOString()};
  await writeFile(output+'.tmp',JSON.stringify(saved,null,2)+'\n');await rename(output+'.tmp',output);
+ processed++;
  console.log(saved[row.id].status,row.artist,'—',row.title,found?.technical||'',duplicateOf?'doublon probable':'');
  }catch(e){console.error('Arrêt, relancer la même commande :',e.message);process.exitCode=1;break;}
 }
-console.log(output,Object.values(saved).filter(r=>r.version===3).length,'/',rows.size);
+console.log('Lot terminé :',processed,'références nouvelles');
+console.log(output,Object.values(saved).filter(r=>r.version===3&&rows.has(r.id)).length,'/',rows.size);
 console.log('HEAD ne garantit pas la lecture. Aucun extrait autorisé pour le jeu par ce script.');
