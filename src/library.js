@@ -49,6 +49,8 @@ const normalizeLibraryText = value => value.normalize('NFKD')
  .replace(/\p{M}/gu,'').toLowerCase().replace(/[^\p{L}\p{N}]+/gu,' ').trim();
 
 let seedTracks;
+let tracksById;
+let tracksByPlaylist;
 export function seedLibrary() {
  if(seedTracks)return seedTracks;
  const existing=LIBRARY_SEED.split('\n').map(line=>{
@@ -67,7 +69,16 @@ export function seedLibrary() {
    playlists:[...new Set([...(previous?.playlists||[]),...playlists])],
    work:work||previous?.work||null,source:source||previous?.source||null});
  }
- seedTracks=[...tracks.values()];
+ tracksById=tracks;
+ seedTracks=[...tracks.values()].sort((a,b)=>a.title.localeCompare(b.title,'fr')||a.id.localeCompare(b.id,'fr'));
+ tracksByPlaylist=new Map();
+ for(const track of seedTracks){
+  track.search=normalizeLibraryText(track.title+' '+track.artist+' '+(track.work??''));
+  for(const playlist of track.playlists){
+   if(!tracksByPlaylist.has(playlist))tracksByPlaylist.set(playlist,[]);
+   tracksByPlaylist.get(playlist).push(track);
+  }
+ }
  return seedTracks;
 }
 
@@ -80,109 +91,73 @@ export function libraryRouteParams(url) {
   ? {playlist,offset,query,excluded:url.searchParams.get('excluded')==='1'} : null;
 }
 
-const libraryPAGE = 30;
-const libraryBATCH = 25;
+const libraryPage=30;
 
 export class MusicLibrary extends DurableObject {
  constructor(ctx,env) {
   super(ctx,env);
   this.db=ctx.storage.sql;
+  seedLibrary();
+ }
+
+ exclusions() {
+  // Read exclusions from the previous catalogue as well as newly excluded tracks.
+  const exists=this.db.exec("SELECT 1 FROM sqlite_master WHERE type='table' AND name='library_track'").toArray().length;
+  if(!exists)return new Set();
+  return new Set(this.db.exec('SELECT id FROM library_track WHERE excluded=1').toArray().map(row=>row.id));
+ }
+
+ summary() {
+  const excluded=this.exclusions();
+  const categories=libraryGroups().map(group=>({...group,playlists:group.playlists.map(
+   playlist=>({...playlist,references:(tracksByPlaylist.get(playlist.id)||[]).filter(track=>!excluded.has(track.id)).length,playable:0})
+  )}));
+  return {categories,references:(tracksByPlaylist.get('mix')||[]).filter(track=>!excluded.has(track.id)).length,
+   playable:0,import:this.refresh()};
+ }
+
+ list({playlist,offset,query,excluded}) {
+  const exclusions=this.exclusions();
+  const matches=(tracksByPlaylist.get(playlist)||[]).filter(track=>exclusions.has(track.id)===excluded&&track.search.includes(query));
+  const tracks=matches.slice(offset,offset+libraryPage).map(({id,title,artist,year,work,source})=>({
+   id,title,artist,year:year||null,work,source:librarySources[source]??source??null,
+   excluded:Number(excluded),available:false,difficulty:null
+  }));
+  return {tracks,next:offset+libraryPage<matches.length?offset+libraryPage:null};
+ }
+
+ candidates(playlist,limit){
+  const excluded=this.exclusions();
+  const tracks=(tracksByPlaylist.get(playlist)||[]).filter(track=>!excluded.has(track.id));
+  const count=Math.min(tracks.length,limit);
+  for(let i=0;i<count;i++){
+   const j=i+Math.floor(Math.random()*(tracks.length-i));
+   [tracks[i],tracks[j]]=[tracks[j],tracks[i]];
+  }
+  return tracks.slice(0,count).map(({id,title,artist,year,work})=>({id,title,artist,year,work}));
+ }
+
+ setExcluded(id,excluded) {
+  const track=tracksById.get(id);
+  if(!track)return false;
+  if(this.exclusions().has(id)===excluded)return true;
   this.db.exec(`
    CREATE TABLE IF NOT EXISTS library_track (
     id TEXT PRIMARY KEY, title TEXT NOT NULL, artist TEXT NOT NULL,
     year INTEGER NOT NULL, work TEXT, source TEXT, search TEXT NOT NULL, excluded INTEGER NOT NULL DEFAULT 0
-   );
-   CREATE TABLE IF NOT EXISTS library_membership (
-    playlist TEXT NOT NULL, track TEXT NOT NULL REFERENCES library_track(id),
-    PRIMARY KEY (playlist, track)
-   );
-   CREATE INDEX IF NOT EXISTS library_membership_track ON library_membership(track);
-   CREATE INDEX IF NOT EXISTS library_track_order ON library_track(title COLLATE NOCASE, id);
-   CREATE TABLE IF NOT EXISTS library_import (
-    only_row INTEGER PRIMARY KEY CHECK (only_row=1), version INTEGER NOT NULL,
-    cursor INTEGER NOT NULL, total INTEGER NOT NULL, finished TEXT
-   );
+   )
   `);
+  this.db.exec(`
+   INSERT INTO library_track (id,title,artist,year,work,source,search,excluded) VALUES (?,?,?,?,?,?,?,?)
+   ON CONFLICT(id) DO UPDATE SET excluded=excluded.excluded
+  `,id,track.title,track.artist,track.year,track.work,track.source,track.search,Number(excluded));
+  return true;
  }
 
- progress() {
-  return this.db.exec('SELECT version, cursor, total, finished FROM library_import WHERE only_row=1')
-   .toArray()[0]??null;
+ refresh() {
+  return {version:LIBRARY_SEED_VERSION,cursor:seedTracks.length,total:seedTracks.length,finished:true};
  }
 
- async summary() {
-  if(this.progress()?.version!==LIBRARY_SEED_VERSION)await this.refresh();
-  const counts=Object.fromEntries(this.db.exec(`
-   SELECT playlist, COUNT(*) AS total FROM library_membership
-   JOIN library_track ON track=id WHERE excluded=0 GROUP BY playlist
-  `).toArray().map(row=>[row.playlist,row.total]));
-  const categories=libraryGroups().map(group=>({...group,playlists:group.playlists.map(
-   playlist=>({...playlist,references:counts[playlist.id]??0,playable:0})
-  )}));
-  return {categories,references:counts.mix??0,playable:0,import:this.progress()};
- }
-
- list({playlist,offset,query,excluded}) {
-  const rows=this.db.exec(`
-   SELECT id,title,artist,year,work,source,excluded FROM library_membership
-   JOIN library_track ON track=id
-   WHERE playlist=? AND excluded=? AND search LIKE ?
-   ORDER BY title COLLATE NOCASE,id LIMIT ? OFFSET ?
-  `,playlist,Number(excluded),'%'+query+'%',libraryPAGE+1,offset).toArray();
-  return {tracks:rows.slice(0,libraryPAGE).map(row=>({...row,year:row.year||null,source:librarySources[row.source]??row.source??null,available:false,difficulty:null})),
-   next:rows.length>libraryPAGE?offset+libraryPAGE:null};
- }
-
- candidates(playlist,limit){
-  return this.db.exec(`
-   SELECT id,title,artist,year,work FROM library_membership JOIN library_track ON track=id
-   WHERE playlist=? AND excluded=0 ORDER BY RANDOM() LIMIT ?
-  `,playlist,limit).toArray();
- }
-
- setExcluded(id,excluded) {
-  return this.db.exec('UPDATE library_track SET excluded=? WHERE id=? RETURNING id',
-   Number(excluded),id).toArray().length>0;
- }
-
- async refresh(force=false) {
-  const state=this.progress();
-  if(!state||state.version!==LIBRARY_SEED_VERSION||force&&state.finished){
-   const seeds=seedLibrary();
-   this.db.exec(`
-    INSERT INTO library_import VALUES (1,?,0,?,NULL)
-    ON CONFLICT(only_row) DO UPDATE SET version=excluded.version,
-    cursor=0,total=excluded.total,finished=NULL
-   `,LIBRARY_SEED_VERSION,seeds.length);
-  }
-  if(!this.progress().finished){
-   // A pending alarm also makes a first visit recoverable if the request disconnects.
-   await this.ctx.storage.setAlarm(Date.now()+1000);
-  }
-  return this.progress();
- }
-
- async alarm() {
-  const state=this.progress();
-  if(!state||state.finished)return;
-  const end=Math.min(state.cursor+libraryBATCH,state.total);
-  if(end<state.total)await this.ctx.storage.setAlarm(Date.now()+1000);
-  // Commit the batch and its cursor together. Replays preserve exclusions.
-  this.ctx.storage.transactionSync(()=>{
-   for(const track of seedLibrary().slice(state.cursor,end)){
-    this.db.exec(`
-     INSERT INTO library_track (id,title,artist,year,work,source,search) VALUES (?,?,?,?,?,?,?)
-     ON CONFLICT(id) DO UPDATE SET title=excluded.title,artist=excluded.artist,
-     year=excluded.year,work=excluded.work,source=excluded.source,search=excluded.search
-    `,track.id,track.title,track.artist,track.year,track.work,track.source,
-    normalizeLibraryText(track.title+' '+track.artist+' '+(track.work??'')));
-    this.db.exec('DELETE FROM library_membership WHERE track=?',track.id);
-    for(const playlist of track.playlists){
-     this.db.exec('INSERT INTO library_membership VALUES (?,?)',playlist,track.id);
-    }
-   }
-   this.db.exec('UPDATE library_import SET cursor=?,finished=? WHERE only_row=1',
-    end,end===state.total?new Date().toISOString():null);
-  });
- }
+ // Alarms scheduled by the old importer can still be delivered after deployment.
+ alarm() {}
 }

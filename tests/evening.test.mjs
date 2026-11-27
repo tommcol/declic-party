@@ -50,11 +50,12 @@ function setup(){
 
 test('Seule la clé animateur permet de gérer sa soirée et les créations concurrentes sont arbitrées',async()=>{
  const {request}=setup();
- const change={expected:null,id:crypto.randomUUID()};
- const results=await Promise.all([request('POST',change),request('POST',{...change,id:crypto.randomUUID()})]);
- assert.deepEqual(results.map(r=>r.status),[200,409]);
- const {active}=await results[0].json();
- const duplicate=await request('POST',change);
+ const changes=Array.from({length:2},()=>({expected:null,id:crypto.randomUUID()}));
+ const results=await Promise.all(changes.map(change=>request('POST',change)));
+ assert.deepEqual(results.map(r=>r.status).sort(),[200,409]);
+ const winner=results.findIndex(r=>r.status===200);
+ const {active}=await results[winner].json();
+ const duplicate=await request('POST',changes[winner]);
  assert.equal((await duplicate.json()).active.code,active.code);
  assert.equal((await request('DELETE',{expected:active.code},active.code)).status,403);
  assert.equal((await request('DELETE',{expected:active.code},active.token)).status,403);
