@@ -26,8 +26,8 @@ function valid(url,provider){try{const u=new URL(url);return u.protocol==='https
 async function probe(url){
  try{const r=await fetch(url,{method:'HEAD',signal:AbortSignal.timeout(15000),redirect:'error'});return r.ok&&/^audio\//i.test(r.headers.get('content-type')||'')?'head_audio_ok':'unverified';}catch{return 'unverified';}
 }
-const batch=Number(process.argv[4]||200);
-if(!Number.isInteger(batch)||batch<1||batch>200)throw Error('Lot attendu : 1 à 200');
+const batch=Number(process.argv[4]||500);
+if(!Number.isInteger(batch)||batch<1||batch>500)throw Error('Lot attendu : 1 à 500');
 let processed=0;
 const seen=new Map();
 for(const r of Object.values(saved))if(r.providerId)seen.set(r.provider+':'+r.providerId,r.id);
