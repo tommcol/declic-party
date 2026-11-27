@@ -9936,7 +9936,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "annual_listening",
+          "year": 2025,
+          "rank": 1,
+          "source": "https://www.chartsinfrance.net/actualite/news-134827.html"
+        }
+      ]
     },
     {
       "artist": "Black M",
@@ -12123,7 +12131,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "radio_annual",
+          "year": 2025,
+          "detail": "Programmation sur 93 stations",
+          "source": "https://www.chartsinfrance.net/actualite/news-134827.html"
+        }
+      ]
     },
     {
       "artist": "Linh",
@@ -12375,7 +12391,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "annual_listening",
+          "year": 2025,
+          "rank": 9,
+          "source": "https://www.chartsinfrance.net/actualite/news-134827.html"
+        }
+      ]
     },
     {
       "artist": "Werenoi",
@@ -16731,7 +16755,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "annual_listening",
+          "year": 2025,
+          "rank": 2,
+          "source": "https://www.chartsinfrance.net/actualite/news-134827.html"
+        }
+      ]
     },
     {
       "artist": "Gims",
@@ -16749,7 +16781,15 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "annual_listening",
+          "year": 2025,
+          "rank": 3,
+          "source": "https://www.chartsinfrance.net/actualite/news-134827.html"
+        }
+      ]
     },
     {
       "artist": "Theodora",
@@ -17154,7 +17194,21 @@
       "releaseYear": null,
       "genre": null,
       "chartVerified": false,
-      "audioVerified": false
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "annual_listening",
+          "year": 2025,
+          "rank": 4,
+          "source": "https://www.chartsinfrance.net/actualite/news-134827.html"
+        },
+        {
+          "type": "radio_annual",
+          "year": 2025,
+          "detail": "Titre francophone le plus diffusé",
+          "source": "https://www.chartsinfrance.net/actualite/news-134827.html"
+        }
+      ]
     },
     {
       "artist": "Jacques Brel",
@@ -18901,6 +18955,431 @@
       "genre": null,
       "chartVerified": false,
       "audioVerified": false
+    },
+    {
+      "artist": "Jean-Jacques Goldman",
+      "title": "Je marche seul",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "year": 1985,
+          "rank": 194,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
+    },
+    {
+      "artist": "Jean-Jacques Goldman",
+      "title": "La vie par procuration",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "physical_certification",
+          "year": 1986,
+          "rank": null,
+          "source": "https://infodisc.fr/Chanson_Certification_Or.php?debut=250"
+        }
+      ]
+    },
+    {
+      "artist": "Jairo",
+      "title": "Les Jardins du ciel",
+      "artistGeneration": 1970,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "year": 1980,
+          "rank": 78,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
+    },
+    {
+      "artist": "Dorothée",
+      "title": "Rox et Rouky",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "year": 1982,
+          "rank": 118,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
+    },
+    {
+      "artist": "Francis Lalanne",
+      "title": "On se retrouvera",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "year": 1986,
+          "rank": 132,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
+    },
+    {
+      "artist": "Andrea Bocelli & Hélène Ségara",
+      "title": "Vivo per lei",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "year": 1997,
+          "rank": 137,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
+    },
+    {
+      "artist": "Cécilia Cara & Damien Sargue",
+      "title": "Aimer",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "year": 2000,
+          "rank": 187,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
+    },
+    {
+      "artist": "Sheila",
+      "title": "Toujours des beaux jours",
+      "artistGeneration": 1960,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "year": 1965,
+          "rank": 1990,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
+    },
+    {
+      "artist": "Marie Laforêt",
+      "title": "Que calor la vida",
+      "artistGeneration": 1960,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "year": 1968,
+          "rank": 1991,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
+    },
+    {
+      "artist": "Richard Anthony",
+      "title": "Donne-moi ma chance",
+      "artistGeneration": 1960,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "year": 1963,
+          "rank": 1992,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
+    },
+    {
+      "artist": "Sylvie Vartan",
+      "title": "Il revient",
+      "artistGeneration": 1960,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "year": 1963,
+          "rank": 1993,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
+    },
+    {
+      "artist": "Bernard Minet",
+      "title": "Dis-moi Bioman",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "year": 1989,
+          "rank": 1994,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
+    },
+    {
+      "artist": "Elsa",
+      "title": "Jamais nous",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "year": 1989,
+          "rank": 1995,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
+    },
+    {
+      "artist": "Michel Delpech",
+      "title": "Fan de toi",
+      "artistGeneration": 1960,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "year": 1972,
+          "rank": 1997,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
+    },
+    {
+      "artist": "Johnny Hallyday",
+      "title": "Les Bras en croix",
+      "artistGeneration": 1960,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "year": 1963,
+          "rank": 1974,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
+    },
+    {
+      "artist": "Patrick Juvet",
+      "title": "De plus en plus seul",
+      "artistGeneration": 1970,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "year": 1978,
+          "rank": 1977,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
+    },
+    {
+      "artist": "Frédéric François",
+      "title": "Mal tu me fais mal",
+      "artistGeneration": 1970,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "historical_sales_all_time",
+          "year": 1975,
+          "rank": 1983,
+          "source": "https://infodisc.fr/Ventes_Chansons_Tout_Temps.php"
+        }
+      ]
+    },
+    {
+      "artist": "J.J. Lionel",
+      "title": "La Danse des petits chats",
+      "artistGeneration": 1980,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "physical_certification",
+          "year": 1981,
+          "rank": null,
+          "source": "https://infodisc.fr/Chanson_Certification_Or.php?debut=250"
+        }
+      ]
+    },
+    {
+      "artist": "Jean Dujardin",
+      "title": "Le Casse de Brice",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "physical_certification",
+          "year": 2005,
+          "rank": null,
+          "source": "https://infodisc.fr/Chanson_Certification_Or.php?debut=250"
+        }
+      ]
+    },
+    {
+      "artist": "Jean-Pascal",
+      "title": "L'Agitateur",
+      "artistGeneration": 2000,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "physical_certification",
+          "year": 2002,
+          "rank": null,
+          "source": "https://infodisc.fr/Chanson_Certification_Or.php?debut=250"
+        }
+      ]
+    },
+    {
+      "artist": "Jean-Philippe Audin & Diego Modena",
+      "title": "Song of Ocarina",
+      "artistGeneration": 1990,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "physical_certification",
+          "year": 1992,
+          "rank": null,
+          "source": "https://infodisc.fr/Chanson_Certification_Or.php?debut=250"
+        }
+      ]
+    },
+    {
+      "artist": "Bleu Soleil & Luiza",
+      "title": "Soleil Bleu",
+      "artistGeneration": 2020,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "annual_listening",
+          "year": 2025,
+          "rank": 5,
+          "source": "https://www.chartsinfrance.net/actualite/news-134827.html"
+        }
+      ]
+    },
+    {
+      "artist": "Gims",
+      "title": "Sois pas timide",
+      "artistGeneration": 2020,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "annual_listening",
+          "year": 2025,
+          "rank": 6,
+          "source": "https://www.chartsinfrance.net/actualite/news-134827.html"
+        }
+      ]
+    },
+    {
+      "artist": "Keblack",
+      "title": "Mood",
+      "artistGeneration": 2020,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "annual_listening",
+          "year": 2025,
+          "rank": 7,
+          "source": "https://www.chartsinfrance.net/actualite/news-134827.html"
+        }
+      ]
+    },
+    {
+      "artist": "Hamza",
+      "title": "KYKY2BONDY",
+      "artistGeneration": 2020,
+      "releaseYear": null,
+      "genre": null,
+      "chartVerified": false,
+      "audioVerified": false,
+      "chartEvidence": [
+        {
+          "type": "annual_listening",
+          "year": 2025,
+          "rank": 10,
+          "source": "https://www.chartsinfrance.net/actualite/news-134827.html"
+        }
+      ]
     }
   ]
 }
