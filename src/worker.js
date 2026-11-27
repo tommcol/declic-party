@@ -37,24 +37,28 @@ async function libraryRoute(req,env,url){
  const library=env.MUSIC_LIBRARY.getByName(await digest(credential));
  if(req.method==='GET'){
   if(url.pathname==='/api/library')return json(await library.summary());
-  if(url.pathname==='/api/library/candidates'){
-   const ids=url.searchParams.getAll('playlist');
-   const playlists=ids.length?ids:['mix'];
-   const valid=playlists.every(id=>libraryRouteParams(new URL('/?playlist='+encodeURIComponent(id),url)));
-   return valid?json({tracks:await library.candidates([...new Set(playlists)])}):json({error:'Playlist inconnue.'},400);
+  if(url.pathname==='/api/library/candidates'||url.pathname==='/api/library/tracks'){
+   const params=libraryRouteParams(url);
+   if(!params)return json({error:'Recherche ou filtres invalides.'},400);
+   const response=url.pathname.endsWith('/tracks')?await library.list(params):await library.candidates(params);
+   if(!response)return json({error:'Playlist inconnue.'},404);
+   return json(url.pathname.endsWith('/tracks')?response:{tracks:response});
   }
   if(url.pathname==='/api/library/previews'){
    const queries=url.searchParams.getAll('q');
    if(!queries.length||queries.length>8||queries.some(q=>q.length<2||q.length>180))return json({error:'Recherche invalide.'},400);
    return json({results:await libraryPreviews(queries)});
   }
-  if(url.pathname==='/api/library/tracks'){
-   const params=libraryRouteParams(url);
-   return params?json(await library.list(params)):json({error:'Recherche invalide.'},400);
-  }
  }
  if(req.method==='POST'||req.method==='PATCH'){
   if(req.headers.get('Origin')!==url.origin)return json({error:'Origine refusée.'},403);
+  if(req.method==='POST'&&url.pathname==='/api/library/playlists'){
+   let data;
+   try{data=JSON.parse(await boundedText(req,16000));}
+   catch{return json({error:'Demande invalide.'},400);}
+   const playlist=await library.savePlaylist(data?.name,data?.filters);
+   return playlist?json({playlist},201):json({error:'Vérifiez le nom, les filtres et la limite de 100 playlists.'},400);
+  }
   if(req.method==='POST'&&url.pathname==='/api/library/refresh'){
    return json({import:await library.refresh(true)},202);
   }

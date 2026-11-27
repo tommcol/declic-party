@@ -1,5 +1,4 @@
 import { DurableObject } from "cloudflare:workers";
-import { LIBRARY_SEED, LIBRARY_SEED_VERSION } from './library-seed.js';
 import { LIBRARY_ARTISTS, LIBRARY_MASTER } from './library-master.js';
 
 const librarySources = {
@@ -10,12 +9,10 @@ const librarySources = {
 };
 
 const groups = [
- ['decades','Décennies & années','📀',[
-  ...[1960,1970,1980,1990,2000,2010].map(year=>[String(year), 'Années '+(year<2000?String(year).slice(2):year),'📀'])
- ]],
+ ['decades','Décennies & années','📀',[]],
  ['genres','Genres musicaux','🎧',[
   ['disco','Disco & Funk','🪩'],['rapus','Rap US & R&B','🎤'],['rapfr','Rap français','🎙️'],
-  ['rock','Rock & Hard Rock','🎸'],['pop','Pop internationale','🌍'],['dance','Dance & Électro','⚡'],['var','Variété française','🎶'],
+  ['rock','Rock & Hard Rock','🎸'],['pop','Pop','🌍'],['dance','Dance & Électro','⚡'],['var','Variété française','🎶'],
   ['reggae','Reggae','🎵'],['world','Musiques du monde','🌎'],['instrumental','Musiques instrumentales','🎼']
  ]],
  ['screen','Cinéma & Télévision','🎬',[
@@ -29,17 +26,22 @@ const groups = [
   ['duos','Duos célèbres','🎙️'],['covers','Reprises & Covers','🔁'],['forgotten','Hits oubliés','📻']
  ]],
  ['hits','Grands succès','⭐',[
-  ['fr','Hits français','🇫🇷'],['intl','Hits internationaux','🌍'],['alltime','Tubes de tous les temps','🏆'],['mix','Mélange général','🔀']
+  ['fr','Hits français','🇫🇷'],['intl','Hits internationaux','🌍'],['alltime','Tubes de tous les temps','🏆'],['mix','Toutes les musiques','🔀']
  ]],
  ['artists','Artistes','🎤',LIBRARY_ARTISTS]
 ];
+
+const decadeId=decade=>decade<2020?String(decade):'decade-'+decade;
 
 export function libraryGroups(year = new Date().getUTCFullYear()) {
  return groups.map(([id,name,icon,entries])=>{
   const playlists=entries.map(([id,name,icon])=>({id,name,icon}));
   if(id==='decades'){
-   for(let current=2020;current<=year;current++){
-    playlists.push({id:String(current),name:'Hits '+current,icon:'📀'});
+   for(let decade=1900;decade<=year;decade+=10){
+    playlists.push({id:decadeId(decade),name:'Années '+decade,icon:'📀'});
+   }
+   for(let current=1900;current<=year;current++){
+    playlists.push({id:'year-'+current,name:String(current),icon:'📀'});
    }
   }
   return {id,name,icon,playlists};
@@ -54,21 +56,13 @@ let tracksById;
 let tracksByPlaylist;
 export function seedLibrary() {
  if(seedTracks)return seedTracks;
- const existing=LIBRARY_SEED.split('\n').map(line=>{
-  const [originalYear,rawArtist,title,tags,work,source]=line.split('|');
-  const year=Number(originalYear), artist=rawArtist.trim();
-  const id=normalizeLibraryText(artist)+'|'+normalizeLibraryText(title);
-  const decade=year>=2020?year:year-year%10;
-  const playlists=[...new Set([String(decade),...tags.split(','),'mix'])];
-  return {id,title,artist,year,playlists,work:work||null,source:source??null};
- });
- const tracks=new Map(existing.map(track=>[track.id,track]));
+ const tracks=new Map();
  for(const [title,artist,year,playlists,work,source] of LIBRARY_MASTER){
   const id=normalizeLibraryText(artist)+'|'+normalizeLibraryText(title);
-  const previous=tracks.get(id);
-  tracks.set(id,{id,title,artist,year:year||previous?.year||0,
-   playlists:[...new Set([...(previous?.playlists||[]),...playlists])],
-   work:work||previous?.work||null,source:source||previous?.source||null});
+  const decade=year&&decadeId(year-year%10);
+  const tags=playlists.filter(tag=>!year||!/^\d{4}$/.test(tag));
+  if(year)tags.push(decade,'year-'+year);
+  tracks.set(id,{id,title,artist,year:year||0,playlists:[...new Set(tags)],work,source});
  }
  tracksById=tracks;
  seedTracks=[...tracks.values()].sort((a,b)=>a.title.localeCompare(b.title,'fr')||a.id.localeCompare(b.id,'fr'));
@@ -83,13 +77,41 @@ export function seedLibrary() {
  return seedTracks;
 }
 
+const filterFamilies={
+ origin:['fr','intl'],
+ period:libraryGroups()[0].playlists.map(item=>item.id),
+ genres:groups.find(group=>group[0]==='genres')[3].map(([id])=>id),
+ artists:LIBRARY_ARTISTS.map(([id])=>id),
+ themes:groups.filter(([id])=>['screen','party','themes','hits'].includes(id))
+  .flatMap(group=>group[3].map(([id])=>id)).filter(id=>!['fr','intl','mix'].includes(id))
+};
+const validFilters=Object.fromEntries(Object.entries(filterFamilies).map(([key,ids])=>[key,new Set(ids)]));
+const familyByPlaylist=new Map(Object.entries(filterFamilies).flatMap(([family,ids])=>ids.map(id=>[id,family])));
+const playlistIds=new Set(libraryGroups().flatMap(group=>group.playlists.map(item=>item.id)));
+const customId=id=>/^custom-[0-9a-f]{8}(?:-[0-9a-f]{4}){3}-[0-9a-f]{12}$/.test(id);
+const legacyYear=id=>/^20[2-9][0-9]$/.test(id)&&playlistIds.has('year-'+id)?'year-'+id:id;
+const isPlaylist=id=>playlistIds.has(id)||customId(id);
+
+export function parseLibraryFilters(input) {
+ if(!input||typeof input!=='object'||Array.isArray(input))return null;
+ const filters={};
+ for(const [family,values] of Object.entries(input)){
+  const allowed=family==='base'?{size:1,has:isPlaylist}:validFilters[family];
+  if(!allowed||!Array.isArray(values)||values.length>allowed.size||values.some(value=>typeof value!=='string'||!allowed.has(value)))return null;
+  if(values.length)filters[family]=[...new Set(values)];
+ }
+ return filters;
+}
+
 export function libraryRouteParams(url) {
- const playlist=url.searchParams.get('playlist') || 'mix';
- const valid=libraryGroups().some(group=>group.playlists.some(item=>item.id===playlist));
- const offset=Number(url.searchParams.get('offset')||0);
- const query=normalizeLibraryText((url.searchParams.get('q')||'').slice(0,100));
- return valid&&Number.isSafeInteger(offset)&&offset>=0&&offset<=100000
-  ? {playlist,offset,query,excluded:url.searchParams.get('excluded')==='1'} : null;
+ const p=url.searchParams, offset=Number(p.get('offset')||0);
+ const filters=parseLibraryFilters(Object.fromEntries(Object.keys(filterFamilies).map(key=>[key,p.getAll(key)])));
+ const playlists=p.getAll('playlist').map(legacyYear);
+ const sort=p.get('sort')||'title';
+ if(!filters||playlists.some(id=>!isPlaylist(id))||!Number.isSafeInteger(offset)||offset<0||offset>100000||
+    !['title','artist','year','year-desc'].includes(sort))return null;
+ return {playlists,filters,offset,sort,query:normalizeLibraryText((p.get('q')||'').slice(0,100)),
+  excluded:p.get('excluded')==='1'};
 }
 
 const libraryPage=30;
@@ -108,34 +130,84 @@ export class MusicLibrary extends DurableObject {
   return new Set(this.db.exec('SELECT id FROM library_track WHERE excluded=1').toArray().map(row=>row.id));
  }
 
+ savedPlaylists() {
+  this.db.exec('CREATE TABLE IF NOT EXISTS library_playlist (id TEXT PRIMARY KEY, name TEXT NOT NULL, filters TEXT NOT NULL)');
+  return this.db.exec('SELECT id,name,filters FROM library_playlist ORDER BY name').toArray()
+   .map(row=>({...row,filters:JSON.parse(row.filters)}));
+ }
+
+ savePlaylist(name,filters) {
+  if(typeof name!=='string'||!name.trim()||name.trim().length>80||!parseLibraryFilters(filters))return null;
+  const existing=this.savedPlaylists();
+  if(filters.base?.some(id=>customId(id)&&!existing.some(item=>item.id===id)))return null;
+  const prior=existing.find(item=>item.name===name.trim()&&JSON.stringify(item.filters)===JSON.stringify(filters));
+  if(prior)return prior;
+  if(existing.length>=100)return null;
+  const item={id:'custom-'+crypto.randomUUID(),name:name.trim(),filters};
+  this.db.exec('INSERT INTO library_playlist (id,name,filters) VALUES (?,?,?)',item.id,item.name,JSON.stringify(filters));
+  return item;
+ }
+
+ matches({playlists,filters}) {
+  const needsSaved=[...playlists,...(filters.base||[])].some(customId);
+  const saved=needsSaved?new Map(this.savedPlaylists().map(item=>[item.id,item.filters])):new Map();
+  if([...playlists,...(filters.base||[])].some(id=>customId(id)&&!saved.has(id)))return null;
+  const byId=id=>saved.has(id)?byFilters(saved.get(id)):track=>track.playlists.includes(id);
+  const byFilters=selection=>{
+   const families=Object.values(selection).map(ids=>ids.map(byId));
+   return track=>families.every(family=>family.some(match=>match(track)));
+  };
+  const selectedFamilies=new Map();
+  for(const id of playlists){
+   if(id==='mix')continue;
+   const family=familyByPlaylist.get(id)||id;
+   const members=selectedFamilies.get(family)||[];
+   members.push(byId(id));
+   selectedFamilies.set(family,members);
+  }
+  const selected=[...selectedFamilies.values()];
+  const extra=byFilters(filters);
+  return seedTracks.filter(track=>selected.every(family=>family.some(match=>match(track)))&&extra(track));
+ }
+
  summary() {
   const excluded=this.exclusions();
-  const categories=libraryGroups().map(group=>({...group,playlists:group.playlists.map(
-   playlist=>({...playlist,references:(tracksByPlaylist.get(playlist.id)||[]).filter(track=>!excluded.has(track.id)).length,playable:0})
-  )}));
-  return {categories,references:(tracksByPlaylist.get('mix')||[]).filter(track=>!excluded.has(track.id)).length,
-   playable:0,import:this.refresh()};
+  const categories=libraryGroups().map(group=>({...group,playlists:group.playlists.map(playlist=>({
+   ...playlist,references:(tracksByPlaylist.get(playlist.id)||[]).filter(track=>!excluded.has(track.id)).length,
+   playable:null
+  }))}));
+  const saved=this.savedPlaylists();
+  if(saved.length)categories.push({id:'custom',name:'Playlists personnalisées',icon:'🎛️',
+   playlists:saved.map(item=>({...item,icon:'🎛️',references:this.matches({playlists:[],filters:item.filters})
+    .filter(track=>!excluded.has(track.id)).length,playable:null}))});
+  return {categories,references:categories.find(group=>group.id==='hits').playlists.find(item=>item.id==='mix').references,
+   total:seedTracks.length,playable:null,filterFamilies,import:this.refresh()};
  }
 
- list({playlist,offset,query,excluded}) {
+ list(params) {
+  const {offset,query,excluded,sort}=params;
   const exclusions=this.exclusions();
-  const matches=(tracksByPlaylist.get(playlist)||[]).filter(track=>exclusions.has(track.id)===excluded&&track.search.includes(query));
-  const tracks=matches.slice(offset,offset+libraryPage).map(({id,title,artist,year,work,source})=>({
-   id,title,artist,year:year||null,work,source:librarySources[source]??source??null,
-   excluded:Number(excluded),available:false,difficulty:null
-  }));
-  return {tracks,next:offset+libraryPage<matches.length?offset+libraryPage:null};
+  const pool=this.matches(params);
+  if(!pool)return null;
+  const terms=query.split(' ').filter(Boolean);
+  const matches=pool.filter(track=>exclusions.has(track.id)===excluded&&terms.every(term=>track.search.includes(term)));
+  if(sort==='artist')matches.sort((a,b)=>a.artist.localeCompare(b.artist,'fr'));
+  if(sort.startsWith('year'))matches.sort((a,b)=>Number(!a.year)-Number(!b.year)||
+   (sort==='year'?a.year-b.year:b.year-a.year));
+  const tracks=matches.slice(offset,offset+libraryPage).map(track=>({...this.describe(track),
+   excluded:Number(excluded),available:null,audioStatus:'unknown'}));
+  return {tracks,total:matches.length,next:offset+libraryPage<matches.length?offset+libraryPage:null,playable:null};
  }
 
- candidates(playlists) {
+ describe({id,title,artist,year,work,source,playlists}) {
+  return {id,title,artist,year:year||null,work,source:librarySources[source]??source??null,
+   genres:playlists.filter(tag=>validFilters.genres.has(tag)),
+   origins:playlists.filter(tag=>validFilters.origin.has(tag)),playlists};
+ }
+
+ candidates(params) {
   const excluded=this.exclusions();
-  const unique=new Map();
-  for(const playlist of playlists){
-   for(const track of tracksByPlaylist.get(playlist)||[]){
-    if(!excluded.has(track.id))unique.set(track.id,track);
-   }
-  }
-  return [...unique.values()].map(({id,title,artist,year,work})=>({id,title,artist,year,work}));
+  return this.matches(params)?.filter(track=>!excluded.has(track.id)).map(track=>this.describe(track))??null;
  }
 
  setExcluded(id,excluded) {
@@ -156,7 +228,7 @@ export class MusicLibrary extends DurableObject {
  }
 
  refresh() {
-  return {version:LIBRARY_SEED_VERSION,cursor:seedTracks.length,total:seedTracks.length,finished:true};
+  return {version:LIBRARY_REVISION,cursor:seedTracks.length,total:seedTracks.length,finished:true};
  }
 
  // Alarms scheduled by the old importer can still be delivered after deployment.

@@ -1,5 +1,6 @@
+import {createHash,randomUUID} from 'node:crypto';
 import {pathToFileURL} from 'node:url';
-import {readFile,writeFile,mkdir} from 'node:fs/promises';
+import {readFile,writeFile,mkdir,rename} from 'node:fs/promises';
 const files=['index.html','style.css','app.js','engine.js','audio.js','catalog.js','qrcode.js','music-library.js','tyrolien-ui.js','roulette.js','teams.js','team-ui.js'];
 const types={html:'text/html; charset=utf-8',css:'text/css; charset=utf-8',js:'text/javascript; charset=utf-8'};
 const assets={};for(const f of files)assets['/'+f]={body:await readFile(new URL('public/'+f,import.meta.url),'utf8'),type:types[f.split('.').pop()]};
@@ -8,7 +9,6 @@ await writeFile(new URL('src/assets.generated.js',import.meta.url),'export const
 let worker=await readFile(new URL('src/worker.js',import.meta.url),'utf8');
 worker=worker.replace("import {createGame,applyAction,publicGame,normalizeQuizCredit,roundStatistics,BINGO_CARD_SIZE} from '../public/engine.js';",'').replace("import {musicRoute,libraryPreviews} from './catalog.js';",'').replace("import {ASSETS} from './assets.generated.js';",'');
 worker=worker.replace("import {MusicLibrary,libraryRouteParams} from './library.js';",'').replace('export {MusicLibrary};','');
-const librarySeed=(await readFile(new URL('src/library-seed.js',import.meta.url),'utf8')).replaceAll('export ','');
 const libraryMaster=(await readFile(new URL('src/library-master.js',import.meta.url),'utf8')).replace(/^export /gm,'');
 const library=(await readFile(new URL('src/library.js',import.meta.url),'utf8'))
  .replace(/^import .*;$/gm,'');
@@ -20,11 +20,14 @@ const tyrolien=(await Promise.all(['public/roulette.js','public/teams.js','publi
 const catalog=(await readFile(new URL('src/catalog.js',import.meta.url),'utf8')).replaceAll('export ','');
 const engine=(await readFile(new URL('public/engine.js',import.meta.url),'utf8')).split('export const DEMO=')[0].replaceAll('export ','');
 await mkdir(new URL('dist/',import.meta.url),{recursive:true});
-const bundle='const ASSETS='+JSON.stringify(assets)+';\n'+engine+'\n'+catalog+'\n'+tyrolien+'\n'+librarySeed+'\n'+libraryMaster+'\n'+library+'\n'+worker;
+const bundle='const ASSETS='+JSON.stringify(assets)+';\n'+engine+'\n'+catalog+'\n'+tyrolien+'\nconst LIBRARY_REVISION='+JSON.stringify(createHash('sha256').update(libraryMaster).digest('hex').slice(0,12))+';\n'+libraryMaster+'\n'+library+'\n'+worker;
 export async function buildLocal(){
  const localBundle=bundle.replace("import { DurableObject } from 'cloudflare:workers';",
   "import { DurableObject, WebSocketRequestResponsePair } from '../local/runtime.mjs';");
- await writeFile(new URL('dist/local-worker.mjs',import.meta.url),localBundle);
+ const target=new URL('dist/local-worker.mjs',import.meta.url);
+ const temporary=new URL('dist/local-worker-'+randomUUID()+'.tmp',import.meta.url);
+ await writeFile(temporary,localBundle);
+ await rename(temporary,target);
 }
 if(process.argv[1]&&import.meta.url===pathToFileURL(process.argv[1]).href){
  await writeFile(new URL('dist/worker.mjs',import.meta.url),bundle);
