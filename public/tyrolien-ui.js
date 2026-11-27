@@ -41,7 +41,7 @@ export function tyrolienScreen(g, role, esc, invite, code, draft={}) {
    ${g.phase==='paused'?button('resume','Reprendre'):['listen','answer','result','vote','attack'].includes(g.phase)?button('pause','Pause'):''}
    ${['listen','answer'].includes(g.phase)?button('replay','Réécouter')+button('skip','Passer l’extrait'):''}
    ${['result','attack'].includes(g.phase)?button('next','Continuer'):''}
-   ${g.phase!=='finished'?button('stop','Terminer'):button('new-game','Choisir le jeu suivant')}
+   ${g.phase!=='finished'?button('stop','Terminer'):button('new-game','Choisir le jeu suivant')+button('home','Retour à l’accueil')}
   </div>`:'';
   const final=g.phase==='finished'?`<div class="ty-final">${winner?`<h3>Classement des équipes</h3><ol>${[winner.id,...g.eliminated.slice().reverse()].map(id=>`<li>${esc(g.teams.find(team=>team.id===id)?.name)}</li>`).join('')}</ol>`:''}<h3>Classement individuel</h3><ol>${g.scores.map(score=>`<li>${esc(score.name)} · ${score.points||0}/${score.played||0} bonne(s) réponse(s)</li>`).join('')}</ol></div>`:'';
   return `<main class="ty-screen ${tv?'ty-tv':''}"><header><div><h1>Le Tyrolien</h1><span>${g.round?`Manche ${g.round}`:'Blind test par équipes'}</span></div>${g.nextAt?`<strong data-ty-clock>${Math.max(0,Math.ceil((g.nextAt-Date.now())/1000))} s</strong>`:''}</header>

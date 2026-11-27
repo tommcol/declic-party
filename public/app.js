@@ -397,13 +397,15 @@ async function requestRoom(payload){
  if(!response.ok)throw Error(data.error);
  return data;
 }
+let resumeOnConnect=false;
 function openHostRoom(data,questions,effect,nextView){
+ resumeOnConnect=nextView==='resume';
  room=data.code;
  auth={type:'host',token:data.token};
  write('declic.host',{room,token:data.token,effect,questions});
  game=null;
  desk.stop();desk.id=null;audioReady=false;lastEvent=null;replyDraft={};
- view=nextView;
+ view=resumeOnConnect?'studio':nextView;
  connect();
 }
 function hostCredential(){
@@ -507,7 +509,7 @@ async function resumeEvening(){
  const state=usbQueue.at(-1)?.state??activeEvening.usb?.state;
  if(state){openUSB(state);return;}
  const saved=read('declic.host',{});
- openHostRoom(activeEvening,saved.room===activeEvening.code?saved.questions:[],saved.effect,'studio');
+ openHostRoom(activeEvening,saved.room===activeEvening.code?saved.questions:[],saved.effect,'resume');
 }
 function openUSB(state){
  clearTimeout(reconnect);
@@ -636,7 +638,7 @@ function receiveBingoAnswer(message){
 }
 function connect(){clearTimeout(reconnect);if(ws){ws.onclose=null;ws.close();}connected=false;ws=new WebSocket(`${location.protocol==='https:'?'wss:':'ws:'}//${location.host}/api/rooms/${room}`);const socket=ws;
  socket.onopen=()=>{connected=true;socket.send(JSON.stringify(auth));};
- socket.onmessage=e=>{if(e.data==='pong')return;try{const m=JSON.parse(e.data);if(m.type==='bingo-answer'){receiveBingoAnswer(m);return;}if(m.type==='error'){busy=false;if(pendingBingo){pendingBingo=undefined;render();}toast(m.message);if(view==='join')render();if(/expir|introuvable|refus|commencé|déjà|maximum|Entrez/.test(m.message)){socket.onclose=null;socket.close();connected=false;}return;}if(m.type==='session'){teamId=m.id;sessionStorage.setItem('declic.player.'+room,JSON.stringify({id:m.id,token:m.token}));auth={type:'join',token:m.token};role='player';view='phone';busy=false;}if(m.type==='state'){game=m.state;if(game.tyrolien){void receive();return;}game.teams=game.teams.map(({id,name,score,key,streak,eliminated,lives,bingo})=>({id,name,score,key,streak,eliminated,lives,bingo}));if(role==='host'){if(view==='studio'&&!game.questions.length)view='setup';const saved=read('declic.host',{});if(saved.room===room){game.effect=saved.effect||game.effect;game.questions=game.questions.map(q=>({...q,...saved.questions?.find(v=>v.id===q.id),duration:q.duration}));}if(game.phase==='playing'&&!audioReady)void ensureAudio().catch(error=>toast(error.message));}void receive();}}catch{toast('Erreur de synchronisation.');}};
+ socket.onmessage=e=>{if(e.data==='pong')return;try{const m=JSON.parse(e.data);if(m.type==='bingo-answer'){receiveBingoAnswer(m);return;}if(m.type==='error'){busy=false;if(pendingBingo){pendingBingo=undefined;render();}toast(m.message);if(view==='join')render();if(/expir|introuvable|refus|commencé|déjà|maximum|Entrez/.test(m.message)){socket.onclose=null;socket.close();connected=false;}return;}if(m.type==='session'){teamId=m.id;sessionStorage.setItem('declic.player.'+room,JSON.stringify({id:m.id,token:m.token}));auth={type:'join',token:m.token};role='player';view='phone';busy=false;}if(m.type==='state'){game=m.state;if(role==='host'&&resumeOnConnect){resumeOnConnect=false;if(game.phase==='finished')view='setup';}if(game.tyrolien){void receive();return;}game.teams=game.teams.map(({id,name,score,key,streak,eliminated,lives,bingo})=>({id,name,score,key,streak,eliminated,lives,bingo}));if(role==='host'){if(view==='studio'&&!game.questions.length)view='setup';const saved=read('declic.host',{});if(saved.room===room){game.effect=saved.effect||game.effect;game.questions=game.questions.map(q=>({...q,...saved.questions?.find(v=>v.id===q.id),duration:q.duration}));}if(game.phase==='playing'&&!audioReady)void ensureAudio().catch(error=>toast(error.message));}void receive();}}catch{toast('Erreur de synchronisation.');}};
  socket.onclose=event=>{connected=false;busy=false;
  if(event.code===4001){
   if(role==='host'){if(!changingEvening){clearEvening();view='home';void loadEvening();}}
