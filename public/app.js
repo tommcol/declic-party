@@ -1097,9 +1097,9 @@ function availableGame(id){
  return config.mode==='phone'||id==='blind';
 }
 function musicGames(){
- return `<section id="music-games"><div class="row"><h1>Choisir un jeu</h1><button class="textbtn right" data-action="roulette-game">Jeu au hasard</button></div><div class="game-picker-grid">${MUSIC_GAMES.filter(([id])=>availableGame(id)).map(([id,name])=>
+ return `<section id="music-games"><div class="row"><h1>Choisir un jeu</h1><button class="textbtn right" data-action="roulette-game">Tirer un jeu au sort</button></div><div class="game-picker-grid">${MUSIC_GAMES.filter(([id])=>availableGame(id)).map(([id,name,description])=>
  `<button class="game-picker-card" data-action="music-game" data-value="${id}" aria-pressed="${config.musicGame===id}">
- <span class="game-picker-icon">${homeIcon(id)}</span><strong>${name}</strong></button>`).join('')}</div></section>`;
+ <span class="game-picker-icon">${homeIcon(id)}</span><strong>${name}</strong><small>${description}</small></button>`).join('')}</div></section>`;
 }
 function invitationMarkup(code=room){
  if(!code)return '';
@@ -1170,27 +1170,37 @@ function setupScreen(){
  ${eveningSettings()}${invite?`<div class="divider"></div>${invitationMarkup()}<div class="row"><button class="btn ghost" data-action="copy-link">Copier le lien</button><button class="btn ghost" data-action="screen">Écran public</button></div><p class="mini">${game?.teams?.length||game?.tyrolien?.participants?.length||0} participant(s)</p>`:''}
  </details>
  ${musicGames()}
- <section class="qcard"><div class="row"><h2>Musique</h2><button class="textbtn right" data-action="game-rules">Règles du jeu</button></div>
- ${fixedMusic?musicGameSettings()||'<p>Extraits du Tyrolien</p>':`<p>${config.catalogFrom==='explorer'&&catalogPool.name?esc(catalogPool.name):THEMES.filter(([id])=>config.themes.includes(id)).map(([, ,name])=>name).join(' + ')}</p>
- <div class="row"><button class="btn ghost" data-action="music-style" data-value="manual" aria-pressed="${config.musicStyle!=='mix'}">Playlist au choix</button>
- <button class="btn ghost" data-action="roulette-playlist">Playlist au hasard</button>
- </div>`}
+ <div class="setup-columns">
+ <div class="setup-selection">
+ <section class="hero setup-banner">
+ <h2>Les tubes passent.<br><em>À vous de jouer.</em></h2>
+ <div class="hero-art" aria-hidden="true"><div class="record"></div><span class="note">♫</span></div>
+ </section>
+ <section class="setup-music"><h2>Choisir la musique</h2>
+ ${fixedMusic?musicGameSettings()||'<p>Extraits du Tyrolien</p>':`
+ <div class="theme-grid">${THEMES.map(([id,icon,title,description])=>`<button class="theme-card ${config.catalogFrom!=='explorer'&&config.themes.includes(id)?'active':''}" data-action="v2-theme" data-value="${id}" aria-pressed="${config.catalogFrom!=='explorer'&&config.themes.includes(id)}"><span>${icon}</span><strong>${title}</strong><small>${description}</small></button>`).join('')}</div>
+ ${config.catalogFrom==='explorer'&&catalogPool.name?`<p>Playlist choisie · ${esc(catalogPool.name)}</p>`:''}
+ <div class="row catalog-banner"><button class="btn ghost" data-action="music-style" data-value="manual">Explorer les playlists</button>
+ <button class="textbtn" data-action="roulette-playlist">Tirer une playlist au sort</button></div>`}
+ </section></div>
+ <aside class="qcard setup-launch">
+ <div class="row"><h2>Lancer la partie</h2><button class="textbtn right" data-action="game-rules">Règles</button></div>
  ${participationSetup()}
  ${answerSetup()}
- ${config.musicGame==='tyrolien'?'':`<details class="settings-details" id="advanced-setup" ${advancedOpen?'open':''}><summary>Réglages avancés</summary>${setupAdvanced(fixedMusic)}<details><summary>Réglages du tirage au sort</summary>${rouletteSettings()}</details></details>`}
+ ${config.musicGame==='tyrolien'?'':`<details class="settings-details" id="advanced-setup" ${advancedOpen?'open':''}><summary>Réglages avancés</summary>${setupAdvanced(fixedMusic)}</details>`}
  ${catalogMessage?`<p role="status">${esc(catalogMessage)}</p>`:''}
- <button class="btn primary" data-action="launch" ${busy?'disabled':''}>${busy?'Préparation des extraits…':'Lancer le jeu →'}</button>
- </section>${wheel?rouletteMarkup():''}</main>`;
+ <button class="btn primary full" data-action="launch" ${busy?'disabled':''}>${busy?'Préparation des extraits…':'Lancer le jeu →'}</button>
+ </aside></div>${wheel?rouletteMarkup():''}</main>`;
 }
 document.addEventListener('toggle',event=>{
  if(event.target.id==='advanced-setup')advancedOpen=event.target.open;
 },true);
 function setupAdvanced(fixedMusic){
  const flexible=!config.musicGame||config.musicGame==='blind';
- return `${!fixedMusic?`<div class="theme-grid">${THEMES.map(([id,icon,title])=>`<button class="theme-card ${config.themes.includes(id)?'active':''}" data-action="v2-theme" data-value="${id}" aria-pressed="${config.themes.includes(id)}">${icon} ${title}</button>`).join('')}</div><div class="row"><button class="textbtn" data-action="v2-catalog">Recherche et import musical</button><button class="textbtn" data-action="v2-load-themes">Charger les thèmes</button></div>`:''}
+ return `${!fixedMusic?`<button class="textbtn" data-action="v2-catalog">Recherche et import musical</button>`:''}
  ${flexible?`<button class="textbtn" data-action="v2-challenge" data-value="lyrics">Suite des paroles</button><button class="textbtn" data-action="music-style" data-value="mix">Mélanger plusieurs playlists</button>`:''}
  ${config.challenge==='lyrics'?'<button class="textbtn" data-action="v3-new-lyrics">Préparer une question paroles</button>':''}
- ${flexible&&config.mode==='phone'?inputSettings():''}${gameRules(flexible,fixedMusic)}`;
+ ${flexible&&config.mode==='phone'?inputSettings():''}${gameRules(flexible,fixedMusic)}<details><summary>Réglages des tirages</summary>${rouletteSettings()}</details>`;
 }
 function participationSetup(){
  if(config.musicGame==='tyrolien')return '<p>En équipes · répartition au lancement</p>';

@@ -582,3 +582,12 @@
 @media (prefers-reduced-motion: reduce) {
   .roulette-dial.spinning, .roulette-dial.slowing { animation: none; }
 }
+
+.setup-columns { display: grid; grid-template-columns: minmax(0, 3fr) minmax(230px, 1fr); align-items: start; gap: 20px; }
+.setup-selection { min-width: 0; }
+.setup-banner { min-height: 160px; padding: 22px; }
+.setup-banner h2 { position: relative; z-index: 1; max-width: 72%; margin: 0; font-size: clamp(1.4rem, 3vw, 2.3rem); }
+.setup-music h2 { margin: 14px 0 10px; }
+.setup-music .catalog-banner { justify-content: space-between; flex-wrap: wrap; gap: 8px; }
+.setup-launch h2 { margin: 0; font-size: 1.1rem; }
+@media (max-width: 760px) { .setup-columns { grid-template-columns: minmax(0, 1fr); } }
