@@ -8,7 +8,7 @@ const server={role:'server'};
 const player=team=>({role:'player',team});
 const players=Array.from({length:40},(_,index)=>({id:'p'+index,name:'Joueur '+index}));
 
-for(const teamCount of [2,3,4]){
+for(const teamCount of [2,3,4,6]){
  test(`Partie complète à ${teamCount} équipes et 40 participants`,()=>{
   const g=createTyrolien(),room={tyrolien:g,teams:players};
   let now=10000, turns=0;
@@ -19,7 +19,7 @@ for(const teamCount of [2,3,4]){
   const sizes=g.teams.map(team=>g.roster.filter(p=>p.team===team.id).length);
   assert.ok(Math.max(...sizes)-Math.min(...sizes)<=1);
   const played=new Set();
-  while(g.phase!=='finished'&&turns<20){
+  while(g.phase!=='finished'&&turns<(teamCount-1)*5+1){
    assert.equal(g.phase,'listen');
    assert.ok(!played.has(g.clips[g.index]));
    played.add(g.clips[g.index]);

@@ -63,7 +63,7 @@ test('Une soirée conserve ses joueurs et leurs accès au changement de jeu',asy
  let shown;
  const room=new context.PartyRoom({
   setWebSocketAutoResponse(){},getWebSockets:()=>[],
-  storage:{get:async()=>state,put:async(key,value)=>{state=value;},setAlarm:async()=>{}}
+  storage:{get:async()=>state,put:async(key,value)=>{state=value;},setAlarm:async()=>{},transaction(callback){return callback(this);}}
  });
  room.broadcast=value=>{shown=value;};
  assert.equal(await room.prepare({questions,input:'qcm',effect:'normal'},'wrong'),403);

@@ -1,3 +1,4 @@
+import {MAX_PARTICIPANTS,TYROLIEN_TEAMS,teamIdentity,teamCapacity,changeTeamPlan,fillTeams,startTeamPlan} from '../public/teams.js';
 import {changeRoulette,rouletteView,rouletteIndex,rouletteAdvanceAt} from '../public/roulette.js';
 import {createTyrolien,applyTyrolien,tyrolienView} from './tyrolien-room.js';
 import { DurableObject } from 'cloudflare:workers';
@@ -115,10 +116,10 @@ export default {
     }
     const allowedTargets=['both','title','artist','cover','artistTitle','coverChoice','timeline','coversQuiz','soundtrack'];
     data.questions=data.questions.map(q=>({id:String(q.id).slice(0,80),universe:q.target==='soundtrack'?q.universe:'music',cutAt:q.kind==='lyrics'?q.cutAt:undefined,kind:['audio','image','question','lyrics'].includes(q.kind)?q.kind:'question',prompt:q.prompt,answer:q.answer,explanation:typeof q.explanation==='string'?q.explanation.slice(0,1500):undefined,theme:typeof q.theme==='string'?q.theme.slice(0,80):undefined,credit:normalizeQuizCredit(q.credit),aliases:(Array.isArray(q.aliases)?q.aliases:[]).filter(v=>typeof v==='string').slice(0,15).map(v=>v.slice(0,180)),options:q.options,year:q.target==='timeline'&&Number.isInteger(q.year)?q.year:undefined,timeline:q.target==='timeline'&&Array.isArray(q.timeline)?q.timeline.filter(v=>typeof v==='string').slice(0,3).map(v=>v.slice(0,180)):undefined,optionArtwork:q.target==='coverChoice'?q.optionArtwork:undefined,duration:q.duration,points:q.points,title:typeof q.title==='string'?q.title.slice(0,180):undefined,artist:typeof q.artist==='string'?q.artist.slice(0,180):undefined,titleAliases:(Array.isArray(q.titleAliases)?q.titleAliases:[]).filter(v=>typeof v==='string').slice(0,10).map(v=>v.slice(0,180)),artistAliases:(Array.isArray(q.artistAliases)?q.artistAliases:[]).filter(v=>typeof v==='string').slice(0,10).map(v=>v.slice(0,180)),target:allowedTargets.includes(q.target)?q.target:'title',emoji:typeof q.emoji==='string'?q.emoji.slice(0,80):undefined,artwork:typeof q.artwork==='string'&&/^https:\/\/[^/]+\.dzcdn\.net\//.test(q.artwork)?q.artwork:undefined,link:typeof q.link==='string'&&/^https:\/\/www\.deezer\.com\//.test(q.link)?q.link:undefined,provider:q.provider==='Deezer'?'Deezer':undefined}));
-    const randomTeamCount=Number.isInteger(data.randomTeamCount)&&data.randomTeamCount>=2&&data.randomTeamCount<=4&&
+    const randomTeamCount=Number.isInteger(data.randomTeamCount)&&data.randomTeamCount>=2&&data.randomTeamCount<=MAX_PARTICIPANTS&&
      !data.settings?.bingo&&!data.settings?.survival&&!data.settings?.timelineMode&&!data.settings?.chain&&data.input!=='buzzer'?data.randomTeamCount:0;
     const musicGame=['blind','bingo','timeline','coversQuiz','soundtrack','covers','survival'].includes(data.musicGame)?data.musicGame:undefined;
-    const setup={musicGame,showAnimations:data.showAnimations!==false,randomTeamCount,questions:data.questions,input:['text','buzzer'].includes(data.input)?data.input:'qcm',settings:data.settings&&typeof data.settings==='object'?data.settings:{},effect:['normal','fast','slow','chipmunk','reverse','image'].includes(data.effect)?data.effect:'normal'};
+    const setup={teamPlay:data.teamPlay===true&&Boolean(randomTeamCount),musicGame,showAnimations:data.showAnimations!==false,randomTeamCount,questions:data.questions,input:['text','buzzer'].includes(data.input)?data.input:'qcm',settings:data.settings&&typeof data.settings==='object'?data.settings:{},effect:['normal','fast','slow','chipmunk','reverse','image'].includes(data.effect)?data.effect:'normal'};
     const status=await env.ROOMS.getByName(data.room).prepare(setup,await digest(data.token));
     return status===200?json({code:data.room,token:data.token}):json({error:status===404?'Cette soirée a expiré. Créez une nouvelle soirée.':status===403?'Accès animateur refusé.':'Terminez le jeu en cours avant de changer de jeu.'},status);
    }
@@ -264,32 +265,59 @@ export class PartyRoom extends DurableObject {
   if(Number.isFinite(alarm))await this.ctx.storage.setAlarm(alarm);
   else await this.ctx.storage.deleteAlarm();
  }
+ completedTeamGames(room){
+  const history=room.teamResults||[];
+  if(room.phase!=='finished')return history;
+  if(room.tyrolien?.round){
+   const ty=room.tyrolien;
+   const order=[ty.winner,...ty.eliminated.slice().reverse()];
+   const groups=ty.teams.map(team=>({name:team.name,icon:team.icon,color:team.color,
+    position:team.position,rank:order.includes(team.id)?order.indexOf(team.id)+1:null}))
+    .sort((a,b)=>(a.rank??Infinity)-(b.rank??Infinity));
+   return [...history,{game:'tyrolien',groups}];
+  }
+  if(room.randomTeamAssignments)return [...history,{game:room.musicGame,groups:this.classicTeamScores(room)}];
+  return history;
+ }
+ classicTeamScores(room){
+  const groups=Array.from({length:room.randomTeamCount},(_,id)=>({name:'Équipe '+(id+1),...room.roundTeamIdentities?.[id],id,score:0}));
+  for(const player of room.teams){
+   const group=groups[room.randomTeamAssignments[player.id]];
+   if(group)group.score+=player.score;
+  }
+  return groups.sort((left,right)=>right.score-left.score||left.id-right.id);
+ }
  async prepareTyrolien(hostHash){
-  const current=await this.ctx.storage.get('room');
-  if(!current||current.expires<=Date.now())return 404;
-  if(current.hostHash!==hostHash)return 403;
-  if(current.tyrolien&&current.phase!=='finished')return 200;
-  if(!['lobby','finished'].includes(current.phase))return 409;
-  const next={...current,questions:[],phase:'lobby',tyrolien:createTyrolien(),roulette:null,roulettePlayers:current.roulettePlayers,eveningTotals:eveningTotals(current),revision:(current.revision||0)+1};
-  await this.ctx.storage.put('room',next);
-  await this.schedule(next);
-  this.broadcast(next);
-  return 200;
+  const prepared=await this.ctx.storage.transaction(async tx=>{
+   const current=await tx.get('room');
+   if(!current||current.expires<=Date.now())return {status:404};
+   if(current.hostHash!==hostHash)return {status:403};
+   if(current.tyrolien&&current.phase!=='finished')return {status:200};
+   if(!['lobby','finished'].includes(current.phase))return {status:409};
+   const next={...current,teamPlan:current.teamPlan||{groups:[teamIdentity(0),teamIdentity(1)],assignments:{},mode:'free',open:false,gather:false},teamPlay:false,teamResults:this.completedTeamGames(current),randomTeamAssignments:undefined,randomTeamCount:undefined,roundTeamIdentities:undefined,questions:[],phase:'lobby',tyrolien:createTyrolien(),roulette:null,roulettePlayers:current.roulettePlayers,eveningTotals:eveningTotals(current),revision:(current.revision||0)+1};
+   await tx.put('room',next);
+   return {status:200,room:next};
+  });
+  if(prepared.room){await this.schedule(prepared.room);this.broadcast(prepared.room);}
+  return prepared.status;
  }
  async prepare(data,hostHash){
-  const current=await this.ctx.storage.get('room');
-  if(!current||current.expires<=Date.now())return 404;
-  if(current.hostHash!==hostHash)return 403;
-  if(!['lobby','finished'].includes(current.phase))return 409;
-  const next={
-   ...createGame(data.questions,current.teams,'phone',data.input,data.settings),
-   teams:current.teams.map(({id,name,key,token})=>({id,name,key,token,score:0,streak:0})),
-   musicGame:data.musicGame,showAnimations:data.showAnimations,randomTeamCount:data.randomTeamCount||undefined,roulettePlayers:current.roulettePlayers,eveningTotals:eveningTotals(current),effect:data.effect,hostHash,code:current.code,expires:current.expires,revision:(current.revision||0)+1
-  };
-  await this.ctx.storage.put('room',next);
-  await this.schedule(next);
-  this.broadcast(next);
-  return 200;
+  const prepared=await this.ctx.storage.transaction(async tx=>{
+   const current=await tx.get('room');
+   if(!current||current.expires<=Date.now())return {status:404};
+   if(current.hostHash!==hostHash)return {status:403};
+   if(!['lobby','finished'].includes(current.phase))return {status:409};
+   const next={
+    ...createGame(data.questions,current.teams,'phone',data.input,data.settings),
+    teams:current.teams.map(({id,name,key,token})=>({id,name,key,token,score:0,streak:0})),
+    teamPlan:current.teamPlan,teamPlay:data.teamPlay,teamResults:this.completedTeamGames(current),
+    musicGame:data.musicGame,showAnimations:data.showAnimations,randomTeamCount:data.randomTeamCount||undefined,roulettePlayers:current.roulettePlayers,eveningTotals:eveningTotals(current),effect:data.effect,hostHash,code:current.code,expires:current.expires,revision:(current.revision||0)+1
+   };
+   await tx.put('room',next);
+   return {status:200,room:next};
+  });
+  if(prepared.room){await this.schedule(prepared.room);this.broadcast(prepared.room);}
+  return prepared.status;
  }
  async fetch(req){const room=await this.ctx.storage.get('room');if(!room||room.expires<Date.now())return json({error:'Cette partie est introuvable ou a expiré.'},404);if(this.ctx.getWebSockets().length>=CONNECTION_LIMIT)return json({error:'Salon complet'},429);if(this.ctx.upgradeWebSocket)return this.ctx.upgradeWebSocket(req);const [client,server]=Object.values(new WebSocketPair());this.ctx.acceptWebSocket(server);server.serializeAttachment({role:'guest',last:0,count:0});return new Response(null,{status:101,webSocket:client});}
  send(ws,data){try{ws.send(JSON.stringify(data));}catch{}}
@@ -298,18 +326,19 @@ export class PartyRoom extends DurableObject {
   const totals=showCurrent?eveningTotals(s):s.eveningTotals;
   return Object.values(totals||{}).sort((left,right)=>right.points-left.points);
  }
- sendState(ws,s,a,eveningRanking){
+ sendState(ws,s,a,eveningRanking,teamPlan){
   const state=s.tyrolien?tyrolienView(s,a.role,a.team):a.role==='host'
    ?{...s,hostHash:undefined}:publicGame(s,a.role==='player'?a.team:undefined);
+  state.teamPlan=teamPlan??this.teamPlanView(s);
+  state.teamPlay=s.teamPlay;
   state.roulette=rouletteView(s.roulette,Date.now(),a.team);
   state.musicGame=s.musicGame;
   state.showAnimations=s.showAnimations;
   if(s.randomTeamAssignments){
-   const groups=Array.from({length:s.randomTeamCount},(_,id)=>({id,name:'Équipe '+(id+1),score:0}));
-   for(const player of s.teams)groups[s.randomTeamAssignments[player.id]].score+=player.score;
-   state.randomTeams=groups.sort((left,right)=>right.score-left.score||left.id-right.id);
+   state.randomTeams=this.classicTeamScores(s);
    state.myRandomTeam=s.randomTeamAssignments[a.team];
   }
+  state.teamResults=['lobby','paused','finished'].includes(s.phase)&&(a.role==='host'||a.role==='tv')?s.teamResults:undefined;
   if(a.role==='host'&&['lobby','finished'].includes(s.phase)){
    state.roulettePlayers=this.rouletteParticipants(s);
   }
@@ -333,12 +362,15 @@ export class PartyRoom extends DurableObject {
   this.send(ws,{type:'state',state});
  }
  broadcast(s,respondingPlayer){
+  // Full phase broadcasts supersede pending lobby updates.
+  if(!respondingPlayer)this.pendingTeams=null;
   const ranking=this.eveningRanking(s);
+  const teamPlan=this.teamPlanView(s);
   for(const ws of this.ctx.getWebSockets()){
    const identity=ws.deserializeAttachment();
    if(identity?.role==='host'||identity?.role==='tv'||
       (identity?.role==='player'&&(!respondingPlayer||identity.team===respondingPlayer))){
-    this.sendState(ws,s,identity,ranking);
+    this.sendState(ws,s,identity,ranking,teamPlan);
    }
   }
  }
@@ -391,20 +423,107 @@ export class PartyRoom extends DurableObject {
    if(identity?.role&&identity.role!=='guest'&&(!respondingPlayer||identity.role!=='player'||identity.team===respondingPlayer))this.send(socket,{type:'roulette',wheel:rouletteView(room.roulette,now,identity.team)});
   }
  }
+ teamPlanView(room){
+  return room.teamPlan&&['lobby','paused','finished'].includes(room.phase)?teamCapacity(room.teamPlan,room.teams):null;
+ }
+ publishTeams(room){
+  this.pendingTeams=room;
+  if(this.teamPushTimer)return;
+  this.teamPushTimer=setTimeout(()=>{
+   this.teamPushTimer=null;
+   const latest=this.pendingTeams;
+   this.pendingTeams=null;
+   if(!latest)return;
+   const payload=JSON.stringify({type:'team-plan',teamPlan:this.teamPlanView(latest)});
+   for(const socket of this.ctx.getWebSockets()){
+    const role=socket.deserializeAttachment()?.role;
+    if(['host','tv','player'].includes(role)){
+     try{socket.send(payload);}catch{}
+    }
+   }
+  },100);
+ }
+ async joinParticipant(message,now){
+  return this.ctx.storage.transaction(async tx=>{
+   const room=await tx.get('room');
+   if(!room||room.expires<=now)throw Error('Partie expirée');
+   const existing=typeof message.token==='string'?room.teams.find(player=>player.token===message.token):null;
+   if(existing)return {room,player:existing,joined:false};
+   if(room.phase!=='lobby'&&!(room.teamPlan&&room.phase==='finished'))throw Error('La partie a commencé. Rejoignez la prochaine !');
+   if(room.teams.length>=PLAYER_LIMIT)throw Error(PLAYER_LIMIT+' participants maximum');
+   const name=String(message.name||'').trim().slice(0,24);
+   if(!name)throw Error('Entrez votre prénom');
+   if(room.teams.some(player=>player.name.toLowerCase()===name.toLowerCase()))throw Error('Ce nom est déjà utilisé');
+   const player={id:crypto.randomUUID(),name,score:0,key:'',token:crypto.randomUUID()};
+   room.teams.push(player);
+   if(room.teamPlan?.open&&room.teamPlan.mode==='auto')fillTeams(room.teamPlan,room.teams);
+   await tx.put('room',room);
+   return {room,player,joined:true};
+  });
+ }
+ async updateTeamPlan(action,identity,now){
+  const room=await this.ctx.storage.transaction(async tx=>{
+   const latest=await tx.get('room');
+   if(!latest||latest.expires<=now)throw Error('Partie expirée');
+   if(!changeTeamPlan(latest,action,identity))return null;
+   await tx.put('room',latest);
+   return latest;
+  });
+  if(room)this.publishTeams(room);
+ }
+ async startClassic(action,now){
+  const room=await this.ctx.storage.transaction(async tx=>{
+   const latest=await tx.get('room');
+   if(!latest||latest.expires<=now||latest.phase!=='lobby'||latest.tyrolien)throw Error('Ce jeu n’est plus en attente.');
+   const minimum=latest.settings?.chain?3:latest.settings?.survival&&latest.input==='qcm'?2:1;
+   if(latest.teams.length<minimum)throw Error(`Attendez au moins ${minimum} participant(s).`);
+   if(latest.teamPlay){
+    const plan=startTeamPlan(latest);
+    latest.randomTeamCount=plan.groups.length;
+    latest.roundTeamIdentities=plan.groups.map(group=>({...group}));
+    latest.randomTeamAssignments=Object.fromEntries(Object.entries(plan.assignments).map(([id,group])=>[id,Number(group)]));
+   }else if(latest.randomTeamCount){
+    if(latest.teams.length<latest.randomTeamCount)throw Error('Attendez au moins '+latest.randomTeamCount+' joueurs pour former les équipes.');
+    const ids=latest.teams.map(player=>player.id);
+    for(let index=ids.length-1;index>0;index--){
+     const pick=rouletteIndex(index+1);
+     [ids[index],ids[pick]]=[ids[pick],ids[index]];
+    }
+    latest.randomTeamAssignments=Object.fromEntries(ids.map((id,index)=>[id,index%latest.randomTeamCount]));
+   }
+   const next=applyAction(latest,action,now);
+   if(next===latest)return null;
+   if(next.teamPlan){next.teamPlan.gather=false;next.teamPlan.open=false;}
+   await tx.put('room',next);
+   return next;
+  });
+  if(room){await this.schedule(room);this.broadcast(room);}
+ }
  async webSocketMessage(ws,msg){
   try{
    if(typeof msg!=='string'||msg.length>80000)throw Error('Message invalide');
    const a=ws.deserializeAttachment()||{role:'guest',last:0,count:0};const now=Date.now();a.count=now-a.last<1000?a.count+1:1;a.last=now;ws.serializeAttachment(a);if(a.count>12)throw Error('Trop de demandes');
-   const m=JSON.parse(msg);const hash=m.type==='host'&&hostToken(m.token)?await digest(m.token):null;let s=await this.ctx.storage.get('room');if(!s||s.expires<now)throw Error('Partie expirée');
+   const m=JSON.parse(msg);
+   if(['teams-config','teams-open','teams-mode','teams-shuffle','teams-style','teams-choose','teams-gather'].includes(m.type)){
+    await this.updateTeamPlan(m,a,now);
+    return;
+   }
+   const hash=m.type==='host'&&hostToken(m.token)?await digest(m.token):null;let s=await this.ctx.storage.get('room');if(!s||s.expires<now)throw Error('Partie expirée');
    if(m.type==='host'){if(hash!==s.hostHash)throw Error('Accès animateur refusé');a.role='host';ws.serializeAttachment(a);this.sendState(ws,s,a);return;}
    if(m.type==='tv'){a.role='tv';ws.serializeAttachment(a);this.sendState(ws,s,a);return;}
    if(m.type==='join'){
     if(a.role==='player'){this.sendState(ws,s,a);return;}
-    let t=typeof m.token==='string'?s.teams.find(t=>t.token===m.token):null;
-    if(!t){if(s.phase!=='lobby')throw Error('La partie a commencé. Rejoignez la prochaine !');if(s.teams.length>=PLAYER_LIMIT)throw Error(PLAYER_LIMIT+' participants maximum');const name=String(m.name||'').trim().slice(0,24);if(!name)throw Error('Entrez un nom d’équipe');if(s.teams.some(t=>t.name.toLowerCase()===name.toLowerCase()))throw Error('Ce nom est déjà utilisé');t={id:crypto.randomUUID(),name,score:0,key:'',token:crypto.randomUUID()};s.teams.push(t);await this.ctx.storage.put('room',s);}
-    a.role='player';a.team=t.id;ws.serializeAttachment(a);
-    this.send(ws,{type:'session',id:t.id,token:t.token});
-    this.broadcast(s,t.id);
+    const {room,player,joined}=await this.joinParticipant(m,now);
+    a.role='player';a.team=player.id;ws.serializeAttachment(a);
+    this.send(ws,{type:'session',id:player.id,token:player.token});
+    if(joined){
+     this.broadcast(room,player.id);
+     if(room.teamPlan?.open||room.teamPlan?.gather)this.publishTeams(room);
+    }else this.sendState(ws,room,a);
+    return;
+   }
+   if(m.type==='play'&&a.role==='host'&&s.phase==='lobby'&&!s.tyrolien){
+    await this.startClassic(m,now);
     return;
    }
    if(m.type==='ceremony'&&a.role==='host'&&['lobby','finished'].includes(s.phase)){
@@ -444,17 +563,9 @@ export class PartyRoom extends DurableObject {
     s=applyAction(s,{type:'next'},now);
     if(s.phase==='ready')s=applyAction(s,{type:'play'},now);
    }
-   else if(a.role==='host'&&['play','pause','resume','reveal','next','adjust','judge','listen-more'].includes(m.type)){if(m.type==='play'&&s.phase==='lobby'&&s.randomTeamCount){
-    if(s.teams.length<s.randomTeamCount)throw Error('Attendez au moins '+s.randomTeamCount+' joueurs pour former les équipes.');
-    const ids=s.teams.map(player=>player.id);
-    for(let index=ids.length-1;index>0;index--){
-     const pick=rouletteIndex(index+1);
-     [ids[index],ids[pick]]=[ids[pick],ids[index]];
-    }
-    s.randomTeamAssignments=Object.fromEntries(ids.map((id,index)=>[id,index%s.randomTeamCount]));
-   }
-   if(m.type==='play'&&s.teams.length<(s.settings?.chain?3:s.settings?.survival&&s.input==='qcm'?2:1))throw Error(s.settings?.chain?'Attendez au moins trois participants.':s.settings?.survival?'Attendez au moins deux participants.':'Attendez au moins une équipe.');s=applyAction(s,m,now);}
+   else if(a.role==='host'&&['play','pause','resume','reveal','next','adjust','judge','listen-more'].includes(m.type))s=applyAction(s,m,now);
    else throw Error('Action non autorisée');
+   if(s!==previous&&s.teamPlan&&!['lobby','paused','finished'].includes(s.phase))s={...s,teamPlan:{...s.teamPlan,gather:false}};
    if(s===previous)return;
    await this.ctx.storage.put('room',s);
    if(s.phase!==previous.phase||s.endAt!==previous.endAt||s.nextAt!==previous.nextAt)await this.schedule(s);
@@ -466,7 +577,12 @@ export class PartyRoom extends DurableObject {
   return this.ctx.storage.transaction(async tx=>{
    const latest=await tx.get('room');
    if(!latest?.tyrolien)throw Error('Le Tyrolien est terminé.');
+   if(action.type==='ty-start'&&identity.role==='host'&&latest.teamPlan&&latest.phase==='lobby'){
+    const plan=startTeamPlan(latest,TYROLIEN_TEAMS);
+    action={...action,names:plan.groups.map(group=>group.name),assignments:plan.assignments,teamIdentities:plan.groups};
+   }
    applyTyrolien(latest.tyrolien,action,identity,latest.teams,now);
+   if(latest.teamPlan&&!['lobby','paused','finished'].includes(latest.tyrolien.phase))latest.teamPlan.gather=false;
    latest.phase=latest.tyrolien.phase;
    await tx.put('room',latest);
    const alarm=Math.min(latest.tyrolien.nextAt||Infinity,latest.expires||Infinity);

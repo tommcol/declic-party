@@ -1,7 +1,7 @@
 import {resolveTyrolienRound, resolveTyrolienAttack} from './tyrolien.js';
 import {practiceClips, selectMusicClips} from '../public/music-source.js';
 
-const teamDefaults = [['Rouge','#e95358'],['Bleue','#387fe1'],['Verte','#329b70'],['Jaune','#e5ab30']];
+import {teamIdentity,TYROLIEN_TEAMS} from '../public/teams.js';
 const options = ['1', '2', '3', '4'];
 
 export function createTyrolien() {
@@ -107,7 +107,7 @@ export function applyTyrolien(g, action, identity, players, now) {
   if (action.type==='ty-tick') return advance(g,players,now);
   if (host && action.type==='ty-start' && g.phase==='lobby') {
     const names=action.names;
-    if (!Array.isArray(names)||names.length<2||names.length>4||players.length<names.length) {
+    if (!Array.isArray(names)||names.length<2||names.length>TYROLIEN_TEAMS||players.length<names.length) {
       throw Error('Il faut au moins un joueur par équipe.');
     }
     if (!Number.isInteger(action.levels)||action.levels<4||action.levels>15||
@@ -115,8 +115,14 @@ export function applyTyrolien(g, action, identity, players, now) {
     g.levels=action.levels;
     g.seconds=action.seconds;
     g.bonuses=action.bonuses!==false;
-    g.teams=names.map((name,index)=>({id:String(index),name:String(name).trim().slice(0,24)||teamDefaults[index][0],
-      color:teamDefaults[index][1], position:0, streak:0, eliminated:false}));
+    g.teams=names.map((name,index)=>{
+      const generated=teamIdentity(index);
+      const chosen=action.teamIdentities?.[index];
+      const color=typeof chosen?.color==='string'&&/^#[0-9a-f]{6}$/i.test(chosen.color)?chosen.color:generated.color;
+      const icon=typeof chosen?.icon==='string'?chosen.icon.slice(0,16):generated.icon;
+      return {...generated,name:String(name).trim().slice(0,24)||generated.name,color,icon,
+       position:0,streak:0,eliminated:false};
+    });
     const teamSizes = g.teams.map(() => 0);
     for (const {id} of players) {
       const chosen=action.assignments?.[id];

@@ -1,3 +1,4 @@
+import {teamCards,teamGather,teamHost} from './team-ui.js';
 import {changeRoulette,rouletteView,rouletteAdvanceAt} from './roulette.js';
 import {tyrolienScreen} from './tyrolien-ui.js';
 import {openMusicLibrary} from './music-library.js';
@@ -15,6 +16,58 @@ const gamePreferences=read('declic.gamePreferences',{});
 let advancedOpen=false;
 const gamePreferenceKeys=['input','source','challenge','effect','count','duration','difficulty','explicit','settings','timelineMode','timelineCount','soundtrackCategory','soundtrackChoices','coversDirection'];
 let invitationCode=null,invitationSvg='',tyrolienDraft={};
+let teamWakeLock=null,teamWakePending=false,teamFullscreen=false,choosingWhileGathering=false;
+const openTeamDetails=new Set();
+const safeTeamPhases=['lobby','finished','paused'];
+
+function myPlannedTeam(){
+ return game?.teamPlan?.groups.find(group=>group.members.some(member=>member.id===teamId));
+}
+async function syncTeamWake(){
+ const active=role==='player'&&game?.teamPlan?.gather&&safeTeamPhases.includes(game.phase);
+ if(!active){
+  if(teamWakeLock){void teamWakeLock.release().catch(()=>{});teamWakeLock=null;}
+  if(teamFullscreen&&document.fullscreenElement===document.documentElement)void document.exitFullscreen().catch(()=>{});
+  teamFullscreen=false;
+  choosingWhileGathering=false;
+  return;
+ }
+ if(!navigator.wakeLock||teamWakeLock||teamWakePending||document.visibilityState!=='visible')return;
+ teamWakePending=true;
+ try{
+  const lock=await navigator.wakeLock.request('screen');
+  teamWakeLock=lock;
+  lock.addEventListener('release',()=>{if(teamWakeLock===lock)teamWakeLock=null;},{once:true});
+  if(!game?.teamPlan?.gather)await lock.release();
+ }catch{/* Le fond coloré reste visible même sans maintien de l’écran. */}
+ finally{teamWakePending=false;}
+}
+document.addEventListener('visibilitychange',()=>void syncTeamWake());
+function gatherIdentity(plan){
+ const group=myPlannedTeam();
+ return group?JSON.stringify([group.id,group.name,group.color,group.icon]):String(plan.open&&plan.mode==='free');
+}
+function previousTeamGames(){
+ const entries=game?.teamResults||[];
+ if(!entries.length)return '';
+ return `<details class="qcard team-results"><summary>Résultats des jeux en équipes</summary>
+ ${entries.map(entry=>`<h4>${esc(MUSIC_GAMES.find(([id])=>id===entry.game)?.[1]||'Jeu musical')}</h4>
+ <ol>${entry.groups.map(group=>`<li>${esc(group.icon||'')} ${esc(group.name)} · ${group.score===undefined?`palier ${group.position}`:`${group.score} pts`}</li>`).join('')}</ol>`).join('')}</details>`;
+}
+function teamAdmin(){
+ if(!game||game.mode!=='phone'||!safeTeamPhases.includes(game.phase))return '';
+ const editable=game.phase!=='paused';
+ return teamHost(game.teamPlan,{editable,tyrolien:view==='setup'?config.musicGame==='tyrolien':Boolean(game.tyrolien),
+  participantCount:game.teamPlan?.total??game.teams?.length??game.tyrolien?.participants?.length??0,
+  gatherable:true},esc).replace(/data-team-details="([^"]+)"/g,(match,key)=>openTeamDetails.has(key)?match+' open':match);
+}
+document.addEventListener('toggle',event=>{
+ const key=event.target.dataset?.teamDetails;
+ if(key&&event.target.isConnected){
+  if(event.target.open)openTeamDetails.add(key);else openTeamDetails.delete(key);
+ }
+},true);
+
 let custom=read('declic.library',[]), view='home', game=null, room=null, ws=null, role='host', teamId=null, connected=false, reconnect=null, auth=null, lastEvent=null, seenCount=null, countdown=-1, lastRevision=-1, assetUrls=new Map(), audioReady=false, soundTask=0, busy=false;
 let catalogPool=read('declic.musicPool',{name:'',tracks:[],themeKey:''}),catalogResults={tracks:[],playlists:[]},catalogQuery='',catalogSearchType='tracks',catalogMessage='',audioError='',replyDraft={},audioSegment='';
 const MUSIC_GAMES=[
@@ -102,9 +155,35 @@ function savedMusicGame(key){
 }
 function selectedQuestions(){if(config.source==='catalog'&&Object.hasOwn(SPECIAL_TRACKS,config.musicGame))return [];if(config.universe==='music'&&config.challenge==='lyrics')return(config.source==='demo'?DEMO:custom).filter(q=>q.universe===config.universe&&q.kind==='lyrics').slice(0,config.count);if(config.source==='catalog'&&config.universe==='music')return musicQuestions(catalogPool.tracks,config.musicGame==='bingo'?{...config,count:BINGO_CARD_SIZE,challenge:config.challenge==='artist'?'artist':'title',difficulty:'balanced'}:config);return(config.source==='custom'?custom:DEMO).filter(q=>q.universe===config.universe).slice(0,config.count);}
 function render(){
+ void syncTeamWake();
  if(view==='setup'&&!playlistGroups)loadPlaylistGroups();
  const a=$('#app');
  a.classList.toggle('no-show-animation',role==='host'?!showAnimations:game?.showAnimations===false);
+ const plan=game?.teamPlan;
+ if(plan?.gather&&safeTeamPhases.includes(game.phase)&&role==='player'){
+  a.classList.add('party-interface');
+  if(!myPlannedTeam()&&choosingWhileGathering&&plan.open&&plan.mode==='free')a.innerHTML=teamCards(plan,role,teamId,esc);
+  else if(!a.querySelector('.team-gather')||a.querySelector('.team-gather').dataset.identity!==gatherIdentity(plan)){
+   a.innerHTML=teamGather(plan,role,teamId,esc);
+   a.querySelector('.team-gather').dataset.identity=gatherIdentity(plan);
+  }
+  return;
+ }
+ if(plan&&(role==='tv'||role==='player')&&(game.phase==='lobby'&&plan.open||game.phase==='finished'&&plan.open)&&!wheel&&!ceremony){
+  a.classList.add('party-interface');
+  a.innerHTML=teamCards(plan,role,teamId,esc);
+  return;
+ }
+ if(role==='player'&&plan&&game.phase==='lobby'&&myPlannedTeam()&&!wheel){
+  a.classList.add('party-interface');
+  a.innerHTML=teamCards(plan,role,teamId,esc);
+  return;
+ }
+ if(role==='tv'&&plan?.gather&&safeTeamPhases.includes(game.phase)&&!ceremony){
+  a.classList.add('party-interface');
+  a.innerHTML=teamGather(plan,role,teamId,esc);
+  return;
+ }
  if(role==='tv'&&ceremony){a.innerHTML=ceremonyMarkup();return;}
  a.classList.toggle('party-interface',role!=='host'||view!=='home');
  if($('#catalog-player'))desk.stop();
@@ -125,7 +204,7 @@ function render(){
  if(game?.tyrolien&&(role!=='host'||view==='studio')){
   const form=$('#ty-start-form');
   if(form)tyrolienDraft={...tyrolienDraft,...Object.fromEntries(new FormData(form)),bonuses:form.elements.bonuses.checked};
-  a.innerHTML=tyrolienScreen(game.tyrolien,role,esc,invitationMarkup(),room,tyrolienDraft)+eveningRanking()+(role==='host'&&game.phase==='finished'?nextGameActions():'');
+  a.innerHTML=tyrolienScreen(game.tyrolien,role,esc,invitationMarkup(),room,tyrolienDraft,game.teamPlan,role==='host'?teamAdmin()+previousTeamGames():'')+eveningRanking()+(role==='host'&&game.phase==='finished'?nextGameActions():'');
   return;
  }
  if(role==='tv'){a.innerHTML=tvScreen();return;}
@@ -255,7 +334,7 @@ function eveningRanking(){
 }
 function randomTeamScores(){
  if(!game?.randomTeams?.length)return '';
- return `<section class="scorebar" aria-label="Classement des équipes">${game.randomTeams.map(group=>`<div class="scorecard"><span>${esc(group.name)}</span><strong>${group.score} pts</strong></div>`).join('')}</section>`;
+ return `<section class="scorebar" aria-label="Classement des équipes">${game.randomTeams.map(group=>`<div class="scorecard" style="border-inline-start:4px solid ${group.color||'#ab82ec'}"><span>${esc(group.icon||'')} ${esc(group.name)}</span><strong>${group.score} pts</strong></div>`).join('')}</section>`;
 }
 function scorebar(){if(game?.randomTeams?.length)return randomTeamScores();if(game?.timelineMode&&game.phase!=='finished')return '';return `<div class="scorebar">${sorted().slice(0,10).map((t,i)=>`<div class="scorecard"><span class="avatar" style="--team:${colors[i%10]}">${icons[i%10]}</span><span>${esc(t.name)}</span><strong>${t.score}</strong></div>`).join('')}</div>`;}
 function leaderboard(){return sorted().map((t,i)=>`<div class="leaderrow"><span class="rank">${i+1}</span><span class="avatar" style="--team:${colors[(game.teams.findIndex(v=>v.id===t.id)+10)%10]}">${icons[(game.teams.findIndex(v=>v.id===t.id)+10)%10]}</span><span>${esc(t.name)}${t.eliminated?' <small>Éliminé</small>':''}${t.streak>1?` <small class="streak">🔥${t.streak}</small>`:''}</span><span class="pts">${t.score}</span></div>`).join('');}
@@ -343,7 +422,7 @@ function hostRound(q,phase){
  ${game.timelineMode&&phase==='reveal'?timelineDistribution():''}
  </section>`;
 }
-function studio(){if(!game)return '<div class="empty">Aucune partie en cours.</div>';const q=currentQ(),ph=game.phase,wanted=q?targets(q):[],claimed=game.claimed||{};return `<main class="studio"><div class="row"><span class="eyebrow">LE STUDIO · ${game.mode==='usb'?'BUZZERS USB':'TÉLÉPHONES'}</span><span class="connection ${game.mode==='phone'&&!connected?'offline':''}">${game.mode==='phone'?(connected?'● Connecté':'○ Reconnexion…'):'● Partie sur ce PC'}</span><button class="btn ghost right" data-action="screen">▣ Écran public</button><button class="btn ghost" data-action="sound">${desk.muted?'♪ Jingles coupés':'♫ Jingles actifs'}</button></div>${randomTeamScores()}<div class="game-layout">${game.settings?.bingo?bingoDesk():hostRound(q,ph)}<aside class="control"><h3>${ph==='lobby'?'Tout le monde est là ?':ph==='finished'?'Quelle soirée !':'À vous les commandes'}</h3>${game.mode==='phone'&&ph==='lobby'?`<p class="help">Partagez le code avec vos équipes :</p>${invitationMarkup()}<button class="btn ghost full" data-action="copy-link">Copier le lien d’invitation</button>`:''}${!['lobby','finished'].includes(ph)?`<div class="answerbox"><small>RÉPONSE · ANIMATEUR</small><strong>${esc(targets(q)[0]==='answer'&&q.target!=='coverChoice'&&q.target!=='timeline'?q.answer:q.title||q.answer)}</strong>${q.artist?`<br>${esc(q.artist)}`:''}</div>`:''}${timelineControls(ph)}${q&&['lobby','ready'].includes(ph)?`<button class="btn primary full" data-action="play" ${busy||game.mode==='phone'&&game.teams.length<(game.randomTeamCount|| (game.settings?.chain?3:game.settings?.survival?2:1))?'disabled':''}>${busy?'Chargement de l’extrait…':'▶ '+(ph==='lobby'&&game.settings?.timelineMode?'Lancer le premier extrait à placer':ph==='lobby'?'Lancer la partie':(q?.kind==='question'?'Afficher la question':'Lancer l’extrait'))}</button>`:''}${ph==='buzzed'?`${wanted.length===2?`<div class="judge-grid"><button class="btn good" data-action="v2-judge" data-value="title" ${claimed.title?'disabled':''}>✓ Titre</button><button class="btn good" data-action="v2-judge" data-value="artist" ${claimed.artist?'disabled':''}>✓ Artiste</button></div><button class="btn good full" data-action="good">✓ Les deux</button>`:'<button class="btn good full" data-action="good">✓ Bonne réponse</button>'}<button class="btn bad full" data-action="bad">✕ Mauvaise réponse</button>`:''}${isProgressive(game,q)&&['playing','paused'].includes(ph)&&(game.listenStep||0)<3?`<button class="btn lime full" data-action="listen-more">Écouter ${LISTEN_STEPS[(game.listenStep||0)+1]} secondes →</button>`:''}${ph==='playing'?'<button class="btn ghost full" data-action="pause">Ⅱ Mettre en pause</button>':''}${ph==='paused'?'<button class="btn lime full" data-action="resume">▶ Reprendre la musique</button>':''}${!game.settings?.timelineMode&&['playing','buzzed','paused'].includes(ph)?'<button class="btn ghost full" data-action="reveal">Révéler et terminer la manche</button>':''}${ph==='reveal'?`<button class="btn primary full" data-action="next">${game.index+1>=(game.questions?.length||game.total)?'Le podium 🏆':game.settings?.timelineMode?'Extrait suivant →':'Question suivante →'}</button>${game.nextAt?`<p class="mini">La suite arrive automatiquement après ${game.settings?.autoNextSeconds||8} secondes.</p>`:''}`:''}${ph==='finished'||ph==='lobby'?'<button class="btn lime full" data-action="new-game">'+(q||ph==='finished'?'Choisir le jeu suivant':'Choisir le premier jeu')+'</button>':''}${game.mode==='phone'&&game.input!=='buzzer'&&ph==='playing'?`<p class="help">${Object.keys(game.answers||{}).length} / ${game.teams.length} équipe(s) ont répondu</p>`:''}${Object.keys(claimed).length?`<p class="mini">${claimed.title?'✓ Titre trouvé ':''}${claimed.artist?'✓ Artiste trouvé':''}</p>`:''}<div class="divider"></div><span class="eyebrow">LE CLASSEMENT</span>${leaderboard()}${eveningRanking()}${ph==='finished'?'<button class="btn ghost full" data-action="ceremony">Podium de la soirée · TV</button>':''}${game.teams.length?'<button class="textbtn" data-action="adjust">Ajuster un score</button>':''}${game.history?.length?'<button class="textbtn full" data-action="v2-history">Voir le détail des manches →</button>':''}</aside></div>${game.mode==='usb'?`<div class="keytips">${game.teams.map(t=>`<strong>[${esc(t.key)}]</strong> ${esc(t.name)}${game.blocked?.includes(t.id)?' · bloqué':''}`).join(' · ')}<br>Gardez la fenêtre du PC active pour recevoir les buzzers.</div>`:''}${audioError?`<div class="catalog-message">${esc(audioError)}</div>`:''}${q?.provider?'<p class="media-notice">Extrait Deezer diffusé par le PC animateur. Le titre complet est accessible après la révélation.</p>':''}${ph==='finished'?nextGameActions():''}</main>`;}
+function studio(){if(!game)return '<div class="empty">Aucune partie en cours.</div>';const q=currentQ(),ph=game.phase,wanted=q?targets(q):[],claimed=game.claimed||{};return `<main class="studio"><div class="row"><span class="eyebrow">LE STUDIO · ${game.mode==='usb'?'BUZZERS USB':'TÉLÉPHONES'}</span><span class="connection ${game.mode==='phone'&&!connected?'offline':''}">${game.mode==='phone'?(connected?'● Connecté':'○ Reconnexion…'):'● Partie sur ce PC'}</span><button class="btn ghost right" data-action="screen">▣ Écran public</button><button class="btn ghost" data-action="sound">${desk.muted?'♪ Jingles coupés':'♫ Jingles actifs'}</button></div>${teamAdmin()}${previousTeamGames()}${randomTeamScores()}<div class="game-layout">${game.settings?.bingo?bingoDesk():hostRound(q,ph)}<aside class="control"><h3>${ph==='lobby'?'Tout le monde est là ?':ph==='finished'?'Quelle soirée !':'À vous les commandes'}</h3>${game.mode==='phone'&&ph==='lobby'?`<p class="help">Partagez le code avec vos équipes :</p>${invitationMarkup()}<button class="btn ghost full" data-action="copy-link">Copier le lien d’invitation</button>`:''}${!['lobby','finished'].includes(ph)?`<div class="answerbox"><small>RÉPONSE · ANIMATEUR</small><strong>${esc(targets(q)[0]==='answer'&&q.target!=='coverChoice'&&q.target!=='timeline'?q.answer:q.title||q.answer)}</strong>${q.artist?`<br>${esc(q.artist)}`:''}</div>`:''}${timelineControls(ph)}${q&&['lobby','ready'].includes(ph)?`<button class="btn primary full" data-action="play" ${busy||game.mode==='phone'&&game.teams.length<(game.teamPlay?game.teamPlan?.groups.length||2:game.randomTeamCount|| (game.settings?.chain?3:game.settings?.survival?2:1))?'disabled':''}>${busy?'Chargement de l’extrait…':'▶ '+(ph==='lobby'&&game.settings?.timelineMode?'Lancer le premier extrait à placer':ph==='lobby'?'Lancer la partie':(q?.kind==='question'?'Afficher la question':'Lancer l’extrait'))}</button>`:''}${ph==='buzzed'?`${wanted.length===2?`<div class="judge-grid"><button class="btn good" data-action="v2-judge" data-value="title" ${claimed.title?'disabled':''}>✓ Titre</button><button class="btn good" data-action="v2-judge" data-value="artist" ${claimed.artist?'disabled':''}>✓ Artiste</button></div><button class="btn good full" data-action="good">✓ Les deux</button>`:'<button class="btn good full" data-action="good">✓ Bonne réponse</button>'}<button class="btn bad full" data-action="bad">✕ Mauvaise réponse</button>`:''}${isProgressive(game,q)&&['playing','paused'].includes(ph)&&(game.listenStep||0)<3?`<button class="btn lime full" data-action="listen-more">Écouter ${LISTEN_STEPS[(game.listenStep||0)+1]} secondes →</button>`:''}${ph==='playing'?'<button class="btn ghost full" data-action="pause">Ⅱ Mettre en pause</button>':''}${ph==='paused'?'<button class="btn lime full" data-action="resume">▶ Reprendre la musique</button>':''}${!game.settings?.timelineMode&&['playing','buzzed','paused'].includes(ph)?'<button class="btn ghost full" data-action="reveal">Révéler et terminer la manche</button>':''}${ph==='reveal'?`<button class="btn primary full" data-action="next">${game.index+1>=(game.questions?.length||game.total)?'Le podium 🏆':game.settings?.timelineMode?'Extrait suivant →':'Question suivante →'}</button>${game.nextAt?`<p class="mini">La suite arrive automatiquement après ${game.settings?.autoNextSeconds||8} secondes.</p>`:''}`:''}${ph==='finished'||ph==='lobby'?'<button class="btn lime full" data-action="new-game">'+(q||ph==='finished'?'Choisir le jeu suivant':'Choisir le premier jeu')+'</button>':''}${game.mode==='phone'&&game.input!=='buzzer'&&ph==='playing'?`<p class="help">${Object.keys(game.answers||{}).length} / ${game.teams.length} équipe(s) ont répondu</p>`:''}${Object.keys(claimed).length?`<p class="mini">${claimed.title?'✓ Titre trouvé ':''}${claimed.artist?'✓ Artiste trouvé':''}</p>`:''}<div class="divider"></div><span class="eyebrow">LE CLASSEMENT</span>${leaderboard()}${eveningRanking()}${ph==='finished'?'<button class="btn ghost full" data-action="ceremony">Podium de la soirée · TV</button>':''}${game.teams.length?'<button class="textbtn" data-action="adjust">Ajuster un score</button>':''}${game.history?.length?'<button class="textbtn full" data-action="v2-history">Voir le détail des manches →</button>':''}</aside></div>${game.mode==='usb'?`<div class="keytips">${game.teams.map(t=>`<strong>[${esc(t.key)}]</strong> ${esc(t.name)}${game.blocked?.includes(t.id)?' · bloqué':''}`).join(' · ')}<br>Gardez la fenêtre du PC active pour recevoir les buzzers.</div>`:''}${audioError?`<div class="catalog-message">${esc(audioError)}</div>`:''}${q?.provider?'<p class="media-notice">Extrait Deezer diffusé par le PC animateur. Le titre complet est accessible après la révélation.</p>':''}${ph==='finished'?nextGameActions():''}</main>`;}
 function tvScreen(){return `<main class="tv-shell"><div class="row">${brand()}<span class="right">L’ÉCRAN DE LA SOIRÉE</span><button class="btn" data-action="fullscreen">⛶ Plein écran</button></div><section class="stage ${game?.phase==='playing'?'playing':''}">${stage()}</section> ${scorebar()}${eveningRanking()}</main>`;}
 function joinScreen(){return `<main class="phone-shell">${brand()}<div class="joincard"><span class="eyebrow">ON VOUS GARDAIT UNE PLACE</span><h1>Entrez dans la partie.</h1><p class="help">Votre prénom, le code de l’animateur et à vous de jouer.</p><form id="join-form"><label class="field-label" for="join-code">Code de la partie</label><input id="join-code" name="code" required minlength="8" maxlength="8" autocapitalize="characters" placeholder="EX. ABCD2345" value="${esc(room||'')}" autocomplete="off"><label class="field-label" for="join-name">Votre prénom ou nom d’équipe</label><input id="join-name" name="name" required maxlength="24" placeholder="Les rois du refrain" autocomplete="nickname"><button class="btn primary full" type="submit" ${busy?'disabled':''}>${busy?'Connexion…':'Rejoindre la soirée →'}</button></form></div><p class="caption">Le son est diffusé dans la salle par l’animateur.<br>Gardez cet écran ouvert pendant la partie.</p></main>`;}
 function timelineList(cards=[],slots=[]){
@@ -435,7 +514,7 @@ function chainControls(me){
 function phoneScore(){
  const me=game?.teams?.find(t=>t.id===teamId);
  const team=game?.randomTeams?.find(group=>group.id===game.myRandomTeam);
- return `<span class="phone-score"><strong>${esc(me?.name||'Mon score')}</strong> · ${me?.score||0} pts${team?`<br>${team.name} · ${team.score} pts`:''}</span>`;
+ return `<span class="phone-score"><strong>${esc(me?.name||'Mon score')}</strong> · ${me?.score||0} pts${team?`<br>${esc(team.icon||'')} ${esc(team.name)} · ${team.score} pts`:''}</span>`;
 }
 function phoneScreen(){if(game?.timelineMode)return timelinePhone();if(game?.settings?.bingo)return bingoPhone();const q=currentQ(),me=game?.teams?.find(t=>t.id===teamId),ph=game?.phase,r=game?.me||{},parts=r.parts||[],locked=game?.input==='qcm'?(r.attempts||0)>=(game.joker?.retry?2:1):(r.attempts||0)>=5||q&&targets(q).every(p=>parts.includes(p));if(!game)return '<main class="phone-shell"><div class="empty">Connexion à la partie…</div></main>';const draft=replyDraft[q?.id]||{};return `<main class="phone-shell ${ph==='playing'?'phone-question':''}"><div class="row">${brand()}${phoneScore()}</div><span class="connection ${connected?'':'offline'}">${connected?'● Dans la partie':'○ Reconnexion en cours…'}</span><section class="stage"><div class="stage-content">${ph==='lobby'?'<div class="big-emoji">🙌</div><h1>Vous êtes dans la place !</h1><p class="help">L’animateur lance la partie dès que tout le monde est prêt.</p>':ph==='finished'?stage():ph==='reveal'?`<span class="eyebrow">LA BONNE RÉPONSE</span><h2>${esc(targets(q)[0]==='answer'&&!['coverChoice','timeline'].includes(q.target)?q.answer:q.title||q.answer)}</h2><p class="reveal-artist">${esc(q.artist||'')}</p><div class="round-points">+${r.total||0} points</div>${scoreBreakdown(r)}${questionExplanation(q)}${q.provider?`<a class="source-credit" href="${esc(q.link)}" target="_blank" rel="noopener noreferrer">Écouter sur Deezer ↗</a>`:''}`:ph==='ready'?'<div class="big-emoji">👀</div><h1>La suite arrive…</h1>':ph==='paused'?'<div class="big-emoji">Ⅱ</div><h1>Petite pause.</h1><p class="help">On reprend avec l’animateur.</p>':Date.now()<game.startAt?`<h1 class="countdown">${Math.max(1,Math.ceil((game.startAt-Date.now())/1000))}</h1><p class="help">À vos marques…</p>`:`<span class="eyebrow">QUESTION ${game.index+1} / ${game.total}</span><h1>${esc(q.prompt)}</h1>${q.displayArtist?`<div class="artist-cue">${esc(q.displayArtist)}</div>`:''}${(q.target==='cover'||game.effect==='image')&&q.artwork?`<img src="${esc(q.artwork)}" alt="Pochette mystère" data-mystery>`:''}${listeningMarkup()}${game.input==='buzzer'?buzzerPanel():me?.eliminated&&!game.settings?.survival?'<p class="help">Vous êtes éliminé. Vous pouvez suivre la partie.</p>':locked?'<div class="big-emoji">✉️</div><p class="help">Réponse enregistrée. Verdict à la révélation !</p>':game.input==='qcm'?(q.target==='timeline'?timelineOptions(q):`<div class="options ${q.optionArtwork?'cover-options':''}">${q.options.map((o,i)=>`<button class="option" data-action="answer" data-value="${esc(o)}"><span class="letter">${'ABCDE'[i]}</span>${q.optionArtwork?`<img src="${esc(q.optionArtwork[i])}" alt="Pochette ${esc(o)}" width="160" height="160">`:esc(o)}</button>`).join('')}</div>`):q.musical?`<form id="answer-form" data-question="${esc(q?.id)}" class="music-reply">${targets(q).map(part=>`<label>${part==='title'?'Le titre':'L’artiste'} ${parts.includes(part)?'✓':''}<input name="${part}" aria-label="${part==='title'?'Titre':'Artiste'}" placeholder="${part==='title'?'Le titre du morceau…':'Le nom de l’artiste…'}" maxlength="180" value="${esc(draft[part]||'')}" ${parts.includes(part)?'disabled':''} autocomplete="off"></label>`).join('')}<button class="btn lime full" type="submit">Valider ma réponse →</button></form><p class="help">${parts.length?'✓ Réponse partielle validée. Continuez !':r.attempts?'Pas encore… Vous pouvez réessayer.':'Titre et artiste peuvent être validés séparément.'} · ${r.attempts||0}/5 essais</p>`:`<form id="answer-form" data-question="${esc(q?.id)}" class="textreply"><input name="answer" aria-label="Votre réponse" placeholder="Votre réponse…" value="${esc(draft.answer||'')}" maxlength="180" required autocomplete="off"><button class="btn lime" type="submit">→</button></form>`}${timerMarkup()}`}${game.settings?.survival&&Number.isInteger(me?.lives)?`<p class="help">${me.lives?'♥ '.repeat(me.lives).trim()+' · '+me.lives+' vie(s)':'Vous continuez pour le classement de la soirée.'}</p>`:''}${chainControls(me)}</div></section>${jokerPanel()}${eveningRanking()}<div class="control" style="margin-top:20px"><span class="eyebrow">LE CLASSEMENT</span>${leaderboard()}${game.history?.length?'<button class="textbtn" data-action="v2-history">Le détail des manches →</button>':''}</div></main>`;}
 function questionForm(q={}){const editing=!!q.id;modal(`<div class="top"><h2>${editing?'Modifier':'Créer'} une question</h2><button class="iconbtn" data-action="close-modal" aria-label="Fermer">×</button></div><form id="question-form" data-id="${esc(q.id||'')}"><div class="formgrid"><label>Type de défi<select name="kind"><option value="audio" ${q.kind==='audio'||!q.kind?'selected':''}>Extrait audio</option><option value="lyrics" ${q.kind==='lyrics'?'selected':''}>Paroles à compléter · audio avec coupure</option><option value="image" ${q.kind==='image'?'selected':''}>Image à deviner</option><option value="question" ${q.kind==='question'?'selected':''}>Question de musique</option></select></label><label class="wide">La question<input name="prompt" required maxlength="300" placeholder="Quel est le titre de cet extrait ?" value="${esc(q.prompt||'')}"></label><label class="wide">Coupure pour les paroles (secondes)<input name="cutAt" type="number" min="0.1" max="30" step="0.1" value="${q.cutAt||5}"><span class="mini">Type Paroles : lecture originale coupée ici, puis réponse orale, écrite ou QCM. Écrivez la phrase avec ___ dans la question. Ajoutez votre extrait chanté.</span></label><label class="wide">La bonne réponse<input name="answer" required maxlength="180" value="${esc(q.answer||'')}"></label><label>Titre musical (facultatif)<input name="title" value="${esc(q.title||'')}"></label><label>Artiste musical (facultatif)<input name="artist" value="${esc(q.artist||'')}"></label><label class="wide">Trois mauvaises réponses pour le QCM<textarea name="wrong" rows="3" required placeholder="Une réponse par ligne">${esc((q.options||[]).filter(o=>o!==q.answer).join('\n'))}</textarea></label><label class="wide">Autres réponses acceptées à l’écrit <span class="mini">(séparées par ;)</span><input name="aliases" value="${esc((q.aliases||[]).join('; '))}"></label><label>Durée (secondes)<input name="duration" type="number" min="5" max="90" value="${q.duration||30}" required></label><label>Points<input name="points" type="number" min="1" max="1000" value="${q.points||100}" required></label><label class="wide">Fichier audio ou image <span class="mini">· max. 30 Mo</span><input name="media" type="file" accept="audio/*,image/*"><span class="mini">${editing&&q.mediaKey?'Un fichier est déjà associé. Laissez vide pour le garder.':'Votre fichier reste sur ce PC.'}</span></label></div><button class="btn primary full" type="submit" style="margin-top:23px">Enregistrer la question</button></form>`);}
@@ -514,7 +593,7 @@ async function playTyrolienClip(){
 }
 function send(action){if(['answer','joker','buzz','listen-more','judge','bingo-mark','chain-bank','chain-vote'].includes(action.type))action.questionId=currentQ()?.id;if(game?.mode==='phone'){if(!ws||ws.readyState!==WebSocket.OPEN){toast('Connexion interrompue. Attendez la reconnexion.');return;}ws.send(JSON.stringify(action));}else{const next=applyAction(game,action);if(next!==game){game=next;if(next.mode==='usb')queueUSB(next);void receive();}}}
 async function requestRoom(payload){
- const response=await fetch('/api/rooms',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload),signal:AbortSignal.timeout(path.startsWith('/api/library/previews?')?25000:12000)});
+ const response=await fetch('/api/rooms',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload),signal:AbortSignal.timeout(12000)});
  const data=await response.json();
  if(!response.ok)throw Error(data.error);
  return data;
@@ -760,7 +839,7 @@ async function launch(){if(busy)return;busy=true;catalogMessage='';audioError=''
  const clean=questions.map(({mediaKey,mediaType,notes,audioUrl,...q})=>q);
  const existing={room:activeEvening.code,token:activeEvening.token};
  const effect=bingo||special?'normal':config.effect;
- const data=await requestRoom({...existing,questions:clean,input:config.input,musicGame:config.musicGame,showAnimations,randomTeamCount:randomTeamsSelected()?Number(config.randomTeamCount)||2:0,settings:{...config.settings,survival,bingo,chain,timelineMode:timelineAnchor?(config.timelineMode||'collective'):undefined,timelineAnchor,listening:bingo||chain?'continuous':config.settings.listening},effect});
+ const data=await requestRoom({...existing,questions:clean,input:config.input,musicGame:config.musicGame,showAnimations,teamPlay:sharedTeamsSelected(),randomTeamCount:sharedTeamsSelected()?game?.teamPlan?.groups.length||2:0,settings:{...config.settings,survival,bingo,chain,timelineMode:timelineAnchor?(config.timelineMode||'collective'):undefined,timelineAnchor,listening:bingo||chain?'continuous':config.settings.listening},effect});
  if(activeEvening.usb?.state){
   const {revision}=await eveningRequest('PUT',{code:activeEvening.code,revision:usbRevision,id:randomUUID(),state:null});
   usbRevision=revision;activeEvening.usb={state:null,revision};
@@ -786,7 +865,7 @@ function receiveBingoAnswer(message){
 }
 function connect(){clearTimeout(reconnect);if(ws){ws.onclose=null;ws.close();}connected=false;ws=new WebSocket(`${location.protocol==='https:'?'wss:':'ws:'}//${location.host}/api/rooms/${room}`);const socket=ws;
  socket.onopen=()=>{connected=true;socket.send(JSON.stringify(auth));};
- socket.onmessage=e=>{if(e.data==='pong')return;try{const m=JSON.parse(e.data);if(m.type==='ceremony'){showCeremony(m);return;}if(m.type==='roulette'){showWheel(m.wheel);return;}if(m.type==='bingo-answer'){receiveBingoAnswer(m);return;}if(m.type==='error'){busy=false;if(pendingBingo){pendingBingo=undefined;render();}toast(m.message);if(view==='join')render();if(/expir|introuvable|refus|commencé|déjà|maximum|Entrez/.test(m.message)){socket.onclose=null;socket.close();connected=false;}return;}if(m.type==='session'){teamId=m.id;sessionStorage.setItem('declic.player.'+room,JSON.stringify({id:m.id,token:m.token}));auth={type:'join',token:m.token};role='player';view='phone';busy=false;}if(m.type==='state'){game=m.state;wheel=game.roulette||null;if(role==='host'&&resumeOnConnect){resumeOnConnect=false;if(game.phase==='finished')view='setup';}if(game.tyrolien){void receive();return;}game.teams=game.teams.map(({id,name,score,key,streak,eliminated,lives,bingo})=>({id,name,score,key,streak,eliminated,lives,bingo}));if(role==='host'){if(view==='studio'&&!game.questions.length)view='setup';const saved=read('declic.host',{});if(saved.room===room){game.effect=saved.effect||game.effect;game.questions=game.questions.map(q=>({...q,...saved.questions?.find(v=>v.id===q.id),duration:q.duration}));}if(game.phase==='playing'&&!audioReady)void ensureAudio().catch(error=>toast(error.message));}void receive();}}catch{toast('Erreur de synchronisation.');}};
+ socket.onmessage=e=>{if(e.data==='pong')return;try{const m=JSON.parse(e.data);if(m.type==='team-plan'){if(game){game.teamPlan=m.teamPlan;render();}return;}if(m.type==='ceremony'){showCeremony(m);return;}if(m.type==='roulette'){showWheel(m.wheel);return;}if(m.type==='bingo-answer'){receiveBingoAnswer(m);return;}if(m.type==='error'){busy=false;if(pendingBingo){pendingBingo=undefined;render();}toast(m.message);if(view==='join')render();if(/expir|introuvable|refus|commencé|déjà|maximum|Entrez/.test(m.message)){socket.onclose=null;socket.close();connected=false;}return;}if(m.type==='session'){teamId=m.id;sessionStorage.setItem('declic.player.'+room,JSON.stringify({id:m.id,token:m.token}));auth={type:'join',token:m.token};role='player';view='phone';busy=false;}if(m.type==='state'){game=m.state;wheel=game.roulette||null;if(role==='host'&&resumeOnConnect){resumeOnConnect=false;if(game.phase==='finished')view='setup';}if(game.tyrolien){void receive();return;}game.teams=game.teams.map(({id,name,score,key,streak,eliminated,lives,bingo})=>({id,name,score,key,streak,eliminated,lives,bingo}));if(role==='host'){if(view==='studio'&&!game.questions.length)view='setup';const saved=read('declic.host',{});if(saved.room===room){game.effect=saved.effect||game.effect;game.questions=game.questions.map(q=>({...q,...saved.questions?.find(v=>v.id===q.id),duration:q.duration}));}if(game.phase==='playing'&&!audioReady)void ensureAudio().catch(error=>toast(error.message));}void receive();}}catch{toast('Erreur de synchronisation.');}};
  socket.onclose=event=>{connected=false;busy=false;
  if(event.code===4001){
   if(role==='host'){if(!changingEvening){clearEvening();view='home';void loadEvening();}}
@@ -846,6 +925,20 @@ document.addEventListener('click',async e=>{const b=e.target.closest('[data-acti
  if(act==='settings'){view='settings';render();return;}
  if(act==='home'){if(role!=='host'&&game)return;view='home';void loadEvening();return;}
  if(act==='library'||act==='help'){view=act;render();return;}
+ if(act==='teams-config'){send({type:act,count:Number(v)});return;}
+ if(act==='teams-mode'){send({type:act,mode:v});return;}
+ if(act==='teams-open'){send({type:act,open:!game?.teamPlan?.open});return;}
+ if(act==='teams-shuffle'){send({type:act});return;}
+ if(act==='teams-choose'){choosingWhileGathering=false;send({type:act,group:v});return;}
+ if(act==='teams-gather'){send({type:act,active:!game?.teamPlan?.gather});return;}
+ if(act==='teams-pick-during-gather'){choosingWhileGathering=true;render();return;}
+ if(act==='teams-fullscreen'){
+  try{
+   if(document.fullscreenElement){await document.exitFullscreen();teamFullscreen=false;}
+   else if(document.documentElement.requestFullscreen){await document.documentElement.requestFullscreen();teamFullscreen=true;}
+  }catch{/* L’affichage coloré fonctionne dans la fenêtre. */}
+  return;
+ }
  if(act==='music-game'){selectGame(v);return;}
  if(act==='all-music'){
   selectedPlaylists=['mix'];savePlaylistSelection();render();return;
@@ -878,6 +971,7 @@ document.addEventListener('click',async e=>{const b=e.target.closest('[data-acti
   }else if(key==='participation'||key==='randomTeamCount'||key==='timelineMode'||key==='soundtrackCategory'||key==='coversDirection'){
    config[key]=v;
   }
+  if(key==='participation'&&sharedTeamsSelected()&&!game?.teamPlan&&game?.mode==='phone')send({type:'teams-config',count:2});
   saveConfig();render();return;
  }
  if(act==='question-count'){customQuestionCount=v==='custom';if(!customQuestionCount){config[config.musicGame==='timeline'?'timelineCount':'count']=questionCount(v);saveConfig();}render();return;}
@@ -992,7 +1086,7 @@ document.addEventListener('change',async e=>{
 });
 document.addEventListener('submit',async e=>{const f=e.target;if(f.method==='dialog')return;e.preventDefault();const data=new FormData(f);
  if(f.id==='question-form')try{const answer=String(data.get('answer')).trim(),wrong=String(data.get('wrong')).split('\n').map(x=>x.trim()).filter(Boolean);if(!answer||wrong.length!==3||new Set([answer,...wrong].map(x=>x.toLowerCase())).size!==4)throw Error('Saisissez une bonne réponse et trois mauvaises réponses différentes.');const existing=custom.find(q=>q.id===f.dataset.id),id=existing?.id||randomUUID();let mediaKey=existing?.mediaKey,mediaType=existing?.mediaType;const file=data.get('media'),kind=data.get('kind');if(file?.size){if(file.size>30*1024*1024)throw Error('Le fichier doit faire moins de 30 Mo.');if(['audio','lyrics'].includes(kind)&&!file.type.startsWith('audio/'))throw Error('Choisissez un fichier audio pour ce type de question.');if(kind==='image'&&!['image/jpeg','image/png','image/webp','image/gif'].includes(file.type))throw Error('Choisissez une image JPG, PNG, WebP ou GIF.');mediaKey=id;mediaType=file.type;await storeBlob(id,file);if(assetUrls.has(id)){URL.revokeObjectURL(assetUrls.get(id));assetUrls.delete(id);}}if(['audio','lyrics'].includes(kind)&&(!mediaKey||!mediaType?.startsWith('audio/')))throw Error('Ajoutez un fichier audio.');if(kind==='image'&&(!mediaKey||!mediaType?.startsWith('image/')))throw Error('Ajoutez une image.');const cutAt=Number(data.get('cutAt'));if(kind==='lyrics'&&(!Number.isFinite(cutAt)||cutAt<.1||cutAt>30||cutAt>=Number(data.get('duration'))))throw Error('La coupure doit être comprise entre 0,1 et 30 s, avant la fin de la manche.');const options=[answer,...wrong];for(let i=3;i>0;i--){const j=Math.floor(Math.random()*(i+1));[options[i],options[j]]=[options[j],options[i]];}const q={id,universe:'music',kind,prompt:String(data.get('prompt')).trim(),answer,aliases:String(data.get('aliases')).split(';').map(x=>x.trim()).filter(Boolean),options,duration:Number(data.get('duration')),points:Number(data.get('points')),mediaKey,mediaType,cutAt:kind==='lyrics'?cutAt:undefined,title:String(data.get('title')||'').trim()||undefined,artist:String(data.get('artist')||'').trim()||undefined,target:'both'};custom=existing?custom.map(v=>v.id===id?q:v):[...custom,q];write('declic.library',custom);closeModal();render();toast('Question enregistrée !');}catch(err){toast(err.message);}
- if(f.id==='join-form'){const code=String(data.get('code')).trim().toUpperCase();if(!/^[A-Z2-9]{8}$/.test(code)){toast('Entrez le code de 8 caractères.');return;}room=code;const saved=JSON.parse(sessionStorage.getItem('declic.player.'+room)||'null');auth={type:'join',name:String(data.get('name')).trim(),token:saved?.token};teamId=saved?.id;busy=true;render();connect();}
+ if(f.id==='join-form'){const code=String(data.get('code')).trim().toUpperCase();if(!/^[A-Z2-9]{8}$/.test(code)){toast('Entrez le code de 8 caractères.');return;}room=code;history.replaceState(null,'','/join?code='+encodeURIComponent(room));const saved=readPlayerSession(room);auth={type:'join',name:String(data.get('name')).trim(),token:saved?.token};teamId=saved?.id;busy=true;render();connect();}
  if(f.id==='answer-form'){send({type:'answer',answer:String(data.get('answer')||'').trim(),title:String(data.get('title')||'').trim(),artist:String(data.get('artist')||'').trim()});}
  if(f.id==='adjust-form'){send({type:'adjust',team:data.get('team'),points:Number(data.get('points'))});closeModal();}
 });
@@ -1415,6 +1509,7 @@ function setupScreen(){
  <section class="qcard setup-launch">
  ${questionSetup()}
  ${participationSetup()}
+ ${config.mode==='phone'&&(sharedTeamsSelected()||config.musicGame==='tyrolien'||game?.teamPlan)?teamAdmin()+previousTeamGames():''}
  ${answerSetup()}
  ${config.musicGame==='tyrolien'?'':`<details class="settings-details" id="advanced-setup" ${advancedOpen?'open':''}><summary>Réglages avancés</summary>${setupAdvanced(fixedMusic)}</details>`}
  ${game?.phase==='finished'?`<button class="textbtn" data-action="ceremony">${ceremony?'Fermer le podium de la soirée':'Afficher le podium de la soirée'}</button>`:''}
@@ -1531,20 +1626,22 @@ function setupAdvanced(fixedMusic){
 function supportsRandomTeams(){
  return config.mode==='phone'&&config.input!=='buzzer'&&['blind','covers','coversQuiz','soundtrack'].includes(config.musicGame);
 }
-function randomTeamsSelected(){return supportsRandomTeams()&&config.participation==='random';}
+function sharedTeamsSelected(){
+ return supportsRandomTeams()&&['team','random'].includes(config.participation);
+}
 function choiceButtons(label,key,choices,value){
  return `<fieldset class="setup-choices"><legend>${label}</legend><div class="row">${choices.map(([id,name])=>`<button class="btn ghost" data-action="setup-choice" data-key="${key}" data-value="${id}" aria-pressed="${String(value)===String(id)}">${name}</button>`).join('')}</div></fieldset>`;
 }
 function participationSetup(){
- if(config.musicGame==='tyrolien')return '<p>En équipes · répartition au lancement</p>';
+ if(config.musicGame==='tyrolien')return '<p>En équipes · jusqu’à six équipes</p>';
  if(config.musicGame==='survival')return '<p>En individuel</p>';
  if(config.mode==='usb')return '<p>En équipes · buzzers USB</p>';
+ const supported=supportsRandomTeams();
  const choices=[['individual','Individuel'],['team','En équipes']];
- if(supportsRandomTeams())choices.push(['random','Équipes au hasard']);
- const selected=choices.some(([id])=>id===config.participation)?config.participation:'individual';
+ if(supported)choices.push(['shared-device','Un téléphone par équipe']);
+ const selected=config.participation==='random'?'team':config.participation||'individual';
  return choiceButtons('Participants','participation',choices,selected)+
- (randomTeamsSelected()?choiceButtons('Nombre d’équipes','randomTeamCount',[[2,'2'],[3,'3'],[4,'4']],config.randomTeamCount||2)+'<p class="mini">Un téléphone par joueur.</p>':
- selected==='team'?'<p class="mini">Un téléphone par équipe.</p>':'');
+ (sharedTeamsSelected()?'<p class="mini">Un téléphone par joueur.</p>':selected==='team'||selected==='shared-device'?'<p class="mini">Un téléphone par équipe.</p>':'');
 }
 function answerSetup(){
  const blind=!config.musicGame||config.musicGame==='blind';
@@ -1584,14 +1681,19 @@ if(view==='home')void loadEvening();
 
 document.addEventListener('submit',async event=>{
  const form=event.target;
+ if(form.matches('[data-team-count],[data-team-move],[data-team-style]')){
+  event.preventDefault();
+  const data=new FormData(form);
+  if(form.hasAttribute('data-team-count'))send({type:'teams-config',count:Number(data.get('count'))});
+  else if(form.hasAttribute('data-team-move'))send({type:'teams-choose',player:data.get('player'),group:data.get('group')});
+  else send({type:'teams-style',group:form.dataset.teamStyle,name:data.get('name'),color:data.get('color'),icon:data.get('icon')});
+  return;
+ }
  if(form.id!=='ty-start-form')return;
  event.preventDefault();
- const data=new FormData(form),count=Number(data.get('count'));
- const assignments=Object.fromEntries([...data].filter(([key,value])=>key.startsWith('team-')&&value)
-  .map(([key,value])=>[key.slice(5),value]));
+ const data=new FormData(form);
  try{
   await desk.unlock();
-  send({type:'ty-start',names:Array.from({length:count},(_,index)=>data.get('name-'+index)),
-   levels:Number(data.get('levels')),seconds:Number(data.get('seconds')),bonuses:data.has('bonuses'),assignments});
+  send({type:'ty-start',levels:Number(data.get('levels')),seconds:Number(data.get('seconds')),bonuses:data.has('bonuses')});
  }catch(error){toast(error.message);}
 });

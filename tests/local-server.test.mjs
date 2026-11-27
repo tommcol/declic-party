@@ -9,7 +9,7 @@ import {WebSocket} from 'ws';
 import {buildLocal} from '../build.mjs';
 import {createLocalServer} from '../local/server.mjs';
 
-test('Le serveur Node synchronise une manche et reprend ses données et alarmes après un arrêt',{timeout:20000},async t=>{
+test('Le serveur Node synchronise une manche et reprend ses données et alarmes après un arrêt',{timeout:34000},async t=>{
  await buildLocal();
  const {default:worker,PartyRoom,MusicLibrary}=await import('../dist/local-worker.mjs');
  const directory=await mkdtemp(join(tmpdir(),'declic-test-'));
@@ -43,6 +43,8 @@ test('Le serveur Node synchronise une manche et reprend ses données et alarmes 
   });
   await once(ws,'open');
   return {
+   close:()=>ws.close(),
+   messages,
    send:message=>ws.send(typeof message==='string'?message:JSON.stringify(message)),
    async waitFor(predicate,timeout=2500){
     const deadline=Date.now()+timeout;
@@ -131,4 +133,105 @@ test('Le serveur Node synchronise une manche et reprend ses données et alarmes 
  const exclusions=await request('/api/library/tracks?playlist=mix&excluded=1');
  assert.ok(exclusions.tracks.some(track=>track.id===tracks[0].id));
  assert.ok(!(await request('/api/library/candidates?playlist=mix')).tracks.some(track=>track.id===tracks[0].id));
+
+ const leader=await connect(code);
+ leader.send({type:'host',token});
+ await phase(leader,'reveal');
+ leader.send({type:'next'});
+ await phase(leader,'finished');
+ const teamMessage=(client,predicate)=>client.waitFor(m=>m.type==='team-plan'&&predicate(m.teamPlan)).then(m=>m.teamPlan);
+ for(const count of [4,6,8,10,7,2]){
+  leader.send({type:'teams-config',count});
+  await teamMessage(leader,plan=>plan.groups.length===count);
+ }
+ const second=await connect(code);
+ second.send({type:'join',token:sessions[1].token});
+ await second.waitFor(m=>m.type==='session');
+ leader.send({type:'teams-open',open:true});
+ await teamMessage(restoredPlayer,plan=>plan.open);
+ restoredPlayer.send({type:'teams-choose',group:'0'});
+ second.send({type:'teams-choose',group:'0'});
+ const races=await Promise.all([restoredPlayer,second].map(player=>player.waitFor(m=>m.type==='error'||m.teamPlan?.groups[0].members.length===1)));
+ assert.ok(races.some(m=>m.teamPlan));
+ const filled=await teamMessage(leader,plan=>plan.groups[0].members.length===1);
+ const firstId=filled.groups[0].members[0].id;
+ const loser=firstId===sessions[0].id?second:restoredPlayer;
+ const loserId=filled.unassigned[0].id;
+ const rejected=races.some(m=>m.type==='error')?races.find(m=>m.type==='error'):await loser.waitFor(m=>m.type==='error');
+ assert.match(rejected.message,/complète/);
+ leader.send({type:'teams-mode',mode:'manual'});
+ await teamMessage(leader,plan=>plan.mode==='manual');
+ leader.send({type:'teams-choose',player:loserId,group:'1'});
+ await teamMessage(leader,plan=>plan.unassigned.length===0&&plan.groups[1].members.length===1);
+
+ const third=await connect(code);
+ third.send({type:'join',name:'Troisième personne'});
+ const thirdSession=await third.waitFor(m=>m.type==='session');
+ const grown=await teamMessage(leader,plan=>plan.total===3);
+ assert.deepEqual(grown.groups.map(group=>group.capacity),[2,1]);
+ assert.equal(grown.groups[0].members[0].id,firstId);
+ leader.send({type:'teams-mode',mode:'free'});
+ await teamMessage(leader,plan=>plan.total===3&&plan.mode==='free');
+ third.send({type:'teams-choose',group:'0'});
+ await teamMessage(leader,plan=>plan.groups[0].members.length===2);
+ await sleep(1050); // Respect the WebSocket per-client burst limit.
+ leader.send({type:'teams-style',group:'1',name:'Les Comètes',color:'#a01132',icon:'☄️'});
+ await teamMessage(leader,plan=>plan.groups[1].name==='Les Comètes');
+ leader.send({type:'teams-gather',active:true});
+ const gathering=await teamMessage(loser,plan=>plan.gather);
+ assert.equal(gathering.groups[1].color,'#a01132');
+ const gatheringOthers=await teamMessage(third,plan=>plan.gather);
+ assert.notEqual(gatheringOthers.groups[0].color,gatheringOthers.groups[1].color);
+ const traffic=third.messages.filter(m=>m.type==='team-plan').length;
+ await sleep(200);
+ assert.equal(third.messages.filter(m=>m.type==='team-plan').length,traffic);
+ leader.send({type:'teams-gather',active:false});
+ await teamMessage(third,plan=>!plan.gather&&plan.groups[1].name==='Les Comètes');
+
+ await request('/api/rooms','POST',{room:code,token,questions:[question],input:'qcm',musicGame:'blind',teamPlay:true,randomTeamCount:2});
+ await leader.waitFor(m=>m.state?.teamPlay&&m.state.phase==='lobby');
+ leader.send({type:'teams-gather',active:true});
+ await teamMessage(leader,plan=>plan.gather&&plan.total===3);
+ leader.send({type:'play'});
+ const grouped=await third.waitFor(m=>m.state?.phase==='playing'&&m.state.teamPlay);
+ assert.equal(grouped.state.teamPlan,null);
+ assert.equal(grouped.state.myRandomTeam,0);
+ third.send({type:'teams-choose',group:'1'});
+ assert.match((await third.waitFor(m=>m.type==='error')).message,/verrouillées/);
+ await sleep(Math.max(0,grouped.state.startAt-Date.now())+25);
+ leader.send({type:'pause'});
+ await phase(leader,'paused');
+ leader.send({type:'teams-gather',active:true});
+ await teamMessage(leader,plan=>plan.gather);
+ leader.send({type:'resume'});
+ const resumed=await leader.waitFor(m=>m.state?.phase==='playing'&&m.state.event?.type==='resume');
+ assert.equal(resumed.state.teamPlan,null);
+ leader.send({type:'reveal'});
+ await phase(leader,'reveal');
+ leader.send({type:'next'});
+ await phase(leader,'finished');
+ await request('/api/rooms','POST',{room:code,token,questions:[question],input:'qcm',musicGame:'blind'});
+ const individual=await leader.waitFor(m=>m.state?.phase==='lobby'&&m.state.teamPlay===false&&m.state.teamPlan?.total===3);
+ assert.equal(individual.state.randomTeams,undefined);
+ assert.ok(individual.state.teamPlan.groups[0].members.some(member=>member.id===thirdSession.id));
+ assert.ok(individual.state.teamResults.some(result=>result.game==='blind'&&result.groups.some(group=>group.name==='Les Comètes')));
+ assert.ok(individual.state.eveningRanking.some(row=>row.id===sessions[0].id&&row.points>0));
+
+ await request('/api/rooms','POST',{room:code,token,game:'tyrolien'});
+ await leader.waitFor(m=>m.state?.tyrolien?.phase==='lobby');
+ await sleep(1050);
+ leader.send({type:'teams-config',count:6});
+ await teamMessage(leader,plan=>plan.groups.length===6);
+ const extraPlayers=await Promise.all([connect(code),connect(code),connect(code)]);
+ extraPlayers.forEach((client,index)=>client.send({type:'join',name:'Nouvelle personne '+index}));
+ await Promise.all(extraPlayers.map(client=>client.waitFor(m=>m.type==='session')));
+ leader.send({type:'teams-mode',mode:'auto'});
+ leader.send({type:'teams-shuffle'});
+ await teamMessage(leader,plan=>plan.mode==='auto'&&plan.total===6&&plan.groups.every(group=>group.members.length===1));
+ leader.send({type:'ty-start',levels:4,seconds:5,bonuses:false});
+ const ty=await restoredTv.waitFor(m=>m.state?.tyrolien?.phase==='listen');
+ assert.equal(ty.state.tyrolien.teams.length,6);
+ assert.ok(ty.state.tyrolien.teams.some(group=>group.name==='Les Comètes'&&group.color==='#a01132'));
+ assert.equal((await request('/api/evening')).active.code,code);
+
 });
