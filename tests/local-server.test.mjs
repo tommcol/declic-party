@@ -292,6 +292,12 @@ test('Le serveur Node synchronise une manche et reprend ses données et alarmes 
  leader.send({type:'stop'});
  const {state:finished}=await restoredTv.waitFor(m=>m.state?.mountain&&m.state.phase==='finished');
  assert.equal(finished.gameStatistics.filter(player=>player.correct===1).length,3);
+ const {state:hostResult}=await leader.waitFor(m=>m.state?.phase==='finished'&&m.state?.mountain);
+ assert.equal(hostResult.eveningGameResult.status,'interrupted');
+ assert.ok(hostResult.eveningGameResult.rows.every(row=>row.points===0));
+ assert.deepEqual(hostResult.eveningRanking,finished.eveningRanking);
+ const {state:phoneResult}=await extraPlayers[0].waitFor(m=>m.state?.phase==='finished'&&m.state?.mountain);
+ assert.deepEqual(phoneResult.eveningPersonal,finished.eveningRanking.find(row=>row.id===phoneResult.eveningPersonal.id));
  await request('/api/rooms','POST',{room:code,token,questions:[question],input:'qcm',musicGame:'blind'});
  const {state:after}=await restoredTv.waitFor(m=>m.state?.musicGame==='blind'&&m.state.phase==='lobby'&&m.state.teams.length===6);
  assert.equal(after.eveningRanking.filter(row=>row.correct>=1).length>=3,true);
@@ -302,7 +308,9 @@ test('Le serveur Node synchronise une manche et reprend ses données et alarmes 
  const {history}=await request('/api/evening?history=1');
  assert.equal(history.filter(row=>row.code===code).length,1);
  const {archive}=await request('/api/evening?archive='+code);
- assert.ok(archive.games.some(game=>game.game==='tyrolien'&&game.rounds.length));
+ const archivedTyrolien=archive.games.find(game=>game.game==='tyrolien'&&game.rounds.length);
+ assert.deepEqual(archivedTyrolien.result,hostResult.eveningGameResult);
+ assert.deepEqual(archive.ranking,finished.eveningRanking);
  assert.ok(archive.ranking.some(row=>row.correct>=1));
  assert.ok(!JSON.stringify(archive).includes(token));
  await app.close();

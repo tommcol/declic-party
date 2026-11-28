@@ -5,7 +5,7 @@ import {changeRoulette,rouletteView,rouletteAdvanceAt} from './roulette.js';
 import {tyrolienScreen,mountainPanel,mountainMoment} from './tyrolien-ui.js';
 import {openMusicLibrary} from './music-library.js';
 import {THEMES,CHALLENGES,musicQuestions,shuffle,SPECIAL_TRACKS,matchSpecialTrack,specialQuestions} from './catalog.js';
-import {randomUUID,createGame,applyAction,publicGame,DEMO,targets,gameSettings,isBuzzer,isProgressive,LISTEN_STEPS,audioRemaining,listeningLimit,roundStatistics,bingoProgress,bingoGrandWinners,BINGO_CARD_SIZE,competitionRanking,eveningGamePoints,roundProgress,musicPerformance,eveningDistinctions,saveGameSnapshot} from './engine.js';
+import {randomUUID,createGame,applyAction,publicGame,DEMO,targets,gameSettings,isBuzzer,isProgressive,LISTEN_STEPS,audioRemaining,listeningLimit,roundStatistics,bingoProgress,bingoGrandWinners,BINGO_CARD_SIZE,competitionRanking,eveningGameResult,eveningTotals,roundProgress,musicPerformance,eveningDistinctions,saveGameSnapshot} from './engine.js';
 import qrcode from './qrcode.js';
 import {SoundDesk,storeBlob,getBlob} from './audio.js';
 import {normalizeShowCue,SHOW_EFFECTS} from './spectacle.js';
@@ -593,7 +593,7 @@ function vinylPhone(q){
 }
 function publishCeremony(open){
  if(game?.mode==='usb'){
-  const ranking=open?competitionRanking(Object.values(usbEveningTotals(game)),row=>row.points):null;
+  const ranking=open?competitionRanking(Object.values(eveningTotals(game)),row=>row.points):null;
   const message={type:'ceremony',ranking,animation:showAnimations};
   channel.postMessage(message);showCeremony(message);return;
  }
@@ -616,21 +616,21 @@ function showCeremony(message){
  ceremony=message.ranking;
  if(role==='tv')showAnimations=message.animation!==false;
  render();
- if(ceremony&&showAnimations){
+ if(ceremony?.some(row=>row.points>0)&&showAnimations){
   if(role==='tv')showTVReaction({kind:'final',label:'Les champions de la soirée',players:ceremony.slice(0,1)});
   if(role==='host')desk.jingle('final');
  }
 }
 function ceremonyMarkup(){
- const played=competitionRanking(ceremony.filter(row=>row.played),row=>row.points);
+ const played=ceremony.filter(row=>row.played&&row.points>0);
  const fastest=[...played].filter(row=>Number.isFinite(row.best)).sort((a,b)=>a.best-b.best)[0];
  const correct=[...played].sort((a,b)=>b.correct-a.correct)[0];
  return `<main class="tv-shell evening-ceremony"><section class="stage"><div class="stage-content"><h1>Le podium de la soirée</h1>
- <div class="podium">${played.slice(0,3).map((row,index)=>`<div><span>${['🏆','🥈','🥉'][row.rank-1]||''}</span>${avatarBadge(row)}<strong>${esc(row.name)}</strong><span>${row.points} points</span></div>`).join('')}</div>
+ ${played.length?'<div class="podium">':'<p>Aucun point de soirée attribué.</p>'}${played.filter(row=>row.rank<=3).map(row=>`<div><span>${['🏆','🥈','🥉'][row.rank-1]||''}</span>${avatarBadge(row)}<strong>${esc(row.name)}</strong><span>${row.points} points</span></div>`).join('')}${played.length?'</div>':''}
  ${fastest?`<p>Réponse éclair · ${esc(fastest.name)} · ${(fastest.best/1000).toFixed(2)} s</p>`:''}
  ${correct?`<p>Meilleur total de bonnes réponses · ${esc(correct.name)} · ${correct.correct}</p>`:''}
  <p>${played.reduce((total,row)=>total+row.correct,0)} bonnes réponses cumulées</p></div></section>
- <details class="control"><summary>Classement général</summary>${played.map(row=>`<div class="leaderrow"><span>${row.rank}</span><span>${esc(row.name)}</span><strong>${row.points} pts</strong></div>`).join('')}</details></main>`;
+ <details class="control"><summary>Classement général</summary>${ceremony.filter(row=>row.played).map(row=>`<div class="leaderrow"><span>${row.rank}</span><span>${esc(row.name)}</span><strong>${row.points} pts</strong></div>`).join('')}</details></main>`;
 }
 function eveningRanking(){
  if(role==='player'){
@@ -642,12 +642,13 @@ function eveningRanking(){
   ${stats.best===null?'':`<p>Meilleur temps · ${(stats.best/1000).toFixed(2)} s</p>`}
   <p>${stats.jokersEarned??0} joker(s) obtenu(s) · ${stats.jokersUsed??0} utilisé(s)</p>${game.personalAwards?.map(award=>`<p><strong>${esc(award.title)}</strong> · ${esc(award.detail)}</p>`).join('')||''}</details>`;
  }
- const ranking=role==='host'&&game?.mode==='usb'?Object.values(usbEveningTotals(game)).sort((a,b)=>b.points-a.points):game?.eveningRanking;
- if(!ranking?.some(row=>row.played))return '';
+ const ranking=role==='host'&&game?.mode==='usb'?competitionRanking(Object.values(eveningTotals(game)),row=>row.points):game?.eveningRanking;
+ if(!ranking)return '';
  const podium=role==='tv';
+ const detail=role==='host'&&game.phase==='finished'?game.eveningGameResult||(game.mode==='usb'?eveningGameResult(game):null):null;
  const rows=ranking.slice(0,podium?10:undefined);
  return `<details class="control" ${podium&&['paused','finished'].includes(game.phase)?'open':''}><summary>Classement de la soirée</summary>
- ${rows.map((row,index)=>`<div class="leaderrow"><span>${row.rank??index+1}</span><span>${esc(row.name)}</span><span>${row.correct}/${row.played} bonnes · ${row.played?Math.round(100*row.correct/row.played):0} %</span><strong>${row.points} pts</strong></div>`).join('')}</details>`;
+ ${rows.map((row,index)=>`<div class="leaderrow"><span>${row.rank??index+1}</span><span>${esc(row.name)}</span><span>${row.correct}/${row.played} bonnes · ${row.played?Math.round(100*row.correct/row.played):0} %</span><strong>${row.points} pts</strong></div>`).join('')}</details>${gameResultMarkup(detail)}`;
 }
 function randomTeamScores(){
  if(!game?.randomTeams?.length)return '';
@@ -891,7 +892,7 @@ function assistantCards(){
   if(remaining>=3)cards.push(['private',{title:'Relance privée',detail:'Invitez tout le groupe à tenter une réponse à la prochaine manche, ou ajustez la difficulté au prochain jeu.',private:true}]);
  }
  if(game.phase==='finished'){
-  const ranking=game.mode==='usb'?competitionRanking(Object.values(usbEveningTotals(game)),row=>row.points):game.eveningRanking||[];
+  const ranking=game.mode==='usb'?competitionRanking(Object.values(eveningTotals(game)),row=>row.points):game.eveningRanking||[];
   const awards=game.eveningAwards||eveningDistinctions(saveGameSnapshot(game),ranking);
   const best=sorted()[0];
   const rounds=game.mountain?.roundsPlayed??history.length;
@@ -1393,7 +1394,7 @@ function questionForm(q={}){const editing=!!q.id;modal(`<div class="top"><h2>${e
 function modal(html){$('.dialog')?.remove();const d=document.createElement('div');d.className='dialog';d.innerHTML=`<div class="modal" role="dialog" aria-modal="true">${html}</div>`;document.body.append(d);d.querySelector('input,button')?.focus();}
 function closeModal(){$('.dialog')?.remove();}
 async function prepareImage(){const q=currentQ();if(!q)return;let url=q.imageUrl;if(!url&&q.mediaKey){if(!assetUrls.has(q.mediaKey)){const b=await getBlob(q.mediaKey);if(b?.type.startsWith('image/'))assetUrls.set(q.mediaKey,URL.createObjectURL(b));}url=assetUrls.get(q.mediaKey);}if(url&&$('[data-image]')){$('[data-image]').innerHTML=`<img src="${esc(url)}" alt="Image mystère à identifier" data-mystery>`;}}
-function broadcastTV(){if(!game||role!=='host')return;const s=publicGame(game),q=currentQ();if(game.mode==='usb')s.eveningRanking=Object.values(usbEveningTotals(game)).sort((a,b)=>b.points-a.points);s.effect=game.effect||config.effect;s.roomCode=game.mode==='phone'?room:null;if(q?.mediaKey&&assetUrls.has(q.mediaKey)){s.question={...s.question,mediaKind:'image',imageUrl:assetUrls.get(q.mediaKey)};}channel.postMessage({type:'state',state:s});}
+function broadcastTV(){if(!game||role!=='host')return;const s=publicGame(game),q=currentQ();if(game.mode==='usb')s.eveningRanking=competitionRanking(Object.values(eveningTotals(game)),row=>row.points);s.effect=game.effect||config.effect;s.roomCode=game.mode==='phone'?room:null;if(q?.mediaKey&&assetUrls.has(q.mediaKey)){s.question={...s.question,mediaKind:'image',imageUrl:assetUrls.get(q.mediaKey)};}channel.postMessage({type:'state',state:s});}
 let lastShowLeader=null;
 async function receive(){
  if(role==='player'&&(game?.me?.attempts||game?.phase!=='playing'))pendingBingo=undefined;
@@ -1532,7 +1533,7 @@ async function playTyrolienClip(){
   desk.play(desk.buffer?.duration||0);
  }
 }
-function send(action){if(['answer','joker','buzz','listen-more','judge','bingo-mark','chain-bank','chain-vote','ty-vote'].includes(action.type)||game?.mountain&&['next','skip','reveal','pause','resume'].includes(action.type))action.questionId=currentQ()?.id;if(game?.mode==='phone'){if(!ws||ws.readyState!==WebSocket.OPEN){toast('Connexion interrompue. Attendez la reconnexion.');return;}ws.send(JSON.stringify(action));}else{const next=action.type==='leave-game'?returnToLobby(game,game.phase==='finished'?usbEveningTotals(game):game.eveningTotals):applyAction(game,action);if(next!==game){game=next;if(next.mode==='usb')queueUSB(next);if(action.type==='leave-game'){desk.stop();desk.id=null;}void receive();}}}
+function send(action){if(['answer','joker','buzz','listen-more','judge','bingo-mark','chain-bank','chain-vote','ty-vote'].includes(action.type)||game?.mountain&&['next','skip','reveal','pause','resume'].includes(action.type))action.questionId=currentQ()?.id;if(game?.mode==='phone'){if(!ws||ws.readyState!==WebSocket.OPEN){toast('Connexion interrompue. Attendez la reconnexion.');return;}ws.send(JSON.stringify(action));}else{const next=action.type==='leave-game'?returnToLobby(game,game.phase==='finished'?eveningTotals(game):game.eveningTotals):applyAction(game,action);if(next!==game){game=next;if(next.mode==='usb')queueUSB(next);if(action.type==='leave-game'){desk.stop();desk.id=null;}void receive();}}}
 async function requestRoom(payload){
  const response=await fetch('/api/rooms',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload),signal:AbortSignal.timeout(12000)});
  const data=await response.json();
@@ -1719,20 +1720,6 @@ window.addEventListener('online',()=>{
  if(eveningStatus==='error'&&view==='home')void loadEvening();
  void flushUSB();
 });
-function usbEveningTotals(state){
- const totals={...state.eveningTotals}, gamePoints=eveningGamePoints(state);
- if(!state.history?.length)return totals;
- for(const stats of roundStatistics(state.history,state.teams)){
-  const prior=totals[stats.id]||{};
-  const participant=state.teams.find(team=>team.id===stats.id);
-  totals[stats.id]={id:stats.id,name:stats.name,avatar:participant.avatar,
-   games:(prior.games||0)+1,points:(prior.scoringVersion===1?prior.points||0:0)+(gamePoints[stats.id]||0),scoringVersion:1,rawPoints:(prior.rawPoints??prior.points??0)+participant.score,
-   correct:(prior.correct||0)+stats.correct,played:(prior.played||0)+stats.played,
-   best:Math.min(prior.best??Infinity,stats.best??Infinity)};
-  if(!Number.isFinite(totals[stats.id].best))totals[stats.id].best=null;
- }
- return totals;
-}
 let vinylPreparation;
 const vinylImages=new Map();
 function vinylSelectionKey(){
@@ -1902,7 +1889,7 @@ async function launch(verifiedDuos){if(busy)return;busy=true;launchError='';cata
   state.musicGame=config.musicGame;
   state.showAnimations=showAnimations;
   state.showTheme=showTheme;
-  state.eveningTotals=game?.mode==='usb'?usbEveningTotals(game):{};
+  state.eveningTotals=game?.mode==='usb'?eveningTotals(game):{};
   state.completedGames=game?.mode==='usb'?saveGameSnapshot(game):[];
   state.playlist=selectedPlaylists.map(id=>playlistIndex().get(id)?.name||id);
   queueUSB(state);openUSB(state);recordLaunch();return;
@@ -2183,7 +2170,7 @@ document.addEventListener('click',async e=>{const b=e.target.closest('[data-acti
  }
  if(act==='mountain-vote'){send({type:'ty-vote',value:v});return;}
  if(act==='skip'||act==='stop'){
-  if(act==='stop'&&!window.confirm(v==='bingo-line'?'Terminer le Bingo et couronner le gagnant de la première ligne ?':'Terminer ce jeu et afficher les résultats ?'))return;
+  if(act==='stop'&&!window.confirm(v==='bingo-line'?'Terminer le Bingo et couronner le gagnant de la première ligne ?':'Terminer ce jeu et afficher les résultats ? Un arrêt avant la fin du jeu ne rapporte aucun point de soirée.'))return;
   send({type:act,bingoLine:v==='bingo-line',questionId:currentQ()?.id});return;
  }
  if(act==='leave-game'){
@@ -2487,8 +2474,17 @@ document.addEventListener('keydown',e=>{
 });
 function catalogScreen(){return `<main class="library"><div class="row"><div><span class="eyebrow">LA BOÎTE À TUBES</span><h1>Trouvez les sons de votre soirée.</h1><p class="help">Recherche de titres et de playlists Deezer. Les extraits sont écoutés à la demande.</p></div><div class="row"><button class="btn primary" data-action="v2-use-catalog">Utiliser ma sélection →</button></div></div><form id="catalog-search" class="catalog-search"><input name="query" placeholder="Un artiste, un titre…" aria-label="Rechercher des musiques" value="${esc(catalogQuery)}" minlength="2" required maxlength="120"><select name="type" aria-label="Type de recherche"><option value="tracks" ${catalogSearchType==='tracks'?'selected':''}>Titres</option><option value="playlists" ${catalogSearchType==='playlists'?'selected':''}>Playlists</option></select><button class="btn primary" ${busy?'disabled':''}>Rechercher</button></form><form id="playlist-import" class="playlist-import"><label for="playlist-url">Ou collez le lien d’une playlist Deezer publique</label><div class="row"><input id="playlist-url" name="url" placeholder="https://www.deezer.com/fr/playlist/…" required><button class="btn ghost" ${busy?'disabled':''}>Importer</button></div></form>${catalogMessage?`<div class="catalog-message" role="status">${esc(catalogMessage)}</div>`:''}<div class="catalog-meta"><strong>${esc(catalogPool.name||'Ma sélection')} · ${catalogPool.tracks.length} titre(s)</strong><div class="row"><button class="textbtn" data-action="v2-add-all" ${!catalogResults.tracks?.length?'disabled':''}>＋ Tous les résultats</button><button class="textbtn" data-action="v2-clear-pool" ${!catalogPool.tracks.length?'disabled':''}>Vider la sélection</button></div></div><div id="catalog-player" class="callout hidden" role="status"><span></span> <button class="btn ghost" data-action="v2-stop-preview">■ Arrêter l’écoute</button></div><div class="track-list">${(catalogSearchType==='playlists'?catalogResults.playlists:catalogResults.tracks||[]).map(t=>catalogSearchType==='playlists'?`<article class="track-row"><img src="${esc(t.artwork||'')}" alt="" loading="lazy"><div><strong>${esc(t.title)}</strong><small>${esc(t.author||'')} · ${t.tracks||'?'} titres</small></div><button class="btn ghost" data-action="v2-playlist" data-value="${esc(t.id)}">Importer</button></article>`:trackRow(t)).join('')}</div>${!catalogResults.tracks?.length&&!catalogResults.playlists?.length?'<div class="empty">Recherchez un artiste ou chargez vos thèmes depuis le studio.<br>Votre sélection est conservée dans ce navigateur.</div>':''}${catalogPool.tracks.length?`<div class="sectiontitle"><h2>Dans votre sélection</h2><span class="badge">${catalogPool.tracks.length} TITRES</span></div><div class="track-list">${catalogPool.tracks.map(t=>trackRow(t,true)).join('')}</div>`:''}<div class="callout">La connexion musicale active est Deezer. Spotify et Apple Music ne sont pas connectés dans cette version. Les fichiers audio personnels restent disponibles dans « Mes questions ».</div></main>`;}
 function trackRow(t,inPool=false){const added=catalogPool.tracks.some(v=>v.id===t.id);return `<article class="track-row"><img src="${esc(t.artwork||'')}" alt="" loading="lazy"><div><strong>${esc(t.title)}</strong><small>${esc(t.artist)} ${t.explicit?'<b class="explicit">E</b>':''}</small><a href="${esc(t.link)}" target="_blank" rel="noopener noreferrer">Sur Deezer ↗</a></div><button class="btn ghost" data-action="v2-preview" data-value="${esc(t.id)}" aria-label="Écouter ${esc(t.title)}">▶</button><button class="btn ${inPool?'ghost':added?'good':'primary'}" data-action="${inPool?'v2-remove-track':'v2-add-track'}" data-value="${esc(t.id)}" ${!inPool&&added?'disabled':''}>${inPool?'Retirer':added?'✓ Ajouté':'＋ Ajouter'}</button></article>`;}
-function scoreBreakdown(r){const labels={title:'Titre',artist:'Artiste',answer:'Réponse',speed:'Rapidité',streak:'Série'};return `<div class="score-breakdown">${Object.entries(r.breakdown||{}).filter(([,v])=>v>0).map(([id,v])=>`<span>${labels[id]} <b>+${v}</b></span>`).join('')}</div>`;}
+function scoreBreakdown(r){const labels={title:'Titre',artist:'Artiste',answer:'Réponse',speed:'Rapidité',streak:'Série',joker:'Joker'};return `<div class="score-breakdown">${Object.entries(r.breakdown||{}).filter(([,v])=>v>0).map(([id,v])=>`<span>${labels[id]} <b>+${v}</b></span>`).join('')}</div>`;}
 let archivedEvenings=[],selectedArchive=null;
+function gameResultMarkup(result){
+ if(!result)return '';
+ return `<details class="control"><summary>Attribution des points de soirée</summary>
+ ${result.status==='interrupted'?'<p>Partie interrompue · 0 point de soirée.</p>':''}
+ ${result.rows.map(row=>`<div class="history-team"><strong>${esc(row.name)}</strong>
+ <span>${row.score} pts de jeu · ${row.rank===null?'Hors classement':'Place '+row.rank}</span>
+ ${row.bonuses?scoreBreakdown({breakdown:row.bonuses}):'<span>Bonus non détaillés</span>'}
+ <span>+${row.points} pts de soirée · ${esc(row.reason)} · Total ${row.cumulative} pts</span></div>`).join('')}</details>`;
+}
 function archiveScreen(){
  const saved=selectedArchive;
  const standings=(rows,label)=>rows?.length?`<h2>${label}</h2><ol>${rows.filter(row=>row.played).map(row=>`<li>${row.rank} · ${esc(row.name)} · ${row.points} pts</li>`).join('')}</ol>`:'';
@@ -2496,15 +2492,16 @@ function archiveScreen(){
  <button class="btn ghost" data-action="archive-export">Exporter cette soirée</button>
  <h2>Soirée du ${esc(new Date(saved.endedAt).toLocaleString('fr-FR'))}</h2>
  ${standings(saved.ranking,'Classement sur téléphone')}${standings(saved.usbRanking,'Classement USB')}
- <h2>Jeux et playlists</h2>${saved.games.map(game=>`<details class="round-history"><summary>${esc(MUSIC_GAMES.find(([id])=>id===game.game)?.[1]||game.game)} · ${game.rounds.length} manches</summary>
+ <h2>Jeux et playlists</h2>${saved.games.map(game=>`<details class="round-history"><summary>${esc(MUSIC_GAMES.find(([id])=>id===game.game)?.[1]||game.game)} · ${game.roundsPlayed??game.rounds.length} manches</summary>
  <p>${esc(game.playlist?.join(' · ')||'Sélection de la soirée')}</p>
+ ${gameResultMarkup(game.result)}
  ${game.participants.slice().sort((a,b)=>b.score-a.score).map(player=>`<p>${esc(player.name)} · ${player.score} pts de jeu</p>`).join('')}
  ${game.teams?.length?`<p>Équipes · ${game.teams.map(team=>esc(team.name)).join(', ')}</p>`:''}</details>`).join('')||'<p>Aucune manche archivée.</p>'}
  <h2>Distinctions</h2>${saved.distinctions?.map(item=>`<p><strong>${esc(item.title)}</strong> · ${esc(item.name)} · ${esc(item.detail)}</p>`).join('')||'<p>Aucune distinction pour cette soirée.</p>'}
  ${saved.music?musicOverview(saved.music):''}`:
  archivedEvenings.map(item=>`<p><button class="btn ghost" data-action="archive-open" data-value="${esc(item.code)}">${esc(new Date(item.endedAt).toLocaleString('fr-FR'))} · ${item.games} jeu(x)</button></p>`).join('')||'<p>Aucune soirée archivée.</p>'}</main>`;
 }
-function historyScreen(){return `<main class="library"><div class="row"><div><span class="eyebrow">CHAQUE DÉCLIC COMPTE</span><h1>Le bilan de la soirée.</h1></div><button class="btn ghost right" data-action="v2-return">Revenir au jeu</button><button class="btn primary" data-action="v2-export-results">Exporter le bilan</button></div><div class="results-leaders">${leaderboard()}</div>${(game?.history||[]).map(h=>`<details class="round-history" open><summary><span class="step">${h.index+1}</span>${esc(h.question.title||h.question.answer)}${h.question.artist?' · '+esc(h.question.artist):''}</summary>${questionExplanation(h.question)}${h.results.map(t=>`<div class="history-team"><strong>${esc(t.name)}</strong><span>+${t.result.total||0} pts</span>${scoreBreakdown(t.result)}</div>`).join('')}</details>`).join('')||'<div class="empty">Le détail sera disponible après la première révélation.</div>'}</main>`;}
+function historyScreen(){return `<main class="library"><div class="row"><div><span class="eyebrow">CHAQUE DÉCLIC COMPTE</span><h1>Le bilan de la soirée.</h1></div><button class="btn ghost right" data-action="v2-return">Revenir au jeu</button><button class="btn primary" data-action="v2-export-results">Exporter le bilan</button></div><div class="results-leaders">${leaderboard()}</div>${game?.phase==='finished'?gameResultMarkup(game.eveningGameResult||(game.mode==='usb'?eveningGameResult(game):null)):''}${(game?.history||[]).map(h=>`<details class="round-history" open><summary><span class="step">${h.index+1}</span>${esc(h.question.title||h.question.answer)}${h.question.artist?' · '+esc(h.question.artist):''}</summary>${questionExplanation(h.question)}${h.results.map(t=>`<div class="history-team"><strong>${esc(t.name)}</strong><span>+${t.result.total||0} pts</span>${scoreBreakdown(t.result)}</div>`).join('')}</details>`).join('')||'<div class="empty">Le détail sera disponible après la première révélation.</div>'}</main>`;}
 function persistPool(){write('declic.musicPool',catalogPool);}
 async function prepareLibrarySelection(selection){
  if(busy||!selection.length)return;

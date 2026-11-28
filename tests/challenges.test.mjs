@@ -356,6 +356,6 @@ test('Le classement général plafonne les jeux à 100 points et partage les ran
  game=applyAction(game,{type:'reveal'},4600);
  assert.deepEqual(eveningGamePoints(game),{});
  game=applyAction(game,{type:'next'},4700);
- assert.deepEqual(eveningGamePoints(game),{a:100,b:50});
+ assert.deepEqual(eveningGamePoints(game),{a:100,b:0});
  assert.deepEqual(competitionRanking([{score:100},{score:100},{score:20}]).map(row=>row.rank),[1,1,3]);
 });

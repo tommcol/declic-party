@@ -2,13 +2,13 @@ import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import test from 'node:test';
 import vm from 'node:vm';
-import {createGame,saveGameSnapshot,competitionRanking,eveningDistinctions,musicPerformance,eveningGamePoints,roundStatistics} from '../public/engine.js';
+import {createGame,saveGameSnapshot,competitionRanking,eveningDistinctions,musicPerformance,eveningTotals,roundStatistics} from '../public/engine.js';
 
 const source=await readFile(new URL('../src/worker.js',import.meta.url),'utf8');
 const runtime=vm.createContext({
  Response, URL, crypto, TextEncoder, TextDecoder, Uint8Array, console,
  DurableObject:class {constructor(ctx,env){Object.assign(this,{ctx,env});}},
- WebSocketRequestResponsePair:class {}, createGame,saveGameSnapshot,competitionRanking,eveningDistinctions,musicPerformance,eveningGamePoints,roundStatistics
+ WebSocketRequestResponsePair:class {}, createGame,saveGameSnapshot,competitionRanking,eveningDistinctions,musicPerformance,eveningTotals,roundStatistics
 });
 vm.runInContext(source.replace(/^import .*;$/gm,'').replace('export {MusicLibrary};','')
  .replace('export default {','globalThis.worker = {')

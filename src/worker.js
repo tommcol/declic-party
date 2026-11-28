@@ -4,7 +4,7 @@ import {changeRoulette,rouletteView,rouletteIndex,rouletteAdvanceAt} from '../pu
 import {normalizeShowCue} from '../public/spectacle.js';
 import {applyTyrolien,tyrolienView} from './tyrolien-room.js';
 import { DurableObject } from 'cloudflare:workers';
-import {returnToLobby,createGame,applyAction,publicGame,normalizeQuizCredit,roundStatistics,BINGO_CARD_SIZE,competitionRanking,eveningGamePoints,saveGameSnapshot,eveningDistinctions,musicPerformance} from '../public/engine.js';
+import {returnToLobby,createGame,applyAction,publicGame,normalizeQuizCredit,roundStatistics,BINGO_CARD_SIZE,competitionRanking,eveningTotals,eveningGameResult,saveGameSnapshot,eveningDistinctions,musicPerformance} from '../public/engine.js';
 import {MusicLibrary,libraryRouteParams} from './library.js';
 export {MusicLibrary};
 import {musicRoute,libraryPreviews} from './catalog.js';
@@ -168,32 +168,6 @@ export default {
   }catch(e){console.error(JSON.stringify({event:'request_error',message:e.message}));return json({error:'Impossible de traiter cette demande.'},500);}
  }
 };
-function eveningTotals(room){
- const totals={...room.eveningTotals};
- const history=room.history||[];
- const gamePoints=eveningGamePoints(room);
- const attempts=new Map(room.tyrolien?[]:roundStatistics(history,room.teams,room.archivedStats).map(row=>[row.id,row]));
- for(const team of room.teams){
-  const prior=totals[team.id]||{points:0,correct:0,played:0};
-  const ty=room.tyrolien?.scores[team.id];
-  const stats=attempts.get(team.id);
-  const correct=ty?.points??stats?.correct??0;
-  const played=room.tyrolien?(ty?.played||0):(stats?.played||0);
-  const bestTimes=[prior.best,stats?.best].filter(Number.isFinite);
-  totals[team.id]={id:team.id,name:team.name,avatar:team.avatar,
-   games:(prior.games||0)+(played>0?1:0),
-   jokersEarned:(prior.jokersEarned||0)+(team.joker?.earned?.length||0),
-   jokersUsed:(prior.jokersUsed||0)+(team.joker?.used?.length||0),
-   points:(prior.scoringVersion===1?prior.points||0:0)+(gamePoints[team.id]||0),scoringVersion:1,
-   rawPoints:(prior.rawPoints??prior.points??0)+(team.score||0)+(team.timelineBonus||0),
-   partial:(prior.partial||0)+(stats?.partial||0),
-   correct:prior.correct+correct,played:prior.played+played,
-   wrong:(prior.wrong||0)+(stats?.wrong||0),absent:(prior.absent||0)+(stats?.absent||0),
-   elapsed:(prior.elapsed||0)+(ty?.elapsed??stats?.elapsed??0),timed:(prior.timed||0)+(ty?.points??stats?.timed??0),
-   best:bestTimes.length?Math.min(...bestTimes):null};
- }
- return totals;
-}
 export class PartyRoom extends DurableObject {
  constructor(ctx,env){super(ctx,env);this.ctx.setWebSocketAutoResponse(new WebSocketRequestResponsePair('ping','pong'));}
  // A host object stores one active room and a recoverable lifecycle operation.
@@ -394,6 +368,7 @@ export class PartyRoom extends DurableObject {
   const state=s.tyrolien?tyrolienView(s,a.role,a.team):a.role==='host'
    ?{...s,hostHash:undefined}:publicGame(s,a.role==='player'?a.team:undefined);
   delete state.completedGames;
+  if(a.role==='host'&&s.phase==='finished')state.eveningGameResult=eveningGameResult(s);
   if(a.role==='host'&&s.phase==='finished')state.eveningAwards=awards||this.distinctions(s,eveningRanking||this.eveningRanking(s));
   if(s.mountain){
    state.mountain=mountainView(s,a.role,a.team);

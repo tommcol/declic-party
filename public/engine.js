@@ -68,43 +68,97 @@ export function competitionRanking(players,score=player=>player.score){
   return {...player,rank};
  });
 }
+export function eveningGameResult(state, statistics=roundStatistics(state.history,state.teams||[],state.archivedStats)){
+ const alpine=state.mountain||state.tyrolien;
+ const assignments=state.mountain?Object.fromEntries((alpine.roster||[]).map(row=>[row.id,row.team]))
+  :state.tyrolien?alpine.assignments:state.randomTeamAssignments;
+ const statsById=new Map(statistics.map(row=>[row.id,row]));
+ const status=state.phase!=='finished'||state.finishReason==='interrupted'||alpine&&alpine.winner==null?'interrupted'
+  :state.finishReason||'completed';
+ const milestones=(state.bingoMilestones||[]).filter(goal=>!state.bingoFinishRows||goal.rows===state.bingoFinishRows);
+ const bingoWinners=new Set(state.settings?.bingo?bingoGrandWinners(state.teams,milestones).map(player=>player.id):[]);
+ const rows=(state.teams||[]).flatMap(player=>{
+  const stats=statsById.get(player.id);
+  const legacy=state.tyrolien?.scores?.[player.id];
+  if(!(legacy?.played||stats?.played))return [];
+  const score=legacy?.points??(player.score||0)+(player.timelineBonus||0);
+  return [{id:player.id,name:player.name,score,group:assignments?.[player.id],
+   eligible:Boolean(legacy?.points||stats?.correct||stats?.partial),
+   finalist:state.settings?.chain||state.settings?.survival?!player.eliminated:bingoWinners.has(player.id),
+   time:player.timelineElapsed||0,
+   bonuses:stats?.bonuses??null}];
+ });
+ const groups=new Map();
+ for(const row of rows){
+  if(row.group==null)continue;
+  groups.set(row.group,(groups.get(row.group)||0)+row.score);
+ }
+ const order=alpine?[alpine.winner,...(alpine.eliminated||[]).slice().reverse()].filter(id=>id!=null):[];
+ const alpineScores=new Map(order.map((id,index)=>[id,order.length-index]));
+ const board=alpine?competitionRanking(alpine.teams,team=>alpineScores.get(team.id)||0)
+  :assignments?competitionRanking([...groups].map(([id,score])=>({id,score})))
+  :[...rows].sort((a,b)=>Number(b.finalist)-Number(a.finalist)||b.score-a.score||
+   (state.settings?.timelineMode?a.time-b.time:0));
+ if(!assignments&&!alpine){
+  let previous,rank;
+  for(const [index,row] of board.entries()){
+   if(!previous||row.finalist!==previous.finalist||row.score!==previous.score||
+      state.settings?.timelineMode&&row.time!==previous.time)rank=index+1;
+   row.rank=rank;
+   previous=row;
+  }
+ }
+ const ranks=new Map(board.map(row=>[row.id,row.rank]));
+ const totals=state.eveningTotals||{};
+ return {version:2,status,rows:rows.map(({id,name,score,group,eligible,bonuses})=>{
+  const rank=ranks.get(assignments||alpine?group:id)??null;
+  const points=status!=='interrupted'&&eligible&&rank!==null?([100,70,50][rank-1]??30):0;
+  const reason=status==='interrupted'?'Partie interrompue':!eligible?'Aucune contribution positive':
+   rank===null?'Hors classement':assignments?'Place de l’équipe et contribution vérifiée':'Place et contribution vérifiée';
+  return {id,name,score,rank,bonuses,points,reason,cumulative:(totals[id]?.scoringVersion?totals[id].points||0:0)+points};
+ })};
+}
 export function eveningGamePoints(state){
  if(state.phase!=='finished')return {};
- const teamMode=state.mountain||state.tyrolien||state.randomTeamAssignments;
- const alpine=state.mountain||state.tyrolien;
- let contestants=state.teams.filter(player=>state.history?.some(round=>round.results?.some(row=>row.id===player.id))||state.archivedStats?.[player.id]);
- let groupOf=player=>player.id;
- let scoreOf=player=>(Number(player.score)||0)+(player.timelineBonus||0);
- if(alpine?.teams?.length){
-  groupOf=player=>state.mountain?alpine.roster?.find(row=>row.id===player.id)?.team:alpine.assignments?.[player.id];
-  contestants=state.teams.filter(player=>groupOf(player)!=null);
-  scoreOf=group=>group.id===alpine.winner?10000:group.eliminated?alpine.eliminated.indexOf(group.id):-1;
- }else if(state.randomTeamAssignments)groupOf=player=>state.randomTeamAssignments[player.id];
- else if(state.settings?.survival||state.settings?.chain)scoreOf=player=>Number(!player.eliminated)*1e9+(player.score||0);
- const groups=new Map();
- for(const player of contestants){
-  const id=groupOf(player);
-  if(id==null)continue;
-  groups.set(id,{id,score:(groups.get(id)?.score||0)+(player.score||0)});
+ return Object.fromEntries(eveningGameResult(state).rows.map(row=>[row.id,row.points]));
+}
+export function eveningTotals(room){
+ const totals={...room.eveningTotals};
+ if(room.phase!=='finished')return totals;
+ const stats=roundStatistics(room.history,room.teams,room.archivedStats);
+ const results=eveningGameResult(room,stats);
+ const statsById=new Map(stats.map(row=>[row.id,row]));
+ const players=new Map(room.teams.map(player=>[player.id,player]));
+ for(const row of results.rows){
+  const player=players.get(row.id), measured=statsById.get(row.id), legacy=room.tyrolien?.scores?.[row.id];
+  const prior=totals[row.id]||{};
+  const played=legacy?.played??measured.played, correct=legacy?.points??measured.correct;
+  const bestTimes=[prior.best,measured.best].filter(Number.isFinite);
+  totals[row.id]={id:row.id,name:player.name,avatar:player.avatar,
+   games:(prior.games||0)+1,points:row.cumulative,scoringVersion:2,
+   rawPoints:(prior.rawPoints??prior.points??0)+row.score,
+   jokersEarned:(prior.jokersEarned||0)+(player.joker?.earned?.length||0),
+   jokersUsed:(prior.jokersUsed||0)+(player.joker?.used?.length||0),
+   correct:(prior.correct||0)+correct,played:(prior.played||0)+played,
+   partial:(prior.partial||0)+measured.partial,wrong:(prior.wrong||0)+measured.wrong,
+   absent:(prior.absent||0)+measured.absent,elapsed:(prior.elapsed||0)+(legacy?.elapsed??measured.elapsed),
+   timed:(prior.timed||0)+(legacy?.points??measured.timed),best:bestTimes.length?Math.min(...bestTimes):null};
  }
- if(state.settings?.bingo){
-  const winners=new Set(bingoGrandWinners(state.teams,state.bingoMilestones).map(player=>player.id));
-  scoreOf=player=>Number(winners.has(player.id))*1e9+(player.score||0);
- }
- const entries=alpine?.teams?.length?alpine.teams:teamMode?[...groups.values()]:contestants;
- const ranked=competitionRanking(entries,teamMode&& !alpine?group=>group.score:scoreOf);
- const byId=new Map(ranked.map(group=>[group.id,Math.round(100*(ranked.length-group.rank+1)/ranked.length)]));
- return Object.fromEntries(contestants.map(player=>[player.id,byId.get(groupOf(player))||0]));
+ return totals;
 }
 export function snapshotGame(state){
- if(!state.questions?.length&&!state.tyrolien?.round)return null;
  const rounds=state.history||[];
- if(!rounds.length&&!state.tyrolien?.round)return null;
- return {id:state.questions?.[0]?.id||'tyrolien-'+state.tyrolien.round,game:state.musicGame||'blind',mode:state.mode,
+ const result=eveningGameResult(state);
+ if(!rounds.length&&!result.rows.length&&(!state.gameId||!state.questions?.length||
+    state.phase==='lobby'&&!state.startAt))return null;
+ return {id:state.gameId||state.questions?.[0]?.id||'tyrolien-'+state.tyrolien?.round,game:state.musicGame||'blind',mode:state.mode,
   playlist:state.playlist?.slice(0,30)||[],status:state.phase,rounds,
+  roundsPlayed:state.mountain?.roundsPlayed??rounds.length,result,
   participants:state.teams.map(({id,name,avatar,score,eliminated})=>({id,name,avatar,score,eliminated})),
   teams:state.mountain?.teams||state.tyrolien?.teams||state.roundTeamIdentities||[],
-  assignments:state.randomTeamAssignments,points:eveningGamePoints(state)};
+  assignments:state.mountain?Object.fromEntries((state.mountain.roster||[]).map(row=>[row.id,row.team]))
+   :state.tyrolien?.assignments||state.randomTeamAssignments,
+  points:Object.fromEntries(result.rows.map(row=>[row.id,row.points]))};
 }
 export function saveGameSnapshot(state){
  const snapshot=snapshotGame(state);
@@ -197,8 +251,9 @@ export function eveningDistinctions(games,ranking=[]){
  const sec=value=>(value/1000).toFixed(2)+' s';
  award('L’Éclair',p=>p.fastest,sec,0,true);
  award('Le Diesel',p=>p.diesel,v=>'+'+pct(v),.001);
- const top=ranking.find(row=>row.points>0)?.points;
- for(const row of ranking.filter(row=>top&&row.points===top))awards.push({title:'Le Patron',id:row.id,name:row.name,detail:top+' points de soirée'});
+ const top=ranking[0]?.points;
+ const contributors=new Set(games.flatMap(game=>game.result?.rows.filter(row=>row.points>0).map(row=>row.id)||[]));
+ for(const row of ranking.filter(row=>top>0&&row.points===top&&contributors.has(row.id)))awards.push({title:'Le Patron',id:row.id,name:row.name,detail:top+' points de soirée'});
  award('En Feu',p=>p.streak,v=>v+' bonnes de suite',3);
  award('La Remontada',p=>p.comeback,v=>'+'+v+' places');
  award('Le Sniper',p=>p.played>=5?p.good/p.played:0,pct,.001);
@@ -213,7 +268,8 @@ export function eveningDistinctions(games,ranking=[]){
 }
 export function roundStatistics(history,teams,previous) {
  const rows=new Map(teams.map(({id,name})=>[id,{id,name,correct:0,wrong:0,absent:0,
-  played:0,partial:0,timed:0,elapsed:0,best:null,last:null,fastest:0,streak:0,bestStreak:0,...previous?.[id]}]));
+  played:0,partial:0,timed:0,elapsed:0,best:null,last:null,fastest:0,streak:0,bestStreak:0,...previous?.[id],
+  bonuses:previous?.[id]?.bonuses?{...previous[id].bonuses}:previous?.[id]?.played?null:{speed:0,streak:0,joker:0}}]));
  for(const round of history||[]){
   let fastest=Infinity;
   const timed=[];
@@ -222,6 +278,11 @@ export function roundStatistics(history,teams,previous) {
    if(!row)continue;
    row.last=result.elapsed??null;
    row.played++;
+   if(row.bonuses){
+    row.bonuses.speed+=result.breakdown?.speed||0;
+    row.bonuses.streak+=result.breakdown?.streak||0;
+    row.bonuses.joker+=result.breakdown?.joker||0;
+   }
    const outcome=roundOutcome(round.question,result);
    if(outcome==='complete'){
     row.correct++;
@@ -332,7 +393,7 @@ function applyJoker(state,question,team){
 
 export function gameSettings(input={}){return {chain:input.chain===true,jokers:input.jokers===true,bingo:input.bingo===true,survival:input.survival===true,timelineMode:timelineMode(input.timelineMode),timelineAnchor:timelineMode(input.timelineMode)?input.timelineAnchor:undefined,survivalLives:Math.max(1,Math.min(5,Math.trunc(Number(input.survivalLives)||3))),listening:input.listening==='progressive'?'progressive':'continuous',duration:Math.max(5,Math.min(90,Number(input.duration)||30)),titlePoints:Math.max(1,Math.min(1000,Number(input.titlePoints)||50)),artistPoints:Math.max(1,Math.min(1000,Number(input.artistPoints)||50)),speed:input.speed!==false,streak:input.streak!==false,rebuzz:['round','none','3','5','10'].includes(String(input.rebuzz))?String(input.rebuzz):'round',resume:input.resume==='manual'?'manual':'auto',autoHost:input.autoHost===true,autoNext:input.autoNext===true,autoNextSeconds:Math.max(3,Math.min(60,Math.trunc(Number(input.autoNextSeconds)||8)))};}
 export function createGame(questions, teams=[], mode='usb', input='qcm', settings={}) {
- return {version:2,questions:structuredClone(questions),teams:teams.map((t,i)=>({id:t.id||String(i),name:t.name||t,score:0,key:t.key||String(i+1),streak:0})),mode,input,settings:gameSettings(settings),index:0,phase:'lobby',buzz:null,blocked:[],cooldowns:{},claimed:{},answers:{},pending:{},startAt:0,endAt:0,remaining:0,event:null,revision:0,history:[],listenStep:0,audioElapsed:0};
+ return {version:2,gameId:randomUUID(),questions:structuredClone(questions),teams:teams.map((t,i)=>({id:t.id||String(i),name:t.name||t,score:0,key:t.key||String(i+1),streak:0})),mode,input,settings:gameSettings(settings),index:0,phase:'lobby',buzz:null,blocked:[],cooldowns:{},claimed:{},answers:{},pending:{},startAt:0,endAt:0,remaining:0,event:null,revision:0,history:[],listenStep:0,audioElapsed:0};
 }
 export function returnToLobby(game, eveningTotals, teamResults=game.teamResults) {
  const next=createGame([],game.teams,game.mode,game.input);
@@ -341,7 +402,7 @@ export function returnToLobby(game, eveningTotals, teamResults=game.teamResults)
  }));
  return {...next,code:game.code,hostHash:game.hostHash,expires:game.expires,
   teamPlan:game.teamPlan?{...game.teamPlan,gather:false,open:false}:undefined,
-  teamResults,eveningTotals,completedGames:game.phase==='finished'?saveGameSnapshot(game):game.completedGames,showAnimations:game.showAnimations,
+  teamResults,eveningTotals,completedGames:saveGameSnapshot(game),showAnimations:game.showAnimations,
   revision:(game.revision||0)+1,event:{type:'salon',id:randomUUID()}};
 }
 export function applyAction(game, action, now=Date.now()) {
@@ -423,7 +484,8 @@ export function applyAction(game, action, now=Date.now()) {
   for(const t of s.teams){
    const points=s.pending[t.id]||0;
    if(!chain)t.score+=points;
-   if(t.joker?.armed==='double'){
+   if(t.joker?.armed==='double'&&points>0){
+    s.answers[t.id].breakdown.joker=points;
     if(timeline)t.timelineBonus=(t.timelineBonus||0)+points;
     else t.score+=points;
    }
@@ -550,13 +612,14 @@ export function applyAction(game, action, now=Date.now()) {
    if(!bingo||!s.bingoMilestones?.some(goal=>goal.rows===1))return game;
    s.bingoFinishRows=1;
   }
-  // Close a started round once, but never invent a draw during a countdown.
-  if(['playing','buzzed','paused'].includes(s.phase)&&now>=s.startAt)reveal();
+  // An interruption keeps the rounds that were already revealed.
+  const alreadyComplete=s.phase==='reveal'&&(s.index===s.questions.length-1||s.survivalWinner);
+  s.finishReason=action.bingoLine?'bingo-line':alreadyComplete?'completed':'interrupted';
   if(chain)for(const team of s.teams){
    if(team.unbanked){s.chainFinalBank??={};s.chainFinalBank[team.id]=team.unbanked;}
    team.score+=team.unbanked||0;team.unbanked=0;
   }
-  s.chainVote=null;s.phase='finished';s.buzz=null;s.blocked=[];s.pending={};s.claimed={};s.cooldowns={};s.nextAt=0;s.endAt=0;s.remaining=0;
+  s.chainVote=null;s.phase='finished';s.buzz=null;s.blocked=[];s.answers={};s.pending={};s.claimed={};s.cooldowns={};s.nextAt=0;s.endAt=0;s.remaining=0;
   if(timeline)s.teams.sort((left,right)=>right.score-left.score||(left.timelineElapsed||0)-(right.timelineElapsed||0));
   emit('podium');
  }
@@ -576,6 +639,7 @@ export function applyAction(game, action, now=Date.now()) {
    return s;
   }
   s.index++;s.phase=s.survivalWinner||s.index>=s.questions.length?'finished':'ready';s.buzz=null;s.blocked=[];s.answers={};s.pending={};s.claimed={};s.cooldowns={};s.nextAt=0;
+  if(s.phase==='finished')s.finishReason='completed';
   if(timeline&&s.phase==='finished')s.teams.sort((left,right)=>right.score-left.score||(left.timelineElapsed||0)-(right.timelineElapsed||0));
   emit(s.phase==='finished'?'podium':'next');}
  else if(action.type==='adjust'&&s.teams.some(t=>t.id===action.team)&&Number.isFinite(action.points)&&Math.abs(action.points)<=1000){s.teams.find(t=>t.id===action.team).score+=Math.round(action.points);emit('adjust');}

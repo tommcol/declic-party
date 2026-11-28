@@ -87,7 +87,7 @@ export function applyMountain(game, action, now) {
     const room = structuredClone(game);
     const mountain = room.mountain;
     if (type === 'stop' || mountain.winner) {
-      return {...room, phase:'finished', nextAt:0, pending:{}, revision:room.revision + 1, event:{type:'podium',id:crypto.randomUUID()}};
+      return {...room, phase:'finished', finishReason:mountain.winner?'completed':'interrupted', nextAt:0, pending:{}, revision:room.revision + 1, event:{type:'podium',id:crypto.randomUUID()}};
     }
     if (type === 'skip') return nextMountainQuestion(room, now);
     if (mountain.phase === 'vote' && type !== 'ty-tick') return game;
