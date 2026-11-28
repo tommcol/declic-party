@@ -461,7 +461,7 @@ function hostRound(q,phase){
  </section>`;
 }
 function mountainStats(){
- return game.gameStatistics?.length?`<details class="settings-details"><summary>Statistiques de la partie</summary>
+ return game?.gameStatistics?.length?`<details class="settings-details"><summary>Statistiques de la partie</summary>
  ${game.gameStatistics.map(row=>`<p><strong>${esc(row.name)}</strong> · ${row.correct} bonnes · ${row.wrong} mauvaises · ${row.absent} absences
  ${row.average==null?'':`· ${(row.average/1000).toFixed(2)} s en moyenne`}</p>`).join('')}</details>`:'';
 }

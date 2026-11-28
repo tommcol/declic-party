@@ -27,7 +27,8 @@ const playlistThemes = {
   cartoons: 'illustrated', disney: 'illustrated', films: 'cinematic',
   tv: 'cinematic', series: 'cinematic', shows: 'cinematic', ads: 'broadcast',
   summer: 'summer', pop: 'retro-pop', party: 'festival',
-  latino: 'summer', reggae: 'summer', noel: 'winter',
+  latino: 'summer', reggae: 'summer', world: 'summer',
+  instrumental: 'cinematic', noel: 'winter', 'decade-2020': 'modern',
 };
 
 export function playlistShowTheme(ids) {
