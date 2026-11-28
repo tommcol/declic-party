@@ -304,3 +304,16 @@ test('Dernier survivant : durée, compte à rebours et bouclier',()=>{
  ]);
  assert.equal(publicGame(room,'a').joker.shield,undefined);
 });
+
+test('Ciné Palace protège la réponse pendant le compte à rebours et confirme le titre choisi',()=>{
+ const question={...audio,target:'soundtrack',answer:'Une œuvre',options:['Une œuvre','Une autre œuvre']};
+ let state=start('qcm',{},question);
+ assert.equal(applyAction(state,{type:'reveal'},state.startAt-1),state);
+ state=applyAction(state,{type:'answer',team:'a',answer:'Une œuvre'},state.startAt+1);
+ assert.equal(publicGame(state,'a').me.selectedArtist,'Une œuvre');
+ assert.equal(publicGame(state,'b').me,undefined);
+ assert.equal(publicGame(state).question.answer,undefined);
+ state=applyAction(state,{type:'reveal'},state.startAt+2);
+ assert.equal(publicGame(state,'a').me.correct,true);
+ assert.equal(publicGame(state).question.answer,'Une œuvre');
+});

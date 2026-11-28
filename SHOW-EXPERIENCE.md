@@ -232,6 +232,10 @@ La régie ferme le vote explicitement et confirme sa décision lorsque des votes
 
 La préparation vérifie les extraits des duos dans le sens choisi. La régie et la révélation distinguent original, reprise, version diffusée et réponse attendue. Le joueur retrouve sa réponse confirmée et son bilan de manche. Le compte à rebours protège la révélation.
 
+## Chantier 06 — Cinéma musical, Ciné Palace
+
+La préparation compte les œuvres distinctes avec un extrait vérifié selon la catégorie. La régie bloque la révélation pendant le compte à rebours. La TV et le téléphone affichent l’œuvre puis le morceau entendu. Le téléphone confirme le choix et le score de la manche.
+
 ## Maintenir les deux versions
 
 Les règles, les scores, le catalogue, les playlists et le serveur local évoluent
