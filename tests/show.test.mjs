@@ -7,7 +7,10 @@ test('Grand Soir ouvre un décor par jeu et revient en salle aux entractes', () 
     soundtrack:'cinema',covers:'gallery',survival:'arena',chain:'chain'};
   for(const [musicGame,scene] of Object.entries(expected)){
     assert.equal(showScene({musicGame,phase:'playing'}),scene);
-    for(const phase of ['lobby','paused','finished']){
+    assert.equal(showScene({musicGame,phase:'lobby',total:5}),scene);
+    assert.equal(showScene({musicGame,phase:'finished'}),scene);
+    assert.equal(showScene({musicGame,phase:'finished'},null,true),'plateau');
+    for(const phase of ['lobby','paused']){
       assert.equal(showVenue({musicGame,phase}),'Salle principale');
     }
   }

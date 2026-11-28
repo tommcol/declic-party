@@ -14,10 +14,10 @@ export function showScene(game, wheel, ceremony) {
   if (game?.tyrolien || game?.mountain || game?.musicGame === 'tyrolien') {
     return wheel || ceremony ? 'plateau' : '';
   }
-  if (wheel || ceremony || !game || ['lobby', 'paused', 'finished'].includes(game.phase)) {
+  if (wheel || ceremony || !game || game.phase === 'paused' || game.phase === 'lobby' && !(game.questions?.length || game.question || game.total > 0)) {
     return 'plateau';
   }
-  return game.settings?.chain ? 'chain' : gameScenes[game.musicGame] || 'studio';
+  return game.settings?.chain ? 'chain' : gameScenes[game.musicGame] || ((game.timelineMode || game.settings?.timelineMode) ? 'chronology' : 'studio');
 }
 
 const sceneNames = {

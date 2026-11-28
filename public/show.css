@@ -840,49 +840,6 @@
   32%, 76% { opacity: 1; transform: translateY(0) scale(1); }
   100% { opacity: 0; transform: translateY(10vh) scale(.58); }
 }
-#show-spotlight {
-  position: fixed;
-  z-index: 20;
-  left: 50%;
-  bottom: 11svh;
-  width: min(84vw, 960px);
-  transform: translateX(-50%);
-  text-align: center;
-  pointer-events: none;
-  opacity: 0;
-  --cue: #fdd28a;
-}
-#show-spotlight[data-reaction="wrong"] { --cue: #ff8d84; }
-#show-spotlight[data-reaction="tie"] { --cue: #c6a5ff; }
-#show-spotlight[data-reaction="leader"] { --cue: #7affd0; }
-#show-spotlight[data-reaction="streak"] { --cue: #ff9b52; }
-#show-spotlight[data-reaction="final"] { --cue: #fff5c8; }
-.show-spotlight-title {
-  display: inline-block;
-  padding: .22em .8em;
-  color: #160e20;
-  background: var(--cue);
-  font-size: clamp(1.15rem, 4vw, 4rem);
-  font-weight: 900;
-  box-shadow: 0 0 1.3em color-mix(in srgb, var(--cue), transparent 40%);
-}
-[data-reaction="podium"] .show-spotlight-title,
-[data-reaction="final"] .show-spotlight-title { font-size: clamp(1.5rem, 5vw, 5rem); }
-.show-spotlight-cast { display: flex; flex-wrap: wrap; justify-content: center; gap: .45rem; }
-.show-spotlight-cast > div {
-  display: grid;
-  justify-items: center;
-  align-content: center;
-  min-width: 7rem;
-  max-width: 15rem;
-  padding: .45rem .8rem;
-  border: 1px solid var(--cue);
-  background: #110b19f5;
-  color: #fff3db;
-}
-.show-spotlight-cast strong { overflow-wrap: anywhere; font-size: clamp(1rem, 1.85vw, 1.75rem); }
-.show-spotlight-cast small { color: var(--cue); font-weight: 800; }
-.show-spotlight-cast .show-avatar { font-size: clamp(1rem, 4vw, 3rem); width: 1.8em; height: 1.8em; }
 .show-setup-nav { margin-block: 1rem; }
 .show-setup-preview {
   display: grid;
@@ -1028,3 +985,8 @@
 .regie-extra { padding: .7rem; margin-top: .65rem; }
 .regie-extra summary { cursor: pointer; color: #ffe1b1; }
 @media (max-width: 800px) { .regie-layout { grid-template-columns: 1fr; } }
+
+.tv-shell .stage img.reveal-cover {
+  max-height: min(18svh, 170px);
+  margin-block: .5rem;
+}
