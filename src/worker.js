@@ -3,7 +3,7 @@ import {MAX_PARTICIPANTS,TYROLIEN_TEAMS,teamIdentity,teamCapacity,changeTeamPlan
 import {changeRoulette,rouletteView,rouletteIndex,rouletteAdvanceAt} from '../public/roulette.js';
 import {applyTyrolien,tyrolienView} from './tyrolien-room.js';
 import { DurableObject } from 'cloudflare:workers';
-import {createGame,applyAction,publicGame,normalizeQuizCredit,roundStatistics,BINGO_CARD_SIZE} from '../public/engine.js';
+import {returnToLobby,createGame,applyAction,publicGame,normalizeQuizCredit,roundStatistics,BINGO_CARD_SIZE} from '../public/engine.js';
 import {MusicLibrary,libraryRouteParams} from './library.js';
 export {MusicLibrary};
 import {musicRoute,libraryPreviews} from './catalog.js';
@@ -140,7 +140,7 @@ export default {
     data.questions=data.questions.map(q=>({id:String(q.id).slice(0,80),universe:q.target==='soundtrack'?q.universe:'music',cutAt:q.kind==='lyrics'?q.cutAt:undefined,kind:['audio','image','question','lyrics'].includes(q.kind)?q.kind:'question',prompt:q.prompt,answer:q.answer,explanation:typeof q.explanation==='string'?q.explanation.slice(0,1500):undefined,theme:typeof q.theme==='string'?q.theme.slice(0,80):undefined,credit:normalizeQuizCredit(q.credit),aliases:(Array.isArray(q.aliases)?q.aliases:[]).filter(v=>typeof v==='string').slice(0,15).map(v=>v.slice(0,180)),options:q.options,year:q.target==='timeline'&&Number.isInteger(q.year)?q.year:undefined,timeline:q.target==='timeline'&&Array.isArray(q.timeline)?q.timeline.filter(v=>typeof v==='string').slice(0,3).map(v=>v.slice(0,180)):undefined,optionArtwork:q.target==='coverChoice'?q.optionArtwork:undefined,duration:q.duration,points:q.points,title:typeof q.title==='string'?q.title.slice(0,180):undefined,artist:typeof q.artist==='string'?q.artist.slice(0,180):undefined,titleAliases:(Array.isArray(q.titleAliases)?q.titleAliases:[]).filter(v=>typeof v==='string').slice(0,10).map(v=>v.slice(0,180)),artistAliases:(Array.isArray(q.artistAliases)?q.artistAliases:[]).filter(v=>typeof v==='string').slice(0,10).map(v=>v.slice(0,180)),target:allowedTargets.includes(q.target)?q.target:'title',emoji:typeof q.emoji==='string'?q.emoji.slice(0,80):undefined,artwork:typeof q.artwork==='string'&&/^https:\/\/[^/]+\.dzcdn\.net\//.test(q.artwork)?q.artwork:undefined,link:typeof q.link==='string'&&/^https:\/\/www\.deezer\.com\//.test(q.link)?q.link:undefined,provider:q.provider==='Deezer'?'Deezer':undefined}));
     const randomTeamCount=Number.isInteger(data.randomTeamCount)&&data.randomTeamCount>=2&&data.randomTeamCount<=MAX_PARTICIPANTS&&
      !data.settings?.bingo&&!data.settings?.survival&&!data.settings?.timelineMode&&!data.settings?.chain&&data.input!=='buzzer'?data.randomTeamCount:0;
-    const musicGame=['blind','bingo','timeline','coversQuiz','soundtrack','covers','survival','tyrolien'].includes(data.musicGame)?data.musicGame:undefined;
+    const musicGame=['blind','bingo','timeline','coversQuiz','soundtrack','covers','survival','progressive','chain','tyrolien'].includes(data.musicGame)?data.musicGame:undefined;
     const setup={mountain:mountain?mountainSettings(data.mountain):undefined,teamPlay:mountain||data.teamPlay===true&&Boolean(randomTeamCount),musicGame,showTheme:typeof data.showTheme==='string'&&/^[a-z-]{1,20}$/.test(data.showTheme)?data.showTheme:undefined,showAnimations:data.showAnimations!==false,randomTeamCount,questions:data.questions,input:['text','buzzer'].includes(data.input)?data.input:'qcm',settings:data.settings&&typeof data.settings==='object'?data.settings:{},effect:['normal','fast','slow','chipmunk','reverse','image'].includes(data.effect)?data.effect:'normal'};
     const status=await env.ROOMS.getByName(data.room).prepare(setup,await digest(data.token));
     return status===200?json({code:data.room,token:data.token}):json({error:status===404?'Cette soirée a expiré. Créez une nouvelle soirée.':status===403?'Accès animateur refusé.':'Terminez le jeu en cours avant de changer de jeu.'},status);
@@ -567,6 +567,22 @@ export class PartyRoom extends DurableObject {
     await this.updateRoulette(m,a,now);
     return;
    }
+   if(m.type==='leave-game'){
+    if(a.role!=='host')throw Error('Action non autorisée');
+    const lobby=await this.ctx.storage.transaction(async tx=>{
+     const current=await tx.get('room');
+     if(!current||current.expires<=now)throw Error('Partie expirée');
+     if(m.gameId!==(current.questions?.[0]?.id||null))throw Error('Le jeu a changé.');
+     const finished=current.phase==='finished';
+     const next=returnToLobby(current,finished?eveningTotals(current):current.eveningTotals,
+      finished?this.completedTeamGames(current):current.teamResults);
+     await tx.put('room',next);
+     await this.schedule(next,tx);
+     return next;
+    });
+    this.broadcast(lobby);
+    return;
+   }
    if(s.tyrolien){
     if(m.type==='ty-tick')throw Error('Action non autorisée');
     s=await this.updateTyrolien(m,a,now);
@@ -600,7 +616,7 @@ export class PartyRoom extends DurableObject {
      if(m.questionId!==s.questions[s.index]?.id)throw Error('Ce vote est terminé.');
      s=act({type:m.type,player:a.team,value:m.value});
     }
-    else if(a.role==='host'&&(['play','pause','resume','reveal','next','adjust','judge','listen-more'].includes(m.type)||
+    else if(a.role==='host'&&(['play','pause','resume','reveal','next','adjust','judge','listen-more','stop'].includes(m.type)||
        s.mountain&&['skip','stop'].includes(m.type)))s=act(m);
     else throw Error('Action non autorisée');
 

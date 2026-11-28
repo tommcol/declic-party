@@ -1,6 +1,6 @@
 const gameScenes = {
   blind: 'studio',
-  progressive: 'studio',
+  progressive: 'laboratory',
   bingo: 'disco',
   timeline: 'chronology',
   coversQuiz: 'duel',
@@ -23,6 +23,7 @@ export function showScene(game, wheel, ceremony) {
 const sceneNames = {
   plateau: 'Salle principale',
   studio: 'Le Grand Studio',
+  laboratory: 'Le Laboratoire du son',
   disco: 'Studio 54',
   chronology: 'Le Chronoscope',
   duel: 'Battle Stage',
@@ -61,7 +62,7 @@ export function showRoundSummary(round) {
 
 const lobbySnapshots = new WeakMap();
 
-export function updateLobbyArrivals(root, {room, game, reduced, avatarFor}) {
+export function updateLobbyArrivals(root, {room, game, reduced, avatarFor, onArrival}) {
   const lobby = game?.phase === 'lobby' && !game.tyrolien && !game.teamPlan?.gather;
   const layer = root.querySelector('.show-arrivals');
   if (!lobby || !layer) {
@@ -79,6 +80,7 @@ export function updateLobbyArrivals(root, {room, game, reduced, avatarFor}) {
   if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
   const arrivals = game.teams.filter(team => !previous.ids.has(team.id));
   if (!arrivals.length) return;
+  onArrival?.();
   const labels = arrivals.slice(0, 4).map(team => [avatarFor(team), team.name]);
   if (arrivals.length > 4) labels.push(['', '+ ' + (arrivals.length - 4) + ' arrivées']);
   labels.forEach(([avatar, name], index) => {
@@ -86,7 +88,15 @@ export function updateLobbyArrivals(root, {room, game, reduced, avatarFor}) {
     const bubble = document.createElement('span');
     bubble.className = 'show-arrival';
     bubble.style.setProperty('--arrival-lane', index);
-    bubble.textContent = avatar ? avatar + ' ' + name : name;
+    if (avatar) {
+      const portrait=document.createElement('span');
+      portrait.className='show-arrival-portrait';
+      portrait.textContent=avatar;
+      bubble.append(portrait);
+    }
+    const nickname=document.createElement('strong');
+    nickname.textContent=name;
+    bubble.append(nickname);
     layer.append(bubble);
     setTimeout(() => bubble.remove(), 3600);
   });
@@ -159,6 +169,12 @@ export function updateShow(root, {role, game, wheel, ceremony, reduced}) {
 
 export function playShowCue(context,type){
   const cues={
+   arrival:[[55,0,.2],[67,.065,.2],[79,.14,.25]],
+   streak:[[60,0,.14],[67,.07,.14],[72,.14,.2],[84,.24,.4]],
+   tie:[[64,0,.22],[71,0,.22],[76,.16,.3],[83,.16,.3]],
+   leader:[[45,0,.22],[57,.1,.2],[69,.2,.24],[81,.3,.42]],
+   round:[[52,0,.25],[64,.13,.18],[71,.13,.18],[76,.26,.35]],
+   final:[[36,0,.8],[48,0,.65],[60,.14,.28],[67,.23,.28],[72,.38,.55],[76,.38,.55],[79,.38,.56],[84,.64,.7]],
    start:[[48,0,.17],[60,.09,.18],[67,.2,.28]],
    tick:[[76,0,.09]],
    buzz:[[43,0,.11],[55,.035,.18]],
@@ -181,3 +197,46 @@ export function playShowCue(context,type){
    oscillator.stop(at+length);
   }
  }
+
+export function stageReaction(game, previousLeader) {
+  const teams=game.teams||[];
+  const ranked=[...teams].sort((a,b)=>Number(!!a.eliminated)-Number(!!b.eliminated)||b.score-a.score);
+  const leader=ranked[0];
+  const event=game.event;
+  if(event.type==='start')return {kind:'start',label:'Place au jeu',players:[]};
+  if(event.type==='podium'){
+    const goal=game.settings?.bingo&&[...(game.bingoMilestones||[])]
+      .filter(row=>!game.bingoFinishRows||row.rows===game.bingoFinishRows).sort((a,b)=>b.rows-a.rows)[0];
+    const mountainWinner=game.mountain?.teams.find(team=>team.id===game.mountain.winner);
+    const contenders=goal?ranked.filter(team=>goal.winners.includes(team.id)):ranked;
+    const winners=mountainWinner?[mountainWinner]:contenders.filter(team=>team.score===contenders[0]?.score);
+    return {kind:'podium',label:winners.length>1?'Victoire ex æquo':'Victoire',players:winners};
+  }
+  if(game.phase==='reveal'){
+    const round=game.history?.at(-1);
+    if(!round||round.index!==game.index)return null;
+    const results=round.results||[];
+    const scores=results.filter(row=>row.result.total>0).sort((a,b)=>b.result.total-a.result.total);
+    const players=scores.map(row=>({...teams.find(team=>team.id===row.id),name:row.name,points:row.result.total}));
+    const milestone=game.bingoMilestones?.filter(goal=>goal.index===game.index).at(-1);
+    if(milestone)return {kind:'round',label:milestone.rows===1?'Première ligne !':milestone.rows===3?'Carton plein !':'Deux lignes !',
+      players:ranked.filter(team=>milestone.winners.includes(team.id))};
+    if(!players.length){
+      const wrong=results.filter(row=>row.result.attempts&&row.result.correct!==true)
+        .map(row=>teams.find(team=>team.id===row.id)).filter(Boolean);
+      return wrong.length?{kind:'wrong',label:'Manche sans bonne réponse',players:wrong}:null;
+    }
+    if(scores.length>1&&scores[0].result.total===scores[1].result.total)
+      return {kind:'tie',label:'Ex æquo sur la manche',players};
+    if(previousLeader&&leader?.id!==previousLeader&&leader?.score>ranked[1]?.score)
+      return {kind:'leader',label:'Nouveau leader',players:[leader,...players.filter(player=>player.name!==leader.name)]};
+    if(players.some(player=>player.streak>=3))return {kind:'streak',label:'Série de bonnes réponses',players};
+    return {kind:scores.length>1?'round':'correct',label:scores.length>1?'Les points de la manche':'Bonne réponse',players};
+  }
+  if(event.type==='wrong')return {kind:'wrong',label:'Mauvaise réponse',players:[]};
+  if(event.type==='partial'){
+    const player=teams.find(team=>team.id===event.team);
+    if(player)return {kind:'correct',label:'Réponse partielle validée',players:[player]};
+  }
+  return null;
+}

@@ -818,3 +818,119 @@
 .mountain-panel .ty-teams meter { display: block; width: 100%; height: .8rem; accent-color: var(--team); }
 .no-show-animation .ty-summit-flare { display: none; }
 @media (prefers-reduced-motion: reduce) { .ty-summit-flare { display: none; } }
+
+.show-arrival {
+  display: grid;
+  justify-items: center;
+  white-space: normal;
+  text-align: center;
+  left: calc(9% + var(--arrival-lane) * 21%);
+  bottom: 17%;
+  padding: .4em .8em .65em;
+  overflow: visible;
+  border-radius: 1rem;
+  background: #170f1cf5;
+  box-shadow: 0 0 1.8em #ffc65d88, 0 .5em 2em #000c;
+}
+.show-arrival strong { max-width: 100%; overflow-wrap: anywhere; }
+.show-arrival-portrait { font-size: 2.4em; filter: drop-shadow(0 0 .3em #ffbc4888); }
+@keyframes show-lobby-arrival {
+  0% { opacity: 0; transform: translateY(14vh) scale(.62); }
+  20% { opacity: 1; transform: translateY(-2vh) scale(1.12); }
+  32%, 76% { opacity: 1; transform: translateY(0) scale(1); }
+  100% { opacity: 0; transform: translateY(10vh) scale(.58); }
+}
+#show-spotlight {
+  position: fixed;
+  z-index: 20;
+  left: 50%;
+  bottom: 11svh;
+  width: min(84vw, 960px);
+  transform: translateX(-50%);
+  text-align: center;
+  pointer-events: none;
+  opacity: 0;
+  --cue: #fdd28a;
+}
+#show-spotlight[data-reaction="wrong"] { --cue: #ff8d84; }
+#show-spotlight[data-reaction="tie"] { --cue: #c6a5ff; }
+#show-spotlight[data-reaction="leader"] { --cue: #7affd0; }
+#show-spotlight[data-reaction="streak"] { --cue: #ff9b52; }
+#show-spotlight[data-reaction="final"] { --cue: #fff5c8; }
+.show-spotlight-title {
+  display: inline-block;
+  padding: .22em .8em;
+  color: #160e20;
+  background: var(--cue);
+  font-size: clamp(1.15rem, 4vw, 4rem);
+  font-weight: 900;
+  box-shadow: 0 0 1.3em color-mix(in srgb, var(--cue), transparent 40%);
+}
+[data-reaction="podium"] .show-spotlight-title,
+[data-reaction="final"] .show-spotlight-title { font-size: clamp(1.5rem, 5vw, 5rem); }
+.show-spotlight-cast { display: flex; flex-wrap: wrap; justify-content: center; gap: .45rem; }
+.show-spotlight-cast > div {
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  min-width: 7rem;
+  max-width: 15rem;
+  padding: .45rem .8rem;
+  border: 1px solid var(--cue);
+  background: #110b19f5;
+  color: #fff3db;
+}
+.show-spotlight-cast strong { overflow-wrap: anywhere; font-size: clamp(1rem, 1.85vw, 1.75rem); }
+.show-spotlight-cast small { color: var(--cue); font-weight: 800; }
+.show-spotlight-cast .show-avatar { font-size: clamp(1rem, 4vw, 3rem); width: 1.8em; height: 1.8em; }
+.show-setup-nav { margin-block: 1rem; }
+.show-setup-preview {
+  display: grid;
+  align-items: end;
+  min-height: clamp(140px, 26vw, 360px);
+  background: #181426 url('/jeux-plateaux.webp') var(--preview-x, 0%) var(--preview-y, 0%) / 200% 200%;
+  border: 1px solid #d1a86f66;
+  border-radius: 1rem;
+  overflow: hidden;
+  margin-bottom: 1.25rem;
+}
+.show-setup-preview h2 { margin: 0; padding: .6em; background: #130d1ac9; color: #ffe3aa; }
+.show-setup-preview:is([data-venue="duel"],[data-venue="gallery"],[data-venue="arena"],[data-venue="chain"]) { background-image: url('/grand-soir-univers.webp'); }
+.show-setup-preview:is([data-venue="disco"],[data-venue="cinema"],[data-venue="gallery"],[data-venue="chain"]) { --preview-x: 100%; }
+.show-setup-preview:is([data-venue="chronology"],[data-venue="cinema"],[data-venue="arena"],[data-venue="chain"]) { --preview-y: 100%; }
+.show-setup-preview[data-venue="tyrolien"] { background: #181426 url('/tyrolien-plateau.webp') center / cover; }
+.show-cast { margin-block: 1rem; }
+.show-cast > span { display: flex; align-items: center; gap: .4rem; padding: .35rem .65rem; border: 1px solid #d1a86f66; border-radius: 1rem; }
+.show-regie-stats .bingo-table { max-height: 24rem; }
+
+.show-setup-preview[data-venue="laboratory"],
+.show-backdrop[data-show-scene="laboratory"] .show-artwork {
+  background: #141221 url('/une-seconde-plateau.webp') center / cover no-repeat;
+}
+.show-backdrop[data-show-scene="laboratory"] .show-artwork { display: block; position: absolute; inset: 0; }
+.show-backdrop[data-show-scene="laboratory"] :is(.show-floor,.show-wall,.show-podium,.show-set-piece,.show-wing) { display: none; }
+
+.show-lobby-cast .scorecard { grid-template-columns: auto 1fr; }
+.show-lobby-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .28rem;
+  justify-content: center;
+  padding: .45rem;
+}
+.show-lobby-gallery .show-avatar, .show-lobby-gallery .avatar {
+  font-size: .92rem;
+  width: 1.65rem;
+  height: 1.65rem;
+}
+
+.show-bingo-winners { margin-block: 1.1rem; }
+.show-bingo-cast { display: flex; flex-wrap: wrap; justify-content: center; gap: .8rem; }
+.show-bingo-cast > div { display: grid; justify-items: center; gap: .12rem; color: #ffe5b2; }
+.show-bingo-cast .show-avatar {
+  font-size: clamp(2rem, 6vw, 5rem);
+  width: 1.55em;
+  height: 1.55em;
+  box-shadow: 0 0 1.3em #f8be5066;
+}
+.show-bingo-cast strong { font-size: clamp(1.4rem, 4vw, 3.1rem); }

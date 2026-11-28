@@ -1,9 +1,9 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import {showRoundSummary,showScene,showVenue} from '../public/show.js';
+import {showRoundSummary,showScene,showVenue,stageReaction} from '../public/show.js';
 
 test('Grand Soir ouvre un décor par jeu et revient en salle aux entractes', () => {
-  const expected={blind:'studio',bingo:'disco',timeline:'chronology',coversQuiz:'duel',
+  const expected={blind:'studio',progressive:'laboratory',bingo:'disco',timeline:'chronology',coversQuiz:'duel',
     soundtrack:'cinema',covers:'gallery',survival:'arena',chain:'chain'};
   for(const [musicGame,scene] of Object.entries(expected)){
     assert.equal(showScene({musicGame,phase:'playing'}),scene);
@@ -34,4 +34,11 @@ test('La régie distingue réponses partielles, absences et ex æquo', () => {
   assert.deepEqual(summary.fastest.map(row=>row.id),['a','b']);
   assert.deepEqual(summary.slowest.map(row=>row.id),['c']);
   assert.deepEqual(showRoundSummary({results:rows.slice(0,2)}).slowest,[]);
+});
+
+test('La TV couronne le premier Bingo même lorsque la deuxième étape a un autre gagnant',()=>{
+ const game={event:{type:'podium'},settings:{bingo:true},bingoFinishRows:1,
+  teams:[{id:'a',name:'Alpha',score:100},{id:'b',name:'Beta',score:150}],
+  bingoMilestones:[{rows:1,winners:['a']},{rows:2,winners:['b']}]};
+ assert.deepEqual(stageReaction(game).players.map(player=>player.id),['a']);
 });

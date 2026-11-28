@@ -42,7 +42,7 @@ export function bingoProgress({card, marked}) {
  };
 }
 export function bingoGrandWinners(teams,milestones=[]){
- const triple=milestones.find(milestone=>milestone.rows===3);
+ const triple=[...milestones].sort((a,b)=>b.rows-a.rows)[0];
  if(!triple)return [];
  const contenders=teams.filter(team=>triple.winners.includes(team.id));
  const best=Math.max(...contenders.map(team=>team.score));
@@ -167,6 +167,16 @@ function applyJoker(state,question,team){
 export function gameSettings(input={}){return {chain:input.chain===true,jokers:input.jokers===true,bingo:input.bingo===true,survival:input.survival===true,timelineMode:timelineMode(input.timelineMode),timelineAnchor:timelineMode(input.timelineMode)?input.timelineAnchor:undefined,survivalLives:Math.max(1,Math.min(5,Math.trunc(Number(input.survivalLives)||3))),listening:input.listening==='progressive'?'progressive':'continuous',duration:Math.max(5,Math.min(90,Number(input.duration)||30)),titlePoints:Math.max(1,Math.min(1000,Number(input.titlePoints)||50)),artistPoints:Math.max(1,Math.min(1000,Number(input.artistPoints)||50)),speed:input.speed!==false,streak:input.streak!==false,rebuzz:['round','none','3','5','10'].includes(String(input.rebuzz))?String(input.rebuzz):'round',resume:input.resume==='manual'?'manual':'auto',autoNext:input.autoNext===true,autoNextSeconds:Math.max(3,Math.min(60,Math.trunc(Number(input.autoNextSeconds)||8)))};}
 export function createGame(questions, teams=[], mode='usb', input='qcm', settings={}) {
  return {version:2,questions:structuredClone(questions),teams:teams.map((t,i)=>({id:t.id||String(i),name:t.name||t,score:0,key:t.key||String(i+1),streak:0})),mode,input,settings:gameSettings(settings),index:0,phase:'lobby',buzz:null,blocked:[],cooldowns:{},claimed:{},answers:{},pending:{},startAt:0,endAt:0,remaining:0,event:null,revision:0,history:[],listenStep:0,audioElapsed:0};
+}
+export function returnToLobby(game, eveningTotals, teamResults=game.teamResults) {
+ const next=createGame([],game.teams,game.mode,game.input);
+ next.teams=next.teams.map((team,index)=>({
+  ...team,token:game.teams[index].token,avatar:game.teams[index].avatar
+ }));
+ return {...next,code:game.code,hostHash:game.hostHash,expires:game.expires,
+  teamPlan:game.teamPlan?{...game.teamPlan,gather:false,open:false}:undefined,
+  teamResults,eveningTotals,showAnimations:game.showAnimations,
+  revision:(game.revision||0)+1,event:{type:'salon',id:randomUUID()}};
 }
 export function applyAction(game, action, now=Date.now()) {
  const s=structuredClone(game), q=s.questions[s.index];s.settings=gameSettings(s.settings);s.history??=[];s.cooldowns??={};s.claimed??={};
@@ -334,6 +344,18 @@ export function applyAction(game, action, now=Date.now()) {
  else if((action.type==='reveal'||action.type==='timeout')&&['playing','buzzed','paused'].includes(s.phase)){
   if((action.type==='timeout'||timeline)&&(s.phase!=='playing'||now<s.endAt))return game;reveal();
  }
+ else if(action.type==='stop'&&['ready','playing','buzzed','paused','reveal'].includes(s.phase)){
+  if(action.bingoLine){
+   if(!bingo||!s.bingoMilestones?.some(goal=>goal.rows===1))return game;
+   s.bingoFinishRows=1;
+  }
+  // Close a started round once, but never invent a draw during a countdown.
+  if(['playing','buzzed','paused'].includes(s.phase)&&now>=s.startAt)reveal();
+  if(chain)for(const team of s.teams){team.score+=team.unbanked||0;team.unbanked=0;}
+  s.chainVote=null;s.phase='finished';s.buzz=null;s.blocked=[];s.pending={};s.claimed={};s.cooldowns={};s.nextAt=0;s.endAt=0;s.remaining=0;
+  if(timeline)s.teams.sort((left,right)=>right.score-left.score||(left.timelineElapsed||0)-(right.timelineElapsed||0));
+  emit('podium');
+ }
  else if(action.type==='next'&&s.phase==='reveal'){
   if(chain&&s.chainVote){
    const votes=Object.values(s.chainVote);
@@ -368,7 +390,7 @@ export function publicGame(s,teamId){
  {held:myJoker?.held,correct:myJoker?.correct||0,fastest:myJoker?.fastest||0,
   decade:myJoker?.decade,retry:myJoker?.extraAttempt===true,
   canRetry:myJoker?.held==='retry'&&!!s.answers[teamId]?.attempts&&!s.answers[teamId]?.correct}:undefined,
- jokerAwards:revealed?s.jokerAwards:undefined,timelineMode:timeMode,timelineCards:cards,timelineSlots:q&&cards&&teamId?timelineSlots(cards,q):undefined,timelineResult,distribution,musicGame:s.musicGame,showTheme:s.showTheme,showAnimations:s.showAnimations,version:2,mode:s.mode,input:s.input,index:s.index,total:s.questions.length,phase:s.phase,buzz:s.buzz,blocked:s.blocked,claimed:s.claimed,cooldowns:s.cooldowns,answered:Object.keys(s.answers),remaining:s.remaining,settings:{listening:s.settings?.listening||'continuous',survival:s.settings?.survival===true,bingo:s.settings?.bingo===true,bingoTarget:s.questions[0]?.target,chain:s.settings?.chain===true},chainVoting:!!s.chainVote,chainMyVote:teamId?s.chainVote?.[teamId]:undefined,chainUnbanked:teamId?s.teams.find(t=>t.id===teamId)?.unbanked:undefined,bingoFinal:s.settings?.bingo&&s.phase==='finished'?roundStatistics(s.history,teamId?s.teams.filter(t=>t.id===teamId):s.teams):undefined,bingoProgressions:revealed?s.bingoProgressions:undefined,bingoMilestones:s.bingoMilestones,bingoCard:teamId?s.teams.find(t=>t.id===teamId)?.bingo:undefined,survivalWinner:s.survivalWinner,listenStep:s.listenStep||0,audioElapsed:s.audioElapsed||0,teams:s.teams.map(({id,name,avatar,score,key,streak,eliminated,lives})=>({id,name,avatar,score:timeMode&&teamId&&s.phase!=='finished'?undefined:score,key,streak:timeMode&&teamId?undefined:streak,eliminated,lives})),startAt:s.startAt,endAt:s.endAt,nextAt:s.nextAt,event:s.event,revision:s.revision,question,effect:s.effect,history:timeMode&&teamId&&s.phase!=='finished'?[]:s.history,me:teamId?(s.input==='qcm'&&(!revealed||timeMode)&&s.answers[teamId]?{attempts:s.answers[teamId].attempts,...(s.settings?.bingo?{selectedSong:s.answers[teamId].selectedSong}:{})}:s.answers[teamId]):undefined};
+ jokerAwards:revealed?s.jokerAwards:undefined,timelineMode:timeMode,timelineCards:cards,timelineSlots:q&&cards&&teamId?timelineSlots(cards,q):undefined,timelineResult,distribution,musicGame:s.musicGame,showTheme:s.showTheme,showAnimations:s.showAnimations,version:2,mode:s.mode,input:s.input,index:s.index,total:s.questions.length,phase:s.phase,buzz:s.buzz,blocked:s.blocked,claimed:s.claimed,cooldowns:s.cooldowns,answered:Object.keys(s.answers),remaining:s.remaining,settings:{listening:s.settings?.listening||'continuous',survival:s.settings?.survival===true,bingo:s.settings?.bingo===true,bingoTarget:s.questions[0]?.target,chain:s.settings?.chain===true},chainVoting:!!s.chainVote,chainMyVote:teamId?s.chainVote?.[teamId]:undefined,chainUnbanked:teamId?s.teams.find(t=>t.id===teamId)?.unbanked:undefined,bingoFinal:s.settings?.bingo&&s.phase==='finished'?roundStatistics(s.history,teamId?s.teams.filter(t=>t.id===teamId):s.teams):undefined,bingoProgressions:revealed?s.bingoProgressions:undefined,bingoMilestones:s.bingoMilestones,bingoFinishRows:s.bingoFinishRows,bingoCard:teamId?s.teams.find(t=>t.id===teamId)?.bingo:undefined,survivalWinner:s.survivalWinner,listenStep:s.listenStep||0,audioElapsed:s.audioElapsed||0,teams:s.teams.map(({id,name,avatar,score,key,streak,eliminated,lives})=>({id,name,avatar,score:timeMode&&teamId&&s.phase!=='finished'?undefined:score,key,streak:timeMode&&teamId?undefined:streak,eliminated,lives})),startAt:s.startAt,endAt:s.endAt,nextAt:s.nextAt,event:s.event,revision:s.revision,question,effect:s.effect,history:timeMode&&teamId&&s.phase!=='finished'?[]:s.history,me:teamId?(s.input==='qcm'&&(!revealed||timeMode)&&s.answers[teamId]?{attempts:s.answers[teamId].attempts,...(s.settings?.bingo?{selectedSong:s.answers[teamId].selectedSong}:{})}:s.answers[teamId]):undefined};
 }
 export const DEMO=[
 {id:'m1',universe:'music',kind:'audio',prompt:'Quel est le titre de cette mélodie ?',answer:'Frère Jacques',aliases:['frere jacques'],options:['Frère Jacques','Au clair de la lune','Sur le pont d’Avignon','Une souris verte'],notes:[[60,.4],[62,.4],[64,.4],[60,.4],[60,.4],[62,.4],[64,.4],[60,.4],[64,.4],[65,.4],[67,.8],[64,.4],[65,.4],[67,.8]],hint:'Une mélodie qui traverse les générations.',duration:25,points:100},
