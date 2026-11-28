@@ -25,10 +25,14 @@ test('Dernier survivant : vies, départage et réponses des éliminés',()=>{
  assert.equal(publicGame(s,'c').teams.find(t=>t.id==='c').lives,0);
  act('next',7000);
  act('play',8000);
+ const beforeSpectatorAnswer=s;
  act('answer',12000,{team:'c',answer:'Titre'});
+ assert.equal(s,beforeSpectatorAnswer);
  act('reveal',13000);
  assert.equal(s.teams.find(t=>t.id==='c').eliminated,true);
- assert.ok(s.teams.find(t=>t.id==='c').score>0);
+ assert.equal(s.teams.find(t=>t.id==='c').score,0);
+ assert.ok(!s.history.at(-1).results.some(row=>row.id==='c'));
+ assert.equal(publicGame(s).survivalRound.replay,true);
  assert.equal(s.survivalWinner,undefined);
  assert.deepEqual(s.teams.map(t=>t.lives),[1,1,0]);
  act('next',14000);
@@ -275,4 +279,21 @@ test('Vinyl Factory réaffiche les images retirées par le joker à la révélat
  assert.deepEqual(publicGame(game).question.optionArtwork,covers.optionArtwork);
  game=applyAction(game,{type:'reveal'},game.startAt+2);
  assert.deepEqual(publicGame(game,'a').question.optionArtwork,covers.optionArtwork);
+});
+
+test('Dernier survivant : durée, compte à rebours et bouclier',()=>{
+ let room=start('qcm',{survival:true,survivalLives:1,jokers:true},{...audio,duration:15});
+ assert.equal(room.endAt-room.startAt,15000);
+ assert.equal(applyAction(room,{type:'reveal'},room.startAt-1),room);
+ room.teams[0].joker={held:'shield',earned:['shield'],used:[]};
+ room=applyAction(room,{type:'joker',team:'a'},room.startAt+1);
+ assert.equal(publicGame(room,'a').joker.shield,true);
+ assert.equal(publicGame(room).survivalRound,undefined);
+ room=applyAction(room,{type:'answer',team:'b',answer:'Titre'},room.startAt+2);
+ room=applyAction(room,{type:'reveal'},room.startAt+3);
+ assert.deepEqual(room.teams.map(team=>team.lives),[1,1]);
+ assert.deepEqual(publicGame(room).survivalRound.outcomes,[
+  {id:'a',status:'shield',answered:false},{id:'b',status:'safe',answered:true}
+ ]);
+ assert.equal(publicGame(room,'a').joker.shield,undefined);
 });

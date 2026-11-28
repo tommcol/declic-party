@@ -1453,3 +1453,59 @@ button.vinyl-choice:focus-visible { outline: 3px solid #c9efb8; outline-offset: 
   60% { box-shadow: 0 0 2.75rem #ecbf82c0; }
   to { box-shadow: 0 0 1.2rem #ecbf8277; }
 }
+
+/* Last One Standing */
+.arena-stage { --arena-amber: #ffd597; width: min(100%, 72rem); }
+.arena-stage h1 { font-size: clamp(1.45rem, 4vw, 3.7rem); }
+.arena-stage .eyebrow, .arena-counter, .arena-champion { color: var(--arena-amber); }
+.arena-counter, .arena-champion { font-weight: 800; }
+.arena-roster {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(10rem, 100%), 1fr));
+  gap: .65rem;
+  list-style: none;
+  padding: 0;
+  margin: 1rem auto;
+}
+.arena-roster li {
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: .25rem;
+  min-width: 0;
+  min-height: 4.5rem;
+  padding: .6rem;
+  border: 1px solid #af7c53;
+  border-radius: .65rem;
+  background: #221a17f2;
+  color: #fff5ec;
+  text-align: center;
+}
+.arena-roster strong { overflow-wrap: anywhere; }
+.arena-roster small { color: #efceae; }
+.arena-roster .arena-out { border-color: #806b62; background: #281f1e; }
+.arena-roster .arena-last-life { outline: 2px solid #ffbb78; outline-offset: -2px; }
+.arena-lives { color: #ff8b76; font-size: 1.08em; }
+.arena-regie-roster { max-height: min(38vh, 26rem); overflow-y: auto; }
+.arena-phone .arena-stage { display: flex; flex-direction: column; gap: .8rem; }
+.arena-phone .arena-stage h1 { font-size: clamp(1.25rem, 5vw, 2rem); }
+.arena-phone .stage { min-height: 0; }
+.arena-personal {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: .6rem;
+  border-radius: .55rem;
+  background: #30231c;
+}
+.arena-comeback { color: #ffe4aa; font-weight: 800; }
+@media (prefers-reduced-motion: no-preference) {
+  .arena-stage .arena-roster [data-outcome="lost"],
+  .arena-stage .arena-roster [data-outcome="eliminated"],
+  .arena-comeback { animation: arena-reveal .65s ease-out; }
+  .no-show-animation .arena-stage .arena-roster [data-outcome], .no-show-animation .arena-comeback { animation: none; }
+}
+@keyframes arena-reveal {
+  from { opacity: .65; transform: translateY(.35rem); }
+  to { opacity: 1; transform: translateY(0); }
+}

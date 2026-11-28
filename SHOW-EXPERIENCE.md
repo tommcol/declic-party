@@ -212,6 +212,18 @@ platine. La régie conserve le bouton de révélation après le compte à rebour
 Les parcours individuel et en équipe, les points et les jokers restent ceux
 du moteur commun.
 
+## Chantier 06 — Dernier survivant, Last One Standing
+
+La régie suit les vies et calcule les réponses attendues parmi les joueurs
+encore en lice. La durée choisie s’applique et le compte à rebours bloque
+la révélation. Si un joueur reste seul en lice, la régie propose les résultats.
+
+Le joueur éliminé reste dans la soirée en spectateur. Ses points sont
+conservés et les manches suivantes ne lui ajoutent ni points ni absences.
+La TV met en scène le décompte, les dernières vies, la révélation et le
+résultat. Si tous les joueurs encore en lice perdent leur dernière vie,
+ils repartent ensemble avec une vie, conformément à la règle existante.
+
 ## Maintenir les deux versions
 
 Les règles, les scores, le catalogue, les playlists et le serveur local évoluent
