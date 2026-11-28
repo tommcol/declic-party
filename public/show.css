@@ -1362,3 +1362,16 @@
   max-height: min(18svh, 170px);
   margin-block: .5rem;
 }
+
+/* Studio 54 — état de la carte et distinctions du Bingo. */
+.bingo-phone .timer { margin: .35rem auto; }
+.bingo-phone .bingo-honour {
+  display: inline-block;
+  margin: .3rem .2rem;
+  padding: .2rem .65rem;
+  border: 1px solid #efc56f;
+  border-radius: 1em;
+  color: #ffe6a3;
+  background: #41283e;
+}
+.bingo-recognition-title { margin-top: .8em; }

@@ -174,6 +174,19 @@ Pour revenir au plateau du chantier 03, utilisez
 `git switch --detach 767e378` dans le dossier de design, puis redémarrez.
 Les réglages de régie sont enregistrés dans le navigateur.
 
+## Chantier 06 — Bingo musical, Studio 54
+
+Le Bingo propose une grille individuelle par téléphone. Les seize extraits
+sont contrôlés avant le lancement. La révélation est bloquée pendant le
+compte à rebours. La régie indique qui approche du prochain palier.
+
+Le téléphone distingue l’envoi de la confirmation du serveur, puis le verdict
+et la case cochée. Le bilan personnel reste distinct du classement collectif.
+La TV indique le nombre d’extraits réellement joués et distingue le gagnant
+du Bingo du classement de reconnaissance musicale. Éclair et Combo sont des
+distinctions visuelles. Combo signale une série d’au moins trois bonnes
+réponses. Les lignes et les colonnes comptent, sans diagonales.
+
 ## Maintenir les deux versions
 
 Les règles, les scores, le catalogue, les playlists et le serveur local évoluent

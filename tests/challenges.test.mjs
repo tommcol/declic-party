@@ -50,8 +50,12 @@ test('Bingo : mêmes 16 titres, choix secret, cochage à la révélation et troi
  assert.notDeepEqual(s.teams[0].bingo.card,s.teams[1].bingo.card);
  assert.equal(publicGame(s).bingoCard,undefined);
  assert.equal(publicGame(s,'a').question.id,'bingo-round-0');
+ assert.equal(applyAction(s,{type:'reveal'},now+1),s);
+ assert.deepEqual(s.teams[0].bingo.marked,[]);
+ const beforeAnswer=s;
  now+=3000;
  act('bingo-mark',{team:'a',song:'song-0'});
+ assert.deepEqual(beforeAnswer.answers,{});
  assert.deepEqual(publicGame(s,'a').me,{attempts:1,selectedSong:'song-0'});
  assert.deepEqual(s.teams[0].bingo.marked,[]);
  const first=s;
@@ -59,6 +63,7 @@ test('Bingo : mêmes 16 titres, choix secret, cochage à la révélation et troi
  assert.equal(s,first);
  while(s.phase!=='finished'){
   act('reveal');
+  if(s.index===0)assert.deepEqual(publicGame(s,'a').bingoFastest,['a']);
   assert.ok(s.teams.every(team=>team.bingo.marked.includes(questions[s.index].id)));
   act('next');
   if(s.phase!=='finished'){

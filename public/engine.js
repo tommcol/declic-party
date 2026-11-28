@@ -78,8 +78,8 @@ export function roundStatistics(history,teams,previous) {
  }
  return [...rows.values()].map(row=>({...row,average:row.timed?row.elapsed/row.timed:null}));
 }
-function dealBingoCard(questions) {
- const songs=questions.slice(0,BINGO_CARD_SIZE).map(({id,title,artist})=>({id,title,artist}));
+function dealBingoCard(catalog) {
+ const songs=[...catalog];
  for(let i=songs.length-1;i>0;i--){
   const j=Math.floor(Math.random()*(i+1));
   [songs[i],songs[j]]=[songs[j],songs[i]];
@@ -179,7 +179,10 @@ export function returnToLobby(game, eveningTotals, teamResults=game.teamResults)
   revision:(game.revision||0)+1,event:{type:'salon',id:randomUUID()}};
 }
 export function applyAction(game, action, now=Date.now()) {
- const s=structuredClone(game), q=s.questions[s.index];s.settings=gameSettings(s.settings);s.history??=[];s.cooldowns??={};s.claimed??={};
+ // Une réponse Bingo ne modifie ni les cartons ni l'historique.
+ const bingoMark=action.type==='bingo-mark'&&game.settings?.bingo&&game.mode==='phone'&&game.input==='qcm';
+ const s=bingoMark?{...game,answers:{...game.answers},pending:{...game.pending}}:structuredClone(game);
+ const q=s.questions[s.index];s.settings=gameSettings(s.settings);s.history??=[];s.cooldowns??={};s.claimed??={};
  if(action.questionId&&action.questionId!==q?.id)return game;
  const emit=(type,extra={})=>{s.event={type,id:randomUUID(),...extra};};
  const roundResult=id=>s.answers[id]??={parts:[],breakdown:{title:0,artist:0,answer:0,speed:0,streak:0},total:0,attempts:0};
@@ -200,6 +203,9 @@ export function applyAction(game, action, now=Date.now()) {
    }
   }
   if(bingo){
+   const correct=Object.entries(s.answers).filter(([,answer])=>answer.correct);
+   const best=Math.min(...correct.map(([,answer])=>answer.elapsed));
+   s.bingoFastest=correct.filter(([,answer])=>answer.elapsed===best).map(([id])=>id);
    s.bingoProgressions=[];
    for(const team of s.teams){
     const previous=bingoProgress(team.bingo).total;
@@ -267,10 +273,11 @@ export function applyAction(game, action, now=Date.now()) {
   if(bingo&&s.phase==='lobby'){
    if(s.questions.length!==BINGO_CARD_SIZE)return game;
    const permutations=new Set();
+   const catalog=s.questions.map(({id,title,artist})=>({id,title,artist}));
    for(const team of s.teams){
     let card,key;
     do{
-     card=dealBingoCard(s.questions);
+     card=dealBingoCard(catalog);
      key=JSON.stringify(card.map(song=>song.id));
     }while(permutations.has(key));
     permutations.add(key);
@@ -343,6 +350,7 @@ export function applyAction(game, action, now=Date.now()) {
  }
  else if((action.type==='reveal'||action.type==='timeout')&&['playing','buzzed','paused'].includes(s.phase)){
   if(action.type==='timeout'&&(s.phase!=='playing'||now<s.endAt))return game;
+  if(bingo&&now<s.startAt)return game;
   if(timeline&&action.type==='reveal'&&(s.phase!=='playing'||now<s.startAt||
      now<s.endAt&&(!s.teams.length||!s.teams.every(team=>s.answers[team.id]?.attempts))))return game;
   reveal();
@@ -393,7 +401,7 @@ export function publicGame(s,teamId){
  {held:myJoker?.held,correct:myJoker?.correct||0,fastest:myJoker?.fastest||0,
   decade:myJoker?.decade,retry:myJoker?.extraAttempt===true,
   canRetry:myJoker?.held==='retry'&&!!s.answers[teamId]?.attempts&&!s.answers[teamId]?.correct}:undefined,
- jokerAwards:revealed?s.jokerAwards:undefined,timelineMode:timeMode,timelineCards:cards,timelineSlots:q&&cards&&teamId?timelineSlots(cards,q):undefined,timelineResult,distribution,musicGame:s.musicGame,showTheme:s.showTheme,showAnimations:s.showAnimations,version:2,mode:s.mode,input:s.input,index:s.index,total:s.questions.length,phase:s.phase,buzz:s.buzz,blocked:s.blocked,claimed:s.claimed,cooldowns:s.cooldowns,answered:Object.keys(s.answers),remaining:s.remaining,settings:{listening:s.settings?.listening||'continuous',survival:s.settings?.survival===true,bingo:s.settings?.bingo===true,bingoTarget:s.questions[0]?.target,chain:s.settings?.chain===true},chainVoting:!!s.chainVote,chainMyVote:teamId?s.chainVote?.[teamId]:undefined,chainUnbanked:teamId?s.teams.find(t=>t.id===teamId)?.unbanked:undefined,bingoFinal:s.settings?.bingo&&s.phase==='finished'?roundStatistics(s.history,teamId?s.teams.filter(t=>t.id===teamId):s.teams):undefined,bingoProgressions:revealed?s.bingoProgressions:undefined,bingoMilestones:s.bingoMilestones,bingoFinishRows:s.bingoFinishRows,bingoCard:teamId?s.teams.find(t=>t.id===teamId)?.bingo:undefined,survivalWinner:s.survivalWinner,listenStep:s.listenStep||0,audioElapsed:s.audioElapsed||0,teams:s.teams.map(({id,name,avatar,score,key,streak,eliminated,lives})=>({id,name,avatar,score:timeMode&&teamId&&s.phase!=='finished'?undefined:score,key,streak:timeMode&&teamId?undefined:streak,eliminated,lives})),startAt:s.startAt,endAt:s.endAt,nextAt:s.nextAt,event:s.event,revision:s.revision,question,effect:s.effect,history:timeMode&&teamId&&s.phase!=='finished'?[]:s.history,me:teamId?(s.input==='qcm'&&(!revealed||timeMode)&&s.answers[teamId]?{attempts:s.answers[teamId].attempts,...(revealed&&timeMode?{correct:s.answers[teamId].correct}:{}),...(s.settings?.bingo?{selectedSong:s.answers[teamId].selectedSong}:{})}:s.answers[teamId]):undefined};
+ jokerAwards:revealed?s.jokerAwards:undefined,timelineMode:timeMode,timelineCards:cards,timelineSlots:q&&cards&&teamId?timelineSlots(cards,q):undefined,timelineResult,distribution,musicGame:s.musicGame,showTheme:s.showTheme,showAnimations:s.showAnimations,version:2,mode:s.mode,input:s.input,index:s.index,total:s.questions.length,phase:s.phase,buzz:s.buzz,blocked:s.blocked,claimed:s.claimed,cooldowns:s.cooldowns,answered:Object.keys(s.answers),remaining:s.remaining,settings:{listening:s.settings?.listening||'continuous',survival:s.settings?.survival===true,bingo:s.settings?.bingo===true,bingoTarget:s.questions[0]?.target,chain:s.settings?.chain===true},chainVoting:!!s.chainVote,chainMyVote:teamId?s.chainVote?.[teamId]:undefined,chainUnbanked:teamId?s.teams.find(t=>t.id===teamId)?.unbanked:undefined,bingoFinal:s.settings?.bingo&&s.phase==='finished'?roundStatistics(s.history,teamId?s.teams.filter(t=>t.id===teamId):s.teams):undefined,bingoProgressions:revealed?s.bingoProgressions:undefined,bingoFastest:revealed?s.bingoFastest:undefined,bingoMilestones:s.bingoMilestones,bingoFinishRows:s.bingoFinishRows,bingoCard:teamId?s.teams.find(t=>t.id===teamId)?.bingo:undefined,survivalWinner:s.survivalWinner,listenStep:s.listenStep||0,audioElapsed:s.audioElapsed||0,teams:s.teams.map(({id,name,avatar,score,key,streak,eliminated,lives})=>({id,name,avatar,score:timeMode&&teamId&&s.phase!=='finished'?undefined:score,key,streak:timeMode&&teamId?undefined:streak,eliminated,lives})),startAt:s.startAt,endAt:s.endAt,nextAt:s.nextAt,event:s.event,revision:s.revision,question,effect:s.effect,history:timeMode&&teamId&&s.phase!=='finished'?[]:s.history,me:teamId?(s.input==='qcm'&&(!revealed||timeMode)&&s.answers[teamId]?{attempts:s.answers[teamId].attempts,...(revealed&&timeMode?{correct:s.answers[teamId].correct}:{}),...(s.settings?.bingo?{selectedSong:s.answers[teamId].selectedSong}:{})}:s.answers[teamId]):undefined};
 }
 export const DEMO=[
 {id:'m1',universe:'music',kind:'audio',prompt:'Quel est le titre de cette mélodie ?',answer:'Frère Jacques',aliases:['frere jacques'],options:['Frère Jacques','Au clair de la lune','Sur le pont d’Avignon','Une souris verte'],notes:[[60,.4],[62,.4],[64,.4],[60,.4],[60,.4],[62,.4],[64,.4],[60,.4],[64,.4],[65,.4],[67,.8],[64,.4],[65,.4],[67,.8]],hint:'Une mélodie qui traverse les générations.',duration:25,points:100},
