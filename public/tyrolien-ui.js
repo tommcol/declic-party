@@ -64,6 +64,22 @@ export function tyrolienScreen(g, role, esc, invite, code, draft={}, plan=null,t
     ${choices}${host&&g.phase==='answer'?`<p>Réponse animateur <strong data-ty-answer>${esc(g.question.answer)}</strong> · ${g.answered} réponse(s)</p>`:''}${revealed}${vote}${g.phase==='attack'?`<p>${esc(g.teams.find(team=>team.id===g.target)?.name)} monte d’un palier.</p>`:''}${answering?'':teamCards}${final}${controls}</main>`;
 }
 
+export function mountainMoment(game) {
+  const g=game.mountain;
+  if(game.phase==='paused') return {kind:'pause',label:'Entracte alpin'};
+  if(game.phase==='finished') return {kind:'podium',label:g.winner?'Victoire au Tyrolien':'Classement final',actor:g.winner};
+  if(game.phase==='lobby') return {kind:'lobby',label:'Au pied de la montagne'};
+  if(game.phase!=='reveal') return {kind:'listen',label:'À l’écoute'};
+  if(g.phase==='vote') return {kind:'vote',label:'Bonus d’attaque',actor:g.beneficiary};
+  const attacking=g.phase==='attack';
+  const actor=attacking?g.target:g.loser;
+  const team=g.teams.find(item=>item.id===actor);
+  if(team?.eliminated) return {kind:'fall',label:'La chute',actor,attacker:attacking?g.beneficiary:null};
+  if(attacking) return {kind:'attack',label:'Attaque',actor,attacker:g.beneficiary};
+  if(team) return {kind:'climb',label:'Un palier de plus',actor};
+  return {kind:'result',label:'Résultats de la manche'};
+}
+
 export function mountainPanel(game, role, esc, animate) {
   const g=game.mountain;
   if(!g?.teams.length) return '';
@@ -71,24 +87,48 @@ export function mountainPanel(game, role, esc, animate) {
   const team=g.teams.find(item=>item.id===g.team);
   const teamName=id=>esc(g.teams.find(item=>item.id===id)?.name);
   const position=item=>item.eliminated?'Éliminée':item.position===g.levels?'Au bord du précipice':`Palier ${item.position}/${g.levels}`;
-  const event=g.phase==='attack'?`Attaque de ${teamName(g.beneficiary)} sur ${teamName(g.target)}`:
-    g.phase==='vote'?`${teamName(g.beneficiary)} choisit sa cible`:g.loser?`${teamName(g.loser)} monte d’un palier`:'';
+  const moment=mountainMoment(game);
+  const actor=teamName(moment.actor);
+  const attacker=teamName(moment.attacker);
+  const message={
+    fall:attacker?`${attacker} attaque · ${actor} tombe`:`${actor} tombe et quitte la course par équipes`,
+    attack:`${attacker} fait monter ${actor}`,
+    vote:`${actor} choisit l’équipe à faire monter`,
+    climb:`${actor} monte d’un palier`,
+    podium:g.winner?`${actor} remporte la partie !`:'Classement des équipes',
+    pause:'La manche reprend au signal de la régie.'
+  }[moment.kind];
+  const leaders=g.results[0];
+  const tied=leaders?g.results.filter(row=>row.correct*leaders.players===leaders.correct*row.players &&
+    row.totalTime*leaders.correct===leaders.totalTime*row.correct):[];
+  const best=leaders?.correct&&tied.length===1?teamName(leaders.id):'';
+  const clock=game.phase==='reveal'&&g.phase==='vote';
+  const round=g.round||Math.max(1,g.roundsPlayed||0);
+  const mapKey=JSON.stringify([game.phase,g.phase,round,g.loser,g.target,g.winner,animate,
+    g.teams.map(item=>[item.id,item.position,item.eliminated,item.name,item.color,item.icon])]);
   const targets=g.teams.filter(item=>!item.eliminated&&item.id!==g.beneficiary);
-  const vote=g.phase==='vote'&&team?.id===g.beneficiary?`<div class="row">${g.voted?'Vote enregistré ✓':
+  const vote=role==='player'&&g.phase==='vote'&&team?.id===g.beneficiary?`<div class="row">${g.voted?'Vote enregistré ✓':
     targets.map(item=>`<button class="btn ghost" data-action="mountain-vote" data-value="${esc(item.id)}">${teamName(item.id)}</button>`).join('')}</div>`:'';
   const order=[...(g.winner?[g.winner]:[]),...g.eliminated.slice().reverse()];
   const ranking=finished?`<h3>Classement des équipes</h3><div class="ty-podium">${order.map((id,i)=>
     `<div><strong>${g.winner?i+1:g.teams.length-order.length+i+1}. ${teamName(id)}</strong></div>`).join('')}</div>`:'';
   return `<section class="mountain-panel ${host?'mountain-desk':tv?'mountain-tv':''}">
-    <h2>${g.winner?`🏆 ${teamName(g.winner)} remporte la partie !`:'Le Tyrolien'}</h2>
-    ${tv||host?tyrolienMountain(g,esc,animate):''}
-    ${event&&game.phase==='reveal'?`<p role="status">${event}</p>`:''}
-    ${g.phase==='vote'&&game.phase==='reveal'?`<p>${g.voteCount} vote(s) · <strong data-ty-clock></strong></p>${vote}`:''}
+    ${host||tv?`<header class="ty-live-header"><div><span class="eyebrow">LE TYROLIEN · MANCHE ${round}</span><h2>${moment.label}</h2></div>
+     ${clock?`<div class="ty-vote-meter"><b data-ty-clock>${Math.max(0,Math.ceil((game.nextAt-Date.now())/1000))} s</b><span>${g.voteCount??0} vote(s)</span></div>`:''}</header>`:''}
+    ${host||tv?`<div class="ty-live-map" data-moment="${moment.kind}" data-map-key="${esc(mapKey)}">
+      ${tyrolienMountain(game.phase==='paused'?{...g,phase:null}:g,esc,animate&&!finished)}
+      ${tv&&['climb','attack','fall','podium'].includes(moment.kind)?'<i class="ty-summit-flare" aria-hidden="true"></i>':''}
+     </div>`:''}
+    ${message?`<p class="ty-live-message" data-moment="${moment.kind}" role="status">${message}</p>`:''}
+    ${clock?vote:''}
+    ${host&&best&&game.phase==='reveal'?`<p class="ty-round-leader">Meilleure performance · <b>${best}</b></p>`:''}
     ${team?`<p class="ty-player-team" style="--team:${team.color}">${esc(team.icon)} ${teamName(team.id)} · ${position(team)}
     ${team.eliminated?' · Vous continuez pour le classement individuel !':''}</p>`:''}
     ${host||tv||finished?`<div class="ty-teams">${g.teams.map(item=>{
       const row=g.results.find(result=>result.id===item.id);
-      const correct=row?`<small>${row.correct}/${row.players} · ${Math.round(row.correct/Math.max(1,row.players)*100)} %${host&&row.correct?` · ${(row.totalTime/row.correct/1000).toFixed(2)} s en moyenne`:''}</small>`:'';
+      const percent=row?Math.round(row.correct/Math.max(1,row.players)*100):null;
+      const correct=percent===null?'':`<small>${row.correct}/${row.players} · ${percent} %${host&&row.correct?` · ${(row.totalTime/row.correct/1000).toFixed(2)} s en moyenne`:''}</small>
+       <meter min="0" max="100" value="${percent}" aria-label="Réussite de ${teamName(item.id)}">${percent} %</meter>`;
       const votes=host&&['vote','attack'].includes(g.phase)&&item.id!==g.beneficiary?`<small>${g.tallies?.[item.id]||0} vote(s)</small>`:'';
       return `<div style="--team:${item.color}"><strong>${esc(item.icon)} ${teamName(item.id)}</strong><small>${position(item)}${g.bonuses?` · Série ${item.streak}/4`:''}</small>${correct}${votes}</div>`;
     }).join('')}</div>`:''}

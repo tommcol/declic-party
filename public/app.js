@@ -228,7 +228,13 @@ function render(){
   a.innerHTML=tyrolienScreen(game.tyrolien,role,esc,invitationMarkup(),room,tyrolienDraft,game.teamPlan,role==='host'?teamAdmin()+previousTeamGames():'')+eveningRanking()+(role==='host'&&game.phase==='finished'?nextGameActions():'');
   return;
  }
- if(role==='tv'){a.innerHTML=tvScreen();return;}
+ if(role==='tv'){
+  const previousMap=a.querySelector('.ty-live-map');
+  a.innerHTML=tvScreen();
+  const nextMap=a.querySelector('.ty-live-map');
+  if(previousMap&&nextMap&&previousMap.dataset.mapKey===nextMap.dataset.mapKey)nextMap.replaceWith(previousMap);
+  return;
+ }
  if(view==='join'){a.innerHTML=joinScreen();return;}
  if(role==='player'&&view!=='history'){a.innerHTML=phoneScreen();return;}
  const focusedSetupButton=a.querySelector('.game-setup button[data-action]:focus-visible');

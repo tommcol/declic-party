@@ -762,3 +762,59 @@
 .show-round-distinction span { border: 1px solid #d5ac75; padding: .3rem .65rem; border-radius: 99px; }
 .show-round-distinction b { color: #ffce87; margin-right: .25em; }
 @media (prefers-reduced-motion: reduce) { .show-arrival { display: none; } }
+
+.ty-live-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: .75rem;
+  text-align: left;
+  padding: .65rem 0;
+}
+.ty-live-header h2 { margin: .15em 0; color: #ffdea3; }
+.ty-live-header .eyebrow { color: #d8e9ff; }
+.ty-vote-meter {
+  display: grid;
+  justify-items: center;
+  gap: .2rem;
+  border: 1px solid #ffcf84;
+  border-radius: .65rem;
+  padding: .4rem .75rem;
+  color: #fff1d6;
+  background: #111c30;
+}
+.ty-vote-meter b { font-size: 1.2em; font-variant-numeric: tabular-nums; }
+.ty-live-map { position: relative; width: fit-content; max-width: 100%; margin: 0 auto; }
+.mountain-panel .ty-live-map { width: min(100%, 91svh); }
+.mountain-desk .ty-live-map { width: min(100%, 34rem); }
+.mountain-panel .ty-live-map .ty-set { width: 100%; }
+.ty-live-map .ty-set { border-color: #ffcf84a0; }
+.ty-live-map[data-moment="attack"] .ty-set { border-color: #ff9e5f; }
+.ty-live-map[data-moment="fall"] .ty-set { border-color: #ff927c; }
+.ty-live-map .ty-step { opacity: .85; }
+.ty-live-map .ty-climber.climbing > span { box-shadow: 0 0 1rem .2rem #ffe1a5; }
+.ty-live-map[data-moment="attack"] .ty-climber.climbing > span { box-shadow: 0 0 1.75rem .46rem #ff9e65; }
+.ty-summit-flare {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  box-shadow: inset 0 0 4rem #ffcf745e;
+  animation: ty-live-flare .85s ease-out both;
+}
+.ty-live-map[data-moment="fall"] .ty-summit-flare { box-shadow: inset 0 0 4rem #ff774a99; }
+@keyframes ty-live-flare { from { opacity: 1; } to { opacity: 0; } }
+.ty-live-message {
+  margin: .65rem 0;
+  padding: .5rem .85rem;
+  border: 1px solid #dec39399;
+  border-radius: .5rem;
+  background: #10192be8;
+  color: #ffedd1;
+  font-weight: 700;
+}
+.ty-live-message[data-moment="fall"] { border-color: #ff927c; }
+.ty-round-leader { color: #ffdd9f; }
+.mountain-panel .ty-teams meter { display: block; width: 100%; height: .8rem; accent-color: var(--team); }
+.no-show-animation .ty-summit-flare { display: none; }
+@media (prefers-reduced-motion: reduce) { .ty-summit-flare { display: none; } }
