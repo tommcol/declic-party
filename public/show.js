@@ -81,3 +81,28 @@ export function updateShow(root, {role, game, wheel, ceremony, reduced}) {
     );
   }
 }
+
+export function playShowCue(context,type){
+  const cues={
+   start:[[48,0,.17],[60,.09,.18],[67,.2,.28]],
+   tick:[[76,0,.09]],
+   buzz:[[43,0,.11],[55,.035,.18]],
+   correct:[[67,0,.13],[72,.07,.18],[76,.14,.22],[84,.23,.36]],
+   wrong:[[55,0,.14],[49,.11,.22]],
+   reveal:[[67,0,.14],[74,.085,.24]],
+   podium:[[48,0,.32],[60,0,.23],[67,.13,.28],[72,.28,.5],[76,.28,.46],[84,.45,.58]]
+  };
+  for(const [note,delay,length] of cues[type]||[]){
+   const oscillator=context.createOscillator(),gain=context.createGain();
+   const at=context.currentTime+delay;
+   oscillator.type=['wrong','buzz','start'].includes(type)?'triangle':'sine';
+   oscillator.frequency.value=440*2**((note-69)/12);
+   gain.gain.setValueAtTime(.0001,at);
+   gain.gain.exponentialRampToValueAtTime(type==='podium'?.085:.12,at+.012);
+   gain.gain.exponentialRampToValueAtTime(.0001,at+length);
+   oscillator.connect(gain);
+   gain.connect(context.destination);
+   oscillator.start(at);
+   oscillator.stop(at+length);
+  }
+ }

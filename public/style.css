@@ -811,3 +811,21 @@
 .ty-podium { display: flex; flex-wrap: wrap; gap: .75rem; }
 .ty-podium > div { background: #252537; padding: .85rem; border-radius: .65rem; }
 .ty-podium > div:first-child { border: 1px solid #e3af36; }
+
+.game-setup .playlist-tile { grid-template-columns: 26px minmax(0, 1fr); }
+.game-setup .playlist-tile small { grid-column: 2; font-size: .72rem; }
+.playlist-checkbox { position: absolute; right: 11px; top: 6px; width: 17px; height: 17px; }
+.library-grid, .library-filter-grid {
+ display: grid;
+ gap: .65rem;
+ grid-template-columns: repeat(auto-fit, minmax(min(100%, 170px), 1fr));
+}
+.library-card { display: flex; flex-wrap: wrap; align-items: center; gap: .4rem; }
+.library-card > button:first-child { width: 100%; text-align: left; overflow-wrap: anywhere; }
+.library-filter-grid { margin: .6rem 0; }
+.library-filters details { min-width: 0; }
+.library-filter-options { display: flex; flex-wrap: wrap; gap: .45rem; margin: .45rem 0; }
+.library-filter-options label { font-size: .85rem; }
+.music-library-actions input, .library-filters input[type="search"] { max-width: 100%; }
+.music-library-tracks li { flex-wrap: wrap; }
+.music-library audio { max-width: 100%; }

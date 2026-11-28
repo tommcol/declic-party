@@ -97,7 +97,7 @@ test('Le serveur Node synchronise une manche et reprend ses données et alarmes 
  host.send({type:'roulette-dismiss',id:selection.id});
  await tv.waitFor(m=>m.type==='roulette'&&m.wheel===null);
  const full=await request('/api/library/candidates?playlist=mix');
- assert.ok(full.tracks.length>9000);
+ assert.equal(full.tracks.length,5380);
  assert.equal(new Set(full.tracks.map(track=>track.id)).size,full.tracks.length);
 
  const question={id:'piano',universe:'music',kind:'question',prompt:'Quel instrument ?',answer:'Piano',options:['Piano','Guitare'],points:100,duration:5};

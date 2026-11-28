@@ -1,0 +1,73 @@
+name: Synchroniser Show Experience
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: sync-show-experience
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Préparer la fusion de main dans Show Experience
+        id: prepare
+        run: |
+          git fetch origin refs/heads/main:refs/remotes/origin/main refs/heads/show-experience:refs/remotes/origin/show-experience
+          git switch --detach origin/show-experience
+          if git merge-base --is-ancestor origin/main HEAD; then
+            echo 'needed=false' >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git merge --no-edit origin/main
+          echo 'needed=true' >> "$GITHUB_OUTPUT"
+      - name: Installer les dépendances du serveur local
+        if: steps.prepare.outputs.needed == 'true'
+        run: npm ci --omit=dev
+      - name: Tester la version fusionnée
+        if: steps.prepare.outputs.needed == 'true'
+        run: npm test
+      - name: Vérifier la compilation
+        if: steps.prepare.outputs.needed == 'true'
+        run: npm run build
+      - name: Publier la fusion testée
+        if: steps.prepare.outputs.needed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh auth setup-git
+          git push origin HEAD:refs/heads/show-experience
+
+  report:
+    needs: sync
+    if: failure() && needs.sync.result == 'failure'
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Signaler le blocage
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create --repo "$GITHUB_REPOSITORY" \
+            --title "Synchronisation Show Experience bloquée (exécution $GITHUB_RUN_ID)" \
+            --body "La synchronisation de main vers show-experience a échoué. Consultez le journal pour identifier le conflit, le test ou l’étape en échec. Déclencheur : $GITHUB_SHA. Journal : $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"

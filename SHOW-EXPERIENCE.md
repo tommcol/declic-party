@@ -47,3 +47,17 @@ chroot "$PWD/debian" /usr/bin/env PATH=/opt/node22/bin:/usr/bin:/bin /bin/sh -ec
 ```
 
 Relancez ensuite la commande de démarrage.
+
+## Maintenir les deux versions
+
+Les règles, les scores, le catalogue, les playlists et le serveur local évoluent
+dans `main`. Les décors, thèmes, animations et avatars de Grand Soir sont
+maintenus dans `show-experience`, principalement dans `public/show.js`,
+`public/show.css` et les ressources graphiques associées. Les points de raccord
+avec le moteur et le serveur transportent le thème et l’avatar entre les écrans.
+
+Dans GitHub, **Actions → Synchroniser Show Experience** se lance après chaque
+publication sur `main`. Pour le relancer manuellement, utilisez **Run workflow**
+sur `main`. GitHub fusionne les changements, teste sous Node.js 22 puis publie
+sur `show-experience` en cas de succès. En cas d’échec, une issue renvoie au journal.
+La synchronisation GitHub est indépendante de la mise à jour sur Batocera.
