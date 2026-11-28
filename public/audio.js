@@ -21,8 +21,23 @@ function lobbyInstrumental(context) {
 }
 
 export class SoundDesk {
- constructor(){this.ctx=null;this.source=null;this.buffer=null;this.offset=0;this.started=0;this.rate=1;this.muted=false;this.master=.75;this.id=null;this.generation=0;}
+ constructor(){this.ctx=null;this.source=null;this.buffer=null;this.offset=0;this.started=0;this.rate=1;this.muted=false;this.master=.75;this.ambience=.5;this.effects=.7;this.id=null;this.generation=0;}
  async unlock(){if(!this.ctx)this.ctx=new AudioContext();if(this.ctx.state==='suspended')await this.ctx.resume();}
+ setLevel(channel,value){
+  if(!Number.isFinite(value))return;
+  const level=Math.max(0,Math.min(1,value));
+  if(channel==='excerpt'){
+   this.master=level;
+   if(this.excerptGain)this.excerptGain.gain.value=level;
+  }else if(channel==='ambience'){
+   this.ambience=level;
+   const gain=this.lobbyVoice?.gain.gain;
+   if(gain){gain.cancelScheduledValues(this.ctx.currentTime);gain.value=level*.14;}
+  }else if(channel==='effects'){
+   this.effects=level;
+   if(this.effectGain)this.effectGain.gain.value=level;
+  }
+ }
  setLobbyAmbience(active){
   if(!active){
    if(!this.lobbyVoice)return;
@@ -40,7 +55,7 @@ export class SoundDesk {
   source.buffer=this.lobbyBuffer??=lobbyInstrumental(this.ctx);
   source.loop=true;
   gain.gain.setValueAtTime(0,this.ctx.currentTime);
-  gain.gain.linearRampToValueAtTime(.07,this.ctx.currentTime+.35);
+  gain.gain.linearRampToValueAtTime(this.ambience*.14,this.ctx.currentTime+.35);
   source.connect(gain);
   gain.connect(this.ctx.destination);
   source.onended=()=>{source.disconnect();gain.disconnect();};
@@ -54,10 +69,18 @@ export class SoundDesk {
   else{this.buffer=null;return;}
   if(effect==='reverse'){const b=this.ctx.createBuffer(this.buffer.numberOfChannels,this.buffer.length,this.buffer.sampleRate);for(let c=0;c<b.numberOfChannels;c++)b.copyToChannel(this.buffer.getChannelData(c).slice().reverse(),c);this.buffer=b;}
  }
- play(limit=Infinity){if(!this.buffer||this.source||limit<=0)return;this.setLobbyAmbience(false);const s=this.ctx.createBufferSource(),g=this.ctx.createGain();s.buffer=this.buffer;s.loop=true;s.playbackRate.value=this.rate;g.gain.value=this.master;s.connect(g);g.connect(this.ctx.destination);s.start(0,this.offset%this.buffer.duration);if(Number.isFinite(limit))s.stop(this.ctx.currentTime+limit);this.started=this.ctx.currentTime;this.source=s;}
- pause(){if(this.source){this.offset+=(this.ctx.currentTime-this.started)*this.rate;this.source.stop();this.source.disconnect();this.source=null;}}
+ play(limit=Infinity){if(!this.buffer||this.source||limit<=0)return;this.setLobbyAmbience(false);const s=this.ctx.createBufferSource(),g=this.ctx.createGain();s.buffer=this.buffer;s.loop=true;s.playbackRate.value=this.rate;g.gain.value=this.master;s.connect(g);g.connect(this.ctx.destination);s.start(0,this.offset%this.buffer.duration);if(Number.isFinite(limit))s.stop(this.ctx.currentTime+limit);this.started=this.ctx.currentTime;this.source=s;this.excerptGain=g;}
+ pause(){if(this.source){this.offset+=(this.ctx.currentTime-this.started)*this.rate;this.source.stop();this.source.disconnect();this.excerptGain?.disconnect?.();this.source=null;this.excerptGain=null;}}
  stop(){this.pause();this.offset=0;}
- jingle(type){if(!this.muted&&this.ctx)playShowCue(this.ctx,type);}
+ jingle(type,{preview=false}={}){
+  if((this.muted&&!preview)||!this.ctx)return;
+  if(!this.effectGain){
+   this.effectGain=this.ctx.createGain();
+   this.effectGain.gain.value=this.effects;
+   this.effectGain.connect(this.ctx.destination);
+  }
+  playShowCue(this.ctx,type,this.effectGain);
+ }
 }
 export const mediaDB=()=>new Promise((resolve,reject)=>{const r=indexedDB.open('declic-media',1);r.onupgradeneeded=()=>r.result.createObjectStore('files');r.onsuccess=()=>resolve(r.result);r.onerror=()=>reject(r.error);});
 export async function storeBlob(id,blob){const db=await mediaDB();await new Promise((resolve,reject)=>{const tx=db.transaction('files','readwrite');tx.objectStore('files').put(blob,id);tx.oncomplete=resolve;tx.onerror=()=>reject(tx.error);});db.close();}

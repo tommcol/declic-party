@@ -138,6 +138,42 @@ Pour revenir à la version précédente, utilisez `git switch --detach c08a318`
 dans le dossier de design avant de redémarrer le serveur. Cette version
 du plateau conserve le format du stockage local.
 
+## Chantier 04 — Régie professionnelle
+
+La régie garde un moniteur muet du rendu public pendant la préparation, la
+partie et la consultation du bilan. L'ouverture de l'écran public reste une
+commande distincte. Le moniteur suit le passage dans le décor déjà prévu
+avant la sélection de la playlist. Le panneau droit montre les inscriptions,
+connexions et réponses en direct, donne accès aux équipes et aux statistiques,
+et réserve une place à l'assistant.
+
+Les commandes Jeu restent soumises à la phase et aux règles du jeu choisi.
+« Fin de jeu » rassemble la clôture avec résultats et le retour au salon.
+Le mode automatique des jeux compatibles et « Je joue aussi » conservent leur
+fonctionnement.
+
+Le panneau Spectacle pilote applaudissements, suspense, célébration,
+projecteurs, générique et podium. Les effets et cartons sont envoyés à la TV
+et au moniteur de régie, sans modifier le chrono, les réponses ou les scores.
+Le poste animateur centralise le son et mémorise trois volumes indépendants
+pour les extraits, l'ambiance et les effets.
+
+La diffusion des statistiques et distinctions supplémentaires démarre en
+mode manuel. Chaque carton disponible peut être envoyé depuis Statistiques.
+Le mode de diffusion automatique intervient après la révélation et privilégie
+la réponse correcte la plus rapide, puis le bilan de la manche.
+
+Vérifications sur Node.js 22 et Chromium : moniteur conservé entre les
+étapes, décor avant la playlist, conduite manuelle et automatique de la
+partie, état des participants, diffusion TV et séparation des réglages audio.
+Les tests du serveur couvrent aussi le refus des effets envoyés par un joueur
+et la conservation de l'état de la manche pendant un effet. Le rendu sonore
+sur l'installation Batocera reste à tester.
+
+Pour revenir au plateau du chantier 03, utilisez
+`git switch --detach 767e378` dans le dossier de design, puis redémarrez.
+Les réglages de régie sont enregistrés dans le navigateur.
+
 ## Maintenir les deux versions
 
 Les règles, les scores, le catalogue, les playlists et le serveur local évoluent

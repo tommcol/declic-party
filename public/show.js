@@ -180,7 +180,23 @@ export function updateShow(root, {role, game, wheel, ceremony, reduced}) {
   }
 }
 
-export function playShowCue(context,type){
+export function playShowCue(context,type,destination=context.destination){
+  if(type==='applause'){
+    const rate=context.sampleRate;
+    const buffer=context.createBuffer(1,Math.floor(rate*1.5),rate);
+    const samples=buffer.getChannelData(0);
+    for(let clap=0;clap<90;clap++){
+      const start=Math.floor(Math.random()*rate*1.35);
+      const volume=.045*(1-start/samples.length);
+      for(let i=0;i<rate*.035;i++)samples[start+i]+=(Math.random()*2-1)*volume*Math.exp(-i/(rate*.009));
+    }
+    const source=context.createBufferSource();
+    source.buffer=buffer;
+    source.connect(destination);
+    source.onended=()=>source.disconnect();
+    source.start();
+    return;
+  }
   const cues={
    arrival:[[55,0,.2],[67,.065,.2],[79,.14,.25]],
    streak:[[60,0,.14],[67,.07,.14],[72,.14,.2],[84,.24,.4]],
@@ -190,6 +206,8 @@ export function playShowCue(context,type){
    final:[[36,0,.8],[48,0,.65],[60,.14,.28],[67,.23,.28],[72,.38,.55],[76,.38,.55],[79,.38,.56],[84,.64,.7]],
    start:[[48,0,.17],[60,.09,.18],[67,.2,.28]],
    tick:[[76,0,.09]],
+   suspense:[[43,0,.44],[45,.5,.35],[47,.9,.36],[50,1.24,.26],[55,1.51,.45]],
+   celebration:[[67,0,.2],[71,.12,.25],[74,.25,.33],[79,.4,.55],[83,.4,.55]],
    buzz:[[43,0,.11],[55,.035,.18]],
    correct:[[67,0,.13],[72,.07,.18],[76,.14,.22],[84,.23,.36]],
    wrong:[[55,0,.14],[49,.11,.22]],
@@ -205,7 +223,7 @@ export function playShowCue(context,type){
    gain.gain.exponentialRampToValueAtTime(type==='podium'?.085:.12,at+.012);
    gain.gain.exponentialRampToValueAtTime(.0001,at+length);
    oscillator.connect(gain);
-   gain.connect(context.destination);
+   gain.connect(destination);
    oscillator.start(at);
    oscillator.stop(at+length);
   }

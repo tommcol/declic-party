@@ -139,6 +139,20 @@ test('Le serveur Node synchronise une manche et reprend ses données et alarmes 
  await Promise.all(players.map(p=>p.waitFor(m=>m.type==='received')));
  const live=await tv.waitFor(m=>m.state?.phase==='playing'&&m.state.answered?.length===2);
  assert.equal(live.state.question.answer,undefined);
+ players[0].send({type:'spectacle',effect:'spotlight'});
+ assert.match((await players[0].waitFor(m=>m.type==='error')).message,/non autorisée/);
+ host.send({type:'spectacle',effect:'spotlight'});
+ assert.deepEqual(await tv.waitFor(m=>m.type==='spectacle'),{
+  type:'spectacle',effect:'spotlight',title:'Projecteurs',detail:''
+ });
+ assert.equal((await host.waitFor(m=>m.type==='spectacle')).effect,'spotlight');
+ assert.ok(players.every(player=>!player.messages.some(m=>m.type==='spectacle')));
+ const monitor=await connect(code);
+ monitor.send({type:'tv'});
+ const sameRound=await phase(monitor,'playing');
+ assert.equal(sameRound.endAt,live.state.endAt);
+ assert.equal(sameRound.revision,live.state.revision);
+ monitor.close();
 
  const {tracks}=await request('/api/library/tracks?playlist=mix');
  assert.ok(tracks.length>0);

@@ -1,7 +1,7 @@
 import {createHash,randomUUID} from 'node:crypto';
 import {pathToFileURL} from 'node:url';
 import {readFile,writeFile,mkdir,rename} from 'node:fs/promises';
-const files=['index.html','style.css','app.js','engine.js','audio.js','catalog.js','qrcode.js','music-library.js','tyrolien-ui.js','roulette.js','teams.js','team-ui.js','show.js','show.css','host-home.css'];
+const files=['index.html','style.css','app.js','engine.js','audio.js','catalog.js','qrcode.js','music-library.js','tyrolien-ui.js','roulette.js','teams.js','team-ui.js','show.js','spectacle.js','show.css','host-home.css'];
 const types={html:'text/html; charset=utf-8',css:'text/css; charset=utf-8',js:'text/javascript; charset=utf-8'};
 const assets={};for(const f of files)assets['/'+f]={body:await readFile(new URL('public/'+f,import.meta.url),'utf8'),type:types[f.split('.').pop()]};
 for(const file of ['tyrolien-plateau.webp','jeux-plateaux.webp','grand-soir.webp','grand-soir-salon.webp','grand-soir-univers.webp','une-seconde-plateau.webp','studio-tv.webp','fonts/barlow.woff','fonts/dm.woff'])assets['/'+file]={
@@ -18,9 +18,9 @@ const libraryScreenWorks=(await readFile(new URL('src/library-screen-works.js',i
 const libraryCorrections=(await readFile(new URL('src/library-corrections.js',import.meta.url),'utf8')).replace(/^export /gm,'');
 const library=(await readFile(new URL('src/library.js',import.meta.url),'utf8'))
  .replace(/^import .*;$/gm,'');
-worker=worker.replace(/^import .*roulette.js.*$/m,'').replace(/^import .*teams.js.*$/m,'');
+worker=worker.replace(/^import .*(roulette|teams|spectacle)\.js.*$/gm,'');
 worker=worker.replace(/^import .*from '\.\/tyrolien-(room|game).js';$/gm,'');
-const tyrolien=(await Promise.all(['public/roulette.js','public/teams.js','public/music-source.js','src/tyrolien.js','src/tyrolien-room.js','src/tyrolien-game.js'].map(
+const tyrolien=(await Promise.all(['public/roulette.js','public/teams.js','public/music-source.js','public/spectacle.js','src/tyrolien.js','src/tyrolien-room.js','src/tyrolien-game.js'].map(
  path=>readFile(new URL(path,import.meta.url),'utf8')
 ))).map(source=>source.replace(/^import .*;$/gm,'').replace(/^export /gm,'')).join('\n');
 const catalog=(await readFile(new URL('src/catalog.js',import.meta.url),'utf8')).replaceAll('export ','');
