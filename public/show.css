@@ -1509,3 +1509,7 @@ button.vinyl-choice:focus-visible { outline: 3px solid #c9efb8; outline-offset: 
   from { opacity: .65; transform: translateY(.35rem); }
   to { opacity: 1; transform: translateY(0); }
 }
+
+/* Réaction */
+.reaction-vote { margin: .75rem auto; padding: .8rem 1.1rem; border: 1px solid #cb9664; border-radius: .65rem; background: #102833; color: #ffe8ca; }
+.reaction-vote ul { text-align: left; }

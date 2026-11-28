@@ -245,7 +245,10 @@ export function applyAction(game, action, now=Date.now()) {
    const lastRound=s.index===s.questions.length-1;
    for(const team of active){
     team.unbanked=s.answers[team.id]?.correct?(team.unbanked||0)+(s.pending[team.id]||0):0;
-    if(lastRound){team.score+=team.unbanked;team.unbanked=0;}
+    if(lastRound){
+     if(team.unbanked){s.chainFinalBank??={};s.chainFinalBank[team.id]=team.unbanked;}
+     team.score+=team.unbanked;team.unbanked=0;
+    }
    }
    s.chainVote=!lastRound&&(s.index+1)%3===0&&active.length>2?{}:null;
   }
@@ -295,6 +298,7 @@ export function applyAction(game, action, now=Date.now()) {
   if(bingo&&Number.isFinite(action.sourceDuration)){
    q.duration=Math.min(30,Math.max(.25,action.sourceDuration));
   }
+  if(chain){s.chainResult=null;s.chainBanked={};}
   s.phase='playing';s.listenStep=0;s.audioElapsed=0;s.startAt=now+3000;s.endAt=s.startAt+(q.duration||s.settings.duration)*1000;s.buzz=null;s.blocked=[];s.cooldowns={};s.claimed={};s.answers={};s.pending={};emit('start');}
  else if(action.type==='pause'&&s.phase==='playing'&&now>=s.startAt){s.remaining=Math.max(0,s.endAt-now);s.audioElapsed=(s.audioElapsed||0)+Math.max(0,now-s.startAt);s.phase='paused';emit('pause');}
  else if(action.type==='resume'&&s.phase==='paused'){s.phase='playing';s.startAt=now;s.endAt=now+s.remaining;emit('resume');}
@@ -317,6 +321,8 @@ export function applyAction(game, action, now=Date.now()) {
  else if(chain&&action.type==='chain-bank'&&s.phase==='playing'&&now>=s.startAt&&now<s.endAt){
   const team=s.teams.find(t=>t.id===action.team&&!t.eliminated);
   if(!team?.unbanked||s.answers[team.id])return game;
+  s.chainBanked??={};
+  s.chainBanked[team.id]=team.unbanked;
   team.score+=team.unbanked;
   team.unbanked=0;
  }
@@ -360,7 +366,7 @@ export function applyAction(game, action, now=Date.now()) {
  }
  else if((action.type==='reveal'||action.type==='timeout')&&['playing','buzzed','paused'].includes(s.phase)){
   if(action.type==='timeout'&&(s.phase!=='playing'||now<s.endAt))return game;
-  if((bingo||survival||q?.target==='coverChoice')&&now<s.startAt)return game;
+  if((bingo||survival||chain||q?.target==='coverChoice')&&now<s.startAt)return game;
   if(timeline&&action.type==='reveal'&&(s.phase!=='playing'||now<s.startAt||
      now<s.endAt&&(!s.teams.length||!s.teams.every(team=>s.answers[team.id]?.attempts))))return game;
   reveal();
@@ -372,19 +378,28 @@ export function applyAction(game, action, now=Date.now()) {
   }
   // Close a started round once, but never invent a draw during a countdown.
   if(['playing','buzzed','paused'].includes(s.phase)&&now>=s.startAt)reveal();
-  if(chain)for(const team of s.teams){team.score+=team.unbanked||0;team.unbanked=0;}
+  if(chain)for(const team of s.teams){
+   if(team.unbanked){s.chainFinalBank??={};s.chainFinalBank[team.id]=team.unbanked;}
+   team.score+=team.unbanked||0;team.unbanked=0;
+  }
   s.chainVote=null;s.phase='finished';s.buzz=null;s.blocked=[];s.pending={};s.claimed={};s.cooldowns={};s.nextAt=0;s.endAt=0;s.remaining=0;
   if(timeline)s.teams.sort((left,right)=>right.score-left.score||(left.timelineElapsed||0)-(right.timelineElapsed||0));
   emit('podium');
  }
  else if(action.type==='next'&&s.phase==='reveal'){
   if(chain&&s.chainVote){
+   if(action.closeVote!==true)return game;
    const votes=Object.values(s.chainVote);
    const active=s.teams.filter(t=>!t.eliminated);
    const tallies=active.map(t=>({team:t,count:votes.filter(id=>id===t.id).length})).sort((a,b)=>b.count-a.count||a.team.score-b.team.score);
    const [first,second]=tallies;
-   if(first.count&&(first.count!==second.count||first.team.score!==second.team.score))first.team.eliminated=true;
+   const eliminated=first?.count&&(first.count!==second?.count||first.team.score!==second?.team.score)?first.team:null;
+   if(eliminated)eliminated.eliminated=true;
+   s.chainResult={eliminated:eliminated?.id??null};
    s.chainVote=null;
+   emit('chain-result');
+   s.revision++;
+   return s;
   }
   s.index++;s.phase=s.survivalWinner||s.index>=s.questions.length?'finished':'ready';s.buzz=null;s.blocked=[];s.answers={};s.pending={};s.claimed={};s.cooldowns={};s.nextAt=0;
   if(timeline&&s.phase==='finished')s.teams.sort((left,right)=>right.score-left.score||(left.timelineElapsed||0)-(right.timelineElapsed||0));
@@ -412,7 +427,7 @@ export function publicGame(s,teamId){
  {held:myJoker?.held,correct:myJoker?.correct||0,fastest:myJoker?.fastest||0,
   decade:myJoker?.decade,shield:s.settings?.survival&&myJoker?.armed==='shield'||undefined,retry:myJoker?.extraAttempt===true,
   canRetry:myJoker?.held==='retry'&&!!s.answers[teamId]?.attempts&&!s.answers[teamId]?.correct}:undefined,
- jokerAwards:revealed?s.jokerAwards:undefined,timelineMode:timeMode,timelineCards:visibleCards,timelineSlots:q&&cards&&teamId&&!revealed?timelineSlots(cards,q):undefined,timelineResult,distribution,musicGame:s.musicGame,showTheme:s.showTheme,showAnimations:s.showAnimations,version:2,mode:s.mode,input:s.input,index:s.index,total:s.questions.length,phase:s.phase,buzz:s.buzz,blocked:s.blocked,claimed:s.claimed,cooldowns:s.cooldowns,answered:Object.keys(s.answers),remaining:s.remaining,settings:{listening:s.settings?.listening||'continuous',survival:s.settings?.survival===true,survivalLives:s.settings?.survival?s.settings.survivalLives:undefined,bingo:s.settings?.bingo===true,bingoTarget:s.questions[0]?.target,chain:s.settings?.chain===true},chainVoting:!!s.chainVote,chainMyVote:teamId?s.chainVote?.[teamId]:undefined,chainUnbanked:teamId?s.teams.find(t=>t.id===teamId)?.unbanked:undefined,bingoFinal:s.settings?.bingo&&s.phase==='finished'?roundStatistics(s.history,teamId?s.teams.filter(t=>t.id===teamId):s.teams):undefined,bingoProgressions:revealed?s.bingoProgressions:undefined,bingoFastest:revealed?s.bingoFastest:undefined,bingoMilestones:s.bingoMilestones,bingoFinishRows:s.bingoFinishRows,bingoCard:teamId?s.teams.find(t=>t.id===teamId)?.bingo:undefined,survivalWinner:s.survivalWinner,survivalRound:revealed&&s.settings?.survival?s.survivalRound:undefined,listenStep:s.listenStep||0,audioElapsed:s.audioElapsed||0,teams:s.teams.map(({id,name,avatar,score,key,streak,eliminated,lives})=>({id,name,avatar,score:timeMode&&teamId&&s.phase!=='finished'?undefined:score,key,streak:timeMode&&teamId?undefined:streak,eliminated,lives})),startAt:s.startAt,endAt:s.endAt,nextAt:s.nextAt,event:s.event,revision:s.revision,question,effect:s.effect,history:timeMode&&teamId&&s.phase!=='finished'?[]:s.history,me:teamId?(s.input==='qcm'&&(!revealed||timeMode)&&s.answers[teamId]?{attempts:s.answers[teamId].attempts,...(revealed&&timeMode==='collective'?{correct:s.answers[teamId].correct}:{}),...(s.settings?.bingo?{selectedSong:s.answers[teamId].selectedSong}:{}),...(q?.target==='coverChoice'?{selectedCover:s.answers[teamId].selectedCover}:{})}:s.answers[teamId]):undefined};
+ jokerAwards:revealed?s.jokerAwards:undefined,timelineMode:timeMode,timelineCards:visibleCards,timelineSlots:q&&cards&&teamId&&!revealed?timelineSlots(cards,q):undefined,timelineResult,distribution,musicGame:s.musicGame,showTheme:s.showTheme,showAnimations:s.showAnimations,version:2,mode:s.mode,input:s.input,index:s.index,total:s.questions.length,phase:s.phase,buzz:s.buzz,blocked:s.blocked,claimed:s.claimed,cooldowns:s.cooldowns,answered:Object.keys(s.answers),remaining:s.remaining,settings:{listening:s.settings?.listening||'continuous',survival:s.settings?.survival===true,survivalLives:s.settings?.survival?s.settings.survivalLives:undefined,bingo:s.settings?.bingo===true,bingoTarget:s.questions[0]?.target,chain:s.settings?.chain===true},chainVoting:!!s.chainVote,chainVoteCount:s.chainVote?Object.keys(s.chainVote).length:undefined,chainResult:revealed?s.chainResult:undefined,chainFinalBank:s.phase==='finished'?s.chainFinalBank:undefined,chainBanked:teamId?s.chainBanked?.[teamId]:undefined,chainMyVote:teamId?s.chainVote?.[teamId]:undefined,chainUnbanked:teamId?s.teams.find(t=>t.id===teamId)?.unbanked:undefined,bingoFinal:s.settings?.bingo&&s.phase==='finished'?roundStatistics(s.history,teamId?s.teams.filter(t=>t.id===teamId):s.teams):undefined,bingoProgressions:revealed?s.bingoProgressions:undefined,bingoFastest:revealed?s.bingoFastest:undefined,bingoMilestones:s.bingoMilestones,bingoFinishRows:s.bingoFinishRows,bingoCard:teamId?s.teams.find(t=>t.id===teamId)?.bingo:undefined,survivalWinner:s.survivalWinner,survivalRound:revealed&&s.settings?.survival?s.survivalRound:undefined,listenStep:s.listenStep||0,audioElapsed:s.audioElapsed||0,teams:s.teams.map(({id,name,avatar,score,key,streak,eliminated,lives})=>({id,name,avatar,score:timeMode&&teamId&&s.phase!=='finished'?undefined:score,key,streak:timeMode&&teamId?undefined:streak,eliminated,lives})),startAt:s.startAt,endAt:s.endAt,nextAt:s.nextAt,event:s.event,revision:s.revision,question,effect:s.effect,history:timeMode&&teamId&&s.phase!=='finished'?[]:s.history,me:teamId?(s.input==='qcm'&&(!revealed||timeMode)&&s.answers[teamId]?{attempts:s.answers[teamId].attempts,...(revealed&&timeMode==='collective'?{correct:s.answers[teamId].correct}:{}),...(s.settings?.bingo?{selectedSong:s.answers[teamId].selectedSong}:{}),...(q?.target==='coverChoice'?{selectedCover:s.answers[teamId].selectedCover}:{})}:s.answers[teamId]):undefined};
 }
 export const DEMO=[
 {id:'m1',universe:'music',kind:'audio',prompt:'Quel est le titre de cette mélodie ?',answer:'Frère Jacques',aliases:['frere jacques'],options:['Frère Jacques','Au clair de la lune','Sur le pont d’Avignon','Une souris verte'],notes:[[60,.4],[62,.4],[64,.4],[60,.4],[60,.4],[62,.4],[64,.4],[60,.4],[64,.4],[65,.4],[67,.8],[64,.4],[65,.4],[67,.8]],hint:'Une mélodie qui traverse les générations.',duration:25,points:100},

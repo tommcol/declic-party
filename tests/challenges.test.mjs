@@ -146,8 +146,15 @@ test('Maillon faible : points sécurisés, points perdus et vote privé',()=>{
  action('chain-vote',13200,{team:'b',candidate:'c'});
  assert.equal(publicGame(s,'a').chainMyVote,'c');
  assert.equal(publicGame(s,'c').chainMyVote,undefined);
+ const voting=s;
  action('next',14000);
+ assert.equal(s,voting);
+ assert.equal(publicGame(s).chainVoteCount,2);
+ action('next',14000,{closeVote:true});
  assert.equal(s.teams[2].eliminated,true);
+ assert.equal(publicGame(s).chainResult.eliminated,'c');
+ assert.equal(s.phase,'reveal');
+ action('next',14050);
  action('play',14100);
  const before=s;
  action('answer',18000,{team:'c',answer:'Titre'});

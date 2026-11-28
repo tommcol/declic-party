@@ -224,6 +224,10 @@ La TV met en scène le décompte, les dernières vies, la révélation et le
 résultat. Si tous les joueurs encore en lice perdent leur dernière vie,
 ils repartent ensemble avec une vie, conformément à la règle existante.
 
+## Chantier 06 — Maillon faible, Réaction
+
+La régie ferme le vote explicitement et confirme sa décision lorsque des votes manquent. Le plateau affiche la participation puis le résultat sans afficher les bulletins. Le téléphone distingue les points acquis et la réserve, et confirme la sécurisation. La révélation attend la fin du compte à rebours.
+
 ## Maintenir les deux versions
 
 Les règles, les scores, le catalogue, les playlists et le serveur local évoluent
