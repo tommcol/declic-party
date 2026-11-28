@@ -236,6 +236,10 @@ La préparation vérifie les extraits des duos dans le sens choisi. La régie et
 
 La préparation compte les œuvres distinctes avec un extrait vérifié selon la catégorie. La régie bloque la révélation pendant le compte à rebours. La TV et le téléphone affichent l’œuvre puis le morceau entendu. Le téléphone confirme le choix et le score de la manche.
 
+## Chantier 06 — Le Tyrolien
+
+Le parcours intégré affiche le suivi des réponses par équipe, le palier près du QCM et la participation au vote. Les sons distinguent montée, sommet, attaque et chute. Le classement en cas d’arrêt indique les équipes encore en course.
+
 ## Maintenir les deux versions
 
 Les règles, les scores, le catalogue, les playlists et le serveur local évoluent

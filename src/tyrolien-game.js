@@ -62,7 +62,7 @@ export function applyMountain(game, action, now) {
   const {type} = action;
   const question = game.questions[game.index];
   if (action.questionId && action.questionId !== question?.id) return game;
-  if (game.phase === 'finished') return game;
+  if (game.phase === 'finished' || type === 'reveal' && game.phase === 'playing' && now < game.startAt) return game;
   if (['pause','resume'].includes(type) && game.mountain.phase && ['paused','reveal'].includes(game.phase)) {
     if (type === 'pause' && game.phase === 'reveal' && (!game.nextAt || now < game.nextAt)) {
       return {...game, phase:'paused', nextAt:0, revision:game.revision+1,
@@ -126,7 +126,7 @@ export function mountainView(room, role, playerId) {
   const {roster, votes, ...mountain} = room.mountain;
   const team = roster?.find(player => player.id === playerId)?.team;
   const host = role === 'host';
-  return {...mountain, team, voted:!!votes?.[playerId], voteCount:Object.keys(votes || {}).length,
+  return {...mountain, team, voteEligible:roster?.filter(player=>player.team===mountain.beneficiary).length, voted:!!votes?.[playerId], voteCount:Object.keys(votes || {}).length,
     tallies:host && votes ? Object.fromEntries(mountain.teams.map(team =>
       [team.id, Object.values(votes).filter(value => value === team.id).length])) : undefined};
 }

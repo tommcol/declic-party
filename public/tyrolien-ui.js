@@ -109,12 +109,13 @@ export function mountainPanel(game, role, esc, animate) {
   const targets=g.teams.filter(item=>!item.eliminated&&item.id!==g.beneficiary);
   const vote=role==='player'&&g.phase==='vote'&&team?.id===g.beneficiary?`<div class="row">${g.voted?'Vote enregistré ✓':
     targets.map(item=>`<button class="btn ghost" data-action="mountain-vote" data-value="${esc(item.id)}">${teamName(item.id)}</button>`).join('')}</div>`:'';
-  const order=[...(g.winner?[g.winner]:[]),...g.eliminated.slice().reverse()];
+  const leadersAtStop=g.winner?[g.winner]:g.teams.filter(item=>!item.eliminated).sort((a,b)=>a.position-b.position).map(item=>item.id);
+  const order=[...leadersAtStop,...g.eliminated.slice().reverse()];
   const ranking=finished?`<h3>Classement des équipes</h3><div class="ty-podium">${order.map((id,i)=>
-    `<div><strong>${g.winner?i+1:g.teams.length-order.length+i+1}. ${teamName(id)}</strong></div>`).join('')}</div>`:'';
+    `<div><strong>${g.winner?`${i+1}. `:''}${teamName(id)}${!g.winner&&leadersAtStop.includes(id)?' · En course à l’arrêt':''}</strong></div>`).join('')}</div>`:'';
   return `<section class="mountain-panel ${host?'mountain-desk':tv?'mountain-tv':''}">
     ${host||tv?`<header class="ty-live-header"><div><span class="eyebrow">LE TYROLIEN · MANCHE ${round}</span><h2>${moment.label}</h2></div>
-     ${clock?`<div class="ty-vote-meter"><b data-ty-clock>${Math.max(0,Math.ceil((game.nextAt-Date.now())/1000))} s</b><span>${g.voteCount??0} vote(s)</span></div>`:''}</header>`:''}
+     ${clock?`<div class="ty-vote-meter"><b data-ty-clock>${Math.max(0,Math.ceil((game.nextAt-Date.now())/1000))} s</b><span>${g.voteCount??Object.keys(g.votes||{}).length} / ${g.voteEligible??g.roster?.filter(player=>player.team===g.beneficiary).length??0} votes</span></div>`:''}</header>`:''}
     ${host||tv?`<div class="ty-live-map" data-moment="${moment.kind}" data-map-key="${esc(mapKey)}">
       ${tyrolienMountain(game.phase==='paused'?{...g,phase:null}:g,esc,animate&&!finished)}
       ${tv&&['climb','attack','fall','podium'].includes(moment.kind)?'<i class="ty-summit-flare" aria-hidden="true"></i>':''}
@@ -129,8 +130,11 @@ export function mountainPanel(game, role, esc, animate) {
       const percent=row?Math.round(row.correct/Math.max(1,row.players)*100):null;
       const correct=percent===null?'':`<small>${row.correct}/${row.players} · ${percent} %${host&&row.correct?` · ${(row.totalTime/row.correct/1000).toFixed(2)} s en moyenne`:''}</small>
        <meter min="0" max="100" value="${percent}" aria-label="Réussite de ${teamName(item.id)}">${percent} %</meter>`;
+      const members=host&&game.phase==='playing'?g.roster?.filter(player=>player.team===item.id):null;
+      const received=members?.filter(player=>game.answers?.[player.id]?.attempts).length;
+      const progress=members?`<small>${received} / ${members.length} réponses · ${members.length-received} en attente</small>`:'';
       const votes=host&&['vote','attack'].includes(g.phase)&&item.id!==g.beneficiary?`<small>${g.tallies?.[item.id]||0} vote(s)</small>`:'';
-      return `<div style="--team:${item.color}"><strong>${esc(item.icon)} ${teamName(item.id)}</strong><small>${position(item)}${g.bonuses?` · Série ${item.streak}/4`:''}</small>${correct}${votes}</div>`;
+      return `<div style="--team:${item.color}"><strong>${esc(item.icon)} ${teamName(item.id)}</strong><small>${position(item)}${g.bonuses?` · Série ${item.streak}/4`:''}</small>${progress}${correct}${votes}</div>`;
     }).join('')}</div>`:''}
     ${ranking}</section>`;
 }
