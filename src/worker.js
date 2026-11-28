@@ -14,6 +14,7 @@ const digest=async s=>Array.from(new Uint8Array(await crypto.subtle.digest('SHA-
 const roomCode=()=>Array.from(crypto.getRandomValues(new Uint8Array(8)),n=>'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'[n%32]).join('');
 const PLAYER_LIMIT=300;
 const CONNECTION_LIMIT=PLAYER_LIMIT+32;
+const MUSIC_GAME_IDS=['blind','bingo','timeline','coversQuiz','soundtrack','covers','survival','progressive','chain','tyrolien'];
 const validCode=code=>typeof code==='string'&&/^[A-Z2-9]{8}$/.test(code);
 const hostToken=token=>typeof token==='string'&&/^[0-9a-f-]{36}$/.test(token);
 async function eveningRoute(req,env,url){
@@ -140,7 +141,7 @@ export default {
     data.questions=data.questions.map(q=>({id:String(q.id).slice(0,80),universe:q.target==='soundtrack'?q.universe:'music',cutAt:q.kind==='lyrics'?q.cutAt:undefined,kind:['audio','image','question','lyrics'].includes(q.kind)?q.kind:'question',prompt:q.prompt,answer:q.answer,explanation:typeof q.explanation==='string'?q.explanation.slice(0,1500):undefined,theme:typeof q.theme==='string'?q.theme.slice(0,80):undefined,credit:normalizeQuizCredit(q.credit),aliases:(Array.isArray(q.aliases)?q.aliases:[]).filter(v=>typeof v==='string').slice(0,15).map(v=>v.slice(0,180)),options:q.options,year:q.target==='timeline'&&Number.isInteger(q.year)?q.year:undefined,timeline:q.target==='timeline'&&Array.isArray(q.timeline)?q.timeline.filter(v=>typeof v==='string').slice(0,3).map(v=>v.slice(0,180)):undefined,optionArtwork:q.target==='coverChoice'?q.optionArtwork:undefined,duration:q.duration,points:q.points,title:typeof q.title==='string'?q.title.slice(0,180):undefined,artist:typeof q.artist==='string'?q.artist.slice(0,180):undefined,titleAliases:(Array.isArray(q.titleAliases)?q.titleAliases:[]).filter(v=>typeof v==='string').slice(0,10).map(v=>v.slice(0,180)),artistAliases:(Array.isArray(q.artistAliases)?q.artistAliases:[]).filter(v=>typeof v==='string').slice(0,10).map(v=>v.slice(0,180)),target:allowedTargets.includes(q.target)?q.target:'title',emoji:typeof q.emoji==='string'?q.emoji.slice(0,80):undefined,artwork:typeof q.artwork==='string'&&/^https:\/\/[^/]+\.dzcdn\.net\//.test(q.artwork)?q.artwork:undefined,link:typeof q.link==='string'&&/^https:\/\/www\.deezer\.com\//.test(q.link)?q.link:undefined,provider:q.provider==='Deezer'?'Deezer':undefined}));
     const randomTeamCount=Number.isInteger(data.randomTeamCount)&&data.randomTeamCount>=2&&data.randomTeamCount<=MAX_PARTICIPANTS&&
      !data.settings?.bingo&&!data.settings?.survival&&!data.settings?.timelineMode&&!data.settings?.chain&&data.input!=='buzzer'?data.randomTeamCount:0;
-    const musicGame=['blind','bingo','timeline','coversQuiz','soundtrack','covers','survival','progressive','chain','tyrolien'].includes(data.musicGame)?data.musicGame:undefined;
+    const musicGame=MUSIC_GAME_IDS.includes(data.musicGame)?data.musicGame:undefined;
     const setup={mountain:mountain?mountainSettings(data.mountain):undefined,teamPlay:mountain||data.teamPlay===true&&Boolean(randomTeamCount),musicGame,showTheme:typeof data.showTheme==='string'&&/^[a-z-]{1,20}$/.test(data.showTheme)?data.showTheme:undefined,showAnimations:data.showAnimations!==false,randomTeamCount,questions:data.questions,input:['text','buzzer'].includes(data.input)?data.input:'qcm',settings:data.settings&&typeof data.settings==='object'?data.settings:{},effect:['normal','fast','slow','chipmunk','reverse','image'].includes(data.effect)?data.effect:'normal'};
     const status=await env.ROOMS.getByName(data.room).prepare(setup,await digest(data.token));
     return status===200?json({code:data.room,token:data.token}):json({error:status===404?'Cette soirée a expiré. Créez une nouvelle soirée.':status===403?'Accès animateur refusé.':'Terminez le jeu en cours avant de changer de jeu.'},status);
@@ -363,6 +364,7 @@ export class PartyRoom extends DurableObject {
   state.teamPlay=s.teamPlay;
   state.roulette=rouletteView(s.roulette,Date.now(),a.team);
   state.musicGame=s.musicGame;
+  if(a.role==='tv')state.showPreview=s.showPreview;
   state.showAnimations=s.showAnimations;
   state.showTheme=s.showTheme;
   if(s.randomTeamAssignments){
@@ -592,6 +594,21 @@ export class PartyRoom extends DurableObject {
    }
    if(m.type==='play'&&a.role==='host'&&s.phase==='lobby'&&!s.tyrolien){
     await this.startClassic(m,now);
+    return;
+   }
+   if(m.type==='show-preview'){
+    if(a.role!=='host')throw Error('Action non autorisée');
+    if(!['lobby','finished'].includes(s.phase))throw Error('Cette présentation est indisponible.');
+    if(m.stage==='welcome')s.showPreview={stage:'welcome'};
+    else if(['world','cast'].includes(m.stage)&&MUSIC_GAME_IDS.includes(m.game)){
+     s.showPreview={stage:m.stage,game:m.game};
+    }else throw Error('Cette présentation est indisponible.');
+    if(typeof m.animation==='boolean')s.showAnimations=m.animation;
+    await this.ctx.storage.put('room',s);
+    for(const socket of this.ctx.getWebSockets()){
+     const identity=socket.deserializeAttachment();
+     if(identity?.role==='host'||identity?.role==='tv')this.sendState(socket,s,identity);
+    }
     return;
    }
    if(m.type==='ceremony'&&a.role==='host'&&['lobby','finished'].includes(s.phase)){

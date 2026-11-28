@@ -10,7 +10,19 @@ const gameScenes = {
   chain: 'chain',
 };
 
+export function normalizeLobbyPreview(stage, game) {
+  if (stage === 'welcome') return {stage};
+  if (['world', 'cast'].includes(stage) && (Object.hasOwn(gameScenes, game) || game === 'tyrolien')) {
+    return {stage, game};
+  }
+  return null;
+}
+
 export function showScene(game, wheel, ceremony) {
+  if (wheel || ceremony) return 'plateau';
+  if (game?.showPreview && ['lobby', 'finished'].includes(game.phase)) {
+    return game.showPreview.stage === 'welcome' ? 'plateau' : gameScenes[game.showPreview.game] || 'alpine-preview';
+  }
   if (game?.tyrolien || game?.mountain || game?.musicGame === 'tyrolien') {
     return wheel || ceremony ? 'plateau' : '';
   }
@@ -24,6 +36,7 @@ const sceneNames = {
   plateau: 'Salle principale',
   studio: 'Le Grand Studio',
   laboratory: 'Le Laboratoire du son',
+  'alpine-preview': 'Le Tyrolien',
   disco: 'Studio 54',
   chronology: 'Le Chronoscope',
   duel: 'Battle Stage',
@@ -85,7 +98,7 @@ export function updateLobbyArrivals(root, {room, game, reduced, avatarFor, onArr
   if (arrivals.length > 4) labels.push(['', '+ ' + (arrivals.length - 4) + ' arrivées']);
   labels.forEach(([avatar, name], index) => {
     while (layer.childElementCount >= 8) layer.firstElementChild.remove();
-    const bubble = document.createElement('span');
+    const bubble = document.createElement('div');
     bubble.className = 'show-arrival';
     bubble.style.setProperty('--arrival-lane', index);
     if (avatar) {

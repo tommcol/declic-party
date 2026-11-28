@@ -108,6 +108,36 @@ manuelle, code inconnu, pseudo en double, choix d’avatar, coupure de la liaiso
 nouvel onglet et clôture de soirée. Le scan avec un téléphone sur le réseau
 Batocera et la reprise après mise en veille restent à valider sur place.
 
+## Chantier 03 — Salon et plateau TV Le Grand Soir
+
+Le plateau illustré s’ouvre avec un coin fixe pour le QR, le code et le nombre
+d’inscrits. Les arrivées ouvrent un projecteur, affichent l’avatar et son pseudo,
+puis le salon montre jusqu’à six portraits récents et le nombre restant.
+Les avatars sont ceux de l’inscription. Le vote et la roulette utilisent le
+même plateau et gardent l’invitation visible pendant l’accueil.
+
+« Entrer dans le décor » change la scène de la TV avant la sélection musicale.
+« Voir les participants » déclenche la présentation sur la TV. Cette étape est
+conservée dans la soirée connectée pour les TV ouvertes ou rechargées en cours
+de préparation. Une fois le jeu préparé, son état fait à nouveau foi.
+L’entracte et le retour au salon réutilisent le plateau principal. La pause
+pendant une manche du Tyrolien garde son univers.
+
+« Ambiance du plateau » active une boucle instrumentale locale et indépendante
+sur le poste animateur. Elle est coupée par défaut et s’efface avant les
+extraits de jeu. Les jingles et le réglage de réduction des animations restent
+disponibles.
+
+Contrôles Node.js 22 et Chromium en local : accès au décor, arrivée, code et QR
+à 1080p et 4K, choix direct, vote sur deux téléphones, roulette arrêtée par un
+joueur, changement de décor avant la playlist, rechargement de la TV,
+présentation, entracte et retour au salon. La sortie audio, le scan à distance
+et le rendu sur une TV branchée à Batocera restent à essayer sur place.
+
+Pour revenir à la version précédente, utilisez `git switch --detach c08a318`
+dans le dossier de design avant de redémarrer le serveur. Cette version
+du plateau conserve le format du stockage local.
+
 ## Maintenir les deux versions
 
 Les règles, les scores, le catalogue, les playlists et le serveur local évoluent

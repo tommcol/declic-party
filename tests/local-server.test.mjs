@@ -66,6 +66,9 @@ test('Le serveur Node synchronise une manche et reprend ses données et alarmes 
   assert.equal(response.headers.get('cache-control'),'no-store');
   assert.match(await response.text(),/Déclic/i);
  }
+ const stageArt=await fetch(origin+'/grand-soir-salon.webp');
+ assert.equal(stageArt.status,200);
+ assert.equal(stageArt.headers.get('content-type'),'image/webp');
  assert.deepEqual(await request('/api/evening'),{active:null});
  const {active}=await request('/api/evening','POST',{expected:null,id:crypto.randomUUID()});
  const {code,token}=active;
@@ -91,6 +94,18 @@ test('Le serveur Node synchronise une manche et reprend ses données et alarmes 
  assert.equal((await stale.waitFor(m=>m.type==='error')).code,'player-session-missing');
  stale.close();
 
+ players[0].send({type:'show-preview',stage:'world',game:'bingo'});
+ assert.match((await players[0].waitFor(m=>m.type==='error')).message,/non autorisée/);
+ host.send({type:'show-preview',stage:'world',game:'bingo'});
+ await tv.waitFor(m=>m.state?.showPreview?.game==='bingo');
+ host.send({type:'show-preview',stage:'cast',game:'bingo'});
+ await tv.waitFor(m=>m.state?.showPreview?.stage==='cast');
+ const lateTv=await connect(code);
+ lateTv.send({type:'tv'});
+ assert.deepEqual((await phase(lateTv,'lobby')).showPreview,{stage:'cast',game:'bingo'});
+ lateTv.close();
+ assert.ok(players.every(player=>!player.messages.some(m=>m.state?.showPreview)));
+
  const groups=[{id:'genres',name:'Genres'},{id:'decades',name:'Décennies'}];
  const playlists=Array.from({length:7},(_,index)=>({id:'p'+index,name:'Playlist '+index}));
  host.send({type:'roulette-start',mode:'vote',kind:'playlist',animation:false,
@@ -110,6 +125,7 @@ test('Le serveur Node synchronise une manche et reprend ses données et alarmes 
 
  const question={id:'piano',universe:'music',kind:'question',prompt:'Quel instrument ?',answer:'Piano',options:['Piano','Guitare'],points:100,duration:5};
  await request('/api/rooms','POST',{room:code,token,questions:[question],input:'qcm',randomTeamCount:2});
+ assert.equal((await tv.waitFor(m=>m.state?.question?.id===question.id)).state.showPreview,undefined);
  host.send({type:'play'});
  const playing=await phase(tv,'playing');
  assert.equal(playing.question.answer,undefined);
