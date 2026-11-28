@@ -215,6 +215,7 @@ export function playShowCue(context,type,destination=context.destination){
   }
   const cues={
    vinyl:[[48,.04,.18],[60,.09,.25],[67,.14,.29]],
+   'battle-reveal':[[45,0,.2],[57,.09,.21],[69,.18,.4],[76,.19,.38]],
    'arena-reveal':[[40,0,.23],[52,.09,.32],[59,.19,.38]],
    'arena-replay':[[43,0,.22],[55,.08,.25],[67,.15,.26],[74,.23,.35]],
    arrival:[[55,0,.2],[67,.065,.2],[79,.14,.25]],

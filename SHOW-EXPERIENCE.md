@@ -228,6 +228,10 @@ ils repartent ensemble avec une vie, conformément à la règle existante.
 
 La régie ferme le vote explicitement et confirme sa décision lorsque des votes manquent. Le plateau affiche la participation puis le résultat sans afficher les bulletins. Le téléphone distingue les points acquis et la réserve, et confirme la sécurisation. La révélation attend la fin du compte à rebours.
 
+## Chantier 06 — Les Reprises, Battle Stage
+
+La préparation vérifie les extraits des duos dans le sens choisi. La régie et la révélation distinguent original, reprise, version diffusée et réponse attendue. Le joueur retrouve sa réponse confirmée et son bilan de manche. Le compte à rebours protège la révélation.
+
 ## Maintenir les deux versions
 
 Les règles, les scores, le catalogue, les playlists et le serveur local évoluent
