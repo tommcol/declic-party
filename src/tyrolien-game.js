@@ -33,7 +33,7 @@ function attackMountain(room, now) {
   updateMountain(room, result);
   mountain.target = result.target;
   mountain.phase = 'attack';
-  room.nextAt = result.winner || room.settings.autoNext ? now + 2300 : 0;
+  room.nextAt = result.winner || room.settings.autoHost || room.settings.autoNext ? now + 2300 : 0;
 }
 
 function nextMountainQuestion(room, now) {

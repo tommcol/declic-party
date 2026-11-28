@@ -107,8 +107,8 @@ export default {
         data.input==='qcm'&&data.questions.some(q=>q.target==='both')){
       return json({error:'Choisissez des extraits musicaux et des réponses en QCM ou à l’écrit.'},400);
      }
-     const {duration,titlePoints,artistPoints,speed,streak,jokers,listening,autoNext,autoNextSeconds}=data.settings||{};
-     data.settings={duration,titlePoints,artistPoints,speed,streak,jokers,listening,autoNext,autoNextSeconds};
+     const {duration,titlePoints,artistPoints,speed,streak,jokers,listening,autoHost,autoNext,autoNextSeconds}=data.settings||{};
+     data.settings={duration,titlePoints,artistPoints,speed,streak,jokers,listening,autoHost,autoNext,autoNextSeconds};
     }
     if(!Array.isArray(data.questions)||data.questions.length<1||data.questions.length>100)return json({error:'Choisissez entre 1 et 100 questions.'},400);
     if(data.questions.some(q=>q?.universe!=='music'&&!(q?.universe==='film'&&q.target==='soundtrack')))return json({error:'Choisissez un jeu musical.'},400);
@@ -133,7 +133,7 @@ export default {
      const {id,title,artist,year}=anchor;
      data.settings={
       timelineMode:data.settings.timelineMode,timelineAnchor:{id,title,artist,year},
-      jokers:data.settings.jokers===true,autoNext:data.settings.autoNext===true,autoNextSeconds:data.settings.autoNextSeconds
+      jokers:data.settings.jokers===true,autoHost:data.settings.autoHost===true,autoNext:data.settings.autoNext===true,autoNextSeconds:data.settings.autoNextSeconds
      };
     }
     const allowedTargets=['both','title','artist','cover','artistTitle','coverChoice','timeline','coversQuiz','soundtrack'];

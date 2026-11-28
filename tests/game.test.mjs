@@ -40,3 +40,17 @@ test('Bingo : la fin sur la première ligne exige une ligne validée',()=>{
  assert.equal(publicGame(finished).bingoFinishRows,1);
  assert.deepEqual(finished.bingoMilestones,state.bingoMilestones);
 });
+
+test('En conduite automatique, le verdict expire même sans passage auto manuel',()=>{
+ const question={id:'auto',kind:'question',prompt:'Question',answer:'Solution',options:['Solution','Autre'],duration:5,points:100};
+ const lobby=createGame([question,{...question,id:'auto-2'}],[{id:'p1',name:'Camille'}],'phone','qcm',{autoHost:true,autoNextSeconds:3});
+ assert.equal(lobby.settings.autoNext,false);
+ const playing=applyAction(lobby,{type:'play'},1000);
+ assert.equal(publicGame(playing).question.answer,undefined);
+ const reveal=applyAction(playing,{type:'timeout'},playing.endAt);
+ assert.equal(reveal.nextAt,playing.endAt+3000);
+ assert.equal(publicGame(reveal).question.answer,'Solution');
+ const ready=applyAction(reveal,{type:'next'},reveal.nextAt);
+ assert.equal(ready.phase,'ready');
+ assert.equal(applyAction(ready,{type:'play'},reveal.nextAt).phase,'playing');
+});
