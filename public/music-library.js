@@ -8,6 +8,8 @@ export function openMusicLibrary(root, request, escape, options={}) {
  let query='', sort='title', offset=0, excluded=false, filters={}, artistQuery='', letter='', categoryPage=0;
  let generation=0, timer;
  const previews=new Map();
+ let scanning=false, pauseScan=false;
+ const previewFor=track=>previews.get(track.id)??(track.preview?{url:track.preview.preview,message:'Extrait enregistré'}:null);
  const favorites=options.favorites;
  const button=(label,action,value='',attributes='')=>
   `<button type="button" class="btn ghost" data-library="${action}" value="${escape(value)}" ${attributes}>${label}</button>`;
@@ -21,7 +23,7 @@ export function openMusicLibrary(root, request, escape, options={}) {
   for(const [family,ids] of Object.entries(filters))for(const id of ids)p.append(family,id);
   return p;
  };
- const trackStatus=track=>previews.get(track.id)?.message||'Extrait à vérifier';
+ const trackStatus=track=>previewFor(track)?.message||(track.audioReviewed?'Correspondance à vérifier':'Extrait à vérifier');
  const pageControls=(previous,next,action)=>`<div class="row">${previous===null?'':button('← Précédent',action,String(previous))}
   ${next===null?'':button('Suivant →',action,String(next))}</div>`;
  const card=item=>`<div class="library-card">
@@ -43,6 +45,7 @@ export function openMusicLibrary(root, request, escape, options={}) {
     ${button('Recherche et import Deezer','legacy')}
    </div>
    <h1>${escape(list?.name||(dynamic?'Playlist personnalisée':'Bibliothèque musicale'))}</h1>
+   ${summary.localAudio?`<div class="row">${button(scanning?'Mettre en pause':'Rechercher les extraits automatiquement','scan')}</div>`:''}
    ${browser?`
     <div class="music-library-actions">
      ${button(dynamic?'Utiliser cette playlist':'Utiliser pour jouer','play',playlist,'disabled')}
@@ -120,7 +123,7 @@ export function openMusicLibrary(root, request, escape, options={}) {
     const control=root.querySelector(`[data-library="${action}"]`);
     if(control)control.disabled=!page.total||excluded;
    }
-   const verified=page.tracks.filter(track=>previews.get(track.id)?.url).length;
+   const verified=page.tracks.filter(track=>previewFor(track)?.url).length;
    results().innerHTML=`<p><strong>${format.format(page.total)} titre(s)</strong> · ${verified?
     verified+' extrait(s) vérifié(s) sur cette page':'Disponibilité audio à vérifier'}</p>
     ${page.total?'<ul class="music-library-tracks">'+page.tracks.map(track=>`<li>
@@ -129,7 +132,7 @@ export function openMusicLibrary(root, request, escape, options={}) {
       <span>${escape(track.artist)} · ${track.year||'Année inconnue'}</span>
       <small>${escape(track.genres.map(label).join(', ')||'Genre inconnu')} · ${escape(track.origins.map(label).join(', ')||'Origine inconnue')}</small>
       <small>${escape(trackStatus(track))}</small></div>
-     <div class="row">${previews.get(track.id)?.url?button('Écouter','listen',track.id):button('Vérifier l’extrait','verify',track.id)}
+     <div class="row">${previewFor(track)?.url?button('Écouter','listen',track.id):button('Vérifier l’extrait','verify',track.id)}
       ${button(track.excluded?'Réintégrer':'Exclure','exclude',track.id)}</div></li>`).join('')+'</ul>':'<p>Aucun titre ne correspond à cette sélection.</p>'}
     ${pageControls(offset?Math.max(0,offset-30):null,page.next,'page')}`;
    currentTracks=page.tracks;
@@ -150,16 +153,63 @@ export function openMusicLibrary(root, request, escape, options={}) {
   void loadTracks();
  }
 
- async function verify(track) {
+ async function verify(track,automatic=false) {
   const p=new URLSearchParams({q:(track.title+' '+track.artist).slice(0,180)});
   const {results:[hits]}=await request('/api/library/previews?'+p);
   if(hits===null)throw Error('Fournisseur audio indisponible.');
-  const hit=options.match(hits,track.title,track.artist);
-  if(!hit)return {message:'Extrait introuvable'};
-  try{
-   await options.checkPreview(hit.preview);
-   return {message:'Extrait vérifié',url:hit.preview};
-  }catch{return {message:'Extrait identifié, lecture indisponible'};}
+  const hit=automatic
+   ?hits.find(item=>normalizeSearch(item.title)===normalizeSearch(track.title)&&normalizeSearch(item.artist)===normalizeSearch(track.artist))
+   :options.match(hits,track.title,track.artist);
+  if(hit){
+   try{await options.checkPreview(hit.preview);}
+   catch(error){
+    if(!automatic)throw error;
+    return {message:'Lecture indisponible · à réessayer',retry:true};
+   }
+  }
+  if(summary.localAudio)await request('/api/library/verified-preview','POST',{
+   id:track.id,providerId:hit?.id??null,explicit:Boolean(hit?.explicit)
+  });
+  return hit?{message:'Extrait vérifié',url:hit.preview}:{message:'Correspondance à vérifier'};
+ }
+
+ async function scanLibrary() {
+  if(scanning){pauseScan=true;return;}
+  async function run() {
+   scanning=true;pauseScan=false;
+   const updateButton=label=>{const control=root.querySelector('[data-library="scan"]');if(control)control.textContent=label;};
+   updateButton('Mettre en pause');
+   message('Lecture des références du catalogue…');
+   try{
+    const {tracks}=await request('/api/library/candidates?playlist=mix');
+    const pending=tracks.filter(track=>!track.audioReviewed);
+    let processed=0, retry=0;
+    let verified=tracks.filter(track=>track.preview).length;
+    for(let offset=0;offset<pending.length&&!pauseScan&&root.isConnected;offset+=500){
+     const batch=pending.slice(offset,offset+500);
+     for(const track of batch){
+      if(pauseScan||!root.isConnected)break;
+      const result=await verify(track,true);
+      previews.set(track.id,result);
+      processed++;
+      if(result.retry)retry++;
+      if(result.url)verified++;
+      message(`Lot ${Math.floor(offset/500)+1} · ${processed}/${pending.length} traités · ${verified} extraits enregistrés`);
+      await new Promise(resolve=>setTimeout(resolve,1500));
+     }
+    }
+    if(results())await loadTracks();
+    message(`${pauseScan?'Recherche en pause':'Passage terminé'} · ${verified} extraits enregistrés sur ${tracks.length} références${retry?' · '+retry+' lectures à réessayer':''}`);
+   }finally{
+    scanning=false;updateButton('Rechercher les extraits automatiquement');
+   }
+  }
+  if(navigator.locks){
+   await navigator.locks.request('declic.library.scan',{ifAvailable:true},async lock=>{
+    if(lock)await run();
+    else message('Une recherche est déjà en cours dans un autre onglet.');
+   });
+  }else await run();
  }
 
  root.addEventListener('click',async event=>{
@@ -167,6 +217,7 @@ export function openMusicLibrary(root, request, escape, options={}) {
   if(!target||target.disabled)return;
   const {value,dataset:{library:action}}=target;
   try{
+   if(action==='scan'){await scanLibrary();return;}
    if(action==='legacy'){root.dispatchEvent(new CustomEvent('legacy-music',{bubbles:true}));return;}
    if(['home','category','playlist','dynamic'].includes(action)){
     generation++;clearTimeout(timer);
@@ -195,8 +246,19 @@ export function openMusicLibrary(root, request, escape, options={}) {
    }
    if(action==='listen'){
     const player=root.querySelector('[data-library-audio]');
-    player.hidden=false;player.src=previews.get(value).url;
-    await player.play();return;
+    const track=currentTracks.find(item=>item.id===value);
+    const preview=track&&previewFor(track);
+    if(!preview?.url)return;
+    player.hidden=false;player.src=preview.url;
+    try{await player.play();}
+    catch(error){
+     if(player.error){
+      previews.set(value,{message:'Lecture indisponible · revérifier l’extrait'});
+      await loadTracks();
+     }
+     throw error;
+    }
+    return;
    }
    target.disabled=true;
    if(action==='exclude'){

@@ -1261,12 +1261,14 @@ async function resolvePlaylistSelection(selection){
  if(candidates.length<required)throw Error(`Cette sélection contient ${candidates.length} titre(s) compatible(s) pour ${required} nécessaires.`);
  const known=new Map(Object.values(verifiedPlaylists).flatMap(playlist=>playlist.tracks)
   .filter(track=>track.referenceId).map(track=>[track.referenceId,track]));
+ for(const candidate of candidates)if(candidate.preview)known.set(candidate.id,candidate.preview);
  const played=new Set(eveningUsage.songs);
  const fresh=[], heard=[];
  let failedBatches=0;
  const enough=tracks=>tracks.length>=required&&(fixedGameMusic()||musicQuestions(tracks,settings).length>=required);
  const ordered=shuffle(candidates).sort((a,b)=>
-  Number(played.has(known.get(a.id)?.id))-Number(played.has(known.get(b.id)?.id)));
+  Number(played.has(known.get(a.id)?.id))-Number(played.has(known.get(b.id)?.id))||
+  Number(known.has(b.id))-Number(known.has(a.id)));
  const limit=Math.min(ordered.length,Math.max(48,required*3));
  for(let offset=0;offset<limit&&!enough(fresh);offset+=8){
   const batch=ordered.slice(offset,offset+8);
