@@ -85,7 +85,8 @@ export function updateLobbyArrivals(root, {room, game, reduced, avatarFor, onArr
   }
   const ids = new Set(game.teams.map(team => team.id));
   const previous = lobbySnapshots.get(root);
-  lobbySnapshots.set(root, {room, ids});
+  const known=previous?.room===room?new Set([...previous.ids,...ids]):ids;
+  lobbySnapshots.set(root, {room, ids:known});
   if (!previous || previous.room !== room || reduced) {
     layer.replaceChildren();
     return;
@@ -104,6 +105,7 @@ export function updateLobbyArrivals(root, {room, game, reduced, avatarFor, onArr
     if (avatar) {
       const portrait=document.createElement('span');
       portrait.className='show-arrival-portrait';
+      portrait.dataset.avatarMotion='arrival';
       portrait.textContent=avatar;
       bubble.append(portrait);
     }
@@ -113,6 +115,20 @@ export function updateLobbyArrivals(root, {room, game, reduced, avatarFor, onArr
     layer.append(bubble);
     setTimeout(() => bubble.remove(), 3600);
   });
+}
+
+export function reactAvatars(root,motions){
+  if(!root||root.classList.contains('no-show-animation')||matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+  const pending=new Map(motions.slice(0,6).map(({id,motion})=>[String(id),motion]));
+  if(!pending.size)return;
+  for(const portrait of root.querySelectorAll('[data-avatar-player]')){
+    const id=portrait.dataset.avatarPlayer;
+    if(!pending.has(id))continue;
+    portrait.dataset.avatarMotion=pending.get(id);
+    pending.delete(id);
+    setTimeout(()=>delete portrait.dataset.avatarMotion,1100);
+    if(!pending.size)break;
+  }
 }
 
 const playlistThemes = {

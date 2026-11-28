@@ -252,6 +252,13 @@ Le plateau montre qui a la main au buzzer et sépare le titre de l’artiste
 La révélation attend la fin du compte à rebours. Les premières places
 ex æquo sont signalées au podium.
 
+## Chantier 07 — Avatars du Grand Soir
+
+Les quarante avatars et leur sélecteur sont conservés. Les arrivées par lots,
+le balancement au salon et les réactions réutilisent les portraits existants.
+Une réaction de manche anime au plus six avatars visibles par écran.
+Les réglages d’animation et la préférence de mouvement réduit sont respectés.
+
 ## Maintenir les deux versions
 
 Les règles, les scores, le catalogue, les playlists et le serveur local évoluent

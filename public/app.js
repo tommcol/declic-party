@@ -1,5 +1,5 @@
 import {returnToLobby} from './engine.js';
-import {normalizeLobbyPreview,playlistShowTheme,showRoundSummary,showScene,showVenue,stageReaction,updateLobbyArrivals,updateShow} from './show.js';
+import {normalizeLobbyPreview,playlistShowTheme,showRoundSummary,showScene,showVenue,stageReaction,updateLobbyArrivals,updateShow,reactAvatars} from './show.js';
 import {teamCards,teamGather,teamHost} from './team-ui.js';
 import {changeRoulette,rouletteView,rouletteAdvanceAt} from './roulette.js';
 import {tyrolienScreen,mountainPanel,mountainMoment} from './tyrolien-ui.js';
@@ -656,7 +656,7 @@ function scorebar(){
  const gallery=lobby?people.slice(featured.length):[];
  const avatar=(player,index)=>avatarBadge(player)||`<span class="avatar" style="--team:${colors[index%10]}">${icons[index%10]}</span>`;
  return `<div class="scorebar${lobby?' show-lobby-cast':''}">${featured.map((player,index)=>
-  `<div class="scorecard" data-score-id="${esc(player.id)}">${avatar(player,index)}<span>${esc(player.name)}</span>${lobby?'':`<strong>${player.score}</strong>`}</div>`).join('')}</div>
+  `<div class="scorecard" data-avatar-idle="${lobby?'true':'false'}" data-score-id="${esc(player.id)}">${avatar(player,index)}<span>${esc(player.name)}</span>${lobby?'':`<strong>${player.score}</strong>`}</div>`).join('')}</div>
  ${gallery.length?`<div class="show-lobby-gallery" aria-label="Autres participants">${gallery.map((player,index)=>
   `<span title="${esc(player.name)}" aria-label="${esc(player.name)}">${avatar(player,index)}</span>`).join('')}</div>`:''}`;
 }
@@ -954,6 +954,9 @@ function receiveShowCue(message){
  }
  document.body.append(node);
  if(cue.effect==='celebration')celebrate();
+ if(['applause','celebration'].includes(cue.effect)&&game?.showAnimations!==false){
+  reactAvatars($('#app'),game?.teams?.slice(0,6).map(player=>({id:player.id,motion:cue.effect==='applause'?'applause':'joy'}))||[]);
+ }
  spectacleTimer=setTimeout(()=>node.remove(),cue.effect==='card'?6500:3400);
 }
 function automaticStudio(){
@@ -979,6 +982,21 @@ function studio(){if(game?.settings?.autoHost)return automaticStudio();if(!game)
  <div class="desk-group-title"><h2>Jeu</h2>${showControlStatus()}</div>
  ${game.settings?.bingo&&ph!=='finished'?bingoNearPalier():''}
  <h3>${ph==='lobby'?'Tout le monde est là ?':ph==='finished'?'Quelle soirée !':'À vous les commandes'}</h3>${game.mode==='phone'&&ph==='lobby'?`<p class="help">Partagez le code avec vos équipes :</p>${invitationMarkup()}<button class="btn ghost full" data-action="copy-link">Copier le lien d’invitation</button>`:''}${!['lobby','finished'].includes(ph)?`<div class="answerbox"><small>RÉPONSE · ANIMATEUR</small><strong>${esc(targets(q)[0]==='answer'&&q.target!=='coverChoice'&&q.target!=='timeline'?q.answer:q.title||q.answer)}</strong>${q.artist?`<br>${esc(q.artist)}`:''}</div>`:''}${timelineControls(ph)}${q&&['lobby','ready'].includes(ph)?`<button class="btn primary full" data-action="play" ${busy||game.mode==='phone'&&game.teams.length<(game.teamPlay?game.teamPlan?.groups.length||2:game.randomTeamCount|| (game.settings?.chain?3:game.settings?.survival?2:1))?'disabled':''}>${busy?'Chargement de l’extrait…':'▶ '+(ph==='lobby'&&game.settings?.timelineMode?'Lancer le premier extrait à placer':ph==='lobby'?'Lancer la partie':(q?.kind==='question'?'Afficher la question':'Lancer l’extrait'))}</button>`:''}${ph==='buzzed'?`${wanted.length===2?`<div class="judge-grid"><button class="btn good" data-action="v2-judge" data-value="title" ${claimed.title?'disabled':''}>✓ Titre</button><button class="btn good" data-action="v2-judge" data-value="artist" ${claimed.artist?'disabled':''}>✓ Artiste</button></div><button class="btn good full" data-action="good">✓ Les deux</button>`:'<button class="btn good full" data-action="good">✓ Bonne réponse</button>'}<button class="btn bad full" data-action="bad">✕ Mauvaise réponse</button>`:''}${isProgressive(game,q)&&['playing','paused'].includes(ph)&&(game.listenStep||0)<3?`<button class="btn lime full" data-action="listen-more">Écouter ${LISTEN_STEPS[(game.listenStep||0)+1]} secondes →</button>`:''}${ph==='playing'||game.mountain&&ph==='reveal'?'<button class="btn ghost full" data-action="pause">Ⅱ Mettre en pause</button>':''}${ph==='paused'?'<button class="btn lime full" data-action="resume">▶ Reprendre</button>':''}${!game.settings?.timelineMode&&game.mountain?.pausedReveal===undefined&&['playing','buzzed','paused'].includes(ph)?`<button class="btn ghost full" data-action="reveal" ${(game.musicGame==='blind'||game.settings?.bingo||game.settings?.survival||game.settings?.chain||game.mountain||['coverChoice','coversQuiz','soundtrack'].includes(q?.target))&&ph==='playing'&&Date.now()<game.startAt?'disabled':''}>Révéler et terminer la manche</button>`:''}${ph==='reveal'&&game.mountain?.phase!=='vote'?`<button class="btn primary full" data-action="${game.chainVote?'chain-close-vote':'next'}">${game.chainVote?'Clore le vote':game.mountain?(game.mountain.winner?'Le podium 🏆':game.mountain.beneficiary&&game.mountain.phase==='result'?'Lancer l’attaque':'Question suivante →'):game.survivalWinner||game.index+1>=(game.questions?.length||game.total)?'Le podium 🏆':game.settings?.timelineMode?'Extrait suivant →':'Question suivante →'}</button>${game.nextAt?`<p class="mini">La suite arrive automatiquement après ${game.settings?.autoNextSeconds||8} secondes.</p>`:''}`:''}${ph==='finished'||ph==='lobby'?'<button class="btn lime full" data-action="new-game">'+(q||ph==='finished'?'Choisir le jeu suivant':'Choisir le premier jeu')+'</button>':''}${game.mode==='phone'&&game.input!=='buzzer'&&ph==='playing'?`<p class="help">${Object.keys(game.answers||{}).length} / ${game.teams.length} équipe(s) ont répondu</p>`:''}${game.mountain&&game.mountain.pausedReveal===undefined&&['playing','paused'].includes(ph)?'<button class="btn ghost full" data-action="skip">Passer l’extrait</button>':''}${roundExitControls(ph,q)}${Object.keys(claimed).length?`<p class="mini">${claimed.title?'✓ Titre trouvé ':''}${claimed.artist?'✓ Artiste trouvé':''}</p>`:''}<div class="divider"></div><span class="eyebrow">LE CLASSEMENT</span>${leaderboard()}${eveningRanking()}${ph==='finished'?'<button class="btn ghost full" data-action="ceremony">Podium de la soirée · TV</button>':''}${game.teams.length?'<button class="textbtn" data-action="adjust">Ajuster un score</button>':''}${game.history?.length?'<button class="textbtn full" data-action="v2-history">Voir le détail des manches →</button>':''}</section><details class="regie-round-details"><summary>Détail de la manche</summary>${game.settings?.bingo?bingoDesk():hostRound(q,ph)}</details>${game.mode==='usb'?`<div class="keytips">${game.teams.map(t=>`<strong>[${esc(t.key)}]</strong> ${esc(t.name)}${game.blocked?.includes(t.id)?' · bloqué':''}`).join(' · ')}<br>Gardez la fenêtre du PC active pour recevoir les buzzers.</div>`:''}${audioError?`<div class="catalog-message">${esc(audioError)}</div>`:''}${q?.provider?'<p class="media-notice">Extrait Deezer diffusé par le PC animateur. Le titre complet est accessible après la révélation.</p>':''}${ph==='finished'?nextGameActions():''}</main>`;}
+function avatarMotions(reaction){
+ const round=game.history?.at(-1);
+ const revealed=game.phase==='reveal'&&round?.index===game.index;
+ if(game.phase==='finished'&&reaction?.kind==='podium'){
+  const winners=game.survivalWinner?[{id:game.survivalWinner}]:reaction.players;
+  return winners.filter(player=>role!=='player'||player.id===teamId).slice(0,6).map(player=>({id:player.id,motion:'victory'}));
+ }
+ if(!revealed)return reaction?.kind==='correct'?(reaction.players||[]).filter(player=>role!=='player'||player.id===teamId)
+  .slice(0,6).map(player=>({id:player.id,motion:'joy'})):[];
+ const rows=role==='player'?round.results.filter(row=>row.id===teamId):
+  [...round.results].sort((a,b)=>b.result.total-a.result.total);
+ return rows.filter(row=>row.result.attempts||row.result.parts?.length).slice(0,6).map(row=>({
+  id:row.id,motion:row.result.correct?'joy':row.result.parts?.length?'surprise':'disappointment'
+ }));
+}
 function showTVReaction(reaction){
  const stage=$('.tv-shell .stage');
  if(!stage||!reaction||game?.showAnimations===false||matchMedia('(prefers-reduced-motion: reduce)').matches)return;
@@ -1062,7 +1080,7 @@ const showAvatars=avatarCollections.flatMap(([collection,avatars],group)=>
 );
 function avatarBadge(player){
  const avatar=showAvatars[player?.avatar];
- return avatar?`<span class="show-avatar" data-avatar="${player.avatar}" data-collection="${avatar.group}" role="img" aria-label="${avatar.name}">${avatar.icon}</span>`:'';
+ return avatar?`<span class="show-avatar" data-avatar="${player.avatar}" data-collection="${avatar.group}"${player.id?` data-avatar-player="${esc(player.id)}"`:''} role="img" aria-label="${avatar.name}">${avatar.icon}</span>`:'';
 }
 function avatarPicker(){
  return `<fieldset class="avatar-picker"><legend>Votre avatar · 40 choix</legend>
@@ -1243,6 +1261,7 @@ async function receive(){
   return;
  }
  const ev=game?.event;
+ const freshEvent=Boolean(lastEvent&&ev&&ev.id!==lastEvent);
  const reaction=ev&&ev.id!==lastEvent?stageReaction(game,lastShowLeader):null;
  if(game?.phase==='lobby')lastShowLeader=null;
  else if(game?.phase==='reveal')lastShowLeader=sorted()[0]?.score>0?sorted()[0].id:null;
@@ -1292,6 +1311,10 @@ async function receive(){
   }
  }
  if(role==='tv'&&reaction)showTVReaction(reaction);
+ if(freshEvent&&(role==='host'?showAnimations:game?.showAnimations!==false)){
+  const motions=avatarMotions(reaction);
+  reactAvatars($('#app'),motions);
+ }
  await prepareImage();if(role==='host'){broadcastTV();}
 }
 async function playTimelineAnchor(){
