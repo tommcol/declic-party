@@ -1,5 +1,5 @@
 import {returnToLobby} from './engine.js';
-import {playlistShowTheme,showRoundSummary,showScene,showVenue,stageReaction,updateLobbyArrivals,updateShow} from './show.js';
+import {playShowCue,playlistShowTheme,showRoundSummary,showScene,showVenue,stageReaction,updateLobbyArrivals,updateShow} from './show.js';
 import {teamCards,teamGather,teamHost} from './team-ui.js';
 import {changeRoulette,rouletteView,rouletteAdvanceAt} from './roulette.js';
 import {tyrolienScreen,mountainPanel} from './tyrolien-ui.js';
@@ -93,6 +93,19 @@ config.settings=gameSettings(config.settings);if(config.version!==2||config.univ
  write('declic.config',config);
 }
 const desk=new SoundDesk();
+let arrivalSound=read('declic.arrivalSound',false);
+let arrivalRoom=null, arrivalIds=new Set();
+function trackArrivalSound(){
+ const ids=new Set(game?.teams?.map(team=>team.id)||[]);
+ if(room&&room===arrivalRoom&&game?.mode==='phone'&&game.phase==='lobby'&&arrivalSound&&desk.ctx?.state==='running'){
+  if([...ids].some(id=>!arrivalIds.has(id)))playShowCue(desk.ctx,'arrival');
+ }
+ arrivalRoom=game?room:null;
+ arrivalIds=ids;
+}
+function arrivalSoundButton(){
+ return `<button class="btn ghost" data-action="arrival-sound" aria-pressed="${arrivalSound}">Son des arrivées · ${arrivalSound?'activé':'coupé'}</button>`;
+}
 desk.muted=read('declic.muted',false);
 let activeEvening=null, eveningStatus='loading', changingEvening=false;
 let wheel=null,localWheel=null,wheelTimer=null,wheelCelebration=null;
@@ -171,6 +184,7 @@ function savedMusicGame(key){
 }
 function selectedQuestions(){if(config.source==='catalog'&&Object.hasOwn(SPECIAL_TRACKS,config.musicGame))return [];if(config.universe==='music'&&config.challenge==='lyrics')return(config.source==='demo'?DEMO:custom).filter(q=>q.universe===config.universe&&q.kind==='lyrics').slice(0,config.count);if(config.source==='catalog'&&config.universe==='music')return musicQuestions(catalogPool.tracks,config.musicGame==='bingo'?{...config,count:BINGO_CARD_SIZE,challenge:config.challenge==='artist'?'artist':'title',difficulty:'balanced'}:config);return(config.source==='custom'?custom:DEMO).filter(q=>q.universe===config.universe).slice(0,config.count);}
 function render(){
+ if(role==='host')trackArrivalSound();
  void syncTeamWake();
  if(view==='setup'&&playlistGroups?.length&&Date.now()-playlistLoadedAt>60000)playlistGroups=null;
  if(view==='setup'&&!playlistGroups)loadPlaylistGroups();
@@ -180,7 +194,7 @@ function render(){
  updateShow(a,{role,game,wheel,ceremony,reduced});
  if(role==='tv'&&a.previousElementSibling?.classList.contains('show-backdrop')){
   updateLobbyArrivals(a.previousElementSibling,{
-   room,game:wheel||ceremony?null:game,reduced,avatarFor:team=>showAvatars[team.avatar]?.icon,onArrival:()=>desk.jingle('arrival')
+   room,game:wheel||ceremony?null:game,reduced,avatarFor:team=>showAvatars[team.avatar]?.icon
   });
  }
  const plan=game?.teamPlan;
@@ -256,8 +270,11 @@ function render(){
  }
  if(view==='join'){a.innerHTML=joinScreen();return;}
  if(role==='player'&&view!=='history'){a.innerHTML=phoneScreen();return;}
+ const openRegieDetails=[...a.querySelectorAll('.regie-extra[open],.show-regie-stats[open]')]
+  .map(details=>details.classList.contains('regie-extra')?'.regie-extra':'.show-regie-stats');
  const focusedSetupButton=a.querySelector('.game-setup button[data-action]:focus-visible');
  a.innerHTML=`<div class="shell">${header()}${view==='setup'?setupScreen():view==='catalog'?catalogScreen():view==='history'?historyScreen():view==='library'?library():view==='help'?help():view==='settings'?settingsScreen():studio()}${footer()}</div>`;
+ for(const selector of openRegieDetails){const details=a.querySelector(selector);if(details)details.open=true;}
  if(view==='setup'&&focusedSetupButton){
   const {action,value,kind,key}=focusedSetupButton.dataset;
   const wasChip=focusedSetupButton.classList.contains('playlist-chip');
@@ -321,7 +338,10 @@ function roundRecap(){
  ${role==='host'&&summary.median!==null?`<p>Temps médian des bonnes réponses · ${seconds(summary.median)}</p>`:''}
  ${game.jokerAwards?`<p>🃏 ${game.jokerAwards} joker(s) débloqué(s)</p>`:''}${game.settings?.bingo?bingoAnnouncement():''}</div>`;
 }
-function stage(){if(!game)return '<div class="empty">En attente de l’animateur…</div>';const q=currentQ(),phase=game.phase,total=game.total||game.questions?.length||0;
+function grandSoirWelcome(){
+ return '<div class="stage-content grand-welcome"><span class="eyebrow">DÉCLIC PARTY PRÉSENTE</span><h1>Grand Soir</h1><p>Le plateau ouvre ses portes</p></div>';
+}
+function stage(){if(!game)return grandSoirWelcome();const q=currentQ(),phase=game.phase,total=game.total||game.questions?.length||0;
  if(phase==='finished'&&game.settings?.bingo){
   const stats=game.bingoFinal||roundStatistics(game.history,game.teams);
   const recognition=[...stats].sort((a,b)=>b.correct-a.correct||(a.average??Infinity)-(b.average??Infinity));
@@ -344,6 +364,7 @@ function stage(){if(!game)return '<div class="empty">En attente de l’animateur
  if(role==='tv'&&phase==='paused'&&!game.mountain){
   return '<div class="stage-content tv-entracte"><span class="eyebrow">GRAND SOIR</span><h1>Entracte</h1><p>La manche reprend au signal de la régie.</p></div>';
  }
+ if(role==='tv'&&phase==='lobby'&&!q)return grandSoirWelcome();
  if(role==='tv'&&phase==='lobby'&&q&&game.musicGame){
   const selected=MUSIC_GAMES.find(([id])=>id===game.musicGame);
   if(selected){
@@ -500,7 +521,7 @@ function nextGameActions(){
 function hostRoundStatistics(){
  const stats=new Map(roundStatistics(game.history,game.teams,game.archivedStats).map(row=>[row.id,row]));
  if(!game.teams.length)return '';
- return `<details class="settings-details show-regie-stats" ${game.teams.length<=8?'open':''}><summary>Suivi des participants</summary>
+ return `<details class="settings-details show-regie-stats"><summary>Suivi des participants</summary>
  <div class="bingo-table" tabindex="0"><table><thead><tr><th>Participant</th><th>Points</th><th>Bonnes</th><th>Fausses</th><th>Réussite</th><th>Dernier temps</th><th>Série</th></tr></thead>
  <tbody>${sorted().map(team=>{
   const row=stats.get(team.id);
@@ -543,6 +564,32 @@ function roundExitControls(phase, question){
  return `${active?`<button class="btn ghost full" data-action="stop"${line?' data-value="bingo-line"':''}>${line?'Sacrer le gagnant de la première ligne':'Terminer le jeu et afficher les résultats'}</button>`:''}
  ${active||question||phase==='finished'?'<button class="btn bad full" data-action="leave-game">Retour au salon</button>':''}`;
 }
+function regiePreview(){
+ const scene=showScene(game,wheel,ceremony)||'tyrolien';
+ const phase=game?.phase||'lobby';
+ const current=game?publicGame(game):null;
+ const question=current?.question;
+ const reveal=phase==='reveal';
+ const waiting=scene==='plateau'&&phase==='lobby';
+ const title=phase==='paused'?'Entracte':phase==='finished'?'Résultats':
+  reveal?(question?.title||question?.answer||showVenue(game,wheel,ceremony)):
+  question?.prompt||showVenue(game,wheel,ceremony);
+ return `<section class="regie-preview show-setup-preview" data-venue="${scene}" aria-label="Aperçu du plateau">
+  <div class="regie-preview-top"><span class="eyebrow">● ${esc(showVenue(game,wheel,ceremony))}</span><span>APERÇU TV</span></div>
+  ${waiting?grandSoirWelcome():`<div class="regie-preview-content"><h2>${esc(title)}</h2>
+   ${phase==='playing'?timerMarkup():''}${reveal&&question?.artist?`<p>${esc(question.artist)}</p>`:''}</div>`}
+  <div class="regie-preview-bottom">${waiting&&game?.mode==='phone'&&room?`<div class="regie-preview-qr">${invitationMarkup()}</div>`:'<span></span>'}
+  <span>${game?.teams?.length||0} PARTICIPANT(S)</span></div>
+ </section>`;
+}
+function regieCounters(){
+ const answering=['playing','paused','reveal'].includes(game.phase);
+ const answered=answering?Object.values(game.answers||{}).filter(answer=>answer?.attempts>0).length:'—';
+ return `<div class="regie-counters"><div><b>${game.teams.length}</b><span>Participants</span></div><div><b>${answered}</b><span>Réponses</span></div></div>`;
+}
+function regieHeader(){
+ return '<div class="row regie-top"><span class="eyebrow">DÉCLIC PARTY / GRAND SOIR</span><button class="btn ghost right" data-action="screen">▣ Écran TV</button></div>';
+}
 function automaticStudio(){
  const phase=game.phase;
  const status={
@@ -550,8 +597,9 @@ function automaticStudio(){
   playing:'À vous de jouer',paused:'Partie en pause',reveal:'Réponse révélée sur la TV',finished:'Partie terminée'
  }[phase];
  const canPlay=phase==='ready'||phase==='lobby'&&game.teams.length>=Math.max(game.teamPlay?game.teamPlan?.groups.length||2:game.randomTeamCount||1,game.settings.survival?2:1);
- return `<main class="studio"><div class="row"><button class="btn ghost" data-action="home">← Retour à l’accueil</button><button class="btn ghost right" data-action="screen">▣ Écran TV</button></div>
- <section class="qcard automatic-studio">${showControlStatus()}<h1>Je joue aussi</h1><p role="status">${status||''}</p>
+ return `<main class="studio regie-studio">${regieHeader()}<div class="game-layout regie-layout">
+ <div class="regie-monitor">${regiePreview()}</div><section class="control regie-controls">
+ <h1>Régie du plateau</h1>${regieCounters()}${showControlStatus()}${arrivalSoundButton()}<h2>Je joue aussi</h2><p role="status">${status||''}</p>
  ${phase==='lobby'?`<div class="automatic-invite">${invitationMarkup()}<p>${game.teams.length} participant(s) · Rejoins la soirée sur ton téléphone.</p></div>${teamAdmin()}`:''}
  ${phase==='playing'?timerMarkup():''}
  <p class="help">Les réponses restent masquées ici. Garde cet onglet ouvert pour diffuser les extraits.</p>
@@ -560,9 +608,14 @@ function automaticStudio(){
  ${phase==='playing'?'<button class="btn ghost" data-action="pause">Mettre en pause</button>':''}
  ${phase==='paused'?'<button class="btn primary" data-action="resume">Reprendre</button>':''}
  ${phase==='finished'?nextGameActions():roundExitControls(phase,currentQ())}
- </section></main>`;
+ </section></div></main>`;
 }
-function studio(){if(game?.settings?.autoHost)return automaticStudio();if(!game)return '<div class="empty">Aucune partie en cours.</div>';const q=currentQ(),ph=game.phase,wanted=q?targets(q):[],claimed=game.claimed||{};return `<main class="studio"><div class="row"><span class="eyebrow">LE STUDIO · ${game.mode==='usb'?'BUZZERS USB':'TÉLÉPHONES'}</span><span class="connection ${game.mode==='phone'&&!connected?'offline':''}">${game.mode==='phone'?(connected?'● Connecté':'○ Reconnexion…'):'● Partie sur ce PC'}</span><button class="btn ghost right" data-action="screen">▣ Écran public</button><button class="btn ghost" data-action="sound">${desk.muted?'♪ Jingles coupés':'♫ Jingles actifs'}</button></div>${teamAdmin()}${previousTeamGames()}${randomTeamScores()}<div class="game-layout">${game.settings?.bingo?bingoDesk():hostRound(q,ph)}<aside class="control">${showControlStatus()}<h3>${ph==='lobby'?'Tout le monde est là ?':ph==='finished'?'Quelle soirée !':'À vous les commandes'}</h3>${game.mode==='phone'&&ph==='lobby'?`<p class="help">Partagez le code avec vos équipes :</p>${invitationMarkup()}<button class="btn ghost full" data-action="copy-link">Copier le lien d’invitation</button>`:''}${!['lobby','finished'].includes(ph)?`<div class="answerbox"><small>RÉPONSE · ANIMATEUR</small><strong>${esc(targets(q)[0]==='answer'&&q.target!=='coverChoice'&&q.target!=='timeline'?q.answer:q.title||q.answer)}</strong>${q.artist?`<br>${esc(q.artist)}`:''}</div>`:''}${timelineControls(ph)}${q&&['lobby','ready'].includes(ph)?`<button class="btn primary full" data-action="play" ${busy||game.mode==='phone'&&game.teams.length<(game.teamPlay?game.teamPlan?.groups.length||2:game.randomTeamCount|| (game.settings?.chain?3:game.settings?.survival?2:1))?'disabled':''}>${busy?'Chargement de l’extrait…':'▶ '+(ph==='lobby'&&game.settings?.timelineMode?'Lancer le premier extrait à placer':ph==='lobby'?'Lancer la partie':(q?.kind==='question'?'Afficher la question':'Lancer l’extrait'))}</button>`:''}${ph==='buzzed'?`${wanted.length===2?`<div class="judge-grid"><button class="btn good" data-action="v2-judge" data-value="title" ${claimed.title?'disabled':''}>✓ Titre</button><button class="btn good" data-action="v2-judge" data-value="artist" ${claimed.artist?'disabled':''}>✓ Artiste</button></div><button class="btn good full" data-action="good">✓ Les deux</button>`:'<button class="btn good full" data-action="good">✓ Bonne réponse</button>'}<button class="btn bad full" data-action="bad">✕ Mauvaise réponse</button>`:''}${isProgressive(game,q)&&['playing','paused'].includes(ph)&&(game.listenStep||0)<3?`<button class="btn lime full" data-action="listen-more">Écouter ${LISTEN_STEPS[(game.listenStep||0)+1]} secondes →</button>`:''}${ph==='playing'||game.mountain&&ph==='reveal'?'<button class="btn ghost full" data-action="pause">Ⅱ Mettre en pause</button>':''}${ph==='paused'?'<button class="btn lime full" data-action="resume">▶ Reprendre</button>':''}${!game.settings?.timelineMode&&game.mountain?.pausedReveal===undefined&&['playing','buzzed','paused'].includes(ph)?'<button class="btn ghost full" data-action="reveal">Révéler et terminer la manche</button>':''}${ph==='reveal'&&game.mountain?.phase!=='vote'?`<button class="btn primary full" data-action="next">${game.mountain?(game.mountain.winner?'Le podium 🏆':game.mountain.beneficiary&&game.mountain.phase==='result'?'Lancer l’attaque':'Question suivante →'):game.index+1>=(game.questions?.length||game.total)?'Le podium 🏆':game.settings?.timelineMode?'Extrait suivant →':'Question suivante →'}</button>${game.nextAt?`<p class="mini">La suite arrive automatiquement après ${game.settings?.autoNextSeconds||8} secondes.</p>`:''}`:''}${ph==='finished'||ph==='lobby'?'<button class="btn lime full" data-action="new-game">'+(q||ph==='finished'?'Choisir le jeu suivant':'Choisir le premier jeu')+'</button>':''}${game.mode==='phone'&&game.input!=='buzzer'&&ph==='playing'?`<p class="help">${Object.keys(game.answers||{}).length} / ${game.teams.length} équipe(s) ont répondu</p>`:''}${game.mountain&&game.mountain.pausedReveal===undefined&&['playing','paused'].includes(ph)?'<button class="btn ghost full" data-action="skip">Passer l’extrait</button>':''}${roundExitControls(ph,q)}${Object.keys(claimed).length?`<p class="mini">${claimed.title?'✓ Titre trouvé ':''}${claimed.artist?'✓ Artiste trouvé':''}</p>`:''}<div class="divider"></div><span class="eyebrow">LE CLASSEMENT</span>${leaderboard()}${eveningRanking()}${ph==='finished'?'<button class="btn ghost full" data-action="ceremony">Podium de la soirée · TV</button>':''}${game.teams.length?'<button class="textbtn" data-action="adjust">Ajuster un score</button>':''}${game.history?.length?'<button class="textbtn full" data-action="v2-history">Voir le détail des manches →</button>':''}</aside></div>${game.mode==='usb'?`<div class="keytips">${game.teams.map(t=>`<strong>[${esc(t.key)}]</strong> ${esc(t.name)}${game.blocked?.includes(t.id)?' · bloqué':''}`).join(' · ')}<br>Gardez la fenêtre du PC active pour recevoir les buzzers.</div>`:''}${audioError?`<div class="catalog-message">${esc(audioError)}</div>`:''}${q?.provider?'<p class="media-notice">Extrait Deezer diffusé par le PC animateur. Le titre complet est accessible après la révélation.</p>':''}${ph==='finished'?nextGameActions():''}</main>`;}
+function studio(){if(game?.settings?.autoHost)return automaticStudio();if(!game)return '<div class="empty">Aucune partie en cours.</div>';const q=currentQ(),ph=game.phase,wanted=q?targets(q):[],claimed=game.claimed||{};return `<main class="studio regie-studio">${regieHeader()}<div class="game-layout regie-layout">
+ <div class="regie-monitor">${regiePreview()}${game.settings?.bingo?bingoDesk():hostRound(q,ph)}
+ ${game.teamPlay||game.mountain||game.teamPlan||game.randomTeams?.length?`<details class="regie-extra"><summary>Équipes et résultats précédents</summary>${teamAdmin()}${previousTeamGames()}${randomTeamScores()}</details>`:''}</div>
+ <aside class="control regie-controls"><h1>Régie du plateau</h1>${regieCounters()}${showControlStatus()}
+ <div class="regie-sound">${arrivalSoundButton()}<button class="btn ghost" data-action="sound">${desk.muted?'Jingles coupés':'Jingles actifs'}</button></div>
+ <h3>${ph==='lobby'?'Tout le monde est là ?':ph==='finished'?'Quelle soirée !':'À vous les commandes'}</h3>${game.mode==='phone'&&ph==='lobby'?`<p class="help">Partagez le code avec vos équipes :</p>${invitationMarkup()}<button class="btn ghost full" data-action="copy-link">Copier le lien d’invitation</button>`:''}${!['lobby','finished'].includes(ph)?`<div class="answerbox"><small>RÉPONSE · ANIMATEUR</small><strong>${esc(targets(q)[0]==='answer'&&q.target!=='coverChoice'&&q.target!=='timeline'?q.answer:q.title||q.answer)}</strong>${q.artist?`<br>${esc(q.artist)}`:''}</div>`:''}${timelineControls(ph)}${q&&['lobby','ready'].includes(ph)?`<button class="btn primary full" data-action="play" ${busy||game.mode==='phone'&&game.teams.length<(game.teamPlay?game.teamPlan?.groups.length||2:game.randomTeamCount|| (game.settings?.chain?3:game.settings?.survival?2:1))?'disabled':''}>${busy?'Chargement de l’extrait…':'▶ '+(ph==='lobby'&&game.settings?.timelineMode?'Lancer le premier extrait à placer':ph==='lobby'?'Lancer la partie':(q?.kind==='question'?'Afficher la question':'Lancer l’extrait'))}</button>`:''}${ph==='buzzed'?`${wanted.length===2?`<div class="judge-grid"><button class="btn good" data-action="v2-judge" data-value="title" ${claimed.title?'disabled':''}>✓ Titre</button><button class="btn good" data-action="v2-judge" data-value="artist" ${claimed.artist?'disabled':''}>✓ Artiste</button></div><button class="btn good full" data-action="good">✓ Les deux</button>`:'<button class="btn good full" data-action="good">✓ Bonne réponse</button>'}<button class="btn bad full" data-action="bad">✕ Mauvaise réponse</button>`:''}${isProgressive(game,q)&&['playing','paused'].includes(ph)&&(game.listenStep||0)<3?`<button class="btn lime full" data-action="listen-more">Écouter ${LISTEN_STEPS[(game.listenStep||0)+1]} secondes →</button>`:''}${ph==='playing'||game.mountain&&ph==='reveal'?'<button class="btn ghost full" data-action="pause">Ⅱ Mettre en pause</button>':''}${ph==='paused'?'<button class="btn lime full" data-action="resume">▶ Reprendre</button>':''}${!game.settings?.timelineMode&&game.mountain?.pausedReveal===undefined&&['playing','buzzed','paused'].includes(ph)?'<button class="btn ghost full" data-action="reveal">Révéler et terminer la manche</button>':''}${ph==='reveal'&&game.mountain?.phase!=='vote'?`<button class="btn primary full" data-action="next">${game.mountain?(game.mountain.winner?'Le podium 🏆':game.mountain.beneficiary&&game.mountain.phase==='result'?'Lancer l’attaque':'Question suivante →'):game.index+1>=(game.questions?.length||game.total)?'Le podium 🏆':game.settings?.timelineMode?'Extrait suivant →':'Question suivante →'}</button>${game.nextAt?`<p class="mini">La suite arrive automatiquement après ${game.settings?.autoNextSeconds||8} secondes.</p>`:''}`:''}${ph==='finished'||ph==='lobby'?'<button class="btn lime full" data-action="new-game">'+(q||ph==='finished'?'Choisir le jeu suivant':'Choisir le premier jeu')+'</button>':''}${game.mode==='phone'&&game.input!=='buzzer'&&ph==='playing'?`<p class="help">${Object.keys(game.answers||{}).length} / ${game.teams.length} équipe(s) ont répondu</p>`:''}${game.mountain&&game.mountain.pausedReveal===undefined&&['playing','paused'].includes(ph)?'<button class="btn ghost full" data-action="skip">Passer l’extrait</button>':''}${roundExitControls(ph,q)}${Object.keys(claimed).length?`<p class="mini">${claimed.title?'✓ Titre trouvé ':''}${claimed.artist?'✓ Artiste trouvé':''}</p>`:''}<div class="divider"></div><span class="eyebrow">LE CLASSEMENT</span>${leaderboard()}${eveningRanking()}${ph==='finished'?'<button class="btn ghost full" data-action="ceremony">Podium de la soirée · TV</button>':''}${game.teams.length?'<button class="textbtn" data-action="adjust">Ajuster un score</button>':''}${game.history?.length?'<button class="textbtn full" data-action="v2-history">Voir le détail des manches →</button>':''}</aside></div>${game.mode==='usb'?`<div class="keytips">${game.teams.map(t=>`<strong>[${esc(t.key)}]</strong> ${esc(t.name)}${game.blocked?.includes(t.id)?' · bloqué':''}`).join(' · ')}<br>Gardez la fenêtre du PC active pour recevoir les buzzers.</div>`:''}${audioError?`<div class="catalog-message">${esc(audioError)}</div>`:''}${q?.provider?'<p class="media-notice">Extrait Deezer diffusé par le PC animateur. Le titre complet est accessible après la révélation.</p>':''}${ph==='finished'?nextGameActions():''}</main>`;}
 function playerSpotlight(reaction){
  const people=reaction.players.slice(0,6);
  return `<div class="show-spotlight-title">${reaction.label}</div><div class="show-spotlight-cast">
@@ -592,7 +645,7 @@ function showTVReaction(reaction){
   {opacity:1},{opacity:.52},{opacity:1}
  ],{duration:reaction.kind==='wrong'?360:760,easing:'ease-out'});
 }
-function tvScreen(){return `<main class="tv-shell"><div class="row">${brand()}<span class="right show-venue">GRAND SOIR · ${showVenue(game,wheel,ceremony)}</span><button class="btn" data-action="tv-arrival-sound" aria-pressed="${desk.ctx?.state==='running'&&!desk.muted}">Son des arrivées</button><button class="btn" data-action="fullscreen">⛶ Plein écran</button></div><section class="stage ${game?.mountain?'mountain-stage':''} ${game?.phase==='playing'?'playing':''}">${game?.mountain?mountainMarkup():''}${stage()}
+function tvScreen(){return `<main class="tv-shell"><div class="row tv-toolbar">${brand()}<span class="right show-venue">GRAND SOIR · ${showVenue(game,wheel,ceremony)}</span><button class="btn" data-action="fullscreen">⛶ Plein écran</button></div><section class="stage ${game?.mountain?'mountain-stage':''} ${game?.phase==='playing'?'playing':''}">${game?.mountain?mountainMarkup():''}${stage()}
  ${game?.phase==='lobby'&&game.mode==='phone'&&room?`<aside class="show-tv-invite" aria-label="Rejoindre la soirée">${invitationMarkup()}<span>${game.teams.length} inscrit${game.teams.length===1?'':'s'}</span></aside>`:''}</section>${mountainStats()} ${scorebar()}${eveningRanking()}</main>`;}
 const avatarCollections=[
  ['Les icônes du studio',[
@@ -1198,10 +1251,11 @@ document.addEventListener('click',async e=>{const b=e.target.closest('[data-acti
   return;
  }
  if(act==='close-modal'){closeModal();return;}
- if(act==='tv-arrival-sound'){
-  if(desk.ctx?.state==='running')desk.muted=!desk.muted;
-  else{await desk.unlock();desk.muted=false;}
-  if(!desk.muted)desk.jingle('arrival');render();return;
+ if(act==='arrival-sound'&&role==='host'){
+  if(!arrivalSound||desk.ctx?.state!=='running')await desk.unlock();
+  arrivalSound=!arrivalSound;write('declic.arrivalSound',arrivalSound);
+  if(arrivalSound)playShowCue(desk.ctx,'arrival');
+  render();return;
  }
  if(act==='fullscreen'){if(!document.fullscreenElement)await document.documentElement.requestFullscreen();else await document.exitFullscreen();return;}
  if(act==='toggle-show'){showAnimations=!showAnimations;write('declic.showAnimations',showAnimations);render();return;}
@@ -1821,7 +1875,7 @@ function home(){
 }
 function settingsScreen(){
  return `<main class="library"><h1>Paramètres</h1>
-  <button class="btn ghost" data-action="sound" aria-pressed="${!desk.muted}">${desk.muted?'♪ Jingles coupés':'♫ Jingles actifs'}</button>
+  ${arrivalSoundButton()}<button class="btn ghost" data-action="sound" aria-pressed="${!desk.muted}">${desk.muted?'♪ Jingles coupés':'♫ Jingles actifs'}</button>
  </main>`;
 }
 function automaticChoicesAvailable(){
@@ -1834,7 +1888,7 @@ function setupScreen(){
  const invite=room&&auth?.type==='host'&&config.mode==='phone';
  const fixedMusic=fixedGameMusic();
  return `<main class="game-setup" id="multiplayer">
- <div class="row setup-top-actions"><button class="btn ghost" data-action="${setupStep==='game'?'home':'setup-step'}" data-value="${{rules:'game',music:'rules',cast:'music'}[setupStep]||''}">← ${setupStep==='game'?'Retour à l’accueil':'Retour'}</button><button class="btn ghost right" data-action="screen">▣ Écran TV</button></div>
+ <div class="row setup-top-actions"><button class="btn ghost" data-action="${setupStep==='game'?'home':'setup-step'}" data-value="${{rules:'game',music:'rules',cast:'music'}[setupStep]||''}">← ${setupStep==='game'?'Retour à l’accueil':'Retour'}</button><button class="btn ghost right" data-action="screen">▣ Écran TV</button>${arrivalSoundButton()}</div>
  <details class="qcard"><summary>Paramètres de la soirée${invite?' et invitations':''}</summary>
  <button class="btn ghost" data-action="toggle-show" aria-pressed="${showAnimations}">${showAnimations?'Animations actives':'Animations coupées'}</button>
  ${eveningSettings()}${generalSelectionSettings()}${invite?`<div class="divider"></div>${invitationMarkup()}<div class="row"><button class="btn ghost" data-action="copy-link">Copier le lien</button><button class="btn ghost" data-action="screen">Écran public</button></div><p class="mini">${game?.teams?.length||game?.tyrolien?.participants?.length||0} participant(s)</p>`:''}

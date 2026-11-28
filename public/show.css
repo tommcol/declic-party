@@ -942,3 +942,89 @@
 .automatic-studio { width: min(100%, 45rem); margin: 1rem auto; }
 .automatic-invite svg { width: min(12rem, 100%); height: auto; background: white; }
 .automatic-studio .show-control-status { margin-bottom: .8rem; }
+
+/* Keep the public screen clear of controls in native fullscreen. */
+:root:fullscreen #app[data-show-role="tv"] .tv-toolbar { display: none; }
+:root:fullscreen #app[data-show-role="tv"] .tv-shell { padding: 0; }
+:root:fullscreen #app[data-show-role="tv"] .tv-shell .stage { margin: 0; min-height: 86svh; border-radius: 0; }
+:root:fullscreen #app[data-show-role="tv"][data-show-phase="lobby"] .tv-shell .stage { min-height: 100svh; }
+
+.grand-welcome { color: #fff1d7; text-align: center; }
+.grand-welcome .eyebrow { color: #ffcd88; letter-spacing: .23em; }
+.grand-welcome h1,
+#app[data-show-role="tv"] .tv-shell .stage .grand-welcome h1 {
+  max-width: none;
+  color: #ffe2a4;
+  font-size: clamp(3rem, 11vw, 13rem);
+  margin: .12em 0;
+  line-height: .95;
+  text-shadow: 0 .07em .2em #000;
+  text-transform: uppercase;
+}
+.grand-welcome p { font-size: clamp(.9rem, 2vw, 1.7rem); color: #fff1d7; }
+.grand-welcome p::before {
+  content: '';
+  display: block;
+  width: 23%;
+  height: 2px;
+  margin: .65em auto .7em;
+  background: #efb56f;
+}
+
+/* Replace light table headers inherited from the original palette. */
+.party-interface .bingo-table th {
+  color: #ffe7bc;
+  background: #302619;
+  border-bottom-color: #725838;
+}
+.party-interface .bingo-table th button { color: inherit; }
+.party-interface .bingo-table tbody th { background: #251c14; }
+
+#app:has(.regie-studio) { background: #12100e; }
+#app:has(.regie-studio) > .shell { max-width: 1850px; padding-inline: clamp(12px, 2vw, 30px); }
+.regie-studio { color: #fff2d8; padding-top: 1rem; }
+.regie-top { padding-bottom: .5rem; }
+.regie-top .eyebrow, .regie-preview .eyebrow { color: #ffd699; }
+.regie-layout { grid-template-columns: minmax(0, 1fr) minmax(265px, 322px); gap: 1rem; margin-top: .3rem; align-items: start; }
+.regie-monitor { min-width: 0; }
+.regie-layout .regie-preview {
+  position: relative;
+  display: grid;
+  place-items: center;
+  aspect-ratio: 16 / 9;
+  min-height: 0;
+  margin-bottom: .7rem;
+  padding: 12% 6%;
+  isolation: isolate;
+  container-type: inline-size;
+}
+.regie-preview[data-venue="plateau"] { background: #211710 url('/grand-soir.webp') center / cover; }
+.regie-preview::before { content: ''; position: absolute; z-index: -1; inset: 0; background: radial-gradient(ellipse, #100905ad, #10090524 73%); }
+.regie-preview .grand-welcome h1 { font-size: 13cqw; }
+.regie-preview .grand-welcome p { font-size: clamp(.7rem, 1.8cqw, 1.45rem); }
+.regie-preview-content { width: min(80%, 36rem); text-align: center; }
+.regie-preview-content h2 { background: transparent; padding: 0; font-size: clamp(1rem, 5cqw, 3.5rem); text-shadow: 0 2px 10px #000; }
+.regie-preview-top,.regie-preview-bottom {
+  position: absolute; inset-inline: 4%; display: flex; justify-content: space-between; align-items: center;
+  gap: .4rem; color: #ffe2a4; font-size: clamp(.55rem, 1.45cqw, 1.05rem); font-weight: 800; letter-spacing: .09em;
+}
+.regie-preview-top { top: 5%; }
+.regie-preview-bottom { bottom: 5%; }
+.regie-preview-qr { display: flex; flex-direction: row-reverse; align-items: center; gap: .4rem; }
+.regie-preview-qr svg { width: clamp(30px, 7cqw, 86px); height: auto; background: white; border-radius: 4px; }
+.regie-preview-qr .room-code { margin: 0; padding: .25rem .45rem; font-size: inherit; }
+.party-interface .regie-layout :is(.regie-controls,.host-round,.qcard,.regie-extra) {
+  background: #1c1712; color: #fff0d5; border: 1px solid #664d36; border-radius: 12px;
+}
+.regie-controls h1 { font-size: 1.45rem; margin: 0 0 .65rem; }
+.regie-controls .btn.ghost, .regie-top .btn.ghost { color: #ffebc8; background: #2c2218; border-color: #796047; }
+.regie-controls :is(.help,.mini,.eyebrow), .regie-layout .host-round p { color: #e2c7a7; }
+.regie-counters { display: grid; grid-template-columns: 1fr 1fr; gap: .45rem; margin-bottom: .7rem; }
+.regie-counters > div { display: grid; padding: .45rem .65rem; background: #30251b; border-radius: .4rem; }
+.regie-counters b { font-size: 1.25rem; }
+.regie-counters span { color: #ebd1ad; font-size: .75rem; }
+.regie-sound { display: flex; flex-wrap: wrap; gap: .4rem; }
+.regie-sound .btn { padding: .55rem .7rem; font-size: .72rem; }
+.regie-extra { padding: .7rem; margin-top: .65rem; }
+.regie-extra summary { cursor: pointer; color: #ffe1b1; }
+@media (max-width: 800px) { .regie-layout { grid-template-columns: 1fr; } }
