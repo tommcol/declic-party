@@ -240,6 +240,10 @@ La préparation compte les œuvres distinctes avec un extrait vérifié selon la
 
 Le parcours intégré affiche le suivi des réponses par équipe, le palier près du QCM et la participation au vote. Les sons distinguent montée, sommet, attaque et chute. Le classement en cas d’arrêt indique les équipes encore en course.
 
+## Retrait du Laboratoire du son de la sélection des jeux
+
+« Une seconde pour trouver » est retiré du choix des jeux, de la roulette et du vote. L’écoute progressive reste proposée dans le Blind test. Une ancienne configuration du Laboratoire s’ouvre en Blind test avec l’écoute progressive activée.
+
 ## Maintenir les deux versions
 
 Les règles, les scores, le catalogue, les playlists et le serveur local évoluent
