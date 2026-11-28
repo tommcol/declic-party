@@ -48,6 +48,50 @@ chroot "$PWD/debian" /usr/bin/env PATH=/opt/node22/bin:/usr/bin:/bin /bin/sh -ec
 
 Relancez ensuite la commande de démarrage.
 
+## Chantier 01 — Accueil animateur Studio TV
+
+L’accueil propose la création et la reprise d’une soirée, l’accès à la bibliothèque,
+aux paramètres, à l’écran TV et à l’inscription des participants. À la fin d’une
+partie, le bouton de reprise permet de choisir le jeu suivant. Les confirmations
+de création et de fin de soirée restent celles de l’application. L’historique
+des soirées est affiché comme indisponible jusqu’au chantier d’archivage.
+
+Le décor, les polices et les styles sont servis par le serveur Node local.
+La composition suit le cahier des charges du Studio TV et la référence complémentaire
+du Grand Soir. Le prototype HTML Studio TV et la maquette graphique n’étaient
+pas accessibles pour comparer le rendu exact. L’essai et la validation sur Batocera
+restent à faire.
+
+Contrôles réalisés sur le serveur Node local avec Chromium : états de la soirée,
+création, reprise après une manche avec participant et score, confirmations,
+choix du jeu suivant et accès aux autres écrans. L’accueil a été vérifié en
+1920 × 1080, 1280 × 720, 820 × 900, 390 × 844, 320 × 640 et 740 × 415,
+avec les requêtes externes bloquées. La commande `npm test` a exécuté
+103 tests avec succès.
+
+Après la mise à jour, ouvrez l’accueil au port 3101. Avec une soirée de test,
+créez une soirée, rejoignez-la depuis un téléphone, jouez une manche, revenez à
+l’accueil puis reprenez la soirée. Vérifiez que le participant et son score sont
+toujours présents et que le bouton « Écran TV » ouvre le plateau.
+
+### Revenir à la version précédente
+
+Arrêtez uniquement le serveur design avec **Ctrl+C**, puis lancez :
+
+```sh
+cd /media/NO_LABEL/serveur &&
+chroot "$PWD/debian" /usr/bin/env PATH=/opt/node22/bin:/usr/bin:/bin /bin/sh -ec '
+  cd /opt/applications/declic-party-design
+  git fetch origin refs/heads/backup/avant-studio-tv-ch01
+  git switch --detach FETCH_HEAD
+  exec env DECLIC_DATA_DIR=/opt/applications/declic-party-design/.declic-local node dev.mjs --port 3101
+'
+```
+
+Ce démarrage réutilise les données locales de la version design. Pour retrouver le
+Studio TV, arrêtez ce serveur, exécutez `git switch show-experience` dans le dossier
+du dépôt, puis relancez la mise à jour et le démarrage ci-dessus.
+
 ## Maintenir les deux versions
 
 Les règles, les scores, le catalogue, les playlists et le serveur local évoluent

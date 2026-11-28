@@ -1,10 +1,10 @@
 import {createHash,randomUUID} from 'node:crypto';
 import {pathToFileURL} from 'node:url';
 import {readFile,writeFile,mkdir,rename} from 'node:fs/promises';
-const files=['index.html','style.css','app.js','engine.js','audio.js','catalog.js','qrcode.js','music-library.js','tyrolien-ui.js','roulette.js','teams.js','team-ui.js','show.js','show.css'];
+const files=['index.html','style.css','app.js','engine.js','audio.js','catalog.js','qrcode.js','music-library.js','tyrolien-ui.js','roulette.js','teams.js','team-ui.js','show.js','show.css','host-home.css'];
 const types={html:'text/html; charset=utf-8',css:'text/css; charset=utf-8',js:'text/javascript; charset=utf-8'};
 const assets={};for(const f of files)assets['/'+f]={body:await readFile(new URL('public/'+f,import.meta.url),'utf8'),type:types[f.split('.').pop()]};
-for(const file of ['tyrolien-plateau.webp','jeux-plateaux.webp','grand-soir.webp','grand-soir-univers.webp','une-seconde-plateau.webp','fonts/barlow.woff','fonts/dm.woff'])assets['/'+file]={
+for(const file of ['tyrolien-plateau.webp','jeux-plateaux.webp','grand-soir.webp','grand-soir-univers.webp','une-seconde-plateau.webp','studio-tv.webp','fonts/barlow.woff','fonts/dm.woff'])assets['/'+file]={
  body:(await readFile(new URL('public/'+file,import.meta.url))).toString('base64'),
  type:file.endsWith('.woff')?'font/woff':'image/webp',base64:true
 };

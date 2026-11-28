@@ -595,27 +595,18 @@
   --soir-title: 'Barlow Condensed', 'Arial Narrow', sans-serif;
   --soir-body: 'DM Sans', system-ui, sans-serif;
 }
-.host-home, .party-interface, .evening-dialog { font-family: var(--soir-body); }
-.host-home {
-  background: linear-gradient(0deg, #07111cef, #09132183 70%), url('/grand-soir.webp') center / cover;
-}
-.host-brand span, .host-card-icon { background: #172d41; color: #ffcf7b; }
-.host-welcome h1, .party-interface :is(h1,h2,h3), .host-card-primary strong {
+.party-interface, .evening-dialog { font-family: var(--soir-body); }
+.party-interface :is(h1,h2,h3) {
   font-family: var(--soir-title);
   font-weight: 700;
   letter-spacing: .005em;
 }
-.host-welcome h1 { font-size: clamp(3.1rem, 7vw, 6rem); text-shadow: 0 4px 25px #06101f; }
-.host-equalizer i { background: linear-gradient(#fff4db,#ffbf57); box-shadow: 0 0 12px #ffbf5745; }
-.host-card { color: #fff4db; background: #0e1d30f5; border-color: #526177; }
-.host-card-primary, .party-interface .btn.primary {
+.party-interface .btn.primary {
   color: #20180c;
   background: linear-gradient(110deg,#ffe2a4,#ffbd56 72%,#efab42);
   border: 1px solid #ffdc95;
   box-shadow: 0 3px 0 #845a24, 0 8px 24px #0004;
 }
-.host-card-primary :is(small,.host-card-icon,.host-card-arrow) { color: #362712; }
-.host-card-primary .host-card-icon { background: #fff6; }
 .party-interface { background: radial-gradient(ellipse at 80% 0, #183044, transparent 55%),#091321; }
 .party-interface :is(.studio .control,.host-round,.joincard,.round-history,.results-leaders) {
   color: #fff4db; background: #122236; border: 1px solid #384c61;
@@ -623,7 +614,7 @@
 .party-interface .studio .answerbox { background: #211e19; border-left: 4px solid #ffbf57; color: #ffe4af; }
 .party-interface .studio .connection:not(.offline) { color: #9df1ed; background: #11353c; }
 .party-interface .studio .control .btn { min-height: 44px; }
-.party-interface :is(.btn,.host-card,.option):enabled:active { transform: translateY(2px); }
+.party-interface :is(.btn,.option):enabled:active { transform: translateY(2px); }
 .party-interface .phone-score { color: #fff4db; background: #132338; border: 1px solid #546980; padding: .45em .8em; border-radius: 12px; }
 .party-interface .phone-shell :is(.option,.btn) { min-height: 46px; }
 .party-interface .phone-shell .phone-buzzer:not(:disabled) {

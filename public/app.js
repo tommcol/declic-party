@@ -1812,45 +1812,63 @@ const homeIcons={
  play:'<path d="m9 5 11 7-11 7z"/>',
  plus:'<path d="M12 5v14M5 12h14"/>',
  music:'<path d="M9 18V5l12-2v13M9 9l12-2"/><ellipse cx="6" cy="18" rx="3" ry="2"/><ellipse cx="18" cy="16" rx="3" ry="2"/>',
+ history:'<path d="M3 12a9 9 0 1 1 2.6 6.4M3 5v7h7m2-5v5l3 2"/>',
  gear:'<circle cx="12" cy="12" r="3"/><path d="m10 3-1 3-3 1-3-1-1 3 2 2v2l-2 2 1 3 3-1 3 1 1 3h4l1-3 3-1 3 1 1-3-2-2v-2l2-2-1-3-3 1-3-1-1-3z"/>',
  arrow:'<path d="M4 12h15m-6-6 6 6-6 6"/>'
 };
 function homeIcon(name){
  return `<svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">${homeIcons[name]??gameIcons[name]}</svg>`;
 }
-function homeCard(action,icon,label,detail='',primary=false){
- return `<button class="host-card${primary?' host-card-primary':''}" data-action="${action}" ${changingEvening?'disabled':''}>
+function homeCard(action,icon,label,detail='',{prominent=false,disabled=false}={}){
+ return `<button type="button" class="host-card${prominent?' host-card-primary':''}" ${action?`data-action="${action}"`:''} ${disabled?'disabled':''}>
   <span class="host-card-icon">${homeIcon(icon)}</span>
   <span><strong>${label}</strong>${detail?`<small>${detail}</small>`:''}</span>
-  <span class="host-card-arrow">${homeIcon('arrow')}</span>
+  ${disabled?'':`<span class="host-card-arrow">${homeIcon('arrow')}</span>`}
  </button>`;
 }
 function home(){
  const active=activeEvening||savedMusicGame('declic.localGame');
- const ready=eveningStatus==='ready';
+ const ready=eveningStatus==='ready'&&!changingEvening;
+ const nextGame=activeEvening&&room===activeEvening.code&&game?.phase==='finished';
+ const status=changingEvening?'updating':ready&&active?'active':eveningStatus;
+ const statusText={
+  updating:'Mise à jour de la soirée…',
+  loading:'Récupération de la soirée…',
+  error:'Impossible de vérifier la soirée active',
+  active:'Soirée active',
+  ready:'Aucune soirée active'
+ }[status];
  return `<div class="host-home">
-  <header class="host-brand"><span>${homeIcon('wave')}</span> DÉCLIC PARTY</header>
+  <header class="host-top">
+   <div class="host-brand"><span aria-hidden="true">${homeIcon('wave')}</span><div><strong>DÉCLIC PARTY</strong><small>LE GRAND SOIR</small></div></div>
+   <div class="host-tools">
+    <span class="host-status" data-status="${status}" role="status">${statusText}</span>
+    ${status==='error'?'<button type="button" class="host-link" data-action="retry-evening">Réessayer</button>':''}
+    <button type="button" class="host-tv" data-action="screen">${homeIcon('screen')} Écran TV</button>
+   </div>
+  </header>
   <main class="host-main">
-   <section class="host-welcome">
-    <div class="host-equalizer" aria-hidden="true">${Array.from({length:9},()=>'<i></i>').join('')}</div>
-    <h1>Que la fête commence !</h1>
-    <p>La musique rassemble, à vous de jouer.</p>
+   <section class="host-welcome" aria-labelledby="host-title">
+    <p class="host-studio-label">LE STUDIO TV</p>
+    <h1 id="host-title">Que la fête commence !</h1>
+    <p>Bienvenue dans Le Grand Soir.</p>
    </section>
    <div class="host-actions">
-    ${changingEvening?'<p class="host-status" role="status">Mise à jour de la soirée…</p>':
-      eveningStatus==='loading'?'<p class="host-status" role="status">Récupération de la soirée…</p>':
-      eveningStatus==='error'?'<div class="host-status" role="status">Impossible de vérifier la soirée active. <button class="host-link" data-action="retry-evening">Réessayer</button></div>':
-      active?homeCard(game?.phase==='finished'&&room===activeEvening?.code?'new-game':'resume-evening','play',game?.phase==='finished'&&room===activeEvening?.code?'Choisir le jeu suivant':'Reprendre la soirée','Même soirée · scores conservés',true):
-      homeCard('create-evening','plus','Créer une soirée','C’est parti !',true)}
-    <div class="host-secondary">
-     ${homeCard('music-library','music','Bibliothèque musicale')}
-     ${homeCard('settings','gear','Paramètres')}
-     ${homeCard('screen','screen','Écran TV','Ouvrir le plateau Grand Soir')}
-    </div>
-    ${ready&&activeEvening&&!changingEvening?'<button class="host-link host-end" data-action="end-evening">Terminer la soirée</button>':''}
+    ${homeCard('create-evening','plus','Créer une soirée',active&&ready?'Démarrer une nouvelle soirée':'Choisir le premier jeu',{prominent:true,disabled:!ready})}
+    ${homeCard(nextGame?'new-game':'resume-evening','play',nextGame?'Choisir le jeu suivant':'Reprendre une soirée',
+      ready?(active?'Participants et scores conservés':'Aucune soirée à reprendre'):'En attente de vérification',
+      {prominent:true,disabled:!ready||!active})}
+   </div>
+   <div class="host-secondary">
+    ${homeCard('music-library','music','Bibliothèque musicale','',{disabled:changingEvening})}
+    ${homeCard(null,'history','Historique des soirées','Indisponible',{disabled:true})}
+    ${homeCard('settings','gear','Paramètres','',{disabled:changingEvening})}
    </div>
   </main>
-  <footer class="host-join">Vous êtes participant ? <a class="host-link" href="/join">Rejoindre une soirée ${homeIcon('arrow')}</a></footer>
+  <footer class="host-join">
+   <span>Vous êtes participant ? <a class="host-link" href="/join">Rejoindre une soirée ${homeIcon('arrow')}</a></span>
+   ${ready&&activeEvening?'<button type="button" class="host-link host-end" data-action="end-evening">Terminer la soirée</button>':''}
+  </footer>
  </div>`;
 }
 function settingsScreen(){
