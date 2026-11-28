@@ -675,7 +675,6 @@
 
 .game-setup .playlist-tile { grid-template-columns: 26px minmax(0, 1fr); }
 .game-setup .playlist-tile small { grid-column: 2; font-size: .72rem; }
-.playlist-checkbox { position: absolute; right: 11px; top: 6px; width: 17px; height: 17px; }
 .library-grid, .library-filter-grid {
  display: grid;
  gap: .65rem;

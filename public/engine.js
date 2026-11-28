@@ -509,6 +509,9 @@ export function applyAction(game, action, now=Date.now()) {
   if(!team||s.answers[team.id]||typeof action.answer!=='string'||!/^\d{1,3}$/.test(action.answer))return game;
   const cards=timelineCards(s,team),slot=Number(action.answer);
   if(!timelineSlots(cards,q).includes(slot))return game;
+  const counts=s.timelinePlacements?.index===s.index?{...s.timelinePlacements.counts}:{};
+  counts[slot]=(counts[slot]||0)+1;
+  s.timelinePlacements={index:s.index,counts};
   const result=roundResult(team.id);
   result.correct=inChronologicalOrder(cards,slot,q.year);
   result.attempts=1;

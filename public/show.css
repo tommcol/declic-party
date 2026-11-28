@@ -1570,3 +1570,8 @@ button.vinyl-choice:focus-visible { outline: 3px solid #c9efb8; outline-offset: 
 @keyframes avatar-disappointment { 45% { transform: translateY(.18rem) rotate(7deg); opacity: .72; } }
 @keyframes avatar-applause { 50% { transform: scale(1.11) rotate(6deg); } }
 @keyframes avatar-victory { 30% { transform: translateY(-.55rem) scale(1.19); } 68% { transform: translateY(-.23rem) scale(1.1) rotate(-6deg); } }
+
+.regie-round-status,.regie-mic { padding: .75rem; border: 1px solid #796047; border-radius: .6rem; }
+.regie-round-status { display: grid; gap: .25rem; }
+.regie-round-status p,.regie-mic p { margin: .25rem 0; }
+.playlist-choice .playlist-add { width: 100%; padding-inline: .35rem; white-space: normal; }

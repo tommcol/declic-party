@@ -116,7 +116,7 @@ puis le salon montre jusqu’à six portraits récents et le nombre restant.
 Les avatars sont ceux de l’inscription. Le vote et la roulette utilisent le
 même plateau et gardent l’invitation visible pendant l’accueil.
 
-« Entrer dans le décor » change la scène de la TV avant la sélection musicale.
+« Choisir le décor et la musique » change la scène de la TV avant la sélection musicale.
 « Voir les participants » déclenche la présentation sur la TV. Cette étape est
 conservée dans la soirée connectée pour les TV ouvertes ou rechargées en cours
 de préparation. Une fois le jeu préparé, son état fait à nouveau foi.
@@ -288,3 +288,12 @@ publication sur `main`. Pour le relancer manuellement, utilisez **Run workflow**
 sur `main`. GitHub fusionne les changements, teste sous Node.js 22 puis publie
 sur `show-experience` en cas de succès. En cas d’échec, une issue renvoie au journal.
 La synchronisation GitHub est indépendante de la mise à jour sur Batocera.
+
+
+### Corrections après le test utilisateur
+
+- La préparation vérifie les extraits. La régie affiche les conditions de départ, le décompte, les réponses, la pause et les actions de fin de jeu.
+- Les suggestions micro apparaissent à la révélation. Le suivi affiche les lignes proches au Bingo, les placements de la Frise, les paliers et attaques du Tyrolien, les vies et éliminations du Dernier survivant et les votes de La bonne pochette.
+- Les Reprises peuvent démarrer avec les duos vérifiés ou revenir au choix des playlists. Les cartes distinguent les titres du catalogue du nombre d’extraits vérifiés localement lorsqu’il est connu.
+- La sélection manuelle est proposée par défaut. Les réglages de sélection déjà enregistrés sont repris.
+- Validation technique par les tests Node. La validation en soirée sur Batocera reste à faire.

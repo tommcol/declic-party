@@ -589,7 +589,8 @@ export class PartyRoom extends DurableObject {
  async startClassic(action,now){
   const room=await this.ctx.storage.transaction(async tx=>{
    const latest=await tx.get('room');
-   if(!latest||latest.expires<=now||latest.phase!=='lobby'||latest.tyrolien)throw Error('Ce jeu n’est plus en attente.');
+   if(!latest||latest.expires<=now||latest.tyrolien)throw Error('Ce jeu n’est plus en attente.');
+   if(latest.phase!=='lobby'||action.questionId&&action.questionId!==latest.questions[latest.index]?.id)return null;
    const minimum=latest.settings?.chain?3:latest.settings?.survival&&latest.input==='qcm'?2:1;
    if(latest.teams.length<minimum)throw Error(`Attendez au moins ${minimum} participant(s).`);
    if(latest.mountain){
