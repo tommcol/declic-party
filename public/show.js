@@ -1,3 +1,5 @@
+import {roundOutcome} from './engine.js';
+
 const gameScenes = {
   blind: 'studio',
   progressive: 'laboratory',
@@ -52,9 +54,10 @@ export function showVenue(game, wheel, ceremony) {
 
 export function showRoundSummary(round) {
   const results = round?.results || [];
-  const answered = results.filter(({result}) => result.attempts > 0);
-  const complete = answered.filter(({result}) => result.correct === true);
-  const partial = answered.filter(({result}) => result.correct !== true && result.parts?.length);
+  const outcome=({result})=>roundOutcome(round?.question,result);
+  const answered=results.filter(row=>outcome(row)!=='absent');
+  const complete=answered.filter(row=>outcome(row)==='complete');
+  const partial=answered.filter(row=>outcome(row)==='partial');
   const timed = complete.filter(({result}) => Number.isFinite(result.elapsed))
     .sort((left, right) => left.result.elapsed - right.result.elapsed);
   const middle = timed.length / 2;
@@ -68,6 +71,7 @@ export function showRoundSummary(round) {
     wrong: answered.length - complete.length - partial.length,
     absent: results.length - answered.length,
     median,
+    mean:timed.length?timed.reduce((total,row)=>total+row.result.elapsed,0)/timed.length:null,
     fastest: timed.filter(({result}) => result.elapsed === fastest),
     slowest: slowest === fastest ? [] : timed.filter(({result}) => result.elapsed === slowest)
   };

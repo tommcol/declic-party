@@ -259,6 +259,22 @@ le balancement au salon et les réactions réutilisent les portraits existants.
 Une réaction de manche anime au plus six avatars visibles par écran.
 Les réglages d’animation et la préférence de mouvement réduit sont respectés.
 
+## Chantier 08 — Statistiques, distinctions et assistant
+
+Les réponses complètes, partielles, incorrectes et absentes sont comptées
+séparément. Les buzzers utilisent le temps du buzz validé. Le classement de
+soirée attribue jusqu’à 100 points au placement dans une partie terminée,
+avec égalité de points au même rang. Les anciennes valeurs brutes sont
+conservées séparément lorsqu’une soirée existante est reprise.
+
+L’onglet Assistant propose des commentaires et des distinctions à partir des
+manches jouées. Une suggestion reste en régie jusqu’à validation explicite de
+sa diffusion. Les données musicales manquantes n’entrent pas dans les profils
+par genre ou décennie.
+
+Le menu Historique consulte les soirées archivées localement lors de leur
+fermeture ou remplacement. Chaque archive peut être exportée en JSON.
+
 ## Maintenir les deux versions
 
 Les règles, les scores, le catalogue, les playlists et le serveur local évoluent

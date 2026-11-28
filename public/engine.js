@@ -48,9 +48,171 @@ export function bingoGrandWinners(teams,milestones=[]){
  const best=Math.max(...contenders.map(team=>team.score));
  return contenders.filter(team=>team.score===best);
 }
+export function roundOutcome(question,result={}){
+ const parts=result.parts||[];
+ const required=question?.target==='both'?['title','artist']:null;
+ if(required) {
+  if(required.every(part=>parts.includes(part)))return 'complete';
+  if(parts.length)return 'partial';
+ }else if(result.correct===true||parts.length)return 'complete';
+ return result.attempts||result.responded?'wrong':'absent';
+}
+export function competitionRanking(players,score=player=>player.score){
+ const ordered=[...players].sort((a,b)=>score(b)-score(a));
+ let previous,rank;
+ return ordered.map((player,index)=>{
+  const value=score(player);
+  if(index===0||value!==previous)rank=index+1;
+  previous=value;
+  return {...player,rank};
+ });
+}
+export function eveningGamePoints(state){
+ if(state.phase!=='finished')return {};
+ const teamMode=state.mountain||state.tyrolien||state.randomTeamAssignments;
+ const alpine=state.mountain||state.tyrolien;
+ let contestants=state.teams.filter(player=>state.history?.some(round=>round.results?.some(row=>row.id===player.id))||state.archivedStats?.[player.id]);
+ let groupOf=player=>player.id;
+ let scoreOf=player=>(Number(player.score)||0)+(player.timelineBonus||0);
+ if(alpine?.teams?.length){
+  groupOf=player=>state.mountain?alpine.roster?.find(row=>row.id===player.id)?.team:alpine.assignments?.[player.id];
+  contestants=state.teams.filter(player=>groupOf(player)!=null);
+  scoreOf=group=>group.id===alpine.winner?10000:group.eliminated?alpine.eliminated.indexOf(group.id):-1;
+ }else if(state.randomTeamAssignments)groupOf=player=>state.randomTeamAssignments[player.id];
+ else if(state.settings?.survival||state.settings?.chain)scoreOf=player=>Number(!player.eliminated)*1e9+(player.score||0);
+ const groups=new Map();
+ for(const player of contestants){
+  const id=groupOf(player);
+  if(id==null)continue;
+  groups.set(id,{id,score:(groups.get(id)?.score||0)+(player.score||0)});
+ }
+ if(state.settings?.bingo){
+  const winners=new Set(bingoGrandWinners(state.teams,state.bingoMilestones).map(player=>player.id));
+  scoreOf=player=>Number(winners.has(player.id))*1e9+(player.score||0);
+ }
+ const entries=alpine?.teams?.length?alpine.teams:teamMode?[...groups.values()]:contestants;
+ const ranked=competitionRanking(entries,teamMode&& !alpine?group=>group.score:scoreOf);
+ const byId=new Map(ranked.map(group=>[group.id,Math.round(100*(ranked.length-group.rank+1)/ranked.length)]));
+ return Object.fromEntries(contestants.map(player=>[player.id,byId.get(groupOf(player))||0]));
+}
+export function snapshotGame(state){
+ if(!state.questions?.length&&!state.tyrolien?.round)return null;
+ const rounds=state.history||[];
+ if(!rounds.length&&!state.tyrolien?.round)return null;
+ return {id:state.questions?.[0]?.id||'tyrolien-'+state.tyrolien.round,game:state.musicGame||'blind',mode:state.mode,
+  playlist:state.playlist?.slice(0,30)||[],status:state.phase,rounds,
+  participants:state.teams.map(({id,name,avatar,score,eliminated})=>({id,name,avatar,score,eliminated})),
+  teams:state.mountain?.teams||state.tyrolien?.teams||state.roundTeamIdentities||[],
+  assignments:state.randomTeamAssignments,points:eveningGamePoints(state)};
+}
+export function saveGameSnapshot(state){
+ const snapshot=snapshotGame(state);
+ return snapshot?[...(state.completedGames||[]).filter(game=>game.id!==snapshot.id),snapshot]:state.completedGames||[];
+}
+export function roundProgress(rounds){
+ const latest=rounds.at(-1), previous=rounds.at(-2);
+ const before=new Map(competitionRanking(previous?.results||[]).map(row=>[row.id,row.rank]));
+ return competitionRanking(latest?.results||[]).map(row=>({...row,previousRank:before.get(row.id),gain:before.has(row.id)?before.get(row.id)-row.rank:0}));
+}
+export function musicPerformance(rounds){
+ const dimensions={artist:new Map(),genre:new Map(),decade:new Map(),track:new Map()};
+ for(const round of rounds){
+  const q=round.question||{}, key=q.trackId||(q.title&&normalize(q.title+' '+(q.artist||'')));
+  const labels={artist:q.artist,genre:q.genre,decade:q.year?String(Math.floor(q.year/10)*10):null,track:key};
+  for(const [kind,label] of Object.entries(labels)){
+   if(!label)continue;
+   const values=dimensions[kind], row=values.get(label)||{name:kind==='track'?q.title||q.answer:label,total:0,correct:0,rounds:0};
+   row.total+=round.results.length;
+   row.correct+=round.results.filter(item=>roundOutcome(q,item.result)==='complete').length;
+   row.rounds++;
+   values.set(label,row);
+  }
+ }
+ return Object.fromEntries(Object.entries(dimensions).map(([key,values])=>[key,[...values.values()].map(row=>({...row,rate:row.total?row.correct/row.total:0}))]));
+}
+export function eveningDistinctions(games,ranking=[]){
+ const players=new Map(), awards=[];
+ const entry=row=>{
+  if(!players.has(row.id))players.set(row.id,{id:row.id,name:row.name,played:0,good:0,genres:new Set(),titles:new Set(),streak:0,
+   accuracy:0,diesel:0,comeback:0,chases:0,recovery:0,invincible:0,fastest:Infinity,deadline:Infinity,solo:0});
+  return players.get(row.id);
+ };
+ for(const {rounds=[],status,teams=[],assignments} of games){
+  const local=new Map();
+  let rank=new Map(), midRank=new Map();
+  for(const [index,round] of rounds.entries()){
+   const rows=round.results||[], q=round.question;
+   const good=rows.filter(row=>roundOutcome(q,row.result)==='complete');
+   for(const row of rows){
+    const p=entry(row), result=row.result, outcome=roundOutcome(q,result);
+    const run=local.get(row.id)||{good:0,played:0,streak:0,errors:0,recovering:false,first:0,firstGood:0,last:0,lastGood:0};
+    local.set(row.id,run);
+    p.played++;run.played++;
+    const half=index<Math.floor(rounds.length/2)?'first':'last';
+    run[half]++;
+    if(outcome==='complete'){
+     p.good++;run.good++;run[half+'Good']++;run.streak++;
+     p.streak=Math.max(p.streak,run.streak);
+     if(run.errors>=2)run.recovering=true;
+     run.errors=0;
+     if(run.recovering)p.recovery=Math.max(p.recovery,run.streak);
+     if(q?.title)p.titles.add(q.trackId||normalize(q.title+' '+(q.artist||'')));
+     if(q?.genre)p.genres.add(q.genre);
+     if(Number.isFinite(result.elapsed))p.fastest=Math.min(p.fastest,result.elapsed);
+     if(Number.isFinite(result.remaining)&&result.remaining>=0)p.deadline=Math.min(p.deadline,result.remaining);
+     if(good.length===1&&rows.length>=2)p.solo++;
+    }else{run.streak=0;run.recovering=false;run.errors++;}
+   }
+   const after=competitionRanking(rows);
+   for(const row of after){
+    const previous=rank.get(row.id);
+    if(previous!=null)entry(row).chases+=Math.max(0,previous-row.rank);
+   }
+   rank=new Map(after.map(row=>[row.id,row.rank]));
+   if(index===Math.floor(rounds.length/2)-1)midRank=rank;
+  }
+  for(const [id,run] of local){
+   const p=players.get(id);
+   if(run.first>=2&&run.last>=2)p.diesel=Math.max(p.diesel,run.lastGood/run.last-run.firstGood/run.first);
+   if(status==='finished'&&run.played>=5&&run.played===rounds.length&&run.good===run.played)p.invincible=Math.max(p.invincible,run.played);
+   if(midRank.has(id)&&rank.has(id))p.comeback=Math.max(p.comeback,midRank.get(id)-rank.get(id));
+  }
+  if(assignments&&rounds.length>=5){
+   for(const group of teams){
+    const rates=rounds.map(round=>{
+     const members=round.results.filter(row=>String(assignments[row.id])===String(group.id));
+     return members.length>=2?members.filter(row=>roundOutcome(round.question,row.result)==='complete').length/members.length:null;
+    }).filter(Number.isFinite);
+    if(rates.length>=5&&rates.every(rate=>rate>=.5))awards.push({title:'Les Inséparables',name:group.name,detail:rates.length+' manches à au moins 50 %',id:null});
+   }
+  }
+ }
+ const award=(title,measure,format,minimum=1,ascending=false)=>{
+  const rows=[...players.values()].map(player=>({player,value:measure(player)})).filter(row=>Number.isFinite(row.value)&&row.value>=minimum);
+  rows.sort((a,b)=>ascending?a.value-b.value:b.value-a.value);
+  for(const {player,value} of rows.filter(row=>row.value===rows[0]?.value))awards.push({title,id:player.id,name:player.name,detail:format(value)});
+ };
+ const pct=value=>Math.round(100*value)+' %';
+ const sec=value=>(value/1000).toFixed(2)+' s';
+ award('L’Éclair',p=>p.fastest,sec,0,true);
+ award('Le Diesel',p=>p.diesel,v=>'+'+pct(v),.001);
+ const top=ranking.find(row=>row.points>0)?.points;
+ for(const row of ranking.filter(row=>top&&row.points===top))awards.push({title:'Le Patron',id:row.id,name:row.name,detail:top+' points de soirée'});
+ award('En Feu',p=>p.streak,v=>v+' bonnes de suite',3);
+ award('La Remontada',p=>p.comeback,v=>'+'+v+' places');
+ award('Le Sniper',p=>p.played>=5?p.good/p.played:0,pct,.001);
+ award('L’Encyclopédie',p=>p.titles.size,v=>v+' titres distincts',3);
+ award('L’Invincible',p=>p.invincible,v=>v+' manches sans faute',5);
+ award('Le Mélomane',p=>p.genres.size,v=>v+' genres reconnus',2);
+ award('In Extremis',p=>p.deadline,v=>sec(v)+' avant la fin',0,true);
+ award('Le Solitaire',p=>p.solo,v=>v+' manche(s) en solo');
+ award('Le Chasseur',p=>p.chases,v=>v+' places gagnées en cours de jeu');
+ award('Le Roi du Retour',p=>p.recovery,v=>v+' bonnes après deux erreurs',2);
+ return awards;
+}
 export function roundStatistics(history,teams,previous) {
  const rows=new Map(teams.map(({id,name})=>[id,{id,name,correct:0,wrong:0,absent:0,
-  timed:0,elapsed:0,best:null,last:null,fastest:0,streak:0,bestStreak:0,...previous?.[id]}]));
+  played:0,partial:0,timed:0,elapsed:0,best:null,last:null,fastest:0,streak:0,bestStreak:0,...previous?.[id]}]));
  for(const round of history||[]){
   let fastest=Infinity;
   const timed=[];
@@ -58,7 +220,9 @@ export function roundStatistics(history,teams,previous) {
    const row=rows.get(id);
    if(!row)continue;
    row.last=result.elapsed??null;
-   if(result.correct||result.parts?.length){
+   row.played++;
+   const outcome=roundOutcome(round.question,result);
+   if(outcome==='complete'){
     row.correct++;
     row.bestStreak=Math.max(row.bestStreak,++row.streak);
     if(Number.isFinite(result.elapsed)){
@@ -70,7 +234,8 @@ export function roundStatistics(history,teams,previous) {
     }
    }else{
     row.streak=0;
-    if(result.attempts)row.wrong++;
+    if(outcome==='partial')row.partial++;
+    else if(outcome==='wrong')row.wrong++;
     else row.absent++;
    }
   }
@@ -175,7 +340,7 @@ export function returnToLobby(game, eveningTotals, teamResults=game.teamResults)
  }));
  return {...next,code:game.code,hostHash:game.hostHash,expires:game.expires,
   teamPlan:game.teamPlan?{...game.teamPlan,gather:false,open:false}:undefined,
-  teamResults,eveningTotals,showAnimations:game.showAnimations,
+  teamResults,eveningTotals,completedGames:game.phase==='finished'?saveGameSnapshot(game):game.completedGames,showAnimations:game.showAnimations,
   revision:(game.revision||0)+1,event:{type:'salon',id:randomUUID()}};
 }
 export function applyAction(game, action, now=Date.now()) {
@@ -265,11 +430,12 @@ export function applyAction(game, action, now=Date.now()) {
     t.joker.hidden=undefined;
     t.joker.decade=undefined;
    }
-   t.streak=s.answers[t.id]?.parts?.length?(t.streak||0)+1:0;
+   t.streak=roundOutcome(q,s.answers[t.id])==='complete'?(t.streak||0)+1:0;
   }
   jokerProgress(s,q);
   const eligible=survival?new Set(s.survivalRound.outcomes.map(row=>row.id)):null;
-  s.pending={};s.phase='reveal';s.buzz=null;s.history.push({index:s.index,bingoProgressions:bingo?s.bingoProgressions:undefined,survivalRound:survival?s.survivalRound:undefined,question:{id:q.id,prompt:q.prompt,title:q.title,artist:q.artist,answer:q.answer,provider:q.provider,link:q.link,explanation:q.explanation,credit:q.credit,theme:q.theme},results:s.teams.filter(t=>!eligible||eligible.has(t.id)).map(t=>({id:t.id,name:t.name,score:t.score,result:s.answers[t.id]||{parts:[],total:0,breakdown:{}}}))});emit('reveal');s.nextAt=(s.settings.autoHost||s.settings.autoNext)&&!s.chainVote?now+1000*(s.settings.autoNextSeconds||8):0;};
+  const inChain=chain?new Set(s.teams.filter(team=>!team.eliminated).map(team=>team.id)):null;
+  s.pending={};s.phase='reveal';s.buzz=null;s.history.push({index:s.index,bingoProgressions:bingo?s.bingoProgressions:undefined,survivalRound:survival?s.survivalRound:undefined,question:{id:q.id,trackId:q.trackId,year:q.year,genre:q.genre,target:q.target,duration:q.duration,prompt:q.prompt,title:q.title,artist:q.artist,answer:q.answer,provider:q.provider,link:q.link,explanation:q.explanation,credit:q.credit,theme:q.theme},results:s.teams.filter(t=>(!eligible||eligible.has(t.id))&&(!inChain||inChain.has(t.id))).map(t=>({id:t.id,name:t.name,score:t.score,result:s.answers[t.id]||{parts:[],total:0,breakdown:{}}}))});emit('reveal');s.nextAt=(s.settings.autoHost||s.settings.autoNext)&&!s.chainVote?now+1000*(s.settings.autoNextSeconds||8):0;};
  const continueRound=()=>{s.buzz=null;if(s.settings.resume==='manual'){s.phase='paused';}else{s.phase='playing';s.startAt=now;s.endAt=now+s.remaining;}};
  if(action.type==='play'&&['lobby','ready'].includes(s.phase)&&q&&(!(survival||chain)||s.teams.length>=(chain?3:2))){
   if(timeline&&s.phase==='lobby'){
@@ -305,8 +471,8 @@ export function applyAction(game, action, now=Date.now()) {
  else if(action.type==='buzz'&&isBuzzer(s)&&s.phase==='playing'&&now>=s.startAt&&now<s.endAt&&s.teams.some(t=>t.id===action.team)&&!s.blocked.includes(action.team)&&(s.cooldowns[action.team]||0)<=now){s.buzz=action.team;s.remaining=s.endAt-now;s.audioElapsed=(s.audioElapsed||0)+Math.max(0,now-s.startAt);s.phase='buzzed';emit('buzz',{team:action.team});}
  else if(action.type==='listen-more'&&isProgressive(s,q)&&['playing','paused'].includes(s.phase)&&now>=s.startAt&&(s.phase==='paused'||now<s.endAt)&&(s.listenStep||0)<LISTEN_STEPS.length-1){s.listenStep=(s.listenStep||0)+1;s.audioElapsed=0;s.phase='playing';s.startAt=now+1000;s.endAt=s.startAt+(q.duration||s.settings.duration)*1000;s.blocked=[];s.cooldowns={};for(const r of Object.values(s.answers))r.attempts=0;emit('listen');}
  else if(action.type==='judge'&&s.phase==='buzzed'){
-  const id=s.buzz;if(action.correct){const wanted=targets(q),requested=action.part&&action.part!=='both'?[action.part]:wanted;const fresh=requested.filter(p=>wanted.includes(p)&&!s.claimed[p]);if(!fresh.length)return game;for(const p of fresh){award(id,p);s.claimed[p]=id;}if(wanted.every(p=>s.claimed[p])){reveal();s.event.type='correct';s.event.team=id;}else{continueRound();emit('partial',{team:id});}}
-  else{if(s.settings.rebuzz==='round')s.blocked.push(id);else if(s.settings.rebuzz!=='none')s.cooldowns[id]=now+Number(s.settings.rebuzz)*1000;if(s.blocked.length>=s.teams.length){if(isProgressive(s,q)&&(s.listenStep||0)<LISTEN_STEPS.length-1){s.buzz=null;s.phase='paused';emit('wrong');}else reveal();}else{continueRound();emit('wrong');}}
+  const id=s.buzz;if(action.correct){const wanted=targets(q),requested=action.part&&action.part!=='both'?[action.part]:wanted;const fresh=requested.filter(p=>wanted.includes(p)&&!s.claimed[p]);if(!fresh.length)return game;const result=roundResult(id);result.attempts++;result.responded=true;result.elapsed=s.audioElapsed;result.remaining=s.remaining;for(const p of fresh){award(id,p);s.claimed[p]=id;}if(wanted.every(p=>s.claimed[p])){reveal();s.event.type='correct';s.event.team=id;}else{continueRound();emit('partial',{team:id});}}
+  else{const result=roundResult(id);result.attempts++;result.responded=true;if(s.settings.rebuzz==='round')s.blocked.push(id);else if(s.settings.rebuzz!=='none')s.cooldowns[id]=now+Number(s.settings.rebuzz)*1000;if(s.blocked.length>=s.teams.length){if(isProgressive(s,q)&&(s.listenStep||0)<LISTEN_STEPS.length-1){s.buzz=null;s.phase='paused';emit('wrong');}else reveal();}else{continueRound();emit('wrong');}}
  }
  else if(bingo&&action.type==='bingo-mark'&&s.phase==='playing'&&now>=s.startAt&&now<s.endAt){
   const card=s.teams.find(t=>t.id===action.team)?.bingo;
@@ -359,7 +525,7 @@ export function applyAction(game, action, now=Date.now()) {
   if(s.musicGame==='blind'&&s.input==='qcm')r.selectedChoice=action.answer;
   if(q.target==='coverChoice')r.selectedCover=action.answer;
   if(['coversQuiz','soundtrack'].includes(q.target))r.selectedArtist=action.answer;
-  r.attempts++;r.elapsed??=(s.audioElapsed||0)+now-s.startAt;for(const part of wanted){if(r.parts.includes(part))continue;const text=String(values[part]||'').trim().slice(0,180);if(!text)continue;const expected=part==='title'?q.title:part==='artist'?q.artist:q.answer;const aliases=part==='artist'?(q.artistAliases||[]):part==='title'?(q.titleAliases||[]):(q.aliases||[]);if(s.input==='qcm'?normalize(text)===normalize(expected):matches(text,expected,aliases))award(id,part);}
+  r.attempts++;r.responded=true;r.remaining=s.endAt-now;r.elapsed??=(s.audioElapsed||0)+now-s.startAt;for(const part of wanted){if(r.parts.includes(part))continue;const text=String(values[part]||'').trim().slice(0,180);if(!text)continue;const expected=part==='title'?q.title:part==='artist'?q.artist:q.answer;const aliases=part==='artist'?(q.artistAliases||[]):part==='title'?(q.titleAliases||[]):(q.aliases||[]);if(s.input==='qcm'?normalize(text)===normalize(expected):matches(text,expected,aliases))award(id,part);}
   const wasCorrect=r.correct;
   r.correct=r.parts.length>0;
   if(r.correct&&!wasCorrect)r.elapsed=(s.audioElapsed||0)+now-s.startAt;

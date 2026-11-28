@@ -5,7 +5,7 @@ import {changeRoulette,rouletteView,rouletteAdvanceAt} from './roulette.js';
 import {tyrolienScreen,mountainPanel,mountainMoment} from './tyrolien-ui.js';
 import {openMusicLibrary} from './music-library.js';
 import {THEMES,CHALLENGES,musicQuestions,shuffle,SPECIAL_TRACKS,matchSpecialTrack,specialQuestions} from './catalog.js';
-import {randomUUID,createGame,applyAction,publicGame,DEMO,targets,gameSettings,isBuzzer,isProgressive,LISTEN_STEPS,audioRemaining,listeningLimit,roundStatistics,bingoProgress,bingoGrandWinners,BINGO_CARD_SIZE} from './engine.js';
+import {randomUUID,createGame,applyAction,publicGame,DEMO,targets,gameSettings,isBuzzer,isProgressive,LISTEN_STEPS,audioRemaining,listeningLimit,roundStatistics,bingoProgress,bingoGrandWinners,BINGO_CARD_SIZE,competitionRanking,eveningGamePoints,roundProgress,musicPerformance,eveningDistinctions,saveGameSnapshot} from './engine.js';
 import qrcode from './qrcode.js';
 import {SoundDesk,storeBlob,getBlob} from './audio.js';
 import {normalizeShowCue,SHOW_EFFECTS} from './spectacle.js';
@@ -206,7 +206,7 @@ function saveConfig(){
  }
 }
 function brand(){return '<button class="brand" data-action="home" aria-label="Déclic Party, accueil"><span>ϟ</span>Déclic Party</button>';}
-function header(){return `<header class="topbar">${brand()}<nav class="nav" aria-label="Navigation principale"><button class="${['home','setup','studio'].includes(view)?'active':''}" data-action="home">Accueil</button><button class="${view==='catalog'?'active':''}" data-action="v2-catalog">Les musiques</button><button class="${view==='help'?'active':''}" data-action="help">Comment jouer</button></nav></header>`;}
+function header(){return `<header class="topbar">${brand()}<nav class="nav" aria-label="Navigation principale"><button class="${['home','setup','studio'].includes(view)?'active':''}" data-action="home">Accueil</button><button class="${view==='catalog'?'active':''}" data-action="v2-catalog">Les musiques</button><button class="${view==='archives'?'active':''}" data-action="evening-archives">Historique</button><button class="${view==='help'?'active':''}" data-action="help">Comment jouer</button></nav></header>`;}
 function footer(){return '<footer class="footer"><span>De la musique et des déclics.</span><span>Déclic ! · Le studio de vos soirées · v0.5</span></footer>';}
 function savedMusicGame(key){
  const saved=read(key,null);
@@ -315,9 +315,9 @@ function render(){
   .filter(selector=>a.querySelector(selector)?.open);
  const focusedSetupButton=a.querySelector('.game-setup button[data-action]:focus-visible');
  if(role==='host'&&['setup','studio','history'].includes(view)){
-  renderDesk(a,view==='setup'?setupScreen():view==='history'?historyScreen():studio());
+  renderDesk(a,view==='setup'?setupScreen():view==='history'?historyScreen():view==='archives'?archiveScreen():studio());
  }else{
-  a.innerHTML=`<div class="shell">${header()}${view==='catalog'?catalogScreen():view==='history'?historyScreen():view==='library'?library():view==='help'?help():view==='settings'?settingsScreen():studio()}${footer()}</div>`;
+  a.innerHTML=`<div class="shell">${header()}${view==='catalog'?catalogScreen():view==='history'?historyScreen():view==='archives'?archiveScreen():view==='library'?library():view==='help'?help():view==='settings'?settingsScreen():studio()}${footer()}</div>`;
  }
  for(const selector of openRegieDetails){const details=a.querySelector(selector);if(details)details.open=true;}
  if(view==='setup'&&focusedSetupButton){
@@ -588,7 +588,7 @@ function vinylPhone(q){
 }
 function publishCeremony(open){
  if(game?.mode==='usb'){
-  const ranking=open?Object.values(usbEveningTotals(game)).sort((a,b)=>b.points-a.points):null;
+  const ranking=open?competitionRanking(Object.values(usbEveningTotals(game)),row=>row.points):null;
   const message={type:'ceremony',ranking,animation:showAnimations};
   channel.postMessage(message);showCeremony(message);return;
  }
@@ -617,31 +617,32 @@ function showCeremony(message){
  }
 }
 function ceremonyMarkup(){
- const played=ceremony.filter(row=>row.played);
+ const played=competitionRanking(ceremony.filter(row=>row.played),row=>row.points);
  const fastest=[...played].filter(row=>Number.isFinite(row.best)).sort((a,b)=>a.best-b.best)[0];
  const correct=[...played].sort((a,b)=>b.correct-a.correct)[0];
  return `<main class="tv-shell evening-ceremony"><section class="stage"><div class="stage-content"><h1>Le podium de la soirée</h1>
- <div class="podium">${played.slice(0,3).map((row,index)=>`<div><span>${['🏆','🥈','🥉'][index]}</span>${avatarBadge(row)}<strong>${esc(row.name)}</strong><span>${row.points} points</span></div>`).join('')}</div>
+ <div class="podium">${played.slice(0,3).map((row,index)=>`<div><span>${['🏆','🥈','🥉'][row.rank-1]||''}</span>${avatarBadge(row)}<strong>${esc(row.name)}</strong><span>${row.points} points</span></div>`).join('')}</div>
  ${fastest?`<p>Réponse éclair · ${esc(fastest.name)} · ${(fastest.best/1000).toFixed(2)} s</p>`:''}
  ${correct?`<p>Meilleur total de bonnes réponses · ${esc(correct.name)} · ${correct.correct}</p>`:''}
  <p>${played.reduce((total,row)=>total+row.correct,0)} bonnes réponses cumulées</p></div></section>
- <details class="control"><summary>Classement général</summary>${played.map((row,index)=>`<div class="leaderrow"><span>${index+1}</span><span>${esc(row.name)}</span><strong>${row.points} pts</strong></div>`).join('')}</details></main>`;
+ <details class="control"><summary>Classement général</summary>${played.map(row=>`<div class="leaderrow"><span>${row.rank}</span><span>${esc(row.name)}</span><strong>${row.points} pts</strong></div>`).join('')}</details></main>`;
 }
 function eveningRanking(){
  if(role==='player'){
   const stats=game?.eveningPersonal;
   if(!stats?.played)return '';
   return `<details class="control"><summary>Mes statistiques de la soirée</summary><p>Place ${stats.rank} · ${stats.points} pts · ${stats.games} jeu(x)</p>
-  <p>${stats.correct} bonnes réponses · ${Math.round(100*stats.correct/stats.played)} % de réussite</p>
+  <p>${stats.correct} bonnes · ${stats.partial??0} partielles · ${stats.wrong??0} incorrectes · ${stats.absent??0} absences</p>
+  <p>${Math.round(100*stats.correct/stats.played)} % de réussite</p>
   ${stats.best===null?'':`<p>Meilleur temps · ${(stats.best/1000).toFixed(2)} s</p>`}
-  <p>${stats.jokersEarned} joker(s) obtenu(s) · ${stats.jokersUsed} utilisé(s)</p></details>`;
+  <p>${stats.jokersEarned??0} joker(s) obtenu(s) · ${stats.jokersUsed??0} utilisé(s)</p>${game.personalAwards?.map(award=>`<p><strong>${esc(award.title)}</strong> · ${esc(award.detail)}</p>`).join('')||''}</details>`;
  }
  const ranking=role==='host'&&game?.mode==='usb'?Object.values(usbEveningTotals(game)).sort((a,b)=>b.points-a.points):game?.eveningRanking;
  if(!ranking?.some(row=>row.played))return '';
  const podium=role==='tv';
  const rows=ranking.slice(0,podium?10:undefined);
  return `<details class="control" ${podium&&['paused','finished'].includes(game.phase)?'open':''}><summary>Classement de la soirée</summary>
- ${rows.map((row,index)=>`<div class="leaderrow"><span>${index+1}</span><span>${esc(row.name)}</span><span>${row.correct}/${row.played} bonnes · ${row.played?Math.round(100*row.correct/row.played):0} %</span><strong>${row.points} pts</strong></div>`).join('')}</details>`;
+ ${rows.map((row,index)=>`<div class="leaderrow"><span>${row.rank??index+1}</span><span>${esc(row.name)}</span><span>${row.correct}/${row.played} bonnes · ${row.played?Math.round(100*row.correct/row.played):0} %</span><strong>${row.points} pts</strong></div>`).join('')}</details>`;
 }
 function randomTeamScores(){
  if(!game?.randomTeams?.length)return '';
@@ -860,9 +861,49 @@ function deskAnswerCount(){
  const answers=game?.answers||{};
  return {total:active.length,received:active.filter(player=>answers[player.id]?.attempts>0).length};
 }
+function musicOverview(music){
+ const dimensions=[['artist','Artistes'],['genre','Genres'],['decade','Décennies']];
+ return `<details class="settings-details"><summary>Connaissances musicales</summary>
+ ${dimensions.map(([key,label])=>`<h3>${label}</h3><p>${music[key].sort((a,b)=>b.total-a.total).slice(0,8).map(row=>`${esc(row.name)} · ${row.correct}/${row.total}`).join(' · ')||'Données insuffisantes'}</p>`).join('')}
+ ${music.track.filter(row=>row.total>=4).length?`<h3>Titres</h3><p>${music.track.filter(row=>row.total>=4).sort((a,b)=>b.rate-a.rate).slice(0,3).map(row=>`${esc(row.name)} · ${row.correct}/${row.total}`).join(' · ')}</p>
+ <p>Plus difficiles · ${music.track.filter(row=>row.total>=4).sort((a,b)=>a.rate-b.rate).slice(0,3).map(row=>`${esc(row.name)} · ${row.correct}/${row.total}`).join(' · ')}</p>`:''}</details>`;
+}
+function assistantCards(){
+ if(!game)return [];
+ const cards=[];
+ const history=game.history||[], round=history.at(-1);
+ if(game.phase==='reveal'&&round){
+  const summary=showRoundSummary(round), total=round.results.length;
+  const progression=roundProgress(history);
+  const leader=progression[0];
+  const leaders=progression.filter(row=>row.rank===1);
+  if(total>=4&&summary.complete/total<=.3)cards.push(['difficulty',{title:'Manche difficile',detail:`${summary.complete} bonnes réponses sur ${total}. Celle-là vous a donné du fil à retordre !`,effect:'suspense'}]);
+  if(leaders.length===1&&leader.previousRank>1)cards.push(['leader',{title:'Changement de leader',detail:`${leader.name} passe de la place ${leader.previousRank} à la première.`,effect:'applause'}]);
+  const rising=[...progression].sort((a,b)=>b.gain-a.gain)[0];
+  if(rising?.gain>=2)cards.push(['rising',{title:'Belle remontée',detail:`${rising.name} gagne ${rising.gain} places.`,effect:'applause'}]);
+  const remaining=total-summary.complete-summary.partial-summary.wrong;
+  if(remaining>=3)cards.push(['private',{title:'Relance privée',detail:'Invitez tout le groupe à tenter une réponse à la prochaine manche, ou ajustez la difficulté au prochain jeu.',private:true}]);
+ }
+ if(game.phase==='finished'){
+  const ranking=game.mode==='usb'?competitionRanking(Object.values(usbEveningTotals(game)),row=>row.points):game.eveningRanking||[];
+  const awards=game.eveningAwards||eveningDistinctions(saveGameSnapshot(game),ranking);
+  const best=sorted()[0];
+  if(best)cards.push(['game-summary',{title:'Bilan de la partie',detail:`${game.mountain?.roundsPlayed??history.length} manches. ${best.name} termine avec ${best.score} points de jeu.`}]);
+  if(ranking.some(row=>row.games))cards.push(['evening-summary',{title:'Bilan de la soirée',detail:`${ranking.filter(row=>row.games).length} participants classés. ${ranking[0].name} · ${ranking[0].points} points de soirée.`}]);
+  awards.forEach((award,i)=>cards.push(['award-'+i,{title:award.title,detail:`${award.name} · ${award.detail}`,effect:'applause'}]));
+ }
+ return cards;
+}
+function deskAssistant(){
+ const cards=assistantCards();
+ return `<h2>Assistant local</h2>${cards.length?cards.map(([id,card])=>`<section class="desk-stat"><h3>${esc(card.title)}</h3><p>${esc(card.detail)}</p>
+ ${card.private?'':`<button class="btn ghost" data-action="assistant-preview" data-value="${id}">Aperçu TV</button>`}</section>`).join(''):'<p>Les suggestions apparaissent à la révélation et au bilan.</p>'}`;
+}
 function deskStatistics(){
+ const progress=roundProgress(game?.history||[]).filter(row=>row.gain>0).sort((left,right)=>right.gain-left.gain).slice(0,5);
+ const music=musicPerformance(game?.history||[]);
  const cards=deskBroadcastCards();
- return `<h2>Statistiques</h2>${cards.length?cards.map(([id,card])=>`<section class="desk-stat">
+ return `<h2>Statistiques</h2>${progress.length?`<p>${progress.map(row=>`${esc(row.name)} · +${row.gain} place(s)`).join(' · ')}</p>`:''}${musicOverview(music)}${cards.length?cards.map(([id,card])=>`<section class="desk-stat">
   <h3>${esc(card.title)}</h3><p>${esc(card.detail)}</p>
   <button class="btn ghost" data-action="show-card" data-value="${id}">Diffuser à la TV</button></section>`).join(''):'<p>Les statistiques s’affichent pendant la manche.</p>'}
   ${game&&!game.settings?.autoHost?hostRoundStatistics():''}`;
@@ -875,7 +916,7 @@ function renderDeskSide(){
  }
  let markup;
  if(deskTab==='stats')markup=deskStatistics();
- else if(deskTab==='assistant')markup='<h2>Assistant</h2><p>Le futur assistant de l’animateur apparaîtra ici.</p>';
+ else if(deskTab==='assistant')markup=deskAssistant();
  else if(deskTab==='teams'){
   markup=`<button class="btn ghost" data-action="desk-tab" data-value="participants">Retour aux participants</button>
    ${teamAdmin()||'<p>La composition des équipes est disponible avant la partie et entre deux jeux.</p>'}
@@ -887,8 +928,8 @@ function renderDeskSide(){
   const roundLive=['playing','paused','reveal'].includes(game?.phase);
   const {received,total}=deskAnswerCount();
   markup=`<div class="desk-group-title"><h2>Participants</h2>${phoneMode?`<button class="btn ghost" data-action="desk-tab" data-value="teams">Équipes</button>`:''}</div>
-   <p class="desk-presence">${players.length} inscrit${players.length===1?'':'s'}${phoneMode?` · ${present.size} connecté${present.size===1?'':'s'}`:''}</p>
-   ${roundLive?`<p class="desk-answer-count"><strong>${received} / ${total}</strong> réponses · ${total-received} restantes</p>`:''}
+   <p class="desk-presence">${players.length} inscrit${players.length===1?'':'s'}${phoneMode?` · ${present.size} connecté${present.size===1?'':'s'} · ${players.filter(player=>!present.has(player.id)).length} déconnectés`:''}</p>
+   ${roundLive?`<p class="desk-answer-count">${total} en lice · <strong>${received} / ${total}</strong> réponses · ${total-received} restantes</p>`:''}
    ${players.length?`<ul class="desk-players">${players.map(player=>{
     const responded=game?.answers?.[player.id]?.attempts>0;
     const status=phoneMode&&!present.has(player.id)?'Déconnecté':player.eliminated?'Éliminé':
@@ -908,6 +949,7 @@ function deskBroadcastCards(){
  const results=game.history?.at(-1);
  if(['reveal','finished'].includes(game.phase)&&results?.results?.length){
   const summary=showRoundSummary(results);
+  if(summary.mean!==null)cards.push(['timing',{title:'Temps des bonnes réponses',detail:`Moyenne ${seconds(summary.mean)} · Médiane ${seconds(summary.median)}`}]);
   cards.push(['round',{title:'Résultats de la manche',detail:`${summary.complete} bonnes · ${summary.wrong} mauvaises · ${summary.partial} partielles · ${summary.absent} absences`}]);
   if(summary.fastest.length){
    cards.push(['fastest',{title:summary.fastest.length===1?'L’Éclair':'Les plus rapides',detail:`${summary.fastest.map(player=>player.name).join(' · ')} · ${seconds(summary.fastest[0].result.elapsed)}`}]);
@@ -1574,14 +1616,14 @@ window.addEventListener('online',()=>{
  void flushUSB();
 });
 function usbEveningTotals(state){
- const totals={...state.eveningTotals};
+ const totals={...state.eveningTotals}, gamePoints=eveningGamePoints(state);
  if(!state.history?.length)return totals;
  for(const stats of roundStatistics(state.history,state.teams)){
   const prior=totals[stats.id]||{};
   const participant=state.teams.find(team=>team.id===stats.id);
   totals[stats.id]={id:stats.id,name:stats.name,avatar:participant.avatar,
-   games:(prior.games||0)+1,points:(prior.points||0)+participant.score,
-   correct:(prior.correct||0)+stats.correct,played:(prior.played||0)+state.history.length,
+   games:(prior.games||0)+1,points:(prior.scoringVersion===1?prior.points||0:0)+(gamePoints[stats.id]||0),scoringVersion:1,rawPoints:(prior.rawPoints??prior.points??0)+participant.score,
+   correct:(prior.correct||0)+stats.correct,played:(prior.played||0)+stats.played,
    best:Math.min(prior.best??Infinity,stats.best??Infinity)};
   if(!Number.isFinite(totals[stats.id].best))totals[stats.id].best=null;
  }
@@ -1757,6 +1799,8 @@ async function launch(){if(busy)return;busy=true;catalogMessage='';audioError=''
   state.showAnimations=showAnimations;
   state.showTheme=showTheme;
   state.eveningTotals=game?.mode==='usb'?usbEveningTotals(game):{};
+  state.completedGames=game?.mode==='usb'?saveGameSnapshot(game):[];
+  state.playlist=selectedPlaylists.map(id=>playlistIndex().get(id)?.name||id);
   queueUSB(state);openUSB(state);recordLaunch();return;
  }
  if(usbQueue.length)throw Error('Attendez la sauvegarde USB avant de changer de mode.');
@@ -1770,7 +1814,7 @@ async function launch(){if(busy)return;busy=true;catalogMessage='';audioError=''
  const clean=questions.map(({mediaKey,mediaType,notes,audioUrl,...q})=>q);
  const existing={room:activeEvening.code,token:activeEvening.token};
  const effect=bingo||special?'normal':config.effect;
- const data=await requestRoom({...existing,questions:clean,mountain:mountain?{levels:config.mountainLevels,bonuses:config.mountainAttacks!=='off'}:undefined,input:config.input,musicGame:config.musicGame,showAnimations,showTheme,teamPlay:sharedTeamsSelected(),randomTeamCount:sharedTeamsSelected()?game?.teamPlan?.groups.length||2:0,settings:{...config.settings,autoHost:config.settings.autoHost&&automaticChoicesAvailable(),survival,bingo,chain,timelineMode:timelineAnchor?(config.timelineMode||'collective'):undefined,timelineAnchor,listening:bingo||chain?'continuous':config.settings.listening},effect});
+ const data=await requestRoom({...existing,questions:clean,playlist:selectedPlaylists.map(id=>playlistIndex().get(id)?.name||id),mountain:mountain?{levels:config.mountainLevels,bonuses:config.mountainAttacks!=='off'}:undefined,input:config.input,musicGame:config.musicGame,showAnimations,showTheme,teamPlay:sharedTeamsSelected(),randomTeamCount:sharedTeamsSelected()?game?.teamPlan?.groups.length||2:0,settings:{...config.settings,autoHost:config.settings.autoHost&&automaticChoicesAvailable(),survival,bingo,chain,timelineMode:timelineAnchor?(config.timelineMode||'collective'):undefined,timelineAnchor,listening:bingo||chain?'continuous':config.settings.listening},effect});
  if(activeEvening.usb?.state){
   const {revision}=await eveningRequest('PUT',{code:activeEvening.code,revision:usbRevision,id:randomUUID(),state:null});
   usbRevision=revision;activeEvening.usb={state:null,revision};
@@ -1994,6 +2038,29 @@ document.addEventListener('click',async e=>{const b=e.target.closest('[data-acti
   if(v==='podium'&&['lobby','finished'].includes(game?.phase))publishCeremony(!ceremony);
   else if(v==='podium')publishShowCue(v,{detail:sorted().slice(0,3).map(player=>player.name).join(' · ')});
   else publishShowCue(v);
+  return;
+ }
+ if(act==='evening-archives'&&role==='host'){
+  const {history}=await hostRequest('/api/evening?history=1');
+  archivedEvenings=history;selectedArchive=null;view='archives';render();return;
+ }
+ if(act==='archive-open'&&role==='host'){
+  const {archive}=await hostRequest('/api/evening?archive='+encodeURIComponent(v));
+  selectedArchive=archive;render();return;
+ }
+ if(act==='archive-export'&&role==='host'&&selectedArchive){
+  const link=document.createElement('a');
+  link.href=URL.createObjectURL(new Blob([JSON.stringify(selectedArchive,null,2)],{type:'application/json'}));
+  link.download='declic-soiree-'+selectedArchive.code+'.json';link.click();
+  setTimeout(()=>URL.revokeObjectURL(link.href),1000);return;
+ }
+ if(['assistant-preview','assistant-air','assistant-effect'].includes(act)&&role==='host'){
+  const card=new Map(assistantCards()).get(v);
+  if(!card||card.private)return;
+  if(act==='assistant-air'){publishShowCue('card',card);closeModal();}
+  else if(act==='assistant-effect'&&card.effect){publishShowCue(card.effect);closeModal();}
+  else modal(`<h2>${esc(card.title)}</h2><p>${esc(card.detail)}</p><button class="btn primary" data-action="assistant-air" data-value="${esc(v)}">Diffuser à la TV</button>
+   ${card.effect?`<button class="btn ghost" data-action="assistant-effect" data-value="${esc(v)}">${esc(SHOW_EFFECTS[card.effect])}</button>`:''}<button class="btn ghost" data-action="close-modal">Fermer</button>`);
   return;
  }
  if(act==='show-card'&&role==='host'){
@@ -2310,6 +2377,22 @@ document.addEventListener('keydown',e=>{
 function catalogScreen(){return `<main class="library"><div class="row"><div><span class="eyebrow">LA BOÎTE À TUBES</span><h1>Trouvez les sons de votre soirée.</h1><p class="help">Recherche de titres et de playlists Deezer. Les extraits sont écoutés à la demande.</p></div><div class="row"><button class="btn primary" data-action="v2-use-catalog">Utiliser ma sélection →</button></div></div><form id="catalog-search" class="catalog-search"><input name="query" placeholder="Un artiste, un titre…" aria-label="Rechercher des musiques" value="${esc(catalogQuery)}" minlength="2" required maxlength="120"><select name="type" aria-label="Type de recherche"><option value="tracks" ${catalogSearchType==='tracks'?'selected':''}>Titres</option><option value="playlists" ${catalogSearchType==='playlists'?'selected':''}>Playlists</option></select><button class="btn primary" ${busy?'disabled':''}>Rechercher</button></form><form id="playlist-import" class="playlist-import"><label for="playlist-url">Ou collez le lien d’une playlist Deezer publique</label><div class="row"><input id="playlist-url" name="url" placeholder="https://www.deezer.com/fr/playlist/…" required><button class="btn ghost" ${busy?'disabled':''}>Importer</button></div></form>${catalogMessage?`<div class="catalog-message" role="status">${esc(catalogMessage)}</div>`:''}<div class="catalog-meta"><strong>${esc(catalogPool.name||'Ma sélection')} · ${catalogPool.tracks.length} titre(s)</strong><div class="row"><button class="textbtn" data-action="v2-add-all" ${!catalogResults.tracks?.length?'disabled':''}>＋ Tous les résultats</button><button class="textbtn" data-action="v2-clear-pool" ${!catalogPool.tracks.length?'disabled':''}>Vider la sélection</button></div></div><div id="catalog-player" class="callout hidden" role="status"><span></span> <button class="btn ghost" data-action="v2-stop-preview">■ Arrêter l’écoute</button></div><div class="track-list">${(catalogSearchType==='playlists'?catalogResults.playlists:catalogResults.tracks||[]).map(t=>catalogSearchType==='playlists'?`<article class="track-row"><img src="${esc(t.artwork||'')}" alt="" loading="lazy"><div><strong>${esc(t.title)}</strong><small>${esc(t.author||'')} · ${t.tracks||'?'} titres</small></div><button class="btn ghost" data-action="v2-playlist" data-value="${esc(t.id)}">Importer</button></article>`:trackRow(t)).join('')}</div>${!catalogResults.tracks?.length&&!catalogResults.playlists?.length?'<div class="empty">Recherchez un artiste ou chargez vos thèmes depuis le studio.<br>Votre sélection est conservée dans ce navigateur.</div>':''}${catalogPool.tracks.length?`<div class="sectiontitle"><h2>Dans votre sélection</h2><span class="badge">${catalogPool.tracks.length} TITRES</span></div><div class="track-list">${catalogPool.tracks.map(t=>trackRow(t,true)).join('')}</div>`:''}<div class="callout">La connexion musicale active est Deezer. Spotify et Apple Music ne sont pas connectés dans cette version. Les fichiers audio personnels restent disponibles dans « Mes questions ».</div></main>`;}
 function trackRow(t,inPool=false){const added=catalogPool.tracks.some(v=>v.id===t.id);return `<article class="track-row"><img src="${esc(t.artwork||'')}" alt="" loading="lazy"><div><strong>${esc(t.title)}</strong><small>${esc(t.artist)} ${t.explicit?'<b class="explicit">E</b>':''}</small><a href="${esc(t.link)}" target="_blank" rel="noopener noreferrer">Sur Deezer ↗</a></div><button class="btn ghost" data-action="v2-preview" data-value="${esc(t.id)}" aria-label="Écouter ${esc(t.title)}">▶</button><button class="btn ${inPool?'ghost':added?'good':'primary'}" data-action="${inPool?'v2-remove-track':'v2-add-track'}" data-value="${esc(t.id)}" ${!inPool&&added?'disabled':''}>${inPool?'Retirer':added?'✓ Ajouté':'＋ Ajouter'}</button></article>`;}
 function scoreBreakdown(r){const labels={title:'Titre',artist:'Artiste',answer:'Réponse',speed:'Rapidité',streak:'Série'};return `<div class="score-breakdown">${Object.entries(r.breakdown||{}).filter(([,v])=>v>0).map(([id,v])=>`<span>${labels[id]} <b>+${v}</b></span>`).join('')}</div>`;}
+let archivedEvenings=[],selectedArchive=null;
+function archiveScreen(){
+ const saved=selectedArchive;
+ const standings=(rows,label)=>rows?.length?`<h2>${label}</h2><ol>${rows.filter(row=>row.played).map(row=>`<li>${row.rank} · ${esc(row.name)} · ${row.points} pts</li>`).join('')}</ol>`:'';
+ return `<main class="library"><h1>Historique des soirées</h1>${saved?`<button class="btn ghost" data-action="evening-archives">Retour à la liste</button>
+ <button class="btn ghost" data-action="archive-export">Exporter cette soirée</button>
+ <h2>Soirée du ${esc(new Date(saved.endedAt).toLocaleString('fr-FR'))}</h2>
+ ${standings(saved.ranking,'Classement sur téléphone')}${standings(saved.usbRanking,'Classement USB')}
+ <h2>Jeux et playlists</h2>${saved.games.map(game=>`<details class="round-history"><summary>${esc(MUSIC_GAMES.find(([id])=>id===game.game)?.[1]||game.game)} · ${game.rounds.length} manches</summary>
+ <p>${esc(game.playlist?.join(' · ')||'Sélection de la soirée')}</p>
+ ${game.participants.slice().sort((a,b)=>b.score-a.score).map(player=>`<p>${esc(player.name)} · ${player.score} pts de jeu</p>`).join('')}
+ ${game.teams?.length?`<p>Équipes · ${game.teams.map(team=>esc(team.name)).join(', ')}</p>`:''}</details>`).join('')||'<p>Aucune manche archivée.</p>'}
+ <h2>Distinctions</h2>${saved.distinctions?.map(item=>`<p><strong>${esc(item.title)}</strong> · ${esc(item.name)} · ${esc(item.detail)}</p>`).join('')||'<p>Aucune distinction pour cette soirée.</p>'}
+ ${saved.music?musicOverview(saved.music):''}`:
+ archivedEvenings.map(item=>`<p><button class="btn ghost" data-action="archive-open" data-value="${esc(item.code)}">${esc(new Date(item.endedAt).toLocaleString('fr-FR'))} · ${item.games} jeu(x)</button></p>`).join('')||'<p>Aucune soirée archivée.</p>'}</main>`;
+}
 function historyScreen(){return `<main class="library"><div class="row"><div><span class="eyebrow">CHAQUE DÉCLIC COMPTE</span><h1>Le bilan de la soirée.</h1></div><button class="btn ghost right" data-action="v2-return">Revenir au jeu</button><button class="btn primary" data-action="v2-export-results">Exporter le bilan</button></div><div class="results-leaders">${leaderboard()}</div>${(game?.history||[]).map(h=>`<details class="round-history" open><summary><span class="step">${h.index+1}</span>${esc(h.question.title||h.question.answer)}${h.question.artist?' · '+esc(h.question.artist):''}</summary>${questionExplanation(h.question)}${h.results.map(t=>`<div class="history-team"><strong>${esc(t.name)}</strong><span>+${t.result.total||0} pts</span>${scoreBreakdown(t.result)}</div>`).join('')}</details>`).join('')||'<div class="empty">Le détail sera disponible après la première révélation.</div>'}</main>`;}
 function persistPool(){write('declic.musicPool',catalogPool);}
 async function prepareLibrarySelection(selection){
@@ -2354,7 +2437,7 @@ async function resolvePlaylistSelection(selection,{allowPartial=false}={}){
    if(!hit||!config.explicit&&hit.explicit)return null;
    if(settings.musicGame==='covers')await checkVinylImage(hit.artwork);
    await checkPreview(hit.preview);
-   return {...hit,referenceId:candidate.id,year:candidate.year,work:candidate.work,entry:specialEntry(candidate)};
+   return {...hit,referenceId:candidate.id,year:candidate.year,genre:candidate.genre,work:candidate.work,entry:specialEntry(candidate)};
   }));
   for(const result of checked){
    const track=result.status==='fulfilled'&&result.value;

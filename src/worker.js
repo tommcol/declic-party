@@ -4,7 +4,7 @@ import {changeRoulette,rouletteView,rouletteIndex,rouletteAdvanceAt} from '../pu
 import {normalizeShowCue} from '../public/spectacle.js';
 import {applyTyrolien,tyrolienView} from './tyrolien-room.js';
 import { DurableObject } from 'cloudflare:workers';
-import {returnToLobby,createGame,applyAction,publicGame,normalizeQuizCredit,roundStatistics,BINGO_CARD_SIZE} from '../public/engine.js';
+import {returnToLobby,createGame,applyAction,publicGame,normalizeQuizCredit,roundStatistics,BINGO_CARD_SIZE,competitionRanking,eveningGamePoints,saveGameSnapshot,eveningDistinctions,musicPerformance} from '../public/engine.js';
 import {MusicLibrary,libraryRouteParams} from './library.js';
 export {MusicLibrary};
 import {musicRoute,libraryPreviews} from './catalog.js';
@@ -30,6 +30,7 @@ async function eveningRoute(req,env,url){
   catch{return json({error:'Demande invalide ou trop volumineuse.'},400);}
   if(!data||typeof data!=='object')return json({error:'Demande invalide.'},400);
  }
+ if(method==='GET')data={history:url.searchParams.has('history'),archive:url.searchParams.get('archive')};
  const result=await env.ROOMS.getByName('host:'+await digest(credential)).evening(method,data);
  return json(result.body,result.status);
 }
@@ -139,11 +140,11 @@ export default {
      };
     }
     const allowedTargets=['both','title','artist','cover','artistTitle','coverChoice','timeline','coversQuiz','soundtrack'];
-    data.questions=data.questions.map(q=>({id:String(q.id).slice(0,80),universe:q.target==='soundtrack'?q.universe:'music',cutAt:q.kind==='lyrics'?q.cutAt:undefined,kind:['audio','image','question','lyrics'].includes(q.kind)?q.kind:'question',prompt:q.prompt,answer:q.answer,explanation:typeof q.explanation==='string'?q.explanation.slice(0,1500):undefined,theme:typeof q.theme==='string'?q.theme.slice(0,80):undefined,credit:normalizeQuizCredit(q.credit),aliases:(Array.isArray(q.aliases)?q.aliases:[]).filter(v=>typeof v==='string').slice(0,15).map(v=>v.slice(0,180)),options:q.options,year:q.target==='timeline'&&Number.isInteger(q.year)?q.year:undefined,timeline:q.target==='timeline'&&Array.isArray(q.timeline)?q.timeline.filter(v=>typeof v==='string').slice(0,3).map(v=>v.slice(0,180)):undefined,optionArtwork:q.target==='coverChoice'?q.optionArtwork:undefined,duration:q.duration,points:q.points,title:typeof q.title==='string'?q.title.slice(0,180):undefined,artist:typeof q.artist==='string'?q.artist.slice(0,180):undefined,titleAliases:(Array.isArray(q.titleAliases)?q.titleAliases:[]).filter(v=>typeof v==='string').slice(0,10).map(v=>v.slice(0,180)),artistAliases:(Array.isArray(q.artistAliases)?q.artistAliases:[]).filter(v=>typeof v==='string').slice(0,10).map(v=>v.slice(0,180)),target:allowedTargets.includes(q.target)?q.target:'title',emoji:typeof q.emoji==='string'?q.emoji.slice(0,80):undefined,artwork:typeof q.artwork==='string'&&/^https:\/\/[^/]+\.dzcdn\.net\//.test(q.artwork)?q.artwork:undefined,link:typeof q.link==='string'&&/^https:\/\/www\.deezer\.com\//.test(q.link)?q.link:undefined,provider:q.provider==='Deezer'?'Deezer':undefined}));
+    data.questions=data.questions.map(q=>({id:String(q.id).slice(0,80),universe:q.target==='soundtrack'?q.universe:'music',cutAt:q.kind==='lyrics'?q.cutAt:undefined,kind:['audio','image','question','lyrics'].includes(q.kind)?q.kind:'question',prompt:q.prompt,answer:q.answer,explanation:typeof q.explanation==='string'?q.explanation.slice(0,1500):undefined,theme:typeof q.theme==='string'?q.theme.slice(0,80):undefined,credit:normalizeQuizCredit(q.credit),aliases:(Array.isArray(q.aliases)?q.aliases:[]).filter(v=>typeof v==='string').slice(0,15).map(v=>v.slice(0,180)),options:q.options,trackId:typeof q.trackId==='string'||Number.isSafeInteger(q.trackId)?String(q.trackId).slice(0,100):undefined,genre:typeof q.genre==='string'?q.genre.slice(0,80):undefined,year:Number.isInteger(q.year)&&q.year>=1900&&q.year<=2100?q.year:undefined,timeline:q.target==='timeline'&&Array.isArray(q.timeline)?q.timeline.filter(v=>typeof v==='string').slice(0,3).map(v=>v.slice(0,180)):undefined,optionArtwork:q.target==='coverChoice'?q.optionArtwork:undefined,duration:q.duration,points:q.points,title:typeof q.title==='string'?q.title.slice(0,180):undefined,artist:typeof q.artist==='string'?q.artist.slice(0,180):undefined,titleAliases:(Array.isArray(q.titleAliases)?q.titleAliases:[]).filter(v=>typeof v==='string').slice(0,10).map(v=>v.slice(0,180)),artistAliases:(Array.isArray(q.artistAliases)?q.artistAliases:[]).filter(v=>typeof v==='string').slice(0,10).map(v=>v.slice(0,180)),target:allowedTargets.includes(q.target)?q.target:'title',emoji:typeof q.emoji==='string'?q.emoji.slice(0,80):undefined,artwork:typeof q.artwork==='string'&&/^https:\/\/[^/]+\.dzcdn\.net\//.test(q.artwork)?q.artwork:undefined,link:typeof q.link==='string'&&/^https:\/\/www\.deezer\.com\//.test(q.link)?q.link:undefined,provider:q.provider==='Deezer'?'Deezer':undefined}));
     const randomTeamCount=Number.isInteger(data.randomTeamCount)&&data.randomTeamCount>=2&&data.randomTeamCount<=MAX_PARTICIPANTS&&
      !data.settings?.bingo&&!data.settings?.survival&&!data.settings?.timelineMode&&!data.settings?.chain&&data.input!=='buzzer'?data.randomTeamCount:0;
     const musicGame=MUSIC_GAME_IDS.includes(data.musicGame)?data.musicGame:undefined;
-    const setup={mountain:mountain?mountainSettings(data.mountain):undefined,teamPlay:mountain||data.teamPlay===true&&Boolean(randomTeamCount),musicGame,showTheme:typeof data.showTheme==='string'&&/^[a-z-]{1,20}$/.test(data.showTheme)?data.showTheme:undefined,showAnimations:data.showAnimations!==false,randomTeamCount,questions:data.questions,input:['text','buzzer'].includes(data.input)?data.input:'qcm',settings:data.settings&&typeof data.settings==='object'?data.settings:{},effect:['normal','fast','slow','chipmunk','reverse','image'].includes(data.effect)?data.effect:'normal'};
+    const setup={playlist:Array.isArray(data.playlist)?data.playlist.filter(value=>typeof value==='string').slice(0,30).map(value=>value.slice(0,160)):[],mountain:mountain?mountainSettings(data.mountain):undefined,teamPlay:mountain||data.teamPlay===true&&Boolean(randomTeamCount),musicGame,showTheme:typeof data.showTheme==='string'&&/^[a-z-]{1,20}$/.test(data.showTheme)?data.showTheme:undefined,showAnimations:data.showAnimations!==false,randomTeamCount,questions:data.questions,input:['text','buzzer'].includes(data.input)?data.input:'qcm',settings:data.settings&&typeof data.settings==='object'?data.settings:{},effect:['normal','fast','slow','chipmunk','reverse','image'].includes(data.effect)?data.effect:'normal'};
     const status=await env.ROOMS.getByName(data.room).prepare(setup,await digest(data.token));
     return status===200?json({code:data.room,token:data.token}):json({error:status===404?'Cette soirée a expiré. Créez une nouvelle soirée.':status===403?'Accès animateur refusé.':'Terminez le jeu en cours avant de changer de jeu.'},status);
    }
@@ -170,19 +171,22 @@ export default {
 function eveningTotals(room){
  const totals={...room.eveningTotals};
  const history=room.history||[];
+ const gamePoints=eveningGamePoints(room);
  const attempts=new Map(room.tyrolien?[]:roundStatistics(history,room.teams,room.archivedStats).map(row=>[row.id,row]));
  for(const team of room.teams){
   const prior=totals[team.id]||{points:0,correct:0,played:0};
   const ty=room.tyrolien?.scores[team.id];
   const stats=attempts.get(team.id);
   const correct=ty?.points??stats?.correct??0;
-  const played=room.tyrolien?(ty?.played||0):(room.mountain?.roundsPlayed??history.length);
+  const played=room.tyrolien?(ty?.played||0):(stats?.played||0);
   const bestTimes=[prior.best,stats?.best].filter(Number.isFinite);
   totals[team.id]={id:team.id,name:team.name,avatar:team.avatar,
    games:(prior.games||0)+(played>0?1:0),
    jokersEarned:(prior.jokersEarned||0)+(team.joker?.earned?.length||0),
    jokersUsed:(prior.jokersUsed||0)+(team.joker?.used?.length||0),
-   points:prior.points+(room.tyrolien?correct:(team.score||0)+(team.timelineBonus||0)),
+   points:(prior.scoringVersion===1?prior.points||0:0)+(gamePoints[team.id]||0),scoringVersion:1,
+   rawPoints:(prior.rawPoints??prior.points??0)+(team.score||0)+(team.timelineBonus||0),
+   partial:(prior.partial||0)+(stats?.partial||0),
    correct:prior.correct+correct,played:prior.played+played,
    wrong:(prior.wrong||0)+(stats?.wrong||0),absent:(prior.absent||0)+(stats?.absent||0),
    elapsed:(prior.elapsed||0)+(ty?.elapsed??stats?.elapsed??0),timed:(prior.timed||0)+(ty?.points??stats?.timed??0),
@@ -207,7 +211,15 @@ export class PartyRoom extends DurableObject {
   if(pending){
    active=await this.finishEvening(pending);
   }
-  if(method==='GET')return reply({active});
+  if(method==='GET'){
+   if(data.archive){
+    if(!validCode(data.archive))return reply({error:'Soirée introuvable.'},404);
+    const archive=await storage.get('archive:'+data.archive);
+    return archive?reply({archive}):reply({error:'Soirée introuvable.'},404);
+   }
+   if(data.history)return reply({history:await storage.get('archive-index')||[]});
+   return reply({active});
+  }
   if(method==='PUT'){
    if(!active||data.code!==active.code)return conflict();
    if(!Number.isSafeInteger(data.revision)||data.revision<0||(data.state!==null&&(data.state?.mode!=='usb'||!Array.isArray(data.state.questions)||!Array.isArray(data.state.teams)))){
@@ -216,6 +228,10 @@ export class PartyRoom extends DurableObject {
    const previous=active.usb;
    if(previous?.id===data.id)return reply({revision:previous.revision});
    if(!hostToken(data.id)||data.revision!==(previous?.revision||0))return conflict();
+   if(data.state===null&&previous?.state){
+    const saved=saveGameSnapshot(previous.state);
+    active.usbGames=[...new Map([...(active.usbGames||[]),...saved].map(game=>[game.id,game])).values()];
+   }
    active.usb={id:data.id,revision:data.revision+1,state:data.state};
    await storage.put('active',active);
    return reply({revision:active.usb.revision});
@@ -234,12 +250,12 @@ export class PartyRoom extends DurableObject {
   if((active?.code||null)!==data.expected)return conflict();
   if(method==='DELETE'){
    if(!active)return reply({active:null});
-   pending={old:{code:active.code,token:active.token},next:null};
+   pending={old:{code:active.code,token:active.token,usb:active.usb?.state,usbGames:active.usbGames},next:null};
   }else{
    if(!hostToken(data.id))return reply({error:'Identifiant de création invalide.'},400);
    let code=roomCode();
    while(code===active?.code)code=roomCode();
-   pending={old:active&&{code:active.code,token:active.token},next:{code,token:crypto.randomUUID(),operation:data.id}};
+   pending={old:active&&{code:active.code,token:active.token,usb:active.usb?.state,usbGames:active.usbGames},next:{code,token:crypto.randomUUID(),operation:data.id}};
   }
   await storage.put('pending',pending);
   return reply({active:await this.finishEvening(pending)});
@@ -256,7 +272,22 @@ export class PartyRoom extends DurableObject {
   }
   if(pending.old){
    const {code,token}=pending.old;
-   const status=await rooms.getByName(code).removeRoom(await digest(token));
+   const room=rooms.getByName(code), hash=await digest(token);
+   if(!await storage.get('archive:'+code)){
+    const phone=await room.archiveRoom(hash);
+    if(phone===403)throw Error('Accès à la soirée précédente refusé.');
+    const usb=pending.old.usb;
+    const games=[...new Map([...(phone?.games||[]),...(pending.old.usbGames||[]),...(usb?saveGameSnapshot(usb):[])].map(game=>[game.id,game])).values()];
+    const endedAt=Date.now();
+    const ranking=phone?.ranking||[],usbRanking=usb?competitionRanking(Object.values(eveningTotals(usb)),row=>row.points):[];
+    const archive={code,endedAt,games,ranking,usbRanking,distinctions:eveningDistinctions(games,ranking.length?ranking:usbRanking),music:musicPerformance(games.flatMap(game=>game.rounds))};
+    await storage.transaction(async tx=>{
+     const index=await tx.get('archive-index')||[];
+     await tx.put('archive:'+code,archive);
+     await tx.put('archive-index',[{code,endedAt,games:games.length},...index.filter(row=>row.code!==code)]);
+    });
+   }
+   const status=await room.removeRoom(hash);
    if(status===403)throw Error('Accès à la soirée précédente refusé.');
   }
   await storage.transaction(async tx=>{
@@ -281,6 +312,12 @@ export class PartyRoom extends DurableObject {
   await this.ctx.storage.put('room',room);
   await this.schedule(room);
   return true;
+ }
+ async archiveRoom(hostHash){
+  const room=await this.ctx.storage.get('room');
+  if(!room)return null;
+  if(room.hostHash!==hostHash)return 403;
+  return {games:saveGameSnapshot(room),ranking:competitionRanking(Object.values(eveningTotals(room)),player=>player.points)};
  }
  async removeRoom(hostHash){
   const room=await this.ctx.storage.get('room');
@@ -333,7 +370,7 @@ export class PartyRoom extends DurableObject {
     teams:current.teams.map(({id,name,key,token,avatar})=>({id,name,key,token,avatar,score:0,streak:0})),
     teamPlan:current.teamPlan||(data.mountain?{groups:[teamIdentity(0),teamIdentity(1)],assignments:{},mode:'free',open:false,gather:false}:undefined),
     mountain:data.mountain,teamPlay:data.teamPlay,teamResults:this.completedTeamGames(current),
-    musicGame:data.musicGame,showTheme:data.showTheme,showAnimations:data.showAnimations,randomTeamCount:data.randomTeamCount||undefined,roulettePlayers:current.roulettePlayers,eveningTotals:eveningTotals(current),effect:data.effect,hostHash,code:current.code,expires:current.expires,revision:(current.revision||0)+1
+    musicGame:data.musicGame,playlist:data.playlist,showTheme:data.showTheme,showAnimations:data.showAnimations,randomTeamCount:data.randomTeamCount||undefined,roulettePlayers:current.roulettePlayers,completedGames:saveGameSnapshot(current),eveningTotals:eveningTotals(current),effect:data.effect,hostHash,code:current.code,expires:current.expires,revision:(current.revision||0)+1
    };
    await tx.put('room',next);
    return {status:200,room:next};
@@ -350,11 +387,14 @@ export class PartyRoom extends DurableObject {
  eveningRanking(s){
   const showCurrent=['paused','reveal','finished','result','vote','attack'].includes(s.phase);
   const totals=showCurrent?eveningTotals(s):s.eveningTotals;
-  return Object.values(totals||{}).sort((left,right)=>right.points-left.points);
+  return competitionRanking(Object.values(totals||{}),player=>player.points);
  }
- sendState(ws,s,a,eveningRanking,teamPlan){
+ distinctions(room,ranking){return eveningDistinctions(saveGameSnapshot(room),ranking);}
+ sendState(ws,s,a,eveningRanking,teamPlan,awards){
   const state=s.tyrolien?tyrolienView(s,a.role,a.team):a.role==='host'
    ?{...s,hostHash:undefined}:publicGame(s,a.role==='player'?a.team:undefined);
+  delete state.completedGames;
+  if(a.role==='host'&&s.phase==='finished')state.eveningAwards=awards||this.distinctions(s,eveningRanking||this.eveningRanking(s));
   if(s.mountain){
    state.mountain=mountainView(s,a.role,a.team);
    state.gameStatistics=s.phase==='finished'?roundStatistics(s.history,s.teams,s.archivedStats)
@@ -383,7 +423,8 @@ export class PartyRoom extends DurableObject {
    const ranking=eveningRanking||this.eveningRanking(s);
    if(a.role==='player'){
     const rank=ranking.findIndex(team=>team.id===a.team);
-    if(rank>=0)state.eveningPersonal={...ranking[rank],rank:rank+1};
+    if(rank>=0)state.eveningPersonal={...ranking[rank],rank:ranking[rank].rank??rank+1};
+    if(s.phase==='finished')state.personalAwards=(awards||this.distinctions(s,ranking)).filter(item=>item.id===a.team);
    }else state.eveningRanking=ranking;
   }
   if(!s.tyrolien&&a.role==='tv'){
@@ -402,11 +443,12 @@ export class PartyRoom extends DurableObject {
   if(!respondingPlayer)this.pendingTeams=null;
   const ranking=this.eveningRanking(s);
   const teamPlan=this.teamPlanView(s);
+  const awards=s.phase==='finished'?this.distinctions(s,ranking):undefined;
   for(const ws of this.ctx.getWebSockets()){
    const identity=ws.deserializeAttachment();
    if(identity?.role==='host'||identity?.role==='tv'||
       (identity?.role==='player'&&(!respondingPlayer||identity.team===respondingPlayer))){
-    this.sendState(ws,s,identity,ranking,teamPlan);
+    this.sendState(ws,s,identity,ranking,teamPlan,awards);
    }
   }
  }
@@ -631,7 +673,7 @@ export class PartyRoom extends DurableObject {
     return;
    }
    if(m.type==='ceremony'&&a.role==='host'&&['lobby','finished'].includes(s.phase)){
-    const ranking=m.open?Object.values(eveningTotals(s)).sort((left,right)=>right.points-left.points):null;
+    const ranking=m.open?this.eveningRanking(s):null;
     for(const socket of this.ctx.getWebSockets()){
      if(['host','tv'].includes(socket.deserializeAttachment()?.role))this.send(socket,{type:'ceremony',ranking,animation:m.animation!==false});
     }

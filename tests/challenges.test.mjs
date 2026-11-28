@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {createGame,applyAction,publicGame,bingoGrandWinners,audioRemaining,DEMO} from '../public/engine.js';
+import {createGame,applyAction,publicGame,bingoGrandWinners,audioRemaining,DEMO,roundStatistics,eveningGamePoints,competitionRanking} from '../public/engine.js';
 const teams=[{id:'a',name:'Alpha'},{id:'b',name:'Beta'}];
 const audio={id:'audio',kind:'audio',prompt:'Le titre ?',answer:'Titre',title:'Titre',artist:'Artiste',target:'title',options:['Titre','Faux','Non','Autre'],duration:30,points:100};
 const start=(input='buzzer',settings={},q=audio)=>applyAction(createGame([q],teams,'phone',input,{speed:false,streak:false,...settings}),{type:'play'},1000);
@@ -329,4 +329,30 @@ test('Grand Studio : révélation après le départ et choix QCM privé',()=>{
  assert.equal(publicGame(room).question.answer,undefined);
  room=applyAction(room,{type:'reveal'},room.startAt+2);
  assert.equal(publicGame(room,'a').me.correct,true);
+});
+
+test('Les réponses orales et partielles alimentent des statistiques distinctes',()=>{
+ const question={...audio,target:'both'};
+ let oral=start('buzzer',{},question);
+ oral=applyAction(oral,{type:'buzz',team:'a'},4500);
+ oral=applyAction(oral,{type:'judge',correct:true,part:'both'},4600);
+ assert.equal(roundStatistics(oral.history,oral.teams)[0].correct,1);
+ assert.equal(roundStatistics(oral.history,oral.teams)[0].best,500);
+ let text=start('text',{},question);
+ text=applyAction(text,{type:'answer',team:'a',title:'Titre',artist:'Faux'},4500);
+ text=applyAction(text,{type:'reveal'},4600);
+ const stats=roundStatistics(text.history,text.teams);
+ assert.equal(stats[0].partial,1);
+ assert.equal(stats[0].correct,0);
+ assert.equal(stats[1].absent,1);
+});
+
+test('Le classement général plafonne les jeux à 100 points et partage les rangs',()=>{
+ let game=start('qcm');
+ game=applyAction(game,{type:'answer',team:'a',answer:'Titre'},4500);
+ game=applyAction(game,{type:'reveal'},4600);
+ assert.deepEqual(eveningGamePoints(game),{});
+ game=applyAction(game,{type:'next'},4700);
+ assert.deepEqual(eveningGamePoints(game),{a:100,b:50});
+ assert.deepEqual(competitionRanking([{score:100},{score:100},{score:20}]).map(row=>row.rank),[1,1,3]);
 });
