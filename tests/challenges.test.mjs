@@ -178,9 +178,14 @@ for(const timelineMode of ['collective','individual']){
   assert.equal(game.phase,'reveal');
   assert.deepEqual(game.teams.map(team=>team.score),[1,1]);
   assert.equal(publicGame(game,'a').teams[0].score,undefined);
-  assert.deepEqual(publicGame(game,'a').me,{attempts:1,correct:true});
+  assert.deepEqual(publicGame(game,'a').me,timelineMode==='collective'?{attempts:1,correct:true}:{attempts:1});
+  assert.equal(publicGame(game,'a').timelineCards.length,timelineMode==='collective'?2:1);
+  assert.equal(publicGame(game,'a').timelineSlots,undefined);
+  const stopped=applyAction(game,{type:'stop'},now);
+  assert.deepEqual(publicGame(stopped,'a').timelineResult,{rank:1,correct:1,total:1});
   act('next');
   act('play');
+  assert.equal(publicGame(game,'a').timelineCards.length,2);
   now=game.startAt+20;
   act('answer',{team:'a',answer:'0'});
   now=game.endAt;

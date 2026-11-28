@@ -187,6 +187,17 @@ du Bingo du classement de reconnaissance musicale. Éclair et Combo sont des
 distinctions visuelles. Combo signale une série d’au moins trois bonnes
 réponses. Les lignes et les colonnes comptent, sans diagonales.
 
+## Chantier 06 — Frise musicale, Le Chronoscope
+
+La régie suit les placements reçus et peut révéler l’extrait dès que tout le
+monde a répondu. En mode collectif, la TV affiche une seule frise et met en
+lumière le morceau ajouté. En mode individuel, la TV conserve la distribution
+des résultats du groupe.
+
+Sur téléphone, les boutons indiquent les années entre lesquelles placer le
+morceau. En mode individuel, le verdict personnel est réservé au bilan. Après
+une fin anticipée, le pourcentage se calcule sur les extraits joués.
+
 ## Maintenir les deux versions
 
 Les règles, les scores, le catalogue, les playlists et le serveur local évoluent

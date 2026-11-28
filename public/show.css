@@ -1375,3 +1375,21 @@
   background: #41283e;
 }
 .bingo-recognition-title { margin-top: .8em; }
+
+/* Le Chronoscope */
+.chronoscope-timeline .chronoscope-revealed {
+  outline: 2px solid #efbf78;
+  background: #31241d;
+  color: #fff5de;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .chronoscope-timeline .chronoscope-revealed {
+    animation: chronoscope-reveal 550ms ease-out both;
+  }
+}
+
+@keyframes chronoscope-reveal {
+  from { opacity: 0; transform: translateY(0.55rem); }
+  to { opacity: 1; transform: translateY(0); }
+}
