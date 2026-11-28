@@ -78,8 +78,8 @@ export function openStorage(directory, deliverAlarm) {
           const changes=new Map();
           let alarm;
           const result=await callback({
-            get:key=>changes.has(key)?changes.get(key)?.value:get(key),
-            put:(key,value)=>changes.set(key,{value:structuredClone(value)}),
+            get:key=>changes.has(key)?(changes.get(key)?deserialize(changes.get(key)):undefined):get(key),
+            put:(key,value)=>changes.set(key,serialize(value)),
             delete:key=>changes.set(key,null),
             setAlarm:at=>{alarm=at;},
             deleteAlarm:()=>{alarm=null;}
@@ -87,7 +87,7 @@ export function openStorage(directory, deliverAlarm) {
           db.exec('BEGIN');
           try {
             for(const [key,change] of changes) {
-              if(change)put(key,change.value);
+              if(change)write.run(actor,key,change);
               else del(key);
             }
             if(alarm!==undefined)updateAlarm(alarm);

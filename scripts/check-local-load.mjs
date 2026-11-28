@@ -86,12 +86,25 @@ for(const n of levels){
   assert.ok(Date.now()<state.endAt);
   await sleep(Math.max(0,state.startAt-Date.now())+35);
   started=performance.now();
+  const cpuStart=process.cpuUsage();
+  let memory=process.memoryUsage().rss;
+  const sampler=setInterval(()=>{memory=Math.max(memory,process.memoryUsage().rss);},20);
+  sampler.unref();
+  const stateSync=Promise.all([host,tv].map(async observer=>{
+   const {state:live}=await observer.take(m=>m.state?.phase==='playing'&&(m.state.answered?.length??Object.keys(m.state.answers||{}).length)===n);
+   return {elapsed:performance.now()-started,revision:live.revision};
+  }));
   const answers=await Promise.all(clients.map(async (client,index)=>{
    client.send({type:'answer',questionId:song.id,answer:index%2?'Guitare':'Piano'});
    const reply=await client.take(m=>m.type==='received');
    assert.equal(reply.accepted,true);
    return performance.now()-started;
   }));
+  const synchronized=await stateSync;
+  clearInterval(sampler);
+  memory=Math.max(memory,process.memoryUsage().rss);
+  const cpu=process.cpuUsage(cpuStart);
+  assert.equal(synchronized[0].revision,synchronized[1].revision);
   host.send({type:'reveal'});
   const {state:result}=await tv.take(m=>m.state?.phase==='reveal');
   assert.equal(result.history.at(-1).results.length,n);
@@ -99,6 +112,7 @@ for(const n of levels){
   assert.deepEqual(errors,[]);
   console.log(JSON.stringify({joueurs:n,inscrits:joins.length,confirmations:answers.length,inscriptionP95Ms:rounded(quantile(joins.map(j=>j.ms),.95)),
    reponseP50Ms:rounded(quantile(answers,.5)),reponseP95Ms:rounded(quantile(answers,.95)),reponseMaxMs:rounded(Math.max(...answers)),
+   regieSyncMs:rounded(synchronized[0].elapsed),tvSyncMs:rounded(synchronized[1].elapsed),cpuMs:rounded((cpu.user+cpu.system)/1000),rssMio:rounded(memory/2**20),
    jitterServeurP95Ms:rounded(delay.percentile(95)/1e6),mebibytes:rounded(bytes/2**20)}));
   for(const ws of sockets)ws.close();
  }finally{

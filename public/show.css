@@ -657,7 +657,7 @@
   color: #fff4db; background: linear-gradient(#32475b,#102034); border: 1px solid #577086;
 }
 [data-show-role="tv"] .podium > div:first-child {
-  background: linear-gradient(#614827,#251d17); border-color: #edc787;
+  color: #fff4db; background: linear-gradient(#614827,#251d17); border-color: #edc787;
 }
 @keyframes soir-podium { from { opacity: 0; transform: translateY(1rem); } to { opacity: 1; transform: none; } }
 @media (prefers-reduced-motion: no-preference) {

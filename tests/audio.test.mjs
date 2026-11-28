@@ -20,3 +20,12 @@ test('Le volume de l’extrait peut changer pendant la lecture indépendamment d
  assert.equal(desk.ambience,.6);
  assert.equal(desk.effects,.8);
 });
+
+test('Un extrait indisponible ne peut pas rejouer le morceau précédent',async t=>{
+ const desk=new SoundDesk();
+ desk.ctx={state:'running'};
+ desk.buffer={duration:30};
+ t.mock.method(globalThis,'fetch',async ()=>new Response(null,{status:503}));
+ await assert.rejects(()=>desk.load({id:'absent',audioUrl:'/api/music/preview/123'}),/ne peut pas être chargé/);
+ assert.equal(desk.buffer,null);
+});

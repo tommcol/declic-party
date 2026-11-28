@@ -299,4 +299,15 @@ test('Le serveur Node synchronise une manche et reprend ses données et alarmes 
 
  await request('/api/evening','DELETE',{expected:code});
  assert.equal((await fetch(origin+roomPath)).status,404);
+ const {history}=await request('/api/evening?history=1');
+ assert.equal(history.filter(row=>row.code===code).length,1);
+ const {archive}=await request('/api/evening?archive='+code);
+ assert.ok(archive.games.some(game=>game.game==='tyrolien'&&game.rounds.length));
+ assert.ok(archive.ranking.some(row=>row.correct>=1));
+ assert.ok(!JSON.stringify(archive).includes(token));
+ await app.close();
+ app=null;
+ await boot();
+ assert.deepEqual((await request('/api/evening?archive='+code)).archive,archive);
+
 });

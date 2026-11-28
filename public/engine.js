@@ -54,7 +54,8 @@ export function roundOutcome(question,result={}){
  if(required) {
   if(required.every(part=>parts.includes(part)))return 'complete';
   if(parts.length)return 'partial';
- }else if(result.correct===true||parts.length)return 'complete';
+ }else if(result.correct===true||parts.length&&result.correct!==false)return 'complete';
+ else if(parts.length)return 'partial';
  return result.attempts||result.responded?'wrong':'absent';
 }
 export function competitionRanking(players,score=player=>player.score){
@@ -346,7 +347,9 @@ export function returnToLobby(game, eveningTotals, teamResults=game.teamResults)
 export function applyAction(game, action, now=Date.now()) {
  // Une réponse Bingo ne modifie ni les cartons ni l'historique.
  const bingoMark=action.type==='bingo-mark'&&game.settings?.bingo&&game.mode==='phone'&&game.input==='qcm';
- const s=bingoMark?{...game,answers:{...game.answers},pending:{...game.pending}}:structuredClone(game);
+ const liveAnswer=action.type==='answer'&&game.phase==='playing'&&game.mode==='phone'&&!game.settings?.bingo;
+ const s=bingoMark||liveAnswer?{...game,answers:{...game.answers},pending:{...game.pending}}:structuredClone(game);
+ if(liveAnswer&&Object.hasOwn(s.answers,action.team))s.answers[action.team]=structuredClone(s.answers[action.team]);
  const q=s.questions[s.index];s.settings=gameSettings(s.settings);s.history??=[];s.cooldowns??={};s.claimed??={};
  if(action.questionId&&action.questionId!==q?.id)return game;
  const emit=(type,extra={})=>{s.event={type,id:randomUUID(),...extra};};

@@ -888,7 +888,8 @@ function assistantCards(){
   const ranking=game.mode==='usb'?competitionRanking(Object.values(usbEveningTotals(game)),row=>row.points):game.eveningRanking||[];
   const awards=game.eveningAwards||eveningDistinctions(saveGameSnapshot(game),ranking);
   const best=sorted()[0];
-  if(best)cards.push(['game-summary',{title:'Bilan de la partie',detail:`${game.mountain?.roundsPlayed??history.length} manches. ${best.name} termine avec ${best.score} points de jeu.`}]);
+  const rounds=game.mountain?.roundsPlayed??history.length;
+  if(best)cards.push(['game-summary',{title:'Bilan de la partie',detail:`${rounds} ${rounds===1?'manche':'manches'}. ${best.name} termine avec ${best.score} points de jeu.`}]);
   if(ranking.some(row=>row.games))cards.push(['evening-summary',{title:'Bilan de la soirée',detail:`${ranking.filter(row=>row.games).length} participants classés. ${ranking[0].name} · ${ranking[0].points} points de soirée.`}]);
   awards.forEach((award,i)=>cards.push(['award-'+i,{title:award.title,detail:`${award.name} · ${award.detail}`,effect:'applause'}]));
  }
@@ -2829,7 +2830,7 @@ function home(){
    </div>
    <div class="host-secondary">
     ${homeCard('music-library','music','Bibliothèque musicale','',{disabled:changingEvening})}
-    ${homeCard(null,'history','Historique des soirées','Indisponible',{disabled:true})}
+    ${homeCard('evening-archives','history','Historique des soirées','',{disabled:changingEvening})}
     ${homeCard('settings','gear','Paramètres','',{disabled:changingEvening})}
    </div>
   </main>
