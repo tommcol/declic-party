@@ -69,6 +69,10 @@ test('Le serveur Node synchronise une manche et reprend ses données et alarmes 
  assert.deepEqual(await request('/api/evening'),{active:null});
  const {active}=await request('/api/evening','POST',{expected:null,id:crypto.randomUUID()});
  const {code,token}=active;
+ const roomPath='/api/rooms/'+code;
+ const available=await fetch(origin+roomPath);
+ assert.equal(available.status,204);
+ assert.equal(available.headers.get('cache-control'),'no-store');
  const host=await connect(code);
  const tv=await connect(code);
  const players=await Promise.all([connect(code),connect(code)]);
@@ -82,6 +86,10 @@ test('Le serveur Node synchronise une manche et reprend ses données et alarmes 
  tv.send('ping');
  await tv.waitFor(m=>m==='pong');
  assert.equal(new Set(sessions.map(s=>s.id)).size,2);
+ const stale=await connect(code);
+ stale.send({type:'join',token:crypto.randomUUID()});
+ assert.equal((await stale.waitFor(m=>m.type==='error')).code,'player-session-missing');
+ stale.close();
 
  const groups=[{id:'genres',name:'Genres'},{id:'decades',name:'Décennies'}];
  const playlists=Array.from({length:7},(_,index)=>({id:'p'+index,name:'Playlist '+index}));
@@ -257,4 +265,6 @@ test('Le serveur Node synchronise une manche et reprend ses données et alarmes 
  assert.equal(after.eveningRanking.filter(row=>row.correct>=1).length>=3,true);
  assert.equal((await request('/api/evening')).active.code,code);
 
+ await request('/api/evening','DELETE',{expected:code});
+ assert.equal((await fetch(origin+roomPath)).status,404);
 });

@@ -92,6 +92,22 @@ Ce démarrage réutilise les données locales de la version design. Pour retrouv
 Studio TV, arrêtez ce serveur, exécutez `git switch show-experience` dans le dossier
 du dépôt, puis relancez la mise à jour et le démarrage ci-dessus.
 
+## Chantier 02 — Corrections de l’inscription sur téléphone
+
+Le formulaire garde le pseudo et l’avatar quand le code est erroné, que le
+pseudo est déjà pris ou que la connexion échoue. Le choix de l’avatar se déplie
+à la demande. Le bouton de connexion reste visible dès l’ouverture sur les
+formats testés. Le QR préremplit toujours le code de soirée.
+
+Le même navigateur peut reprendre l’identité du joueur après fermeture de
+l’onglet. Le joueur revient au formulaire si son inscription est devenue
+invalide ou si la soirée a été fermée pendant son absence.
+
+Vérifications en local sous Node.js et Chromium : lien d’invitation, entrée
+manuelle, code inconnu, pseudo en double, choix d’avatar, coupure de la liaison,
+nouvel onglet et clôture de soirée. Le scan avec un téléphone sur le réseau
+Batocera et la reprise après mise en veille restent à valider sur place.
+
 ## Maintenir les deux versions
 
 Les règles, les scores, le catalogue, les playlists et le serveur local évoluent

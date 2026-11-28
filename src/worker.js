@@ -146,7 +146,16 @@ export default {
     return status===200?json({code:data.room,token:data.token}):json({error:status===404?'Cette soirée a expiré. Créez une nouvelle soirée.':status===403?'Accès animateur refusé.':'Terminez le jeu en cours avant de changer de jeu.'},status);
    }
    const m=url.pathname.match(/^\/api\/rooms\/([A-Z2-9]{8})$/);
-   if(m){if(req.headers.get('Upgrade')!=='websocket')return json({error:'Connexion WebSocket attendue'},426);if(req.headers.get('Origin')!==url.origin)return json({error:'Origine refusée'},403);return env.ROOMS.getByName(m[1]).fetch(req);}
+   if(m){
+    if(req.headers.get('Upgrade')!=='websocket'&&req.method==='GET'){
+     const available=await env.ROOMS.getByName(m[1]).roomAvailable();
+     return available?new Response(null,{status:204,headers:{'Cache-Control':'no-store'}})
+      :json({error:'Cette partie est introuvable ou a expiré.'},404);
+    }
+    if(req.headers.get('Upgrade')!=='websocket')return json({error:'Connexion WebSocket attendue'},426);
+    if(req.headers.get('Origin')!==url.origin)return json({error:'Origine refusée'},403);
+    return env.ROOMS.getByName(m[1]).fetch(req);
+   }
    if(req.method!=='GET'&&req.method!=='HEAD')return new Response('Méthode non autorisée',{status:405});
    if(url.pathname==='/solo.html')return Response.redirect(new URL('/',url),302);
    const path=['/','/join','/tv'].includes(url.pathname)?'/index.html':url.pathname;
@@ -330,7 +339,11 @@ export class PartyRoom extends DurableObject {
   if(prepared.room){await this.schedule(prepared.room);this.broadcast(prepared.room);}
   return prepared.status;
  }
- async fetch(req){const room=await this.ctx.storage.get('room');if(!room||room.expires<Date.now())return json({error:'Cette partie est introuvable ou a expiré.'},404);if(this.ctx.getWebSockets().length>=CONNECTION_LIMIT)return json({error:'Salon complet'},429);if(this.ctx.upgradeWebSocket)return this.ctx.upgradeWebSocket(req);const [client,server]=Object.values(new WebSocketPair());this.ctx.acceptWebSocket(server);server.serializeAttachment({role:'guest',last:0,count:0});return new Response(null,{status:101,webSocket:client});}
+ async roomAvailable(){
+  const room=await this.ctx.storage.get('room');
+  return Boolean(room&&(room.expires===undefined||room.expires>Date.now()));
+ }
+ async fetch(req){if(!await this.roomAvailable())return json({error:'Cette partie est introuvable ou a expiré.'},404);if(this.ctx.getWebSockets().length>=CONNECTION_LIMIT)return json({error:'Salon complet'},429);if(this.ctx.upgradeWebSocket)return this.ctx.upgradeWebSocket(req);const [client,server]=Object.values(new WebSocketPair());this.ctx.acceptWebSocket(server);server.serializeAttachment({role:'guest',last:0,count:0});return new Response(null,{status:101,webSocket:client});}
  send(ws,data){try{ws.send(JSON.stringify(data));}catch{}}
  eveningRanking(s){
   const showCurrent=['paused','reveal','finished','result','vote','attack'].includes(s.phase);
@@ -475,6 +488,7 @@ export class PartyRoom extends DurableObject {
    if(!room||room.expires<=now)throw Error('Partie expirée');
    const existing=typeof message.token==='string'?room.teams.find(player=>player.token===message.token):null;
    if(existing)return {room,player:existing,joined:false};
+   if(message.token&&!message.name)throw Object.assign(Error('Ton inscription ne peut plus être retrouvée.'),{code:'player-session-missing'});
    if(room.phase!=='lobby'&&!(room.teamPlan&&room.phase==='finished'))throw Error('La partie a commencé. Rejoignez la prochaine !');
    if(room.teams.length>=PLAYER_LIMIT)throw Error(PLAYER_LIMIT+' participants maximum');
    const name=String(message.name||'').trim().slice(0,24);
@@ -635,7 +649,7 @@ export class PartyRoom extends DurableObject {
    if(m.type==='answer'&&s.mountain)this.broadcastMountainAnswer(s,a.team);
    else if(m.type==='bingo-mark')this.broadcastBingoAnswer(s,a.team);
    else this.broadcast(s,['answer','joker','chain-vote','ty-vote'].includes(m.type)?a.team:undefined);
-  }catch(e){this.send(ws,{type:'error',message:e.message});}
+  }catch(e){this.send(ws,{type:'error',message:e.message,code:e.code==='player-session-missing'?e.code:undefined});}
  }
  async updateTyrolien(action,identity,now){
   return this.ctx.storage.transaction(async tx=>{

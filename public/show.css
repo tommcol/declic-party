@@ -354,6 +354,27 @@
 .avatar-picker input:checked + span { border-color: #7340ba; background: #ede4fb; }
 .avatar-picker input:focus-visible + span { outline: 2px solid #42216a; outline-offset: 2px; }
 
+.player-entry .joincard {
+  margin: 18px auto;
+  padding: clamp(16px, 5vw, 28px);
+}
+.player-entry .joincard h1 {
+  margin: 0 0 14px;
+  font-size: clamp(25px, 7vw, 35px);
+}
+.player-entry .field-label { color: #fff4db; }
+.player-entry .join-avatars { margin-top: 12px; }
+.player-entry .join-avatars > summary {
+  min-height: 44px;
+  padding: 9px 10px;
+  border: 1px solid #546980;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.player-entry .joincard .btn { margin-top: 12px; }
+.player-entry #join-message { color: #ffd3a6; }
+.player-entry #join-message:empty { margin: 0; }
+
 .show-awards {
   display: flex;
   flex-wrap: wrap;

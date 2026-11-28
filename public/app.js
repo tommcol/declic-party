@@ -71,6 +71,7 @@ document.addEventListener('toggle',event=>{
 },true);
 
 let custom=read('declic.library',[]), view='home', game=null, room=null, ws=null, role='host', teamId=null, connected=false, reconnect=null, auth=null, lastEvent=null, seenCount=null, countdown=-1, lastRevision=-1, assetUrls=new Map(), audioReady=false, soundTask=0, busy=false;
+let joinMessage='';
 let catalogPool=read('declic.musicPool',{name:'',tracks:[],themeKey:''}),catalogResults={tracks:[],playlists:[]},catalogQuery='',catalogSearchType='tracks',catalogMessage='',audioError='',replyDraft={},audioSegment='';
 const MUSIC_GAMES=[
  ['tyrolien','Le Tyrolien','Blind test en équipes, ascension et bonus d’attaque.'],
@@ -666,7 +667,34 @@ function avatarPicker(){
     </div></details>`).join('')}
  </fieldset>`;
 }
-function joinScreen(){return `<main class="phone-shell">${brand()}<div class="joincard"><span class="eyebrow">ON VOUS GARDAIT UNE PLACE</span><h1>Entrez dans la partie.</h1><p class="help">Votre prénom, le code de l’animateur et à vous de jouer.</p><form id="join-form"><label class="field-label" for="join-code">Code de la partie</label><input id="join-code" name="code" required minlength="8" maxlength="8" autocapitalize="characters" placeholder="EX. ABCD2345" value="${esc(room||'')}" autocomplete="off"><label class="field-label" for="join-name">Votre prénom ou nom d’équipe</label><input id="join-name" name="name" required maxlength="24" placeholder="Les rois du refrain" autocomplete="nickname">${avatarPicker()}<button class="btn primary full" type="submit" ${busy?'disabled':''}>${busy?'Connexion…':'Rejoindre la soirée →'}</button></form></div><p class="caption">Le son est diffusé dans la salle par l’animateur.<br>Gardez cet écran ouvert pendant la partie.</p></main>`;}
+function joinScreen(){
+ return `<main class="phone-shell player-entry">
+  <div class="brand"><span aria-hidden="true">ϟ</span>Déclic Party</div>
+  <section class="joincard">
+   <h1>Rejoindre la soirée</h1>
+   <form id="join-form" aria-describedby="join-message">
+    <p id="join-message" role="status" aria-atomic="true">${esc(joinMessage)}</p>
+    <label class="field-label" for="join-code">Code de la soirée</label>
+    <input id="join-code" name="code" required minlength="8" maxlength="8" autocapitalize="characters" spellcheck="false" placeholder="EX. ABCD2345" value="${esc(room||'')}" autocomplete="off">
+    <label class="field-label" for="join-name">Pseudo affiché sur la TV</label>
+    <input id="join-name" name="name" required maxlength="24" placeholder="Ex. Renard rock" autocomplete="nickname">
+    <details class="join-avatars"><summary>Choisir un avatar</summary>${avatarPicker()}</details>
+    <button class="btn primary full" type="submit">Rejoindre la soirée →</button>
+   </form>
+  </section>
+  <p class="caption">Le son est diffusé dans la salle.</p>
+ </main>`;
+}
+function updateJoinForm(message='',focus){
+ joinMessage=message;
+ const form=$('#join-form');
+ if(!form)return;
+ const button=form.querySelector('button[type="submit"]');
+ button.disabled=busy;
+ button.textContent=busy?'Connexion…':'Rejoindre la soirée →';
+ form.querySelector('#join-message').textContent=message;
+ if(focus)form.elements[focus].focus();
+}
 function timelineList(cards=[],slots=[]){
  return `<ol class="music-timeline">${Array.from({length:cards.length+1},(_,index)=>{
   const card=cards[index],button=slots.includes(index)?`<button class="option" data-action="answer" data-value="${index}">Placer ici</button>`:'';
@@ -1173,15 +1201,131 @@ function receiveBingoAnswer(message){
   if(game?.settings?.bingo&&game.phase==='playing')void receive();
  });
 }
-function connect(){clearTimeout(reconnect);if(ws){ws.onclose=null;ws.close();}connected=false;ws=new WebSocket(`${location.protocol==='https:'?'wss:':'ws:'}//${location.host}/api/rooms/${room}`);const socket=ws;
- socket.onopen=()=>{connected=true;socket.send(JSON.stringify(auth));};
- socket.onmessage=e=>{if(e.data==='pong')return;try{const m=JSON.parse(e.data);if(m.type==='team-plan'){if(game){game.teamPlan=m.teamPlan;render();}return;}if(m.type==='ceremony'){showCeremony(m);return;}if(m.type==='roulette'){showWheel(m.wheel);return;}if(m.type==='mountain-answer'){receiveMountainAnswer(m);return;}if(m.type==='bingo-answer'){receiveBingoAnswer(m);return;}if(m.type==='error'){busy=false;if(pendingBingo){pendingBingo=undefined;render();}toast(m.message);if(view==='join')render();if(/expir|introuvable|refus|commencé|déjà|maximum|Entrez/.test(m.message)){socket.onclose=null;socket.close();connected=false;}return;}if(m.type==='session'){teamId=m.id;sessionStorage.setItem('declic.player.'+room,JSON.stringify({id:m.id,token:m.token}));auth={type:'join',token:m.token};role='player';view='phone';busy=false;}if(m.type==='state'){game=m.state;wheel=game.roulette||null;if(role==='host'&&resumeOnConnect){resumeOnConnect=false;if(game.phase==='finished')view='setup';}if(game.tyrolien){void receive();return;}game.teams=game.teams.map(({id,name,score,key,streak,eliminated,lives,bingo,avatar})=>({id,name,score,key,streak,eliminated,lives,bingo,avatar}));if(role==='host'){if(!game.questions.length&&game.event?.type==='salon'){desk.stop();desk.id=null;}const saved=read('declic.host',{});if(saved.room===room){game.effect=saved.effect||game.effect;const originals=new Map(saved.questions?.map(q=>[q.id,q]));game.questions=game.questions.map(q=>({...originals.get(q.sourceId||q.id),...q}));}if(game.phase==='playing'&&audioLoading?.id!==currentQ()?.id&&(!audioReady||desk.id!==currentQ()?.id))void ensureAudio().catch(error=>{audioError=error.message;toast(error.message);render();});}void receive();}}catch{toast('Erreur de synchronisation.');}};
- socket.onclose=event=>{connected=false;busy=false;
- if(event.code===4001){
-  if(role==='host'){if(!changingEvening){clearEvening();view='home';void loadEvening();}}
-  else{sessionStorage.removeItem('declic.player.'+room);role='host';view='join';game=null;room=null;toast('Cette soirée est terminée.');render();}
-  return;
- }if(view==='join'){toast('Partie introuvable ou indisponible. Vérifiez le code.');render();return;}render();reconnect=setTimeout(()=>connect(),2500);};socket.onerror=()=>{};
+function returnToJoin(message,keepCode=false){
+ clearTimeout(reconnect);
+ clearPlayerSession(room);
+ if(!keepCode)room=null;
+ history.replaceState(null,'',room?'/join?code='+encodeURIComponent(room):'/join');
+ view='join';game=null;wheel=null;ceremony=null;teamId=null;auth=null;busy=false;connected=false;
+ joinMessage=message;
+ render();
+ $('#join-form').elements[room?'name':'code'].focus();
+}
+function connect(){
+ clearTimeout(reconnect);
+ if(ws){ws.onclose=null;ws.onmessage=null;ws.close();}
+ connected=false;
+ const playerConnection=auth?.type==='join';
+ const roomPath='/api/rooms/'+room;
+ const socket=ws=new WebSocket(`${location.protocol==='https:'?'wss:':'ws:'}//${location.host}${roomPath}`);
+ let opened=false;
+ socket.onopen=()=>{
+  opened=true;
+  connected=!playerConnection;
+  socket.send(JSON.stringify(auth));
+ };
+ socket.onmessage=event=>{
+  if(event.data==='pong')return;
+  try{
+   const message=JSON.parse(event.data);
+   if(message.type==='team-plan'){
+    if(game){game.teamPlan=message.teamPlan;render();}
+    return;
+   }
+   if(message.type==='ceremony'){showCeremony(message);return;}
+   if(message.type==='roulette'){showWheel(message.wheel);return;}
+   if(message.type==='mountain-answer'){receiveMountainAnswer(message);return;}
+   if(message.type==='bingo-answer'){receiveBingoAnswer(message);return;}
+   if(message.type==='error'){
+    busy=false;
+    if(playerConnection&&!connected){
+     socket.onclose=null;
+     socket.close();
+     if(message.code==='player-session-missing'){
+      returnToJoin(message.message,true);
+     }else if(/expir/.test(message.message)){
+      returnToJoin('Cette soirée est terminée. Saisissez un autre code.');
+     }else if(view==='join'){
+      updateJoinForm(message.message,/nom|pseudo|prénom/.test(message.message)?'name':undefined);
+     }else{
+      render();
+      reconnect=setTimeout(connect,2500);
+     }
+     return;
+    }
+    if(pendingBingo){pendingBingo=undefined;render();}
+    toast(message.message);
+    if(/expir|introuvable|refus|commencé|déjà|maximum|Entrez/.test(message.message)){
+     socket.onclose=null;socket.close();connected=false;
+    }
+    return;
+   }
+   if(message.type==='session'){
+    teamId=message.id;
+    savePlayerSession(room,{id:message.id,token:message.token});
+    auth={type:'join',token:message.token};
+    role='player';view='phone';busy=false;connected=true;
+    return;
+   }
+   if(message.type!=='state')return;
+   game=message.state;
+   wheel=game.roulette||null;
+   if(role==='host'&&resumeOnConnect){
+    resumeOnConnect=false;
+    if(game.phase==='finished')view='setup';
+   }
+   if(game.tyrolien){void receive();return;}
+   game.teams=game.teams.map(({id,name,score,key,streak,eliminated,lives,bingo,avatar})=>
+    ({id,name,score,key,streak,eliminated,lives,bingo,avatar}));
+   if(role==='host'){
+    if(!game.questions.length&&game.event?.type==='salon'){desk.stop();desk.id=null;}
+    const saved=read('declic.host',{});
+    if(saved.room===room){
+     game.effect=saved.effect||game.effect;
+     const originals=new Map(saved.questions?.map(q=>[q.id,q]));
+     game.questions=game.questions.map(q=>({...originals.get(q.sourceId||q.id),...q}));
+    }
+    if(game.phase==='playing'&&audioLoading?.id!==currentQ()?.id&&(!audioReady||desk.id!==currentQ()?.id)){
+     void ensureAudio().catch(error=>{audioError=error.message;toast(error.message);render();});
+    }
+   }
+   void receive();
+  }catch{toast('Erreur de synchronisation.');}
+ };
+ socket.onclose=async event=>{
+  connected=false;
+  if(event.code===4001){
+   busy=false;
+   if(playerConnection)returnToJoin('Cette soirée est terminée. Saisissez un autre code.');
+   else if(role==='host'&&!changingEvening){clearEvening();view='home';void loadEvening();}
+   else if(role==='tv'){
+    role='player';view='join';game=null;room=null;
+    toast('Cette soirée est terminée.');render();
+   }
+   return;
+  }
+  if(playerConnection&&!opened){
+   const status=await fetch(roomPath,{cache:'no-store',signal:AbortSignal.timeout(4000)})
+    .then(response=>response.status).catch(()=>null);
+   if(ws!==socket)return;
+   if(status===404){
+    if(view!=='join'){
+     returnToJoin('Cette soirée est terminée. Saisissez un autre code.');
+    }else{
+     busy=false;
+     updateJoinForm('Ce code ne correspond à aucune soirée active.','code');
+    }
+    return;
+   }
+  }
+  busy=false;
+  if(playerConnection&&view==='join'){
+   updateJoinForm('Connexion impossible. Vérifiez le Wi-Fi et réessayez.');
+   return;
+  }
+  render();
+  reconnect=setTimeout(connect,2500);
+ };
 }
 setInterval(()=>{if(ws?.readyState===WebSocket.OPEN)ws.send('ping');},25000);
 setInterval(()=>{
@@ -1418,7 +1562,23 @@ document.addEventListener('change',async e=>{
 });
 document.addEventListener('submit',async e=>{const f=e.target;if(f.method==='dialog')return;e.preventDefault();const data=new FormData(f);
  if(f.id==='question-form')try{const answer=String(data.get('answer')).trim(),wrong=String(data.get('wrong')).split('\n').map(x=>x.trim()).filter(Boolean);if(!answer||wrong.length!==3||new Set([answer,...wrong].map(x=>x.toLowerCase())).size!==4)throw Error('Saisissez une bonne réponse et trois mauvaises réponses différentes.');const existing=custom.find(q=>q.id===f.dataset.id),id=existing?.id||randomUUID();let mediaKey=existing?.mediaKey,mediaType=existing?.mediaType;const file=data.get('media'),kind=data.get('kind');if(file?.size){if(file.size>30*1024*1024)throw Error('Le fichier doit faire moins de 30 Mo.');if(['audio','lyrics'].includes(kind)&&!file.type.startsWith('audio/'))throw Error('Choisissez un fichier audio pour ce type de question.');if(kind==='image'&&!['image/jpeg','image/png','image/webp','image/gif'].includes(file.type))throw Error('Choisissez une image JPG, PNG, WebP ou GIF.');mediaKey=id;mediaType=file.type;await storeBlob(id,file);if(assetUrls.has(id)){URL.revokeObjectURL(assetUrls.get(id));assetUrls.delete(id);}}if(['audio','lyrics'].includes(kind)&&(!mediaKey||!mediaType?.startsWith('audio/')))throw Error('Ajoutez un fichier audio.');if(kind==='image'&&(!mediaKey||!mediaType?.startsWith('image/')))throw Error('Ajoutez une image.');const cutAt=Number(data.get('cutAt'));if(kind==='lyrics'&&(!Number.isFinite(cutAt)||cutAt<.1||cutAt>30||cutAt>=Number(data.get('duration'))))throw Error('La coupure doit être comprise entre 0,1 et 30 s, avant la fin de la manche.');const options=[answer,...wrong];for(let i=3;i>0;i--){const j=Math.floor(Math.random()*(i+1));[options[i],options[j]]=[options[j],options[i]];}const q={id,universe:'music',kind,prompt:String(data.get('prompt')).trim(),answer,aliases:String(data.get('aliases')).split(';').map(x=>x.trim()).filter(Boolean),options,duration:Number(data.get('duration')),points:Number(data.get('points')),mediaKey,mediaType,cutAt:kind==='lyrics'?cutAt:undefined,title:String(data.get('title')||'').trim()||undefined,artist:String(data.get('artist')||'').trim()||undefined,target:'both'};custom=existing?custom.map(v=>v.id===id?q:v):[...custom,q];write('declic.library',custom);closeModal();render();toast('Question enregistrée !');}catch(err){toast(err.message);}
- if(f.id==='join-form'){const code=String(data.get('code')).trim().toUpperCase();if(!/^[A-Z2-9]{8}$/.test(code)){toast('Entrez le code de 8 caractères.');return;}room=code;history.replaceState(null,'','/join?code='+encodeURIComponent(room));const saved=readPlayerSession(room);const choice=data.get('avatar');const avatar=choice==='random'?Math.floor(Math.random()*showAvatars.length):Number(choice);auth={type:'join',name:String(data.get('name')).trim(),avatar,token:saved?.token};teamId=saved?.id;busy=true;render();connect();}
+ if(f.id==='join-form'){
+  if(busy)return;
+  const code=String(data.get('code')).trim().toUpperCase();
+  const name=String(data.get('name')).trim();
+  if(!/^[A-Z2-9]{8}$/.test(code)){updateJoinForm('Entrez le code de 8 caractères.','code');return;}
+  if(!name){updateJoinForm('Entrez votre pseudo.','name');return;}
+  room=code;
+  f.elements.code.value=code;
+  history.replaceState(null,'','/join?code='+encodeURIComponent(room));
+  const saved=readPlayerSession(room);
+  const choice=data.get('avatar');
+  const avatar=choice==='random'?Math.floor(Math.random()*showAvatars.length):Number(choice);
+  auth={type:'join',name,avatar,token:saved?.token};
+  busy=true;
+  updateJoinForm();
+  connect();
+ }
  if(f.id==='answer-form'){send({type:'answer',answer:String(data.get('answer')||'').trim(),title:String(data.get('title')||'').trim(),artist:String(data.get('artist')||'').trim()});}
  if(f.id==='adjust-form'){send({type:'adjust',team:data.get('team'),points:Number(data.get('points'))});closeModal();}
 });
@@ -2090,13 +2250,31 @@ if(location.pathname==='/tv'){
  else{room=null;channel.postMessage({type:'request'});}
 }
 else if(location.pathname==='/join'){
- view='join';room=(params.get('code')||'').toUpperCase();
+ role='player';view='join';
+ const code=(params.get('code')||'').toUpperCase();
+ room=/^[A-Z2-9]{8}$/.test(code)?code:null;
  const saved=readPlayerSession(room);
- if(saved){role='player';view='phone';teamId=saved.id;auth={type:'join',token:saved.token};connect();}
+ if(saved){view='phone';teamId=saved.id;auth={type:'join',token:saved.token};connect();}
 }
 function readPlayerSession(code){
- try{return JSON.parse(sessionStorage.getItem('declic.player.'+code)||'null');}
- catch{return null;}
+ if(!code)return null;
+ const key='declic.player.'+code;
+ let saved=read(key,null);
+ if(!saved){
+  try{saved=JSON.parse(sessionStorage.getItem(key));}catch{}
+ }
+ return typeof saved?.id==='string'&&typeof saved?.token==='string'?saved:null;
+}
+function savePlayerSession(code,session){
+ const key='declic.player.'+code;
+ try{write(key,session);}catch{
+  try{sessionStorage.setItem(key,JSON.stringify(session));}catch{}
+ }
+}
+function clearPlayerSession(code){
+ const key='declic.player.'+code;
+ try{localStorage.removeItem(key);}catch{}
+ try{sessionStorage.removeItem(key);}catch{}
 }
 render();
 if(view==='home')void loadEvening();
