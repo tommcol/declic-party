@@ -121,6 +121,8 @@ test('Le serveur Node synchronise une manche et reprend ses données et alarmes 
  players[0].send({type:'answer',questionId:question.id,answer:'Piano'});
  players[1].send({type:'answer',questionId:question.id,answer:'Guitare'});
  await Promise.all(players.map(p=>p.waitFor(m=>m.type==='received')));
+ const live=await tv.waitFor(m=>m.state?.phase==='playing'&&m.state.answered?.length===2);
+ assert.equal(live.state.question.answer,undefined);
 
  const {tracks}=await request('/api/library/tracks?playlist=mix');
  assert.ok(tracks.length>0);

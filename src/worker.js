@@ -393,6 +393,9 @@ export class PartyRoom extends DurableObject {
   this.send(ws,{type:'state',state});
  }
  broadcast(s,respondingPlayer){
+  clearTimeout(this.answerObserverTimer);
+  this.answerObserverTimer=null;
+  this.pendingAnswerState=null;
   // Full phase broadcasts supersede pending lobby updates.
   if(!respondingPlayer)this.pendingTeams=null;
   const ranking=this.eveningRanking(s);
@@ -404,6 +407,27 @@ export class PartyRoom extends DurableObject {
     this.sendState(ws,s,identity,ranking,teamPlan);
    }
   }
+ }
+ broadcastClassicAnswer(room,player){
+  for(const socket of this.ctx.getWebSockets()){
+   const identity=socket.deserializeAttachment();
+   if(identity?.role==='player'&&identity.team===player)this.sendState(socket,room,identity);
+  }
+  this.pendingAnswerState=room;
+  if(this.answerObserverTimer)return;
+  this.answerObserverTimer=setTimeout(()=>{
+   const latest=this.pendingAnswerState;
+   this.answerObserverTimer=null;
+   this.pendingAnswerState=null;
+   if(!latest)return;
+   // Answers are already committed and acknowledged. The host and TV only need
+   // the newest live snapshot during a burst.
+   const ranking=this.eveningRanking(latest);
+   for(const observer of this.ctx.getWebSockets()){
+    const identity=observer.deserializeAttachment();
+    if(identity?.role==='host'||identity?.role==='tv')this.sendState(observer,latest,identity,ranking);
+   }
+  },75);
  }
  broadcastMountainAnswer(room,player){
   const message={type:'mountain-answer',questionId:room.questions[room.index].id,revision:room.revision};
@@ -648,6 +672,9 @@ export class PartyRoom extends DurableObject {
    }
    if(m.type==='answer'&&s.mountain)this.broadcastMountainAnswer(s,a.team);
    else if(m.type==='bingo-mark')this.broadcastBingoAnswer(s,a.team);
+   else if(m.type==='answer'&&s.phase==='playing'){
+    this.broadcastClassicAnswer(s,a.team);
+   }
    else this.broadcast(s,['answer','joker','chain-vote','ty-vote'].includes(m.type)?a.team:undefined);
   }catch(e){this.send(ws,{type:'error',message:e.message,code:e.code==='player-session-missing'?e.code:undefined});}
  }
