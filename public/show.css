@@ -1393,3 +1393,63 @@
   from { opacity: 0; transform: translateY(0.55rem); }
   to { opacity: 1; transform: translateY(0); }
 }
+
+/* Vinyl Factory */
+.vinyl-stage { --vinyl-copper: #efbd87; --vinyl-mint: #c9efb8; }
+.vinyl-stage .eyebrow { color: var(--vinyl-copper); }
+.vinyl-stage h1 { font-size: clamp(1.5rem, 3.1vw, 3.6rem); }
+.vinyl-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: clamp(0.45rem, 1.3vw, 1.25rem);
+  width: min(100%, 64rem);
+  margin: 1rem auto;
+  text-align: center;
+}
+.vinyl-choice {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .3rem;
+  min-width: 0;
+  padding: .4rem;
+  border: 2px solid #a47752;
+  border-radius: .6rem;
+  background: #251b17;
+  color: #fff3e3;
+}
+button.vinyl-choice { cursor: pointer; touch-action: manipulation; }
+button.vinyl-choice:focus-visible { outline: 3px solid #c9efb8; outline-offset: 3px; }
+.vinyl-sleeve { display: block; width: 100%; aspect-ratio: 1; background: #14100e; }
+.vinyl-grid .vinyl-sleeve img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  max-height: none;
+  margin: 0;
+  border-radius: .18rem;
+  object-fit: cover;
+}
+.vinyl-letter { font-size: 1.1em; font-weight: 800; }
+.vinyl-choice small { font-size: .75em; line-height: 1.2; }
+.vinyl-choice.is-selected, .vinyl-choice.is-correct { border-color: #c9efb8; }
+.vinyl-choice.is-correct { box-shadow: 0 0 1.2rem #ecbf8277; color: #e1fcd4; }
+.vinyl-stage[data-vinyl-phase="reveal"] .vinyl-choice:not(.is-correct):not(.is-selected) .vinyl-sleeve {
+  filter: brightness(.65) saturate(.7);
+}
+.vinyl-phone .vinyl-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); width: min(100%, 23rem); }
+.vinyl-phone .vinyl-stage > h1 { font-size: clamp(1.25rem, 5vw, 2rem); }
+.vinyl-phone .stage { min-height: 0; }
+@media (prefers-reduced-motion: no-preference) {
+  .vinyl-stage[data-vinyl-phase="reveal"] .vinyl-choice.is-correct {
+    animation: vinyl-spotlight .65s ease-out;
+  }
+  .no-show-animation .vinyl-stage[data-vinyl-phase="reveal"] .vinyl-choice.is-correct { animation: none; }
+}
+@keyframes vinyl-spotlight {
+  from { box-shadow: 0 0 .15rem #ecbf8222; }
+  60% { box-shadow: 0 0 2.75rem #ecbf82c0; }
+  to { box-shadow: 0 0 1.2rem #ecbf8277; }
+}

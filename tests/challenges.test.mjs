@@ -240,3 +240,39 @@ test('Jokers : séries distinctes, cumul impossible, réinitialisation et points
  assert.equal(game.teams[0].score,before+200);
  assert.equal(game.history.at(-1).results[0].result.total,100);
 });
+
+test('Vinyl Factory conserve la pochette choisie sans révéler la réponse avant le signal',()=>{
+ const covers={...audio,id:'vinyl',target:'coverChoice',options:['A','B','C','D'],answer:'C',
+  optionArtwork:['cover-a','cover-b','cover-c','cover-d'],artwork:'cover-c'};
+ let game=createGame([covers],teams,'phone','qcm',{speed:true,jokers:true});
+ game=applyAction(game,{type:'play'},1000);
+ assert.equal(applyAction(game,{type:'reveal'},game.startAt-1),game);
+ game.teams[0].joker={held:'retry',correct:0,fastest:0,earned:['retry'],used:[]};
+ game=applyAction(game,{type:'answer',team:'a',answer:'A'},game.startAt+1);
+ const first=publicGame(game,'a');
+ assert.deepEqual(first.me,{attempts:1,selectedCover:'A'});
+ assert.equal(first.question.answer,undefined);
+ assert.equal(first.question.artwork,undefined);
+ assert.equal(publicGame(game,'b').me,undefined);
+ game=applyAction(game,{type:'joker',team:'a'},game.startAt+2);
+ game=applyAction(game,{type:'answer',team:'a',answer:'C'},game.startAt+3);
+ assert.deepEqual(publicGame(game,'a').me,{attempts:2,selectedCover:'C'});
+ game=applyAction(game,{type:'reveal'},game.startAt+4);
+ assert.equal(publicGame(game,'a').me.correct,true);
+ assert.equal(publicGame(game,'a').me.selectedCover,'C');
+ assert.equal(publicGame(game,'a').question.artwork,'cover-c');
+ assert.equal(publicGame(game).me,undefined);
+});
+
+test('Vinyl Factory réaffiche les images retirées par le joker à la révélation',()=>{
+ const covers={...audio,id:'vinyl-half',target:'coverChoice',options:['A','B','C','D'],answer:'C',
+  optionArtwork:['cover-a','cover-b','cover-c','cover-d'],artwork:'cover-c'};
+ let game=createGame([covers],teams,'phone','qcm',{jokers:true});
+ game=applyAction(game,{type:'play'},1000);
+ game.teams[0].joker={held:'half',correct:0,fastest:0,earned:['half'],used:[]};
+ game=applyAction(game,{type:'joker',team:'a'},game.startAt+1);
+ assert.deepEqual(publicGame(game,'a').question.optionArtwork,['cover-b','cover-c','cover-d']);
+ assert.deepEqual(publicGame(game).question.optionArtwork,covers.optionArtwork);
+ game=applyAction(game,{type:'reveal'},game.startAt+2);
+ assert.deepEqual(publicGame(game,'a').question.optionArtwork,covers.optionArtwork);
+});

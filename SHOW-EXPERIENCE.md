@@ -198,6 +198,20 @@ Sur téléphone, les boutons indiquent les années entre lesquelles placer le
 morceau. En mode individuel, le verdict personnel est réservé au bilan. Après
 une fin anticipée, le pourcentage se calcule sur les extraits joués.
 
+## Chantier 06 — La bonne pochette, Vinyl Factory
+
+La sélection musicale peut être vérifiée depuis la préparation, après un choix
+manuel, un vote ou une roulette. La même vérification est requise au lancement.
+Chaque manche utilise un extrait vérifié et quatre images distinctes chargées
+par la régie. La roulette continue à présélectionner par nombre de références.
+
+Le téléphone conserve la pochette choisie, confirmée par le serveur, et affiche
+le verdict lors de la révélation. Le plateau garde les quatre pochettes à
+l’écran et souligne la bonne réponse avec un effet de lumière et un son de
+platine. La régie conserve le bouton de révélation après le compte à rebours.
+Les parcours individuel et en équipe, les points et les jokers restent ceux
+du moteur commun.
+
 ## Maintenir les deux versions
 
 Les règles, les scores, le catalogue, les playlists et le serveur local évoluent

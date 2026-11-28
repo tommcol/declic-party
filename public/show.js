@@ -197,7 +197,24 @@ export function playShowCue(context,type,destination=context.destination){
     source.start();
     return;
   }
+  if(type==='vinyl'){
+    const rate=context.sampleRate;
+    const buffer=context.createBuffer(1,Math.floor(rate*.22),rate);
+    const samples=buffer.getChannelData(0);
+    let previous=0;
+    for(let i=0;i<samples.length;i++){
+      const noise=(Math.random()*2-1)*.23;
+      samples[i]=(noise-previous)*Math.exp(-i/(rate*.035));
+      previous=noise;
+    }
+    const source=context.createBufferSource();
+    source.buffer=buffer;
+    source.connect(destination);
+    source.onended=()=>source.disconnect();
+    source.start();
+  }
   const cues={
+   vinyl:[[48,.04,.18],[60,.09,.25],[67,.14,.29]],
    arrival:[[55,0,.2],[67,.065,.2],[79,.14,.25]],
    streak:[[60,0,.14],[67,.07,.14],[72,.14,.2],[84,.24,.4]],
    tie:[[64,0,.22],[71,0,.22],[76,.16,.3],[83,.16,.3]],
