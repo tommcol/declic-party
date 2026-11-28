@@ -597,7 +597,7 @@ export class PartyRoom extends DurableObject {
      if(m.questionId!==s.questions[s.index]?.id)throw Error('Ce vote est terminé.');
      s=act({type:m.type,player:a.team,value:m.value});
     }
-    else if(a.role==='host'&&(['play','pause','resume','reveal','next','adjust','judge','listen-more'].includes(m.type)||
+    else if(a.role==='host'&&(['play','pause','resume','reveal','next','adjust','judge','listen-more','stop'].includes(m.type)||
        s.mountain&&['skip','stop'].includes(m.type)))s=act(m);
     else throw Error('Action non autorisée');
 

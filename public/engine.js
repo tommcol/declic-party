@@ -42,7 +42,7 @@ export function bingoProgress({card, marked}) {
  };
 }
 export function bingoGrandWinners(teams,milestones=[]){
- const triple=milestones.find(milestone=>milestone.rows===3);
+ const triple=[...milestones].sort((a,b)=>b.rows-a.rows)[0];
  if(!triple)return [];
  const contenders=teams.filter(team=>triple.winners.includes(team.id));
  const best=Math.max(...contenders.map(team=>team.score));
@@ -333,6 +333,14 @@ export function applyAction(game, action, now=Date.now()) {
  }
  else if((action.type==='reveal'||action.type==='timeout')&&['playing','buzzed','paused'].includes(s.phase)){
   if((action.type==='timeout'||timeline)&&(s.phase!=='playing'||now<s.endAt))return game;reveal();
+ }
+ else if(action.type==='stop'&&['ready','playing','buzzed','paused','reveal'].includes(s.phase)){
+  // Close a started round once, but never invent a draw during a countdown.
+  if(['playing','buzzed','paused'].includes(s.phase)&&now>=s.startAt)reveal();
+  if(chain)for(const team of s.teams){team.score+=team.unbanked||0;team.unbanked=0;}
+  s.chainVote=null;s.phase='finished';s.buzz=null;s.blocked=[];s.pending={};s.claimed={};s.cooldowns={};s.nextAt=0;s.endAt=0;s.remaining=0;
+  if(timeline)s.teams.sort((left,right)=>right.score-left.score||(left.timelineElapsed||0)-(right.timelineElapsed||0));
+  emit('podium');
  }
  else if(action.type==='next'&&s.phase==='reveal'){
   if(chain&&s.chainVote){
