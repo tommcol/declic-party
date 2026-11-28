@@ -16,7 +16,7 @@ export function createLocalServer({worker, PartyRoom, MusicLibrary}, directory) 
       get:(_,method)=>(...args)=>runRoom(name,room=>room[method](...args))
     })},
     MUSIC_LIBRARY:{getByName:name=>new Proxy({},{
-      get:(_,method)=>(...args)=>storage.library(name,['setExcluded','savePlaylist'].includes(method),state=>
+      get:(_,method)=>(...args)=>storage.library(name,['setExcluded','savePlaylist','savePreview'].includes(method),state=>
         new MusicLibrary({storage:state},env)[method](...args))
     })}
   };

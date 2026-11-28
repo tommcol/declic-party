@@ -162,6 +162,7 @@ export class MusicLibrary extends DurableObject {
  constructor(ctx,env) {
   super(ctx,env);
   this.db=ctx.storage.sql;
+  this.localAudio=env.DECLIC_LOCAL==='true';
   seedLibrary();
  }
 
@@ -222,7 +223,7 @@ export class MusicLibrary extends DurableObject {
   if(saved.length)categories.push({id:'custom',name:'Playlists personnalisées',icon:'🎛️',
    playlists:saved.map(item=>({...item,icon:'🎛️',references:this.matches({playlists:[],filters:item.filters})
     .filter(track=>!excluded.has(track.id)).length,playable:null}))});
-  return {categories,references:categories.find(group=>group.id==='hits').playlists.find(item=>item.id==='mix').references,
+  return {...(this.localAudio?{localAudio:true}:{}),categories,references:categories.find(group=>group.id==='hits').playlists.find(item=>item.id==='mix').references,
    total:seedTracks.length,playable:null,filterFamilies,import:this.refresh()};
  }
 
@@ -236,8 +237,9 @@ export class MusicLibrary extends DurableObject {
   if(sort==='artist')matches.sort((a,b)=>a.artist.localeCompare(b.artist,'fr'));
   if(sort.startsWith('year'))matches.sort((a,b)=>Number(!a.year)-Number(!b.year)||
    (sort==='year'?a.year-b.year:b.year-a.year));
+  const previews=this.previews();
   const tracks=matches.slice(offset,offset+libraryPage).map(track=>({...this.describe(track),
-   excluded:Number(excluded),available:null,audioStatus:'unknown'}));
+   excluded:Number(excluded),available:null,audioStatus:'unknown',...this.previewInfo(previews,track)}));
   return {tracks,total:matches.length,next:offset+libraryPage<matches.length?offset+libraryPage:null,playable:null};
  }
 
@@ -249,7 +251,35 @@ export class MusicLibrary extends DurableObject {
 
  candidates(params) {
   const excluded=this.exclusions();
-  return this.matches(params)?.filter(track=>!excluded.has(track.id)).map(track=>this.describe(track))??null;
+  const previews=this.previews();
+  return this.matches(params)?.filter(track=>!excluded.has(track.id))
+   .map(track=>({...this.describe(track),...this.previewInfo(previews,track)}))??null;
+ }
+
+ previews() {
+  if(!this.localAudio||!this.db.exec("SELECT 1 FROM sqlite_master WHERE type='table' AND name='library_preview'").toArray().length)return new Map();
+  return new Map(this.db.exec('SELECT id,provider_id,explicit FROM library_preview').toArray().map(row=>[row.id,row]));
+ }
+
+ previewInfo(previews,track) {
+  const row=previews.get(track.id);
+  if(!row)return {};
+  const preview=row.provider_id?{
+   id:row.provider_id,title:track.title,artist:track.artist,
+   preview:'/api/music/preview/'+row.provider_id,provider:'Deezer',
+   link:'https://www.deezer.com/track/'+row.provider_id,explicit:Boolean(row.explicit)
+  }:null;
+  return {audioReviewed:true,preview};
+ }
+
+ savePreview(id,providerId,explicit) {
+  if(!this.localAudio||!tracksById.has(id))return false;
+  this.db.exec('CREATE TABLE IF NOT EXISTS library_preview (id TEXT PRIMARY KEY, provider_id TEXT, explicit INTEGER NOT NULL)');
+  this.db.exec(`
+   INSERT INTO library_preview (id,provider_id,explicit) VALUES (?,?,?)
+   ON CONFLICT(id) DO UPDATE SET provider_id=excluded.provider_id,explicit=excluded.explicit
+  `,id,providerId,Number(explicit));
+  return true;
  }
 
  setExcluded(id,excluded) {

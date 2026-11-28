@@ -52,6 +52,17 @@ async function libraryRoute(req,env,url){
  }
  if(req.method==='POST'||req.method==='PATCH'){
   if(req.headers.get('Origin')!==url.origin)return json({error:'Origine refusée.'},403);
+  if(req.method==='POST'&&url.pathname==='/api/library/verified-preview'&&env.DECLIC_LOCAL==='true'){
+   let data;
+   try{data=JSON.parse(await boundedText(req,2048));}
+   catch{return json({error:'Demande invalide.'},400);}
+   if(typeof data?.id!=='string'||data.id.length>360||typeof data.explicit!=='boolean'||
+      (data.providerId!==null&&(typeof data.providerId!=='string'||!/^\d{1,20}$/.test(data.providerId)))){
+    return json({error:'Référence d’extrait invalide.'},400);
+   }
+   return await library.savePreview(data.id,data.providerId,data.explicit)
+    ?json({ok:true}):json({error:'Titre introuvable.'},404);
+  }
   if(req.method==='POST'&&url.pathname==='/api/library/playlists'){
    let data;
    try{data=JSON.parse(await boundedText(req,16000));}
