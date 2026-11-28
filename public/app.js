@@ -83,7 +83,6 @@ const MUSIC_GAMES=[
  ['coversQuiz','Les reprises','Reliez la version originale et la reprise.'],
  ['soundtrack','Cinéma musical','Retrouvez le film, la série ou le générique TV.'],
  ['blind','Blind test','Retrouvez le titre ou l’artiste.'],
- ['progressive','Une seconde pour trouver','Écoutez 1, 2, 5 puis 10 secondes du même extrait.'],
  ['chain','Maillon faible','Sécurisez vos points et votez pour départager les joueurs.'],
  ['covers','La bonne pochette','Choisissez la pochette parmi quatre images.'],
  ['survival','Dernier survivant','Restez en jeu en répondant correctement. Deux participants minimum.']
@@ -94,6 +93,11 @@ for(const [key,value]of Object.entries(newDefaults))if(config[key]===undefined)c
 config.count=questionCount(config.count);
 config.settings=gameSettings(config.settings);if(config.version!==2||config.universe!=='music'||!['catalog','demo','custom'].includes(config.source)){
  Object.assign(config,{version:2,universe:'music',source:'catalog',challenge:'title'});
+ write('declic.config',config);
+}
+if(config.musicGame==='progressive'){
+ config.musicGame='blind';
+ config.settings=gameSettings({...config.settings,listening:'progressive'});
  write('declic.config',config);
 }
 const desk=new SoundDesk();
@@ -142,7 +146,7 @@ let showAnimations=read('declic.showAnimations',true);
 
 let customQuestionCount=false;
 const quickQuestionCounts=[5,10,15,20,30,50];
-const wheelGameSelection=read('declic.wheelGames',[]);
+const wheelGameSelection=read('declic.wheelGames',[]).filter(id=>id!=='progressive');
 const wheelSettings={player:'',animation:true,...read('declic.wheelPreferences',{})};
 function playlistIndex(){
  return new Map((playlistGroups||[]).flatMap(group=>group.playlists).map(item=>[item.id,item]));
@@ -2400,7 +2404,6 @@ function selectGame(v){
    count:10,duration:30,difficulty:'balanced',explicit:false,timelineMode:'collective',timelineCount:5,
    soundtrackCategory:'soundtrack',soundtrackChoices:4,coversDirection:'cover',settings:gameSettings()},gamePreferences[v]);
   if(!['blind','tyrolien'].includes(v)){config.input='qcm';config.source='catalog';}
- if(v==='progressive')config.settings={...config.settings,listening:'progressive'};
   config.explicit=!explicitPreference;saveConfig();render();
 }
 function fixedGameMusic(id=config.musicGame){
@@ -2579,7 +2582,7 @@ function rouletteMarkup(){
  ${role==='host'?`<div class="row">${wheel.result&&wheel.stage!=='category'?'<button class="btn primary" data-action="roulette-confirm">Continuer</button><button class="btn ghost" data-action="roulette-retry">Relancer</button>':''}<button class="btn ghost" data-action="roulette-dismiss">Fermer</button></div>`:''}</section>`;
 }
 function availableGame(id){
- return config.mode==='phone'||['blind','progressive'].includes(id);
+ return id!=='progressive'&&(config.mode==='phone'||id==='blind');
 }
 function musicGames(){
  return `<section id="music-games"><h1>On joue à quoi ?</h1><div class="game-picker-grid">${MUSIC_GAMES.filter(([id])=>availableGame(id)).map(([id,name,description])=>
