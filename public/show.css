@@ -1532,3 +1532,20 @@ button.vinyl-choice:focus-visible { outline: 3px solid #c9efb8; outline-offset: 
 @media (prefers-reduced-motion: no-preference) { .cinema-stage .cinema-reveal { animation: battle-reveal .65s ease-out; } .no-show-animation .cinema-stage .cinema-reveal { animation: none; } }
 
 .ty-phone-banner { margin: .65rem 0; padding: .65rem; border-inline-start: .35rem solid var(--team); background: #102634; color: #fff; }
+
+/* Le Grand Studio */
+.blind-stage { width: min(100%,65rem); }
+.blind-stage .eyebrow { color: #f8d394; }
+.blind-record { width: clamp(5rem,20vh,14rem); aspect-ratio: 1; margin: 1rem auto; border-radius: 50%; background: radial-gradient(circle,#e7b56d 0 11%,#101c2d 12% 25%,#34475d 26%,#101c2d 27% 44%,#34475d 45%,#101c2d 46% 60%,#34475d 61%,#101c2d 62%); border: 2px solid #ac814d; }
+.blind-reveal { display: grid; grid-template-columns: repeat(auto-fit,minmax(min(15rem,100%),1fr)); gap: .75rem; margin: 1rem auto; }
+.blind-reveal > div { display: grid; place-content: center; padding: 1rem; color: #fff1d4; background: #0c1b30; border: 1px solid #d6a962; border-radius: .65rem; }
+.blind-reveal h1,.blind-reveal strong { font-size: clamp(1.35rem,3.5vw,3rem); overflow-wrap: anywhere; }
+.blind-preparation { margin-block: .85rem; }
+@media (prefers-reduced-motion: no-preference) {
+ .blind-stage .blind-reveal { animation: grand-studio-reveal .6s ease-out; }
+ .no-show-animation .blind-stage .blind-reveal { animation: none; }
+}
+@keyframes grand-studio-reveal {
+ from { opacity: .55; transform: translateY(.4rem); }
+ to { opacity: 1; transform: translateY(0); }
+}

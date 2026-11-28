@@ -317,3 +317,16 @@ test('Ciné Palace protège la réponse pendant le compte à rebours et confirme
  assert.equal(publicGame(state,'a').me.correct,true);
  assert.equal(publicGame(state).question.answer,'Une œuvre');
 });
+
+test('Grand Studio : révélation après le départ et choix QCM privé',()=>{
+ let room=createGame([audio],teams,'phone','qcm',{});
+ room.musicGame='blind';
+ room=applyAction(room,{type:'play'},1000);
+ assert.equal(applyAction(room,{type:'reveal'},room.startAt-1),room);
+ room=applyAction(room,{type:'answer',team:'a',answer:'Titre'},room.startAt+1);
+ assert.deepEqual(publicGame(room,'a').me,{attempts:1,selectedChoice:'Titre'});
+ assert.equal(publicGame(room,'b').me,undefined);
+ assert.equal(publicGame(room).question.answer,undefined);
+ room=applyAction(room,{type:'reveal'},room.startAt+2);
+ assert.equal(publicGame(room,'a').me.correct,true);
+});

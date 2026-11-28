@@ -244,6 +244,14 @@ Le parcours intégré affiche le suivi des réponses par équipe, le palier prè
 
 « Une seconde pour trouver » est retiré du choix des jeux, de la roulette et du vote. L’écoute progressive reste proposée dans le Blind test. Une ancienne configuration du Laboratoire s’ouvre en Blind test avec l’écoute progressive activée.
 
+## Chantier 06 — Blind test, Le Grand Studio
+
+La préparation affiche le mode de réponse et le nombre d’extraits vérifiés.
+Le plateau montre qui a la main au buzzer et sépare le titre de l’artiste
+à la révélation. En QCM, le téléphone confirme le choix reçu par le serveur.
+La révélation attend la fin du compte à rebours. Les premières places
+ex æquo sont signalées au podium.
+
 ## Maintenir les deux versions
 
 Les règles, les scores, le catalogue, les playlists et le serveur local évoluent
