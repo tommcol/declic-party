@@ -1,5 +1,6 @@
 const gameScenes = {
   blind: 'studio',
+  progressive: 'studio',
   bingo: 'disco',
   timeline: 'chronology',
   coversQuiz: 'duel',
@@ -16,7 +17,79 @@ export function showScene(game, wheel, ceremony) {
   if (wheel || ceremony || !game || ['lobby', 'paused', 'finished'].includes(game.phase)) {
     return 'plateau';
   }
-  return gameScenes[game.musicGame] || (game.settings?.chain ? 'chain' : 'studio');
+  return game.settings?.chain ? 'chain' : gameScenes[game.musicGame] || 'studio';
+}
+
+const sceneNames = {
+  plateau: 'Salle principale',
+  studio: 'Le Grand Studio',
+  disco: 'Studio 54',
+  chronology: 'Le Chronoscope',
+  duel: 'Battle Stage',
+  cinema: 'Ciné Palace',
+  gallery: 'Vinyl Factory',
+  arena: 'Last One Standing',
+  chain: 'Réaction'
+};
+
+export function showVenue(game, wheel, ceremony) {
+  return sceneNames[showScene(game, wheel, ceremony)] || 'Le Tyrolien';
+}
+
+export function showRoundSummary(round) {
+  const results = round?.results || [];
+  const answered = results.filter(({result}) => result.attempts > 0);
+  const complete = answered.filter(({result}) => result.correct === true);
+  const partial = answered.filter(({result}) => result.correct !== true && result.parts?.length);
+  const timed = complete.filter(({result}) => Number.isFinite(result.elapsed))
+    .sort((left, right) => left.result.elapsed - right.result.elapsed);
+  const middle = timed.length / 2;
+  const median = timed.length ? (timed[Math.floor(middle)].result.elapsed +
+    timed[Math.ceil(middle) - 1].result.elapsed) / 2 : null;
+  const fastest = timed[0]?.result.elapsed;
+  const slowest = timed.at(-1)?.result.elapsed;
+  return {
+    complete: complete.length,
+    partial: partial.length,
+    wrong: answered.length - complete.length - partial.length,
+    absent: results.length - answered.length,
+    median,
+    fastest: timed.filter(({result}) => result.elapsed === fastest),
+    slowest: slowest === fastest ? [] : timed.filter(({result}) => result.elapsed === slowest)
+  };
+}
+
+const lobbySnapshots = new WeakMap();
+
+export function updateLobbyArrivals(root, {room, game, reduced, avatarFor}) {
+  const lobby = game?.phase === 'lobby' && !game.tyrolien && !game.teamPlan?.gather;
+  const layer = root.querySelector('.show-arrivals');
+  if (!lobby || !layer) {
+    lobbySnapshots.delete(root);
+    layer?.replaceChildren();
+    return;
+  }
+  const ids = new Set(game.teams.map(team => team.id));
+  const previous = lobbySnapshots.get(root);
+  lobbySnapshots.set(root, {room, ids});
+  if (!previous || previous.room !== room || reduced) {
+    layer.replaceChildren();
+    return;
+  }
+  if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  const arrivals = game.teams.filter(team => !previous.ids.has(team.id));
+  if (!arrivals.length) return;
+  const labels = arrivals.slice(0, 4).map(team => [avatarFor(team), team.name]);
+  if (arrivals.length > 4) labels.push(['', '+ ' + (arrivals.length - 4) + ' arrivées']);
+  labels.forEach(([avatar, name], index) => {
+    while (layer.childElementCount >= 8) layer.firstElementChild.remove();
+    const bubble = document.createElement('span');
+    bubble.className = 'show-arrival';
+    bubble.style.setProperty('--arrival-lane', index);
+    bubble.textContent = avatar ? avatar + ' ' + name : name;
+    layer.append(bubble);
+    setTimeout(() => bubble.remove(), 3600);
+  });
 }
 
 const playlistThemes = {
@@ -41,6 +114,7 @@ export function playlistShowTheme(ids) {
 export function showBackdrop() {
   return `<div class="show-backdrop" aria-hidden="true">
     <div class="show-artwork"></div>
+    <div class="show-arrivals"></div>
     <div class="show-wash"></div>
     <div class="show-floor"></div>
     <div class="show-set-piece show-set-piece-left"></div>

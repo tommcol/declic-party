@@ -678,3 +678,87 @@
     animation: soir-listening 1.7s ease-out infinite;
   }
 }
+
+/* Décors de jeu illustrés. La salle principale utilise son propre décor. */
+.show-backdrop:is([data-show-scene="duel"], [data-show-scene="gallery"], [data-show-scene="arena"], [data-show-scene="chain"]) .show-artwork {
+  display: block;
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, #04060b22, #04060b93 50%, #04060b22),
+    url('/grand-soir-univers.webp') no-repeat;
+  background-position: center, var(--art-x) var(--art-y);
+  background-size: cover, 200% 200%;
+}
+.show-backdrop[data-show-scene="duel"] { --art-x: 0%; --art-y: 0%; }
+.show-backdrop[data-show-scene="gallery"] { --art-x: 100%; --art-y: 0%; }
+.show-backdrop[data-show-scene="arena"] { --art-x: 0%; --art-y: 100%; }
+.show-backdrop[data-show-scene="chain"] { --art-x: 100%; --art-y: 100%; }
+.show-backdrop:is([data-show-scene="duel"], [data-show-scene="gallery"], [data-show-scene="arena"], [data-show-scene="chain"]) :is(.show-wall,.show-wing,.show-floor,.show-podium,.show-set-piece) {
+  display: none;
+}
+.show-arrivals {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 12;
+}
+.show-arrival {
+  position: absolute;
+  left: calc(6% + var(--arrival-lane) * 17%);
+  bottom: 8%;
+  max-width: 17%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #fff2d9;
+  background: #21160ef2;
+  border: 1px solid #f1c784;
+  border-radius: 99px;
+  box-shadow: 0 6px 22px #0009;
+  padding: .42em .76em;
+  font-size: clamp(14px, 2vw, 32px);
+  animation: show-lobby-arrival 3.5s both;
+}
+@keyframes show-lobby-arrival {
+  0% { opacity: 0; transform: translateY(12px) scale(.9); }
+  12%, 73% { opacity: 1; }
+  100% { opacity: 0; transform: translateY(-18vh); }
+}
+.show-control-status {
+  display: grid;
+  gap: .3rem;
+  margin-bottom: 1rem;
+  padding: .8rem;
+  border: 1px solid #b8874b88;
+  border-radius: .75rem;
+  background: #21180e;
+  color: #ffe4b9;
+}
+.show-control-status strong { font-size: 1.15rem; }
+.show-venue { color: #ffdfaa; }
+.tv-shell .stage:has(.show-tv-invite) { padding-bottom: clamp(6.5rem, 14vw, 12rem); }
+.show-tv-invite {
+  position: absolute;
+  right: clamp(12px, 3vw, 48px);
+  bottom: 1rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  justify-items: center;
+  gap: .25rem .6rem;
+  color: #ffdfaa;
+  font-size: .85rem;
+}
+.show-tv-invite svg {
+  grid-column: 2;
+  grid-row: 1 / 3;
+  width: clamp(76px, 9vw, 145px);
+  height: auto;
+  background: white;
+  border-radius: 4px;
+}
+.show-tv-invite .room-code { margin: 0; padding: .35rem .55rem; }
+.show-round-distinction { display: flex; flex-wrap: wrap; justify-content: center; gap: .45rem; }
+.show-round-distinction span { border: 1px solid #d5ac75; padding: .3rem .65rem; border-radius: 99px; }
+.show-round-distinction b { color: #ffce87; margin-right: .25em; }
+@media (prefers-reduced-motion: reduce) { .show-arrival { display: none; } }
